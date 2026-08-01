@@ -55,9 +55,43 @@ export const meatballsSoup = recipeRecordSchema.parse({
         name: "Meatballs",
         sourceIndex: 0,
         items: [
-          { sourceIndex: 0, raw: "½ lb ground turkey", quantity: null, name: "½ lb ground turkey", notes: null },
-          { sourceIndex: 1, raw: "½ lb ground beef", quantity: null, name: "½ lb ground beef", notes: null },
-          { sourceIndex: 2, raw: "½ onion, finely diced", quantity: null, name: "½ onion, finely diced", notes: null },
+          {
+            sourceIndex: 0,
+            raw: "½ lb ground turkey",
+            quantity: {
+              raw: "½ lb",
+              value: 0.5,
+              unit: "lb",
+              scalable: true
+            },
+            name: "ground turkey",
+            notes: null
+          },
+          {
+            sourceIndex: 1,
+            raw: "½ lb ground beef",
+            quantity: {
+              raw: "½ lb",
+              value: 0.5,
+              unit: "lb",
+              scalable: true
+            },
+            name: "ground beef",
+            notes: null
+          },
+          {
+            sourceIndex: 2,
+            raw: "½ onion, finely diced",
+            quantity: {
+              raw: "½",
+              value: 0.5,
+              unit: null,
+              scalable: true
+            },
+            name: "onion",
+            pluralName: "onions",
+            notes: "finely diced"
+          },
           { sourceIndex: 3, raw: "Salt, to taste", quantity: null, name: "Salt, to taste", notes: null }
         ]
       },
@@ -65,14 +99,93 @@ export const meatballsSoup = recipeRecordSchema.parse({
         name: "Soup",
         sourceIndex: 1,
         items: [
-          { sourceIndex: 0, raw: "10 cups water", quantity: null, name: "10 cups water", notes: null },
+          {
+            sourceIndex: 0,
+            raw: "10 cups water",
+            quantity: {
+              raw: "10 cups",
+              value: 10,
+              unit: "cups",
+              scalable: true
+            },
+            name: "water",
+            notes: null
+          },
           { sourceIndex: 1, raw: "3 Tbsp chicken bouillon paste (optional)", quantity: null, name: "3 Tbsp chicken bouillon paste (optional)", notes: null },
-          { sourceIndex: 2, raw: "5 medium potatoes, cubed", quantity: null, name: "5 medium potatoes, cubed", notes: null },
-          { sourceIndex: 3, raw: "½ medium onion, finely diced", quantity: null, name: "½ medium onion, finely diced", notes: null },
-          { sourceIndex: 4, raw: "3 Tbsp rice", quantity: null, name: "3 Tbsp rice", notes: null },
-          { sourceIndex: 5, raw: "2 Tbsp olive oil", quantity: null, name: "2 Tbsp olive oil", notes: null },
-          { sourceIndex: 6, raw: "1 large carrot, shredded", quantity: null, name: "1 large carrot, shredded", notes: null },
-          { sourceIndex: 7, raw: "½ cup fresh dill and parsley, chopped", quantity: null, name: "½ cup fresh dill and parsley, chopped", notes: null }
+          {
+            sourceIndex: 2,
+            raw: "5 medium potatoes, cubed",
+            quantity: {
+              raw: "5",
+              value: 5,
+              unit: null,
+              scalable: true
+            },
+            name: "medium potatoes",
+            notes: "cubed"
+          },
+          {
+            sourceIndex: 3,
+            raw: "½ medium onion, finely diced",
+            quantity: {
+              raw: "½",
+              value: 0.5,
+              unit: null,
+              scalable: true
+            },
+            name: "medium onion",
+            pluralName: "medium onions",
+            notes: "finely diced"
+          },
+          {
+            sourceIndex: 4,
+            raw: "3 Tbsp rice",
+            quantity: {
+              raw: "3 Tbsp",
+              value: 3,
+              unit: "Tbsp",
+              scalable: true
+            },
+            name: "rice",
+            notes: null
+          },
+          {
+            sourceIndex: 5,
+            raw: "2 Tbsp olive oil",
+            quantity: {
+              raw: "2 Tbsp",
+              value: 2,
+              unit: "Tbsp",
+              scalable: true
+            },
+            name: "olive oil",
+            notes: null
+          },
+          {
+            sourceIndex: 6,
+            raw: "1 large carrot, shredded",
+            quantity: {
+              raw: "1",
+              value: 1,
+              unit: null,
+              scalable: true
+            },
+            name: "large carrot",
+            pluralName: "large carrots",
+            notes: "shredded"
+          },
+          {
+            sourceIndex: 7,
+            raw: "½ cup fresh dill and parsley, chopped",
+            quantity: {
+              raw: "½ cup",
+              value: 0.5,
+              unit: "cup",
+              scalable: true
+            },
+            name: "fresh dill and parsley",
+            notes: "chopped"
+          }
         ]
       }
     ],

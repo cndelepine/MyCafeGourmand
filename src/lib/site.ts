@@ -113,6 +113,11 @@ const landingCopy: Record<
     catalogEyebrow: string;
     catalogTitle: string;
     emptyCatalog: string;
+    clearSearch: string;
+    noSearchResults: string;
+    searchLabel: string;
+    searchPlaceholder: string;
+    searchResults: string;
     viewRecipe: string;
     footer: string;
   }
@@ -125,6 +130,11 @@ const landingCopy: Record<
     catalogEyebrow: "The catalog",
     catalogTitle: "Cook something generous.",
     emptyCatalog: "Recipes will appear here as they are approved.",
+    clearSearch: "Clear",
+    noSearchResults: "No recipes match your search.",
+    searchLabel: "Search recipes",
+    searchPlaceholder: "Search by title, ingredient, or method",
+    searchResults: "recipes found",
     viewRecipe: "View recipe",
     footer: "Made with care, one recipe at a time."
   },
@@ -136,6 +146,11 @@ const landingCopy: Record<
     catalogEyebrow: "Le catalogue",
     catalogTitle: "Cuisinez quelque chose de généreux.",
     emptyCatalog: "Aucune recette n’est encore disponible dans cette langue.",
+    clearSearch: "Effacer",
+    noSearchResults: "Aucune recette ne correspond à votre recherche.",
+    searchLabel: "Rechercher des recettes",
+    searchPlaceholder: "Rechercher par titre, ingrédient ou préparation",
+    searchResults: "recettes trouvées",
     viewRecipe: "Voir la recette",
     footer: "Préparé avec soin, une recette à la fois."
   },
@@ -147,6 +162,11 @@ const landingCopy: Record<
     catalogEyebrow: "Каталог",
     catalogTitle: "Приготовьте что-нибудь щедрое.",
     emptyCatalog: "На этом языке пока нет доступных рецептов.",
+    clearSearch: "Очистить",
+    noSearchResults: "Рецепты по вашему запросу не найдены.",
+    searchLabel: "Поиск рецептов",
+    searchPlaceholder: "Искать по названию, ингредиенту или способу",
+    searchResults: "рецептов найдено",
     viewRecipe: "Посмотреть рецепт",
     footer: "С заботой, по одному рецепту за раз."
   }

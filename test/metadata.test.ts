@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { meatballsSoup } from "../src/content/recipes/meatballs-soup";
 import {
+  getLandingCopy,
   getLandingMetadata,
   getOpenGraphLocale,
   getRecipeMetadata
@@ -19,4 +20,10 @@ test("landing and recipe metadata use mapped Open Graph locales", () => {
 
   assert.equal(landing.openGraph?.locale, "fr_FR");
   assert.equal(recipe.openGraph?.locale, "en_US");
+});
+
+test("landing search controls have localized labels", () => {
+  assert.equal(getLandingCopy("en").searchLabel, "Search recipes");
+  assert.equal(getLandingCopy("fr").clearSearch, "Effacer");
+  assert.equal(getLandingCopy("ru").searchPlaceholder, "Искать по названию, ингредиенту или способу");
 });

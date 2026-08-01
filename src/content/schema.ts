@@ -121,6 +121,7 @@ export const recipeRecordSchema = z.strictObject({
         raw: z.string().min(1),
         quantity: quantitySchema.nullable(),
         name: z.string().min(1),
+        pluralName: z.string().min(1).optional(),
         notes: z.string().min(1).nullable()
       })).min(1)
     })).min(1),

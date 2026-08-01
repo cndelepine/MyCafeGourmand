@@ -4,6 +4,7 @@ import {
   getRecipeStructuredData,
   serializeRecipeStructuredData
 } from "@/lib/recipe-structured-data";
+import { RecipeScaling } from "./recipe-scaling";
 import { SiteHeader } from "./site-header";
 
 type RecipeViewProps = {
@@ -26,6 +27,7 @@ const copy: Record<
     footer: string;
     missing: string;
     headingSecondLine: string;
+    servingScale: string;
   }
 > = {
   en: {
@@ -41,7 +43,8 @@ const copy: Record<
     jump: "↓",
     footer: "Made with care, one recipe at a time.",
     missing: "Not specified",
-    headingSecondLine: "A generous bowl."
+    headingSecondLine: "A generous bowl.",
+    servingScale: "Scale recipe"
   },
   fr: {
     eyebrow: "Une recette de la cuisine familiale",
@@ -56,7 +59,8 @@ const copy: Record<
     jump: "↓",
     footer: "Préparé avec soin, une recette à la fois.",
     missing: "Non précisé",
-    headingSecondLine: "Un bol généreux."
+    headingSecondLine: "Un bol généreux.",
+    servingScale: "Multiplier la recette"
   },
   ru: {
     eyebrow: "Рецепт из домашней кухни",
@@ -71,7 +75,8 @@ const copy: Record<
     jump: "↓",
     footer: "С заботой, по одному рецепту за раз.",
     missing: "Не указано",
-    headingSecondLine: "Щедрая миска."
+    headingSecondLine: "Щедрая миска.",
+    servingScale: "Масштабировать рецепт"
   }
 };
 
@@ -142,39 +147,21 @@ export function RecipeView({ recipe }: RecipeViewProps) {
               {labels.headingSecondLine}
             </h2>
           </div>
-          <dl className="details">
-            <div>
-              <dt>{labels.serves}</dt>
-              <dd>{recipe.recipe.servings?.raw ?? labels.missing}</dd>
-            </div>
-            <div>
-              <dt>{labels.prepTime}</dt>
-              <dd>{recipe.recipe.times.prep?.raw ?? labels.missing}</dd>
-            </div>
-            <div>
-              <dt>{labels.language}</dt>
-              <dd>{languageNames[recipe.locale]}</dd>
-            </div>
-          </dl>
-
-          <section className="ingredients" id="ingredients" aria-labelledby="ingredients-title">
-            <div className="section-label">
-              <span>01</span>
-              <h2 id="ingredients-title">{labels.ingredients}</h2>
-            </div>
-            <div className="ingredient-groups">
-              {ingredientGroups.map((group) => (
-                <div className="ingredient-group" key={group.sourceIndex}>
-                  {group.name ? <h3>{group.name}</h3> : null}
-                  <ul>
-                    {group.items.map((item) => (
-                      <li key={item.sourceIndex}>{item.raw}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
+          <RecipeScaling
+            ingredientGroups={ingredientGroups}
+            labels={{
+              ingredients: labels.ingredients,
+              language: labels.language,
+              missing: labels.missing,
+              prepTime: labels.prepTime,
+              sectionNumber: "01",
+              serves: labels.serves,
+              servingScale: labels.servingScale
+            }}
+            language={languageNames[recipe.locale]}
+            prepTime={recipe.recipe.times.prep?.raw ?? labels.missing}
+            servings={recipe.recipe.servings}
+          />
 
           <section className="method" id="method" aria-labelledby="method-title">
             <div className="section-label">
