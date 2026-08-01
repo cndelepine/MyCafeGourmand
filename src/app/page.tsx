@@ -3,6 +3,14 @@ import { meatballsSoup } from "@/content/recipes/meatballs-soup";
 
 export default function Home() {
   const recipe = meatballsSoup;
+  const media = new Map(recipe.media.map((asset) => [asset.id, asset]));
+  const hero = recipe.recipe.heroMediaId ? media.get(recipe.recipe.heroMediaId) : undefined;
+  const ingredientGroups = recipe.recipe.ingredientGroups;
+  const steps = recipe.recipe.instructionGroups.flatMap((group) => group.steps);
+
+  if (!hero) {
+    throw new Error(`Recipe ${recipe.id} is missing its hero image.`);
+  }
 
   return (
     <main>
@@ -26,7 +34,7 @@ export default function Home() {
           <a className="jump-link" href="#recipe">Cook this recipe <span aria-hidden="true">↓</span></a>
         </div>
         <div className="hero-art" aria-label="An illustrated bowl of meatball soup" role="img">
-          <Image alt="A bowl of meatballs soup" className="hero-photo" fill priority sizes="(max-width: 700px) 100vw, 50vw" src={recipe.images.hero} />
+          <Image alt={hero.alt ?? ""} className="hero-photo" fill priority sizes="(max-width: 700px) 100vw, 50vw" src={hero.path} />
           <div className="steam steam-one" /><div className="steam steam-two" /><div className="steam steam-three" />
           <div className="bowl"><i /><i /><i /><i /><i /><i /></div>
           <span className="herb herb-one">✦</span><span className="herb herb-two">✦</span>
@@ -35,22 +43,22 @@ export default function Home() {
 
       <article className="recipe" id="recipe">
         <div className="recipe-heading">
-          <p className="eyebrow">{recipe.category}</p>
+          <p className="eyebrow">{recipe.taxonomies[0]?.name}</p>
           <h2>Simple ingredients.<br />A generous bowl.</h2>
         </div>
         <dl className="details">
-          <div><dt>Serves</dt><dd>{recipe.servings}</dd></div>
-          <div><dt>Prep time</dt><dd>{recipe.prepTime}</dd></div>
+          <div><dt>Serves</dt><dd>{recipe.recipe.servings?.raw ?? "Not specified"}</dd></div>
+          <div><dt>Prep time</dt><dd>{recipe.recipe.times.prep?.raw ?? "Not specified"}</dd></div>
           <div><dt>Language</dt><dd>English</dd></div>
         </dl>
 
         <section className="ingredients" id="ingredients">
           <div className="section-label"><span>01</span><h2>Ingredients</h2></div>
           <div className="ingredient-groups">
-            {recipe.ingredients.map((group) => (
-              <div className="ingredient-group" key={group.name}>
-                <h3>{group.name}</h3>
-                <ul>{group.items.map((item) => <li key={item}>{item}</li>)}</ul>
+            {ingredientGroups.map((group) => (
+              <div className="ingredient-group" key={group.sourceIndex}>
+                {group.name && <h3>{group.name}</h3>}
+                <ul>{group.items.map((item) => <li key={item.sourceIndex}>{item.raw}</li>)}</ul>
               </div>
             ))}
           </div>
@@ -58,7 +66,10 @@ export default function Home() {
 
         <section className="method" id="method">
           <div className="section-label"><span>02</span><h2>Method</h2></div>
-          <ol>{recipe.steps.map((step, index) => <li key={step}><span>{String(index + 1).padStart(2, "0")}</span><div><p>{step}</p>{recipe.images.steps[index] && <Image alt={`Step ${index + 1}: meatball preparation`} className="step-photo" height={592} src={recipe.images.steps[index]} width={800} />}</div></li>)}</ol>
+          <ol>{steps.map((step, index) => {
+            const stepMedia = step.mediaId ? media.get(step.mediaId) : undefined;
+            return <li key={step.sourceIndex}><span>{String(index + 1).padStart(2, "0")}</span><div><p>{step.text}</p>{stepMedia && <Image alt={stepMedia.alt ?? ""} className="step-photo" height={stepMedia.height ?? 592} src={stepMedia.path} width={stepMedia.width ?? 800} />}</div></li>;
+          })}</ol>
         </section>
       </article>
 
