@@ -21,6 +21,19 @@ npm run dev
 
 Open `http://localhost:3000`.
 
+## Static build
+
+The production build is a static export for Azure Static Web Apps. It writes
+the complete site, including `sitemap.xml` and `robots.txt`, to `out/`:
+
+```sh
+npm run build
+```
+
+Deploy `out/` as the Azure Static Web Apps output directory. Local images are
+served without Next's image optimization service so the export remains
+self-contained.
+
 ## Validation
 
 ```sh

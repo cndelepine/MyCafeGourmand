@@ -1,6 +1,7 @@
 import { z } from "zod";
 
-export const localeSchema = z.enum(["en", "fr", "ru"]);
+export const localeValues = ["en", "fr", "ru"] as const;
+export const localeSchema = z.enum(localeValues);
 
 export const quantitySchema = z.strictObject({
   raw: z.string().min(1),
