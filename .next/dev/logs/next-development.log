@@ -1,0 +1,15 @@
+{"timestamp":"00:01:01.012","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:01.013","source":"Server","level":"LOG","message":"  We detected TypeScript in your project and reconfigured your tsconfig.json file for you."}
+{"timestamp":"00:01:01.014","source":"Server","level":"LOG","message":"  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:\n"}
+{"timestamp":"00:01:01.015","source":"Server","level":"LOG","message":"  \t- allowJs was set to true"}
+{"timestamp":"00:01:01.015","source":"Server","level":"LOG","message":"  \t- skipLibCheck was set to true"}
+{"timestamp":"00:01:01.015","source":"Server","level":"LOG","message":"  \t- include was updated to add '.next/dev/types/**/*.ts'"}
+{"timestamp":"00:01:01.016","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:01.017","source":"Server","level":"LOG","message":"  The following mandatory changes were made to your tsconfig.json:\n"}
+{"timestamp":"00:01:01.018","source":"Server","level":"LOG","message":"  \t- esModuleInterop was set to true (requirement for SWC / babel)"}
+{"timestamp":"00:01:01.019","source":"Server","level":"LOG","message":"  \t- jsx was set to react-jsx (next.js uses the React automatic runtime)"}
+{"timestamp":"00:01:01.020","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:11.641","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:14.846","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:01:30.355","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:08:16.617","source":"Server","level":"LOG","message":"✓ Compiled in 5.8s"}
