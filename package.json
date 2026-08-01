@@ -7,14 +7,14 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run content:validate && next build",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit --incremental false",
     "test": "tsx --test test/*.test.ts",
     "content:validate": "tsx scripts/validate-content.ts",
     "import:recipe": "tsx scripts/import-wordpress-recipe.ts",
-    "check": "npm run lint && npm run typecheck && npm test && npm run content:validate && npm run build"
+    "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
     "next": "16.2.11",

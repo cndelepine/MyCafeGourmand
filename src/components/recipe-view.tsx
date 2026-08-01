@@ -8,6 +8,7 @@ import { RecipeScaling } from "./recipe-scaling";
 import { SiteHeader } from "./site-header";
 
 type RecipeViewProps = {
+  catalog: readonly RecipeRecord[];
   recipe: RecipeRecord;
 };
 
@@ -86,7 +87,7 @@ const languageNames: Record<Locale, string> = {
   ru: "Русский"
 };
 
-export function RecipeView({ recipe }: RecipeViewProps) {
+export function RecipeView({ catalog, recipe }: RecipeViewProps) {
   const labels = copy[recipe.locale];
   const media = new Map(recipe.media.map((asset) => [asset.id, asset]));
   const hero = recipe.recipe.heroMediaId
@@ -98,7 +99,12 @@ export function RecipeView({ recipe }: RecipeViewProps) {
 
   return (
     <>
-      <SiteHeader locale={recipe.locale} page="recipe" recipe={recipe} />
+      <SiteHeader
+        catalog={catalog}
+        locale={recipe.locale}
+        page="recipe"
+        recipe={recipe}
+      />
       <main lang={recipe.locale}>
         <section className="hero" id="top">
           <div className="hero-copy">

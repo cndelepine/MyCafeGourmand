@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ...(modified ? { lastModified: modified } : {}),
       alternates: {
         languages: Object.fromEntries(
-          getRecipeLanguageAlternates(recipe).map(({ locale, path }) => [
+          getRecipeLanguageAlternates(recipe, recipeCatalog).map(({ locale, path }) => [
             locale,
             canonicalUrl(path)
           ])

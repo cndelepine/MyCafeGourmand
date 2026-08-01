@@ -1,12 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { validateCatalog } from "../src/content/catalog";
-import { meatballsSoup } from "../src/content/recipes/meatballs-soup";
+import { recipeCatalog, validateCatalog } from "../src/content/catalog";
 import { validateRedirects } from "../src/content/redirects";
 import { recipeRecordSchema } from "../src/content/schema";
 
+const meatballsSoup = recipeCatalog[0]!;
+
 test("the production catalog passes the canonical schema", () => {
-  const [record] = validateCatalog();
+  const [record] = validateCatalog(recipeCatalog);
 
   assert.equal(record.id, "wordpress:wprm:2980");
   assert.equal(record.locale, "en");

@@ -1,4 +1,6 @@
-import { recipeCatalog } from "../src/content/catalog";
+import { validateContent } from "../src/content/validation";
 import { redirects } from "../src/content/redirects";
 
-console.log(`Validated ${recipeCatalog.length} recipe(s) and ${redirects.length} redirect(s).`);
+const { records } = validateContent();
+
+console.log(`Validated ${records.length} recipe(s) and ${redirects.length} redirect(s).`);

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { meatballsSoup } from "../src/content/recipes/meatballs-soup";
+import { recipeCatalog } from "../src/content/catalog";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
   findRecipeByRoute,
@@ -16,11 +16,13 @@ import {
   isLocalizedLocale
 } from "../src/lib/recipe-routes";
 
+const meatballsSoup = recipeCatalog[0]!;
+
 test("route generation uses the English root and language prefixes", () => {
-  assert.deepEqual(getEnglishRecipeParams([meatballsSoup]), [
+  assert.deepEqual(getEnglishRecipeParams(recipeCatalog), [
     { slug: "meatballs-soup" }
   ]);
-  assert.deepEqual(getLocalizedRecipeParams([meatballsSoup]), []);
+  assert.deepEqual(getLocalizedRecipeParams(recipeCatalog), []);
   assert.deepEqual(getLocalizedLandingParams(), [
     { locale: "fr" },
     { locale: "ru" }
@@ -29,7 +31,7 @@ test("route generation uses the English root and language prefixes", () => {
   assert.equal(getPageLocale(["fr"]), "fr");
   assert.equal(getPageLocale(["ru", "recipes", "soupe"]), "ru");
   assert.equal(getPageLocale(["de"]), "en");
-  assert.deepEqual(getStaticPageParams([meatballsSoup]), [
+  assert.deepEqual(getStaticPageParams(recipeCatalog), [
     { segments: [] },
     { segments: ["fr"] },
     { segments: ["ru"] },
@@ -41,9 +43,9 @@ test("route generation uses the English root and language prefixes", () => {
 });
 
 test("locale lookup rejects unsupported locales and missing records", () => {
-  assert.equal(findRecipeByRoute("de", "meatballs-soup"), undefined);
-  assert.equal(findRecipeByRoute("en", "does-not-exist"), undefined);
-  assert.deepEqual(getRecipesByLocale("de"), []);
+  assert.equal(findRecipeByRoute("de", "meatballs-soup", recipeCatalog), undefined);
+  assert.equal(findRecipeByRoute("en", "does-not-exist", recipeCatalog), undefined);
+  assert.deepEqual(getRecipesByLocale("de", recipeCatalog), []);
   assert.equal(isLocalizedLocale("en"), false);
   assert.equal(isLocalizedLocale("de"), false);
 });

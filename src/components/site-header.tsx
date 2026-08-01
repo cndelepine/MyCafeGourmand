@@ -8,6 +8,7 @@ import {
 } from "@/lib/recipe-routes";
 
 type SiteHeaderProps = {
+  catalog?: readonly RecipeRecord[];
   locale: Locale;
   page: "landing" | "recipe";
   recipe?: RecipeRecord;
@@ -53,11 +54,11 @@ const navigationLabels: Record<Locale, {
   }
 };
 
-export function SiteHeader({ locale, page, recipe }: SiteHeaderProps) {
+export function SiteHeader({ catalog, locale, page, recipe }: SiteHeaderProps) {
   const labels = navigationLabels[locale];
-  const translations = recipe
+  const translations = recipe && catalog
     ? new Map(
-        getRecipeTranslations(recipe).map((translation) => [
+        getRecipeTranslations(recipe, catalog).map((translation) => [
           translation.locale,
           translation
         ])

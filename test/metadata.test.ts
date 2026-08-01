@@ -1,12 +1,14 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { meatballsSoup } from "../src/content/recipes/meatballs-soup";
+import { recipeCatalog } from "../src/content/catalog";
 import {
   getLandingCopy,
   getLandingMetadata,
   getOpenGraphLocale,
   getRecipeMetadata
 } from "../src/lib/site";
+
+const meatballsSoup = recipeCatalog[0]!;
 
 test("locale Open Graph values use region-qualified codes", () => {
   assert.equal(getOpenGraphLocale("en"), "en_US");

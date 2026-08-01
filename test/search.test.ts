@@ -1,12 +1,14 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { meatballsSoup } from "../src/content/recipes/meatballs-soup";
+import { recipeCatalog } from "../src/content/catalog";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
   normalizeSearchText,
   recipeMatchesQuery,
   searchRecipes
 } from "../src/lib/recipe-search";
+
+const meatballsSoup = recipeCatalog[0]!;
 
 const frenchRecipe = recipeRecordSchema.parse({
   ...meatballsSoup,

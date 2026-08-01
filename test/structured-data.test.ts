@@ -1,10 +1,12 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { meatballsSoup } from "../src/content/recipes/meatballs-soup";
+import { recipeCatalog } from "../src/content/catalog";
 import {
   getRecipeStructuredData,
   serializeRecipeStructuredData
 } from "../src/lib/recipe-structured-data";
+
+const meatballsSoup = recipeCatalog[0]!;
 
 test("recipe structured data is derived from the validated record", () => {
   const data = getRecipeStructuredData(meatballsSoup);

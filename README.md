@@ -43,6 +43,20 @@ npm run check
 This runs linting, type checking, tests, content validation, and a production
 build.
 
+## CMS-ready content
+
+Canonical recipe records live in `content/recipes/{en,fr,ru}/` as independent
+JSON files. Discovery is deterministic and validates each record with its
+source path; `npm run content:validate` also checks that every local media path
+resolves to a regular file below `public/`.
+
+The browser editor is intentionally deferred. Decap's standard object/list
+widgets do not yet provide a proven round-trip for this schema's explicit
+`null` values and nested records, and stock Decap has no read-only mode that
+would make an incomplete mapping safe. No editor runtime, local proxy, or
+production OAuth configuration is shipped until a complete mapping can be
+tested without losing data.
+
 ## WordPress migration
 
 The repository does not yet contain an authoritative WordPress export. Never

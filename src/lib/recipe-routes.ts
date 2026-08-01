@@ -1,4 +1,3 @@
-import { recipeCatalog } from "@/content/catalog";
 import { localeValues, type Locale, type RecipeRecord } from "@/content/schema";
 
 export type LocalizedLocale = Exclude<Locale, "en">;
@@ -43,7 +42,7 @@ function decodeRouteSegment(value: string) {
 export function findRecipeByRoute(
   localeValue: string,
   slug: string,
-  catalog: readonly RecipeRecord[] = recipeCatalog
+  catalog: readonly RecipeRecord[]
 ) {
   if (!isLocale(localeValue)) {
     return undefined;
@@ -59,7 +58,7 @@ export function findRecipeByRoute(
 
 export function getRecipesByLocale(
   localeValue: string,
-  catalog: readonly RecipeRecord[] = recipeCatalog
+  catalog: readonly RecipeRecord[]
 ) {
   if (!isLocale(localeValue)) {
     return [];
@@ -69,7 +68,7 @@ export function getRecipesByLocale(
 }
 
 export function getEnglishRecipeParams(
-  catalog: readonly RecipeRecord[] = recipeCatalog
+  catalog: readonly RecipeRecord[]
 ) {
   return catalog
     .filter((record) => record.locale === "en")
@@ -77,7 +76,7 @@ export function getEnglishRecipeParams(
 }
 
 export function getLocalizedRecipeParams(
-  catalog: readonly RecipeRecord[] = recipeCatalog
+  catalog: readonly RecipeRecord[]
 ): Array<{ locale: LocalizedLocale; slug: string }> {
   return catalog
     .filter((record): record is RecipeRecord & { locale: LocalizedLocale } =>
@@ -100,7 +99,7 @@ export function getPageLocale(segments: readonly string[] = []) {
 }
 
 export function getStaticPageParams(
-  catalog: readonly RecipeRecord[] = recipeCatalog
+  catalog: readonly RecipeRecord[]
 ) {
   const rootParams = [{ segments: [] }];
   const landingParams = getLocalizedLandingParams().map(({ locale }) => ({
@@ -115,7 +114,7 @@ export function getStaticPageParams(
 
 export function findRecipeBySegments(
   segments: readonly string[],
-  catalog: readonly RecipeRecord[] = recipeCatalog
+  catalog: readonly RecipeRecord[]
 ) {
   if (segments.length === 2 && segments[0] === "recipes") {
     return findRecipeByRoute("en", segments[1], catalog);
@@ -138,7 +137,7 @@ export function findLandingLocaleBySegments(segments: readonly string[]) {
 
 export function getRecipeTranslations(
   record: RecipeRecord,
-  catalog: readonly RecipeRecord[] = recipeCatalog
+  catalog: readonly RecipeRecord[]
 ) {
   if (record.translationGroupId === null) {
     return [record];
@@ -151,7 +150,7 @@ export function getRecipeTranslations(
 
 export function getRecipeLanguageAlternates(
   record: RecipeRecord,
-  catalog: readonly RecipeRecord[] = recipeCatalog
+  catalog: readonly RecipeRecord[]
 ) {
   return getRecipeTranslations(record, catalog).map((translation) => ({
     locale: translation.locale,

@@ -1,11 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { meatballsSoup } from "../src/content/recipes/meatballs-soup";
+import { recipeCatalog } from "../src/content/catalog";
 import {
   formatIngredient,
   formatQuantity,
   scaleQuantity
 } from "../src/lib/scale-quantity";
+
+const meatballsSoup = recipeCatalog[0]!;
 
 test("scales parsed values while preserving the source text", () => {
   const scaled = scaleQuantity({

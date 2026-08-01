@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LandingPage } from "@/components/landing-page";
 import { RecipeView } from "@/components/recipe-view";
+import { recipeCatalog } from "@/content/catalog";
 import {
   findLandingLocaleBySegments,
   findRecipeBySegments,
@@ -18,7 +19,7 @@ type StaticPathPageProps = {
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return getStaticPageParams();
+  return getStaticPageParams(recipeCatalog);
 }
 
 export async function generateMetadata({
@@ -36,8 +37,10 @@ export async function generateMetadata({
     return getLandingMetadata(landingLocale);
   }
 
-  const recipe = findRecipeBySegments(segments);
-  return recipe ? getRecipeMetadata(recipe) : getLandingMetadata(locale);
+  const recipe = findRecipeBySegments(segments, recipeCatalog);
+  return recipe
+    ? getRecipeMetadata(recipe, recipeCatalog)
+    : getLandingMetadata(locale);
 }
 
 export default async function StaticPathPage({
@@ -50,7 +53,7 @@ export default async function StaticPathPage({
     return (
       <LandingPage
         locale="en"
-        recipes={getRecipesByLocale("en")}
+        recipes={getRecipesByLocale("en", recipeCatalog)}
       />
     );
   }
@@ -60,14 +63,14 @@ export default async function StaticPathPage({
     return (
       <LandingPage
         locale={landingLocale}
-        recipes={getRecipesByLocale(landingLocale)}
+        recipes={getRecipesByLocale(landingLocale, recipeCatalog)}
       />
     );
   }
 
-  const recipe = findRecipeBySegments(segments);
+  const recipe = findRecipeBySegments(segments, recipeCatalog);
   if (recipe) {
-    return <RecipeView recipe={recipe} />;
+    return <RecipeView catalog={recipeCatalog} recipe={recipe} />;
   }
 
   notFound();
