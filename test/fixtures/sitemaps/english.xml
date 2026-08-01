@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mycafegourmand.com/Recipes/Meatballs-Soup/?source=archive&amp;lang=en</loc>
+    <lastmod>2026-01-02</lastmod>
+    <image:image>
+      <image:loc>https://images.example.test/meatballs.jpg</image:loc>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mycafegourmand.com/fr/recettes/soupe/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mycafegourmand.com/ru/%D1%81%D1%83%D0%BF/" />
+  </url>
+  <url>
+    <loc>http://www.mycafegourmand.com/Recipes/Meatballs-Soup/?source=archive&amp;lang=en</loc>
+  </url>
+  <url>
+    <loc>https://mycafegourmand.com/%D1%81%D1%83%D0%BF/%D0%BC%D1%8F%D1%81%D0%BE/</loc>
+  </url>
+  <url>
+    <loc>https://www.mycafegourmand.com/ru/%D1%81%D1%83%D0%BF/</loc>
+  </url>
+  <url>
+    <loc>https://other.example.test/private-page</loc>
+  </url>
+  <url>
+    <loc>https://user:password@mycafegourmand.com/credentials</loc>
+  </url>
+  <url>
+    <loc>https://mycafegourmand.com/fragment#not-a-record</loc>
+  </url>
+</urlset>

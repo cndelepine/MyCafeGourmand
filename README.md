@@ -77,3 +77,36 @@ npm run import:recipe -- \
 
 Production hosting and CMS details will be documented after their proof of
 concept is validated.
+
+### Archived URL inventory
+
+The read-only URL inventory follows only XML sitemap indexes and urlsets. It
+does not crawl content pages or generate redirects. It accepts local XML files
+and HTTP(S) sitemap sources, including Wayback sitemap indexes:
+
+```sh
+npm run inventory:urls -- \
+  --sitemap https://web.archive.org/web/20240101000000id_/https://mycafegourmand.com/sitemap_index.xml
+```
+
+The command prints deterministic JSON to stdout by default. To save a report,
+use a migration-only path and opt in explicitly:
+
+```sh
+npm run inventory:urls -- \
+  --sitemap /path/to/sitemap_index.xml \
+  --write --output migration-output/url-inventory.json
+```
+
+Existing files require `--overwrite`; output under `public/`, `src/`, or
+`content/` is rejected. Limits can be adjusted with `--max-depth`,
+`--max-documents`, `--max-urls`, `--max-document-bytes`, and
+`--request-timeout-ms` (30 seconds by default). Remote roots, sitemap
+children, and redirects are restricted to `mycafegourmand.com`,
+`www.mycafegourmand.com`, and Wayback captures of those hosts; redirects are
+followed manually with a three-hop bound, and local sitemap children must
+remain under the root sitemap's directory tree. The report is a discovery aid
+only, not source truth or a redirect decision. Its comparison section
+classifies discovered paths as `discovered-only`, `current-covered`, or
+`legacy-covered` against the validated catalog without creating redirects. Use
+`--recipes-root` to compare against another validated catalog directory.

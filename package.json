@@ -14,9 +14,11 @@
     "test": "tsx --test test/*.test.ts",
     "content:validate": "tsx scripts/validate-content.ts",
     "import:recipe": "tsx scripts/import-wordpress-recipe.ts",
+    "inventory:urls": "tsx scripts/inventory-urls.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
+    "fast-xml-parser": "5.10.1",
     "next": "16.2.11",
     "react": "19.2.8",
     "react-dom": "19.2.8",
