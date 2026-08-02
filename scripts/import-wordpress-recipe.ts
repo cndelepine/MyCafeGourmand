@@ -4,6 +4,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { recipeRecordSchema, type Locale } from "../src/content/schema";
+import { validateRecipeSlug } from "../src/content/url-path";
 import { parsePhpSerialized, type PhpValue } from "./wordpress/php-serialize";
 import { getPostMeta } from "./wordpress/sql-dump";
 
@@ -108,9 +109,7 @@ export async function runImporter(argv: string[]) {
   if (!["en", "fr", "ru"].includes(locale)) {
     throw new Error("--locale must be one of en, fr, or ru.");
   }
-  if (slug.includes("/") || /\s/.test(slug)) {
-    throw new Error("--slug must be one URL segment without whitespace.");
-  }
+  validateRecipeSlug(slug, "--slug");
   if (write && output === null) {
     throw new Error("--write requires an explicit --output path.");
   }
@@ -206,7 +205,7 @@ export async function runImporter(argv: string[]) {
       createdAt: null,
       modifiedAt: null
     },
-    legacyUrls: [],
+    redirectFrom: [],
     title,
     description: meta.get("recipe_description")?.trim() || null,
     editorial: {

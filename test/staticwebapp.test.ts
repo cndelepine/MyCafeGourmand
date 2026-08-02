@@ -21,13 +21,10 @@ function withTempDirectory<T>(callback: (directory: string) => T) {
   }
 }
 
-test("generates deterministic Azure redirects from recipe legacy URLs", () => {
+test("generates deterministic Azure redirects from recipe redirect sources", () => {
   const record = recipeRecordSchema.parse({
     ...meatballsSoup,
-    legacyUrls: [
-      { path: "/old/soup/", kind: "legacy-recipe" },
-      { path: "/old/soup-2", kind: "root-recipe" }
-    ]
+    redirectFrom: ["/old/soup/", "/old/soup-2"]
   });
   const config = createStaticWebAppConfig([record]);
 
@@ -59,7 +56,7 @@ test("uses trailing-slash canonical destinations for localized recipes", () => {
       ...meatballsSoup.source,
       recipeId: "2981"
     },
-    legacyUrls: [{ path: "/ancienne-soupe", kind: "legacy-recipe" }]
+    redirectFrom: ["/ancienne-soupe"]
   });
 
   assert.deepEqual(createStaticWebAppConfig([record]).routes, [
@@ -71,11 +68,8 @@ test("uses trailing-slash canonical destinations for localized recipes", () => {
   ]);
 });
 
-test("keeps explicit redirects and preserves hand-authored config", () => {
+test("preserves hand-authored Azure config", () => {
   const config = createStaticWebAppConfig([meatballsSoup], {
-    explicitRedirects: [
-      { source: "/old/page", destination: "/new/page", status: 301 }
-    ],
     handAuthoredConfig: {
       globalHeaders: { "X-Content-Type-Options": "nosniff" },
       routes: [{ route: "/*", rewrite: "/index.html" }]
@@ -84,21 +78,23 @@ test("keeps explicit redirects and preserves hand-authored config", () => {
 
   assert.deepEqual(config, {
     globalHeaders: { "X-Content-Type-Options": "nosniff" },
-    routes: [
-      { route: "/old/page", redirect: "/new/page", statusCode: 301 },
-      { route: "/*", rewrite: "/index.html" }
-    ]
+    routes: [{ route: "/*", rewrite: "/index.html" }]
   });
 });
 
 test("detects cycles between generated and exact hand-authored redirects", () => {
+  const record = recipeRecordSchema.parse({
+    ...meatballsSoup,
+    redirectFrom: ["/old-recipe"]
+  });
   assert.throws(
-    () => createStaticWebAppConfig([], {
-      explicitRedirects: [
-        { source: "/legacy", destination: "/target", status: 301 }
-      ],
+    () => createStaticWebAppConfig([record], {
       handAuthoredConfig: {
-        routes: [{ route: "/target", redirect: "/legacy", statusCode: 301 }]
+        routes: [{
+          route: "/recipes/meatballs-soup",
+          redirect: "/old-recipe",
+          statusCode: 301
+        }]
       }
     }),
     /merged redirect loop detected/
@@ -106,48 +102,113 @@ test("detects cycles between generated and exact hand-authored redirects", () =>
 });
 
 test("rejects wildcard hand-authored redirects that cannot be checked exactly", () => {
-  assert.throws(
-    () => createStaticWebAppConfig([], {
-      handAuthoredConfig: {
-        routes: [{ route: "/legacy/*", redirect: "/target", statusCode: 301 }]
-      }
-    }),
-    /Cannot safely merge non-exact/
-  );
+  for (const route of ["/old-recipe/*", "/old-recipe/%2a", "/old-recipe/%252a"]) {
+    assert.throws(
+      () => createStaticWebAppConfig([], {
+        handAuthoredConfig: {
+          routes: [{ route, redirect: "/target", statusCode: 301 }]
+        }
+      }),
+      /Cannot safely merge non-exact/
+    );
+  }
+});
+
+test("rejects encoded traversal and malformed exact hand-authored redirect sources", () => {
+  for (const route of [
+    "/%2e%2e/private",
+    "/%252e%252e/private",
+    "/%25252e%25252e/private",
+    "/%2fprivate",
+    "/%252fprivate",
+    "/safe%2fprivate",
+    "/safe%252fprivate",
+    "/%5cprivate",
+    "/malformed%"
+  ]) {
+    assert.throws(
+      () => createStaticWebAppConfig([], {
+        handAuthoredConfig: {
+          routes: [{ route, redirect: "/target", statusCode: 301 }]
+        }
+      }),
+      /unsafe|traversal|URL encoding/
+    );
+  }
+});
+
+test("preserves valid encoded Unicode in exact hand-authored redirect sources", () => {
+  const route = "/ru/%D1%81%D1%83%D0%BF";
+  const config = createStaticWebAppConfig([], {
+    handAuthoredConfig: {
+      routes: [{ route, redirect: "/target", statusCode: 301 }]
+    }
+  });
+
+  assert.deepEqual(config.routes, [
+    { route, redirect: "/target", statusCode: 301 }
+  ]);
+});
+
+test("accepts a terminal literal percent in an exact hand-authored path", () => {
+  const config = createStaticWebAppConfig([], {
+    handAuthoredConfig: {
+      routes: [{ route: "/recipe%25", redirect: "/target", statusCode: 301 }]
+    }
+  });
+
+  assert.deepEqual(config.routes, [
+    { route: "/recipe%25", redirect: "/target", statusCode: 301 }
+  ]);
 });
 
 test("rejects redirect conflicts and Azure-incompatible paths", () => {
   assert.throws(
-    () => createStaticWebAppConfig([recipeRecordSchema.parse({
+    () => recipeRecordSchema.parse({
       ...meatballsSoup,
-      legacyUrls: [{ path: "/recipes/meatballs-soup/", kind: "legacy-recipe" }]
-    })]),
-    /Self-redirect/
+      redirectFrom: ["/recipes/meatballs-soup/"]
+    }),
+    /canonical recipe route/
   );
   assert.throws(
-    () => createStaticWebAppConfig([], {
-      explicitRedirects: [
-        { source: "/old?print=1", destination: "/new", status: 301 }
-      ]
+    () => recipeRecordSchema.parse({
+      ...meatballsSoup,
+      redirectFrom: ["/old?print=1"]
     }),
     /cannot contain a query/
   );
   assert.throws(
     () => createStaticWebAppConfig([], {
-      explicitRedirects: [
-        { source: "/old*", destination: "/new", status: 301 }
-      ]
+      handAuthoredConfig: {
+        routes: [
+          { route: "/one", redirect: "/two", statusCode: 301 },
+          { route: "/two", redirect: "/one", statusCode: 301 }
+        ]
+      }
     }),
-    /cannot contain a wildcard/
+    /merged redirect loop/
   );
+});
+
+test("rejects duplicate generated redirect sources across recipes", () => {
+  const first = recipeRecordSchema.parse({
+    ...meatballsSoup,
+    redirectFrom: ["/old/soup"]
+  });
+  const second = recipeRecordSchema.parse({
+    ...meatballsSoup,
+    id: "wordpress:wprm:2981",
+    slug: "other-soup",
+    source: {
+      ...meatballsSoup.source,
+      recipeId: "2981"
+    },
+    redirectFrom: ["/old/soup/"]
+  });
+
   assert.throws(
-    () => createStaticWebAppConfig([], {
-      explicitRedirects: [
-        { source: "/one", destination: "/two", status: 301 },
-        { source: "/two", destination: "/one", status: 301 }
-      ]
-    }),
-    /Redirect loop/
+    () => createStaticWebAppConfig([first, second]),
+    /redirect source conflict/
   );
 });
 

@@ -50,7 +50,7 @@ test("locale lookup rejects unsupported locales and missing records", () => {
   assert.equal(isLocalizedLocale("de"), false);
 });
 
-test("route generation and lookup preserve encoded localized slugs", () => {
+test("route generation and lookup encode raw localized slugs once", () => {
   const localized = recipeRecordSchema.parse({
     ...meatballsSoup,
     id: "wordpress:wprm:2981",
@@ -71,7 +71,30 @@ test("route generation and lookup preserve encoded localized slugs", () => {
     findRecipeByRoute("ru", encodeURIComponent(localized.slug), catalog),
     localized
   );
+  assert.deepEqual(getLocalizedRecipeParams(catalog), [
+    { locale: "ru", slug: "суп-с-фрикадельками" }
+  ]);
+  assert.deepEqual(getStaticPageParams(catalog), [
+    { segments: [] },
+    { segments: ["fr"] },
+    { segments: ["ru"] },
+    { segments: ["ru", "recipes", "суп-с-фрикадельками"] }
+  ]);
   assert.deepEqual(getRecipeLanguageAlternates(localized, catalog), [
     { locale: "ru", path: getRecipePath(localized) }
   ]);
+});
+
+test("route generation rejects unsafe slugs even for bypassed records", () => {
+  for (const slug of [".", "..", "%252e%252e", "unsafe%252fpath", "malformed%"]) {
+    const record = Object.assign({}, meatballsSoup, { slug });
+    assert.throws(
+      () => getRecipePath(record),
+      /unsafe path segment|URL encoding|raw Unicode/
+    );
+    assert.throws(
+      () => getStaticPageParams([record]),
+      /unsafe path segment|URL encoding|raw Unicode/
+    );
+  }
 });

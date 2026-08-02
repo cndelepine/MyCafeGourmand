@@ -3,13 +3,15 @@
 A multilingual recipe site replacing the family's WordPress website at
 `mycafegourmand.com`.
 
-The application is an early Next.js prototype. Migration work must preserve the
-source recipes, English/French/Russian relationships, media, metadata, and old
-URLs. See `AGENTS.md` for the shared Copilot and Codex working agreement.
+The application is a Next.js static export for Azure Static Web Apps. Migration
+work must preserve the source recipes, English/French/Russian relationships,
+media, metadata, and permanent redirects from old URLs that identified
+specific recipes. See `AGENTS.md` for the shared Copilot and Codex working
+agreement.
 
 ## Requirements
 
-- Node.js 20.9 or newer
+- Node.js 22.13.0 or newer (the exact CI version is in `.nvmrc`)
 - npm
 - Python 3 (only for `npm run preview`)
 
@@ -35,12 +37,12 @@ Deploy `out/` as the Azure Static Web Apps output directory. Local images are
 served without Next's image optimization service so the export remains
 self-contained.
 
-The build validates the redirect manifest and recipe `legacyUrls`, then writes
-the deterministic `out/staticwebapp.config.json` Azure Static Web Apps route
-configuration. Legacy recipe URLs target that recipe's canonical locale route
-with its static-export trailing slash; explicit entries in
-`src/content/redirects.ts` keep their declared destinations. The generated
-file is ignored and must not be committed.
+The build validates each recipe's `redirectFrom` paths, then writes the
+deterministic `out/staticwebapp.config.json` Azure Static Web Apps route
+configuration. Recipe redirect sources target that recipe's canonical locale
+route with its static-export trailing slash. Sources are root-relative local
+URL paths without query strings or fragments; duplicates and canonical recipe
+paths are rejected. The generated file is ignored and must not be committed.
 
 If unrelated Azure route, header, or fallback settings are needed, keep the
 hand-authored JSON in `config/staticwebapp.config.json`. The build preserves
@@ -101,8 +103,17 @@ npm run import:recipe -- \
   --dry-run
 ```
 
-Production hosting and CMS details will be documented after their proof of
-concept is validated.
+WordPress Recipe Maker and WP Ultimate Recipe identifiers are import-time
+source concerns only; WP Ultimate Recipe is not a runtime or URL-compatibility
+feature, even though historical recipe records may be stored there. The
+product promises permanent redirects only for old URLs that identified
+specific recipes, not taxonomy, feed, attachment, print, or shortlink URL
+compatibility. Historical recipe content must still be retained when it is
+imported.
+
+Azure Static Web Apps is the chosen deployment target for the static export.
+The browser editor remains deferred until a lossless content-editing workflow
+is proven.
 
 ### Archived URL inventory
 
@@ -136,5 +147,6 @@ followed manually with a three-hop bound, and local sitemap children must
 remain under the root sitemap's directory tree. The report is a discovery aid
 only, not source truth or a redirect decision. Its comparison section
 classifies discovered paths as `discovered-only`, `current-covered`, or
-`legacy-covered` against the validated catalog without creating redirects. Use
+`redirect-covered` against the validated catalog without creating redirects.
+The report uses `knownRedirectPaths` for the recipe redirect sources. Use
 `--recipes-root` to compare against another validated catalog directory.

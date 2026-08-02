@@ -48,6 +48,7 @@ test("the importer is dry-run by default and validates its record", async () => 
 
     assert.equal(record.locale, "fr");
     assert.equal(record.title, "Soupe de test");
+    assert.deepEqual(record.redirectFrom, []);
     assert.equal(record.recipe.ingredientGroups[0].items[0].raw, "½ lb ground turkey");
     assert.equal(record.recipe.heroMediaId, "wordpress-attachment:100");
     assert.equal(
@@ -92,6 +93,36 @@ test("media paths reject encoded traversal and normalize the root base", () => {
     () => normalizeAttachmentPath("safe/%252e%252e/admin", "100"),
     /unsafe path segment/
   );
+});
+
+test("the importer rejects encoded and malformed recipe slugs", async () => {
+  for (const slug of [
+    ".",
+    "..",
+    "%2e",
+    "%252e%252e",
+    "%25252e%25252e",
+    "unsafe/%2f",
+    "unsafe%252fpath",
+    "unsafe%5cpath",
+    "malformed%",
+    "malformed%2"
+  ]) {
+    await assert.rejects(
+      runImporter([
+        "--database",
+        fixture,
+        "--recipe-id",
+        "42",
+        "--slug",
+        slug,
+        "--locale",
+        "fr",
+        "--dry-run"
+      ]),
+      slug.includes("%") ? /--slug.*raw Unicode/ : /--slug/
+    );
+  }
 });
 
 test("dry-run and write modes cannot be combined", async () => {

@@ -95,31 +95,31 @@ test("unsupported locale folders fail instead of being silently omitted", () => 
       /Unsupported locale folder "de"/
     );
   });
+});
 
-  test("recipe discovery rejects symlinked locale paths and records", () => {
-    withTempDirectory((recipesRoot) => {
-      const target = path.join(recipesRoot, "target");
-      mkdirSync(target);
-      symlinkSync(target, path.join(recipesRoot, "en"));
+test("recipe discovery rejects symlinked locale paths and records", () => {
+  withTempDirectory((recipesRoot) => {
+    const target = path.join(recipesRoot, "target");
+    mkdirSync(target);
+    symlinkSync(target, path.join(recipesRoot, "en"));
 
-      assert.throws(
-        () => discoverRecipeFiles(recipesRoot),
-        /Symbolic links are not allowed/
-      );
-    });
+    assert.throws(
+      () => discoverRecipeFiles(recipesRoot),
+      /Symbolic links are not allowed/
+    );
+  });
 
-    withTempDirectory((recipesRoot) => {
-      writeRecord(recipesRoot, "en", "source.json", meatballsSoup);
-      symlinkSync(
-        path.join(recipesRoot, "en", "source.json"),
-        path.join(recipesRoot, "en", "linked.json")
-      );
+  withTempDirectory((recipesRoot) => {
+    writeRecord(recipesRoot, "en", "source.json", meatballsSoup);
+    symlinkSync(
+      path.join(recipesRoot, "en", "source.json"),
+      path.join(recipesRoot, "en", "linked.json")
+    );
 
-      assert.throws(
-        () => discoverRecipeFiles(recipesRoot),
-        /Symbolic links are not allowed/
-      );
-    });
+    assert.throws(
+      () => discoverRecipeFiles(recipesRoot),
+      /Symbolic links are not allowed/
+    );
   });
 });
 

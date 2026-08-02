@@ -1,4 +1,9 @@
 import { z } from "zod";
+import {
+  localPathKey,
+  validateRecipeSlug,
+  validateSafeLocalPath
+} from "./url-path";
 
 export const localeValues = ["en", "fr", "ru"] as const;
 export const localeSchema = z.enum(localeValues);
@@ -54,21 +59,21 @@ export const mediaAssetSchema = z.strictObject({
   height: z.number().int().positive().nullable()
 });
 
-export const legacyUrlKindSchema = z.enum([
-  "canonical",
-  "root-recipe",
-  "legacy-recipe",
-  "language",
-  "print",
-  "taxonomy",
-  "feed",
-  "attachment",
-  "shortlink"
-]);
-
-export const legacyUrlSchema = z.strictObject({
-  path: z.string().startsWith("/"),
-  kind: legacyUrlKindSchema
+export const redirectFromPathSchema = z.string().min(1).superRefine((value, context) => {
+  try {
+    validateSafeLocalPath(value, "Recipe redirect source");
+    if (value === "/") {
+      context.addIssue({
+        code: "custom",
+        message: "Recipe redirect source cannot be the site root."
+      });
+    }
+  } catch (error) {
+    context.addIssue({
+      code: "custom",
+      message: error instanceof Error ? error.message : String(error)
+    });
+  }
 });
 
 export const recipeRecordSchema = z.strictObject({
@@ -77,10 +82,16 @@ export const recipeRecordSchema = z.strictObject({
   id: z.string().min(1),
   locale: localeSchema,
   translationGroupId: z.string().min(1).nullable(),
-  slug: z.string().min(1).refine(
-    (slug) => !slug.includes("/") && !/\s/.test(slug),
-    "A slug must be one URL segment without whitespace."
-  ),
+  slug: z.string().min(1).superRefine((slug, context) => {
+    try {
+      validateRecipeSlug(slug);
+    } catch (error) {
+      context.addIssue({
+        code: "custom",
+        message: error instanceof Error ? error.message : String(error)
+      });
+    }
+  }),
   source: z.strictObject({
     system: z.literal("wordpress"),
     postId: z.string().regex(/^\d+$/).nullable(),
@@ -91,7 +102,7 @@ export const recipeRecordSchema = z.strictObject({
     createdAt: z.string().datetime({ offset: true }).nullable(),
     modifiedAt: z.string().datetime({ offset: true }).nullable()
   }),
-  legacyUrls: z.array(legacyUrlSchema),
+  redirectFrom: z.array(redirectFromPathSchema),
   title: z.string().min(1),
   description: z.string().min(1).nullable(),
   editorial: z.strictObject({
@@ -141,6 +152,45 @@ export const recipeRecordSchema = z.strictObject({
     description: z.string().min(1).nullable()
   }).nullable()
 }).superRefine((record, context) => {
+  const canonicalPath = record.locale === "en"
+    ? `/recipes/${encodeURIComponent(record.slug)}`
+    : `/${record.locale}/recipes/${encodeURIComponent(record.slug)}`;
+  let canonicalKey: string | undefined;
+  try {
+    canonicalKey = localPathKey(canonicalPath);
+  } catch {
+    // The slug schema reports the invalid canonical segment.
+  }
+  const redirectPaths = new Map<string, number>();
+
+  for (const [index, redirectFrom] of record.redirectFrom.entries()) {
+    let redirectKey: string;
+    try {
+      redirectKey = localPathKey(redirectFrom);
+    } catch {
+      continue;
+    }
+
+    if (canonicalKey !== undefined && redirectKey === canonicalKey) {
+      context.addIssue({
+        code: "custom",
+        message: `Recipe redirect source must not equal the canonical recipe route: ${redirectFrom}`,
+        path: ["redirectFrom", index]
+      });
+    }
+
+    const previousIndex = redirectPaths.get(redirectKey);
+    if (previousIndex !== undefined) {
+      context.addIssue({
+        code: "custom",
+        message: `Duplicate recipe redirect source: ${redirectFrom}`,
+        path: ["redirectFrom", index]
+      });
+    } else {
+      redirectPaths.set(redirectKey, index);
+    }
+  }
+
   const mediaIds = new Set<string>();
   for (const [index, media] of record.media.entries()) {
     if (mediaIds.has(media.id)) {

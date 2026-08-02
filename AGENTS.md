@@ -4,7 +4,7 @@ These instructions apply to the entire repository and are shared by Copilot and 
 
 ## Mission
 
-Replace the family's WordPress site at `mycafegourmand.com` with a maintainable, low-cost, self-hosted recipe website.
+Replace the family's WordPress site at `mycafegourmand.com` with a maintainable, low-cost static recipe website.
 
 The new design may differ from WordPress, but the migration must preserve:
 
@@ -12,22 +12,29 @@ The new design may differ from WordPress, but the migration must preserve:
 - English, French, and Russian content and translation relationships;
 - recipe search, category browsing, serving scaling, and print views;
 - contact functionality;
-- SEO metadata, structured recipe data, and old-URL redirects.
+- SEO metadata, structured recipe data, and permanent redirects from old
+  URLs that identified specific recipes.
 
 Comments, ratings, newsletters, advertisements, analytics, and social integrations are not launch requirements unless a task explicitly adds them.
 
 ## Current state
 
-This repository is an early Next.js App Router, React, and TypeScript prototype. The single recipe and landing page demonstrate a direction; they are not a complete content model or final architecture.
+This repository is a Next.js App Router, React, and TypeScript static-export
+application deployed to Azure Static Web Apps. The catalog is still small and
+the importer is a migration foundation, not a complete site migration tool.
 
 Key paths:
 
 - `src/app/` - routes, layouts, metadata, and UI
-- `src/content/recipes/` - prototype recipe data
+- `content/recipes/{en,fr,ru}/` - validated recipe JSON records
 - `public/recipes/` - local recipe images
-- `scripts/import-wordpress-recipe.mjs` - prototype WordPress recipe importer
+- `scripts/import-wordpress-recipe.ts` - WordPress recipe importer foundation
+- `test/` - focused Node test-runner coverage
+- `.github/workflows/ci.yml` - lint, typecheck, test, and build validation
 
-Do not assume a CMS, database, hosting platform, URL scheme, or deployment model has been finalized. Prefer decisions that keep Azure and other low-cost managed hosting options viable until an architecture is explicitly selected.
+Azure Static Web Apps and the static export are the chosen deployment model.
+The browser editor is intentionally deferred until a lossless workflow for the
+validated JSON records is proven.
 
 ## Source fidelity
 
@@ -37,8 +44,12 @@ Treat an owner-authorized WordPress database/files backup or export as the migra
 - Do not invent missing fields, recipes, translations, image descriptions, ratings, or author data.
 - Do not automatically translate content.
 - Preserve intentionally missing translations.
-- Keep old canonical and public URLs in migration metadata so redirects can be generated and audited.
-- Support both current WP Recipe Maker data and legacy WP Ultimate Recipe data; do not treat their schemas as interchangeable.
+- Record old URLs that identified specific recipes in each record's
+  `redirectFrom` field so permanent redirects can be generated and audited.
+- WP Recipe Maker and WP Ultimate Recipe identification and parsing are
+  import-time concerns only; WP Ultimate Recipe is not a runtime feature or a
+  promise of broad WordPress URL compatibility, even though historical recipe
+  records may be stored there. Do not treat their schemas as interchangeable.
 - Keep post/editorial content separate from normalized recipe fields.
 - Make import operations deterministic, idempotent, resumable, and safe to run in dry-run mode.
 - Produce explicit errors for unsupported or malformed source records. Never omit content silently.
@@ -70,9 +81,12 @@ Before bulk importing, fix and validate the prototype importer. It currently doe
 
 - Model locales explicitly as `en`, `fr`, and `ru`.
 - Preserve translation groups independently of matching titles or slugs.
-- Handle percent-encoded Cyrillic and other Unicode URLs safely.
+- Keep canonical slugs as raw Unicode and handle percent-encoded Cyrillic and
+  other Unicode safely at URL and redirect-path boundaries.
 - Avoid changing a known public URL without adding and testing a permanent redirect.
-- Maintain a redirect manifest for root recipe slugs, legacy `/recipe/` routes, language-prefixed routes, print routes, page-style and taxonomy archives, feeds, attachment URLs, and WordPress shortlinks when present in source data.
+- Maintain validated per-recipe `redirectFrom` paths for permanent redirects
+  from old recipe URLs. Do not promise taxonomy, feed, attachment, print, or
+  shortlink URL compatibility.
 - Generate canonical URLs and `hreflang` links from validated content relationships.
 - Emit valid Recipe JSON-LD on recipe pages and appropriate WebPage, Article, and breadcrumb metadata where applicable.
 - Prevent duplicate canonical URLs, redirect loops, and accidental indexing of staging or internal migration pages.
@@ -96,12 +110,14 @@ npm run lint
 npm run build
 ```
 
-- The current lockfile requires Node.js 20.9 or newer.
+- The current lockfile requires Node.js 22.13.0 or newer; `.nvmrc` is the
+  source for the CI runtime.
 - Run the smallest relevant checks while iterating, then run lint and a production build before reporting an implementation complete.
-- There is currently no test command or CI workflow. Do not claim tests or CI passed when they do not exist.
+- `npm test` runs the focused Node test suite, and CI runs `npm run check`.
 - Add focused automated tests when implementing importers, schema transformations, URL mapping, serving scaling, search, or other behavior with meaningful edge cases.
 - Validate migrated counts by content type and language, media existence, translation relationships, structured data, internal links, and redirect coverage.
-- Manually check representative current and legacy recipes in English, French, and Russian.
+- Manually check representative recipes and recipe redirect sources in
+  English, French, and Russian.
 - Report pre-existing validation failures accurately; do not weaken checks or hide errors to produce a passing result.
 
 ## Repository hygiene

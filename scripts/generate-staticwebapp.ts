@@ -4,7 +4,6 @@ import { existsSync, lstatSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateContent } from "../src/content/validation";
-import { redirects } from "../src/content/redirects";
 import {
   createStaticWebAppConfig,
   serializeStaticWebAppConfig
@@ -23,7 +22,6 @@ export function generateStaticWebAppConfig(
     recipesRoot: path.join(root, "content/recipes")
   });
   const config = createStaticWebAppConfig(records, {
-    explicitRedirects: redirects,
     handAuthoredConfig
   });
 

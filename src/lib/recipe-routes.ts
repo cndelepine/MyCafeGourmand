@@ -1,4 +1,5 @@
 import { localeValues, type Locale, type RecipeRecord } from "@/content/schema";
+import { validateRecipeSlug } from "@/content/url-path";
 
 export type LocalizedLocale = Exclude<Locale, "en">;
 
@@ -17,6 +18,7 @@ export function getLocaleHomePath(locale: Locale) {
 }
 
 export function getRecipeSegments(record: RecipeRecord) {
+  validateRecipeSlug(record.slug);
   return record.locale === "en"
     ? ["recipes", record.slug]
     : [record.locale, "recipes", record.slug];
@@ -72,7 +74,10 @@ export function getEnglishRecipeParams(
 ) {
   return catalog
     .filter((record) => record.locale === "en")
-    .map((record) => ({ slug: record.slug }));
+    .map((record) => {
+      validateRecipeSlug(record.slug);
+      return { slug: record.slug };
+    });
 }
 
 export function getLocalizedRecipeParams(
@@ -82,7 +87,10 @@ export function getLocalizedRecipeParams(
     .filter((record): record is RecipeRecord & { locale: LocalizedLocale } =>
       isLocalizedLocale(record.locale)
     )
-    .map((record) => ({ locale: record.locale, slug: record.slug }));
+    .map((record) => {
+      validateRecipeSlug(record.slug);
+      return { locale: record.locale, slug: record.slug };
+    });
 }
 
 export function getLocalizedLandingParams() {

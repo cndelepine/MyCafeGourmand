@@ -426,7 +426,7 @@ test("rejects redirect targets outside the remote scope", async () => {
 test("comparison is deterministic and does not create redirects", () => {
   const catalogRecord = recipeRecordSchema.parse({
     ...recipeCatalog[0],
-    legacyUrls: [{ path: "/old/soup/", kind: "legacy-recipe" }]
+    redirectFrom: ["/old/soup/"]
   });
   const comparison = compareDiscoveredPaths(
     [
@@ -439,27 +439,29 @@ test("comparison is deterministic and does not create redirects", () => {
 
   assert.deepEqual(comparison.entries, [
     { path: "/new/path/", status: "discovered-only" },
-    { path: "/old/soup/", status: "legacy-covered" },
+    { path: "/old/soup/", status: "redirect-covered" },
     { path: "/recipes/meatballs-soup", status: "current-covered" }
   ]);
   assert.deepEqual(comparison.discoveredOnly, ["/new/path/"]);
+  assert.deepEqual(comparison.redirectCovered, ["/old/soup/"]);
+  assert.deepEqual(comparison.knownRedirectPaths, ["/old/soup/"]);
 });
 
 test("comparison equates non-root trailing slashes but keeps raw queries distinct", () => {
   const catalogRecord = recipeRecordSchema.parse({
     ...recipeCatalog[0],
-    legacyUrls: [{ path: "/old/path?source=archive", kind: "legacy-recipe" }]
+    redirectFrom: ["/old/path"]
   });
   const comparison = compareDiscoveredPaths(
-    ["/recipes/meatballs-soup/", "/fr/", "/fr/?lang=fr", "/old/path/?source=archive", "/old/path/?source=other"],
+    ["/recipes/meatballs-soup/", "/fr/", "/fr/?lang=fr", "/old/path/", "/old/path?source=archive"],
     [catalogRecord]
   );
 
   assert.deepEqual(comparison.entries, [
     { path: "/fr/", status: "current-covered" },
     { path: "/fr/?lang=fr", status: "discovered-only" },
-    { path: "/old/path/?source=archive", status: "legacy-covered" },
-    { path: "/old/path/?source=other", status: "discovered-only" },
+    { path: "/old/path/", status: "redirect-covered" },
+    { path: "/old/path?source=archive", status: "discovered-only" },
     { path: "/recipes/meatballs-soup/", status: "current-covered" }
   ]);
 });

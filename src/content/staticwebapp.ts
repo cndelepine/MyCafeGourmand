@@ -1,11 +1,16 @@
 import { localeValues, type RecipeRecord } from "./schema";
 import {
-  redirects as explicitRedirects,
-  validateRedirectManifest,
-  type Redirect,
-  type RedirectValidationEntry
-} from "./redirects";
+  decodeLocalPath,
+  localPathKey,
+  validateSafeLocalPath
+} from "./url-path";
 import { getLocaleHomePath, getRecipePath } from "../lib/recipe-routes";
+
+type RecipeRedirect = {
+  source: string;
+  destination: string;
+  status: 301;
+};
 
 export type StaticWebAppRoute = {
   route: string;
@@ -18,7 +23,6 @@ export type StaticWebAppConfig = Record<string, unknown> & {
 };
 
 export type StaticWebAppConfigOptions = {
-  explicitRedirects?: readonly Redirect[];
   handAuthoredConfig?: unknown;
 };
 
@@ -27,65 +31,25 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 }
 
 function validateAzurePath(value: string, label: string) {
-  if (!value.startsWith("/") || value.startsWith("//")) {
-    throw new Error(
-      `Azure Static Web Apps ${label} must be a single root-relative path: ${value}`
-    );
-  }
-  if (/[?#]/u.test(value) || /[\u0000-\u001f\u007f\\]/u.test(value)) {
-    throw new Error(
-      `Azure Static Web Apps ${label} cannot contain a query, fragment, or unsafe character: ${value}`
-    );
-  }
-  if (value.includes("*")) {
-    throw new Error(
-      `Azure Static Web Apps generated redirect ${label} cannot contain a wildcard: ${value}`
-    );
-  }
-
-  let decoded: string;
-  try {
-    decoded = decodeURIComponent(value);
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    throw new Error(
-      `Azure Static Web Apps ${label} is not valid URL encoding: ${value}: ${message}`,
-      { cause: error }
-    );
-  }
-  if (
-    decoded.includes("\0")
-    || decoded.includes("\\")
-    || decoded.includes("?")
-    || decoded.includes("#")
-    || decoded.includes("*")
-    || decoded.startsWith("//")
-    || decoded.split("/").some((segment) => segment === "." || segment === "..")
-  ) {
-    throw new Error(
-      `Azure Static Web Apps ${label} contains traversal or an unsafe character: ${value}`
-    );
-  }
+  validateSafeLocalPath(value, `Azure Static Web Apps ${label}`);
 }
 
 function azurePathKey(value: string) {
-  let decoded = value;
   try {
-    decoded = decodeURIComponent(value);
+    return localPathKey(value);
   } catch {
     // validateAzurePath reports malformed encoding with the useful context.
+    return value === "/" ? "/" : value.replace(/\/+$/u, "");
   }
-  return decoded === "/" ? "/" : decoded.replace(/\/+$/u, "");
 }
 
 function isExactAzureRoute(value: string) {
-  let decoded = value;
   try {
-    decoded = decodeURIComponent(value);
+    return !/[*{}]/u.test(decodeLocalPath(value));
   } catch {
     // validateAzurePath reports malformed encoding with the useful context.
+    return !/[*{}]/u.test(value);
   }
-  return !/[*{}]/u.test(decoded);
 }
 
 function getRecipeRedirectDestination(record: RecipeRecord) {
@@ -102,44 +66,41 @@ function canonicalPaths(records: readonly RecipeRecord[]) {
 }
 
 export function buildRedirectManifest(
-  records: readonly RecipeRecord[],
-  explicit: readonly Redirect[] = explicitRedirects
+  records: readonly RecipeRecord[]
 ) {
-  const entries: RedirectValidationEntry[] = explicit.map((redirect, index) => ({
-    redirect,
-    context: `redirect manifest entry ${index + 1}`
-  }));
-
+  const redirects: RecipeRedirect[] = [];
   for (const record of records) {
-    for (const legacyUrl of record.legacyUrls) {
-      entries.push({
-        redirect: {
-          source: legacyUrl.path,
-          destination: getRecipeRedirectDestination(record),
-          status: 301
-        },
-        context: `recipe "${record.id}" legacy URL "${legacyUrl.path}"`
+    for (const redirectFrom of record.redirectFrom) {
+      redirects.push({
+        source: redirectFrom,
+        destination: getRecipeRedirectDestination(record),
+        status: 301
       });
     }
   }
 
-  return validateRedirectManifest(entries);
+  return validateRecipeRedirects(redirects, records);
 }
 
-function validateGeneratedRoutes(
-  manifest: readonly Redirect[],
+function validateRecipeRedirects(
+  redirects: readonly RecipeRedirect[],
   records: readonly RecipeRecord[]
 ) {
   const currentPaths = canonicalPaths(records);
   const sourcePaths = new Set<string>();
+  const redirectGraph = new Map<string, string>();
 
-  for (const redirect of manifest) {
+  for (const redirect of redirects) {
     validateAzurePath(redirect.source, "redirect source");
     validateAzurePath(redirect.destination, "redirect destination");
 
     const sourceKey = azurePathKey(redirect.source);
+    const destinationKey = azurePathKey(redirect.destination);
     if (sourceKey === "/") {
       throw new Error("Azure Static Web Apps redirect source cannot be the site root.");
+    }
+    if (sourceKey === destinationKey) {
+      throw new Error(`Self-redirect is not allowed: ${redirect.source}`);
     }
     if (currentPaths.has(sourceKey)) {
       throw new Error(
@@ -150,9 +111,26 @@ function validateGeneratedRoutes(
       throw new Error(`Azure Static Web Apps redirect source conflict: ${redirect.source}`);
     }
     sourcePaths.add(sourceKey);
+    redirectGraph.set(sourceKey, destinationKey);
   }
 
-  return manifest.map((redirect) => ({
+  for (const source of redirectGraph.keys()) {
+    const visited = new Set<string>();
+    let current: string | undefined = source;
+    while (current !== undefined && redirectGraph.has(current)) {
+      if (visited.has(current)) {
+        throw new Error(`Generated Azure Static Web Apps redirect loop detected from ${source}`);
+      }
+      visited.add(current);
+      current = redirectGraph.get(current);
+    }
+  }
+
+  return redirects;
+}
+
+function createGeneratedRoutes(redirects: readonly RecipeRedirect[]) {
+  return redirects.map((redirect) => ({
     route: redirect.source,
     redirect: redirect.destination,
     statusCode: redirect.status
@@ -192,6 +170,9 @@ function validateHandAuthoredRoutes(routes: readonly unknown[]) {
         );
       }
       validateAzurePath(value.redirect, `hand-authored redirect ${index + 1}`);
+      if (isExactAzureRoute(route)) {
+        validateAzurePath(route, `hand-authored redirect source ${index + 1}`);
+      }
       if (value.statusCode !== undefined && value.statusCode !== 301 && value.statusCode !== 302) {
         throw new Error(
           `Hand-authored Static Web Apps redirect ${index + 1} must use status code 301 or 302.`
@@ -295,8 +276,8 @@ export function createStaticWebAppConfig(
   records: readonly RecipeRecord[],
   options: StaticWebAppConfigOptions = {}
 ): StaticWebAppConfig {
-  const manifest = buildRedirectManifest(records, options.explicitRedirects);
-  const generatedRoutes = validateGeneratedRoutes(manifest, records);
+  const manifest = buildRedirectManifest(records);
+  const generatedRoutes = createGeneratedRoutes(manifest);
   const handAuthoredRoutes = getHandAuthoredRoutes(options.handAuthoredConfig);
 
   const generatedRouteKeys = new Set(generatedRoutes.map((route) => azurePathKey(route.route)));
