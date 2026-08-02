@@ -7,12 +7,13 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm run content:validate && next build",
-    "start": "next start",
+    "build": "npm run content:validate && next build && npm run staticwebapp:generate",
+    "preview": "python3 -m http.server 3000 --directory out",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit --incremental false",
     "test": "tsx --test test/*.test.ts",
     "content:validate": "tsx scripts/validate-content.ts",
+    "staticwebapp:generate": "tsx scripts/generate-staticwebapp.ts",
     "import:recipe": "tsx scripts/import-wordpress-recipe.ts",
     "inventory:urls": "tsx scripts/inventory-urls.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build"

@@ -196,6 +196,47 @@ test("duplicate IDs and localized slugs are rejected", () => {
   });
 });
 
+test("translation groups reject duplicate locales with both source paths", () => {
+  withTempDirectory((recipesRoot) => {
+    writeRecord(recipesRoot, "en", "first.json", {
+      ...meatballsSoup,
+      translationGroupId: "group-1"
+    });
+    writeRecord(recipesRoot, "en", "second.json", {
+      ...localizedRecord("en", "second", "3004"),
+      translationGroupId: "group-1"
+    });
+
+    const secondPath = path.join(recipesRoot, "en", "second.json");
+    assert.throws(
+      () => loadRecipeCatalog(recipesRoot),
+      (error: unknown) =>
+        error instanceof Error
+        && error.message.includes("Duplicate translation group locale")
+        && error.message.includes(secondPath)
+        && error.message.includes(path.join(recipesRoot, "en", "first.json"))
+    );
+  });
+});
+
+test("translation groups may be asymmetric across locales", () => {
+  withTempDirectory((recipesRoot) => {
+    writeRecord(recipesRoot, "en", "english.json", {
+      ...meatballsSoup,
+      translationGroupId: "group-2"
+    });
+    writeRecord(recipesRoot, "fr", "french.json", {
+      ...localizedRecord("fr", "soupe", "3005"),
+      translationGroupId: "group-2"
+    });
+
+    assert.deepEqual(
+      loadRecipeCatalog(recipesRoot).map((record) => record.locale),
+      ["en", "fr"]
+    );
+  });
+});
+
 test("JSON loading preserves nested records and explicit null values", () => {
   withTempDirectory((recipesRoot) => {
     writeRecord(recipesRoot, "en", "meatballs-soup.json", meatballsSoup);

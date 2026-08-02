@@ -165,6 +165,7 @@ export function validateCatalog(
   );
   const ids = new Map<string, number>();
   const localizedSlugs = new Map<string, number>();
+  const translationGroupLocales = new Map<string, number>();
 
   for (const [index, record] of parsed.entries()) {
     const sourcePath = options.sourceFiles?.[index]?.path;
@@ -180,6 +181,22 @@ export function validateCatalog(
       throw new Error(`Duplicate localized slug${context}: ${localizedSlug}`);
     }
     localizedSlugs.set(localizedSlug, index);
+
+    if (record.translationGroupId !== null) {
+      const translationGroupLocale = `${record.translationGroupId}:${record.locale}`;
+      const previousIndex = translationGroupLocales.get(translationGroupLocale);
+      if (previousIndex !== undefined) {
+        const previousSourcePath = options.sourceFiles?.[previousIndex]?.path;
+        const previousContext = previousSourcePath
+          ? ` (already defined in "${previousSourcePath}")`
+          : "";
+        throw new Error(
+          `Duplicate translation group locale${context}: ${translationGroupLocale}` +
+          `${previousContext}`
+        );
+      }
+      translationGroupLocales.set(translationGroupLocale, index);
+    }
   }
 
   return parsed;

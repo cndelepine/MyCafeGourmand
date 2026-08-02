@@ -11,6 +11,7 @@ URLs. See `AGENTS.md` for the shared Copilot and Codex working agreement.
 
 - Node.js 20.9 or newer
 - npm
+- Python 3 (only for `npm run preview`)
 
 ## Local development
 
@@ -33,6 +34,31 @@ npm run build
 Deploy `out/` as the Azure Static Web Apps output directory. Local images are
 served without Next's image optimization service so the export remains
 self-contained.
+
+The build validates the redirect manifest and recipe `legacyUrls`, then writes
+the deterministic `out/staticwebapp.config.json` Azure Static Web Apps route
+configuration. Legacy recipe URLs target that recipe's canonical locale route
+with its static-export trailing slash; explicit entries in
+`src/content/redirects.ts` keep their declared destinations. The generated
+file is ignored and must not be committed.
+
+If unrelated Azure route, header, or fallback settings are needed, keep the
+hand-authored JSON in `config/staticwebapp.config.json`. The build preserves
+those settings and prepends generated redirect routes. Do not place a
+hand-authored config in `public/`, because that would be copied into the
+export without the generated redirect validation. Hand-authored exact
+redirects participate in merged loop checks; wildcard redirect routes are
+rejected because their possible cycles cannot be proven statically.
+
+To preview the completed static export locally:
+
+```sh
+npm run build
+npm run preview
+```
+
+This uses Python 3's static file server; `npm run start` is intentionally not
+provided because `next start` requires a server-rendered Next build.
 
 ## Validation
 
@@ -81,8 +107,10 @@ concept is validated.
 ### Archived URL inventory
 
 The read-only URL inventory follows only XML sitemap indexes and urlsets. It
-does not crawl content pages or generate redirects. It accepts local XML files
-and HTTP(S) sitemap sources, including Wayback sitemap indexes:
+does not crawl content pages or generate redirects. It accepts local XML or
+`.xml.gz` files and HTTP(S) sitemap sources, including Wayback sitemap indexes.
+Gzip input is streamed within the configured compressed-input limit and is
+decompressed with `--max-document-bytes` enforced on the decompressed bytes:
 
 ```sh
 npm run inventory:urls -- \

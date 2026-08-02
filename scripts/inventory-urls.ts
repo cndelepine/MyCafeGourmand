@@ -15,6 +15,7 @@ import {
   unlink
 } from "node:fs/promises";
 import path from "node:path";
+import { createGunzip } from "node:zlib";
 import { fileURLToPath } from "node:url";
 import { XMLParser, XMLValidator } from "fast-xml-parser";
 import {
@@ -144,9 +145,11 @@ export type UrlInventoryOutput = {
 };
 
 export type SitemapFetchResult = {
-  body: string;
+  body: string | Uint8Array;
   status?: number;
   finalSource?: string;
+  contentEncoding?: string;
+  contentType?: string;
 };
 
 export type SitemapFetcher = (
@@ -906,16 +909,16 @@ async function readResponseBody(
   response: Response,
   source: string,
   maxBytes: number
-) {
+): Promise<Buffer> {
   const contentLength = responseContentLength(response);
   if (contentLength !== undefined && contentLength > maxBytes) {
     await cancelResponseBody(response);
     throw new Error(
-      `Sitemap response "${source}" exceeds the ${maxBytes}-byte document limit.`
+      `Sitemap response "${source}" exceeds the ${maxBytes}-byte compressed input document limit.`
     );
   }
   if (!response.body) {
-    return "";
+    return Buffer.alloc(0);
   }
 
   const reader = response.body.getReader();
@@ -933,7 +936,7 @@ async function readResponseBody(
       bytes += value.byteLength;
       if (bytes > maxBytes) {
         throw new Error(
-          `Sitemap response "${source}" exceeds the ${maxBytes}-byte document limit.`
+          `Sitemap response "${source}" exceeds the ${maxBytes}-byte compressed input document limit.`
         );
       }
       chunks.push(Buffer.from(value));
@@ -948,7 +951,85 @@ async function readResponseBody(
   } finally {
     reader.releaseLock();
   }
-  return Buffer.concat(chunks, bytes).toString("utf8");
+  return Buffer.concat(chunks, bytes);
+}
+
+function hasGzipMagic(bytes: Uint8Array) {
+  return bytes.byteLength >= 2 && bytes[0] === 0x1f && bytes[1] === 0x8b;
+}
+
+function looksLikeXml(bytes: Uint8Array) {
+  const prefix = Buffer.from(bytes).toString("utf8").replace(/^\uFEFF/u, "").trimStart();
+  return prefix.startsWith("<");
+}
+
+function hasGzipCue(source: string, contentEncoding?: string, contentType?: string) {
+  return (
+    /\.gz(?:[?#]|$)/iu.test(source)
+    || /\bgzip\b/iu.test(contentEncoding ?? "")
+    || /(?:application|content)\/(?:x-)?gzip/iu.test(contentType ?? "")
+  );
+}
+
+async function decompressGzip(
+  compressed: Buffer,
+  source: string,
+  maxBytes: number
+) {
+  const gunzip = createGunzip();
+  const chunks: Buffer[] = [];
+  let bytes = 0;
+  const collect = (async () => {
+    for await (const chunk of gunzip) {
+      const output = Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk);
+      bytes += output.byteLength;
+      if (bytes > maxBytes) {
+        throw new Error(
+          `Gzip sitemap "${source}" exceeds the ${maxBytes}-byte decompressed document limit.`
+        );
+      }
+      chunks.push(output);
+    }
+  })();
+
+  try {
+    gunzip.end(compressed);
+    await collect;
+  } catch (error) {
+    gunzip.destroy();
+    if (
+      error instanceof Error
+      && error.message.includes("decompressed document limit")
+    ) {
+      throw error;
+    }
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Unable to decompress gzip sitemap "${source}": ${message}`, {
+      cause: error
+    });
+  }
+
+  return Buffer.concat(chunks, bytes);
+}
+
+async function decodeSitemapBody(
+  body: string | Uint8Array,
+  source: string,
+  maxBytes: number,
+  metadata: Pick<SitemapFetchResult, "contentEncoding" | "contentType"> = {}
+) {
+  const bytes = typeof body === "string" ? Buffer.from(body, "utf8") : Buffer.from(body);
+  const gzipMagic = hasGzipMagic(bytes);
+  const gzipCue = hasGzipCue(source, metadata.contentEncoding, metadata.contentType);
+  if (gzipMagic || (gzipCue && !looksLikeXml(bytes))) {
+    return (await decompressGzip(bytes, source, maxBytes)).toString("utf8");
+  }
+  if (bytes.byteLength > maxBytes) {
+    throw new Error(
+      `Sitemap document "${source}" exceeds the ${maxBytes}-byte decompressed document limit.`
+    );
+  }
+  return bytes.toString("utf8");
 }
 
 async function defaultFetchDocument(
@@ -972,11 +1053,11 @@ async function defaultFetchDocument(
     }
     if (fileStats.size > limits.maxDocumentBytes) {
       throw new Error(
-        `Sitemap file "${source}" exceeds the ${limits.maxDocumentBytes}-byte document limit.`
+        `Sitemap file "${source}" exceeds the ${limits.maxDocumentBytes}-byte compressed input document limit.`
       );
     }
     try {
-      return { body: await readFile(source, "utf8") };
+      return { body: await readFile(source) };
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       throw new Error(`Unable to read sitemap file "${source}": ${message}`, { cause: error });
@@ -1040,10 +1121,14 @@ async function defaultFetchDocument(
       }
 
       const body = await readResponseBody(response, source, limits.maxDocumentBytes);
+      const contentEncoding = response.headers.get("content-encoding");
+      const contentType = response.headers.get("content-type");
       return {
         body,
         status: response.status,
-        finalSource: currentSource
+        finalSource: currentSource,
+        ...(contentEncoding ? { contentEncoding } : {}),
+        ...(contentType ? { contentType } : {})
       };
     } catch (error) {
       await cancelBody();
@@ -1178,7 +1263,6 @@ export async function inventorySitemaps(
       continue;
     }
 
-    const xml = typeof fetched === "string" ? fetched : fetched.body;
     if (
       typeof fetched !== "string"
       && fetched.status !== undefined
@@ -1216,10 +1300,16 @@ export async function inventorySitemaps(
       }
     }
 
-    if (Buffer.byteLength(xml, "utf8") > limits.maxDocumentBytes) {
-      const message =
-        `Sitemap response "${task.fetchSource}" exceeds the ` +
-        `${limits.maxDocumentBytes}-byte document limit.`;
+    let xml: string;
+    try {
+      xml = await decodeSitemapBody(
+        typeof fetched === "string" ? fetched : fetched.body,
+        task.fetchSource,
+        limits.maxDocumentBytes,
+        typeof fetched === "string" ? {} : fetched
+      );
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
       setTaskStatus(task, "fetch-failed", effectiveFetchSource);
       errors.push(issue("fetch-failed", message, { source: task.source }));
       continue;

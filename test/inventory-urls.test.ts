@@ -11,6 +11,7 @@ import {
 } from "node:fs";
 import path from "node:path";
 import test from "node:test";
+import { gzipSync } from "node:zlib";
 import {
   compareDiscoveredPaths,
   installInventoryTempFile,
@@ -328,6 +329,72 @@ test("streams remote response limits and aborts timed-out bodies", async () => {
     assert.equal(timedOut.rootSource.status, "fetch-failed");
     assert.ok(timedOut.errors.some((error) => error.message.includes("timed out")));
     assert.equal(aborted, true);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("reads local and remote gzip sitemap documents", async () => {
+  const xml =
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
+    "<url><loc>https://mycafegourmand.com/gzip/</loc></url></urlset>";
+  await withTempDirectory(async (directory) => {
+    const localSource = path.join(directory, "sitemap.xml.gz");
+    writeFileSync(localSource, gzipSync(xml));
+    const local = await inventorySitemaps({
+      sitemap: localSource,
+      compare: false
+    });
+    assert.equal(local.rootSource.status, "parsed");
+    assert.equal(local.urls[0]?.path, "/gzip/");
+  });
+
+  const originalFetch = globalThis.fetch;
+  try {
+    globalThis.fetch = (async () => new Response(gzipSync(xml), {
+      headers: { "content-type": "application/gzip" }
+    })) as typeof fetch;
+    const remote = await inventorySitemaps({
+      sitemap: "https://mycafegourmand.com/sitemap.xml.gz",
+      compare: false
+    });
+    assert.equal(remote.rootSource.status, "parsed");
+    assert.equal(remote.urls[0]?.path, "/gzip/");
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("applies maxDocumentBytes to decompressed gzip content", async () => {
+  const xml =
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
+    `<url><loc>https://mycafegourmand.com/gzip-limit/</loc></url>` +
+    `<description>${"x".repeat(10_000)}</description></urlset>`;
+  const compressed = gzipSync(xml);
+  assert.ok(compressed.byteLength < 1_000);
+
+  await withTempDirectory(async (directory) => {
+    const localSource = path.join(directory, "sitemap.xml.gz");
+    writeFileSync(localSource, compressed);
+    const local = await inventorySitemaps({
+      sitemap: localSource,
+      compare: false,
+      limits: { maxDocumentBytes: 1_000 }
+    });
+    assert.equal(local.rootSource.status, "fetch-failed");
+    assert.ok(local.errors.some((error) => error.message.includes("decompressed document limit")));
+  });
+
+  const originalFetch = globalThis.fetch;
+  try {
+    globalThis.fetch = (async () => new Response(compressed)) as typeof fetch;
+    const remote = await inventorySitemaps({
+      sitemap: "https://mycafegourmand.com/sitemap.xml.gz",
+      compare: false,
+      limits: { maxDocumentBytes: 1_000 }
+    });
+    assert.equal(remote.rootSource.status, "fetch-failed");
+    assert.ok(remote.errors.some((error) => error.message.includes("decompressed document limit")));
   } finally {
     globalThis.fetch = originalFetch;
   }

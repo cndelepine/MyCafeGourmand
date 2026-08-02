@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const redirectSchema = z.strictObject({
+export const redirectSchema = z.strictObject({
   source: z.string().startsWith("/"),
   destination: z.string().startsWith("/"),
   status: z.literal(301)
@@ -14,11 +14,48 @@ function normalizePath(path: string) {
   return pathname === "/" ? pathname : pathname.replace(/\/+$/, "");
 }
 
-export function validateRedirects(input: readonly Redirect[]) {
-  const redirects = input.map((redirect) => redirectSchema.parse(redirect));
-  const bySource = new Map<string, string>();
+function validateRedirectPath(path: string, label: "source" | "destination") {
+  if (path.startsWith("//")) {
+    throw new Error(`Redirect ${label} must be a single root-relative path: ${path}`);
+  }
+  if (/[\u0000-\u001f\u007f\\]/u.test(path)) {
+    throw new Error(`Redirect ${label} contains an unsafe character: ${path}`);
+  }
 
-  for (const redirect of redirects) {
+  const queryIndex = path.search(/[?#]/u);
+  const pathname = queryIndex === -1 ? path : path.slice(0, queryIndex);
+  let decodedPathname: string;
+  try {
+    decodedPathname = decodeURIComponent(pathname);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Redirect ${label} is not valid URL encoding: ${path}: ${message}`, {
+      cause: error
+    });
+  }
+
+  if (
+    decodedPathname.includes("\0")
+    || decodedPathname.includes("\\")
+    || decodedPathname.split("/").some((segment) => segment === "." || segment === "..")
+  ) {
+    throw new Error(`Redirect ${label} contains traversal or an unsafe character: ${path}`);
+  }
+}
+
+export type RedirectValidationEntry = {
+  redirect: Redirect;
+  context?: string;
+};
+
+function validateRedirectEntries(entries: readonly RedirectValidationEntry[]) {
+  const redirects = entries.map(({ redirect }) => redirectSchema.parse(redirect));
+  const bySource = new Map<string, string>();
+  const sourceContexts = new Map<string, string | undefined>();
+
+  for (const [index, redirect] of redirects.entries()) {
+    validateRedirectPath(redirect.source, "source");
+    validateRedirectPath(redirect.destination, "destination");
     const source = normalizePath(redirect.source);
     const destination = normalizePath(redirect.destination);
 
@@ -26,9 +63,18 @@ export function validateRedirects(input: readonly Redirect[]) {
       throw new Error(`Self-redirect is not allowed: ${redirect.source}`);
     }
     if (bySource.has(source)) {
-      throw new Error(`Duplicate redirect source: ${redirect.source}`);
+      const context = entries[index]?.context;
+      const previousContext = sourceContexts.get(source);
+      const details = [context, previousContext]
+        .filter((value): value is string => Boolean(value))
+        .join("; ");
+      throw new Error(
+        `Duplicate redirect source: ${redirect.source}` +
+        (details.length > 0 ? ` (${details})` : "")
+      );
     }
     bySource.set(source, destination);
+    sourceContexts.set(source, entries[index]?.context);
   }
 
   for (const source of bySource.keys()) {
@@ -45,6 +91,16 @@ export function validateRedirects(input: readonly Redirect[]) {
   }
 
   return redirects;
+}
+
+export function validateRedirects(input: readonly Redirect[]) {
+  return validateRedirectEntries(input.map((redirect) => ({ redirect })));
+}
+
+export function validateRedirectManifest(
+  entries: readonly RedirectValidationEntry[]
+) {
+  return validateRedirectEntries(entries);
 }
 
 export const redirects = validateRedirects([]);
