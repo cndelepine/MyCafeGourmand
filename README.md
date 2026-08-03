@@ -15,6 +15,30 @@ agreement.
 - npm
 - Python 3 (only for `npm run preview`)
 
+## Quick start (beginner-friendly)
+
+1. Open a terminal.
+2. Go to this project folder:
+   ```sh
+   cd /home/runner/work/MyCafeGourmand/MyCafeGourmand
+   ```
+3. Install everything the app needs:
+   ```sh
+   npm ci
+   ```
+4. Start the app:
+   ```sh
+   npm run dev
+   ```
+5. Open your browser and visit `http://localhost:3000`.
+
+To preview the production build locally:
+
+```sh
+npm run build
+npm run preview
+```
+
 ## Local development
 
 ```sh
