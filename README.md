@@ -15,29 +15,71 @@ agreement.
 - npm
 - Python 3 (only for `npm run preview`)
 
-## Quick start (beginner-friendly)
+## Windows quick start (beginner-friendly)
 
-1. Open a terminal.
-2. Go to this project folder:
-   ```sh
-   cd /home/runner/work/MyCafeGourmand/MyCafeGourmand
-   ```
-3. Install everything the app needs:
-   ```sh
-   npm ci
-   ```
-4. Start the app:
-   ```sh
-   npm run dev
-   ```
-5. Open your browser and visit `http://localhost:3000`.
+You only need to do the installation and download steps once.
 
-To preview the production build locally:
+### 1. Install Node.js
 
-```sh
-npm run build
-npm run preview
+1. Go to [nodejs.org](https://nodejs.org/en/download).
+2. Download the **LTS** version for Windows.
+3. Open the downloaded installer and keep the default options.
+4. Restart your computer when the installation finishes.
+
+### 2. Download this project
+
+1. At the top of this GitHub page, select the green **Code** button.
+2. Select **Download ZIP**.
+3. Open your **Downloads** folder.
+4. Right-click the downloaded ZIP file and select **Extract All**.
+5. Select **Extract**. A new folder containing the project will open.
+
+### 3. Open the project in Command Prompt
+
+1. Open the extracted project folder. It is the folder that contains this
+   `README.md` file.
+2. Select the address bar at the top of File Explorer.
+3. Type `cmd` and press **Enter**. A black Command Prompt window will open in
+   the correct folder.
+
+### 4. Install and start the site
+
+In the black window, type this command and press **Enter**:
+
+```bat
+npm ci
 ```
+
+Wait until it finishes. This can take a few minutes. Then type:
+
+```bat
+npm run dev
+```
+
+Keep the black window open while using the site. When it says `Ready`, open
+[http://localhost:3000](http://localhost:3000) in your web browser. If Windows
+Firewall asks for permission, select **Allow access**.
+
+To stop the site, return to the black window, press **Ctrl+C**, and type `Y` if
+asked to confirm.
+
+### Start the site again later
+
+Open the extracted project folder and repeat step 3. Then run:
+
+```bat
+npm run dev
+```
+
+You do not need to run `npm ci` again unless you download a newer copy of the
+project.
+
+### If a command does not work
+
+- If Windows says that `npm` is not recognized, restart the computer and try
+  again. If that does not help, reinstall the LTS version of Node.js.
+- Make sure you opened the folder containing `README.md` before typing `cmd`.
+- The first `npm ci` requires an internet connection.
 
 ## Local development
 
