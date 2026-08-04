@@ -15,6 +15,64 @@ agreement.
 - npm
 - Python 3 (only for `npm run preview`)
 
+## Windows quick start (beginner-friendly)
+
+These steps assume this project has already been copied to your computer. You
+only need to install Node.js once.
+
+### 1. Install Node.js
+
+1. Go to [nodejs.org](https://nodejs.org/en/download).
+2. Download the **LTS** version for Windows.
+3. Open the downloaded installer and keep the default options.
+4. Restart your computer when the installation finishes.
+
+### 2. Open the project in Command Prompt
+
+1. Open the project folder in File Explorer. It is the folder that contains
+   this `README.md` file.
+2. Select the address bar at the top of File Explorer.
+3. Type `cmd` and press **Enter**. A black Command Prompt window will open in
+   the correct folder.
+
+### 3. Install and start the site
+
+In the black window, type this command and press **Enter**:
+
+```bat
+npm ci
+```
+
+Wait until it finishes. This can take a few minutes. Then type:
+
+```bat
+npm run dev
+```
+
+Keep the black window open while using the site. When it says `Ready`, open
+[http://localhost:3000](http://localhost:3000) in your web browser. If Windows
+Firewall asks for permission, select **Allow access**.
+
+To stop the site, return to the black window, press **Ctrl+C**, and type `Y` if
+asked to confirm.
+
+### Start the site again later
+
+Open the project folder and repeat step 2. Then run:
+
+```bat
+npm run dev
+```
+
+You do not need to run `npm ci` again unless the project has been updated.
+
+### If a command does not work
+
+- If Windows says that `npm` is not recognized, restart the computer and try
+  again. If that does not help, reinstall the LTS version of Node.js.
+- Make sure you opened the folder containing `README.md` before typing `cmd`.
+- The first `npm ci` requires an internet connection.
+
 ## Local development
 
 ```sh
