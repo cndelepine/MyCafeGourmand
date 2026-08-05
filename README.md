@@ -17,13 +17,14 @@ agreement.
 
 ## Windows quick start (beginner-friendly)
 
-These steps assume this project has already been copied to your computer. You
-only need to install Node.js once.
+These steps assume the current project has already been downloaded or cloned
+to your computer. You only need to install Node.js once.
 
 ### 1. Install Node.js
 
 1. Go to [nodejs.org](https://nodejs.org/en/download).
-2. Download the **LTS** version for Windows.
+2. Download a version that satisfies the requirement above. Node.js 22.13.0,
+   the version used by this project's CI, is the safest choice.
 3. Open the downloaded installer and keep the default options.
 4. Restart your computer when the installation finishes.
 
@@ -37,7 +38,12 @@ only need to install Node.js once.
 
 ### 3. Install and start the site
 
-In the black window, type this command and press **Enter**:
+Double-click `start-windows.cmd` in the project folder. The launcher installs
+the exact dependencies in `package-lock.json` and starts the site. Keep the
+black window open while using the site.
+
+Alternatively, in the black Command Prompt window, type this command and press
+**Enter**:
 
 ```bat
 npm ci
@@ -58,20 +64,31 @@ asked to confirm.
 
 ### Start the site again later
 
-Open the project folder and repeat step 2. Then run:
+Double-click `start-windows.cmd` again. If using Command Prompt instead, open
+the project folder, repeat step 2, and run:
 
 ```bat
 npm run dev
 ```
 
-You do not need to run `npm ci` again unless the project has been updated.
+The launcher intentionally runs `npm ci` each time so copied or outdated
+dependencies cannot silently break the site. When starting manually, you do
+not need to run `npm ci` again unless the project has been updated.
 
 ### If a command does not work
 
 - If Windows says that `npm` is not recognized, restart the computer and try
-  again. If that does not help, reinstall the LTS version of Node.js.
+  again. If that does not help, reinstall Node.js 22.13.0 or newer.
 - Make sure you opened the folder containing `README.md` before typing `cmd`.
 - The first `npm ci` requires an internet connection.
+
+If the output says that a `pages` directory is missing or reports
+`ERR_OSSL_EVP_UNSUPPORTED`, the project copy is obsolete. Those errors come
+from the original Next.js/Webpack setup and are not fixed by creating a
+`pages` folder or setting `NODE_OPTIONS=--openssl-legacy-provider`. Download or
+clone the latest `main` branch into a new folder, then use
+`start-windows.cmd`. Do not copy the old `node_modules`, `.next`, or manually
+created `pages` folders into the new project.
 
 ## Local development
 
