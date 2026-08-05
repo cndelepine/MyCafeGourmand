@@ -42,7 +42,8 @@ if errorlevel 1 (
   exit /b 1
 )
 
+if /i "%~1"=="--install-only" exit /b 0
+
 echo.
 echo Starting My Cafe Gourmand at http://localhost:3000 ...
 call npm run dev
-
