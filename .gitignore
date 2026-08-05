@@ -16,3 +16,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 /migration-output/
+
+.DS_Store
+/drive-download-*/
