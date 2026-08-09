@@ -17,6 +17,7 @@
     "import:recipe": "tsx scripts/import-wordpress-recipe.ts",
     "inventory:urls": "tsx scripts/inventory-urls.ts",
     "inventory:wordpress-source": "tsx scripts/inventory-wordpress-source.ts",
+    "probe:wordpress-source": "tsx scripts/inventory-wordpress-source-evidence.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {

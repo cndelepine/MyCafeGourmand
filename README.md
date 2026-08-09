@@ -231,6 +231,55 @@ specific recipes, not taxonomy, feed, attachment, print, or shortlink URL
 compatibility. Historical recipe content must still be retained when it is
 imported.
 
+### Bounded source evidence probe
+
+The evidence probe is a read-only, aggregate-only companion to the inventory. It
+performs two bounded scans of an approved plain or gzip SQL dump, compares the
+decompressed whole-SQL hash between passes, and reads upload ZIP central
+directories without extracting files. It inspects only the allowlisted
+WordPress structures needed to reconcile WPRM/WPUR signals, Polylang groups,
+attachments, redirects, and Photo Gallery relationships. It never writes
+recipes, content, or media and never emits source values, filenames, paths,
+timestamps, personal data, or record-level entries. PHP and JSON inspection is
+bounded by the command's safety limits. Its report is schema v2: recipe/editorial
+translation derivation is parent-group authoritative, and Photo Gallery image
+and thumbnail coverage reports strict root-normalized matches separately from
+generic attachment normalization.
+
+Run a dry probe to stdout:
+
+```sh
+npm run probe:wordpress-source -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/uploads \
+  --baseline /path/to/wordpress-source-inventory-v3.json \
+  --dry-run
+```
+
+`--baseline` accepts only the documented sanitized
+`kind: "wordpress-source-inventory"` schema-v3 report. It extracts the
+allowlisted aggregate metrics rather than accepting a custom flat map.
+Reconciliation compares `redirects.redirectionItems` as
+`redirectionPluginRecords`; `redirects.oldSlugMetadata` is retained as
+`legacyOldSlugRecords` with status `not-probed` and is never compared to plugin
+evidence. The inventory's combined redirect total is therefore not a probe
+expectation.
+
+The approved-source acceptance baseline is 539 WPRM records, 436 WPUR
+metadata-signal posts, 548 posts, 57 pages, 269 post translation groups, 5,005
+term translation groups, 185 plugin redirect rows, 1,715 matched attachments,
+and 67 BWG image records. Safe post/page aggregates are included in the
+serialized evidence report for repeatable baseline comparison. Legacy old-slug
+metadata remains informational. The approved source derives 186 parent groups
+(184 one-to-one: 145 three-language, 37 two-language, and 2 one-language),
+with 20 valid-parent recipes ungrouped. Photo Gallery root normalization matches
+all 67 images and 67 persisted thumbnails; thumbnails are never synthesized.
+
+Use `--write --output migration-output/wordpress-source-evidence.json
+--overwrite` only when an explicit migration-only report is wanted. The report
+is evidence for reconciliation, not an importer, and must not be treated as
+recipe/content/media extraction.
+
 Azure Static Web Apps is the chosen deployment target for the static export.
 The browser editor remains deferred until a lossless content-editing workflow
 is proven.

@@ -86,6 +86,10 @@ interface GalleryData {
     albumId: string;
     galleryId: string;
   }>;
+  readonly bwgAlbumAlbumRelations: Array<{
+    albumId: string;
+    childAlbumId: string;
+  }>;
   finalTilesGalleryRows: number;
   finalTilesImageRows: number;
   readonly shortcodeReferenceIds: IdSet;
@@ -144,7 +148,7 @@ export interface SourceTableCounts {
 }
 
 export interface SourceInventoryOutput {
-  readonly schemaVersion: 2;
+  readonly schemaVersion: 3;
   readonly kind: "wordpress-source-inventory";
   readonly source: {
     readonly databaseFormat: "sql" | "gzip";
@@ -286,6 +290,10 @@ export interface SourceInventoryOutput {
       readonly albumGalleryRelationships: readonly {
         albumId: string;
         galleryId: string;
+      }[];
+      readonly albumAlbumRelationships: readonly {
+        albumId: string;
+        childAlbumId: string;
       }[];
     };
     readonly finalTiles: {
@@ -584,6 +592,7 @@ function createGalleryData(): GalleryData {
     bwgShortcodeIds: new Set(),
     bwgImageGalleryRelations: [],
     bwgAlbumGalleryRelations: [],
+    bwgAlbumAlbumRelations: [],
     finalTilesGalleryRows: 0,
     finalTilesImageRows: 0,
     shortcodeReferenceIds: new Set(),
@@ -845,11 +854,21 @@ function processGalleryInsert(
   }
   if (normalized.endsWith("bwg_album_gallery")) {
     const albumId = numericId(value(insert.row, "album_id"));
-    const galleryId = numericId(value(insert.row, "gallery_id"));
-    if (albumId && galleryId) {
-      gallery.bwgAlbumGalleryRelations.push({ albumId, galleryId });
+    const targetId = numericId(value(insert.row, "alb_gal_id"));
+    const isAlbum = value(insert.row, "is_album");
+    if (!albumId || !targetId || (isAlbum !== "0" && isAlbum !== "1")) {
+      issues.add("malformed-bwg-album-gallery-relation");
+      return;
+    }
+    if (isAlbum === "0") {
+      gallery.bwgAlbumGalleryRelations.push({ albumId, galleryId: targetId });
       if (gallery.bwgAlbumGalleryRelations.length > limits.maxIdsPerCategory) {
         throw new Error("The source inventory exceeded the gallery relationship safety limit.");
+      }
+    } else {
+      gallery.bwgAlbumAlbumRelations.push({ albumId, childAlbumId: targetId });
+      if (gallery.bwgAlbumAlbumRelations.length > limits.maxIdsPerCategory) {
+        throw new Error("The album relationship safety limit was exceeded.");
       }
     }
     return;
@@ -1285,7 +1304,7 @@ function createOutput(
     }));
 
   return {
-    schemaVersion: 2,
+    schemaVersion: 3,
     kind: "wordpress-source-inventory",
     source: {
       databaseFormat: sqlStats.format,
@@ -1389,7 +1408,8 @@ function createOutput(
         shortcodes: gallery.bwgShortcodeIds.size,
         shortcodeIds: sortedIds(gallery.bwgShortcodeIds),
         imageGalleryRelationships: sortRelationships(gallery.bwgImageGalleryRelations),
-        albumGalleryRelationships: sortRelationships(gallery.bwgAlbumGalleryRelations)
+        albumGalleryRelationships: sortRelationships(gallery.bwgAlbumGalleryRelations),
+        albumAlbumRelationships: sortRelationships(gallery.bwgAlbumAlbumRelations)
       },
       finalTiles: {
         galleryRows: gallery.finalTilesGalleryRows,

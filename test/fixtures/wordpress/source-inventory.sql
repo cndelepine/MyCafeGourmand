@@ -39,7 +39,8 @@ CREATE TABLE `wp_bwg_album` (`id` bigint NOT NULL);
 CREATE TABLE `wp_bwg_shortcode` (`id` bigint NOT NULL);
 CREATE TABLE `wp_bwg_album_gallery` (
   `album_id` bigint NOT NULL,
-  `gallery_id` bigint NOT NULL
+  `alb_gal_id` bigint NOT NULL,
+  `is_album` tinyint NOT NULL
 );
 CREATE TABLE `wp_wprm_recipes` (`id` bigint NOT NULL);
 CREATE TABLE `wp_urp_recipe` (`id` bigint NOT NULL);
@@ -108,11 +109,14 @@ INSERT INTO `wp_bwg_gallery` (`id`) VALUES
 INSERT INTO `wp_bwg_image` (`id`, `gallery_id`) VALUES
 (702, 701);
 INSERT INTO `wp_bwg_album` (`id`) VALUES
-(703);
+(703),
+(704);
 INSERT INTO `wp_bwg_shortcode` (`id`) VALUES
 (704);
-INSERT INTO `wp_bwg_album_gallery` (`album_id`, `gallery_id`) VALUES
-(703, 701);
+INSERT INTO `wp_bwg_album_gallery` (`album_id`, `alb_gal_id`, `is_album`) VALUES
+(703, 701, 0),
+(703, 704, 1),
+(703, NULL, 0);
 INSERT INTO `wp_wprm_recipes` (`id`) VALUES
 (200);
 INSERT INTO `wp_urp_recipe` (`id`) VALUES

@@ -157,7 +157,7 @@ test("inventories gzip SQL and uploads without emitting source values", async ()
     assert.deepEqual(output.posts.pages.ids, ["1"]);
     assert.equal(output.recipes.wprm.postRecords, 1);
     assert.equal(output.recipes.ultimateRecipe.candidatePostRecords, 1);
-    assert.equal(output.schemaVersion, 2);
+    assert.equal(output.schemaVersion, 3);
     assert.deepEqual(output.locales.posts.languageTermIds, {
       en: ["10"],
       fr: ["11"],
@@ -204,6 +204,16 @@ test("inventories gzip SQL and uploads without emitting source values", async ()
       false
     );
     assert.equal(output.redirects.totalRecords, 2);
+    assert.deepEqual(output.galleries.bwg.albumGalleryRelationships, [
+      { albumId: "703", galleryId: "701" }
+    ]);
+    assert.deepEqual(output.galleries.bwg.albumAlbumRelationships, [
+      { albumId: "703", childAlbumId: "704" }
+    ]);
+    assert.equal(
+      output.issues.find((issue) => issue.code === "malformed-bwg-album-gallery-relation")?.count,
+      1
+    );
     assert.deepEqual(output.galleries.shortcodeReferences, {
       count: 3,
       ids: ["701", "801", "802"],

@@ -1,4 +1,5 @@
 import { createReadStream } from "node:fs";
+import { createHash } from "node:crypto";
 import { Transform, type TransformCallback } from "node:stream";
 import { TextDecoder } from "node:util";
 import { createGunzip } from "node:zlib";
@@ -37,6 +38,7 @@ export interface SqlDumpStats {
   readonly format: "sql" | "gzip";
   readonly compressedBytes: number;
   readonly decompressedBytes: number;
+  readonly sqlDecompressedSha256: string;
   readonly statements: number;
   readonly insertStatements: number;
   readonly rows: number;
@@ -737,6 +739,7 @@ export async function scanSqlDump(
 
   const scanner = new SqlStatementScanner(limits.maxStatementBytes);
   const decoder = new TextDecoder("utf-8", { fatal: true });
+  const decompressedHash = createHash("sha256");
   let statements = 0;
   let insertStatements = 0;
   let rows = 0;
@@ -758,7 +761,9 @@ export async function scanSqlDump(
 
   try {
     for await (const chunk of content) {
-      const text = decoder.decode(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk), {
+      const buffer = Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk);
+      decompressedHash.update(buffer);
+      const text = decoder.decode(buffer, {
         stream: true
       });
       for (const statement of scanner.feed(text)) {
@@ -816,6 +821,14 @@ export async function scanSqlDump(
     if (error instanceof SqlDumpError) {
       throw error;
     }
+    if (
+      error
+      && typeof error === "object"
+      && "name" in error
+      && error.name === "SourceEvidenceError"
+    ) {
+      throw error;
+    }
     if (error instanceof Error) {
       throw new SqlDumpError("input-error", "The SQL dump could not be read.");
     }
@@ -826,6 +839,7 @@ export async function scanSqlDump(
     format: isGzip ? "gzip" : "sql",
     compressedBytes: compressed.bytes,
     decompressedBytes: decompressed.bytes,
+    sqlDecompressedSha256: decompressedHash.digest("hex"),
     statements,
     insertStatements,
     rows,
