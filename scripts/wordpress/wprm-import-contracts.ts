@@ -1,0 +1,398 @@
+import type { Locale, RecipeRecord } from "../../src/content/schema";
+import {
+  defaultSourceEvidenceLimits,
+  type SourceEvidenceLimits
+} from "./source-evidence-contracts";
+import {
+  defaultUploadArchiveLimits,
+  type UploadArchiveInventory,
+} from "./uploads-inventory";
+import type { SqlDumpStats } from "./sql-stream";
+
+export type WprmImportStatus = "ready" | "review" | "error";
+
+export type WprmIssueCode =
+  | "missing-editorial-parent"
+  | "self-editorial-parent"
+  | "dangling-editorial-parent"
+  | "noneditorial-parent"
+  | "incomplete-parent-translation"
+  | "multiple-recipes-for-editorial-member"
+  | "invalid-parent-group-locale"
+  | "missing-recipe-locale"
+  | "unsafe-canonical-slug"
+  | "canonical-slug-collision"
+  | "nonpublish-recipe"
+  | "protected-source-post"
+  | "timestamp-without-gmt"
+  | "missing-wprm-title"
+  | "malformed-wprm-ingredients"
+  | "malformed-wprm-instructions"
+  | "unsupported-wprm-field"
+  | "duplicate-singular-meta"
+  | "missing-attachment"
+  | "unsafe-attachment-path"
+  | "attachment-archive-missing"
+  | "duplicate-attachment-archive-path"
+  | "unsupported-attachment-extension"
+  | "invalid-attachment-metadata"
+  | "invalid-taxonomy-membership"
+  | "excluded-rating-data"
+  | "excluded-operational-data"
+  | "unsupported-wprm-post"
+  | "missing-wprm-metadata"
+  | "malformed-wprm-meta"
+  | "source-changed-during-import"
+  | "source-limit"
+  | "redirect-candidate"
+  | "old-slug-candidate";
+
+export interface WprmImportLimits {
+  readonly evidence: SourceEvidenceLimits;
+  readonly maxRedirectRecords: number;
+  readonly maxOldSlugRecords: number;
+  readonly maxTaxonomiesPerCandidate: number;
+  readonly maxMediaPerCandidate: number;
+}
+
+export type WprmImportLimitsInput =
+  Omit<Partial<WprmImportLimits>, "evidence">
+  & {
+    readonly evidence?: Partial<SourceEvidenceLimits> & {
+      readonly sql?: Partial<SourceEvidenceLimits["sql"]>;
+      readonly uploads?: Partial<SourceEvidenceLimits["uploads"]>;
+    };
+  };
+
+export const defaultWprmImportLimits: WprmImportLimits = {
+  evidence: defaultSourceEvidenceLimits,
+  maxRedirectRecords: 100_000,
+  maxOldSlugRecords: 100_000,
+  maxTaxonomiesPerCandidate: 10_000,
+  maxMediaPerCandidate: 10_000
+};
+
+export interface RawWordPressPost {
+  readonly id: string;
+  readonly type: string;
+  readonly status: string;
+  readonly hasPassword: boolean;
+  readonly parentId: string | null;
+  readonly slug: string | null;
+  readonly title: string | null;
+  readonly content: string | null;
+  readonly excerpt: string | null;
+  readonly createdLocal: string | null;
+  readonly createdGmt: string | null;
+  readonly modifiedLocal: string | null;
+  readonly modifiedGmt: string | null;
+  readonly mimeType: string | null;
+  readonly wprmReferences: ReadonlySet<string>;
+}
+
+export interface RawTerm {
+  readonly id: string;
+  readonly name: string | null;
+  readonly slug: string | null;
+}
+
+export interface RawTermTaxonomy {
+  readonly id: string;
+  readonly termId: string;
+  readonly taxonomy: string;
+}
+
+export interface RawTermRelationship {
+  readonly objectId: string;
+  readonly taxonomyId: string;
+}
+
+export interface RawAttachment {
+  readonly id: string;
+  readonly mimeType: string | null;
+}
+
+export interface RawRedirect {
+  readonly id: string;
+  readonly source: string | null;
+  readonly matchType: string | null;
+  readonly regex: string | null;
+  readonly status: string | null;
+  readonly actionType: string | null;
+  readonly actionCode: string | null;
+  readonly actionData: string | null;
+}
+
+export interface RawWprmMeta {
+  readonly values: ReadonlyMap<string, string>;
+  readonly duplicateKeys: ReadonlySet<string>;
+  readonly unsupportedKeys: ReadonlySet<string>;
+  readonly excludedRatingData: number;
+  readonly excludedOperationalData: number;
+  readonly oldSlugs: readonly string[];
+}
+
+export interface RawAttachmentMeta {
+  readonly attachedFile: string | null;
+  readonly alt: string | null;
+  readonly dimensions: string | null;
+  readonly duplicateKeys: ReadonlySet<string>;
+}
+
+export interface WprmSourceGraph {
+  readonly posts: ReadonlyMap<string, RawWordPressPost>;
+  readonly attachments: ReadonlyMap<string, RawAttachment>;
+  readonly terms: ReadonlyMap<string, RawTerm>;
+  readonly taxonomies: ReadonlyMap<string, RawTermTaxonomy>;
+  readonly relationships: ReadonlyMap<string, ReadonlySet<string>>;
+  readonly redirects: readonly RawRedirect[];
+  readonly oldSlugCount: number;
+  readonly excludedRatingData: number;
+}
+
+export interface WprmSourceMetadata {
+  readonly wprm: ReadonlyMap<string, RawWprmMeta>;
+  readonly attachments: ReadonlyMap<string, RawAttachmentMeta>;
+  readonly wpurSignals: ReadonlyMap<string, ReadonlySet<string>>;
+  readonly wpurSignalPosts: ReadonlySet<string>;
+  readonly sql: SqlDumpStats;
+}
+
+export interface WprmSourceSnapshot {
+  readonly graph: WprmSourceGraph;
+  readonly metadata: WprmSourceMetadata;
+  readonly sql: SqlDumpStats;
+  readonly uploads: UploadArchiveInventory;
+}
+
+export interface CandidateOutcome {
+  readonly recipeId: string;
+  readonly status: WprmImportStatus;
+  readonly locale: Locale | null;
+  readonly codes: readonly WprmIssueCode[];
+  readonly record: RecipeRecord | null;
+  readonly fingerprint: string | null;
+}
+
+export interface SafeManifestOutcome {
+  readonly recipeId: string;
+  readonly locale: Locale | null;
+  readonly status: WprmImportStatus;
+  readonly codes: readonly WprmIssueCode[];
+  readonly fingerprint: string | null;
+}
+
+export interface RedirectManifest {
+  readonly candidates: number;
+  readonly exactSafe: number;
+  readonly regex: number;
+  readonly unsupported: number;
+  readonly unresolvedTarget: number;
+  readonly oldSlugCandidates: number;
+  readonly accepted: number;
+}
+
+export interface WprmAggregateReconciliation {
+  readonly wprmPosts: number;
+  readonly usableParents: number;
+  readonly missingParents: number;
+  readonly provenParentGroups: number;
+  readonly incompleteParentGroups: number;
+  readonly usableParentRecipesOutsideGroups: number;
+  readonly directWprmGroups: number;
+  readonly wpurSignals: number;
+  readonly wpurRecordsEmitted: number;
+  readonly indexedAttachments: number;
+  readonly matchedAttachments: number;
+  readonly redirectCandidates: number;
+  readonly acceptedRedirects: number;
+}
+
+export interface WprmSafeManifest {
+  readonly schemaVersion: 1;
+  readonly kind: "wprm-bulk-import-manifest";
+  readonly source: {
+    readonly format: "sql" | "gzip";
+    readonly decompressedBytes: number;
+    readonly sqlDecompressedSha256: string;
+    readonly sqlRows: number;
+    readonly sqlStatements: number;
+    readonly uploads: {
+      readonly archives: number;
+      readonly entries: number;
+      readonly uploadFiles: number;
+      readonly matchedAttachments: number;
+    };
+  };
+  readonly candidates: {
+    readonly total: number;
+    readonly ready: number;
+    readonly review: number;
+    readonly error: number;
+    readonly outcomes: readonly SafeManifestOutcome[];
+  };
+  readonly wpurSignals: number;
+  readonly wpurRecordsEmitted: 0;
+  readonly redirects: RedirectManifest;
+  readonly aggregate: WprmAggregateReconciliation;
+  readonly privacy: {
+    readonly rawValuesEmitted: false;
+    readonly sourceWordingEmitted: false;
+    readonly sourcePathsEmitted: false;
+    readonly timestampsEmitted: false;
+    readonly serializedValuesEmitted: false;
+    readonly individualValueHashesEmitted: 0;
+  };
+}
+
+export const wprmImportContractVersion = "wprm-bulk-import-v1";
+
+export interface WprmStagingMarker {
+  readonly schemaVersion: 1;
+  readonly kind: "wprm-bulk-staging";
+  readonly sqlDecompressedSha256: string;
+  readonly importerContractVersion: typeof wprmImportContractVersion;
+}
+
+export interface WprmImportOptions {
+  readonly database: string;
+  readonly uploadsDir?: string;
+  readonly uploadArchives?: readonly string[];
+  readonly fingerprintKeyFile: string;
+  readonly dryRun?: boolean;
+  readonly write?: boolean;
+  readonly stagingDir?: string;
+  readonly resume?: boolean;
+  readonly limits?: WprmImportLimitsInput;
+}
+
+export interface WprmBulkImportResult {
+  readonly manifest: WprmSafeManifest;
+  readonly outcomes: readonly CandidateOutcome[];
+  readonly snapshot: WprmSourceSnapshot;
+}
+
+export class WprmImportError extends Error {
+  readonly code: string;
+
+  constructor(code: string, message = "The WPRM bulk import failed.") {
+    super(message);
+    this.name = "WprmImportError";
+    this.code = code;
+  }
+}
+
+export function isWprmImportIssueCode(value: string): value is WprmIssueCode {
+  return [
+    "missing-editorial-parent",
+    "self-editorial-parent",
+    "dangling-editorial-parent",
+    "noneditorial-parent",
+    "incomplete-parent-translation",
+    "multiple-recipes-for-editorial-member",
+    "invalid-parent-group-locale",
+    "missing-recipe-locale",
+    "unsafe-canonical-slug",
+    "canonical-slug-collision",
+    "nonpublish-recipe",
+    "protected-source-post",
+    "timestamp-without-gmt",
+    "missing-wprm-title",
+    "malformed-wprm-ingredients",
+    "malformed-wprm-instructions",
+    "unsupported-wprm-field",
+    "duplicate-singular-meta",
+    "missing-attachment",
+    "unsafe-attachment-path",
+    "attachment-archive-missing",
+    "duplicate-attachment-archive-path",
+    "unsupported-attachment-extension",
+    "invalid-attachment-metadata",
+    "invalid-taxonomy-membership",
+    "excluded-rating-data",
+    "excluded-operational-data",
+    "unsupported-wprm-post",
+    "missing-wprm-metadata",
+    "malformed-wprm-meta",
+    "source-changed-during-import",
+    "source-limit",
+    "redirect-candidate",
+    "old-slug-candidate"
+  ].includes(value);
+}
+
+export function mergeWprmImportLimits(
+  input: WprmImportLimitsInput | undefined
+): WprmImportLimits {
+  const evidence = {
+    ...defaultSourceEvidenceLimits,
+    ...(input?.evidence ?? {}),
+    sql: {
+      ...defaultSourceEvidenceLimits.sql,
+      ...(input?.evidence?.sql ?? {})
+    },
+    uploads: {
+      ...defaultUploadArchiveLimits,
+      ...(input?.evidence?.uploads ?? {})
+    }
+  };
+  const merged: WprmImportLimits = {
+    evidence,
+    maxRedirectRecords:
+      input?.maxRedirectRecords ?? defaultWprmImportLimits.maxRedirectRecords,
+    maxOldSlugRecords:
+      input?.maxOldSlugRecords ?? defaultWprmImportLimits.maxOldSlugRecords,
+    maxTaxonomiesPerCandidate:
+      input?.maxTaxonomiesPerCandidate
+      ?? defaultWprmImportLimits.maxTaxonomiesPerCandidate,
+    maxMediaPerCandidate:
+      input?.maxMediaPerCandidate ?? defaultWprmImportLimits.maxMediaPerCandidate
+  };
+
+  const validate = (name: string, value: number) => {
+    if (!Number.isSafeInteger(value) || value <= 0) {
+      throw new WprmImportError("invalid-limit", `The ${name} limit is invalid.`);
+    }
+  };
+  for (const [name, value] of [
+    ["maxRedirectRecords", merged.maxRedirectRecords],
+    ["maxOldSlugRecords", merged.maxOldSlugRecords],
+    ["maxTaxonomiesPerCandidate", merged.maxTaxonomiesPerCandidate],
+    ["maxMediaPerCandidate", merged.maxMediaPerCandidate],
+    ["maxPosts", evidence.maxPosts],
+    ["maxPostMetaRows", evidence.maxPostMetaRows],
+    ["maxTermRelationships", evidence.maxTermRelationships],
+    ["maxRecipeCandidates", evidence.maxRecipeCandidates],
+    ["maxEvidenceReferences", evidence.maxEvidenceReferences],
+    ["maxPostContentBytes", evidence.maxPostContentBytes],
+    ["maxMetaValueBytes", evidence.maxMetaValueBytes],
+    ["maxSerializedDepth", evidence.maxSerializedDepth],
+    ["maxSerializedEntries", evidence.maxSerializedEntries],
+    ["maxShapeKeySets", evidence.maxShapeKeySets]
+  ] as const) {
+    validate(name, value);
+  }
+  for (const [name, value] of Object.entries(evidence.sql)) {
+    validate(`sql.${name}`, value);
+  }
+  for (const [name, value] of Object.entries(evidence.uploads)) {
+    validate(`uploads.${name}`, value);
+  }
+  return merged;
+}
+
+export function uploadMatchedAttachmentCount(
+  snapshot: Pick<WprmSourceSnapshot, "graph" | "metadata" | "uploads">
+) {
+  let matched = 0;
+  for (const [attachmentId, metadata] of snapshot.metadata.attachments) {
+    if (
+      snapshot.graph.attachments.has(attachmentId)
+      && metadata.attachedFile !== null
+      && snapshot.uploads.uploadPathCounts.has(metadata.attachedFile)
+    ) {
+      matched += 1;
+    }
+  }
+  return matched;
+}

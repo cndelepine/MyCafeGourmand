@@ -80,6 +80,26 @@ function inspectRecipeSlugLayer(value: string, label: string) {
   }
 }
 
+function inspectEncodedRecipeSlugLayer(value: string, label: string) {
+  if (value.length === 0) {
+    throw new Error(`${label} must not be empty.`);
+  }
+  if (/[\/\\?#*\u0000-\u001f\u007f]/u.test(value) || /\s/u.test(value)) {
+    throw new Error(`${label} contains an unsafe path character: ${value}`);
+  }
+  if (value === "." || value === "..") {
+    throw new Error(`${label} contains an unsafe path segment: ${value}`);
+  }
+  if (/%(?:2f|5c)/iu.test(value)) {
+    throw new Error(`${label} contains an unsafe separator: ${value}`);
+  }
+  if (value.includes("%") && /%(?![0-9a-f]{2})/iu.test(value)) {
+    throw new Error(
+      `${label} contains an ambiguous literal percent or malformed URL encoding: ${value}`
+    );
+  }
+}
+
 export function validateSafeLocalPath(value: string, label: string) {
   if (!value.startsWith("/") || value.startsWith("//")) {
     throw new Error(`${label} must be a single root-relative path: ${value}`);
@@ -93,6 +113,16 @@ export function validateSafeLocalPath(value: string, label: string) {
 
 export function validateRecipeSlug(value: string, label = "Recipe slug") {
   decodePercentLayers(value, label, inspectRecipeSlugLayer);
+}
+
+export function decodeRecipeSlug(value: string, label = "Recipe slug") {
+  const decoded = decodePercentLayers(
+    value,
+    label,
+    inspectEncodedRecipeSlugLayer
+  );
+  validateRecipeSlug(decoded, label);
+  return decoded;
 }
 
 export function decodeLocalPath(value: string) {

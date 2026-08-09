@@ -100,7 +100,12 @@ export const recipeRecordSchema = z.strictObject({
     plugin: z.enum(["wprm", "wpur"]),
     sourceSlug: z.string().min(1).nullable(),
     createdAt: z.string().datetime({ offset: true }).nullable(),
-    modifiedAt: z.string().datetime({ offset: true }).nullable()
+    modifiedAt: z.string().datetime({ offset: true }).nullable(),
+    editorialPostId: z.string().regex(/^\d+$/).nullable(),
+    editorialPostType: z.string().min(1).nullable(),
+    editorialSourceSlug: z.string().min(1).nullable(),
+    editorialCreatedAt: z.string().datetime({ offset: true }).nullable(),
+    editorialModifiedAt: z.string().datetime({ offset: true }).nullable()
   }),
   redirectFrom: z.array(redirectFromPathSchema),
   title: z.string().min(1),
@@ -110,18 +115,25 @@ export const recipeRecordSchema = z.strictObject({
     excerpt: z.string().min(1).nullable()
   }),
   taxonomies: z.array(z.strictObject({
+    scope: z.enum(["recipe", "editorial"]).nullable(),
     taxonomy: z.string().min(1),
     sourceId: z.string().min(1).nullable(),
+    sourceTaxonomyId: z.string().regex(/^\d+$/).nullable(),
     name: z.string().min(1),
     slug: z.string().min(1)
   })),
   recipe: z.strictObject({
+    notes: z.string().min(1).nullable(),
     servings: quantitySchema.nullable(),
     times: z.strictObject({
       prep: durationSchema.nullable(),
       cook: durationSchema.nullable(),
       rest: durationSchema.nullable(),
-      total: durationSchema.nullable()
+      total: durationSchema.nullable(),
+      custom: z.strictObject({
+        label: z.string().min(1).nullable(),
+        duration: durationSchema
+      }).nullable()
     }),
     heroMediaId: z.string().min(1).nullable(),
     ingredientGroups: z.array(z.strictObject({

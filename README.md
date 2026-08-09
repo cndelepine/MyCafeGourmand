@@ -211,25 +211,51 @@ is retained as a count and an issue rather than being silently treated as a
 normalized recipe. Adjust bounded-input options with the `--max-*` flags shown
 by the command's option names.
 
-The importer is a foundation for approved exports, not yet a complete site
-migration tool. Run it in dry-run mode before writing output:
+The importer is a bounded WPRM bulk staging tool. It does not copy media, apply
+records to the catalog, or write under `src/`, `content/`, or `public/`. Every
+run requires a private regular key file containing at least 32 random bytes;
+the key is used only for candidate HMAC-SHA256 fingerprints and is never
+printed. Keep the key and all output under the Git-ignored `migration-output/`
+tree (or another private session-state directory).
 
 ```sh
-npm run import:recipe -- \
-  --database /path/to/sanitized-or-approved.sql \
-  --recipe-id 2980 \
-  --slug meatballs-soup \
-  --locale en \
+umask 077
+openssl rand 32 > migration-output/wprm-fingerprint.key
+npm run import:wprm-bulk -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/wprm-fingerprint.key \
   --dry-run
 ```
 
+Dry-run stdout is an aggregate privacy-safe manifest: it contains counts,
+numeric IDs, locales, safe issue codes, the whole decompressed-source hash,
+keyed candidate fingerprints, and reconciliation counters only. It never
+contains source wording, titles, bodies, slugs, URLs, filenames, timestamps,
+metadata values, or serialized payloads.
+
+To create private schema-valid candidate files, use a staging-only path:
+
+```sh
+npm run import:wprm-bulk -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/wprm-fingerprint.key \
+  --write --staging-dir migration-output/wprm-bulk
+```
+
+Candidate files are mode `0600` below numeric recipe-ID paths, and staging
+directories are mode `0700`. Existing matching files can be resumed with
+`--resume`; changed artifacts fail with `staging-conflict`. `--apply`,
+`--copy-media`, `--content-root`, and `--public-root` are rejected. The
+deprecated `import:recipe` script is a compatibility alias for this bulk CLI
+and rejects `--recipe-id`, `--slug`, and `--locale`.
+
 WordPress Recipe Maker and WP Ultimate Recipe identifiers are import-time
-source concerns only; WP Ultimate Recipe is not a runtime or URL-compatibility
-feature, even though historical recipe records may be stored there. The
-product promises permanent redirects only for old URLs that identified
-specific recipes, not taxonomy, feed, attachment, print, or shortlink URL
-compatibility. Historical recipe content must still be retained when it is
-imported.
+source concerns only; WP Ultimate Recipe signals remain unresolved and emit
+zero records. Redirect and old-slug candidates are classified but none are
+accepted until a canonical original-permalink resolver exists. Comments,
+ratings, private data, and media extraction are excluded.
 
 ### Bounded source evidence probe
 

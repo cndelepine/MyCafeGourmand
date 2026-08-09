@@ -2,7 +2,10 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { recipeCatalog, validateCatalog } from "../src/content/catalog";
 import { recipeRecordSchema } from "../src/content/schema";
-import { validateSafeLocalPath } from "../src/content/url-path";
+import {
+  decodeRecipeSlug,
+  validateSafeLocalPath
+} from "../src/content/url-path";
 
 const meatballsSoup = recipeCatalog[0]!;
 
@@ -12,6 +15,10 @@ test("the production catalog passes the canonical schema", () => {
   assert.equal(record.id, "wordpress:wprm:2980");
   assert.equal(record.locale, "en");
   assert.equal(record.translationGroupId, null);
+  assert.equal(record.source.editorialPostId, null);
+  assert.equal(record.taxonomies[0]?.scope, null);
+  assert.equal(record.recipe.notes, null);
+  assert.equal(record.recipe.times.custom, null);
 });
 
 test("missing translations remain missing", () => {
@@ -58,6 +65,7 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
     slug: "суп-с-фрикадельками",
     redirectFrom: []
   });
+
   assert.equal(cyrillic.slug, "суп-с-фрикадельками");
 
   assert.throws(
@@ -68,6 +76,36 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
       redirectFrom: []
     }),
     /raw Unicode/
+  );
+});
+
+test("recipe slug boundary decoding accepts Unicode but rejects unsafe layers", () => {
+  const encoded = encodeURIComponent("суп-с-фрикадельками");
+  assert.equal(decodeRecipeSlug(encoded), "суп-с-фрикадельками");
+  assert.equal(decodeRecipeSlug(encodeURIComponent(encoded)), "суп-с-фрикадельками");
+
+  for (const slug of [
+    "unsafe/slug",
+    "unsafe%2fslug",
+    "unsafe%252fslug",
+    "%2e%2e",
+    "%252e%252e",
+    "%3fquery",
+    "%20space",
+    "%2awildcard",
+    "malformed%",
+    "literal%25"
+  ]) {
+    assert.throws(() => decodeRecipeSlug(slug));
+  }
+
+  let excessivelyEncoded = "%41";
+  for (let index = 0; index < 10; index += 1) {
+    excessivelyEncoded = encodeURIComponent(excessivelyEncoded);
+  }
+  assert.throws(
+    () => decodeRecipeSlug(excessivelyEncoded),
+    /excessive URL encoding/
   );
 });
 

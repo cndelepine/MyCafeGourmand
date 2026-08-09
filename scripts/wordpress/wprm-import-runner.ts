@@ -1,0 +1,331 @@
+import {
+  fingerprintCandidate,
+  readFingerprintKey,
+  stageWprmCandidates
+} from "./wprm-import-stage";
+import {
+  mapWprmRecipeCandidate,
+  WprmMappingError
+} from "./wprm-import-map";
+import {
+  deriveWprmRelations,
+  relationIssues
+} from "./wprm-import-relations";
+import {
+  extractWprmSource
+} from "./wprm-import-source";
+import {
+  WprmImportError,
+  mergeWprmImportLimits,
+  type CandidateOutcome,
+  type WprmImportOptions,
+  type WprmBulkImportResult,
+  type WprmIssueCode,
+  type WprmSafeManifest
+} from "./wprm-import-contracts";
+import { uploadMatchedAttachmentCount } from "./wprm-import-contracts";
+
+const fatalIssueCodes = new Set<WprmIssueCode>([
+  "missing-recipe-locale",
+  "unsafe-canonical-slug",
+  "canonical-slug-collision",
+  "nonpublish-recipe",
+  "protected-source-post",
+  "missing-wprm-title",
+  "malformed-wprm-ingredients",
+  "malformed-wprm-instructions",
+  "duplicate-singular-meta",
+  "missing-attachment",
+  "unsafe-attachment-path",
+  "attachment-archive-missing",
+  "duplicate-attachment-archive-path",
+  "unsupported-attachment-extension",
+  "invalid-attachment-metadata",
+  "invalid-taxonomy-membership",
+  "unsupported-wprm-post",
+  "missing-wprm-metadata",
+  "malformed-wprm-meta",
+  "source-limit"
+]);
+
+const reviewIssueCodes = new Set<WprmIssueCode>([
+  "missing-editorial-parent",
+  "self-editorial-parent",
+  "dangling-editorial-parent",
+  "noneditorial-parent",
+  "incomplete-parent-translation",
+  "multiple-recipes-for-editorial-member",
+  "invalid-parent-group-locale",
+  "timestamp-without-gmt",
+  "unsupported-wprm-field",
+  "redirect-candidate",
+  "old-slug-candidate"
+]);
+
+function issueCode(value: string): WprmIssueCode {
+  if (
+    fatalIssueCodes.has(value as WprmIssueCode)
+    || reviewIssueCodes.has(value as WprmIssueCode)
+  ) {
+    return value as WprmIssueCode;
+  }
+  return "malformed-wprm-meta";
+}
+
+function sortedCodes(values: Iterable<WprmIssueCode>) {
+  return [...new Set(values)].sort((left, right) => left.localeCompare(right));
+}
+
+function numericIdSort(left: string, right: string) {
+  const leftNumber = BigInt(left);
+  const rightNumber = BigInt(right);
+  return leftNumber < rightNumber
+    ? -1
+    : leftNumber > rightNumber
+      ? 1
+      : left.localeCompare(right);
+}
+
+function outcomeWithStatus(
+  recipeId: string,
+  record: CandidateOutcome["record"],
+  codes: readonly WprmIssueCode[],
+  fallbackLocale: CandidateOutcome["locale"],
+  fingerprint: string | null = null
+): CandidateOutcome {
+  const normalizedCodes = sortedCodes(codes);
+  const status = normalizedCodes.some((code) => fatalIssueCodes.has(code))
+    ? "error"
+    : normalizedCodes.some((code) => reviewIssueCodes.has(code))
+      ? "review"
+      : "ready";
+  return {
+    recipeId,
+    status,
+    locale: record?.locale ?? fallbackLocale,
+    codes: normalizedCodes,
+    record: status === "error" ? null : record,
+    fingerprint
+  };
+}
+
+function mappingCodes(error: unknown): readonly WprmIssueCode[] {
+  if (error instanceof WprmMappingError) {
+    return error.issueCodes;
+  }
+  if (error instanceof WprmImportError) {
+    return [issueCode(error.code)];
+  }
+  return ["malformed-wprm-meta"];
+}
+
+function sourceSummary(snapshot: Awaited<ReturnType<typeof extractWprmSource>>) {
+  const entries = snapshot.uploads.summaries.reduce(
+    (total, summary) => total + summary.entries,
+    0
+  );
+  const uploadFiles = snapshot.uploads.summaries.reduce(
+    (total, summary) => total + summary.uploadFiles,
+    0
+  );
+  return {
+    format: snapshot.sql.format,
+    decompressedBytes: snapshot.sql.decompressedBytes,
+    sqlDecompressedSha256: snapshot.sql.sqlDecompressedSha256,
+    sqlRows: snapshot.sql.rows,
+    sqlStatements: snapshot.sql.statements,
+    uploads: {
+      archives: snapshot.uploads.summaries.length,
+      entries,
+      uploadFiles,
+      matchedAttachments: uploadMatchedAttachmentCount(snapshot)
+    }
+  };
+}
+
+function createManifest(
+  snapshot: Awaited<ReturnType<typeof extractWprmSource>>,
+  relations: ReturnType<typeof deriveWprmRelations>,
+  outcomes: readonly CandidateOutcome[]
+): WprmSafeManifest {
+  const ready = outcomes.filter((outcome) => outcome.status === "ready").length;
+  const review = outcomes.filter((outcome) => outcome.status === "review").length;
+  const error = outcomes.filter((outcome) => outcome.status === "error").length;
+  const safeOutcomes = [...outcomes]
+    .sort((left, right) => numericIdSort(left.recipeId, right.recipeId))
+    .map((outcome) => ({
+      recipeId: outcome.recipeId,
+      locale: outcome.locale,
+      status: outcome.status,
+      codes: outcome.codes,
+      fingerprint: outcome.fingerprint
+    }));
+  const source = sourceSummary(snapshot);
+  return {
+    schemaVersion: 1,
+    kind: "wprm-bulk-import-manifest",
+    source,
+    candidates: {
+      total: outcomes.length,
+      ready,
+      review,
+      error,
+      outcomes: safeOutcomes
+    },
+    wpurSignals: snapshot.metadata.wpurSignalPosts.size,
+    wpurRecordsEmitted: 0,
+    redirects: relations.redirects,
+    aggregate: {
+      wprmPosts: outcomes.length,
+      usableParents: relations.usableParentRecipes,
+      missingParents: relations.missingParentRecipes,
+      provenParentGroups: relations.provenParentGroups,
+      incompleteParentGroups: relations.incompleteParentGroups,
+      usableParentRecipesOutsideGroups: relations.usableParentRecipesOutsideGroups,
+      directWprmGroups: relations.directWprmGroups,
+      wpurSignals: snapshot.metadata.wpurSignalPosts.size,
+      wpurRecordsEmitted: 0,
+      indexedAttachments: snapshot.graph.attachments.size,
+      matchedAttachments: source.uploads.matchedAttachments,
+      redirectCandidates: relations.redirects.candidates,
+      acceptedRedirects: relations.redirects.accepted
+    },
+    privacy: {
+      rawValuesEmitted: false,
+      sourceWordingEmitted: false,
+      sourcePathsEmitted: false,
+      timestampsEmitted: false,
+      serializedValuesEmitted: false,
+      individualValueHashesEmitted: 0
+    }
+  };
+}
+
+function addCollisionErrors(outcomes: readonly CandidateOutcome[]) {
+  const byKey = new Map<string, CandidateOutcome[]>();
+  for (const outcome of outcomes) {
+    if (outcome.record === null || outcome.status === "error") {
+      continue;
+    }
+    const key = `${outcome.record.locale}:${outcome.record.slug}`;
+    const values = byKey.get(key) ?? [];
+    values.push(outcome);
+    byKey.set(key, values);
+  }
+  const collisions = new Set(
+    [...byKey.values()]
+      .filter((values) => values.length > 1)
+      .flatMap((values) => values.map((value) => value.recipeId))
+  );
+  return outcomes.map((outcome) => collisions.has(outcome.recipeId)
+    ? {
+      ...outcome,
+      status: "error" as const,
+      codes: sortedCodes([...outcome.codes, "canonical-slug-collision"]),
+      record: null,
+      fingerprint: null
+    }
+    : outcome);
+}
+
+export async function runWprmBulkImport(
+  options: WprmImportOptions
+): Promise<WprmBulkImportResult> {
+  if (typeof options.database !== "string" || options.database.length === 0) {
+    throw new WprmImportError("missing-database");
+  }
+  if (
+    typeof options.fingerprintKeyFile !== "string"
+    || options.fingerprintKeyFile.length === 0
+  ) {
+    throw new WprmImportError("missing-fingerprint-key");
+  }
+  const write = options.write === true;
+  const dryRun = options.dryRun === true;
+  if (write && dryRun) {
+    throw new WprmImportError("conflicting-mode");
+  }
+  if (write && !options.stagingDir) {
+    throw new WprmImportError("missing-staging-dir");
+  }
+  if (options.resume && !write) {
+    throw new WprmImportError("resume-requires-write");
+  }
+  const limits = mergeWprmImportLimits(options.limits);
+  const key = await readFingerprintKey(options.fingerprintKeyFile);
+  const snapshot = await extractWprmSource({
+    database: options.database,
+    uploadsDir: options.uploadsDir,
+    uploadArchives: options.uploadArchives,
+    limits
+  });
+  const relations = deriveWprmRelations(snapshot.graph, snapshot.metadata, limits);
+  const recipeIds = [...snapshot.graph.posts.values()]
+    .filter((post) => post.type.toLowerCase() === "wprm_recipe")
+    .map((post) => post.id)
+    .sort(numericIdSort);
+  const mapped: CandidateOutcome[] = [];
+  for (const recipeId of recipeIds) {
+    const codes = new Set<WprmIssueCode>(relationIssues(relations, recipeId));
+    let record: CandidateOutcome["record"] = null;
+    try {
+      const result = mapWprmRecipeCandidate(
+        recipeId,
+        snapshot.graph,
+        snapshot.metadata,
+        relations,
+        snapshot.uploads,
+        limits
+      );
+      record = result.record;
+      for (const code of result.codes) {
+        codes.add(code);
+      }
+    } catch (error) {
+      for (const code of mappingCodes(error)) {
+        codes.add(code);
+      }
+    }
+    const candidate = outcomeWithStatus(
+      recipeId,
+      record,
+      [...codes],
+      relations.locales.get(recipeId) ?? null
+    );
+    mapped.push(candidate);
+  }
+  const outcomes = addCollisionErrors(mapped).map((outcome) => ({
+    ...outcome,
+    fingerprint: outcome.record === null
+      ? null
+      : fingerprintCandidate(key, outcome.record)
+  }));
+  let manifest = createManifest(snapshot, relations, outcomes);
+  let finalOutcomes = outcomes;
+  if (write) {
+    const staged = await stageWprmCandidates(finalOutcomes, manifest, {
+      stagingDir: options.stagingDir!,
+      fingerprintKeyFile: options.fingerprintKeyFile,
+      resume: options.resume
+    });
+    finalOutcomes = staged.outcomes;
+    manifest = staged.manifest;
+  } else if (!dryRun) {
+    // The importer is intentionally safe by default; no mode means dry-run.
+    manifest = createManifest(snapshot, relations, finalOutcomes);
+  }
+  return {
+    manifest,
+    outcomes: finalOutcomes,
+    snapshot
+  };
+}
+
+export function serializeWprmManifest(manifest: WprmSafeManifest) {
+  return `${JSON.stringify(manifest, null, 2)}\n`;
+}
+
+export const serializeSafeWprmManifest = serializeWprmManifest;
+export const runImporter = runWprmBulkImport;
+export const runWprmImport = runWprmBulkImport;
+export const runWordPressWprmBulkImport = runWprmBulkImport;

@@ -23,8 +23,10 @@ const frenchRecipe = recipeRecordSchema.parse({
   description: "Une soupe fraîche et réconfortante.",
   taxonomies: [
     {
+      scope: null,
       taxonomy: "category",
       sourceId: null,
+      sourceTaxonomyId: null,
       name: "Déjeuners",
       slug: "dejeuners"
     }
@@ -72,8 +74,10 @@ const russianRecipe = recipeRecordSchema.parse({
   description: "Тёплый домашний суп.",
   taxonomies: [
     {
+      scope: null,
       taxonomy: "category",
       sourceId: null,
+      sourceTaxonomyId: null,
       name: "Супы",
       slug: "supy"
     }

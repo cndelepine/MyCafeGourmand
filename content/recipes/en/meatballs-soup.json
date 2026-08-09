@@ -13,7 +13,12 @@
     "plugin": "wprm",
     "sourceSlug": null,
     "createdAt": null,
-    "modifiedAt": null
+    "modifiedAt": null,
+    "editorialPostId": null,
+    "editorialPostType": null,
+    "editorialSourceSlug": null,
+    "editorialCreatedAt": null,
+    "editorialModifiedAt": null
   },
   "redirectFrom": [],
   "title": "Meatballs Soup",
@@ -24,13 +29,16 @@
   },
   "taxonomies": [
     {
+      "scope": null,
       "taxonomy": "category",
       "sourceId": null,
+      "sourceTaxonomyId": null,
       "name": "Soups",
       "slug": "soups"
     }
   ],
   "recipe": {
+    "notes": null,
     "servings": {
       "raw": "5–6 servings",
       "min": 5,
@@ -45,7 +53,8 @@
       },
       "cook": null,
       "rest": null,
-      "total": null
+      "total": null,
+      "custom": null
     },
     "heroMediaId": "hero",
     "ingredientGroups": [
