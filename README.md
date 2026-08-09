@@ -162,9 +162,54 @@ tested without losing data.
 
 ## WordPress migration
 
-The repository does not yet contain an authoritative WordPress export. Never
-commit database dumps, credentials, subscriber data, private backups, or raw
-uploads. Use only sanitized fixtures in automated tests.
+Authoritative WordPress backups are read-only migration inputs and remain
+Git-ignored. Never commit database dumps, credentials, subscriber data, private
+backups, or raw uploads. Use only sanitized fixtures in automated tests.
+
+### Privacy-safe source inventory
+
+The source inventory accepts a plain SQL dump or a gzip-compressed SQL dump and
+one or more upload ZIP archives. It streams and bounds the database input and
+reads ZIP central directories without extracting files. Its deterministic JSON
+contains aggregate counts plus numeric WordPress IDs and relationships needed
+for reconciliation; it does not emit titles, slugs, post bodies, serialized
+values, URLs, media filenames, users, comments, contacts, subscribers, or
+credentials.
+
+Run a dry run to stdout:
+
+```sh
+npm run inventory:wordpress-source -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/uploads \
+  --dry-run
+```
+
+Write a migration-only report explicitly:
+
+```sh
+npm run inventory:wordpress-source -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/uploads \
+  --write --output migration-output/wordpress-source-inventory.json
+```
+
+The report covers posts and pages, WP Recipe Maker and WP Ultimate Recipe
+signals, taxonomies, redirect records, gallery tables and references, attachment
+references, and upload archive coverage, including generated image-derivative
+counts. Polylang post relationships (`language` and `post_translations`) and
+term relationships (`term_language` and `term_translations`) are reported
+separately with stable numeric IDs; term-language aliases never become post
+links. Translation-group membership comes from term relationships, without
+emitting term names, slugs, descriptions, or serialized values. Empty
+translation groups are retained and counted rather than silently discarded.
+Relevant SQL tables report both INSERT-statement counts and parsed row counts,
+so multi-row INSERTs are not mistaken for one record. Input is rejected when
+SQL or ZIP structure is malformed or exceeds safety limits. WP Ultimate
+Recipe's historical generic `recipe` post type can be ambiguous; that evidence
+is retained as a count and an issue rather than being silently treated as a
+normalized recipe. Adjust bounded-input options with the `--max-*` flags shown
+by the command's option names.
 
 The importer is a foundation for approved exports, not yet a complete site
 migration tool. Run it in dry-run mode before writing output:

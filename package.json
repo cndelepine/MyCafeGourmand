@@ -16,6 +16,7 @@
     "staticwebapp:generate": "tsx scripts/generate-staticwebapp.ts",
     "import:recipe": "tsx scripts/import-wordpress-recipe.ts",
     "inventory:urls": "tsx scripts/inventory-urls.ts",
+    "inventory:wordpress-source": "tsx scripts/inventory-wordpress-source.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
