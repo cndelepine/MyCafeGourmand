@@ -221,6 +221,37 @@ test("external staging requires a new root or an authorized resume manifest", as
   }
 });
 
+test("staging resume rejects a prior mapper contract", async () => {
+  const suffix = randomBytes(8).toString("hex");
+  const stagingDir = path.join(repositoryRoot, "migration-output", `.wprm-contract-${suffix}`);
+  const directory = mkdtempSync(path.join(process.cwd(), ".wprm-contract-test-"));
+  try {
+    const keyFile = path.join(directory, "key");
+    writeFileSync(keyFile, randomBytes(32), { mode: 0o600 });
+    const options = {
+      database: fixture,
+      fingerprintKeyFile: keyFile,
+      stagingDir,
+      write: true
+    } as const;
+    await runWprmBulkImport(options);
+    const markerPath = path.join(stagingDir, ".wprm-staging.json");
+    const marker = JSON.parse(readFileSync(markerPath, "utf8")) as Record<string, unknown>;
+    marker.importerContractVersion = "wprm-bulk-import-v2";
+    writeFileSync(markerPath, JSON.stringify(marker), { mode: 0o600 });
+
+    await assert.rejects(
+      runWprmBulkImport({ ...options, resume: true }),
+      (error: unknown) =>
+        error && typeof error === "object" && "code" in error
+        && error.code === "staging-conflict"
+    );
+  } finally {
+    rmSync(directory, { recursive: true, force: true });
+    rmSync(stagingDir, { recursive: true, force: true });
+  }
+});
+
 test("staging marker is committed before a candidate write can fail", async () => {
   const suffix = randomBytes(8).toString("hex");
   const stagingDir = path.join(repositoryRoot, "migration-output", `.wprm-interrupt-${suffix}`);

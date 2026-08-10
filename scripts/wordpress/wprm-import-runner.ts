@@ -58,14 +58,29 @@ const reviewIssueCodes = new Set<WprmIssueCode>([
   "invalid-parent-group-locale",
   "timestamp-without-gmt",
   "unsupported-wprm-field",
+  "unsupported-wprm-type",
+  "malformed-wprm-type",
+  "unsupported-wprm-servings-advanced",
+  "malformed-wprm-servings-advanced",
+  "malformed-wprm-servings-advanced-enabled",
   "redirect-candidate",
   "old-slug-candidate"
+]);
+
+const informationalIssueCodes = new Set<WprmIssueCode>([
+  "excluded-rating-data",
+  "excluded-operational-data",
+  "excluded-author-data",
+  "excluded-social-media-data",
+  "excluded-video-data",
+  "excluded-wprm-type"
 ]);
 
 function issueCode(value: string): WprmIssueCode {
   if (
     fatalIssueCodes.has(value as WprmIssueCode)
     || reviewIssueCodes.has(value as WprmIssueCode)
+    || informationalIssueCodes.has(value as WprmIssueCode)
   ) {
     return value as WprmIssueCode;
   }
@@ -91,12 +106,17 @@ function outcomeWithStatus(
   record: CandidateOutcome["record"],
   codes: readonly WprmIssueCode[],
   fallbackLocale: CandidateOutcome["locale"],
-  fingerprint: string | null = null
+  fingerprint: string | null = null,
+  reviewOnlyCodes: ReadonlySet<WprmIssueCode> = new Set()
 ): CandidateOutcome {
   const normalizedCodes = sortedCodes(codes);
-  const status = normalizedCodes.some((code) => fatalIssueCodes.has(code))
+  const status = normalizedCodes.some(
+    (code) => fatalIssueCodes.has(code) && !reviewOnlyCodes.has(code)
+  )
     ? "error"
-    : normalizedCodes.some((code) => reviewIssueCodes.has(code))
+    : normalizedCodes.some(
+      (code) => reviewIssueCodes.has(code) || reviewOnlyCodes.has(code)
+    )
       ? "review"
       : "ready";
   return {
@@ -143,6 +163,36 @@ function sourceSummary(snapshot: Awaited<ReturnType<typeof extractWprmSource>>) 
   };
 }
 
+function nonLaunchFieldReconciliation(
+  snapshot: Awaited<ReturnType<typeof extractWprmSource>>
+) {
+  let authorNamesExcluded = 0;
+  let pinImageFieldsExcluded = 0;
+  let pinImageFieldsWithoutReference = 0;
+  let resolvedPinImageReferences = 0;
+  let unresolvedPinImageReferences = 0;
+  let videoFieldsExcluded = 0;
+  let opaqueTypesExcluded = 0;
+  for (const metadata of snapshot.metadata.wprm.values()) {
+    authorNamesExcluded += metadata.excludedAuthorData;
+    pinImageFieldsExcluded += metadata.excludedSocialMediaData;
+    pinImageFieldsWithoutReference += metadata.pinImageFieldsWithoutReference;
+    resolvedPinImageReferences += metadata.resolvedPinImageReferences;
+    unresolvedPinImageReferences += metadata.unresolvedPinImageReferences;
+    videoFieldsExcluded += metadata.excludedVideoData;
+    opaqueTypesExcluded += metadata.excludedWprmType;
+  }
+  return {
+    authorNamesExcluded,
+    pinImageFieldsExcluded,
+    pinImageFieldsWithoutReference,
+    resolvedPinImageReferences,
+    unresolvedPinImageReferences,
+    videoFieldsExcluded,
+    opaqueTypesExcluded
+  };
+}
+
 function createManifest(
   snapshot: Awaited<ReturnType<typeof extractWprmSource>>,
   relations: ReturnType<typeof deriveWprmRelations>,
@@ -161,6 +211,7 @@ function createManifest(
       fingerprint: outcome.fingerprint
     }));
   const source = sourceSummary(snapshot);
+  const nonLaunchFields = nonLaunchFieldReconciliation(snapshot);
   return {
     schemaVersion: 1,
     kind: "wprm-bulk-import-manifest",
@@ -177,6 +228,9 @@ function createManifest(
     redirects: relations.redirects,
     aggregate: {
       wprmPosts: outcomes.length,
+      nonpublishRecipes: outcomes.filter((outcome) =>
+        outcome.codes.includes("nonpublish-recipe")
+      ).length,
       usableParents: relations.usableParentRecipes,
       missingParents: relations.missingParentRecipes,
       provenParentGroups: relations.provenParentGroups,
@@ -188,7 +242,8 @@ function createManifest(
       indexedAttachments: snapshot.graph.attachments.size,
       matchedAttachments: source.uploads.matchedAttachments,
       redirectCandidates: relations.redirects.candidates,
-      acceptedRedirects: relations.redirects.accepted
+      acceptedRedirects: relations.redirects.accepted,
+      nonLaunchFields
     },
     privacy: {
       rawValuesEmitted: false,
@@ -290,7 +345,13 @@ export async function runWprmBulkImport(
       recipeId,
       record,
       [...codes],
-      relations.locales.get(recipeId) ?? null
+      relations.locales.get(recipeId) ?? null,
+      null,
+      record !== null
+        && snapshot.metadata.wprm.get(recipeId)?.duplicateKeys.size === 1
+        && snapshot.metadata.wprm.get(recipeId)?.duplicateKeys.has("wprm_type")
+        ? new Set<WprmIssueCode>(["duplicate-singular-meta"])
+        : undefined
     );
     mapped.push(candidate);
   }

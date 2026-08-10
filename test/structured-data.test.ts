@@ -26,6 +26,54 @@ test("recipe structured data is derived from the validated record", () => {
   );
 });
 
+test("recipe structured data preserves available source nutrition", () => {
+  const data = getRecipeStructuredData({
+    ...meatballsSoup,
+    recipe: {
+      ...meatballsSoup.recipe,
+      nutrition: {
+        calories: { raw: "220", value: 220 },
+        servingSize: { raw: "1", value: 1 },
+        servingUnit: "bowl"
+      }
+    }
+  });
+
+  assert.deepEqual(data.nutrition, {
+    "@type": "NutritionInformation",
+    calories: "220 calories",
+    servingSize: "1 bowl"
+  });
+});
+
+test("structured nutrition emits only safe nonnegative calorie numbers", () => {
+  const withCalories = (calories: { raw: string; value?: number } | null) => ({
+    ...meatballsSoup,
+    recipe: {
+      ...meatballsSoup.recipe,
+      nutrition: {
+        calories,
+        servingSize: null,
+        servingUnit: null
+      }
+    }
+  });
+
+  assert.equal(
+    getRecipeStructuredData(withCalories({ raw: "220.50", value: 220.5 })).nutrition?.calories,
+    "220.5 calories"
+  );
+  assert.equal(
+    getRecipeStructuredData(withCalories({ raw: "220 calories" })).nutrition,
+    undefined
+  );
+  assert.equal(
+    getRecipeStructuredData(withCalories({ raw: "-1" })).nutrition,
+    undefined
+  );
+  assert.equal(getRecipeStructuredData(withCalories(null)).nutrition, undefined);
+});
+
 test("structured data serialization escapes script-breaking markup", () => {
   const data = getRecipeStructuredData({
     ...meatballsSoup,

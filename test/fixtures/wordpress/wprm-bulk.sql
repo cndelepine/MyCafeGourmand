@@ -156,7 +156,18 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
   (50, 109, 'wprm_parent_post_id', '5'),
   (51, 200, 'wpurp_recipe_signal', 'signal'),
   (52, 109, 'wprm_rating', '4.5'),
-  (53, 109, 'wprm_version', '10.0');
+  (53, 109, 'wprm_version', '10.0'),
+  (54, 100, 'wprm_equipment', 'a:1:{i:0;a:4:{s:2:"id";i:17;s:4:"name";s:17:"Fixture equipment";s:6:"amount";s:1:"1";s:5:"notes";s:0:"";}}'),
+  (55, 100, 'wprm_nutrition_calories', '220'),
+  (56, 100, 'wprm_nutrition_serving_size', '1'),
+  (57, 100, 'wprm_nutrition_serving_unit', 'slice'),
+  (58, 100, 'wprm_servings_advanced', 'a:6:{s:8:"diameter";i:0;s:6:"height";i:0;s:6:"length";i:0;s:5:"shape";s:5:"round";s:4:"unit";s:2:"cm";s:5:"width";i:0;}'),
+  (59, 100, 'wprm_author_name', 'Fixture author'),
+  (60, 100, 'wprm_pin_image_id', '900'),
+  (61, 100, 'wprm_type', 'food'),
+  (62, 100, 'wprm_video_id', '0'),
+  (63, 100, 'wprm_pin_image_repin_id', '900'),
+  (64, 100, 'wprm_servings_advanced_enabled', '0');
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`) VALUES
   (1, 'English', 'en'),

@@ -251,6 +251,32 @@ directories are mode `0700`. Existing matching files can be resumed with
 deprecated `import:recipe` script is a compatibility alias for this bulk CLI
 and rejects `--recipe-id`, `--slug`, and `--locale`.
 
+The WPRM 10.7.1 reconciliation maps equipment (including explicit empty
+lists), nutrition source text with safely parsed numeric values when available,
+and advanced-serving dimensions into private schema-valid candidates. It
+preserves source order and IDs for equipment, preserves zero-valued dimensions,
+and records the independent advanced-serving enabled state. Sparse advanced
+serving objects use only WPRM's documented structural defaults (`round`,
+`inch`, and zero dimensions); disabled source data remains present but is not
+treated as enabled. These fields are not promoted to the public catalog by
+this tool.
+
+Author names remain excluded pending an explicit content and privacy decision.
+Pinterest image references, video identifiers, and food/default WPRM recipe
+types are explicit non-launch exclusions: the importer neither looks up
+Pinterest companion IDs as attachments nor copies excluded media. How-to,
+other, unknown, and malformed WPRM types remain review outcomes with stable
+issue codes. Privacy-safe manifests report only exclusion issue codes and
+aggregate reference counts, never their values.
+Non-published WPRM records remain `nonpublish-recipe` errors and are never
+staged; incomplete parent translation groups remain review outcomes. A mapper
+contract change cannot resume an older staging root, so start a new private
+staging root when its marker rejects `--resume`.
+
+For the current approved-source acceptance baseline, the privacy-safe dry run
+accounts for 539 WPRM records: 521 ready candidates, 3 incomplete-translation
+reviews, and 15 non-published errors.
+
 WordPress Recipe Maker and WP Ultimate Recipe identifiers are import-time
 source concerns only; WP Ultimate Recipe signals remain unresolved and emit
 zero records. Redirect and old-slug candidates are classified but none are

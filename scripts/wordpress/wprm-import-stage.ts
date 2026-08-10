@@ -108,7 +108,14 @@ function hasExactKeys(value: unknown, keys: readonly string[]): value is Record<
     && keys.every((key) => Object.prototype.hasOwnProperty.call(value, key));
 }
 
-function isWprmStagingMarker(value: unknown): value is WprmStagingMarker {
+interface WprmStagingMarkerShape {
+  readonly schemaVersion: 1;
+  readonly kind: "wprm-bulk-staging";
+  readonly sqlDecompressedSha256: string;
+  readonly importerContractVersion: string;
+}
+
+function isWprmStagingMarkerShape(value: unknown): value is WprmStagingMarkerShape {
   return hasExactKeys(value, [
     "schemaVersion",
     "kind",
@@ -119,6 +126,12 @@ function isWprmStagingMarker(value: unknown): value is WprmStagingMarker {
     && value.kind === "wprm-bulk-staging"
     && typeof value.sqlDecompressedSha256 === "string"
     && /^[a-f0-9]{64}$/u.test(value.sqlDecompressedSha256)
+    && typeof value.importerContractVersion === "string"
+    && /^wprm-bulk-import-v\d+$/u.test(value.importerContractVersion);
+}
+
+function isWprmStagingMarker(value: unknown): value is WprmStagingMarker {
+  return isWprmStagingMarkerShape(value)
     && value.importerContractVersion === wprmImportContractVersion;
 }
 
@@ -127,7 +140,7 @@ function markerContent(marker: WprmStagingMarker) {
 }
 
 function markerMatches(
-  actual: WprmStagingMarker,
+  actual: WprmStagingMarkerShape,
   expected: WprmStagingMarker
 ) {
   return actual.schemaVersion === expected.schemaVersion
@@ -178,11 +191,14 @@ async function readPrivateMarker(
       throw new WprmImportError("unsafe-staging-dir");
     }
     const parsed: unknown = JSON.parse((await handle.readFile()).toString("utf8"));
-    if (!isWprmStagingMarker(parsed)) {
+    if (!isWprmStagingMarkerShape(parsed)) {
       throw new WprmImportError("unsafe-staging-dir");
     }
     if (expected !== undefined && !markerMatches(parsed, expected)) {
       throw new WprmImportError("staging-conflict");
+    }
+    if (expected === undefined && !isWprmStagingMarker(parsed)) {
+      throw new WprmImportError("unsafe-staging-dir");
     }
     return parsed;
   } catch (error) {

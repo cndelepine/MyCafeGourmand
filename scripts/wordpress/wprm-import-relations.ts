@@ -448,18 +448,45 @@ export function deriveWprmRelations(
     } else {
       editorialTaxonomies.set(recipe.id, []);
     }
-    const unsupported = metadata.wprm.get(recipe.id)?.unsupportedKeys.size ?? 0;
-    if (unsupported > 0) {
+    const wprm = metadata.wprm.get(recipe.id);
+    if ((wprm?.unsupportedKeys.size ?? 0) > 0) {
       addIssue(issues, recipe.id, "unsupported-wprm-field");
     }
-    if ((metadata.wprm.get(recipe.id)?.duplicateKeys.size ?? 0) > 0) {
+    if ((wprm?.duplicateKeys.size ?? 0) > 0) {
       addIssue(issues, recipe.id, "duplicate-singular-meta");
     }
-    if ((metadata.wprm.get(recipe.id)?.excludedRatingData ?? 0) > 0) {
+    if ((wprm?.excludedRatingData ?? 0) > 0) {
       addIssue(issues, recipe.id, "excluded-rating-data");
     }
-    if ((metadata.wprm.get(recipe.id)?.excludedOperationalData ?? 0) > 0) {
+    if ((wprm?.excludedOperationalData ?? 0) > 0) {
       addIssue(issues, recipe.id, "excluded-operational-data");
+    }
+    if ((wprm?.excludedAuthorData ?? 0) > 0) {
+      addIssue(issues, recipe.id, "excluded-author-data");
+    }
+    if ((wprm?.excludedSocialMediaData ?? 0) > 0) {
+      addIssue(issues, recipe.id, "excluded-social-media-data");
+    }
+    if ((wprm?.excludedVideoData ?? 0) > 0) {
+      addIssue(issues, recipe.id, "excluded-video-data");
+    }
+    switch (wprm?.wprmType.classification) {
+      case "food":
+        addIssue(issues, recipe.id, "excluded-wprm-type");
+        break;
+      case "howto":
+      case "other":
+      case "unknown":
+        addIssue(issues, recipe.id, "unsupported-wprm-type");
+        break;
+      case "malformed":
+        addIssue(issues, recipe.id, "malformed-wprm-type");
+        break;
+      default:
+        if ((wprm?.excludedWprmType ?? 0) > 0) {
+          addIssue(issues, recipe.id, "malformed-wprm-type");
+        }
+        break;
     }
   }
 

@@ -76,6 +76,25 @@ const unsupportedIngredientContentKeys = new Set([
   "product_item_snapshot",
   "conversion_item_snapshot"
 ]);
+const allowedEquipmentKeys = new Set(["id", "name", "amount", "notes"]);
+const allowedServingsAdvancedKeys = new Set([
+  "diameter",
+  "height",
+  "length",
+  "shape",
+  "unit",
+  "width"
+]);
+const servingsAdvancedDefaults = {
+  diameter: 0,
+  height: 0,
+  length: 0,
+  shape: "round",
+  unit: "inch",
+  width: 0
+} as const;
+const servingsAdvancedShapes = new Set(["round", "rectangle"]);
+const servingsAdvancedUnits = new Set(["inch", "cm"]);
 const allowedInstructionGroupKeys = new Set(["instructions", "name", "uid"]);
 const allowedInstructionKeys = new Set([
   "uid",
@@ -450,6 +469,196 @@ function numericReference(value: PhpValue | undefined): string | null {
   return null;
 }
 
+function mapWprmEquipment(
+  raw: string | undefined,
+  limits: WprmImportLimits
+) {
+  if (raw === undefined || raw.trim().length === 0) {
+    return { equipment: null, unsupported: false };
+  }
+  const root = parseStructured(raw, limits, "malformed-wprm-meta");
+  if (root === null || typeof root !== "object") {
+    throw new WprmMappingError(["malformed-wprm-meta"]);
+  }
+  const equipment: Array<{
+    sourceIndex: number;
+    sourceId: string;
+    name: string;
+    amount: string | null;
+    notes: string | null;
+  }> = [];
+  let unsupported = false;
+  for (const [sourceIndex, rawItem] of orderedValues(root).entries()) {
+    if (!isObject(rawItem)) {
+      throw new WprmMappingError(["malformed-wprm-meta"]);
+    }
+    unsupported ||= hasUnsupportedKeys(rawItem, allowedEquipmentKeys);
+    const sourceId = numericReference(valueAt(rawItem, "id"));
+    const name = nonEmptyText(valueAt(rawItem, "name"));
+    if (sourceId === null || name === null) {
+      throw new WprmMappingError(["malformed-wprm-meta"]);
+    }
+    equipment.push({
+      sourceIndex,
+      sourceId,
+      name,
+      amount: nonEmptyText(valueAt(rawItem, "amount")),
+      notes: nonEmptyText(valueAt(rawItem, "notes"))
+    });
+  }
+  return { equipment, unsupported };
+}
+
+function nonnegativeFiniteNumber(value: PhpValue | undefined) {
+  if (
+    typeof value === "number"
+    && Number.isFinite(value)
+    && value >= 0
+    && value <= Number.MAX_SAFE_INTEGER
+  ) {
+    return value;
+  }
+  if (
+    typeof value === "string"
+    && /^(?:\d+(?:\.\d+)?|\.\d+)$/u.test(value.trim())
+  ) {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) && parsed >= 0 && parsed <= Number.MAX_SAFE_INTEGER
+      ? parsed
+      : null;
+  }
+  return null;
+}
+
+function structuralText(
+  value: PhpValue | undefined,
+  fallback: string,
+  supported: ReadonlySet<string>
+) {
+  if (value === undefined) {
+    return { value: fallback, unsupported: false };
+  }
+  if (typeof value !== "string" || value.trim().length === 0) {
+    return { value: null, unsupported: false };
+  }
+  return {
+    value,
+    unsupported: !supported.has(value)
+  };
+}
+
+export function parseWprmServingsAdvancedEnabled(raw: string | undefined) {
+  if (raw === undefined) {
+    return { enabled: false, issueCode: null };
+  }
+  const normalized = raw.trim().toLowerCase();
+  if (normalized === "" || ["0", "false", "no", "off"].includes(normalized)) {
+    return { enabled: false, issueCode: null };
+  }
+  if (["1", "true", "yes", "on"].includes(normalized)) {
+    return { enabled: true, issueCode: null };
+  }
+  return {
+    enabled: null,
+    issueCode: "malformed-wprm-servings-advanced-enabled" as const
+  };
+}
+
+function mapWprmServingsAdvanced(
+  raw: string | undefined,
+  enabled: boolean | null,
+  limits: WprmImportLimits
+) {
+  if (raw === undefined || raw.trim().length === 0) {
+    return {
+      servingsAdvanced: enabled === true ? { ...servingsAdvancedDefaults } : null,
+      unsupported: false
+    };
+  }
+  const parsed = parseStructured(raw, limits, "malformed-wprm-servings-advanced");
+  if (!isObject(parsed)) {
+    throw new WprmMappingError(["malformed-wprm-servings-advanced"]);
+  }
+  const unsupportedKey = Object.keys(parsed).some(
+    (key) => !allowedServingsAdvancedKeys.has(key)
+  );
+  const shape = structuralText(
+    valueAt(parsed, "shape"),
+    servingsAdvancedDefaults.shape,
+    servingsAdvancedShapes
+  );
+  const unit = structuralText(
+    valueAt(parsed, "unit"),
+    servingsAdvancedDefaults.unit,
+    servingsAdvancedUnits
+  );
+  const diameter = parsed.diameter === undefined
+    ? servingsAdvancedDefaults.diameter
+    : nonnegativeFiniteNumber(parsed.diameter);
+  const height = parsed.height === undefined
+    ? servingsAdvancedDefaults.height
+    : nonnegativeFiniteNumber(parsed.height);
+  const length = parsed.length === undefined
+    ? servingsAdvancedDefaults.length
+    : nonnegativeFiniteNumber(parsed.length);
+  const width = parsed.width === undefined
+    ? servingsAdvancedDefaults.width
+    : nonnegativeFiniteNumber(parsed.width);
+  if (
+    shape.value === null
+    || unit.value === null
+    || diameter === null
+    || height === null
+    || length === null
+    || width === null
+  ) {
+    throw new WprmMappingError(["malformed-wprm-servings-advanced"]);
+  }
+  return {
+    servingsAdvanced: {
+      diameter,
+      height,
+      length,
+      shape: shape.value,
+      unit: unit.value,
+      width
+    },
+    unsupported: unsupportedKey || shape.unsupported || unit.unsupported
+  };
+}
+
+function nonEmptyMetaText(value: string | undefined) {
+  return value === undefined || value.trim().length === 0 ? null : value;
+}
+
+function mapNutritionAmount(value: string | undefined) {
+  const raw = nonEmptyMetaText(value);
+  if (raw === null) {
+    return null;
+  }
+  const normalized = raw.trim();
+  if (!/^(?:\d+(?:\.\d+)?|\.\d+)(?:e[+-]?\d+)?$/iu.test(normalized)) {
+    return { raw };
+  }
+  const parsed = Number(normalized);
+  return Number.isFinite(parsed) && parsed >= 0 && parsed <= Number.MAX_SAFE_INTEGER
+    ? { raw, value: parsed }
+    : { raw };
+}
+
+function mapWprmNutrition(values: ReadonlyMap<string, string>) {
+  const calories = mapNutritionAmount(values.get("wprm_nutrition_calories"));
+  const servingSize = mapNutritionAmount(values.get("wprm_nutrition_serving_size"));
+  const servingUnit = nonEmptyMetaText(values.get("wprm_nutrition_serving_unit"));
+  return calories === null && servingSize === null && servingUnit === null
+    ? null
+    : {
+      calories,
+      servingSize,
+      servingUnit
+    };
+}
+
 function mapInstructions(
   raw: string | undefined,
   limits: WprmImportLimits
@@ -750,6 +959,7 @@ export function mapWprmRecipeCandidate(
     throw new WprmMappingError(["missing-wprm-metadata"]);
   }
   const codes = new Set<WprmIssueCode>();
+  const values = meta.values;
   if (meta.duplicateKeys.size > 0) {
     codes.add("duplicate-singular-meta");
   }
@@ -781,18 +991,45 @@ export function mapWprmRecipeCandidate(
   if (meta.unsupportedKeys.size > 0) {
     codes.add("unsupported-wprm-field");
   }
-  const ingredients = mapIngredients(meta.values.get("wprm_ingredients"), limits);
-  const instructions = mapInstructions(meta.values.get("wprm_instructions"), limits);
-  if (ingredients.unsupported || instructions.unsupported) {
+  const wprmType = meta.wprmType;
+  if (wprmType.classification === "food") {
+    codes.add("excluded-wprm-type");
+  } else if (wprmType.classification === "malformed") {
+    codes.add("malformed-wprm-type");
+  } else {
+    codes.add("unsupported-wprm-type");
+  }
+  const ingredients = mapIngredients(values.get("wprm_ingredients"), limits);
+  const instructions = mapInstructions(values.get("wprm_instructions"), limits);
+  const equipment = mapWprmEquipment(values.get("wprm_equipment"), limits);
+  const servingsAdvancedEnabled = parseWprmServingsAdvancedEnabled(
+    values.get("wprm_servings_advanced_enabled")
+  );
+  const servingsAdvanced = mapWprmServingsAdvanced(
+    values.get("wprm_servings_advanced"),
+    servingsAdvancedEnabled.enabled,
+    limits
+  );
+  if (servingsAdvancedEnabled.issueCode !== null) {
+    codes.add(servingsAdvancedEnabled.issueCode);
+  }
+  if (
+    ingredients.unsupported
+    || instructions.unsupported
+    || equipment.unsupported
+  ) {
     codes.add("unsupported-wprm-field");
   }
+  if (servingsAdvanced.unsupported) {
+    codes.add("unsupported-wprm-servings-advanced");
+  }
   const heroReference = numericReference(
-    meta.values.get("_thumbnail_id") ?? undefined
+    values.get("_thumbnail_id") ?? undefined
   );
   if (
-    meta.values.has("_thumbnail_id")
-    && meta.values.get("_thumbnail_id")?.trim() !== ""
-    && meta.values.get("_thumbnail_id")?.trim() !== "0"
+    values.has("_thumbnail_id")
+    && values.get("_thumbnail_id")?.trim() !== ""
+    && values.get("_thumbnail_id")?.trim() !== "0"
     && heroReference === null
   ) {
     throw new WprmMappingError(["missing-attachment"]);
@@ -838,10 +1075,10 @@ export function mapWprmRecipeCandidate(
     throw new WprmMappingError(["source-limit"]);
   }
   const servings = parseWprmQuantity(
-    meta.values.get("wprm_servings") ?? null,
-    meta.values.get("wprm_servings_unit") ?? null
+    values.get("wprm_servings") ?? null,
+    values.get("wprm_servings_unit") ?? null
   );
-  const values = meta.values;
+  const nutrition = mapWprmNutrition(values);
   const record = recipeRecordSchema.parse({
     schemaVersion: 1,
     kind: "recipe",
@@ -862,7 +1099,9 @@ export function mapWprmRecipeCandidate(
       editorialPostType: parent?.type ?? null,
       editorialSourceSlug: parent?.slug ?? null,
       editorialCreatedAt,
-      editorialModifiedAt
+      editorialModifiedAt,
+      wprmType: wprmType.classification,
+      wprmTypePresent: wprmType.present
     },
     redirectFrom: [],
     title,
@@ -883,6 +1122,12 @@ export function mapWprmRecipeCandidate(
         ? values.get("wprm_notes")!
         : null,
       servings,
+      servingsAdvancedEnabled: servingsAdvancedEnabled.enabled,
+      ...(nutrition === null ? {} : { nutrition }),
+      ...(servingsAdvanced.servingsAdvanced === null
+        ? {}
+        : { servingsAdvanced: servingsAdvanced.servingsAdvanced }),
+      ...(equipment.equipment === null ? {} : { equipment: equipment.equipment }),
       times: {
         prep: mapDuration(
           values.get("wprm_prep_time"),

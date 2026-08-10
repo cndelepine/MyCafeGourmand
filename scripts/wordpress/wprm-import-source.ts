@@ -27,7 +27,8 @@ import {
   type WprmImportLimitsInput,
   type WprmSourceGraph,
   type WprmSourceMetadata,
-  type WprmSourceSnapshot
+  type WprmSourceSnapshot,
+  wprmTypeProvenance
 } from "./wprm-import-contracts";
 import {
   inventoryUploadArchives,
@@ -49,7 +50,21 @@ const wprmMetaKeys = new Set([
   "wprm_custom_time",
   "wprm_custom_time_zero",
   "wprm_custom_time_label",
-  "wprm_notes"
+  "wprm_notes",
+  "wprm_equipment",
+  "wprm_nutrition_calories",
+  "wprm_nutrition_serving_size",
+  "wprm_nutrition_serving_unit",
+  "wprm_servings_advanced_enabled",
+  "wprm_servings_advanced"
+]);
+
+const wprmExcludedMetaKeys = new Set([
+  "wprm_author_name",
+  "wprm_pin_image_id",
+  "wprm_pin_image_repin_id",
+  "wprm_type",
+  "wprm_video_id"
 ]);
 
 const wprmOperationalMetaKeys = new Set([
@@ -428,9 +443,17 @@ interface RawWprmMetaBuilder {
   readonly values: Map<string, string>;
   readonly duplicateKeys: Set<string>;
   readonly unsupportedKeys: Set<string>;
+  wprmType: RawWprmMeta["wprmType"];
   readonly oldSlugs: string[];
   excludedRatingData: number;
   excludedOperationalData: number;
+  excludedAuthorData: number;
+  excludedSocialMediaData: number;
+  excludedVideoData: number;
+  excludedWprmType: number;
+  pinImageFieldsWithoutReference: number;
+  resolvedPinImageReferences: number;
+  unresolvedPinImageReferences: number;
 }
 
 interface RawAttachmentMetaBuilder {
@@ -446,9 +469,17 @@ function createWprmBuilder(): RawWprmMetaBuilder {
     values: new Map(),
     duplicateKeys: new Set(),
     unsupportedKeys: new Set(),
+    wprmType: wprmTypeProvenance(undefined),
     oldSlugs: [],
     excludedRatingData: 0,
-    excludedOperationalData: 0
+    excludedOperationalData: 0,
+    excludedAuthorData: 0,
+    excludedSocialMediaData: 0,
+    excludedVideoData: 0,
+    excludedWprmType: 0,
+    pinImageFieldsWithoutReference: 0,
+    resolvedPinImageReferences: 0,
+    unresolvedPinImageReferences: 0
   };
 }
 
@@ -467,7 +498,10 @@ function looksLikeRatingOrComment(key: string) {
 }
 
 function isWprmUnsupportedKey(key: string) {
-  return key.startsWith("wprm_") && !wprmMetaKeys.has(key);
+  return key.startsWith("wprm_")
+    && !wprmMetaKeys.has(key)
+    && !wprmExcludedMetaKeys.has(key)
+    && !wprmOperationalMetaKeys.has(key);
 }
 
 function isWpurSignalKey(key: string) {
@@ -483,6 +517,56 @@ function numericReferenceValue(value: unknown) {
     return value.trim();
   }
   return null;
+}
+
+function classifyExcludedWprmMetadata(
+  builder: RawWprmMetaBuilder,
+  key: string,
+  value: string,
+  rawValue: string | null,
+  graph: WprmSourceGraph
+) {
+  const trimmed = value.trim();
+  if (key === "wprm_type") {
+    if (builder.wprmType.present) {
+      builder.duplicateKeys.add(key);
+    } else {
+      builder.wprmType = wprmTypeProvenance(rawValue);
+    }
+    if (trimmed.length > 0) {
+      builder.excludedWprmType += 1;
+    }
+    return;
+  }
+  if (trimmed.length === 0) {
+    return;
+  }
+  if (key === "wprm_author_name") {
+    builder.excludedAuthorData += 1;
+    return;
+  }
+  if (key === "wprm_pin_image_id") {
+    builder.excludedSocialMediaData += 1;
+    if (trimmed === "0") {
+      builder.pinImageFieldsWithoutReference += 1;
+      return;
+    }
+    const attachmentId = numericReferenceValue(trimmed);
+    if (attachmentId !== null && graph.attachments.has(attachmentId)) {
+      builder.resolvedPinImageReferences += 1;
+    } else {
+      builder.unresolvedPinImageReferences += 1;
+    }
+    return;
+  }
+  if (key === "wprm_pin_image_repin_id") {
+    builder.excludedSocialMediaData += 1;
+    return;
+  }
+  if (key === "wprm_video_id") {
+    builder.excludedVideoData += 1;
+    return;
+  }
 }
 
 function countStructuredImageReferences(
@@ -601,6 +685,8 @@ function metadataHandlers(
           builder.excludedRatingData += 1;
         } else if (wprmOperationalMetaKeys.has(key)) {
           builder.excludedOperationalData += 1;
+        } else if (wprmExcludedMetaKeys.has(key)) {
+          classifyExcludedWprmMetadata(builder, key, value, rawValue ?? null, graph);
         } else if (wprmMetaKeys.has(key)) {
           rememberSingular(builder.values, builder.duplicateKeys, key, value);
         } else if (isWprmUnsupportedKey(key) && value.trim().length > 0) {
@@ -658,8 +744,16 @@ function freezeWprmBuilder(builder: RawWprmMetaBuilder): RawWprmMeta {
     values: builder.values,
     duplicateKeys: builder.duplicateKeys,
     unsupportedKeys: builder.unsupportedKeys,
+    wprmType: builder.wprmType,
     excludedRatingData: builder.excludedRatingData,
     excludedOperationalData: builder.excludedOperationalData,
+    excludedAuthorData: builder.excludedAuthorData,
+    excludedSocialMediaData: builder.excludedSocialMediaData,
+    excludedVideoData: builder.excludedVideoData,
+    excludedWprmType: builder.excludedWprmType,
+    pinImageFieldsWithoutReference: builder.pinImageFieldsWithoutReference,
+    resolvedPinImageReferences: builder.resolvedPinImageReferences,
+    unresolvedPinImageReferences: builder.unresolvedPinImageReferences,
     oldSlugs: builder.oldSlugs
   };
 }

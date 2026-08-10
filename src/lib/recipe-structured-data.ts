@@ -19,6 +19,11 @@ export type RecipeStructuredData = {
   cookTime?: string;
   totalTime?: string;
   recipeCategory?: string[];
+  nutrition?: {
+    "@type": "NutritionInformation";
+    calories?: string;
+    servingSize?: string;
+  };
   inLanguage: Locale;
   url: string;
   datePublished?: string;
@@ -48,6 +53,26 @@ export function getRecipeStructuredData(
   const categories = record.taxonomies
     .filter((taxonomy) => taxonomy.taxonomy === "category")
     .map((taxonomy) => taxonomy.name);
+  const nutrition = record.recipe.nutrition;
+  const servingSize = nutrition?.servingSize
+    ? [nutrition.servingSize.raw, nutrition.servingUnit]
+      .filter((value): value is string => value !== null)
+      .join(" ")
+    : undefined;
+  const calorieValue = nutrition?.calories?.value;
+  const calories = typeof calorieValue === "number"
+    && Number.isFinite(calorieValue)
+    && calorieValue >= 0
+    ? `${String(calorieValue)} calories`
+    : undefined;
+  const structuredNutrition = nutrition
+    && (calories !== undefined || servingSize !== undefined)
+    ? {
+      "@type": "NutritionInformation" as const,
+      ...(calories !== undefined ? { calories } : {}),
+      ...(servingSize !== undefined ? { servingSize } : {})
+    }
+    : undefined;
 
   return {
     "@context": "https://schema.org",
@@ -73,6 +98,7 @@ export function getRecipeStructuredData(
       ? { totalTime: toIsoDuration(record.recipe.times.total.minutes) }
       : {}),
     ...(categories.length > 0 ? { recipeCategory: categories } : {}),
+    ...(structuredNutrition ? { nutrition: structuredNutrition } : {}),
     inLanguage: record.locale,
     url: canonicalUrl(getRecipePath(record)),
     ...(record.source.createdAt

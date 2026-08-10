@@ -50,6 +50,45 @@ export const durationSchema = z.strictObject({
   minutes: z.number().int().nonnegative().nullable()
 });
 
+export const nutritionAmountSchema = z.strictObject({
+  raw: z.string().min(1),
+  value: z.number().nonnegative().optional()
+});
+
+export const nutritionSchema = z.strictObject({
+  calories: nutritionAmountSchema.nullable(),
+  servingSize: nutritionAmountSchema.nullable(),
+  servingUnit: z.string().min(1).nullable()
+}).superRefine((nutrition, context) => {
+  if (
+    nutrition.calories === null
+    && nutrition.servingSize === null
+    && nutrition.servingUnit === null
+  ) {
+    context.addIssue({
+      code: "custom",
+      message: "Nutrition must contain at least one source value."
+    });
+  }
+});
+
+export const equipmentItemSchema = z.strictObject({
+  sourceIndex: z.number().int().nonnegative(),
+  sourceId: z.string().regex(/^\d+$/),
+  name: z.string().min(1),
+  amount: z.string().min(1).nullable(),
+  notes: z.string().min(1).nullable()
+});
+
+export const servingsAdvancedSchema = z.strictObject({
+  diameter: z.number().nonnegative(),
+  height: z.number().nonnegative(),
+  length: z.number().nonnegative(),
+  shape: z.string().min(1),
+  unit: z.string().min(1),
+  width: z.number().nonnegative()
+});
+
 export const mediaAssetSchema = z.strictObject({
   id: z.string().min(1),
   sourceId: z.string().min(1).nullable(),
@@ -105,7 +144,9 @@ export const recipeRecordSchema = z.strictObject({
     editorialPostType: z.string().min(1).nullable(),
     editorialSourceSlug: z.string().min(1).nullable(),
     editorialCreatedAt: z.string().datetime({ offset: true }).nullable(),
-    editorialModifiedAt: z.string().datetime({ offset: true }).nullable()
+    editorialModifiedAt: z.string().datetime({ offset: true }).nullable(),
+    wprmType: z.enum(["food", "howto", "other", "unknown", "malformed"]).optional(),
+    wprmTypePresent: z.boolean().optional()
   }),
   redirectFrom: z.array(redirectFromPathSchema),
   title: z.string().min(1),
@@ -125,6 +166,10 @@ export const recipeRecordSchema = z.strictObject({
   recipe: z.strictObject({
     notes: z.string().min(1).nullable(),
     servings: quantitySchema.nullable(),
+    servingsAdvancedEnabled: z.boolean().nullable().optional(),
+    nutrition: nutritionSchema.nullable().optional(),
+    servingsAdvanced: servingsAdvancedSchema.nullable().optional(),
+    equipment: z.array(equipmentItemSchema).nullable().optional(),
     times: z.strictObject({
       prep: durationSchema.nullable(),
       cook: durationSchema.nullable(),
@@ -235,4 +280,8 @@ export const recipeRecordSchema = z.strictObject({
 
 export type Locale = z.infer<typeof localeSchema>;
 export type Quantity = z.infer<typeof quantitySchema>;
+export type NutritionAmount = z.infer<typeof nutritionAmountSchema>;
+export type Nutrition = z.infer<typeof nutritionSchema>;
+export type EquipmentItem = z.infer<typeof equipmentItemSchema>;
+export type ServingsAdvanced = z.infer<typeof servingsAdvancedSchema>;
 export type RecipeRecord = z.infer<typeof recipeRecordSchema>;

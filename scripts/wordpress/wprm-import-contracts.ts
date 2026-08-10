@@ -39,6 +39,15 @@ export type WprmIssueCode =
   | "invalid-taxonomy-membership"
   | "excluded-rating-data"
   | "excluded-operational-data"
+  | "excluded-author-data"
+  | "excluded-social-media-data"
+  | "excluded-video-data"
+  | "excluded-wprm-type"
+  | "unsupported-wprm-type"
+  | "malformed-wprm-type"
+  | "unsupported-wprm-servings-advanced"
+  | "malformed-wprm-servings-advanced"
+  | "malformed-wprm-servings-advanced-enabled"
   | "unsupported-wprm-post"
   | "missing-wprm-metadata"
   | "malformed-wprm-meta"
@@ -127,9 +136,64 @@ export interface RawWprmMeta {
   readonly values: ReadonlyMap<string, string>;
   readonly duplicateKeys: ReadonlySet<string>;
   readonly unsupportedKeys: ReadonlySet<string>;
+  readonly wprmType: WprmTypeProvenance;
   readonly excludedRatingData: number;
   readonly excludedOperationalData: number;
+  readonly excludedAuthorData: number;
+  readonly excludedSocialMediaData: number;
+  readonly excludedVideoData: number;
+  readonly excludedWprmType: number;
+  readonly pinImageFieldsWithoutReference: number;
+  readonly resolvedPinImageReferences: number;
+  readonly unresolvedPinImageReferences: number;
   readonly oldSlugs: readonly string[];
+}
+
+export type WprmTypeClassification =
+  | "food"
+  | "howto"
+  | "other"
+  | "unknown"
+  | "malformed";
+
+export interface WprmTypeProvenance {
+  readonly present: boolean;
+  readonly raw: string | null;
+  readonly classification: WprmTypeClassification;
+}
+
+export function classifyWprmType(
+  raw: string | null | undefined
+): WprmTypeClassification {
+  if (raw === undefined) {
+    return "food";
+  }
+  if (raw === null || raw.length === 0 || /[\u0000-\u001f\u007f]/u.test(raw)) {
+    return "malformed";
+  }
+  if (raw === "food") {
+    return "food";
+  }
+  if (raw === "howto") {
+    return "howto";
+  }
+  if (raw === "other" || raw === "non-food") {
+    return "other";
+  }
+  if (/^(?:a|b|d|i|o|r|s|c):/iu.test(raw) || /^[\[{]/u.test(raw)) {
+    return "malformed";
+  }
+  return "unknown";
+}
+
+export function wprmTypeProvenance(
+  raw: string | null | undefined
+): WprmTypeProvenance {
+  return {
+    present: raw !== undefined,
+    raw: raw ?? null,
+    classification: classifyWprmType(raw)
+  };
 }
 
 export interface RawAttachmentMeta {
@@ -194,6 +258,7 @@ export interface RedirectManifest {
 
 export interface WprmAggregateReconciliation {
   readonly wprmPosts: number;
+  readonly nonpublishRecipes: number;
   readonly usableParents: number;
   readonly missingParents: number;
   readonly provenParentGroups: number;
@@ -206,6 +271,15 @@ export interface WprmAggregateReconciliation {
   readonly matchedAttachments: number;
   readonly redirectCandidates: number;
   readonly acceptedRedirects: number;
+  readonly nonLaunchFields: {
+    readonly authorNamesExcluded: number;
+    readonly pinImageFieldsExcluded: number;
+    readonly pinImageFieldsWithoutReference: number;
+    readonly resolvedPinImageReferences: number;
+    readonly unresolvedPinImageReferences: number;
+    readonly videoFieldsExcluded: number;
+    readonly opaqueTypesExcluded: number;
+  };
 }
 
 export interface WprmSafeManifest {
@@ -245,7 +319,7 @@ export interface WprmSafeManifest {
   };
 }
 
-export const wprmImportContractVersion = "wprm-bulk-import-v1";
+export const wprmImportContractVersion = "wprm-bulk-import-v3";
 
 export interface WprmStagingMarker {
   readonly schemaVersion: 1;
@@ -311,6 +385,15 @@ export function isWprmImportIssueCode(value: string): value is WprmIssueCode {
     "invalid-taxonomy-membership",
     "excluded-rating-data",
     "excluded-operational-data",
+    "excluded-author-data",
+    "excluded-social-media-data",
+    "excluded-video-data",
+    "excluded-wprm-type",
+    "unsupported-wprm-type",
+    "malformed-wprm-type",
+    "unsupported-wprm-servings-advanced",
+    "malformed-wprm-servings-advanced",
+    "malformed-wprm-servings-advanced-enabled",
     "unsupported-wprm-post",
     "missing-wprm-metadata",
     "malformed-wprm-meta",
