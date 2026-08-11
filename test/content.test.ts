@@ -20,8 +20,8 @@ test("the production catalog passes the canonical schema", () => {
     ])
   );
 
-  assert.equal(validated.length, 517);
-  assert.deepEqual(localeCounts, { en: 160, fr: 171, ru: 186 });
+  assert.equal(validated.length, 519);
+  assert.deepEqual(localeCounts, { en: 161, fr: 171, ru: 187 });
   assert.equal(new Set(validated.map((record) => record.id)).size, validated.length);
   assert.equal(
     validated.every((record) => record.schemaVersion === 1 && record.kind === "recipe"),

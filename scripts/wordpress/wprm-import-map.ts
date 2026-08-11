@@ -23,6 +23,7 @@ import {
   WprmRichTextNormalizationError
 } from "./html-to-text";
 import {
+  sourcePublicationIssueCode,
   WprmImportError,
   type WprmIssueCode,
   type WprmImportLimits,
@@ -985,16 +986,17 @@ export function mapWprmRecipeCandidate(
   if (post === undefined || post.type.toLowerCase() !== "wprm_recipe") {
     throw new WprmMappingError(["unsupported-wprm-post"]);
   }
-  if (post.status !== "publish") {
-    throw new WprmMappingError(["nonpublish-recipe"]);
+  const codes = new Set<WprmIssueCode>();
+  const publicationIssue = sourcePublicationIssueCode(post.status, "recipe");
+  if (publicationIssue !== null) {
+    codes.add(publicationIssue);
   }
   if (post.hasPassword) {
-    throw new WprmMappingError(["protected-source-post"]);
+    codes.add("protected-source-post");
   }
   if (meta === undefined) {
-    throw new WprmMappingError(["missing-wprm-metadata"]);
+    throw new WprmMappingError([...codes, "missing-wprm-metadata"]);
   }
-  const codes = new Set<WprmIssueCode>();
   const values = meta.values;
   if (meta.duplicateKeys.size > 0) {
     codes.add("duplicate-singular-meta");
@@ -1007,13 +1009,25 @@ export function mapWprmRecipeCandidate(
   );
   const locale = relations.locales.get(recipeId) ?? null;
   if (locale === null) {
-    throw new WprmMappingError(["missing-recipe-locale"]);
+    throw new WprmMappingError([...codes, "missing-recipe-locale"]);
   }
   const parentLink = relations.parentLinks.get(recipeId);
   const parent = parentLink?.parentId === null || parentLink?.parentId === undefined
     ? null
     : graph.posts.get(parentLink.parentId) ?? null;
   const parentUsable = parentLink?.parentKind === "usable" && parent !== null;
+  if (parentUsable && parent !== null) {
+    const parentPublicationIssue = sourcePublicationIssueCode(
+      parent.status,
+      "editorial-parent"
+    );
+    if (parentPublicationIssue !== null) {
+      codes.add(parentPublicationIssue);
+    }
+    if (parent.hasPassword) {
+      codes.add("protected-editorial-parent");
+    }
+  }
   const slug = recordSlug(
     post.slug,
     parentUsable ? parent?.slug ?? null : null,

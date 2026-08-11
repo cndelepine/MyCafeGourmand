@@ -20,6 +20,9 @@ import {
   openVerifiedUploadArchive
 } from "./uploads-media";
 import {
+  classifyWprmCandidateDisposition,
+  isInformationalWprmIssueCode,
+  sourcePublicationIssueCode,
   WprmImportError,
   mergeWprmImportLimits,
   type CandidateOutcome,
@@ -37,7 +40,11 @@ const fatalIssueCodes = new Set<WprmIssueCode>([
   "unsafe-canonical-slug",
   "canonical-slug-collision",
   "nonpublish-recipe",
+  "nonpublish-editorial-parent",
+  "unknown-recipe-status",
+  "unknown-editorial-parent-status",
   "protected-source-post",
+  "protected-editorial-parent",
   "missing-wprm-title",
   "malformed-wprm-rich-text",
   "rich-text-normalization-limit",
@@ -65,6 +72,8 @@ const reviewIssueCodes = new Set<WprmIssueCode>([
   "incomplete-parent-translation",
   "multiple-recipes-for-editorial-member",
   "invalid-parent-group-locale",
+  "duplicate-parent-group-locale",
+  "ambiguous-parent-translation-group",
   "timestamp-without-gmt",
   "unsupported-wprm-field",
   "unsupported-wprm-type",
@@ -76,20 +85,11 @@ const reviewIssueCodes = new Set<WprmIssueCode>([
   "old-slug-candidate"
 ]);
 
-const informationalIssueCodes = new Set<WprmIssueCode>([
-  "excluded-rating-data",
-  "excluded-operational-data",
-  "excluded-author-data",
-  "excluded-social-media-data",
-  "excluded-video-data",
-  "excluded-wprm-type"
-]);
-
 function issueCode(value: string): WprmIssueCode {
   if (
     fatalIssueCodes.has(value as WprmIssueCode)
     || reviewIssueCodes.has(value as WprmIssueCode)
-    || informationalIssueCodes.has(value as WprmIssueCode)
+    || isInformationalWprmIssueCode(value as WprmIssueCode)
   ) {
     return value as WprmIssueCode;
   }
@@ -146,6 +146,44 @@ function mappingCodes(error: unknown): readonly WprmIssueCode[] {
     return [issueCode(error.code)];
   }
   return ["malformed-wprm-meta"];
+}
+
+function sourceBoundaryCodes(
+  recipeId: string,
+  snapshot: Awaited<ReturnType<typeof extractWprmSource>>,
+  relations: ReturnType<typeof deriveWprmRelations>
+) {
+  const codes = new Set<WprmIssueCode>();
+  const recipe = snapshot.graph.posts.get(recipeId);
+  if (recipe === undefined) {
+    return codes;
+  }
+  const recipePublicationIssue = sourcePublicationIssueCode(recipe.status, "recipe");
+  if (recipePublicationIssue !== null) {
+    codes.add(recipePublicationIssue);
+  }
+  if (recipe.hasPassword) {
+    codes.add("protected-source-post");
+  }
+  const parentLink = relations.parentLinks.get(recipeId);
+  if (parentLink?.parentKind !== "usable" || parentLink.parentId === null) {
+    return codes;
+  }
+  const parent = snapshot.graph.posts.get(parentLink.parentId);
+  if (parent === undefined) {
+    return codes;
+  }
+  const parentPublicationIssue = sourcePublicationIssueCode(
+    parent.status,
+    "editorial-parent"
+  );
+  if (parentPublicationIssue !== null) {
+    codes.add(parentPublicationIssue);
+  }
+  if (parent.hasPassword) {
+    codes.add("protected-editorial-parent");
+  }
+  return codes;
 }
 
 function sourceSummary(snapshot: Awaited<ReturnType<typeof extractWprmSource>>) {
@@ -221,8 +259,14 @@ function createManifest(
     }));
   const source = sourceSummary(snapshot);
   const nonLaunchFields = nonLaunchFieldReconciliation(snapshot);
+  const publicationExcludedCandidates = outcomes.filter((outcome) =>
+    classifyWprmCandidateDisposition(outcome.codes) === "publication-excluded"
+  ).length;
+  const integrityBlockingCandidates = outcomes.filter((outcome) =>
+    classifyWprmCandidateDisposition(outcome.codes) === "integrity-blocking"
+  ).length;
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     kind: "wprm-bulk-import-manifest",
     source,
     candidates: {
@@ -240,6 +284,8 @@ function createManifest(
       nonpublishRecipes: outcomes.filter((outcome) =>
         outcome.codes.includes("nonpublish-recipe")
       ).length,
+      publicationExcludedCandidates,
+      integrityBlockingCandidates,
       usableParents: relations.usableParentRecipes,
       missingParents: relations.missingParentRecipes,
       provenParentGroups: relations.provenParentGroups,
@@ -446,7 +492,10 @@ export async function runWprmBulkImport(
     .sort(numericIdSort);
   const mapped: CandidateOutcome[] = [];
   for (const recipeId of recipeIds) {
-    const codes = new Set<WprmIssueCode>(relationIssues(relations, recipeId));
+    const codes = new Set<WprmIssueCode>([
+      ...relationIssues(relations, recipeId),
+      ...sourceBoundaryCodes(recipeId, snapshot, relations)
+    ]);
     let record: CandidateOutcome["record"] = null;
     try {
       const result = mapWprmRecipeCandidate(

@@ -76,6 +76,72 @@ function numericSort(left: string, right: string) {
       : left.localeCompare(right);
 }
 
+interface PostTranslationGroup {
+  readonly taxonomyId: string;
+  readonly members: readonly string[];
+  readonly editorialMembers: readonly string[];
+  readonly directWprm: readonly string[];
+  readonly directWpur: readonly string[];
+  readonly relatedRecipes: readonly string[];
+}
+
+function sameGroupMembers(
+  left: readonly string[],
+  right: readonly string[]
+) {
+  return left.length === right.length
+    && left.every((member, index) => member === right[index]);
+}
+
+function overlappingPostTranslationGroups(
+  groups: readonly PostTranslationGroup[]
+) {
+  const groupsByEditorialMember = new Map<string, number[]>();
+  for (const [index, group] of groups.entries()) {
+    for (const member of group.editorialMembers) {
+      const indexes = groupsByEditorialMember.get(member) ?? [];
+      indexes.push(index);
+      groupsByEditorialMember.set(member, indexes);
+    }
+  }
+
+  const components: PostTranslationGroup[][] = [];
+  const visited = new Set<number>();
+  for (let index = 0; index < groups.length; index += 1) {
+    if (visited.has(index)) {
+      continue;
+    }
+    const component: PostTranslationGroup[] = [];
+    const pending = [index];
+    visited.add(index);
+    while (pending.length > 0) {
+      const current = pending.shift();
+      if (current === undefined) {
+        continue;
+      }
+      const group = groups[current];
+      if (group === undefined) {
+        continue;
+      }
+      component.push(group);
+      const adjacent = new Set<number>();
+      for (const member of group.editorialMembers) {
+        for (const adjacentIndex of groupsByEditorialMember.get(member) ?? []) {
+          adjacent.add(adjacentIndex);
+        }
+      }
+      for (const adjacentIndex of [...adjacent].sort((left, right) => left - right)) {
+        if (!visited.has(adjacentIndex)) {
+          visited.add(adjacentIndex);
+          pending.push(adjacentIndex);
+        }
+      }
+    }
+    components.push(component);
+  }
+  return components;
+}
+
 function localeTerms(graph: WprmSourceGraph) {
   const localeByPost = new Map<string, Locale>();
   const conflicting = new Set<string>();
@@ -103,7 +169,7 @@ function localeTerms(graph: WprmSourceGraph) {
 
 function parentIdFor(
   recipeId: string,
-  metadata: WprmSourceMetadata,
+  metadata: Pick<WprmSourceMetadata, "wprm">,
   issues: Map<string, Set<WprmIssueCode>>
 ) {
   const raw = metadata.wprm.get(recipeId)?.values.get("wprm_parent_post_id");
@@ -296,7 +362,7 @@ function classifyRedirects(
 
 export function deriveWprmRelations(
   graph: WprmSourceGraph,
-  metadata: WprmSourceMetadata,
+  metadata: Pick<WprmSourceMetadata, "wprm" | "wpurSignals">,
   limits: WprmImportLimits
 ): WprmRelations {
   const { localeByPost, conflicting } = localeTerms(graph);
@@ -363,8 +429,11 @@ export function deriveWprmRelations(
     .filter(([, taxonomy]) => taxonomy.taxonomy.toLowerCase() === "post_translations")
     .sort(([left], [right]) => numericSort(left, right));
 
-  for (const [taxonomyId] of groups) {
+  const postTranslationGroups: PostTranslationGroup[] = groups.map(([taxonomyId]) => {
     const members = [...(graph.relationships.get(taxonomyId) ?? [])].sort(numericSort);
+    const editorialMembers = members.filter((member) =>
+      isEditorial(graph.posts.get(member)?.type ?? "")
+    );
     const directWprm = members.filter((member) =>
       graph.posts.get(member)?.type.toLowerCase() === "wprm_recipe"
     );
@@ -374,30 +443,64 @@ export function deriveWprmRelations(
       metadata.wpurSignals.get(member)?.has("recipe_ingredients") === true
       && metadata.wpurSignals.get(member)?.has("recipe_instructions") === true
     );
-    if (members.length > 0 && directWprm.length === members.length) {
-      directWprmGroups += 1;
-      for (const recipeId of directWprm) {
-        addIssue(issues, recipeId, "invalid-parent-group-locale");
-      }
+    const relatedRecipes = [...new Set(
+      editorialMembers.flatMap((member) => parentRecipes.get(member) ?? [])
+    )].sort(numericSort);
+    return {
+      taxonomyId,
+      members,
+      editorialMembers,
+      directWprm,
+      directWpur,
+      relatedRecipes
+    };
+  });
+  const ambiguousGroupIds = new Set<string>();
+  for (const component of overlappingPostTranslationGroups(postTranslationGroups)) {
+    const firstMembers = component[0]?.members;
+    // Exact duplicate memberships retain the existing duplicate semantics.
+    if (
+      firstMembers === undefined
+      || component.every((group) => sameGroupMembers(firstMembers, group.members))
+    ) {
       continue;
     }
-    if (members.length > 0 && directWpur.length === members.length) {
-      continue;
+    for (const group of component) {
+      ambiguousGroupIds.add(group.taxonomyId);
     }
-    if (directWprm.length > 0 || directWpur.length > 0) {
-      for (const recipeId of [...directWprm, ...directWpur]) {
-        if (graph.posts.get(recipeId)?.type.toLowerCase() === "wprm_recipe") {
-          addIssue(issues, recipeId, "invalid-parent-group-locale");
-        }
-      }
-      continue;
-    }
+  }
 
-    const editorialMembers = members.filter((member) => isEditorial(graph.posts.get(member)?.type ?? ""));
+  for (const group of postTranslationGroups) {
+    const {
+      taxonomyId,
+      members,
+      editorialMembers,
+      directWprm,
+      directWpur,
+      relatedRecipes
+    } = group;
     const recipeCounts = editorialMembers.map((member) => parentRecipes.get(member)?.length ?? 0);
     const hasMissing = recipeCounts.some((count) => count === 0);
     const hasMultiple = recipeCounts.some((count) => count > 1);
-    const relatedRecipes = editorialMembers.flatMap((member) => parentRecipes.get(member) ?? []);
+    const ambiguous = ambiguousGroupIds.has(taxonomyId);
+
+    if (ambiguous) {
+      for (const recipeId of [...new Set([...directWprm, ...relatedRecipes])]) {
+        addIssue(issues, recipeId, "ambiguous-parent-translation-group");
+      }
+      for (const recipeId of relatedRecipes) {
+        recipesInParentTranslationGroups.add(recipeId);
+      }
+    }
+    if (directWprm.length > 0 || directWpur.length > 0) {
+      if (directWprm.length > 0) {
+        directWprmGroups += 1;
+      }
+      for (const recipeId of [...new Set([...directWprm, ...relatedRecipes])]) {
+        addIssue(issues, recipeId, "ambiguous-parent-translation-group");
+      }
+      continue;
+    }
     if (relatedRecipes.length === 0) {
       continue;
     }
@@ -407,9 +510,20 @@ export function deriveWprmRelations(
     const invalidLocale = members.some((member) =>
       !localeByPost.has(member) || conflicting.has(member)
     );
-    if (invalidLocale) {
+    const groupLocales = members.map((member) => localeByPost.get(member));
+    const duplicateLocale = new Set(groupLocales).size !== groupLocales.length;
+    const containsNoneditorialMember = editorialMembers.length !== members.length;
+    if (invalidLocale || duplicateLocale || containsNoneditorialMember) {
       for (const recipeId of relatedRecipes) {
-        addIssue(issues, recipeId, "invalid-parent-group-locale");
+        if (invalidLocale) {
+          addIssue(issues, recipeId, "invalid-parent-group-locale");
+        }
+        if (duplicateLocale) {
+          addIssue(issues, recipeId, "duplicate-parent-group-locale");
+        }
+        if (containsNoneditorialMember) {
+          addIssue(issues, recipeId, "ambiguous-parent-translation-group");
+        }
       }
       continue;
     }
@@ -422,6 +536,9 @@ export function deriveWprmRelations(
           hasMultiple ? "multiple-recipes-for-editorial-member" : "incomplete-parent-translation"
         );
       }
+      continue;
+    }
+    if (ambiguous) {
       continue;
     }
     provenParentGroups += 1;

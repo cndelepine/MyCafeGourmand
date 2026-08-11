@@ -19,11 +19,17 @@ export type WprmIssueCode =
   | "incomplete-parent-translation"
   | "multiple-recipes-for-editorial-member"
   | "invalid-parent-group-locale"
+  | "duplicate-parent-group-locale"
+  | "ambiguous-parent-translation-group"
   | "missing-recipe-locale"
   | "unsafe-canonical-slug"
   | "canonical-slug-collision"
   | "nonpublish-recipe"
+  | "nonpublish-editorial-parent"
+  | "unknown-recipe-status"
+  | "unknown-editorial-parent-status"
   | "protected-source-post"
+  | "protected-editorial-parent"
   | "timestamp-without-gmt"
   | "missing-wprm-title"
   | "malformed-wprm-rich-text"
@@ -57,6 +63,93 @@ export type WprmIssueCode =
   | "source-limit"
   | "redirect-candidate"
   | "old-slug-candidate";
+
+export type WordPressPublicationStatus =
+  | "published"
+  | "publication-excluded"
+  | "unknown";
+
+const knownNonPublishedWordPressStatuses = new Set([
+  "auto-draft",
+  "draft",
+  "future",
+  "inherit",
+  "pending",
+  "private",
+  "trash"
+]);
+
+const publicationExcludedIssueCodes = new Set<WprmIssueCode>([
+  "nonpublish-recipe",
+  "nonpublish-editorial-parent"
+]);
+
+const informationalIssueCodes = new Set<WprmIssueCode>([
+  "excluded-rating-data",
+  "excluded-operational-data",
+  "excluded-author-data",
+  "excluded-social-media-data",
+  "excluded-video-data",
+  "excluded-wprm-type"
+]);
+
+export function classifyWordPressPublicationStatus(
+  status: string
+): WordPressPublicationStatus {
+  if (status === "publish") {
+    return "published";
+  }
+  return knownNonPublishedWordPressStatuses.has(status)
+    ? "publication-excluded"
+    : "unknown";
+}
+
+export function sourcePublicationIssueCode(
+  status: string,
+  source: "recipe" | "editorial-parent"
+): WprmIssueCode | null {
+  const classification = classifyWordPressPublicationStatus(status);
+  if (classification === "published") {
+    return null;
+  }
+  if (classification === "publication-excluded") {
+    return source === "recipe"
+      ? "nonpublish-recipe"
+      : "nonpublish-editorial-parent";
+  }
+  return source === "recipe"
+    ? "unknown-recipe-status"
+    : "unknown-editorial-parent-status";
+}
+
+export function isPublicationExcludedIssueCode(code: WprmIssueCode) {
+  return publicationExcludedIssueCodes.has(code);
+}
+
+export function isInformationalWprmIssueCode(code: WprmIssueCode) {
+  return informationalIssueCodes.has(code);
+}
+
+export type WprmCandidateDisposition =
+  | "eligible"
+  | "publication-excluded"
+  | "integrity-blocking";
+
+export function classifyWprmCandidateDisposition(
+  codes: readonly WprmIssueCode[]
+): WprmCandidateDisposition {
+  if (
+    codes.some((code) =>
+      !isPublicationExcludedIssueCode(code)
+      && !isInformationalWprmIssueCode(code)
+    )
+  ) {
+    return "integrity-blocking";
+  }
+  return codes.some(isPublicationExcludedIssueCode)
+    ? "publication-excluded"
+    : "eligible";
+}
 
 export interface WprmImportLimits {
   readonly evidence: SourceEvidenceLimits;
@@ -261,6 +354,8 @@ export interface RedirectManifest {
 export interface WprmAggregateReconciliation {
   readonly wprmPosts: number;
   readonly nonpublishRecipes: number;
+  readonly publicationExcludedCandidates: number;
+  readonly integrityBlockingCandidates: number;
   readonly usableParents: number;
   readonly missingParents: number;
   readonly provenParentGroups: number;
@@ -285,7 +380,7 @@ export interface WprmAggregateReconciliation {
 }
 
 export interface WprmSafeManifest {
-  readonly schemaVersion: 1;
+  readonly schemaVersion: 2;
   readonly kind: "wprm-bulk-import-manifest";
   readonly source: {
     readonly format: "sql" | "gzip";
@@ -321,7 +416,7 @@ export interface WprmSafeManifest {
   };
 }
 
-export const wprmImportContractVersion = "wprm-bulk-import-v6";
+export const wprmImportContractVersion = "wprm-bulk-import-v7";
 
 export interface WprmStagedMediaBinding {
   readonly attachmentId: string;
@@ -381,11 +476,17 @@ export function isWprmImportIssueCode(value: string): value is WprmIssueCode {
     "incomplete-parent-translation",
     "multiple-recipes-for-editorial-member",
     "invalid-parent-group-locale",
+    "duplicate-parent-group-locale",
+    "ambiguous-parent-translation-group",
     "missing-recipe-locale",
     "unsafe-canonical-slug",
     "canonical-slug-collision",
     "nonpublish-recipe",
+    "nonpublish-editorial-parent",
+    "unknown-recipe-status",
+    "unknown-editorial-parent-status",
     "protected-source-post",
+    "protected-editorial-parent",
     "timestamp-without-gmt",
     "missing-wprm-title",
     "malformed-wprm-rich-text",

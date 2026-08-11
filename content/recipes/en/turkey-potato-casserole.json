@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21404",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:2481",
+  "slug": "turkey-potato-casserole",
+  "source": {
+    "system": "wordpress",
+    "postId": "21404",
+    "recipeId": "21404",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-turkey-potato-casserole",
+    "createdAt": "2019-02-14T18:08:09+00:00",
+    "modifiedAt": "2022-07-04T20:39:49+00:00",
+    "editorialPostId": "3413",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "turkey-potato-casserole",
+    "editorialCreatedAt": "2019-02-14T18:08:09+00:00",
+    "editorialModifiedAt": "2022-07-04T20:39:48+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Turkey Potato Casserole",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>\"Without the potato, the balance of European power might never tilted north\". (Michael Pollan)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Turkey Potato Casserole is very personal, everyone makes theirs differently. I make my Turkey Potato Casserole with shredded potato. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21404,\"template\":\"chic-template-english\",\"updated\":1656967182296} -->\n<!--WPRM Recipe 21404-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Turkey Potato Casserole</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_201557.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 large  onion</li><li>1 1/2  pound lean ground turkey</li><li>6 medium russet potatoes</li><li>Salt and pepper to taste</li><li>1/2 cup sour cream</li><li>3 eggs</li><li>3 Tbsp water</li><li>1 cup cheddar cheese (shredded )</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 375 degrees F.</li><li>Dice onion as finely as you can.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_170710.Blog_-150x150.png\"/><br /></li><li>Mix together ground turkey with onion, add salt ant pepper to taste.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_170826.Blog_.Blog_-150x150.png\"/><br /></li><li>Place the turkey mix in an even layer on the bottom of a 9x13 inches baking dish.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_171403.Blog_.Blog_-150x150.png\"/><br /></li><li> Peel and shred potatoes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_172234-150x150.jpg\"/><br /></li><li>Spread the shredded potatoes evenly over turkey.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_172826.Blog_.Blog_-150x150.png\"/><br /></li><li>In a small bowl, whisk together sour cream, eggs and water. Add 1/2 tsp of salt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_172020.Blog_-150x150.png\"/><br /></li><li>Evenly pour the egg mixture over casserole and sprinkle with cheddar cheese.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_172833.Blog_.Blog_-150x150.png\"/><br /></li><li>Bake uncovered for 55 minutes, or until a knife inserted near the center comes out clean.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180131_184759.Blog_.Blog_-150x150.png\"/><br /></li><li>Serve it hot with sour cream and cilantro.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24222",
+      "sourceTaxonomyId": "24222",
+      "name": "Salt and pepper to taste",
+      "slug": "salt-and-pepper-to-taste"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24274",
+      "sourceTaxonomyId": "24274",
+      "name": "lean ground turkey",
+      "slug": "lean-ground-turkey"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24275",
+      "sourceTaxonomyId": "24275",
+      "name": "russet potatoes",
+      "slug": "russet-potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24276",
+      "sourceTaxonomyId": "24276",
+      "name": "cheddar cheese",
+      "slug": "cheddar-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1785",
+      "sourceTaxonomyId": "1785",
+      "name": "russet potatoes",
+      "slug": "russet-potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1787",
+      "sourceTaxonomyId": "1787",
+      "name": "lean ground turkey",
+      "slug": "lean-ground-turkey"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1791",
+      "sourceTaxonomyId": "1791",
+      "name": "cheddar cheese",
+      "slug": "cheddar-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2024",
+      "sourceTaxonomyId": "2024",
+      "name": "Salt and pepper to taste",
+      "slug": "salt-and-pepper-to-taste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1474",
+      "sourceTaxonomyId": "1474",
+      "name": "Turkey",
+      "slug": "turkey"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1598",
+      "sourceTaxonomyId": "1598",
+      "name": "cheese",
+      "slug": "cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1773",
+      "sourceTaxonomyId": "1773",
+      "name": "casserole",
+      "slug": "casserole"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6932",
+      "sourceTaxonomyId": "6932",
+      "name": "shredded potato",
+      "slug": "shredded-potato"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "70",
+        "minutes": 70
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:3423",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 large onion",
+            "quantity": {
+              "raw": "1 large",
+              "value": 1,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 1/2 pound lean ground turkey",
+            "quantity": {
+              "raw": "1 1/2 pound",
+              "value": 1.5,
+              "unit": "pound",
+              "scalable": true
+            },
+            "name": "lean ground turkey",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "6 medium russet potatoes",
+            "quantity": {
+              "raw": "6 medium",
+              "value": 6,
+              "unit": "medium",
+              "scalable": true
+            },
+            "name": "russet potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Salt and pepper to taste",
+            "quantity": null,
+            "name": "Salt and pepper to taste",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 cup sour cream",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 eggs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "3 Tbsp water",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 cup cheddar cheese shredded",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "cheddar cheese",
+            "notes": "shredded"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 375 degrees F.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dice onion as finely as you can.",
+            "mediaId": "wordpress-attachment:3414"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mix together ground turkey with onion, add salt ant pepper to taste.",
+            "mediaId": "wordpress-attachment:3415"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Place the turkey mix in an even layer on the bottom of a 9x13 inches baking dish.",
+            "mediaId": "wordpress-attachment:3416"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Peel and shred potatoes.",
+            "mediaId": "wordpress-attachment:3419"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Spread the shredded potatoes evenly over turkey.",
+            "mediaId": "wordpress-attachment:3420"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "In a small bowl, whisk together sour cream, eggs and water. Add 1/2 tsp of salt.",
+            "mediaId": "wordpress-attachment:3417"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Evenly pour the egg mixture over casserole and sprinkle with cheddar cheese.",
+            "mediaId": "wordpress-attachment:3421"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Bake uncovered for 55 minutes, or until a knife inserted near the center comes out clean.",
+            "mediaId": "wordpress-attachment:3422"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Serve it hot with sour cream and cilantro.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:3423",
+      "sourceId": "3423",
+      "path": "/recipes/media/wordpress/3423.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:3414",
+      "sourceId": "3414",
+      "path": "/recipes/media/wordpress/3414.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:3415",
+      "sourceId": "3415",
+      "path": "/recipes/media/wordpress/3415.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:3416",
+      "sourceId": "3416",
+      "path": "/recipes/media/wordpress/3416.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:3419",
+      "sourceId": "3419",
+      "path": "/recipes/media/wordpress/3419.jpg",
+      "alt": null,
+      "width": 2560,
+      "height": 1920
+    },
+    {
+      "id": "wordpress-attachment:3420",
+      "sourceId": "3420",
+      "path": "/recipes/media/wordpress/3420.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:3417",
+      "sourceId": "3417",
+      "path": "/recipes/media/wordpress/3417.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:3421",
+      "sourceId": "3421",
+      "path": "/recipes/media/wordpress/3421.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:3422",
+      "sourceId": "3422",
+      "path": "/recipes/media/wordpress/3422.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

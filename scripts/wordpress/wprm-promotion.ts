@@ -51,6 +51,7 @@ import {
   parseWordPressRecipeMediaObjectKey
 } from "../../src/content/media";
 import {
+  classifyWprmCandidateDisposition,
   wprmImportContractVersion,
   type CandidateOutcome,
   type WprmStagedMediaBinding,
@@ -245,8 +246,12 @@ export type WprmPromotionResult = {
   readonly candidates: OutcomeCounts;
   readonly translation: {
     readonly eligible: number;
+    readonly selected: number;
     readonly excluded: number;
     readonly blockedGroups: number;
+    readonly intentionallyPartialGroups: number;
+    readonly publicationExcludedPeers: number;
+    readonly integrityBlockingPeers: number;
     readonly reviewPeers: number;
     readonly errorPeers: number;
   };
@@ -764,6 +769,21 @@ async function authenticateMediaBindings(staging: StagingPaths) {
   return new Map(parsed.entries.map((entry) => [entry.attachmentId, entry] as const));
 }
 
+function isPublicationExcludedOutcome(outcome: CandidateOutcome) {
+  return outcome.status === "error"
+    && classifyWprmCandidateDisposition(outcome.codes) === "publication-excluded";
+}
+
+function groupIntegrityBlockers(
+  members: readonly CandidateOutcome[],
+  selectedIds: ReadonlySet<string>
+) {
+  return members.filter((member) =>
+    !isPublicationExcludedOutcome(member)
+    && (member.status !== "ready" || !selectedIds.has(member.recipeId))
+  );
+}
+
 export function validatePromotionTranslationClosure(
   selected: readonly RecipeRecord[],
   outcomes: readonly CandidateOutcome[],
@@ -806,9 +826,7 @@ export function validatePromotionTranslationClosure(
     const members = allByGroup.get(record.translationGroupId);
     if (
       members === undefined
-      || members.some(
-        (member) => member.status !== "ready" || !selectedIds.has(member.recipeId)
-      )
+      || groupIntegrityBlockers(members, selectedIds).length > 0
     ) {
       fail("incomplete-translation-closure");
     }
@@ -845,6 +863,8 @@ export function classifyPromotionTranslationClosure(
     membersByGroup.set(groupId, members);
   }
   const blocked = new Map<string, CandidateOutcome[]>();
+  const publicationExcluded = new Map<string, CandidateOutcome[]>();
+  const integrityBlockers = new Map<string, CandidateOutcome[]>();
   for (const record of selected) {
     const groupId = sourceTranslationGroups.get(record.source.recipeId);
     if (groupId === undefined || groupId !== record.translationGroupId) {
@@ -854,13 +874,18 @@ export function classifyPromotionTranslationClosure(
       continue;
     }
     const members = membersByGroup.get(groupId);
-    if (
-      members === undefined
-      || members.some(
-        (member) => member.status !== "ready" || !selectedIds.has(member.recipeId)
-      )
-    ) {
-      blocked.set(groupId, members ?? []);
+    if (members === undefined) {
+      blocked.set(groupId, []);
+      continue;
+    }
+    const excludedMembers = members.filter(isPublicationExcludedOutcome);
+    if (excludedMembers.length > 0) {
+      publicationExcluded.set(groupId, excludedMembers);
+    }
+    const blockers = groupIntegrityBlockers(members, selectedIds);
+    if (blockers.length > 0) {
+      blocked.set(groupId, blockers);
+      integrityBlockers.set(groupId, blockers);
     }
   }
   const eligible = selected.filter((record) =>
@@ -873,13 +898,25 @@ export function classifyPromotionTranslationClosure(
     existing,
     sourceTranslationGroups
   );
-  const blockedMembers = [...blocked.values()].flat();
+  const publicationExcludedPeerIds = new Set(
+    [...publicationExcluded.values()].flat().map((member) => member.recipeId)
+  );
+  const integrityBlockingMembers = [...integrityBlockers.values()].flat();
+  const integrityBlockingPeerIds = new Set(
+    integrityBlockingMembers.map((member) => member.recipeId)
+  );
+  const intentionallyPartialGroups = [...publicationExcluded.entries()]
+    .filter(([groupId]) => !blocked.has(groupId))
+    .length;
   return {
     selected: eligible,
     excluded: selected.length - eligible.length,
     blockedGroups: blocked.size,
-    reviewPeers: blockedMembers.filter((member) => member.status === "review").length,
-    errorPeers: blockedMembers.filter((member) => member.status === "error").length
+    intentionallyPartialGroups,
+    publicationExcludedPeers: publicationExcludedPeerIds.size,
+    integrityBlockingPeers: integrityBlockingPeerIds.size,
+    reviewPeers: integrityBlockingMembers.filter((member) => member.status === "review").length,
+    errorPeers: integrityBlockingMembers.filter((member) => member.status === "error").length
   };
 }
 
@@ -4459,8 +4496,12 @@ function promotionResult(
     candidates: prepared.actualCounts,
     translation: {
       eligible: prepared.selected.length,
+      selected: prepared.selected.length,
       excluded: prepared.translation.excluded,
       blockedGroups: prepared.translation.blockedGroups,
+      intentionallyPartialGroups: prepared.translation.intentionallyPartialGroups,
+      publicationExcludedPeers: prepared.translation.publicationExcludedPeers,
+      integrityBlockingPeers: prepared.translation.integrityBlockingPeers,
       reviewPeers: prepared.translation.reviewPeers,
       errorPeers: prepared.translation.errorPeers
     },

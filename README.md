@@ -308,14 +308,22 @@ Pinterest companion IDs as attachments nor copies excluded media. How-to,
 other, unknown, and malformed WPRM types remain review outcomes with stable
 issue codes. Privacy-safe manifests report only exclusion issue codes and
 aggregate reference counts, never their values.
-Non-published WPRM records remain `nonpublish-recipe` errors and are never
-staged; incomplete parent translation groups remain review outcomes. A mapper
-contract change cannot resume an older staging root, so start a new private
-staging root when its marker rejects `--resume`.
+Published source content is the only promotion candidate. Known WordPress
+non-public statuses remain errors and are never staged. They are still
+structurally mapped: a translation peer is omitted only when source publication
+status is its sole blocking condition and its parent/group/locale relation is
+otherwise valid. Unknown statuses, malformed mappings or media, duplicate
+locales, ambiguous relations, and incomplete parent translations remain
+integrity blockers. The privacy-safe aggregate distinguishes
+publication-excluded from integrity-blocking candidates. A mapper contract
+change cannot resume an older staging root, so start a new private staging root
+when its marker rejects `--resume`.
 
 For the current approved-source acceptance baseline, the privacy-safe dry run
 accounts for 539 WPRM records: 521 ready candidates, 3 incomplete-translation
-reviews, and 15 non-published errors.
+reviews, and 15 non-published errors. Its status-aware reconciliation classifies
+4 candidates as publication-excluded and 14 as integrity-blocking without
+emitting source statuses or record values.
 
 ### Authenticated WPRM promotion
 
@@ -328,15 +336,16 @@ npm run import:wprm-bulk -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --write --staging-dir migration-output/wprm-bulk-v6
+  --write --staging-dir migration-output/wprm-bulk-v7
 ```
 
 The prior `wprm-bulk-import-v3` staging format intentionally cannot be resumed
-or promoted: it has no private media-byte bindings. The v6 mapper contract is
-intentionally incompatible with v5 because it normalizes every public
-display-text field, not only descriptions. Keep prior roots for audit if
+or promoted: it has no private media-byte bindings. The v7 mapper contract is
+intentionally incompatible with v6 because it authenticates the status-aware
+translation-closure model and fully validates non-public peers before deciding
+whether they are intentionally unavailable. Keep prior roots for audit if
 needed, then create a new private staging root as above rather than trusting or
-overwriting it. The v6 `media-bindings.json` is mode
+overwriting it. The v7 `media-bindings.json` is mode
 `0600`, contains only
 numeric attachment IDs, byte counts, and keyed digests, and must remain outside
 Git with the fingerprint key.
@@ -348,7 +357,7 @@ npm run promote:wprm -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v6 \
+  --staging-dir migration-output/wprm-bulk-v7 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --dry-run
 ```
@@ -383,10 +392,12 @@ Journal temporary files are never used as a newer state: recovery accepts the
 last complete journal and removes only same-transaction authenticated orphan
 temps. If a crash leaves an ambiguous, tampered, or symlinked transaction
 artifact, promotion fails closed without touching live files.
-When a source translation group contains a review or error peer, its ready
-members are excluded together; the result retains the source candidate counts
-and reports aggregate `translation.excluded`, blocked-group, review-peer, and
-error-peer counts rather than silently promoting an incomplete group.
+Ready members are excluded when their source translation group has an
+integrity-blocking peer. A peer excluded solely by a known non-public source
+status is intentionally unavailable instead, so the promoted group contains
+only its published variants. The result reports aggregate selected/excluded,
+publication-excluded-peer, integrity-blocking-peer, review-peer, and error-peer
+counts without emitting source values.
 WPRM public display text is deterministically converted from bounded source
 HTML to plain text before promotion. This includes titles, descriptions,
 ingredient and instruction group headings, ingredient and equipment fields,
@@ -414,7 +425,7 @@ separate authenticated Blob staging workflow below.
 
 ### Blob-backed recipe originals
 
-The 1,221 promoted originals are staged from the authorized database, private
+The 1,230 promoted originals are staged from the authorized database, private
 candidate staging, fingerprint key, and upload ZIPs before any external upload.
 This command is credential-free and makes no Azure request:
 
@@ -423,8 +434,8 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v6 \
-  --upload-dir migration-output/wprm-media-azure-v3 \
+  --staging-dir migration-output/wprm-bulk-v7 \
+  --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --dry-run
 ```
@@ -440,14 +451,14 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v6 \
-  --upload-dir migration-output/wprm-media-azure-v3 \
+  --staging-dir migration-output/wprm-bulk-v7 \
+  --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --write --write-public-manifest
 ```
 
 The upload source is
-`migration-output/wprm-media-azure-v3/objects/`; its layout is exactly the
+`migration-output/wprm-media-azure-v4/objects/`; its layout is exactly the
 object-key layout without the leading slash. Directories are `0700`, files and
 the private `upload-manifest.json` are `0600`, symlinks are rejected, and a
 resume accepts only byte-identical files:
@@ -458,8 +469,8 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v6 \
-  --upload-dir migration-output/wprm-media-azure-v3 \
+  --staging-dir migration-output/wprm-bulk-v7 \
+  --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --write --resume --write-public-manifest
 ```
@@ -492,13 +503,13 @@ az storage cors add --auth-mode login --services b \
 az storage blob upload-batch --auth-mode login \
   --account-name "$AZURE_STORAGE_ACCOUNT" \
   --destination "$AZURE_STORAGE_CONTAINER" \
-  --source migration-output/wprm-media-azure-v3/objects \
+  --source migration-output/wprm-media-azure-v4/objects \
   --pattern "*.jpg" --content-type image/jpeg \
   --content-cache-control "public, max-age=31536000, immutable" --overwrite false
 az storage blob upload-batch --auth-mode login \
   --account-name "$AZURE_STORAGE_ACCOUNT" \
   --destination "$AZURE_STORAGE_CONTAINER" \
-  --source migration-output/wprm-media-azure-v3/objects \
+  --source migration-output/wprm-media-azure-v4/objects \
   --pattern "*.png" --content-type image/png \
   --content-cache-control "public, max-age=31536000, immutable" --overwrite false
 ```
@@ -521,7 +532,7 @@ the expected `Content-Length`, exact byte count, and the manifest SHA-256:
 npm run media:verify-azure -- \
   --account-name "$AZURE_STORAGE_ACCOUNT" \
   --container "$AZURE_STORAGE_CONTAINER" \
-  --upload-dir migration-output/wprm-media-azure-v3
+  --upload-dir migration-output/wprm-media-azure-v4
 ```
 
 The verifier does not trust caller-supplied metadata or issue an Azure CLI
