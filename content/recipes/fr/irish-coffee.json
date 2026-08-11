@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21662",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:13514",
+  "slug": "irish-coffee",
+  "source": {
+    "system": "wordpress",
+    "postId": "21662",
+    "recipeId": "21662",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-irish-coffee-cafe-irlandais",
+    "createdAt": "2019-03-04T02:08:00+00:00",
+    "modifiedAt": "2023-05-10T07:14:00+00:00",
+    "editorialPostId": "16066",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "irish-coffee",
+    "editorialCreatedAt": "2019-03-04T02:08:00+00:00",
+    "editorialModifiedAt": "2023-05-10T07:13:58+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Irish coffee (café irlandais)",
+  "description": "Il faut chauffer la tasse ou le verre avant de préparer.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le cocktail parfait pour célébrer la Saint-Patrick, la fête nationale irlandaise. L'Irish coffee se prépare rapidement avec du café, du sucre, de la crème chantilly et du whisky (irlandais de préférence!).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21662,\"template\":\"chic-template-french\",\"updated\":1638320992664} -->\n<!--WPRM Recipe 21662-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Irish coffee (café irlandais)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8296.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIl faut chauffer la  tasse ou le verre avant de préparer.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 café noir</li><li>1/2 cuillère à café de sucre roux ou sucre en poudre ((facultatif))</li><li>2 cuillères à soupe de whisky</li><li>Un peu de chantilly</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Mettre le whisky et le sucre au fond de la tasse. Préparer un bon café noir et le verser dans la tasse (ou un verre).\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8266-3.Blog_-150x150.png\"/><br /></li><li>Terminer par un peu de chantilly (maison de préférence) sur le café au whisky. Servir tout de suite.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8296-3.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Boissons</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24365",
+      "sourceTaxonomyId": "24365",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24433",
+      "sourceTaxonomyId": "24433",
+      "name": "café noir",
+      "slug": "cafe-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24434",
+      "sourceTaxonomyId": "24434",
+      "name": "de sucre roux (ou sucre en poudre)",
+      "slug": "de-sucre-roux-ou-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24435",
+      "sourceTaxonomyId": "24435",
+      "name": "de whisky",
+      "slug": "de-whisky"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24436",
+      "sourceTaxonomyId": "24436",
+      "name": "de chantilly",
+      "slug": "de-chantilly"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25461",
+      "sourceTaxonomyId": "25461",
+      "name": "cuillère à café",
+      "slug": "cuillere-a-cafe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "114",
+      "sourceTaxonomyId": "114",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1680",
+      "sourceTaxonomyId": "1680",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2567",
+      "sourceTaxonomyId": "2567",
+      "name": "de chantilly",
+      "slug": "de-chantilly"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13501",
+      "sourceTaxonomyId": "13501",
+      "name": "café noir",
+      "slug": "cafe-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13503",
+      "sourceTaxonomyId": "13503",
+      "name": "de sucre roux (ou sucre en poudre)",
+      "slug": "de-sucre-roux-ou-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13505",
+      "sourceTaxonomyId": "13505",
+      "name": "de whisky",
+      "slug": "de-whisky"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2350",
+      "sourceTaxonomyId": "2350",
+      "name": "alcool",
+      "slug": "alcool"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8253",
+      "sourceTaxonomyId": "8253",
+      "name": "cocktail",
+      "slug": "cocktail-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25742",
+      "sourceTaxonomyId": "25742",
+      "name": "17 mars",
+      "slug": "17-mars-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25744",
+      "sourceTaxonomyId": "25744",
+      "name": "boisson chade",
+      "slug": "boisson-chade-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25746",
+      "sourceTaxonomyId": "25746",
+      "name": "cafe",
+      "slug": "cafe-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25748",
+      "sourceTaxonomyId": "25748",
+      "name": "irish coffee",
+      "slug": "irish-coffee-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25750",
+      "sourceTaxonomyId": "25750",
+      "name": "nationale irlandaise",
+      "slug": "nationale-irlandaise-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25752",
+      "sourceTaxonomyId": "25752",
+      "name": "Saint-Patrick",
+      "slug": "saint-patrick-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25754",
+      "sourceTaxonomyId": "25754",
+      "name": "whisky",
+      "slug": "whisky-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26225",
+      "sourceTaxonomyId": "26225",
+      "name": "pour adulte",
+      "slug": "pour-adulte"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "1 tasse",
+      "value": 1,
+      "unit": "tasse",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:16099",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 café noir",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "café noir",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 cuillère à café de sucre roux ou sucre en poudre (facultatif)",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre roux ou sucre en poudre",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 cuillères à soupe de whisky",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de whisky",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un peu de chantilly",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de chantilly",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Mettre le whisky et le sucre au fond de la tasse. Préparer un bon café noir et le verser dans la tasse (ou un verre).",
+            "mediaId": "wordpress-attachment:16076"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Terminer par un peu de chantilly (maison de préférence) sur le café au whisky. Servir tout de suite.",
+            "mediaId": "wordpress-attachment:16111"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16099",
+      "sourceId": "16099",
+      "path": "/recipes/media/wordpress/16099.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:16076",
+      "sourceId": "16076",
+      "path": "/recipes/media/wordpress/16076.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:16111",
+      "sourceId": "16111",
+      "path": "/recipes/media/wordpress/16111.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

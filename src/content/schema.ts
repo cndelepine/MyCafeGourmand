@@ -4,6 +4,7 @@ import {
   validateRecipeSlug,
   validateSafeLocalPath
 } from "./url-path";
+import { validateRecipeMediaPath } from "./media";
 
 export const localeValues = ["en", "fr", "ru"] as const;
 export const localeSchema = z.enum(localeValues);
@@ -92,7 +93,16 @@ export const servingsAdvancedSchema = z.strictObject({
 export const mediaAssetSchema = z.strictObject({
   id: z.string().min(1),
   sourceId: z.string().min(1).nullable(),
-  path: z.string().startsWith("/"),
+  path: z.string().min(1).superRefine((value, context) => {
+    try {
+      validateRecipeMediaPath(value);
+    } catch (error) {
+      context.addIssue({
+        code: "custom",
+        message: error instanceof Error ? error.message : String(error)
+      });
+    }
+  }),
   alt: z.string().min(1).nullable(),
   width: z.number().int().positive().nullable(),
   height: z.number().int().positive().nullable()

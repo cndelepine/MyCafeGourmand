@@ -1,4 +1,5 @@
 import type { Locale, RecipeRecord } from "@/content/schema";
+import { createRecipeCatalogEntries } from "@/lib/recipe-catalog-data";
 import { getLandingCopy } from "@/lib/site";
 import { RecipeCatalog } from "./recipe-catalog";
 import { SiteHeader } from "./site-header";
@@ -39,7 +40,7 @@ export function LandingPage({ locale, recipes }: LandingPageProps) {
               viewRecipe: copy.viewRecipe
             }}
             locale={locale}
-            recipes={recipes}
+            recipes={createRecipeCatalogEntries(recipes)}
           />
         </section>
       </main>

@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27612",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7837",
+  "slug": "prunes-with-prosciutto",
+  "source": {
+    "system": "wordpress",
+    "postId": "27612",
+    "recipeId": "27612",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-prunes-with-prosciutto",
+    "createdAt": "2024-04-27T04:52:56+00:00",
+    "modifiedAt": "2024-04-27T04:53:02+00:00",
+    "editorialPostId": "27610",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "prunes-with-prosciutto",
+    "editorialCreatedAt": "2024-04-27T04:52:56+00:00",
+    "editorialModifiedAt": "2024-04-27T04:52:59+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Prunes with prosciutto",
+  "description": "It is possible to cook the prosciutto prunes in a pan but it is better and easier to prepare them in the oven.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The prunes are wrapped with thin slices of Italian raw ham, the prosciutto. Easy to prepare and quick to cook!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27612,\"template\":\"chic-template-english\",\"updated\":1714193370889} -->\n<!--WPRM Recipe 27612-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Prunes with prosciutto</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_1261.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>It is possible to cook the prosciutto prunes in a pan but it is better and easier to prepare them in the oven.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>7 thin slices prosciutto</li><li>20 prunes (pitted)</li><li>20 tooth picks</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat the oven to 240°C (thermostat 8) and cover a baking tray with baking paper or aluminum foil.</p></li><li><p>Cut the prosciutto slices into thirds lengthwise.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9734.Blog_-150x150.png\"/><br /></li><li><p>Wrap each prune with a slice of prosciutto.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9738.Blog_-150x150.png\"/><br /></li><li><p>Secure with a wooden skewer (tooth pick).</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9740.Blog_-150x150.png\"/><br /></li><li><p>Place the bites on the baking sheet and cook in the oven for 3-5 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9748.Blog_-150x150.png\"/><br /></li><li><p>Serve immediately.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_1262.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Prunes are wrapped with thin slices of Italian cured ham, prosciutto. Easy, quick and delicious."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26438",
+      "sourceTaxonomyId": "26438",
+      "name": "Apéritifs",
+      "slug": "aperitifs-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26478",
+      "sourceTaxonomyId": "26478",
+      "name": "prosciutto",
+      "slug": "prosciutto"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26479",
+      "sourceTaxonomyId": "26479",
+      "name": "prunes",
+      "slug": "prunes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26480",
+      "sourceTaxonomyId": "26480",
+      "name": "tooth picks",
+      "slug": "tooth-picks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26477",
+      "sourceTaxonomyId": "26477",
+      "name": "thin slices",
+      "slug": "thin-slices"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8416",
+      "sourceTaxonomyId": "8416",
+      "name": "cocktail party",
+      "slug": "cocktail-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26411",
+      "sourceTaxonomyId": "26411",
+      "name": "prosciutto",
+      "slug": "prosciutto-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26748",
+      "sourceTaxonomyId": "26748",
+      "name": "prunes",
+      "slug": "prunes"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 people",
+      "value": 4,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:12967",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "7 thin slices prosciutto",
+            "quantity": {
+              "raw": "7 thin slices",
+              "value": 7,
+              "unit": "thin slices",
+              "scalable": true
+            },
+            "name": "prosciutto",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "20 prunes pitted",
+            "quantity": {
+              "raw": "20",
+              "value": 20,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "prunes",
+            "notes": "pitted"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "20 tooth picks",
+            "quantity": {
+              "raw": "20",
+              "value": 20,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tooth picks",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 240°C (thermostat 8) and cover a baking tray with baking paper or aluminum foil.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut the prosciutto slices into thirds lengthwise.",
+            "mediaId": "wordpress-attachment:12963"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Wrap each prune with a slice of prosciutto.",
+            "mediaId": "wordpress-attachment:12964"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Secure with a wooden skewer (tooth pick).",
+            "mediaId": "wordpress-attachment:12965"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Place the bites on the baking sheet and cook in the oven for 3-5 minutes.",
+            "mediaId": "wordpress-attachment:12966"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Serve immediately.",
+            "mediaId": "wordpress-attachment:12968"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12967",
+      "sourceId": "12967",
+      "path": "/recipes/media/wordpress/12967.png",
+      "alt": "Prunes with Prosciutto",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12963",
+      "sourceId": "12963",
+      "path": "/recipes/media/wordpress/12963.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12964",
+      "sourceId": "12964",
+      "path": "/recipes/media/wordpress/12964.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12965",
+      "sourceId": "12965",
+      "path": "/recipes/media/wordpress/12965.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12966",
+      "sourceId": "12966",
+      "path": "/recipes/media/wordpress/12966.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12968",
+      "sourceId": "12968",
+      "path": "/recipes/media/wordpress/12968.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

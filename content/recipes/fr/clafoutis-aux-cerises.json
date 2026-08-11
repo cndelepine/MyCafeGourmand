@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:24882",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:25522",
+  "slug": "clafoutis-aux-cerises",
+  "source": {
+    "system": "wordpress",
+    "postId": "24882",
+    "recipeId": "24882",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-clafoutis-aux-cerises",
+    "createdAt": "2026-06-20T02:29:00+00:00",
+    "modifiedAt": "2026-06-21T03:33:08+00:00",
+    "editorialPostId": "24880",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "clafoutis-aux-cerises",
+    "editorialCreatedAt": "2026-06-20T02:29:00+00:00",
+    "editorialModifiedAt": "2026-06-20T22:06:35+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Clafoutis aux cerises",
+  "description": "Voici la version classique du clafoutis aux cerises dénoyautées. Je vous conseille de retirer les noyaux : beaucoup plus pratique à manger!\n\nPour un service plus élégant, vous pouvez cuisiner dans des petits moules ou des ramequins.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Voici ma recette préferée de clafoutis (le meilleur du chef) - que j'ai revisitée. C'est la saison des cerises et ce dessert, facile à faire, est parfait pour en profiter! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":24882,\"template\":\"chic-template-french\",\"updated\":1759383264513} -->\n<!--WPRM Recipe 24882-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Clafoutis aux cerises</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1471.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Voici la version classique du clafoutis aux cerises dénoyautées. Je vous conseille de retirer les noyaux : beaucoup plus pratique à manger!</p><p>Pour un service plus élégant, vous pouvez cuisiner dans des petits moules ou des ramequins.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 <a href=\"https://en.wiktionary.org/wiki/%C5%93ufs\">œufs</a></li><li>100 g de sucre</li><li>110 g de farine</li><li>1  pincée  de sel</li><li>450 ml crème liquide (35%)</li><li>150 ml de lait</li><li>1 cuillère a soupe de vanille liquide</li><li>600 g de cerises (griottes) dénoyautées</li><li>Un peu  de sucre pour le moule</li><li>Un peu  de beurre pour le moule</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le four a 210°С.</p></li><li><p>Mélanger les <a href=\"https://en.wiktionary.org/wiki/%C5%93ufs\"></a>œufs et le sucre.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1430.Blog_-150x150.png\"/><br /></li><li><p>Ajouter le lait, la crème liquide. Mélanger.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1432.Blog_-150x150.png\"/><br /></li><li><p>Ajouter la vanille.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1436.Blog_-150x150.png\"/><br /></li><li><p>Ajouter la farine et le sel. Bien mélanger encore une fois. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1438.Blog_-150x150.png\"/><br /></li><li><p>Beurrer généreusement le(s) moule(s) allant au four et les saupoudrer de sucre. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1443.Blog_-150x150.png\"/><br /></li><li><p>Répartir les cerises dénoyautées au fond des moules.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1452.Blog_-150x150.png\"/><br /></li><li><p>Verser la pâte à clafoutis. Les cerises doivent rester visibles.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1458.Blog_-150x150.png\"/><br /></li><li><p>Faire cuire au four pendant 30-40 minutes. Le temps de la cuisson dépend de la taille des moules.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1460.Blog_-150x150.png\"/><br /></li><li><p>Servir tiède ou froid. A mon avis, c&#039;est meilleur quand c&#039;est froid.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1474.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24524",
+      "sourceTaxonomyId": "24524",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24536",
+      "sourceTaxonomyId": "24536",
+      "name": "de vanille liquide",
+      "slug": "de-vanille-liquide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24566",
+      "sourceTaxonomyId": "24566",
+      "name": "de sucre",
+      "slug": "de-sucre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25524",
+      "sourceTaxonomyId": "25524",
+      "name": "creme liquide (35%)",
+      "slug": "creme-liquide-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25526",
+      "sourceTaxonomyId": "25526",
+      "name": "de sucre pour le moule",
+      "slug": "de-sucre-pour-le-moule"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25527",
+      "sourceTaxonomyId": "25527",
+      "name": "de beurre pour le moule",
+      "slug": "de-beurre-pour-le-moule"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25577",
+      "sourceTaxonomyId": "25577",
+      "name": "de cerises (griottes) dénoyautées",
+      "slug": "de-cerises-griottes-denoyautees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25433",
+      "sourceTaxonomyId": "25433",
+      "name": "pincée",
+      "slug": "pincee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5598",
+      "sourceTaxonomyId": "5598",
+      "name": "dessert elegant",
+      "slug": "dessert-elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7292",
+      "sourceTaxonomyId": "7292",
+      "name": "recette facile en images",
+      "slug": "recette-facile-en-images"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8095",
+      "sourceTaxonomyId": "8095",
+      "name": "recette inratable",
+      "slug": "recette-inratable"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25591",
+      "sourceTaxonomyId": "25591",
+      "name": "cerise griotte",
+      "slug": "cerise-griotte"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:24790",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 œufs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g de sucre",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "110 g de farine",
+            "quantity": {
+              "raw": "110 g",
+              "value": 110,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 pincée de sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "450 ml crème liquide (35%)",
+            "quantity": {
+              "raw": "450 ml",
+              "value": 450,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "crème liquide (35%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "150 ml de lait",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 cuillère a soupe de vanille liquide",
+            "quantity": {
+              "raw": "1 cuillère a soupe",
+              "value": 1,
+              "unit": "cuillère a soupe",
+              "scalable": true
+            },
+            "name": "de vanille liquide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "600 g de cerises (griottes) dénoyautées",
+            "quantity": {
+              "raw": "600 g",
+              "value": 600,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de cerises (griottes) dénoyautées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Un peu de sucre pour le moule",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de sucre pour le moule",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Un peu de beurre pour le moule",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de beurre pour le moule",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four a 210°С.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mélanger les œufs et le sucre.",
+            "mediaId": "wordpress-attachment:24787"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter le lait, la crème liquide. Mélanger.",
+            "mediaId": "wordpress-attachment:24798"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ajouter la vanille.",
+            "mediaId": "wordpress-attachment:24799"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter la farine et le sel. Bien mélanger encore une fois.",
+            "mediaId": "wordpress-attachment:24800"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Beurrer généreusement le(s) moule(s) allant au four et les saupoudrer de sucre.",
+            "mediaId": "wordpress-attachment:24801"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Répartir les cerises dénoyautées au fond des moules.",
+            "mediaId": "wordpress-attachment:24802"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Verser la pâte à clafoutis. Les cerises doivent rester visibles.",
+            "mediaId": "wordpress-attachment:24803"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Faire cuire au four pendant 30-40 minutes. Le temps de la cuisson dépend de la taille des moules.",
+            "mediaId": "wordpress-attachment:24804"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Servir tiède ou froid. A mon avis, c'est meilleur quand c'est froid.",
+            "mediaId": "wordpress-attachment:24797"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:24790",
+      "sourceId": "24790",
+      "path": "/recipes/media/wordpress/24790.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24787",
+      "sourceId": "24787",
+      "path": "/recipes/media/wordpress/24787.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24798",
+      "sourceId": "24798",
+      "path": "/recipes/media/wordpress/24798.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24799",
+      "sourceId": "24799",
+      "path": "/recipes/media/wordpress/24799.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24800",
+      "sourceId": "24800",
+      "path": "/recipes/media/wordpress/24800.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24801",
+      "sourceId": "24801",
+      "path": "/recipes/media/wordpress/24801.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24802",
+      "sourceId": "24802",
+      "path": "/recipes/media/wordpress/24802.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24803",
+      "sourceId": "24803",
+      "path": "/recipes/media/wordpress/24803.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24804",
+      "sourceId": "24804",
+      "path": "/recipes/media/wordpress/24804.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24797",
+      "sourceId": "24797",
+      "path": "/recipes/media/wordpress/24797.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

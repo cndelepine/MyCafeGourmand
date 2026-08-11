@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22929",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:8182",
+  "slug": "французская-меренга-безе",
+  "source": {
+    "system": "wordpress",
+    "postId": "22929",
+    "recipeId": "22929",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d1%80%d0%b5%d0%bd%d0%b3%d0%b0-%d0%b1%d0%b5%d0%b7%d0%b5",
+    "createdAt": "2018-01-14T17:48:18+00:00",
+    "modifiedAt": "2022-06-27T00:26:18+00:00",
+    "editorialPostId": "13201",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d1%80%d0%b5%d0%bd%d0%b3%d0%b0-%d0%b1%d0%b5%d0%b7%d0%b5",
+    "editorialCreatedAt": "2018-01-14T17:48:18+00:00",
+    "editorialModifiedAt": "2022-06-27T00:25:56+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Французская меренга (Безе)",
+  "description": "Меренги можно окрасить в любой цвет при помощи пищевого красителя (порошкообразного или гелевого). Или просто посыпать какао-порошком перед выпечкой.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Маленькие хрустящие и нежные безе подходят не только как печенье к кофе, но и как украшение для десертов (мороженого, шоколадного мусса, тортов). Особенно для украшения рождественского Шоколадного полена! Французская меренга довольна проста в приготовлении, ее можно приготовить заранее, чтобы израсходовать оставшиеся яичные белки и хранить в герметической коробке в морозилке. Даже не надо размораживать: просто достаньте в последний момент и подайте гостям или украсьте десерт!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22929,\"template\":\"chic-template-russian\",\"updated\":1607295970331} -->\n<!--WPRM Recipe 22929-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Французская меренга (Безе)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5797-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tМеренги можно окрасить в любой цвет при помощи пищевого красителя (порошкообразного или гелевого). Или просто посыпать какао-порошком перед выпечкой.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 яичных белка</li><li>140 г сахара (мелкого)</li><li>Немного несладкого какао-порошка ((по желанию))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Разогреть духовку до 100°C (230F). Противень застелить пергаментной бумагой.</li><li>Аккуратно отделить белки от желтков. В очень чистой (от жиров) и сухой посуде взбить белки в мягкую пену. Продолжая взбивать, по чуть-чуть добавить сахар. Взбивать белки до острых пиков.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_9888.Blog_-150x150.png\"/><br /></li><li>Переложить взбитые белки в кулинарный мешок (с насадкой или без) и выдавить на противень маленькие меренги. Можно сделать разные формы или буквы (дети будут рады). Если у вас нет кулинарного мешка, можно использовать мешок зип-лок или просто маленькую ложку.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8601.Blog_-150x150.png\"/><br /></li><li>Поставить в разогретую духовку и выпекать примерно 1 час. Оставить остывать меренги в духовке, затем переложить в герметическую коробку. Удавшиеся меренги должны быть легкими, нежными и не прилипать к зубам. :)\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8627.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24953",
+      "sourceTaxonomyId": "24953",
+      "name": "несладкого какао-порошка",
+      "slug": "%d0%bd%d0%b5%d1%81%d0%bb%d0%b0%d0%b4%d0%ba%d0%be%d0%b3%d0%be-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be-%d0%bf%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25167",
+      "sourceTaxonomyId": "25167",
+      "name": "яичных белка",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d1%85-%d0%b1%d0%b5%d0%bb%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25211",
+      "sourceTaxonomyId": "25211",
+      "name": "сахара (мелкого)",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0-%d0%bc%d0%b5%d0%bb%d0%ba%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "728",
+      "sourceTaxonomyId": "728",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2006",
+      "sourceTaxonomyId": "2006",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5072",
+      "sourceTaxonomyId": "5072",
+      "name": "несладкого какао-порошка",
+      "slug": "%d0%bd%d0%b5%d1%81%d0%bb%d0%b0%d0%b4%d0%ba%d0%be%d0%b3%d0%be-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be-%d0%bf%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7308",
+      "sourceTaxonomyId": "7308",
+      "name": "яичных белка",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d1%85-%d0%b1%d0%b5%d0%bb%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8211",
+      "sourceTaxonomyId": "8211",
+      "name": "сахара (мелкого)",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0-%d0%bc%d0%b5%d0%bb%d0%ba%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2012",
+      "sourceTaxonomyId": "2012",
+      "name": "безе",
+      "slug": "%d0%b1%d0%b5%d0%b7%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2594",
+      "sourceTaxonomyId": "2594",
+      "name": "рождество",
+      "slug": "%d1%80%d0%be%d0%b6%d0%b4%d0%b5%d1%81%d1%82%d0%b2%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2676",
+      "sourceTaxonomyId": "2676",
+      "name": "без муки",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2678",
+      "sourceTaxonomyId": "2678",
+      "name": "яичный белок",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d0%b1%d0%b5%d0%bb%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5365",
+      "sourceTaxonomyId": "5365",
+      "name": "приготовить заранее",
+      "slug": "%d0%bf%d1%80%d0%b8%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8%d1%82%d1%8c-%d0%b7%d0%b0%d1%80%d0%b0%d0%bd%d0%b5%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8158",
+      "sourceTaxonomyId": "8158",
+      "name": "глютен фри",
+      "slug": "%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd-%d1%84%d1%80%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8183",
+      "sourceTaxonomyId": "8183",
+      "name": "французская меренга",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d1%80%d0%b5%d0%bd%d0%b3%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8185",
+      "sourceTaxonomyId": "8185",
+      "name": "для украшения десертов",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d1%83%d0%ba%d1%80%d0%b0%d1%88%d0%b5%d0%bd%d0%b8%d1%8f-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8187",
+      "sourceTaxonomyId": "8187",
+      "name": "чем украсить десерт",
+      "slug": "%d1%87%d0%b5%d0%bc-%d1%83%d0%ba%d1%80%d0%b0%d1%81%d0%b8%d1%82%d1%8c-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8189",
+      "sourceTaxonomyId": "8189",
+      "name": "чем украсить торт",
+      "slug": "%d1%87%d0%b5%d0%bc-%d1%83%d0%ba%d1%80%d0%b0%d1%81%d0%b8%d1%82%d1%8c-%d1%82%d0%be%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8191",
+      "sourceTaxonomyId": "8191",
+      "name": "новый год",
+      "slug": "%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d0%b3%d0%be%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8193",
+      "sourceTaxonomyId": "8193",
+      "name": "легкий десеет",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d0%b5%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8195",
+      "sourceTaxonomyId": "8195",
+      "name": "тает во рту",
+      "slug": "%d1%82%d0%b0%d0%b5%d1%82-%d0%b2%d0%be-%d1%80%d1%82%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8199",
+      "sourceTaxonomyId": "8199",
+      "name": "мини десерт",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b8-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8201",
+      "sourceTaxonomyId": "8201",
+      "name": "что делать с оставшимися белками",
+      "slug": "%d1%87%d1%82%d0%be-%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d1%81-%d0%be%d1%81%d1%82%d0%b0%d0%b2%d1%88%d0%b8%d0%bc%d0%b8%d1%81%d1%8f-%d0%b1%d0%b5%d0%bb%d0%ba%d0%b0%d0%bc%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8203",
+      "sourceTaxonomyId": "8203",
+      "name": "остался яичный белок",
+      "slug": "%d0%be%d1%81%d1%82%d0%b0%d0%bb%d1%81%d1%8f-%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d0%b1%d0%b5%d0%bb%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8205",
+      "sourceTaxonomyId": "8205",
+      "name": "чтобы не выкидывать яичный белок",
+      "slug": "%d1%87%d1%82%d0%be%d0%b1%d1%8b-%d0%bd%d0%b5-%d0%b2%d1%8b%d0%ba%d0%b8%d0%b4%d1%8b%d0%b2%d0%b0%d1%82%d1%8c-%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d0%b1%d0%b5%d0%bb%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8209",
+      "sourceTaxonomyId": "8209",
+      "name": "готовимся к зимним праздникам",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8%d0%bc%d1%81%d1%8f-%d0%ba-%d0%b7%d0%b8%d0%bc%d0%bd%d0%b8%d0%bc-%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d0%ba%d0%b0%d0%bc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8233",
+      "sourceTaxonomyId": "8233",
+      "name": "нежная и воздушная",
+      "slug": "%d0%bd%d0%b5%d0%b6%d0%bd%d0%b0%d1%8f-%d0%b8-%d0%b2%d0%be%d0%b7%d0%b4%d1%83%d1%88%d0%bd%d0%b0%d1%8f"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "16",
+        "minutes": 16
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13121",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 яичных белка",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яичных белка",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "140 г сахара (мелкого)",
+            "quantity": {
+              "raw": "140 г",
+              "value": 140,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахара (мелкого)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Немного несладкого какао-порошка (по желанию)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "несладкого какао-порошка",
+            "notes": "(по желанию)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 100°C (230F). Противень застелить пергаментной бумагой.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Аккуратно отделить белки от желтков. В очень чистой (от жиров) и сухой посуде взбить белки в мягкую пену. Продолжая взбивать, по чуть-чуть добавить сахар. Взбивать белки до острых пиков.",
+            "mediaId": "wordpress-attachment:13209"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Переложить взбитые белки в кулинарный мешок (с насадкой или без) и выдавить на противень маленькие меренги. Можно сделать разные формы или буквы (дети будут рады). Если у вас нет кулинарного мешка, можно использовать мешок зип-лок или просто маленькую ложку.",
+            "mediaId": "wordpress-attachment:13123"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Поставить в разогретую духовку и выпекать примерно 1 час. Оставить остывать меренги в духовке, затем переложить в герметическую коробку. Удавшиеся меренги должны быть легкими, нежными и не прилипать к зубам. :)",
+            "mediaId": "wordpress-attachment:13124"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13121",
+      "sourceId": "13121",
+      "path": "/recipes/media/wordpress/13121.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13209",
+      "sourceId": "13209",
+      "path": "/recipes/media/wordpress/13209.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13123",
+      "sourceId": "13123",
+      "path": "/recipes/media/wordpress/13123.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13124",
+      "sourceId": "13124",
+      "path": "/recipes/media/wordpress/13124.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

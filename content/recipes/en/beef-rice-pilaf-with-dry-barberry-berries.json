@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21615",
+  "locale": "en",
+  "translationGroupId": null,
+  "slug": "beef-rice-pilaf-with-dry-barberry-berries",
+  "source": {
+    "system": "wordpress",
+    "postId": "21615",
+    "recipeId": "21615",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-beef-rice-pilaf-with-dry-barberry-berries",
+    "createdAt": "2018-05-10T05:31:32+00:00",
+    "modifiedAt": "2022-07-30T19:03:50+00:00",
+    "editorialPostId": "9546",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "beef-rice-pilaf-with-dry-barberry-berries",
+    "editorialCreatedAt": "2018-05-10T05:31:32+00:00",
+    "editorialModifiedAt": "2022-07-30T19:03:49+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Beef Rice Pilaf With Dry Barberry Berries",
+  "description": "It is very important to put the raw garlic on top of the rice before covering everything with water.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This is very delicious and flavorful rice. Perfect for special dinner with friends or just for your family. It may seem a little time consuming, but it's worth it. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21615,\"template\":\"chic-template-english\",\"updated\":1659207797420} -->\n<!--WPRM Recipe 21615-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Beef Rice Pilaf With Dry Barberry Berries</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/31960897_10212287601567570_4769847085295992832_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIt is very important to put the raw garlic on top of the rice before covering everything with water.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 cups rice (Uncle Ben's Long Grain White Rice)</li><li>2 lb beef (boneless stew beef)</li><li>4 large  carrots</li><li>2  onion</li><li>1/2 cup  olive oil</li><li>1 head garlic</li><li>1  tsp ground cumin</li><li>5 Tbsp barberry dry berries</li><li>1 Tbsp freshly ground black pepper</li><li>2 bay leaves</li><li>2 Tbsp salt</li><li>4 cups water (hot)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Soak and rinse the rice, at least 2-3 times, then drain.</li><li>Cut beef into 1 inch pieces.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/32087228_10212287601807576_1814944508027076608_n.Blog_-150x150.png\"/><br /></li><li>Peel and cut the carrots into thick matchsticks.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/31961673_10212287601127559_3097738410551410688_n.Blog_-150x150.png\"/><br /></li><li>Peel and dice onion.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/31958878_10212287601847577_2852377726478712832_n.Blog_-150x150.png\"/><br /></li><li>Heat the olive oil in an enameled cast iron dutch oven over a medium heat, add beef.</li><li>Cook beef for one hour on medium-low heat, stirring occasionally.</li><li>When the beef is fully cooked add onion and soften, stirring regularly for about 3 minutes.</li><li>Add carrots, spices, salt, pepper, bay leaf and dry berries. Cook for another 2 minutes, stirring regularly.</li><li>Layer the soaked rice over the top of the beef and vegetables. Peel some of the skin off the garlic head and slice the top off, exposing the garlic cloves. Put raw garlic head on top of the rice.</li><li>Carefully pour hot water over wooden spoon to ensure even distribution over rice. Do not stir.</li><li>Cover with lid. When it starts boiling, remove the lid to let the water almost evaporate. </li><li>Reduce the heat to low, cover and cook until the rice is tender and the rest of the liquid has been absorbed, about 15 minutes.</li><li>Mix the ingredients as you serve the pilaf on a platter. Garnish with  garlic head.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24105",
+      "sourceTaxonomyId": "24105",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24202",
+      "sourceTaxonomyId": "24202",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24395",
+      "sourceTaxonomyId": "24395",
+      "name": "bay leaves",
+      "slug": "bay-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24407",
+      "sourceTaxonomyId": "24407",
+      "name": "rice",
+      "slug": "rice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24408",
+      "sourceTaxonomyId": "24408",
+      "name": "beef",
+      "slug": "beef"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24409",
+      "sourceTaxonomyId": "24409",
+      "name": "ground cumin",
+      "slug": "ground-cumin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24410",
+      "sourceTaxonomyId": "24410",
+      "name": "barberry dry berries",
+      "slug": "barberry-dry-berries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1016",
+      "sourceTaxonomyId": "1016",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1148",
+      "sourceTaxonomyId": "1148",
+      "name": "rice",
+      "slug": "rice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4578",
+      "sourceTaxonomyId": "4578",
+      "name": "beef",
+      "slug": "beef"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4580",
+      "sourceTaxonomyId": "4580",
+      "name": "ground cumin",
+      "slug": "ground-cumin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4582",
+      "sourceTaxonomyId": "4582",
+      "name": "barberry dry berries",
+      "slug": "barberry-dry-berries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4584",
+      "sourceTaxonomyId": "4584",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4621",
+      "sourceTaxonomyId": "4621",
+      "name": "bay leaves",
+      "slug": "bay-leaves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2786",
+      "sourceTaxonomyId": "2786",
+      "name": "meat",
+      "slug": "meat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4586",
+      "sourceTaxonomyId": "4586",
+      "name": "rice",
+      "slug": "rice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4588",
+      "sourceTaxonomyId": "4588",
+      "name": "pilaf",
+      "slug": "pilaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4590",
+      "sourceTaxonomyId": "4590",
+      "name": "beef pilaf",
+      "slug": "beef-pilaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4592",
+      "sourceTaxonomyId": "4592",
+      "name": "barberry dry berries",
+      "slug": "barberry-dry-berries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4594",
+      "sourceTaxonomyId": "4594",
+      "name": "enameled cast iron Dutch oven",
+      "slug": "enameled-cast-iron-dutch-oven"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "21",
+        "minutes": 21
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:9585",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 cups rice Uncle Ben's Long Grain White Rice",
+            "quantity": {
+              "raw": "2 cups",
+              "value": 2,
+              "unit": "cups",
+              "scalable": true
+            },
+            "name": "rice",
+            "notes": "Uncle Ben's Long Grain White Rice"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 lb beef boneless stew beef",
+            "quantity": {
+              "raw": "2 lb",
+              "value": 2,
+              "unit": "lb",
+              "scalable": true
+            },
+            "name": "beef",
+            "notes": "boneless stew beef"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 large carrots",
+            "quantity": {
+              "raw": "4 large",
+              "value": 4,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "carrots",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 onion",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 cup olive oil",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 head garlic",
+            "quantity": {
+              "raw": "1 head",
+              "value": 1,
+              "unit": "head",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 tsp ground cumin",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "ground cumin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "5 Tbsp barberry dry berries",
+            "quantity": {
+              "raw": "5 Tbsp",
+              "value": 5,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "barberry dry berries",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 Tbsp freshly ground black pepper",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "2 bay leaves",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bay leaves",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "2 Tbsp salt",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 11,
+            "raw": "4 cups water hot",
+            "quantity": {
+              "raw": "4 cups",
+              "value": 4,
+              "unit": "cups",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": "hot"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Soak and rinse the rice, at least 2-3 times, then drain.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut beef into 1 inch pieces.",
+            "mediaId": "wordpress-attachment:9592"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel and cut the carrots into thick matchsticks.",
+            "mediaId": "wordpress-attachment:9590"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Peel and dice onion.",
+            "mediaId": "wordpress-attachment:9589"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Heat the olive oil in an enameled cast iron dutch oven over a medium heat, add beef.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Cook beef for one hour on medium-low heat, stirring occasionally.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "When the beef is fully cooked add onion and soften, stirring regularly for about 3 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Add carrots, spices, salt, pepper, bay leaf and dry berries. Cook for another 2 minutes, stirring regularly.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Layer the soaked rice over the top of the beef and vegetables. Peel some of the skin off the garlic head and slice the top off, exposing the garlic cloves. Put raw garlic head on top of the rice.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Carefully pour hot water over wooden spoon to ensure even distribution over rice. Do not stir.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Cover with lid. When it starts boiling, remove the lid to let the water almost evaporate.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 11,
+            "text": "Reduce the heat to low, cover and cook until the rice is tender and the rest of the liquid has been absorbed, about 15 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 12,
+            "text": "Mix the ingredients as you serve the pilaf on a platter. Garnish with garlic head.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:9585",
+      "sourceId": "9585",
+      "path": "/recipes/media/wordpress/9585.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9592",
+      "sourceId": "9592",
+      "path": "/recipes/media/wordpress/9592.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9590",
+      "sourceId": "9590",
+      "path": "/recipes/media/wordpress/9590.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9589",
+      "sourceId": "9589",
+      "path": "/recipes/media/wordpress/9589.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

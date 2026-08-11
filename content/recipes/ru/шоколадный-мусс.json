@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22451",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:6781",
+  "slug": "шоколадный-мусс",
+  "source": {
+    "system": "wordpress",
+    "postId": "22451",
+    "recipeId": "22451",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bc%d1%83%d1%81%d1%81",
+    "createdAt": "2025-03-21T02:05:00+00:00",
+    "modifiedAt": "2025-03-21T22:42:55+00:00",
+    "editorialPostId": "12172",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bc%d1%83%d1%81%d1%81",
+    "editorialCreatedAt": "2025-03-21T02:05:00+00:00",
+    "editorialModifiedAt": "2025-03-21T22:42:46+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Шоколадный мусс",
+  "description": "Для этого рецепта надо использовать только очень свежие яйца. Готовый мусс можно хранить в холодильнике примерно 24 часа. Если вы хотите приготовить хранить его дольше, то лучше заморозить.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Французский классический рецепт шоколадного мусса, всего два ингредиента: шоколад и яйца. Для истинных любителей шоколада. Чем лучше качество шоколада, тем лучше мусс. Я его готовлю только из черного шоколада, но можно использовать и молочный. Из молочного шоколада мусс получается более сладким и очень нежным.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22451,\"template\":\"chic-template-russian\",\"updated\":1742596885976} -->\n<!--WPRM Recipe 22451-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Шоколадный мусс</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1697-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tДля этого рецепта надо использовать только очень свежие яйца. Готовый мусс можно хранить в холодильнике примерно 24 часа. Если вы хотите приготовить хранить его дольше, то лучше заморозить. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 г черного или молочного шоколада</li><li>6 яиц ((комнатной температуры))</li><li>1 щепотка соли</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Шоколад растопить на водяной бане или в микроволновке. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1664.Blog_-150x150.png\"/><br /></li><li>Отделить желтки от белков. Добавить желтки в растопленный шоколад и энергично перемешать. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1667.Blog_-150x150.png\"/><br /></li><li>Белки взбить со щепоткой соли в крепкую пену.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1666.Blog_-150x150.png\"/><br /></li><li>Соединить взбитые белки с шоколадом, аккуратно перемешивая лопаткой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1669.Blog_-150x150.png\"/><br /></li><li>Должен получиться однородный воздушный мусс.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1670.Blog_-150x150.png\"/><br /></li><li>Разложить мусс по индивидуальным формочкам или стаканчикам. Поставить в холодильник на 4-6 часов.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1690.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Французский классический рецепт шоколадного мусса, всего два ингредиента: шоколад и яйца. Для истинных любителей шоколада."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24927",
+      "sourceTaxonomyId": "24927",
+      "name": "яиц",
+      "slug": "%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26185",
+      "sourceTaxonomyId": "26185",
+      "name": "черного или молочного шоколада",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bb%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25431",
+      "sourceTaxonomyId": "25431",
+      "name": "щепотка",
+      "slug": "%d1%89%d0%b5%d0%bf%d0%be%d1%82%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "728",
+      "sourceTaxonomyId": "728",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25344",
+      "sourceTaxonomyId": "25344",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b-%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "273",
+      "sourceTaxonomyId": "273",
+      "name": "черного шоколада (60-70% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-70-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "824",
+      "sourceTaxonomyId": "824",
+      "name": "яиц",
+      "slug": "%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1252",
+      "sourceTaxonomyId": "1252",
+      "name": "молочный шоколад",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1256",
+      "sourceTaxonomyId": "1256",
+      "name": "черный шоколад",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1500",
+      "sourceTaxonomyId": "1500",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3484",
+      "sourceTaxonomyId": "3484",
+      "name": "без сахара",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4104",
+      "sourceTaxonomyId": "4104",
+      "name": "отделить желтки от белков",
+      "slug": "%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%b8%d1%82%d1%8c-%d0%b6%d0%b5%d0%bb%d1%82%d0%ba%d0%b8-%d0%be%d1%82-%d0%b1%d0%b5%d0%bb%d0%ba%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4374",
+      "sourceTaxonomyId": "4374",
+      "name": "французский рецепт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6757",
+      "sourceTaxonomyId": "6757",
+      "name": "шоколадный мусс",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bc%d1%83%d1%81%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6759",
+      "sourceTaxonomyId": "6759",
+      "name": "всего 2 ингредиента",
+      "slug": "%d0%b2%d1%81%d0%b5%d0%b3%d0%be-2-%d0%b8%d0%bd%d0%b3%d1%80%d0%b5%d0%b4%d0%b8%d0%b5%d0%bd%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6761",
+      "sourceTaxonomyId": "6761",
+      "name": "всего два ингредиента",
+      "slug": "%d0%b2%d1%81%d0%b5%d0%b3%d0%be-%d0%b4%d0%b2%d0%b0-%d0%b8%d0%bd%d0%b3%d1%80%d0%b5%d0%b4%d0%b8%d0%b5%d0%bd%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6765",
+      "sourceTaxonomyId": "6765",
+      "name": "сырые яйца",
+      "slug": "%d1%81%d1%8b%d1%80%d1%8b%d0%b5-%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6769",
+      "sourceTaxonomyId": "6769",
+      "name": "shokoladniy mus",
+      "slug": "shokoladniy-mus"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6771",
+      "sourceTaxonomyId": "6771",
+      "name": "взбить белки в крепкую пену",
+      "slug": "%d0%b2%d0%b7%d0%b1%d0%b8%d1%82%d1%8c-%d0%b1%d0%b5%d0%bb%d0%ba%d0%b8-%d0%b2-%d0%ba%d1%80%d0%b5%d0%bf%d0%ba%d1%83%d1%8e-%d0%bf%d0%b5%d0%bd%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6773",
+      "sourceTaxonomyId": "6773",
+      "name": "классический шоколадный мусс",
+      "slug": "%d0%ba%d0%bb%d0%b0%d1%81%d1%81%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bc%d1%83%d1%81%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6775",
+      "sourceTaxonomyId": "6775",
+      "name": "нежный мусс",
+      "slug": "%d0%bd%d0%b5%d0%b6%d0%bd%d1%8b%d0%b9-%d0%bc%d1%83%d1%81%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8166",
+      "sourceTaxonomyId": "8166",
+      "name": "только два ингредиента",
+      "slug": "%d1%82%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%b4%d0%b2%d0%b0-%d0%b8%d0%bd%d0%b3%d1%80%d0%b5%d0%b4%d0%b8%d0%b5%d0%bd%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8172",
+      "sourceTaxonomyId": "8172",
+      "name": "без молока",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8174",
+      "sourceTaxonomyId": "8174",
+      "name": "без молочных продуктов",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d1%85-%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%82%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8503",
+      "sourceTaxonomyId": "8503",
+      "name": "пасха",
+      "slug": "%d0%bf%d0%b0%d1%81%d1%85%d0%b0"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "2",
+        "minutes": 2
+      },
+      "rest": null,
+      "total": {
+        "raw": "21",
+        "minutes": 21
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:12180",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 г черного или молочного шоколада",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "черного или молочного шоколада",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "6 яиц (комнатной температуры)",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яиц",
+            "notes": "(комнатной температуры)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 щепотка соли",
+            "quantity": {
+              "raw": "1 щепотка",
+              "value": 1,
+              "unit": "щепотка",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Шоколад растопить на водяной бане или в микроволновке.",
+            "mediaId": "wordpress-attachment:12174"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Отделить желтки от белков. Добавить желтки в растопленный шоколад и энергично перемешать.",
+            "mediaId": "wordpress-attachment:12176"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Белки взбить со щепоткой соли в крепкую пену.",
+            "mediaId": "wordpress-attachment:12175"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Соединить взбитые белки с шоколадом, аккуратно перемешивая лопаткой.",
+            "mediaId": "wordpress-attachment:12177"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Должен получиться однородный воздушный мусс.",
+            "mediaId": "wordpress-attachment:12178"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Разложить мусс по индивидуальным формочкам или стаканчикам. Поставить в холодильник на 4-6 часов.",
+            "mediaId": "wordpress-attachment:12179"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12180",
+      "sourceId": "12180",
+      "path": "/recipes/media/wordpress/12180.png",
+      "alt": "Шоколадный мусс",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12174",
+      "sourceId": "12174",
+      "path": "/recipes/media/wordpress/12174.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12176",
+      "sourceId": "12176",
+      "path": "/recipes/media/wordpress/12176.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12175",
+      "sourceId": "12175",
+      "path": "/recipes/media/wordpress/12175.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12177",
+      "sourceId": "12177",
+      "path": "/recipes/media/wordpress/12177.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12178",
+      "sourceId": "12178",
+      "path": "/recipes/media/wordpress/12178.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12179",
+      "sourceId": "12179",
+      "path": "/recipes/media/wordpress/12179.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

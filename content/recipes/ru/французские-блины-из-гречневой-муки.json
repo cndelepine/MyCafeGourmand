@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22338",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:4526",
+  "slug": "французские-блины-из-гречневой-муки",
+  "source": {
+    "system": "wordpress",
+    "postId": "22338",
+    "recipeId": "22338",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b5-%d0%b1%d0%bb%d0%b8%d0%bd%d1%8b-%d0%b8%d0%b7-%d0%b3%d1%80%d0%b5%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8",
+    "createdAt": "2026-02-17T10:33:18+00:00",
+    "modifiedAt": "2026-02-17T22:33:39+00:00",
+    "editorialPostId": "9513",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b5-%d0%b1%d0%bb%d0%b8%d0%bd%d1%8b-%d0%b8%d0%b7-%d0%b3%d1%80%d0%b5%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8",
+    "editorialCreatedAt": "2026-02-17T10:33:18+00:00",
+    "editorialModifiedAt": "2026-02-17T22:33:32+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Французские блины из гречневой муки",
+  "description": "Тесту для гречневых блинов надо обязательно дать настояться 2 часа. Если вы сделали тесто накануне, а жарить будете на следующий день, накройте миску пищевой пленкой и храните в холодильнике. Достать тесто из холодильника лучше заранее, чтобы оно не было холодным.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Блины&nbsp; <span id=\":4n7.1\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Galettes</span> <span id=\":4n7.2\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">de</span> S<span id=\":4n7.3\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">arrasin (галет)</span> - традиционные французские тонкие блинчики из гречневой муки, в которыe заворачиваются разные начинки, чаще всего несладкие: <a href=\"https://mycafegourmand.com/ru/%D0%B3%D1%80%D0%B5%D1%87%D0%BD%D0%B5%D0%B2%D1%8B%D0%B5-%D0%B1%D0%BB%D0%B8%D0%BD%D1%8B-%D1%81-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%BE%D0%B9-%D0%B8%D0%B7-%D0%B2%D0%B5%D1%82%D1%87%D0%B8%D0%BD%D1%8B/\">сыр, ветчина (Galette Jambon Fromage)</a>, свежие или тушенные овощи, яйца, <a href=\"https://mycafegourmand.com/ru/%D0%B3%D1%80%D0%B5%D1%87%D0%BD%D0%B5%D0%B2%D1%8B%D0%B5-%D0%B1%D0%BB%D0%B8%D0%BD%D1%8B-%D1%81-%D0%BA%D0%BE%D0%BF%D1%87%D0%B5%D0%BD%D1%8B%D0%BC-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC/\">копченый лосось</a>, <a href=\"https://mycafegourmand.com/ru/гречневые-блины-с-грибами/\">жареные грибы</a>, красная икра... Мой муж их обожает просто со сливочным маслом или вареньем.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>В гречневых блинах нет пшеничной муки (осторожно: рецепты бывают и с ее добавлением!), поэтому они подходят людям, придерживающимся <span id=\":4n7.5\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">безглютеновой</span> диеты.         </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>ВАЖНО</strong> : Некоторые жалуются, что тесто получается слишком густое и даже, добавив больше воды, еще одно яйцо, блины не получаются. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Этот рецепт проверен и перепроверен, ручаюсь за пропорции! Все дело в гречневой муке. Моя любимая мука - французская Treblec и Francine. Из американской муки Bob's Red Mill блинчики получаются слишком ломкие, в них трудно заворачивать начинку. Судя по отзывам, русская мука не подходит для этого рецепта. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Огромное спасибо всем, кто оставил отзыв и написал марку муки. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22338,\"template\":\"chic-template-russian\",\"updated\":1771367589574,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 22338-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Французские блины из гречневой муки</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_8071.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tТесту для гречневых блинов надо обязательно дать настояться 2 часа. Если вы  сделали тесто накануне, а жарить будете на следующий день, накройте миску пищевой пленкой и храните в холодильнике. Достать тесто из холодильника лучше заранее, чтобы оно не было холодным. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>250 г просеянной гречневой муки</li><li>1  ч.л. крупной соли</li><li>350 мл молока</li><li>350 мл воды</li><li>2 яйца</li><li>50 г растопленного сливочного масла</li><li>Сливочное масло (для жарки)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Гречневую муку просеять и смешать с солью, молоком и водой. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0353.Blog_-150x150.png\"/><br /></li><li>Добавить яйца.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0355.Blog_-150x150.png\"/><br /></li><li>И растопленное сливочное масло. Все хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0356.Blog_-150x150.png\"/><br /></li><li>Тесто должно получиться достаточно жидким и без комков. Накрыть миску пищевой пленкой и дать постоять 2 часа. (Если тесто получилось слишком густое, можно добавить немного воды (зависит от гречневой муки).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0413.Blog_-150x150.png\"/><br /></li><li>Разогреть сковороду, смазать ее кусочком сливочного масла. Налить немного теста и, наклоняя сковороду круговыми движениями, распределить его по всей поверхности. Чем тоньше блин, тем лучше. Как только края поджарились, а поверхность теста перестала быть жидкой, аккуратно поддеть блинчик длинной лопаткой и перевернуть на другую сторону.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_8288.Blog_-150x150.png\"/><br /></li><li>Еще несколько секунд и можно снимать со сковороды. Гречневые блины жарятся очень быстро, не отходите от сковороды!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_8289.Blog_-150x150.png\"/><br /></li><li>Готовые блины можно смазать сливочным маслом. Подавать на стол как можно скорее, пока не остыли.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_8073.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Французские блины из гречневой муки"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24788",
+      "sourceTaxonomyId": "24788",
+      "name": "молока",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24839",
+      "sourceTaxonomyId": "24839",
+      "name": "крупной соли",
+      "slug": "%d0%ba%d1%80%d1%83%d0%bf%d0%bd%d0%be%d0%b9-%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24849",
+      "sourceTaxonomyId": "24849",
+      "name": "просеянной гречневой муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%b3%d1%80%d0%b5%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24851",
+      "sourceTaxonomyId": "24851",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24852",
+      "sourceTaxonomyId": "24852",
+      "name": "растопленного сливочного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%be%d0%bf%d0%bb%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24856",
+      "sourceTaxonomyId": "24856",
+      "name": "Сливочное масло",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d0%bc%d0%b0%d1%81%d0%bb%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1438",
+      "sourceTaxonomyId": "1438",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "586",
+      "sourceTaxonomyId": "586",
+      "name": "растопленного сливочного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%be%d0%bf%d0%bb%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1022",
+      "sourceTaxonomyId": "1022",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2924",
+      "sourceTaxonomyId": "2924",
+      "name": "молока",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5475",
+      "sourceTaxonomyId": "5475",
+      "name": "просеянной гречневой муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%b3%d1%80%d0%b5%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5477",
+      "sourceTaxonomyId": "5477",
+      "name": "крупной соли",
+      "slug": "%d0%ba%d1%80%d1%83%d0%bf%d0%bd%d0%be%d0%b9-%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5479",
+      "sourceTaxonomyId": "5479",
+      "name": "Сливочное масло",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d0%bc%d0%b0%d1%81%d0%bb%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1500",
+      "sourceTaxonomyId": "1500",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2922",
+      "sourceTaxonomyId": "2922",
+      "name": "молоко",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5451",
+      "sourceTaxonomyId": "5451",
+      "name": "блины",
+      "slug": "%d0%b1%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5457",
+      "sourceTaxonomyId": "5457",
+      "name": "молотая гречка",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%82%d0%b0%d1%8f-%d0%b3%d1%80%d0%b5%d1%87%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5459",
+      "sourceTaxonomyId": "5459",
+      "name": "бретань",
+      "slug": "%d0%b1%d1%80%d0%b5%d1%82%d0%b0%d0%bd%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5461",
+      "sourceTaxonomyId": "5461",
+      "name": "регионы франции",
+      "slug": "%d1%80%d0%b5%d0%b3%d0%b8%d0%be%d0%bd%d1%8b-%d1%84%d1%80%d0%b0%d0%bd%d1%86%d0%b8%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5463",
+      "sourceTaxonomyId": "5463",
+      "name": "путешествие во францию",
+      "slug": "%d0%bf%d1%83%d1%82%d0%b5%d1%88%d0%b5%d1%81%d1%82%d0%b2%d0%b8%d0%b5-%d0%b2%d0%be-%d1%84%d1%80%d0%b0%d0%bd%d1%86%d0%b8%d1%8e"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5467",
+      "sourceTaxonomyId": "5467",
+      "name": "без пшеничной муки",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%bf%d1%88%d0%b5%d0%bd%d0%b8%d1%87%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5469",
+      "sourceTaxonomyId": "5469",
+      "name": "традиционный тонкий блинчик",
+      "slug": "%d1%82%d1%80%d0%b0%d0%b4%d0%b8%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d1%8b%d0%b9-%d1%82%d0%be%d0%bd%d0%ba%d0%b8%d0%b9-%d0%b1%d0%bb%d0%b8%d0%bd%d1%87%d0%b8%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5471",
+      "sourceTaxonomyId": "5471",
+      "name": "гречневая мука",
+      "slug": "%d0%b3%d1%80%d0%b5%d1%87%d0%bd%d0%b5%d0%b2%d0%b0%d1%8f-%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5499",
+      "sourceTaxonomyId": "5499",
+      "name": "galette de sarrasin",
+      "slug": "galette-de-sarrasin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5501",
+      "sourceTaxonomyId": "5501",
+      "name": "ne lomkie",
+      "slug": "ne-lomkie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5503",
+      "sourceTaxonomyId": "5503",
+      "name": "не ломкие блинчики",
+      "slug": "%d0%bd%d0%b5-%d0%bb%d0%be%d0%bc%d0%ba%d0%b8%d0%b5-%d0%b1%d0%bb%d0%b8%d0%bd%d1%87%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5621",
+      "sourceTaxonomyId": "5621",
+      "name": "grechnevye bliny",
+      "slug": "grechnevye-bliny"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5623",
+      "sourceTaxonomyId": "5623",
+      "name": "lepeshka iz grechki",
+      "slug": "lepeshka-iz-grechki"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5625",
+      "sourceTaxonomyId": "5625",
+      "name": "grechka",
+      "slug": "grechka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5627",
+      "sourceTaxonomyId": "5627",
+      "name": "grehka",
+      "slug": "grehka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5629",
+      "sourceTaxonomyId": "5629",
+      "name": "гречневая лепешка",
+      "slug": "%d0%b3%d1%80%d0%b5%d1%87%d0%bd%d0%b5%d0%b2%d0%b0%d1%8f-%d0%bb%d0%b5%d0%bf%d0%b5%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5631",
+      "sourceTaxonomyId": "5631",
+      "name": "из гречневой муки",
+      "slug": "%d0%b8%d0%b7-%d0%b3%d1%80%d0%b5%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5633",
+      "sourceTaxonomyId": "5633",
+      "name": "блинчики темного цвета",
+      "slug": "%d0%b1%d0%bb%d0%b8%d0%bd%d1%87%d0%b8%d0%ba%d0%b8-%d1%82%d0%b5%d0%bc%d0%bd%d0%be%d0%b3%d0%be-%d1%86%d0%b2%d0%b5%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5635",
+      "sourceTaxonomyId": "5635",
+      "name": "креп",
+      "slug": "%d0%ba%d1%80%d0%b5%d0%bf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5637",
+      "sourceTaxonomyId": "5637",
+      "name": "крепери",
+      "slug": "%d0%ba%d1%80%d0%b5%d0%bf%d0%b5%d1%80%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8005",
+      "sourceTaxonomyId": "8005",
+      "name": "французские галеты",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b5-%d0%b3%d0%b0%d0%bb%d0%b5%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8007",
+      "sourceTaxonomyId": "8007",
+      "name": "блины из черной муки",
+      "slug": "%d0%b1%d0%bb%d0%b8%d0%bd%d1%8b-%d0%b8%d0%b7-%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8019",
+      "sourceTaxonomyId": "8019",
+      "name": "тонкие блинчики",
+      "slug": "%d1%82%d0%be%d0%bd%d0%ba%d0%b8%d0%b5-%d0%b1%d0%bb%d0%b8%d0%bd%d1%87%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8021",
+      "sourceTaxonomyId": "8021",
+      "name": "бретонские галеты",
+      "slug": "%d0%b1%d1%80%d0%b5%d1%82%d0%be%d0%bd%d1%81%d0%ba%d0%b8%d0%b5-%d0%b3%d0%b0%d0%bb%d0%b5%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8023",
+      "sourceTaxonomyId": "8023",
+      "name": "галет",
+      "slug": "%d0%b3%d0%b0%d0%bb%d0%b5%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26481",
+      "sourceTaxonomyId": "26481",
+      "name": "бретонские блины",
+      "slug": "%d0%b1%d1%80%d0%b5%d1%82%d0%be%d0%bd%d1%81%d0%ba%d0%b8%d0%b5-%d0%b1%d0%bb%d0%b8%d0%bd%d1%8b-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 порции",
+      "value": 4,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "145",
+        "minutes": 145
+      },
+      "custom": {
+        "label": "Пассивное врема",
+        "duration": {
+          "raw": "120",
+          "minutes": 120
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:11333",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 г просеянной гречневой муки",
+            "quantity": {
+              "raw": "250 г",
+              "value": 250,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "просеянной гречневой муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 ч.л. крупной соли",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "крупной соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "350 мл молока",
+            "quantity": {
+              "raw": "350 мл",
+              "value": 350,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "молока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "350 мл воды",
+            "quantity": {
+              "raw": "350 мл",
+              "value": 350,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "воды",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 яйца",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 г растопленного сливочного масла",
+            "quantity": {
+              "raw": "50 г",
+              "value": 50,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "растопленного сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Сливочное масло для жарки",
+            "quantity": null,
+            "name": "Сливочное масло",
+            "notes": "для жарки"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Гречневую муку просеять и смешать с солью, молоком и водой.",
+            "mediaId": "wordpress-attachment:11330"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Добавить яйца.",
+            "mediaId": "wordpress-attachment:11331"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "И растопленное сливочное масло. Все хорошо перемешать.",
+            "mediaId": "wordpress-attachment:11354"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Тесто должно получиться достаточно жидким и без комков. Накрыть миску пищевой пленкой и дать постоять 2 часа. (Если тесто получилось слишком густое, можно добавить немного воды (зависит от гречневой муки).",
+            "mediaId": "wordpress-attachment:11332"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Разогреть сковороду, смазать ее кусочком сливочного масла. Налить немного теста и, наклоняя сковороду круговыми движениями, распределить его по всей поверхности. Чем тоньше блин, тем лучше. Как только края поджарились, а поверхность теста перестала быть жидкой, аккуратно поддеть блинчик длинной лопаткой и перевернуть на другую сторону.",
+            "mediaId": "wordpress-attachment:11336"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Еще несколько секунд и можно снимать со сковороды. Гречневые блины жарятся очень быстро, не отходите от сковороды!",
+            "mediaId": "wordpress-attachment:11337"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Готовые блины можно смазать сливочным маслом. Подавать на стол как можно скорее, пока не остыли.",
+            "mediaId": "wordpress-attachment:11334"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11333",
+      "sourceId": "11333",
+      "path": "/recipes/media/wordpress/11333.png",
+      "alt": "Французские блины из гречневой муки",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11330",
+      "sourceId": "11330",
+      "path": "/recipes/media/wordpress/11330.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11331",
+      "sourceId": "11331",
+      "path": "/recipes/media/wordpress/11331.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11354",
+      "sourceId": "11354",
+      "path": "/recipes/media/wordpress/11354.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11332",
+      "sourceId": "11332",
+      "path": "/recipes/media/wordpress/11332.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:11336",
+      "sourceId": "11336",
+      "path": "/recipes/media/wordpress/11336.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11337",
+      "sourceId": "11337",
+      "path": "/recipes/media/wordpress/11337.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11334",
+      "sourceId": "11334",
+      "path": "/recipes/media/wordpress/11334.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

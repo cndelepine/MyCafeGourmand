@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22097",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:17239",
+  "slug": "confiture-aux-tomates-vertes",
+  "source": {
+    "system": "wordpress",
+    "postId": "22097",
+    "recipeId": "22097",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-confiture-aux-tomates-vertes",
+    "createdAt": "2025-08-14T20:41:00+00:00",
+    "modifiedAt": "2025-08-15T21:57:18+00:00",
+    "editorialPostId": "18181",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "confiture-aux-tomates-vertes",
+    "editorialCreatedAt": "2025-08-14T20:41:00+00:00",
+    "editorialModifiedAt": "2025-08-15T21:57:16+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Confiture aux tomates vertes",
+  "description": "J'utilise des tomates cerises vertes pour cette recette. Si vous avez des tomates assez grosses et avec une peau épaisse, il vaut mieux les ébouillanter pendant 30 secondes, les plonger dans l'eau très froide puis peler.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Quoi faire avec les dernières tomates vertes qui n’auront pas le temps de mûrir dans le potager? La confiture ! Elle est vraiment bonne et très facile à faire ! À essayer absolument sur des tartines beurrées lors d'un petit-déjeuner ou encore pour un apéro avec du fromage.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22097,\"template\":\"chic-template-french\",\"updated\":1755295009289} -->\n<!--WPRM Recipe 22097-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Confiture aux tomates vertes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_9852.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tJ'utilise des tomates cerises vertes pour cette recette. Si vous avez des tomates assez grosses et avec une peau épaisse, il vaut mieux les ébouillanter pendant 30 secondes, les plonger dans l'eau très froide puis peler. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 kg de tomates vertes (tomates cerises vertes pour moi)</li><li>2  cm de racine de gingembre ((facultatif))</li><li>2 citrons</li><li>650 g de sucre en poudre</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Couper les tomates en quartiers. Eplucher et râper le gingembre. Presser les citrons.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_9791.Blog_-150x150.png\"/><br /></li><li>Mettre les tomates dans un casserole ou une marmite. Ajouter le sucre, le gingembre et le jus de citron. Couvrir  et laisser macérer toute la nuit.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_9795.Blog_-150x150.png\"/><br /></li><li>Le lendemain, enlever le couvercle, porter à ébullition. Réduire le feu et faire cuire sur feu moyen-doux en remuant régulièrement. Laisser cuire pendant environ 35 minutes jusqu'à ce qu'il n'y ait plus d'eau et que la confiture ait épaissie. Écumer de temps en temps si nécessaire. (Le temps total de cuisson dépend de la teneur en jus des tomates. Prenez en compte qu'une fois refroidie, la confiture devient moins liquide.)  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_9799.Blog_-150x150.png\"/><br /></li><li>Remplir les pots (préalablement ébouillantés), essuyer les bords et fermer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_0808.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24720",
+      "sourceTaxonomyId": "24720",
+      "name": "de tomates vertes (tomates cerises vertes pour moi)",
+      "slug": "de-tomates-vertes-tomates-cerises-vertes-pour-moi"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24721",
+      "sourceTaxonomyId": "24721",
+      "name": "de racine de gingembre",
+      "slug": "de-racine-de-gingembre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24722",
+      "sourceTaxonomyId": "24722",
+      "name": "citrons",
+      "slug": "citrons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "764",
+      "sourceTaxonomyId": "764",
+      "name": "citrons",
+      "slug": "citrons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17230",
+      "sourceTaxonomyId": "17230",
+      "name": "de racine de gingembre",
+      "slug": "de-racine-de-gingembre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17232",
+      "sourceTaxonomyId": "17232",
+      "name": "de tomates vertes (tomates cerises vertes pour moi)",
+      "slug": "de-tomates-vertes-tomates-cerises-vertes-pour-moi"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3852",
+      "sourceTaxonomyId": "3852",
+      "name": "tomate de jardin",
+      "slug": "tomate-de-jardin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8245",
+      "sourceTaxonomyId": "8245",
+      "name": "original",
+      "slug": "original"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27283",
+      "sourceTaxonomyId": "27283",
+      "name": "fin de saison",
+      "slug": "fin-de-saison-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27286",
+      "sourceTaxonomyId": "27286",
+      "name": "quoi faire avec des tomates pas mures",
+      "slug": "quoi-faire-avec-des-tomates-pas-mures-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27289",
+      "sourceTaxonomyId": "27289",
+      "name": "tomate pas mure",
+      "slug": "tomate-pas-mure-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18187",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 kg de tomates vertes (tomates cerises vertes pour moi)",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "de tomates vertes (tomates cerises vertes pour moi)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 cm de racine de gingembre (facultatif)",
+            "quantity": {
+              "raw": "2 cm",
+              "value": 2,
+              "unit": "cm",
+              "scalable": true
+            },
+            "name": "de racine de gingembre",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 citrons",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citrons",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "650 g de sucre en poudre",
+            "quantity": {
+              "raw": "650 g",
+              "value": 650,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper les tomates en quartiers. Eplucher et râper le gingembre. Presser les citrons.",
+            "mediaId": "wordpress-attachment:18190"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mettre les tomates dans un casserole ou une marmite. Ajouter le sucre, le gingembre et le jus de citron. Couvrir et laisser macérer toute la nuit.",
+            "mediaId": "wordpress-attachment:18184"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Le lendemain, enlever le couvercle, porter à ébullition. Réduire le feu et faire cuire sur feu moyen-doux en remuant régulièrement. Laisser cuire pendant environ 35 minutes jusqu'à ce qu'il n'y ait plus d'eau et que la confiture ait épaissie. Écumer de temps en temps si nécessaire. (Le temps total de cuisson dépend de la teneur en jus des tomates. Prenez en compte qu'une fois refroidie, la confiture devient moins liquide.)",
+            "mediaId": "wordpress-attachment:18185"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Remplir les pots (préalablement ébouillantés), essuyer les bords et fermer.",
+            "mediaId": "wordpress-attachment:18237"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18187",
+      "sourceId": "18187",
+      "path": "/recipes/media/wordpress/18187.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18190",
+      "sourceId": "18190",
+      "path": "/recipes/media/wordpress/18190.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18184",
+      "sourceId": "18184",
+      "path": "/recipes/media/wordpress/18184.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18185",
+      "sourceId": "18185",
+      "path": "/recipes/media/wordpress/18185.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18237",
+      "sourceId": "18237",
+      "path": "/recipes/media/wordpress/18237.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

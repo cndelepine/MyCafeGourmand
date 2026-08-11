@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27249",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26338",
+  "slug": "almond-croissant",
+  "source": {
+    "system": "wordpress",
+    "postId": "27249",
+    "recipeId": "27249",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-almond-croissant",
+    "createdAt": "2023-09-25T01:42:55+00:00",
+    "modifiedAt": "2025-07-12T00:55:52+00:00",
+    "editorialPostId": "27248",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "almond-croissant",
+    "editorialCreatedAt": "2023-09-25T01:42:55+00:00",
+    "editorialModifiedAt": "2025-07-12T00:55:49+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Almond Croissant",
+  "description": "You can prepare the almond cream and fill the croissants in the evening. In the morning, all you have to do is take the croissants out of the fridge, preheat the oven and prepare the coffee while waiting for your delicious almond croissants to be cooked.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>How do you transform a simple croissant into a delicious almond croissant? If you find that the croissants from your supermarket are not good enough or if you want to “revive” yesterday’s croissants, fill them with almond cream and put them in the oven. Here's an easy way to enjoy almond croissants for breakfast at home.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27249,\"template\":\"chic-template-english\",\"updated\":1752281677254} -->\n<!--WPRM Recipe 27249-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Almond Croissant</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1295.Blog_-e1695369328769-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>You can prepare the almond cream and fill the croissants in the evening. In the morning, all you have to do is take the croissants out of the fridge, preheat the oven and prepare the coffee while waiting for your delicious almond croissants to be cooked.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 croissants (not so fresh)</li><li>50 g  softened butter</li><li>50 g sugar</li><li>1  egg</li><li>50  g almond flour</li><li>1/2 tsp liquid vanilla (or a little rum)</li><li>A bit flaked almonds</li><li>A bit icing sugar ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat the oven to 190°C (400F).</p></li><li><p>In a bowl, beat the softened butter and the sugar together, then beat in the egg.</p><p>Stir in the almond powder. </p><p>Add the vanilla (or rum) and set it aside.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4458.Blog_-150x150.png\"/><br /></li><li><p>Cut the croissants lengthwise, without cutting them completely.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1177.Blog_-150x150.png\"/><br /></li><li><p>Fill the croissants with the almond cream.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1180.Blog_-150x150.png\"/><br /></li><li><p>Spread a little almond cream on the surface of the croissants.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1181.Blog_-150x150.png\"/><br /></li><li><p>Finish by putting the flaked almonds on the top, so they will stick together.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1184.Blog_-150x150.png\"/><br /></li><li><p>Place the croissants in the hot oven and let brown for 7-10 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1270.Blog_-150x150.png\"/><br /></li><li><p>Let the croissants cool a little then sprinkle with icing sugar and serve.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1281_1.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "How to transform a simple croissant into a delicious double-baked almond croissant? Follow these steps to improve your old croissants!"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24061",
+      "sourceTaxonomyId": "24061",
+      "name": "egg",
+      "slug": "egg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24064",
+      "sourceTaxonomyId": "24064",
+      "name": "softened butter",
+      "slug": "softened-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24348",
+      "sourceTaxonomyId": "24348",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25561",
+      "sourceTaxonomyId": "25561",
+      "name": "icing sugar",
+      "slug": "icing-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26341",
+      "sourceTaxonomyId": "26341",
+      "name": "croissants (not so fresh)",
+      "slug": "croissants-not-so-fresh"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26342",
+      "sourceTaxonomyId": "26342",
+      "name": "liquid vanilla (or a little rum)",
+      "slug": "liquid-vanilla-or-a-little-rum"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26343",
+      "sourceTaxonomyId": "26343",
+      "name": "flaked almonds",
+      "slug": "flaked-almonds"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25464",
+      "sourceTaxonomyId": "25464",
+      "name": "tsp",
+      "slug": "tsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3068",
+      "sourceTaxonomyId": "3068",
+      "name": "almond",
+      "slug": "almond"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3720",
+      "sourceTaxonomyId": "3720",
+      "name": "almond powder",
+      "slug": "almond-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5171",
+      "sourceTaxonomyId": "5171",
+      "name": "breakfast",
+      "slug": "breakfast"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "17362",
+      "sourceTaxonomyId": "17362",
+      "name": "good for breakfast",
+      "slug": "good-for-breakfast"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26344",
+      "sourceTaxonomyId": "26344",
+      "name": "croissant",
+      "slug": "croissant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26354",
+      "sourceTaxonomyId": "26354",
+      "name": "how to",
+      "slug": "how-to"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26356",
+      "sourceTaxonomyId": "26356",
+      "name": "what to do with old croissant",
+      "slug": "what-to-do-with-old-croissant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27281",
+      "sourceTaxonomyId": "27281",
+      "name": "Double-baked",
+      "slug": "double-baked"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27222",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 croissants (not so fresh)",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "croissants (not so fresh)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "50 g softened butter",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "softened butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g sugar",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 egg",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "50 g almond flour",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 tsp liquid vanilla (or a little rum)",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "liquid vanilla (or a little rum)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "A bit flaked almonds",
+            "quantity": {
+              "raw": "A bit",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "flaked almonds",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "A bit icing sugar (optional)",
+            "quantity": {
+              "raw": "A bit",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "icing sugar",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 190°C (400F).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a bowl, beat the softened butter and the sugar together, then beat in the egg.\n\nStir in the almond powder.\n\nAdd the vanilla (or rum) and set it aside.",
+            "mediaId": "wordpress-attachment:13250"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cut the croissants lengthwise, without cutting them completely.",
+            "mediaId": "wordpress-attachment:27216"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Fill the croissants with the almond cream.",
+            "mediaId": "wordpress-attachment:27217"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Spread a little almond cream on the surface of the croissants.",
+            "mediaId": "wordpress-attachment:27218"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Finish by putting the flaked almonds on the top, so they will stick together.",
+            "mediaId": "wordpress-attachment:27219"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Place the croissants in the hot oven and let brown for 7-10 minutes.",
+            "mediaId": "wordpress-attachment:27223"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Let the croissants cool a little then sprinkle with icing sugar and serve.",
+            "mediaId": "wordpress-attachment:27221"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27222",
+      "sourceId": "27222",
+      "path": "/recipes/media/wordpress/27222.png",
+      "alt": "Almond Croissant",
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13250",
+      "sourceId": "13250",
+      "path": "/recipes/media/wordpress/13250.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27216",
+      "sourceId": "27216",
+      "path": "/recipes/media/wordpress/27216.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27217",
+      "sourceId": "27217",
+      "path": "/recipes/media/wordpress/27217.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27218",
+      "sourceId": "27218",
+      "path": "/recipes/media/wordpress/27218.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27219",
+      "sourceId": "27219",
+      "path": "/recipes/media/wordpress/27219.png",
+      "alt": null,
+      "width": 800,
+      "height": 624
+    },
+    {
+      "id": "wordpress-attachment:27223",
+      "sourceId": "27223",
+      "path": "/recipes/media/wordpress/27223.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27221",
+      "sourceId": "27221",
+      "path": "/recipes/media/wordpress/27221.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

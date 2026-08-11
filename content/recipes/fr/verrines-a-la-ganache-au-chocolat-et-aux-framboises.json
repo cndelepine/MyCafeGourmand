@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21877",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:720",
+  "slug": "verrines-a-la-ganache-au-chocolat-et-aux-framboises",
+  "source": {
+    "system": "wordpress",
+    "postId": "21877",
+    "recipeId": "21877",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-verrines-a-la-ganache-au-chocolat-et-aux-framboises",
+    "createdAt": "2022-02-08T05:47:00+00:00",
+    "modifiedAt": "2022-02-14T22:31:54+00:00",
+    "editorialPostId": "1823",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "verrines-a-la-ganache-au-chocolat-et-aux-framboises",
+    "editorialCreatedAt": "2022-02-08T05:47:00+00:00",
+    "editorialModifiedAt": "2022-02-14T01:40:44+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Verrines à la ganache au chocolat et aux framboises",
+  "description": null,
+  "editorial": {
+    "content": "<p>Ces verrines à la ganache au chocolat et aux frambroises sont irrésistibles. Je les aime aussi parce que cela peut être préparé à l'avance puis rester au congélateur pendant quelques semaines. Les framboises peuvent être remplacées par des myrtilles, cassis ou mûres.&nbsp; Voici un dessert parfait pour ma collection <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">Café gourmand</a>.</p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21877,\"template\":\"chic-template-french\",\"updated\":1614552007482} -->\n<!--WPRM Recipe 21877-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Verrines à la ganache au chocolat et aux framboises</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_4412.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>100 g de chocolat noir ((60% de cacao))</li><li>240 (120+120) g de crème liquide entière (très froide)</li><li>1 cuillère à café de sucre en poudre</li><li>200 g de framboises</li><li>1 cuillère à café de cacao en poudre</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Porter à ébullition 12 cl de crème liquide et la verser sur le chocolat noir. Bien mélanger jusqu'à ce que le mélange soit homogène. </li><li>Répartir le chocolat liquide dans des verrines. </li><li>Mettre au réfrigérateur pendant 30 minutes pour refroidir.</li><li>Répartir les framboises dans les verrines. Si vos verrines sont vraiment petites, couper chaque framboise en deux.</li><li>Monter le reste de la crème en chantilly avec le sucre. </li><li>Répartir la chantilly sur les framboises.</li><li>Garder le verrines dans le réfrigérateur jusqu'au moment de servir. Où bien dans le congélateur si le dessert a été préparé bien à l'avance.</li><li>Pour la décoration, saupoudrer de cacao.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24539",
+      "sourceTaxonomyId": "24539",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24583",
+      "sourceTaxonomyId": "24583",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24584",
+      "sourceTaxonomyId": "24584",
+      "name": "de framboises",
+      "slug": "de-framboises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "240",
+      "sourceTaxonomyId": "240",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "707",
+      "sourceTaxonomyId": "707",
+      "name": "de framboises",
+      "slug": "de-framboises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "709",
+      "sourceTaxonomyId": "709",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1548",
+      "sourceTaxonomyId": "1548",
+      "name": "verrines",
+      "slug": "verrines"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1550",
+      "sourceTaxonomyId": "1550",
+      "name": "ganache",
+      "slug": "ganache"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1552",
+      "sourceTaxonomyId": "1552",
+      "name": "chocolat",
+      "slug": "chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1554",
+      "sourceTaxonomyId": "1554",
+      "name": "framboises",
+      "slug": "framboises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4273",
+      "sourceTaxonomyId": "4273",
+      "name": "gluten free",
+      "slug": "gluten-free-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5533",
+      "sourceTaxonomyId": "5533",
+      "name": "tres facile",
+      "slug": "tres-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5598",
+      "sourceTaxonomyId": "5598",
+      "name": "dessert elegant",
+      "slug": "dessert-elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7062",
+      "sourceTaxonomyId": "7062",
+      "name": "idee cafe gourmand",
+      "slug": "idee-cafe-gourmand"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "31",
+        "minutes": 31
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1845",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 g de chocolat noir (60% de cacao)",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir",
+            "notes": "(60% de cacao)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "240 (120+120) g de crème liquide entière très froide",
+            "quantity": {
+              "raw": "240 (120+120) g",
+              "unit": "g",
+              "scalable": false
+            },
+            "name": "de crème liquide entière",
+            "notes": "très froide"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cuillère à café de sucre en poudre",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g de framboises",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de framboises",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 cuillère à café de cacao en poudre",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de cacao en poudre",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Porter à ébullition 12 cl de crème liquide et la verser sur le chocolat noir. Bien mélanger jusqu'à ce que le mélange soit homogène.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Répartir le chocolat liquide dans des verrines.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mettre au réfrigérateur pendant 30 minutes pour refroidir.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Répartir les framboises dans les verrines. Si vos verrines sont vraiment petites, couper chaque framboise en deux.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Monter le reste de la crème en chantilly avec le sucre.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Répartir la chantilly sur les framboises.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Garder le verrines dans le réfrigérateur jusqu'au moment de servir. Où bien dans le congélateur si le dessert a été préparé bien à l'avance.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Pour la décoration, saupoudrer de cacao.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1845",
+      "sourceId": "1845",
+      "path": "/recipes/media/wordpress/1845.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

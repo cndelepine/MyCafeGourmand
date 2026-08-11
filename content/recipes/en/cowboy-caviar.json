@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21346",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7489",
+  "slug": "cowboy-caviar",
+  "source": {
+    "system": "wordpress",
+    "postId": "21346",
+    "recipeId": "21346",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cowboy-caviar",
+    "createdAt": "2026-02-04T05:54:00+00:00",
+    "modifiedAt": "2026-02-09T07:38:36+00:00",
+    "editorialPostId": "12859",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cowboy-caviar",
+    "editorialCreatedAt": "2026-02-04T05:54:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:38:34+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Cowboy caviar",
+  "description": "The jalapeño can be replaced by a few pinches of chili powder.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Cowboy caviar (or Texas caviar) is a simple, healthy,&nbsp;colorful, and delicious <span class=\"st\">appetizer</span>, salad,<span class=\"st\"> side-dish</span>, or <span class=\"st\">dip</span>. Using canned beans and corn is a quicker alternative to cooking dry beans. Spend less time in the kitchen but don't forget to prepare in advance to allow&nbsp;the different flavors to blend together before serving.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21346,\"template\":\"chic-template-english\",\"updated\":1770622674725} -->\n<!--WPRM Recipe 21346-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Cowboy caviar</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_1990.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThe jalapeño can be replaced by a few pinches of chili powder.\r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1  can (425 g) Black beans, Red beans, or Black Eye peas, or Tri-Bean blend (drained and rinsed)</li><li>1 can (425 g) whole kernel sweet corn (drained and rinsed)</li><li>1/2 red onion (peeled and minced)</li><li>1 bell pepper (red, yellow or orange) (cored and cubes)</li><li>1 jalapeño (cored and minced)</li><li>3 tomatoes (cubed)</li><li>1/4 bunch Fresh cilantro (chopped)</li><li>Salt and freshly ground black pepper</li><li>3 Tbsp apple cider vinegar (or lime juice)</li><li>4 Tbsp olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Combine all ingredients in a salad bowl, mix, cover, and let chill for about one hour in the fridge.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23559",
+      "sourceTaxonomyId": "23559",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24224",
+      "sourceTaxonomyId": "24224",
+      "name": "Black beans, Red beans, or Black Eye peas, or Tri-Bean blend",
+      "slug": "black-beans-red-beans-or-black-eye-peas-or-tri-bean-blend"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24225",
+      "sourceTaxonomyId": "24225",
+      "name": "whole kernel sweet corn",
+      "slug": "whole-kernel-sweet-corn"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24226",
+      "sourceTaxonomyId": "24226",
+      "name": "bell pepper (red, yellow or orange)",
+      "slug": "bell-pepper-red-yellow-or-orange"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24227",
+      "sourceTaxonomyId": "24227",
+      "name": "jalapeño",
+      "slug": "jalapeno"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24228",
+      "sourceTaxonomyId": "24228",
+      "name": "Fresh cilantro",
+      "slug": "fresh-cilantro"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24229",
+      "sourceTaxonomyId": "24229",
+      "name": "apple cider vinegar",
+      "slug": "apple-cider-vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2054",
+      "sourceTaxonomyId": "2054",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2714",
+      "sourceTaxonomyId": "2714",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6190",
+      "sourceTaxonomyId": "6190",
+      "name": "Fresh cilantro",
+      "slug": "fresh-cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7674",
+      "sourceTaxonomyId": "7674",
+      "name": "whole kernel sweet corn",
+      "slug": "whole-kernel-sweet-corn"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7676",
+      "sourceTaxonomyId": "7676",
+      "name": "bell pepper (red, yellow or orange)",
+      "slug": "bell-pepper-red-yellow-or-orange"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7678",
+      "sourceTaxonomyId": "7678",
+      "name": "jalapeño",
+      "slug": "jalapeno"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7680",
+      "sourceTaxonomyId": "7680",
+      "name": "apple cider vinegar",
+      "slug": "apple-cider-vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7758",
+      "sourceTaxonomyId": "7758",
+      "name": "Black beans, Red beans, or Black Eye peas, or Tri-Bean blend",
+      "slug": "black-beans-red-beans-or-black-eye-peas-or-tri-bean-blend"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1604",
+      "sourceTaxonomyId": "1604",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3698",
+      "sourceTaxonomyId": "3698",
+      "name": "easy and cheap",
+      "slug": "easy-and-cheap"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4061",
+      "sourceTaxonomyId": "4061",
+      "name": "jalapeno",
+      "slug": "jalapeno-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4337",
+      "sourceTaxonomyId": "4337",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6020",
+      "sourceTaxonomyId": "6020",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7129",
+      "sourceTaxonomyId": "7129",
+      "name": "red oinon",
+      "slug": "red-oinon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7627",
+      "sourceTaxonomyId": "7627",
+      "name": "beans",
+      "slug": "beans"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7629",
+      "sourceTaxonomyId": "7629",
+      "name": "canned beans",
+      "slug": "canned-beans"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7631",
+      "sourceTaxonomyId": "7631",
+      "name": "canned corn",
+      "slug": "canned-corn"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7633",
+      "sourceTaxonomyId": "7633",
+      "name": "cilantro",
+      "slug": "cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7635",
+      "sourceTaxonomyId": "7635",
+      "name": "cowboy caviar",
+      "slug": "cowboy-caviar-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7637",
+      "sourceTaxonomyId": "7637",
+      "name": "texas caviar",
+      "slug": "texas-caviar-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7666",
+      "sourceTaxonomyId": "7666",
+      "name": "dietary fiber and protein",
+      "slug": "dietary-fiber-and-protein"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7668",
+      "sourceTaxonomyId": "7668",
+      "name": "protein food",
+      "slug": "protein-food"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7682",
+      "sourceTaxonomyId": "7682",
+      "name": "protein substitute for meat",
+      "slug": "protein-substitute-for-meat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7684",
+      "sourceTaxonomyId": "7684",
+      "name": "american kitchen",
+      "slug": "american-kitchen"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7686",
+      "sourceTaxonomyId": "7686",
+      "name": "tri-bean blend",
+      "slug": "tri-bean-blend"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7688",
+      "sourceTaxonomyId": "7688",
+      "name": "black beans",
+      "slug": "black-beans"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7690",
+      "sourceTaxonomyId": "7690",
+      "name": "red beans",
+      "slug": "red-beans"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "75",
+        "minutes": 75
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12785",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 can (425 g) Black beans, Red beans, or Black Eye peas, or Tri-Bean blend drained and rinsed",
+            "quantity": {
+              "raw": "1 can (425 g)",
+              "value": 1,
+              "unit": "can (425 g)",
+              "scalable": true
+            },
+            "name": "Black beans, Red beans, or Black Eye peas, or Tri-Bean blend",
+            "notes": "drained and rinsed"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 can (425 g) whole kernel sweet corn drained and rinsed",
+            "quantity": {
+              "raw": "1 can (425 g)",
+              "value": 1,
+              "unit": "can (425 g)",
+              "scalable": true
+            },
+            "name": "whole kernel sweet corn",
+            "notes": "drained and rinsed"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 red onion peeled and minced",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "red onion",
+            "notes": "peeled and minced"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 bell pepper (red, yellow or orange) cored and cubes",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bell pepper (red, yellow or orange)",
+            "notes": "cored and cubes"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 jalapeño cored and minced",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jalapeño",
+            "notes": "cored and minced"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 tomatoes cubed",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": "cubed"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/4 bunch Fresh cilantro chopped",
+            "quantity": {
+              "raw": "1/4 bunch",
+              "value": 0.25,
+              "unit": "bunch",
+              "scalable": true
+            },
+            "name": "Fresh cilantro",
+            "notes": "chopped"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "3 Tbsp apple cider vinegar or lime juice",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "apple cider vinegar",
+            "notes": "or lime juice"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "4 Tbsp olive oil",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Combine all ingredients in a salad bowl, mix, cover, and let chill for about one hour in the fridge.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12785",
+      "sourceId": "12785",
+      "path": "/recipes/media/wordpress/12785.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

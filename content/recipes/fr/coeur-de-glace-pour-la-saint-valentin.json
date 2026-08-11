@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21985",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:12132",
+  "slug": "coeur-de-glace-pour-la-saint-valentin",
+  "source": {
+    "system": "wordpress",
+    "postId": "21985",
+    "recipeId": "21985",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-glace-pour-la-saint-valentin",
+    "createdAt": "2026-02-08T16:03:00+00:00",
+    "modifiedAt": "2026-02-09T07:56:50+00:00",
+    "editorialPostId": "15092",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "coeur-de-glace-pour-la-saint-valentin",
+    "editorialCreatedAt": "2026-02-08T16:03:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:56:48+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Glace pour la Saint-Valentin",
+  "description": "Si votre moule est grand, faites un dessert à partager pour deux. Si vous avez des petits moules, préparez deux cœurs. Choisissez une glace ou un sorbet selon votre goût (et celui de votre amoureux/amoureuse) et servez le dessert avec de la chantilly, du chocolat, des fruits...",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une glace pour la Saint-Valentin fera plaisir à votre amoureux sans passer une journée aux fourneaux. Cette glace en forme de cœur est servie avec un nuage de chantilly, saupoudrée de chocolat râpé. Voilà un dessert glacé qui va faire fondre les cœurs!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21985,\"template\":\"chic-template-french\",\"updated\":1770623779206} -->\n<!--WPRM Recipe 21985-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Glace pour la Saint-Valentin</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7315.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tSi votre moule est grand, faites un dessert à partager pour deux. Si vous avez des petits moules, préparez deux cœurs. Choisissez une glace ou un sorbet selon votre goût (et celui de votre amoureux/amoureuse) et servez le dessert avec de la chantilly, du chocolat, des fruits...\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g de glace au chocolat ((ou une autre parfum selon vos désirs))</li><li>50 ml de crème liquide entière très froide</li><li>1 cuillère à café de sucre en poudre</li><li>1 carré de chocolat (râpé)</li><li>Quelques fruits rouges</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Sortir le pot de glace du congélateur. Laisser dehors 5 minutes pour la dégeler légèrement. Mettre la glace dans un moule en forme de cœur. Bien tasser. Couvrir avec un film plastique et remettre au congélateur pour environ 45 minutes.\r\n    <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7210.Blog_-150x150.png\"/><br /></li><li>Plonger le moule quelques secondes dans l'eau chaude. (Essuyer les moules avec un papier absorbant pour ne pas mouiller l'assiette de service).\r\n   \r\n    <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7287.Blog_-150x150.png\"/><br /></li><li>Démouler la glace sur une assiette de service (à l'aide de la lame d'un couteau). Placer l'assiette dans le congélateur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7292.Blog_-150x150.png\"/><br /></li><li>Monter la crème en chantilly avec le sucre. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7290.Blog_-150x150.png\"/><br /></li><li>Au moment de servir, mettre la chantilly sur le cœur de glace. Saupoudrer de noix et de chocolat râpé. Décorer avec les fruits rouges. Servir aussitôt.\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7312-3.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24626",
+      "sourceTaxonomyId": "24626",
+      "name": "de glace au chocolat",
+      "slug": "de-glace-au-chocolat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24660",
+      "sourceTaxonomyId": "24660",
+      "name": "de crème liquide entière très froide",
+      "slug": "de-creme-liquide-entiere-tres-froide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24661",
+      "sourceTaxonomyId": "24661",
+      "name": "de chocolat",
+      "slug": "de-chocolat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24662",
+      "sourceTaxonomyId": "24662",
+      "name": "fruits rouges",
+      "slug": "fruits-rouges"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4455",
+      "sourceTaxonomyId": "4455",
+      "name": "de glace au chocolat",
+      "slug": "de-glace-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12126",
+      "sourceTaxonomyId": "12126",
+      "name": "de crème liquide entière très froide",
+      "slug": "de-creme-liquide-entiere-tres-froide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12128",
+      "sourceTaxonomyId": "12128",
+      "name": "de chocolat",
+      "slug": "de-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12245",
+      "sourceTaxonomyId": "12245",
+      "name": "fruits rouges",
+      "slug": "fruits-rouges"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2181",
+      "sourceTaxonomyId": "2181",
+      "name": "chantilly",
+      "slug": "chantilly"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2216",
+      "sourceTaxonomyId": "2216",
+      "name": "dessert individuel",
+      "slug": "dessert-individuel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4443",
+      "sourceTaxonomyId": "4443",
+      "name": "glace",
+      "slug": "glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4449",
+      "sourceTaxonomyId": "4449",
+      "name": "sorbet",
+      "slug": "sorbet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4492",
+      "sourceTaxonomyId": "4492",
+      "name": "glace au chocolat",
+      "slug": "glace-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5533",
+      "sourceTaxonomyId": "5533",
+      "name": "tres facile",
+      "slug": "tres-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6427",
+      "sourceTaxonomyId": "6427",
+      "name": "la Saint-Valentin",
+      "slug": "la-saint-valentin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7185",
+      "sourceTaxonomyId": "7185",
+      "name": "dessert facile",
+      "slug": "dessert-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25728",
+      "sourceTaxonomyId": "25728",
+      "name": "coeur",
+      "slug": "coeur-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26616",
+      "sourceTaxonomyId": "26616",
+      "name": "14 fevrier",
+      "slug": "14-fevrier"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 personnes",
+      "value": 2,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:15098",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g de glace au chocolat (ou une autre parfum selon vos désirs)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de glace au chocolat",
+            "notes": "(ou une autre parfum selon vos désirs)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "50 ml de crème liquide entière très froide",
+            "quantity": {
+              "raw": "50 ml",
+              "value": 50,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière très froide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cuillère à café de sucre en poudre",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 carré de chocolat râpé",
+            "quantity": {
+              "raw": "1 carré",
+              "value": 1,
+              "unit": "carré",
+              "scalable": true
+            },
+            "name": "de chocolat",
+            "notes": "râpé"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Quelques fruits rouges",
+            "quantity": {
+              "raw": "Quelques",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fruits rouges",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Sortir le pot de glace du congélateur. Laisser dehors 5 minutes pour la dégeler légèrement. Mettre la glace dans un moule en forme de cœur. Bien tasser. Couvrir avec un film plastique et remettre au congélateur pour environ 45 minutes.",
+            "mediaId": "wordpress-attachment:15093"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Plonger le moule quelques secondes dans l'eau chaude. (Essuyer les moules avec un papier absorbant pour ne pas mouiller l'assiette de service).",
+            "mediaId": "wordpress-attachment:15094"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Démouler la glace sur une assiette de service (à l'aide de la lame d'un couteau). Placer l'assiette dans le congélateur.",
+            "mediaId": "wordpress-attachment:15096"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Monter la crème en chantilly avec le sucre.",
+            "mediaId": "wordpress-attachment:15095"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Au moment de servir, mettre la chantilly sur le cœur de glace. Saupoudrer de noix et de chocolat râpé. Décorer avec les fruits rouges. Servir aussitôt.",
+            "mediaId": "wordpress-attachment:15097"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15098",
+      "sourceId": "15098",
+      "path": "/recipes/media/wordpress/15098.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15093",
+      "sourceId": "15093",
+      "path": "/recipes/media/wordpress/15093.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15094",
+      "sourceId": "15094",
+      "path": "/recipes/media/wordpress/15094.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15096",
+      "sourceId": "15096",
+      "path": "/recipes/media/wordpress/15096.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15095",
+      "sourceId": "15095",
+      "path": "/recipes/media/wordpress/15095.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15097",
+      "sourceId": "15097",
+      "path": "/recipes/media/wordpress/15097.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

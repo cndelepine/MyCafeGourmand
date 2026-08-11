@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27210",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26338",
+  "slug": "croissant-aux-amandes",
+  "source": {
+    "system": "wordpress",
+    "postId": "27210",
+    "recipeId": "27210",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-croissant-aux-amandes",
+    "createdAt": "2025-06-22T21:35:00+00:00",
+    "modifiedAt": "2025-07-12T00:58:16+00:00",
+    "editorialPostId": "27208",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "croissant-aux-amandes",
+    "editorialCreatedAt": "2025-06-22T21:35:00+00:00",
+    "editorialModifiedAt": "2025-07-12T00:58:13+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Croissant aux amandes",
+  "description": "Une recette facile pour améliorer vos croissants!",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Comment transformer un simple croissant en un délicieux croissant aux amandes? Si vous trouvez que les croissants de votre supermarché ne sont pas assez bons ou pour \"réanimer\" les croissants d'hier, fourrez-les de crème d'amandes et passez-les au four. Voila une façon facile de déguster des croissants aux amandes pour le petit déjeuner sans sortir de la maison.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27210,\"template\":\"chic-template-french\",\"updated\":1752281828279} -->\n<!--WPRM Recipe 27210-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Croissant aux amandes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1295.Blog_-e1695369328769-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Une recette facile pour améliorer vos croissants!</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 croissants pas très frais</li><li>50 g  de beurre ramolli</li><li>50 g de sucre en poudre</li><li>1  œuf</li><li>50  g de poudre d&#039;amande</li><li>1/2 cuillère à café de vanille liquide</li><li>Un peu d&#039;amande effilées</li><li>Un peu  de sucre glace  ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le four a 200°С.</p></li><li><p>Dans une jatte, battre le beurre avec le sucre. </p><p>Ajouter l&#039;œuf et la poudre d’amandes. Ajouter la vanille liquide.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4458.Blog_-150x150.png\"/><br /></li><li><p>Couper les croissants en deux dans la longueur, sans les découper complètement</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1177.Blog_-150x150.png\"/><br /></li><li><p>Garnir les croissants avec la crème d&#039;amandes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1180.Blog_-150x150.png\"/><br /></li><li><p>Etaler un peu de crème sur tout la surface des croissants.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1181.Blog_-150x150.png\"/><br /></li><li><p>Terminer par mettre les amandes effilées sur la crème, elles vont se coller.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1184.Blog_-150x150.png\"/><br /></li><li><p>Mettre les croissant dans le four chaud et laisser dorer pendant 7-10 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1270.Blog_-150x150.png\"/><br /></li><li><p>Laisser les croissants refroidir un peu puis saupoudrer de sucre glace et servir.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1281_1.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Comment transformer un simple croissant en un délicieux croissant aux amandes? Suivez ces étapes pour améliorer vos vieux croissants!"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24036",
+      "sourceTaxonomyId": "24036",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24317",
+      "sourceTaxonomyId": "24317",
+      "name": "de poudre d'amande",
+      "slug": "de-poudre-damande"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24473",
+      "sourceTaxonomyId": "24473",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24511",
+      "sourceTaxonomyId": "24511",
+      "name": "de beurre ramolli",
+      "slug": "de-beurre-ramolli"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24536",
+      "sourceTaxonomyId": "24536",
+      "name": "de vanille liquide",
+      "slug": "de-vanille-liquide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26334",
+      "sourceTaxonomyId": "26334",
+      "name": "croissants pas tres frais",
+      "slug": "croissants-pas-tres-frais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26335",
+      "sourceTaxonomyId": "26335",
+      "name": "d'amande effilees",
+      "slug": "damande-effilees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25461",
+      "sourceTaxonomyId": "25461",
+      "name": "cuillère à café",
+      "slug": "cuillere-a-cafe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1412",
+      "sourceTaxonomyId": "1412",
+      "name": "amande",
+      "slug": "amande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2941",
+      "sourceTaxonomyId": "2941",
+      "name": "petit dejeuner",
+      "slug": "petit-dejeuner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7185",
+      "sourceTaxonomyId": "7185",
+      "name": "dessert facile",
+      "slug": "dessert-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7187",
+      "sourceTaxonomyId": "7187",
+      "name": "amandes effilees",
+      "slug": "amandes-effilees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25618",
+      "sourceTaxonomyId": "25618",
+      "name": "quoi faire avec",
+      "slug": "quoi-faire-avec"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26336",
+      "sourceTaxonomyId": "26336",
+      "name": "comment utiliser",
+      "slug": "comment-utiliser"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26346",
+      "sourceTaxonomyId": "26346",
+      "name": "croissant",
+      "slug": "croissant-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27222",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 croissants pas très frais",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "croissants pas très frais",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "50 g de beurre ramolli",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre ramolli",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g de sucre en poudre",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 œuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "50 g de poudre d'amande",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de poudre d'amande",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 cuillère à café de vanille liquide",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de vanille liquide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Un peu d'amande effilées",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'amande effilées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Un peu de sucre glace (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de sucre glace",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four a 200°С.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans une jatte, battre le beurre avec le sucre.\n\nAjouter l'œuf et la poudre d’amandes. Ajouter la vanille liquide.",
+            "mediaId": "wordpress-attachment:13250"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper les croissants en deux dans la longueur, sans les découper complètement",
+            "mediaId": "wordpress-attachment:27216"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Garnir les croissants avec la crème d'amandes.",
+            "mediaId": "wordpress-attachment:27217"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Etaler un peu de crème sur tout la surface des croissants.",
+            "mediaId": "wordpress-attachment:27218"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Terminer par mettre les amandes effilées sur la crème, elles vont se coller.",
+            "mediaId": "wordpress-attachment:27219"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Mettre les croissant dans le four chaud et laisser dorer pendant 7-10 minutes.",
+            "mediaId": "wordpress-attachment:27223"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Laisser les croissants refroidir un peu puis saupoudrer de sucre glace et servir.",
+            "mediaId": "wordpress-attachment:27221"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27222",
+      "sourceId": "27222",
+      "path": "/recipes/media/wordpress/27222.png",
+      "alt": "Almond Croissant",
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13250",
+      "sourceId": "13250",
+      "path": "/recipes/media/wordpress/13250.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27216",
+      "sourceId": "27216",
+      "path": "/recipes/media/wordpress/27216.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27217",
+      "sourceId": "27217",
+      "path": "/recipes/media/wordpress/27217.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27218",
+      "sourceId": "27218",
+      "path": "/recipes/media/wordpress/27218.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27219",
+      "sourceId": "27219",
+      "path": "/recipes/media/wordpress/27219.png",
+      "alt": null,
+      "width": 800,
+      "height": 624
+    },
+    {
+      "id": "wordpress-attachment:27223",
+      "sourceId": "27223",
+      "path": "/recipes/media/wordpress/27223.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27221",
+      "sourceId": "27221",
+      "path": "/recipes/media/wordpress/27221.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

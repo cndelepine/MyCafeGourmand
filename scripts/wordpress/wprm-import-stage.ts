@@ -17,6 +17,7 @@ import {
   WprmImportError,
   type CandidateOutcome,
   type WprmSafeManifest,
+  type WprmStagedMediaBindings,
   type WprmStagingMarker
 } from "./wprm-import-contracts";
 
@@ -109,20 +110,31 @@ function hasExactKeys(value: unknown, keys: readonly string[]): value is Record<
 }
 
 interface WprmStagingMarkerShape {
-  readonly schemaVersion: 1;
+  readonly schemaVersion: 1 | 2;
   readonly kind: "wprm-bulk-staging";
   readonly sqlDecompressedSha256: string;
   readonly importerContractVersion: string;
+  readonly mediaBindingVersion?: 1;
 }
 
 function isWprmStagingMarkerShape(value: unknown): value is WprmStagingMarkerShape {
-  return hasExactKeys(value, [
+  const isLegacy = hasExactKeys(value, [
     "schemaVersion",
     "kind",
     "sqlDecompressedSha256",
     "importerContractVersion"
   ])
-    && value.schemaVersion === 1
+    && value.schemaVersion === 1;
+  const isCurrent = hasExactKeys(value, [
+    "schemaVersion",
+    "kind",
+    "sqlDecompressedSha256",
+    "importerContractVersion",
+    "mediaBindingVersion"
+  ])
+    && value.schemaVersion === 2
+    && value.mediaBindingVersion === 1;
+  return (isLegacy || isCurrent)
     && value.kind === "wprm-bulk-staging"
     && typeof value.sqlDecompressedSha256 === "string"
     && /^[a-f0-9]{64}$/u.test(value.sqlDecompressedSha256)
@@ -132,6 +144,8 @@ function isWprmStagingMarkerShape(value: unknown): value is WprmStagingMarkerSha
 
 function isWprmStagingMarker(value: unknown): value is WprmStagingMarker {
   return isWprmStagingMarkerShape(value)
+    && value.schemaVersion === 2
+    && value.mediaBindingVersion === 1
     && value.importerContractVersion === wprmImportContractVersion;
 }
 
@@ -146,7 +160,13 @@ function markerMatches(
   return actual.schemaVersion === expected.schemaVersion
     && actual.kind === expected.kind
     && actual.sqlDecompressedSha256 === expected.sqlDecompressedSha256
-    && actual.importerContractVersion === expected.importerContractVersion;
+    && actual.importerContractVersion === expected.importerContractVersion
+    && actual.mediaBindingVersion === expected.mediaBindingVersion;
+}
+
+function isLegacyV3Marker(value: WprmStagingMarkerShape) {
+  return value.schemaVersion === 1
+    && value.importerContractVersion === "wprm-bulk-import-v3";
 }
 
 async function privateDirectoryStats(target: string) {
@@ -193,6 +213,9 @@ async function readPrivateMarker(
     const parsed: unknown = JSON.parse((await handle.readFile()).toString("utf8"));
     if (!isWprmStagingMarkerShape(parsed)) {
       throw new WprmImportError("unsafe-staging-dir");
+    }
+    if (expected !== undefined && isLegacyV3Marker(parsed)) {
+      throw new WprmImportError("staging-media-binding-upgrade-required");
     }
     if (expected !== undefined && !markerMatches(parsed, expected)) {
       throw new WprmImportError("staging-conflict");
@@ -477,6 +500,16 @@ export async function assertPrivateStagingDirectory(
       path.join(initialAuthorization.destination, ".wprm-staging.json"),
       expectedMarker
     );
+  } else if (initialAuthorization.exists) {
+    const markerPath = path.join(initialAuthorization.destination, ".wprm-staging.json");
+    try {
+      await lstat(markerPath);
+      await readPrivateMarker(markerPath, expectedMarker);
+    } catch (error) {
+      if (!missingError(error)) {
+        throw error;
+      }
+    }
   }
   const root = await ensurePrivateDirectory(
     canonical.destination,
@@ -569,6 +602,7 @@ async function writeAtomic(
     );
     await handle.writeFile(content, "utf8");
     await handle.chmod(mode);
+    await handle.sync();
   } catch {
     try {
       await unlink(temporary);
@@ -605,18 +639,43 @@ function candidateContent(record: RecipeRecord) {
   return `${JSON.stringify(record, null, 2)}\n`;
 }
 
+function validateMediaBindings(mediaBindings: WprmStagedMediaBindings) {
+  if (
+    mediaBindings.schemaVersion !== 1
+    || mediaBindings.kind !== "wprm-staged-media-bindings"
+  ) {
+    throw new WprmImportError("invalid-media-bindings");
+  }
+  let previous: string | undefined;
+  for (const entry of mediaBindings.entries) {
+    if (
+      !/^\d+$/u.test(entry.attachmentId)
+      || !Number.isSafeInteger(entry.bytes)
+      || entry.bytes < 0
+      || !/^[a-f0-9]{64}$/u.test(entry.keyedSha256)
+      || (previous !== undefined && BigInt(previous) >= BigInt(entry.attachmentId))
+    ) {
+      throw new WprmImportError("invalid-media-bindings");
+    }
+    previous = entry.attachmentId;
+  }
+}
+
 export async function stageWprmCandidates(
   outcomes: readonly CandidateOutcome[],
   manifest: WprmSafeManifest,
+  mediaBindings: WprmStagedMediaBindings,
   options: StagingOptions
 ) {
+  validateMediaBindings(mediaBindings);
   const key = await readFingerprintKey(options.fingerprintKeyFile);
   const resume = options.resume === true;
   const marker: WprmStagingMarker = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     kind: "wprm-bulk-staging",
     sqlDecompressedSha256: manifest.source.sqlDecompressedSha256,
-    importerContractVersion: wprmImportContractVersion
+    importerContractVersion: wprmImportContractVersion,
+    mediaBindingVersion: 1
   };
   const directories = await assertPrivateStagingDirectory(
     options.stagingDir,
@@ -688,6 +747,15 @@ export async function stageWprmCandidates(
       }))
     }
   } satisfies WprmSafeManifest;
+  const mediaBindingContent = `${JSON.stringify(mediaBindings, null, 2)}\n`;
+  await writeAtomic(
+    path.join(directories.root, "media-bindings.json"),
+    mediaBindingContent,
+    0o600,
+    resume,
+    directories,
+    (existing) => existing.toString("utf8") === mediaBindingContent
+  );
   const manifestContent = `${JSON.stringify(safeManifest, null, 2)}\n`;
   await writeAtomic(
     path.join(directories.root, "manifest.json"),

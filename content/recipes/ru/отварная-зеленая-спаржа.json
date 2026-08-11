@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22775",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:6636",
+  "slug": "отварная-зеленая-спаржа",
+  "source": {
+    "system": "wordpress",
+    "postId": "22775",
+    "recipeId": "22775",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%be%d1%82%d0%b2%d0%b0%d1%80%d0%bd%d0%b0%d1%8f-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b0%d1%8f-%d1%81%d0%bf%d0%b0%d1%80%d0%b6%d0%b0",
+    "createdAt": "2025-05-10T08:12:00+00:00",
+    "modifiedAt": "2025-05-14T02:40:18+00:00",
+    "editorialPostId": "11960",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%be%d1%82%d0%b2%d0%b0%d1%80%d0%bd%d0%b0%d1%8f-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b0%d1%8f-%d1%81%d0%bf%d0%b0%d1%80%d0%b6%d0%b0",
+    "editorialCreatedAt": "2025-05-10T08:12:00+00:00",
+    "editorialModifiedAt": "2025-05-14T02:39:45+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Отварная зеленая спаржа",
+  "description": "Во Франции спаржу надо чистить: снять грубую кожицу ножом для чистки овощей, начиная примерно от середины стебля. В США у спаржи кожица нежная, чистить не надо, а только срезать нижнюю часть стебля. Готовить одно удовольствие! А как обстоят дела с чисткой спаржи в вашей стране?",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Рецепт для любителей здоровой пищи. Спаржу можно приготовить в кипящей воде, на пару, на сковороде, в духовке или на гриле.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Отварная спаржа отлично подходит к жареному мясу, рыбе, яйцам, омлету... В этом рецепте, я готовлю спаржу, как предпочитают французы: без хрустинки. Подайте спаржу с легким соусом из бальзамического уксуса и оливкового масла, чтобы не перебивать ее нежный вкус. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22775,\"template\":\"chic-template-russian\",\"updated\":1747031921043,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 22775-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Отварная зеленая спаржа</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9912.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tВо Франции спаржу надо чистить: снять грубую кожицу ножом для чистки овощей, начиная примерно от середины стебля. В США у спаржи кожица нежная, чистить не надо, а только срезать нижнюю часть стебля. Готовить одно удовольствие! А как обстоят дела с чисткой спаржи в вашей стране?\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 пучок зеленой спаржи</li><li>1/4 ч.л. соли</li><li>1 ст.л. бальзамического уксуса</li><li>2 ст.л. оливкового масла</li><li>Свежемолотый черный перец (по вкусу)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>У  каждого стебля срезать жесткую нижнюю часть (2-3 см). В достаточно большой кастрюле довести воду до кипения, добавить соль и опустить спаржу. Вода должна полностью покрывать стебли. Как только вода снова закипит, варить 7 минут. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9903.Blog_-150x150.png\"/><br /></li><li><p>Через 7 минут проверить спаржу на готовность при помощи лезвия ножа. Если она еще твердая, варить еще 3-5 минут. Как только спаржа стала мягкой, снять кастрюлю с огня и слить воду. </p></li><li>Положить спаржу на блюдо. В небольшой мисочке смешать бальзамический уксус и оливковое масло. Полить спаржу полученным соусом, посыпать свежемолотым перцем.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9910.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Отварная зеленая спаржа"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24823",
+      "sourceTaxonomyId": "24823",
+      "name": "Свежемолотый черный перец",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25152",
+      "sourceTaxonomyId": "25152",
+      "name": "зеленой спаржи",
+      "slug": "%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%be%d0%b9-%d1%81%d0%bf%d0%b0%d1%80%d0%b6%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25153",
+      "sourceTaxonomyId": "25153",
+      "name": "бальзамического уксуса",
+      "slug": "%d0%b1%d0%b0%d0%bb%d1%8c%d0%b7%d0%b0%d0%bc%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%be%d0%b3%d0%be-%d1%83%d0%ba%d1%81%d1%83%d1%81%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25407",
+      "sourceTaxonomyId": "25407",
+      "name": "ч.л.",
+      "slug": "%d1%87-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25719",
+      "sourceTaxonomyId": "25719",
+      "name": "пучок",
+      "slug": "%d0%bf%d1%83%d1%87%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1438",
+      "sourceTaxonomyId": "1438",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6447",
+      "sourceTaxonomyId": "6447",
+      "name": "зеленой спаржи",
+      "slug": "%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%be%d0%b9-%d1%81%d0%bf%d0%b0%d1%80%d0%b6%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6449",
+      "sourceTaxonomyId": "6449",
+      "name": "бальзамического уксуса",
+      "slug": "%d0%b1%d0%b0%d0%bb%d1%8c%d0%b7%d0%b0%d0%bc%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%be%d0%b3%d0%be-%d1%83%d0%ba%d1%81%d1%83%d1%81%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6451",
+      "sourceTaxonomyId": "6451",
+      "name": "Свежемолотый черный перец",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1320",
+      "sourceTaxonomyId": "1320",
+      "name": "овощи",
+      "slug": "%d0%be%d0%b2%d0%be%d1%89%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2448",
+      "sourceTaxonomyId": "2448",
+      "name": "очень легко",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d0%bb%d0%b5%d0%b3%d0%ba%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2958",
+      "sourceTaxonomyId": "2958",
+      "name": "бальзамический уксус",
+      "slug": "%d0%b1%d0%b0%d0%bb%d1%8c%d0%b7%d0%b0%d0%bc%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d1%83%d0%ba%d1%81%d1%83%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3256",
+      "sourceTaxonomyId": "3256",
+      "name": "легкое блюдо",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5933",
+      "sourceTaxonomyId": "5933",
+      "name": "очень полезно",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d0%bf%d0%be%d0%bb%d0%b5%d0%b7%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6441",
+      "sourceTaxonomyId": "6441",
+      "name": "зеленая спаржа",
+      "slug": "%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b0%d1%8f-%d1%81%d0%bf%d0%b0%d1%80%d0%b6%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6443",
+      "sourceTaxonomyId": "6443",
+      "name": "отварная",
+      "slug": "%d0%be%d1%82%d0%b2%d0%b0%d1%80%d0%bd%d0%b0%d1%8f"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 порции",
+      "value": 2,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:11969",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 пучок зеленой спаржи",
+            "quantity": {
+              "raw": "1 пучок",
+              "value": 1,
+              "unit": "пучок",
+              "scalable": true
+            },
+            "name": "зеленой спаржи",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/4 ч.л. соли",
+            "quantity": {
+              "raw": "1/4 ч.л.",
+              "value": 0.25,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 ст.л. бальзамического уксуса",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "бальзамического уксуса",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Свежемолотый черный перец по вкусу",
+            "quantity": null,
+            "name": "Свежемолотый черный перец",
+            "notes": "по вкусу"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "У каждого стебля срезать жесткую нижнюю часть (2-3 см). В достаточно большой кастрюле довести воду до кипения, добавить соль и опустить спаржу. Вода должна полностью покрывать стебли. Как только вода снова закипит, варить 7 минут.",
+            "mediaId": "wordpress-attachment:11967"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Через 7 минут проверить спаржу на готовность при помощи лезвия ножа. Если она еще твердая, варить еще 3-5 минут. Как только спаржа стала мягкой, снять кастрюлю с огня и слить воду.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Положить спаржу на блюдо. В небольшой мисочке смешать бальзамический уксус и оливковое масло. Полить спаржу полученным соусом, посыпать свежемолотым перцем.",
+            "mediaId": "wordpress-attachment:11968"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11969",
+      "sourceId": "11969",
+      "path": "/recipes/media/wordpress/11969.png",
+      "alt": "Отварная зеленая спаржа",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11967",
+      "sourceId": "11967",
+      "path": "/recipes/media/wordpress/11967.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11968",
+      "sourceId": "11968",
+      "path": "/recipes/media/wordpress/11968.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

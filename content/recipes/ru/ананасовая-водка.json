@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22541",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:2341",
+  "slug": "ананасовая-водка",
+  "source": {
+    "system": "wordpress",
+    "postId": "22541",
+    "recipeId": "22541",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0%d1%81%d0%be%d0%b2%d0%b0%d1%8f-%d0%b2%d0%be%d0%b4%d0%ba%d0%b0",
+    "createdAt": "2023-01-11T08:11:00+00:00",
+    "modifiedAt": "2023-05-10T07:08:22+00:00",
+    "editorialPostId": "4331",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0%d1%81%d0%be%d0%b2%d0%b0%d1%8f-%d0%b2%d0%be%d0%b4%d0%ba%d0%b0",
+    "editorialCreatedAt": "2023-01-11T08:11:00+00:00",
+    "editorialModifiedAt": "2023-05-10T07:08:20+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Ананасовая водка",
+  "description": "Ананас должен быть спелым, ароматным и сочным. Водка должна быть качественная. Не надо надеяться, что водка \"спасет\" не совсем вкусный ананас или ананас улучшит сомнительную водку.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Водка, настоянная на ананасе имеет очень насыщенный и приятный вкус. Стручок ванили не обязателен, но он играет немаловажную роль в рецепте и придает изысканный аромат.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22541,\"template\":\"chic-template-russian\",\"updated\":1636908310536} -->\n<!--WPRM Recipe 22541-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Ананасовая водка</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180209_212421.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tАнанас должен быть спелым, ароматным и сочным. Водка должна быть качественная. Не надо надеяться, что водка \"спасет\" не совсем вкусный ананас или ананас улучшит сомнительную водку.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 спелый ананас</li><li>750 мл водки</li><li>1 стручок ванили ((необязательно, но очень рекомендую))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Очистить ананас, вырезать середину и нарезать кубиками. Положить в достаточно большую банку с крышкой. Стручок ванили разрезать в длину. Кончиком ножа выскоблить семена и добавить их вместе со стручком в банку. Залить ананас водкой. Накрыть крышкой и оставить настаиваться 5 дней в прохладное темное место.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_2922-2.Blog_-150x150.png\"/><br /></li><li>Отделить ананасы от жидкости, немного их отжимая. Профильтровать настойку, налить ее в красивую бутылочку и поставить в холодильник. Как только настойка охладилась - готово. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180209_212240.Blog_-150x150.png\"/><br /></li><li>Ананасы можно съесть. Конечно же, не давать их детям или беременным женщинам! Они насыщены алкоголем.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Напитки</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24988",
+      "sourceTaxonomyId": "24988",
+      "name": "Напитки",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24789",
+      "sourceTaxonomyId": "24789",
+      "name": "ванили",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24954",
+      "sourceTaxonomyId": "24954",
+      "name": "водки",
+      "slug": "%d0%b2%d0%be%d0%b4%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24987",
+      "sourceTaxonomyId": "24987",
+      "name": "спелый ананас",
+      "slug": "%d1%81%d0%bf%d0%b5%d0%bb%d1%8b%d0%b9-%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "116",
+      "sourceTaxonomyId": "116",
+      "name": "Напитки",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2250",
+      "sourceTaxonomyId": "2250",
+      "name": "Напитки",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%ba%d0%b8-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2258",
+      "sourceTaxonomyId": "2258",
+      "name": "спелый ананас",
+      "slug": "%d1%81%d0%bf%d0%b5%d0%bb%d1%8b%d0%b9-%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2260",
+      "sourceTaxonomyId": "2260",
+      "name": "водки",
+      "slug": "%d0%b2%d0%be%d0%b4%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2262",
+      "sourceTaxonomyId": "2262",
+      "name": "ванили",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2252",
+      "sourceTaxonomyId": "2252",
+      "name": "ананас",
+      "slug": "%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2254",
+      "sourceTaxonomyId": "2254",
+      "name": "водка",
+      "slug": "%d0%b2%d0%be%d0%b4%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2256",
+      "sourceTaxonomyId": "2256",
+      "name": "стручок ванили",
+      "slug": "%d1%81%d1%82%d1%80%d1%83%d1%87%d0%be%d0%ba-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2337",
+      "sourceTaxonomyId": "2337",
+      "name": "алкоголь",
+      "slug": "%d0%b0%d0%bb%d0%ba%d0%be%d0%b3%d0%be%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2339",
+      "sourceTaxonomyId": "2339",
+      "name": "напиток",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2930",
+      "sourceTaxonomyId": "2930",
+      "name": "ужин для любимого",
+      "slug": "%d1%83%d0%b6%d0%b8%d0%bd-%d0%b4%d0%bb%d1%8f-%d0%bb%d1%8e%d0%b1%d0%b8%d0%bc%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4986",
+      "sourceTaxonomyId": "4986",
+      "name": "ananasovaya vodka",
+      "slug": "ananasovaya-vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4990",
+      "sourceTaxonomyId": "4990",
+      "name": "napitok alkogolniy",
+      "slug": "napitok-alkogolniy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8037",
+      "sourceTaxonomyId": "8037",
+      "name": "настойка",
+      "slug": "%d0%bd%d0%b0%d1%81%d1%82%d0%be%d0%b9%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8039",
+      "sourceTaxonomyId": "8039",
+      "name": "наливка",
+      "slug": "%d0%bd%d0%b0%d0%bb%d0%b8%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8041",
+      "sourceTaxonomyId": "8041",
+      "name": "готовим дома",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8%d0%bc-%d0%b4%d0%be%d0%bc%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26216",
+      "sourceTaxonomyId": "26216",
+      "name": "только для взрослых",
+      "slug": "%d1%82%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%b4%d0%bb%d1%8f-%d0%b2%d0%b7%d1%80%d0%be%d1%81%d0%bb%d1%8b%d1%85"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:4333",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 спелый ананас",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "спелый ананас",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "750 мл водки",
+            "quantity": {
+              "raw": "750 мл",
+              "value": 750,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "водки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 стручок ванили (необязательно, но очень рекомендую)",
+            "quantity": {
+              "raw": "1 стручок",
+              "value": 1,
+              "unit": "стручок",
+              "scalable": true
+            },
+            "name": "ванили",
+            "notes": "(необязательно, но очень рекомендую)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Очистить ананас, вырезать середину и нарезать кубиками. Положить в достаточно большую банку с крышкой. Стручок ванили разрезать в длину. Кончиком ножа выскоблить семена и добавить их вместе со стручком в банку. Залить ананас водкой. Накрыть крышкой и оставить настаиваться 5 дней в прохладное темное место.",
+            "mediaId": "wordpress-attachment:4338"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Отделить ананасы от жидкости, немного их отжимая. Профильтровать настойку, налить ее в красивую бутылочку и поставить в холодильник. Как только настойка охладилась - готово.",
+            "mediaId": "wordpress-attachment:4332"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ананасы можно съесть. Конечно же, не давать их детям или беременным женщинам! Они насыщены алкоголем.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4333",
+      "sourceId": "4333",
+      "path": "/recipes/media/wordpress/4333.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4338",
+      "sourceId": "4338",
+      "path": "/recipes/media/wordpress/4338.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4332",
+      "sourceId": "4332",
+      "path": "/recipes/media/wordpress/4332.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

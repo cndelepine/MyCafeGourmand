@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22734",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:5233",
+  "slug": "профитроли-с-ванильным-мороженым",
+  "source": {
+    "system": "wordpress",
+    "postId": "22734",
+    "recipeId": "22734",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8-%d1%81-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d1%8b%d0%bc-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d1%8b%d0%bc",
+    "createdAt": "2023-05-16T02:58:00+00:00",
+    "modifiedAt": "2023-05-17T07:19:20+00:00",
+    "editorialPostId": "10917",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8-%d1%81-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d1%8b%d0%bc-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d1%8b%d0%bc",
+    "editorialCreatedAt": "2023-05-16T02:58:00+00:00",
+    "editorialModifiedAt": "2023-05-17T07:19:17+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Профитроли с ванильным мороженым",
+  "description": "Для особых любителей шоколада ванильное мороженое можно заменить шоколадным.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Профитроли - французские пирожные из заварного теста, наполненные ванильным мороженым и политые шоколадным соусом. Этот десерт никого не оставляет равнодушным. Я его еще люблю и за то, что его можно приготовить заранее и хранить в морозилке. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22734,\"template\":\"chic-template-russian\",\"updated\":1638585420071} -->\n<!--WPRM Recipe 22734-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Профитроли с ванильным мороженым</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9798-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tДля особых любителей  шоколада ванильное мороженое можно заменить шоколадным. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Заварное тесто</h4><ul><li>200 мл воды</li><li>1 щепотка соли</li><li>100 г сливочного масла</li><li>120 г просеянной муки</li><li>3-4 яйца</li></ul><h4>Начинка</h4><ul><li>800 г шоколадного или ванильного мороженого</li></ul><h4>Шоколадный соус</h4><ul><li>250 мл молока или сливок</li><li>300 г черного шоколада (60% какао)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Заварное тесто</h4><ol><li>Разогреть духовку до 190 С. Два противеня застелить пергаментной бумагой.</li><li>В кастрюлю налить воду, добавить соль и сливочное масло. Когда вода закипит, а масло полностью растает, снять кастрюлю с огня.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_2359.Blog_-150x150.png\"/><br /></li><li>Всыпать просеянную муку и хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_2360.Blog_-150x150.png\"/><br /></li><li>Тесто должно слепиться в ком и не прилипать к стенкам кастрюли.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_6321.Blog_-150x150.png\"/><br /></li><li>Яйца добавлять по-одному, хорошо перемешивая тесто после каждого яйца. (Если яйца большие, 4-ое яйцо можно не добавлять).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_6325.Blog_-150x150.png\"/><br /></li><li>На этом этапе тесто должно стать блестящим, гладким и немного липким. Снова поставить кастрюлю на огонь и постоянно помешивая, подсушить тесто втечении 30-50 секунд. Снять кастрюлю с огня.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_6326.Blog_-150x150.png\"/><br /></li><li>Переложить тесто в кулинарный пакет, сделать отверстие (примерно 1 см) и выдавить на противень маленькие башенки, размером с грецкий орех. (Можно выложить тесто шариками при помощи чайной ложки).\r\nПри выпечке тесто увеличится в размере: обязательно оставьте достаточно места, чтобы  во время выпечки, пирожные не соприкасались друг с другом.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_6327.Blog_-150x150.png\"/><br /></li><li>Выпекать примерно 20 минут до красивого золотистого цвета. Во время выпечки духовку не открывать!\r\nЧтобы все пирожные были равномерно поджаренные, я ставлю в духовку только один противень за раз. \r\nДостать противень из духовки, остудить пирожные и аккуратно снять с противня.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_5324.Blog_-150x150.png\"/><br /></li></ol><h4>Начинка</h4><ol><li>У полностью остывших пирожных срезать шапочку. Положить шарик мороженого в нижнюю часть.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9705.Blog_-150x150.png\"/><br /></li><li>Накрыть шапочкой (мороженое может быть видно или полностью спрятано внутри профитролей - как Вам будет угодно!) Сразу же положить профитроли в закрывающуюся коробочку и убрать в морозилку.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9795.Blog_-150x150.png\"/><br /></li></ol><h4>Шоколадный соус</h4><ol><li>В кастрюле довести молоко до кипения и залить им шоколад. Дать постоять 1 минуту.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9785.Blog_-150x150.png\"/><br /></li><li>Перемешать до однородности. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9826.Blog_-150x150.png\"/><br /></li><li>Достать профитроли из морозилки, разложить по тарелкам, полить шоколадом и Voilà! ;) Приятного аппетита!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9796.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23548",
+      "sourceTaxonomyId": "23548",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24851",
+      "sourceTaxonomyId": "24851",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25126",
+      "sourceTaxonomyId": "25126",
+      "name": "шоколадного или ванильного мороженого",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bb%d0%b8-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25127",
+      "sourceTaxonomyId": "25127",
+      "name": "молока или сливок",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0-%d0%b8%d0%bb%d0%b8-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25128",
+      "sourceTaxonomyId": "25128",
+      "name": "черного шоколада (60% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "728",
+      "sourceTaxonomyId": "728",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2006",
+      "sourceTaxonomyId": "2006",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "455",
+      "sourceTaxonomyId": "455",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "832",
+      "sourceTaxonomyId": "832",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1022",
+      "sourceTaxonomyId": "1022",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5048",
+      "sourceTaxonomyId": "5048",
+      "name": "молока или сливок",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0-%d0%b8%d0%bb%d0%b8-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5234",
+      "sourceTaxonomyId": "5234",
+      "name": "шоколадного или ванильного мороженого",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bb%d0%b8-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5236",
+      "sourceTaxonomyId": "5236",
+      "name": "черного шоколада (60% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2270",
+      "sourceTaxonomyId": "2270",
+      "name": "заварное тесто",
+      "slug": "%d0%b7%d0%b0%d0%b2%d0%b0%d1%80%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2598",
+      "sourceTaxonomyId": "2598",
+      "name": "французский десерт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5022",
+      "sourceTaxonomyId": "5022",
+      "name": "шоколадный соус",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%81%d0%be%d1%83%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5238",
+      "sourceTaxonomyId": "5238",
+      "name": "профитроли с мороженым",
+      "slug": "%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8-%d1%81-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d1%8b%d0%bc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5240",
+      "sourceTaxonomyId": "5240",
+      "name": "ванильное мороженое",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5242",
+      "sourceTaxonomyId": "5242",
+      "name": "заварные пирожные с мороженым",
+      "slug": "%d0%b7%d0%b0%d0%b2%d0%b0%d1%80%d0%bd%d1%8b%d0%b5-%d0%bf%d0%b8%d1%80%d0%be%d0%b6%d0%bd%d1%8b%d0%b5-%d1%81-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d1%8b%d0%bc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5246",
+      "sourceTaxonomyId": "5246",
+      "name": "zavarnye piroznnye",
+      "slug": "zavarnye-piroznnye"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5250",
+      "sourceTaxonomyId": "5250",
+      "name": "shokoladny topping",
+      "slug": "shokoladny-topping"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5252",
+      "sourceTaxonomyId": "5252",
+      "name": "шоколадный топпинг",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%be%d0%bf%d0%bf%d0%b8%d0%bd%d0%b3"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "50 маленьких пирожных",
+      "value": 50,
+      "unit": "маленьких пирожных",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "80",
+        "minutes": 80
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10656",
+    "ingredientGroups": [
+      {
+        "name": "Заварное тесто",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 мл воды",
+            "quantity": {
+              "raw": "200 мл",
+              "value": 200,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "воды",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 щепотка соли",
+            "quantity": {
+              "raw": "1 щепотка",
+              "value": 1,
+              "unit": "щепотка",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 г сливочного масла",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "120 г просеянной муки",
+            "quantity": {
+              "raw": "120 г",
+              "value": 120,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "просеянной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3-4 яйца",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Начинка",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "800 г шоколадного или ванильного мороженого",
+            "quantity": {
+              "raw": "800 г",
+              "value": 800,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "шоколадного или ванильного мороженого",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Шоколадный соус",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 мл молока или сливок",
+            "quantity": {
+              "raw": "250 мл",
+              "value": 250,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "молока или сливок",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "300 г черного шоколада (60% какао)",
+            "quantity": {
+              "raw": "300 г",
+              "value": 300,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "черного шоколада (60% какао)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Заварное тесто",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 190 С. Два противеня застелить пергаментной бумагой.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "В кастрюлю налить воду, добавить соль и сливочное масло. Когда вода закипит, а масло полностью растает, снять кастрюлю с огня.",
+            "mediaId": "wordpress-attachment:10645"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Всыпать просеянную муку и хорошо перемешать.",
+            "mediaId": "wordpress-attachment:10646"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Тесто должно слепиться в ком и не прилипать к стенкам кастрюли.",
+            "mediaId": "wordpress-attachment:10649"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Яйца добавлять по-одному, хорошо перемешивая тесто после каждого яйца. (Если яйца большие, 4-ое яйцо можно не добавлять).",
+            "mediaId": "wordpress-attachment:10650"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "На этом этапе тесто должно стать блестящим, гладким и немного липким. Снова поставить кастрюлю на огонь и постоянно помешивая, подсушить тесто втечении 30-50 секунд. Снять кастрюлю с огня.",
+            "mediaId": "wordpress-attachment:10651"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Переложить тесто в кулинарный пакет, сделать отверстие (примерно 1 см) и выдавить на противень маленькие башенки, размером с грецкий орех. (Можно выложить тесто шариками при помощи чайной ложки).\nПри выпечке тесто увеличится в размере: обязательно оставьте достаточно места, чтобы во время выпечки, пирожные не соприкасались друг с другом.",
+            "mediaId": "wordpress-attachment:10652"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Выпекать примерно 20 минут до красивого золотистого цвета. Во время выпечки духовку не открывать!\nЧтобы все пирожные были равномерно поджаренные, я ставлю в духовку только один противень за раз.\nДостать противень из духовки, остудить пирожные и аккуратно снять с противня.",
+            "mediaId": "wordpress-attachment:10648"
+          }
+        ]
+      },
+      {
+        "name": "Начинка",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "У полностью остывших пирожных срезать шапочку. Положить шарик мороженого в нижнюю часть.",
+            "mediaId": "wordpress-attachment:10653"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Накрыть шапочкой (мороженое может быть видно или полностью спрятано внутри профитролей - как Вам будет угодно!) Сразу же положить профитроли в закрывающуюся коробочку и убрать в морозилку.",
+            "mediaId": "wordpress-attachment:10654"
+          }
+        ]
+      },
+      {
+        "name": "Шоколадный соус",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В кастрюле довести молоко до кипения и залить им шоколад. Дать постоять 1 минуту.",
+            "mediaId": "wordpress-attachment:10759"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Перемешать до однородности.",
+            "mediaId": "wordpress-attachment:10760"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Достать профитроли из морозилки, разложить по тарелкам, полить шоколадом и Voilà! ;) Приятного аппетита!",
+            "mediaId": "wordpress-attachment:10655"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10656",
+      "sourceId": "10656",
+      "path": "/recipes/media/wordpress/10656.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:10645",
+      "sourceId": "10645",
+      "path": "/recipes/media/wordpress/10645.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10646",
+      "sourceId": "10646",
+      "path": "/recipes/media/wordpress/10646.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10649",
+      "sourceId": "10649",
+      "path": "/recipes/media/wordpress/10649.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10650",
+      "sourceId": "10650",
+      "path": "/recipes/media/wordpress/10650.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10651",
+      "sourceId": "10651",
+      "path": "/recipes/media/wordpress/10651.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10652",
+      "sourceId": "10652",
+      "path": "/recipes/media/wordpress/10652.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10648",
+      "sourceId": "10648",
+      "path": "/recipes/media/wordpress/10648.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10653",
+      "sourceId": "10653",
+      "path": "/recipes/media/wordpress/10653.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10654",
+      "sourceId": "10654",
+      "path": "/recipes/media/wordpress/10654.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10759",
+      "sourceId": "10759",
+      "path": "/recipes/media/wordpress/10759.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10760",
+      "sourceId": "10760",
+      "path": "/recipes/media/wordpress/10760.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10655",
+      "sourceId": "10655",
+      "path": "/recipes/media/wordpress/10655.png",
+      "alt": "Profiterole",
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

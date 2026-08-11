@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21280",
+  "locale": "en",
+  "translationGroupId": null,
+  "slug": "ground-beef-hardshell-tacos",
+  "source": {
+    "system": "wordpress",
+    "postId": "21280",
+    "recipeId": "21280",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-ground-beef-hardshell-tacos",
+    "createdAt": "2020-04-30T16:14:00+00:00",
+    "modifiedAt": "2022-07-30T20:24:54+00:00",
+    "editorialPostId": "14541",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "ground-beef-hardshell-tacos",
+    "editorialCreatedAt": "2020-04-30T16:14:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:24:49+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Ground beef hardshell tacos",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>These are to die for tacos. I've made it so many times and each time, it turns out so great. It goes awesome with <a href=\"https://mycafegourmand.com/recipe/virgin-mojito-2/\">Virgin Mojito</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21280,\"template\":\"chic-template-english\",\"updated\":1659212681427} -->\n<!--WPRM Recipe 21280-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Ground beef hardshell tacos</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50327270_333702840809989_1716025333821472768_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 lb ground beef</li><li>3 Tbsp taco seasoning</li><li>5 Tbsp cold water</li><li>1/2 cup cheese (shredded )</li><li>2 cups lettuce (shredded )</li><li>1/2 cup cilantro</li><li>1/2 cup salsa</li><li>1/2 cup sour cream</li><li>10 taco shells (hard)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Fully cook the ground beef. Drain extra grease. Add water and taco seasoning then cook for 3 more minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50401035_2009728035802762_8561041981927587840_n.Blog_-150x150.png\"/><br /></li><li>Dice tomatoes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50074670_243980343165870_1221729706777247744_n.Blog_-150x150.png\"/><br /></li><li>Cut avocado into small cubes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/49938147_245928209639609_2722087093235875840_n.Blog_-150x150.png\"/><br /></li><li>Shred lettuce.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50458345_770127170033750_3464197187888480256_n.Blog_-150x150.png\"/><br /></li><li>Finely chop cilantro.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/49947198_632187110528893_1163584229070602240_n.Blog_-e1547659240381-150x150.png\"/><br /></li><li>Meanwhile, preheat oven to 375 degrees F. Place empty taco shells on a cooking sheet and bake for 5 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50051916_331464617700473_9109905967331409920_n-150x150.jpg\"/><br /></li><li>Assemble each taco with meat mixture, tomatoes, avocado, cilantro and lettuce. Top it with sour cream and salsa. Sprinkle with shredded cheese. Serve immediately. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50327270_333702840809989_1716025333821472768_n.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24161",
+      "sourceTaxonomyId": "24161",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24162",
+      "sourceTaxonomyId": "24162",
+      "name": "taco seasoning",
+      "slug": "taco-seasoning"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24163",
+      "sourceTaxonomyId": "24163",
+      "name": "cold water",
+      "slug": "cold-water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24164",
+      "sourceTaxonomyId": "24164",
+      "name": "cheese",
+      "slug": "cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24165",
+      "sourceTaxonomyId": "24165",
+      "name": "lettuce",
+      "slug": "lettuce"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24166",
+      "sourceTaxonomyId": "24166",
+      "name": "cilantro",
+      "slug": "cilantro"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24167",
+      "sourceTaxonomyId": "24167",
+      "name": "salsa",
+      "slug": "salsa"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24168",
+      "sourceTaxonomyId": "24168",
+      "name": "taco shells",
+      "slug": "taco-shells"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1156",
+      "sourceTaxonomyId": "1156",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2056",
+      "sourceTaxonomyId": "2056",
+      "name": "cilantro",
+      "slug": "cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8753",
+      "sourceTaxonomyId": "8753",
+      "name": "cheese",
+      "slug": "cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10867",
+      "sourceTaxonomyId": "10867",
+      "name": "taco seasoning",
+      "slug": "taco-seasoning"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10869",
+      "sourceTaxonomyId": "10869",
+      "name": "cold water",
+      "slug": "cold-water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10871",
+      "sourceTaxonomyId": "10871",
+      "name": "lettuce",
+      "slug": "lettuce"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10873",
+      "sourceTaxonomyId": "10873",
+      "name": "salsa",
+      "slug": "salsa"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10875",
+      "sourceTaxonomyId": "10875",
+      "name": "taco shells",
+      "slug": "taco-shells"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1308",
+      "sourceTaxonomyId": "1308",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1704",
+      "sourceTaxonomyId": "1704",
+      "name": "big party",
+      "slug": "big-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4049",
+      "sourceTaxonomyId": "4049",
+      "name": "tex-mex",
+      "slug": "tex-mex-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4057",
+      "sourceTaxonomyId": "4057",
+      "name": "mexican style",
+      "slug": "mexican-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23332",
+      "sourceTaxonomyId": "23332",
+      "name": "Tacos",
+      "slug": "tacos"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "5 servings",
+      "value": 5,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:14567",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 lb ground beef",
+            "quantity": {
+              "raw": "1 lb",
+              "value": 1,
+              "unit": "lb",
+              "scalable": true
+            },
+            "name": "ground beef",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 Tbsp taco seasoning",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "taco seasoning",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "5 Tbsp cold water",
+            "quantity": {
+              "raw": "5 Tbsp",
+              "value": 5,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "cold water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 cup cheese shredded",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "cheese",
+            "notes": "shredded"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 cups lettuce shredded",
+            "quantity": {
+              "raw": "2 cups",
+              "value": 2,
+              "unit": "cups",
+              "scalable": true
+            },
+            "name": "lettuce",
+            "notes": "shredded"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 cup cilantro",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "cilantro",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/2 cup salsa",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "salsa",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/2 cup sour cream",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "10 taco shells hard",
+            "quantity": {
+              "raw": "10",
+              "value": 10,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "taco shells",
+            "notes": "hard"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Fully cook the ground beef. Drain extra grease. Add water and taco seasoning then cook for 3 more minutes.",
+            "mediaId": "wordpress-attachment:14572"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dice tomatoes.",
+            "mediaId": "wordpress-attachment:14574"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cut avocado into small cubes.",
+            "mediaId": "wordpress-attachment:14575"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Shred lettuce.",
+            "mediaId": "wordpress-attachment:14573"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Finely chop cilantro.",
+            "mediaId": "wordpress-attachment:14585"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Meanwhile, preheat oven to 375 degrees F. Place empty taco shells on a cooking sheet and bake for 5 minutes.",
+            "mediaId": "wordpress-attachment:14571"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Assemble each taco with meat mixture, tomatoes, avocado, cilantro and lettuce. Top it with sour cream and salsa. Sprinkle with shredded cheese. Serve immediately.",
+            "mediaId": "wordpress-attachment:14567"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:14567",
+      "sourceId": "14567",
+      "path": "/recipes/media/wordpress/14567.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14572",
+      "sourceId": "14572",
+      "path": "/recipes/media/wordpress/14572.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14574",
+      "sourceId": "14574",
+      "path": "/recipes/media/wordpress/14574.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:14575",
+      "sourceId": "14575",
+      "path": "/recipes/media/wordpress/14575.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14573",
+      "sourceId": "14573",
+      "path": "/recipes/media/wordpress/14573.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14585",
+      "sourceId": "14585",
+      "path": "/recipes/media/wordpress/14585.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14571",
+      "sourceId": "14571",
+      "path": "/recipes/media/wordpress/14571.jpg",
+      "alt": null,
+      "width": 960,
+      "height": 830
+    }
+  ],
+  "seo": null
+}

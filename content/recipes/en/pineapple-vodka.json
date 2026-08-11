@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21689",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:2341",
+  "slug": "pineapple-vodka",
+  "source": {
+    "system": "wordpress",
+    "postId": "21689",
+    "recipeId": "21689",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pineapple-vodka",
+    "createdAt": "2023-02-12T07:29:00+00:00",
+    "modifiedAt": "2023-05-10T07:03:41+00:00",
+    "editorialPostId": "4458",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pineapple-vodka",
+    "editorialCreatedAt": "2023-02-12T07:29:00+00:00",
+    "editorialModifiedAt": "2023-05-10T07:03:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Pineapple vodka",
+  "description": "Pineapple needs to be ripe and juicy. Vodka needs to be good. And don't think that ripe pineapple will save your bad quality vodka, or good vodka will make your green pineapple taste better!",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Pineapple Vodka is nicely flavored and has a pleasant taste. A vanilla bean is not a must but will improve the experience by softening the drink.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21689,\"template\":\"chic-template-english\",\"updated\":1636908241007} -->\n<!--WPRM Recipe 21689-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pineapple vodka</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180209_212421.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tPineapple needs to be ripe and juicy. Vodka needs to be good. And don't think that ripe pineapple will save your bad quality vodka, or good vodka will make your green pineapple taste better!\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 ripe pineapple</li><li>750 ml   vodka</li><li>1 vanilla bean ((not necessary but highly recommended))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel and core fresh pineapple, cut into cubes. Place the pineapple into a large bottle or mason jar with lid. If using vanilla bean, slice the bean from top to bottom in one long slit keeping it attached at the upper stem, like a v-shape. With help of the knife scrape, scrub the seeds and add them into the jar. Fill the jar with vodka. Cover and put it off to the side for 5 days in a fresh and dark place, to let the flavors infuse.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_2922-2.Blog_-150x150.png\"/><br /></li><li>After 5 days, strain pineapple out through a fine mesh strainer and pour your infused vodka into a nice, fancy bottle. Refrigerate. It will be ready as soon as it is chilled.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180209_212240.Blog_-150x150.png\"/><br /></li><li>You can eat the leftover pineapple. And of course make sure not to offer it to kids or pregnant women. </li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Drinks</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23539",
+      "sourceTaxonomyId": "23539",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24108",
+      "sourceTaxonomyId": "24108",
+      "name": "vanilla bean",
+      "slug": "vanilla-bean"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24337",
+      "sourceTaxonomyId": "24337",
+      "name": "vodka",
+      "slug": "vodka"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24450",
+      "sourceTaxonomyId": "24450",
+      "name": "ripe pineapple",
+      "slug": "ripe-pineapple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "112",
+      "sourceTaxonomyId": "112",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1694",
+      "sourceTaxonomyId": "1694",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2370",
+      "sourceTaxonomyId": "2370",
+      "name": "ripe pineapple",
+      "slug": "ripe-pineapple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2372",
+      "sourceTaxonomyId": "2372",
+      "name": "vodka",
+      "slug": "vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2374",
+      "sourceTaxonomyId": "2374",
+      "name": "vanilla bean",
+      "slug": "vanilla-bean"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1442",
+      "sourceTaxonomyId": "1442",
+      "name": "pineapple",
+      "slug": "pineapple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2376",
+      "sourceTaxonomyId": "2376",
+      "name": "vanilla bean",
+      "slug": "vanilla-bean"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2378",
+      "sourceTaxonomyId": "2378",
+      "name": "cocktail",
+      "slug": "cocktail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2380",
+      "sourceTaxonomyId": "2380",
+      "name": "vodka",
+      "slug": "vodka-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2382",
+      "sourceTaxonomyId": "2382",
+      "name": "alcohol",
+      "slug": "alcohol"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5385",
+      "sourceTaxonomyId": "5385",
+      "name": "party drink",
+      "slug": "party-drink"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "22863",
+      "sourceTaxonomyId": "22863",
+      "name": "for adult",
+      "slug": "for-adult"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:4333",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 ripe pineapple",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "ripe pineapple",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "750 ml vodka",
+            "quantity": {
+              "raw": "750 ml",
+              "value": 750,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "vodka",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 vanilla bean (not necessary but highly recommended)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "vanilla bean",
+            "notes": "(not necessary but highly recommended)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel and core fresh pineapple, cut into cubes. Place the pineapple into a large bottle or mason jar with lid. If using vanilla bean, slice the bean from top to bottom in one long slit keeping it attached at the upper stem, like a v-shape. With help of the knife scrape, scrub the seeds and add them into the jar. Fill the jar with vodka. Cover and put it off to the side for 5 days in a fresh and dark place, to let the flavors infuse.",
+            "mediaId": "wordpress-attachment:4338"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "After 5 days, strain pineapple out through a fine mesh strainer and pour your infused vodka into a nice, fancy bottle. Refrigerate. It will be ready as soon as it is chilled.",
+            "mediaId": "wordpress-attachment:4332"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "You can eat the leftover pineapple. And of course make sure not to offer it to kids or pregnant women.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4333",
+      "sourceId": "4333",
+      "path": "/recipes/media/wordpress/4333.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4338",
+      "sourceId": "4338",
+      "path": "/recipes/media/wordpress/4338.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4332",
+      "sourceId": "4332",
+      "path": "/recipes/media/wordpress/4332.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

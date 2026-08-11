@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28060",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26684",
+  "slug": "zucchini-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "28060",
+    "recipeId": "28060",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-zucchini-salad",
+    "createdAt": "2024-04-07T22:21:22+00:00",
+    "modifiedAt": "2024-04-07T23:16:27+00:00",
+    "editorialPostId": "28059",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "zucchini-salad",
+    "editorialCreatedAt": "2024-04-07T22:21:22+00:00",
+    "editorialModifiedAt": "2024-04-07T23:16:24+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Zucchini Salad",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>A delicious and very simple way to consume raw zucchini. You will love this salad drizzled with lemon juice and olive oil.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28060,\"template\":\"chic-template-english\",\"updated\":1712531774692} -->\n<!--WPRM Recipe 28060-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Zucchini Salad</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5053.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 zucchinis (washed)</li><li>1 clove crushed garlic</li><li>1/2 lemon (juice)</li><li>A trickle olive oil</li><li>Salt and pepper from the mill</li><li>A bit grated cheese (parmesan)</li><li>A few leaves parsley finely chiseled ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Cut both ends of the zucchinis. Using a mandoline or a vegetable peeler, slice them lengthwise into long, thin slices.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5044.Blog_-150x150.png\"/><br /></li><li><p>In a small bowl, mix together the lemon juice, garlic, and olive oil.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5047_1.Blog_-150x150.png\"/><br /></li><li><p>Place the zucchini slices in a dish, pour the sauce over them. Add salt and pepper. Mix well.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5053.Blog_-150x150.png\"/><br /></li><li><p>Sprinkle with cheese and serve immediately, or chill first in the refrigerator. Add fresh herbs just before serving.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5067.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24185",
+      "sourceTaxonomyId": "24185",
+      "name": "zucchinis",
+      "slug": "zucchinis"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24230",
+      "sourceTaxonomyId": "24230",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26648",
+      "sourceTaxonomyId": "26648",
+      "name": "crushed garlic",
+      "slug": "crushed-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26685",
+      "sourceTaxonomyId": "26685",
+      "name": "grated cheese (parmesan)",
+      "slug": "grated-cheese-parmesan"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26686",
+      "sourceTaxonomyId": "26686",
+      "name": "Salt and pepper from the mill",
+      "slug": "salt-and-pepper-from-the-mill"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26688",
+      "sourceTaxonomyId": "26688",
+      "name": "parsley finely chiseled",
+      "slug": "parsley-finely-chiseled"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26203",
+      "sourceTaxonomyId": "26203",
+      "name": "clove",
+      "slug": "clove"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26687",
+      "sourceTaxonomyId": "26687",
+      "name": "leaves",
+      "slug": "leaves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6888",
+      "sourceTaxonomyId": "6888",
+      "name": "summertime",
+      "slug": "summertime"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23162",
+      "sourceTaxonomyId": "23162",
+      "name": "zucchini",
+      "slug": "zucchini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26701",
+      "sourceTaxonomyId": "26701",
+      "name": "row",
+      "slug": "row"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26703",
+      "sourceTaxonomyId": "26703",
+      "name": "no cooking",
+      "slug": "no-cooking"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28047",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 zucchinis washed",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "zucchinis",
+            "notes": "washed"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 clove crushed garlic",
+            "quantity": {
+              "raw": "1 clove",
+              "value": 1,
+              "unit": "clove",
+              "scalable": true
+            },
+            "name": "crushed garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 lemon (juice)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon (juice)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "A trickle olive oil",
+            "quantity": {
+              "raw": "A trickle",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and pepper from the mill",
+            "quantity": null,
+            "name": "Salt and pepper from the mill",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "A bit grated cheese (parmesan)",
+            "quantity": {
+              "raw": "A bit",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "grated cheese (parmesan)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "A few leaves parsley finely chiseled (optional)",
+            "quantity": {
+              "raw": "A few leaves",
+              "unit": "leaves",
+              "scalable": false
+            },
+            "name": "parsley finely chiseled",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut both ends of the zucchinis. Using a mandoline or a vegetable peeler, slice them lengthwise into long, thin slices.",
+            "mediaId": "wordpress-attachment:28042"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a small bowl, mix together the lemon juice, garlic, and olive oil.",
+            "mediaId": "wordpress-attachment:28043"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Place the zucchini slices in a dish, pour the sauce over them. Add salt and pepper. Mix well.",
+            "mediaId": "wordpress-attachment:28047"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Sprinkle with cheese and serve immediately, or chill first in the refrigerator. Add fresh herbs just before serving.",
+            "mediaId": "wordpress-attachment:28046"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28047",
+      "sourceId": "28047",
+      "path": "/recipes/media/wordpress/28047.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:28042",
+      "sourceId": "28042",
+      "path": "/recipes/media/wordpress/28042.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:28043",
+      "sourceId": "28043",
+      "path": "/recipes/media/wordpress/28043.png",
+      "alt": null,
+      "width": 800,
+      "height": 624
+    },
+    {
+      "id": "wordpress-attachment:28046",
+      "sourceId": "28046",
+      "path": "/recipes/media/wordpress/28046.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

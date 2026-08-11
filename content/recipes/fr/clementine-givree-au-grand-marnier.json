@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26084",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:25688",
+  "slug": "clementine-givree-au-grand-marnier",
+  "source": {
+    "system": "wordpress",
+    "postId": "26084",
+    "recipeId": "26084",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-clementine-givree-au-grand-marnier",
+    "createdAt": "2025-12-20T18:45:52+00:00",
+    "modifiedAt": "2025-12-21T01:00:28+00:00",
+    "editorialPostId": "26081",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "clementine-givree-au-grand-marnier",
+    "editorialCreatedAt": "2025-12-20T18:45:52+00:00",
+    "editorialModifiedAt": "2025-12-21T00:36:52+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Clémentine givrée au Grand Marnier",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La clémentine givrée au Grand Marnier est un dessert <a href=\"https://mycafegourmand.com/fr/sans-gluten/\">sans gluten</a>, sans œuf et sans produit laitier. Mais attention: c'est réservé aux adultes. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>J'ai adapté une recette de <a href=\"https://www.laurentmariotte.com/mes-recettes/\">Laurent Mariotte</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26084,\"template\":\"chic-template-french\",\"updated\":1672202201460} -->\n<!--WPRM Recipe 26084-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Clémentine givrée au Grand Marnier</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_4014.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 clémentines</li><li>1-2 cuillères à soupe de miel</li><li>150 ml Grand Marnier</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Couper le chapeau de chaque clémentine</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3921.Blog_-150x150.png\"/><br /></li><li><p>Enlever délicatement la chair sans abîmer la peau de la clémentine</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3937.Blog_-150x150.png\"/><br /></li><li><p>Réserver la peau. Gardez-la dans un papier absorbant humidifié.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3952.Blog_-150x150.png\"/><br /></li><li><p>Verser la chair des clémentines dans un bol. Ajouter le miel et le Grand Marnier.</p><p>Mixer à l&#039;aide d&#039;un blender</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3950.Blog_-150x150.png\"/><br /></li><li><p>Filtrer</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3954.Blog_-150x150.png\"/><br /></li><li><p>Couvrir la préparation et mettre au congélateur pendant environ 4 heures.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3960.Blog_-150x150.png\"/><br /></li><li><p>Sortir du congélateur et mélanger la préparation congelée avec une fourchette.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3980.Blog_-150x150.png\"/><br /></li><li><p>Verser la préparation glacée dans chaque clémentine évidée.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3986.Blog_-150x150.jpg\"/><br /></li><li><p>Remettre le chapeau pour une jolie présentation.</p><p>Servir et déguster!</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_4005.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-cuisine\">française, French</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23540",
+      "sourceTaxonomyId": "23540",
+      "name": "French",
+      "slug": "french"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24047",
+      "sourceTaxonomyId": "24047",
+      "name": "française",
+      "slug": "francaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24642",
+      "sourceTaxonomyId": "24642",
+      "name": "de miel",
+      "slug": "de-miel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25680",
+      "sourceTaxonomyId": "25680",
+      "name": "clémentines",
+      "slug": "clementines"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25685",
+      "sourceTaxonomyId": "25685",
+      "name": "Grand Marnier",
+      "slug": "grand-marnier"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25346",
+      "sourceTaxonomyId": "25346",
+      "name": "Desserts",
+      "slug": "desserts-fr-sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2350",
+      "sourceTaxonomyId": "2350",
+      "name": "alcool",
+      "slug": "alcool"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4443",
+      "sourceTaxonomyId": "4443",
+      "name": "glace",
+      "slug": "glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5598",
+      "sourceTaxonomyId": "5598",
+      "name": "dessert elegant",
+      "slug": "dessert-elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7743",
+      "sourceTaxonomyId": "7743",
+      "name": "recette en images",
+      "slug": "recette-en-images"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25683",
+      "sourceTaxonomyId": "25683",
+      "name": "clementine",
+      "slug": "clementine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25692",
+      "sourceTaxonomyId": "25692",
+      "name": "Grand Marnier",
+      "slug": "grand-marnier-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25698",
+      "sourceTaxonomyId": "25698",
+      "name": "mandarine",
+      "slug": "mandarine"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "265",
+        "minutes": 265
+      },
+      "custom": {
+        "label": "Au congélateur",
+        "duration": {
+          "raw": "240",
+          "minutes": 240
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26103",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 clémentines",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "clémentines",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 cuillères à soupe de miel",
+            "quantity": {
+              "raw": "1-2 cuillères à soupe",
+              "min": 1,
+              "max": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de miel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 ml Grand Marnier",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "Grand Marnier",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper le chapeau de chaque clémentine",
+            "mediaId": "wordpress-attachment:26094"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Enlever délicatement la chair sans abîmer la peau de la clémentine",
+            "mediaId": "wordpress-attachment:26095"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Réserver la peau. Gardez-la dans un papier absorbant humidifié.",
+            "mediaId": "wordpress-attachment:26097"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Verser la chair des clémentines dans un bol. Ajouter le miel et le Grand Marnier.\n\nMixer à l'aide d'un blender",
+            "mediaId": "wordpress-attachment:26096"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Filtrer",
+            "mediaId": "wordpress-attachment:26098"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Couvrir la préparation et mettre au congélateur pendant environ 4 heures.",
+            "mediaId": "wordpress-attachment:26099"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Sortir du congélateur et mélanger la préparation congelée avec une fourchette.",
+            "mediaId": "wordpress-attachment:26100"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Verser la préparation glacée dans chaque clémentine évidée.",
+            "mediaId": "wordpress-attachment:26101"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Remettre le chapeau pour une jolie présentation.\n\nServir et déguster!",
+            "mediaId": "wordpress-attachment:26102"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26103",
+      "sourceId": "26103",
+      "path": "/recipes/media/wordpress/26103.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26094",
+      "sourceId": "26094",
+      "path": "/recipes/media/wordpress/26094.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26095",
+      "sourceId": "26095",
+      "path": "/recipes/media/wordpress/26095.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26097",
+      "sourceId": "26097",
+      "path": "/recipes/media/wordpress/26097.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26096",
+      "sourceId": "26096",
+      "path": "/recipes/media/wordpress/26096.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26098",
+      "sourceId": "26098",
+      "path": "/recipes/media/wordpress/26098.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26099",
+      "sourceId": "26099",
+      "path": "/recipes/media/wordpress/26099.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26100",
+      "sourceId": "26100",
+      "path": "/recipes/media/wordpress/26100.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26101",
+      "sourceId": "26101",
+      "path": "/recipes/media/wordpress/26101.jpg",
+      "alt": null,
+      "width": 635,
+      "height": 476
+    },
+    {
+      "id": "wordpress-attachment:26102",
+      "sourceId": "26102",
+      "path": "/recipes/media/wordpress/26102.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21725",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:2841",
+  "slug": "puree-of-pea-soup",
+  "source": {
+    "system": "wordpress",
+    "postId": "21725",
+    "recipeId": "21725",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pureed-pea-soup",
+    "createdAt": "2022-01-31T00:01:00+00:00",
+    "modifiedAt": "2023-04-18T06:22:56+00:00",
+    "editorialPostId": "8821",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "puree-of-pea-soup",
+    "editorialCreatedAt": "2022-01-31T00:01:00+00:00",
+    "editorialModifiedAt": "2023-04-18T06:22:53+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Pureed Pea Soup",
+  "description": "It takes a lot less time to make this soup, compare to regular soups. All you have to do is chop up the vegetables into chunks, and don't worry about cutting them perfectly, soup will be blended anyway.",
+  "editorial": {
+    "content": "Pureed soups are wonderful way to enjoy vegetables. Plus you don't have to go grocery shopping in order to make this soup. You can find all the ingredients that you'll need in your pantry. Use any meat you have in your fridge. And same with peas, use any peas you have, it can be frozen, canned or fresh.\n\n<!--WPRM Recipe 21725-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pureed Pea Soup</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7970.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIt takes a lot less time to make this soup, compare to regular soups. All you have to do is chop up the vegetables into chunks, and don't worry about cutting them perfectly, soup will be blended anyway.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 Tbsp olive oil</li><li>200 g chicken fillet</li><li>1 onion</li><li>5 potatoes</li><li>400 g frozen peas ((or canned))</li><li>1,5 L water</li><li>salt and pepper (to taste)</li><li>some  sour cream</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut chicken into small pieces. Peel and chop onion(half-moon). Peel and cut the potatoes in quarters. </li><li>In a large pot, heat the olive oil, add chicken and cook until beginning to golden brown. Add onion and sauté for about 5 minutes, constantly stirring. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7956.Blog_-150x150.png\"/><br /></li><li>Add the potatoes and cover with water. Bring to a boil.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7957.Blog_-150x150.png\"/><br /></li><li> Add frozen or canned peas(drained). Bring to a boil. Add salt and pepper. Reduce the heat, cover and simmer for another 20 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7958.Blog_-150x150.png\"/><br /></li><li>Puree the soup with blender until smooth. If the soup is too thick, add some water. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7959.Blog_-150x150.png\"/><br /></li><li>Divide soup into bowls and top it with sour cream.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7967.Blog_-150x150.png\"/><br /></li><li>If you have some extra time, you can make a design on your soup. For this you will need to transfer the sour cream into the small ziplock, cut the tiny hole in the corner(1-2 mm) and use your imagination . 😉 <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7965.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soup</div>\t</div>\n</div>\n<!--End WPRM Recipe-->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23533",
+      "sourceTaxonomyId": "23533",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24240",
+      "sourceTaxonomyId": "24240",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24457",
+      "sourceTaxonomyId": "24457",
+      "name": "chicken fillet",
+      "slug": "chicken-fillet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24458",
+      "sourceTaxonomyId": "24458",
+      "name": "frozen peas",
+      "slug": "frozen-peas"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26188",
+      "sourceTaxonomyId": "26188",
+      "name": "L",
+      "slug": "l"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "96",
+      "sourceTaxonomyId": "96",
+      "name": "Soups",
+      "slug": "soups"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1190",
+      "sourceTaxonomyId": "1190",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1142",
+      "sourceTaxonomyId": "1142",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4305",
+      "sourceTaxonomyId": "4305",
+      "name": "chicken fillet",
+      "slug": "chicken-fillet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4307",
+      "sourceTaxonomyId": "4307",
+      "name": "frozen peas",
+      "slug": "frozen-peas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2786",
+      "sourceTaxonomyId": "2786",
+      "name": "meat",
+      "slug": "meat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2852",
+      "sourceTaxonomyId": "2852",
+      "name": "chicken",
+      "slug": "chicken"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4315",
+      "sourceTaxonomyId": "4315",
+      "name": "frozen pea",
+      "slug": "frozen-pea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4317",
+      "sourceTaxonomyId": "4317",
+      "name": "canned pea",
+      "slug": "canned-pea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4319",
+      "sourceTaxonomyId": "4319",
+      "name": "broth",
+      "slug": "broth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4321",
+      "sourceTaxonomyId": "4321",
+      "name": "green soup",
+      "slug": "green-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4325",
+      "sourceTaxonomyId": "4325",
+      "name": "veloute",
+      "slug": "veloute-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4327",
+      "sourceTaxonomyId": "4327",
+      "name": "canned peas",
+      "slug": "canned-peas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7571",
+      "sourceTaxonomyId": "7571",
+      "name": "pureed soup",
+      "slug": "pureed-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:5391",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 Tbsp olive oil",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g chicken fillet",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chicken fillet",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 onion",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "5 potatoes",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "400 g frozen peas (or canned)",
+            "quantity": {
+              "raw": "400 g",
+              "value": 400,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "frozen peas",
+            "notes": "(or canned)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1,5 L water",
+            "quantity": {
+              "raw": "1,5 L",
+              "unit": "L",
+              "scalable": false
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "some sour cream",
+            "quantity": {
+              "raw": "some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "sour cream",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut chicken into small pieces. Peel and chop onion(half-moon). Peel and cut the potatoes in quarters.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a large pot, heat the olive oil, add chicken and cook until beginning to golden brown. Add onion and sauté for about 5 minutes, constantly stirring.",
+            "mediaId": "wordpress-attachment:5386"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add the potatoes and cover with water. Bring to a boil.",
+            "mediaId": "wordpress-attachment:5387"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add frozen or canned peas(drained). Bring to a boil. Add salt and pepper. Reduce the heat, cover and simmer for another 20 minutes.",
+            "mediaId": "wordpress-attachment:5388"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Puree the soup with blender until smooth. If the soup is too thick, add some water.",
+            "mediaId": "wordpress-attachment:5389"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Divide soup into bowls and top it with sour cream.",
+            "mediaId": "wordpress-attachment:5390"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "If you have some extra time, you can make a design on your soup. For this you will need to transfer the sour cream into the small ziplock, cut the tiny hole in the corner(1-2 mm) and use your imagination . 😉",
+            "mediaId": "wordpress-attachment:5593"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5391",
+      "sourceId": "5391",
+      "path": "/recipes/media/wordpress/5391.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5386",
+      "sourceId": "5386",
+      "path": "/recipes/media/wordpress/5386.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5387",
+      "sourceId": "5387",
+      "path": "/recipes/media/wordpress/5387.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5388",
+      "sourceId": "5388",
+      "path": "/recipes/media/wordpress/5388.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5389",
+      "sourceId": "5389",
+      "path": "/recipes/media/wordpress/5389.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5390",
+      "sourceId": "5390",
+      "path": "/recipes/media/wordpress/5390.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5593",
+      "sourceId": "5593",
+      "path": "/recipes/media/wordpress/5593.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

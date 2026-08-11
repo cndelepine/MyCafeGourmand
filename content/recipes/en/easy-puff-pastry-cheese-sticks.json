@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21385",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:15369",
+  "slug": "easy-puff-pastry-cheese-sticks",
+  "source": {
+    "system": "wordpress",
+    "postId": "21385",
+    "recipeId": "21385",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-easy-puff-pastry-cheese-sticks",
+    "createdAt": "2019-05-17T05:59:02+00:00",
+    "modifiedAt": "2020-12-30T00:03:39+00:00",
+    "editorialPostId": "16922",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "easy-puff-pastry-cheese-sticks",
+    "editorialCreatedAt": "2019-05-17T05:59:02+00:00",
+    "editorialModifiedAt": "2020-12-30T00:03:34+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Easy Puff Pastry Cheese Sticks",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>These crispy, flaky, cheesy sticks require just a few ingredients and 15 minutes of your time. Very easy to put together with absolutely no experience needed. They go with dips, salads, soups, beer and yet, kids favorite crunchy snack.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>More <a href=\"https://mycafegourmand.com/puff-pastry/\">recipes with puff pastry</a> on my cooking blog.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21385,\"template\":\"chic-template-english\",\"updated\":1609286443687} -->\n<!--WPRM Recipe 21385-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Easy Puff Pastry Cheese Sticks</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_7365-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet all butter puff pastry</li><li>1 egg yolk</li><li>50 g shredded cheese</li><li>Some Herbes de Provence (or any herbs of your choice )</li><li>freshly ground black pepper ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 375 degrees F. On a parchment paper roll out the puff pastry. </li><li>Whisk the egg yolk and spread evenly over the puff pastry. </li><li>Sprinkle cheese, herbs and pepper on top of the yolk mixture. Slice with a pizza cutter into 1 cm strips.     <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_7633.Blog_-150x150.png\"/><br /></li><li>Bake for 7-9 minutes.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_7362.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24105",
+      "sourceTaxonomyId": "24105",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24248",
+      "sourceTaxonomyId": "24248",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24265",
+      "sourceTaxonomyId": "24265",
+      "name": "shredded cheese",
+      "slug": "shredded-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24266",
+      "sourceTaxonomyId": "24266",
+      "name": "Herbes de Provence",
+      "slug": "herbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "967",
+      "sourceTaxonomyId": "967",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4584",
+      "sourceTaxonomyId": "4584",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7247",
+      "sourceTaxonomyId": "7247",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9628",
+      "sourceTaxonomyId": "9628",
+      "name": "shredded cheese",
+      "slug": "shredded-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15374",
+      "sourceTaxonomyId": "15374",
+      "name": "Herbes de Provence",
+      "slug": "herbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4156",
+      "sourceTaxonomyId": "4156",
+      "name": "crunchy",
+      "slug": "crunchy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4859",
+      "sourceTaxonomyId": "4859",
+      "name": "hard cheese",
+      "slug": "hard-cheese"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "rest": null,
+      "total": {
+        "raw": "13",
+        "minutes": 13
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16902",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 egg yolk",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg yolk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g shredded cheese",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "shredded cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Some Herbes de Provence or any herbs of your choice",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "Herbes de Provence",
+            "notes": "or any herbs of your choice"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "freshly ground black pepper (optional)",
+            "quantity": null,
+            "name": "freshly ground black pepper",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 375 degrees F. On a parchment paper roll out the puff pastry.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Whisk the egg yolk and spread evenly over the puff pastry.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Sprinkle cheese, herbs and pepper on top of the yolk mixture. Slice with a pizza cutter into 1 cm strips.",
+            "mediaId": "wordpress-attachment:16886"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Bake for 7-9 minutes.",
+            "mediaId": "wordpress-attachment:16883"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16902",
+      "sourceId": "16902",
+      "path": "/recipes/media/wordpress/16902.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:16886",
+      "sourceId": "16886",
+      "path": "/recipes/media/wordpress/16886.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16883",
+      "sourceId": "16883",
+      "path": "/recipes/media/wordpress/16883.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

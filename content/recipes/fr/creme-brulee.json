@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22085",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3038",
+  "slug": "creme-brulee",
+  "source": {
+    "system": "wordpress",
+    "postId": "22085",
+    "recipeId": "22085",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-creme-brulee",
+    "createdAt": "2021-02-28T05:45:00+00:00",
+    "modifiedAt": "2022-07-30T20:48:39+00:00",
+    "editorialPostId": "6057",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "creme-brulee",
+    "editorialCreatedAt": "2021-02-28T05:45:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:48:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Crème brûlée",
+  "description": "Vous pouvez ajouter 1-2 cuillères à soupe de rhum dans la crème. La gousse de vanille peut être remplacée par le sucre vanille ou l'arôme de vanillé. Néanmoins, si vous avez le choix, utilisez la gousse : les petites graines de vanille apportent du goût et un arôme particulier.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La <span id=\":18h.1\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">première</span> fois,&nbsp;j’ai <span id=\":18h.2\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">préparé</span> la crème brûlée seulement pour me <span id=\":18h.3\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">débarrasser</span> des jaunes d’œufs qui me restaient <span id=\":18h.4\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">après</span> la <span id=\":18h.5\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">préparation</span> des macarons… Pourquoi ne m’avait-on jamais&nbsp;dit que<span id=\":18h.6\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\"></span> la recette de crème brûlée était si facile !? Avec seulement 3 <span id=\":18h.7\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">ingrédients</span> : les jaunes d’œufs, le sucre et la crème liquide. En ajoutant la vanille de <span id=\":18h.8\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">Madagascar</span>, c’est un dessert exquis ! Et je ne parle pas de la <span id=\":18h.9\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">croûte</span> <span id=\":18h.10\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" data-g-spell-status=\"2\">caramélisée</span>...</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Cela peut accompagner votre <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">café gourmand</a> si la&nbsp;crème brûlée est servie dans des petits ramequins.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Regardez cette <a href=\"https://www.instagram.com/p/BgVCgwRl9fc/?taken-by=cafegourmandnatalija\">courte vidéo</a> sur le \"drame\" de la crème brûlée !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22085,\"template\":\"chic-template-french\",\"updated\":1614749815355} -->\n<!--WPRM Recipe 22085-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Crème brûlée</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8051.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tVous pouvez ajouter 1-2 cuillères à soupe de rhum dans la crème. La gousse de vanille peut être remplacée par le sucre vanille ou l'arôme de vanillé. Néanmoins, si vous avez le choix, utilisez la gousse : les petites graines de vanille apportent du goût et un arôme particulier.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>8 jaunes d'œufs</li><li>120 g de sucre en poudre</li><li>1/2 gousse de vanille</li><li>640 ml de crème liquide entière</li><li>6 cuillères à café de sucre en poudre</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 110°C (thermostat 3/4).  Couper la gousse de vanille dans sa longueur et récupérer les petites graines avec la pointe d'un couteau. Avec un fouet, blanchir les jaunes d'œufs avec le sucre et la vanille. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8014.Blog_-150x150.png\"/><br /></li><li>Ajouter la crème froide et bien mélanger. Avec une cuillère, retirer la mousse qui s'est formée à la surface du mélange. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8015.Blog_-150x150.png\"/><br /></li><li>Remplir des ramequins en versant la préparation à travers une petite passoire.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8017.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant environ 1 heures 40 minutes, au bain-marie de préférence : poser les ramequins dans un plat allant au four, verser l'eau dans ce plat, le niveau d'eau doit arriver au 2/3 des ramequins.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_5678.Blog_-150x150.png\"/><br /></li><li>Le temps de cuisson dépend de la taille de vos ramequins. La crème est cuite quand elle est n'est plus liquide mais tremble légèrement si on secoue le ramequin.</li><li>Sortir la crème du four et laisser refroidir. Puis couvrir avec un film plastique et laisser reposer dans le réfrigérateur pendant au moins 6 heures.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8812.Blog_-150x150.png\"/><br /></li><li>Au moment de servir, répartir une fine couche de sucre sur chaque crème et faire caraméliser à l'aide d'un chalumeau. Si vous n'avez pas de chalumeau, caraméliser la crème au four sous le gril pendant 1-2 minute. Attention, le sucre brûle très vite, surveiller attentivement la cuisson et sortir la crème brûlée du four aussitôt !<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7061.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<p>Avec les blancs d'œufs qui restent, vous pouvez <span id=\":18h.178\" class=\"J-JK9eJ-PJVNOc\" role=\"menuitem\" data-g-spell-status=\"2\">préparer</span> des <a href=\"https://mycafegourmand.com/fr/recipe/rochers-la-noix-de-coco\">Rochers à la noix de coco</a> ou des <a href=\"https://mycafegourmand.com/fr/recipe/meringues-francaises\">Meringues</a>.</p>\n<h1 class=\"entry-title\"></h1>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24578",
+      "sourceTaxonomyId": "24578",
+      "name": "jaunes d'œufs",
+      "slug": "jaunes-doeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24600",
+      "sourceTaxonomyId": "24600",
+      "name": "de vanille",
+      "slug": "de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "378",
+      "sourceTaxonomyId": "378",
+      "name": "jaunes d'œufs",
+      "slug": "jaunes-doeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2356",
+      "sourceTaxonomyId": "2356",
+      "name": "de vanille",
+      "slug": "de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2212",
+      "sourceTaxonomyId": "2212",
+      "name": "creme liquide entiere",
+      "slug": "creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2346",
+      "sourceTaxonomyId": "2346",
+      "name": "gousse de vanille",
+      "slug": "gousse-de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3039",
+      "sourceTaxonomyId": "3039",
+      "name": "bain marie",
+      "slug": "bain-marie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3041",
+      "sourceTaxonomyId": "3041",
+      "name": "jaune d'oeuf",
+      "slug": "jaune-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3043",
+      "sourceTaxonomyId": "3043",
+      "name": "vanille",
+      "slug": "vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3045",
+      "sourceTaxonomyId": "3045",
+      "name": "creme brulее",
+      "slug": "creme-brul%d0%b5%d0%b5-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3166",
+      "sourceTaxonomyId": "3166",
+      "name": "sans farine",
+      "slug": "sans-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6065",
+      "sourceTaxonomyId": "6065",
+      "name": "fait maison",
+      "slug": "fait-maison"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7233",
+      "sourceTaxonomyId": "7233",
+      "name": "croute caramelisee",
+      "slug": "croute-caramelisee"
+    }
+  ],
+  "recipe": {
+    "notes": "Avec les blancs d'œufs qui restent, vous pouvez préparer des Rochers à la noix de coco ou des Meringues.",
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "17",
+        "minutes": 17
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:5984",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "8 jaunes d'œufs",
+            "quantity": {
+              "raw": "8",
+              "value": 8,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jaunes d'œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "120 g de sucre en poudre",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 gousse de vanille",
+            "quantity": {
+              "raw": "1/2 gousse",
+              "value": 0.5,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "de vanille",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "640 ml de crème liquide entière",
+            "quantity": {
+              "raw": "640 ml",
+              "value": 640,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "6 cuillères à café de sucre en poudre",
+            "quantity": {
+              "raw": "6 cuillères à café",
+              "value": 6,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 110°C (thermostat 3/4). Couper la gousse de vanille dans sa longueur et récupérer les petites graines avec la pointe d'un couteau. Avec un fouet, blanchir les jaunes d'œufs avec le sucre et la vanille.",
+            "mediaId": "wordpress-attachment:5978"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajouter la crème froide et bien mélanger. Avec une cuillère, retirer la mousse qui s'est formée à la surface du mélange.",
+            "mediaId": "wordpress-attachment:5979"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Remplir des ramequins en versant la préparation à travers une petite passoire.",
+            "mediaId": "wordpress-attachment:5980"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire cuire au four pendant environ 1 heures 40 minutes, au bain-marie de préférence : poser les ramequins dans un plat allant au four, verser l'eau dans ce plat, le niveau d'eau doit arriver au 2/3 des ramequins.",
+            "mediaId": "wordpress-attachment:5988"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Le temps de cuisson dépend de la taille de vos ramequins. La crème est cuite quand elle est n'est plus liquide mais tremble légèrement si on secoue le ramequin.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Sortir la crème du four et laisser refroidir. Puis couvrir avec un film plastique et laisser reposer dans le réfrigérateur pendant au moins 6 heures.",
+            "mediaId": "wordpress-attachment:6608"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Au moment de servir, répartir une fine couche de sucre sur chaque crème et faire caraméliser à l'aide d'un chalumeau. Si vous n'avez pas de chalumeau, caraméliser la crème au four sous le gril pendant 1-2 minute. Attention, le sucre brûle très vite, surveiller attentivement la cuisson et sortir la crème brûlée du four aussitôt !",
+            "mediaId": "wordpress-attachment:5975"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5984",
+      "sourceId": "5984",
+      "path": "/recipes/media/wordpress/5984.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5978",
+      "sourceId": "5978",
+      "path": "/recipes/media/wordpress/5978.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5979",
+      "sourceId": "5979",
+      "path": "/recipes/media/wordpress/5979.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5980",
+      "sourceId": "5980",
+      "path": "/recipes/media/wordpress/5980.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5988",
+      "sourceId": "5988",
+      "path": "/recipes/media/wordpress/5988.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6608",
+      "sourceId": "6608",
+      "path": "/recipes/media/wordpress/6608.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5975",
+      "sourceId": "5975",
+      "path": "/recipes/media/wordpress/5975.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

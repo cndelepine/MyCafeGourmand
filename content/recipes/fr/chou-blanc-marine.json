@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21845",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:1040",
+  "slug": "chou-blanc-marine",
+  "source": {
+    "system": "wordpress",
+    "postId": "21845",
+    "recipeId": "21845",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chou-blanc-marine",
+    "createdAt": "2024-12-01T19:06:00+00:00",
+    "modifiedAt": "2024-12-02T08:15:30+00:00",
+    "editorialPostId": "2728",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chou-blanc-marine",
+    "editorialCreatedAt": "2024-12-01T19:06:00+00:00",
+    "editorialModifiedAt": "2024-12-02T08:15:27+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Chou blanc mariné",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le chou blanc et&nbsp;des carottes sont marinés dans du vinaigre blanc. Une recette facile à préparer et c'est prêt à manger dès le lendemain. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21845,\"template\":\"chic-template-french\",\"updated\":1733127289698} -->\n<!--WPRM Recipe 21845-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chou blanc mariné</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7587-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t  \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1,2 kg de chou blanc</li><li>3-4 carottes (épluchées)</li><li>1 tête  d'ail</li><li>1 l d'eau</li><li>50 g de sucre</li><li>2 cuillères à soupe de gros sel</li><li>125 ml d'huile vegetale (tournesol)</li><li>250 ml de vinaigre blanc (6%)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Hacher finement le chou.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7466.Blog_-150x150.png\"/><br /></li><li>Râper les carottes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7478.Blog_-150x150.png\"/><br /></li><li>Éplucher l'ail et couper les gousses en quatre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7486.Blog_-150x150.png\"/><br /></li><li>Mettre les légumes dans un bocal en verre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7485-2.Blog_-150x150.png\"/><br /></li><li>Dans une casserole, porter l'eau à ébullition avec le sel, le sucre et l'huile. Enlever du feu et ajouter le vinaigre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7490-2.Blog_-150x150.png\"/><br /></li><li>Verser la marinade chaude dans le bocal. Laisser refroidir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7494.Blog_.Blog_-150x150.png\"/><br /></li><li>Fermer avec un couvercle et placer dans le réfrigérateur. Le chou est prêt à déguster le lendemain.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7587-3.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Chou blanc mariné"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24520",
+      "sourceTaxonomyId": "24520",
+      "name": "de chou blanc",
+      "slug": "de-chou-blanc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24566",
+      "sourceTaxonomyId": "24566",
+      "name": "de sucre",
+      "slug": "de-sucre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24567",
+      "sourceTaxonomyId": "24567",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24568",
+      "sourceTaxonomyId": "24568",
+      "name": "d'huile vegetale (tournesol)",
+      "slug": "dhuile-vegetale-tournesol"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24569",
+      "sourceTaxonomyId": "24569",
+      "name": "de vinaigre blanc (6%)",
+      "slug": "de-vinaigre-blanc-6"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1188",
+      "sourceTaxonomyId": "1188",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "244",
+      "sourceTaxonomyId": "244",
+      "name": "de sucre",
+      "slug": "de-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "354",
+      "sourceTaxonomyId": "354",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1028",
+      "sourceTaxonomyId": "1028",
+      "name": "de chou blanc",
+      "slug": "de-chou-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1034",
+      "sourceTaxonomyId": "1034",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1041",
+      "sourceTaxonomyId": "1041",
+      "name": "d'huile vegetale (tournesol)",
+      "slug": "dhuile-vegetale-tournesol"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1043",
+      "sourceTaxonomyId": "1043",
+      "name": "de vinaigre blanc (6%)",
+      "slug": "de-vinaigre-blanc-6"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1266",
+      "sourceTaxonomyId": "1266",
+      "name": "chou blanc marine",
+      "slug": "chou-blanc-marine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1268",
+      "sourceTaxonomyId": "1268",
+      "name": "chou blanc",
+      "slug": "chou-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1334",
+      "sourceTaxonomyId": "1334",
+      "name": "vinaigre",
+      "slug": "vinaigre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1336",
+      "sourceTaxonomyId": "1336",
+      "name": "marinade",
+      "slug": "marinade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5673",
+      "sourceTaxonomyId": "5673",
+      "name": "huile vegetale",
+      "slug": "huile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6860",
+      "sourceTaxonomyId": "6860",
+      "name": "recette russe",
+      "slug": "recette-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6862",
+      "sourceTaxonomyId": "6862",
+      "name": "bon pour la sante",
+      "slug": "bon-pour-la-sante"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2702",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1,2 kg de chou blanc",
+            "quantity": {
+              "raw": "1,2 kg",
+              "unit": "kg",
+              "scalable": false
+            },
+            "name": "de chou blanc",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3-4 carottes épluchées",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 tête d'ail",
+            "quantity": {
+              "raw": "1 tête",
+              "value": 1,
+              "unit": "tête",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 l d'eau",
+            "quantity": {
+              "raw": "1 l",
+              "value": 1,
+              "unit": "l",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "50 g de sucre",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 cuillères à soupe de gros sel",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de gros sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "125 ml d'huile vegetale (tournesol)",
+            "quantity": {
+              "raw": "125 ml",
+              "value": 125,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'huile vegetale (tournesol)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "250 ml de vinaigre blanc (6%)",
+            "quantity": {
+              "raw": "250 ml",
+              "value": 250,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de vinaigre blanc (6%)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Hacher finement le chou.",
+            "mediaId": "wordpress-attachment:2696"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Râper les carottes.",
+            "mediaId": "wordpress-attachment:2697"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Éplucher l'ail et couper les gousses en quatre.",
+            "mediaId": "wordpress-attachment:2699"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mettre les légumes dans un bocal en verre.",
+            "mediaId": "wordpress-attachment:2698"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Dans une casserole, porter l'eau à ébullition avec le sel, le sucre et l'huile. Enlever du feu et ajouter le vinaigre.",
+            "mediaId": "wordpress-attachment:2700"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Verser la marinade chaude dans le bocal. Laisser refroidir.",
+            "mediaId": "wordpress-attachment:2701"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Fermer avec un couvercle et placer dans le réfrigérateur. Le chou est prêt à déguster le lendemain.",
+            "mediaId": "wordpress-attachment:2702"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2702",
+      "sourceId": "2702",
+      "path": "/recipes/media/wordpress/2702.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2696",
+      "sourceId": "2696",
+      "path": "/recipes/media/wordpress/2696.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2697",
+      "sourceId": "2697",
+      "path": "/recipes/media/wordpress/2697.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2699",
+      "sourceId": "2699",
+      "path": "/recipes/media/wordpress/2699.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2698",
+      "sourceId": "2698",
+      "path": "/recipes/media/wordpress/2698.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2700",
+      "sourceId": "2700",
+      "path": "/recipes/media/wordpress/2700.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2701",
+      "sourceId": "2701",
+      "path": "/recipes/media/wordpress/2701.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

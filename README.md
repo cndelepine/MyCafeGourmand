@@ -99,18 +99,50 @@ npm run dev
 
 Open `http://localhost:3000`.
 
-## Static build
+## Static artifacts
 
-The production build is a static export for Azure Static Web Apps. It writes
+The credential-free local and CI artifact build writes
 the complete site, including `sitemap.xml` and `robots.txt`, to `out/`:
 
 ```sh
-npm run build
+npm run build:local
 ```
 
-Deploy `out/` as the Azure Static Web Apps output directory. Local images are
-served without Next's image optimization service so the export remains
-self-contained.
+`npm run build:ci` runs the same nondeployable build in CI. These artifacts
+leave canonical Blob media keys root-relative for local fixtures and **must not
+be deployed**. Recipe originals
+are deliberately not included in the Static Web Apps artifact: their validated
+canonical object keys are resolved to Blob Storage or a CDN at release time.
+`build:static`, `build:local`, and `build:ci` reject any configured
+`NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL`; a configured public media base is accepted
+only by the explicit guarded release command.
+`next/image` remains unoptimized for static export; when a media base is
+configured, Next allows only that validated HTTPS host and the
+`/recipes/media/wordpress/**` path prefix.
+
+## Azure release build
+
+The only documented deployment build command is `npm run build:release`.
+It runs guarded pre- and post-build validation of
+`NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL`, then scans every bounded deployable text
+artifact in `out/`, including HTML, CSS, JavaScript, React Flight/RSC `.txt`
+payloads, JSON-LD, and inline `self.__next_f.push` payloads. It rejects a
+root-relative Blob media URL, an unmanifested object, a different origin or
+base path, and any manifest-backed URL that does not exactly resolve from the
+configured HTTPS base:
+
+```sh
+export NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL="https://<storage-account>.blob.core.windows.net/<container>"
+npm run build:release
+```
+
+The value must be an absolute HTTPS Blob or CDN base URL with no credentials,
+query string, or fragment. A custom-domain/CDN option is equally valid after
+its TLS/DNS configuration is complete, for example
+`https://<media-domain>/<container>`. Do not invent an account hostname in source or configuration; set the real
+value only in the deployment environment. `npm run build:local` and
+`npm run build:ci` intentionally remain credential-free, reject that variable,
+and do not contact Azure.
 
 The build validates each recipe's `redirectFrom` paths, then writes the
 deterministic `out/staticwebapp.config.json` Azure Static Web Apps route
@@ -130,7 +162,7 @@ rejected because their possible cycles cannot be proven statically.
 To preview the completed static export locally:
 
 ```sh
-npm run build
+npm run build:local
 npm run preview
 ```
 
@@ -141,17 +173,25 @@ provided because `next start` requires a server-rendered Next build.
 
 ```sh
 npm run check
+npm run build:ci
 ```
 
-This runs linting, type checking, tests, content validation, and a production
-build.
+`npm run check` runs credential-free linting, type checking, and tests.
+`npm run build:ci` adds content validation and the nondeployable static export;
+the CI workflow runs both. Deployments must use `npm run build:release`, never
+either local or CI artifact command.
 
 ## CMS-ready content
 
 Canonical recipe records live in `content/recipes/{en,fr,ru}/` as independent
 JSON files. Discovery is deterministic and validates each record with its
-source path; `npm run content:validate` also checks that every local media path
-resolves to a regular file below `public/`.
+source path. Promoted WordPress media uses stable canonical object keys such as
+`/recipes/media/wordpress/<attachmentId>.jpg`, never deployment-specific URLs.
+`content/media-manifest.json` is a bounded, deterministic public inventory of
+only those keys, byte counts, SHA-256 values, and numeric attachment IDs.
+`npm run content:validate` requires every promoted reference exactly once in
+that manifest and rejects unreferenced entries; local fixture/dev paths still
+resolve to regular files below `public/`.
 
 The browser editor is intentionally deferred. Decap's standard object/list
 widgets do not yet provide a proven round-trip for this schema's explicit
@@ -277,11 +317,217 @@ For the current approved-source acceptance baseline, the privacy-safe dry run
 accounts for 539 WPRM records: 521 ready candidates, 3 incomplete-translation
 reviews, and 15 non-published errors.
 
+### Authenticated WPRM promotion
+
+Promotion is a separate, explicit step. Before it can run, regenerate private
+staging with the current importer so it writes keyed media bindings for every
+ready candidate's selected upload bytes:
+
+```sh
+npm run import:wprm-bulk -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/wprm-fingerprint.key \
+  --write --staging-dir migration-output/wprm-bulk-v6
+```
+
+The prior `wprm-bulk-import-v3` staging format intentionally cannot be resumed
+or promoted: it has no private media-byte bindings. The v6 mapper contract is
+intentionally incompatible with v5 because it normalizes every public
+display-text field, not only descriptions. Keep prior roots for audit if
+needed, then create a new private staging root as above rather than trusting or
+overwriting it. The v6 `media-bindings.json` is mode
+`0600`, contains only
+numeric attachment IDs, byte counts, and keyed digests, and must remain outside
+Git with the fingerprint key.
+
+Run the authoritative promotion preflight before any write:
+
+```sh
+npm run promote:wprm -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/wprm-fingerprint.key \
+  --staging-dir migration-output/wprm-bulk-v6 \
+  --expected-ready 521 --expected-review 3 --expected-error 15 \
+  --dry-run
+```
+
+The preflight reimports and authenticates the candidates, fully decompresses
+and CRC-checks every selected media entry through no-follow archive handles,
+and compares keyed byte bindings before reporting aggregate record and media
+counts. Its stdout is aggregate-only: it never prints source paths, media
+digests, candidate wording, or private staging contents. `--write` remains a
+separate deliberate action and uses a private journal to stage, validate, and
+roll back recipe records plus the safe public media manifest. It never writes
+original media bytes beneath `public/` or `content/`.
+
+Promotion acquires an exclusive repository-domain
+`migration-output/.wprm-promotion.lock` before inspecting recovery state and
+keeps it through preflight, publication, validation, and cleanup. A concurrent
+invocation exits with `promotion-locked`; it never guesses that a PID is stale
+or takes over another transaction. A hard process death can deliberately leave
+that lock behind. Before operator recovery, verify through the process
+supervisor that the original promotion is dead, inspect the *exact* lock path
+without following links, and require an owner-owned `0700` directory containing
+only its `0600` owner marker (or no entry if acquisition itself was
+interrupted). Then remove that exact verified lock with
+no-follow operator tooling and rerun the dry run; do not remove a lock merely
+because a PID appears old.
+
+The promotion transaction writes an authenticated bootstrap marker before it
+creates transaction directories, then uses bounded HMAC-authenticated journals
+with explicit setup, prepared, publishing, rollback, and cleanup states.
+Files and parent directories are synced at supported durability boundaries.
+Journal temporary files are never used as a newer state: recovery accepts the
+last complete journal and removes only same-transaction authenticated orphan
+temps. If a crash leaves an ambiguous, tampered, or symlinked transaction
+artifact, promotion fails closed without touching live files.
+When a source translation group contains a review or error peer, its ready
+members are excluded together; the result retains the source candidate counts
+and reports aggregate `translation.excluded`, blocked-group, review-peer, and
+error-peer counts rather than silently promoting an incomplete group.
+WPRM public display text is deterministically converted from bounded source
+HTML to plain text before promotion. This includes titles, descriptions,
+ingredient and instruction group headings, ingredient and equipment fields,
+instruction text, custom time labels, rendered taxonomy names, media alt text,
+and other rendered recipe text. Entities and block/line semantics are preserved;
+malformed or excessive source markup is an explicit error. Source-faithful
+editorial HTML remains in the separate `editorial` fields when the authoritative
+editorial parent is available.
+
+There is no general overwrite option. The sole historical prototype replacement
+is allowlisted for `wordpress:wprm:21681` replacing the tracked
+`wordpress:wprm:2980` English `meatballs-soup` seed; it verifies the tracked
+seed and its two known placeholder paths before any replacement. The only
+other replacement is a narrowly authenticated display-text-normalization
+update: the existing record must have identical provenance and normalize
+exactly to the freshly authenticated candidate. Slug, source, editorial,
+non-text recipe data, and media differences still fail as collisions.
+
 WordPress Recipe Maker and WP Ultimate Recipe identifiers are import-time
 source concerns only; WP Ultimate Recipe signals remain unresolved and emit
 zero records. Redirect and old-slug candidates are classified but none are
 accepted until a canonical original-permalink resolver exists. Comments,
-ratings, private data, and media extraction are excluded.
+ratings, and private data are excluded. Original-media handling is the
+separate authenticated Blob staging workflow below.
+
+### Blob-backed recipe originals
+
+The 1,221 promoted originals are staged from the authorized database, private
+candidate staging, fingerprint key, and upload ZIPs before any external upload.
+This command is credential-free and makes no Azure request:
+
+```sh
+npm run media:upload-plan -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/wprm-fingerprint.key \
+  --staging-dir migration-output/wprm-bulk-v6 \
+  --upload-dir migration-output/wprm-media-azure-v3 \
+  --expected-ready 521 --expected-review 3 --expected-error 15 \
+  --dry-run
+```
+
+It reruns the same source authentication as promotion, including ZIP CRC,
+private keyed-byte bindings, and canonical media bindings, but prints only an
+aggregate object and byte count. To stream verified bytes into the private,
+Git-ignored staging tree and create the committed safe manifest on its first
+run:
+
+```sh
+npm run media:upload-plan -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/wprm-fingerprint.key \
+  --staging-dir migration-output/wprm-bulk-v6 \
+  --upload-dir migration-output/wprm-media-azure-v3 \
+  --expected-ready 521 --expected-review 3 --expected-error 15 \
+  --write --write-public-manifest
+```
+
+The upload source is
+`migration-output/wprm-media-azure-v3/objects/`; its layout is exactly the
+object-key layout without the leading slash. Directories are `0700`, files and
+the private `upload-manifest.json` are `0600`, symlinks are rejected, and a
+resume accepts only byte-identical files:
+
+```sh
+# Reauthenticates the source and hashes every staged object before reuse.
+npm run media:upload-plan -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/wprm-fingerprint.key \
+  --staging-dir migration-output/wprm-bulk-v6 \
+  --upload-dir migration-output/wprm-media-azure-v3 \
+  --expected-ready 521 --expected-review 3 --expected-error 15 \
+  --write --resume --write-public-manifest
+```
+
+Provision Azure separately; neither plan command accepts Azure credentials,
+account keys, connection strings, SAS tokens, or a destination. After
+interactive authentication, use real account and container values only in the
+operator shell:
+
+```sh
+az login
+export AZURE_STORAGE_ACCOUNT="<storage-account-name>"
+export AZURE_STORAGE_CONTAINER="<public-media-container>"
+
+# Grant anonymous read of individual blobs, not container listing.
+az storage container set-permission --auth-mode login \
+  --account-name "$AZURE_STORAGE_ACCOUNT" \
+  --name "$AZURE_STORAGE_CONTAINER" --public-access blob
+
+# Use the real Static Web Apps/custom-domain origins; do not use a wildcard.
+az storage cors add --auth-mode login --services b \
+  --account-name "$AZURE_STORAGE_ACCOUNT" \
+  --methods GET HEAD \
+  --origins "https://<static-web-app-domain>" "https://<custom-site-domain>" \
+  --allowed-headers "Content-Type" \
+  --exposed-headers "Content-Length" "Content-Type" "x-ms-meta-sha256" \
+  --max-age 86400
+
+# Repeat per extension so every Blob has the correct MIME type and immutable cache policy.
+az storage blob upload-batch --auth-mode login \
+  --account-name "$AZURE_STORAGE_ACCOUNT" \
+  --destination "$AZURE_STORAGE_CONTAINER" \
+  --source migration-output/wprm-media-azure-v3/objects \
+  --pattern "*.jpg" --content-type image/jpeg \
+  --content-cache-control "public, max-age=31536000, immutable" --overwrite false
+az storage blob upload-batch --auth-mode login \
+  --account-name "$AZURE_STORAGE_ACCOUNT" \
+  --destination "$AZURE_STORAGE_CONTAINER" \
+  --source migration-output/wprm-media-azure-v3/objects \
+  --pattern "*.png" --content-type image/png \
+  --content-cache-control "public, max-age=31536000, immutable" --overwrite false
+```
+
+Use equivalent `upload-batch` invocations for `.avif`, `.gif`, `.jpeg`, and
+`.webp` when present. Configure the container/CDN for public anonymous **blob**
+read access (not list access), HTTPS-only delivery, the chosen cache policy,
+and Blob CORS allowing the production Static Web Apps/custom-domain origins to
+`GET` and `HEAD`; expose `Content-Length`, `Content-Type`, and
+`x-ms-meta-sha256` if browser tooling needs them. Blob metadata may record
+expected SHA-256 values for operations, but it is not authentication evidence.
+Repeating the same commands with
+`--overwrite false` never replaces an existing Blob; reconcile any skipped
+objects with the verifier before treating the upload as resumed. The
+post-upload verifier streams a bounded HTTPS `GET` for every expected object,
+requires the exact requested origin/path with no redirect, a `200` response,
+the expected `Content-Length`, exact byte count, and the manifest SHA-256:
+
+```sh
+npm run media:verify-azure -- \
+  --account-name "$AZURE_STORAGE_ACCOUNT" \
+  --container "$AZURE_STORAGE_CONTAINER" \
+  --upload-dir migration-output/wprm-media-azure-v3
+```
+
+The verifier does not trust caller-supplied metadata or issue an Azure CLI
+property lookup. It hashes streams without buffering the media set, prints only
+aggregate counts, and fails on unavailable/status/stream, size, or digest
+mismatches. Do not delete the private staged objects until it succeeds.
 
 ### Bounded source evidence probe
 

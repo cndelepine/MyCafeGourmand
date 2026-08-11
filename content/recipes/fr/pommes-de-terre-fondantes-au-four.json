@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21881",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:621",
+  "slug": "pommes-de-terre-fondantes-au-four",
+  "source": {
+    "system": "wordpress",
+    "postId": "21881",
+    "recipeId": "21881",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pommes-de-terre-fondantes-au-four",
+    "createdAt": "2018-01-12T04:29:02+00:00",
+    "modifiedAt": "2022-06-27T00:27:18+00:00",
+    "editorialPostId": "1669",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pommes-de-terre-fondantes-au-four",
+    "editorialCreatedAt": "2018-01-12T04:29:02+00:00",
+    "editorialModifiedAt": "2022-06-27T00:27:16+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Pommes de terre fondantes au four",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le secret de cette recette de Pommes de terre fondantes, c'est de les cuire au four dans un plat (ou sur la plaque de cuisson) assez grand pour que les quartiers de pommes de terre soient en une seule couche et ne se touchent pas. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21881,\"template\":\"chic-template-french\",\"updated\":1656289625854} -->\n<!--WPRM Recipe 21881-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pommes de terre fondantes au four</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20171010_103300-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 grosses pommes de terre</li><li>2 cuillères à soupe de sauce barbecue</li><li>1 cuillère à soupe de mayonnaise</li><li>1/2 cuillère à café de sel</li><li>1/2 cuillère à café de poivre noir (moulu)</li><li>4 cuillères à soupe d'huile d'olive</li><li>Quelques brins de persil (aneth, ciboulette) (ciselés)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 200°C (thermostat 6/7). Arroser un grand plat allant au four avec l'huile d'olive.</li><li>Éplucher les pommes de terre et les couper en quartiers.</li><li>Dans un grand saladier, mélanger les pommes de terre avec la sauce barbecue, la mayonnaise, le sel et le poivre.</li><li>Etaler les pommes de terre dans le plat en une seule couche.</li><li>Faire cuire pendant environ 1 heure 5 minutes, jusqu'à ce qu'elles soient bien dorées.</li><li>Avant de servir, parsemer de persil (ou d'autres herbes fraîches).</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24585",
+      "sourceTaxonomyId": "24585",
+      "name": "grosses pommes de terre",
+      "slug": "grosses-pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24586",
+      "sourceTaxonomyId": "24586",
+      "name": "de sauce barbecue",
+      "slug": "de-sauce-barbecue"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24587",
+      "sourceTaxonomyId": "24587",
+      "name": "de poivre noir",
+      "slug": "de-poivre-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24588",
+      "sourceTaxonomyId": "24588",
+      "name": "de persil (aneth, ciboulette)",
+      "slug": "de-persil-aneth-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "356",
+      "sourceTaxonomyId": "356",
+      "name": "grosses pommes de terre",
+      "slug": "grosses-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "535",
+      "sourceTaxonomyId": "535",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "626",
+      "sourceTaxonomyId": "626",
+      "name": "de poivre noir",
+      "slug": "de-poivre-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "630",
+      "sourceTaxonomyId": "630",
+      "name": "de persil (aneth, ciboulette)",
+      "slug": "de-persil-aneth-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "632",
+      "sourceTaxonomyId": "632",
+      "name": "de sauce barbecue",
+      "slug": "de-sauce-barbecue"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1290",
+      "sourceTaxonomyId": "1290",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3154",
+      "sourceTaxonomyId": "3154",
+      "name": "plat familial",
+      "slug": "plat-familial"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "65",
+        "minutes": 65
+      },
+      "rest": null,
+      "total": {
+        "raw": "65",
+        "minutes": 65
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1150",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 grosses pommes de terre",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "grosses pommes de terre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 cuillères à soupe de sauce barbecue",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de sauce barbecue",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cuillère à soupe de mayonnaise",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 cuillère à café de sel",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 cuillère à café de poivre noir moulu",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de poivre noir",
+            "notes": "moulu"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques brins de persil (aneth, ciboulette) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de persil (aneth, ciboulette)",
+            "notes": "ciselés"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 200°C (thermostat 6/7). Arroser un grand plat allant au four avec l'huile d'olive.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Éplucher les pommes de terre et les couper en quartiers.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans un grand saladier, mélanger les pommes de terre avec la sauce barbecue, la mayonnaise, le sel et le poivre.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Etaler les pommes de terre dans le plat en une seule couche.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Faire cuire pendant environ 1 heure 5 minutes, jusqu'à ce qu'elles soient bien dorées.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Avant de servir, parsemer de persil (ou d'autres herbes fraîches).",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1150",
+      "sourceId": "1150",
+      "path": "/recipes/media/wordpress/1150.png",
+      "alt": null,
+      "width": 800,
+      "height": 496
+    }
+  ],
+  "seo": null
+}

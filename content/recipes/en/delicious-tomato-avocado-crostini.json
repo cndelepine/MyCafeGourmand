@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21705",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:2070",
+  "slug": "delicious-tomato-avocado-crostini",
+  "source": {
+    "system": "wordpress",
+    "postId": "21705",
+    "recipeId": "21705",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-delicious-tomato-avocado-crostini",
+    "createdAt": "2018-02-06T08:37:58+00:00",
+    "modifiedAt": "2020-11-25T22:12:58+00:00",
+    "editorialPostId": "3500",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "delicious-tomato-avocado-crostini",
+    "editorialCreatedAt": "2018-02-06T08:37:58+00:00",
+    "editorialModifiedAt": "2020-11-25T22:12:55+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Delicious Tomato & Avocado Crostini",
+  "description": "You can use french baguette or any brad that you like or have in your pantry.",
+  "editorial": {
+    "content": "This Delicious Tomato &amp; Avocado Crostini almost didn't make it to the dinner table. I could eat them all day. Everyday. <!--WPRM Recipe 21705-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Delicious Tomato &amp; Avocado Crostini</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180201_110814.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYou can use french baguette or any brad that you like or have in your pantry.\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>8 large baguette slices (diagonally cut)</li><li>1 clove  garlic (minced)</li><li>2 Tbsp cream cheese (soft)</li><li>2 large  avocados (fully ripe)</li><li>1 avocado (sliced)</li><li>8 Cherry tomatoes (sliced)</li><li>2 Tbsp olive oil</li><li>salt and pepper (to taste)</li><li>cilantro (for garnish)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Position a rack in the upper third of an oven and preheat the broiler.</li><li>Arrange bread slices on a baking sheet and drizzle with olive oil.</li><li>Broil turning the slices over once, until golden brown, about 2-3 minutes per side.</li><li>Halve two avocados lengthwise and remove pit; scoop the flesh into a small bowl, add cream cheese, garlic, salt and pepper to taste.</li><li>Gently mash with a fork until spreadable.</li><li>Spread the avocado mixture on the crostini, dividing evenly.</li><li>Top each crostini with avocado slices and cherry tomatoes slices. Garnish with fresh cilantro.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_5980.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24166",
+      "sourceTaxonomyId": "24166",
+      "name": "cilantro",
+      "slug": "cilantro"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24253",
+      "sourceTaxonomyId": "24253",
+      "name": "avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24405",
+      "sourceTaxonomyId": "24405",
+      "name": "avocados",
+      "slug": "avocados"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24412",
+      "sourceTaxonomyId": "24412",
+      "name": "cream cheese",
+      "slug": "cream-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24454",
+      "sourceTaxonomyId": "24454",
+      "name": "baguette slices",
+      "slug": "baguette-slices"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2048",
+      "sourceTaxonomyId": "2048",
+      "name": "baguette slices",
+      "slug": "baguette-slices"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2050",
+      "sourceTaxonomyId": "2050",
+      "name": "cream cheese",
+      "slug": "cream-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2052",
+      "sourceTaxonomyId": "2052",
+      "name": "avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2054",
+      "sourceTaxonomyId": "2054",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2056",
+      "sourceTaxonomyId": "2056",
+      "name": "cilantro",
+      "slug": "cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2064",
+      "sourceTaxonomyId": "2064",
+      "name": "avocados",
+      "slug": "avocados"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1604",
+      "sourceTaxonomyId": "1604",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1965",
+      "sourceTaxonomyId": "1965",
+      "name": "bread",
+      "slug": "bread"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2060",
+      "sourceTaxonomyId": "2060",
+      "name": "Avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2062",
+      "sourceTaxonomyId": "2062",
+      "name": "Crostini",
+      "slug": "crostini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2066",
+      "sourceTaxonomyId": "2066",
+      "name": "cream cheese",
+      "slug": "cream-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2068",
+      "sourceTaxonomyId": "2068",
+      "name": "philadelphia",
+      "slug": "philadelphia"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:3510",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "8 large baguette slices diagonally cut",
+            "quantity": {
+              "raw": "8 large",
+              "value": 8,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "baguette slices",
+            "notes": "diagonally cut"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 clove garlic minced",
+            "quantity": {
+              "raw": "1 clove",
+              "value": 1,
+              "unit": "clove",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": "minced"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 Tbsp cream cheese soft",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "cream cheese",
+            "notes": "soft"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 large avocados fully ripe",
+            "quantity": {
+              "raw": "2 large",
+              "value": 2,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "avocados",
+            "notes": "fully ripe"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 avocado sliced",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "avocado",
+            "notes": "sliced"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "8 Cherry tomatoes sliced",
+            "quantity": {
+              "raw": "8 Cherry",
+              "value": 8,
+              "unit": "Cherry",
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": "sliced"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 Tbsp olive oil",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "cilantro for garnish",
+            "quantity": null,
+            "name": "cilantro",
+            "notes": "for garnish"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Position a rack in the upper third of an oven and preheat the broiler.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Arrange bread slices on a baking sheet and drizzle with olive oil.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Broil turning the slices over once, until golden brown, about 2-3 minutes per side.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Halve two avocados lengthwise and remove pit; scoop the flesh into a small bowl, add cream cheese, garlic, salt and pepper to taste.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Gently mash with a fork until spreadable.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Spread the avocado mixture on the crostini, dividing evenly.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Top each crostini with avocado slices and cherry tomatoes slices. Garnish with fresh cilantro.",
+            "mediaId": "wordpress-attachment:4058"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:3510",
+      "sourceId": "3510",
+      "path": "/recipes/media/wordpress/3510.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4058",
+      "sourceId": "4058",
+      "path": "/recipes/media/wordpress/4058.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

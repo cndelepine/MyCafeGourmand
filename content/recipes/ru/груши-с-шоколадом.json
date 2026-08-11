@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22394",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:17292",
+  "slug": "груши-с-шоколадом",
+  "source": {
+    "system": "wordpress",
+    "postId": "22394",
+    "recipeId": "22394",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b3%d1%80%d1%83%d1%88%d0%b8-%d1%81-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%be%d0%bc",
+    "createdAt": "2025-08-15T22:05:16+00:00",
+    "modifiedAt": "2025-08-15T22:05:44+00:00",
+    "editorialPostId": "18398",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b3%d1%80%d1%83%d1%88%d0%b8-%d1%81-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%be%d0%bc",
+    "editorialCreatedAt": "2025-08-15T22:05:16+00:00",
+    "editorialModifiedAt": "2025-08-15T22:05:41+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Груши с шоколадом",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Этот десерт напоминает классический французский десерт Прекрасная Елена. Готовится очень-очень просто. Груши варятся в ванильном сиропе, охлаждаются и посыпаются тертым шоколадом.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22394,\"template\":\"chic-template-russian\",\"updated\":1755295489880} -->\n<!--WPRM Recipe 22394-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Груши с шоколадом</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3640-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 груши</li><li>750 мл воды</li><li>3 ст.л. сахара</li><li>1 стручок ванили</li><li>50 г тертого черного шоколада</li><li>4 листочка свежей мяты ((для украшения))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Груши почистить.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3622.Blog_-150x150.png\"/><br /></li><li>Разрезать на 2 половинки и удалить сердцевину.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3628.Blog_-150x150.png\"/><br /></li><li>В кастрюлю налить воду, добавить сахар и стручок ванили, разрезанный в длину. Довести до кипения.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3623-2.Blog_-150x150.png\"/><br /></li><li>Опустить подготовленные груши. Варить 10-15 минут (в зависимости от сорта и твердости). Груши должны стать мягкими, но не разваливаться. Снять кастрюлю с огня и полностью охладить. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3630.Blog_-150x150.png\"/><br /></li><li>Выловить груши из сиропа и положить на бумажное полотенце, чтобы удалить лишнюю жидкость. Положить на каждую тарелку половинку груши.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3634.Blog_-150x150.png\"/><br /></li><li>Посыпать тертым шоколадом и украсить мятой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3635-3.Blog_-150x150.png\"/><br /></li><li>Можно подать в стаканчиках.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3640-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23982",
+      "sourceTaxonomyId": "23982",
+      "name": "груши",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24789",
+      "sourceTaxonomyId": "24789",
+      "name": "ванили",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24851",
+      "sourceTaxonomyId": "24851",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24861",
+      "sourceTaxonomyId": "24861",
+      "name": "тертого черного шоколада",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d0%be%d0%b3%d0%be-%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24862",
+      "sourceTaxonomyId": "24862",
+      "name": "свежей мяты",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%bc%d1%8f%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1022",
+      "sourceTaxonomyId": "1022",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2262",
+      "sourceTaxonomyId": "2262",
+      "name": "ванили",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2534",
+      "sourceTaxonomyId": "2534",
+      "name": "свежей мяты",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%bc%d1%8f%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7314",
+      "sourceTaxonomyId": "7314",
+      "name": "тертого черного шоколада",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d0%be%d0%b3%d0%be-%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17289",
+      "sourceTaxonomyId": "17289",
+      "name": "груши",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1256",
+      "sourceTaxonomyId": "1256",
+      "name": "черный шоколад",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2195",
+      "sourceTaxonomyId": "2195",
+      "name": "десерт в стаканчике",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3482",
+      "sourceTaxonomyId": "3482",
+      "name": "без яиц",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5775",
+      "sourceTaxonomyId": "5775",
+      "name": "элегантно",
+      "slug": "%d1%8d%d0%bb%d0%b5%d0%b3%d0%b0%d0%bd%d1%82%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7304",
+      "sourceTaxonomyId": "7304",
+      "name": "груши",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8263",
+      "sourceTaxonomyId": "8263",
+      "name": "груша-шоколад",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b0-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26631",
+      "sourceTaxonomyId": "26631",
+      "name": "belle helene",
+      "slug": "belle-helene-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26634",
+      "sourceTaxonomyId": "26634",
+      "name": "прекрасная елена",
+      "slug": "%d0%bf%d1%80%d0%b5%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d0%b0%d1%8f-%d0%b5%d0%bb%d0%b5%d0%bd%d0%b0-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 порций",
+      "value": 8,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "31",
+        "minutes": 31
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18405",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 груши",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "груши",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "750 мл воды",
+            "quantity": {
+              "raw": "750 мл",
+              "value": 750,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "воды",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 ст.л. сахара",
+            "quantity": {
+              "raw": "3 ст.л.",
+              "value": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 стручок ванили",
+            "quantity": {
+              "raw": "1 стручок",
+              "value": 1,
+              "unit": "стручок",
+              "scalable": true
+            },
+            "name": "ванили",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "50 г тертого черного шоколада",
+            "quantity": {
+              "raw": "50 г",
+              "value": 50,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "тертого черного шоколада",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 листочка свежей мяты (для украшения)",
+            "quantity": {
+              "raw": "4 листочка",
+              "value": 4,
+              "unit": "листочка",
+              "scalable": true
+            },
+            "name": "свежей мяты",
+            "notes": "(для украшения)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Груши почистить.",
+            "mediaId": "wordpress-attachment:18399"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Разрезать на 2 половинки и удалить сердцевину.",
+            "mediaId": "wordpress-attachment:18401"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "В кастрюлю налить воду, добавить сахар и стручок ванили, разрезанный в длину. Довести до кипения.",
+            "mediaId": "wordpress-attachment:18400"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Опустить подготовленные груши. Варить 10-15 минут (в зависимости от сорта и твердости). Груши должны стать мягкими, но не разваливаться. Снять кастрюлю с огня и полностью охладить.",
+            "mediaId": "wordpress-attachment:18402"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Выловить груши из сиропа и положить на бумажное полотенце, чтобы удалить лишнюю жидкость. Положить на каждую тарелку половинку груши.",
+            "mediaId": "wordpress-attachment:18403"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Посыпать тертым шоколадом и украсить мятой.",
+            "mediaId": "wordpress-attachment:18404"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Можно подать в стаканчиках.",
+            "mediaId": "wordpress-attachment:18405"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18405",
+      "sourceId": "18405",
+      "path": "/recipes/media/wordpress/18405.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18399",
+      "sourceId": "18399",
+      "path": "/recipes/media/wordpress/18399.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18401",
+      "sourceId": "18401",
+      "path": "/recipes/media/wordpress/18401.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18400",
+      "sourceId": "18400",
+      "path": "/recipes/media/wordpress/18400.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18402",
+      "sourceId": "18402",
+      "path": "/recipes/media/wordpress/18402.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18403",
+      "sourceId": "18403",
+      "path": "/recipes/media/wordpress/18403.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18404",
+      "sourceId": "18404",
+      "path": "/recipes/media/wordpress/18404.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22052",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:17177",
+  "slug": "veloute-de-courgettes",
+  "source": {
+    "system": "wordpress",
+    "postId": "22052",
+    "recipeId": "22052",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-veloute-de-courgettes",
+    "createdAt": "2024-03-09T05:07:00+00:00",
+    "modifiedAt": "2024-03-10T07:10:54+00:00",
+    "editorialPostId": "17965",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "veloute-de-courgettes",
+    "editorialCreatedAt": "2024-03-09T05:07:00+00:00",
+    "editorialModifiedAt": "2024-03-10T07:10:51+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Velouté de courgettes",
+  "description": "Si vous aimez les cubes de bouillon Maggi, ajoutez un cube dans la soupe pendant la cuisson. Dans ce cas, il ne faut pas ajouter le sel, le poivre et les herbes séchées.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Un délicieux velouté de courgettes. Très facile à préparer, cette crèmeuse soupe contient seulement 3 ingrédients principaux : les courgettes, l'oignon et le lait.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>C'est toujours meilleur en été pendant la saison des courgettes mais vous pouvez en trouver toute l'année. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22052,\"template\":\"chic-template-french\",\"updated\":1710054292049} -->\n<!--WPRM Recipe 22052-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Velouté de courgettes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0349.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tSi vous aimez les cubes de bouillon Maggi, ajoutez un cube dans la soupe pendant la cuisson. Dans ce cas, il ne faut pas ajouter le sel, le poivre et les herbes séchées.\r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 kg de courgettes</li><li>3 oignons</li><li>3 gousses d'ail</li><li>3-4 cuillères à soupe d'huile d'olive</li><li>Sel et poivre du moulin</li><li>300 ml d'eau</li><li>300 ml de lait</li><li>100 ml de crème liquide</li><li>1 cuillère à café d'herbes de Provence</li><li>Quelques pincées de paprika (pour la décoration)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Éplucher et couper les oignons.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0320.Blog_-150x150.png\"/><br /></li><li>Éplucher et couper l'ail.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0322.Blog_-150x150.png\"/><br /></li><li>Couper les courgettes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0327.Blog_-150x150.png\"/><br /></li><li>Dans une marmite, faire chauffer l'huile d'olive et y faire revenir les oignons et l'ail, en remuant régulièrement.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0321.Blog_-150x150.png\"/><br /></li><li>Ajouter les courgettes, mélanger et continuer de faire revenir encore pendant environ 5 minutes. Saler et poivrer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0329.Blog_-150x150.png\"/><br /></li><li>Ajouter l'eau, le lait et la crème liquide.  Le niveau d'eau doit couvrir complètement les légumes. Ajouter les herbes de Provence. Porter à ébullition puis réduire le feu et laisser cuire à feu doux pendant environ 20 minutes. Retirer la casserole du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0331.Blog_-150x150.png\"/><br /></li><li>A l'aide d'un mixeur plongeant, mixer jusqu’à obtenir un velouté. Si la soupe est trop épaisse, ajouter un peu de lait ou de crème pour obtenir une consistance parfaite. Porter de nouveau à ébullition et retirer du feu. Goûter la soupe et rectifier l'assaisonnement.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0333.Blog_-150x150.png\"/><br /></li><li>Servir la soupe dans des assiettes. Saupoudrer de paprika et décorer avec des herbes aromatiques.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0348-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soupes</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24523",
+      "sourceTaxonomyId": "24523",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24477",
+      "sourceTaxonomyId": "24477",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24524",
+      "sourceTaxonomyId": "24524",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24589",
+      "sourceTaxonomyId": "24589",
+      "name": "de crème liquide",
+      "slug": "de-creme-liquide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24603",
+      "sourceTaxonomyId": "24603",
+      "name": "oignons",
+      "slug": "oignons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24624",
+      "sourceTaxonomyId": "24624",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24696",
+      "sourceTaxonomyId": "24696",
+      "name": "de courgettes",
+      "slug": "de-courgettes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "98",
+      "sourceTaxonomyId": "98",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1562",
+      "sourceTaxonomyId": "1562",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "372",
+      "sourceTaxonomyId": "372",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "374",
+      "sourceTaxonomyId": "374",
+      "name": "de crème liquide",
+      "slug": "de-creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "770",
+      "sourceTaxonomyId": "770",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2584",
+      "sourceTaxonomyId": "2584",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6523",
+      "sourceTaxonomyId": "6523",
+      "name": "oignons",
+      "slug": "oignons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17187",
+      "sourceTaxonomyId": "17187",
+      "name": "de courgettes",
+      "slug": "de-courgettes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2858",
+      "sourceTaxonomyId": "2858",
+      "name": "veloute",
+      "slug": "veloute"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6065",
+      "sourceTaxonomyId": "6065",
+      "name": "fait maison",
+      "slug": "fait-maison"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26233",
+      "sourceTaxonomyId": "26233",
+      "name": "courgette",
+      "slug": "courgette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26653",
+      "sourceTaxonomyId": "26653",
+      "name": "soupe puree",
+      "slug": "soupe-puree-2"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17923",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 kg de courgettes",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "de courgettes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 oignons",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignons",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 gousses d'ail",
+            "quantity": {
+              "raw": "3 gousses",
+              "value": 3,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3-4 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "3-4 cuillères à soupe",
+              "min": 3,
+              "max": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "300 ml d'eau",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "300 ml de lait",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "100 ml de crème liquide",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 cuillère à café d'herbes de Provence",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "d'herbes de Provence",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Quelques pincées de paprika pour la décoration",
+            "quantity": {
+              "raw": "Quelques pincées",
+              "unit": "pincées",
+              "scalable": false
+            },
+            "name": "de paprika",
+            "notes": "pour la décoration"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Éplucher et couper les oignons.",
+            "mediaId": "wordpress-attachment:17915"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Éplucher et couper l'ail.",
+            "mediaId": "wordpress-attachment:17917"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper les courgettes.",
+            "mediaId": "wordpress-attachment:17918"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Dans une marmite, faire chauffer l'huile d'olive et y faire revenir les oignons et l'ail, en remuant régulièrement.",
+            "mediaId": "wordpress-attachment:17916"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter les courgettes, mélanger et continuer de faire revenir encore pendant environ 5 minutes. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:17919"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Ajouter l'eau, le lait et la crème liquide. Le niveau d'eau doit couvrir complètement les légumes. Ajouter les herbes de Provence. Porter à ébullition puis réduire le feu et laisser cuire à feu doux pendant environ 20 minutes. Retirer la casserole du feu.",
+            "mediaId": "wordpress-attachment:17920"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "A l'aide d'un mixeur plongeant, mixer jusqu’à obtenir un velouté. Si la soupe est trop épaisse, ajouter un peu de lait ou de crème pour obtenir une consistance parfaite. Porter de nouveau à ébullition et retirer du feu. Goûter la soupe et rectifier l'assaisonnement.",
+            "mediaId": "wordpress-attachment:17921"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Servir la soupe dans des assiettes. Saupoudrer de paprika et décorer avec des herbes aromatiques.",
+            "mediaId": "wordpress-attachment:17922"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17923",
+      "sourceId": "17923",
+      "path": "/recipes/media/wordpress/17923.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17915",
+      "sourceId": "17915",
+      "path": "/recipes/media/wordpress/17915.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17917",
+      "sourceId": "17917",
+      "path": "/recipes/media/wordpress/17917.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17918",
+      "sourceId": "17918",
+      "path": "/recipes/media/wordpress/17918.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17916",
+      "sourceId": "17916",
+      "path": "/recipes/media/wordpress/17916.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17919",
+      "sourceId": "17919",
+      "path": "/recipes/media/wordpress/17919.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17920",
+      "sourceId": "17920",
+      "path": "/recipes/media/wordpress/17920.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17921",
+      "sourceId": "17921",
+      "path": "/recipes/media/wordpress/17921.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17922",
+      "sourceId": "17922",
+      "path": "/recipes/media/wordpress/17922.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

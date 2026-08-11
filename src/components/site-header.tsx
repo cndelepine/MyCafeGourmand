@@ -1,17 +1,19 @@
 import Link from "next/link";
-import type { Locale, RecipeRecord } from "@/content/schema";
+import type { Locale } from "@/content/schema";
 import {
   getLocaleHomePath,
-  getRecipePath,
-  getRecipeTranslations,
   supportedLocales
 } from "@/lib/recipe-routes";
 
+export type SiteHeaderTranslation = {
+  readonly locale: Locale;
+  readonly path: string;
+};
+
 type SiteHeaderProps = {
-  catalog?: readonly RecipeRecord[];
   locale: Locale;
   page: "landing" | "recipe";
-  recipe?: RecipeRecord;
+  translations?: readonly SiteHeaderTranslation[];
 };
 
 const localeLabels: Record<Locale, string> = {
@@ -54,16 +56,11 @@ const navigationLabels: Record<Locale, {
   }
 };
 
-export function SiteHeader({ catalog, locale, page, recipe }: SiteHeaderProps) {
+export function SiteHeader({ locale, page, translations }: SiteHeaderProps) {
   const labels = navigationLabels[locale];
-  const translations = recipe && catalog
-    ? new Map(
-        getRecipeTranslations(recipe, catalog).map((translation) => [
-          translation.locale,
-          translation
-        ])
-      )
-    : undefined;
+  const translationsByLocale = translations === undefined
+    ? undefined
+    : new Map(translations.map((translation) => [translation.locale, translation.path]));
 
   return (
     <header className="site-header" lang={locale}>
@@ -83,12 +80,10 @@ export function SiteHeader({ catalog, locale, page, recipe }: SiteHeaderProps) {
       </nav>
       <div className="languages" aria-label={labels.languages}>
         {supportedLocales.map((candidate) => {
-          const translation = translations?.get(candidate);
-          const href = recipe
-            ? translation
-              ? getRecipePath(translation)
-              : undefined
-            : getLocaleHomePath(candidate);
+          const translation = translationsByLocale?.get(candidate);
+          const href = translations === undefined
+            ? getLocaleHomePath(candidate)
+            : translation;
 
           return href ? (
             <Link

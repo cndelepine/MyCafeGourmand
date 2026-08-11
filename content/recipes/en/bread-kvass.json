@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21494",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6601",
+  "slug": "bread-kvass",
+  "source": {
+    "system": "wordpress",
+    "postId": "21494",
+    "recipeId": "21494",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-bread-kvass",
+    "createdAt": "2018-08-04T06:03:09+00:00",
+    "modifiedAt": "2022-07-30T19:18:37+00:00",
+    "editorialPostId": "12002",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "bread-kvass",
+    "editorialCreatedAt": "2018-08-04T06:03:09+00:00",
+    "editorialModifiedAt": "2022-07-30T19:18:34+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Bread Kvass",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>A <span class=\"st\">traditional Russian b</span>read kvass is a fermented and carbonated beverage in which the main components are Rye bread, yeast, sugar, water and raisins. In Russia kvass is used in some cold recipes such as <a href=\"https://mycafegourmand.com/recipe/okroshka-cold-slavic-soup\">okroshka</a>. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21494,\"template\":\"chic-template-english\",\"updated\":1659208708626} -->\n<!--WPRM Recipe 21494-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Bread Kvass</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38521655_10212892661013678_9176036480731054080_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 l boiled water (room temperature)</li><li>1 cup sugar</li><li>2 Tbsp active dry yeast</li><li>10 slices Rye bread</li><li>3 Tbsp raisins (optional)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Slice Rye bread.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38435729_10212888727075332_9070111802548813824_n.Blog_-150x150.png\"/><br /></li><li>Position a rack in the upper third of an oven and preheat the broiler. Arrange bread slices on a baking sheet. Broil the slices until dark brown, turning them over only once, about 3-4 minutes per side.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38017344_10212888730595420_2947307052159991808_n.Blog_-150x150.png\"/><br /></li><li>In a large bowl, mix together active dry yeast, sugar and water. Place bread and raisins in 3 Mason jars and fill the jars with water.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38405409_10212888733955504_1625597928435351552_n.Blog_-150x150.png\"/><br /></li><li>Cover the jars with lid or plastic wrap and let it stand on the countertop for 6-8 hours at room temperature, stir the mixture occasionally. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38294465_10212888739155634_3533455266408300544_n.Blog_-150x150.png\"/><br /></li><li>Carefully remove the toasted bread and raisins and discard them. Using a strainer pour the kvass into empty jars or plastic containers and place in the refrigerator overnight.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/39134993_1761136857318039_1995124807070384128_n.Blog_-150x150.png\"/><br /></li><li>Serve chilled and ENJOY!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38411869_10212892702134706_4819166336489881600_nc2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Drinks</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23539",
+      "sourceTaxonomyId": "23539",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24136",
+      "sourceTaxonomyId": "24136",
+      "name": "active dry yeast",
+      "slug": "active-dry-yeast"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24223",
+      "sourceTaxonomyId": "24223",
+      "name": "raisins",
+      "slug": "raisins"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24334",
+      "sourceTaxonomyId": "24334",
+      "name": "boiled water",
+      "slug": "boiled-water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24335",
+      "sourceTaxonomyId": "24335",
+      "name": "Rye bread",
+      "slug": "rye-bread"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "112",
+      "sourceTaxonomyId": "112",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1694",
+      "sourceTaxonomyId": "1694",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6589",
+      "sourceTaxonomyId": "6589",
+      "name": "active dry yeast",
+      "slug": "active-dry-yeast"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6591",
+      "sourceTaxonomyId": "6591",
+      "name": "Rye bread",
+      "slug": "rye-bread"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6593",
+      "sourceTaxonomyId": "6593",
+      "name": "raisins",
+      "slug": "raisins"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6595",
+      "sourceTaxonomyId": "6595",
+      "name": "boiled water",
+      "slug": "boiled-water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1698",
+      "sourceTaxonomyId": "1698",
+      "name": "non alcoholic",
+      "slug": "non-alcoholic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6473",
+      "sourceTaxonomyId": "6473",
+      "name": "russian summer drink",
+      "slug": "russian-summer-drink"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6533",
+      "sourceTaxonomyId": "6533",
+      "name": "квас",
+      "slug": "%d0%ba%d0%b2%d0%b0%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6537",
+      "sourceTaxonomyId": "6537",
+      "name": "хлібний квас",
+      "slug": "%d1%85%d0%bb%d1%96%d0%b1%d0%bd%d0%b8%d0%b9-%d0%ba%d0%b2%d0%b0%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6539",
+      "sourceTaxonomyId": "6539",
+      "name": "bread kvass",
+      "slug": "bread-kvass"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6545",
+      "sourceTaxonomyId": "6545",
+      "name": "kvas",
+      "slug": "kvas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6547",
+      "sourceTaxonomyId": "6547",
+      "name": "living beverage",
+      "slug": "living-beverage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6888",
+      "sourceTaxonomyId": "6888",
+      "name": "summertime",
+      "slug": "summertime"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6890",
+      "sourceTaxonomyId": "6890",
+      "name": "traditional Slavic and Baltic",
+      "slug": "traditional-slavic-and-baltic"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "12 servings",
+      "value": 12,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "6",
+        "minutes": 6
+      },
+      "rest": null,
+      "total": {
+        "raw": "861",
+        "minutes": 861
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12047",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 l boiled water room temperature",
+            "quantity": {
+              "raw": "3 l",
+              "value": 3,
+              "unit": "l",
+              "scalable": true
+            },
+            "name": "boiled water",
+            "notes": "room temperature"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cup sugar",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 Tbsp active dry yeast",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "active dry yeast",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "10 slices Rye bread",
+            "quantity": {
+              "raw": "10 slices",
+              "value": 10,
+              "unit": "slices",
+              "scalable": true
+            },
+            "name": "Rye bread",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 Tbsp raisins optional",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "raisins",
+            "notes": "optional"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Slice Rye bread.",
+            "mediaId": "wordpress-attachment:12046"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Position a rack in the upper third of an oven and preheat the broiler. Arrange bread slices on a baking sheet. Broil the slices until dark brown, turning them over only once, about 3-4 minutes per side.",
+            "mediaId": "wordpress-attachment:12042"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "In a large bowl, mix together active dry yeast, sugar and water. Place bread and raisins in 3 Mason jars and fill the jars with water.",
+            "mediaId": "wordpress-attachment:12045"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Cover the jars with lid or plastic wrap and let it stand on the countertop for 6-8 hours at room temperature, stir the mixture occasionally.",
+            "mediaId": "wordpress-attachment:12043"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Carefully remove the toasted bread and raisins and discard them. Using a strainer pour the kvass into empty jars or plastic containers and place in the refrigerator overnight.",
+            "mediaId": "wordpress-attachment:12302"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Serve chilled and ENJOY!",
+            "mediaId": "wordpress-attachment:12048"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12047",
+      "sourceId": "12047",
+      "path": "/recipes/media/wordpress/12047.png",
+      "alt": null,
+      "width": 800,
+      "height": 784
+    },
+    {
+      "id": "wordpress-attachment:12046",
+      "sourceId": "12046",
+      "path": "/recipes/media/wordpress/12046.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:12042",
+      "sourceId": "12042",
+      "path": "/recipes/media/wordpress/12042.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12045",
+      "sourceId": "12045",
+      "path": "/recipes/media/wordpress/12045.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12043",
+      "sourceId": "12043",
+      "path": "/recipes/media/wordpress/12043.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12302",
+      "sourceId": "12302",
+      "path": "/recipes/media/wordpress/12302.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:12048",
+      "sourceId": "12048",
+      "path": "/recipes/media/wordpress/12048.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

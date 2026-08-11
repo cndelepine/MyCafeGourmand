@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21761",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2388",
+  "slug": "salade-aux-oeufs-et-oignons-verts",
+  "source": {
+    "system": "wordpress",
+    "postId": "21761",
+    "recipeId": "21761",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-aux-oeufs-et-oignons-verts",
+    "createdAt": "2018-03-31T03:21:00+00:00",
+    "modifiedAt": "2024-06-24T12:50:40+00:00",
+    "editorialPostId": "4527",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-aux-oeufs-et-oignons-verts",
+    "editorialCreatedAt": "2018-03-31T03:21:00+00:00",
+    "editorialModifiedAt": "2024-06-24T12:50:37+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Salade aux œufs et oignons verts",
+  "description": "N'oubliez pas de plonger les œufs cuits dans l'eau glacée pour les refroidir. Ainsi ils vont s'écaler plus facilement.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La salade aux œufs et oignons verts est très populaire en <span id=\":184.56\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Russi</span>e. Je l'aime avec de la mayonnaise mais on peut la remplacer par la crème fraîche épaisse.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21761,\"template\":\"chic-template-french\",\"updated\":1719233417796} -->\n<!--WPRM Recipe 21761-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade aux œufs et oignons verts</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_4247.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tN'oubliez pas de plonger les œufs cuits dans l'eau glacée pour les refroidir. Ainsi ils vont s'écaler plus facilement.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 œufs durs</li><li>1/3 botte d'oignon vert (ciboule) (finement ciselé)</li><li>3 cuillères à soupe de mayonnaise</li><li>Sel et poivre du moulin</li><li>1 pincée de paprika ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Écaler et couper les œufs durs en cubes. Dans un saladier, mélanger délicatement les œufs,  les oignons et la mayonnaise. Saler et poivrer. Saupoudrer avec le paprika.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_4247-3.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24477",
+      "sourceTaxonomyId": "24477",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24500",
+      "sourceTaxonomyId": "24500",
+      "name": "œufs durs",
+      "slug": "oeufs-durs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24501",
+      "sourceTaxonomyId": "24501",
+      "name": "d'oignon vert (ciboule)",
+      "slug": "doignon-vert-ciboule"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1188",
+      "sourceTaxonomyId": "1188",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "535",
+      "sourceTaxonomyId": "535",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "770",
+      "sourceTaxonomyId": "770",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2399",
+      "sourceTaxonomyId": "2399",
+      "name": "œufs durs",
+      "slug": "oeufs-durs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2403",
+      "sourceTaxonomyId": "2403",
+      "name": "d'oignon vert (ciboule)",
+      "slug": "doignon-vert-ciboule"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1212",
+      "sourceTaxonomyId": "1212",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2389",
+      "sourceTaxonomyId": "2389",
+      "name": "oignon vert",
+      "slug": "oignon-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2391",
+      "sourceTaxonomyId": "2391",
+      "name": "ciboule",
+      "slug": "ciboule"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6852",
+      "sourceTaxonomyId": "6852",
+      "name": "cuisine russe",
+      "slug": "cuisine-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8083",
+      "sourceTaxonomyId": "8083",
+      "name": "quoi faire avec blanc d'oeuf qui reste",
+      "slug": "quoi-faire-avec-blanc-doeuf-qui-reste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26665",
+      "sourceTaxonomyId": "26665",
+      "name": "quoi faire avec les oeufs apres",
+      "slug": "quoi-faire-avec-les-oeufs-apres"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "3 personnes",
+      "value": 3,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:4121",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 œufs durs",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs durs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/3 botte d'oignon vert (ciboule) finement ciselé",
+            "quantity": {
+              "raw": "1/3 botte",
+              "value": 0.3333333333333333,
+              "unit": "botte",
+              "scalable": true
+            },
+            "name": "d'oignon vert (ciboule)",
+            "notes": "finement ciselé"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 cuillères à soupe de mayonnaise",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 pincée de paprika (facultatif)",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de paprika",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Écaler et couper les œufs durs en cubes. Dans un saladier, mélanger délicatement les œufs, les oignons et la mayonnaise. Saler et poivrer. Saupoudrer avec le paprika.",
+            "mediaId": "wordpress-attachment:4560"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4121",
+      "sourceId": "4121",
+      "path": "/recipes/media/wordpress/4121.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4560",
+      "sourceId": "4560",
+      "path": "/recipes/media/wordpress/4560.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

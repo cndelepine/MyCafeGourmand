@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22197",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:12357",
+  "slug": "mignardises-a-la-vanille",
+  "source": {
+    "system": "wordpress",
+    "postId": "22197",
+    "recipeId": "22197",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-mignardises-a-la-vanille",
+    "createdAt": "2019-02-08T07:37:40+00:00",
+    "modifiedAt": "2022-07-04T20:43:20+00:00",
+    "editorialPostId": "9480",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "mignardises-a-la-vanille",
+    "editorialCreatedAt": "2019-02-08T07:37:40+00:00",
+    "editorialModifiedAt": "2022-07-04T20:43:16+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Mignardises à la vanille",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Vous avez utilisé les blancs d’œufs et ne savez pas quoi faire avec les jaunes ? Si vous avez des petits moules en silicone, vous pouvez&nbsp;préparer ces mignardises à la vanille et épater la famille et les amis. La recette ressemble à la crème brûlée mais vous n'avez pas besoin de chalumeau. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22197,\"template\":\"chic-template-french\",\"updated\":1656967389291} -->\n<!--WPRM Recipe 22197-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Mignardises à la vanille</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7227.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 jaunes d'œufs</li><li>6 cuillères à soupe de sucre en poudre</li><li>1/2 gousse de la vanille</li><li>480 ml de crème liquide entière</li><li>1/2 barquette de framboises</li><li>Quelques feuilles de menthe</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 110°C (thermostat 4). Avec un fouet, blanchir les jaunes d'œufs avec le sucre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_8012.Blog_-150x150.png\"/><br /></li><li>Couper la gousse de la vanille dans le sens de la longueur. Avec la pointe d'un couteau, enlever les graines et les ajouter dans le mélange d'œufs et de sucre. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_8013.Blog_-150x150.png\"/><br /></li><li>Ajouter la crème et bien mélanger le tout au fouet.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_8015.Blog_-150x150.png\"/><br /></li><li>Verser la préparation dans des moules en silicone à travers d'une passoire.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_8937.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four à 110°C, pendant 45-55 minutes, au four au bain-marie. Pour cela placer les moules remplis dans un grand plat allant au four et y verser de l'eau. Le niveau d'eau doit atteindre la moitié des moules.  Le temps de cuisson dépend de la taille de vos moules. La crème est cuite quand la surface ne tremble presque pas lorsqu'on secoue le moule.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_8938.Blog_-150x150.png\"/><br /></li><li>Sortir les moules du four et laisser refroidir. Puis couvrir avec un film plastique et placer au congélateur pour une nuit. \r\n</li><li>Au moment de servir, démouler la crème congelée. Placer chaque petite crème à l'envers sur une assiette de service.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_9302-2.Blog_-150x150.png\"/><br /></li><li>Attendre un peu pour que le dessert décongèle. Décorer avec les framboises et les feuilles de menthe ciselées.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7223.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24578",
+      "sourceTaxonomyId": "24578",
+      "name": "jaunes d'œufs",
+      "slug": "jaunes-doeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24584",
+      "sourceTaxonomyId": "24584",
+      "name": "de framboises",
+      "slug": "de-framboises"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24672",
+      "sourceTaxonomyId": "24672",
+      "name": "de menthe",
+      "slug": "de-menthe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24776",
+      "sourceTaxonomyId": "24776",
+      "name": "de la vanille",
+      "slug": "de-la-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "378",
+      "sourceTaxonomyId": "378",
+      "name": "jaunes d'œufs",
+      "slug": "jaunes-doeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "707",
+      "sourceTaxonomyId": "707",
+      "name": "de framboises",
+      "slug": "de-framboises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2565",
+      "sourceTaxonomyId": "2565",
+      "name": "de menthe",
+      "slug": "de-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12047",
+      "sourceTaxonomyId": "12047",
+      "name": "de la vanille",
+      "slug": "de-la-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2212",
+      "sourceTaxonomyId": "2212",
+      "name": "creme liquide entiere",
+      "slug": "creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2346",
+      "sourceTaxonomyId": "2346",
+      "name": "gousse de vanille",
+      "slug": "gousse-de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3041",
+      "sourceTaxonomyId": "3041",
+      "name": "jaune d'oeuf",
+      "slug": "jaune-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3045",
+      "sourceTaxonomyId": "3045",
+      "name": "creme brulее",
+      "slug": "creme-brul%d0%b5%d0%b5-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4518",
+      "sourceTaxonomyId": "4518",
+      "name": "moule en silicone",
+      "slug": "moule-en-silicone"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4520",
+      "sourceTaxonomyId": "4520",
+      "name": "elegant",
+      "slug": "elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4522",
+      "sourceTaxonomyId": "4522",
+      "name": "raffine",
+      "slug": "raffine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5800",
+      "sourceTaxonomyId": "5800",
+      "name": "cocktail dinatoire",
+      "slug": "cocktail-dinatoire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8079",
+      "sourceTaxonomyId": "8079",
+      "name": "bouche sucre",
+      "slug": "bouche-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "30 bouches",
+      "value": 30,
+      "unit": "bouches",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "66",
+        "minutes": 66
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:14995",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 jaunes d'œufs",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jaunes d'œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "6 cuillères à soupe de sucre en poudre",
+            "quantity": {
+              "raw": "6 cuillères à soupe",
+              "value": 6,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 gousse de la vanille",
+            "quantity": {
+              "raw": "1/2 gousse",
+              "value": 0.5,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "de la vanille",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "480 ml de crème liquide entière",
+            "quantity": {
+              "raw": "480 ml",
+              "value": 480,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 barquette de framboises",
+            "quantity": {
+              "raw": "1/2 barquette",
+              "value": 0.5,
+              "unit": "barquette",
+              "scalable": true
+            },
+            "name": "de framboises",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Quelques feuilles de menthe",
+            "quantity": {
+              "raw": "Quelques feuilles",
+              "unit": "feuilles",
+              "scalable": false
+            },
+            "name": "de menthe",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 110°C (thermostat 4). Avec un fouet, blanchir les jaunes d'œufs avec le sucre.",
+            "mediaId": "wordpress-attachment:15031"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper la gousse de la vanille dans le sens de la longueur. Avec la pointe d'un couteau, enlever les graines et les ajouter dans le mélange d'œufs et de sucre.",
+            "mediaId": "wordpress-attachment:15032"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter la crème et bien mélanger le tout au fouet.",
+            "mediaId": "wordpress-attachment:15030"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Verser la préparation dans des moules en silicone à travers d'une passoire.",
+            "mediaId": "wordpress-attachment:15027"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Faire cuire au four à 110°C, pendant 45-55 minutes, au four au bain-marie. Pour cela placer les moules remplis dans un grand plat allant au four et y verser de l'eau. Le niveau d'eau doit atteindre la moitié des moules. Le temps de cuisson dépend de la taille de vos moules. La crème est cuite quand la surface ne tremble presque pas lorsqu'on secoue le moule.",
+            "mediaId": "wordpress-attachment:15028"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Sortir les moules du four et laisser refroidir. Puis couvrir avec un film plastique et placer au congélateur pour une nuit.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Au moment de servir, démouler la crème congelée. Placer chaque petite crème à l'envers sur une assiette de service.",
+            "mediaId": "wordpress-attachment:15029"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Attendre un peu pour que le dessert décongèle. Décorer avec les framboises et les feuilles de menthe ciselées.",
+            "mediaId": "wordpress-attachment:15043"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:14995",
+      "sourceId": "14995",
+      "path": "/recipes/media/wordpress/14995.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:15031",
+      "sourceId": "15031",
+      "path": "/recipes/media/wordpress/15031.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15032",
+      "sourceId": "15032",
+      "path": "/recipes/media/wordpress/15032.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15030",
+      "sourceId": "15030",
+      "path": "/recipes/media/wordpress/15030.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15027",
+      "sourceId": "15027",
+      "path": "/recipes/media/wordpress/15027.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15028",
+      "sourceId": "15028",
+      "path": "/recipes/media/wordpress/15028.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15029",
+      "sourceId": "15029",
+      "path": "/recipes/media/wordpress/15029.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15043",
+      "sourceId": "15043",
+      "path": "/recipes/media/wordpress/15043.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21905",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:17292",
+  "slug": "poire-pochee",
+  "source": {
+    "system": "wordpress",
+    "postId": "21905",
+    "recipeId": "21905",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-poire-pochee",
+    "createdAt": "2025-08-15T17:49:00+00:00",
+    "modifiedAt": "2025-08-15T22:02:03+00:00",
+    "editorialPostId": "18451",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "poire-pochee",
+    "editorialCreatedAt": "2025-08-15T17:49:00+00:00",
+    "editorialModifiedAt": "2025-08-15T22:01:53+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Poire pochée",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les poires sont pochées avec une gousse de vanille et un  peu de sucre. Puis elles sont refroidies et saupoudrées de chocolat râpé. Une recette hyper facile à réaliser. Mais cette présentation élégante conviendra pour une table de fête.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21905,\"template\":\"chic-template-french\",\"updated\":1730516734846} -->\n<!--WPRM Recipe 21905-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Poire pochée</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3640-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 grosses poires (fermes)</li><li>750 ml d'eau</li><li>3 cuillères à soupe de sucre en poudre</li><li>1 gousse de vanille (fendue en deux dans sa longueur )</li><li>50 g de chocolat noir râpé</li><li>Quelques feuilles de menthe ((détaillé en feuilles))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Éplucher les poires.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3622.Blog_-150x150.png\"/><br /></li><li>Couper en deux et enlever le cœur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3628.Blog_-150x150.png\"/><br /></li><li>Dans une casserole, mélanger l'eau et le sucre. Ajouter la gousse de vanille. Porter à ébullition.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3623-2.Blog_-150x150.png\"/><br /></li><li>Y plonger les poires. Laisser cuire 10 à 15 minutes, jusqu'à ce que la chair des poires soit tendre. Couper le feu et laisser refroidir dans le sirop.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3630.Blog_-150x150.png\"/><br /></li><li>Puis égoutter les poires. Placer chaque moitié de poire sur une assiette. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3634.Blog_-150x150.png\"/><br /></li><li>Saupoudrer de chocolat et décorer avec les feuilles de menthe. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3635-3.Blog_-150x150.png\"/><br /></li><li>Vous pouvez aussi servir ce dessert dans des coupes ou des verres.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_3640-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24599",
+      "sourceTaxonomyId": "24599",
+      "name": "grosses poires (fermes)",
+      "slug": "grosses-poires-fermes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24600",
+      "sourceTaxonomyId": "24600",
+      "name": "de vanille",
+      "slug": "de-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24601",
+      "sourceTaxonomyId": "24601",
+      "name": "de chocolat noir râpé",
+      "slug": "de-chocolat-noir-rape"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24602",
+      "sourceTaxonomyId": "24602",
+      "name": "feuilles de menthe",
+      "slug": "feuilles-de-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25346",
+      "sourceTaxonomyId": "25346",
+      "name": "Desserts",
+      "slug": "desserts-fr-sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2356",
+      "sourceTaxonomyId": "2356",
+      "name": "de vanille",
+      "slug": "de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17300",
+      "sourceTaxonomyId": "17300",
+      "name": "grosses poires (fermes)",
+      "slug": "grosses-poires-fermes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17302",
+      "sourceTaxonomyId": "17302",
+      "name": "de chocolat noir râpé",
+      "slug": "de-chocolat-noir-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17307",
+      "sourceTaxonomyId": "17307",
+      "name": "feuilles de menthe",
+      "slug": "feuilles-de-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1248",
+      "sourceTaxonomyId": "1248",
+      "name": "verrine",
+      "slug": "verrine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3477",
+      "sourceTaxonomyId": "3477",
+      "name": "sans oeuf",
+      "slug": "sans-oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26637",
+      "sourceTaxonomyId": "26637",
+      "name": "poire",
+      "slug": "poire"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "31",
+        "minutes": 31
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18405",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 grosses poires (fermes)",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "grosses poires (fermes)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "750 ml d'eau",
+            "quantity": {
+              "raw": "750 ml",
+              "value": 750,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 cuillères à soupe de sucre en poudre",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 gousse de vanille fendue en deux dans sa longueur",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "de vanille",
+            "notes": "fendue en deux dans sa longueur"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "50 g de chocolat noir râpé",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir râpé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Quelques feuilles de menthe (détaillé en feuilles)",
+            "quantity": {
+              "raw": "Quelques",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "feuilles de menthe",
+            "notes": "(détaillé en feuilles)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Éplucher les poires.",
+            "mediaId": "wordpress-attachment:18399"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper en deux et enlever le cœur.",
+            "mediaId": "wordpress-attachment:18401"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans une casserole, mélanger l'eau et le sucre. Ajouter la gousse de vanille. Porter à ébullition.",
+            "mediaId": "wordpress-attachment:18400"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Y plonger les poires. Laisser cuire 10 à 15 minutes, jusqu'à ce que la chair des poires soit tendre. Couper le feu et laisser refroidir dans le sirop.",
+            "mediaId": "wordpress-attachment:18402"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Puis égoutter les poires. Placer chaque moitié de poire sur une assiette.",
+            "mediaId": "wordpress-attachment:18403"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Saupoudrer de chocolat et décorer avec les feuilles de menthe.",
+            "mediaId": "wordpress-attachment:18404"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Vous pouvez aussi servir ce dessert dans des coupes ou des verres.",
+            "mediaId": "wordpress-attachment:18405"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18405",
+      "sourceId": "18405",
+      "path": "/recipes/media/wordpress/18405.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18399",
+      "sourceId": "18399",
+      "path": "/recipes/media/wordpress/18399.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18401",
+      "sourceId": "18401",
+      "path": "/recipes/media/wordpress/18401.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18400",
+      "sourceId": "18400",
+      "path": "/recipes/media/wordpress/18400.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18402",
+      "sourceId": "18402",
+      "path": "/recipes/media/wordpress/18402.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18403",
+      "sourceId": "18403",
+      "path": "/recipes/media/wordpress/18403.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18404",
+      "sourceId": "18404",
+      "path": "/recipes/media/wordpress/18404.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

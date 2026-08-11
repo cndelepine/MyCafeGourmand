@@ -7,6 +7,7 @@ import {
   supportedLocales
 } from "@/lib/recipe-routes";
 import { absoluteUrl, canonicalUrl } from "@/lib/site";
+import { resolveRecipeMediaUrl } from "@/lib/recipe-media";
 
 export const dynamic = "force-static";
 
@@ -39,7 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           ])
         )
       },
-      ...(hero ? { images: [absoluteUrl(hero.path)] } : {})
+      ...(hero ? { images: [absoluteUrl(resolveRecipeMediaUrl(hero.path))] } : {})
     };
   });
 

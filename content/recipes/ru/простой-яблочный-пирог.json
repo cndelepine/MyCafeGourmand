@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22644",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:7663",
+  "slug": "простой-яблочный-пирог",
+  "source": {
+    "system": "wordpress",
+    "postId": "22644",
+    "recipeId": "22644",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d1%8f%d0%b1%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3",
+    "createdAt": "2018-10-04T17:03:37+00:00",
+    "modifiedAt": "2022-07-30T19:25:28+00:00",
+    "editorialPostId": "12861",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d1%8f%d0%b1%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3",
+    "editorialCreatedAt": "2018-10-04T17:03:37+00:00",
+    "editorialModifiedAt": "2022-07-30T19:25:26+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Простой яблочный пирог",
+  "description": "Яблоки лучше использовать с кислинкой. Тесто быстрее готовить миксером, хотя можно обойтись и венчиком.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Яблочный пирог, очень похожий на <a href=\"https://mycafegourmand.com/ru/recipe/%d1%88%d0%b0%d1%80%d0%bb%d0%be%d1%82%d0%ba%d0%b0-%d0%be%d0%b1%d1%8b%d0%ba%d0%bd%d0%be%d0%b2%d0%b5%d0%bd%d0%bd%d0%b0%d1%8f\">рецепт шарлотки</a>, но с добавлением разрыхлителя теста и оливкового масла. Еще пышнее, нежнее, вкуснее! ;) </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22644,\"template\":\"chic-template-russian\",\"updated\":1659209119506} -->\n<!--WPRM Recipe 22644-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Простой яблочный пирог</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8407-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tЯблоки лучше использовать с кислинкой. Тесто быстрее готовить миксером, хотя можно обойтись и венчиком.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4  яйца</li><li>200 г сахара</li><li>150 г муки</li><li>2 ч.л. разрыхлителя теста</li><li>2 ст.л. оливкового масла</li><li>3 яблока (Гренни Смит)</li><li>1 ч.л. сахарной пудры (по желанию)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Духовку разогреть до 180С (390F). Форму смазать маслом. </li><li>Яйца растереть с сахаром. Добавить муку и разрыхлитель теста. Добавить растительное масло и опять хорошо перемешать. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8381.Blog_-150x150.png\"/><br /></li><li>Яблоки почистить, порезать на маленькие кусочки и выложить в смазанную маслом форму.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8379.Blog_-150x150.png\"/><br /></li><li>Залить яблоки тестом и поставить в разогретую духовку.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8382.Blog_-150x150.png\"/><br /></li><li>Выпекать примерно 45 минут. Время выпекания зависит от духовки и формы для выпекания. Пирог готов, когда хорошо пропекся внутри (готовность можно проверить при помощи лезвия ножа).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8389.Blog_-150x150.png\"/><br /></li><li>Достать пирог из духовки, немного остудить и переложить на блюдо.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8395.Blog_-150x150.png\"/><br /></li><li>Перед подачей на стол можно немного посыпь сахарной пудрой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8396.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23956",
+      "sourceTaxonomyId": "23956",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24786",
+      "sourceTaxonomyId": "24786",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24829",
+      "sourceTaxonomyId": "24829",
+      "name": "яблока (Гренни Смит)",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0-%d0%b3%d1%80%d0%b5%d0%bd%d0%bd%d0%b8-%d1%81%d0%bc%d0%b8%d1%82"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24910",
+      "sourceTaxonomyId": "24910",
+      "name": "разрыхлителя теста",
+      "slug": "%d1%80%d0%b0%d0%b7%d1%80%d1%8b%d1%85%d0%bb%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "588",
+      "sourceTaxonomyId": "588",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "611",
+      "sourceTaxonomyId": "611",
+      "name": "разрыхлителя теста",
+      "slug": "%d1%80%d0%b0%d0%b7%d1%80%d1%8b%d1%85%d0%bb%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "899",
+      "sourceTaxonomyId": "899",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3535",
+      "sourceTaxonomyId": "3535",
+      "name": "яблока (Гренни Смит)",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0-%d0%b3%d1%80%d0%b5%d0%bd%d0%bd%d0%b8-%d1%81%d0%bc%d0%b8%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1414",
+      "sourceTaxonomyId": "1414",
+      "name": "яблоки",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2920",
+      "sourceTaxonomyId": "2920",
+      "name": "мука",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3889",
+      "sourceTaxonomyId": "3889",
+      "name": "оливковое масло",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b5-%d0%bc%d0%b0%d1%81%d0%bb%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5715",
+      "sourceTaxonomyId": "5715",
+      "name": "sharlotka",
+      "slug": "sharlotka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5721",
+      "sourceTaxonomyId": "5721",
+      "name": "jablohnyj pirog",
+      "slug": "jablohnyj-pirog"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7651",
+      "sourceTaxonomyId": "7651",
+      "name": "простой яблочный пирог",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d1%8f%d0%b1%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7655",
+      "sourceTaxonomyId": "7655",
+      "name": "лучше чем шарлотка",
+      "slug": "%d0%bb%d1%83%d1%87%d1%88%d0%b5-%d1%87%d0%b5%d0%bc-%d1%88%d0%b0%d1%80%d0%bb%d0%be%d1%82%d0%ba%d0%b0"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 порций",
+      "value": 8,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12868",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 яйца",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 г сахара",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 г муки",
+            "quantity": {
+              "raw": "150 г",
+              "value": 150,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 ч.л. разрыхлителя теста",
+            "quantity": {
+              "raw": "2 ч.л.",
+              "value": 2,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "разрыхлителя теста",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 яблока (Гренни Смит)",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яблока (Гренни Смит)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 ч.л. сахарной пудры по желанию",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "сахарной пудры",
+            "notes": "по желанию"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Духовку разогреть до 180С (390F). Форму смазать маслом.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Яйца растереть с сахаром. Добавить муку и разрыхлитель теста. Добавить растительное масло и опять хорошо перемешать.",
+            "mediaId": "wordpress-attachment:12863"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Яблоки почистить, порезать на маленькие кусочки и выложить в смазанную маслом форму.",
+            "mediaId": "wordpress-attachment:12862"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Залить яблоки тестом и поставить в разогретую духовку.",
+            "mediaId": "wordpress-attachment:12864"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Выпекать примерно 45 минут. Время выпекания зависит от духовки и формы для выпекания. Пирог готов, когда хорошо пропекся внутри (готовность можно проверить при помощи лезвия ножа).",
+            "mediaId": "wordpress-attachment:12865"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Достать пирог из духовки, немного остудить и переложить на блюдо.",
+            "mediaId": "wordpress-attachment:12866"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Перед подачей на стол можно немного посыпь сахарной пудрой.",
+            "mediaId": "wordpress-attachment:12867"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12868",
+      "sourceId": "12868",
+      "path": "/recipes/media/wordpress/12868.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12863",
+      "sourceId": "12863",
+      "path": "/recipes/media/wordpress/12863.png",
+      "alt": null,
+      "width": 704,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12862",
+      "sourceId": "12862",
+      "path": "/recipes/media/wordpress/12862.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12864",
+      "sourceId": "12864",
+      "path": "/recipes/media/wordpress/12864.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12865",
+      "sourceId": "12865",
+      "path": "/recipes/media/wordpress/12865.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12866",
+      "sourceId": "12866",
+      "path": "/recipes/media/wordpress/12866.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12867",
+      "sourceId": "12867",
+      "path": "/recipes/media/wordpress/12867.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

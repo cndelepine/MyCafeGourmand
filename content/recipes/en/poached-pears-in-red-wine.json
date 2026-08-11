@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28632",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26868",
+  "slug": "poached-pears-in-red-wine",
+  "source": {
+    "system": "wordpress",
+    "postId": "28632",
+    "recipeId": "28632",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-poached-pears-in-red-wine",
+    "createdAt": "2024-11-02T16:01:26+00:00",
+    "modifiedAt": "2024-11-12T03:34:42+00:00",
+    "editorialPostId": "28631",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "poached-pears-in-red-wine",
+    "editorialCreatedAt": "2024-11-02T16:01:26+00:00",
+    "editorialModifiedAt": "2024-11-02T16:26:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Poached pears in red wine",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>A perfect seasonal recipe! These beautifully red-colored pears are delicious after being poached in red wine with spices.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>An easy dessert to prepare, perfect to finish a year-end meal.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28632,\"template\":\"chic-template-english\",\"updated\":1730564276294} -->\n<!--WPRM Recipe 28632-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Poached pears in red wine</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/IMG_1340.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4-8 pears (firm)</li><li>750 ml red wine</li><li>150 g  powdered sugar (or brown sugar)</li><li>1 bean vanilla (split lengthwise)</li><li>1 zeste  orange</li><li>5 black peppercorns</li><li>1-2 clove(s)</li><li>1  stick cinnamon</li><li>1 star anise</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>In a saucepan, combine the sugar, peppercorns, orange zest, and the vanilla bean split lengthwise. Add the cinnamon stick, cloves, and star anise.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/IMG_1299.Blog_-150x150.png\"/><br /></li><li><p>Pour in the red wine and bring to a boil.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/PXL_20241031_025921257_exported_1191_1730449141324.Blog_-150x150.png\"/><br /></li><li><p>Meanwhile, peel the pears, leaving the stems if possible.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/IMG_1182.Blog_-150x150.png\"/><br /></li><li><p>When the wine reaches a boil, reduce the heat and submerge the pears in the liquid. Let them cook for 20 to 50 minutes, until the pears are tender. Cooking time varies based on the firmness of the pears.</p><p>Turn off the heat and let the pears cool in the wine.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/PXL_20241031_033616327.MP_.Blog_-150x150.png\"/><br /></li><li><p>To serve, place the pears in small dishes or bowls and drizzle with the spiced wine.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/IMG_1363.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24283",
+      "sourceTaxonomyId": "24283",
+      "name": "orange",
+      "slug": "orange"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24358",
+      "sourceTaxonomyId": "24358",
+      "name": "vanilla",
+      "slug": "vanilla"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24430",
+      "sourceTaxonomyId": "24430",
+      "name": "black peppercorns",
+      "slug": "black-peppercorns"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26902",
+      "sourceTaxonomyId": "26902",
+      "name": "pears (firm)",
+      "slug": "pears-firm"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26903",
+      "sourceTaxonomyId": "26903",
+      "name": "red wine",
+      "slug": "red-wine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26904",
+      "sourceTaxonomyId": "26904",
+      "name": "powdered sugar (or brown sugar)",
+      "slug": "powdered-sugar-or-brown-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26906",
+      "sourceTaxonomyId": "26906",
+      "name": "clove(s)",
+      "slug": "cloves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26908",
+      "sourceTaxonomyId": "26908",
+      "name": "cinnamon",
+      "slug": "cinnamon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26910",
+      "sourceTaxonomyId": "26910",
+      "name": "anise",
+      "slug": "anise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26866",
+      "sourceTaxonomyId": "26866",
+      "name": "zeste",
+      "slug": "zeste"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26905",
+      "sourceTaxonomyId": "26905",
+      "name": "bean",
+      "slug": "bean"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26907",
+      "sourceTaxonomyId": "26907",
+      "name": "stick",
+      "slug": "stick"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26909",
+      "sourceTaxonomyId": "26909",
+      "name": "star",
+      "slug": "star"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25342",
+      "sourceTaxonomyId": "25342",
+      "name": "Desserts",
+      "slug": "desserts-gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5381",
+      "sourceTaxonomyId": "5381",
+      "name": "french dessert",
+      "slug": "french-dessert"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 people",
+      "value": 4,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": {
+        "label": "Cooling",
+        "duration": {
+          "raw": "60",
+          "minutes": 60
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28561",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4-8 pears (firm)",
+            "quantity": {
+              "raw": "4-8",
+              "min": 4,
+              "max": 8,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pears (firm)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "750 ml red wine",
+            "quantity": {
+              "raw": "750 ml",
+              "value": 750,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "red wine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 g powdered sugar (or brown sugar)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "powdered sugar (or brown sugar)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 bean vanilla split lengthwise",
+            "quantity": {
+              "raw": "1 bean",
+              "value": 1,
+              "unit": "bean",
+              "scalable": true
+            },
+            "name": "vanilla",
+            "notes": "split lengthwise"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 zeste orange",
+            "quantity": {
+              "raw": "1 zeste",
+              "value": 1,
+              "unit": "zeste",
+              "scalable": true
+            },
+            "name": "orange",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "5 black peppercorns",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "black peppercorns",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1-2 clove(s)",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "clove(s)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 stick cinnamon",
+            "quantity": {
+              "raw": "1 stick",
+              "value": 1,
+              "unit": "stick",
+              "scalable": true
+            },
+            "name": "cinnamon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 star anise",
+            "quantity": {
+              "raw": "1 star",
+              "value": 1,
+              "unit": "star",
+              "scalable": true
+            },
+            "name": "anise",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a saucepan, combine the sugar, peppercorns, orange zest, and the vanilla bean split lengthwise. Add the cinnamon stick, cloves, and star anise.",
+            "mediaId": "wordpress-attachment:28560"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Pour in the red wine and bring to a boil.",
+            "mediaId": "wordpress-attachment:28564"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Meanwhile, peel the pears, leaving the stems if possible.",
+            "mediaId": "wordpress-attachment:28562"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "When the wine reaches a boil, reduce the heat and submerge the pears in the liquid. Let them cook for 20 to 50 minutes, until the pears are tender. Cooking time varies based on the firmness of the pears.\n\nTurn off the heat and let the pears cool in the wine.",
+            "mediaId": "wordpress-attachment:28565"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "To serve, place the pears in small dishes or bowls and drizzle with the spiced wine.",
+            "mediaId": "wordpress-attachment:28563"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28561",
+      "sourceId": "28561",
+      "path": "/recipes/media/wordpress/28561.png",
+      "alt": null,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28560",
+      "sourceId": "28560",
+      "path": "/recipes/media/wordpress/28560.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:28564",
+      "sourceId": "28564",
+      "path": "/recipes/media/wordpress/28564.png",
+      "alt": null,
+      "width": 560,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28562",
+      "sourceId": "28562",
+      "path": "/recipes/media/wordpress/28562.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:28565",
+      "sourceId": "28565",
+      "path": "/recipes/media/wordpress/28565.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28563",
+      "sourceId": "28563",
+      "path": "/recipes/media/wordpress/28563.png",
+      "alt": "Poached pears in red wine",
+      "width": 640,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

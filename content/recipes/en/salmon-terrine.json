@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22009",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:5848",
+  "slug": "salmon-terrine",
+  "source": {
+    "system": "wordpress",
+    "postId": "22009",
+    "recipeId": "22009",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salmon-terrine",
+    "createdAt": "2024-12-16T19:31:36+00:00",
+    "modifiedAt": "2024-12-16T19:31:42+00:00",
+    "editorialPostId": "11982",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salmon-terrine",
+    "editorialCreatedAt": "2024-12-16T19:31:36+00:00",
+    "editorialModifiedAt": "2024-12-16T19:31:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Salmon Terrine",
+  "description": "This Salmon Terrine is served cold and gets even better the next day. Very convenient to prepare in advance.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Make a Salmon Terrine with fresh and smoked salmon, eggs, sour cream, and parsley. This elegant french recipe is a refined and delicious <a href=\"https://mycafegourmand.com/recipes/appetizers/\">appetizer</a> and it is perfect for cold buffets. Serve the terrine with mayonnaise, vegetables, or a green salad.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22009,\"template\":\"chic-template-english\",\"updated\":1734377469429} -->\n<!--WPRM Recipe 22009-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salmon Terrine</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0723.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThis Salmon Terrine is served cold and gets even better the next day. Very convenient to prepare in advance.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>500 g salmon fillet (with no skin or bones)</li><li>5 eggs</li><li>250 г sour cream</li><li>1/4 cup parsley (chopped)</li><li>250 g smoked salmon (cut into small pieces)</li><li>Salt and freshly ground black pepper</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 390° F (180°C). Grease a loaf pan using cooking oil.</li><li>Cut the fresh salmon into pieces and mix with a food processor.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0702.Blog_-150x150.png\"/><br /></li><li>Add the eggs and mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0705.Blog_-150x150.png\"/><br /></li><li>Add the sour cream and parsley. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0706.Blog_-150x150.png\"/><br /></li><li>Add the smoked salmon, salt and pepper. Mix with a spatula.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0707.Blog_-150x150.png\"/><br /></li><li>Pour the batter into the loaf pan and bake in preheated oven for 35-40 minutes.</li><li> Allow the salmon terrine to cool before removing it from the pan. Serve the dish chilled.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0720.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "The Salmon Tеrrine is an elegant french recipe made of fresh salmon, smoked salmon, eggs, sour cream, and parsley. Perfect for cold buffets."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24175",
+      "sourceTaxonomyId": "24175",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24673",
+      "sourceTaxonomyId": "24673",
+      "name": "salmon fillet",
+      "slug": "salmon-fillet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24674",
+      "sourceTaxonomyId": "24674",
+      "name": "parsley",
+      "slug": "parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "572",
+      "sourceTaxonomyId": "572",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6461",
+      "sourceTaxonomyId": "6461",
+      "name": "salmon fillet",
+      "slug": "salmon-fillet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6463",
+      "sourceTaxonomyId": "6463",
+      "name": "parsley",
+      "slug": "parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1352",
+      "sourceTaxonomyId": "1352",
+      "name": "fish",
+      "slug": "fish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1354",
+      "sourceTaxonomyId": "1354",
+      "name": "salmon",
+      "slug": "salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1512",
+      "sourceTaxonomyId": "1512",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6453",
+      "sourceTaxonomyId": "6453",
+      "name": "salmon loaf",
+      "slug": "salmon-loaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7748",
+      "sourceTaxonomyId": "7748",
+      "name": "elegant",
+      "slug": "elegant-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8009",
+      "sourceTaxonomyId": "8009",
+      "name": "fishcake",
+      "slug": "fishcake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8011",
+      "sourceTaxonomyId": "8011",
+      "name": "cold dish",
+      "slug": "cold-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8013",
+      "sourceTaxonomyId": "8013",
+      "name": "make it before",
+      "slug": "make-it-before"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8015",
+      "sourceTaxonomyId": "8015",
+      "name": "prepare in advance",
+      "slug": "prepare-in-advance"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8017",
+      "sourceTaxonomyId": "8017",
+      "name": "fish terrine",
+      "slug": "fish-terrine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8031",
+      "sourceTaxonomyId": "8031",
+      "name": "cold-smoked salmon",
+      "slug": "cold-smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8033",
+      "sourceTaxonomyId": "8033",
+      "name": "holiday entertaining",
+      "slug": "holiday-entertaining"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8035",
+      "sourceTaxonomyId": "8035",
+      "name": "beautiful presentation",
+      "slug": "beautiful-presentation"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11601",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "500 g salmon fillet with no skin or bones",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "salmon fillet",
+            "notes": "with no skin or bones"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "5 eggs",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "250 г sour cream",
+            "quantity": {
+              "raw": "250 г",
+              "value": 250,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/4 cup parsley chopped",
+            "quantity": {
+              "raw": "1/4 cup",
+              "value": 0.25,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "parsley",
+            "notes": "chopped"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "250 g smoked salmon cut into small pieces",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "smoked salmon",
+            "notes": "cut into small pieces"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 390° F (180°C). Grease a loaf pan using cooking oil.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut the fresh salmon into pieces and mix with a food processor.",
+            "mediaId": "wordpress-attachment:11596"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add the eggs and mix well.",
+            "mediaId": "wordpress-attachment:11597"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add the sour cream and parsley.",
+            "mediaId": "wordpress-attachment:11598"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add the smoked salmon, salt and pepper. Mix with a spatula.",
+            "mediaId": "wordpress-attachment:11599"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Pour the batter into the loaf pan and bake in preheated oven for 35-40 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Allow the salmon terrine to cool before removing it from the pan. Serve the dish chilled.",
+            "mediaId": "wordpress-attachment:11600"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11601",
+      "sourceId": "11601",
+      "path": "/recipes/media/wordpress/11601.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11596",
+      "sourceId": "11596",
+      "path": "/recipes/media/wordpress/11596.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11597",
+      "sourceId": "11597",
+      "path": "/recipes/media/wordpress/11597.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11598",
+      "sourceId": "11598",
+      "path": "/recipes/media/wordpress/11598.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11599",
+      "sourceId": "11599",
+      "path": "/recipes/media/wordpress/11599.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11600",
+      "sourceId": "11600",
+      "path": "/recipes/media/wordpress/11600.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

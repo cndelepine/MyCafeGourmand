@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21989",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:8139",
+  "slug": "galette-jambon-fromage",
+  "source": {
+    "system": "wordpress",
+    "postId": "21989",
+    "recipeId": "21989",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-galette-jambon-fromage",
+    "createdAt": "2024-02-06T08:03:00+00:00",
+    "modifiedAt": "2024-02-07T04:49:33+00:00",
+    "editorialPostId": "13145",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "galette-jambon-fromage",
+    "editorialCreatedAt": "2024-02-06T08:03:00+00:00",
+    "editorialModifiedAt": "2024-02-07T01:55:44+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Galette Jambon Fromage",
+  "description": null,
+  "editorial": {
+    "content": "<p><span class=\"st\">La galette bretonne au jambon et fromage est un plat tout simple et délicieux. Avec cette <a href=\"https://mycafegourmand.com/fr/galettes-de-sarrasin\">pâte à galettes</a> sans farine de blé que je prépare la veille (ou au moins 2 heures à l'avance), les galettes sont à la hauteur d'une crêperie de Saint-Malo (selon  ma famille ;-)) !<br /></span></p>\n<p> </p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21989,\"template\":\"chic-template-french\",\"updated\":1606694758195} -->\n<!--WPRM Recipe 21989-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Galette Jambon Fromage</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7710.Blog_-e1551151121573-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Pour la pâte à crêpes pour galettes de sarrasin</h4><ul><li>250 g de farine de sarrasin (blé noir)</li><li>350 ml d'eau</li><li>350 ml de lait</li><li>1 cuillère à café de gros sel</li><li>2 œufs</li><li>50 g de beurre fondu</li></ul><h4>Pour la garniture</h4><ul><li>8 tranches de jambon</li><li>120 g de fromage râpé</li><li>Un peu de beurre (pour la poêle )</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préparer votre pâte pour les galettes de sarrasin (suivre la recette à https://mycafegourmand.com/fr/recipe/galettes-de-sarrasin )\r\nAttendre au moins 2 heures !\r\nMélanger bien avec un fouet.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8834.Blog_-150x150.png\"/><br /></li><li>Chauffer une grande poêle et la beurrer. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4470.Blog_-150x150.png\"/><br /></li><li> Verser une petite louche de pâte, bien répartir sur toute la surface. Laisser cuire quelques instants.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4483.Blog_-150x150.png\"/><br /></li><li>Sans retourner la galette sur l'autre côté, déposer une tranche de jambon et saupoudrer de fromage.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4486.Blog_-150x150.png\"/><br /></li><li>Attendre quelques instants pour que le jambon se réchauffe et que le fromage fonde. Délicatement plier un côté de la galette. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4489.Blog_-150x150.png\"/><br /></li><li>Puis plier les autres côtés<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4490.Blog_-150x150.png\"/><br /></li><li>pour former un carré. Retirer la galette de la poêle sur une assiette et servir immédiatement.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4491.Blog_-150x150.png\"/><br /></li><li>Si vous voulez, ajouter un peu de fromage sur le dessus.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7711.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24318",
+      "sourceTaxonomyId": "24318",
+      "name": "de beurre fondu",
+      "slug": "de-beurre-fondu"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24524",
+      "sourceTaxonomyId": "24524",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24567",
+      "sourceTaxonomyId": "24567",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24574",
+      "sourceTaxonomyId": "24574",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24635",
+      "sourceTaxonomyId": "24635",
+      "name": "de farine de sarrasin (blé noir)",
+      "slug": "de-farine-de-sarrasin-ble-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24663",
+      "sourceTaxonomyId": "24663",
+      "name": "de jambon",
+      "slug": "de-jambon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "372",
+      "sourceTaxonomyId": "372",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "531",
+      "sourceTaxonomyId": "531",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "603",
+      "sourceTaxonomyId": "603",
+      "name": "de beurre fondu",
+      "slug": "de-beurre-fondu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "755",
+      "sourceTaxonomyId": "755",
+      "name": "de jambon",
+      "slug": "de-jambon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1034",
+      "sourceTaxonomyId": "1034",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5495",
+      "sourceTaxonomyId": "5495",
+      "name": "de farine de sarrasin (blé noir)",
+      "slug": "de-farine-de-sarrasin-ble-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1546",
+      "sourceTaxonomyId": "1546",
+      "name": "jambon",
+      "slug": "jambon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2467",
+      "sourceTaxonomyId": "2467",
+      "name": "fromage rape",
+      "slug": "fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3158",
+      "sourceTaxonomyId": "3158",
+      "name": "lait",
+      "slug": "lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3166",
+      "sourceTaxonomyId": "3166",
+      "name": "sans farine",
+      "slug": "sans-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3402",
+      "sourceTaxonomyId": "3402",
+      "name": "beurre",
+      "slug": "beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5487",
+      "sourceTaxonomyId": "5487",
+      "name": "gros sel",
+      "slug": "gros-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8113",
+      "sourceTaxonomyId": "8113",
+      "name": "comme a la creperie",
+      "slug": "comme-a-la-creperie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8117",
+      "sourceTaxonomyId": "8117",
+      "name": "crepe de sarrasin",
+      "slug": "crepe-de-sarrasin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8121",
+      "sourceTaxonomyId": "8121",
+      "name": "delicieux",
+      "slug": "delicieux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8125",
+      "sourceTaxonomyId": "8125",
+      "name": "galette de sarrasin",
+      "slug": "galette-de-sarrasin-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8127",
+      "sourceTaxonomyId": "8127",
+      "name": "repas prefere des enfants",
+      "slug": "repas-prefere-des-enfants"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8129",
+      "sourceTaxonomyId": "8129",
+      "name": "tout le monde adore",
+      "slug": "tout-le-monde-adore"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8131",
+      "sourceTaxonomyId": "8131",
+      "name": "cuisiner simplement",
+      "slug": "cuisiner-simplement"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8133",
+      "sourceTaxonomyId": "8133",
+      "name": "Galette Bretonne",
+      "slug": "galette-bretonne-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:15635",
+    "ingredientGroups": [
+      {
+        "name": "Pour la pâte à crêpes pour galettes de sarrasin",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g de farine de sarrasin (blé noir)",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine de sarrasin (blé noir)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "350 ml d'eau",
+            "quantity": {
+              "raw": "350 ml",
+              "value": 350,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "350 ml de lait",
+            "quantity": {
+              "raw": "350 ml",
+              "value": 350,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cuillère à café de gros sel",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de gros sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 œufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 g de beurre fondu",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre fondu",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Pour la garniture",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "8 tranches de jambon",
+            "quantity": {
+              "raw": "8 tranches",
+              "value": 8,
+              "unit": "tranches",
+              "scalable": true
+            },
+            "name": "de jambon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "120 g de fromage râpé",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de fromage râpé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Un peu de beurre pour la poêle",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de beurre",
+            "notes": "pour la poêle"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préparer votre pâte pour les galettes de sarrasin (suivre la recette à https://mycafegourmand.com/fr/galettes-de-sarrasin ). Attendre au moins 2 heures !\n\nMélanger bien avec un fouet.",
+            "mediaId": "wordpress-attachment:13156"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Chauffer une grande poêle et la beurrer.",
+            "mediaId": "wordpress-attachment:13149"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Verser une petite louche de pâte, bien répartir sur toute la surface. Laisser cuire quelques instants.",
+            "mediaId": "wordpress-attachment:13150"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Sans retourner la galette sur l'autre côté, déposer une tranche de jambon et saupoudrer de fromage.",
+            "mediaId": "wordpress-attachment:13151"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Attendre quelques instants pour que le jambon se réchauffe et que le fromage fonde. Délicatement plier un côté de la galette.",
+            "mediaId": "wordpress-attachment:13152"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Puis plier les autres côtés",
+            "mediaId": "wordpress-attachment:13153"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "pour former un carré. Retirer la galette de la poêle sur une assiette et servir immédiatement.",
+            "mediaId": "wordpress-attachment:13154"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Si vous voulez, ajouter un peu de fromage sur le dessus.",
+            "mediaId": "wordpress-attachment:15629"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15635",
+      "sourceId": "15635",
+      "path": "/recipes/media/wordpress/15635.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13156",
+      "sourceId": "13156",
+      "path": "/recipes/media/wordpress/13156.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13149",
+      "sourceId": "13149",
+      "path": "/recipes/media/wordpress/13149.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13150",
+      "sourceId": "13150",
+      "path": "/recipes/media/wordpress/13150.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13151",
+      "sourceId": "13151",
+      "path": "/recipes/media/wordpress/13151.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13152",
+      "sourceId": "13152",
+      "path": "/recipes/media/wordpress/13152.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13153",
+      "sourceId": "13153",
+      "path": "/recipes/media/wordpress/13153.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13154",
+      "sourceId": "13154",
+      "path": "/recipes/media/wordpress/13154.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15629",
+      "sourceId": "15629",
+      "path": "/recipes/media/wordpress/15629.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28035",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26684",
+  "slug": "salade-de-courgettes-crues",
+  "source": {
+    "system": "wordpress",
+    "postId": "28035",
+    "recipeId": "28035",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-de-courgettes-crues",
+    "createdAt": "2024-04-06T02:21:55+00:00",
+    "modifiedAt": "2024-04-07T23:18:34+00:00",
+    "editorialPostId": "28031",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-de-courgettes-crues",
+    "editorialCreatedAt": "2024-04-06T02:21:55+00:00",
+    "editorialModifiedAt": "2024-04-07T23:18:30+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Salade de courgettes crues",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une manière savoureuse et très simple de consommer les courgettes crues. Vous allez adorer cette salade arrosée de jus de citron et d'huile d'olive.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28035,\"template\":\"chic-template-french\",\"updated\":1712531895540} -->\n<!--WPRM Recipe 28035-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade de courgettes crues</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5053.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 courgettes vertes (lavés )</li><li>1 gousse  d&#039;ail écrasée</li><li>1/2 citron (le jus)</li><li>Un filet d&#039;huile d&#039;olive</li><li>Sel et poivre du moulin</li><li>Un peu de fromage râpé (parmesan)</li><li>Quelques brins de persil (d&#039;aneth ou de ciboulette) finement ciselés ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Couper les deux extremités de courgettes. À l’aide d’une mandoline ou d’un couteau économe, les couper sur la longueur en tranches longues et minces.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5044.Blog_-150x150.png\"/><br /></li><li><p>Dans un petit bol, mélanger le jus de citron, l&#039;ail et l&#039;huile d&#039;olive.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5047_1.Blog_-150x150.png\"/><br /></li><li><p>Mettre les lamelles de courgettes dans un plat, arroser de la sauce, saler, poivrer et bien mélanger.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5053.Blog_-150x150.png\"/><br /></li><li><p>Parsemer de fromage et servir tout de suite ou refroidir d&#039;abord dans le réfrigérateur. Ajouter les herbes fraîches juste avant de servir.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5067.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26447",
+      "sourceTaxonomyId": "26447",
+      "name": "Salade",
+      "slug": "salade-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24623",
+      "sourceTaxonomyId": "24623",
+      "name": "de fromage râpé (parmesan)",
+      "slug": "de-fromage-rape-parmesan"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24710",
+      "sourceTaxonomyId": "24710",
+      "name": "citron (le jus)",
+      "slug": "citron-le-jus"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24713",
+      "sourceTaxonomyId": "24713",
+      "name": "courgettes vertes",
+      "slug": "courgettes-vertes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26679",
+      "sourceTaxonomyId": "26679",
+      "name": "d'ail écrasée",
+      "slug": "dail-ecrasee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26683",
+      "sourceTaxonomyId": "26683",
+      "name": "de persil (d'aneth ou de ciboulette) finement ciselés",
+      "slug": "de-persil-daneth-ou-de-ciboulette-finement-ciseles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25423",
+      "sourceTaxonomyId": "25423",
+      "name": "gousse",
+      "slug": "gousse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25667",
+      "sourceTaxonomyId": "25667",
+      "name": "brins",
+      "slug": "brins"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4531",
+      "sourceTaxonomyId": "4531",
+      "name": "salade d'ete",
+      "slug": "salade-dete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26233",
+      "sourceTaxonomyId": "26233",
+      "name": "courgette",
+      "slug": "courgette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26681",
+      "sourceTaxonomyId": "26681",
+      "name": "tagliatelles de courgette",
+      "slug": "tagliatelles-de-courgette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26705",
+      "sourceTaxonomyId": "26705",
+      "name": "cru",
+      "slug": "cru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28047",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 courgettes vertes lavés",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "courgettes vertes",
+            "notes": "lavés"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 gousse d'ail écrasée",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail écrasée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 citron (le jus)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citron (le jus)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un filet d'huile d'olive",
+            "quantity": {
+              "raw": "Un filet",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Un peu de fromage râpé (parmesan)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de fromage râpé (parmesan)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques brins de persil (d'aneth ou de ciboulette) finement ciselés (facultatif)",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de persil (d'aneth ou de ciboulette) finement ciselés",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper les deux extremités de courgettes. À l’aide d’une mandoline ou d’un couteau économe, les couper sur la longueur en tranches longues et minces.",
+            "mediaId": "wordpress-attachment:28042"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un petit bol, mélanger le jus de citron, l'ail et l'huile d'olive.",
+            "mediaId": "wordpress-attachment:28043"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mettre les lamelles de courgettes dans un plat, arroser de la sauce, saler, poivrer et bien mélanger.",
+            "mediaId": "wordpress-attachment:28047"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Parsemer de fromage et servir tout de suite ou refroidir d'abord dans le réfrigérateur. Ajouter les herbes fraîches juste avant de servir.",
+            "mediaId": "wordpress-attachment:28046"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28047",
+      "sourceId": "28047",
+      "path": "/recipes/media/wordpress/28047.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:28042",
+      "sourceId": "28042",
+      "path": "/recipes/media/wordpress/28042.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:28043",
+      "sourceId": "28043",
+      "path": "/recipes/media/wordpress/28043.png",
+      "alt": null,
+      "width": 800,
+      "height": 624
+    },
+    {
+      "id": "wordpress-attachment:28046",
+      "sourceId": "28046",
+      "path": "/recipes/media/wordpress/28046.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

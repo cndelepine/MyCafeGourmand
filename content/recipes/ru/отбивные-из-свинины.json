@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22714",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:7966",
+  "slug": "отбивные-из-свинины",
+  "source": {
+    "system": "wordpress",
+    "postId": "22714",
+    "recipeId": "22714",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%be%d1%82%d0%b1%d0%b8%d0%b2%d0%bd%d1%8b%d0%b5-%d0%b8%d0%b7-%d1%81%d0%b2%d0%b8%d0%bd%d0%b8%d0%bd%d1%8b",
+    "createdAt": "2018-06-26T04:23:17+00:00",
+    "modifiedAt": "2022-07-30T19:10:22+00:00",
+    "editorialPostId": "13060",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%be%d1%82%d0%b1%d0%b8%d0%b2%d0%bd%d1%8b%d0%b5-%d0%b8%d0%b7-%d1%81%d0%b2%d0%b8%d0%bd%d0%b8%d0%bd%d1%8b",
+    "editorialCreatedAt": "2018-06-26T04:23:17+00:00",
+    "editorialModifiedAt": "2022-07-30T19:10:19+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Отбивные из свинины",
+  "description": "Отбивные так же можно приготовить из грудки (филе) курицы или индейки.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Нежные отбивные с хрустящей аппетитной корочкой. В этом рецепте я НЕ использую яйца и муку. Только соль, перец, паприку (по желанию) и панировочные сухари. Получается быстро и вкусно.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Если вы ищете более классический рецепт из мяса, попробуйте <a href=\"https://mycafegourmand.com/ru/recipe/%D1%88%D0%BD%D0%B8%D1%86%D0%B5%D0%BB%D1%8C-%D0%B8%D0%B7-%D1%81%D0%B2%D0%B8%D0%BD%D0%B8%D0%BD%D1%8B-%D0%BD%D0%B0-%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B4%D0%B5\">Шницель</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":1} -->\n<h1 id=\"h-\">&nbsp;</h1>\n<!-- /wp:heading -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22714,\"template\":\"chic-template-russian\",\"updated\":1659208209728} -->\n<!--WPRM Recipe 22714-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Отбивные из свинины</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8864.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tОтбивные так же можно приготовить из грудки (филе) курицы или индейки.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 филе свинины, курицы, индейки</li><li>Соль и свежемолотый перец</li><li>6 щепоток паприки ((по желанию))</li><li>90 г панировочных сухарей</li><li>2  ст.л. оливкового масла (для жарки)</li><li>30 г сливочного масла (для жарки)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Филе мяса накрыть пищевой пленкой и хорошо отбить.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8853.Blog_-150x150.png\"/><br /></li><li>Посолить, поперчить и посыпать паприкой с обоих сторон. Слегка обвалять в панировочных сухарях. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8856.Blog_-150x150.png\"/><br /></li><li>В большой сковороде разогреть оливковое и сливочное масло. Обжарить отбивные на среднем огне с обоих сторон. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8858.Blog_-150x150.png\"/><br /></li><li>Время жарки зависит от толщины отбивных, примерно 3-4 минуты.\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8859.Blog_-150x150.png\"/><br /></li><li>Как только мясо прожарилось внутри, а снаружи образовалась золотистая корочка, снять мясо со сковороды.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8860.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24831",
+      "sourceTaxonomyId": "24831",
+      "name": "панировочных сухарей",
+      "slug": "%d0%bf%d0%b0%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%be%d1%87%d0%bd%d1%8b%d1%85-%d1%81%d1%83%d1%85%d0%b0%d1%80%d0%b5%d0%b9"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24855",
+      "sourceTaxonomyId": "24855",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24922",
+      "sourceTaxonomyId": "24922",
+      "name": "паприки",
+      "slug": "%d0%bf%d0%b0%d0%bf%d1%80%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25114",
+      "sourceTaxonomyId": "25114",
+      "name": "свинины, курицы, индейки",
+      "slug": "%d1%81%d0%b2%d0%b8%d0%bd%d0%b8%d0%bd%d1%8b-%d0%ba%d1%83%d1%80%d0%b8%d1%86%d1%8b-%d0%b8%d0%bd%d0%b4%d0%b5%d0%b9%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1438",
+      "sourceTaxonomyId": "1438",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "455",
+      "sourceTaxonomyId": "455",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "736",
+      "sourceTaxonomyId": "736",
+      "name": "паприки",
+      "slug": "%d0%bf%d0%b0%d0%bf%d1%80%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2115",
+      "sourceTaxonomyId": "2115",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4045",
+      "sourceTaxonomyId": "4045",
+      "name": "панировочных сухарей",
+      "slug": "%d0%bf%d0%b0%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%be%d1%87%d0%bd%d1%8b%d1%85-%d1%81%d1%83%d1%85%d0%b0%d1%80%d0%b5%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7967",
+      "sourceTaxonomyId": "7967",
+      "name": "свинины, курицы, индейки",
+      "slug": "%d1%81%d0%b2%d0%b8%d0%bd%d0%b8%d0%bd%d1%8b-%d0%ba%d1%83%d1%80%d0%b8%d1%86%d1%8b-%d0%b8%d0%bd%d0%b4%d0%b5%d0%b9%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1230",
+      "sourceTaxonomyId": "1230",
+      "name": "свинина",
+      "slug": "%d1%81%d0%b2%d0%b8%d0%bd%d0%b8%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1870",
+      "sourceTaxonomyId": "1870",
+      "name": "индейка",
+      "slug": "%d0%b8%d0%bd%d0%b4%d0%b5%d0%b9%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2676",
+      "sourceTaxonomyId": "2676",
+      "name": "без муки",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2797",
+      "sourceTaxonomyId": "2797",
+      "name": "мясо",
+      "slug": "%d0%bc%d1%8f%d1%81%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2888",
+      "sourceTaxonomyId": "2888",
+      "name": "куриное мясо",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d0%be%d0%b5-%d0%bc%d1%8f%d1%81%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4029",
+      "sourceTaxonomyId": "4029",
+      "name": "панировочные сухари",
+      "slug": "%d0%bf%d0%b0%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%be%d1%87%d0%bd%d1%8b%d0%b5-%d1%81%d1%83%d1%85%d0%b0%d1%80%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4033",
+      "sourceTaxonomyId": "4033",
+      "name": "отбивные из свинины",
+      "slug": "%d0%be%d1%82%d0%b1%d0%b8%d0%b2%d0%bd%d1%8b%d0%b5-%d0%b8%d0%b7-%d1%81%d0%b2%d0%b8%d0%bd%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4037",
+      "sourceTaxonomyId": "4037",
+      "name": "дети любят",
+      "slug": "%d0%b4%d0%b5%d1%82%d0%b8-%d0%bb%d1%8e%d0%b1%d1%8f%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4039",
+      "sourceTaxonomyId": "4039",
+      "name": "мясо на сковороде",
+      "slug": "%d0%bc%d1%8f%d1%81%d0%be-%d0%bd%d0%b0-%d1%81%d0%ba%d0%be%d0%b2%d0%be%d1%80%d0%be%d0%b4%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6690",
+      "sourceTaxonomyId": "6690",
+      "name": "любимое блюдо",
+      "slug": "%d0%bb%d1%8e%d0%b1%d0%b8%d0%bc%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6916",
+      "sourceTaxonomyId": "6916",
+      "name": "очень простой и вкусный рецепт",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d0%b8-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6934",
+      "sourceTaxonomyId": "6934",
+      "name": "семейный ужин",
+      "slug": "%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b9-%d1%83%d0%b6%d0%b8%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7983",
+      "sourceTaxonomyId": "7983",
+      "name": "белое мясо",
+      "slug": "%d0%b1%d0%b5%d0%bb%d0%be%d0%b5-%d0%bc%d1%8f%d1%81%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7985",
+      "sourceTaxonomyId": "7985",
+      "name": "грудка",
+      "slug": "%d0%b3%d1%80%d1%83%d0%b4%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7987",
+      "sourceTaxonomyId": "7987",
+      "name": "очень быстро",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7989",
+      "sourceTaxonomyId": "7989",
+      "name": "отбивное мясо",
+      "slug": "%d0%be%d1%82%d0%b1%d0%b8%d0%b2%d0%bd%d0%be%d0%b5-%d0%bc%d1%8f%d1%81%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7993",
+      "sourceTaxonomyId": "7993",
+      "name": "otbivnye iz svininy",
+      "slug": "otbivnye-iz-svininy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7995",
+      "sourceTaxonomyId": "7995",
+      "name": "kurinye otbivnye",
+      "slug": "kurinye-otbivnye"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8291",
+      "sourceTaxonomyId": "8291",
+      "name": "miaso na skovorode",
+      "slug": "miaso-na-skovorode"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13044",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 филе свинины, курицы, индейки",
+            "quantity": {
+              "raw": "6 филе",
+              "value": 6,
+              "unit": "филе",
+              "scalable": true
+            },
+            "name": "свинины, курицы, индейки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Соль и свежемолотый перец",
+            "quantity": null,
+            "name": "Соль и свежемолотый перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "6 щепоток паприки (по желанию)",
+            "quantity": {
+              "raw": "6 щепоток",
+              "value": 6,
+              "unit": "щепоток",
+              "scalable": true
+            },
+            "name": "паприки",
+            "notes": "(по желанию)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "90 г панировочных сухарей",
+            "quantity": {
+              "raw": "90 г",
+              "value": 90,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "панировочных сухарей",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 ст.л. оливкового масла для жарки",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": "для жарки"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "30 г сливочного масла для жарки",
+            "quantity": {
+              "raw": "30 г",
+              "value": 30,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": "для жарки"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Филе мяса накрыть пищевой пленкой и хорошо отбить.",
+            "mediaId": "wordpress-attachment:13040"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Посолить, поперчить и посыпать паприкой с обоих сторон. Слегка обвалять в панировочных сухарях.",
+            "mediaId": "wordpress-attachment:13041"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "В большой сковороде разогреть оливковое и сливочное масло. Обжарить отбивные на среднем огне с обоих сторон.",
+            "mediaId": "wordpress-attachment:13042"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Время жарки зависит от толщины отбивных, примерно 3-4 минуты.",
+            "mediaId": "wordpress-attachment:13043"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Как только мясо прожарилось внутри, а снаружи образовалась золотистая корочка, снять мясо со сковороды.",
+            "mediaId": "wordpress-attachment:13045"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13044",
+      "sourceId": "13044",
+      "path": "/recipes/media/wordpress/13044.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13040",
+      "sourceId": "13040",
+      "path": "/recipes/media/wordpress/13040.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13041",
+      "sourceId": "13041",
+      "path": "/recipes/media/wordpress/13041.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13042",
+      "sourceId": "13042",
+      "path": "/recipes/media/wordpress/13042.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13043",
+      "sourceId": "13043",
+      "path": "/recipes/media/wordpress/13043.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13045",
+      "sourceId": "13045",
+      "path": "/recipes/media/wordpress/13045.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

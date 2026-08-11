@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28807",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26944",
+  "slug": "pastry-cream",
+  "source": {
+    "system": "wordpress",
+    "postId": "28807",
+    "recipeId": "28807",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pastry-cream",
+    "createdAt": "2024-12-30T01:27:40+00:00",
+    "modifiedAt": "2024-12-30T05:28:02+00:00",
+    "editorialPostId": "29080",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pastry-cream",
+    "editorialCreatedAt": "2024-12-30T01:27:40+00:00",
+    "editorialModifiedAt": "2024-12-30T01:27:45+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Pastry Cream",
+  "description": "Pastry Cream is a delicate cream for custard cakes (eclairs, petits choux), Napoleon, mille-feuille, meringue and other sponge cakes.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Pastry Cream (Crème pâtissière) is a delicate cream for custard cakes (eclairs, petits choux, religieuse), Napoleon, mille-feuille, meringue and other sponge cakes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>After trying many options, I settled on this recipe from French chef Johan from Toulouse (Johan Le Meilleur Patissier M6).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Here is my translation from French of the Vanilla Crème Pâtissière recipe. The original link is <a href=\"https://mapatisserie.fr/recette/cremes/recette-creme-patissiere/\">Recette de la Crème Pâtissière à la Vanille</a> (in French).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28807,\"template\":\"chic-template-english\",\"updated\":1735521815202} -->\n<!--WPRM Recipe 28807-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pastry Cream</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_3328-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Pastry Cream is a delicate cream for custard cakes (eclairs, petits choux), Napoleon, mille-feuille, meringue and other sponge cakes.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1/2 vanilla bean</li><li>250 ml whole milk</li><li>55 g egg yolk (approximately 3 yolks)</li><li>50 g sugar</li><li>25 g cornstarch (maizena)</li><li>25 g butter</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Pour the milk into a saucepan. Split the vanilla pod lengthwise and scrape out the tiny seeds with the tip of a knife. Add the pod and seeds to the milk.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_6688.Blog_-150x150.png\"/><br /></li><li><p>Whisk the yolks with the sugar until well combined.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4320.Blog_-150x150.png\"/><br /></li><li><p>Add the cornstarch and mix thoroughly.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_7071-2.Blog_-150x150.png\"/><br /></li><li><p>Bring the milk to a boil. Gradually pour 1/3 of the hot milk into the yolk-sugar mixture, stirring vigorously.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_7072.Blog_-150x150.png\"/><br /></li><li><p>Pour the mixture back into the saucepan.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_7081.Blog_-150x150.png\"/><br /></li><li><p>Cook the cream over low heat, stirring constantly, for about 2 minutes after it starts boiling. Remove the saucepan from the heat.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_9946.Blog_-150x150.png\"/><br /></li><li><p> Immediately transfer the cream to a cold bowl (previously chilled in the fridge or freezer). Add small pieces of butter and mix until smooth. Cover the surface of the cream directly with plastic wrap and refrigerate until completely cooled.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_7086.Blog_-150x150.png\"/><br /></li><li><p>Before serving, whisk the cream thoroughly. This is the moment to add rum or other flavorings, if desired.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_3328-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<p>Pastry Cream is a delicate cream for custard cakes (eclairs, petits choux), Napoleon, mille-feuille, meringue and other sponge cakes.</p>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div><div class=\"wprm-fallback-recipe-meta-cuisine\">French</div><div class=\"wprm-fallback-recipe-meta-keyword\">french dessert, Napoleon, pastry cream</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Pastry Cream is a delicate cream for custard cakes (eclairs, petits choux), Napoleon, mille-feuille, meringue and other sponge cakes."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24108",
+      "sourceTaxonomyId": "24108",
+      "name": "vanilla bean",
+      "slug": "vanilla-bean"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24404",
+      "sourceTaxonomyId": "24404",
+      "name": "whole milk",
+      "slug": "whole-milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26985",
+      "sourceTaxonomyId": "26985",
+      "name": "egg yolk (approximately 3 yolks)",
+      "slug": "egg-yolk-approximately-3-yolks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26986",
+      "sourceTaxonomyId": "26986",
+      "name": "cornstarch (maizena)",
+      "slug": "cornstarch-maizena"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27109",
+      "sourceTaxonomyId": "27109",
+      "name": "pastry cream",
+      "slug": "pastry-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27111",
+      "sourceTaxonomyId": "27111",
+      "name": "Napoleon",
+      "slug": "napoleon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27113",
+      "sourceTaxonomyId": "27113",
+      "name": "french dessert",
+      "slug": "french-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1390",
+      "sourceTaxonomyId": "1390",
+      "name": "french",
+      "slug": "french"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27001",
+      "sourceTaxonomyId": "27001",
+      "name": "pastry cream",
+      "slug": "pastry-cream"
+    }
+  ],
+  "recipe": {
+    "notes": "Pastry Cream is a delicate cream for custard cakes (eclairs, petits choux), Napoleon, mille-feuille, meringue and other sponge cakes.",
+    "servings": {
+      "raw": "10 middle size puff pastries",
+      "value": 10,
+      "unit": "middle size puff pastries",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "1",
+        "value": 1
+      },
+      "servingSize": null,
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:20413",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 vanilla bean",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "vanilla bean",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "250 ml whole milk",
+            "quantity": {
+              "raw": "250 ml",
+              "value": 250,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "whole milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "55 g egg yolk (approximately 3 yolks)",
+            "quantity": {
+              "raw": "55 g",
+              "value": 55,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "egg yolk (approximately 3 yolks)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "50 g sugar",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "25 g cornstarch (maizena)",
+            "quantity": {
+              "raw": "25 g",
+              "value": 25,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "cornstarch (maizena)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "25 g butter",
+            "quantity": {
+              "raw": "25 g",
+              "value": 25,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Pour the milk into a saucepan. Split the vanilla pod lengthwise and scrape out the tiny seeds with the tip of a knife. Add the pod and seeds to the milk.",
+            "mediaId": "wordpress-attachment:20426"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Whisk the yolks with the sugar until well combined.",
+            "mediaId": "wordpress-attachment:20414"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add the cornstarch and mix thoroughly.",
+            "mediaId": "wordpress-attachment:20423"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Bring the milk to a boil. Gradually pour 1/3 of the hot milk into the yolk-sugar mixture, stirring vigorously.",
+            "mediaId": "wordpress-attachment:20415"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Pour the mixture back into the saucepan.",
+            "mediaId": "wordpress-attachment:20416"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Cook the cream over low heat, stirring constantly, for about 2 minutes after it starts boiling. Remove the saucepan from the heat.",
+            "mediaId": "wordpress-attachment:20418"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Immediately transfer the cream to a cold bowl (previously chilled in the fridge or freezer). Add small pieces of butter and mix until smooth. Cover the surface of the cream directly with plastic wrap and refrigerate until completely cooled.",
+            "mediaId": "wordpress-attachment:20417"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Before serving, whisk the cream thoroughly. This is the moment to add rum or other flavorings, if desired.",
+            "mediaId": "wordpress-attachment:20413"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20413",
+      "sourceId": "20413",
+      "path": "/recipes/media/wordpress/20413.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20426",
+      "sourceId": "20426",
+      "path": "/recipes/media/wordpress/20426.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20414",
+      "sourceId": "20414",
+      "path": "/recipes/media/wordpress/20414.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20423",
+      "sourceId": "20423",
+      "path": "/recipes/media/wordpress/20423.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20415",
+      "sourceId": "20415",
+      "path": "/recipes/media/wordpress/20415.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:20416",
+      "sourceId": "20416",
+      "path": "/recipes/media/wordpress/20416.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20418",
+      "sourceId": "20418",
+      "path": "/recipes/media/wordpress/20418.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20417",
+      "sourceId": "20417",
+      "path": "/recipes/media/wordpress/20417.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

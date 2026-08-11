@@ -131,12 +131,17 @@ Use the repository's existing commands:
 ```sh
 npm ci
 npm run lint
-npm run build
+npm run check
+npm run build:ci
 ```
 
 - The current lockfile requires Node.js 22.13.0 or newer; `.nvmrc` is the
   source for the CI runtime.
-- Run the smallest relevant checks while iterating, then run lint and a production build before reporting an implementation complete.
+- Run the smallest relevant checks while iterating, then run `npm run check` and
+  `npm run build:ci` before reporting an implementation complete. `build:ci`
+  and `build:local` artifacts are nondeployable when Blob media is present;
+  deployment must use the guarded `npm run build:release` command with a
+  validated HTTPS `NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL`.
 - `npm test` runs the focused Node test suite, and CI runs `npm run check`.
 - Declare Node test-runner tests at module scope. Do not dynamically register a
   test inside another test; the outer test can finish before the nested test and

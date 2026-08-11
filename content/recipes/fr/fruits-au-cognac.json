@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26996",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26273",
+  "slug": "fruits-au-cognac",
+  "source": {
+    "system": "wordpress",
+    "postId": "26996",
+    "recipeId": "26996",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-fruits-au-cognac",
+    "createdAt": "2023-06-06T03:25:11+00:00",
+    "modifiedAt": "2023-06-06T03:33:21+00:00",
+    "editorialPostId": "26994",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "fruits-au-cognac",
+    "editorialCreatedAt": "2023-06-06T03:25:11+00:00",
+    "editorialModifiedAt": "2023-06-06T03:33:18+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Fruits au cognac",
+  "description": "Le cognac peut être remplacé par du whisky ou du brandy. Mais le cognac donne un goût et un arôme particulier et exquis!\n\nLes fruits et baies fraîches peuvent être remplacés par des fruits en conserves.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les pêches, les abricots, les cerises, les cassis et les ananas au cognac sont un excellent dessert aux fruits réservé aux adultes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Ces fruits au cognac peuvent être appréciés tout seuls ou combinés à un autre <a href=\"https://mycafegourmand.com/fr/recettes/desserts/\" target=\"_blank\" rel=\"noreferrer noopener\">dessert</a>. Vous pouvez ajouter de la noix de muscade et de la cannelle.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26996,\"template\":\"chic-template-french\",\"updated\":1686022391297} -->\n<!--WPRM Recipe 26996-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Fruits au cognac</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_7658.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Le cognac peut être remplacé par du whisky ou du brandy. Mais le cognac donne un goût et un arôme particulier et exquis!</p><p>Les fruits et baies fraîches peuvent être remplacés par des fruits en conserves. </p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 ananas</li><li>500 g abricots (ou pêches)</li><li>500 g griottes ou cassis noirs</li><li>250 g sucre</li><li>300 ml cognac</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Éplucher l&#039;ananas. Le couper au milieu puis couper en cubes. </p><p>Couper les abricots en deux et retirer les noyaux. Couper les moitiés d&#039;abricot en quartiers. </p><p>Verser les griottes (J&#039;utilise les cerises avec des noyaux). </p><p>Mettre tous les fruits et baies préparés dans un un grand bocal en verre avec un couvercle. </p><p>Ajouter le sucre.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_1488.Blog_-150x150.png\"/><br /></li><li><p>Verser le cognac et fermer le couvercle.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_0326.Blog_-150x150.png\"/><br /></li><li><p>Laisser infuser 21 jours dans un endroit frais et sombre. </p><p>Secouer doucement le bocal deux fois par semaine.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_3072.Blog_-150x150.png\"/><br /></li><li><p>Après 21 jours, séparer les fruits du liquide. Égoutter et garder le liquide qui peut être utilisé comme starter pour faire du pain.</p><p>Les fruits et les baies peuvent être utilisés comme dessert.</p><p>Note: je n&#039;ai jamais essayé de faire du pain avec. On déguste tel quel: d&#039;abord les fruits puis on boit le  liquide! </p><p> </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_7675.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Les pêches, les abricots, les cerises, les cassis et les ananas au cognac sont un excellent dessert aux fruits réservé aux adultes."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24042",
+      "sourceTaxonomyId": "24042",
+      "name": "sucre",
+      "slug": "sucre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26274",
+      "sourceTaxonomyId": "26274",
+      "name": "ananas",
+      "slug": "ananas"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26275",
+      "sourceTaxonomyId": "26275",
+      "name": "abricots (ou pêches)",
+      "slug": "abricots-ou-peches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26276",
+      "sourceTaxonomyId": "26276",
+      "name": "griottes ou cassis noirs",
+      "slug": "griottes-ou-cassis-noirs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26277",
+      "sourceTaxonomyId": "26277",
+      "name": "cognac",
+      "slug": "cognac"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "114",
+      "sourceTaxonomyId": "114",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1434",
+      "sourceTaxonomyId": "1434",
+      "name": "ananas en conserve",
+      "slug": "ananas-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2183",
+      "sourceTaxonomyId": "2183",
+      "name": "fruits rouges",
+      "slug": "fruits-rouges"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2348",
+      "sourceTaxonomyId": "2348",
+      "name": "boisson",
+      "slug": "boisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2553",
+      "sourceTaxonomyId": "2553",
+      "name": "fruits rouges surgelees",
+      "slug": "fruits-rouges-surgelees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5598",
+      "sourceTaxonomyId": "5598",
+      "name": "dessert elegant",
+      "slug": "dessert-elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6743",
+      "sourceTaxonomyId": "6743",
+      "name": "cognac",
+      "slug": "cognac"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6802",
+      "sourceTaxonomyId": "6802",
+      "name": "boisson de fete",
+      "slug": "boisson-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8249",
+      "sourceTaxonomyId": "8249",
+      "name": "boisson pour dame",
+      "slug": "boisson-pour-dame"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8251",
+      "sourceTaxonomyId": "8251",
+      "name": "boisson agreable",
+      "slug": "boisson-agreable"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8253",
+      "sourceTaxonomyId": "8253",
+      "name": "cocktail",
+      "slug": "cocktail-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25584",
+      "sourceTaxonomyId": "25584",
+      "name": "cerises",
+      "slug": "cerises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25591",
+      "sourceTaxonomyId": "25591",
+      "name": "cerise griotte",
+      "slug": "cerise-griotte"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25620",
+      "sourceTaxonomyId": "25620",
+      "name": "comment preparer",
+      "slug": "comment-preparer"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26278",
+      "sourceTaxonomyId": "26278",
+      "name": "fruits au cognac",
+      "slug": "fruits-au-cognac"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10",
+      "value": 10,
+      "unit": null,
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "30250",
+        "minutes": 30250
+      },
+      "custom": {
+        "label": "Temps d'infusion",
+        "duration": {
+          "raw": "30240",
+          "minutes": 30240
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26976",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 ananas",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "ananas",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "500 g abricots (ou pêches)",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "abricots (ou pêches)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 g griottes ou cassis noirs",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "griottes ou cassis noirs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "250 g sucre",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sucre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "300 ml cognac",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "cognac",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Éplucher l'ananas. Le couper au milieu puis couper en cubes.\n\nCouper les abricots en deux et retirer les noyaux. Couper les moitiés d'abricot en quartiers.\n\nVerser les griottes (J'utilise les cerises avec des noyaux).\n\nMettre tous les fruits et baies préparés dans un un grand bocal en verre avec un couvercle.\n\nAjouter le sucre.",
+            "mediaId": "wordpress-attachment:26962"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Verser le cognac et fermer le couvercle.",
+            "mediaId": "wordpress-attachment:26961"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Laisser infuser 21 jours dans un endroit frais et sombre.\n\nSecouer doucement le bocal deux fois par semaine.",
+            "mediaId": "wordpress-attachment:26963"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Après 21 jours, séparer les fruits du liquide. Égoutter et garder le liquide qui peut être utilisé comme starter pour faire du pain.\n\nLes fruits et les baies peuvent être utilisés comme dessert.\n\nNote: je n'ai jamais essayé de faire du pain avec. On déguste tel quel: d'abord les fruits puis on boit le liquide!",
+            "mediaId": "wordpress-attachment:26977"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26976",
+      "sourceId": "26976",
+      "path": "/recipes/media/wordpress/26976.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26962",
+      "sourceId": "26962",
+      "path": "/recipes/media/wordpress/26962.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26961",
+      "sourceId": "26961",
+      "path": "/recipes/media/wordpress/26961.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26963",
+      "sourceId": "26963",
+      "path": "/recipes/media/wordpress/26963.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26977",
+      "sourceId": "26977",
+      "path": "/recipes/media/wordpress/26977.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

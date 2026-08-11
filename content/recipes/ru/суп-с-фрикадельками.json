@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22842",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:1141",
+  "slug": "суп-с-фрикадельками",
+  "source": {
+    "system": "wordpress",
+    "postId": "22842",
+    "recipeId": "22842",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d1%8b%d0%b9-%d1%81%d1%83%d0%bf-%d1%81-%d1%84%d1%80%d0%b8%d0%ba%d0%b0%d0%b4%d0%b5%d0%bb%d1%8c%d0%ba%d0%b0%d0%bc%d0%b8",
+    "createdAt": "2018-02-26T07:34:43+00:00",
+    "modifiedAt": "2022-07-04T20:30:38+00:00",
+    "editorialPostId": "3599",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%81%d1%83%d0%bf-%d1%81-%d1%84%d1%80%d0%b8%d0%ba%d0%b0%d0%b4%d0%b5%d0%bb%d1%8c%d0%ba%d0%b0%d0%bc%d0%b8",
+    "editorialCreatedAt": "2018-02-26T07:34:43+00:00",
+    "editorialModifiedAt": "2022-07-04T20:30:35+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Быстрый суп с фрикадельками",
+  "description": "Обжаренные лук и морковь придают супу красивый, золотистый цвет. Если Вы хотите более легкий вариант, не обжаривайте овощи, добавьте их сырыми и поварите суп чуть дольше, чтобы они успели свариться.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Приготовление супа с фрикадельками занимает примерно 30 минут. Существует множество вариантов, вот один из них, с картошкой, рисом и фрикадельками из индейки и говядины. Для более насыщенного вкуса, можно добавить кубики куриного бульона, в этом случае, не надо дополнительно солить и перчить суп.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22842,\"template\":\"chic-template-russian\",\"updated\":1634855055283} -->\n<!--WPRM Recipe 22842-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Быстрый суп с фрикадельками</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/27045291_10211502329256253_1965646498_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tОбжаренные лук и морковь придают супу красивый, золотистый цвет. Если Вы хотите более легкий вариант, не обжаривайте овощи, добавьте их сырыми и поварите суп чуть дольше, чтобы они успели свариться.\r\n\r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Фрикадельки</h4><ul><li>220 г фарша индейки</li><li>220 г фарша говядины</li><li>1/2 луковицы</li><li>Соль (по вкусу)</li></ul><h4>Суп</h4><ul><li>2,5 л воды</li><li>5  картофелин</li><li>3 ст.л. риса</li><li>2  кубика  куриного бульона (по желанию)</li><li>2 ст.л. растительного масла</li><li>1/2 луковицы</li><li>1 морковка</li><li>Соль и молотый перец</li><li>Немного свежей петрушки</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Почистить лук, картошку и морковку. Лук мелко порезать, картофель порезать небольшими кубиками, морковку натереть на крупной терке.</li><li>Фарш посолить, добавить лук и очень хорошо перемешать. Слепить фрикадельки 2-3 см диаметром.</li><li>Налить в кастрюлю воду, поставить на огонь и довести до кипения. По одной, опустить в воду фрикадельки. Когда вода снова закипит, а все фрикадельки всплыли на поверхность, уменьшить огонь и снять пенку.</li><li>Добавить в кастрюлю картофель, рис и кубики бульона. Варить на небольшом огне примерно 15 минут. </li><li>Пока варится суп, разогреть в сковороде растительное масло и обжарить в нем лук и морковь.</li><li>Добавить в суп обжаренные овощи. Варить еще 3 минуты.</li><li>Попробовать суп, если надо, посолить и поперчить. Снять кастрюлю с огня и добавить петрушку. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/27394358_10211502567662213_551305433_n.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Супы</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24845",
+      "sourceTaxonomyId": "24845",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24808",
+      "sourceTaxonomyId": "24808",
+      "name": "растительного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24851",
+      "sourceTaxonomyId": "24851",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24871",
+      "sourceTaxonomyId": "24871",
+      "name": "Соль и молотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24872",
+      "sourceTaxonomyId": "24872",
+      "name": "луковицы",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24994",
+      "sourceTaxonomyId": "24994",
+      "name": "Соль",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25005",
+      "sourceTaxonomyId": "25005",
+      "name": "свежей петрушки",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25170",
+      "sourceTaxonomyId": "25170",
+      "name": "картофелин",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25178",
+      "sourceTaxonomyId": "25178",
+      "name": "фарша индейки",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88%d0%b0-%d0%b8%d0%bd%d0%b4%d0%b5%d0%b9%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25179",
+      "sourceTaxonomyId": "25179",
+      "name": "фарша говядины",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88%d0%b0-%d0%b3%d0%be%d0%b2%d1%8f%d0%b4%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25180",
+      "sourceTaxonomyId": "25180",
+      "name": "риса",
+      "slug": "%d1%80%d0%b8%d1%81%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25181",
+      "sourceTaxonomyId": "25181",
+      "name": "куриного бульона",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d0%be%d0%b3%d0%be-%d0%b1%d1%83%d0%bb%d1%8c%d0%be%d0%bd%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25182",
+      "sourceTaxonomyId": "25182",
+      "name": "морковка",
+      "slug": "%d0%bc%d0%be%d1%80%d0%ba%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "94",
+      "sourceTaxonomyId": "94",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1862",
+      "sourceTaxonomyId": "1862",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "342",
+      "sourceTaxonomyId": "342",
+      "name": "луковицы",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "985",
+      "sourceTaxonomyId": "985",
+      "name": "Соль и молотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1022",
+      "sourceTaxonomyId": "1022",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1024",
+      "sourceTaxonomyId": "1024",
+      "name": "растительного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1878",
+      "sourceTaxonomyId": "1878",
+      "name": "Соль",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1880",
+      "sourceTaxonomyId": "1880",
+      "name": "куриного бульона",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d0%be%d0%b3%d0%be-%d0%b1%d1%83%d0%bb%d1%8c%d0%be%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1882",
+      "sourceTaxonomyId": "1882",
+      "name": "риса",
+      "slug": "%d1%80%d0%b8%d1%81%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1884",
+      "sourceTaxonomyId": "1884",
+      "name": "морковка",
+      "slug": "%d0%bc%d0%be%d1%80%d0%ba%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1917",
+      "sourceTaxonomyId": "1917",
+      "name": "фарша индейки",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88%d0%b0-%d0%b8%d0%bd%d0%b4%d0%b5%d0%b9%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1919",
+      "sourceTaxonomyId": "1919",
+      "name": "фарша говядины",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88%d0%b0-%d0%b3%d0%be%d0%b2%d1%8f%d0%b4%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1941",
+      "sourceTaxonomyId": "1941",
+      "name": "свежей петрушки",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2876",
+      "sourceTaxonomyId": "2876",
+      "name": "картофелин",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1556",
+      "sourceTaxonomyId": "1556",
+      "name": "суп",
+      "slug": "%d1%81%d1%83%d0%bf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1558",
+      "sourceTaxonomyId": "1558",
+      "name": "фрикадельки",
+      "slug": "%d1%84%d1%80%d0%b8%d0%ba%d0%b0%d0%b4%d0%b5%d0%bb%d1%8c%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1864",
+      "sourceTaxonomyId": "1864",
+      "name": "быстрый рецепт",
+      "slug": "%d0%b1%d1%8b%d1%81%d1%82%d1%80%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1866",
+      "sourceTaxonomyId": "1866",
+      "name": "фарш",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1868",
+      "sourceTaxonomyId": "1868",
+      "name": "рис",
+      "slug": "%d1%80%d0%b8%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1870",
+      "sourceTaxonomyId": "1870",
+      "name": "индейка",
+      "slug": "%d0%b8%d0%bd%d0%b4%d0%b5%d0%b9%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1872",
+      "sourceTaxonomyId": "1872",
+      "name": "кубик бульона",
+      "slug": "%d0%ba%d1%83%d0%b1%d0%b8%d0%ba-%d0%b1%d1%83%d0%bb%d1%8c%d0%be%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4930",
+      "sourceTaxonomyId": "4930",
+      "name": "sup s frikadelkami",
+      "slug": "sup-s-frikadelkami"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4932",
+      "sourceTaxonomyId": "4932",
+      "name": "detskij sup",
+      "slug": "detskij-sup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4934",
+      "sourceTaxonomyId": "4934",
+      "name": "deti liubiat",
+      "slug": "deti-liubiat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6826",
+      "sourceTaxonomyId": "6826",
+      "name": "для детей",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%b4%d0%b5%d1%82%d0%b5%d0%b9"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2978",
+    "ingredientGroups": [
+      {
+        "name": "Фрикадельки",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "220 г фарша индейки",
+            "quantity": {
+              "raw": "220 г",
+              "value": 220,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "фарша индейки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "220 г фарша говядины",
+            "quantity": {
+              "raw": "220 г",
+              "value": 220,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "фарша говядины",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 луковицы",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "луковицы",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Соль по вкусу",
+            "quantity": null,
+            "name": "Соль",
+            "notes": "по вкусу"
+          }
+        ]
+      },
+      {
+        "name": "Суп",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2,5 л воды",
+            "quantity": {
+              "raw": "2,5 л",
+              "unit": "л",
+              "scalable": false
+            },
+            "name": "воды",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "5 картофелин",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "картофелин",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 ст.л. риса",
+            "quantity": {
+              "raw": "3 ст.л.",
+              "value": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "риса",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 кубика куриного бульона по желанию",
+            "quantity": {
+              "raw": "2 кубика",
+              "value": 2,
+              "unit": "кубика",
+              "scalable": true
+            },
+            "name": "куриного бульона",
+            "notes": "по желанию"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 ст.л. растительного масла",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "растительного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 луковицы",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "луковицы",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 морковка",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "морковка",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Соль и молотый перец",
+            "quantity": null,
+            "name": "Соль и молотый перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Немного свежей петрушки",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "свежей петрушки",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Почистить лук, картошку и морковку. Лук мелко порезать, картофель порезать небольшими кубиками, морковку натереть на крупной терке.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Фарш посолить, добавить лук и очень хорошо перемешать. Слепить фрикадельки 2-3 см диаметром.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Налить в кастрюлю воду, поставить на огонь и довести до кипения. По одной, опустить в воду фрикадельки. Когда вода снова закипит, а все фрикадельки всплыли на поверхность, уменьшить огонь и снять пенку.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Добавить в кастрюлю картофель, рис и кубики бульона. Варить на небольшом огне примерно 15 минут.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Пока варится суп, разогреть в сковороде растительное масло и обжарить в нем лук и морковь.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Добавить в суп обжаренные овощи. Варить еще 3 минуты.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Попробовать суп, если надо, посолить и поперчить. Снять кастрюлю с огня и добавить петрушку.",
+            "mediaId": "wordpress-attachment:2977"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2978",
+      "sourceId": "2978",
+      "path": "/recipes/media/wordpress/2978.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:2977",
+      "sourceId": "2977",
+      "path": "/recipes/media/wordpress/2977.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

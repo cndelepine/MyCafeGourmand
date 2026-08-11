@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21993",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:7837",
+  "slug": "pruneaux-au-prosciutto",
+  "source": {
+    "system": "wordpress",
+    "postId": "21993",
+    "recipeId": "21993",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pruneaux-au-prosciutto",
+    "createdAt": "2023-11-15T18:36:00+00:00",
+    "modifiedAt": "2023-11-21T22:49:29+00:00",
+    "editorialPostId": "12978",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pruneaux-au-prosciutto",
+    "editorialCreatedAt": "2023-11-15T18:36:00+00:00",
+    "editorialModifiedAt": "2023-11-21T22:49:29+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Pruneaux au prosciutto",
+  "description": "Il est possible de cuire les pruneaux au prosciutto dans une poêle mais c'est meilleur et plus facile de les préparer au four.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les pruneaux d’Agen sont entourés par de fines tranches de jambon cru italien, du prosciutto. Facile à préparer et rapide à cuisiner ! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21993,\"template\":\"chic-template-french\",\"updated\":1659211818317} -->\n<!--WPRM Recipe 21993-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pruneaux au prosciutto</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_1261.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIl est possible de cuire les pruneaux au prosciutto dans une poêle mais c'est meilleur et plus facile de les préparer au four.\r\n\r\n\r\n\r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>7 fines tranches de prosciutto</li><li>20 pruneaux secs (pruneaux d’Agen) (dénoyautés)</li><li>20 piques en bois</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 240°C (thermostat 8) et recouvrir une plaque à pâtisserie de papier sulfurisé ou de papier aluminium.</li><li>Couper les tranches de prosciutto en trois dans la longueur.\r\n   \r\n   <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9734.Blog_-150x150.png\"/><br /></li><li>Entourer chaque pruneau d'une lanière de prosciutto.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9738.Blog_-150x150.png\"/><br /></li><li>Fixer avec une pique en bois.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9740.Blog_-150x150.png\"/><br /></li><li>Déposer les bouchées sur la plaque et faire cuire au four pendant 3-5 minutes.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9748.Blog_-150x150.png\"/><br /></li><li>Servir aussitôt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_1262.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24664",
+      "sourceTaxonomyId": "24664",
+      "name": "de prosciutto",
+      "slug": "de-prosciutto"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24665",
+      "sourceTaxonomyId": "24665",
+      "name": "pruneaux secs (pruneaux d’Agen)",
+      "slug": "pruneaux-secs-pruneaux-dagen"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24666",
+      "sourceTaxonomyId": "24666",
+      "name": "piques en bois",
+      "slug": "piques-en-bois"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7850",
+      "sourceTaxonomyId": "7850",
+      "name": "de prosciutto",
+      "slug": "de-prosciutto"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7852",
+      "sourceTaxonomyId": "7852",
+      "name": "pruneaux secs (pruneaux d’Agen)",
+      "slug": "pruneaux-secs-pruneaux-dagen"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7854",
+      "sourceTaxonomyId": "7854",
+      "name": "piques en bois",
+      "slug": "piques-en-bois"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2653",
+      "sourceTaxonomyId": "2653",
+      "name": "facile et rapide",
+      "slug": "facile-et-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7743",
+      "sourceTaxonomyId": "7743",
+      "name": "recette en images",
+      "slug": "recette-en-images"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7838",
+      "sourceTaxonomyId": "7838",
+      "name": "bouchee",
+      "slug": "bouchee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7840",
+      "sourceTaxonomyId": "7840",
+      "name": "prosciutto",
+      "slug": "prosciutto"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7842",
+      "sourceTaxonomyId": "7842",
+      "name": "sucre-sale",
+      "slug": "sucre-sale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7846",
+      "sourceTaxonomyId": "7846",
+      "name": "pruneaux d’Agen",
+      "slug": "pruneaux-dagen"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7848",
+      "sourceTaxonomyId": "7848",
+      "name": "pruneaux dénoyautés",
+      "slug": "pruneaux-denoyautes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7856",
+      "sourceTaxonomyId": "7856",
+      "name": "jambon cru",
+      "slug": "jambon-cru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7858",
+      "sourceTaxonomyId": "7858",
+      "name": "jambon italien",
+      "slug": "jambon-italien"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12967",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "7 fines tranches de prosciutto",
+            "quantity": {
+              "raw": "7 fines tranches",
+              "value": 7,
+              "unit": "fines tranches",
+              "scalable": true
+            },
+            "name": "de prosciutto",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "20 pruneaux secs (pruneaux d’Agen) dénoyautés",
+            "quantity": {
+              "raw": "20",
+              "value": 20,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pruneaux secs (pruneaux d’Agen)",
+            "notes": "dénoyautés"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "20 piques en bois",
+            "quantity": {
+              "raw": "20",
+              "value": 20,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "piques en bois",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 240°C (thermostat 8) et recouvrir une plaque à pâtisserie de papier sulfurisé ou de papier aluminium.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper les tranches de prosciutto en trois dans la longueur.",
+            "mediaId": "wordpress-attachment:12963"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Entourer chaque pruneau d'une lanière de prosciutto.",
+            "mediaId": "wordpress-attachment:12964"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Fixer avec une pique en bois.",
+            "mediaId": "wordpress-attachment:12965"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Déposer les bouchées sur la plaque et faire cuire au four pendant 3-5 minutes.",
+            "mediaId": "wordpress-attachment:12966"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Servir aussitôt.",
+            "mediaId": "wordpress-attachment:12968"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12967",
+      "sourceId": "12967",
+      "path": "/recipes/media/wordpress/12967.png",
+      "alt": "Prunes with Prosciutto",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12963",
+      "sourceId": "12963",
+      "path": "/recipes/media/wordpress/12963.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12964",
+      "sourceId": "12964",
+      "path": "/recipes/media/wordpress/12964.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12965",
+      "sourceId": "12965",
+      "path": "/recipes/media/wordpress/12965.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12966",
+      "sourceId": "12966",
+      "path": "/recipes/media/wordpress/12966.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12968",
+      "sourceId": "12968",
+      "path": "/recipes/media/wordpress/12968.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

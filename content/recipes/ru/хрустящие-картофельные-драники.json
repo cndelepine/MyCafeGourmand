@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22730",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:5254",
+  "slug": "хрустящие-картофельные-драники",
+  "source": {
+    "system": "wordpress",
+    "postId": "22730",
+    "recipeId": "22730",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%85%d1%80%d1%83%d1%81%d1%82%d1%8f%d1%89%d0%b8%d0%b5-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%b4%d1%80%d0%b0%d0%bd%d0%b8%d0%ba%d0%b8",
+    "createdAt": "2018-06-01T15:21:24+00:00",
+    "modifiedAt": "2022-07-30T19:14:06+00:00",
+    "editorialPostId": "10959",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%85%d1%80%d1%83%d1%81%d1%82%d1%8f%d1%89%d0%b8%d0%b5-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%b4%d1%80%d0%b0%d0%bd%d0%b8%d0%ba%d0%b8",
+    "editorialCreatedAt": "2018-06-01T15:21:24+00:00",
+    "editorialModifiedAt": "2022-07-30T19:14:03+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Хрустящие картофельные драники",
+  "description": "Не жалейте масла для жарки, но снимая драники со сковороды, промокните их бумажным полотенцем.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p><span class=\"st\"> <span id=\":43t.15\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Драники</span> - оладьи на основе тертого картофеля, поджаренные на сковороде до румяной корочки.<span class=\"gmail-st\"> Вариантов этого блюда существует множество, в нашей семье лучше всего прижился этот рецепт: без лука, с добавлением кефира, муки, соды и яиц. <span id=\":43t.18\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Драники</span> получаются с хрустящей корочкой и очень нежные внутри.<br></span> </span> </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22730,\"template\":\"chic-template-russian\",\"updated\":1659208436190} -->\n<!--WPRM Recipe 22730-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Хрустящие картофельные драники</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180530_230540.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tНе жалейте масла для жарки, но снимая драники со сковороды, промокните их бумажным полотенцем.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 средних картофелины</li><li>2 яйца</li><li>50 мл кефира</li><li>1/2 ч.л. пищевой соли</li><li>1/2  ч.л. соли</li><li>1/2 ч.л. молотого черного перца</li><li>50 г муки</li><li>1/2 стакана растительного масла</li><li>Немного сметаны ((по желанию))</li><li>Немного свежей зелени ((по желанию))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Картофель натереть на крупной терке. Руками отжать лишнюю жидкость.</li><li>В большой миске взбить 2 яйца. Добавить кефир, соду, тертый картофель, соль, перец и муку. Все хорошо перемешать.</li><li>В большой сковороде разогреть растительное масло. Столовой ложкой выложить на сковороду картофельное тесто в виде оладушек, слегка приплюснуть тесто ложкой. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180530_230802.Blog_-150x150.png\"/><br /></li><li>На среднем огне обжарить драники с двух сторон до золотистого цвета.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/received_10212442291274716.Blog_-150x150.png\"/><br /></li><li>Подавать со сметаной и свежей зеленью.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24786",
+      "sourceTaxonomyId": "24786",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24808",
+      "sourceTaxonomyId": "24808",
+      "name": "растительного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24854",
+      "sourceTaxonomyId": "24854",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24923",
+      "sourceTaxonomyId": "24923",
+      "name": "свежей зелени",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25058",
+      "sourceTaxonomyId": "25058",
+      "name": "молотого черного перца",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%82%d0%be%d0%b3%d0%be-%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d0%bf%d0%b5%d1%80%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25123",
+      "sourceTaxonomyId": "25123",
+      "name": "средних картофелины",
+      "slug": "%d1%81%d1%80%d0%b5%d0%b4%d0%bd%d0%b8%d1%85-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25124",
+      "sourceTaxonomyId": "25124",
+      "name": "кефира",
+      "slug": "%d0%ba%d0%b5%d1%84%d0%b8%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25125",
+      "sourceTaxonomyId": "25125",
+      "name": "пищевой соли",
+      "slug": "%d0%bf%d0%b8%d1%89%d0%b5%d0%b2%d0%be%d0%b9-%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1438",
+      "sourceTaxonomyId": "1438",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "588",
+      "sourceTaxonomyId": "588",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "636",
+      "sourceTaxonomyId": "636",
+      "name": "молотого черного перца",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%82%d0%be%d0%b3%d0%be-%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d0%bf%d0%b5%d1%80%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "893",
+      "sourceTaxonomyId": "893",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1024",
+      "sourceTaxonomyId": "1024",
+      "name": "растительного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2831",
+      "sourceTaxonomyId": "2831",
+      "name": "средних картофелины",
+      "slug": "%d1%81%d1%80%d0%b5%d0%b4%d0%bd%d0%b8%d1%85-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3624",
+      "sourceTaxonomyId": "3624",
+      "name": "свежей зелени",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5329",
+      "sourceTaxonomyId": "5329",
+      "name": "кефира",
+      "slug": "%d0%ba%d0%b5%d1%84%d0%b8%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5343",
+      "sourceTaxonomyId": "5343",
+      "name": "пищевой соли",
+      "slug": "%d0%bf%d0%b8%d1%89%d0%b5%d0%b2%d0%be%d0%b9-%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1242",
+      "sourceTaxonomyId": "1242",
+      "name": "русская кухня",
+      "slug": "%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1286",
+      "sourceTaxonomyId": "1286",
+      "name": "картофель",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1288",
+      "sourceTaxonomyId": "1288",
+      "name": "картошка",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1500",
+      "sourceTaxonomyId": "1500",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3547",
+      "sourceTaxonomyId": "3547",
+      "name": "на сковороде",
+      "slug": "%d0%bd%d0%b0-%d1%81%d0%ba%d0%be%d0%b2%d0%be%d1%80%d0%be%d0%b4%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4936",
+      "sourceTaxonomyId": "4936",
+      "name": "na skovorode",
+      "slug": "na-skovorode"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5255",
+      "sourceTaxonomyId": "5255",
+      "name": "хрустящие картофельные драники",
+      "slug": "%d1%85%d1%80%d1%83%d1%81%d1%82%d1%8f%d1%89%d0%b8%d0%b5-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%b4%d1%80%d0%b0%d0%bd%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5259",
+      "sourceTaxonomyId": "5259",
+      "name": "хрустящяя корочка",
+      "slug": "%d1%85%d1%80%d1%83%d1%81%d1%82%d1%8f%d1%89%d1%8f%d1%8f-%d0%ba%d0%be%d1%80%d0%be%d1%87%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5261",
+      "sourceTaxonomyId": "5261",
+      "name": "со сметаной",
+      "slug": "%d1%81%d0%be-%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d0%be%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5263",
+      "sourceTaxonomyId": "5263",
+      "name": "тертый сырой картофель",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d1%8b%d0%b9-%d1%81%d1%8b%d1%80%d0%be%d0%b9-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5265",
+      "sourceTaxonomyId": "5265",
+      "name": "kartofelnye bliny",
+      "slug": "kartofelnye-bliny"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5267",
+      "sourceTaxonomyId": "5267",
+      "name": "kartofelnye oladi",
+      "slug": "kartofelnye-oladi"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5271",
+      "sourceTaxonomyId": "5271",
+      "name": "kartoshka",
+      "slug": "kartoshka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5273",
+      "sourceTaxonomyId": "5273",
+      "name": "kartofan",
+      "slug": "kartofan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5275",
+      "sourceTaxonomyId": "5275",
+      "name": "оладьи",
+      "slug": "%d0%be%d0%bb%d0%b0%d0%b4%d1%8c%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5277",
+      "sourceTaxonomyId": "5277",
+      "name": "деруны",
+      "slug": "%d0%b4%d0%b5%d1%80%d1%83%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5279",
+      "sourceTaxonomyId": "5279",
+      "name": "draniki",
+      "slug": "draniki-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6912",
+      "sourceTaxonomyId": "6912",
+      "name": "дети обожают",
+      "slug": "%d0%b4%d0%b5%d1%82%d0%b8-%d0%be%d0%b1%d0%be%d0%b6%d0%b0%d1%8e%d1%82"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 порции",
+      "value": 4,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10882",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 средних картофелины",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "средних картофелины",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 яйца",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 мл кефира",
+            "quantity": {
+              "raw": "50 мл",
+              "value": 50,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "кефира",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 ч.л. пищевой соли",
+            "quantity": {
+              "raw": "1/2 ч.л.",
+              "value": 0.5,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "пищевой соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 ч.л. соли",
+            "quantity": {
+              "raw": "1/2 ч.л.",
+              "value": 0.5,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 ч.л. молотого черного перца",
+            "quantity": {
+              "raw": "1/2 ч.л.",
+              "value": 0.5,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "молотого черного перца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "50 г муки",
+            "quantity": {
+              "raw": "50 г",
+              "value": 50,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/2 стакана растительного масла",
+            "quantity": {
+              "raw": "1/2 стакана",
+              "value": 0.5,
+              "unit": "стакана",
+              "scalable": true
+            },
+            "name": "растительного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Немного сметаны (по желанию)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "сметаны",
+            "notes": "(по желанию)"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Немного свежей зелени (по желанию)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "свежей зелени",
+            "notes": "(по желанию)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Картофель натереть на крупной терке. Руками отжать лишнюю жидкость.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "В большой миске взбить 2 яйца. Добавить кефир, соду, тертый картофель, соль, перец и муку. Все хорошо перемешать.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "В большой сковороде разогреть растительное масло. Столовой ложкой выложить на сковороду картофельное тесто в виде оладушек, слегка приплюснуть тесто ложкой.",
+            "mediaId": "wordpress-attachment:10886"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "На среднем огне обжарить драники с двух сторон до золотистого цвета.",
+            "mediaId": "wordpress-attachment:10887"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Подавать со сметаной и свежей зеленью.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10882",
+      "sourceId": "10882",
+      "path": "/recipes/media/wordpress/10882.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10886",
+      "sourceId": "10886",
+      "path": "/recipes/media/wordpress/10886.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10887",
+      "sourceId": "10887",
+      "path": "/recipes/media/wordpress/10887.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

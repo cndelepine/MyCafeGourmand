@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22056",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:9736",
+  "slug": "salade-de-riz-au-thon-et-aux-oeufs-durs",
+  "source": {
+    "system": "wordpress",
+    "postId": "22056",
+    "recipeId": "22056",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-de-riz-au-thon-et-aux-oeufs-durs",
+    "createdAt": "2024-03-31T02:10:00+00:00",
+    "modifiedAt": "2024-04-01T02:51:31+00:00",
+    "editorialPostId": "14495",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-de-riz-au-thon-et-aux-oeufs-durs",
+    "editorialCreatedAt": "2024-03-31T02:10:00+00:00",
+    "editorialModifiedAt": "2024-04-01T02:51:27+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Salade de riz au thon et aux œufs durs",
+  "description": "Pas la peine de mesurer la quantité d'ingrédients, vous pouvez en mettre plus ou moins selon vos envies (ou ce qu'il vous reste dans le frigo).",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p><br>Une salade composée de riz, de thon en conserve, maïs doux en conserve, œufs durs, tomates et un avocat. Assaisonnée de sel, de poivre et d’huile d’olive, ce plat est en même temps copieux et bon pour la santé. En plus, il n'y a pas de mayonnaise et c'est pratique pour finir le reste du riz.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Si vous aimez, essayez les autres <a href=\"https://mycafegourmand.com/fr/recettes/salades/\">salades sur mon site</a>!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22056,\"template\":\"chic-template-french\",\"updated\":1711939627389} -->\n<!--WPRM Recipe 22056-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade de riz au thon et aux œufs durs</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9066.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tPas la peine de mesurer la quantité d'ingrédients, vous pouvez en mettre plus ou moins selon vos envies (ou ce qu'il vous reste dans le frigo).\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 boîte de thon en conserve (égoutté)</li><li>100 g de riz (cuit)</li><li>1 boîte de maïs doux en conserve (égoutté)</li><li>2 tomates</li><li>1 avocat</li><li>1/4 oignon (rouge) (épluché et coupé en fines lamelles)</li><li>Sel et poivre du moulin</li><li>3 cuillères à soupe d'huile d'olive</li><li>2 œufs durs</li><li>Un peu de ciboulette (aneth, coriandre) (ciselée)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans un saladier, écraser le thon à la fourchette. Ajouter le riz et bien mélanger.</li><li>Couper l'avocat en deux, retirer le noyau et la peau. Couper la chair en cubes.</li><li>Dans le saladier, ajouter l'avocat, les tomates, l'oignon et le maïs. Mélanger délicatement. Saler, poivrer et arroser d'huile d'olive.</li><li>Écaler et couper les œufs durs en quatre. Les placer dessus sur la salade. Saupoudrer de ciboulette.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9066.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24488",
+      "sourceTaxonomyId": "24488",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24500",
+      "sourceTaxonomyId": "24500",
+      "name": "œufs durs",
+      "slug": "oeufs-durs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24557",
+      "sourceTaxonomyId": "24557",
+      "name": "de riz",
+      "slug": "de-riz"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24596",
+      "sourceTaxonomyId": "24596",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24697",
+      "sourceTaxonomyId": "24697",
+      "name": "de thon en conserve",
+      "slug": "de-thon-en-conserve"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24698",
+      "sourceTaxonomyId": "24698",
+      "name": "de maïs doux en conserve",
+      "slug": "de-mais-doux-en-conserve"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24699",
+      "sourceTaxonomyId": "24699",
+      "name": "avocat",
+      "slug": "avocat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24700",
+      "sourceTaxonomyId": "24700",
+      "name": "de ciboulette (aneth, coriandre)",
+      "slug": "de-ciboulette-aneth-coriandre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1188",
+      "sourceTaxonomyId": "1188",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "527",
+      "sourceTaxonomyId": "527",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1830",
+      "sourceTaxonomyId": "1830",
+      "name": "de riz",
+      "slug": "de-riz"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2143",
+      "sourceTaxonomyId": "2143",
+      "name": "avocat",
+      "slug": "avocat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2399",
+      "sourceTaxonomyId": "2399",
+      "name": "œufs durs",
+      "slug": "oeufs-durs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5824",
+      "sourceTaxonomyId": "5824",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10720",
+      "sourceTaxonomyId": "10720",
+      "name": "de thon en conserve",
+      "slug": "de-thon-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10722",
+      "sourceTaxonomyId": "10722",
+      "name": "de maïs doux en conserve",
+      "slug": "de-mais-doux-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10724",
+      "sourceTaxonomyId": "10724",
+      "name": "de ciboulette (aneth, coriandre)",
+      "slug": "de-ciboulette-aneth-coriandre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2157",
+      "sourceTaxonomyId": "2157",
+      "name": "avocat",
+      "slug": "avocat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3854",
+      "sourceTaxonomyId": "3854",
+      "name": "huile d'olive",
+      "slug": "huile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5964",
+      "sourceTaxonomyId": "5964",
+      "name": "sans mayonnaise",
+      "slug": "sans-mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7617",
+      "sourceTaxonomyId": "7617",
+      "name": "oignon rouge",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25618",
+      "sourceTaxonomyId": "25618",
+      "name": "quoi faire avec",
+      "slug": "quoi-faire-avec"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26300",
+      "sourceTaxonomyId": "26300",
+      "name": "salade gourmande",
+      "slug": "salade-gourmande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26665",
+      "sourceTaxonomyId": "26665",
+      "name": "quoi faire avec les oeufs apres",
+      "slug": "quoi-faire-avec-les-oeufs-apres"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:8789",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 boîte de thon en conserve égoutté",
+            "quantity": {
+              "raw": "1 boîte",
+              "value": 1,
+              "unit": "boîte",
+              "scalable": true
+            },
+            "name": "de thon en conserve",
+            "notes": "égoutté"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g de riz cuit",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de riz",
+            "notes": "cuit"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 boîte de maïs doux en conserve égoutté",
+            "quantity": {
+              "raw": "1 boîte",
+              "value": 1,
+              "unit": "boîte",
+              "scalable": true
+            },
+            "name": "de maïs doux en conserve",
+            "notes": "égoutté"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 tomates",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 avocat",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "avocat",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/4 oignon (rouge) épluché et coupé en fines lamelles",
+            "quantity": {
+              "raw": "1/4",
+              "value": 0.25,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon (rouge)",
+            "notes": "épluché et coupé en fines lamelles"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "3 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "2 œufs durs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs durs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Un peu de ciboulette (aneth, coriandre) ciselée",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de ciboulette (aneth, coriandre)",
+            "notes": "ciselée"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un saladier, écraser le thon à la fourchette. Ajouter le riz et bien mélanger.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper l'avocat en deux, retirer le noyau et la peau. Couper la chair en cubes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans le saladier, ajouter l'avocat, les tomates, l'oignon et le maïs. Mélanger délicatement. Saler, poivrer et arroser d'huile d'olive.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Écaler et couper les œufs durs en quatre. Les placer dessus sur la salade. Saupoudrer de ciboulette.",
+            "mediaId": "wordpress-attachment:8788"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8789",
+      "sourceId": "8789",
+      "path": "/recipes/media/wordpress/8789.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8788",
+      "sourceId": "8788",
+      "path": "/recipes/media/wordpress/8788.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

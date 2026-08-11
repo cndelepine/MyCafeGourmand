@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21307",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4526",
+  "slug": "buckwheat-crepes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21307",
+    "recipeId": "21307",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-buckwheat-crepes",
+    "createdAt": "2026-02-17T04:51:00+00:00",
+    "modifiedAt": "2026-02-17T22:31:34+00:00",
+    "editorialPostId": "11624",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "buckwheat-crepes",
+    "editorialCreatedAt": "2026-02-17T04:51:00+00:00",
+    "editorialModifiedAt": "2026-02-17T22:31:11+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Buckwheat Crepes",
+  "description": "One of the most common tips you're likely to encounter for this buckwheat pancakes is to let the batter rest for at least 2 hours. If overnight, cover with plastic wrap and refrigerate.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The \"Galettes de Sarrasin\" - traditional french buckwheat crepes that can be served with savory filling: <a href=\"https://mycafegourmand.com/recipe/french-buckwheat-crepes-with-ham-and-cheese\">ham &amp; cheese (Galette Jambon Fromage)</a>, veggies, eggs, mushrooms, salmon... &nbsp;The filling option is endless. My Breton husband loves them so much, he eats them plain with butter or with jam.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This recipe is gluten free!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21307,\"template\":\"chic-template-english\",\"updated\":1614136385571} -->\n<!--WPRM Recipe 21307-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Buckwheat Crepes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_8071.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tOne of the most common tips you're likely to encounter for this buckwheat pancakes is to let the batter rest for at least 2 hours. If overnight, cover with plastic wrap and refrigerate. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>250 g buckwheat flour (sifted)</li><li>1  tsp sea salt</li><li>350 ml milk</li><li>350 ml water</li><li>2 eggs</li><li>50 g melted butter</li><li>butter (for cooking)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Combine buckwheat flour with salt, milk and water together.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0353.Blog_-150x150.png\"/><br /></li><li>Add eggs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0355.Blog_-150x150.png\"/><br /></li><li>Add melted butter and whisk until smooth.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0356.Blog_-150x150.png\"/><br /></li><li>Cover with plastic and and let rest for 2 hours.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0413.Blog_-150x150.png\"/><br /></li><li>Heat a lightly buttered nonstick skillet over medium high heat. Add 1/4 cupful batter to skillet and immediately tilt to cover the bottom of the pan. Cook until edges start to dry and center is set, for about 30 seconds, lift with spatula and cook the other side for couple more seconds, move them to the cutting board.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_8288.Blog_-150x150.png\"/><br /></li><li>Always keep your eyes on the pan.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_8289.Blog_-150x150.png\"/><br /></li><li>Brush each crepe with butter and serve while they are still hot.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_8073.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24195",
+      "sourceTaxonomyId": "24195",
+      "name": "buckwheat flour",
+      "slug": "buckwheat-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24196",
+      "sourceTaxonomyId": "24196",
+      "name": "sea salt",
+      "slug": "sea-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24197",
+      "sourceTaxonomyId": "24197",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "509",
+      "sourceTaxonomyId": "509",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "664",
+      "sourceTaxonomyId": "664",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1176",
+      "sourceTaxonomyId": "1176",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5891",
+      "sourceTaxonomyId": "5891",
+      "name": "buckwheat flour",
+      "slug": "buckwheat-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8160",
+      "sourceTaxonomyId": "8160",
+      "name": "sea salt",
+      "slug": "sea-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4261",
+      "sourceTaxonomyId": "4261",
+      "name": "like in france",
+      "slug": "like-in-france"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5309",
+      "sourceTaxonomyId": "5309",
+      "name": "good for kids",
+      "slug": "good-for-kids"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5893",
+      "sourceTaxonomyId": "5893",
+      "name": "pancakes",
+      "slug": "pancakes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5895",
+      "sourceTaxonomyId": "5895",
+      "name": "buckwheat crepes",
+      "slug": "buckwheat-crepes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5897",
+      "sourceTaxonomyId": "5897",
+      "name": "french crepes",
+      "slug": "french-crepes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5901",
+      "sourceTaxonomyId": "5901",
+      "name": "saint-malo",
+      "slug": "saint-malo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5903",
+      "sourceTaxonomyId": "5903",
+      "name": "creperie",
+      "slug": "creperie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5905",
+      "sourceTaxonomyId": "5905",
+      "name": "buckwheat",
+      "slug": "buckwheat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5955",
+      "sourceTaxonomyId": "5955",
+      "name": "Breton",
+      "slug": "breton"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7036",
+      "sourceTaxonomyId": "7036",
+      "name": "french favorite",
+      "slug": "french-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7038",
+      "sourceTaxonomyId": "7038",
+      "name": "galette de sarrasin",
+      "slug": "galette-de-sarrasin-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8097",
+      "sourceTaxonomyId": "8097",
+      "name": "Galette Bretonne",
+      "slug": "galette-bretonne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8099",
+      "sourceTaxonomyId": "8099",
+      "name": "best recipe",
+      "slug": "best-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8101",
+      "sourceTaxonomyId": "8101",
+      "name": "very popular in france",
+      "slug": "very-popular-in-france"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8164",
+      "sourceTaxonomyId": "8164",
+      "name": "french buckwheat crepe breton",
+      "slug": "french-buckwheat-crepe-breton"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "12 crepes",
+      "value": 12,
+      "unit": "crepes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "145",
+        "minutes": 145
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11333",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g buckwheat flour sifted",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "buckwheat flour",
+            "notes": "sifted"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 tsp sea salt",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sea salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "350 ml milk",
+            "quantity": {
+              "raw": "350 ml",
+              "value": 350,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "350 ml water",
+            "quantity": {
+              "raw": "350 ml",
+              "value": 350,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 g melted butter",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "melted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "butter for cooking",
+            "quantity": null,
+            "name": "butter",
+            "notes": "for cooking"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Combine buckwheat flour with salt, milk and water together.",
+            "mediaId": "wordpress-attachment:11330"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add eggs.",
+            "mediaId": "wordpress-attachment:11331"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add melted butter and whisk until smooth.",
+            "mediaId": "wordpress-attachment:11354"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Cover with plastic and and let rest for 2 hours.",
+            "mediaId": "wordpress-attachment:11332"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Heat a lightly buttered nonstick skillet over medium high heat. Add 1/4 cupful batter to skillet and immediately tilt to cover the bottom of the pan. Cook until edges start to dry and center is set, for about 30 seconds, lift with spatula and cook the other side for couple more seconds, move them to the cutting board.",
+            "mediaId": "wordpress-attachment:11336"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Always keep your eyes on the pan.",
+            "mediaId": "wordpress-attachment:11337"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Brush each crepe with butter and serve while they are still hot.",
+            "mediaId": "wordpress-attachment:11334"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11333",
+      "sourceId": "11333",
+      "path": "/recipes/media/wordpress/11333.png",
+      "alt": "Французские блины из гречневой муки",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11330",
+      "sourceId": "11330",
+      "path": "/recipes/media/wordpress/11330.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11331",
+      "sourceId": "11331",
+      "path": "/recipes/media/wordpress/11331.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11354",
+      "sourceId": "11354",
+      "path": "/recipes/media/wordpress/11354.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11332",
+      "sourceId": "11332",
+      "path": "/recipes/media/wordpress/11332.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:11336",
+      "sourceId": "11336",
+      "path": "/recipes/media/wordpress/11336.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11337",
+      "sourceId": "11337",
+      "path": "/recipes/media/wordpress/11337.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11334",
+      "sourceId": "11334",
+      "path": "/recipes/media/wordpress/11334.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

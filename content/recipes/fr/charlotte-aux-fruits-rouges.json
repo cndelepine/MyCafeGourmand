@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22161",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2548",
+  "slug": "charlotte-aux-fruits-rouges",
+  "source": {
+    "system": "wordpress",
+    "postId": "22161",
+    "recipeId": "22161",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-charlotte-aux-fruits-rouges",
+    "createdAt": "2018-05-13T13:30:00+00:00",
+    "modifiedAt": "2022-07-30T19:02:35+00:00",
+    "editorialPostId": "4906",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "charlotte-aux-fruits-rouges",
+    "editorialCreatedAt": "2018-05-13T13:30:00+00:00",
+    "editorialModifiedAt": "2022-07-30T19:02:33+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Charlotte aux fruits rouges",
+  "description": "La quantité de sucre dépend de l'acidité des fruits rouges. Goûtez-les en préparant le coulis.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Cette superbe charlotte aux fruits rouges est moins compliquée à préparer que ce que l'on pourrait croire, surtout si vous utilisez les boudoirs (biscuits à la cuillère) tout <span id=\":r1.22\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">prêt</span> du commerce. En hiver, quand les fruits rouges ne sont pas bons (et <span id=\":r1.23\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">très</span> <span id=\":r1.24\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">chers</span>), j'utilise des fruits <span id=\":r1.25\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">surgelés</span> pour la mousse et des fruits frais pour la <span id=\":r1.26\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">décoration</span>. En <span id=\":r1.27\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">été</span>, bien sûr, que des fruits frais ! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22161,\"template\":\"chic-template-french\",\"updated\":1659207746029} -->\n<!--WPRM Recipe 22161-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Charlotte aux fruits rouges</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7928.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLa quantité de sucre dépend de l'acidité des fruits rouges. Goûtez-les en préparant le coulis. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>500 g de fruits rouges (framboises, fraises, myrtilles, mûres, cerises) (lavés et séchés )</li><li>50-70 g de sucre en poudre ((la quantité de sucre dépend de l'acidité des fruits))</li><li>500 ml de crème liquide entière ( très froide)</li><li>8 g  de gélatine (4 feuilles)</li><li>24 boudoirs (biscuits à la cuillère)</li></ul><h4>Pour la décoration</h4><ul><li>1 cuillère à soupe de cacao en poudre ((facultatif))</li><li>1 barquette de fruits rouges frais (lavés et séchés )</li><li>Quelques feuilles de menthe ((facultatif))</li><li>Un peu de chantilly ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Saupoudrer les fruits rouges de sucre et les réduire en coulis. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7889.Blog_-150x150.png\"/><br /></li><li>Passer le coulis au travers d'une passoire afin d'enlever les pépins.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7891.Blog_-150x150.png\"/><br /></li><li>Verser un peu de coulis dans une assiette (pour tremper les biscuits) et réserver le reste pour plus tard.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7892.Blog_-150x150.png\"/><br /></li><li>Ramollir la gélatine dans 4-5 cuillères d'eau froide. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7895.Blog_-150x150.png\"/><br /></li><li>Faire chauffer le coulis (sans le bouillir) puis bien le mélanger avec la gélatine gonflée. Laisser refroidir à température ambiante. \r\nEn attendant que le mélange refroidisse, s'occuper de la préparation des biscuits (étapes 8-12).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7899.Blog_-150x150.png\"/><br /></li><li>Monter la crème très froide en chantilly. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7901.Blog_-150x150.png\"/><br /></li><li>Mélanger délicatement le coulis refroidi et la chantilly avec une spatule.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7903.Blog_-150x150.png\"/><br /></li><li>Tapisser le fond d'un moule d'une feuille de papier sulfurisé ou d'un film alimentaire.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7904.Blog_-150x150.png\"/><br /></li><li>Décider la hauteur de la charlotte<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7905.Blog_-150x150.png\"/><br /></li><li>Couper les biscuits à la hauteur du moule à manqué (ou utiliser un moule à charlotte). <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7907.Blog_-150x150.png\"/><br /></li><li>En procédant un par un, faire tremper le côté intérieur des biscuits dans le coulis, et les arranger dans le moule en les serrant bien les uns contre les autres.\r\nUtiliser les petits morceaux restants pour couvrir le fond.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7909.Blog_-150x150.png\"/><br /></li><li>S'il faut, couper le dernier biscuit en deux dans la longueur,<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7910.Blog_-150x150.png\"/><br /></li><li>Verser la mousse à l'intérieur de cette coque de biscuits et égaliser la surface. Couvrir la charlotte avec un film alimentaire et la placer au réfrigérateur pour 6 heures ou une nuit.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7913.Blog_-150x150.png\"/><br /></li><li>Délicatement démouler la charlotte sur un plat de service. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7915.Blog_-150x150.png\"/><br /></li><li>Saupoudrer de cacao.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7917.Blog_-150x150.png\"/><br /></li><li>Décorer avec les fruits, les feuilles de menthe et la chantilly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180202_112658.Blog_-150x150.png\"/><br /></li><li>Si vous voulez, enlacer le gâteau avec un ruban.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7927.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24436",
+      "sourceTaxonomyId": "24436",
+      "name": "de chantilly",
+      "slug": "de-chantilly"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24539",
+      "sourceTaxonomyId": "24539",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24672",
+      "sourceTaxonomyId": "24672",
+      "name": "de menthe",
+      "slug": "de-menthe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24748",
+      "sourceTaxonomyId": "24748",
+      "name": "de fruits rouges (framboises, fraises, myrtilles, mûres, cerises)",
+      "slug": "de-fruits-rouges-framboises-fraises-myrtilles-mures-cerises"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24762",
+      "sourceTaxonomyId": "24762",
+      "name": "de gélatine (4 feuilles)",
+      "slug": "de-gelatine-4-feuilles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24763",
+      "sourceTaxonomyId": "24763",
+      "name": "boudoirs (biscuits à la cuillère)",
+      "slug": "boudoirs-biscuits-a-la-cuillere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24764",
+      "sourceTaxonomyId": "24764",
+      "name": "de fruits rouges frais",
+      "slug": "de-fruits-rouges-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "709",
+      "sourceTaxonomyId": "709",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2557",
+      "sourceTaxonomyId": "2557",
+      "name": "de fruits rouges (framboises, fraises, myrtilles, mûres, cerises)",
+      "slug": "de-fruits-rouges-framboises-fraises-myrtilles-mures-cerises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2561",
+      "sourceTaxonomyId": "2561",
+      "name": "boudoirs (biscuits à la cuillère)",
+      "slug": "boudoirs-biscuits-a-la-cuillere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2563",
+      "sourceTaxonomyId": "2563",
+      "name": "de fruits rouges frais",
+      "slug": "de-fruits-rouges-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2565",
+      "sourceTaxonomyId": "2565",
+      "name": "de menthe",
+      "slug": "de-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2567",
+      "sourceTaxonomyId": "2567",
+      "name": "de chantilly",
+      "slug": "de-chantilly"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3862",
+      "sourceTaxonomyId": "3862",
+      "name": "de gélatine (4 feuilles)",
+      "slug": "de-gelatine-4-feuilles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1246",
+      "sourceTaxonomyId": "1246",
+      "name": "mousse",
+      "slug": "mousse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2181",
+      "sourceTaxonomyId": "2181",
+      "name": "chantilly",
+      "slug": "chantilly"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2183",
+      "sourceTaxonomyId": "2183",
+      "name": "fruits rouges",
+      "slug": "fruits-rouges"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2549",
+      "sourceTaxonomyId": "2549",
+      "name": "boudoirs",
+      "slug": "boudoirs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2551",
+      "sourceTaxonomyId": "2551",
+      "name": "biscuits a la cuillère",
+      "slug": "biscuits-a-la-cuillere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2553",
+      "sourceTaxonomyId": "2553",
+      "name": "fruits rouges surgelees",
+      "slug": "fruits-rouges-surgelees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2555",
+      "sourceTaxonomyId": "2555",
+      "name": "charlotte",
+      "slug": "charlotte-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3398",
+      "sourceTaxonomyId": "3398",
+      "name": "gateau de fete",
+      "slug": "gateau-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4888",
+      "sourceTaxonomyId": "4888",
+      "name": "gelatine",
+      "slug": "gelatine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7221",
+      "sourceTaxonomyId": "7221",
+      "name": "beau gateau",
+      "slug": "beau-gateau"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "rest": null,
+      "total": {
+        "raw": "393",
+        "minutes": 393
+      },
+      "custom": {
+        "label": "Temps de repos",
+        "duration": {
+          "raw": "360",
+          "minutes": 360
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:4893",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "500 g de fruits rouges (framboises, fraises, myrtilles, mûres, cerises) lavés et séchés",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de fruits rouges (framboises, fraises, myrtilles, mûres, cerises)",
+            "notes": "lavés et séchés"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "50-70 g de sucre en poudre (la quantité de sucre dépend de l'acidité des fruits)",
+            "quantity": {
+              "raw": "50-70 g",
+              "min": 50,
+              "max": 70,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": "(la quantité de sucre dépend de l'acidité des fruits)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 ml de crème liquide entière très froide",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": "très froide"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "8 g de gélatine (4 feuilles)",
+            "quantity": {
+              "raw": "8 g",
+              "value": 8,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de gélatine (4 feuilles)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "24 boudoirs (biscuits à la cuillère)",
+            "quantity": {
+              "raw": "24",
+              "value": 24,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "boudoirs (biscuits à la cuillère)",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Pour la décoration",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 cuillère à soupe de cacao en poudre (facultatif)",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de cacao en poudre",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 barquette de fruits rouges frais lavés et séchés",
+            "quantity": {
+              "raw": "1 barquette",
+              "value": 1,
+              "unit": "barquette",
+              "scalable": true
+            },
+            "name": "de fruits rouges frais",
+            "notes": "lavés et séchés"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Quelques feuilles de menthe (facultatif)",
+            "quantity": {
+              "raw": "Quelques feuilles",
+              "unit": "feuilles",
+              "scalable": false
+            },
+            "name": "de menthe",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un peu de chantilly (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de chantilly",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Saupoudrer les fruits rouges de sucre et les réduire en coulis.",
+            "mediaId": "wordpress-attachment:4854"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Passer le coulis au travers d'une passoire afin d'enlever les pépins.",
+            "mediaId": "wordpress-attachment:4855"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Verser un peu de coulis dans une assiette (pour tremper les biscuits) et réserver le reste pour plus tard.",
+            "mediaId": "wordpress-attachment:4856"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ramollir la gélatine dans 4-5 cuillères d'eau froide.",
+            "mediaId": "wordpress-attachment:4857"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Faire chauffer le coulis (sans le bouillir) puis bien le mélanger avec la gélatine gonflée. Laisser refroidir à température ambiante.\nEn attendant que le mélange refroidisse, s'occuper de la préparation des biscuits (étapes 8-12).",
+            "mediaId": "wordpress-attachment:4858"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Monter la crème très froide en chantilly.",
+            "mediaId": "wordpress-attachment:4859"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Mélanger délicatement le coulis refroidi et la chantilly avec une spatule.",
+            "mediaId": "wordpress-attachment:4860"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Tapisser le fond d'un moule d'une feuille de papier sulfurisé ou d'un film alimentaire.",
+            "mediaId": "wordpress-attachment:4861"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Décider la hauteur de la charlotte",
+            "mediaId": "wordpress-attachment:4870"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Couper les biscuits à la hauteur du moule à manqué (ou utiliser un moule à charlotte).",
+            "mediaId": "wordpress-attachment:4862"
+          },
+          {
+            "sourceIndex": 10,
+            "text": "En procédant un par un, faire tremper le côté intérieur des biscuits dans le coulis, et les arranger dans le moule en les serrant bien les uns contre les autres.\nUtiliser les petits morceaux restants pour couvrir le fond.",
+            "mediaId": "wordpress-attachment:4864"
+          },
+          {
+            "sourceIndex": 11,
+            "text": "S'il faut, couper le dernier biscuit en deux dans la longueur,",
+            "mediaId": "wordpress-attachment:4871"
+          },
+          {
+            "sourceIndex": 12,
+            "text": "Verser la mousse à l'intérieur de cette coque de biscuits et égaliser la surface. Couvrir la charlotte avec un film alimentaire et la placer au réfrigérateur pour 6 heures ou une nuit.",
+            "mediaId": "wordpress-attachment:4865"
+          },
+          {
+            "sourceIndex": 13,
+            "text": "Délicatement démouler la charlotte sur un plat de service.",
+            "mediaId": "wordpress-attachment:4866"
+          },
+          {
+            "sourceIndex": 14,
+            "text": "Saupoudrer de cacao.",
+            "mediaId": "wordpress-attachment:4867"
+          },
+          {
+            "sourceIndex": 15,
+            "text": "Décorer avec les fruits, les feuilles de menthe et la chantilly.",
+            "mediaId": "wordpress-attachment:4851"
+          },
+          {
+            "sourceIndex": 16,
+            "text": "Si vous voulez, enlacer le gâteau avec un ruban.",
+            "mediaId": "wordpress-attachment:4868"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4893",
+      "sourceId": "4893",
+      "path": "/recipes/media/wordpress/4893.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4854",
+      "sourceId": "4854",
+      "path": "/recipes/media/wordpress/4854.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4855",
+      "sourceId": "4855",
+      "path": "/recipes/media/wordpress/4855.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4856",
+      "sourceId": "4856",
+      "path": "/recipes/media/wordpress/4856.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4857",
+      "sourceId": "4857",
+      "path": "/recipes/media/wordpress/4857.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4858",
+      "sourceId": "4858",
+      "path": "/recipes/media/wordpress/4858.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4859",
+      "sourceId": "4859",
+      "path": "/recipes/media/wordpress/4859.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4860",
+      "sourceId": "4860",
+      "path": "/recipes/media/wordpress/4860.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4861",
+      "sourceId": "4861",
+      "path": "/recipes/media/wordpress/4861.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4870",
+      "sourceId": "4870",
+      "path": "/recipes/media/wordpress/4870.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4862",
+      "sourceId": "4862",
+      "path": "/recipes/media/wordpress/4862.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4864",
+      "sourceId": "4864",
+      "path": "/recipes/media/wordpress/4864.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4871",
+      "sourceId": "4871",
+      "path": "/recipes/media/wordpress/4871.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4865",
+      "sourceId": "4865",
+      "path": "/recipes/media/wordpress/4865.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4866",
+      "sourceId": "4866",
+      "path": "/recipes/media/wordpress/4866.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4867",
+      "sourceId": "4867",
+      "path": "/recipes/media/wordpress/4867.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4851",
+      "sourceId": "4851",
+      "path": "/recipes/media/wordpress/4851.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:4868",
+      "sourceId": "4868",
+      "path": "/recipes/media/wordpress/4868.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

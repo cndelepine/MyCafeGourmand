@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21335",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6354",
+  "slug": "homemade-olive-tapenade",
+  "source": {
+    "system": "wordpress",
+    "postId": "21335",
+    "recipeId": "21335",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-homemade-olive-tapenade",
+    "createdAt": "2021-03-12T18:41:00+00:00",
+    "modifiedAt": "2022-07-30T20:51:18+00:00",
+    "editorialPostId": "11936",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "homemade-olive-tapenade",
+    "editorialCreatedAt": "2021-03-12T18:41:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:51:11+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Homemade Olive Tapenade",
+  "description": "The anchovies are very salty. If you find your tapenade too salty, add more olives or olive oil.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The homemade olive tapenade is a dip or paste made with olives (black or green), anchovies and capers. This appetizer comes from Provence, France and is great with fresh bread or toast. With the help of a food processor, or blender, this hors d'oeuvre is ready within 5 minutes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21335,\"template\":\"chic-template-english\",\"updated\":1608951341260} -->\n<!--WPRM Recipe 21335-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Homemade Olive Tapenade</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1600.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThe anchovies are very salty. If you find your tapenade too salty, add more olives or olive oil. \r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g black olives (pitted)</li><li>1 Tbsp capers ((optional))</li><li>20 g anchovies filets in oil</li><li>2 cloves garlic</li><li>1/2 lemon (juice only)</li><li>4  Tbsp olive oil</li><li>freshly ground black pepper (to taste)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Combine all ingredients in an electric blender. Pulse a few times until finely chopped. The tapenade should have small pieces of olives. Do not over blend!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1583.Blog_-150x150.png\"/><br /></li><li>Serve with crackers or fresh baguette slices. </li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24105",
+      "sourceTaxonomyId": "24105",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24126",
+      "sourceTaxonomyId": "24126",
+      "name": "lemon (juice only)",
+      "slug": "lemon-juice-only"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24212",
+      "sourceTaxonomyId": "24212",
+      "name": "black olives",
+      "slug": "black-olives"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24213",
+      "sourceTaxonomyId": "24213",
+      "name": "capers",
+      "slug": "capers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24214",
+      "sourceTaxonomyId": "24214",
+      "name": "anchovies filets in oil",
+      "slug": "anchovies-filets-in-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4584",
+      "sourceTaxonomyId": "4584",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6365",
+      "sourceTaxonomyId": "6365",
+      "name": "black olives",
+      "slug": "black-olives"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6367",
+      "sourceTaxonomyId": "6367",
+      "name": "capers",
+      "slug": "capers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6369",
+      "sourceTaxonomyId": "6369",
+      "name": "anchovies filets in oil",
+      "slug": "anchovies-filets-in-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6371",
+      "sourceTaxonomyId": "6371",
+      "name": "lemon (juice only)",
+      "slug": "lemon-juice-only"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1584",
+      "sourceTaxonomyId": "1584",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1600",
+      "sourceTaxonomyId": "1600",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4547",
+      "sourceTaxonomyId": "4547",
+      "name": "hors d'oeuvre",
+      "slug": "hors-doeuvre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5915",
+      "sourceTaxonomyId": "5915",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6355",
+      "sourceTaxonomyId": "6355",
+      "name": "homemade olive tapenade",
+      "slug": "homemade-olive-tapenade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6357",
+      "sourceTaxonomyId": "6357",
+      "name": "black olive",
+      "slug": "black-olive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6361",
+      "sourceTaxonomyId": "6361",
+      "name": "capers",
+      "slug": "capers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6363",
+      "sourceTaxonomyId": "6363",
+      "name": "anchovies",
+      "slug": "anchovies"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23345",
+      "sourceTaxonomyId": "23345",
+      "name": "black tapenade",
+      "slug": "black-tapenade"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11926",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g black olives pitted",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "black olives",
+            "notes": "pitted"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 Tbsp capers (optional)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "capers",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "20 g anchovies filets in oil",
+            "quantity": {
+              "raw": "20 g",
+              "value": 20,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "anchovies filets in oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 cloves garlic",
+            "quantity": {
+              "raw": "2 cloves",
+              "value": 2,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 lemon (juice only)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon (juice only)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 Tbsp olive oil",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "freshly ground black pepper",
+            "notes": "to taste"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Combine all ingredients in an electric blender. Pulse a few times until finely chopped. The tapenade should have small pieces of olives. Do not over blend!",
+            "mediaId": "wordpress-attachment:11927"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Serve with crackers or fresh baguette slices.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11926",
+      "sourceId": "11926",
+      "path": "/recipes/media/wordpress/11926.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:11927",
+      "sourceId": "11927",
+      "path": "/recipes/media/wordpress/11927.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

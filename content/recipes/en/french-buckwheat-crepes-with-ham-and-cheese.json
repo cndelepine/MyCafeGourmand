@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21327",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:8139",
+  "slug": "french-buckwheat-crepes-with-ham-and-cheese",
+  "source": {
+    "system": "wordpress",
+    "postId": "21327",
+    "recipeId": "21327",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-french-buckwheat-crepes-with-ham-and-cheese",
+    "createdAt": "2020-02-15T05:36:00+00:00",
+    "modifiedAt": "2021-02-24T03:21:38+00:00",
+    "editorialPostId": "13193",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "french-buckwheat-crepes-with-ham-and-cheese",
+    "editorialCreatedAt": "2020-02-15T05:36:00+00:00",
+    "editorialModifiedAt": "2021-02-24T03:21:33+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "French Buckwheat Crepes with ham and cheese",
+  "description": null,
+  "editorial": {
+    "content": "<p><span class=\"st\">French Buckwheat Crepes with ham and cheese are easy to make at home, and are delicious.</span><span class=\"st\"> It is important to prepare the <a href=\"https://mycafegourmand.com/recipe/buckwheat-crepes\">Buckwheat crepes batter</a> (gluten free) the day before, or at least 2 hours before cooking.<br></span></p>\n<p>Family and friends have told me this is as good as the \"Galettes Bretonnes\" you can find in Brittany, in western France. </p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21327,\"template\":\"chic-template-english\",\"updated\":1614136781103} -->\n<!--WPRM Recipe 21327-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">French Buckwheat Crepes with ham and cheese</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7710.Blog_-e1551151121573-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Buckwheat Crepes (for 12 galettes)</h4><ul><li>250 g buckwheat flour (sifted)</li><li>350 ml water</li><li>350 ml milk</li><li>1 tsp sea salt</li><li>2 eggs</li><li>50 g melted butter</li></ul><h4>Filling (4 servings)</h4><ul><li>8 slices ham</li><li>120 g grated cheese ((Emmental, Gouda, Gruyere...))</li><li>Some butter</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Mix buckwheat flour with salt, milk, water, and eggs together. Add melted butter and whisk until you get a smooth batter. Cover with plastic and and let rest for at least 2 hours. \r\nWhen you are ready to cook the crepes, stir the batter before frying each crepe.\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8834.Blog_-150x150.png\"/><br /></li><li>Heat a lightly buttered nonstick skillet over medium high heat. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4470.Blog_-150x150.png\"/><br /></li><li>Add 1/4 cupful batter to skillet and immediately tilt to fully cover the bottom of the pan with a thin layer. Cook for a few seconds until the surface isn't liquid.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4483.Blog_-150x150.png\"/><br /></li><li>Without flipping the crepe, place a slice of ham in the center and sprinkle a little cheese.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4486.Blog_-150x150.png\"/><br /></li><li>A few seconds later, as the cheese is melting and the crepe seems to be ready, carefully lift one side with a spatula and fold it.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4489.Blog_-150x150.png\"/><br /></li><li>Fold the other sides to make a square.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4490.Blog_-150x150.png\"/><br /></li><li>Remove the crepe from the pan and serve quickly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4491.Blog_-150x150.png\"/><br /></li><li>You can add more grated cheese over the top.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7711.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24132",
+      "sourceTaxonomyId": "24132",
+      "name": "grated cheese",
+      "slug": "grated-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24195",
+      "sourceTaxonomyId": "24195",
+      "name": "buckwheat flour",
+      "slug": "buckwheat-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24196",
+      "sourceTaxonomyId": "24196",
+      "name": "sea salt",
+      "slug": "sea-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24197",
+      "sourceTaxonomyId": "24197",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24210",
+      "sourceTaxonomyId": "24210",
+      "name": "ham",
+      "slug": "ham"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "509",
+      "sourceTaxonomyId": "509",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "525",
+      "sourceTaxonomyId": "525",
+      "name": "grated cheese",
+      "slug": "grated-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "664",
+      "sourceTaxonomyId": "664",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1176",
+      "sourceTaxonomyId": "1176",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5891",
+      "sourceTaxonomyId": "5891",
+      "name": "buckwheat flour",
+      "slug": "buckwheat-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8160",
+      "sourceTaxonomyId": "8160",
+      "name": "sea salt",
+      "slug": "sea-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8162",
+      "sourceTaxonomyId": "8162",
+      "name": "ham",
+      "slug": "ham"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5901",
+      "sourceTaxonomyId": "5901",
+      "name": "saint-malo",
+      "slug": "saint-malo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5905",
+      "sourceTaxonomyId": "5905",
+      "name": "buckwheat",
+      "slug": "buckwheat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6910",
+      "sourceTaxonomyId": "6910",
+      "name": "french cuisine",
+      "slug": "french-cuisine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8097",
+      "sourceTaxonomyId": "8097",
+      "name": "Galette Bretonne",
+      "slug": "galette-bretonne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8101",
+      "sourceTaxonomyId": "8101",
+      "name": "very popular in france",
+      "slug": "very-popular-in-france"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8235",
+      "sourceTaxonomyId": "8235",
+      "name": "french buckwheat crepe",
+      "slug": "french-buckwheat-crepe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8237",
+      "sourceTaxonomyId": "8237",
+      "name": "galette",
+      "slug": "galette-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25275",
+      "sourceTaxonomyId": "25275",
+      "name": "buckwheat pancake with ham and cheese",
+      "slug": "buckwheat-pancake-with-ham-and-cheese"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:15634",
+    "ingredientGroups": [
+      {
+        "name": "Buckwheat Crepes (for 12 galettes)",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g buckwheat flour sifted",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "buckwheat flour",
+            "notes": "sifted"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "350 ml water",
+            "quantity": {
+              "raw": "350 ml",
+              "value": 350,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "350 ml milk",
+            "quantity": {
+              "raw": "350 ml",
+              "value": 350,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 tsp sea salt",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sea salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 g melted butter",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "melted butter",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Filling (4 servings)",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "8 slices ham",
+            "quantity": {
+              "raw": "8 slices",
+              "value": 8,
+              "unit": "slices",
+              "scalable": true
+            },
+            "name": "ham",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "120 g grated cheese (Emmental, Gouda, Gruyere...)",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "grated cheese",
+            "notes": "(Emmental, Gouda, Gruyere...)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Some butter",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "butter",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Mix buckwheat flour with salt, milk, water, and eggs together. Add melted butter and whisk until you get a smooth batter. Cover with plastic and and let rest for at least 2 hours.\nWhen you are ready to cook the crepes, stir the batter before frying each crepe.",
+            "mediaId": "wordpress-attachment:13156"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Heat a lightly buttered nonstick skillet over medium high heat.",
+            "mediaId": "wordpress-attachment:13149"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add 1/4 cupful batter to skillet and immediately tilt to fully cover the bottom of the pan with a thin layer. Cook for a few seconds until the surface isn't liquid.",
+            "mediaId": "wordpress-attachment:13150"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Without flipping the crepe, place a slice of ham in the center and sprinkle a little cheese.",
+            "mediaId": "wordpress-attachment:13151"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "A few seconds later, as the cheese is melting and the crepe seems to be ready, carefully lift one side with a spatula and fold it.",
+            "mediaId": "wordpress-attachment:13152"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Fold the other sides to make a square.",
+            "mediaId": "wordpress-attachment:13153"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Remove the crepe from the pan and serve quickly.",
+            "mediaId": "wordpress-attachment:13154"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "You can add more grated cheese over the top.",
+            "mediaId": "wordpress-attachment:15647"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15634",
+      "sourceId": "15634",
+      "path": "/recipes/media/wordpress/15634.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13156",
+      "sourceId": "13156",
+      "path": "/recipes/media/wordpress/13156.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13149",
+      "sourceId": "13149",
+      "path": "/recipes/media/wordpress/13149.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13150",
+      "sourceId": "13150",
+      "path": "/recipes/media/wordpress/13150.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13151",
+      "sourceId": "13151",
+      "path": "/recipes/media/wordpress/13151.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13152",
+      "sourceId": "13152",
+      "path": "/recipes/media/wordpress/13152.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13153",
+      "sourceId": "13153",
+      "path": "/recipes/media/wordpress/13153.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13154",
+      "sourceId": "13154",
+      "path": "/recipes/media/wordpress/13154.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15647",
+      "sourceId": "15647",
+      "path": "/recipes/media/wordpress/15647.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

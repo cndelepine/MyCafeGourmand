@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29459",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:25714",
+  "slug": "italian-style-asparagus-gratin",
+  "source": {
+    "system": "wordpress",
+    "postId": "29459",
+    "recipeId": "29459",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-italian-style-asparagus-gratin",
+    "createdAt": "2025-11-01T02:59:17+00:00",
+    "modifiedAt": "2025-11-02T03:11:02+00:00",
+    "editorialPostId": "29458",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "italian-style-asparagus-gratin",
+    "editorialCreatedAt": "2025-11-01T02:59:17+00:00",
+    "editorialModifiedAt": "2025-11-02T03:10:56+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Italian-style asparagus gratin",
+  "description": "A succulent recipe found in an Italian cookbook (Italian Delights by Loukie Werle). A recipe that will please everyone, vegetarian or not.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>A delicious vegetarian recipe that can be prepared in just a few minutes. The asparagus should not be overcooked and should remain crisp to retain all its flavor.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29459,\"template\":\"chic-template-english\",\"updated\":1748400965947} -->\n<!--WPRM Recipe 29459-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Italian-style asparagus gratin</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/01/IMG_9308.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>A succulent recipe found in an Italian cookbook (Italian Delights by Loukie Werle). A recipe that will please everyone, vegetarian or not.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 bunches green asparagus</li><li>125 g provolone</li><li>2 tablespoons freshly grated Parmesan</li><li>1 drizzle  olive oil</li><li>Salt and freshly ground black pepper</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Cut off the tough part of the asparagus stems (if necessary, peel them using a peeler).</p></li><li><p>Preheat the grill.</p></li><li><p>In a large saucepan, bring salted water to a boil and add the asparagus. Cook for 3-4 minutes, depending on their size. Drain.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/01/IMG_9296.Blog_-150x150.png\"/><br /></li><li><p>Arrange the asparagus in a baking dish. Top with the provolone slices and sprinkle with Parmesan cheese. Drizzle with olive oil and season with pepper.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/01/IMG_9304.Blog_-150x150.png\"/><br /></li><li><p>Brown the asparagus in the oven under the grill for a few minutes until the cheese is melted and appetizing.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/01/IMG_9308.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizer, Main Dish</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian</div><div class=\"wprm-fallback-recipe-meta-keyword\">Appetizers, Asparagus</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "A delicious vegetarian recipe that can be prepared in just a few minutes. The asparagus should not be overcooked and should remain crisp to retain all its flavor."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26716",
+      "sourceTaxonomyId": "26716",
+      "name": "Main Dish",
+      "slug": "main-dish-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26793",
+      "sourceTaxonomyId": "26793",
+      "name": "Appetizer",
+      "slug": "appetizer-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26754",
+      "sourceTaxonomyId": "26754",
+      "name": "Italian",
+      "slug": "italian-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27248",
+      "sourceTaxonomyId": "27248",
+      "name": "green asparagus",
+      "slug": "green-asparagus"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27255",
+      "sourceTaxonomyId": "27255",
+      "name": "provolone",
+      "slug": "provolone"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27256",
+      "sourceTaxonomyId": "27256",
+      "name": "freshly grated parmesan",
+      "slug": "freshly-grated-parmesan"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26791",
+      "sourceTaxonomyId": "26791",
+      "name": "tablespoons",
+      "slug": "tablespoons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27254",
+      "sourceTaxonomyId": "27254",
+      "name": "bunches",
+      "slug": "bunches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27259",
+      "sourceTaxonomyId": "27259",
+      "name": "drizzle",
+      "slug": "drizzle"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27040",
+      "sourceTaxonomyId": "27040",
+      "name": "Appetizers",
+      "slug": "appetizers-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27257",
+      "sourceTaxonomyId": "27257",
+      "name": "Asparagus",
+      "slug": "asparagus"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8",
+      "sourceTaxonomyId": "8",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1598",
+      "sourceTaxonomyId": "1598",
+      "name": "cheese",
+      "slug": "cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4857",
+      "sourceTaxonomyId": "4857",
+      "name": "10 minutes appetizers",
+      "slug": "10-minutes-appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25603",
+      "sourceTaxonomyId": "25603",
+      "name": "italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27246",
+      "sourceTaxonomyId": "27246",
+      "name": "asparagus",
+      "slug": "asparagus"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 persons",
+      "value": 4,
+      "unit": "persons",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "5",
+        "value": 5
+      },
+      "servingSize": null,
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "rest": null,
+      "total": {
+        "raw": "22",
+        "minutes": 22
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26194",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 bunches green asparagus",
+            "quantity": {
+              "raw": "2 bunches",
+              "value": 2,
+              "unit": "bunches",
+              "scalable": true
+            },
+            "name": "green asparagus",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "125 g provolone",
+            "quantity": {
+              "raw": "125 g",
+              "value": 125,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "provolone",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 tablespoons freshly grated Parmesan",
+            "quantity": {
+              "raw": "2 tablespoons",
+              "value": 2,
+              "unit": "tablespoons",
+              "scalable": true
+            },
+            "name": "freshly grated Parmesan",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 drizzle olive oil",
+            "quantity": {
+              "raw": "1 drizzle",
+              "value": 1,
+              "unit": "drizzle",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut off the tough part of the asparagus stems (if necessary, peel them using a peeler).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Preheat the grill.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "In a large saucepan, bring salted water to a boil and add the asparagus. Cook for 3-4 minutes, depending on their size. Drain.",
+            "mediaId": "wordpress-attachment:26192"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Arrange the asparagus in a baking dish. Top with the provolone slices and sprinkle with Parmesan cheese. Drizzle with olive oil and season with pepper.",
+            "mediaId": "wordpress-attachment:26193"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Brown the asparagus in the oven under the grill for a few minutes until the cheese is melted and appetizing.",
+            "mediaId": "wordpress-attachment:26194"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26194",
+      "sourceId": "26194",
+      "path": "/recipes/media/wordpress/26194.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26192",
+      "sourceId": "26192",
+      "path": "/recipes/media/wordpress/26192.png",
+      "alt": "Gratin d'asperges à l'italienne",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26193",
+      "sourceId": "26193",
+      "path": "/recipes/media/wordpress/26193.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

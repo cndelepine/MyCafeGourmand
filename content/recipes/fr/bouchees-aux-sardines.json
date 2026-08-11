@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27534",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26504",
+  "slug": "bouchees-aux-sardines",
+  "source": {
+    "system": "wordpress",
+    "postId": "27534",
+    "recipeId": "27534",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-bouchees-aux-sardines",
+    "createdAt": "2023-12-03T02:36:01+00:00",
+    "modifiedAt": "2023-12-03T02:36:07+00:00",
+    "editorialPostId": "27532",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "bouchees-aux-sardines",
+    "editorialCreatedAt": "2023-12-03T02:36:01+00:00",
+    "editorialModifiedAt": "2023-12-03T02:36:04+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Bouchées aux sardines",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une recette rapide. Les sardines écrasées sont tartinées sur le pain grillé et légèrement parfumé à l'ail. Un Les bouchées aux sardines se préparent en 10 minutes et sont parfaites pour accompagner un apéritif ou emmener en pique-nique.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27534,\"template\":\"chic-template-french\",\"updated\":1701570841393} -->\n<!--WPRM Recipe 27534-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Bouchées aux sardines</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/12/IMG_1581.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 boîte  de sardines à l&#039;huile (égouttées)</li><li>1 œuf dur</li><li>1 cuillère à soupe de mayonnaise</li><li>Sel et poivre du moulin</li><li>4 tranches de pain ou toasts (grillés)</li><li>1 gousse d&#039;ail</li><li>Quelques radis (découpés en rondelles)</li><li>Quelques cornichons  (découpés en rondelles)</li><li>Un peu d&#039;aneth (ou de persil) haché</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>À l&#039;aide d&#039;une fourchette, écraser les sardines et l&#039;œuf.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/12/IMG_1539_1.Blog_-150x150.png\"/><br /></li><li><p>Ajouter la mayonnaise. Saler, povrer et bien mélanger. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/12/IMG_1557.Blog_-150x150.png\"/><br /></li><li><p>Faire griller les toasts. Couper la gousse d&#039;ail en deux et frotter le pain avec. Tartiner généreusement le pain avec les sardines écrasées. Poser une rondelle de radis  ou de cornichon sur chaque bouchée. Ajouter des brins d&#039;aneth.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/12/IMG_1581.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div><div class=\"wprm-fallback-recipe-meta-cuisine\">française</div><div class=\"wprm-fallback-recipe-meta-keyword\">Terrine au saumon fume, Terrine au thon</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26438",
+      "sourceTaxonomyId": "26438",
+      "name": "Apéritifs",
+      "slug": "aperitifs-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26440",
+      "sourceTaxonomyId": "26440",
+      "name": "française",
+      "slug": "francaise-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24475",
+      "sourceTaxonomyId": "24475",
+      "name": "cornichons",
+      "slug": "cornichons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26498",
+      "sourceTaxonomyId": "26498",
+      "name": "de sardines à l'huile",
+      "slug": "de-sardines-a-lhuile"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26499",
+      "sourceTaxonomyId": "26499",
+      "name": "œuf dur",
+      "slug": "oeuf-dur"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26500",
+      "sourceTaxonomyId": "26500",
+      "name": "de pain ou toasts",
+      "slug": "de-pain-ou-toasts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26501",
+      "sourceTaxonomyId": "26501",
+      "name": "radis",
+      "slug": "radis"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26503",
+      "sourceTaxonomyId": "26503",
+      "name": "d'aneth (ou de persil) haché",
+      "slug": "daneth-ou-de-persil-hache"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25423",
+      "sourceTaxonomyId": "25423",
+      "name": "gousse",
+      "slug": "gousse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25486",
+      "sourceTaxonomyId": "25486",
+      "name": "tranches",
+      "slug": "tranches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26446",
+      "sourceTaxonomyId": "26446",
+      "name": "boîte",
+      "slug": "boite"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26442",
+      "sourceTaxonomyId": "26442",
+      "name": "Terrine au saumon fume",
+      "slug": "terrine-au-saumon-fume-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26444",
+      "sourceTaxonomyId": "26444",
+      "name": "Terrine au thon",
+      "slug": "terrine-au-thon-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1520",
+      "sourceTaxonomyId": "1520",
+      "name": "thon",
+      "slug": "thon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2161",
+      "sourceTaxonomyId": "2161",
+      "name": "pain",
+      "slug": "pain"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5413",
+      "sourceTaxonomyId": "5413",
+      "name": "toast",
+      "slug": "toast"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6373",
+      "sourceTaxonomyId": "6373",
+      "name": "tapenade",
+      "slug": "tapenade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6383",
+      "sourceTaxonomyId": "6383",
+      "name": "tapenade maison",
+      "slug": "tapenade-maison"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": {
+        "label": "Réfrigération",
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27667",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 boîte de sardines à l'huile égouttées",
+            "quantity": {
+              "raw": "1 boîte",
+              "value": 1,
+              "unit": "boîte",
+              "scalable": true
+            },
+            "name": "de sardines à l'huile",
+            "notes": "égouttées"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 œuf dur",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf dur",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cuillère à soupe de mayonnaise",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 tranches de pain ou toasts grillés",
+            "quantity": {
+              "raw": "4 tranches",
+              "value": 4,
+              "unit": "tranches",
+              "scalable": true
+            },
+            "name": "de pain ou toasts",
+            "notes": "grillés"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 gousse d'ail",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques radis découpés en rondelles",
+            "quantity": {
+              "raw": "Quelques",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "radis",
+            "notes": "découpés en rondelles"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Quelques cornichons découpés en rondelles",
+            "quantity": {
+              "raw": "Quelques",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "cornichons",
+            "notes": "découpés en rondelles"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Un peu d'aneth (ou de persil) haché",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'aneth (ou de persil) haché",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "À l'aide d'une fourchette, écraser les sardines et l'œuf.",
+            "mediaId": "wordpress-attachment:27665"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajouter la mayonnaise. Saler, povrer et bien mélanger.",
+            "mediaId": "wordpress-attachment:27666"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Faire griller les toasts. Couper la gousse d'ail en deux et frotter le pain avec. Tartiner généreusement le pain avec les sardines écrasées. Poser une rondelle de radis ou de cornichon sur chaque bouchée. Ajouter des brins d'aneth.",
+            "mediaId": "wordpress-attachment:27667"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27667",
+      "sourceId": "27667",
+      "path": "/recipes/media/wordpress/27667.png",
+      "alt": "Les bouchées aux sardines",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27665",
+      "sourceId": "27665",
+      "path": "/recipes/media/wordpress/27665.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:27666",
+      "sourceId": "27666",
+      "path": "/recipes/media/wordpress/27666.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

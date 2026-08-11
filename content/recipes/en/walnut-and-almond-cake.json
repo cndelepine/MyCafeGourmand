@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21639",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:14049",
+  "slug": "walnut-and-almond-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21639",
+    "recipeId": "21639",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-walnut-and-almond-cake",
+    "createdAt": "2024-10-19T23:45:00+00:00",
+    "modifiedAt": "2024-10-20T22:49:25+00:00",
+    "editorialPostId": "16368",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "walnut-and-almond-cake",
+    "editorialCreatedAt": "2024-10-19T23:45:00+00:00",
+    "editorialModifiedAt": "2024-10-20T22:49:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Walnut and Almond Cake",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>If you like almonds and walnuts, you will love this savory cake. Crush up walnuts and use almond flour to make this easy, quick, and delicious dessert.<br></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21639,\"template\":\"chic-template-english\",\"updated\":1729464455137} -->\n<!--WPRM Recipe 21639-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Walnut and Almond Cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8473.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>125 g walnuts</li><li>5 eggs</li><li>230 g sugar</li><li>125 g melted butter</li><li>125 g almond flour</li><li>80 g all purpose flour</li><li>Some walnuts halves</li><li>Some powdered sugar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat the oven to 375 degrees F. Line the bottom of the pan with parchment paper.</li><li>Grind the walnuts in a blender. (Keep few walnuts halves to decorate the cake.)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8441.Blog_-150x150.png\"/><br /></li><li>Using a mixer beat the eggs with sugar.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8429.Blog_-150x150.png\"/><br /></li><li>Add the butter. Mix.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8431.Blog_-150x150.png\"/><br /></li><li>Add the walnuts and almond powder. Mix.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8444.Blog_-150x150.png\"/><br /></li><li>Add the flour and mix last time.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8446.Blog_-150x150.png\"/><br /></li><li>Pour the batter in the pan. Lay slices the walnuts halves on top of the cake. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8451.Blog_-150x150.png\"/><br /></li><li>Bake for about 40 minutes or until а toothpick inserted in the middle comes out clean. Once the cake cools off, then transfer to plate.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8452.Blog_-150x150.png\"/><br /></li><li>Dust it with powdered sugar before serving. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8470.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24183",
+      "sourceTaxonomyId": "24183",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24184",
+      "sourceTaxonomyId": "24184",
+      "name": "walnuts halves",
+      "slug": "walnuts-halves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24197",
+      "sourceTaxonomyId": "24197",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24200",
+      "sourceTaxonomyId": "24200",
+      "name": "powdered sugar",
+      "slug": "powdered-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24348",
+      "sourceTaxonomyId": "24348",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "664",
+      "sourceTaxonomyId": "664",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "789",
+      "sourceTaxonomyId": "789",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1804",
+      "sourceTaxonomyId": "1804",
+      "name": "powdered sugar",
+      "slug": "powdered-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5153",
+      "sourceTaxonomyId": "5153",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14177",
+      "sourceTaxonomyId": "14177",
+      "name": "walnuts halves",
+      "slug": "walnuts-halves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3720",
+      "sourceTaxonomyId": "3720",
+      "name": "almond powder",
+      "slug": "almond-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4176",
+      "sourceTaxonomyId": "4176",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5155",
+      "sourceTaxonomyId": "5155",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16292",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "125 g walnuts",
+            "quantity": {
+              "raw": "125 g",
+              "value": 125,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "walnuts",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "5 eggs",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "230 g sugar",
+            "quantity": {
+              "raw": "230 g",
+              "value": 230,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "125 g melted butter",
+            "quantity": {
+              "raw": "125 g",
+              "value": 125,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "melted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "125 g almond flour",
+            "quantity": {
+              "raw": "125 g",
+              "value": 125,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "80 g all purpose flour",
+            "quantity": {
+              "raw": "80 g",
+              "value": 80,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Some walnuts halves",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "walnuts halves",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Some powdered sugar",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "powdered sugar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 375 degrees F. Line the bottom of the pan with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Grind the walnuts in a blender. (Keep few walnuts halves to decorate the cake.)",
+            "mediaId": "wordpress-attachment:16286"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Using a mixer beat the eggs with sugar.",
+            "mediaId": "wordpress-attachment:16293"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add the butter. Mix.",
+            "mediaId": "wordpress-attachment:16294"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add the walnuts and almond powder. Mix.",
+            "mediaId": "wordpress-attachment:16287"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Add the flour and mix last time.",
+            "mediaId": "wordpress-attachment:16288"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Pour the batter in the pan. Lay slices the walnuts halves on top of the cake.",
+            "mediaId": "wordpress-attachment:16289"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Bake for about 40 minutes or until а toothpick inserted in the middle comes out clean. Once the cake cools off, then transfer to plate.",
+            "mediaId": "wordpress-attachment:16290"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Dust it with powdered sugar before serving.",
+            "mediaId": "wordpress-attachment:16291"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16292",
+      "sourceId": "16292",
+      "path": "/recipes/media/wordpress/16292.png",
+      "alt": "Gâteau aux noix et aux amandes",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16286",
+      "sourceId": "16286",
+      "path": "/recipes/media/wordpress/16286.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16293",
+      "sourceId": "16293",
+      "path": "/recipes/media/wordpress/16293.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16294",
+      "sourceId": "16294",
+      "path": "/recipes/media/wordpress/16294.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16287",
+      "sourceId": "16287",
+      "path": "/recipes/media/wordpress/16287.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16288",
+      "sourceId": "16288",
+      "path": "/recipes/media/wordpress/16288.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16289",
+      "sourceId": "16289",
+      "path": "/recipes/media/wordpress/16289.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16290",
+      "sourceId": "16290",
+      "path": "/recipes/media/wordpress/16290.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16291",
+      "sourceId": "16291",
+      "path": "/recipes/media/wordpress/16291.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

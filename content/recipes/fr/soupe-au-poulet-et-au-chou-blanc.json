@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22177",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:13943",
+  "slug": "soupe-au-poulet-et-au-chou-blanc",
+  "source": {
+    "system": "wordpress",
+    "postId": "22177",
+    "recipeId": "22177",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-soupe-au-poulet-et-au-chou-blanc",
+    "createdAt": "2019-03-21T04:33:59+00:00",
+    "modifiedAt": "2021-10-21T22:18:34+00:00",
+    "editorialPostId": "16196",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "soupe-au-poulet-et-au-chou-blanc",
+    "editorialCreatedAt": "2019-03-21T04:33:59+00:00",
+    "editorialModifiedAt": "2021-10-21T22:18:31+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Soupe au poulet et au chou blanc",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une soupe russe à base de bouillon de poulet, de pommes de terre et de  chou blanc. Les légumes dans cette recette ne  passent pas à la moulinette donc il est très important de bien les  découper en jolis petits morceaux.  D'ailleurs, c'est la recette signature de ma mère, qu'elle appelle  \"Soupe à la française\". </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22177,\"template\":\"chic-template-french\",\"updated\":1634854679962} -->\n<!--WPRM Recipe 22177-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Soupe au poulet et au chou blanc</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8376.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1-2 cuisseс de poulet sans peau (ou 2 blancs de poulet)</li><li>2  oignons (épluchés )</li><li>2  carottes (épluchées )</li><li>2 gousses d'ail (épluchées)</li><li>1-2 tiges de celéri</li><li>3 feuilles de laurier</li><li>2 litres d'eau</li><li>1/2 cuillère à café de gros sel</li><li>3-4 pommes de terre (épluchés )</li><li>1/4 de chou blanc</li><li>3 cuillères à soupe d'huile d'olive</li><li>Quelques brins de persil (aneth, ciboulette)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans une grande casserole, mettre la viande, un oignon entier, une carotte entière, les gousses d'ail, le céléri et les feuilles de laurier. Ajouter l'eau froide. Porter à ébullition. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_7239.Blog_-150x150.png\"/><br /></li><li>Baisser le feu et cuire 15-20 minutes. Écumer au besoin pour rendre le bouillon plus limpide. Ajouter le gros sel.</li><li>Pendant que le bouillon se cuit, découper les pommes de terre en cubes de 1 cm environ.\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_9197.Blog_-150x150.png\"/><br /></li><li>Couper les autres carottes et l'oignon en petits dés.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_9199.Blog_-150x150.png\"/><br /></li><li>Emincer le chou.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8338.Blog_-150x150.png\"/><br /></li><li>Quand la viande est cuite, retirer l'oignon, l'ail, le céléri et la carotte du bouillon et les jeter. Mettre la cuisse de poulet sur une assiette et la laisser refroidir un peu. La désosser et la découper en petits morceaux. Remettre la viande dans le bouillon.</li><li>Ajouter les pommes de terre découpées dans la casserole. Cuire pendant environ 10 minutes. </li><li>Dans une poêle, faire réchauffer l'huile d'olive et y faire revenir l'oignon et la carotte. Saler et poivrer. Retirer du feu.\r\n   <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8332.Blog_-150x150.png\"/><br /></li><li>Ajouter le chou découpé, l'oignon et la carotte revenus à la poêle. Continuer de cuire pendant encore 5 minutes. Goûter la soupe et rectifier l'assaisonnement. Quand les pommes de terre sont devenues tendres, retirer la casserole du feu. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8341.Blog_-150x150.png\"/><br /></li><li>Servir la soupe bien chaude avec des herbes fraîches.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8376.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soupes</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24523",
+      "sourceTaxonomyId": "24523",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24517",
+      "sourceTaxonomyId": "24517",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24520",
+      "sourceTaxonomyId": "24520",
+      "name": "de chou blanc",
+      "slug": "de-chou-blanc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24567",
+      "sourceTaxonomyId": "24567",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24588",
+      "sourceTaxonomyId": "24588",
+      "name": "de persil (aneth, ciboulette)",
+      "slug": "de-persil-aneth-ciboulette"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24603",
+      "sourceTaxonomyId": "24603",
+      "name": "oignons",
+      "slug": "oignons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24606",
+      "sourceTaxonomyId": "24606",
+      "name": "feuilles de laurier",
+      "slug": "feuilles-de-laurier"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24683",
+      "sourceTaxonomyId": "24683",
+      "name": "de celéri",
+      "slug": "de-celeri"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24766",
+      "sourceTaxonomyId": "24766",
+      "name": "cuisseс de poulet sans peau (ou 2 blancs de poulet)",
+      "slug": "cuisse%d1%81-de-poulet-sans-peau-ou-2-blancs-de-poulet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "98",
+      "sourceTaxonomyId": "98",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1562",
+      "sourceTaxonomyId": "1562",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "354",
+      "sourceTaxonomyId": "354",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "630",
+      "sourceTaxonomyId": "630",
+      "name": "de persil (aneth, ciboulette)",
+      "slug": "de-persil-aneth-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1028",
+      "sourceTaxonomyId": "1028",
+      "name": "de chou blanc",
+      "slug": "de-chou-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1034",
+      "sourceTaxonomyId": "1034",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2469",
+      "sourceTaxonomyId": "2469",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6523",
+      "sourceTaxonomyId": "6523",
+      "name": "oignons",
+      "slug": "oignons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8963",
+      "sourceTaxonomyId": "8963",
+      "name": "de celéri",
+      "slug": "de-celeri"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11495",
+      "sourceTaxonomyId": "11495",
+      "name": "feuilles de laurier",
+      "slug": "feuilles-de-laurier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14259",
+      "sourceTaxonomyId": "14259",
+      "name": "cuisseс de poulet sans peau (ou 2 blancs de poulet)",
+      "slug": "cuisse%d1%81-de-poulet-sans-peau-ou-2-blancs-de-poulet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1202",
+      "sourceTaxonomyId": "1202",
+      "name": "viande",
+      "slug": "viande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1268",
+      "sourceTaxonomyId": "1268",
+      "name": "chou blanc",
+      "slug": "chou-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1290",
+      "sourceTaxonomyId": "1290",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5578",
+      "sourceTaxonomyId": "5578",
+      "name": "recette familiale",
+      "slug": "recette-familiale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6822",
+      "sourceTaxonomyId": "6822",
+      "name": "soupe russe",
+      "slug": "soupe-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6862",
+      "sourceTaxonomyId": "6862",
+      "name": "bon pour la sante",
+      "slug": "bon-pour-la-sante"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16219",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1-2 cuisseс de poulet sans peau (ou 2 blancs de poulet)",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "cuisseс de poulet sans peau (ou 2 blancs de poulet)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 oignons épluchés",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignons",
+            "notes": "épluchés"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 carottes épluchées",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 gousses d'ail épluchées",
+            "quantity": {
+              "raw": "2 gousses",
+              "value": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1-2 tiges de celéri",
+            "quantity": {
+              "raw": "1-2 tiges",
+              "min": 1,
+              "max": 2,
+              "unit": "tiges",
+              "scalable": true
+            },
+            "name": "de celéri",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 feuilles de laurier",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "feuilles de laurier",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 litres d'eau",
+            "quantity": {
+              "raw": "2 litres",
+              "value": 2,
+              "unit": "litres",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/2 cuillère à café de gros sel",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de gros sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "3-4 pommes de terre épluchés",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pommes de terre",
+            "notes": "épluchés"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "1/4 de chou blanc",
+            "quantity": {
+              "raw": "1/4",
+              "value": 0.25,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "de chou blanc",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "3 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 11,
+            "raw": "Quelques brins de persil (aneth, ciboulette)",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de persil (aneth, ciboulette)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une grande casserole, mettre la viande, un oignon entier, une carotte entière, les gousses d'ail, le céléri et les feuilles de laurier. Ajouter l'eau froide. Porter à ébullition.",
+            "mediaId": "wordpress-attachment:16225"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Baisser le feu et cuire 15-20 minutes. Écumer au besoin pour rendre le bouillon plus limpide. Ajouter le gros sel.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Pendant que le bouillon se cuit, découper les pommes de terre en cubes de 1 cm environ.",
+            "mediaId": "wordpress-attachment:16226"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Couper les autres carottes et l'oignon en petits dés.",
+            "mediaId": "wordpress-attachment:16227"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Emincer le chou.",
+            "mediaId": "wordpress-attachment:16221"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Quand la viande est cuite, retirer l'oignon, l'ail, le céléri et la carotte du bouillon et les jeter. Mettre la cuisse de poulet sur une assiette et la laisser refroidir un peu. La désosser et la découper en petits morceaux. Remettre la viande dans le bouillon.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Ajouter les pommes de terre découpées dans la casserole. Cuire pendant environ 10 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Dans une poêle, faire réchauffer l'huile d'olive et y faire revenir l'oignon et la carotte. Saler et poivrer. Retirer du feu.",
+            "mediaId": "wordpress-attachment:16220"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Ajouter le chou découpé, l'oignon et la carotte revenus à la poêle. Continuer de cuire pendant encore 5 minutes. Goûter la soupe et rectifier l'assaisonnement. Quand les pommes de terre sont devenues tendres, retirer la casserole du feu.",
+            "mediaId": "wordpress-attachment:16222"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Servir la soupe bien chaude avec des herbes fraîches.",
+            "mediaId": "wordpress-attachment:16219"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16219",
+      "sourceId": "16219",
+      "path": "/recipes/media/wordpress/16219.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16225",
+      "sourceId": "16225",
+      "path": "/recipes/media/wordpress/16225.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16226",
+      "sourceId": "16226",
+      "path": "/recipes/media/wordpress/16226.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16227",
+      "sourceId": "16227",
+      "path": "/recipes/media/wordpress/16227.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16221",
+      "sourceId": "16221",
+      "path": "/recipes/media/wordpress/16221.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16220",
+      "sourceId": "16220",
+      "path": "/recipes/media/wordpress/16220.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16222",
+      "sourceId": "16222",
+      "path": "/recipes/media/wordpress/16222.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

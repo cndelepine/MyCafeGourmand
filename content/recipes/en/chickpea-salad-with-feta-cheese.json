@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21244",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:15855",
+  "slug": "chickpea-salad-with-feta-cheese",
+  "source": {
+    "system": "wordpress",
+    "postId": "21244",
+    "recipeId": "21244",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chickpea-salad-with-feta-cheese",
+    "createdAt": "2023-08-15T19:20:00+00:00",
+    "modifiedAt": "2023-08-16T23:58:13+00:00",
+    "editorialPostId": "17488",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chickpea-salad-with-feta-cheese",
+    "editorialCreatedAt": "2023-08-15T19:20:00+00:00",
+    "editorialModifiedAt": "2023-08-16T23:58:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Chickpea Salad with Feta Cheese",
+  "description": "The feta cheese is already salty enough, so salt the salad lightly.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The chickpea Salad with Feta Cheese is a very simple salad, composed of canned chickpeas and feta. The tomatoes and bell peppers are not necessary, but provide more flavor and vitamins, as well as a vibrant color.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21244,\"template\":\"chic-template-english\",\"updated\":1659213468695} -->\n<!--WPRM Recipe 21244-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chickpea Salad with Feta Cheese</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_9818.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThe feta cheese is already salty enough, so salt the salad lightly.\r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>400 g (1 can)  garbanzo beans (drained)</li><li>150 g feta cheese (cubed)</li><li>15 cherry tomatoes, or 2 medium tomatoes (sliced)</li><li>1 bell pepper (cored and sliced)</li><li>1/2 red onion (cut into thin slices)</li><li>1 clove garlic (pressed)</li><li>Fresh or dried herbs (cilantro, chive, dill) (chopped)</li><li>Salt and freshly ground black pepper</li><li>1 lemon (juice only)</li><li>3-4 Tbsp olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>In a salad bowl, mix the chickpea, feta, tomatos, bell pepper, onion, garlic, and herbs.\r\n</li><li>Season with salt and pepper. Drizzle with freshly pressed lemon juice and olive oil. Serve right away or keep it in the refrigerator.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_9817.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23559",
+      "sourceTaxonomyId": "23559",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24120",
+      "sourceTaxonomyId": "24120",
+      "name": "garbanzo beans",
+      "slug": "garbanzo-beans"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24121",
+      "sourceTaxonomyId": "24121",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24122",
+      "sourceTaxonomyId": "24122",
+      "name": "cherry tomatoes, or 2 medium tomatoes",
+      "slug": "cherry-tomatoes-or-2-medium-tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24123",
+      "sourceTaxonomyId": "24123",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24124",
+      "sourceTaxonomyId": "24124",
+      "name": "clove garlic",
+      "slug": "clove-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24125",
+      "sourceTaxonomyId": "24125",
+      "name": "Fresh or dried herbs (cilantro, chive, dill)",
+      "slug": "fresh-or-dried-herbs-cilantro-chive-dill"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24126",
+      "sourceTaxonomyId": "24126",
+      "name": "lemon (juice only)",
+      "slug": "lemon-juice-only"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "501",
+      "sourceTaxonomyId": "501",
+      "name": "clove garlic",
+      "slug": "clove-garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2712",
+      "sourceTaxonomyId": "2712",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2714",
+      "sourceTaxonomyId": "2714",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2720",
+      "sourceTaxonomyId": "2720",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6048",
+      "sourceTaxonomyId": "6048",
+      "name": "garbanzo beans",
+      "slug": "garbanzo-beans"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6371",
+      "sourceTaxonomyId": "6371",
+      "name": "lemon (juice only)",
+      "slug": "lemon-juice-only"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16973",
+      "sourceTaxonomyId": "16973",
+      "name": "cherry tomatoes, or 2 medium tomatoes",
+      "slug": "cherry-tomatoes-or-2-medium-tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16975",
+      "sourceTaxonomyId": "16975",
+      "name": "Fresh or dried herbs (cilantro, chive, dill)",
+      "slug": "fresh-or-dried-herbs-cilantro-chive-dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4800",
+      "sourceTaxonomyId": "4800",
+      "name": "healthy salad",
+      "slug": "healthy-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6016",
+      "sourceTaxonomyId": "6016",
+      "name": "chickpea",
+      "slug": "chickpea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6018",
+      "sourceTaxonomyId": "6018",
+      "name": "garbanzo beans",
+      "slug": "garbanzo-beans"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6200",
+      "sourceTaxonomyId": "6200",
+      "name": "homemade salad bowl",
+      "slug": "homemade-salad-bowl"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7123",
+      "sourceTaxonomyId": "7123",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7682",
+      "sourceTaxonomyId": "7682",
+      "name": "protein substitute for meat",
+      "slug": "protein-substitute-for-meat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26298",
+      "sourceTaxonomyId": "26298",
+      "name": "quick salad",
+      "slug": "quick-salad"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17013",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "400 g (1 can) garbanzo beans drained",
+            "quantity": {
+              "raw": "400 g (1 can)",
+              "value": 400,
+              "unit": "g (1 can)",
+              "scalable": true
+            },
+            "name": "garbanzo beans",
+            "notes": "drained"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g feta cheese cubed",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "feta cheese",
+            "notes": "cubed"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "15 cherry tomatoes, or 2 medium tomatoes sliced",
+            "quantity": {
+              "raw": "15",
+              "value": 15,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "cherry tomatoes, or 2 medium tomatoes",
+            "notes": "sliced"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 bell pepper cored and sliced",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bell pepper",
+            "notes": "cored and sliced"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 red onion cut into thin slices",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "red onion",
+            "notes": "cut into thin slices"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 clove garlic pressed",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "clove garlic",
+            "notes": "pressed"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Fresh or dried herbs (cilantro, chive, dill) chopped",
+            "quantity": null,
+            "name": "Fresh or dried herbs (cilantro, chive, dill)",
+            "notes": "chopped"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 lemon (juice only)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon (juice only)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "3-4 Tbsp olive oil",
+            "quantity": {
+              "raw": "3-4 Tbsp",
+              "min": 3,
+              "max": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a salad bowl, mix the chickpea, feta, tomatos, bell pepper, onion, garlic, and herbs.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Season with salt and pepper. Drizzle with freshly pressed lemon juice and olive oil. Serve right away or keep it in the refrigerator.",
+            "mediaId": "wordpress-attachment:17012"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17013",
+      "sourceId": "17013",
+      "path": "/recipes/media/wordpress/17013.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17012",
+      "sourceId": "17012",
+      "path": "/recipes/media/wordpress/17012.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

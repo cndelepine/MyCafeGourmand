@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21591",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4620",
+  "slug": "chunky-guacamole",
+  "source": {
+    "system": "wordpress",
+    "postId": "21591",
+    "recipeId": "21591",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chunky-guacamole",
+    "createdAt": "2018-07-12T07:14:03+00:00",
+    "modifiedAt": "2022-07-30T19:15:24+00:00",
+    "editorialPostId": "11797",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chunky-guacamole",
+    "editorialCreatedAt": "2018-07-12T07:14:03+00:00",
+    "editorialModifiedAt": "2022-07-30T19:15:21+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Chunky Guacamole",
+  "description": "Guacamole can be served not only with tortilla chips, but also with fresh sliced vegetables, such as radishes, cucumber, or celery.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The secret to perfect guacamole is ripe avocados. If you prefer a smoother guacamole, use a blender. Personally, I prefer avocados crushed with a fork with&nbsp;finely cut tomatoes, onions, and cilantro.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21591,\"template\":\"chic-template-english\",\"updated\":1659208511846} -->\n<!--WPRM Recipe 21591-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chunky Guacamole</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9564.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tGuacamole can be served not only with tortilla chips, but also with fresh sliced vegetables, such as radishes, cucumber, or celery.\r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 ripe avocados</li><li>1/2 lemon (or lime)</li><li>2 small tomatoes</li><li>1/2 oignon</li><li>2 cloves clove garlic</li><li>Salt and freshly ground black pepper</li><li>1-2 pinches cayenne pepper (or chili powder)</li><li>Fresh cilantro</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Slice the avocados in half along its length and dispose of the seed and skin. Crush the flesh of the avocado using a fork. Drizzle with the lemon juice.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9555.Blog_-150x150.png\"/><br /></li><li>Chop the onions, tomatoes, and cilantro. Crush the garlic.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9557.Blog_-150x150.png\"/><br /></li><li>Mix all the vegetables and avocados together. Salt, pepper, and add the cayenne pepper.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9558.Blog_-150x150.png\"/><br /></li><li>Put the guacamole in a bowl and serve along with tortilla chips or sliced vegetables.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9559.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24124",
+      "sourceTaxonomyId": "24124",
+      "name": "clove garlic",
+      "slug": "clove-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24228",
+      "sourceTaxonomyId": "24228",
+      "name": "Fresh cilantro",
+      "slug": "fresh-cilantro"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24397",
+      "sourceTaxonomyId": "24397",
+      "name": "ripe avocados",
+      "slug": "ripe-avocados"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24398",
+      "sourceTaxonomyId": "24398",
+      "name": "lemon (or lime)",
+      "slug": "lemon-or-lime"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24399",
+      "sourceTaxonomyId": "24399",
+      "name": "small tomatoes",
+      "slug": "small-tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24401",
+      "sourceTaxonomyId": "24401",
+      "name": "cayenne pepper (or chili powder)",
+      "slug": "cayenne-pepper-or-chili-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "501",
+      "sourceTaxonomyId": "501",
+      "name": "clove garlic",
+      "slug": "clove-garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6182",
+      "sourceTaxonomyId": "6182",
+      "name": "ripe avocados",
+      "slug": "ripe-avocados"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6184",
+      "sourceTaxonomyId": "6184",
+      "name": "lemon (or lime)",
+      "slug": "lemon-or-lime"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6186",
+      "sourceTaxonomyId": "6186",
+      "name": "small tomatoes",
+      "slug": "small-tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6188",
+      "sourceTaxonomyId": "6188",
+      "name": "cayenne pepper (or chili powder)",
+      "slug": "cayenne-pepper-or-chili-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6190",
+      "sourceTaxonomyId": "6190",
+      "name": "Fresh cilantro",
+      "slug": "fresh-cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6192",
+      "sourceTaxonomyId": "6192",
+      "name": "oignon",
+      "slug": "oignon-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2060",
+      "sourceTaxonomyId": "2060",
+      "name": "Avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4049",
+      "sourceTaxonomyId": "4049",
+      "name": "tex-mex",
+      "slug": "tex-mex-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6160",
+      "sourceTaxonomyId": "6160",
+      "name": "mexican dish",
+      "slug": "mexican-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6162",
+      "sourceTaxonomyId": "6162",
+      "name": "mexican party",
+      "slug": "mexican-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6164",
+      "sourceTaxonomyId": "6164",
+      "name": "dairy-free",
+      "slug": "dairy-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6166",
+      "sourceTaxonomyId": "6166",
+      "name": "chunky",
+      "slug": "chunky"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6168",
+      "sourceTaxonomyId": "6168",
+      "name": "guacamole",
+      "slug": "guacamole-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6194",
+      "sourceTaxonomyId": "6194",
+      "name": "avocados crushed with a fork",
+      "slug": "avocados-crushed-with-a-fork"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6196",
+      "sourceTaxonomyId": "6196",
+      "name": "avocado-based dip",
+      "slug": "avocado-based-dip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6198",
+      "sourceTaxonomyId": "6198",
+      "name": "spread",
+      "slug": "spread"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:9777",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 ripe avocados",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "ripe avocados",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 lemon (or lime)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon (or lime)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 small tomatoes",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "small tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 oignon",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 cloves clove garlic",
+            "quantity": {
+              "raw": "2 cloves",
+              "value": 2,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "clove garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1-2 pinches cayenne pepper (or chili powder)",
+            "quantity": {
+              "raw": "1-2 pinches",
+              "min": 1,
+              "max": 2,
+              "unit": "pinches",
+              "scalable": true
+            },
+            "name": "cayenne pepper (or chili powder)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Fresh cilantro",
+            "quantity": null,
+            "name": "Fresh cilantro",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Slice the avocados in half along its length and dispose of the seed and skin. Crush the flesh of the avocado using a fork. Drizzle with the lemon juice.",
+            "mediaId": "wordpress-attachment:9773"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Chop the onions, tomatoes, and cilantro. Crush the garlic.",
+            "mediaId": "wordpress-attachment:9774"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mix all the vegetables and avocados together. Salt, pepper, and add the cayenne pepper.",
+            "mediaId": "wordpress-attachment:9775"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Put the guacamole in a bowl and serve along with tortilla chips or sliced vegetables.",
+            "mediaId": "wordpress-attachment:9778"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:9777",
+      "sourceId": "9777",
+      "path": "/recipes/media/wordpress/9777.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9773",
+      "sourceId": "9773",
+      "path": "/recipes/media/wordpress/9773.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9774",
+      "sourceId": "9774",
+      "path": "/recipes/media/wordpress/9774.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9775",
+      "sourceId": "9775",
+      "path": "/recipes/media/wordpress/9775.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9778",
+      "sourceId": "9778",
+      "path": "/recipes/media/wordpress/9778.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

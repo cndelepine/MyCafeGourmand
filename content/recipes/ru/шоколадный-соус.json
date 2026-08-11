@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22741",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:5096",
+  "slug": "шоколадный-соус",
+  "source": {
+    "system": "wordpress",
+    "postId": "22741",
+    "recipeId": "22741",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%81%d0%be%d1%83%d1%81",
+    "createdAt": "2018-05-21T06:53:47+00:00",
+    "modifiedAt": "2023-05-28T18:51:00+00:00",
+    "editorialPostId": "10279",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%81%d0%be%d1%83%d1%81",
+    "editorialCreatedAt": "2018-05-21T06:53:47+00:00",
+    "editorialModifiedAt": "2023-05-28T18:50:58+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Шоколадный соус",
+  "description": "Самый вкусный шоколадный соус получается на жирных сливках. Но так как мы хотим оставаться стройными, чаще всего я его готовлю на молоке. ;)",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Что можно полить <a href=\"https://www.instagram.com/p/BjIktIpBn4P/?taken-by=cafegourmandnatalija\">шоколадным соусом</a>? В нашей семье, мы поливаем им все: блины, вафли, <a href=\"https://mycafegourmand.com/ru/recipe/%d0%ba%d0%b0%d0%ba-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be-%d0%b8-%d0%ba%d1%80%d0%b0%d1%81%d0%b8%d0%b2%d0%be-%d0%bf%d0%be%d0%b4%d0%b0%d1%82%d1%8c-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5\">мороженое</a>, фрукты, <a href=\"https://mycafegourmand.com/ru/recipe/%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8\">профитроли</a>...&nbsp; Готовый шоколадный соус продается в магазине, но чаще всего, в нужную минуту его не оказывается дома под рукой. Поэтому я его готовлю сама. Рецепт очень прост и без всяких ненужных пищевых добавок!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22741,\"template\":\"chic-template-russian\",\"updated\":1615140394780} -->\n<!--WPRM Recipe 22741-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Шоколадный соус</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9820.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tСамый вкусный шоколадный соус получается на жирных сливках. Но так как мы хотим оставаться стройными, чаще всего я его готовлю на молоке. ;) \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>125 мл молока или сливок</li><li>150 г черного шоколада (60-70% какао)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>В небольшой кастрюльке довести молоко (или сливки) до кипения, снять с огня и сразу же вылить на шоколад. Дать постоять 1 минуту.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9782.Blog_-150x150.png\"/><br /></li><li>Перемешать до однородности. Готово! \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9790.Blog_-150x150.png\"/><br /></li><li>Если шоколадный соус остыл и загустел, его можно подогреть на водяной бане.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Самый вкусный шоколадный соус получается на жирных сливках. Но так как мы хотим оставаться стройными, чаще всего я его готовлю на молоке."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24926",
+      "sourceTaxonomyId": "24926",
+      "name": "черного шоколада (60-70% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-70-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25127",
+      "sourceTaxonomyId": "25127",
+      "name": "молока или сливок",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0-%d0%b8%d0%bb%d0%b8-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "273",
+      "sourceTaxonomyId": "273",
+      "name": "черного шоколада (60-70% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-70-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5048",
+      "sourceTaxonomyId": "5048",
+      "name": "молока или сливок",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0-%d0%b8%d0%bb%d0%b8-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1256",
+      "sourceTaxonomyId": "1256",
+      "name": "черный шоколад",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1630",
+      "sourceTaxonomyId": "1630",
+      "name": "простой рецепт",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3482",
+      "sourceTaxonomyId": "3482",
+      "name": "без яиц",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5022",
+      "sourceTaxonomyId": "5022",
+      "name": "шоколадный соус",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%81%d0%be%d1%83%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5024",
+      "sourceTaxonomyId": "5024",
+      "name": "соус для десерта",
+      "slug": "%d1%81%d0%be%d1%83%d1%81-%d0%b4%d0%bb%d1%8f-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5026",
+      "sourceTaxonomyId": "5026",
+      "name": "для блинов",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%b1%d0%bb%d0%b8%d0%bd%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5028",
+      "sourceTaxonomyId": "5028",
+      "name": "для вафель",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%b2%d0%b0%d1%84%d0%b5%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5030",
+      "sourceTaxonomyId": "5030",
+      "name": "для мороженого",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5032",
+      "sourceTaxonomyId": "5032",
+      "name": "для профитролей",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b5%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5034",
+      "sourceTaxonomyId": "5034",
+      "name": "жидкий шоколад",
+      "slug": "%d0%b6%d0%b8%d0%b4%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5038",
+      "sourceTaxonomyId": "5038",
+      "name": "топпинг",
+      "slug": "%d1%82%d0%be%d0%bf%d0%bf%d0%b8%d0%bd%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5042",
+      "sourceTaxonomyId": "5042",
+      "name": "shokoladnyi sous",
+      "slug": "shokoladnyi-sous"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5046",
+      "sourceTaxonomyId": "5046",
+      "name": "dlia blinov",
+      "slug": "dlia-blinov"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5050",
+      "sourceTaxonomyId": "5050",
+      "name": "gustoj shokoladnyj sous",
+      "slug": "gustoj-shokoladnyj-sous"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6465",
+      "sourceTaxonomyId": "6465",
+      "name": "на молоке",
+      "slug": "%d0%bd%d0%b0-%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6467",
+      "sourceTaxonomyId": "6467",
+      "name": "из шоколада",
+      "slug": "%d0%b8%d0%b7-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 порций",
+      "value": 4,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "rest": null,
+      "total": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10307",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "125 мл молока или сливок",
+            "quantity": {
+              "raw": "125 мл",
+              "value": 125,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "молока или сливок",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 г черного шоколада (60-70% какао)",
+            "quantity": {
+              "raw": "150 г",
+              "value": 150,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "черного шоколада (60-70% какао)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В небольшой кастрюльке довести молоко (или сливки) до кипения, снять с огня и сразу же вылить на шоколад. Дать постоять 1 минуту.",
+            "mediaId": "wordpress-attachment:10300"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Перемешать до однородности. Готово!",
+            "mediaId": "wordpress-attachment:10301"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Если шоколадный соус остыл и загустел, его можно подогреть на водяной бане.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10307",
+      "sourceId": "10307",
+      "path": "/recipes/media/wordpress/10307.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10300",
+      "sourceId": "10300",
+      "path": "/recipes/media/wordpress/10300.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10301",
+      "sourceId": "10301",
+      "path": "/recipes/media/wordpress/10301.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

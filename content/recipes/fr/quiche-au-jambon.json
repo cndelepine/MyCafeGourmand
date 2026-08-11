@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22220",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:759",
+  "slug": "quiche-au-jambon",
+  "source": {
+    "system": "wordpress",
+    "postId": "22220",
+    "recipeId": "22220",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-quiche-au-jambon",
+    "createdAt": "2018-12-31T02:41:10+00:00",
+    "modifiedAt": "2022-07-30T19:36:24+00:00",
+    "editorialPostId": "1946",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "quiche-au-jambon",
+    "editorialCreatedAt": "2018-12-31T02:41:10+00:00",
+    "editorialModifiedAt": "2022-07-30T19:36:17+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Quiche au jambon",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une recette facile et rapide. Comme toutes les quiches, vous pouvez servir la quiche au jambon <span lang=\"fr\">avec une petite salade ou un bouillon de légumes. Ou encore comme un apéritif, en la découpant en petits <span id=\":ru.24\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">carr</span></span><span lang=\"fr\">és. </span></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><span lang=\"fr\">&nbsp;</span> </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22220,\"template\":\"chic-template-french\",\"updated\":1659209773272} -->\n<!--WPRM Recipe 22220-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Quiche au jambon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7058.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 feuille de pâte feuilletée ((ou brisée))</li><li>3 œufs</li><li>150 ml de crème liquide</li><li>150 g de jambon (coupé en petits morceaux)</li><li>70 g gruyère râpé</li><li>Sel et poivre du moulin</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 180°C (thermostat 6). Étaler la pâte dans un moule à tarte. Piquer le fond avec une fourchette. </li><li>Faire cuire au four pendant 10-12 minutes. La pâte doit être un peu cuite mais pas encore dorée. Sortir du four. Si la pâte est trop levée, appuyer légèrement avec une fourchette pour l'aplatir.</li><li>Battre les œufs en omelette et les mélanger avec la crème. Saler et poivrer.</li><li>Répartir les morceaux de jambon sur la pâte. Saupoudrer de fromage.  \r\n</li><li>Verser le mélange crème-œufs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_9127.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant 30-40 minutes jusqu'à ce que la quiche soit dorée.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24466",
+      "sourceTaxonomyId": "24466",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24589",
+      "sourceTaxonomyId": "24589",
+      "name": "de crème liquide",
+      "slug": "de-creme-liquide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24663",
+      "sourceTaxonomyId": "24663",
+      "name": "de jambon",
+      "slug": "de-jambon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24793",
+      "sourceTaxonomyId": "24793",
+      "name": "gruyère râpé",
+      "slug": "gruyere-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "374",
+      "sourceTaxonomyId": "374",
+      "name": "de crème liquide",
+      "slug": "de-creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "755",
+      "sourceTaxonomyId": "755",
+      "name": "de jambon",
+      "slug": "de-jambon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "757",
+      "sourceTaxonomyId": "757",
+      "name": "gruyère râpé",
+      "slug": "gruyere-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "762",
+      "sourceTaxonomyId": "762",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1210",
+      "sourceTaxonomyId": "1210",
+      "name": "fromage",
+      "slug": "fromage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1396",
+      "sourceTaxonomyId": "1396",
+      "name": "pate feuilletee",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1484",
+      "sourceTaxonomyId": "1484",
+      "name": "quiche",
+      "slug": "quiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1502",
+      "sourceTaxonomyId": "1502",
+      "name": "creme liquide",
+      "slug": "creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1546",
+      "sourceTaxonomyId": "1546",
+      "name": "jambon",
+      "slug": "jambon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2951",
+      "sourceTaxonomyId": "2951",
+      "name": "entree",
+      "slug": "entree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4370",
+      "sourceTaxonomyId": "4370",
+      "name": "avec une salade verte",
+      "slug": "avec-une-salade-verte"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4372",
+      "sourceTaxonomyId": "4372",
+      "name": "feuillete au jambon",
+      "slug": "feuillete-au-jambon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6926",
+      "sourceTaxonomyId": "6926",
+      "name": "enfants adorent",
+      "slug": "enfants-adorent"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1714",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 feuille de pâte feuilletée (ou brisée)",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "de pâte feuilletée",
+            "notes": "(ou brisée)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 œufs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 ml de crème liquide",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 g de jambon coupé en petits morceaux",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de jambon",
+            "notes": "coupé en petits morceaux"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "70 g gruyère râpé",
+            "quantity": {
+              "raw": "70 g",
+              "value": 70,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "gruyère râpé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Étaler la pâte dans un moule à tarte. Piquer le fond avec une fourchette.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire cuire au four pendant 10-12 minutes. La pâte doit être un peu cuite mais pas encore dorée. Sortir du four. Si la pâte est trop levée, appuyer légèrement avec une fourchette pour l'aplatir.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Battre les œufs en omelette et les mélanger avec la crème. Saler et poivrer.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Répartir les morceaux de jambon sur la pâte. Saupoudrer de fromage.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Verser le mélange crème-œufs.",
+            "mediaId": "wordpress-attachment:9226"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Faire cuire au four pendant 30-40 minutes jusqu'à ce que la quiche soit dorée.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1714",
+      "sourceId": "1714",
+      "path": "/recipes/media/wordpress/1714.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9226",
+      "sourceId": "9226",
+      "path": "/recipes/media/wordpress/9226.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

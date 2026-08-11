@@ -1,0 +1,588 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22745",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:4834",
+  "slug": "грибной-паштет",
+  "source": {
+    "system": "wordpress",
+    "postId": "22745",
+    "recipeId": "22745",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b3%d1%80%d0%b8%d0%b1%d0%bd%d0%be%d0%b9-%d0%bf%d0%b0%d1%88%d1%82%d0%b5%d1%82",
+    "createdAt": "2018-05-18T01:13:21+00:00",
+    "modifiedAt": "2022-07-30T19:01:48+00:00",
+    "editorialPostId": "9997",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b3%d1%80%d0%b8%d0%b1%d0%bd%d0%be%d0%b9-%d0%bf%d0%b0%d1%88%d1%82%d0%b5%d1%82",
+    "editorialCreatedAt": "2018-05-18T01:13:21+00:00",
+    "editorialModifiedAt": "2022-07-30T19:01:45+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Грибной паштет",
+  "description": "Оставьте несколько целых ломтиков грибов для украшения паштета.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Грибной паштет - идеальная закуска для фуршета. Сливочный сыр Филадельфия придает этому рецепту нежную текстуру. Подайте паштет с крекерами или поджаренным хлебом. А еще этим паштетом можно нафаршировать яйца. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22745,\"template\":\"chic-template-russian\",\"updated\":1659207695556} -->\n<!--WPRM Recipe 22745-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Грибной паштет</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180502_081301.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tОставьте несколько целых ломтиков грибов для украшения паштета.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>250 g свежих грибов ((шампиньоны, белые, лисички...))</li><li>1 луковица</li><li>3 зубчика чеснока</li><li>220 г сливочного сыра филадельфия (или Vache qui rit) ((комнатной температуры))</li><li>Соль и черный молотый перец (по вкусу)</li><li>7 ст.л. оливкового масла</li><li>Зеленый лук (по желанию)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Грибы хорошо помыть, обсушить и порезать на ломтики.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_151111.Blog_-150x150.png\"/><br /></li><li>Лук почистить и порезать полукольцами.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_151836.Blog_-150x150.png\"/><br /></li><li>Чеснок почистить и измельчить.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153743.Blog_-150x150.png\"/><br /></li><li>В большой сковороде разогреть 5 ст.л. оливкового масла и обжарить в нем грибы на среднем огне, в течение примерно 15 минут, регулярно помешивая. Снять сковороду с огня и дать грибам остыть.</li><li>В небольшой сковороде разогреть оставшиеся 2 ст.л. оливкового масла и обжарить в нем лук на среднем огне до золотистого цвета.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153136.Blog_-150x150.png\"/><br /></li><li>Добавить к обжаренному луку чеснок и продолжать жарить еще 1 минуту. Снять сковороду с огня и остудить.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153844.Blog_-150x150.png\"/><br /></li><li>Положить половину поджаренных грибов и лук с чесноком в блендер и хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_154355.Blog_-150x150.png\"/><br /></li><li>Добавить в блендер оставшиеся грибы и сливочный сыр. Перемешать. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_154806.Blog_-150x150.png\"/><br /></li><li>Добавить соль и перец. Хорошо перемешать деревянной ложкой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_155303.Blog_-150x150.png\"/><br /></li><li>Переложить паштет в блюдо для подачи. Украсить целыми ломтиками грибов и зеленым луком.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/Resized_20180501_160107.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Закуски</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24840",
+      "sourceTaxonomyId": "24840",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24827",
+      "sourceTaxonomyId": "24827",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24868",
+      "sourceTaxonomyId": "24868",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24997",
+      "sourceTaxonomyId": "24997",
+      "name": "Соль и черный молотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25133",
+      "sourceTaxonomyId": "25133",
+      "name": "свежих грибов",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b8%d1%85-%d0%b3%d1%80%d0%b8%d0%b1%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25134",
+      "sourceTaxonomyId": "25134",
+      "name": "сливочного сыра филадельфия (или Vache qui rit)",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d1%8b%d1%80%d0%b0-%d1%84%d0%b8%d0%bb%d0%b0%d0%b4%d0%b5%d0%bb%d1%8c%d1%84%d0%b8%d1%8f-%d0%b8%d0%bb%d0%b8-vache-qui-rit"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25135",
+      "sourceTaxonomyId": "25135",
+      "name": "Зеленый лук",
+      "slug": "%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d1%8b%d0%b9-%d0%bb%d1%83%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "86",
+      "sourceTaxonomyId": "86",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1526",
+      "sourceTaxonomyId": "1526",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "459",
+      "sourceTaxonomyId": "459",
+      "name": "Соль и черный молотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "795",
+      "sourceTaxonomyId": "795",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "797",
+      "sourceTaxonomyId": "797",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4855",
+      "sourceTaxonomyId": "4855",
+      "name": "Зеленый лук",
+      "slug": "%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d1%8b%d0%b9-%d0%bb%d1%83%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4938",
+      "sourceTaxonomyId": "4938",
+      "name": "свежих грибов",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b8%d1%85-%d0%b3%d1%80%d0%b8%d0%b1%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5449",
+      "sourceTaxonomyId": "5449",
+      "name": "сливочного сыра филадельфия (или Vache qui rit)",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d1%8b%d1%80%d0%b0-%d1%84%d0%b8%d0%bb%d0%b0%d0%b4%d0%b5%d0%bb%d1%8c%d1%84%d0%b8%d1%8f-%d0%b8%d0%bb%d0%b8-vache-qui-rit"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1496",
+      "sourceTaxonomyId": "1496",
+      "name": "грибы",
+      "slug": "%d0%b3%d1%80%d0%b8%d0%b1%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2960",
+      "sourceTaxonomyId": "2960",
+      "name": "закуска",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3762",
+      "sourceTaxonomyId": "3762",
+      "name": "без мяса",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%bc%d1%8f%d1%81%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4730",
+      "sourceTaxonomyId": "4730",
+      "name": "zakuska",
+      "slug": "zakuska"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4732",
+      "sourceTaxonomyId": "4732",
+      "name": "pashtet",
+      "slug": "pashtet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4756",
+      "sourceTaxonomyId": "4756",
+      "name": "philadelphia",
+      "slug": "philadelphia-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4835",
+      "sourceTaxonomyId": "4835",
+      "name": "грибной паштет",
+      "slug": "%d0%b3%d1%80%d0%b8%d0%b1%d0%bd%d0%be%d0%b9-%d0%bf%d0%b0%d1%88%d1%82%d0%b5%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4837",
+      "sourceTaxonomyId": "4837",
+      "name": "шампиньоны",
+      "slug": "%d1%88%d0%b0%d0%bc%d0%bf%d0%b8%d0%bd%d1%8c%d0%be%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4839",
+      "sourceTaxonomyId": "4839",
+      "name": "намазка",
+      "slug": "%d0%bd%d0%b0%d0%bc%d0%b0%d0%b7%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4841",
+      "sourceTaxonomyId": "4841",
+      "name": "обжаренный лук",
+      "slug": "%d0%be%d0%b1%d0%b6%d0%b0%d1%80%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9-%d0%bb%d1%83%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4843",
+      "sourceTaxonomyId": "4843",
+      "name": "сливочный сыр филадельфия",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%8b%d1%80-%d1%84%d0%b8%d0%bb%d0%b0%d0%b4%d0%b5%d0%bb%d1%8c%d1%84%d0%b8%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4845",
+      "sourceTaxonomyId": "4845",
+      "name": "gribnoj pashtet",
+      "slug": "gribnoj-pashtet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4847",
+      "sourceTaxonomyId": "4847",
+      "name": "bez miasa",
+      "slug": "bez-miasa"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4849",
+      "sourceTaxonomyId": "4849",
+      "name": "икра из грибов",
+      "slug": "%d0%b8%d0%ba%d1%80%d0%b0-%d0%b8%d0%b7-%d0%b3%d1%80%d0%b8%d0%b1%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4851",
+      "sourceTaxonomyId": "4851",
+      "name": "грибная икра",
+      "slug": "%d0%b3%d1%80%d0%b8%d0%b1%d0%bd%d0%b0%d1%8f-%d0%b8%d0%ba%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5443",
+      "sourceTaxonomyId": "5443",
+      "name": "slivochniy syr",
+      "slug": "slivochniy-syr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5445",
+      "sourceTaxonomyId": "5445",
+      "name": "syr filadelfia",
+      "slug": "syr-filadelfia"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5447",
+      "sourceTaxonomyId": "5447",
+      "name": "Vache qui rit",
+      "slug": "vache-qui-rit"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 порций",
+      "value": 10,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:9082",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g свежих грибов (шампиньоны, белые, лисички...)",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "свежих грибов",
+            "notes": "(шампиньоны, белые, лисички...)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 луковица",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "луковица",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 зубчика чеснока",
+            "quantity": {
+              "raw": "3 зубчика",
+              "value": 3,
+              "unit": "зубчика",
+              "scalable": true
+            },
+            "name": "чеснока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "220 г сливочного сыра филадельфия (или Vache qui rit) (комнатной температуры)",
+            "quantity": {
+              "raw": "220 г",
+              "value": 220,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного сыра филадельфия (или Vache qui rit)",
+            "notes": "(комнатной температуры)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Соль и черный молотый перец по вкусу",
+            "quantity": null,
+            "name": "Соль и черный молотый перец",
+            "notes": "по вкусу"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "7 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "7 ст.л.",
+              "value": 7,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Зеленый лук по желанию",
+            "quantity": null,
+            "name": "Зеленый лук",
+            "notes": "по желанию"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Грибы хорошо помыть, обсушить и порезать на ломтики.",
+            "mediaId": "wordpress-attachment:9074"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Лук почистить и порезать полукольцами.",
+            "mediaId": "wordpress-attachment:9075"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Чеснок почистить и измельчить.",
+            "mediaId": "wordpress-attachment:9077"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "В большой сковороде разогреть 5 ст.л. оливкового масла и обжарить в нем грибы на среднем огне, в течение примерно 15 минут, регулярно помешивая. Снять сковороду с огня и дать грибам остыть.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "В небольшой сковороде разогреть оставшиеся 2 ст.л. оливкового масла и обжарить в нем лук на среднем огне до золотистого цвета.",
+            "mediaId": "wordpress-attachment:9076"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Добавить к обжаренному луку чеснок и продолжать жарить еще 1 минуту. Снять сковороду с огня и остудить.",
+            "mediaId": "wordpress-attachment:9078"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Положить половину поджаренных грибов и лук с чесноком в блендер и хорошо перемешать.",
+            "mediaId": "wordpress-attachment:9079"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Добавить в блендер оставшиеся грибы и сливочный сыр. Перемешать.",
+            "mediaId": "wordpress-attachment:9080"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Добавить соль и перец. Хорошо перемешать деревянной ложкой.",
+            "mediaId": "wordpress-attachment:9081"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Переложить паштет в блюдо для подачи. Украсить целыми ломтиками грибов и зеленым луком.",
+            "mediaId": "wordpress-attachment:9083"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:9082",
+      "sourceId": "9082",
+      "path": "/recipes/media/wordpress/9082.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:9074",
+      "sourceId": "9074",
+      "path": "/recipes/media/wordpress/9074.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9075",
+      "sourceId": "9075",
+      "path": "/recipes/media/wordpress/9075.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9077",
+      "sourceId": "9077",
+      "path": "/recipes/media/wordpress/9077.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9076",
+      "sourceId": "9076",
+      "path": "/recipes/media/wordpress/9076.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9078",
+      "sourceId": "9078",
+      "path": "/recipes/media/wordpress/9078.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9079",
+      "sourceId": "9079",
+      "path": "/recipes/media/wordpress/9079.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9080",
+      "sourceId": "9080",
+      "path": "/recipes/media/wordpress/9080.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9081",
+      "sourceId": "9081",
+      "path": "/recipes/media/wordpress/9081.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9083",
+      "sourceId": "9083",
+      "path": "/recipes/media/wordpress/9083.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

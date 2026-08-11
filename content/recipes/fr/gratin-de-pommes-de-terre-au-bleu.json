@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27423",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26383",
+  "slug": "gratin-de-pommes-de-terre-au-bleu",
+  "source": {
+    "system": "wordpress",
+    "postId": "27423",
+    "recipeId": "27423",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-gratin-de-pommes-de-terre-au-bleu",
+    "createdAt": "2025-11-01T20:30:52+00:00",
+    "modifiedAt": "2025-11-06T20:22:10+00:00",
+    "editorialPostId": "27386",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "gratin-de-pommes-de-terre-au-bleu",
+    "editorialCreatedAt": "2025-11-01T20:30:52+00:00",
+    "editorialModifiedAt": "2025-11-05T19:54:33+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Gratin de pommes de terre au bleu",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les pommes de terre sont cuites au four dans un mélange de lait, de crème et de bleu d'Auvergne. Si vous utilisez des pommes de terre nouvelles ou des pommes de terre avec une peau fine, inutile de les éplucher.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27423,\"template\":\"chic-template-french\",\"updated\":1762372435074} -->\n<!--WPRM Recipe 27423-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Gratin de pommes de terre au bleu</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4319.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 kg pommes de terre </li><li>Sel et poivre du moulin</li><li>Un peu noix de muscat ((facultatif))</li><li>500 ml crème fleurette</li><li>500 ml lait</li><li>150 g bleu d&#039;Auvergne</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le four à 180°C (thermostat 6).</p></li><li><p>Beurrer un grand plat allant au four. Couper les pommes de terre en rondelles très fines. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_3961.Blog_-150x150.png\"/><br /></li><li><p>Les essuyer avec un essuie-tout et placer dans le plat. Saler, poivrer et saupodrer de noix de muscat.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_3966.Blog_-150x150.png\"/><br /></li><li><p>Émietter le fromage à la fourchette, ajouter la crème et le lait. Bien mélanger. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4309.Blog_-150x150.png\"/><br /></li><li><p>Verser cette préparation sur les pommes de terre. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4310.Blog_-150x150.png\"/><br /></li><li><p>Cuire au four pendant environ 1h à 1h30. </p><p>Placer le plat sous le grill pendant quelques minutes pour que le gratin soit bien doré.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4324.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Gratin de pommes de terre au bleu: Les pommes de terre sont cuites au four dans un mélange de lait, de crème et de bleu d’Auvergne."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27323",
+      "sourceTaxonomyId": "27323",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0-en-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24517",
+      "sourceTaxonomyId": "24517",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25301",
+      "sourceTaxonomyId": "25301",
+      "name": "lait",
+      "slug": "lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26211",
+      "sourceTaxonomyId": "26211",
+      "name": "noix de muscat",
+      "slug": "noix-de-muscat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26398",
+      "sourceTaxonomyId": "26398",
+      "name": "crème fleurette",
+      "slug": "creme-fleurette"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26399",
+      "sourceTaxonomyId": "26399",
+      "name": "bleu d'Auvergne",
+      "slug": "bleu-dauvergne"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25741",
+      "sourceTaxonomyId": "25741",
+      "name": "kg",
+      "slug": "kg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1210",
+      "sourceTaxonomyId": "1210",
+      "name": "fromage",
+      "slug": "fromage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1290",
+      "sourceTaxonomyId": "1290",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1502",
+      "sourceTaxonomyId": "1502",
+      "name": "creme liquide",
+      "slug": "creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2463",
+      "sourceTaxonomyId": "2463",
+      "name": "gratin",
+      "slug": "gratin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2482",
+      "sourceTaxonomyId": "2482",
+      "name": "pomme de terre",
+      "slug": "pomme-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3313",
+      "sourceTaxonomyId": "3313",
+      "name": "repas familial",
+      "slug": "repas-familial"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6930",
+      "sourceTaxonomyId": "6930",
+      "name": "patates",
+      "slug": "patates"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26405",
+      "sourceTaxonomyId": "26405",
+      "name": "framage bleu",
+      "slug": "framage-bleu"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "90",
+        "minutes": 90
+      },
+      "rest": null,
+      "total": {
+        "raw": "110",
+        "minutes": 110
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27402",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 kg pommes de terre",
+            "quantity": {
+              "raw": "2 kg",
+              "value": 2,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "pommes de terre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Un peu noix de muscat (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "noix de muscat",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "500 ml crème fleurette",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "crème fleurette",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "500 ml lait",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "150 g bleu d'Auvergne",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "bleu d'Auvergne",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Beurrer un grand plat allant au four. Couper les pommes de terre en rondelles très fines.",
+            "mediaId": "wordpress-attachment:27398"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Les essuyer avec un essuie-tout et placer dans le plat. Saler, poivrer et saupodrer de noix de muscat.",
+            "mediaId": "wordpress-attachment:27399"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Émietter le fromage à la fourchette, ajouter la crème et le lait. Bien mélanger.",
+            "mediaId": "wordpress-attachment:27405"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Verser cette préparation sur les pommes de terre.",
+            "mediaId": "wordpress-attachment:27401"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Cuire au four pendant environ 1h à 1h30.\n\nPlacer le plat sous le grill pendant quelques minutes pour que le gratin soit bien doré.",
+            "mediaId": "wordpress-attachment:27404"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27402",
+      "sourceId": "27402",
+      "path": "/recipes/media/wordpress/27402.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27398",
+      "sourceId": "27398",
+      "path": "/recipes/media/wordpress/27398.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27399",
+      "sourceId": "27399",
+      "path": "/recipes/media/wordpress/27399.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27405",
+      "sourceId": "27405",
+      "path": "/recipes/media/wordpress/27405.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27401",
+      "sourceId": "27401",
+      "path": "/recipes/media/wordpress/27401.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27404",
+      "sourceId": "27404",
+      "path": "/recipes/media/wordpress/27404.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

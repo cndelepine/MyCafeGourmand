@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21396",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:467",
+  "slug": "pan-fried-salmon",
+  "source": {
+    "system": "wordpress",
+    "postId": "21396",
+    "recipeId": "21396",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pan-fried-salmon-2",
+    "createdAt": "2023-01-28T05:01:00+00:00",
+    "modifiedAt": "2023-02-05T17:40:03+00:00",
+    "editorialPostId": "1449",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pan-fried-salmon",
+    "editorialCreatedAt": "2023-01-28T05:01:00+00:00",
+    "editorialModifiedAt": "2023-02-05T17:40:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Pan fried salmon",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This Pan Fried Salmon has crisp skin and moist, tender flesh. It only takes salt and pepper to prepare this fresh salmon fillet.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The cooking time will vary with the fillets thickness. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21396,\"template\":\"chic-template-english\",\"updated\":1659204403427} -->\n<!--WPRM Recipe 21396-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pan fried salmon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2017/12/IMG_5216.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 Tbsp butter ((or olive oil))</li><li>4 salmon fillets or salmon steaks</li><li>Salt and freshly ground black pepper ( to taste)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Heat a large skillet with butter over medium-high heat.</li><li>Season the fish with salt and pepper. </li><li><p>Place the salmon (skin side down) in the pan.  Cook for 3 minutes or until fish turns golden brown.     </p></li><li> Carefully turn the salmon over with spatula and cook for an additional 3 minutes.</li><li>As soon as the fish is ready, transfer it to a flat plate and serve as desired.  </li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24270",
+      "sourceTaxonomyId": "24270",
+      "name": "salmon fillets or salmon steaks",
+      "slug": "salmon-fillets-or-salmon-steaks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "509",
+      "sourceTaxonomyId": "509",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "849",
+      "sourceTaxonomyId": "849",
+      "name": "salmon fillets or salmon steaks",
+      "slug": "salmon-fillets-or-salmon-steaks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1352",
+      "sourceTaxonomyId": "1352",
+      "name": "fish",
+      "slug": "fish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1354",
+      "sourceTaxonomyId": "1354",
+      "name": "salmon",
+      "slug": "salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1614",
+      "sourceTaxonomyId": "1614",
+      "name": "pan",
+      "slug": "pan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1616",
+      "sourceTaxonomyId": "1616",
+      "name": "fried",
+      "slug": "fried"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25722",
+      "sourceTaxonomyId": "25722",
+      "name": "salmon steak",
+      "slug": "salmon-steak"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25726",
+      "sourceTaxonomyId": "25726",
+      "name": "steak",
+      "slug": "steak"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "cook": {
+        "raw": "6",
+        "minutes": 6
+      },
+      "rest": null,
+      "total": {
+        "raw": "9",
+        "minutes": 9
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:444",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 Tbsp butter (or olive oil)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": "(or olive oil)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 salmon fillets or salmon steaks",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "salmon fillets or salmon steaks",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Heat a large skillet with butter over medium-high heat.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Season the fish with salt and pepper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Place the salmon (skin side down) in the pan. Cook for 3 minutes or until fish turns golden brown.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Carefully turn the salmon over with spatula and cook for an additional 3 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "As soon as the fish is ready, transfer it to a flat plate and serve as desired.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:444",
+      "sourceId": "444",
+      "path": "/recipes/media/wordpress/444.png",
+      "alt": null,
+      "width": 600,
+      "height": 400
+    }
+  ],
+  "seo": null
+}

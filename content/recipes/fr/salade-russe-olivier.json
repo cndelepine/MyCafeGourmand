@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22244",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:333",
+  "slug": "salade-russe-olivier",
+  "source": {
+    "system": "wordpress",
+    "postId": "22244",
+    "recipeId": "22244",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-russe-olivier",
+    "createdAt": "2018-11-09T06:19:56+00:00",
+    "modifiedAt": "2022-07-30T19:33:05+00:00",
+    "editorialPostId": "1193",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-russe-olivier",
+    "editorialCreatedAt": "2018-11-09T06:19:56+00:00",
+    "editorialModifiedAt": "2022-07-30T19:33:02+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Salade russe Olivier",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La salade russe Olivier est la plus traditionnelle russe que nous faisons pour toutes les fêtes. Et pour le réveillon du nouvel an, cette salade \"Olivier\" doit être sur toutes les tables. Le lendemain, s'il y a des restes, vous pouvez dire la blague que la salade est de l'année dernière! :)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Voilà une version végétarienne de cette célèbre salade russe. Tous les légumes et les œufs sont cuits et coupés en petits cubes puis mélangés à la mayonnaise.&nbsp;</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22244,\"template\":\"chic-template-french\",\"updated\":1607294380582} -->\n<!--WPRM Recipe 22244-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade russe Olivier</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7135.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 carottes</li><li>4 grosses pommes de terre</li><li>1/2 oignon</li><li>7 œufs (durs)</li><li>7 gros cornichons à la russe (à la russe)</li><li>1 bocal (400 g) de petits pois (extra fin en conserve)</li><li>1/2 tasse mayonnaise</li><li>Sel et poivre (du moulin)</li><li>Quelques  brins d'aneth (ou persil) ciselés</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Faire cuire les pommes de terre et les carottes dans l'eau ou à la vapeur. Les légumes doivent devenir tendres mais pas trop cuits. Egoutter et laisser refroidir un peu. Faire cuire œufs.</li><li>Eplucher les pommes de terre, les carottes et l'oignon. Ecaler les œufs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732776_10211393242889162_1434227691_o-150x150.png\"/><br /></li><li>Couper tous les légumes et les œufs en petits cubes. Egoutter les petits pois.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732789_10211393239289072_1633728185_o.Blog_-150x150.png\"/><br /></li><li>Mélanger délicatement les pommes de terre, les carottes, l'oignon, les cornichons, les œufs et les petits pois. Ajouter la mayonnaise, saler et poivrer. Mélanger encore.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26613468_1747902331888848_210845601_o.Blog_-3-150x150.png\"/><br /></li><li>Mettre la salade dans un plat de service ou dans des verres individuels (pour une présentation plus élégante). Décorer avec du persil ou de l'aneth. Laisser refroidir au réfrigérateur pendant 1 heure, avant de servir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7151.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24585",
+      "sourceTaxonomyId": "24585",
+      "name": "grosses pommes de terre",
+      "slug": "grosses-pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24726",
+      "sourceTaxonomyId": "24726",
+      "name": "Sel et poivre",
+      "slug": "sel-et-poivre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24803",
+      "sourceTaxonomyId": "24803",
+      "name": "gros cornichons à la russe",
+      "slug": "gros-cornichons-a-la-russe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24804",
+      "sourceTaxonomyId": "24804",
+      "name": "de petits pois",
+      "slug": "de-petits-pois"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24805",
+      "sourceTaxonomyId": "24805",
+      "name": "d'aneth (ou persil) ciselés",
+      "slug": "daneth-ou-persil-ciseles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1188",
+      "sourceTaxonomyId": "1188",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "321",
+      "sourceTaxonomyId": "321",
+      "name": "mayonnaise",
+      "slug": "mayonnaise-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "354",
+      "sourceTaxonomyId": "354",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "356",
+      "sourceTaxonomyId": "356",
+      "name": "grosses pommes de terre",
+      "slug": "grosses-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "362",
+      "sourceTaxonomyId": "362",
+      "name": "gros cornichons à la russe",
+      "slug": "gros-cornichons-a-la-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "364",
+      "sourceTaxonomyId": "364",
+      "name": "de petits pois",
+      "slug": "de-petits-pois"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "366",
+      "sourceTaxonomyId": "366",
+      "name": "Sel et poivre",
+      "slug": "sel-et-poivre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "368",
+      "sourceTaxonomyId": "368",
+      "name": "d'aneth (ou persil) ciselés",
+      "slug": "daneth-ou-persil-ciseles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1204",
+      "sourceTaxonomyId": "1204",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1212",
+      "sourceTaxonomyId": "1212",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1290",
+      "sourceTaxonomyId": "1290",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1666",
+      "sourceTaxonomyId": "1666",
+      "name": "petits pois",
+      "slug": "petits-pois"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1668",
+      "sourceTaxonomyId": "1668",
+      "name": "patate",
+      "slug": "patate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1670",
+      "sourceTaxonomyId": "1670",
+      "name": "cornichon",
+      "slug": "cornichon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5163",
+      "sourceTaxonomyId": "5163",
+      "name": "pas cher",
+      "slug": "pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6810",
+      "sourceTaxonomyId": "6810",
+      "name": "celebre salade russe",
+      "slug": "celebre-salade-russe"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1368",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 carottes",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 grosses pommes de terre",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "grosses pommes de terre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 oignon",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "7 œufs durs",
+            "quantity": {
+              "raw": "7",
+              "value": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": "durs"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "7 gros cornichons à la russe à la russe",
+            "quantity": {
+              "raw": "7",
+              "value": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "gros cornichons à la russe",
+            "notes": "à la russe"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 bocal (400 g) de petits pois extra fin en conserve",
+            "quantity": {
+              "raw": "1 bocal (400 g)",
+              "value": 1,
+              "unit": "bocal (400 g)",
+              "scalable": true
+            },
+            "name": "de petits pois",
+            "notes": "extra fin en conserve"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/2 tasse mayonnaise",
+            "quantity": {
+              "raw": "1/2 tasse",
+              "value": 0.5,
+              "unit": "tasse",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre",
+            "notes": "du moulin"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Quelques brins d'aneth (ou persil) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "d'aneth (ou persil) ciselés",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Faire cuire les pommes de terre et les carottes dans l'eau ou à la vapeur. Les légumes doivent devenir tendres mais pas trop cuits. Egoutter et laisser refroidir un peu. Faire cuire œufs.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Eplucher les pommes de terre, les carottes et l'oignon. Ecaler les œufs.",
+            "mediaId": "wordpress-attachment:1362"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper tous les légumes et les œufs en petits cubes. Egoutter les petits pois.",
+            "mediaId": "wordpress-attachment:1363"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mélanger délicatement les pommes de terre, les carottes, l'oignon, les cornichons, les œufs et les petits pois. Ajouter la mayonnaise, saler et poivrer. Mélanger encore.",
+            "mediaId": "wordpress-attachment:1407"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Mettre la salade dans un plat de service ou dans des verres individuels (pour une présentation plus élégante). Décorer avec du persil ou de l'aneth. Laisser refroidir au réfrigérateur pendant 1 heure, avant de servir.",
+            "mediaId": "wordpress-attachment:1367"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1368",
+      "sourceId": "1368",
+      "path": "/recipes/media/wordpress/1368.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1362",
+      "sourceId": "1362",
+      "path": "/recipes/media/wordpress/1362.png",
+      "alt": null,
+      "width": 1600,
+      "height": 1038
+    },
+    {
+      "id": "wordpress-attachment:1363",
+      "sourceId": "1363",
+      "path": "/recipes/media/wordpress/1363.png",
+      "alt": null,
+      "width": 768,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1407",
+      "sourceId": "1407",
+      "path": "/recipes/media/wordpress/1407.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1367",
+      "sourceId": "1367",
+      "path": "/recipes/media/wordpress/1367.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

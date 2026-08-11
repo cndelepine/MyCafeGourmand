@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21833",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:1141",
+  "slug": "soupe-aux-frikadelkis",
+  "source": {
+    "system": "wordpress",
+    "postId": "21833",
+    "recipeId": "21833",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-soupe-aux-frikadelkis",
+    "createdAt": "2018-02-02T03:09:28+00:00",
+    "modifiedAt": "2022-07-04T20:30:48+00:00",
+    "editorialPostId": "3410",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "soupe-aux-frikadelkis",
+    "editorialCreatedAt": "2018-02-02T03:09:28+00:00",
+    "editorialModifiedAt": "2022-07-04T20:30:46+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Soupe aux frikadelkis",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Voici une soupe avec des petites boulettes de viande. La soupe&nbsp;aux <span id=\":19h.36\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">frikadelkis</span> est très populaire en <span id=\":19h.38\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Russie et </span>chaque famille a sa propre version. Voilà la mienne avec avec un peu de riz.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21833,\"template\":\"chic-template-french\",\"updated\":1634854953906} -->\n<!--WPRM Recipe 21833-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Soupe aux frikadelkis</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/27045291_10211502329256253_1965646498_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Frikadelkis</h4><ul><li>220 g de dinde (hachée)</li><li>220 g de boeuf (haché)</li><li>1/2 oignon (épluché et émincé)</li><li>Sel du moulin</li></ul><h4>Soupe</h4><ul><li>2,5 l d'eau</li><li>5  pommes de terre (épluchées et coupées en cubes)</li><li>3 cuillère à soupe de riz</li><li>2 cuillères à soupe d'huile végétale</li><li>1/2 oignon (épluchée et émincée)</li><li>1 carotte (épluchée et râpée)</li><li>Quelques  brins  de persil (ou aneth) (ciselés)</li><li>Sel et poivre du moulin</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans un saladier, mélanger les viandes hachées avec l'oignon et le sel. Avec les doigts, former des petites boulettes de 2 à 3 cm de diamètre.</li><li>Dans une casserole, porter l'eau à ébullition. Ajouter les frikadelkis dans l'eau. Porter à nouveau à ébullition. Les frikadelkis doivent remonter à la surface. Réduire le feu.  Écumer le bouillon. \r\n</li><li>Ajouter le riz et les pommes de terre. Faire cuire pendant environ 15 minutes.</li><li>Pendant ce temps là, dans une poêle, faire chauffer l'huile d'olive et y faire revenir l'oignon et la carotte. </li><li>Ajouter les légumes revenus dans la soupe. Laisser cuire pendant encore 3 minutes. </li><li>Goûter la soupe et rectifier l'assaisonnement. </li><li>Retirer la casserole du feu puis ajouter le persil.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/27394358_10211502567662213_551305433_n.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soupes</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24523",
+      "sourceTaxonomyId": "24523",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24304",
+      "sourceTaxonomyId": "24304",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24517",
+      "sourceTaxonomyId": "24517",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24554",
+      "sourceTaxonomyId": "24554",
+      "name": "de dinde",
+      "slug": "de-dinde"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24555",
+      "sourceTaxonomyId": "24555",
+      "name": "de boeuf",
+      "slug": "de-boeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24556",
+      "sourceTaxonomyId": "24556",
+      "name": "Sel du moulin",
+      "slug": "sel-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24557",
+      "sourceTaxonomyId": "24557",
+      "name": "de riz",
+      "slug": "de-riz"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24558",
+      "sourceTaxonomyId": "24558",
+      "name": "carotte",
+      "slug": "carotte"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24559",
+      "sourceTaxonomyId": "24559",
+      "name": "de persil (ou aneth)",
+      "slug": "de-persil-ou-aneth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "98",
+      "sourceTaxonomyId": "98",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1562",
+      "sourceTaxonomyId": "1562",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "533",
+      "sourceTaxonomyId": "533",
+      "name": "de persil (ou aneth)",
+      "slug": "de-persil-ou-aneth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1824",
+      "sourceTaxonomyId": "1824",
+      "name": "de dinde",
+      "slug": "de-dinde"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1826",
+      "sourceTaxonomyId": "1826",
+      "name": "de boeuf",
+      "slug": "de-boeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1828",
+      "sourceTaxonomyId": "1828",
+      "name": "Sel du moulin",
+      "slug": "sel-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1830",
+      "sourceTaxonomyId": "1830",
+      "name": "de riz",
+      "slug": "de-riz"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1832",
+      "sourceTaxonomyId": "1832",
+      "name": "carotte",
+      "slug": "carotte"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1893",
+      "sourceTaxonomyId": "1893",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2469",
+      "sourceTaxonomyId": "2469",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1564",
+      "sourceTaxonomyId": "1564",
+      "name": "soupe",
+      "slug": "soupe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1568",
+      "sourceTaxonomyId": "1568",
+      "name": "frikadelki",
+      "slug": "frikadelki"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1624",
+      "sourceTaxonomyId": "1624",
+      "name": "recette rapide",
+      "slug": "recette-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1822",
+      "sourceTaxonomyId": "1822",
+      "name": "boulette de viande",
+      "slug": "boulette-de-viande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1836",
+      "sourceTaxonomyId": "1836",
+      "name": "viande hachee",
+      "slug": "viande-hachee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1838",
+      "sourceTaxonomyId": "1838",
+      "name": "dinde",
+      "slug": "dinde"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6820",
+      "sourceTaxonomyId": "6820",
+      "name": "bouillon",
+      "slug": "bouillon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6822",
+      "sourceTaxonomyId": "6822",
+      "name": "soupe russe",
+      "slug": "soupe-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6824",
+      "sourceTaxonomyId": "6824",
+      "name": "les enfants adorent",
+      "slug": "les-enfants-adorent"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "5 personnes",
+      "value": 5,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2978",
+    "ingredientGroups": [
+      {
+        "name": "Frikadelkis",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "220 g de dinde hachée",
+            "quantity": {
+              "raw": "220 g",
+              "value": 220,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de dinde",
+            "notes": "hachée"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "220 g de boeuf haché",
+            "quantity": {
+              "raw": "220 g",
+              "value": 220,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de boeuf",
+            "notes": "haché"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 oignon épluché et émincé",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "épluché et émincé"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel du moulin",
+            "quantity": null,
+            "name": "Sel du moulin",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Soupe",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2,5 l d'eau",
+            "quantity": {
+              "raw": "2,5 l",
+              "unit": "l",
+              "scalable": false
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "5 pommes de terre épluchées et coupées en cubes",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pommes de terre",
+            "notes": "épluchées et coupées en cubes"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 cuillère à soupe de riz",
+            "quantity": {
+              "raw": "3 cuillère à soupe",
+              "value": 3,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de riz",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 cuillères à soupe d'huile végétale",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile végétale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 oignon épluchée et émincée",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "épluchée et émincée"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 carotte épluchée et râpée",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carotte",
+            "notes": "épluchée et râpée"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques brins de persil (ou aneth) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de persil (ou aneth)",
+            "notes": "ciselés"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un saladier, mélanger les viandes hachées avec l'oignon et le sel. Avec les doigts, former des petites boulettes de 2 à 3 cm de diamètre.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans une casserole, porter l'eau à ébullition. Ajouter les frikadelkis dans l'eau. Porter à nouveau à ébullition. Les frikadelkis doivent remonter à la surface. Réduire le feu. Écumer le bouillon.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter le riz et les pommes de terre. Faire cuire pendant environ 15 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Pendant ce temps là, dans une poêle, faire chauffer l'huile d'olive et y faire revenir l'oignon et la carotte.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter les légumes revenus dans la soupe. Laisser cuire pendant encore 3 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Goûter la soupe et rectifier l'assaisonnement.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Retirer la casserole du feu puis ajouter le persil.",
+            "mediaId": "wordpress-attachment:2977"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2978",
+      "sourceId": "2978",
+      "path": "/recipes/media/wordpress/2978.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:2977",
+      "sourceId": "2977",
+      "path": "/recipes/media/wordpress/2977.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

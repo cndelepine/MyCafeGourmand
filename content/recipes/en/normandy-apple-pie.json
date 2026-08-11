@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21350",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:917",
+  "slug": "normandy-apple-pie",
+  "source": {
+    "system": "wordpress",
+    "postId": "21350",
+    "recipeId": "21350",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-normandy-apple-pie",
+    "createdAt": "2018-10-31T06:29:00+00:00",
+    "modifiedAt": "2022-07-30T19:22:05+00:00",
+    "editorialPostId": "2422",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "normandy-apple-pie",
+    "editorialCreatedAt": "2018-10-31T06:29:00+00:00",
+    "editorialModifiedAt": "2022-07-30T19:22:02+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Normandy Apple Pie",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>My version of Normandy Apple Pie, with calvados and sour cream, of course.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Check out my other recipes with <a href=\"https://mycafegourmand.com/puff-pastry/\">puff pastry</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21350,\"template\":\"chic-template-english\",\"updated\":1659208912959} -->\n<!--WPRM Recipe 21350-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Normandy Apple Pie</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2017/11/20171028_224124.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet all butter puff pastry</li><li>4-5   apples Granny Smith</li><li>2  Tbsp lemon juice</li><li>2 eggs</li><li>4 Tbsp granulated sugar</li><li>3 Tbsp Calvados</li><li>4 Tbsp sour cream</li><li>1/4 cup almond powder</li><li>1 Tbsp sliced almonds</li><li>1 tsp sugar powdered</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 380 degrees F. Thaw one sheet of puff pastry until room temperature. Roll the pastry dough into circle and transfer to a parchment lined baking sheet. Prick with a fork.</li><li>Bake for 12-15 minutes.</li><li>Peel the apples and cut them in half through the stem. Remove the stems and slice the apples cross wide in very thin slices. Add lemon juice. </li><li>Arrange the apples slices in an overlapping spiral pattern.</li><li>In a medium bowl beat the eggs with sugar. Add calvados, sour cream and almond powder, mix well. </li><li>Pour the mixture over the apples.</li><li>Bake for another 15 minutes.</li><li>Sprinkle with sliced almonds and keep baking for 30 more minutes until golden. </li><li>Remove from the oven and cool in the pan. Transfer to serving plate and sprinkle with powdered sugar.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24060",
+      "sourceTaxonomyId": "24060",
+      "name": "almond powder",
+      "slug": "almond-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24115",
+      "sourceTaxonomyId": "24115",
+      "name": "apples Granny Smith",
+      "slug": "apples-granny-smith"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24230",
+      "sourceTaxonomyId": "24230",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24231",
+      "sourceTaxonomyId": "24231",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24232",
+      "sourceTaxonomyId": "24232",
+      "name": "Calvados",
+      "slug": "calvados"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24233",
+      "sourceTaxonomyId": "24233",
+      "name": "sliced almonds",
+      "slug": "sliced-almonds"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24234",
+      "sourceTaxonomyId": "24234",
+      "name": "sugar powdered",
+      "slug": "sugar-powdered"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "783",
+      "sourceTaxonomyId": "783",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "967",
+      "sourceTaxonomyId": "967",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "971",
+      "sourceTaxonomyId": "971",
+      "name": "Calvados",
+      "slug": "calvados"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "973",
+      "sourceTaxonomyId": "973",
+      "name": "almond powder",
+      "slug": "almond-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "975",
+      "sourceTaxonomyId": "975",
+      "name": "sliced almonds",
+      "slug": "sliced-almonds"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "977",
+      "sourceTaxonomyId": "977",
+      "name": "sugar powdered",
+      "slug": "sugar-powdered"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "979",
+      "sourceTaxonomyId": "979",
+      "name": "apples Granny Smith",
+      "slug": "apples-granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1374",
+      "sourceTaxonomyId": "1374",
+      "name": "normandy",
+      "slug": "normandy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1376",
+      "sourceTaxonomyId": "1376",
+      "name": "apple",
+      "slug": "apple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1378",
+      "sourceTaxonomyId": "1378",
+      "name": "pie",
+      "slug": "pie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1380",
+      "sourceTaxonomyId": "1380",
+      "name": "tart",
+      "slug": "tart"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1382",
+      "sourceTaxonomyId": "1382",
+      "name": "kalvados",
+      "slug": "kalvados"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1386",
+      "sourceTaxonomyId": "1386",
+      "name": "puff pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1388",
+      "sourceTaxonomyId": "1388",
+      "name": "granny smith",
+      "slug": "granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1390",
+      "sourceTaxonomyId": "1390",
+      "name": "french",
+      "slug": "french"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1408",
+      "sourceTaxonomyId": "1408",
+      "name": "normandy apple pie",
+      "slug": "normandy-apple-pie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1410",
+      "sourceTaxonomyId": "1410",
+      "name": "normandy apple tart",
+      "slug": "normandy-apple-tart"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "rest": null,
+      "total": {
+        "raw": "80",
+        "minutes": 80
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1048",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4-5 apples Granny Smith",
+            "quantity": {
+              "raw": "4-5",
+              "min": 4,
+              "max": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "apples Granny Smith",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 Tbsp lemon juice",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "lemon juice",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 Tbsp granulated sugar",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 Tbsp Calvados",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "Calvados",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "4 Tbsp sour cream",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/4 cup almond powder",
+            "quantity": {
+              "raw": "1/4 cup",
+              "value": 0.25,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "almond powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 Tbsp sliced almonds",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sliced almonds",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "1 tsp sugar powdered",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sugar powdered",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380 degrees F. Thaw one sheet of puff pastry until room temperature. Roll the pastry dough into circle and transfer to a parchment lined baking sheet. Prick with a fork.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Bake for 12-15 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel the apples and cut them in half through the stem. Remove the stems and slice the apples cross wide in very thin slices. Add lemon juice.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Arrange the apples slices in an overlapping spiral pattern.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "In a medium bowl beat the eggs with sugar. Add calvados, sour cream and almond powder, mix well.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Pour the mixture over the apples.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Bake for another 15 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Sprinkle with sliced almonds and keep baking for 30 more minutes until golden.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Remove from the oven and cool in the pan. Transfer to serving plate and sprinkle with powdered sugar.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1048",
+      "sourceId": "1048",
+      "path": "/recipes/media/wordpress/1048.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21303",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6781",
+  "slug": "french-chocolate-mousse",
+  "source": {
+    "system": "wordpress",
+    "postId": "21303",
+    "recipeId": "21303",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-french-chocolate-mousse",
+    "createdAt": "2025-03-21T02:21:00+00:00",
+    "modifiedAt": "2025-03-21T22:41:22+00:00",
+    "editorialPostId": "12207",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "french-chocolate-mousse",
+    "editorialCreatedAt": "2025-03-21T02:21:00+00:00",
+    "editorialModifiedAt": "2025-03-21T22:40:47+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "French Chocolate Mousse",
+  "description": "Use very fresh eggs and do not refrigerate the mousse for more than 24 hours. I recommend keeping the mousse in the freezer if it needs to be stored for an extended period of time.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Only 2 ingredients are needed to prepare this delicious French chocolate mousse. No dairy products and no sugar added; all you need is dark chocolate and eggs. So simple and so tasty! The only downside is that you should allocate about 4 hours to chill the mousse before serving.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In small individual glasses, the chocolate mousse will be perfect for a <a href=\"https://mycafegourmand.com/cafe-gourmand\">cafe gourmand</a>!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21303,\"template\":\"chic-template-english\",\"updated\":1742596782934} -->\n<!--WPRM Recipe 21303-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">French Chocolate Mousse</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1697-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tUse very fresh eggs and do not refrigerate the mousse for more than 24 hours. I recommend keeping the mousse in the freezer if it needs to be stored for an extended period of time.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g dark or milk chocolate chips  (or break chocolate into small pieces)</li><li>6 fresh eggs ((at room temperature))</li><li>1 pinch salt</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Melt chocolate in a microwave (or use a double boiler) until the chocolate is completely melted. If you use a microwave: put the chocolate in a large microwave-safe bowl, microwave for 25 seconds, then stir. Microwave for 25 more seconds and stir again. Continue microwaving and stirring until the chocolate is liquid, smooth, and shiny.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1664.Blog_-150x150.png\"/><br /></li><li>Separate egg yolks from the egg whites. Add egg yolks in melted chocolate and mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1667.Blog_-150x150.png\"/><br /></li><li>Whisk egg whites with salt until stiff.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1666.Blog_-150x150.png\"/><br /></li><li>Carefully fold the egg whites into chocolate using a spatula.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1669.Blog_-150x150.png\"/><br /></li><li>You should have a smooth and fluffy mousse.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1670.Blog_-150x150.png\"/><br /></li><li>Divide the mousse among individual glasses. Refrigerate your dessert for 4-6 hours.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1690.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24193",
+      "sourceTaxonomyId": "24193",
+      "name": "fresh eggs",
+      "slug": "fresh-eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26186",
+      "sourceTaxonomyId": "26186",
+      "name": "dark or milk chocolate chips",
+      "slug": "dark-or-milk-chocolate-chips"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25475",
+      "sourceTaxonomyId": "25475",
+      "name": "pinch",
+      "slug": "pinch"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "722",
+      "sourceTaxonomyId": "722",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25342",
+      "sourceTaxonomyId": "25342",
+      "name": "Desserts",
+      "slug": "desserts-gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2119",
+      "sourceTaxonomyId": "2119",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11469",
+      "sourceTaxonomyId": "11469",
+      "name": "fresh eggs",
+      "slug": "fresh-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11591",
+      "sourceTaxonomyId": "11591",
+      "name": "dark chocolate chips (60-70% cocoa)",
+      "slug": "dark-chocolate-chips-60-70-cocoa"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1959",
+      "sourceTaxonomyId": "1959",
+      "name": "chocolate chip",
+      "slug": "chocolate-chip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2121",
+      "sourceTaxonomyId": "2121",
+      "name": "milk chocolate",
+      "slug": "milk-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2131",
+      "sourceTaxonomyId": "2131",
+      "name": "verrine",
+      "slug": "verrine-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4170",
+      "sourceTaxonomyId": "4170",
+      "name": "chocolate",
+      "slug": "chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6164",
+      "sourceTaxonomyId": "6164",
+      "name": "dairy-free",
+      "slug": "dairy-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6792",
+      "sourceTaxonomyId": "6792",
+      "name": "dark chocolate mousse",
+      "slug": "dark-chocolate-mousse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6794",
+      "sourceTaxonomyId": "6794",
+      "name": "2 ingredients chocolate mousse",
+      "slug": "2-ingredients-chocolate-mousse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6796",
+      "sourceTaxonomyId": "6796",
+      "name": "two ingredients",
+      "slug": "two-ingredients"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7241",
+      "sourceTaxonomyId": "7241",
+      "name": "no sugar",
+      "slug": "no-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8168",
+      "sourceTaxonomyId": "8168",
+      "name": "only two ingredients",
+      "slug": "only-two-ingredients"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8170",
+      "sourceTaxonomyId": "8170",
+      "name": "no milk",
+      "slug": "no-milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8438",
+      "sourceTaxonomyId": "8438",
+      "name": "can make at home",
+      "slug": "can-make-at-home"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "2",
+        "minutes": 2
+      },
+      "rest": null,
+      "total": {
+        "raw": "257",
+        "minutes": 257
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:12180",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g dark or milk chocolate chips or break chocolate into small pieces",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "dark or milk chocolate chips",
+            "notes": "or break chocolate into small pieces"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "6 fresh eggs (at room temperature)",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "fresh eggs",
+            "notes": "(at room temperature)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 pinch salt",
+            "quantity": {
+              "raw": "1 pinch",
+              "value": 1,
+              "unit": "pinch",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Melt chocolate in a microwave (or use a double boiler) until the chocolate is completely melted. If you use a microwave: put the chocolate in a large microwave-safe bowl, microwave for 25 seconds, then stir. Microwave for 25 more seconds and stir again. Continue microwaving and stirring until the chocolate is liquid, smooth, and shiny.",
+            "mediaId": "wordpress-attachment:12174"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Separate egg yolks from the egg whites. Add egg yolks in melted chocolate and mix well.",
+            "mediaId": "wordpress-attachment:12176"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Whisk egg whites with salt until stiff.",
+            "mediaId": "wordpress-attachment:12175"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Carefully fold the egg whites into chocolate using a spatula.",
+            "mediaId": "wordpress-attachment:12177"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "You should have a smooth and fluffy mousse.",
+            "mediaId": "wordpress-attachment:12178"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Divide the mousse among individual glasses. Refrigerate your dessert for 4-6 hours.",
+            "mediaId": "wordpress-attachment:12179"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12180",
+      "sourceId": "12180",
+      "path": "/recipes/media/wordpress/12180.png",
+      "alt": "Шоколадный мусс",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12174",
+      "sourceId": "12174",
+      "path": "/recipes/media/wordpress/12174.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12176",
+      "sourceId": "12176",
+      "path": "/recipes/media/wordpress/12176.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12175",
+      "sourceId": "12175",
+      "path": "/recipes/media/wordpress/12175.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12177",
+      "sourceId": "12177",
+      "path": "/recipes/media/wordpress/12177.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12178",
+      "sourceId": "12178",
+      "path": "/recipes/media/wordpress/12178.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12179",
+      "sourceId": "12179",
+      "path": "/recipes/media/wordpress/12179.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

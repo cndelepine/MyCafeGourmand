@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21482",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6968",
+  "slug": "easy-french-chocolate-tart",
+  "source": {
+    "system": "wordpress",
+    "postId": "21482",
+    "recipeId": "21482",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-easy-french-chocolate-tart",
+    "createdAt": "2025-02-28T07:51:00+00:00",
+    "modifiedAt": "2025-02-28T21:46:10+00:00",
+    "editorialPostId": "12411",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "easy-french-chocolate-tart",
+    "editorialCreatedAt": "2025-02-28T07:51:00+00:00",
+    "editorialModifiedAt": "2025-02-28T21:46:06+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Easy French Chocolate Tart",
+  "description": "Higher quality chocolate makes a better tart.\nDecorate the tart with nuts or raspberries.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>You don't have to be a famous chef or spend days in your kitchen to make a delicious dessert. You can make this amazing, stress-free chocolate tart in no time, especially when using a ready to bake pie crust. The hardest part is to wait for chocolate to firm up, then you can finally try a piece.... or two :)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21482,\"template\":\"chic-template-english\",\"updated\":1740779155313} -->\n<!--WPRM Recipe 21482-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Easy French Chocolate Tart</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3710.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tHigher quality chocolate makes a better tart. \r\nDecorate the tart with nuts or raspberries.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet ready to bake pie crust</li><li>360 ml heavy whipping cream ( 35%)</li><li>300 g dark chocolate (60-70% cacao)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>For easy removal, grease the bottom of the tart pan with butter or line the bottom with parchment paper.  Roll the dough out, transfer to the tart pan, trim the excess dough and prick all over with a fork. Refrigerate for 30 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1894.Blog_-150x150.png\"/><br /></li><li>Preheat oven to 350 degrees F. Place the tart in the oven for 20 minutes, or until golden. Remove from the oven and set aside on the serving plate.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1895.Blog_-150x150.png\"/><br /></li><li><p>Meanwhile, bring the heavy cream to a boil, then pour over the chocolate. Let stand for 1-2 minutes. Stir until the mixture becomes smooth and dark. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_9034.Blog_-150x150.png\"/><br /></li><li><p>Pour chocolate ganache into crust to the top. Cool completely. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3665.Blog_-150x150.png\"/><br /></li><li><p>If you made this dessert during the hot summer, it will be the best to refrigerate it. If it&#039;s not too hot in your kitchen, let it stand on the counter top at room temperature.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3710.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24207",
+      "sourceTaxonomyId": "24207",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24244",
+      "sourceTaxonomyId": "24244",
+      "name": "dark chocolate (60-70% cacao)",
+      "slug": "dark-chocolate-60-70-cacao"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24326",
+      "sourceTaxonomyId": "24326",
+      "name": "ready to bake pie crust",
+      "slug": "ready-to-bake-pie-crust"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25465",
+      "sourceTaxonomyId": "25465",
+      "name": "sheet",
+      "slug": "sheet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1915",
+      "sourceTaxonomyId": "1915",
+      "name": "heavy cream",
+      "slug": "heavy-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4248",
+      "sourceTaxonomyId": "4248",
+      "name": "dark chocolate (60-70% cacao)",
+      "slug": "dark-chocolate-60-70-cacao"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7161",
+      "sourceTaxonomyId": "7161",
+      "name": "ready to bake pie crust",
+      "slug": "ready-to-bake-pie-crust"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1378",
+      "sourceTaxonomyId": "1378",
+      "name": "pie",
+      "slug": "pie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1897",
+      "sourceTaxonomyId": "1897",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2127",
+      "sourceTaxonomyId": "2127",
+      "name": "ganache",
+      "slug": "ganache-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2268",
+      "sourceTaxonomyId": "2268",
+      "name": "french pastry",
+      "slug": "french-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4240",
+      "sourceTaxonomyId": "4240",
+      "name": "creamy",
+      "slug": "creamy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6991",
+      "sourceTaxonomyId": "6991",
+      "name": "chocolate tart",
+      "slug": "chocolate-tart"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7322",
+      "sourceTaxonomyId": "7322",
+      "name": "ready to bake pie crust",
+      "slug": "ready-to-bake-pie-crust"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "155",
+        "minutes": 155
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:29260",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet ready to bake pie crust",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "ready to bake pie crust",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "360 ml heavy whipping cream ( 35%)",
+            "quantity": {
+              "raw": "360 ml",
+              "value": 360,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream ( 35%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "300 g dark chocolate (60-70% cacao)",
+            "quantity": {
+              "raw": "300 g",
+              "value": 300,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "dark chocolate (60-70% cacao)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "For easy removal, grease the bottom of the tart pan with butter or line the bottom with parchment paper. Roll the dough out, transfer to the tart pan, trim the excess dough and prick all over with a fork. Refrigerate for 30 minutes.",
+            "mediaId": "wordpress-attachment:12388"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Preheat oven to 350 degrees F. Place the tart in the oven for 20 minutes, or until golden. Remove from the oven and set aside on the serving plate.",
+            "mediaId": "wordpress-attachment:12395"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Meanwhile, bring the heavy cream to a boil, then pour over the chocolate. Let stand for 1-2 minutes. Stir until the mixture becomes smooth and dark.",
+            "mediaId": "wordpress-attachment:12393"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Pour chocolate ganache into crust to the top. Cool completely.",
+            "mediaId": "wordpress-attachment:29263"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "If you made this dessert during the hot summer, it will be the best to refrigerate it. If it's not too hot in your kitchen, let it stand on the counter top at room temperature.",
+            "mediaId": "wordpress-attachment:29260"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:29260",
+      "sourceId": "29260",
+      "path": "/recipes/media/wordpress/29260.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:12388",
+      "sourceId": "12388",
+      "path": "/recipes/media/wordpress/12388.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12395",
+      "sourceId": "12395",
+      "path": "/recipes/media/wordpress/12395.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12393",
+      "sourceId": "12393",
+      "path": "/recipes/media/wordpress/12393.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:29263",
+      "sourceId": "29263",
+      "path": "/recipes/media/wordpress/29263.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

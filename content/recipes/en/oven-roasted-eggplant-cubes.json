@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21709",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3818",
+  "slug": "oven-roasted-eggplant-cubes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21709",
+    "recipeId": "21709",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-oven-roasted-eggplant-cubes",
+    "createdAt": "2018-01-26T01:16:33+00:00",
+    "modifiedAt": "2022-06-26T23:32:38+00:00",
+    "editorialPostId": "8567",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "oven-roasted-eggplant-cubes",
+    "editorialCreatedAt": "2018-01-26T01:16:33+00:00",
+    "editorialModifiedAt": "2022-06-26T23:32:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Oven Roasted Eggplant Cubes",
+  "description": "If you are not a garlic lover like I am, add only 2-3 garlic cloves instead of a whole garlic bulb.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>It doesn't take much time to roast an eggplant in the oven, all you have to do is: cut it, salt it, drizzle with some lemon juice and olive oil, toss it and mix it couple of times while it is cooking. You can serve it by itself or as a <a href=\"https://mycafegourmand.com/recipes/main-dish/\">main dish</a>, with meat or fish. It tastes even better next day: perfect for lunch or picnic.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21709,\"template\":\"chic-template-english\",\"updated\":1609283949632} -->\n<!--WPRM Recipe 21709-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Oven Roasted Eggplant Cubes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9518.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf you are not a garlic lover like I am, add only 2-3 garlic cloves instead of a whole garlic bulb.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 large  eggplant</li><li>1/2 lemon ((juice only))</li><li>1 bulb garlic</li><li>Salt and freshly ground black pepper (to taste)</li><li>6 Tbsp olive oil</li><li>1/2 bunch fresh parsley or cilantro ( finely chopped)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Heat the oven to its hottest setting,typically around 500 degrees Fahrenheit, and turn on the broil. Cut the eggplant into 1-2 inch cubes. Transfer them to a baking sheet and spread out into a single layer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9489.Blog_-150x150.png\"/><br /></li><li>Drizzle with olive oil and lemon juice.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9491.Blog_-150x150.png\"/><br /></li><li>Peel garlic and smash it with a heavy knife.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9494.Blog_-150x150.png\"/><br /></li><li> Add garlic and pepper, give it a good mix with spatula or your hand.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9495.Blog_-150x150.png\"/><br /></li><li>Place a rack on top of your oven and cook the eggplant cubes for 10 minutes. Carefully take the eggplant out and stir it with a spatula. Return to the oven for 10 more minutes. Taste the eggplant. Cook for another 5 minutes if needed.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9498.Blog_-150x150.png\"/><br /></li><li>Remove the eggplant from the oven. Garnish with fresh herbs and serve hot or room temperature.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9515.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24153",
+      "sourceTaxonomyId": "24153",
+      "name": "eggplant",
+      "slug": "eggplant"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24170",
+      "sourceTaxonomyId": "24170",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24455",
+      "sourceTaxonomyId": "24455",
+      "name": "fresh parsley or cilantro",
+      "slug": "fresh-parsley-or-cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "445",
+      "sourceTaxonomyId": "445",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4186",
+      "sourceTaxonomyId": "4186",
+      "name": "eggplant",
+      "slug": "eggplant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4188",
+      "sourceTaxonomyId": "4188",
+      "name": "fresh parsley or cilantro",
+      "slug": "fresh-parsley-or-cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8",
+      "sourceTaxonomyId": "8",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1600",
+      "sourceTaxonomyId": "1600",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4160",
+      "sourceTaxonomyId": "4160",
+      "name": "roasted vegetables",
+      "slug": "roasted-vegetables"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4164",
+      "sourceTaxonomyId": "4164",
+      "name": "oven roasted",
+      "slug": "oven-roasted"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4190",
+      "sourceTaxonomyId": "4190",
+      "name": "summer dish",
+      "slug": "summer-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4192",
+      "sourceTaxonomyId": "4192",
+      "name": "eggplant",
+      "slug": "eggplant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4194",
+      "sourceTaxonomyId": "4194",
+      "name": "guests will love it",
+      "slug": "guests-will-love-it"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4196",
+      "sourceTaxonomyId": "4196",
+      "name": "side dish",
+      "slug": "side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5915",
+      "sourceTaxonomyId": "5915",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:8085",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 large eggplant",
+            "quantity": {
+              "raw": "2 large",
+              "value": 2,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "eggplant",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 lemon (juice only)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon",
+            "notes": "(juice only)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 bulb garlic",
+            "quantity": {
+              "raw": "1 bulb",
+              "value": 1,
+              "unit": "bulb",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "6 Tbsp olive oil",
+            "quantity": {
+              "raw": "6 Tbsp",
+              "value": 6,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 bunch fresh parsley or cilantro finely chopped",
+            "quantity": {
+              "raw": "1/2 bunch",
+              "value": 0.5,
+              "unit": "bunch",
+              "scalable": true
+            },
+            "name": "fresh parsley or cilantro",
+            "notes": "finely chopped"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Heat the oven to its hottest setting,typically around 500 degrees Fahrenheit, and turn on the broil. Cut the eggplant into 1-2 inch cubes. Transfer them to a baking sheet and spread out into a single layer.",
+            "mediaId": "wordpress-attachment:8079"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Drizzle with olive oil and lemon juice.",
+            "mediaId": "wordpress-attachment:8080"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel garlic and smash it with a heavy knife.",
+            "mediaId": "wordpress-attachment:8081"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add garlic and pepper, give it a good mix with spatula or your hand.",
+            "mediaId": "wordpress-attachment:8082"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Place a rack on top of your oven and cook the eggplant cubes for 10 minutes. Carefully take the eggplant out and stir it with a spatula. Return to the oven for 10 more minutes. Taste the eggplant. Cook for another 5 minutes if needed.",
+            "mediaId": "wordpress-attachment:8083"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Remove the eggplant from the oven. Garnish with fresh herbs and serve hot or room temperature.",
+            "mediaId": "wordpress-attachment:8084"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8085",
+      "sourceId": "8085",
+      "path": "/recipes/media/wordpress/8085.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8079",
+      "sourceId": "8079",
+      "path": "/recipes/media/wordpress/8079.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8080",
+      "sourceId": "8080",
+      "path": "/recipes/media/wordpress/8080.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8081",
+      "sourceId": "8081",
+      "path": "/recipes/media/wordpress/8081.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8082",
+      "sourceId": "8082",
+      "path": "/recipes/media/wordpress/8082.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8083",
+      "sourceId": "8083",
+      "path": "/recipes/media/wordpress/8083.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8084",
+      "sourceId": "8084",
+      "path": "/recipes/media/wordpress/8084.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

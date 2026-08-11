@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21440",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3518",
+  "slug": "puff-pastry-apple-tart",
+  "source": {
+    "system": "wordpress",
+    "postId": "21440",
+    "recipeId": "21440",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-puff-pastry-apple-tart",
+    "createdAt": "2024-10-01T19:22:00+00:00",
+    "modifiedAt": "2024-10-05T22:10:53+00:00",
+    "editorialPostId": "7668",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "puff-pastry-apple-tart",
+    "editorialCreatedAt": "2024-10-01T19:22:00+00:00",
+    "editorialModifiedAt": "2024-10-05T22:10:52+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Puff pastry apple tart",
+  "description": "Taste first your apples, then add more or less sugar to make tart perfect to your taste.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Very simple puff pastry apple tart recipe with minimum ingredients and maximum flavor. You don't even need a mold for it. Sour apples work the best. I use brown sugar, it gives the apples that caramelized taste. Can be served warm with a scoop of vanilla ice cream, or cold with some powdered sugar on top. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21440,\"template\":\"chic-template-english\",\"updated\":1728166222451} -->\n<!--WPRM Recipe 21440-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Puff pastry apple tart</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/20180321_115811.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tTaste first your apples, then add more or less sugar to make tart perfect to your taste. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet all butter puff pastry</li><li>3-4 apples Granny Smith</li><li>1-2 Tbsp brown sugar</li><li>30 g unsalted butter</li><li>confectioner's sugar ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat the oven to 380 degrees F. Place the dough on the baking sheet lined with parchment paper. Poke all over with a fork.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5507.Blog_-150x150.png\"/><br /></li><li>Peel the apples, core and cut into wedges. Slice the wedges thinly and arrange the slices on the pastry, overlapping as you go. Dot apple slices with butter. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8911-2.Blog_-150x150.png\"/><br /></li><li>Fold the edges of the pastry.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8906.Blog_-150x150.png\"/><br /></li><li>Bake for 35-45 minutes, until the pastry is golden and apples are tender.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8912.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24065",
+      "sourceTaxonomyId": "24065",
+      "name": "confectioners sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24115",
+      "sourceTaxonomyId": "24115",
+      "name": "apples Granny Smith",
+      "slug": "apples-granny-smith"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24294",
+      "sourceTaxonomyId": "24294",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "967",
+      "sourceTaxonomyId": "967",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "979",
+      "sourceTaxonomyId": "979",
+      "name": "apples Granny Smith",
+      "slug": "apples-granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3000",
+      "sourceTaxonomyId": "3000",
+      "name": "confectioner's sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3600",
+      "sourceTaxonomyId": "3600",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1376",
+      "sourceTaxonomyId": "1376",
+      "name": "apple",
+      "slug": "apple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1386",
+      "sourceTaxonomyId": "1386",
+      "name": "puff pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1388",
+      "sourceTaxonomyId": "1388",
+      "name": "granny smith",
+      "slug": "granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3738",
+      "sourceTaxonomyId": "3738",
+      "name": "apple tart",
+      "slug": "apple-tart"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3740",
+      "sourceTaxonomyId": "3740",
+      "name": "very easy",
+      "slug": "very-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3742",
+      "sourceTaxonomyId": "3742",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3744",
+      "sourceTaxonomyId": "3744",
+      "name": "no need a mold",
+      "slug": "no-need-a-mold"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4218",
+      "sourceTaxonomyId": "4218",
+      "name": "sour apples",
+      "slug": "sour-apples"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7322",
+      "sourceTaxonomyId": "7322",
+      "name": "ready to bake pie crust",
+      "slug": "ready-to-bake-pie-crust"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26820",
+      "sourceTaxonomyId": "26820",
+      "name": "apple pie galette",
+      "slug": "apple-pie-galette-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26822",
+      "sourceTaxonomyId": "26822",
+      "name": "free form tart",
+      "slug": "free-form-tart-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26824",
+      "sourceTaxonomyId": "26824",
+      "name": "less fancy apple pie",
+      "slug": "less-fancy-apple-pie-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26826",
+      "sourceTaxonomyId": "26826",
+      "name": "rustic dessert",
+      "slug": "rustic-dessert-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7437",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3-4 apples Granny Smith",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "apples Granny Smith",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 Tbsp brown sugar",
+            "quantity": {
+              "raw": "1-2 Tbsp",
+              "min": 1,
+              "max": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "brown sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "30 g unsalted butter",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "confectioner's sugar (optional)",
+            "quantity": null,
+            "name": "confectioner's sugar",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 380 degrees F. Place the dough on the baking sheet lined with parchment paper. Poke all over with a fork.",
+            "mediaId": "wordpress-attachment:7505"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel the apples, core and cut into wedges. Slice the wedges thinly and arrange the slices on the pastry, overlapping as you go. Dot apple slices with butter.",
+            "mediaId": "wordpress-attachment:7421"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Fold the edges of the pastry.",
+            "mediaId": "wordpress-attachment:7415"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Bake for 35-45 minutes, until the pastry is golden and apples are tender.",
+            "mediaId": "wordpress-attachment:7416"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7437",
+      "sourceId": "7437",
+      "path": "/recipes/media/wordpress/7437.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:7505",
+      "sourceId": "7505",
+      "path": "/recipes/media/wordpress/7505.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7421",
+      "sourceId": "7421",
+      "path": "/recipes/media/wordpress/7421.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7415",
+      "sourceId": "7415",
+      "path": "/recipes/media/wordpress/7415.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7416",
+      "sourceId": "7416",
+      "path": "/recipes/media/wordpress/7416.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

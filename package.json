@@ -7,7 +7,10 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm run content:validate && next build && npm run staticwebapp:generate",
+    "build": "npm run build:ci",
+    "build:static": "tsx scripts/build-static.ts",
+    "build:local": "npm run build:static",
+    "build:ci": "npm run build:static",
     "preview": "python3 -m http.server 3000 --directory out",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit --incremental false",
@@ -16,10 +19,16 @@
     "staticwebapp:generate": "tsx scripts/generate-staticwebapp.ts",
     "import:wprm-bulk": "tsx scripts/import-wordpress-wprm.ts",
     "import:recipe": "tsx scripts/import-wordpress-wprm.ts",
+    "promote:wprm": "tsx scripts/promote-wordpress-wprm.ts",
+    "media:upload-plan": "tsx scripts/plan-wordpress-media-upload.ts",
+    "media:verify-azure": "tsx scripts/verify-azure-recipe-media.ts",
     "inventory:urls": "tsx scripts/inventory-urls.ts",
     "inventory:wordpress-source": "tsx scripts/inventory-wordpress-source.ts",
     "probe:wordpress-source": "tsx scripts/inventory-wordpress-source-evidence.ts",
-    "check": "npm run lint && npm run typecheck && npm test && npm run build"
+    "release:validate": "tsx scripts/validate-release-media.ts",
+    "release:validate-output": "tsx scripts/validate-release-media-output.ts",
+    "build:release": "tsx scripts/build-release.ts",
+    "check": "npm run lint && npm run typecheck && npm test"
   },
   "dependencies": {
     "fast-xml-parser": "5.10.1",

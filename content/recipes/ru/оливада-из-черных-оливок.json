@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28975",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:27017",
+  "slug": "оливада-из-черных-оливок",
+  "source": {
+    "system": "wordpress",
+    "postId": "28975",
+    "recipeId": "28975",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%be%d0%bb%d0%b8%d0%b2%d0%b0%d0%b4%d0%b0-%d0%b8%d0%b7-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d1%85-%d0%be%d0%bb%d0%b8%d0%b2%d0%be%d0%ba",
+    "createdAt": "2024-12-28T09:47:57+00:00",
+    "modifiedAt": "2024-12-30T02:15:05+00:00",
+    "editorialPostId": "28974",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%b0%d0%b4%d0%b0-%d0%b8%d0%b7-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d1%85-%d0%be%d0%bb%d0%b8%d0%b2%d0%be%d0%ba",
+    "editorialCreatedAt": "2024-12-28T09:47:57+00:00",
+    "editorialModifiedAt": "2024-12-30T02:15:02+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Оливада из черных оливок",
+  "description": "Оливада из черных оливок",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Черная оливада по провансальскому рецепту. Эта паста из черных оливок готовится всего за 5 минут, подается со свежим хлебом, поджаренными тостами или лавашем.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28975,\"template\":\"chic-template-russian\",\"updated\":1735524870210} -->\n<!--WPRM Recipe 28975-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Оливада из черных оливок</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/PXL_20241209_041723738.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Оливада из черных оливок</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>180 г черные оливки (picholine или kalamata) (без косточек)</li><li>1 зубчик чеснока</li><li>1  пучок свежего базилика</li><li>1/2 лимона (сок)</li><li>4  ст.л. оливкового масла</li><li>Свежемолотый перец</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Отделить листья базилика от веточек. Зубчик чеснока почистить и разрезать на 3-4 части.</p></li><li><p>В чашу комбайна положить оливки, чеснок и листья базилика. Добавить лимонный сок и оливковое масло. Провернуть 2-3 раза по несколько секунд.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/IMG_2292.Blog_-150x150.png\"/><br /></li><li><p>Оливада должна приобрести слегка зернистую текстуру.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/PXL_20241209_035052197.Blog_-150x150.png\"/><br /></li><li><p>Поперчить по вкусу и подать на стол с вашим любимым хлебом.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/PXL_20241209_041723738.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizer, Закуски</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, French</div><div class=\"wprm-fallback-recipe-meta-keyword\">Olive, Оливада из черных оливок</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Черная оливка по провансальскому рецепту. Приготовление этой пасты из черных оливок занимает всего 5 минут."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26793",
+      "sourceTaxonomyId": "26793",
+      "name": "Appetizer",
+      "slug": "appetizer-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27034",
+      "sourceTaxonomyId": "27034",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26750",
+      "sourceTaxonomyId": "26750",
+      "name": "Français",
+      "slug": "francais-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24868",
+      "sourceTaxonomyId": "24868",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24877",
+      "sourceTaxonomyId": "24877",
+      "name": "Свежемолотый перец",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27023",
+      "sourceTaxonomyId": "27023",
+      "name": "свежего базилика",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b3%d0%be-%d0%b1%d0%b0%d0%b7%d0%b8%d0%bb%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27024",
+      "sourceTaxonomyId": "27024",
+      "name": "лимона (сок)",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%b0-%d1%81%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27027",
+      "sourceTaxonomyId": "27027",
+      "name": "черные оливки (picholine или kalamata)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b5-%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8-picholine-%d0%b8%d0%bb%d0%b8-kalamata"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25438",
+      "sourceTaxonomyId": "25438",
+      "name": "зубчик",
+      "slug": "%d0%b7%d1%83%d0%b1%d1%87%d0%b8%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25719",
+      "sourceTaxonomyId": "25719",
+      "name": "пучок",
+      "slug": "%d0%bf%d1%83%d1%87%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27036",
+      "sourceTaxonomyId": "27036",
+      "name": "Olive",
+      "slug": "olive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27060",
+      "sourceTaxonomyId": "27060",
+      "name": "Оливада из черных оливок",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%b0%d0%b4%d0%b0-%d0%b8%d0%b7-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d1%85-%d0%be%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "86",
+      "sourceTaxonomyId": "86",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1324",
+      "sourceTaxonomyId": "1324",
+      "name": "оливки",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3944",
+      "sourceTaxonomyId": "3944",
+      "name": "вкусно и полезно",
+      "slug": "%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d0%be-%d0%b8-%d0%bf%d0%be%d0%bb%d0%b5%d0%b7%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27025",
+      "sourceTaxonomyId": "27025",
+      "name": "свежий базилик",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b8%d0%b9-%d0%b1%d0%b0%d0%b7%d0%b8%d0%bb%d0%b8%d0%ba"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 человека",
+      "value": 4,
+      "unit": "человека",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "1",
+        "value": 1
+      },
+      "servingSize": null,
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28961",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "180 г черные оливки (picholine или kalamata) без косточек",
+            "quantity": {
+              "raw": "180 г",
+              "value": 180,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "черные оливки (picholine или kalamata)",
+            "notes": "без косточек"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 зубчик чеснока",
+            "quantity": {
+              "raw": "1 зубчик",
+              "value": 1,
+              "unit": "зубчик",
+              "scalable": true
+            },
+            "name": "чеснока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 пучок свежего базилика",
+            "quantity": {
+              "raw": "1 пучок",
+              "value": 1,
+              "unit": "пучок",
+              "scalable": true
+            },
+            "name": "свежего базилика",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 лимона (сок)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "лимона (сок)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "4 ст.л.",
+              "value": 4,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Свежемолотый перец",
+            "quantity": null,
+            "name": "Свежемолотый перец",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Отделить листья базилика от веточек. Зубчик чеснока почистить и разрезать на 3-4 части.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "В чашу комбайна положить оливки, чеснок и листья базилика. Добавить лимонный сок и оливковое масло. Провернуть 2-3 раза по несколько секунд.",
+            "mediaId": "wordpress-attachment:28956"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Оливада должна приобрести слегка зернистую текстуру.",
+            "mediaId": "wordpress-attachment:28960"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Поперчить по вкусу и подать на стол с вашим любимым хлебом.",
+            "mediaId": "wordpress-attachment:28961"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28961",
+      "sourceId": "28961",
+      "path": "/recipes/media/wordpress/28961.png",
+      "alt": null,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28956",
+      "sourceId": "28956",
+      "path": "/recipes/media/wordpress/28956.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28960",
+      "sourceId": "28960",
+      "path": "/recipes/media/wordpress/28960.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

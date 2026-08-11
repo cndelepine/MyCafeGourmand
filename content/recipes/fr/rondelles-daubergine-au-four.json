@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28107",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26712",
+  "slug": "rondelles-daubergine-au-four",
+  "source": {
+    "system": "wordpress",
+    "postId": "28107",
+    "recipeId": "28107",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-rondelles-daubergine-au-four",
+    "createdAt": "2024-04-12T23:20:14+00:00",
+    "modifiedAt": "2024-04-13T08:21:51+00:00",
+    "editorialPostId": "28105",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "rondelles-daubergine-au-four",
+    "editorialCreatedAt": "2024-04-12T23:20:14+00:00",
+    "editorialModifiedAt": "2024-04-13T08:21:48+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Rondelles d'aubergine au four",
+  "description": "Les tomates ne sont pas nécessaires dans cette recette: elles sont surtout là pour ajouter de la couleur et rendre le plat plus appétissant.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les aubergines sont découpées en rondelles et rôties au sel, poivre et huile d'olive. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Les aubergines à l'ail sont délicieuses chaudes ou froides, c'est pour cela que l'on peut les préparer à l'avance.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28107,\"template\":\"chic-template-french\",\"updated\":1712996396097} -->\n<!--WPRM Recipe 28107-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Rondelles d'aubergine au four</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5212.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Les tomates ne sont pas nécessaires dans cette recette: elles sont surtout là pour ajouter de la couleur et rendre le plat plus appétissant. </p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2-3 aubergines</li><li>1-2 gousses d'ail</li><li>Sel et poivre du moulin</li><li>6 cuillères à soupe d'huile d'olive</li><li>1/2 bouquet de persil (ou de coriandre) (ciselé)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le four en position gril. </p></li><li><p>Laver les aubergines et les découper en rondelles de 0,7 cm de largeur. Les placer sur une plaque en une seule couche. </p><p>Saler, poivrer et badigeonner d&#039;huile d&#039;olive de deux côtés.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5185.Blog_-150x150.png\"/><br /></li><li><p>Faire cuire sous le grill pendant 20 minutes. Retourner sur l&#039;autre côté.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5193.Blog_-150x150.png\"/><br /></li><li><p>Faire encore cuire pendant environ 10 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5194.Blog_-150x150.png\"/><br /></li><li><p>Éplucher l&#039;ail, le râper à l&#039;aide d&#039;une <strong>râpe </strong>fine (ou l’écraser). Puis l’étaler sur les rondelles d&#039;aubergines avant qu&#039;elles refroidissent.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5201.Blog_-150x150.png\"/><br /></li><li><p>Servir chaud ou froid, en saupoudrant de persil ou de coriandre. </p><p>Ajouter des rondelles ou des quartiers de tomate, si vous désirez.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5212.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26395",
+      "sourceTaxonomyId": "26395",
+      "name": "Plat Principal",
+      "slug": "plat-principal-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24499",
+      "sourceTaxonomyId": "24499",
+      "name": "de persil (ou de coriandre)",
+      "slug": "de-persil-ou-de-coriandre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26230",
+      "sourceTaxonomyId": "26230",
+      "name": "aubergines",
+      "slug": "aubergines"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25646",
+      "sourceTaxonomyId": "25646",
+      "name": "bouquet",
+      "slug": "bouquet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25670",
+      "sourceTaxonomyId": "25670",
+      "name": "gousses",
+      "slug": "gousses"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1596",
+      "sourceTaxonomyId": "1596",
+      "name": "ail",
+      "slug": "ail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3856",
+      "sourceTaxonomyId": "3856",
+      "name": "entree froide ou chaude",
+      "slug": "entree-froide-ou-chaude"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26710",
+      "sourceTaxonomyId": "26710",
+      "name": "aubergines",
+      "slug": "aubergines"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28136",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2-3 aubergines",
+            "quantity": {
+              "raw": "2-3",
+              "min": 2,
+              "max": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "aubergines",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 gousses d'ail",
+            "quantity": {
+              "raw": "1-2 gousses",
+              "min": 1,
+              "max": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "6 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "6 cuillères à soupe",
+              "value": 6,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 bouquet de persil (ou de coriandre) ciselé",
+            "quantity": {
+              "raw": "1/2 bouquet",
+              "value": 0.5,
+              "unit": "bouquet",
+              "scalable": true
+            },
+            "name": "de persil (ou de coriandre)",
+            "notes": "ciselé"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four en position gril.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Laver les aubergines et les découper en rondelles de 0,7 cm de largeur. Les placer sur une plaque en une seule couche.\n\nSaler, poivrer et badigeonner d'huile d'olive de deux côtés.",
+            "mediaId": "wordpress-attachment:28132"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Faire cuire sous le grill pendant 20 minutes. Retourner sur l'autre côté.",
+            "mediaId": "wordpress-attachment:28133"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire encore cuire pendant environ 10 minutes.",
+            "mediaId": "wordpress-attachment:28137"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Éplucher l'ail, le râper à l'aide d'une râpe fine (ou l’écraser). Puis l’étaler sur les rondelles d'aubergines avant qu'elles refroidissent.",
+            "mediaId": "wordpress-attachment:28134"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Servir chaud ou froid, en saupoudrant de persil ou de coriandre.\n\nAjouter des rondelles ou des quartiers de tomate, si vous désirez.",
+            "mediaId": "wordpress-attachment:28136"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28136",
+      "sourceId": "28136",
+      "path": "/recipes/media/wordpress/28136.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28132",
+      "sourceId": "28132",
+      "path": "/recipes/media/wordpress/28132.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:28133",
+      "sourceId": "28133",
+      "path": "/recipes/media/wordpress/28133.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28137",
+      "sourceId": "28137",
+      "path": "/recipes/media/wordpress/28137.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28134",
+      "sourceId": "28134",
+      "path": "/recipes/media/wordpress/28134.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

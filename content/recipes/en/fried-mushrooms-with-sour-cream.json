@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27992",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26661",
+  "slug": "fried-mushrooms-with-sour-cream",
+  "source": {
+    "system": "wordpress",
+    "postId": "27992",
+    "recipeId": "27992",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-fried-mushrooms-with-sour-cream",
+    "createdAt": "2024-09-11T05:03:00+00:00",
+    "modifiedAt": "2024-09-18T04:07:24+00:00",
+    "editorialPostId": "27991",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "fried-mushrooms-with-sour-cream",
+    "editorialCreatedAt": "2024-09-11T05:03:00+00:00",
+    "editorialModifiedAt": "2024-09-18T04:07:21+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Fried mushrooms with sour cream",
+  "description": "This dish can be served with boiled potatoes, mashed potatoes or rice.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Here is a hearty vegetarian dish with mushrooms, onions and sour cream. That’s all you need for this pan-fried mushrooms.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27992,\"template\":\"chic-template-english\",\"updated\":1726632413252} -->\n<!--WPRM Recipe 27992-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Fried mushrooms with sour cream</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4785.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>This dish can be served with boiled potatoes, mashed potatoes or rice.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 onion</li><li>1-2 cloves garlic</li><li>500 g button mushrooms ((or <em><strong>portobello </strong></em>mushrooms))</li><li>10 g butter</li><li>2 Tbsps olive oil</li><li>200 ml sour cream</li><li>Salt and freshly ground black pepper</li><li>Some fresh herbs (cilantro, green onion, parsley)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Prepare the mushrooms. If they are not too dirty, do not wash them, but simply wipe them with a damp cloth. If you decide to wash the mushrooms, do it quickly so they are not saturated with water.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4775.Blog_-150x150.png\"/><br /></li><li><p>Thoroughly dry the washed mushrooms with a paper towel.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4780.Blog_-150x150.png\"/><br /></li><li><p>Slice the mushrooms.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4781.Blog_-150x150.png\"/><br /></li><li><p>Peel the onion and garlic, then finely chop them.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4760.Blog_-150x150.png\"/><br /></li><li><p>Heat the vegetable oil and butter in a pan. First, sauté the onion over medium heat.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4771.Blog_-150x150.png\"/><br /></li><li><p>Then add the garlic (if garlic is added to the pan with the onion, it will fry too quickly and start to burn).</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4772.Blog_-150x150.png\"/><br /></li><li><p>Add the mushrooms and sauté for another 10 to 12 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/received_8257399460567832.Blog_-150x150.png\"/><br /></li><li><p>Add the sour cream.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4785.Blog_-150x150.png\"/><br /></li><li><p>Mix well. Add salt and pepper. Keep on the heat for another 1 to 2 minutes, and it&#039;s ready.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4786.Blog_-150x150.png\"/><br /></li><li><p>Delicious with mashed potatoes, rice, or pasta. </p><p>Don&#039;t be lazy and sprinkle with fresh herbs: it will be even more tasty and appetizing on the plate.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4794.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24106",
+      "sourceTaxonomyId": "24106",
+      "name": "fresh herbs (cilantro, green onion, parsley)",
+      "slug": "fresh-herbs-cilantro-green-onion-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26735",
+      "sourceTaxonomyId": "26735",
+      "name": "button mushrooms",
+      "slug": "button-mushrooms"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25564",
+      "sourceTaxonomyId": "25564",
+      "name": "cloves",
+      "slug": "cloves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26736",
+      "sourceTaxonomyId": "26736",
+      "name": "Tbsps",
+      "slug": "tbsps"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26737",
+      "sourceTaxonomyId": "26737",
+      "name": "sautéed mushrooms",
+      "slug": "sauteed-mushrooms"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26739",
+      "sourceTaxonomyId": "26739",
+      "name": "pan fried",
+      "slug": "pan-fried"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26743",
+      "sourceTaxonomyId": "26743",
+      "name": "button",
+      "slug": "button"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26746",
+      "sourceTaxonomyId": "26746",
+      "name": "champignons",
+      "slug": "champignons-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 people",
+      "value": 4,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27944",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 onion",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 cloves garlic",
+            "quantity": {
+              "raw": "1-2 cloves",
+              "min": 1,
+              "max": 2,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 g button mushrooms (or portobello mushrooms)",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "button mushrooms",
+            "notes": "(or portobello mushrooms)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "10 g butter",
+            "quantity": {
+              "raw": "10 g",
+              "value": 10,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 Tbsps olive oil",
+            "quantity": {
+              "raw": "2 Tbsps",
+              "value": 2,
+              "unit": "Tbsps",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "200 ml sour cream",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Some fresh herbs (cilantro, green onion, parsley)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh herbs (cilantro, green onion, parsley)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Prepare the mushrooms. If they are not too dirty, do not wash them, but simply wipe them with a damp cloth. If you decide to wash the mushrooms, do it quickly so they are not saturated with water.",
+            "mediaId": "wordpress-attachment:27941"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Thoroughly dry the washed mushrooms with a paper towel.",
+            "mediaId": "wordpress-attachment:27942"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Slice the mushrooms.",
+            "mediaId": "wordpress-attachment:27943"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Peel the onion and garlic, then finely chop them.",
+            "mediaId": "wordpress-attachment:27949"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Heat the vegetable oil and butter in a pan. First, sauté the onion over medium heat.",
+            "mediaId": "wordpress-attachment:27950"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Then add the garlic (if garlic is added to the pan with the onion, it will fry too quickly and start to burn).",
+            "mediaId": "wordpress-attachment:27951"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Add the mushrooms and sauté for another 10 to 12 minutes.",
+            "mediaId": "wordpress-attachment:27952"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Add the sour cream.",
+            "mediaId": "wordpress-attachment:27944"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Mix well. Add salt and pepper. Keep on the heat for another 1 to 2 minutes, and it's ready.",
+            "mediaId": "wordpress-attachment:27945"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Delicious with mashed potatoes, rice, or pasta.\n\nDon't be lazy and sprinkle with fresh herbs: it will be even more tasty and appetizing on the plate.",
+            "mediaId": "wordpress-attachment:27946"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27944",
+      "sourceId": "27944",
+      "path": "/recipes/media/wordpress/27944.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27941",
+      "sourceId": "27941",
+      "path": "/recipes/media/wordpress/27941.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27942",
+      "sourceId": "27942",
+      "path": "/recipes/media/wordpress/27942.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27943",
+      "sourceId": "27943",
+      "path": "/recipes/media/wordpress/27943.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27949",
+      "sourceId": "27949",
+      "path": "/recipes/media/wordpress/27949.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27950",
+      "sourceId": "27950",
+      "path": "/recipes/media/wordpress/27950.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27951",
+      "sourceId": "27951",
+      "path": "/recipes/media/wordpress/27951.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27952",
+      "sourceId": "27952",
+      "path": "/recipes/media/wordpress/27952.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27945",
+      "sourceId": "27945",
+      "path": "/recipes/media/wordpress/27945.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27946",
+      "sourceId": "27946",
+      "path": "/recipes/media/wordpress/27946.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

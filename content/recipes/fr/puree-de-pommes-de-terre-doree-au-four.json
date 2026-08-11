@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22044",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3147",
+  "slug": "puree-de-pommes-de-terre-doree-au-four",
+  "source": {
+    "system": "wordpress",
+    "postId": "22044",
+    "recipeId": "22044",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-puree-de-pommes-de-terre-doree-au-four",
+    "createdAt": "2023-03-05T18:00:20+00:00",
+    "modifiedAt": "2023-10-14T21:37:11+00:00",
+    "editorialPostId": "6647",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "puree-de-pommes-de-terre-doree-au-four",
+    "editorialCreatedAt": "2023-03-05T18:00:20+00:00",
+    "editorialModifiedAt": "2023-10-14T21:37:08+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Purée de pommes de terre dorée au four",
+  "description": "Préparez la purée selon votre goût : plus ou moins lisse; avec de la crème liquide ou du lait.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Si vous aimez la <span id=\":18h.14\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">purée, </span>vous allez adorer la <span id=\":18h.15\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">purée</span> de pommes de terre dorée au four. <span id=\":18h.17\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Sa</span> <span id=\":18h.18\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">croûte</span> <span id=\":18h.19\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">appétissante</span> <span id=\":18h.20\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">séduira</span> les plus <span id=\":18h.21\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">résistants</span> ! 😉</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>En plus, la recette est <span id=\":18h.22\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">très</span> pratique pour les gens pressés. A l'avance, vous pouvez faire cuire les pommes de terre, <span id=\":18h.23\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">préparer</span> la <span id=\":18h.24\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">purée</span> et la mettre dans un plat allant au four. Puis, avant de servir, il ne restera qu'à la passer au four.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>C’est une bonne <span id=\":18h.25\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">idée</span> aussi pour utiliser le reste de pommes de terre. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22044,\"template\":\"chic-template-french\",\"updated\":1697319419452} -->\n<!--WPRM Recipe 22044-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Purée de pommes de terre dorée au four</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7732.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tPréparez la purée selon votre goût : plus ou moins lisse; avec de la crème liquide ou du lait. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1,2 kg de pommes de terre (épluchées et coupées en quatre)</li><li>90 g de beurre</li><li>100 ml de crème liquide ou de lait ((tiède))</li><li>Sel et poivre du moulin</li><li>Quelques noisettes de beurre</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans une casserole, faire cuire les pommes de terre dans de l'eau légèrement salée pendant environ 15 minutes. Vérifier la cuisson avec une fourchette, les pommes de terre sont prêtes quand elles deviennent tendres. Égoutter. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7686.Blog_-150x150.png\"/><br /></li><li>Écraser les pommes de terre cuites en ajoutant le beurre. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7689.Blog_-150x150.png\"/><br /></li><li>Ajouter la crème (ou le lait) tiédie. Saler et poivrer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7690.Blog_-150x150.png\"/><br /></li><li>Beurrer un plat allant au four et y transférer la purée. Avec une fourchette, faire un dessin à la surface de purée. Poser quelques noisettes de beurre sur la purée.\r\nSi vous n'allez pas manger la purée tout de suite, couvrir avec une feuille de papier aluminium et ranger dans le réfrigérateur.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7692.Blog_-150x150.png\"/><br /></li><li><p>Préchauffer le four à 190°C (thermostat 6/7). Faire dorer la purée au four pendant environ 15 minutes.Si vous avez préparé votre plat à l&#039;avance et qu&#039;il sort du réfrigérateur, le temps de cuisson va être plus long.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7726.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Purée de pommes de terre dorée au four"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26395",
+      "sourceTaxonomyId": "26395",
+      "name": "Plat Principal",
+      "slug": "plat-principal-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24649",
+      "sourceTaxonomyId": "24649",
+      "name": "de pommes de terre",
+      "slug": "de-pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24693",
+      "sourceTaxonomyId": "24693",
+      "name": "de crème liquide ou de lait",
+      "slug": "de-creme-liquide-ou-de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25741",
+      "sourceTaxonomyId": "25741",
+      "name": "kg",
+      "slug": "kg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26394",
+      "sourceTaxonomyId": "26394",
+      "name": "noisettes",
+      "slug": "noisettes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2492",
+      "sourceTaxonomyId": "2492",
+      "name": "de pommes de terre",
+      "slug": "de-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3160",
+      "sourceTaxonomyId": "3160",
+      "name": "de crème liquide ou de lait",
+      "slug": "de-creme-liquide-ou-de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1290",
+      "sourceTaxonomyId": "1290",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1502",
+      "sourceTaxonomyId": "1502",
+      "name": "creme liquide",
+      "slug": "creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3148",
+      "sourceTaxonomyId": "3148",
+      "name": "puree de pommes de terre",
+      "slug": "puree-de-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3150",
+      "sourceTaxonomyId": "3150",
+      "name": "doree au four",
+      "slug": "doree-au-four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3152",
+      "sourceTaxonomyId": "3152",
+      "name": "puree",
+      "slug": "puree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3154",
+      "sourceTaxonomyId": "3154",
+      "name": "plat familial",
+      "slug": "plat-familial"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3156",
+      "sourceTaxonomyId": "3156",
+      "name": "produit laitier",
+      "slug": "produit-laitier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3158",
+      "sourceTaxonomyId": "3158",
+      "name": "lait",
+      "slug": "lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3162",
+      "sourceTaxonomyId": "3162",
+      "name": "utiliser le reste",
+      "slug": "utiliser-le-reste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6824",
+      "sourceTaxonomyId": "6824",
+      "name": "les enfants adorent",
+      "slug": "les-enfants-adorent"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:5110",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1,2 kg de pommes de terre épluchées et coupées en quatre",
+            "quantity": {
+              "raw": "1,2 kg",
+              "unit": "kg",
+              "scalable": false
+            },
+            "name": "de pommes de terre",
+            "notes": "épluchées et coupées en quatre"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "90 g de beurre",
+            "quantity": {
+              "raw": "90 g",
+              "value": 90,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 ml de crème liquide ou de lait (tiède)",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide ou de lait",
+            "notes": "(tiède)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Quelques noisettes de beurre",
+            "quantity": {
+              "raw": "Quelques noisettes",
+              "unit": "noisettes",
+              "scalable": false
+            },
+            "name": "de beurre",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une casserole, faire cuire les pommes de terre dans de l'eau légèrement salée pendant environ 15 minutes. Vérifier la cuisson avec une fourchette, les pommes de terre sont prêtes quand elles deviennent tendres. Égoutter.",
+            "mediaId": "wordpress-attachment:4322"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Écraser les pommes de terre cuites en ajoutant le beurre.",
+            "mediaId": "wordpress-attachment:4323"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter la crème (ou le lait) tiédie. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:4324"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Beurrer un plat allant au four et y transférer la purée. Avec une fourchette, faire un dessin à la surface de purée. Poser quelques noisettes de beurre sur la purée.\nSi vous n'allez pas manger la purée tout de suite, couvrir avec une feuille de papier aluminium et ranger dans le réfrigérateur.",
+            "mediaId": "wordpress-attachment:4325"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Préchauffer le four à 190°C (thermostat 6/7). Faire dorer la purée au four pendant environ 15 minutes.Si vous avez préparé votre plat à l'avance et qu'il sort du réfrigérateur, le temps de cuisson va être plus long.",
+            "mediaId": "wordpress-attachment:4319"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5110",
+      "sourceId": "5110",
+      "path": "/recipes/media/wordpress/5110.png",
+      "alt": "Purée de pommes de terre dorée au four",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4322",
+      "sourceId": "4322",
+      "path": "/recipes/media/wordpress/4322.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4323",
+      "sourceId": "4323",
+      "path": "/recipes/media/wordpress/4323.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4324",
+      "sourceId": "4324",
+      "path": "/recipes/media/wordpress/4324.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4325",
+      "sourceId": "4325",
+      "path": "/recipes/media/wordpress/4325.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4319",
+      "sourceId": "4319",
+      "path": "/recipes/media/wordpress/4319.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

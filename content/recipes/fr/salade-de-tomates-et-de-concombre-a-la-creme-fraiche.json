@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22169",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:4675",
+  "slug": "salade-de-tomates-et-de-concombre-a-la-creme-fraiche",
+  "source": {
+    "system": "wordpress",
+    "postId": "22169",
+    "recipeId": "22169",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-de-tomates-et-de-concombre-a-la-creme-fraiche",
+    "createdAt": "2022-04-13T01:14:00+00:00",
+    "modifiedAt": "2022-11-23T00:37:16+00:00",
+    "editorialPostId": "9552",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-de-tomates-et-de-concombre-a-la-creme-fraiche",
+    "editorialCreatedAt": "2022-04-13T01:14:00+00:00",
+    "editorialModifiedAt": "2022-05-29T03:30:40+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Salade de tomates et de concombre à la crème fraîche",
+  "description": "N'hésitez pas de rajouter d'autres herbes fraîches du jardin.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une salade d'été toute simple composée de tomates et de concombre, assaisonnée d'ail et de crème fraîche. Elle peut être&nbsp;aussi préparée avec de l'huile d'olive. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22169,\"template\":\"chic-template-french\",\"updated\":1653794573963} -->\n<!--WPRM Recipe 22169-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade de tomates et de concombre à la crème fraîche</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9844-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tN'hésitez pas de rajouter d'autres herbes fraîches du jardin.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>5 tomates (découpées en quartiers)</li><li>1 long concombre (coupé en rondelles)</li><li>1 gousse d'ail (écrasée)</li><li>2 cuillères à soupe de crème fraîche épaisse</li><li>Quelques brins de ciboulette (ciselée)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans un saladier, mélanger délicatement les tomates, le concombre et l'ail. Saler et poivrer. Parsemer de ciboulette et ajouter la crème fraîche. Servir sans tarder.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23540",
+      "sourceTaxonomyId": "23540",
+      "name": "French",
+      "slug": "french"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24046",
+      "sourceTaxonomyId": "24046",
+      "name": "Français",
+      "slug": "francais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24047",
+      "sourceTaxonomyId": "24047",
+      "name": "française",
+      "slug": "francaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24471",
+      "sourceTaxonomyId": "24471",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24478",
+      "sourceTaxonomyId": "24478",
+      "name": "de ciboulette",
+      "slug": "de-ciboulette"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24560",
+      "sourceTaxonomyId": "24560",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24596",
+      "sourceTaxonomyId": "24596",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25423",
+      "sourceTaxonomyId": "25423",
+      "name": "gousse",
+      "slug": "gousse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25666",
+      "sourceTaxonomyId": "25666",
+      "name": "long",
+      "slug": "long"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25667",
+      "sourceTaxonomyId": "25667",
+      "name": "brins",
+      "slug": "brins"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25668",
+      "sourceTaxonomyId": "25668",
+      "name": "Salade de tomates",
+      "slug": "salade-de-tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25669",
+      "sourceTaxonomyId": "25669",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1188",
+      "sourceTaxonomyId": "1188",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "527",
+      "sourceTaxonomyId": "527",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "942",
+      "sourceTaxonomyId": "942",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1099",
+      "sourceTaxonomyId": "1099",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4431",
+      "sourceTaxonomyId": "4431",
+      "name": "de ciboulette",
+      "slug": "de-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1316",
+      "sourceTaxonomyId": "1316",
+      "name": "legume",
+      "slug": "legume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1596",
+      "sourceTaxonomyId": "1596",
+      "name": "ail",
+      "slug": "ail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2951",
+      "sourceTaxonomyId": "2951",
+      "name": "entree",
+      "slug": "entree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3447",
+      "sourceTaxonomyId": "3447",
+      "name": "creme fraiche epaisse",
+      "slug": "creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3911",
+      "sourceTaxonomyId": "3911",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4531",
+      "sourceTaxonomyId": "4531",
+      "name": "salade d'ete",
+      "slug": "salade-dete"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:9851",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "5 tomates découpées en quartiers",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates",
+            "notes": "découpées en quartiers"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 long concombre coupé en rondelles",
+            "quantity": {
+              "raw": "1 long",
+              "value": 1,
+              "unit": "long",
+              "scalable": true
+            },
+            "name": "concombre",
+            "notes": "coupé en rondelles"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 gousse d'ail écrasée",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "écrasée"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 cuillères à soupe de crème fraîche épaisse",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de crème fraîche épaisse",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Quelques brins de ciboulette ciselée",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de ciboulette",
+            "notes": "ciselée"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un saladier, mélanger délicatement les tomates, le concombre et l'ail. Saler et poivrer. Parsemer de ciboulette et ajouter la crème fraîche. Servir sans tarder.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:9851",
+      "sourceId": "9851",
+      "path": "/recipes/media/wordpress/9851.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

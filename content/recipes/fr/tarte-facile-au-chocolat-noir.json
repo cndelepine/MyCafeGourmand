@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22107",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:6968",
+  "slug": "tarte-facile-au-chocolat-noir",
+  "source": {
+    "system": "wordpress",
+    "postId": "22107",
+    "recipeId": "22107",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tarte-facile-au-chocolat-noir",
+    "createdAt": "2025-02-27T20:39:00+00:00",
+    "modifiedAt": "2025-03-01T02:57:45+00:00",
+    "editorialPostId": "12387",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tarte-facile-au-chocolat-noir",
+    "editorialCreatedAt": "2025-02-27T20:39:00+00:00",
+    "editorialModifiedAt": "2025-03-01T02:57:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Tarte facile au chocolat noir",
+  "description": "Un chocolat de meilleure qualité égale une meilleure tarte...\n\nVous pouvez choisir des moules de différentes tailles pour une tartelette individuelle ou une tarte pour 6-8 personnes.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Pas besoin d'être un grand chef pour réussir une tarte délicieuse au chocolat, surtout avec une pâte du commerce prête à dérouler. Choisissez votre pâte préférée (brisée ou sablée), faites cuire à blanc. Puis remplissez-la avec une ganache fondante et attendez quelques heures (le plus dur !) pour que le chocolat se fige.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Si vous avez le temps et l'envie, vous pouvez faire une <a href=\"https://mycafegourmand.com/fr/recipe/pate-brisee\" target=\"_blank\" rel=\"noreferrer noopener\">pâte brisée maison</a>. Cela n'est pas difficile et la tarte ne sera que meilleure.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22107,\"template\":\"chic-template-french\",\"updated\":1740797850320} -->\n<!--WPRM Recipe 22107-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tarte facile au chocolat noir</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3710.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Un chocolat de meilleure qualité égale une meilleure tarte...</p><p>Vous pouvez choisir des moules de différentes tailles pour une tartelette individuelle ou une tarte pour 6-8 personnes.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 feuille de pâte sablée (ou brisée)</li><li>360 ml de crème liquide entière</li><li>300 g de chocolat noir (60-70 % cacao)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Beurrer un plat à tarte ou le tapisser avec une feuille de papier sulfurisé. Dérouler la pâte et foncer le moule. Couper l'excédent de pâte avec la lame d'un couteau. Piquer la pâte avec une fourchette. Laisser reposer au moins 30 minutes dans le réfrigérateur. (Sur la photo, j'utilise un cercle à tarte.)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1894.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 170°C (thermostat 5/6). Faire cuire à blanc pendant 20 minutes environ. Quand la pâte est dorée, la sortir du four, refroidir et démouler sur un plat de service.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1895.Blog_-150x150.png\"/><br /></li><li>Dans une casserole, faire bouillir la crème liquide. Retirer la casserole du feu, y ajouter le chocolat et laisser reposer pendant environ 2 minutes. Bien mélanger afin d'obtenir une ganache bien lisse.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_9034.Blog_-150x150.png\"/><br /></li><li><p>Verser la ganache encore chaude sur le fond de tarte cuit à blanc.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3665.Blog_-150x150.png\"/><br /></li><li><p>Laisser refroidir à température ambiante ou dans le réfrigérateur, jusqu&#039;à ce que le chocolat se fige.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3710.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div><div class=\"wprm-fallback-recipe-meta-keyword\">Tarte facile au chocolat noir</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27176",
+      "sourceTaxonomyId": "27176",
+      "name": "Dessert",
+      "slug": "dessert-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24647",
+      "sourceTaxonomyId": "24647",
+      "name": "de chocolat noir (60-70 % cacao)",
+      "slug": "de-chocolat-noir-60-70-cacao"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24727",
+      "sourceTaxonomyId": "24727",
+      "name": "de pâte sablée (ou brisée)",
+      "slug": "de-pate-sablee-ou-brisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25462",
+      "sourceTaxonomyId": "25462",
+      "name": "feuille",
+      "slug": "feuille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27179",
+      "sourceTaxonomyId": "27179",
+      "name": "Tarte facile au chocolat noir",
+      "slug": "tarte-facile-au-chocolat-noir-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6790",
+      "sourceTaxonomyId": "6790",
+      "name": "de chocolat noir (60-70 % cacao)",
+      "slug": "de-chocolat-noir-60-70-cacao"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6964",
+      "sourceTaxonomyId": "6964",
+      "name": "de pâte sablée (ou brisée)",
+      "slug": "de-pate-sablee-ou-brisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1292",
+      "sourceTaxonomyId": "1292",
+      "name": "gateau",
+      "slug": "gateau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1502",
+      "sourceTaxonomyId": "1502",
+      "name": "creme liquide",
+      "slug": "creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1552",
+      "sourceTaxonomyId": "1552",
+      "name": "chocolat",
+      "slug": "chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6952",
+      "sourceTaxonomyId": "6952",
+      "name": "pate brisee",
+      "slug": "pate-brisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6954",
+      "sourceTaxonomyId": "6954",
+      "name": "pate sablee",
+      "slug": "pate-sablee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6956",
+      "sourceTaxonomyId": "6956",
+      "name": "pate du commerce",
+      "slug": "pate-du-commerce"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6958",
+      "sourceTaxonomyId": "6958",
+      "name": "pate prete a derouler",
+      "slug": "pate-prete-a-derouler"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6960",
+      "sourceTaxonomyId": "6960",
+      "name": "cuire a blanc",
+      "slug": "cuire-a-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6962",
+      "sourceTaxonomyId": "6962",
+      "name": "ganache au chocolat",
+      "slug": "ganache-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "wpurp_keyword",
+      "sourceId": "6966",
+      "sourceTaxonomyId": "6966",
+      "name": "Tarte facile au chocolat noir",
+      "slug": "tarte-facile-au-chocolat-noir"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "37",
+        "minutes": 37
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:29260",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 feuille de pâte sablée (ou brisée)",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "de pâte sablée (ou brisée)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "360 ml de crème liquide entière",
+            "quantity": {
+              "raw": "360 ml",
+              "value": 360,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "300 g de chocolat noir (60-70 % cacao)",
+            "quantity": {
+              "raw": "300 g",
+              "value": 300,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir (60-70 % cacao)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Beurrer un plat à tarte ou le tapisser avec une feuille de papier sulfurisé. Dérouler la pâte et foncer le moule. Couper l'excédent de pâte avec la lame d'un couteau. Piquer la pâte avec une fourchette. Laisser reposer au moins 30 minutes dans le réfrigérateur. (Sur la photo, j'utilise un cercle à tarte.)",
+            "mediaId": "wordpress-attachment:12388"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Préchauffer le four à 170°C (thermostat 5/6). Faire cuire à blanc pendant 20 minutes environ. Quand la pâte est dorée, la sortir du four, refroidir et démouler sur un plat de service.",
+            "mediaId": "wordpress-attachment:12395"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans une casserole, faire bouillir la crème liquide. Retirer la casserole du feu, y ajouter le chocolat et laisser reposer pendant environ 2 minutes. Bien mélanger afin d'obtenir une ganache bien lisse.",
+            "mediaId": "wordpress-attachment:12393"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Verser la ganache encore chaude sur le fond de tarte cuit à blanc.",
+            "mediaId": "wordpress-attachment:29263"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Laisser refroidir à température ambiante ou dans le réfrigérateur, jusqu'à ce que le chocolat se fige.",
+            "mediaId": "wordpress-attachment:29260"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:29260",
+      "sourceId": "29260",
+      "path": "/recipes/media/wordpress/29260.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:12388",
+      "sourceId": "12388",
+      "path": "/recipes/media/wordpress/12388.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12395",
+      "sourceId": "12395",
+      "path": "/recipes/media/wordpress/12395.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12393",
+      "sourceId": "12393",
+      "path": "/recipes/media/wordpress/12393.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:29263",
+      "sourceId": "29263",
+      "path": "/recipes/media/wordpress/29263.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

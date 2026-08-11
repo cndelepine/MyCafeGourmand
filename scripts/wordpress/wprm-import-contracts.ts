@@ -26,6 +26,8 @@ export type WprmIssueCode =
   | "protected-source-post"
   | "timestamp-without-gmt"
   | "missing-wprm-title"
+  | "malformed-wprm-rich-text"
+  | "rich-text-normalization-limit"
   | "malformed-wprm-ingredients"
   | "malformed-wprm-instructions"
   | "unsupported-wprm-field"
@@ -319,13 +321,26 @@ export interface WprmSafeManifest {
   };
 }
 
-export const wprmImportContractVersion = "wprm-bulk-import-v3";
+export const wprmImportContractVersion = "wprm-bulk-import-v6";
+
+export interface WprmStagedMediaBinding {
+  readonly attachmentId: string;
+  readonly bytes: number;
+  readonly keyedSha256: string;
+}
+
+export interface WprmStagedMediaBindings {
+  readonly schemaVersion: 1;
+  readonly kind: "wprm-staged-media-bindings";
+  readonly entries: readonly WprmStagedMediaBinding[];
+}
 
 export interface WprmStagingMarker {
-  readonly schemaVersion: 1;
+  readonly schemaVersion: 2;
   readonly kind: "wprm-bulk-staging";
   readonly sqlDecompressedSha256: string;
   readonly importerContractVersion: typeof wprmImportContractVersion;
+  readonly mediaBindingVersion: 1;
 }
 
 export interface WprmImportOptions {
@@ -344,6 +359,7 @@ export interface WprmBulkImportResult {
   readonly manifest: WprmSafeManifest;
   readonly outcomes: readonly CandidateOutcome[];
   readonly snapshot: WprmSourceSnapshot;
+  readonly sourceTranslationGroups: ReadonlyMap<string, string | null>;
 }
 
 export class WprmImportError extends Error {
@@ -372,6 +388,8 @@ export function isWprmImportIssueCode(value: string): value is WprmIssueCode {
     "protected-source-post",
     "timestamp-without-gmt",
     "missing-wprm-title",
+    "malformed-wprm-rich-text",
+    "rich-text-normalization-limit",
     "malformed-wprm-ingredients",
     "malformed-wprm-instructions",
     "unsupported-wprm-field",

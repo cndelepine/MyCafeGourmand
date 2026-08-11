@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26175",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:25714",
+  "slug": "gratin-dasperges-a-litalienne",
+  "source": {
+    "system": "wordpress",
+    "postId": "26175",
+    "recipeId": "26175",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-gratin-dasperges-a-litalienne",
+    "createdAt": "2025-11-01T00:36:00+00:00",
+    "modifiedAt": "2025-11-02T03:11:02+00:00",
+    "editorialPostId": "26173",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "gratin-dasperges-a-litalienne",
+    "editorialCreatedAt": "2025-11-01T00:36:00+00:00",
+    "editorialModifiedAt": "2025-11-02T03:10:35+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Gratin d'asperges à l'italienne",
+  "description": "Une recette succulente, trouvée dans un livre de cuisine italienne (Délices d'Italie de Loukie Werle).\n\nUne recette qui plaira à tous, végétarien ou pas.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une délicieuse recette végétarienne qui se prépare en quelques minutes. Les asperges ne doivent pas être cuites trop longtemps et rester croquantes pour garder toute leur saveur.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26175,\"template\":\"chic-template-french\",\"updated\":1759383360439} -->\n<!--WPRM Recipe 26175-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Gratin d'asperges à l'italienne</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/01/IMG_9308.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Une recette succulente, trouvée dans un livre de cuisine italienne (Délices d&#039;Italie de Loukie Werle). </p><p>Une recette qui plaira à tous, végétarien ou pas.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 bottes d&#039;asperges vertes</li><li>125 g de provolone</li><li>2 cuillères à soupe de parmesan fraichement rapé</li><li>1 filet d&#039;huile d&#039;olive</li><li>Sel et poivre du moulin</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Couper la partie dure des tiges des asperges (S&#039;il faut, épluchez-les à l’aide d’un couteau économe). </p></li><li><p>Préchauffer le gril.</p></li><li><p>Dans une grande casserole, porter l’eau salée à ébullition et y plonger les asperges. Faire cuire pendant 3-4 minutes, selon leur grosseur. Egoutter.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/01/IMG_9296.Blog_-150x150.png\"/><br /></li><li><p>Disposer les asperges dans un plat allant au four. Placer les tranches de provolone et saupoudrer de parmesan. Arroser d&#039;huile d&#039;olive et poivrer.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/01/IMG_9304.Blog_-150x150.png\"/><br /></li><li><p>Faire gratiner les asperges dans le four sous le grille pendant quelques minutes jusqu&#039;à ce que le fromage soit fondu et appétissant.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/01/IMG_9308.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian, Italien</div><div class=\"wprm-fallback-recipe-meta-keyword\">asperges, gratin</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23541",
+      "sourceTaxonomyId": "23541",
+      "name": "Italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "25483",
+      "sourceTaxonomyId": "25483",
+      "name": "Italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24504",
+      "sourceTaxonomyId": "24504",
+      "name": "d'asperges vertes",
+      "slug": "dasperges-vertes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25706",
+      "sourceTaxonomyId": "25706",
+      "name": "de provolone",
+      "slug": "de-provolone"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25713",
+      "sourceTaxonomyId": "25713",
+      "name": "de parmesan fraichement rapé",
+      "slug": "de-parmesan-fraichement-rape"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25424",
+      "sourceTaxonomyId": "25424",
+      "name": "filet",
+      "slug": "filet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25711",
+      "sourceTaxonomyId": "25711",
+      "name": "bottes",
+      "slug": "bottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25709",
+      "sourceTaxonomyId": "25709",
+      "name": "gratin",
+      "slug": "gratin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25710",
+      "sourceTaxonomyId": "25710",
+      "name": "asperges",
+      "slug": "asperges"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1210",
+      "sourceTaxonomyId": "1210",
+      "name": "fromage",
+      "slug": "fromage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2463",
+      "sourceTaxonomyId": "2463",
+      "name": "gratin",
+      "slug": "gratin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6637",
+      "sourceTaxonomyId": "6637",
+      "name": "asperges vertes",
+      "slug": "asperges-vertes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6862",
+      "sourceTaxonomyId": "6862",
+      "name": "bon pour la sante",
+      "slug": "bon-pour-la-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25601",
+      "sourceTaxonomyId": "25601",
+      "name": "italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "5",
+        "value": 5
+      },
+      "servingSize": null,
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "rest": null,
+      "total": {
+        "raw": "22",
+        "minutes": 22
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26194",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 bottes d'asperges vertes",
+            "quantity": {
+              "raw": "2 bottes",
+              "value": 2,
+              "unit": "bottes",
+              "scalable": true
+            },
+            "name": "d'asperges vertes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "125 g de provolone",
+            "quantity": {
+              "raw": "125 g",
+              "value": 125,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de provolone",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 cuillères à soupe de parmesan fraichement rapé",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de parmesan fraichement rapé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 filet d'huile d'olive",
+            "quantity": {
+              "raw": "1 filet",
+              "value": 1,
+              "unit": "filet",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper la partie dure des tiges des asperges (S'il faut, épluchez-les à l’aide d’un couteau économe).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Préchauffer le gril.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans une grande casserole, porter l’eau salée à ébullition et y plonger les asperges. Faire cuire pendant 3-4 minutes, selon leur grosseur. Egoutter.",
+            "mediaId": "wordpress-attachment:26192"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Disposer les asperges dans un plat allant au four. Placer les tranches de provolone et saupoudrer de parmesan. Arroser d'huile d'olive et poivrer.",
+            "mediaId": "wordpress-attachment:26193"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Faire gratiner les asperges dans le four sous le grille pendant quelques minutes jusqu'à ce que le fromage soit fondu et appétissant.",
+            "mediaId": "wordpress-attachment:26194"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26194",
+      "sourceId": "26194",
+      "path": "/recipes/media/wordpress/26194.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26192",
+      "sourceId": "26192",
+      "path": "/recipes/media/wordpress/26192.png",
+      "alt": "Gratin d'asperges à l'italienne",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26193",
+      "sourceId": "26193",
+      "path": "/recipes/media/wordpress/26193.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

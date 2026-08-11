@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21478",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:684",
+  "slug": "lemon-rosemary-salmon",
+  "source": {
+    "system": "wordpress",
+    "postId": "21478",
+    "recipeId": "21478",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-lemon-rosemary-salmon",
+    "createdAt": "2018-09-08T03:05:42+00:00",
+    "modifiedAt": "2022-06-27T00:22:41+00:00",
+    "editorialPostId": "1173",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "lemon-rosemary-salmon",
+    "editorialCreatedAt": "2018-09-08T03:05:42+00:00",
+    "editorialModifiedAt": "2022-06-27T00:22:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Lemon Rosemary Salmon",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Tasty, simple and beautiful looking dish for everyday or special occasions. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21478,\"template\":\"chic-template-english\",\"updated\":1656289305160} -->\n<!--WPRM Recipe 21478-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Lemon Rosemary Salmon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/received_10211398235933985.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 salmon fillets (remove bone and skin)</li><li>1 large  lemon (thinly sliced )</li><li>8 spring fresh rosemary (washed)</li><li>8 Tbsp olive oil</li><li>salt and pepper (to taste)</li><li>1 tsp paprika</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 350ºF.</li><li>Add 4 Tbsp of olive oil to baking dish. Place one slice of lemon and one rosemary spring under each salmon fillet.  </li><li>Add salt, pepper and paprika evenly over salmon and place one slice of lemon and one rosemary spring on top of salmon.</li><li>Drizzle 4 Tbsp of olive oil over salmon.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/received_10211398232653903.Blog_-1-150x150.png\"/><br /></li><li>Bake 25 minutes until salmon is flaky.</li><li>Place salmon on serving platter and enjoy.  </li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24150",
+      "sourceTaxonomyId": "24150",
+      "name": "paprika",
+      "slug": "paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24170",
+      "sourceTaxonomyId": "24170",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24324",
+      "sourceTaxonomyId": "24324",
+      "name": "salmon fillets",
+      "slug": "salmon-fillets"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24325",
+      "sourceTaxonomyId": "24325",
+      "name": "spring fresh rosemary",
+      "slug": "spring-fresh-rosemary"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "295",
+      "sourceTaxonomyId": "295",
+      "name": "salmon fillets",
+      "slug": "salmon-fillets"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "445",
+      "sourceTaxonomyId": "445",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "513",
+      "sourceTaxonomyId": "513",
+      "name": "spring fresh rosemary",
+      "slug": "spring-fresh-rosemary"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "515",
+      "sourceTaxonomyId": "515",
+      "name": "paprika",
+      "slug": "paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1352",
+      "sourceTaxonomyId": "1352",
+      "name": "fish",
+      "slug": "fish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1354",
+      "sourceTaxonomyId": "1354",
+      "name": "salmon",
+      "slug": "salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1584",
+      "sourceTaxonomyId": "1584",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1586",
+      "sourceTaxonomyId": "1586",
+      "name": "rosemary",
+      "slug": "rosemary"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 people",
+      "value": 4,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1625",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 salmon fillets remove bone and skin",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "salmon fillets",
+            "notes": "remove bone and skin"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 large lemon thinly sliced",
+            "quantity": {
+              "raw": "1 large",
+              "value": 1,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "lemon",
+            "notes": "thinly sliced"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "8 spring fresh rosemary washed",
+            "quantity": {
+              "raw": "8",
+              "value": 8,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "spring fresh rosemary",
+            "notes": "washed"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "8 Tbsp olive oil",
+            "quantity": {
+              "raw": "8 Tbsp",
+              "value": 8,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 tsp paprika",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "paprika",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 350ºF.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add 4 Tbsp of olive oil to baking dish. Place one slice of lemon and one rosemary spring under each salmon fillet.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add salt, pepper and paprika evenly over salmon and place one slice of lemon and one rosemary spring on top of salmon.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Drizzle 4 Tbsp of olive oil over salmon.",
+            "mediaId": "wordpress-attachment:1624"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Bake 25 minutes until salmon is flaky.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Place salmon on serving platter and enjoy.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1625",
+      "sourceId": "1625",
+      "path": "/recipes/media/wordpress/1625.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:1624",
+      "sourceId": "1624",
+      "path": "/recipes/media/wordpress/1624.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

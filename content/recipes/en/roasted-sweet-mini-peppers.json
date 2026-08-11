@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21261",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3864",
+  "slug": "roasted-sweet-mini-peppers",
+  "source": {
+    "system": "wordpress",
+    "postId": "21261",
+    "recipeId": "21261",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-roasted-sweet-mini-peppers",
+    "createdAt": "2025-07-07T00:31:00+00:00",
+    "modifiedAt": "2025-07-12T01:00:17+00:00",
+    "editorialPostId": "8510",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "roasted-sweet-mini-peppers",
+    "editorialCreatedAt": "2025-07-07T00:31:00+00:00",
+    "editorialModifiedAt": "2025-07-12T01:00:14+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Roasted Sweet Mini Peppers",
+  "description": "You can use a regular bell pepper for this recipe, but don't forget to add some more time when cooking.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Mini Bell Peppers look so cute and perfect and tastes delicious, either roasted or raw. Normally, I'm not a big fan of bell pepper, but can't say \"NO\" to this colorful bag with sweet mini bell peppers. These mini peppers add flavor and texture to a variety of dishes. You can serve it hot or cold, with meat or fish, or just eat it as a snack.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21261,\"template\":\"chic-template-english\",\"updated\":1752281969596} -->\n<!--WPRM Recipe 21261-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Roasted Sweet Mini Peppers</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9520.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t You can use a regular bell pepper for this recipe, but don't forget to add some more time when cooking.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>600 g mini bell peppers</li><li>Salt and freshly ground black pepper (to taste)</li><li>some olive oil</li><li>some green onion (or any fresh herbs)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 450 degrees F. Cut the stems off the mini peppers, cut them in half lengthwise and scoop out the seeds. Cut the half peppers into the strips. Spread the mini peppers onto the baking sheet, coat it with olive oil, salt and pepper. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9502.Blog_-150x150.png\"/><br /></li><li>Place in the oven for 10-15 minutes. Remove mini peppers from the oven and garnish with fresh herbs before serving.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9505.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Roasted Sweet Mini Peppers add flavor and texture to a variety of dishes. You can serve hot or cold, with meat or fish, or just as a snack."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24145",
+      "sourceTaxonomyId": "24145",
+      "name": "green onion",
+      "slug": "green-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25568",
+      "sourceTaxonomyId": "25568",
+      "name": "mini bell peppers",
+      "slug": "mini-bell-peppers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4150",
+      "sourceTaxonomyId": "4150",
+      "name": "mini bell pepper",
+      "slug": "mini-bell-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4152",
+      "sourceTaxonomyId": "4152",
+      "name": "green onion",
+      "slug": "green-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3698",
+      "sourceTaxonomyId": "3698",
+      "name": "easy and cheap",
+      "slug": "easy-and-cheap"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4154",
+      "sourceTaxonomyId": "4154",
+      "name": "healthy snack",
+      "slug": "healthy-snack"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4158",
+      "sourceTaxonomyId": "4158",
+      "name": "colorful",
+      "slug": "colorful"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4160",
+      "sourceTaxonomyId": "4160",
+      "name": "roasted vegetables",
+      "slug": "roasted-vegetables"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4162",
+      "sourceTaxonomyId": "4162",
+      "name": "orange",
+      "slug": "orange"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4164",
+      "sourceTaxonomyId": "4164",
+      "name": "oven roasted",
+      "slug": "oven-roasted"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4166",
+      "sourceTaxonomyId": "4166",
+      "name": "summer food",
+      "slug": "summer-food"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4196",
+      "sourceTaxonomyId": "4196",
+      "name": "side dish",
+      "slug": "side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4198",
+      "sourceTaxonomyId": "4198",
+      "name": "sweet pepper",
+      "slug": "sweet-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4206",
+      "sourceTaxonomyId": "4206",
+      "name": "mini peppers",
+      "slug": "mini-peppers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4208",
+      "sourceTaxonomyId": "4208",
+      "name": "baby peppers",
+      "slug": "baby-peppers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8436",
+      "sourceTaxonomyId": "8436",
+      "name": "holiday season",
+      "slug": "holiday-season"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:8146",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "600 g mini bell peppers",
+            "quantity": {
+              "raw": "600 g",
+              "value": 600,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "mini bell peppers",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "some olive oil",
+            "quantity": {
+              "raw": "some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "some green onion or any fresh herbs",
+            "quantity": {
+              "raw": "some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "green onion",
+            "notes": "or any fresh herbs"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 450 degrees F. Cut the stems off the mini peppers, cut them in half lengthwise and scoop out the seeds. Cut the half peppers into the strips. Spread the mini peppers onto the baking sheet, coat it with olive oil, salt and pepper.",
+            "mediaId": "wordpress-attachment:8143"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Place in the oven for 10-15 minutes. Remove mini peppers from the oven and garnish with fresh herbs before serving.",
+            "mediaId": "wordpress-attachment:8142"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8146",
+      "sourceId": "8146",
+      "path": "/recipes/media/wordpress/8146.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8143",
+      "sourceId": "8143",
+      "path": "/recipes/media/wordpress/8143.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8142",
+      "sourceId": "8142",
+      "path": "/recipes/media/wordpress/8142.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

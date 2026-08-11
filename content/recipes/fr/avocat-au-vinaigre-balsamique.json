@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21781",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2957",
+  "slug": "avocat-au-vinaigre-balsamique",
+  "source": {
+    "system": "wordpress",
+    "postId": "21781",
+    "recipeId": "21781",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-avocat-au-vinaigre-balsamique",
+    "createdAt": "2023-03-26T18:56:00+00:00",
+    "modifiedAt": "2023-05-28T19:04:29+00:00",
+    "editorialPostId": "5758",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "avocat-au-vinaigre-balsamique",
+    "editorialCreatedAt": "2023-03-26T18:56:00+00:00",
+    "editorialModifiedAt": "2023-05-28T19:04:26+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Avocat au vinaigre balsamique",
+  "description": "Pour pleinement apprécier cet entrée, utiliser un vinaigre balsamique de très bonne qualité et du poivre fraîchement moulu.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Si vous avez de bons avocats, mûrs à point, pas besoin d'inventer une entrée compliquée pour les savourer. <span id=\":1hv.102\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Dégustez</span>-les&nbsp;à la cuillère, en <span id=\":1hv.103\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">assaisonnant</span> tout simplement de vinaigre balsamique.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21781,\"template\":\"chic-template-french\",\"updated\":1625719389137} -->\n<!--WPRM Recipe 21781-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Avocat au vinaigre balsamique</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8363.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tPour pleinement apprécier cet entrée, utiliser un vinaigre balsamique de très bonne qualité et du poivre fraîchement moulu.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 avocats (bien mûrs)</li><li>Sel et poivre du moulin ((facultatif))</li><li>6 cuillère à café de vinaigre balsamique</li><li>Quelques  gouttes d'huile d'olive ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Couper les avocats en deux dans la longueur. Retirer les noyaux. Saler et poivrer. Arroser de vinaigre balsamique. Servir aussitôt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7547.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Avocat au vinaigre balsamique"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24512",
+      "sourceTaxonomyId": "24512",
+      "name": "avocats",
+      "slug": "avocats"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24513",
+      "sourceTaxonomyId": "24513",
+      "name": "de vinaigre balsamique",
+      "slug": "de-vinaigre-balsamique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2953",
+      "sourceTaxonomyId": "2953",
+      "name": "avocats",
+      "slug": "avocats"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2955",
+      "sourceTaxonomyId": "2955",
+      "name": "de vinaigre balsamique",
+      "slug": "de-vinaigre-balsamique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2157",
+      "sourceTaxonomyId": "2157",
+      "name": "avocat",
+      "slug": "avocat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2578",
+      "sourceTaxonomyId": "2578",
+      "name": "sel et poivre",
+      "slug": "sel-et-poivre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2945",
+      "sourceTaxonomyId": "2945",
+      "name": "vinaigre balsamique",
+      "slug": "vinaigre-balsamique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2947",
+      "sourceTaxonomyId": "2947",
+      "name": "super facile",
+      "slug": "super-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2951",
+      "sourceTaxonomyId": "2951",
+      "name": "entree",
+      "slug": "entree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4409",
+      "sourceTaxonomyId": "4409",
+      "name": "avocat coupe en 2",
+      "slug": "avocat-coupe-en-2"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "3 personnes",
+      "value": 3,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:5760",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 avocats bien mûrs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "avocats",
+            "notes": "bien mûrs"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Sel et poivre du moulin (facultatif)",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "6 cuillère à café de vinaigre balsamique",
+            "quantity": {
+              "raw": "6 cuillère à café",
+              "value": 6,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de vinaigre balsamique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Quelques gouttes d'huile d'olive (facultatif)",
+            "quantity": {
+              "raw": "Quelques gouttes",
+              "unit": "gouttes",
+              "scalable": false
+            },
+            "name": "d'huile d'olive",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper les avocats en deux dans la longueur. Retirer les noyaux. Saler et poivrer. Arroser de vinaigre balsamique. Servir aussitôt.",
+            "mediaId": "wordpress-attachment:5759"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5760",
+      "sourceId": "5760",
+      "path": "/recipes/media/wordpress/5760.png",
+      "alt": "Avocat au vinaigre balsamique",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5759",
+      "sourceId": "5759",
+      "path": "/recipes/media/wordpress/5759.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

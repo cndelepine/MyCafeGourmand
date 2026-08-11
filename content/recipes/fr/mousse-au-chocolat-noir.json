@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21956",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:6781",
+  "slug": "mousse-au-chocolat-noir",
+  "source": {
+    "system": "wordpress",
+    "postId": "21956",
+    "recipeId": "21956",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-mousse-au-chocolat-noir",
+    "createdAt": "2025-03-21T01:08:00+00:00",
+    "modifiedAt": "2025-03-21T22:39:23+00:00",
+    "editorialPostId": "12201",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "mousse-au-chocolat-noir",
+    "editorialCreatedAt": "2025-03-21T01:08:00+00:00",
+    "editorialModifiedAt": "2025-03-21T22:39:17+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Mousse au chocolat noir",
+  "description": "Utilisez des oeufs très frais et ne gardez pas la mousse plus de 24 heures au réfrigérateur. Si je fais ce dessert bien à l'avance, je le garde au congélateur.",
+  "editorial": {
+    "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">Il suffit seulement de 2 ingrédients pour préparer une délicieuse mousse au chocolat. Aucun produit laitier et pas de sucre ajouté n'est nécessaire. Juste du chocolat noir et des œufs. Si simple et si bon! Prévoyez assez de temps car la mousse sera meilleure si on la laisse reposer au réfrigérateur pendant environ 4 heures avant de la déguster.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21956,\"template\":\"chic-template-french\",\"updated\":1742596580420} -->\n<!--WPRM Recipe 21956-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Mousse au chocolat noir</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1697-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Utilisez des oeufs très frais et ne gardez pas la mousse plus de 24 heures au réfrigérateur. Si je fais ce dessert bien à l&#039;avance, je le garde au congélateur.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g de chocolat noir ou de chocolat au lait</li><li>6 œufs ((à la température ambiante))</li><li>1 pincée de sel</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Faire fondre le chocolat au bain-marie ou au micro-onde. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1664.Blog_-150x150.png\"/><br /></li><li>Séparer les blancs et jaunes d'œufs. Ajouter les jaunes au chocolat fondu et mélanger énergiquement.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1667.Blog_-150x150.png\"/><br /></li><li>Battre les blancs d’œufs en neige très ferme avec une pincée de sel.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1666.Blog_-150x150.png\"/><br /></li><li>Incorporer les blanc battus au chocolat en mélangeant délicatement avec une spatule.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1669.Blog_-150x150.png\"/><br /></li><li>Vous devez obtenir une mousse uniforme et bien aérée.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1670.Blog_-150x150.png\"/><br /></li><li><p>Répartir la mousse dans des coupes individuelles ou des verrines. Placer au réfrigérateur pendant environ 3 heures avant de servir.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1690.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div><div class=\"wprm-fallback-recipe-meta-keyword\">Mousse au chocolat noir</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26708",
+      "sourceTaxonomyId": "26708",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26187",
+      "sourceTaxonomyId": "26187",
+      "name": "de chocolat noir ou de chocolat au lait",
+      "slug": "de-chocolat-noir-ou-de-chocolat-au-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25433",
+      "sourceTaxonomyId": "25433",
+      "name": "pincée",
+      "slug": "pincee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27090",
+      "sourceTaxonomyId": "27090",
+      "name": "Mousse au chocolat noir",
+      "slug": "mousse-au-chocolat-noir-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25346",
+      "sourceTaxonomyId": "25346",
+      "name": "Desserts",
+      "slug": "desserts-fr-sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6790",
+      "sourceTaxonomyId": "6790",
+      "name": "de chocolat noir (60-70 % cacao)",
+      "slug": "de-chocolat-noir-60-70-cacao"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1224",
+      "sourceTaxonomyId": "1224",
+      "name": "chocolat au lait",
+      "slug": "chocolat-au-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1246",
+      "sourceTaxonomyId": "1246",
+      "name": "mousse",
+      "slug": "mousse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1248",
+      "sourceTaxonomyId": "1248",
+      "name": "verrine",
+      "slug": "verrine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1552",
+      "sourceTaxonomyId": "1552",
+      "name": "chocolat",
+      "slug": "chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2214",
+      "sourceTaxonomyId": "2214",
+      "name": "blanc d'oeuf",
+      "slug": "blanc-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3102",
+      "sourceTaxonomyId": "3102",
+      "name": "oeufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4269",
+      "sourceTaxonomyId": "4269",
+      "name": "blancs et jaunes separes",
+      "slug": "blancs-et-jaunes-separes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6782",
+      "sourceTaxonomyId": "6782",
+      "name": "seulement 2 ingredients",
+      "slug": "seulement-2-ingredients"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6784",
+      "sourceTaxonomyId": "6784",
+      "name": "deux ingredients",
+      "slug": "deux-ingredients"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6786",
+      "sourceTaxonomyId": "6786",
+      "name": "pas de sucre ajoute",
+      "slug": "pas-de-sucre-ajoute"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6788",
+      "sourceTaxonomyId": "6788",
+      "name": "pas de produit laitier",
+      "slug": "pas-de-produit-laitier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6999",
+      "sourceTaxonomyId": "6999",
+      "name": "sans sucre",
+      "slug": "sans-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27207",
+      "sourceTaxonomyId": "27207",
+      "name": "pâques",
+      "slug": "paques"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "wpurp_keyword",
+      "sourceId": "6967",
+      "sourceTaxonomyId": "6967",
+      "name": "Mousse au chocolat noir",
+      "slug": "mousse-au-chocolat-noir"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "2",
+        "minutes": 2
+      },
+      "rest": null,
+      "total": {
+        "raw": "19",
+        "minutes": 19
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "180",
+          "minutes": 180
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:12180",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g de chocolat noir ou de chocolat au lait",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir ou de chocolat au lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "6 œufs (à la température ambiante)",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": "(à la température ambiante)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 pincée de sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Faire fondre le chocolat au bain-marie ou au micro-onde.",
+            "mediaId": "wordpress-attachment:12174"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Séparer les blancs et jaunes d'œufs. Ajouter les jaunes au chocolat fondu et mélanger énergiquement.",
+            "mediaId": "wordpress-attachment:12176"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Battre les blancs d’œufs en neige très ferme avec une pincée de sel.",
+            "mediaId": "wordpress-attachment:12175"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Incorporer les blanc battus au chocolat en mélangeant délicatement avec une spatule.",
+            "mediaId": "wordpress-attachment:12177"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Vous devez obtenir une mousse uniforme et bien aérée.",
+            "mediaId": "wordpress-attachment:12178"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Répartir la mousse dans des coupes individuelles ou des verrines. Placer au réfrigérateur pendant environ 3 heures avant de servir.",
+            "mediaId": "wordpress-attachment:12179"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12180",
+      "sourceId": "12180",
+      "path": "/recipes/media/wordpress/12180.png",
+      "alt": "Шоколадный мусс",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12174",
+      "sourceId": "12174",
+      "path": "/recipes/media/wordpress/12174.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12176",
+      "sourceId": "12176",
+      "path": "/recipes/media/wordpress/12176.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12175",
+      "sourceId": "12175",
+      "path": "/recipes/media/wordpress/12175.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12177",
+      "sourceId": "12177",
+      "path": "/recipes/media/wordpress/12177.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12178",
+      "sourceId": "12178",
+      "path": "/recipes/media/wordpress/12178.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12179",
+      "sourceId": "12179",
+      "path": "/recipes/media/wordpress/12179.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

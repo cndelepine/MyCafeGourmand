@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28707",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26931",
+  "slug": "roule-de-jambon-a-la-macedoine-de-legumes",
+  "source": {
+    "system": "wordpress",
+    "postId": "28707",
+    "recipeId": "28707",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-roule-de-jambon-a-la-macedoine-de-legumes",
+    "createdAt": "2024-12-02T07:03:05+00:00",
+    "modifiedAt": "2024-12-10T07:33:38+00:00",
+    "editorialPostId": "28703",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "roule-de-jambon-a-la-macedoine-de-legumes",
+    "editorialCreatedAt": "2024-12-02T07:03:05+00:00",
+    "editorialModifiedAt": "2024-12-10T07:33:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Roulé de jambon à la macédoine de légumes",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une entrée élégante avec ce roulé de jambon. Cette recette est une combinaison de deux autres recettes : les cornets à la macédoine et la célèbre salade russe Olivier. Les légumes sont cuits et finement découpés, puis mélangés à la mayonnaise. Cette présentation avec le jambon enroulé fera une belle entrée de jambon à la macédoine.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28707,\"template\":\"chic-template-french\",\"updated\":1733815921908} -->\n<!--WPRM Recipe 28707-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Roulé de jambon à la macédoine de légumes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/IMG_1527.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1-2 carottes</li><li>4 pommes de terre</li><li>1/2 oignon</li><li>3 œufs durs  (écalés)</li><li>3-4 gros cornichons  (à la russe)</li><li>100 g de petits pois (extra fin en conserve)</li><li>2-3 cuillères à soupe de mayonnaise</li><li>Sel et poivre (du moulin)</li><li>Quelques  brins d'aneth (ou persil) ciselés</li><li>8 tranches  de jambon</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Faire cuire les pommes de terre et les carottes dans l&#039;eau ou à la vapeur. Les légumes doivent devenir tendres mais pas trop cuits. Egoutter et laisser refroidir un peu. Faire cuire les œufs.</p></li><li>Eplucher les pommes de terre, les carottes et l'oignon. Ecaler les œufs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732776_10211393242889162_1434227691_o-150x150.png\"/><br /></li><li>Couper tous les légumes et les œufs en petits cubes. Egoutter les petits pois.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732789_10211393239289072_1633728185_o.Blog_-150x150.png\"/><br /></li><li><p>Mélanger délicatement les pommes de terre, les carottes, l&#039;oignon, les cornichons, les œufs et les petits pois. Ajouter la mayonnaise, saler et poivrer. Mélanger les légumes sans les écraser.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26613468_1747902331888848_210845601_o.Blog_-3-150x150.png\"/><br /></li><li><p>Sur chaque tranche de jambon, déposer une bonne cuillerée de légumes. Enrouler et attacher avec un brin de ciboulette. Laisser refroidir dans le réfrigérateur. Servir sur un plat de service ou individuellement dans chaque assiette.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/IMG_1518.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Roulé de jambon à la macédoine de légumes"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26447",
+      "sourceTaxonomyId": "26447",
+      "name": "Salade",
+      "slug": "salade-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24500",
+      "sourceTaxonomyId": "24500",
+      "name": "œufs durs",
+      "slug": "oeufs-durs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24517",
+      "sourceTaxonomyId": "24517",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24663",
+      "sourceTaxonomyId": "24663",
+      "name": "de jambon",
+      "slug": "de-jambon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24726",
+      "sourceTaxonomyId": "24726",
+      "name": "Sel et poivre",
+      "slug": "sel-et-poivre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24804",
+      "sourceTaxonomyId": "24804",
+      "name": "de petits pois",
+      "slug": "de-petits-pois"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24805",
+      "sourceTaxonomyId": "24805",
+      "name": "d'aneth (ou persil) ciselés",
+      "slug": "daneth-ou-persil-ciseles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26920",
+      "sourceTaxonomyId": "26920",
+      "name": "gros cornichons",
+      "slug": "gros-cornichons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25486",
+      "sourceTaxonomyId": "25486",
+      "name": "tranches",
+      "slug": "tranches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25667",
+      "sourceTaxonomyId": "25667",
+      "name": "brins",
+      "slug": "brins"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2864",
+      "sourceTaxonomyId": "2864",
+      "name": "petits pois en conserve",
+      "slug": "petits-pois-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2951",
+      "sourceTaxonomyId": "2951",
+      "name": "entree",
+      "slug": "entree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3923",
+      "sourceTaxonomyId": "3923",
+      "name": "legumes eminces",
+      "slug": "legumes-eminces"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6810",
+      "sourceTaxonomyId": "6810",
+      "name": "celebre salade russe",
+      "slug": "celebre-salade-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26921",
+      "sourceTaxonomyId": "26921",
+      "name": "roule",
+      "slug": "roule"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26923",
+      "sourceTaxonomyId": "26923",
+      "name": "fusion",
+      "slug": "fusion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26925",
+      "sourceTaxonomyId": "26925",
+      "name": "mayonaise",
+      "slug": "mayonaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26927",
+      "sourceTaxonomyId": "26927",
+      "name": "macedoine",
+      "slug": "macedoine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26929",
+      "sourceTaxonomyId": "26929",
+      "name": "copieux",
+      "slug": "copieux"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28717",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1-2 carottes",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 pommes de terre",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pommes de terre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 oignon",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3 œufs durs écalés",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs durs",
+            "notes": "écalés"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3-4 gros cornichons à la russe",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "gros cornichons",
+            "notes": "à la russe"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "100 g de petits pois extra fin en conserve",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de petits pois",
+            "notes": "extra fin en conserve"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2-3 cuillères à soupe de mayonnaise",
+            "quantity": {
+              "raw": "2-3 cuillères à soupe",
+              "min": 2,
+              "max": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre",
+            "notes": "du moulin"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Quelques brins d'aneth (ou persil) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "d'aneth (ou persil) ciselés",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "8 tranches de jambon",
+            "quantity": {
+              "raw": "8 tranches",
+              "value": 8,
+              "unit": "tranches",
+              "scalable": true
+            },
+            "name": "de jambon",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Faire cuire les pommes de terre et les carottes dans l'eau ou à la vapeur. Les légumes doivent devenir tendres mais pas trop cuits. Egoutter et laisser refroidir un peu. Faire cuire les œufs.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Eplucher les pommes de terre, les carottes et l'oignon. Ecaler les œufs.",
+            "mediaId": "wordpress-attachment:1362"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper tous les légumes et les œufs en petits cubes. Egoutter les petits pois.",
+            "mediaId": "wordpress-attachment:1363"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mélanger délicatement les pommes de terre, les carottes, l'oignon, les cornichons, les œufs et les petits pois. Ajouter la mayonnaise, saler et poivrer. Mélanger les légumes sans les écraser.",
+            "mediaId": "wordpress-attachment:1407"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sur chaque tranche de jambon, déposer une bonne cuillerée de légumes. Enrouler et attacher avec un brin de ciboulette. Laisser refroidir dans le réfrigérateur. Servir sur un plat de service ou individuellement dans chaque assiette.",
+            "mediaId": "wordpress-attachment:28718"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28717",
+      "sourceId": "28717",
+      "path": "/recipes/media/wordpress/28717.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:1362",
+      "sourceId": "1362",
+      "path": "/recipes/media/wordpress/1362.png",
+      "alt": null,
+      "width": 1600,
+      "height": 1038
+    },
+    {
+      "id": "wordpress-attachment:1363",
+      "sourceId": "1363",
+      "path": "/recipes/media/wordpress/1363.png",
+      "alt": null,
+      "width": 768,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1407",
+      "sourceId": "1407",
+      "path": "/recipes/media/wordpress/1407.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28718",
+      "sourceId": "28718",
+      "path": "/recipes/media/wordpress/28718.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

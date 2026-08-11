@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27168",
+  "locale": "ru",
+  "translationGroupId": null,
+  "slug": "тарт-с-помидорами-и-сливочным-сыром-бу",
+  "source": {
+    "system": "wordpress",
+    "postId": "27168",
+    "recipeId": "27168",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%82%d0%b0%d1%80%d1%82-%d1%81-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d0%b0%d0%bc%d0%b8-%d0%b8-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d1%8b%d0%bc-%d1%81%d1%8b%d1%80%d0%be%d0%bc-%d0%b1%d1",
+    "createdAt": "2023-09-19T04:32:47+00:00",
+    "modifiedAt": "2023-09-19T06:04:31+00:00",
+    "editorialPostId": "27150",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%82%d0%b0%d1%80%d1%82-%d1%81-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d0%b0%d0%bc%d0%b8-%d0%b8-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d1%8b%d0%bc-%d1%81%d1%8b%d1%80%d0%be%d0%bc-%d0%b1%d1%83",
+    "editorialCreatedAt": "2023-09-19T04:32:47+00:00",
+    "editorialModifiedAt": "2023-09-19T06:04:28+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Тарт с помидорами и сливочным сыром Бурсен (Boursin™)",
+  "description": "Pratique pour préparer à l'avance.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Очень простой в приготовлении тарт из готового слоеного теста, помидоров и сливочного сыра <em>Бурсен</em> (Boursin™). </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Этот французский открытый пирог может быть круглой или квадратной формы, в зависимости от теста, которое у вас под рукой. Я даже не делаю бортики, чтобы было меньше теста и больше начинки. Но это на любителя: если вы любите румяное слоеное тесто, заверните 1 сантиметр краев  внутрь и смажьте их яйцом.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27168,\"template\":\"chic-template-russian\",\"updated\":1695098205032} -->\n<!--WPRM Recipe 27168-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Тарт с помидорами и сливочным сыром Бурсен (Boursin™)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0171.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Pratique pour préparer à l&#039;avance. </p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 лист слоеного теста</li><li>1 яйцо</li><li>  4-5 помидоров</li><li>100  г сливочного сыра с травами (Boursin™)</li><li>Свежемолотый перец</li><li>Несколько листиков свежего базилика</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Разогреть духовку до 175°C (380F). </p></li><li><p>Раскатать тесто на пергаментной бумаге и наколоть его вилкой.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0157.Blog_-150x150.jpg\"/><br /></li><li><p>Смазать поверхность теста взбитым яйцом.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0161.Blog_-150x150.jpg\"/><br /></li><li><p>Помидоры нарезать кружочками и выложить их на тесто в один слой.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0163.Blog_-150x150.jpg\"/><br /></li><li><p>Промокнуть помидоры бумажным полотенцем, чтобы удалить лишнюю влагу. Поперчить помидоры.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0164.Blog_-150x150.jpg\"/><br /></li><li><p>Распределить сливочный сыр, немного на каждый кружочек помидора.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0166.Blog_-150x150.jpg\"/><br /></li><li><p>Поставить в разогретую духовку и выпекать примерно 25 минут, пока тесто полностью не пропечется.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0171.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23955",
+      "sourceTaxonomyId": "23955",
+      "name": "яйцо",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24877",
+      "sourceTaxonomyId": "24877",
+      "name": "Свежемолотый перец",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24890",
+      "sourceTaxonomyId": "24890",
+      "name": "слоеного теста",
+      "slug": "%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24892",
+      "sourceTaxonomyId": "24892",
+      "name": "помидоров",
+      "slug": "%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25545",
+      "sourceTaxonomyId": "25545",
+      "name": "листиков свежего базилика",
+      "slug": "%d0%bb%d0%b8%d1%81%d1%82%d0%b8%d0%ba%d0%be%d0%b2-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b3%d0%be-%d0%b1%d0%b0%d0%b7%d0%b8%d0%bb%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26329",
+      "sourceTaxonomyId": "26329",
+      "name": "сливочного сыра с травами (Boursin™)",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d1%8b%d1%80%d0%b0-%d1%81-%d1%82%d1%80%d0%b0%d0%b2%d0%b0%d0%bc%d0%b8-boursin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25512",
+      "sourceTaxonomyId": "25512",
+      "name": "лист",
+      "slug": "%d0%bb%d0%b8%d1%81%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17357",
+      "sourceTaxonomyId": "17357",
+      "name": "слоеное тесто",
+      "slug": "puff-pastry-russian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1608",
+      "sourceTaxonomyId": "1608",
+      "name": "помидор",
+      "slug": "%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2077",
+      "sourceTaxonomyId": "2077",
+      "name": "сливочны сыр",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d1%8b-%d1%81%d1%8b%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5556",
+      "sourceTaxonomyId": "5556",
+      "name": "легко и вкусно",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be-%d0%b8-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7973",
+      "sourceTaxonomyId": "7973",
+      "name": "кружочки помидоров",
+      "slug": "%d0%ba%d1%80%d1%83%d0%b6%d0%be%d1%87%d0%ba%d0%b8-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8420",
+      "sourceTaxonomyId": "8420",
+      "name": "готовое песочное тесто",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27136",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 лист слоеного теста",
+            "quantity": {
+              "raw": "1 лист",
+              "value": 1,
+              "unit": "лист",
+              "scalable": true
+            },
+            "name": "слоеного теста",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 яйцо",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйцо",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4-5 помидоров",
+            "quantity": {
+              "raw": "4-5",
+              "min": 4,
+              "max": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "помидоров",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "100 г сливочного сыра с травами (Boursin™)",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного сыра с травами (Boursin™)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Свежемолотый перец",
+            "quantity": null,
+            "name": "Свежемолотый перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Несколько листиков свежего базилика",
+            "quantity": {
+              "raw": "Несколько",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "листиков свежего базилика",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 175°C (380F).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Раскатать тесто на пергаментной бумаге и наколоть его вилкой.",
+            "mediaId": "wordpress-attachment:27139"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Смазать поверхность теста взбитым яйцом.",
+            "mediaId": "wordpress-attachment:27140"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Помидоры нарезать кружочками и выложить их на тесто в один слой.",
+            "mediaId": "wordpress-attachment:27137"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Промокнуть помидоры бумажным полотенцем, чтобы удалить лишнюю влагу. Поперчить помидоры.",
+            "mediaId": "wordpress-attachment:27138"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Распределить сливочный сыр, немного на каждый кружочек помидора.",
+            "mediaId": "wordpress-attachment:27134"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Поставить в разогретую духовку и выпекать примерно 25 минут, пока тесто полностью не пропечется.",
+            "mediaId": "wordpress-attachment:27136"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27136",
+      "sourceId": "27136",
+      "path": "/recipes/media/wordpress/27136.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:27139",
+      "sourceId": "27139",
+      "path": "/recipes/media/wordpress/27139.jpg",
+      "alt": null,
+      "width": 704,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:27140",
+      "sourceId": "27140",
+      "path": "/recipes/media/wordpress/27140.jpg",
+      "alt": null,
+      "width": 704,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:27137",
+      "sourceId": "27137",
+      "path": "/recipes/media/wordpress/27137.jpg",
+      "alt": null,
+      "width": 675,
+      "height": 506
+    },
+    {
+      "id": "wordpress-attachment:27138",
+      "sourceId": "27138",
+      "path": "/recipes/media/wordpress/27138.jpg",
+      "alt": null,
+      "width": 703,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:27134",
+      "sourceId": "27134",
+      "path": "/recipes/media/wordpress/27134.jpg",
+      "alt": null,
+      "width": 678,
+      "height": 508
+    }
+  ],
+  "seo": null
+}

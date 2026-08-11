@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21919",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:6056",
+  "slug": "houmous",
+  "source": {
+    "system": "wordpress",
+    "postId": "21919",
+    "recipeId": "21919",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-houmous-fait-maison",
+    "createdAt": "2022-08-25T23:52:00+00:00",
+    "modifiedAt": "2023-05-28T19:02:56+00:00",
+    "editorialPostId": "11717",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "houmous",
+    "editorialCreatedAt": "2022-08-25T23:52:00+00:00",
+    "editorialModifiedAt": "2023-05-28T19:02:44+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Houmous fait maison",
+  "description": "Si vous n'aimez pas les plats épicés, utilisez plutôt le paprika que le poivre de Cayenne: il ajoute une jolie couleur mais n'as pas beaucoup de goût.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Avec ou sans pâte de sésame (<span id=\":195.1\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">tahini</span>), l'<span id=\":195.2\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">houmous</span> est <span id=\":195.3\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">très</span> facile&nbsp;à <span id=\":195.4\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">préparer</span>&nbsp;à la maison. Si on utilise les pois chiches en conserve, vous allez obtenir un <span id=\":195.5\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">apéritif</span> bon pour la santé et riche en protéines végétales en 5 minutes. Servez-le accompagné de pain <span id=\":195.6\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">pita</span> ou de crudités.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21919,\"template\":\"chic-template-french\",\"updated\":1607236899972} -->\n<!--WPRM Recipe 21919-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Houmous fait maison</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_1026.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tSi vous n'aimez pas les plats épicés, utilisez plutôt le paprika que le poivre de Cayenne: il ajoute une jolie couleur mais n'as pas beaucoup de goût.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>400 g de pois chiches en conserve,</li><li>1 citron</li><li>2-3 gousses d'ail (émincées)</li><li>Sel et poivre du moulin</li><li>1 cuillère à soupe tahini (pâte de sésame) (facultatif)</li><li>3-4 cuillères à soupe d'huile d'olive</li><li>Quelques pincées de poivre de Cayenne ((ou de paprika))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Égoutter les pois chiches mais garder un peu de jus de la boite.</li><li>Dans le bol d'un blender, mettre les pois chiches, le jus de citron, l'ail, le sel, le poivre, le tahini, le poivre de Cayenne et la moitié de l'huile d'olive. Mixer jusqu’à obtenir une pâte homogène de la consistance souhaitée en ajoutant 1 à 2 cuillères à soupe de jus de conserve réservé ou de l'eau. Goûter le houmous et rectifier l'assaisonnement.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_1020.Blog_-150x150.png\"/><br /></li><li>Transférer l'houmous dans un plat de service, arroser avec le reste d'huile d'olive et saupoudrer de paprika.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_1030.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "L'houmous est très facile à préparer à la maison. Si on utilise les pois chiches en conserve, vous allez obtenir un apéro bon pour la santé en 5 minutes."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24496",
+      "sourceTaxonomyId": "24496",
+      "name": "citron",
+      "slug": "citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24612",
+      "sourceTaxonomyId": "24612",
+      "name": "de pois chiches en conserve,",
+      "slug": "de-pois-chiches-en-conserve"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24613",
+      "sourceTaxonomyId": "24613",
+      "name": "tahini (pâte de sésame)",
+      "slug": "tahini-pate-de-sesame"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24614",
+      "sourceTaxonomyId": "24614",
+      "name": "de poivre de Cayenne",
+      "slug": "de-poivre-de-cayenne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "772",
+      "sourceTaxonomyId": "772",
+      "name": "citron",
+      "slug": "citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2434",
+      "sourceTaxonomyId": "2434",
+      "name": "de poivre de Cayenne",
+      "slug": "de-poivre-de-cayenne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5976",
+      "sourceTaxonomyId": "5976",
+      "name": "de pois chiches en conserve,",
+      "slug": "de-pois-chiches-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6085",
+      "sourceTaxonomyId": "6085",
+      "name": "tahini (pâte de sésame)",
+      "slug": "tahini-pate-de-sesame"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4602",
+      "sourceTaxonomyId": "4602",
+      "name": "dip",
+      "slug": "dip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5960",
+      "sourceTaxonomyId": "5960",
+      "name": "pois chiches",
+      "slug": "pois-chiches"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6057",
+      "sourceTaxonomyId": "6057",
+      "name": "houmous",
+      "slug": "houmous"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6061",
+      "sourceTaxonomyId": "6061",
+      "name": "pois chiches en conserve",
+      "slug": "pois-chiches-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6063",
+      "sourceTaxonomyId": "6063",
+      "name": "gorbanza",
+      "slug": "gorbanza"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6065",
+      "sourceTaxonomyId": "6065",
+      "name": "fait maison",
+      "slug": "fait-maison"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6067",
+      "sourceTaxonomyId": "6067",
+      "name": "blender",
+      "slug": "blender"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6069",
+      "sourceTaxonomyId": "6069",
+      "name": "avec ou sans tahini",
+      "slug": "avec-ou-sans-tahini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6071",
+      "sourceTaxonomyId": "6071",
+      "name": "tahine",
+      "slug": "tahine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6073",
+      "sourceTaxonomyId": "6073",
+      "name": "fibres et protéines",
+      "slug": "fibres-et-proteines"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6075",
+      "sourceTaxonomyId": "6075",
+      "name": "puree de sesame",
+      "slug": "puree-de-sesame"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6077",
+      "sourceTaxonomyId": "6077",
+      "name": "pate de sesame",
+      "slug": "pate-de-sesame"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6083",
+      "sourceTaxonomyId": "6083",
+      "name": "puree de pois chiches",
+      "slug": "puree-de-pois-chiches"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6101",
+      "sourceTaxonomyId": "6101",
+      "name": "pret en 5 min",
+      "slug": "pret-en-5-min"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11695",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "400 g de pois chiches en conserve,",
+            "quantity": {
+              "raw": "400 g",
+              "value": 400,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de pois chiches en conserve,",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 citron",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citron",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2-3 gousses d'ail émincées",
+            "quantity": {
+              "raw": "2-3 gousses",
+              "min": 2,
+              "max": 3,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "émincées"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 cuillère à soupe tahini (pâte de sésame) facultatif",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "tahini (pâte de sésame)",
+            "notes": "facultatif"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3-4 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "3-4 cuillères à soupe",
+              "min": 3,
+              "max": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques pincées de poivre de Cayenne (ou de paprika)",
+            "quantity": {
+              "raw": "Quelques pincées",
+              "unit": "pincées",
+              "scalable": false
+            },
+            "name": "de poivre de Cayenne",
+            "notes": "(ou de paprika)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Égoutter les pois chiches mais garder un peu de jus de la boite.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans le bol d'un blender, mettre les pois chiches, le jus de citron, l'ail, le sel, le poivre, le tahini, le poivre de Cayenne et la moitié de l'huile d'olive. Mixer jusqu’à obtenir une pâte homogène de la consistance souhaitée en ajoutant 1 à 2 cuillères à soupe de jus de conserve réservé ou de l'eau. Goûter le houmous et rectifier l'assaisonnement.",
+            "mediaId": "wordpress-attachment:11694"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Transférer l'houmous dans un plat de service, arroser avec le reste d'huile d'olive et saupoudrer de paprika.",
+            "mediaId": "wordpress-attachment:11696"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11695",
+      "sourceId": "11695",
+      "path": "/recipes/media/wordpress/11695.png",
+      "alt": "Houmous fait maison",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11694",
+      "sourceId": "11694",
+      "path": "/recipes/media/wordpress/11694.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11696",
+      "sourceId": "11696",
+      "path": "/recipes/media/wordpress/11696.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

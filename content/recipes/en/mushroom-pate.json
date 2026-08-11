@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21623",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4834",
+  "slug": "mushroom-pate",
+  "source": {
+    "system": "wordpress",
+    "postId": "21623",
+    "recipeId": "21623",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-mushroom-pate",
+    "createdAt": "2018-05-02T15:52:47+00:00",
+    "modifiedAt": "2022-07-30T19:05:19+00:00",
+    "editorialPostId": "9072",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "mushroom-pate",
+    "editorialCreatedAt": "2018-05-02T15:52:47+00:00",
+    "editorialModifiedAt": "2022-07-30T19:05:16+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Mushroom Pate",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>With a few simple tricks, you really can make this Creamy Mushroom Pate at home. Skip the store bought spreads and pates. Making it yourself is so, so easy and will be way tastier than just about anything from the deli department.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21623,\"template\":\"chic-template-english\",\"updated\":1609286702458} -->\n<!--WPRM Recipe 21623-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Mushroom Pate</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180502_081301.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>250 g mushrooms (washed)</li><li>1 medium onion</li><li>3 cloves garlic</li><li>8 oz cream cheese (at room temperature )</li><li>1/2 tsp salt</li><li>1/2 tsp black pepper</li><li>7 Tbsp olive oil</li><li>green onion (optional)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Slice the mushrooms.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_151111.Blog_-150x150.png\"/><br /></li><li> Peel and cut onion into half moons.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_151836.Blog_-150x150.png\"/><br /></li><li>Peel and mince garlic. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153743.Blog_-150x150.png\"/><br /></li><li>Place a large frying pan over a high medium heat. Add 5 Tbsp of olive oil and sauté mushrooms for 10 minutes. Constantly stirring. Remove from heat and let cool.</li><li>Meanwhile, place a small frying pan over medium heat, add 2 Tbsp of olive oil and onion, and cook until golden brown.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153136.Blog_-150x150.png\"/><br /></li><li>Add minced garlic and sauté for one minute. Turn off the heat and allow it to cool.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153844.Blog_-150x150.png\"/><br /></li><li>Put half of the mushrooms and onion with garlic into a food processor or blender and pulse several times to combine. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_154355.Blog_-150x150.png\"/><br /></li><li>Add the remaining mushrooms and cream cheese and puree.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_154806.Blog_-150x150.png\"/><br /></li><li>Add salt and pepper and mix it with wooden spoon.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_155303.Blog_-150x150.png\"/><br /></li><li>Serve on crostini, with green onion or any fresh herbs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/Resized_20180501_160107.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24145",
+      "sourceTaxonomyId": "24145",
+      "name": "green onion",
+      "slug": "green-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24390",
+      "sourceTaxonomyId": "24390",
+      "name": "black pepper",
+      "slug": "black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24411",
+      "sourceTaxonomyId": "24411",
+      "name": "mushrooms",
+      "slug": "mushrooms"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24412",
+      "sourceTaxonomyId": "24412",
+      "name": "cream cheese",
+      "slug": "cream-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "292",
+      "sourceTaxonomyId": "292",
+      "name": "black pepper",
+      "slug": "black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2050",
+      "sourceTaxonomyId": "2050",
+      "name": "cream cheese",
+      "slug": "cream-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4152",
+      "sourceTaxonomyId": "4152",
+      "name": "green onion",
+      "slug": "green-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4363",
+      "sourceTaxonomyId": "4363",
+      "name": "mushrooms",
+      "slug": "mushrooms"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1510",
+      "sourceTaxonomyId": "1510",
+      "name": "pate",
+      "slug": "pate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2062",
+      "sourceTaxonomyId": "2062",
+      "name": "Crostini",
+      "slug": "crostini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2066",
+      "sourceTaxonomyId": "2066",
+      "name": "cream cheese",
+      "slug": "cream-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4240",
+      "sourceTaxonomyId": "4240",
+      "name": "creamy",
+      "slug": "creamy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4353",
+      "sourceTaxonomyId": "4353",
+      "name": "mushroom",
+      "slug": "mushroom"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4355",
+      "sourceTaxonomyId": "4355",
+      "name": "mushroom spread",
+      "slug": "mushroom-spread"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4357",
+      "sourceTaxonomyId": "4357",
+      "name": "food processor",
+      "slug": "food-processor"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4359",
+      "sourceTaxonomyId": "4359",
+      "name": "mushroom pate",
+      "slug": "mushroom-pate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4361",
+      "sourceTaxonomyId": "4361",
+      "name": "blended",
+      "slug": "blended"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 servings",
+      "value": 10,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:9082",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g mushrooms washed",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "mushrooms",
+            "notes": "washed"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 medium onion",
+            "quantity": {
+              "raw": "1 medium",
+              "value": 1,
+              "unit": "medium",
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 cloves garlic",
+            "quantity": {
+              "raw": "3 cloves",
+              "value": 3,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "8 oz cream cheese at room temperature",
+            "quantity": {
+              "raw": "8 oz",
+              "value": 8,
+              "unit": "oz",
+              "scalable": true
+            },
+            "name": "cream cheese",
+            "notes": "at room temperature"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 tsp salt",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 tsp black pepper",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "7 Tbsp olive oil",
+            "quantity": {
+              "raw": "7 Tbsp",
+              "value": 7,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "green onion optional",
+            "quantity": null,
+            "name": "green onion",
+            "notes": "optional"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Slice the mushrooms.",
+            "mediaId": "wordpress-attachment:9074"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel and cut onion into half moons.",
+            "mediaId": "wordpress-attachment:9075"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel and mince garlic.",
+            "mediaId": "wordpress-attachment:9077"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Place a large frying pan over a high medium heat. Add 5 Tbsp of olive oil and sauté mushrooms for 10 minutes. Constantly stirring. Remove from heat and let cool.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Meanwhile, place a small frying pan over medium heat, add 2 Tbsp of olive oil and onion, and cook until golden brown.",
+            "mediaId": "wordpress-attachment:9076"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Add minced garlic and sauté for one minute. Turn off the heat and allow it to cool.",
+            "mediaId": "wordpress-attachment:9078"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Put half of the mushrooms and onion with garlic into a food processor or blender and pulse several times to combine.",
+            "mediaId": "wordpress-attachment:9079"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Add the remaining mushrooms and cream cheese and puree.",
+            "mediaId": "wordpress-attachment:9080"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Add salt and pepper and mix it with wooden spoon.",
+            "mediaId": "wordpress-attachment:9081"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Serve on crostini, with green onion or any fresh herbs.",
+            "mediaId": "wordpress-attachment:9083"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:9082",
+      "sourceId": "9082",
+      "path": "/recipes/media/wordpress/9082.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:9074",
+      "sourceId": "9074",
+      "path": "/recipes/media/wordpress/9074.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9075",
+      "sourceId": "9075",
+      "path": "/recipes/media/wordpress/9075.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9077",
+      "sourceId": "9077",
+      "path": "/recipes/media/wordpress/9077.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9076",
+      "sourceId": "9076",
+      "path": "/recipes/media/wordpress/9076.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9078",
+      "sourceId": "9078",
+      "path": "/recipes/media/wordpress/9078.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9079",
+      "sourceId": "9079",
+      "path": "/recipes/media/wordpress/9079.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9080",
+      "sourceId": "9080",
+      "path": "/recipes/media/wordpress/9080.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9081",
+      "sourceId": "9081",
+      "path": "/recipes/media/wordpress/9081.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9083",
+      "sourceId": "9083",
+      "path": "/recipes/media/wordpress/9083.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

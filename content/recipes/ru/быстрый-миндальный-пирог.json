@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22814",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:3065",
+  "slug": "быстрый-миндальный-пирог",
+  "source": {
+    "system": "wordpress",
+    "postId": "22814",
+    "recipeId": "22814",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d1%8b%d0%b9-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3",
+    "createdAt": "2023-03-31T06:44:00+00:00",
+    "modifiedAt": "2024-04-16T07:06:22+00:00",
+    "editorialPostId": "6079",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b1%d1%8b%d1%81%d1%82%d1%80%d1%8b%d0%b9-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3",
+    "editorialCreatedAt": "2023-03-31T06:44:00+00:00",
+    "editorialModifiedAt": "2024-04-16T07:06:19+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Быстрый миндальный пирог",
+  "description": "Для рецепта подойдет любая форма, которая найдется у Вас дома. Мне больше всего нравится в форме для кекса и без ломтиков миндаля сверху. Просто, но не менее вкусно. Удобно резать, можно взять с собой на работу или на пикник.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Рецепт уникален тем, что все ингредиенты кладутся одновременно в чашу миксера (или блендера), взбиваются примерно 1-2 минуты и... Voil<span data-original=\"100 g de beurre à température ambiante\">à</span>! тесто готово. Еще полчаса в духовке и пирог готов. Бисквит получается очень нежным. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22814,\"template\":\"chic-template-russian\",\"updated\":1713250829292,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 22814-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Быстрый миндальный пирог</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7273.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tДля рецепта подойдет любая форма, которая найдется у Вас дома. Мне больше всего нравится в форме для кекса и без ломтиков миндаля сверху. Просто, но не менее вкусно. Удобно резать, можно взять с собой на работу или на пикник.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>180 г сахара</li><li>4 яйца</li><li>100 г размягченного сливочного масла</li><li>1 щепотка соли</li><li>100 г миндальной муки</li><li>60 г муки</li><li>2 ч.л. разрыхлителя теста</li><li>1  ст.л. ломтиков миндаля ((по желанию))</li><li>1 ч.л. сахарной пудры ((по желанию))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Разогреть духовку до180С. Смазать форму маслом.</li><li>Положить все ингредиенты в миску миксера и взбить до получения однородного теста. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7242.Blog_-150x150.png\"/><br /></li><li>Вылить тесто в форму. Можно посыпать сверху ломтиками миндаля. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7244.Blog_-150x150.png\"/><br /></li><li>Выпекать в духовке примерно 35 минут. Проверить готовность пирога лезвием ножа или спичкой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7248.Blog_-150x150.png\"/><br /></li><li>Достать пирог из духовки, остудить и переложить на блюдо. Перед подачей на стол, посыпать сахарной пудрой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7268.Blog_-150x150.png\"/><br /></li><li>Вот так выглядит пирог, если его выпекать в прямоугольной форме для кекса и не посыпать миндальными орешками. Просто, но не менее вкусно!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_4455.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Быстрый миндальный пирог"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26571",
+      "sourceTaxonomyId": "26571",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23549",
+      "sourceTaxonomyId": "23549",
+      "name": "размягченного сливочного масла",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23956",
+      "sourceTaxonomyId": "23956",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23957",
+      "sourceTaxonomyId": "23957",
+      "name": "миндальной муки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23983",
+      "sourceTaxonomyId": "23983",
+      "name": "ломтиков миндаля",
+      "slug": "%d0%bb%d0%be%d0%bc%d1%82%d0%b8%d0%ba%d0%be%d0%b2-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24786",
+      "sourceTaxonomyId": "24786",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24910",
+      "sourceTaxonomyId": "24910",
+      "name": "разрыхлителя теста",
+      "slug": "%d1%80%d0%b0%d0%b7%d1%80%d1%8b%d1%85%d0%bb%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25407",
+      "sourceTaxonomyId": "25407",
+      "name": "ч.л.",
+      "slug": "%d1%87-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25431",
+      "sourceTaxonomyId": "25431",
+      "name": "щепотка",
+      "slug": "%d1%89%d0%b5%d0%bf%d0%be%d1%82%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "588",
+      "sourceTaxonomyId": "588",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "611",
+      "sourceTaxonomyId": "611",
+      "name": "разрыхлителя теста",
+      "slug": "%d1%80%d0%b0%d0%b7%d1%80%d1%8b%d1%85%d0%bb%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "828",
+      "sourceTaxonomyId": "828",
+      "name": "размягченного сливочного масла",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "895",
+      "sourceTaxonomyId": "895",
+      "name": "миндальной муки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "897",
+      "sourceTaxonomyId": "897",
+      "name": "ломтиков миндаля",
+      "slug": "%d0%bb%d0%be%d0%bc%d1%82%d0%b8%d0%ba%d0%be%d0%b2-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "899",
+      "sourceTaxonomyId": "899",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1304",
+      "sourceTaxonomyId": "1304",
+      "name": "пирог",
+      "slug": "%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1424",
+      "sourceTaxonomyId": "1424",
+      "name": "миндаль",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1500",
+      "sourceTaxonomyId": "1500",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2199",
+      "sourceTaxonomyId": "2199",
+      "name": "легко и быстро",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be-%d0%b8-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2920",
+      "sourceTaxonomyId": "2920",
+      "name": "мука",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3059",
+      "sourceTaxonomyId": "3059",
+      "name": "миндальный пирог",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3061",
+      "sourceTaxonomyId": "3061",
+      "name": "миндальная мука",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5685",
+      "sourceTaxonomyId": "5685",
+      "name": "mindalniy pirog",
+      "slug": "mindalniy-pirog"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5691",
+      "sourceTaxonomyId": "5691",
+      "name": "невероятно вкусный пирог",
+      "slug": "%d0%bd%d0%b5%d0%b2%d0%b5%d1%80%d0%be%d1%8f%d1%82%d0%bd%d0%be-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5693",
+      "sourceTaxonomyId": "5693",
+      "name": "для тех кому некогда готовить",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d1%82%d0%b5%d1%85-%d0%ba%d0%be%d0%bc%d1%83-%d0%bd%d0%b5%d0%ba%d0%be%d0%b3%d0%b4%d0%b0-%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8%d1%82%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5695",
+      "sourceTaxonomyId": "5695",
+      "name": "пирог на скорую руку",
+      "slug": "%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d0%bd%d0%b0-%d1%81%d0%ba%d0%be%d1%80%d1%83%d1%8e-%d1%80%d1%83%d0%ba%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5697",
+      "sourceTaxonomyId": "5697",
+      "name": "самый легкой пирог",
+      "slug": "%d1%81%d0%b0%d0%bc%d1%8b%d0%b9-%d0%bb%d0%b5%d0%b3%d0%ba%d0%be%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7249",
+      "sourceTaxonomyId": "7249",
+      "name": "mindalnij keks",
+      "slug": "mindalnij-keks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8257",
+      "sourceTaxonomyId": "8257",
+      "name": "самый вкусный",
+      "slug": "%d1%81%d0%b0%d0%bc%d1%8b%d0%b9-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d1%8b%d0%b9"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 порций",
+      "value": 8,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:6110",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "180 г сахара",
+            "quantity": {
+              "raw": "180 г",
+              "value": 180,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 яйца",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 г размягченного сливочного масла",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "размягченного сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 щепотка соли",
+            "quantity": {
+              "raw": "1 щепотка",
+              "value": 1,
+              "unit": "щепотка",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 г миндальной муки",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "миндальной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "60 г муки",
+            "quantity": {
+              "raw": "60 г",
+              "value": 60,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 ч.л. разрыхлителя теста",
+            "quantity": {
+              "raw": "2 ч.л.",
+              "value": 2,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "разрыхлителя теста",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 ст.л. ломтиков миндаля (по желанию)",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "ломтиков миндаля",
+            "notes": "(по желанию)"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 ч.л. сахарной пудры (по желанию)",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "сахарной пудры",
+            "notes": "(по желанию)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до180С. Смазать форму маслом.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Положить все ингредиенты в миску миксера и взбить до получения однородного теста.",
+            "mediaId": "wordpress-attachment:6106"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Вылить тесто в форму. Можно посыпать сверху ломтиками миндаля.",
+            "mediaId": "wordpress-attachment:6107"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Выпекать в духовке примерно 35 минут. Проверить готовность пирога лезвием ножа или спичкой.",
+            "mediaId": "wordpress-attachment:6108"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Достать пирог из духовки, остудить и переложить на блюдо. Перед подачей на стол, посыпать сахарной пудрой.",
+            "mediaId": "wordpress-attachment:6109"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Вот так выглядит пирог, если его выпекать в прямоугольной форме для кекса и не посыпать миндальными орешками. Просто, но не менее вкусно!",
+            "mediaId": "wordpress-attachment:6080"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:6110",
+      "sourceId": "6110",
+      "path": "/recipes/media/wordpress/6110.png",
+      "alt": "Быстрый миндальный пирог",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6106",
+      "sourceId": "6106",
+      "path": "/recipes/media/wordpress/6106.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6107",
+      "sourceId": "6107",
+      "path": "/recipes/media/wordpress/6107.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6108",
+      "sourceId": "6108",
+      "path": "/recipes/media/wordpress/6108.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6109",
+      "sourceId": "6109",
+      "path": "/recipes/media/wordpress/6109.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6080",
+      "sourceId": "6080",
+      "path": "/recipes/media/wordpress/6080.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

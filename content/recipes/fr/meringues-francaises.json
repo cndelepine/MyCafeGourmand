@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21889",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:8182",
+  "slug": "meringues-francaises",
+  "source": {
+    "system": "wordpress",
+    "postId": "21889",
+    "recipeId": "21889",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-meringues-francaises",
+    "createdAt": "2018-01-06T20:01:56+00:00",
+    "modifiedAt": "2022-06-27T00:25:42+00:00",
+    "editorialPostId": "13116",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "meringues-francaises",
+    "editorialCreatedAt": "2018-01-06T20:01:56+00:00",
+    "editorialModifiedAt": "2022-06-27T00:25:40+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Meringues françaises",
+  "description": "Vous pouvez rajouter des colorants alimentaires (en poudre) pour donner aux meringues de belles couleurs vives, ou les saupoudrer avec un peu de cacao en poudre.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Des meringues françaises à la texture craquante et fondante en même temps.&nbsp; Que ce soit pour servir avec un <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">café gourmand</a> ou pour décorer un dessert (<a href=\"https://mycafegourmand.com/fr/recipe/buche-a-la-creme-chantilly-et-ganache-au-chocolat\">B<span class=\"st\">ûche de Noël</span></a>, <a href=\"https://mycafegourmand.com/fr/recipe/mousse-au-chocolat-noir\">Mousse au chocolat</a>, etc) il est pratique de les avoir sous la main dans la cuisine. Cette recette est facile à réaliser et surtout très pratique pour utiliser des blancs d'œufs qui restent. Une fois que les meringues sont cuites, je les garde dans une boîte hermétiquement fermée dans le congélateur.<small class=\"m_-2757295956388321009epsilon\"></small></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21889,\"template\":\"chic-template-french\",\"updated\":1607295867467} -->\n<!--WPRM Recipe 21889-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Meringues françaises</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5797-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tVous pouvez rajouter des colorants alimentaires (en poudre) pour donner aux meringues de belles couleurs vives, ou les saupoudrer avec un peu de cacao en poudre.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 blancs d'oeufs</li><li>140 g de sucre en poudre</li><li>Un peu de cacao en poudre ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 100°C (thermostat 3). Tapisser une plaque à pâtisserie de papier sulfurisé.</li><li>Monter les blancs en neige au batteur électrique. Lorsqu'ils deviennent mousseux, ajouter petit à petit le sucre en poudre. Continuer de fouetter jusqu'à ce que le mélange devienne lisse et brillant.\r\n    <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_9888.Blog_-150x150.png\"/><br /></li><li>Remplir une poche munie d'une douille et dresser des petites meringues. Vous pouvez faire de différents formes, amusez-vous!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8601.Blog_-150x150.png\"/><br /></li><li>Enfourner pendant environ 1 heure. Éteindre le four et laisser complètement refroidir les meringues dans le four éteint. Les meringues réussies sont blanches, sèches, légères et croquantes. Garder les meringues dans une boîte hermétique. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8627.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24527",
+      "sourceTaxonomyId": "24527",
+      "name": "blancs d'oeufs",
+      "slug": "blancs-doeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24539",
+      "sourceTaxonomyId": "24539",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "709",
+      "sourceTaxonomyId": "709",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2218",
+      "sourceTaxonomyId": "2218",
+      "name": "blancs d'oeufs",
+      "slug": "blancs-doeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2214",
+      "sourceTaxonomyId": "2214",
+      "name": "blanc d'oeuf",
+      "slug": "blanc-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3166",
+      "sourceTaxonomyId": "3166",
+      "name": "sans farine",
+      "slug": "sans-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8075",
+      "sourceTaxonomyId": "8075",
+      "name": "decoration de dessert",
+      "slug": "decoration-de-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8077",
+      "sourceTaxonomyId": "8077",
+      "name": "decoration buche de noel",
+      "slug": "decoration-buche-de-noel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8079",
+      "sourceTaxonomyId": "8079",
+      "name": "bouche sucre",
+      "slug": "bouche-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8081",
+      "sourceTaxonomyId": "8081",
+      "name": "pour utiliser un blanc",
+      "slug": "pour-utiliser-un-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8083",
+      "sourceTaxonomyId": "8083",
+      "name": "quoi faire avec blanc d'oeuf qui reste",
+      "slug": "quoi-faire-avec-blanc-doeuf-qui-reste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8085",
+      "sourceTaxonomyId": "8085",
+      "name": "meringue facile",
+      "slug": "meringue-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8087",
+      "sourceTaxonomyId": "8087",
+      "name": "mini meringue",
+      "slug": "mini-meringue"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8089",
+      "sourceTaxonomyId": "8089",
+      "name": "craquante",
+      "slug": "craquante"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "16",
+        "minutes": 16
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13121",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 blancs d'oeufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "blancs d'oeufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "140 g de sucre en poudre",
+            "quantity": {
+              "raw": "140 g",
+              "value": 140,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Un peu de cacao en poudre (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de cacao en poudre",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 100°C (thermostat 3). Tapisser une plaque à pâtisserie de papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Monter les blancs en neige au batteur électrique. Lorsqu'ils deviennent mousseux, ajouter petit à petit le sucre en poudre. Continuer de fouetter jusqu'à ce que le mélange devienne lisse et brillant.",
+            "mediaId": "wordpress-attachment:13209"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Remplir une poche munie d'une douille et dresser des petites meringues. Vous pouvez faire de différents formes, amusez-vous!",
+            "mediaId": "wordpress-attachment:13123"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Enfourner pendant environ 1 heure. Éteindre le four et laisser complètement refroidir les meringues dans le four éteint. Les meringues réussies sont blanches, sèches, légères et croquantes. Garder les meringues dans une boîte hermétique.",
+            "mediaId": "wordpress-attachment:13124"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13121",
+      "sourceId": "13121",
+      "path": "/recipes/media/wordpress/13121.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13209",
+      "sourceId": "13209",
+      "path": "/recipes/media/wordpress/13209.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13123",
+      "sourceId": "13123",
+      "path": "/recipes/media/wordpress/13123.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13124",
+      "sourceId": "13124",
+      "path": "/recipes/media/wordpress/13124.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

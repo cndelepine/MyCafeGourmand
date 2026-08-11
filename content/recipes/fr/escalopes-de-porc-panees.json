@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22255",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:7966",
+  "slug": "escalopes-de-porc-panees",
+  "source": {
+    "system": "wordpress",
+    "postId": "22255",
+    "recipeId": "22255",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-escalopes-de-porc-panees",
+    "createdAt": "2018-10-26T02:18:52+00:00",
+    "modifiedAt": "2022-07-30T19:22:41+00:00",
+    "editorialPostId": "9489",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "escalopes-de-porc-panees",
+    "editorialCreatedAt": "2018-10-26T02:18:52+00:00",
+    "editorialModifiedAt": "2022-07-30T19:22:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Escalopes de porc panées",
+  "description": "On peut aussi préparer des escalopes de poulet ou de dinde d'après cette recette,",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les escalopes de porc sont finement enrobées de chapelure et cuites jusqu’à obtenir une croûte appétissante. Dans cette recette, je n'utilise pas d’œuf et peu de chapelure. Les enfants adorent et les adultes aussi.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22255,\"template\":\"chic-template-french\",\"updated\":1659208953684} -->\n<!--WPRM Recipe 22255-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Escalopes de porc panées</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8864.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tOn peut aussi préparer des escalopes de poulet ou de dinde d'après cette recette, \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 escalopes  de porc ou de poulet</li><li>Sel et poivre du moulin</li><li>6 pincées de paprika ((facultatif))</li><li>90 g de chapelure</li><li>2 cuillères à soupe d'huile d'olive (pour la poêle)</li><li>30 g de beurre (pour la poêle)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Taper la viande pour l'aplatir et l'attendrir. \r\n    <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8853.Blog_-150x150.png\"/><br /></li><li>Saler et poivrer les escalopes des deux côtés. Saupoudrer de paprika. Enrober chaque morceau de chapelure.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8856.Blog_-150x150.png\"/><br /></li><li>Dans une grande poêle, faire chauffer l'huile et le beurre. Mettre les escalopes dans la poêle et les faire dorer sur feu moyen pendant 3-4 minutes de chaque côté. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8858.Blog_-150x150.png\"/><br /></li><li>Le temps de cuisson dépend de l'épaisseur de la viande.\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8859.Blog_-150x150.png\"/><br /></li><li>Dès que les escalopes sont dorées et bien cuites à l'intérieur, les retirer de la poêle. Garder au chaud jusqu'au moment de servir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_8860.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24477",
+      "sourceTaxonomyId": "24477",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24685",
+      "sourceTaxonomyId": "24685",
+      "name": "de chapelure",
+      "slug": "de-chapelure"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24809",
+      "sourceTaxonomyId": "24809",
+      "name": "de porc ou de poulet",
+      "slug": "de-porc-ou-de-poulet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "770",
+      "sourceTaxonomyId": "770",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7960",
+      "sourceTaxonomyId": "7960",
+      "name": "de porc ou de poulet",
+      "slug": "de-porc-ou-de-poulet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7962",
+      "sourceTaxonomyId": "7962",
+      "name": "de chapelure",
+      "slug": "de-chapelure"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1200",
+      "sourceTaxonomyId": "1200",
+      "name": "porc",
+      "slug": "porc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1202",
+      "sourceTaxonomyId": "1202",
+      "name": "viande",
+      "slug": "viande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1620",
+      "sourceTaxonomyId": "1620",
+      "name": "poele",
+      "slug": "poele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1624",
+      "sourceTaxonomyId": "1624",
+      "name": "recette rapide",
+      "slug": "recette-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1838",
+      "sourceTaxonomyId": "1838",
+      "name": "dinde",
+      "slug": "dinde"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2860",
+      "sourceTaxonomyId": "2860",
+      "name": "poulet",
+      "slug": "poulet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3166",
+      "sourceTaxonomyId": "3166",
+      "name": "sans farine",
+      "slug": "sans-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3477",
+      "sourceTaxonomyId": "3477",
+      "name": "sans oeuf",
+      "slug": "sans-oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5578",
+      "sourceTaxonomyId": "5578",
+      "name": "recette familiale",
+      "slug": "recette-familiale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6926",
+      "sourceTaxonomyId": "6926",
+      "name": "enfants adorent",
+      "slug": "enfants-adorent"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7292",
+      "sourceTaxonomyId": "7292",
+      "name": "recette facile en images",
+      "slug": "recette-facile-en-images"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7975",
+      "sourceTaxonomyId": "7975",
+      "name": "chapelure",
+      "slug": "chapelure"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7977",
+      "sourceTaxonomyId": "7977",
+      "name": "blanc de poulet",
+      "slug": "blanc-de-poulet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7979",
+      "sourceTaxonomyId": "7979",
+      "name": "viande blanche",
+      "slug": "viande-blanche"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13044",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 escalopes de porc ou de poulet",
+            "quantity": {
+              "raw": "6 escalopes",
+              "value": 6,
+              "unit": "escalopes",
+              "scalable": true
+            },
+            "name": "de porc ou de poulet",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "6 pincées de paprika (facultatif)",
+            "quantity": {
+              "raw": "6 pincées",
+              "value": 6,
+              "unit": "pincées",
+              "scalable": true
+            },
+            "name": "de paprika",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "90 g de chapelure",
+            "quantity": {
+              "raw": "90 g",
+              "value": 90,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chapelure",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 cuillères à soupe d'huile d'olive pour la poêle",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": "pour la poêle"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "30 g de beurre pour la poêle",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": "pour la poêle"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Taper la viande pour l'aplatir et l'attendrir.",
+            "mediaId": "wordpress-attachment:13040"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Saler et poivrer les escalopes des deux côtés. Saupoudrer de paprika. Enrober chaque morceau de chapelure.",
+            "mediaId": "wordpress-attachment:13041"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans une grande poêle, faire chauffer l'huile et le beurre. Mettre les escalopes dans la poêle et les faire dorer sur feu moyen pendant 3-4 minutes de chaque côté.",
+            "mediaId": "wordpress-attachment:13042"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Le temps de cuisson dépend de l'épaisseur de la viande.",
+            "mediaId": "wordpress-attachment:13043"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Dès que les escalopes sont dorées et bien cuites à l'intérieur, les retirer de la poêle. Garder au chaud jusqu'au moment de servir.",
+            "mediaId": "wordpress-attachment:13045"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13044",
+      "sourceId": "13044",
+      "path": "/recipes/media/wordpress/13044.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13040",
+      "sourceId": "13040",
+      "path": "/recipes/media/wordpress/13040.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13041",
+      "sourceId": "13041",
+      "path": "/recipes/media/wordpress/13041.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13042",
+      "sourceId": "13042",
+      "path": "/recipes/media/wordpress/13042.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13043",
+      "sourceId": "13043",
+      "path": "/recipes/media/wordpress/13043.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13045",
+      "sourceId": "13045",
+      "path": "/recipes/media/wordpress/13045.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

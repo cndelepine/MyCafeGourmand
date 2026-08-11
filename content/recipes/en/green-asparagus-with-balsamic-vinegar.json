@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29445",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6636",
+  "slug": "green-asparagus-with-balsamic-vinegar",
+  "source": {
+    "system": "wordpress",
+    "postId": "29445",
+    "recipeId": "29445",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-green-asparagus-with-balsamic-vinegar",
+    "createdAt": "2025-05-25T23:07:48+00:00",
+    "modifiedAt": "2025-05-25T23:07:55+00:00",
+    "editorialPostId": "29441",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "green-asparagus-with-balsamic-vinegar",
+    "editorialCreatedAt": "2025-05-25T23:07:48+00:00",
+    "editorialModifiedAt": "2025-05-25T23:07:52+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Green Asparagus with Balsamic Vinegar",
+  "description": "White asparagus is prepared and served in the same way. Adjust the cooking time according to its size.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Green asparagus with balsamic vinegar is always delicious! Asparagus can be steamed, baked, pan-fried, or grilled. In this recipe, I’ve chosen the simplest method that requires minimal equipment—just a saucepan. A very light sauce with balsamic vinegar and olive oil.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Enjoy asparagus as a starter or as a side dish for meat, fish, or eggs…</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29445,\"template\":\"chic-template-english\",\"updated\":1748214438596} -->\n<!--WPRM Recipe 29445-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Green Asparagus with Balsamic Vinegar</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9912.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>White asparagus is prepared and served in the same way. Adjust the cooking time according to its size.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 bunch green asparagus</li><li>1/4 teaspoon salt</li><li>1 tablespoon balsamic vinegar</li><li>2 tablespoons olive oil</li><li>Salt and freshly ground black pepper</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Peel the asparagus using a vegetable peeler and cut off the tough ends of the stalks.</p></li><li><p>In a large saucepan, bring salted water to a boil and add the asparagus. Cook for 8 to 10 minutes, depending on their thickness. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9903.Blog_-150x150.png\"/><br /></li><li><p>Meanwhile, mix the balsamic vinegar and olive oil in a small bowl.</p></li><li><p>Check the asparagus for doneness with the tip of a knife. When they are cooked to your liking, plunge them into ice water to stop the cooking, then drain them.</p></li><li><p>Place the asparagus on a serving dish, season with salt and pepper, and drizzle with the sauce.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9910.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26716",
+      "sourceTaxonomyId": "26716",
+      "name": "Main Dish",
+      "slug": "main-dish-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24342",
+      "sourceTaxonomyId": "24342",
+      "name": "balsamic vinegar",
+      "slug": "balsamic-vinegar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27248",
+      "sourceTaxonomyId": "27248",
+      "name": "green asparagus",
+      "slug": "green-asparagus"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26791",
+      "sourceTaxonomyId": "26791",
+      "name": "tablespoons",
+      "slug": "tablespoons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26913",
+      "sourceTaxonomyId": "26913",
+      "name": "teaspoon",
+      "slug": "teaspoon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27030",
+      "sourceTaxonomyId": "27030",
+      "name": "bunch",
+      "slug": "bunch"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27249",
+      "sourceTaxonomyId": "27249",
+      "name": "tablespoon",
+      "slug": "tablespoon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25622",
+      "sourceTaxonomyId": "25622",
+      "name": "how to prepare",
+      "slug": "how-to-prepare"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27244",
+      "sourceTaxonomyId": "27244",
+      "name": "greens",
+      "slug": "greens"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27246",
+      "sourceTaxonomyId": "27246",
+      "name": "asparagus",
+      "slug": "asparagus"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 persons",
+      "value": 2,
+      "unit": "persons",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:11969",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 bunch green asparagus",
+            "quantity": {
+              "raw": "1 bunch",
+              "value": 1,
+              "unit": "bunch",
+              "scalable": true
+            },
+            "name": "green asparagus",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/4 teaspoon salt",
+            "quantity": {
+              "raw": "1/4 teaspoon",
+              "value": 0.25,
+              "unit": "teaspoon",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 tablespoon balsamic vinegar",
+            "quantity": {
+              "raw": "1 tablespoon",
+              "value": 1,
+              "unit": "tablespoon",
+              "scalable": true
+            },
+            "name": "balsamic vinegar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 tablespoons olive oil",
+            "quantity": {
+              "raw": "2 tablespoons",
+              "value": 2,
+              "unit": "tablespoons",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel the asparagus using a vegetable peeler and cut off the tough ends of the stalks.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a large saucepan, bring salted water to a boil and add the asparagus. Cook for 8 to 10 minutes, depending on their thickness.",
+            "mediaId": "wordpress-attachment:11967"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Meanwhile, mix the balsamic vinegar and olive oil in a small bowl.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Check the asparagus for doneness with the tip of a knife. When they are cooked to your liking, plunge them into ice water to stop the cooking, then drain them.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Place the asparagus on a serving dish, season with salt and pepper, and drizzle with the sauce.",
+            "mediaId": "wordpress-attachment:11968"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11969",
+      "sourceId": "11969",
+      "path": "/recipes/media/wordpress/11969.png",
+      "alt": "Отварная зеленая спаржа",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11967",
+      "sourceId": "11967",
+      "path": "/recipes/media/wordpress/11967.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11968",
+      "sourceId": "11968",
+      "path": "/recipes/media/wordpress/11968.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

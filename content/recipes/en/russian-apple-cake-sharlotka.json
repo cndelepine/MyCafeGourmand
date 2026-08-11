@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21377",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3262",
+  "slug": "russian-apple-cake-sharlotka",
+  "source": {
+    "system": "wordpress",
+    "postId": "21377",
+    "recipeId": "21377",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-russian-apple-cake-sharlotka",
+    "createdAt": "2019-06-27T05:50:31+00:00",
+    "modifiedAt": "2022-07-30T19:54:24+00:00",
+    "editorialPostId": "8691",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "russian-apple-cake-sharlotka",
+    "editorialCreatedAt": "2019-06-27T05:50:31+00:00",
+    "editorialModifiedAt": "2022-07-30T19:54:21+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Russian Apple Cake Sharlotka",
+  "description": "If the apples are too sweet, sprinkle with freshly squeezed lemon juice.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Apple Sharlotka cake is one of the most popular desserts that each Russian kid will remember from their childhood. The recipe is so simple that you don't even need to write it down. It will be very easy to remember once you've made it: 3 apples, 3 eggs,&nbsp;1 cup of sugar, 1 cup of flour. That's it, enjoy! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21377,\"template\":\"chic-template-english\",\"updated\":1659210856958} -->\n<!--WPRM Recipe 21377-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Russian Apple Cake Sharlotka</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8808.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf the apples are too sweet, sprinkle with freshly squeezed lemon juice. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 big apples ((sour))</li><li>3 eggs</li><li>1 cup granulated sugar</li><li>1 cup flour</li><li>1/2 tsp confectioner's sugar ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 380 degrees F. Grease and flour a round cake pan or line the bottom of the pan with parchment paper.</li><li>Wash, peel and dice apples into 1-inch pieces. Lay out the diced apples on the bottom of the pan.</li><li>Using a mixer beat eggs with sugar, until its two times in volume. Using a spatula carefully fold in sifted flour. Pour the batter over the apples.</li><li>Bake for about 45 minutes or until а toothpick inserted in the middle comes out clean. Once the cake cools off a little, transfer to plate.</li><li>Dust it with powdered sugar before serving.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8766.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24065",
+      "sourceTaxonomyId": "24065",
+      "name": "confectioners sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24231",
+      "sourceTaxonomyId": "24231",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24261",
+      "sourceTaxonomyId": "24261",
+      "name": "apples",
+      "slug": "apples"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24262",
+      "sourceTaxonomyId": "24262",
+      "name": "flour",
+      "slug": "flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3000",
+      "sourceTaxonomyId": "3000",
+      "name": "confectioner's sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4214",
+      "sourceTaxonomyId": "4214",
+      "name": "flour",
+      "slug": "flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4216",
+      "sourceTaxonomyId": "4216",
+      "name": "apples",
+      "slug": "apples"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1378",
+      "sourceTaxonomyId": "1378",
+      "name": "pie",
+      "slug": "pie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1388",
+      "sourceTaxonomyId": "1388",
+      "name": "granny smith",
+      "slug": "granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4218",
+      "sourceTaxonomyId": "4218",
+      "name": "sour apples",
+      "slug": "sour-apples"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4220",
+      "sourceTaxonomyId": "4220",
+      "name": "apples",
+      "slug": "apples"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4222",
+      "sourceTaxonomyId": "4222",
+      "name": "sponge cake",
+      "slug": "sponge-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4224",
+      "sourceTaxonomyId": "4224",
+      "name": "apple pie",
+      "slug": "apple-pie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4228",
+      "sourceTaxonomyId": "4228",
+      "name": "apple sharlotka",
+      "slug": "apple-sharlotka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4230",
+      "sourceTaxonomyId": "4230",
+      "name": "russian dessert",
+      "slug": "russian-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4240",
+      "sourceTaxonomyId": "4240",
+      "name": "creamy",
+      "slug": "creamy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7044",
+      "sourceTaxonomyId": "7044",
+      "name": "very popular in russia",
+      "slug": "very-popular-in-russia"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7255",
+      "sourceTaxonomyId": "7255",
+      "name": "russian pirog",
+      "slug": "russian-pirog"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7762",
+      "sourceTaxonomyId": "7762",
+      "name": "3 apples",
+      "slug": "3-apples"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:6634",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 big apples (sour)",
+            "quantity": {
+              "raw": "3 big",
+              "value": 3,
+              "unit": "big",
+              "scalable": true
+            },
+            "name": "apples",
+            "notes": "(sour)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 eggs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cup granulated sugar",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cup flour",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 tsp confectioner's sugar (optional)",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "confectioner's sugar",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380 degrees F. Grease and flour a round cake pan or line the bottom of the pan with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Wash, peel and dice apples into 1-inch pieces. Lay out the diced apples on the bottom of the pan.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Using a mixer beat eggs with sugar, until its two times in volume. Using a spatula carefully fold in sifted flour. Pour the batter over the apples.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Bake for about 45 minutes or until а toothpick inserted in the middle comes out clean. Once the cake cools off a little, transfer to plate.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Dust it with powdered sugar before serving.",
+            "mediaId": "wordpress-attachment:6633"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:6634",
+      "sourceId": "6634",
+      "path": "/recipes/media/wordpress/6634.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6633",
+      "sourceId": "6633",
+      "path": "/recipes/media/wordpress/6633.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

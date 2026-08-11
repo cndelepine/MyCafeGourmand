@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22881",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:11935",
+  "slug": "свинина-с-картошкой-в-духовке",
+  "source": {
+    "system": "wordpress",
+    "postId": "22881",
+    "recipeId": "22881",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%81%d0%b2%d0%b8%d0%bd%d0%b8%d0%bd%d0%b0-%d1%81-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%88%d0%ba%d0%be%d0%b9-%d0%b2-%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b5",
+    "createdAt": "2025-02-07T01:16:00+00:00",
+    "modifiedAt": "2025-02-10T01:17:46+00:00",
+    "editorialPostId": "14955",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%81%d0%b2%d0%b8%d0%bd%d0%b8%d0%bd%d0%b0-%d1%81-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%88%d0%ba%d0%be%d0%b9-%d0%b2-%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b5",
+    "editorialCreatedAt": "2025-02-07T01:16:00+00:00",
+    "editorialModifiedAt": "2025-02-10T01:17:43+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Свинина с картошкой в духовке",
+  "description": "Мясо получится еще сочнее, если его посолить, поперчить, намазать горчицей и оставить мариноваться пару часов. Советую готовить сразу двойную порцию. ;)",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Этот очень простой и вкусный рецепт подходит как для обычного ужина, так и для праздничного стола. Целый кусок свинины, запекается в духовке одновременно с картофелем. Горчица придает мясу особую нежность и приятный вкус.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22881,\"template\":\"chic-template-russian\",\"updated\":1739150226161} -->\n<!--WPRM Recipe 22881-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Свинина с картошкой в духовке</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9222.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tМясо получится еще сочнее, если его посолить, поперчить, намазать горчицей и оставить мариноваться пару часов. Советую готовить сразу двойную порцию. ;)\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 кг 800 г свиной вырезки (цельный кусок)</li><li>Соль и свежемолотый перец</li><li>1 ч.л. прованских трав (Herbes de Provence) (или других ваших любимых специй)</li><li>2 ст.л. горчицы</li><li>3 зубчика чеснока (не очищенных)</li><li>1 кг не крупного картофеля (можно не чистить)</li><li>Немного оливкового (или другого растительного) масла</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Разогреть духовку до 180С (400F). Блюдо для запекания накрыть большим куском фольги. Мясо посолить, поперчить, намазать горчицей и положить на фольгу.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9186.Blog_-150x150.png\"/><br /></li><li>В зависимости от размера, картофель разрезать на 2-4 части и разложить в блюдо вокруг мяса. Посолить, поперчить и полить оливковым маслом.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9192.Blog_-150x150.png\"/><br /></li><li> Накрыть фольгой, плотно завернув края и поставить в разогретую духовку на 30 минут.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9193.Blog_-150x150.png\"/><br /></li><li>Открыть фольгу, полить мясо и картошку соком от жарки.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9210.Blog_-150x150.png\"/><br /></li><li>Снова поставить в духовку и продолжать запекать еще примерно 25 минут до образования румяной корочки. Проверить готовность острием ножа. Готово, когда свинина полностью прожарилась внутри, а картофель стал мягким.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9217.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Свинина с картошкой в духовке"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24855",
+      "sourceTaxonomyId": "24855",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24868",
+      "sourceTaxonomyId": "24868",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24965",
+      "sourceTaxonomyId": "24965",
+      "name": "горчицы",
+      "slug": "%d0%b3%d0%be%d1%80%d1%87%d0%b8%d1%86%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25192",
+      "sourceTaxonomyId": "25192",
+      "name": "800 г свиной вырезки (цельный кусок)",
+      "slug": "800-%d0%b3-%d1%81%d0%b2%d0%b8%d0%bd%d0%be%d0%b9-%d0%b2%d1%8b%d1%80%d0%b5%d0%b7%d0%ba%d0%b8-%d1%86%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d1%83%d1%81%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25193",
+      "sourceTaxonomyId": "25193",
+      "name": "прованских трав (Herbes de Provence)",
+      "slug": "%d0%bf%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d1%81%d0%ba%d0%b8%d1%85-%d1%82%d1%80%d0%b0%d0%b2-herbes-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25194",
+      "sourceTaxonomyId": "25194",
+      "name": "не крупного картофеля",
+      "slug": "%d0%bd%d0%b5-%d0%ba%d1%80%d1%83%d0%bf%d0%bd%d0%be%d0%b3%d0%be-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25195",
+      "sourceTaxonomyId": "25195",
+      "name": "оливкового (или другого растительного) масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d0%bb%d0%b8-%d0%b4%d1%80%d1%83%d0%b3%d0%be%d0%b3%d0%be-%d1%80%d0%b0%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1438",
+      "sourceTaxonomyId": "1438",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "640",
+      "sourceTaxonomyId": "640",
+      "name": "оливкового (или другого растительного) масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d0%bb%d0%b8-%d0%b4%d1%80%d1%83%d0%b3%d0%be%d0%b3%d0%be-%d1%80%d0%b0%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "795",
+      "sourceTaxonomyId": "795",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "981",
+      "sourceTaxonomyId": "981",
+      "name": "горчицы",
+      "slug": "%d0%b3%d0%be%d1%80%d1%87%d0%b8%d1%86%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2115",
+      "sourceTaxonomyId": "2115",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11946",
+      "sourceTaxonomyId": "11946",
+      "name": "800 г свиной вырезки (цельный кусок)",
+      "slug": "800-%d0%b3-%d1%81%d0%b2%d0%b8%d0%bd%d0%be%d0%b9-%d0%b2%d1%8b%d1%80%d0%b5%d0%b7%d0%ba%d0%b8-%d1%86%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d1%83%d1%81%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12000",
+      "sourceTaxonomyId": "12000",
+      "name": "прованских трав (Herbes de Provence)",
+      "slug": "%d0%bf%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d1%81%d0%ba%d0%b8%d1%85-%d1%82%d1%80%d0%b0%d0%b2-herbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12002",
+      "sourceTaxonomyId": "12002",
+      "name": "не крупного картофеля",
+      "slug": "%d0%bd%d0%b5-%d0%ba%d1%80%d1%83%d0%bf%d0%bd%d0%be%d0%b3%d0%be-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2496",
+      "sourceTaxonomyId": "2496",
+      "name": "сытный ужин",
+      "slug": "%d1%81%d1%8b%d1%82%d0%bd%d1%8b%d0%b9-%d1%83%d0%b6%d0%b8%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 порций",
+      "value": 4,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "16",
+        "minutes": 16
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13473",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 кг 800 г свиной вырезки (цельный кусок)",
+            "quantity": {
+              "raw": "1 кг",
+              "value": 1,
+              "unit": "кг",
+              "scalable": true
+            },
+            "name": "800 г свиной вырезки (цельный кусок)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Соль и свежемолотый перец",
+            "quantity": null,
+            "name": "Соль и свежемолотый перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 ч.л. прованских трав (Herbes de Provence) или других ваших любимых специй",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "прованских трав (Herbes de Provence)",
+            "notes": "или других ваших любимых специй"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 ст.л. горчицы",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "горчицы",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 зубчика чеснока не очищенных",
+            "quantity": {
+              "raw": "3 зубчика",
+              "value": 3,
+              "unit": "зубчика",
+              "scalable": true
+            },
+            "name": "чеснока",
+            "notes": "не очищенных"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 кг не крупного картофеля можно не чистить",
+            "quantity": {
+              "raw": "1 кг",
+              "value": 1,
+              "unit": "кг",
+              "scalable": true
+            },
+            "name": "не крупного картофеля",
+            "notes": "можно не чистить"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Немного оливкового (или другого растительного) масла",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "оливкового (или другого растительного) масла",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 180С (400F). Блюдо для запекания накрыть большим куском фольги. Мясо посолить, поперчить, намазать горчицей и положить на фольгу.",
+            "mediaId": "wordpress-attachment:13467"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "В зависимости от размера, картофель разрезать на 2-4 части и разложить в блюдо вокруг мяса. Посолить, поперчить и полить оливковым маслом.",
+            "mediaId": "wordpress-attachment:13468"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Накрыть фольгой, плотно завернув края и поставить в разогретую духовку на 30 минут.",
+            "mediaId": "wordpress-attachment:13469"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Открыть фольгу, полить мясо и картошку соком от жарки.",
+            "mediaId": "wordpress-attachment:13470"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Снова поставить в духовку и продолжать запекать еще примерно 25 минут до образования румяной корочки. Проверить готовность острием ножа. Готово, когда свинина полностью прожарилась внутри, а картофель стал мягким.",
+            "mediaId": "wordpress-attachment:13471"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13473",
+      "sourceId": "13473",
+      "path": "/recipes/media/wordpress/13473.png",
+      "alt": "Свинина с картошкой в духовке",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13467",
+      "sourceId": "13467",
+      "path": "/recipes/media/wordpress/13467.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13468",
+      "sourceId": "13468",
+      "path": "/recipes/media/wordpress/13468.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13469",
+      "sourceId": "13469",
+      "path": "/recipes/media/wordpress/13469.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13470",
+      "sourceId": "13470",
+      "path": "/recipes/media/wordpress/13470.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13471",
+      "sourceId": "13471",
+      "path": "/recipes/media/wordpress/13471.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

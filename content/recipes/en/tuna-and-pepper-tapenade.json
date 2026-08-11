@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27350",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26369",
+  "slug": "tuna-and-pepper-tapenade",
+  "source": {
+    "system": "wordpress",
+    "postId": "27350",
+    "recipeId": "27350",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tuna-and-pepper-tapenade",
+    "createdAt": "2024-12-05T08:16:28+00:00",
+    "modifiedAt": "2024-12-05T09:02:58+00:00",
+    "editorialPostId": "27348",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tuna-and-pepper-tapenade",
+    "editorialCreatedAt": "2024-12-05T08:16:28+00:00",
+    "editorialModifiedAt": "2024-12-05T09:02:55+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Tuna and pepper Tapenade",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Between the terrine and the dip, this tuna and pepper Tapenade is perfect as an aperitif for dipping celery stalks or carrot sticks, grilled toast...</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27350,\"template\":\"chic-template-english\",\"updated\":1733386382945} -->\n<!--WPRM Recipe 27350-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tuna and pepper Tapenade</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1337.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>160 g canned tuna ((drained))</li><li>1/2 red pepper</li><li>1/2 yellow pepper</li><li>150  g cream cheese (Philadelphia style)       </li><li>Salt and black pepper</li><li>Few drops Tabasco™ ((optional))</li><li>A bit chopped parsley</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>With a fork, work the tuna and cheese in a bowl.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1305.Blog_-150x150.png\"/><br /></li><li><p>Cut the pepper in half lengthwise. Remove the seeds and filaments.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1306.Blog_-150x150.png\"/><br /></li><li><p>Cut the peppers into small cubes and add them to the bowl. Add salt, pepper and mix well.</p><p>If you want a spicier tapenade, add a few drops of Tabasco™.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1309.Blog_-150x150.png\"/><br /></li><li><p>Cover with plastic wrap and refrigerate for an half hour.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1311.Blog_-150x150.png\"/><br /></li><li><p>Sprinkle with chopped parsley and serve.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1323.Blog_-150x150.png\"/><br /></li></ol><h4>For a nice presentation:</h4><ol><li><p>Line small bowls with cellophane. Fill with the tuna terrine and pack well into the bowl.</p><p>Invert onto a serving plate and remove the bowl (and cellophane!) to obtain a small dome. Decorate as you wish.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1337.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div><div class=\"wprm-fallback-recipe-meta-cuisine\">française</div><div class=\"wprm-fallback-recipe-meta-keyword\">Terrine au saumon fume, Terrine au thon</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24047",
+      "sourceTaxonomyId": "24047",
+      "name": "française",
+      "slug": "francaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23561",
+      "sourceTaxonomyId": "23561",
+      "name": "red pepper",
+      "slug": "red-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24296",
+      "sourceTaxonomyId": "24296",
+      "name": "salt and black pepper",
+      "slug": "salt-and-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26370",
+      "sourceTaxonomyId": "26370",
+      "name": "canned tuna",
+      "slug": "canned-tuna"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26371",
+      "sourceTaxonomyId": "26371",
+      "name": "yellow pepper",
+      "slug": "yellow-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26372",
+      "sourceTaxonomyId": "26372",
+      "name": "cream cheese (Philadelphia style)",
+      "slug": "cream-cheese-philadelphia-style"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26374",
+      "sourceTaxonomyId": "26374",
+      "name": "Tabasco™",
+      "slug": "tabasco"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26375",
+      "sourceTaxonomyId": "26375",
+      "name": "chopped parsley",
+      "slug": "chopped-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26373",
+      "sourceTaxonomyId": "26373",
+      "name": "drops",
+      "slug": "drops"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25487",
+      "sourceTaxonomyId": "25487",
+      "name": "Terrine au thon",
+      "slug": "terrine-au-thon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25488",
+      "sourceTaxonomyId": "25488",
+      "name": "Terrine au saumon fume",
+      "slug": "terrine-au-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1508",
+      "sourceTaxonomyId": "1508",
+      "name": "tuna",
+      "slug": "tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1953",
+      "sourceTaxonomyId": "1953",
+      "name": "canned tuna",
+      "slug": "canned-tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4198",
+      "sourceTaxonomyId": "4198",
+      "name": "sweet pepper",
+      "slug": "sweet-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26937",
+      "sourceTaxonomyId": "26937",
+      "name": "creem cheese",
+      "slug": "creem-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26940",
+      "sourceTaxonomyId": "26940",
+      "name": "dip",
+      "slug": "dip-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": {
+        "label": "Réfrigération",
+        "duration": {
+          "raw": "30",
+          "minutes": 30
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27310",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "160 g canned tuna (drained)",
+            "quantity": {
+              "raw": "160 g",
+              "value": 160,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "canned tuna",
+            "notes": "(drained)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 red pepper",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "red pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 yellow pepper",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "yellow pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 g cream cheese (Philadelphia style)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "cream cheese (Philadelphia style)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and black pepper",
+            "quantity": null,
+            "name": "Salt and black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Few drops Tabasco™ (optional)",
+            "quantity": {
+              "raw": "Few drops",
+              "unit": "drops",
+              "scalable": false
+            },
+            "name": "Tabasco™",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "A bit chopped parsley",
+            "quantity": {
+              "raw": "A bit",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "chopped parsley",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "With a fork, work the tuna and cheese in a bowl.",
+            "mediaId": "wordpress-attachment:27305"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut the pepper in half lengthwise. Remove the seeds and filaments.",
+            "mediaId": "wordpress-attachment:27306"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cut the peppers into small cubes and add them to the bowl. Add salt, pepper and mix well.\n\nIf you want a spicier tapenade, add a few drops of Tabasco™.",
+            "mediaId": "wordpress-attachment:27307"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Cover with plastic wrap and refrigerate for an half hour.",
+            "mediaId": "wordpress-attachment:27308"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sprinkle with chopped parsley and serve.",
+            "mediaId": "wordpress-attachment:27309"
+          }
+        ]
+      },
+      {
+        "name": "For a nice presentation:",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Line small bowls with cellophane. Fill with the tuna terrine and pack well into the bowl.\n\nInvert onto a serving plate and remove the bowl (and cellophane!) to obtain a small dome. Decorate as you wish.",
+            "mediaId": "wordpress-attachment:27310"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27310",
+      "sourceId": "27310",
+      "path": "/recipes/media/wordpress/27310.png",
+      "alt": "Tapenade au thon et aux poivrons",
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27305",
+      "sourceId": "27305",
+      "path": "/recipes/media/wordpress/27305.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27306",
+      "sourceId": "27306",
+      "path": "/recipes/media/wordpress/27306.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27307",
+      "sourceId": "27307",
+      "path": "/recipes/media/wordpress/27307.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27308",
+      "sourceId": "27308",
+      "path": "/recipes/media/wordpress/27308.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27309",
+      "sourceId": "27309",
+      "path": "/recipes/media/wordpress/27309.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

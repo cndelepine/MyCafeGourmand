@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21381",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:952",
+  "slug": "walnut-pineapple-upside-down-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21381",
+    "recipeId": "21381",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-walnut-pineapple-upside-down-cake",
+    "createdAt": "2019-08-02T06:21:00+00:00",
+    "modifiedAt": "2022-06-26T23:53:11+00:00",
+    "editorialPostId": "2061",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "walnut-pineapple-upside-down-cake",
+    "editorialCreatedAt": "2019-08-02T06:21:00+00:00",
+    "editorialModifiedAt": "2022-06-26T23:53:09+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Walnut Pineapple Upside-Down Cake",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Once baked, the walnuts get that gooey-caramel and crunchy coating. Your guests will love that Walnut Pineapple Upside-Down Cake.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21381,\"template\":\"chic-template-english\",\"updated\":1609287584252} -->\n<!--WPRM Recipe 21381-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Walnut Pineapple Upside-Down Cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20171214_112224.Blog_.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>7 rings pineapple slices (drained)</li><li>4 eggs</li><li>1/2 cup sugar</li><li>1 cup all purpose flour (sifted)</li><li>1/2 tsp vanilla extract</li><li>1/2 cup  walnuts (chopped)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 350 degrees F. Lightly grease a 9-10 inch round cake pan. Place pineapple slices on the bottom of the pan. </li><li>In a large bowl, beat the eggs, sugar and vanilla on high speed for about 8 min. Slowly add flour. Using a spatula fold in gently. Continue until all of the flour mixture is incorporated. </li><li>Add chopped walnuts.</li><li>Carefully spoon mixture into a pan cake.</li><li>Bake for 25-30 minutes or until toothpick inserted in center comes out clean. </li><li>Cool for at list 10 minutes, then turn the pan over onto a serving plate. Wait 30 seconds then lift the pan off.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24183",
+      "sourceTaxonomyId": "24183",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24263",
+      "sourceTaxonomyId": "24263",
+      "name": "pineapple slices",
+      "slug": "pineapple-slices"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24264",
+      "sourceTaxonomyId": "24264",
+      "name": "vanilla extract",
+      "slug": "vanilla-extract"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "787",
+      "sourceTaxonomyId": "787",
+      "name": "vanilla extract",
+      "slug": "vanilla-extract"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "789",
+      "sourceTaxonomyId": "789",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "791",
+      "sourceTaxonomyId": "791",
+      "name": "pineapple slices",
+      "slug": "pineapple-slices"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1444",
+      "sourceTaxonomyId": "1444",
+      "name": "upside down",
+      "slug": "upside-down"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4176",
+      "sourceTaxonomyId": "4176",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7165",
+      "sourceTaxonomyId": "7165",
+      "name": "pineapple slices",
+      "slug": "pineapple-slices"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7167",
+      "sourceTaxonomyId": "7167",
+      "name": "pineapple from can",
+      "slug": "pineapple-from-can"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7169",
+      "sourceTaxonomyId": "7169",
+      "name": "canned pineapple",
+      "slug": "canned-pineapple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25292",
+      "sourceTaxonomyId": "25292",
+      "name": "Walnut Pineapple Upside-Down Cake",
+      "slug": "walnut-pineapple-upside-down-cake"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:879",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "7 rings pineapple slices drained",
+            "quantity": {
+              "raw": "7 rings",
+              "value": 7,
+              "unit": "rings",
+              "scalable": true
+            },
+            "name": "pineapple slices",
+            "notes": "drained"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 cup sugar",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cup all purpose flour sifted",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": "sifted"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 tsp vanilla extract",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "vanilla extract",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 cup walnuts chopped",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "walnuts",
+            "notes": "chopped"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 350 degrees F. Lightly grease a 9-10 inch round cake pan. Place pineapple slices on the bottom of the pan.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a large bowl, beat the eggs, sugar and vanilla on high speed for about 8 min. Slowly add flour. Using a spatula fold in gently. Continue until all of the flour mixture is incorporated.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add chopped walnuts.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Carefully spoon mixture into a pan cake.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Bake for 25-30 minutes or until toothpick inserted in center comes out clean.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Cool for at list 10 minutes, then turn the pan over onto a serving plate. Wait 30 seconds then lift the pan off.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:879",
+      "sourceId": "879",
+      "path": "/recipes/media/wordpress/879.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21733",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6657",
+  "slug": "okroshka-cold-slavic-soup",
+  "source": {
+    "system": "wordpress",
+    "postId": "21733",
+    "recipeId": "21733",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-okroshka-cold-slavic-soup",
+    "createdAt": "2018-06-22T05:05:00+00:00",
+    "modifiedAt": "2022-10-09T00:21:45+00:00",
+    "editorialPostId": "12005",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "okroshka-cold-slavic-soup",
+    "editorialCreatedAt": "2018-06-22T05:05:00+00:00",
+    "editorialModifiedAt": "2022-10-09T00:20:07+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Okroshka (Cold Slavic Soup)",
+  "description": "The word \"okroshka\" come from Russian word \"kroshka\" (crumbs) and means \"made of crumbs\". All ingredients must be finely diced.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Okroshka is a soup, mostly served in summer and always served cold. The ingredients are diced and then mixed with <a href=\"https://mycafegourmand.com/recipe/bread-kvass\">kvass</a>. The ratio of chopped vegetables to kvass is similar to that of cereal to milk. There are tons of different okroshka recipes, but every okroshka must contain green onion, radishes, cucumber, potatoes, boiled eggs and dill. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21733,\"template\":\"chic-template-english\",\"updated\":1659380805687} -->\n<!--WPRM Recipe 21733-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Okroshka (Cold Slavic Soup)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/38480314_2378916255459712_5388794251091902464_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThe word \"okroshka\" come from Russian word \"kroshka\" (crumbs) and means \"made of crumbs\". All ingredients must be finely diced.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 hard boiled eggs (diced)</li><li>2 boiled potatoes (peeled and cut into small cubes)</li><li>1  medium english cucumber (peeled and cut into small cubes)</li><li>8 slices (300g) bologna (finely diced)</li><li>6-7 radishes (thinly diced)</li><li>1/2 bunch  dill (finely diced)</li><li>1/2 bunch green onion (finely diced)</li><li>2 l kvass</li><li>Salt and freshly ground black pepper (to taste)</li><li>sour cream (for garnish (optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Chop all ingredients. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/38717207_739564576388786_2975074397980721152_n.Blog_-150x150.png\"/><br /></li><li>Now is the time to turn the salad into a soup. Pour the kvass over the chopped vegetables and mix gently. Add salt and pepper according to taste.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/38714615_448066035674434_4182313417677209600_n.Blog_-150x150.png\"/><br /></li><li>Let the veggies soak all the flavors for about 2-3 hours in the refrigerator before serving. Serve cold with sour cream. Okroshka will taste even better the following day.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/38692549_2140653129516260_345929847274471424_n.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soup</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23533",
+      "sourceTaxonomyId": "23533",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24145",
+      "sourceTaxonomyId": "24145",
+      "name": "green onion",
+      "slug": "green-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24218",
+      "sourceTaxonomyId": "24218",
+      "name": "bologna",
+      "slug": "bologna"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24250",
+      "sourceTaxonomyId": "24250",
+      "name": "hard boiled eggs",
+      "slug": "hard-boiled-eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24373",
+      "sourceTaxonomyId": "24373",
+      "name": "cucumber",
+      "slug": "cucumber"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24432",
+      "sourceTaxonomyId": "24432",
+      "name": "dill",
+      "slug": "dill"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24463",
+      "sourceTaxonomyId": "24463",
+      "name": "boiled potatoes",
+      "slug": "boiled-potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24464",
+      "sourceTaxonomyId": "24464",
+      "name": "radishes",
+      "slug": "radishes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24465",
+      "sourceTaxonomyId": "24465",
+      "name": "kvass",
+      "slug": "kvass"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "96",
+      "sourceTaxonomyId": "96",
+      "name": "Soups",
+      "slug": "soups"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1190",
+      "sourceTaxonomyId": "1190",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "303",
+      "sourceTaxonomyId": "303",
+      "name": "bologna",
+      "slug": "bologna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "777",
+      "sourceTaxonomyId": "777",
+      "name": "hard boiled eggs",
+      "slug": "hard-boiled-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2710",
+      "sourceTaxonomyId": "2710",
+      "name": "cucumber",
+      "slug": "cucumber"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3088",
+      "sourceTaxonomyId": "3088",
+      "name": "dill",
+      "slug": "dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4152",
+      "sourceTaxonomyId": "4152",
+      "name": "green onion",
+      "slug": "green-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6597",
+      "sourceTaxonomyId": "6597",
+      "name": "radishes",
+      "slug": "radishes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6655",
+      "sourceTaxonomyId": "6655",
+      "name": "kvass",
+      "slug": "kvass"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6708",
+      "sourceTaxonomyId": "6708",
+      "name": "boiled potatoes",
+      "slug": "boiled-potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2782",
+      "sourceTaxonomyId": "2782",
+      "name": "russian dish",
+      "slug": "russian-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3654",
+      "sourceTaxonomyId": "3654",
+      "name": "hard boiled egg",
+      "slug": "hard-boiled-egg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5917",
+      "sourceTaxonomyId": "5917",
+      "name": "fresh herbes",
+      "slug": "fresh-herbes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6475",
+      "sourceTaxonomyId": "6475",
+      "name": "cold soup",
+      "slug": "cold-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6477",
+      "sourceTaxonomyId": "6477",
+      "name": "summer soup",
+      "slug": "summer-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6481",
+      "sourceTaxonomyId": "6481",
+      "name": "kvass",
+      "slug": "kvass"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6483",
+      "sourceTaxonomyId": "6483",
+      "name": "okroshka soup",
+      "slug": "okroshka-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6777",
+      "sourceTaxonomyId": "6777",
+      "name": "diced veggies",
+      "slug": "diced-veggies"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7127",
+      "sourceTaxonomyId": "7127",
+      "name": "summer menu",
+      "slug": "summer-menu"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12104",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 hard boiled eggs diced",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "hard boiled eggs",
+            "notes": "diced"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 boiled potatoes peeled and cut into small cubes",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "boiled potatoes",
+            "notes": "peeled and cut into small cubes"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 medium english cucumber peeled and cut into small cubes",
+            "quantity": {
+              "raw": "1 medium english",
+              "value": 1,
+              "unit": "medium english",
+              "scalable": true
+            },
+            "name": "cucumber",
+            "notes": "peeled and cut into small cubes"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "8 slices (300g) bologna finely diced",
+            "quantity": {
+              "raw": "8 slices (300g)",
+              "value": 8,
+              "unit": "slices (300g)",
+              "scalable": true
+            },
+            "name": "bologna",
+            "notes": "finely diced"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "6-7 radishes thinly diced",
+            "quantity": {
+              "raw": "6-7",
+              "min": 6,
+              "max": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "radishes",
+            "notes": "thinly diced"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 bunch dill finely diced",
+            "quantity": {
+              "raw": "1/2 bunch",
+              "value": 0.5,
+              "unit": "bunch",
+              "scalable": true
+            },
+            "name": "dill",
+            "notes": "finely diced"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/2 bunch green onion finely diced",
+            "quantity": {
+              "raw": "1/2 bunch",
+              "value": 0.5,
+              "unit": "bunch",
+              "scalable": true
+            },
+            "name": "green onion",
+            "notes": "finely diced"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "2 l kvass",
+            "quantity": {
+              "raw": "2 l",
+              "value": 2,
+              "unit": "l",
+              "scalable": true
+            },
+            "name": "kvass",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "sour cream for garnish (optional)",
+            "quantity": null,
+            "name": "sour cream",
+            "notes": "for garnish (optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Chop all ingredients.",
+            "mediaId": "wordpress-attachment:12107"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Now is the time to turn the salad into a soup. Pour the kvass over the chopped vegetables and mix gently. Add salt and pepper according to taste.",
+            "mediaId": "wordpress-attachment:12106"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Let the veggies soak all the flavors for about 2-3 hours in the refrigerator before serving. Serve cold with sour cream. Okroshka will taste even better the following day.",
+            "mediaId": "wordpress-attachment:12105"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12104",
+      "sourceId": "12104",
+      "path": "/recipes/media/wordpress/12104.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:12107",
+      "sourceId": "12107",
+      "path": "/recipes/media/wordpress/12107.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12106",
+      "sourceId": "12106",
+      "path": "/recipes/media/wordpress/12106.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12105",
+      "sourceId": "12105",
+      "path": "/recipes/media/wordpress/12105.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

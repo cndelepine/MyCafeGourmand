@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21975",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:23027",
+  "slug": "galettes-au-saumon-fume-et-a-la-creme-fraiche",
+  "source": {
+    "system": "wordpress",
+    "postId": "21975",
+    "recipeId": "21975",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-galettes-au-saumon-fume-et-a-la-creme-fraiche",
+    "createdAt": "2024-02-01T03:33:09+00:00",
+    "modifiedAt": "2024-02-07T04:49:33+00:00",
+    "editorialPostId": "19715",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "galettes-au-saumon-fume-et-a-la-creme-fraiche",
+    "editorialCreatedAt": "2024-02-01T03:33:09+00:00",
+    "editorialModifiedAt": "2024-02-07T01:54:13+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Galettes au saumon fumé et à la crème fraîche",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les galettes au saumon fumé et à la crème fraîche est ma recette préférée de galettes. Le saumon fumé et la crème fraîche se marient parfaitement avec le goût des crêpes au sarrasin. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Vous pouvez retrouver la recette des <a href=\"https://mycafegourmand.com/fr/galettes-de-sarrasin/\">galettes de sarrasin</a> sur ce site.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21975,\"template\":\"chic-template-french\",\"updated\":1606694685982} -->\n<!--WPRM Recipe 21975-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Galettes au saumon fumé et à la crème fraîche</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3451-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Pâte</h4><ul><li>250 g de farine de sarrasin (blé noir)</li><li>1  cuillère à café de gros sel</li><li>350 g de lait</li><li>350 g d'eau</li><li>2 œufs</li><li>50 g de beurre fondu</li></ul><h4>Garniture</h4><ul><li>8 tranches de saumon fumé,</li><li>8 cuillères à soupe crème fraîche épaisse</li><li>Un peu d'aneth séché ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préparer votre pâte à crêpes pour galettes de sarrasin et la laisser reposer au moins 2 heures.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0413.Blog_-150x150.png\"/><br /></li><li>Faire chauffer une poêle, la beurrer. Mélanger encore une fois la pâte . Verser une petite louche de pâte et bien répartir sur toute la surface. Laisser cuire quelques instants. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3447-2.Blog_-150x150.png\"/><br /></li><li>Placer une tranche de saumon fumé au milieu de la galette, étaler une fine couche de crème fraîche et saupoudrer d'aneth. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3448-2.Blog_-150x150.png\"/><br /></li><li>Plier la galette en formant un triangle ou un carré. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3431-2.Blog_-150x150.png\"/><br /></li><li>Retirer la galette de la poêle, déposer sur une assiette de service, décorer et servir aussitôt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3454-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24318",
+      "sourceTaxonomyId": "24318",
+      "name": "de beurre fondu",
+      "slug": "de-beurre-fondu"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24524",
+      "sourceTaxonomyId": "24524",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24567",
+      "sourceTaxonomyId": "24567",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24635",
+      "sourceTaxonomyId": "24635",
+      "name": "de farine de sarrasin (blé noir)",
+      "slug": "de-farine-de-sarrasin-ble-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24654",
+      "sourceTaxonomyId": "24654",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24655",
+      "sourceTaxonomyId": "24655",
+      "name": "crème fraîche épaisse",
+      "slug": "creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24656",
+      "sourceTaxonomyId": "24656",
+      "name": "d'aneth séché",
+      "slug": "daneth-seche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "372",
+      "sourceTaxonomyId": "372",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "551",
+      "sourceTaxonomyId": "551",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "603",
+      "sourceTaxonomyId": "603",
+      "name": "de beurre fondu",
+      "slug": "de-beurre-fondu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1034",
+      "sourceTaxonomyId": "1034",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5495",
+      "sourceTaxonomyId": "5495",
+      "name": "de farine de sarrasin (blé noir)",
+      "slug": "de-farine-de-sarrasin-ble-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23033",
+      "sourceTaxonomyId": "23033",
+      "name": "d'aneth séché",
+      "slug": "daneth-seche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23038",
+      "sourceTaxonomyId": "23038",
+      "name": "crème fraîche épaisse",
+      "slug": "creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1522",
+      "sourceTaxonomyId": "1522",
+      "name": "saumon fume",
+      "slug": "saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3447",
+      "sourceTaxonomyId": "3447",
+      "name": "creme fraiche epaisse",
+      "slug": "creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5483",
+      "sourceTaxonomyId": "5483",
+      "name": "farine se sarrasin",
+      "slug": "farine-se-sarrasin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5505",
+      "sourceTaxonomyId": "5505",
+      "name": "comment faire les galettes",
+      "slug": "comment-faire-les-galettes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5533",
+      "sourceTaxonomyId": "5533",
+      "name": "tres facile",
+      "slug": "tres-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5582",
+      "sourceTaxonomyId": "5582",
+      "name": "a la poele",
+      "slug": "a-la-poele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6146",
+      "sourceTaxonomyId": "6146",
+      "name": "sans farine de ble",
+      "slug": "sans-farine-de-ble"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8113",
+      "sourceTaxonomyId": "8113",
+      "name": "comme a la creperie",
+      "slug": "comme-a-la-creperie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8125",
+      "sourceTaxonomyId": "8125",
+      "name": "galette de sarrasin",
+      "slug": "galette-de-sarrasin-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8133",
+      "sourceTaxonomyId": "8133",
+      "name": "Galette Bretonne",
+      "slug": "galette-bretonne-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8239",
+      "sourceTaxonomyId": "8239",
+      "name": "farine noire",
+      "slug": "farine-noire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25702",
+      "sourceTaxonomyId": "25702",
+      "name": "la meilleure recette",
+      "slug": "la-meilleure-recette-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 galettes",
+      "value": 8,
+      "unit": "galettes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19689",
+    "ingredientGroups": [
+      {
+        "name": "Pâte",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g de farine de sarrasin (blé noir)",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine de sarrasin (blé noir)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cuillère à café de gros sel",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de gros sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "350 g de lait",
+            "quantity": {
+              "raw": "350 g",
+              "value": 350,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "350 g d'eau",
+            "quantity": {
+              "raw": "350 g",
+              "value": 350,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 œufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 g de beurre fondu",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre fondu",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Garniture",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "8 tranches de saumon fumé,",
+            "quantity": {
+              "raw": "8 tranches",
+              "value": 8,
+              "unit": "tranches",
+              "scalable": true
+            },
+            "name": "de saumon fumé,",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "8 cuillères à soupe crème fraîche épaisse",
+            "quantity": {
+              "raw": "8 cuillères à soupe",
+              "value": 8,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "crème fraîche épaisse",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Un peu d'aneth séché (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'aneth séché",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préparer votre pâte à crêpes pour galettes de sarrasin et la laisser reposer au moins 2 heures.",
+            "mediaId": "wordpress-attachment:11332"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire chauffer une poêle, la beurrer. Mélanger encore une fois la pâte . Verser une petite louche de pâte et bien répartir sur toute la surface. Laisser cuire quelques instants.",
+            "mediaId": "wordpress-attachment:19687"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Placer une tranche de saumon fumé au milieu de la galette, étaler une fine couche de crème fraîche et saupoudrer d'aneth.",
+            "mediaId": "wordpress-attachment:19688"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Plier la galette en formant un triangle ou un carré.",
+            "mediaId": "wordpress-attachment:19692"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Retirer la galette de la poêle, déposer sur une assiette de service, décorer et servir aussitôt.",
+            "mediaId": "wordpress-attachment:19693"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19689",
+      "sourceId": "19689",
+      "path": "/recipes/media/wordpress/19689.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11332",
+      "sourceId": "11332",
+      "path": "/recipes/media/wordpress/11332.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:19687",
+      "sourceId": "19687",
+      "path": "/recipes/media/wordpress/19687.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19688",
+      "sourceId": "19688",
+      "path": "/recipes/media/wordpress/19688.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19692",
+      "sourceId": "19692",
+      "path": "/recipes/media/wordpress/19692.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19693",
+      "sourceId": "19693",
+      "path": "/recipes/media/wordpress/19693.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

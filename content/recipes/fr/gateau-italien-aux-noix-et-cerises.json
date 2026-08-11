@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:25177",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:25567",
+  "slug": "gateau-italien-aux-noix-et-cerises",
+  "source": {
+    "system": "wordpress",
+    "postId": "25177",
+    "recipeId": "25177",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-gateau-italien-aux-noix-et-cerises",
+    "createdAt": "2023-07-30T22:40:00+00:00",
+    "modifiedAt": "2023-07-31T19:24:38+00:00",
+    "editorialPostId": "25175",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "gateau-italien-aux-noix-et-cerises",
+    "editorialCreatedAt": "2023-07-30T22:40:00+00:00",
+    "editorialModifiedAt": "2023-07-31T19:24:35+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Gâteau italien aux noix et cerises",
+  "description": "Ce gâteau italien aux noix et cerises est ma version du livre \"Délices d'Italie\" de Loukie Werle. Vous allez adorer ce mariage cerises-noix.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Un ami italien m'a fait découvrir un excellent livre de recettes: \"Délices d'Italie\" de Loukie Werle. Ce gâteau aux noix et cerises est une association délicieuse. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Ma préférence va pour les cerises griottes quand c'est la saison. Il est aussi possible de préparer ce gâteau pendant l'hiver avec des cerises en conserves ou congelées.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":25177,\"template\":\"chic-template-french\",\"updated\":1659305089867} -->\n<!--WPRM Recipe 25177-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Gâteau italien aux noix et cerises</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/07/IMG_8967.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Ce gâteau italien aux noix et cerises est ma version du livre &quot;Délices d&#039;Italie&quot; de Loukie Werle. Vous allez adorer ce mariage cerises-noix.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 œufs</li><li>270 g sucre en poudre</li><li>1 cuillère à café de vanille liquide</li><li>75 g de farine</li><li>1,5 cuillères à café de levure chimique</li><li>2 pincées de sel</li><li>140 g de noix</li><li>600 g de cerises (griottes) dénoyautées</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le four à 180C (360F). </p><p>Tapisser le fond d&#039;un moule à gâteau avec du papier sulfurisé et beurrer bien les bords du moule.</p></li><li><p>Dans un bol à mixeur, battre les œufs avec le sucre en ajoutant le sel et la vanille.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/07/IMG_3291.Blog_-150x150.png\"/><br /></li><li><p>Hacher les noix.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/07/IMG_3293.Blog_-150x150.png\"/><br /></li><li><p>Ajouter les noix hachées, la fariné tamisée et la levure dans le bol du mixeur.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/07/IMG_3299.Blog_-150x150.png\"/><br /></li><li><p>Ajouter les cerises et mélanger délicatement.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/07/IMG_8868.Blog_-150x150.png\"/><br /></li><li><p>Verser la pâte dans le moule</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/07/IMG_8870.Blog_-150x150.png\"/><br /></li><li><p>Cuire au four pendant environ 1 heure ou plus, jusqu&#039;à ce que la pointe d&#039;un couteau ressorte propre de la pâte.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/07/IMG_8954.Blog_-150x150.png\"/><br /></li><li><p>Sortir du four, démouler et laisser refroidir avant de découper et servir le gâteau.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/07/IMG_8960.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23541",
+      "sourceTaxonomyId": "23541",
+      "name": "Italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24320",
+      "sourceTaxonomyId": "24320",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24502",
+      "sourceTaxonomyId": "24502",
+      "name": "de noix",
+      "slug": "de-noix"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24536",
+      "sourceTaxonomyId": "24536",
+      "name": "de vanille liquide",
+      "slug": "de-vanille-liquide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25566",
+      "sourceTaxonomyId": "25566",
+      "name": "sucre en poudre",
+      "slug": "sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25577",
+      "sourceTaxonomyId": "25577",
+      "name": "de cerises (griottes) dénoyautées",
+      "slug": "de-cerises-griottes-denoyautees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25461",
+      "sourceTaxonomyId": "25461",
+      "name": "cuillère à café",
+      "slug": "cuillere-a-cafe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25574",
+      "sourceTaxonomyId": "25574",
+      "name": "cuillères à café",
+      "slug": "cuilleres-a-cafe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25575",
+      "sourceTaxonomyId": "25575",
+      "name": "pincées",
+      "slug": "pincees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1454",
+      "sourceTaxonomyId": "1454",
+      "name": "noix",
+      "slug": "noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7743",
+      "sourceTaxonomyId": "7743",
+      "name": "recette en images",
+      "slug": "recette-en-images"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25584",
+      "sourceTaxonomyId": "25584",
+      "name": "cerises",
+      "slug": "cerises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25591",
+      "sourceTaxonomyId": "25591",
+      "name": "cerise griotte",
+      "slug": "cerise-griotte"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25599",
+      "sourceTaxonomyId": "25599",
+      "name": "gateau italien",
+      "slug": "gateau-italien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25601",
+      "sourceTaxonomyId": "25601",
+      "name": "italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "rest": null,
+      "total": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:25776",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 œufs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "270 g sucre en poudre",
+            "quantity": {
+              "raw": "270 g",
+              "value": 270,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cuillère à café de vanille liquide",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de vanille liquide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "75 g de farine",
+            "quantity": {
+              "raw": "75 g",
+              "value": 75,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1,5 cuillères à café de levure chimique",
+            "quantity": {
+              "raw": "1,5 cuillères à café",
+              "unit": "cuillères à café",
+              "scalable": false
+            },
+            "name": "de levure chimique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 pincées de sel",
+            "quantity": {
+              "raw": "2 pincées",
+              "value": 2,
+              "unit": "pincées",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "140 g de noix",
+            "quantity": {
+              "raw": "140 g",
+              "value": 140,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noix",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "600 g de cerises (griottes) dénoyautées",
+            "quantity": {
+              "raw": "600 g",
+              "value": 600,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de cerises (griottes) dénoyautées",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180C (360F).\n\nTapisser le fond d'un moule à gâteau avec du papier sulfurisé et beurrer bien les bords du moule.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un bol à mixeur, battre les œufs avec le sucre en ajoutant le sel et la vanille.",
+            "mediaId": "wordpress-attachment:25755"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Hacher les noix.",
+            "mediaId": "wordpress-attachment:25756"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ajouter les noix hachées, la fariné tamisée et la levure dans le bol du mixeur.",
+            "mediaId": "wordpress-attachment:25757"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter les cerises et mélanger délicatement.",
+            "mediaId": "wordpress-attachment:25758"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Verser la pâte dans le moule",
+            "mediaId": "wordpress-attachment:25759"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Cuire au four pendant environ 1 heure ou plus, jusqu'à ce que la pointe d'un couteau ressorte propre de la pâte.",
+            "mediaId": "wordpress-attachment:25760"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Sortir du four, démouler et laisser refroidir avant de découper et servir le gâteau.",
+            "mediaId": "wordpress-attachment:25762"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:25776",
+      "sourceId": "25776",
+      "path": "/recipes/media/wordpress/25776.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:25755",
+      "sourceId": "25755",
+      "path": "/recipes/media/wordpress/25755.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:25756",
+      "sourceId": "25756",
+      "path": "/recipes/media/wordpress/25756.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:25757",
+      "sourceId": "25757",
+      "path": "/recipes/media/wordpress/25757.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:25758",
+      "sourceId": "25758",
+      "path": "/recipes/media/wordpress/25758.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:25759",
+      "sourceId": "25759",
+      "path": "/recipes/media/wordpress/25759.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:25760",
+      "sourceId": "25760",
+      "path": "/recipes/media/wordpress/25760.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:25762",
+      "sourceId": "25762",
+      "path": "/recipes/media/wordpress/25762.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

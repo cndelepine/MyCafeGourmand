@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22029",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:8797",
+  "slug": "canard-farci-aux-pommes-et-aux-airelles",
+  "source": {
+    "system": "wordpress",
+    "postId": "22029",
+    "recipeId": "22029",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-canard-farci-aux-pommes-et-aux-airelles",
+    "createdAt": "2024-11-11T18:10:00+00:00",
+    "modifiedAt": "2024-11-18T02:17:53+00:00",
+    "editorialPostId": "13699",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "canard-farci-aux-pommes-et-aux-airelles",
+    "editorialCreatedAt": "2024-11-11T18:10:00+00:00",
+    "editorialModifiedAt": "2024-11-18T00:35:05+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Canard farci aux pommes et aux airelles",
+  "description": "Vous pouvez utiliser des airelles fraîches, surgelées ou séchées. N'oublier pas de sortir le canard du réfrigérateur 1h minimum avant de l'enfourner.",
+  "editorial": {
+    "content": "<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\n<p class=\"has-medium-font-size\">La recette de canard farci aux pommes et aux airelles (canneberges) et rôti au four est facile à préparer. Difficile de résister devant sa peau dorée. A servir avec une<a href=\"https://mycafegourmand.com/fr/recipe/puree-de-pommes-de-terre-doree-au-four\"> purée de pommes de terre</a>. Tout simplement délicieux !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22029,\"template\":\"chic-template-french\",\"updated\":1731644362924,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 22029-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Canard farci aux pommes et aux airelles</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4803.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tVous pouvez utiliser des airelles fraîches, surgelées ou séchées. N'oublier pas de sortir le canard du réfrigérateur 1h minimum avant de l'enfourner.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 (2 kg et plus) canard</li><li>Sel et poivre du moulin</li><li>20 g de beurre ((ou 2 cuillères à soupe d'huile d'olive))</li><li>1 oignon épluché</li><li>2 tiges de celéri</li><li>2 pommes Granny Smith</li><li>1 tasse d'airelles (canneberges) fraîches</li><li>100 g de chapelure</li><li>1 cuillère à soupe d'huile d'olive</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Laver et éponger le canard avec du papier absorbant. Frotter avec du sel et du poivre, sans oublier l'intérieur du canard.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4745.Blog_-150x150.png\"/><br /></li><li>Éplucher et émincer l'oignon.\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4736.Blog_-150x150.png\"/><br /></li><li>Couper le céleri.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4738.Blog_-150x150.png\"/><br /></li><li>Éplucher, évider et couper les pommes en dés.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4740.Blog_-150x150.png\"/><br /></li><li>Dans une poêle, faire chauffer l'huile d'olive et y faire revenir l'oignon et le céleri. Saler et poivrer. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4739.Blog_-150x150.png\"/><br /></li><li>Ajouter les pommes et les airelles. Retirer la poêle du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4743.Blog_-150x150.png\"/><br /></li><li>Ajouter la chapelure et bien mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4744.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 190C (thermostat 6/7). Farcir le canard de farce. Fermer l'ouverture avec des piques en bois.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4747.Blog_-150x150.png\"/><br /></li><li>Badigeonner le canard d'huile d'olive et le faire cuire au four pendant 1 heure en le mettant sur la poitrine dans le plat.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4750.Blog_-e1544394951741-150x150.png\"/><br /></li><li>Arroser fréquemment avec le jus de cuisson.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4756.Blog_-150x150.png\"/><br /></li><li>Retourner le canard sur le dos et continuer de cuire encore 20-30 minutes. Si les ailes et les pilons commencent à brûler, les couvrir avec du papier aluminium.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4757.Blog_-150x150.png\"/><br /></li><li>Quand le canard est cuit à l'intérieur et bien doré à l'extérieur, sortir le plat du four. Couvrir avec une feuille de papier aluminium et laisser reposer pendant environ 10 minutes avant de découper.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4803.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "La recette de canard farci aux pommes et aux airelles (canneberges) et rôti au four est très facile."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24467",
+      "sourceTaxonomyId": "24467",
+      "name": "pommes Granny Smith",
+      "slug": "pommes-granny-smith"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24681",
+      "sourceTaxonomyId": "24681",
+      "name": "canard",
+      "slug": "canard"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24682",
+      "sourceTaxonomyId": "24682",
+      "name": "oignon épluché",
+      "slug": "oignon-epluche"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24683",
+      "sourceTaxonomyId": "24683",
+      "name": "de celéri",
+      "slug": "de-celeri"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24684",
+      "sourceTaxonomyId": "24684",
+      "name": "d'airelles (canneberges) fraîches",
+      "slug": "dairelles-canneberges-fraiches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24685",
+      "sourceTaxonomyId": "24685",
+      "name": "de chapelure",
+      "slug": "de-chapelure"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "936",
+      "sourceTaxonomyId": "936",
+      "name": "pommes Granny Smith",
+      "slug": "pommes-granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5094",
+      "sourceTaxonomyId": "5094",
+      "name": "oignon épluché",
+      "slug": "oignon-epluche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7962",
+      "sourceTaxonomyId": "7962",
+      "name": "de chapelure",
+      "slug": "de-chapelure"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8928",
+      "sourceTaxonomyId": "8928",
+      "name": "canard",
+      "slug": "canard"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8932",
+      "sourceTaxonomyId": "8932",
+      "name": "d'airelles (canneberges) fraîches",
+      "slug": "dairelles-canneberges-fraiches"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8963",
+      "sourceTaxonomyId": "8963",
+      "name": "de celéri",
+      "slug": "de-celeri"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1294",
+      "sourceTaxonomyId": "1294",
+      "name": "canneberge",
+      "slug": "canneberge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1296",
+      "sourceTaxonomyId": "1296",
+      "name": "airelle rouge",
+      "slug": "airelle-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3150",
+      "sourceTaxonomyId": "3150",
+      "name": "doree au four",
+      "slug": "doree-au-four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7696",
+      "sourceTaxonomyId": "7696",
+      "name": "pomme granny smith",
+      "slug": "pomme-granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7975",
+      "sourceTaxonomyId": "7975",
+      "name": "chapelure",
+      "slug": "chapelure"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8308",
+      "sourceTaxonomyId": "8308",
+      "name": "Noël",
+      "slug": "noel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23952",
+      "sourceTaxonomyId": "23952",
+      "name": "canard au four",
+      "slug": "canard-au-four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25672",
+      "sourceTaxonomyId": "25672",
+      "name": "canard",
+      "slug": "canard"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25678",
+      "sourceTaxonomyId": "25678",
+      "name": "canard farci",
+      "slug": "canard-farci"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "rest": null,
+      "total": {
+        "raw": "125",
+        "minutes": 125
+      },
+      "custom": {
+        "label": "Temps de repos",
+        "duration": {
+          "raw": "10",
+          "minutes": 10
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:13494",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 (2 kg et plus) canard",
+            "quantity": {
+              "raw": "1 (2 kg et plus)",
+              "value": 1,
+              "unit": "(2 kg et plus)",
+              "scalable": true
+            },
+            "name": "canard",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "20 g de beurre (ou 2 cuillères à soupe d'huile d'olive)",
+            "quantity": {
+              "raw": "20 g",
+              "value": 20,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": "(ou 2 cuillères à soupe d'huile d'olive)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 oignon épluché",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon épluché",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 tiges de celéri",
+            "quantity": {
+              "raw": "2 tiges",
+              "value": 2,
+              "unit": "tiges",
+              "scalable": true
+            },
+            "name": "de celéri",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 pommes Granny Smith",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pommes Granny Smith",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 tasse d'airelles (canneberges) fraîches",
+            "quantity": {
+              "raw": "1 tasse",
+              "value": 1,
+              "unit": "tasse",
+              "scalable": true
+            },
+            "name": "d'airelles (canneberges) fraîches",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "100 g de chapelure",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chapelure",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 cuillère à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Laver et éponger le canard avec du papier absorbant. Frotter avec du sel et du poivre, sans oublier l'intérieur du canard.",
+            "mediaId": "wordpress-attachment:13516"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Éplucher et émincer l'oignon.",
+            "mediaId": "wordpress-attachment:13484"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper le céleri.",
+            "mediaId": "wordpress-attachment:13485"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Éplucher, évider et couper les pommes en dés.",
+            "mediaId": "wordpress-attachment:13487"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Dans une poêle, faire chauffer l'huile d'olive et y faire revenir l'oignon et le céleri. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:13486"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Ajouter les pommes et les airelles. Retirer la poêle du feu.",
+            "mediaId": "wordpress-attachment:13488"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Ajouter la chapelure et bien mélanger.",
+            "mediaId": "wordpress-attachment:13489"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Préchauffer le four à 190C (thermostat 6/7). Farcir le canard de farce. Fermer l'ouverture avec des piques en bois.",
+            "mediaId": "wordpress-attachment:13490"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Badigeonner le canard d'huile d'olive et le faire cuire au four pendant 1 heure en le mettant sur la poitrine dans le plat.",
+            "mediaId": "wordpress-attachment:13491"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Arroser fréquemment avec le jus de cuisson.",
+            "mediaId": "wordpress-attachment:13492"
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Retourner le canard sur le dos et continuer de cuire encore 20-30 minutes. Si les ailes et les pilons commencent à brûler, les couvrir avec du papier aluminium.",
+            "mediaId": "wordpress-attachment:13493"
+          },
+          {
+            "sourceIndex": 11,
+            "text": "Quand le canard est cuit à l'intérieur et bien doré à l'extérieur, sortir le plat du four. Couvrir avec une feuille de papier aluminium et laisser reposer pendant environ 10 minutes avant de découper.",
+            "mediaId": "wordpress-attachment:13494"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13494",
+      "sourceId": "13494",
+      "path": "/recipes/media/wordpress/13494.png",
+      "alt": "Canard farci aux pommes et aux airelles",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13516",
+      "sourceId": "13516",
+      "path": "/recipes/media/wordpress/13516.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13484",
+      "sourceId": "13484",
+      "path": "/recipes/media/wordpress/13484.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13485",
+      "sourceId": "13485",
+      "path": "/recipes/media/wordpress/13485.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13487",
+      "sourceId": "13487",
+      "path": "/recipes/media/wordpress/13487.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13486",
+      "sourceId": "13486",
+      "path": "/recipes/media/wordpress/13486.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13488",
+      "sourceId": "13488",
+      "path": "/recipes/media/wordpress/13488.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13489",
+      "sourceId": "13489",
+      "path": "/recipes/media/wordpress/13489.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13490",
+      "sourceId": "13490",
+      "path": "/recipes/media/wordpress/13490.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13491",
+      "sourceId": "13491",
+      "path": "/recipes/media/wordpress/13491.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13492",
+      "sourceId": "13492",
+      "path": "/recipes/media/wordpress/13492.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13493",
+      "sourceId": "13493",
+      "path": "/recipes/media/wordpress/13493.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

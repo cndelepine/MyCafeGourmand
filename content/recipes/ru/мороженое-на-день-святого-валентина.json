@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22462",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:12132",
+  "slug": "мороженое-на-день-святого-валентина",
+  "source": {
+    "system": "wordpress",
+    "postId": "22462",
+    "recipeId": "22462",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%bd%d0%b0-%d0%b4%d0%b5%d0%bd%d1%8c-%d1%81%d0%b2%d1%8f%d1%82%d0%be%d0%b3%d0%be-%d0%b2%d0%b0%d0%bb%d0%b5%d0%bd%d1%82%d0%b8%d0%bd%d0%b0",
+    "createdAt": "2026-02-08T08:11:00+00:00",
+    "modifiedAt": "2026-02-09T07:53:04+00:00",
+    "editorialPostId": "15174",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5-%d0%bd%d0%b0-%d0%b4%d0%b5%d0%bd%d1%8c-%d1%81%d0%b2%d1%8f%d1%82%d0%be%d0%b3%d0%be-%d0%b2%d0%b0%d0%bb%d0%b5%d0%bd%d1%82%d0%b8%d0%bd%d0%b0",
+    "editorialCreatedAt": "2026-02-08T08:11:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:53:04+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Десерт на День Святого Валентина",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Если вы не любите готовить, но хотите порадовать себя или своего любимого десертом, готовое мороженое всегда выручит. Подайте ваше любимое мороженое или сорбет в форме сердца, украшенного нежнейшими взбитыми сливками, тертым шоколадом и красными ягодами.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22462,\"template\":\"chic-template-russian\",\"updated\":1770623521713} -->\n<!--WPRM Recipe 22462-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Десерт на День Святого Валентина</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7315.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 г шоколадного мороженого ((или любого другого мороженого))</li><li>50 мл жирных сливок (35%) (очень холодных)</li><li>1 ч.л. сахара</li><li>Немного терого шоколада</li><li>Несколько красных ягод (черника, ежевика, черная смородина, малина и т.п.)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Достать мороженое из морозилки и дать ему постоять минут 5 при комнатной температуре. Плотно наполнить формочки (в виде сердечек) мороженым. Накрыть пищевой пленкой и убрать в морозилку примерно на 45 минут.\r\n\r\n    <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7210.Blog_-150x150.png\"/><br /></li><li>Опустить формочку в горячую воду на несколько секунд. (Не забудьте вытереть салфеткой формочку, чтобы капли воды не попали на тарелку, в которой десерт будет подан на стол).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7287.Blog_-150x150.png\"/><br /></li><li>Вынуть мороженое из формочки на тарелку (поддеть лезвием ножа и перевернуть). Поставить тарелку в морозилку.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7292.Blog_-150x150.png\"/><br /></li><li>Очень холодные сливки взбить с сахаром в нежную пену. Осторожно, если взбивать слишком долго, может получиться масло!\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7290.Blog_-150x150.png\"/><br /></li><li>Украсить мороженое взбитыми сливками, тертым шоколадом и ягодами. Подать на стол, пока не растаяло. Приятного вечера! ;)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7312-3.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24933",
+      "sourceTaxonomyId": "24933",
+      "name": "шоколадного мороженого",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24934",
+      "sourceTaxonomyId": "24934",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24935",
+      "sourceTaxonomyId": "24935",
+      "name": "терого шоколада",
+      "slug": "%d1%82%d0%b5%d1%80%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24936",
+      "sourceTaxonomyId": "24936",
+      "name": "красных ягод (черника, ежевика, черная смородина, малина и т.п.)",
+      "slug": "%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d1%8b%d1%85-%d1%8f%d0%b3%d0%be%d0%b4-%d1%87%d0%b5%d1%80%d0%bd%d0%b8%d0%ba%d0%b0-%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0-%d1%87%d0%b5%d1%80%d0%bd%d0%b0%d1%8f-%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3500",
+      "sourceTaxonomyId": "3500",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4500",
+      "sourceTaxonomyId": "4500",
+      "name": "шоколадного мороженого",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6236",
+      "sourceTaxonomyId": "6236",
+      "name": "красных ягод (черника, ежевика, черная смородина, малина и т.п.)",
+      "slug": "%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d1%8b%d1%85-%d1%8f%d0%b3%d0%be%d0%b4-%d1%87%d0%b5%d1%80%d0%bd%d0%b8%d0%ba%d0%b0-%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0-%d1%87%d0%b5%d1%80%d0%bd%d0%b0%d1%8f-%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12291",
+      "sourceTaxonomyId": "12291",
+      "name": "терого шоколада",
+      "slug": "%d1%82%d0%b5%d1%80%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2405",
+      "sourceTaxonomyId": "2405",
+      "name": "день святого Валентина",
+      "slug": "%d0%b4%d0%b5%d0%bd%d1%8c-%d1%81%d0%b2%d1%8f%d1%82%d0%be%d0%b3%d0%be-%d0%b2%d0%b0%d0%bb%d0%b5%d0%bd%d1%82%d0%b8%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2448",
+      "sourceTaxonomyId": "2448",
+      "name": "очень легко",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d0%bb%d0%b5%d0%b3%d0%ba%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2522",
+      "sourceTaxonomyId": "2522",
+      "name": "без выпечки",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b2%d1%8b%d0%bf%d0%b5%d1%87%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2930",
+      "sourceTaxonomyId": "2930",
+      "name": "ужин для любимого",
+      "slug": "%d1%83%d0%b6%d0%b8%d0%bd-%d0%b4%d0%bb%d1%8f-%d0%bb%d1%8e%d0%b1%d0%b8%d0%bc%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4474",
+      "sourceTaxonomyId": "4474",
+      "name": "щербет",
+      "slug": "%d1%89%d0%b5%d1%80%d0%b1%d0%b5%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4508",
+      "sourceTaxonomyId": "4508",
+      "name": "сорбет",
+      "slug": "%d1%81%d0%be%d1%80%d0%b1%d0%b5%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26620",
+      "sourceTaxonomyId": "26620",
+      "name": "14",
+      "slug": "14"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 порции",
+      "value": 2,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:15098",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 г шоколадного мороженого (или любого другого мороженого)",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "шоколадного мороженого",
+            "notes": "(или любого другого мороженого)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "50 мл жирных сливок (35%) очень холодных",
+            "quantity": {
+              "raw": "50 мл",
+              "value": 50,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "жирных сливок (35%)",
+            "notes": "очень холодных"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 ч.л. сахара",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Немного терого шоколада",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "терого шоколада",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Несколько красных ягод (черника, ежевика, черная смородина, малина и т.п.)",
+            "quantity": {
+              "raw": "Несколько",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "красных ягод (черника, ежевика, черная смородина, малина и т.п.)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Достать мороженое из морозилки и дать ему постоять минут 5 при комнатной температуре. Плотно наполнить формочки (в виде сердечек) мороженым. Накрыть пищевой пленкой и убрать в морозилку примерно на 45 минут.",
+            "mediaId": "wordpress-attachment:15093"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Опустить формочку в горячую воду на несколько секунд. (Не забудьте вытереть салфеткой формочку, чтобы капли воды не попали на тарелку, в которой десерт будет подан на стол).",
+            "mediaId": "wordpress-attachment:15094"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Вынуть мороженое из формочки на тарелку (поддеть лезвием ножа и перевернуть). Поставить тарелку в морозилку.",
+            "mediaId": "wordpress-attachment:15096"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Очень холодные сливки взбить с сахаром в нежную пену. Осторожно, если взбивать слишком долго, может получиться масло!",
+            "mediaId": "wordpress-attachment:15095"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Украсить мороженое взбитыми сливками, тертым шоколадом и ягодами. Подать на стол, пока не растаяло. Приятного вечера! ;)",
+            "mediaId": "wordpress-attachment:15097"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15098",
+      "sourceId": "15098",
+      "path": "/recipes/media/wordpress/15098.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15093",
+      "sourceId": "15093",
+      "path": "/recipes/media/wordpress/15093.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15094",
+      "sourceId": "15094",
+      "path": "/recipes/media/wordpress/15094.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15096",
+      "sourceId": "15096",
+      "path": "/recipes/media/wordpress/15096.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15095",
+      "sourceId": "15095",
+      "path": "/recipes/media/wordpress/15095.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15097",
+      "sourceId": "15097",
+      "path": "/recipes/media/wordpress/15097.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

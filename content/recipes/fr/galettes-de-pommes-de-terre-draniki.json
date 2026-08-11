@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21773",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:5254",
+  "slug": "galettes-de-pommes-de-terre-draniki",
+  "source": {
+    "system": "wordpress",
+    "postId": "21773",
+    "recipeId": "21773",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-galettes-de-pommes-de-terre-draniki",
+    "createdAt": "2018-04-11T03:54:09+00:00",
+    "modifiedAt": "2022-07-30T18:56:02+00:00",
+    "editorialPostId": "10998",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "galettes-de-pommes-de-terre-draniki",
+    "editorialCreatedAt": "2018-04-11T03:54:09+00:00",
+    "editorialModifiedAt": "2022-07-30T18:56:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Galettes de pommes de terre (Draniki)",
+  "description": "Dans cette recette, vous pouvez remplacer le kefir par un mélange avec 2 cuillères à soupe de crème fraîche et 1 cuillère à soupe de lait.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les galettes de pommes de terre (Draniki) sont des pancakes de pommes de terre très populaires en Russie, Biélorussie, Ukraine, Lituanie, Pologne… Les pommes de terre crues sont râpées et cuites à la poêle dans l’huile végétale. Il existe de nombreuses recettes mais celle-ci est ma préférée, je la tiens de ma maman. À savourer chaud avec un peu de crème fraîche.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21773,\"template\":\"chic-template-french\",\"updated\":1659207295220} -->\n<!--WPRM Recipe 21773-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Galettes de pommes de terre (Draniki)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180530_230540.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tDans cette recette, vous pouvez remplacer le kefir par un mélange avec 2 cuillères à soupe de crème fraîche et 1 cuillère à soupe de lait.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 pommes de terre moyennes (épluchées)</li><li>50 g de farine</li><li>50 g de kefir</li><li>1/2  cuillère à café de sel</li><li>1/2 cuillère à café de poivre moulu</li><li>2 œufs</li><li>1/2 cuillère à café de bicarbonate de soude alimentaire</li><li>d'huile d'olive (pour la cuisson)</li><li>Un peu de crème fraîche épaisse ((facultatif))</li><li>Un peu d'aneth (ciboulette, persil, ou d'oignon vert) ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Râper les pommes de terre sur une grosse grille. Presser les pommes de terre râpées pour enlever le plus de liquide possible.</li><li>Dans un grand saladier, mélanger les pommes de terre, les oeufs, le kefir, le bicarbonate de soude, le sel, le poivre et la farine.</li><li>Dans une poêle, faire chauffer  l'huile. À l'aide d'une cuillère à soupe, verser un peu de pâte de pommes de terre sur la poêle pour former des galettes de 7 à 10 cm de diamètre. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180530_230802.Blog_-150x150.png\"/><br /></li><li>Faire cuire sur le feu moyen des deux côtés jusqu’à ce qu'elles soient bien dorées de chaque côté.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/received_10212442291274716.Blog_-150x150.png\"/><br /></li><li>Servir les galettes bien chaudes avec la crème fraîche épaisse et les herbes.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24471",
+      "sourceTaxonomyId": "24471",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24506",
+      "sourceTaxonomyId": "24506",
+      "name": "pommes de terre moyennes",
+      "slug": "pommes-de-terre-moyennes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24507",
+      "sourceTaxonomyId": "24507",
+      "name": "de kefir",
+      "slug": "de-kefir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24508",
+      "sourceTaxonomyId": "24508",
+      "name": "de poivre moulu",
+      "slug": "de-poivre-moulu"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24509",
+      "sourceTaxonomyId": "24509",
+      "name": "de bicarbonate de soude alimentaire",
+      "slug": "de-bicarbonate-de-soude-alimentaire"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24510",
+      "sourceTaxonomyId": "24510",
+      "name": "d'aneth (ciboulette, persil, ou d'oignon vert)",
+      "slug": "daneth-ciboulette-persil-ou-doignon-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "605",
+      "sourceTaxonomyId": "605",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "942",
+      "sourceTaxonomyId": "942",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2633",
+      "sourceTaxonomyId": "2633",
+      "name": "d'aneth (ciboulette, persil, ou d'oignon vert)",
+      "slug": "daneth-ciboulette-persil-ou-doignon-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3292",
+      "sourceTaxonomyId": "3292",
+      "name": "de poivre moulu",
+      "slug": "de-poivre-moulu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5588",
+      "sourceTaxonomyId": "5588",
+      "name": "de kefir",
+      "slug": "de-kefir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5590",
+      "sourceTaxonomyId": "5590",
+      "name": "de bicarbonate de soude alimentaire",
+      "slug": "de-bicarbonate-de-soude-alimentaire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5600",
+      "sourceTaxonomyId": "5600",
+      "name": "pommes de terre moyennes",
+      "slug": "pommes-de-terre-moyennes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1206",
+      "sourceTaxonomyId": "1206",
+      "name": "plat russe",
+      "slug": "plat-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5566",
+      "sourceTaxonomyId": "5566",
+      "name": "galette russe de pommes de terre",
+      "slug": "galette-russe-de-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5570",
+      "sourceTaxonomyId": "5570",
+      "name": "pancake",
+      "slug": "pancake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5574",
+      "sourceTaxonomyId": "5574",
+      "name": "ukrainien",
+      "slug": "ukrainien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5576",
+      "sourceTaxonomyId": "5576",
+      "name": "slave",
+      "slug": "slave"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5578",
+      "sourceTaxonomyId": "5578",
+      "name": "recette familiale",
+      "slug": "recette-familiale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5580",
+      "sourceTaxonomyId": "5580",
+      "name": "deruny",
+      "slug": "deruny"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5582",
+      "sourceTaxonomyId": "5582",
+      "name": "a la poele",
+      "slug": "a-la-poele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5584",
+      "sourceTaxonomyId": "5584",
+      "name": "draniki",
+      "slug": "draniki-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6824",
+      "sourceTaxonomyId": "6824",
+      "name": "les enfants adorent",
+      "slug": "les-enfants-adorent"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7042",
+      "sourceTaxonomyId": "7042",
+      "name": "tres populaire en Russie",
+      "slug": "tres-populaire-en-russie"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10882",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 pommes de terre moyennes épluchées",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pommes de terre moyennes",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "50 g de farine",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g de kefir",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de kefir",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 cuillère à café de sel",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 cuillère à café de poivre moulu",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de poivre moulu",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 œufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/2 cuillère à café de bicarbonate de soude alimentaire",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de bicarbonate de soude alimentaire",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "d'huile d'olive pour la cuisson",
+            "quantity": null,
+            "name": "d'huile d'olive",
+            "notes": "pour la cuisson"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Un peu de crème fraîche épaisse (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de crème fraîche épaisse",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Un peu d'aneth (ciboulette, persil, ou d'oignon vert) (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'aneth (ciboulette, persil, ou d'oignon vert)",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Râper les pommes de terre sur une grosse grille. Presser les pommes de terre râpées pour enlever le plus de liquide possible.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un grand saladier, mélanger les pommes de terre, les oeufs, le kefir, le bicarbonate de soude, le sel, le poivre et la farine.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans une poêle, faire chauffer l'huile. À l'aide d'une cuillère à soupe, verser un peu de pâte de pommes de terre sur la poêle pour former des galettes de 7 à 10 cm de diamètre.",
+            "mediaId": "wordpress-attachment:10886"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire cuire sur le feu moyen des deux côtés jusqu’à ce qu'elles soient bien dorées de chaque côté.",
+            "mediaId": "wordpress-attachment:10887"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Servir les galettes bien chaudes avec la crème fraîche épaisse et les herbes.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10882",
+      "sourceId": "10882",
+      "path": "/recipes/media/wordpress/10882.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10886",
+      "sourceId": "10886",
+      "path": "/recipes/media/wordpress/10886.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10887",
+      "sourceId": "10887",
+      "path": "/recipes/media/wordpress/10887.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

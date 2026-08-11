@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21524",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:15787",
+  "slug": "avocado-and-mango-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "21524",
+    "recipeId": "21524",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-kale-salad-with-avocado-and-mango",
+    "createdAt": "2018-06-08T06:20:00+00:00",
+    "modifiedAt": "2020-12-30T00:32:04+00:00",
+    "editorialPostId": "17097",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "avocado-and-mango-salad",
+    "editorialCreatedAt": "2018-06-08T06:20:00+00:00",
+    "editorialModifiedAt": "2020-12-30T00:31:47+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Kale Salad with Avocado and Mango",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>I am so excited that warmer weather is finally here. Now is the best time   for healthy greens and fresh juicy mango. There is just not one single thing I don't like about this salad. Trust me this is a <a href=\"https://mycafegourmand.com/recipes/salads/\">salad </a>you want to try.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21524,\"template\":\"chic-template-english\",\"updated\":1609288136692} -->\n<!--WPRM Recipe 21524-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Kale Salad with Avocado and Mango</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_164854.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 cups  kale (finely chopped )</li><li>1 ripe avocado</li><li>1 large mango</li><li>1/2 red onion</li><li>1/2 cup  cilantro</li><li>5 tsp mandarin juice (freshly squeezed)</li><li>1 tsp honey</li><li>8 tsp olive oil</li><li>1 tsp  Dijon mustard</li><li>Salt and freshly ground black pepper (to taste)</li><li>1 Tbsp grated parmesan cheese ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Wash all the ingredients.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_154946.Blog_-150x150.png\"/><br /></li><li>In a large bowl, add the kale, 2 tsp of olive oil and a pinch of salt. Massage until the kale starts soften(it will darken in color). Set it aside.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_163530.Blog_-150x150.png\"/><br /></li><li> Meanwhile peel and dice mango into 1/2\" cubes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_161149.Blog_-150x150.png\"/><br /></li><li>Cut onion into half-moon slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/61163496_2332340033710698_8219271436817137664_n.Blog_-150x150.png\"/><br /></li><li>Slice the avocado while it's in its shell and gently scoop the slices with a spoon.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190601_141200.Blog_-150x150.png\"/><br /></li><li>Finely chop the cilantro.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190602_141005.Blog_-150x150.png\"/><br /></li><li>Squeeze juicy mandarin into a small bowl. Add honey, Dijon mustard, olive oil, salt and freshly ground black pepper. Whisk together.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_160233.Blog_-1-150x150.png\"/><br /></li><li>Mix everything together, top with grated parmesan cheese and drizzle with dressing.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_164341.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24166",
+      "sourceTaxonomyId": "24166",
+      "name": "cilantro",
+      "slug": "cilantro"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24253",
+      "sourceTaxonomyId": "24253",
+      "name": "avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24350",
+      "sourceTaxonomyId": "24350",
+      "name": "kale",
+      "slug": "kale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24351",
+      "sourceTaxonomyId": "24351",
+      "name": "mango",
+      "slug": "mango"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24352",
+      "sourceTaxonomyId": "24352",
+      "name": "mandarin juice",
+      "slug": "mandarin-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24353",
+      "sourceTaxonomyId": "24353",
+      "name": "honey",
+      "slug": "honey"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24354",
+      "sourceTaxonomyId": "24354",
+      "name": "Dijon mustard",
+      "slug": "dijon-mustard"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24355",
+      "sourceTaxonomyId": "24355",
+      "name": "grated parmesan cheese",
+      "slug": "grated-parmesan-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2052",
+      "sourceTaxonomyId": "2052",
+      "name": "avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2056",
+      "sourceTaxonomyId": "2056",
+      "name": "cilantro",
+      "slug": "cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15691",
+      "sourceTaxonomyId": "15691",
+      "name": "kale",
+      "slug": "kale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15693",
+      "sourceTaxonomyId": "15693",
+      "name": "mango",
+      "slug": "mango"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15695",
+      "sourceTaxonomyId": "15695",
+      "name": "mandarin juice",
+      "slug": "mandarin-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15697",
+      "sourceTaxonomyId": "15697",
+      "name": "honey",
+      "slug": "honey"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15699",
+      "sourceTaxonomyId": "15699",
+      "name": "grated parmesan cheese",
+      "slug": "grated-parmesan-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16343",
+      "sourceTaxonomyId": "16343",
+      "name": "Dijon mustard",
+      "slug": "dijon-mustard"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2060",
+      "sourceTaxonomyId": "2060",
+      "name": "Avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4798",
+      "sourceTaxonomyId": "4798",
+      "name": "summer salad",
+      "slug": "summer-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4800",
+      "sourceTaxonomyId": "4800",
+      "name": "healthy salad",
+      "slug": "healthy-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7633",
+      "sourceTaxonomyId": "7633",
+      "name": "cilantro",
+      "slug": "cilantro"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25293",
+      "sourceTaxonomyId": "25293",
+      "name": "Kale Salad with Avocado and Mango",
+      "slug": "kale-salad-with-avocado-and-mango"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25294",
+      "sourceTaxonomyId": "25294",
+      "name": "Kale",
+      "slug": "kale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25295",
+      "sourceTaxonomyId": "25295",
+      "name": "Kale Salad",
+      "slug": "kale-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25296",
+      "sourceTaxonomyId": "25296",
+      "name": "Mango",
+      "slug": "mango"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17295",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 cups kale finely chopped",
+            "quantity": {
+              "raw": "2 cups",
+              "value": 2,
+              "unit": "cups",
+              "scalable": true
+            },
+            "name": "kale",
+            "notes": "finely chopped"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 ripe avocado",
+            "quantity": {
+              "raw": "1 ripe",
+              "value": 1,
+              "unit": "ripe",
+              "scalable": true
+            },
+            "name": "avocado",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 large mango",
+            "quantity": {
+              "raw": "1 large",
+              "value": 1,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "mango",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 red onion",
+            "quantity": {
+              "raw": "1/2 red",
+              "value": 0.5,
+              "unit": "red",
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 cup cilantro",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "cilantro",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "5 tsp mandarin juice freshly squeezed",
+            "quantity": {
+              "raw": "5 tsp",
+              "value": 5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "mandarin juice",
+            "notes": "freshly squeezed"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 tsp honey",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "honey",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "8 tsp olive oil",
+            "quantity": {
+              "raw": "8 tsp",
+              "value": 8,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 tsp Dijon mustard",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "Dijon mustard",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "1 Tbsp grated parmesan cheese (optional)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "grated parmesan cheese",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Wash all the ingredients.",
+            "mediaId": "wordpress-attachment:17098"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a large bowl, add the kale, 2 tsp of olive oil and a pinch of salt. Massage until the kale starts soften(it will darken in color). Set it aside.",
+            "mediaId": "wordpress-attachment:17099"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Meanwhile peel and dice mango into 1/2\" cubes.",
+            "mediaId": "wordpress-attachment:17100"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Cut onion into half-moon slices.",
+            "mediaId": "wordpress-attachment:17187"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Slice the avocado while it's in its shell and gently scoop the slices with a spoon.",
+            "mediaId": "wordpress-attachment:17395"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Finely chop the cilantro.",
+            "mediaId": "wordpress-attachment:17396"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Squeeze juicy mandarin into a small bowl. Add honey, Dijon mustard, olive oil, salt and freshly ground black pepper. Whisk together.",
+            "mediaId": "wordpress-attachment:17104"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Mix everything together, top with grated parmesan cheese and drizzle with dressing.",
+            "mediaId": "wordpress-attachment:17103"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17295",
+      "sourceId": "17295",
+      "path": "/recipes/media/wordpress/17295.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17098",
+      "sourceId": "17098",
+      "path": "/recipes/media/wordpress/17098.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17099",
+      "sourceId": "17099",
+      "path": "/recipes/media/wordpress/17099.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17100",
+      "sourceId": "17100",
+      "path": "/recipes/media/wordpress/17100.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17187",
+      "sourceId": "17187",
+      "path": "/recipes/media/wordpress/17187.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17395",
+      "sourceId": "17395",
+      "path": "/recipes/media/wordpress/17395.png",
+      "alt": null,
+      "width": 591,
+      "height": 787
+    },
+    {
+      "id": "wordpress-attachment:17396",
+      "sourceId": "17396",
+      "path": "/recipes/media/wordpress/17396.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17104",
+      "sourceId": "17104",
+      "path": "/recipes/media/wordpress/17104.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:17103",
+      "sourceId": "17103",
+      "path": "/recipes/media/wordpress/17103.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

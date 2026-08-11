@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22488",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:4881",
+  "slug": "птичье-молоко-в-стаканчиках",
+  "source": {
+    "system": "wordpress",
+    "postId": "22488",
+    "recipeId": "22488",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b6%d0%b5%d0%bb%d0%b5-%d0%bf%d1%82%d0%b8%d1%87%d1%8c%d0%b5-%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%be-%d0%b2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba%d0%b0%d1%85",
+    "createdAt": "2019-12-21T21:28:00+00:00",
+    "modifiedAt": "2023-05-28T18:31:38+00:00",
+    "editorialPostId": "10343",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bf%d1%82%d0%b8%d1%87%d1%8c%d0%b5-%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%be-%d0%b2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba%d0%b0%d1%85",
+    "editorialCreatedAt": "2019-12-21T21:28:00+00:00",
+    "editorialModifiedAt": "2023-05-28T18:31:25+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Желе Птичье молоко в стаканчиках",
+  "description": "Десерт можно приготовить в одной большой форме, дать застыть и порезать кубиками.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Под тоненьким слоем шоколадного желе прячется нежнейший ванильный десерт - птичье молоко. Мой любимый вариант: на смеси из молока и жирных сливок. Именно этот рецепт я готовлю чаще всего, по всеобщему одобрению моих подруг. ;) Сервировка в индивидуальных прозрачных стаканчиках или креманках придает десерту элегантный и праздничный вид.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22488,\"template\":\"chic-template-russian\",\"updated\":1634614986491} -->\n<!--WPRM Recipe 22488-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Желе Птичье молоко в стаканчиках</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0025.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tДесерт можно приготовить в одной большой форме, дать застыть и порезать кубиками.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Ванильное желе</h4><ul><li>500 мл молока</li><li>500 мл жирных сливок</li><li>8 ст.л. сахара</li><li>1 ст.л. жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)</li><li>26 г желатина</li><li>1/2 стакана холодной воды</li></ul><h4>Шоколадное желе</h4><ul><li>60 г молока</li><li>1 ст.л. несладкого какао-порошка</li><li>1 ст.л. сахара</li><li>4 г желатина</li><li>3 ст.л. холодной воды</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Ванильное желе</h4><ol><li>В кастрюле смешать молоко, сливки, сахар и ваниль. Поставить на огонь и нагревать, постоянно помешивая, до полного растворения сахара. Молоко должно стать горячим, но не кипеть. Снять кастрюлю с огня.</li><li>Залить желатин холодной водой и дать постоять несколько минут.</li><li>Добавить разбухший желатин в молочную смесь и хорошо перемешать. Дать постоять 5 минут, затем процедить через сито.</li><li>Разлить по стаканчикам и поставить в холодильник на 2-3 часа.</li></ol><h4>Шоколадное желе</h4><ol><li>В маленькой кастрюльке смешать молоко, какао и сахар. Поставить на огонь и подогреть, постоянно помешивая. </li><li>Залить желатин холодной водой и дать постоять несколько минут.</li><li>Когда молоко достаточно нагрелось, снять кастрюлю с огня и добавить в нее набухший желатин. Хорошо перемешать.</li><li>Процедить и охладить до комнатной температуры.</li><li>Разлить шиколадное молоко по стаканчикам на уже застывший ванильно-молочный слой желе.</li><li>Снова поставить в холодильник на 2-3 часа.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0015.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+    "excerpt": "Птичье молоко в стаканчиках"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23959",
+      "sourceTaxonomyId": "23959",
+      "name": "жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+      "slug": "%d0%b6%d0%b8%d0%b4%d0%ba%d0%be%d0%b9-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8-1-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b8%d0%ba-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24788",
+      "sourceTaxonomyId": "24788",
+      "name": "молока",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24939",
+      "sourceTaxonomyId": "24939",
+      "name": "желатина",
+      "slug": "%d0%b6%d0%b5%d0%bb%d0%b0%d1%82%d0%b8%d0%bd%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24951",
+      "sourceTaxonomyId": "24951",
+      "name": "жирных сливок",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24952",
+      "sourceTaxonomyId": "24952",
+      "name": "холодной воды",
+      "slug": "%d1%85%d0%be%d0%bb%d0%be%d0%b4%d0%bd%d0%be%d0%b9-%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24953",
+      "sourceTaxonomyId": "24953",
+      "name": "несладкого какао-порошка",
+      "slug": "%d0%bd%d0%b5%d1%81%d0%bb%d0%b0%d0%b4%d0%ba%d0%be%d0%b3%d0%be-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be-%d0%bf%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25457",
+      "sourceTaxonomyId": "25457",
+      "name": "мл",
+      "slug": "%d0%bc%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25495",
+      "sourceTaxonomyId": "25495",
+      "name": "стакана",
+      "slug": "%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1998",
+      "sourceTaxonomyId": "1998",
+      "name": "жирных сливок",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2825",
+      "sourceTaxonomyId": "2825",
+      "name": "холодной воды",
+      "slug": "%d1%85%d0%be%d0%bb%d0%be%d0%b4%d0%bd%d0%be%d0%b9-%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2924",
+      "sourceTaxonomyId": "2924",
+      "name": "молока",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5070",
+      "sourceTaxonomyId": "5070",
+      "name": "желатина",
+      "slug": "%d0%b6%d0%b5%d0%bb%d0%b0%d1%82%d0%b8%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5072",
+      "sourceTaxonomyId": "5072",
+      "name": "несладкого какао-порошка",
+      "slug": "%d0%bd%d0%b5%d1%81%d0%bb%d0%b0%d0%b4%d0%ba%d0%be%d0%b3%d0%be-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be-%d0%bf%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6232",
+      "sourceTaxonomyId": "6232",
+      "name": "жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+      "slug": "%d0%b6%d0%b8%d0%b4%d0%ba%d0%be%d0%b9-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8-1-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b8%d0%ba-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1498",
+      "sourceTaxonomyId": "1498",
+      "name": "сливки",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2516",
+      "sourceTaxonomyId": "2516",
+      "name": "желатин",
+      "slug": "%d0%b6%d0%b5%d0%bb%d0%b0%d1%82%d0%b8%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2922",
+      "sourceTaxonomyId": "2922",
+      "name": "молоко",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3482",
+      "sourceTaxonomyId": "3482",
+      "name": "без яиц",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4669",
+      "sourceTaxonomyId": "4669",
+      "name": "desert v stakane",
+      "slug": "desert-v-stakane"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5052",
+      "sourceTaxonomyId": "5052",
+      "name": "желе",
+      "slug": "%d0%b6%d0%b5%d0%bb%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5054",
+      "sourceTaxonomyId": "5054",
+      "name": "птичье молоко",
+      "slug": "%d0%bf%d1%82%d0%b8%d1%87%d1%8c%d0%b5-%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5056",
+      "sourceTaxonomyId": "5056",
+      "name": "десерт в стаканчиках",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba%d0%b0%d1%85"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5058",
+      "sourceTaxonomyId": "5058",
+      "name": "молочные продукты",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b5-%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5060",
+      "sourceTaxonomyId": "5060",
+      "name": "какао",
+      "slug": "%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5062",
+      "sourceTaxonomyId": "5062",
+      "name": "2 слоя желе",
+      "slug": "2-%d1%81%d0%bb%d0%be%d1%8f-%d0%b6%d0%b5%d0%bb%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5074",
+      "sourceTaxonomyId": "5074",
+      "name": "zele",
+      "slug": "zele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5076",
+      "sourceTaxonomyId": "5076",
+      "name": "vanilnyj muss",
+      "slug": "vanilnyj-muss"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5084",
+      "sourceTaxonomyId": "5084",
+      "name": "ptichie moloko",
+      "slug": "ptichie-moloko-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "12 небольших стаканчиков",
+      "value": 12,
+      "unit": "небольших стаканчиков",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "320",
+        "minutes": 320
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "300",
+          "minutes": 300
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:10065",
+    "ingredientGroups": [
+      {
+        "name": "Ванильное желе",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "500 мл молока",
+            "quantity": {
+              "raw": "500 мл",
+              "value": 500,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "молока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "500 мл жирных сливок",
+            "quantity": {
+              "raw": "500 мл",
+              "value": 500,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "жирных сливок",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "8 ст.л. сахара",
+            "quantity": {
+              "raw": "8 ст.л.",
+              "value": 8,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 ст.л. жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "26 г желатина",
+            "quantity": {
+              "raw": "26 г",
+              "value": 26,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "желатина",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 стакана холодной воды",
+            "quantity": {
+              "raw": "1/2 стакана",
+              "value": 0.5,
+              "unit": "стакана",
+              "scalable": true
+            },
+            "name": "холодной воды",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Шоколадное желе",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "60 г молока",
+            "quantity": {
+              "raw": "60 г",
+              "value": 60,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "молока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 ст.л. несладкого какао-порошка",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "несладкого какао-порошка",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 ст.л. сахара",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4 г желатина",
+            "quantity": {
+              "raw": "4 г",
+              "value": 4,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "желатина",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 ст.л. холодной воды",
+            "quantity": {
+              "raw": "3 ст.л.",
+              "value": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "холодной воды",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Ванильное желе",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В кастрюле смешать молоко, сливки, сахар и ваниль. Поставить на огонь и нагревать, постоянно помешивая, до полного растворения сахара. Молоко должно стать горячим, но не кипеть. Снять кастрюлю с огня.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Залить желатин холодной водой и дать постоять несколько минут.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Добавить разбухший желатин в молочную смесь и хорошо перемешать. Дать постоять 5 минут, затем процедить через сито.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Разлить по стаканчикам и поставить в холодильник на 2-3 часа.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Шоколадное желе",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В маленькой кастрюльке смешать молоко, какао и сахар. Поставить на огонь и подогреть, постоянно помешивая.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Залить желатин холодной водой и дать постоять несколько минут.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Когда молоко достаточно нагрелось, снять кастрюлю с огня и добавить в нее набухший желатин. Хорошо перемешать.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Процедить и охладить до комнатной температуры.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Разлить шиколадное молоко по стаканчикам на уже застывший ванильно-молочный слой желе.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Снова поставить в холодильник на 2-3 часа.",
+            "mediaId": "wordpress-attachment:10064"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10065",
+      "sourceId": "10065",
+      "path": "/recipes/media/wordpress/10065.png",
+      "alt": "Птичье молоко в стаканчиках",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10064",
+      "sourceId": "10064",
+      "path": "/recipes/media/wordpress/10064.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

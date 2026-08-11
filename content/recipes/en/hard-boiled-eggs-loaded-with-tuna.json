@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21619",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4365",
+  "slug": "hard-boiled-eggs-loaded-with-tuna",
+  "source": {
+    "system": "wordpress",
+    "postId": "21619",
+    "recipeId": "21619",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-hard-boiled-eggs-loaded-with-tuna",
+    "createdAt": "2018-05-04T03:21:40+00:00",
+    "modifiedAt": "2022-07-30T19:05:10+00:00",
+    "editorialPostId": "9193",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "hard-boiled-eggs-loaded-with-tuna",
+    "editorialCreatedAt": "2018-05-04T03:21:40+00:00",
+    "editorialModifiedAt": "2022-07-30T19:05:07+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Hard-Boiled Eggs Loaded With Tuna",
+  "description": "To make the filling more smooth and fluffy I use not just egg yolks, but I also add one egg white.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Very simple and quick recipe to make, from the ingredients that you'll always find in your pantry. Eggs, tuna, pickles and mayonnaise. Perfect appetizer for any event or pre-dinner snack. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21619,\"template\":\"chic-template-english\",\"updated\":1659207901872} -->\n<!--WPRM Recipe 21619-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Hard-Boiled Eggs Loaded With Tuna</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9165.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tTo make the filling more smooth and fluffy I use not just egg yolks, but I also add one egg white. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>7 hard boiled eggs</li><li>1 can (180 g) tuna in its own juice</li><li>1-3 medium pickles</li><li>4-5 Tbsp mayonnaise</li><li>salt and pepper (to taste)</li><li>1 pinch paprika</li><li>fresh herbs</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Place raw eggs in a saucepan and cover with at least 2-3 inches of cold water. Place the saucepan over high heat until it reaches a boil. Boil for 10 minutes on medium heat. Remove from hot water and transfer them into ice cold water for 5-10 minutes.</li><li>Grate 2 pickles, using a microplane cheese grater. Cut one pickle into thin slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9499.Blog_-150x150.png\"/><br /></li><li>Carefully peel the eggs and cut them in half lengthwise. Remove yolk from 6 eggs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9152.Blog_-150x150.png\"/><br /></li><li>Mash 6 egg yolks and one whole egg with fork until crumbly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9151.Blog_-150x150.png\"/><br /></li><li>Drain and mash the tuna, combine with mashed eggs. Add shredded pickles, mayonnaise, salt and pepper and mix until incorporated.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9153.Blog_-150x150.png\"/><br /></li><li>Spoon the mixture into the egg whites. Garnish with paprika, fresh herbs and sliced pickle.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9156.Blog_-150x150.png\"/><br /></li><li>If there is some extra filling left, serve it on the fresh bread or crackers.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9169.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24133",
+      "sourceTaxonomyId": "24133",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24150",
+      "sourceTaxonomyId": "24150",
+      "name": "paprika",
+      "slug": "paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24219",
+      "sourceTaxonomyId": "24219",
+      "name": "pickles",
+      "slug": "pickles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24250",
+      "sourceTaxonomyId": "24250",
+      "name": "hard boiled eggs",
+      "slug": "hard-boiled-eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24251",
+      "sourceTaxonomyId": "24251",
+      "name": "tuna in its own juice",
+      "slug": "tuna-in-its-own-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "288",
+      "sourceTaxonomyId": "288",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "307",
+      "sourceTaxonomyId": "307",
+      "name": "pickles",
+      "slug": "pickles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "505",
+      "sourceTaxonomyId": "505",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "515",
+      "sourceTaxonomyId": "515",
+      "name": "paprika",
+      "slug": "paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "580",
+      "sourceTaxonomyId": "580",
+      "name": "tuna in its own juice",
+      "slug": "tuna-in-its-own-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "777",
+      "sourceTaxonomyId": "777",
+      "name": "hard boiled eggs",
+      "slug": "hard-boiled-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1508",
+      "sourceTaxonomyId": "1508",
+      "name": "tuna",
+      "slug": "tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1606",
+      "sourceTaxonomyId": "1606",
+      "name": "mayonnaise",
+      "slug": "mayonnaise-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1654",
+      "sourceTaxonomyId": "1654",
+      "name": "pickles",
+      "slug": "pickles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1953",
+      "sourceTaxonomyId": "1953",
+      "name": "canned tuna",
+      "slug": "canned-tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2416",
+      "sourceTaxonomyId": "2416",
+      "name": "stuffed eggs",
+      "slug": "stuffed-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3652",
+      "sourceTaxonomyId": "3652",
+      "name": "deviled eggs",
+      "slug": "deviled-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4381",
+      "sourceTaxonomyId": "4381",
+      "name": "hard-boiled eggs",
+      "slug": "hard-boiled-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4547",
+      "sourceTaxonomyId": "4547",
+      "name": "hors d'oeuvre",
+      "slug": "hors-doeuvre"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "13",
+        "minutes": 13
+      },
+      "rest": null,
+      "total": {
+        "raw": "28",
+        "minutes": 28
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7933",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "7 hard boiled eggs",
+            "quantity": {
+              "raw": "7",
+              "value": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "hard boiled eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 can (180 g) tuna in its own juice",
+            "quantity": {
+              "raw": "1 can (180 g)",
+              "value": 1,
+              "unit": "can (180 g)",
+              "scalable": true
+            },
+            "name": "tuna in its own juice",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-3 medium pickles",
+            "quantity": {
+              "raw": "1-3 medium",
+              "min": 1,
+              "max": 3,
+              "unit": "medium",
+              "scalable": true
+            },
+            "name": "pickles",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4-5 Tbsp mayonnaise",
+            "quantity": {
+              "raw": "4-5 Tbsp",
+              "min": 4,
+              "max": 5,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 pinch paprika",
+            "quantity": {
+              "raw": "1 pinch",
+              "value": 1,
+              "unit": "pinch",
+              "scalable": true
+            },
+            "name": "paprika",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "fresh herbs",
+            "quantity": null,
+            "name": "fresh herbs",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Place raw eggs in a saucepan and cover with at least 2-3 inches of cold water. Place the saucepan over high heat until it reaches a boil. Boil for 10 minutes on medium heat. Remove from hot water and transfer them into ice cold water for 5-10 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Grate 2 pickles, using a microplane cheese grater. Cut one pickle into thin slices.",
+            "mediaId": "wordpress-attachment:7975"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Carefully peel the eggs and cut them in half lengthwise. Remove yolk from 6 eggs.",
+            "mediaId": "wordpress-attachment:7930"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mash 6 egg yolks and one whole egg with fork until crumbly.",
+            "mediaId": "wordpress-attachment:7929"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Drain and mash the tuna, combine with mashed eggs. Add shredded pickles, mayonnaise, salt and pepper and mix until incorporated.",
+            "mediaId": "wordpress-attachment:7931"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Spoon the mixture into the egg whites. Garnish with paprika, fresh herbs and sliced pickle.",
+            "mediaId": "wordpress-attachment:7934"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "If there is some extra filling left, serve it on the fresh bread or crackers.",
+            "mediaId": "wordpress-attachment:7928"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7933",
+      "sourceId": "7933",
+      "path": "/recipes/media/wordpress/7933.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7975",
+      "sourceId": "7975",
+      "path": "/recipes/media/wordpress/7975.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7930",
+      "sourceId": "7930",
+      "path": "/recipes/media/wordpress/7930.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7929",
+      "sourceId": "7929",
+      "path": "/recipes/media/wordpress/7929.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7931",
+      "sourceId": "7931",
+      "path": "/recipes/media/wordpress/7931.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7934",
+      "sourceId": "7934",
+      "path": "/recipes/media/wordpress/7934.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7928",
+      "sourceId": "7928",
+      "path": "/recipes/media/wordpress/7928.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

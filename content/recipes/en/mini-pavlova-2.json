@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22013",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:2207",
+  "slug": "mini-pavlova-2",
+  "source": {
+    "system": "wordpress",
+    "postId": "22013",
+    "recipeId": "22013",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-mini-pavlova-dessert",
+    "createdAt": "2020-01-11T06:22:45+00:00",
+    "modifiedAt": "2022-07-30T20:12:08+00:00",
+    "editorialPostId": "4258",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "mini-pavlova-2",
+    "editorialCreatedAt": "2020-01-11T06:22:45+00:00",
+    "editorialModifiedAt": "2022-07-30T20:12:05+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Mini Pavlova dessert",
+  "description": "I rarely use food coloring when baking. I like my desserts to have their original color. But if you are cooking for Valentine's Day or for a Princess party, you may add some food coloring to your dessert. This time, I used one tiny drop of red coloring to make the cream pink.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Pavlova is a dessert, named after the Russian ballerina Anna Pavlova, who toured Australia and New Zealand in 1926. It is a meringue dessert with crisp crust and soft light inside, topped with cream and fresh berries.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>You can make meringue shells ahead of time and freeze them. I usually make the cream the same day I want to serve my Mini Pavlova. And as always this dessert is a perfect mini dessert for my &nbsp;<a href=\"https://mycafegourmand.com/cafe-gourmand\">Cafe Gourmand.</a> </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22013,\"template\":\"chic-template-english\",\"updated\":1659211913266} -->\n<!--WPRM Recipe 22013-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Mini Pavlova dessert</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20171211_105816.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>I rarely use food coloring when baking. I like my desserts to have their original color. But if you are cooking for Valentine&#039;s Day or for a Princess party, you may add some food coloring to your dessert. This time, I used one tiny drop of red coloring to make the cream pink. </p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Meringue </h4><ul><li>4 egg whites ( (room temperature))</li><li>1 pinch  of salt</li><li>220 g confectioner's sugar</li></ul><h4>Cream</h4><ul><li>200 ml heavy whipping cream ( 35%) (very cold)</li><li>100 g mascarpone cheese</li><li>1,5 Tbsp sugar</li><li>1 drop red food coloring ((optional))</li><li>Fresh berries (raspberries, strawberries, blackberries, blueberries...)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Meringue</h4><ol><li>Using mixer, begin beating your egg whites and salt on a low speed, steadily increasing up to medium high. </li><li>While beating on a medium speed, slowly add the confectioner's sugar, about 1-2 Tbsp at a time. Once all the sugar is added, keep beating until the egg whites hold stiff peaks.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8595.Blog_-150x150.png\"/><br /></li><li>Preheat oven to 230 degrees F. Draw circles of approximately 4-8 cm diameter (you can use a pint glass as a guide) on each of the parchment lined sheets.</li><li>Spoon meringue into piping bag, fitted with 3/4 inch tip. Pipe meringue to cover circles on prepared baking sheet. Pipe two more rings of meringues on top of outer edge to form walls of Pavlovas.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8598.Blog_-150x150.png\"/><br /></li><li>Bake in center of oven until dry and crisp, about 1 1/2 hours. </li><li>Turn off the oven and let the meringues completely cool in the oven. Once cooled, you can top them with whipped cream and berries.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8628.Blog_-150x150.png\"/><br /></li></ol><h4>Filling</h4><ol><li>With mixer, beat together very cold heavy cream and mascarpone cheese, until whipped gradually adding sugar. Add food coloring. Don't overbeat the cream, or you will end up with butter.</li><li>Spoon cream into piping bag.\r\n</li><li>Right before serving, pipe frosting on the pavlovas and top with fresh berries. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/20180308_120148.Blog_-150x150.png\"/><br /></li><li>If you have some leftovers cream, you can pipe it into a small glass and garnish with some fresh berries.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180129_174601.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<p>Pease don't waste your egg yolks, you can always make <a href=\"https://mycafegourmand.com/recipe/vanilla-creme-brulee\">Creme brûlée</a>.</p>\n<p>&nbsp;</p>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24065",
+      "sourceTaxonomyId": "24065",
+      "name": "confectioners sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24207",
+      "sourceTaxonomyId": "24207",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24247",
+      "sourceTaxonomyId": "24247",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24282",
+      "sourceTaxonomyId": "24282",
+      "name": "mascarpone cheese",
+      "slug": "mascarpone-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24346",
+      "sourceTaxonomyId": "24346",
+      "name": "Fresh berries",
+      "slug": "fresh-berries"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24446",
+      "sourceTaxonomyId": "24446",
+      "name": "egg whites",
+      "slug": "egg-whites"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24675",
+      "sourceTaxonomyId": "24675",
+      "name": "red food coloring",
+      "slug": "red-food-coloring"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25475",
+      "sourceTaxonomyId": "25475",
+      "name": "pinch",
+      "slug": "pinch"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25476",
+      "sourceTaxonomyId": "25476",
+      "name": "drop",
+      "slug": "drop"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "722",
+      "sourceTaxonomyId": "722",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2119",
+      "sourceTaxonomyId": "2119",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "574",
+      "sourceTaxonomyId": "574",
+      "name": "mascarpone cheese",
+      "slug": "mascarpone-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2736",
+      "sourceTaxonomyId": "2736",
+      "name": "egg whites",
+      "slug": "egg-whites"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2984",
+      "sourceTaxonomyId": "2984",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2990",
+      "sourceTaxonomyId": "2990",
+      "name": "Fresh berries",
+      "slug": "fresh-berries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2996",
+      "sourceTaxonomyId": "2996",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2998",
+      "sourceTaxonomyId": "2998",
+      "name": "red food coloring",
+      "slug": "red-food-coloring"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3000",
+      "sourceTaxonomyId": "3000",
+      "name": "confectioner's sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1514",
+      "sourceTaxonomyId": "1514",
+      "name": "mascarpone",
+      "slug": "mascarpone"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2125",
+      "sourceTaxonomyId": "2125",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2201",
+      "sourceTaxonomyId": "2201",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2410",
+      "sourceTaxonomyId": "2410",
+      "name": "Valentine's Day",
+      "slug": "valentines-day"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3354",
+      "sourceTaxonomyId": "3354",
+      "name": "pavlova",
+      "slug": "pavlova"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3356",
+      "sourceTaxonomyId": "3356",
+      "name": "egg whites",
+      "slug": "egg-whites"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3358",
+      "sourceTaxonomyId": "3358",
+      "name": "food coloring",
+      "slug": "food-coloring"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3360",
+      "sourceTaxonomyId": "3360",
+      "name": "fresh berries",
+      "slug": "fresh-berries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3362",
+      "sourceTaxonomyId": "3362",
+      "name": "confectioners sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6411",
+      "sourceTaxonomyId": "6411",
+      "name": "one drop of red color",
+      "slug": "one-drop-of-red-color"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6413",
+      "sourceTaxonomyId": "6413",
+      "name": "mini pavlova",
+      "slug": "mini-pavlova"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6415",
+      "sourceTaxonomyId": "6415",
+      "name": "individual dessert",
+      "slug": "individual-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6417",
+      "sourceTaxonomyId": "6417",
+      "name": "princess party",
+      "slug": "princess-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6419",
+      "sourceTaxonomyId": "6419",
+      "name": "girls party",
+      "slug": "girls-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6421",
+      "sourceTaxonomyId": "6421",
+      "name": "meringue",
+      "slug": "meringue-en"
+    }
+  ],
+  "recipe": {
+    "notes": "Pease don't waste your egg yolks, you can always make Creme brûlée.",
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "36",
+        "minutes": 36
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:3858",
+    "ingredientGroups": [
+      {
+        "name": "Meringue",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 egg whites (room temperature)",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg whites",
+            "notes": "(room temperature)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 pinch of salt",
+            "quantity": {
+              "raw": "1 pinch",
+              "value": 1,
+              "unit": "pinch",
+              "scalable": true
+            },
+            "name": "of salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "220 g confectioner's sugar",
+            "quantity": {
+              "raw": "220 g",
+              "value": 220,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "confectioner's sugar",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Cream",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 ml heavy whipping cream ( 35%) very cold",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream ( 35%)",
+            "notes": "very cold"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g mascarpone cheese",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "mascarpone cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1,5 Tbsp sugar",
+            "quantity": {
+              "raw": "1,5 Tbsp",
+              "unit": "Tbsp",
+              "scalable": false
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 drop red food coloring (optional)",
+            "quantity": {
+              "raw": "1 drop",
+              "value": 1,
+              "unit": "drop",
+              "scalable": true
+            },
+            "name": "red food coloring",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Fresh berries raspberries, strawberries, blackberries, blueberries...",
+            "quantity": null,
+            "name": "Fresh berries",
+            "notes": "raspberries, strawberries, blackberries, blueberries..."
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Meringue",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Using mixer, begin beating your egg whites and salt on a low speed, steadily increasing up to medium high.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "While beating on a medium speed, slowly add the confectioner's sugar, about 1-2 Tbsp at a time. Once all the sugar is added, keep beating until the egg whites hold stiff peaks.",
+            "mediaId": "wordpress-attachment:6030"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Preheat oven to 230 degrees F. Draw circles of approximately 4-8 cm diameter (you can use a pint glass as a guide) on each of the parchment lined sheets.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Spoon meringue into piping bag, fitted with 3/4 inch tip. Pipe meringue to cover circles on prepared baking sheet. Pipe two more rings of meringues on top of outer edge to form walls of Pavlovas.",
+            "mediaId": "wordpress-attachment:6031"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Bake in center of oven until dry and crisp, about 1 1/2 hours.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Turn off the oven and let the meringues completely cool in the oven. Once cooled, you can top them with whipped cream and berries.",
+            "mediaId": "wordpress-attachment:6032"
+          }
+        ]
+      },
+      {
+        "name": "Filling",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "With mixer, beat together very cold heavy cream and mascarpone cheese, until whipped gradually adding sugar. Add food coloring. Don't overbeat the cream, or you will end up with butter.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Spoon cream into piping bag.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Right before serving, pipe frosting on the pavlovas and top with fresh berries.",
+            "mediaId": "wordpress-attachment:6027"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "If you have some leftovers cream, you can pipe it into a small glass and garnish with some fresh berries.",
+            "mediaId": "wordpress-attachment:3860"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:3858",
+      "sourceId": "3858",
+      "path": "/recipes/media/wordpress/3858.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:6030",
+      "sourceId": "6030",
+      "path": "/recipes/media/wordpress/6030.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6031",
+      "sourceId": "6031",
+      "path": "/recipes/media/wordpress/6031.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6032",
+      "sourceId": "6032",
+      "path": "/recipes/media/wordpress/6032.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6027",
+      "sourceId": "6027",
+      "path": "/recipes/media/wordpress/6027.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:3860",
+      "sourceId": "3860",
+      "path": "/recipes/media/wordpress/3860.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

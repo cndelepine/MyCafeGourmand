@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29183",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26229",
+  "slug": "ratatouille-2",
+  "source": {
+    "system": "wordpress",
+    "postId": "29183",
+    "recipeId": "29183",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-ratatouille-2",
+    "createdAt": "2025-01-06T01:44:52+00:00",
+    "modifiedAt": "2025-01-06T01:45:00+00:00",
+    "editorialPostId": "29182",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "ratatouille-2",
+    "editorialCreatedAt": "2025-01-06T01:44:52+00:00",
+    "editorialModifiedAt": "2025-01-06T01:44:57+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Ratatouille",
+  "description": "My version of the ratatouille that you can prepare the day before and in any season. Serve it as a main dish or side dish.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>My version of ratatouille that you can prepare in any season as a main dish or side dish.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Zucchini, eggplant and sweet peppers have different cooking times. This is why they must be cooked separately. First, brown each vegetable on its own in a pan with a drizzle of olive oil.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Then, when all the vegetables are ready, we bring them together and then let them simmer over low heat so that the flavors mix.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29183,\"template\":\"chic-template-english\",\"updated\":1736127847361} -->\n<!--WPRM Recipe 29183-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Ratatouille</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6546-2.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>My version of the ratatouille that you can prepare the day before and in any season. Serve it as a main dish or side dish.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 large onion (peeled)</li><li>4-5 cloves garlic (peeled)</li><li>1-2 eggplants</li><li>2 green zucchinis</li><li>3 tomatoes</li><li>2-3 sweet peppers ((various colors))</li><li>7-8 tablespoons olive oil</li><li>Salt and freshly ground black pepper</li><li>1/2 teaspoon herbes de Provence</li><li>3 bay leaves</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Dice the zucchinis into small cubes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6526-2.Blog_-150x150.png\"/><br /></li><li><p>Dice the eggplants into small cubes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6532-2.Blog_-150x150.png\"/><br /></li><li><p>Cut the peppers in half, remove the seeds, then dice into small cubes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6519-2.Blog_-150x150.png\"/><br /></li><li><p>Dice the onion into small cubes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_8285.Blog_-150x150.png\"/><br /></li><li><p>Mince the garlic cloves.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_7345.Blog_-150x150.png\"/><br /></li><li><p>Remove the seeds from the tomatoes and dice them into small cubes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50074670_243980343165870_1221729706777247744_n.Blog_-150x150.png\"/><br /></li><li><p>Heat a little olive oil in a skillet and sauté the onions. Add the garlic and continue cooking for a few more minutes. Season with salt and pepper. </p><p>Remove the skillet from the heat.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6525.Blog_-150x150.png\"/><br /></li><li><p>Separately, sauté the sweet peppers in a little olive oil. </p><p>Season with salt and pepper.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6524.Blog_-150x150.png\"/><br /></li><li><p>Separately, sauté the zucchinis in a little olive oil. Season with salt and pepper.</p><p>Then, in the same way, sauté the eggplants. Season with salt and pepper.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6527-2.Blog_-150x150.png\"/><br /></li><li><p>Combine all the sautéed vegetables in a large skillet. Add the diced tomatoes and gently mix. Sprinkle with Herbes de Provence and add the bay leaves. Optionally, add a few extra garlic cloves.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6534-2.Blog_-150x150.png\"/><br /></li><li><p>Taste and adjust the seasoning if needed. Cover with a lid and let it simmer over low heat for about 10 minutes to allow the flavors to meld.</p></li><li><p>Serve hot or cold, garnished with freshly chopped herbs.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6546-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, française, French</div><div class=\"wprm-fallback-recipe-meta-keyword\">french recipe, ratatouille</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "My version of the ratatouille that you can prepare the day before (and in any season). Serve it as a main dish or side dish."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26395",
+      "sourceTaxonomyId": "26395",
+      "name": "Plat Principal",
+      "slug": "plat-principal-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26440",
+      "sourceTaxonomyId": "26440",
+      "name": "française",
+      "slug": "francaise-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26750",
+      "sourceTaxonomyId": "26750",
+      "name": "Français",
+      "slug": "francais-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24266",
+      "sourceTaxonomyId": "24266",
+      "name": "Herbes de Provence",
+      "slug": "herbes-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24395",
+      "sourceTaxonomyId": "24395",
+      "name": "bay leaves",
+      "slug": "bay-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26713",
+      "sourceTaxonomyId": "26713",
+      "name": "eggplants",
+      "slug": "eggplants"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27144",
+      "sourceTaxonomyId": "27144",
+      "name": "green zucchinis",
+      "slug": "green-zucchinis"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27145",
+      "sourceTaxonomyId": "27145",
+      "name": "sweet peppers",
+      "slug": "sweet-peppers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25564",
+      "sourceTaxonomyId": "25564",
+      "name": "cloves",
+      "slug": "cloves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26201",
+      "sourceTaxonomyId": "26201",
+      "name": "large",
+      "slug": "large"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26791",
+      "sourceTaxonomyId": "26791",
+      "name": "tablespoons",
+      "slug": "tablespoons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26913",
+      "sourceTaxonomyId": "26913",
+      "name": "teaspoon",
+      "slug": "teaspoon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27146",
+      "sourceTaxonomyId": "27146",
+      "name": "ratatouille",
+      "slug": "ratatouille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27148",
+      "sourceTaxonomyId": "27148",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6312",
+      "sourceTaxonomyId": "6312",
+      "name": "ratatouille",
+      "slug": "ratatouille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "1",
+        "value": 1
+      },
+      "servingSize": null,
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "rest": null,
+      "total": {
+        "raw": "80",
+        "minutes": 80
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26793",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 large onion peeled",
+            "quantity": {
+              "raw": "1 large",
+              "value": 1,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": "peeled"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4-5 cloves garlic peeled",
+            "quantity": {
+              "raw": "4-5 cloves",
+              "min": 4,
+              "max": 5,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": "peeled"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 eggplants",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggplants",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 green zucchinis",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "green zucchinis",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 tomatoes",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2-3 sweet peppers (various colors)",
+            "quantity": {
+              "raw": "2-3",
+              "min": 2,
+              "max": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "sweet peppers",
+            "notes": "(various colors)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "7-8 tablespoons olive oil",
+            "quantity": {
+              "raw": "7-8 tablespoons",
+              "min": 7,
+              "max": 8,
+              "unit": "tablespoons",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1/2 teaspoon herbes de Provence",
+            "quantity": {
+              "raw": "1/2 teaspoon",
+              "value": 0.5,
+              "unit": "teaspoon",
+              "scalable": true
+            },
+            "name": "herbes de Provence",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "3 bay leaves",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bay leaves",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dice the zucchinis into small cubes.",
+            "mediaId": "wordpress-attachment:26787"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dice the eggplants into small cubes.",
+            "mediaId": "wordpress-attachment:26789"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cut the peppers in half, remove the seeds, then dice into small cubes.",
+            "mediaId": "wordpress-attachment:26784"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Dice the onion into small cubes.",
+            "mediaId": "wordpress-attachment:26874"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Mince the garlic cloves.",
+            "mediaId": "wordpress-attachment:26875"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Remove the seeds from the tomatoes and dice them into small cubes.",
+            "mediaId": "wordpress-attachment:14574"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Heat a little olive oil in a skillet and sauté the onions. Add the garlic and continue cooking for a few more minutes. Season with salt and pepper.\n\nRemove the skillet from the heat.",
+            "mediaId": "wordpress-attachment:26786"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Separately, sauté the sweet peppers in a little olive oil.\n\nSeason with salt and pepper.",
+            "mediaId": "wordpress-attachment:26785"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Separately, sauté the zucchinis in a little olive oil. Season with salt and pepper.\n\nThen, in the same way, sauté the eggplants. Season with salt and pepper.",
+            "mediaId": "wordpress-attachment:26788"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Combine all the sautéed vegetables in a large skillet. Add the diced tomatoes and gently mix. Sprinkle with Herbes de Provence and add the bay leaves. Optionally, add a few extra garlic cloves.",
+            "mediaId": "wordpress-attachment:26790"
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Taste and adjust the seasoning if needed. Cover with a lid and let it simmer over low heat for about 10 minutes to allow the flavors to meld.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 11,
+            "text": "Serve hot or cold, garnished with freshly chopped herbs.",
+            "mediaId": "wordpress-attachment:26792"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26793",
+      "sourceId": "26793",
+      "path": "/recipes/media/wordpress/26793.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26787",
+      "sourceId": "26787",
+      "path": "/recipes/media/wordpress/26787.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26789",
+      "sourceId": "26789",
+      "path": "/recipes/media/wordpress/26789.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26784",
+      "sourceId": "26784",
+      "path": "/recipes/media/wordpress/26784.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26874",
+      "sourceId": "26874",
+      "path": "/recipes/media/wordpress/26874.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26875",
+      "sourceId": "26875",
+      "path": "/recipes/media/wordpress/26875.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14574",
+      "sourceId": "14574",
+      "path": "/recipes/media/wordpress/14574.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26786",
+      "sourceId": "26786",
+      "path": "/recipes/media/wordpress/26786.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26785",
+      "sourceId": "26785",
+      "path": "/recipes/media/wordpress/26785.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26788",
+      "sourceId": "26788",
+      "path": "/recipes/media/wordpress/26788.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26790",
+      "sourceId": "26790",
+      "path": "/recipes/media/wordpress/26790.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26792",
+      "sourceId": "26792",
+      "path": "/recipes/media/wordpress/26792.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

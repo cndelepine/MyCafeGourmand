@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21647",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:858",
+  "slug": "blackberries-whipped-cream",
+  "source": {
+    "system": "wordpress",
+    "postId": "21647",
+    "recipeId": "21647",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-fresh-whipped-cream-with-blackberries",
+    "createdAt": "2018-03-29T01:10:59+00:00",
+    "modifiedAt": "2022-07-04T20:58:24+00:00",
+    "editorialPostId": "2344",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "blackberries-whipped-cream",
+    "editorialCreatedAt": "2018-03-29T01:10:59+00:00",
+    "editorialModifiedAt": "2022-07-04T20:58:21+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Fresh whipped cream with blackberries",
+  "description": "The proportion for this recipe is for the mini glasses. If you are using regular wine glasses you'll get 2-3 servings.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Treat yourself with this mini dessert that is perfect for any occasion. It takes minimum time to make and looks fabulous. Fruits can be fresh or frozen, don't worry : it will taste the same. This fresh whipped cream with blackberries will be perfect with <a href=\"https://mycafegourmand.com/cafe-gourmand\">a cafe gourmand</a>!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21647,\"template\":\"chic-template-english\",\"updated\":1656968293522} -->\n<!--WPRM Recipe 21647-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Fresh whipped cream with blackberries</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2433-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThe proportion for this recipe is for the mini glasses.  If you are using regular wine glasses you'll get 2-3 servings.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 cup blackberries</li><li>1 cup heavy whipping cream (very cold)</li><li>2  tsp granulated sugar</li><li>1/4 tsp cocoa powder</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Whip heavy cream fluffy, until soft peaks form, but not too firm.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2430.Blog_-1-150x150.png\"/><br /></li><li>Equally divide washed fruits into prepared glasses. Using the piping bag or small spoon, equally spread the cream into the glasses. Refrigerate if not serving it immediately.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2431.Blog_-2-150x150.png\"/><br /></li><li>Before serving, dust it with cacao powder.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2433-3.Blog_-2-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24231",
+      "sourceTaxonomyId": "24231",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24243",
+      "sourceTaxonomyId": "24243",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24287",
+      "sourceTaxonomyId": "24287",
+      "name": "cocoa powder",
+      "slug": "cocoa-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24420",
+      "sourceTaxonomyId": "24420",
+      "name": "blackberries",
+      "slug": "blackberries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "722",
+      "sourceTaxonomyId": "722",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2119",
+      "sourceTaxonomyId": "2119",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "859",
+      "sourceTaxonomyId": "859",
+      "name": "blackberries",
+      "slug": "blackberries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1992",
+      "sourceTaxonomyId": "1992",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3063",
+      "sourceTaxonomyId": "3063",
+      "name": "cocoa powder",
+      "slug": "cocoa-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1460",
+      "sourceTaxonomyId": "1460",
+      "name": "blackberries",
+      "slug": "blackberries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2125",
+      "sourceTaxonomyId": "2125",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2201",
+      "sourceTaxonomyId": "2201",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2205",
+      "sourceTaxonomyId": "2205",
+      "name": "fruits",
+      "slug": "fruits"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3740",
+      "sourceTaxonomyId": "3740",
+      "name": "very easy",
+      "slug": "very-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6091",
+      "sourceTaxonomyId": "6091",
+      "name": "5-minutes ready",
+      "slug": "5-minutes-ready"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7219",
+      "sourceTaxonomyId": "7219",
+      "name": "without egg",
+      "slug": "without-egg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2266",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 cup blackberries",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "blackberries",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cup heavy whipping cream very cold",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "heavy whipping cream",
+            "notes": "very cold"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 tsp granulated sugar",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/4 tsp cocoa powder",
+            "quantity": {
+              "raw": "1/4 tsp",
+              "value": 0.25,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "cocoa powder",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Whip heavy cream fluffy, until soft peaks form, but not too firm.",
+            "mediaId": "wordpress-attachment:4237"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Equally divide washed fruits into prepared glasses. Using the piping bag or small spoon, equally spread the cream into the glasses. Refrigerate if not serving it immediately.",
+            "mediaId": "wordpress-attachment:4238"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Before serving, dust it with cacao powder.",
+            "mediaId": "wordpress-attachment:4239"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2266",
+      "sourceId": "2266",
+      "path": "/recipes/media/wordpress/2266.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4237",
+      "sourceId": "4237",
+      "path": "/recipes/media/wordpress/4237.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4238",
+      "sourceId": "4238",
+      "path": "/recipes/media/wordpress/4238.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4239",
+      "sourceId": "4239",
+      "path": "/recipes/media/wordpress/4239.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

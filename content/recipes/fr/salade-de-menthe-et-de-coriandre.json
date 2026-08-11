@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21753",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:14329",
+  "slug": "salade-de-menthe-et-de-coriandre",
+  "source": {
+    "system": "wordpress",
+    "postId": "21753",
+    "recipeId": "21753",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-de-menthe-et-de-coriandre",
+    "createdAt": "2023-05-18T04:57:00+00:00",
+    "modifiedAt": "2023-05-29T17:13:22+00:00",
+    "editorialPostId": "16458",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-de-menthe-et-de-coriandre",
+    "editorialCreatedAt": "2023-05-18T04:57:00+00:00",
+    "editorialModifiedAt": "2023-05-29T17:13:19+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Salade de menthe et de coriandre",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une salade à base de menthe et de coriandre fraîches avec l'oignon rouge mariné au vinaigre de cidre. Cette salade aux saveurs de l'été accompagnera très bien vos barbecues et grillades.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21753,\"template\":\"chic-template-french\",\"updated\":1621127949183} -->\n<!--WPRM Recipe 21753-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade de menthe et de coriandre</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8965.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 oignon (rouge) (épluché et coupé en demi-rondelles)</li><li>1 cuillère à café de sucre en poudre</li><li>4 cuillères à soupe de vinaigre de cidre</li><li>1 bouquet de menthe fraîche détaillé en feuilles</li><li>1 bouquet de coriandre fraîche détaillé en feuilles</li><li>1/2 bouquet de ciboule ciselée ((facultatif))</li><li>Sel et poivre du moulin</li><li>1/4 de citron ((le jus))</li><li>Quelques filets d'huile d'olive</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans un bol, mélanger l'oignon, le vinaigre et le sucre en poudre. Laisser mariner pendant au moins 30 minutes. Egoutter.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8957.Blog_-150x150.png\"/><br /></li><li>Dans un saladier, mélanger la menthe, la coriandre, la ciboule et l'oignon mariné. Saler, poivrer, arroser de jus de citron fraîchement pressé et d'huile d'olive.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8963.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Une salade à base de menthe et de coriandre fraîches avec l'oignon rouge mariné au vinaigre de cidre."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24488",
+      "sourceTaxonomyId": "24488",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24489",
+      "sourceTaxonomyId": "24489",
+      "name": "de vinaigre de cidre",
+      "slug": "de-vinaigre-de-cidre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24490",
+      "sourceTaxonomyId": "24490",
+      "name": "de menthe fraîche détaillé en feuilles",
+      "slug": "de-menthe-fraiche-detaille-en-feuilles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24491",
+      "sourceTaxonomyId": "24491",
+      "name": "de coriandre fraîche détaillé en feuilles",
+      "slug": "de-coriandre-fraiche-detaille-en-feuilles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24492",
+      "sourceTaxonomyId": "24492",
+      "name": "de ciboule ciselée",
+      "slug": "de-ciboule-ciselee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24493",
+      "sourceTaxonomyId": "24493",
+      "name": "de citron",
+      "slug": "de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1188",
+      "sourceTaxonomyId": "1188",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5824",
+      "sourceTaxonomyId": "5824",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7601",
+      "sourceTaxonomyId": "7601",
+      "name": "de vinaigre de cidre",
+      "slug": "de-vinaigre-de-cidre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14290",
+      "sourceTaxonomyId": "14290",
+      "name": "de coriandre fraîche détaillé en feuilles",
+      "slug": "de-coriandre-fraiche-detaille-en-feuilles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14292",
+      "sourceTaxonomyId": "14292",
+      "name": "de ciboule ciselée",
+      "slug": "de-ciboule-ciselee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14294",
+      "sourceTaxonomyId": "14294",
+      "name": "de citron",
+      "slug": "de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14296",
+      "sourceTaxonomyId": "14296",
+      "name": "de menthe fraîche détaillé en feuilles",
+      "slug": "de-menthe-fraiche-detaille-en-feuilles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3927",
+      "sourceTaxonomyId": "3927",
+      "name": "coriandre fraiche",
+      "slug": "coriandre-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4531",
+      "sourceTaxonomyId": "4531",
+      "name": "salade d'ete",
+      "slug": "salade-dete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4608",
+      "sourceTaxonomyId": "4608",
+      "name": "jus de citron",
+      "slug": "jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7149",
+      "sourceTaxonomyId": "7149",
+      "name": "menthe fraiche",
+      "slug": "menthe-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7617",
+      "sourceTaxonomyId": "7617",
+      "name": "oignon rouge",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25379",
+      "sourceTaxonomyId": "25379",
+      "name": "pour barbecue",
+      "slug": "pour-barbecue"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16463",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 oignon (rouge) épluché et coupé en demi-rondelles",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon (rouge)",
+            "notes": "épluché et coupé en demi-rondelles"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cuillère à café de sucre en poudre",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 cuillères à soupe de vinaigre de cidre",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de vinaigre de cidre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 bouquet de menthe fraîche détaillé en feuilles",
+            "quantity": {
+              "raw": "1 bouquet",
+              "value": 1,
+              "unit": "bouquet",
+              "scalable": true
+            },
+            "name": "de menthe fraîche détaillé en feuilles",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 bouquet de coriandre fraîche détaillé en feuilles",
+            "quantity": {
+              "raw": "1 bouquet",
+              "value": 1,
+              "unit": "bouquet",
+              "scalable": true
+            },
+            "name": "de coriandre fraîche détaillé en feuilles",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 bouquet de ciboule ciselée (facultatif)",
+            "quantity": {
+              "raw": "1/2 bouquet",
+              "value": 0.5,
+              "unit": "bouquet",
+              "scalable": true
+            },
+            "name": "de ciboule ciselée",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/4 de citron (le jus)",
+            "quantity": {
+              "raw": "1/4",
+              "value": 0.25,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "de citron",
+            "notes": "(le jus)"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Quelques filets d'huile d'olive",
+            "quantity": {
+              "raw": "Quelques filets",
+              "unit": "filets",
+              "scalable": false
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un bol, mélanger l'oignon, le vinaigre et le sucre en poudre. Laisser mariner pendant au moins 30 minutes. Egoutter.",
+            "mediaId": "wordpress-attachment:16461"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un saladier, mélanger la menthe, la coriandre, la ciboule et l'oignon mariné. Saler, poivrer, arroser de jus de citron fraîchement pressé et d'huile d'olive.",
+            "mediaId": "wordpress-attachment:16462"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16463",
+      "sourceId": "16463",
+      "path": "/recipes/media/wordpress/16463.png",
+      "alt": "Salade de menthe et de coriandre",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16461",
+      "sourceId": "16461",
+      "path": "/recipes/media/wordpress/16461.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16462",
+      "sourceId": "16462",
+      "path": "/recipes/media/wordpress/16462.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

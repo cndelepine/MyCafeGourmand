@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21912",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:7528",
+  "slug": "veloute-de-potiron",
+  "source": {
+    "system": "wordpress",
+    "postId": "21912",
+    "recipeId": "21912",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-veloute-de-potiron",
+    "createdAt": "2025-10-01T02:07:00+00:00",
+    "modifiedAt": "2025-10-02T04:57:15+00:00",
+    "editorialPostId": "12797",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "veloute-de-potiron",
+    "editorialCreatedAt": "2025-10-01T02:07:00+00:00",
+    "editorialModifiedAt": "2025-10-02T04:57:02+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Velouté de potiron",
+  "description": "Pour une présentation plus sophistiquée, servir la soupe dans des petits potirons individuels : évidez-les et réchauffez dans le four avant d'y verser la soupe.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le velouté de potiron est une délicieuse recette de soupe de potiron, douce, lisse et avec seulement deux ingrédients. Sain, coloré et facile à faire. Si vous avez un mixeur, vous devez essayer cette recette dès que les citrouilles sont de saison.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Pour impressionner vos invités, servez cette soupe dans des citrouilles individuelles.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Vous aimez cette soupe? Essayez mes autres <a href=\"https://mycafegourmand.com/fr/recettes/soupes/\">soupes</a> !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21912,\"template\":\"chic-template-french\",\"updated\":1759380262003} -->\n<!--WPRM Recipe 21912-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Velouté de potiron</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3174.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tPour une présentation plus sophistiquée, servir la soupe dans des petits potirons individuels : évidez-les et réchauffez dans le four avant d'y verser la soupe.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 poireaux ((partie blanche et verte claire) bien lavés)</li><li>1 potiron (environ 1,5 kg)</li><li>4 cuillères à soupe d'huile d'olive</li><li>Sel et poivre du moulin</li><li>Un peu de crème fraîche ou crème liquide</li><li>Un peu de persil (coriandre ou ciboulette) (ciselé)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Émincer les poireaux.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_224123.Blog_-150x150.png\"/><br /></li><li>Couper le potiron en deux et l'évider. (Les graines de potiron sont bonnes, gardez les pour une autre recette).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_225215.Blog_-150x150.png\"/><br /></li><li>Éplucher la peau et découper la chair en morceaux réguliers.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_231440.Blog_-150x150.png\"/><br /></li><li>Dans une poêle, faire chauffer l'huile d'olive et faire revenir les poireaux pendant environ 3 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_185635.Blog_-150x150.png\"/><br /></li><li>Ajouter le potiron. Faire mijoter avec les poireaux  encore pendant 5-7 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_185829.Blog_-150x150.png\"/><br /></li><li>Transférer les légumes revenus dans une casserole. Ajouter l'eau (le niveau d'eau doit couvrir complètement les légumes). Saler et poivrer. Faire cuire sur le feu moyen pendant environ 15 minutes. Quand les morceaux de potiron sont tendres, la soupe est prête.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_190527.Blog_-150x150.png\"/><br /></li><li>A l'aide d'un mixeur plongeant, mixer jusqu’à obtenir un velouté. Si la soupe est trop épaisse, ajouter un peu d'eau pour obtenir une consistance parfaite et porter à ébullition.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_192320.Blog_-150x150.png\"/><br /></li><li>Servir la soupe dans des assiettes en ajoutant un peu de crème. Saupoudrer de persil et de poivre fraîchement moulu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_202056.Blog_-150x150.png\"/><br /></li></ol><h4>Pour une présentation sophistiquée :</h4><ol><li>Couper le chapeau de potiron et évider bien. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3153.Blog_-150x150.png\"/><br /></li><li>Chauffer le potiron dans le four, y verser le velouté bien chaud, couvrir avec le chapeau et servir aussitôt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3163.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soupes</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24523",
+      "sourceTaxonomyId": "24523",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24565",
+      "sourceTaxonomyId": "24565",
+      "name": "poireaux",
+      "slug": "poireaux"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24607",
+      "sourceTaxonomyId": "24607",
+      "name": "potiron (environ 1,5 kg)",
+      "slug": "potiron-environ-15-kg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24608",
+      "sourceTaxonomyId": "24608",
+      "name": "de crème fraîche ou crème liquide",
+      "slug": "de-creme-fraiche-ou-creme-liquide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24609",
+      "sourceTaxonomyId": "24609",
+      "name": "de persil (coriandre ou ciboulette)",
+      "slug": "de-persil-coriandre-ou-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "98",
+      "sourceTaxonomyId": "98",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1562",
+      "sourceTaxonomyId": "1562",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1081",
+      "sourceTaxonomyId": "1081",
+      "name": "poireaux",
+      "slug": "poireaux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7522",
+      "sourceTaxonomyId": "7522",
+      "name": "potiron (environ 1,5 kg)",
+      "slug": "potiron-environ-15-kg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7524",
+      "sourceTaxonomyId": "7524",
+      "name": "de crème fraîche ou crème liquide",
+      "slug": "de-creme-fraiche-ou-creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7557",
+      "sourceTaxonomyId": "7557",
+      "name": "de persil (coriandre ou ciboulette)",
+      "slug": "de-persil-coriandre-ou-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1274",
+      "sourceTaxonomyId": "1274",
+      "name": "poireau",
+      "slug": "poireau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1502",
+      "sourceTaxonomyId": "1502",
+      "name": "creme liquide",
+      "slug": "creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2862",
+      "sourceTaxonomyId": "2862",
+      "name": "soupe-puree",
+      "slug": "soupe-puree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4522",
+      "sourceTaxonomyId": "4522",
+      "name": "raffine",
+      "slug": "raffine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7058",
+      "sourceTaxonomyId": "7058",
+      "name": "sophistique",
+      "slug": "sophistique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7510",
+      "sourceTaxonomyId": "7510",
+      "name": "velouté de potiron",
+      "slug": "veloute-de-potiron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7512",
+      "sourceTaxonomyId": "7512",
+      "name": "soupe de potiron",
+      "slug": "soupe-de-potiron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7514",
+      "sourceTaxonomyId": "7514",
+      "name": "soupe a la citrouille",
+      "slug": "soupe-a-la-citrouille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7516",
+      "sourceTaxonomyId": "7516",
+      "name": "soupe orange",
+      "slug": "soupe-orange"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7520",
+      "sourceTaxonomyId": "7520",
+      "name": "casserole",
+      "slug": "casserole-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7526",
+      "sourceTaxonomyId": "7526",
+      "name": "plat d'automne",
+      "slug": "plat-dautomne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7591",
+      "sourceTaxonomyId": "7591",
+      "name": "halloween",
+      "slug": "halloween-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8025",
+      "sourceTaxonomyId": "8025",
+      "name": "soupe dans la citrouille",
+      "slug": "soupe-dans-la-citrouille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8027",
+      "sourceTaxonomyId": "8027",
+      "name": "soupe dans potiron",
+      "slug": "soupe-dans-potiron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8029",
+      "sourceTaxonomyId": "8029",
+      "name": "originale",
+      "slug": "originale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12804",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 poireaux (partie blanche et verte claire) bien lavés",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "poireaux",
+            "notes": "(partie blanche et verte claire) bien lavés"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 potiron (environ 1,5 kg)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "potiron (environ 1,5 kg)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Un peu de crème fraîche ou crème liquide",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de crème fraîche ou crème liquide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Un peu de persil (coriandre ou ciboulette) ciselé",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de persil (coriandre ou ciboulette)",
+            "notes": "ciselé"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Émincer les poireaux.",
+            "mediaId": "wordpress-attachment:12810"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper le potiron en deux et l'évider. (Les graines de potiron sont bonnes, gardez les pour une autre recette).",
+            "mediaId": "wordpress-attachment:12805"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Éplucher la peau et découper la chair en morceaux réguliers.",
+            "mediaId": "wordpress-attachment:12806"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Dans une poêle, faire chauffer l'huile d'olive et faire revenir les poireaux pendant environ 3 minutes.",
+            "mediaId": "wordpress-attachment:12807"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter le potiron. Faire mijoter avec les poireaux encore pendant 5-7 minutes.",
+            "mediaId": "wordpress-attachment:12808"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Transférer les légumes revenus dans une casserole. Ajouter l'eau (le niveau d'eau doit couvrir complètement les légumes). Saler et poivrer. Faire cuire sur le feu moyen pendant environ 15 minutes. Quand les morceaux de potiron sont tendres, la soupe est prête.",
+            "mediaId": "wordpress-attachment:12809"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "A l'aide d'un mixeur plongeant, mixer jusqu’à obtenir un velouté. Si la soupe est trop épaisse, ajouter un peu d'eau pour obtenir une consistance parfaite et porter à ébullition.",
+            "mediaId": "wordpress-attachment:12800"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Servir la soupe dans des assiettes en ajoutant un peu de crème. Saupoudrer de persil et de poivre fraîchement moulu.",
+            "mediaId": "wordpress-attachment:12801"
+          }
+        ]
+      },
+      {
+        "name": "Pour une présentation sophistiquée :",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper le chapeau de potiron et évider bien.",
+            "mediaId": "wordpress-attachment:12802"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Chauffer le potiron dans le four, y verser le velouté bien chaud, couvrir avec le chapeau et servir aussitôt.",
+            "mediaId": "wordpress-attachment:12803"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12804",
+      "sourceId": "12804",
+      "path": "/recipes/media/wordpress/12804.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12810",
+      "sourceId": "12810",
+      "path": "/recipes/media/wordpress/12810.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12805",
+      "sourceId": "12805",
+      "path": "/recipes/media/wordpress/12805.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12806",
+      "sourceId": "12806",
+      "path": "/recipes/media/wordpress/12806.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12807",
+      "sourceId": "12807",
+      "path": "/recipes/media/wordpress/12807.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12808",
+      "sourceId": "12808",
+      "path": "/recipes/media/wordpress/12808.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12809",
+      "sourceId": "12809",
+      "path": "/recipes/media/wordpress/12809.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12800",
+      "sourceId": "12800",
+      "path": "/recipes/media/wordpress/12800.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12801",
+      "sourceId": "12801",
+      "path": "/recipes/media/wordpress/12801.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12802",
+      "sourceId": "12802",
+      "path": "/recipes/media/wordpress/12802.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12803",
+      "sourceId": "12803",
+      "path": "/recipes/media/wordpress/12803.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -3,9 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import type { Locale, RecipeRecord } from "@/content/schema";
-import { searchRecipes } from "@/lib/recipe-search";
-import { getRecipePath } from "@/lib/recipe-routes";
+import type { Locale } from "@/content/schema";
+import {
+  searchRecipeCatalogEntries,
+  type RecipeCatalogEntry
+} from "@/lib/recipe-catalog-data";
 
 type RecipeCatalogLabels = {
   clearSearch: string;
@@ -20,7 +22,7 @@ type RecipeCatalogLabels = {
 type RecipeCatalogProps = {
   labels: RecipeCatalogLabels;
   locale: Locale;
-  recipes: readonly RecipeRecord[];
+  recipes: readonly RecipeCatalogEntry[];
 };
 
 export function RecipeCatalog({
@@ -30,7 +32,7 @@ export function RecipeCatalog({
 }: RecipeCatalogProps) {
   const [query, setQuery] = useState("");
   const localeRecipes = recipes.filter((recipe) => recipe.locale === locale);
-  const matchingRecipes = searchRecipes(localeRecipes, query);
+  const matchingRecipes = searchRecipeCatalogEntries(localeRecipes, query);
   const searchId = `recipe-search-${locale}`;
   const statusId = `${searchId}-status`;
 
@@ -66,33 +68,24 @@ export function RecipeCatalog({
       {matchingRecipes.length > 0 ? (
         <div className="recipe-grid">
           {matchingRecipes.map((recipe) => {
-            const hero = recipe.recipe.heroMediaId
-              ? recipe.media.find(
-                  (asset) => asset.id === recipe.recipe.heroMediaId
-                )
-              : undefined;
-            const category = recipe.taxonomies.find(
-              (taxonomy) => taxonomy.taxonomy === "category"
-            );
-
             return (
               <article className="recipe-card" key={recipe.id}>
-                {hero ? (
+                {recipe.hero ? (
                   <Image
-                    alt={hero.alt ?? ""}
+                    alt={recipe.hero.alt ?? ""}
                     className="recipe-card-image"
-                    height={hero.height ?? 592}
-                    src={hero.path}
-                    width={hero.width ?? 800}
+                    height={recipe.hero.height ?? 592}
+                    src={recipe.hero.src}
+                    width={recipe.hero.width ?? 800}
                   />
                 ) : null}
                 <div className="recipe-card-copy">
-                  {category ? (
-                    <p className="eyebrow">{category.name}</p>
+                  {recipe.category ? (
+                    <p className="eyebrow">{recipe.category}</p>
                   ) : null}
                   <h3>{recipe.title}</h3>
                   {recipe.description ? <p>{recipe.description}</p> : null}
-                  <Link className="jump-link" href={getRecipePath(recipe)}>
+                  <Link className="jump-link" href={recipe.path}>
                     {labels.viewRecipe} <span aria-hidden="true">→</span>
                   </Link>
                 </div>

@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21531",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:420",
+  "slug": "virgin-mojito",
+  "source": {
+    "system": "wordpress",
+    "postId": "21531",
+    "recipeId": "21531",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-virgin-mojito-2",
+    "createdAt": "2020-06-26T04:39:00+00:00",
+    "modifiedAt": "2025-10-02T05:31:58+00:00",
+    "editorialPostId": "1326",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "virgin-mojito",
+    "editorialCreatedAt": "2020-06-26T04:39:00+00:00",
+    "editorialModifiedAt": "2025-10-02T05:31:26+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Virgin mojito",
+  "description": "Virgin mojito est une boisson sans alcool très rafraichissante en été.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le Virgin Mojito sans alcool est à boire sans modération. La présentation dans un grand bocal avec un robinet est très pratique surtout si vous recevez beaucoup de monde. Je n'ajoute pas du tout de sucre mais si vous voulez, ajoutez-en quelques cuillères à soupe.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21531,\"template\":\"chic-template-french\",\"updated\":1759382956922,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 21531-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Virgin mojito</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/06/IMG_5986.Blog_.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Virgin mojito est une boisson sans alcool très rafraichissante en été.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 citrons verts coupés en rondelles</li><li>2 citrons jaunes coupés en rondelles</li><li>1 bouquet de menthe (détaillé en feuilles)</li><li>10 tasses de glaçons</li><li>1 bouteille (1 litre) de limonade (ou 7 Up, Ginger Ale ou autre)</li><li>2 bouteilles (1,5 litre)  d'eau gazeuse (type Perrier™, Club Soda ou autre)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans un bocal, mettre les rondelles des citrons, les feuilles de menthe et les glaçons. (Ajouter le sucre, si vous décidez de l'utiliser). Bien mélanger.</li><li>Verser l'eau gazeuse et la limonade. C'est prêt ! A servir aussitôt.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Boissons, Drinks</div><div class=\"wprm-fallback-recipe-meta-cuisine\">americain, American</div><div class=\"wprm-fallback-recipe-meta-keyword\">Virgin mojito</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Le Virgin Mojito sans alcool est à boire sans modération. Et très rafraîchissant en été !"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27064",
+      "sourceTaxonomyId": "27064",
+      "name": "Boissons",
+      "slug": "boissons-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27066",
+      "sourceTaxonomyId": "27066",
+      "name": "Drinks",
+      "slug": "drinks-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27068",
+      "sourceTaxonomyId": "27068",
+      "name": "americain",
+      "slug": "americain"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27070",
+      "sourceTaxonomyId": "27070",
+      "name": "American",
+      "slug": "american-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24359",
+      "sourceTaxonomyId": "24359",
+      "name": "citrons verts coupés en rondelles",
+      "slug": "citrons-verts-coupes-en-rondelles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24360",
+      "sourceTaxonomyId": "24360",
+      "name": "citrons jaunes coupés en rondelles",
+      "slug": "citrons-jaunes-coupes-en-rondelles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24361",
+      "sourceTaxonomyId": "24361",
+      "name": "bouquet de menthe (détaillé en feuilles)",
+      "slug": "bouquet-de-menthe-detaille-en-feuilles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24362",
+      "sourceTaxonomyId": "24362",
+      "name": "tasses de glaçons",
+      "slug": "tasses-de-glacons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24363",
+      "sourceTaxonomyId": "24363",
+      "name": "de limonade (ou 7 Up, Ginger Ale ou autre)",
+      "slug": "de-limonade-ou-7-up-ginger-ale-ou-autre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24364",
+      "sourceTaxonomyId": "24364",
+      "name": "d'eau gazeuse (type Perrier™, Club Soda ou autre)",
+      "slug": "deau-gazeuse-type-perrier-club-soda-ou-autre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27062",
+      "sourceTaxonomyId": "27062",
+      "name": "bouteille (1 litre)",
+      "slug": "bouteille-1-litre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27063",
+      "sourceTaxonomyId": "27063",
+      "name": "bouteilles (1,5 litre)",
+      "slug": "bouteilles-15-litre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27072",
+      "sourceTaxonomyId": "27072",
+      "name": "Virgin mojito",
+      "slug": "virgin-mojito"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "114",
+      "sourceTaxonomyId": "114",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1680",
+      "sourceTaxonomyId": "1680",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "421",
+      "sourceTaxonomyId": "421",
+      "name": "citrons verts coupés en rondelles",
+      "slug": "citrons-verts-coupes-en-rondelles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "423",
+      "sourceTaxonomyId": "423",
+      "name": "citrons jaunes coupés en rondelles",
+      "slug": "citrons-jaunes-coupes-en-rondelles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "425",
+      "sourceTaxonomyId": "425",
+      "name": "bouquet de menthe (détaillé en feuilles)",
+      "slug": "bouquet-de-menthe-detaille-en-feuilles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "427",
+      "sourceTaxonomyId": "427",
+      "name": "tasses de glaçons",
+      "slug": "tasses-de-glacons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "434",
+      "sourceTaxonomyId": "434",
+      "name": "de limonade (ou 7 Up, Ginger Ale ou autre)",
+      "slug": "de-limonade-ou-7-up-ginger-ale-ou-autre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "436",
+      "sourceTaxonomyId": "436",
+      "name": "d'eau gazeuse (type Perrier™, Club Soda ou autre)",
+      "slug": "deau-gazeuse-type-perrier-club-soda-ou-autre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1540",
+      "sourceTaxonomyId": "1540",
+      "name": "citron",
+      "slug": "citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1682",
+      "sourceTaxonomyId": "1682",
+      "name": "mojito",
+      "slug": "mojito"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1684",
+      "sourceTaxonomyId": "1684",
+      "name": "sans alcool",
+      "slug": "sans-alcool"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1686",
+      "sourceTaxonomyId": "1686",
+      "name": "eau gaseuse",
+      "slug": "eau-gaseuse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1688",
+      "sourceTaxonomyId": "1688",
+      "name": "menthe",
+      "slug": "menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1690",
+      "sourceTaxonomyId": "1690",
+      "name": "citron vert",
+      "slug": "citron-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1692",
+      "sourceTaxonomyId": "1692",
+      "name": "glaçon",
+      "slug": "glacon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6065",
+      "sourceTaxonomyId": "6065",
+      "name": "fait maison",
+      "slug": "fait-maison"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6802",
+      "sourceTaxonomyId": "6802",
+      "name": "boisson de fete",
+      "slug": "boisson-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27261",
+      "sourceTaxonomyId": "27261",
+      "name": "fete d'ete",
+      "slug": "fete-dete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27279",
+      "sourceTaxonomyId": "27279",
+      "name": "cocktail sans alcool",
+      "slug": "cocktail-sans-alcool"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "15 personnes",
+      "value": 15,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "0.5",
+        "value": 0.5
+      },
+      "servingSize": {
+        "raw": "15",
+        "value": 15
+      },
+      "servingUnit": "cl"
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:17592",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 citrons verts coupés en rondelles",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citrons verts coupés en rondelles",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 citrons jaunes coupés en rondelles",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citrons jaunes coupés en rondelles",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 bouquet de menthe (détaillé en feuilles)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bouquet de menthe (détaillé en feuilles)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "10 tasses de glaçons",
+            "quantity": {
+              "raw": "10",
+              "value": 10,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tasses de glaçons",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 bouteille (1 litre) de limonade (ou 7 Up, Ginger Ale ou autre)",
+            "quantity": {
+              "raw": "1 bouteille (1 litre)",
+              "value": 1,
+              "unit": "bouteille (1 litre)",
+              "scalable": true
+            },
+            "name": "de limonade (ou 7 Up, Ginger Ale ou autre)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 bouteilles (1,5 litre) d'eau gazeuse (type Perrier™, Club Soda ou autre)",
+            "quantity": {
+              "raw": "2 bouteilles (1,5 litre)",
+              "value": 2,
+              "unit": "bouteilles (1,5 litre)",
+              "scalable": true
+            },
+            "name": "d'eau gazeuse (type Perrier™, Club Soda ou autre)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un bocal, mettre les rondelles des citrons, les feuilles de menthe et les glaçons. (Ajouter le sucre, si vous décidez de l'utiliser). Bien mélanger.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Verser l'eau gazeuse et la limonade. C'est prêt ! A servir aussitôt.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17592",
+      "sourceId": "17592",
+      "path": "/recipes/media/wordpress/17592.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

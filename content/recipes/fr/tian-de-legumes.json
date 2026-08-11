@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22077",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:6282",
+  "slug": "tian-de-legumes",
+  "source": {
+    "system": "wordpress",
+    "postId": "22077",
+    "recipeId": "22077",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tian-de-legumes",
+    "createdAt": "2021-08-25T04:21:00+00:00",
+    "modifiedAt": "2021-09-02T22:42:00+00:00",
+    "editorialPostId": "12017",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tian-de-legumes",
+    "editorialCreatedAt": "2021-08-25T04:21:00+00:00",
+    "editorialModifiedAt": "2021-09-02T22:41:57+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Tian de légumes",
+  "description": "Pour cette recette, il est préférable d'utiliser des légumes de la même taille : le plat aura l'air plus joli. Si l'aubergine est plus épaisse que les autres légumes, vous pouvez couper ses rondelles en deux parties.",
+  "editorial": {
+    "content": "<p>Le tian de légumes. Une belle recette végétarienne à base de tomates, courgettes, aubergines et oignons.</p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22077,\"template\":\"chic-template-french\",\"updated\":1630622491263} -->\n<!--WPRM Recipe 22077-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tian de légumes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1462.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tPour cette recette, il est préférable d'utiliser des légumes de la même taille :  le plat aura l'air plus joli. Si l'aubergine est plus épaisse que les autres légumes, vous pouvez couper ses rondelles en deux parties.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 oignon (épluchés)</li><li>4 gousses d'ail (épluchées)</li><li>7 cuillères à soupe d'huile d'olive</li><li>Sel et poivre du moulin</li><li>1 aubergine</li><li>1-2 courgettes vertes</li><li>1-2 coutgettes jaunes</li><li>5 tomates</li><li>1/2 cuillère à café d'herbes de Provence</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Couper les oignons en demi cercles et les gousses d'ail en quatre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1443.Blog_-150x150.png\"/><br /></li><li>Faire chauffer 3 cuillères à soupe d'huile dans une poêle, et y faire revenir les oignons. Ajouter l'ail et continuer de mijoter pendant encore quelques minutes. Saler et poivrer. Retirer la poêle du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1444.Blog_-150x150.png\"/><br /></li><li>Couvrir le fond d'un plat allant au four d'une couche d'oignon.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1449.Blog_-150x150.png\"/><br /></li><li>Couper les courgettes en rondelles de 5-7 mm environ.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1447.Blog_-150x150.png\"/><br /></li><li>Couper l'aubergine en rondelles de même épaisseur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1451.Blog_-150x150.png\"/><br /></li><li>Couper les tomates, toujours en rondelles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1452.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 190°C (thermostat 6/7).  Aligner les rondelles de légumes verticalement  de manière alternée jusqu'à ce que le plat soit rempli. Les rondelles doivent être bien serrées les unes contre les autres.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1454.Blog_-150x150.png\"/><br /></li><li>Saler, poivrer, saupoudrer d'herbes de Provence et arroser du reste d'huile d'olive.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1457.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant environ 50 minutes. Vérifier la cuisson de temps en temps. Si les légumes ne sont pas encore cuits à l'intérieur mais commencent à être trop cuit sur le dessus, couvrir le plat avec une feuille de papier aluminium. Le tian est prêt quand les légumes sont dorés et tendres. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1463.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24596",
+      "sourceTaxonomyId": "24596",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24624",
+      "sourceTaxonomyId": "24624",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24712",
+      "sourceTaxonomyId": "24712",
+      "name": "aubergine",
+      "slug": "aubergine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24713",
+      "sourceTaxonomyId": "24713",
+      "name": "courgettes vertes",
+      "slug": "courgettes-vertes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24714",
+      "sourceTaxonomyId": "24714",
+      "name": "coutgettes jaunes",
+      "slug": "coutgettes-jaunes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "527",
+      "sourceTaxonomyId": "527",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2584",
+      "sourceTaxonomyId": "2584",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6525",
+      "sourceTaxonomyId": "6525",
+      "name": "aubergine",
+      "slug": "aubergine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6527",
+      "sourceTaxonomyId": "6527",
+      "name": "courgettes vertes",
+      "slug": "courgettes-vertes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6529",
+      "sourceTaxonomyId": "6529",
+      "name": "coutgettes jaunes",
+      "slug": "coutgettes-jaunes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1204",
+      "sourceTaxonomyId": "1204",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1316",
+      "sourceTaxonomyId": "1316",
+      "name": "legume",
+      "slug": "legume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1596",
+      "sourceTaxonomyId": "1596",
+      "name": "ail",
+      "slug": "ail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3802",
+      "sourceTaxonomyId": "3802",
+      "name": "aubergine",
+      "slug": "aubergine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3854",
+      "sourceTaxonomyId": "3854",
+      "name": "huile d'olive",
+      "slug": "huile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3921",
+      "sourceTaxonomyId": "3921",
+      "name": "legumes du jardin",
+      "slug": "legumes-du-jardin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6499",
+      "sourceTaxonomyId": "6499",
+      "name": "légumes",
+      "slug": "legumes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6501",
+      "sourceTaxonomyId": "6501",
+      "name": "courgette verte",
+      "slug": "courgette-verte"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6503",
+      "sourceTaxonomyId": "6503",
+      "name": "courgette jaune",
+      "slug": "courgette-jaune"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6505",
+      "sourceTaxonomyId": "6505",
+      "name": "couper en rondelles",
+      "slug": "couper-en-rondelles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6507",
+      "sourceTaxonomyId": "6507",
+      "name": "plat colore",
+      "slug": "plat-colore"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6509",
+      "sourceTaxonomyId": "6509",
+      "name": "tian",
+      "slug": "tian-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "80",
+        "minutes": 80
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11878",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 oignon épluchés",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "épluchés"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 gousses d'ail épluchées",
+            "quantity": {
+              "raw": "4 gousses",
+              "value": 4,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "7 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "7 cuillères à soupe",
+              "value": 7,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 aubergine",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "aubergine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1-2 courgettes vertes",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "courgettes vertes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1-2 coutgettes jaunes",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "coutgettes jaunes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "5 tomates",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1/2 cuillère à café d'herbes de Provence",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "d'herbes de Provence",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper les oignons en demi cercles et les gousses d'ail en quatre.",
+            "mediaId": "wordpress-attachment:11860"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire chauffer 3 cuillères à soupe d'huile dans une poêle, et y faire revenir les oignons. Ajouter l'ail et continuer de mijoter pendant encore quelques minutes. Saler et poivrer. Retirer la poêle du feu.",
+            "mediaId": "wordpress-attachment:11861"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couvrir le fond d'un plat allant au four d'une couche d'oignon.",
+            "mediaId": "wordpress-attachment:11863"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Couper les courgettes en rondelles de 5-7 mm environ.",
+            "mediaId": "wordpress-attachment:11862"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couper l'aubergine en rondelles de même épaisseur.",
+            "mediaId": "wordpress-attachment:11864"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Couper les tomates, toujours en rondelles.",
+            "mediaId": "wordpress-attachment:11865"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Préchauffer le four à 190°C (thermostat 6/7). Aligner les rondelles de légumes verticalement de manière alternée jusqu'à ce que le plat soit rempli. Les rondelles doivent être bien serrées les unes contre les autres.",
+            "mediaId": "wordpress-attachment:11866"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Saler, poivrer, saupoudrer d'herbes de Provence et arroser du reste d'huile d'olive.",
+            "mediaId": "wordpress-attachment:11867"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Faire cuire au four pendant environ 50 minutes. Vérifier la cuisson de temps en temps. Si les légumes ne sont pas encore cuits à l'intérieur mais commencent à être trop cuit sur le dessus, couvrir le plat avec une feuille de papier aluminium. Le tian est prêt quand les légumes sont dorés et tendres.",
+            "mediaId": "wordpress-attachment:11868"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11878",
+      "sourceId": "11878",
+      "path": "/recipes/media/wordpress/11878.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11860",
+      "sourceId": "11860",
+      "path": "/recipes/media/wordpress/11860.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11861",
+      "sourceId": "11861",
+      "path": "/recipes/media/wordpress/11861.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11863",
+      "sourceId": "11863",
+      "path": "/recipes/media/wordpress/11863.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11862",
+      "sourceId": "11862",
+      "path": "/recipes/media/wordpress/11862.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11864",
+      "sourceId": "11864",
+      "path": "/recipes/media/wordpress/11864.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11865",
+      "sourceId": "11865",
+      "path": "/recipes/media/wordpress/11865.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11866",
+      "sourceId": "11866",
+      "path": "/recipes/media/wordpress/11866.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11867",
+      "sourceId": "11867",
+      "path": "/recipes/media/wordpress/11867.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11868",
+      "sourceId": "11868",
+      "path": "/recipes/media/wordpress/11868.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

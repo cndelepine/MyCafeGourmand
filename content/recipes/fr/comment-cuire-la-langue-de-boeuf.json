@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22201",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:11532",
+  "slug": "comment-cuire-la-langue-de-boeuf",
+  "source": {
+    "system": "wordpress",
+    "postId": "22201",
+    "recipeId": "22201",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-comment-cuire-la-langue-de-boeuf",
+    "createdAt": "2019-01-30T07:12:10+00:00",
+    "modifiedAt": "2023-05-28T19:11:43+00:00",
+    "editorialPostId": "14785",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "comment-cuire-la-langue-de-boeuf",
+    "editorialCreatedAt": "2019-01-30T07:12:10+00:00",
+    "editorialModifiedAt": "2023-05-28T19:11:41+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Comment cuire la langue de bœuf",
+  "description": "La langue de bœuf cuite peut être utilisé pour des nombreuses recettes : en entrée froide, en salade ou en sandwich. Le bouillon peut être utilisé pour la préparation des soupes et des sauces.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Comment cuire la langue de bœuf? C'est assez long mais c'est facile à préparer et pas cher. De plus, on peut la servir de nombreuses façons : avec une sauce, en salade, en gelée ou simplement en sandwich.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22201,\"template\":\"chic-template-french\",\"updated\":1656290645148} -->\n<!--WPRM Recipe 22201-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Comment cuire la langue de bœuf</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4717.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLa langue de bœuf cuite peut être utilisé pour des nombreuses recettes : en entrée froide, en salade ou en sandwich. Le bouillon peut être utilisé pour la préparation des soupes et des sauces.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 langue de bœuf</li><li>2 carottes</li><li>1 gros oignon</li><li>15 feuilles de laurier</li><li>1 cuillère à café de poivre en grains</li><li>1-2 cuillères à café  de gros sel</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Laver la langue à l'eau froide. Laver les carottes, éplucher l'oignon et préparer les autres ingrédients.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4688-2.Blog_-150x150.png\"/><br /></li><li>Porter une grande casserole d'eau à ébullition. Plonger la langue dans l'eau bouillante et cuire 10-15 minutes à feu vif sans couvrir. Sortir la langue, jeter l'eau et rincer un peu la casserole.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4689.Blog_-150x150.png\"/><br /></li><li>Remplir la casserole d'eau froide et porter à ébullition. À nouveau, plonger la langue dans l'eau bouillante. Ajouter les carottes, l'oignon, les feuilles de laurier et le poivre. Couvrir partiellement et cuire à feu doux environ 2 heures 45 minutes. Saler plutôt en fin de cuisson. Pour vérifier la cuisson, piquer la langue avec un couteau. Le jus qui sort doit être transparent.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4691.Blog_-150x150.png\"/><br /></li><li>Sortir la langue du bouillon et la plonger dans une autre casserole remplie d'eau très froide. Attendre quelque minutes puis sortir de l'eau. Délicatement, enlever la peau sans déchirer la chair. La peau s’enlève facilement si la langue est assez cuite.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4706.Blog_-150x150.png\"/><br /></li><li>Garder le bouillon pour une autre recette, il peut être  congelé pour plus tard.</li><li>Placer la langue dans le réfrigérateur pour la refroidir. Une fois refroidie, elle se se découpe plus facilement. Enlever et jeter la partie grise sous la langue, couper en fines tranches. Servir froide avec de la mayonnaise, de la moutarde ou une autre sauce.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4717.Blog_-150x150.png\"/><br /></li><li>Sur la photo, présentation avec une sauce maison piquante : mayonnaise+ tabasco+ciboulette<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4723-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Comment cuire la langue de bœuf"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24567",
+      "sourceTaxonomyId": "24567",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24606",
+      "sourceTaxonomyId": "24606",
+      "name": "feuilles de laurier",
+      "slug": "feuilles-de-laurier"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24777",
+      "sourceTaxonomyId": "24777",
+      "name": "langue de bœuf",
+      "slug": "langue-de-boeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24778",
+      "sourceTaxonomyId": "24778",
+      "name": "gros oignon",
+      "slug": "gros-oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24779",
+      "sourceTaxonomyId": "24779",
+      "name": "de poivre en grains",
+      "slug": "de-poivre-en-grains"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "354",
+      "sourceTaxonomyId": "354",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1034",
+      "sourceTaxonomyId": "1034",
+      "name": "de gros sel",
+      "slug": "de-gros-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11482",
+      "sourceTaxonomyId": "11482",
+      "name": "langue de bœuf",
+      "slug": "langue-de-boeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11493",
+      "sourceTaxonomyId": "11493",
+      "name": "gros oignon",
+      "slug": "gros-oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11495",
+      "sourceTaxonomyId": "11495",
+      "name": "feuilles de laurier",
+      "slug": "feuilles-de-laurier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11747",
+      "sourceTaxonomyId": "11747",
+      "name": "de poivre en grains",
+      "slug": "de-poivre-en-grains"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25616",
+      "sourceTaxonomyId": "25616",
+      "name": "comment cuire",
+      "slug": "comment-cuire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25626",
+      "sourceTaxonomyId": "25626",
+      "name": "langue de bœuf",
+      "slug": "langue-de-boeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25628",
+      "sourceTaxonomyId": "25628",
+      "name": "comment cuire la langue de bœuf",
+      "slug": "comment-cuire-la-langue-de-boeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25630",
+      "sourceTaxonomyId": "25630",
+      "name": "langue de boeuf",
+      "slug": "langue-de-boeuf-2"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "rest": null,
+      "total": {
+        "raw": "18",
+        "minutes": 18
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:14827",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 langue de bœuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "langue de bœuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 carottes",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 gros oignon",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "gros oignon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "15 feuilles de laurier",
+            "quantity": {
+              "raw": "15",
+              "value": 15,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "feuilles de laurier",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 cuillère à café de poivre en grains",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de poivre en grains",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1-2 cuillères à café de gros sel",
+            "quantity": {
+              "raw": "1-2 cuillères à café",
+              "min": 1,
+              "max": 2,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de gros sel",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Laver la langue à l'eau froide. Laver les carottes, éplucher l'oignon et préparer les autres ingrédients.",
+            "mediaId": "wordpress-attachment:14823"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Porter une grande casserole d'eau à ébullition. Plonger la langue dans l'eau bouillante et cuire 10-15 minutes à feu vif sans couvrir. Sortir la langue, jeter l'eau et rincer un peu la casserole.",
+            "mediaId": "wordpress-attachment:14824"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Remplir la casserole d'eau froide et porter à ébullition. À nouveau, plonger la langue dans l'eau bouillante. Ajouter les carottes, l'oignon, les feuilles de laurier et le poivre. Couvrir partiellement et cuire à feu doux environ 2 heures 45 minutes. Saler plutôt en fin de cuisson. Pour vérifier la cuisson, piquer la langue avec un couteau. Le jus qui sort doit être transparent.",
+            "mediaId": "wordpress-attachment:14825"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Sortir la langue du bouillon et la plonger dans une autre casserole remplie d'eau très froide. Attendre quelque minutes puis sortir de l'eau. Délicatement, enlever la peau sans déchirer la chair. La peau s’enlève facilement si la langue est assez cuite.",
+            "mediaId": "wordpress-attachment:14826"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Garder le bouillon pour une autre recette, il peut être congelé pour plus tard.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Placer la langue dans le réfrigérateur pour la refroidir. Une fois refroidie, elle se se découpe plus facilement. Enlever et jeter la partie grise sous la langue, couper en fines tranches. Servir froide avec de la mayonnaise, de la moutarde ou une autre sauce.",
+            "mediaId": "wordpress-attachment:14827"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Sur la photo, présentation avec une sauce maison piquante : mayonnaise+ tabasco+ciboulette",
+            "mediaId": "wordpress-attachment:14830"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:14827",
+      "sourceId": "14827",
+      "path": "/recipes/media/wordpress/14827.png",
+      "alt": "Comment cuire la langue de bœuf",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14823",
+      "sourceId": "14823",
+      "path": "/recipes/media/wordpress/14823.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14824",
+      "sourceId": "14824",
+      "path": "/recipes/media/wordpress/14824.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14825",
+      "sourceId": "14825",
+      "path": "/recipes/media/wordpress/14825.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14826",
+      "sourceId": "14826",
+      "path": "/recipes/media/wordpress/14826.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14830",
+      "sourceId": "14830",
+      "path": "/recipes/media/wordpress/14830.png",
+      "alt": null,
+      "width": 800,
+      "height": 496
+    }
+  ],
+  "seo": null
+}

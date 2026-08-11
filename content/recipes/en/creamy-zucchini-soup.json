@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21299",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:17177",
+  "slug": "creamy-zucchini-soup",
+  "source": {
+    "system": "wordpress",
+    "postId": "21299",
+    "recipeId": "21299",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-creamy-zucchini-soup",
+    "createdAt": "2024-03-09T05:33:00+00:00",
+    "modifiedAt": "2024-03-10T07:04:34+00:00",
+    "editorialPostId": "17998",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "creamy-zucchini-soup",
+    "editorialCreatedAt": "2024-03-09T05:33:00+00:00",
+    "editorialModifiedAt": "2024-03-10T07:04:31+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Creamy Zucchini Soup",
+  "description": "If you like Maggi broth cubes, add one to the soup while it is being boiled. By doing so, it is no longer needed to add salt, pepper, or herbs.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This deliciuos Creamy Zucchini Soup is extremely easy to cook. Only three main ingredients: zucchinis, onions and milk.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21299,\"template\":\"chic-template-english\",\"updated\":1710054133205} -->\n<!--WPRM Recipe 21299-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Creamy Zucchini Soup</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0349.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf you like Maggi broth cubes, add one to the soup while it is being boiled. By doing so, it is no longer needed to add salt, pepper, or herbs.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>5 zucchinis</li><li>3 onions</li><li>3 cloves of garlic</li><li>3-4 Tbsp olive oil</li><li>salt and ground pepper</li><li>300 ml water</li><li>300 ml milk (2%)</li><li>100 ml heavy cream</li><li>1 tsp mix of herbs de Provence</li><li>Few pinches of paprika (for serving)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel and chop onions.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0320.Blog_-150x150.png\"/><br /></li><li>Peel and chop garlic.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0322.Blog_-150x150.png\"/><br /></li><li>Cut the zucchinis.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0327.Blog_-150x150.png\"/><br /></li><li>In a large pot, heat the olive oil, add onions and garlic. Cook until golden, while stirring constantly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0321.Blog_-150x150.png\"/><br /></li><li>Add zucchinis, and sauté for about 5 minutes. Add salt and pepper.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0329.Blog_-150x150.png\"/><br /></li><li>Add water, milk and heavy cream. The level of liquid should just cover the veggies. Bring to a boil. Reduce the heat, add  the herbs of Provence and simmer about 20 minutes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0331.Blog_-150x150.png\"/><br /></li><li>Puree the soup with blender until smooth. If the soup is too thick, add some milk or heavy cream. Bring to a boil once again and remove the pan from the heat. Taste the soup, and add salt and pepper accordingly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0333.Blog_-150x150.png\"/><br /></li><li>Serve the creamy soup and don't forget to sprinkle with paprika or decorate with fresh herbs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_0348-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soup</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23533",
+      "sourceTaxonomyId": "23533",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24151",
+      "sourceTaxonomyId": "24151",
+      "name": "onions",
+      "slug": "onions"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24185",
+      "sourceTaxonomyId": "24185",
+      "name": "zucchinis",
+      "slug": "zucchinis"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24186",
+      "sourceTaxonomyId": "24186",
+      "name": "of garlic",
+      "slug": "of-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24187",
+      "sourceTaxonomyId": "24187",
+      "name": "salt and ground pepper",
+      "slug": "salt-and-ground-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24188",
+      "sourceTaxonomyId": "24188",
+      "name": "milk (2%)",
+      "slug": "milk-2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24189",
+      "sourceTaxonomyId": "24189",
+      "name": "heavy cream",
+      "slug": "heavy-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24190",
+      "sourceTaxonomyId": "24190",
+      "name": "mix of herbs de Provence",
+      "slug": "mix-of-herbs-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24191",
+      "sourceTaxonomyId": "24191",
+      "name": "of paprika",
+      "slug": "of-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "96",
+      "sourceTaxonomyId": "96",
+      "name": "Soups",
+      "slug": "soups"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1190",
+      "sourceTaxonomyId": "1190",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1124",
+      "sourceTaxonomyId": "1124",
+      "name": "of garlic",
+      "slug": "of-garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1915",
+      "sourceTaxonomyId": "1915",
+      "name": "heavy cream",
+      "slug": "heavy-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6293",
+      "sourceTaxonomyId": "6293",
+      "name": "onions",
+      "slug": "onions"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17171",
+      "sourceTaxonomyId": "17171",
+      "name": "of paprika",
+      "slug": "of-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17190",
+      "sourceTaxonomyId": "17190",
+      "name": "zucchinis",
+      "slug": "zucchinis"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17192",
+      "sourceTaxonomyId": "17192",
+      "name": "salt and ground pepper",
+      "slug": "salt-and-ground-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17194",
+      "sourceTaxonomyId": "17194",
+      "name": "milk (2%)",
+      "slug": "milk-2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17196",
+      "sourceTaxonomyId": "17196",
+      "name": "mix of herbs de Provence",
+      "slug": "mix-of-herbs-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7076",
+      "sourceTaxonomyId": "7076",
+      "name": "good for kids great for mums",
+      "slug": "good-for-kids-great-for-mums"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7581",
+      "sourceTaxonomyId": "7581",
+      "name": "healthy pureed soup",
+      "slug": "healthy-pureed-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "10828",
+      "sourceTaxonomyId": "10828",
+      "name": "vegetables",
+      "slug": "vegetables"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23162",
+      "sourceTaxonomyId": "23162",
+      "name": "zucchini",
+      "slug": "zucchini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26651",
+      "sourceTaxonomyId": "26651",
+      "name": "soup bowl",
+      "slug": "soup-bowl"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17923",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "5 zucchinis",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "zucchinis",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 onions",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onions",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 cloves of garlic",
+            "quantity": {
+              "raw": "3 cloves",
+              "value": 3,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "of garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3-4 Tbsp olive oil",
+            "quantity": {
+              "raw": "3-4 Tbsp",
+              "min": 3,
+              "max": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "salt and ground pepper",
+            "quantity": null,
+            "name": "salt and ground pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "300 ml water",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "300 ml milk (2%)",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk (2%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "100 ml heavy cream",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 tsp mix of herbs de Provence",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "mix of herbs de Provence",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Few pinches of paprika for serving",
+            "quantity": {
+              "raw": "Few pinches",
+              "unit": "pinches",
+              "scalable": false
+            },
+            "name": "of paprika",
+            "notes": "for serving"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel and chop onions.",
+            "mediaId": "wordpress-attachment:17915"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel and chop garlic.",
+            "mediaId": "wordpress-attachment:17917"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cut the zucchinis.",
+            "mediaId": "wordpress-attachment:17918"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "In a large pot, heat the olive oil, add onions and garlic. Cook until golden, while stirring constantly.",
+            "mediaId": "wordpress-attachment:17916"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add zucchinis, and sauté for about 5 minutes. Add salt and pepper.",
+            "mediaId": "wordpress-attachment:17919"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Add water, milk and heavy cream. The level of liquid should just cover the veggies. Bring to a boil. Reduce the heat, add the herbs of Provence and simmer about 20 minutes.",
+            "mediaId": "wordpress-attachment:17920"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Puree the soup with blender until smooth. If the soup is too thick, add some milk or heavy cream. Bring to a boil once again and remove the pan from the heat. Taste the soup, and add salt and pepper accordingly.",
+            "mediaId": "wordpress-attachment:17921"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Serve the creamy soup and don't forget to sprinkle with paprika or decorate with fresh herbs.",
+            "mediaId": "wordpress-attachment:17922"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17923",
+      "sourceId": "17923",
+      "path": "/recipes/media/wordpress/17923.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17915",
+      "sourceId": "17915",
+      "path": "/recipes/media/wordpress/17915.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17917",
+      "sourceId": "17917",
+      "path": "/recipes/media/wordpress/17917.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17918",
+      "sourceId": "17918",
+      "path": "/recipes/media/wordpress/17918.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17916",
+      "sourceId": "17916",
+      "path": "/recipes/media/wordpress/17916.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17919",
+      "sourceId": "17919",
+      "path": "/recipes/media/wordpress/17919.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17920",
+      "sourceId": "17920",
+      "path": "/recipes/media/wordpress/17920.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17921",
+      "sourceId": "17921",
+      "path": "/recipes/media/wordpress/17921.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17922",
+      "sourceId": "17922",
+      "path": "/recipes/media/wordpress/17922.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

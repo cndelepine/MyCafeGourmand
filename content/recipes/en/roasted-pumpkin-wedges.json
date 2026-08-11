@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21448",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:17317",
+  "slug": "roasted-pumpkin-wedges",
+  "source": {
+    "system": "wordpress",
+    "postId": "21448",
+    "recipeId": "21448",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-roasted-pumpkin-wedges",
+    "createdAt": "2025-09-30T01:30:00+00:00",
+    "modifiedAt": "2025-10-02T05:18:43+00:00",
+    "editorialPostId": "18761",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "roasted-pumpkin-wedges",
+    "editorialCreatedAt": "2025-09-30T01:30:00+00:00",
+    "editorialModifiedAt": "2025-10-02T05:18:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Roasted Pumpkin Wedges",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Roasted pumpkin wedges are a simple and healthy dish that pairs well with fish and meat. This recipe is easy as pie and requires just basic ingredients like pumpkin, salt, pepper, garlic, olive oil and some fresh herbs.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21448,\"template\":\"chic-template-english\",\"updated\":1759381985919} -->\n<!--WPRM Recipe 21448-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Roasted Pumpkin Wedges</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1666-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 wedges of a big pumpkin</li><li>1 clove of garlic</li><li>salt and black pepper</li><li>Some olive oil</li><li>Some fresh herbs (parsley, cilantro or scallions)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat the oven to 390F (200С). Line your baking sheet with foil or parchment paper. </li><li>Wash the pumpkin thoroughly, cut into two parts and remove seeds with a spoon. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/20180920_225215.Blog_-150x150.png\"/><br /></li><li>Cut the pumpkin into wedges. Keep in mind that this kind of pumpkin doesn't need to be peeled. Season the wedges with salt and pepper. Next, mince or grate finely some garlic. Coat the wedges with a mixture of olive oil and garlic.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1653.Blog_-150x150.png\"/><br /></li><li>Place the wedges on the baking sheet and bake for about 20 minutes (depending on the kind of pumpkin and wedges size). When the wedges are soft, remove from the oven. Make sure they are not overdone.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1657-2.Blog_-150x150.png\"/><br /></li><li>Sprinkle the roasted pumpkin wedges with fresh herbs and they're ready to be served!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1665.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24186",
+      "sourceTaxonomyId": "24186",
+      "name": "of garlic",
+      "slug": "of-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24295",
+      "sourceTaxonomyId": "24295",
+      "name": "of a big pumpkin",
+      "slug": "of-a-big-pumpkin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24296",
+      "sourceTaxonomyId": "24296",
+      "name": "salt and black pepper",
+      "slug": "salt-and-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24297",
+      "sourceTaxonomyId": "24297",
+      "name": "fresh herbs (parsley, cilantro or scallions)",
+      "slug": "fresh-herbs-parsley-cilantro-or-scallions"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1124",
+      "sourceTaxonomyId": "1124",
+      "name": "of garlic",
+      "slug": "of-garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17347",
+      "sourceTaxonomyId": "17347",
+      "name": "of a big pumpkin",
+      "slug": "of-a-big-pumpkin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17349",
+      "sourceTaxonomyId": "17349",
+      "name": "salt and black pepper",
+      "slug": "salt-and-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17351",
+      "sourceTaxonomyId": "17351",
+      "name": "fresh herbs (parsley, cilantro or scallions)",
+      "slug": "fresh-herbs-parsley-cilantro-or-scallions"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4164",
+      "sourceTaxonomyId": "4164",
+      "name": "oven roasted",
+      "slug": "oven-roasted"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7575",
+      "sourceTaxonomyId": "7575",
+      "name": "pumpkin",
+      "slug": "pumpkin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7583",
+      "sourceTaxonomyId": "7583",
+      "name": "thanksgiving",
+      "slug": "thanksgiving"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18615",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 wedges of a big pumpkin",
+            "quantity": {
+              "raw": "4 wedges",
+              "value": 4,
+              "unit": "wedges",
+              "scalable": true
+            },
+            "name": "of a big pumpkin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 clove of garlic",
+            "quantity": {
+              "raw": "1 clove",
+              "value": 1,
+              "unit": "clove",
+              "scalable": true
+            },
+            "name": "of garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "salt and black pepper",
+            "quantity": null,
+            "name": "salt and black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Some olive oil",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Some fresh herbs (parsley, cilantro or scallions)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh herbs (parsley, cilantro or scallions)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 390F (200С). Line your baking sheet with foil or parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Wash the pumpkin thoroughly, cut into two parts and remove seeds with a spoon.",
+            "mediaId": "wordpress-attachment:18611"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cut the pumpkin into wedges. Keep in mind that this kind of pumpkin doesn't need to be peeled. Season the wedges with salt and pepper. Next, mince or grate finely some garlic. Coat the wedges with a mixture of olive oil and garlic.",
+            "mediaId": "wordpress-attachment:18612"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Place the wedges on the baking sheet and bake for about 20 minutes (depending on the kind of pumpkin and wedges size). When the wedges are soft, remove from the oven. Make sure they are not overdone.",
+            "mediaId": "wordpress-attachment:18613"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sprinkle the roasted pumpkin wedges with fresh herbs and they're ready to be served!",
+            "mediaId": "wordpress-attachment:18614"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18615",
+      "sourceId": "18615",
+      "path": "/recipes/media/wordpress/18615.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:18611",
+      "sourceId": "18611",
+      "path": "/recipes/media/wordpress/18611.png",
+      "alt": null,
+      "width": 789,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18612",
+      "sourceId": "18612",
+      "path": "/recipes/media/wordpress/18612.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18613",
+      "sourceId": "18613",
+      "path": "/recipes/media/wordpress/18613.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18614",
+      "sourceId": "18614",
+      "path": "/recipes/media/wordpress/18614.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { recipeCatalog } from "@/content/catalog";
 import type { Locale, RecipeRecord } from "@/content/schema";
+import { resolveRecipeMediaUrl } from "./recipe-media";
 import {
   getLocaleHomePath,
   getRecipeLanguageAlternates,
@@ -69,7 +70,7 @@ function getRecipeImage(record: RecipeRecord) {
   }
 
   return {
-    url: absoluteUrl(hero.path),
+    url: absoluteUrl(resolveRecipeMediaUrl(hero.path)),
     ...(hero.width === null ? {} : { width: hero.width }),
     ...(hero.height === null ? {} : { height: hero.height }),
     alt: hero.alt ?? undefined

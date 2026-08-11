@@ -1,0 +1,660 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21849",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:4881",
+  "slug": "verrine-de-panna-cotta-a-la-vanille-et-au-chocolat",
+  "source": {
+    "system": "wordpress",
+    "postId": "21849",
+    "recipeId": "21849",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-verrine-de-panna-cotta-a-la-vanille-et-au-chocolat",
+    "createdAt": "2018-01-23T03:11:20+00:00",
+    "modifiedAt": "2022-06-26T23:51:29+00:00",
+    "editorialPostId": "10070",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "verrine-de-panna-cotta-a-la-vanille-et-au-chocolat",
+    "editorialCreatedAt": "2018-01-23T03:11:20+00:00",
+    "editorialModifiedAt": "2022-06-26T23:50:28+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Verrine de panna cotta à la vanille et au chocolat",
+  "description": "Vous pouvez aussi préparer ce dessert dans un grand moule puis le découper en cubes avant de servir.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Un dessert très léger à base de lait et de crème avec de la gélatine. En Russie, ce délice s'appelle \"Le lait d'oiseau\" pour désigner quelque chose d'impossible et extrêmement bon. La présentation en verrines est en même temps pratique et élégante. Parfait pour <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">un café gourmand</a>!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21849,\"template\":\"chic-template-french\",\"updated\":1646005668832} -->\n<!--WPRM Recipe 21849-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Verrine de panna cotta à la vanille et au chocolat</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0025.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tVous pouvez aussi préparer ce dessert dans un grand moule puis le découper en cubes avant de servir.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Couche blanche à la vanille</h4><ul><li>500 ml de crème liquide entière</li><li>500 ml de lait</li><li>8 cuillères à soupe de sucre en poudre</li><li>1 cuillère à soupe de vanille liquide (ou 1 gousse de vanille)</li><li>1/2 verre d'eau (froide)</li><li>26 g de gélatine</li></ul><h4>Couche au chocolat</h4><ul><li>60 ml de lait</li><li>1 cuillère à soupe de sucre</li><li>1 cuillère à soupe de cacao en poudre</li><li>3 cuillères à soupe d'eau (froide)</li><li>4 g de gélatine</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Couche blanche à la vanille</h4><ol><li>Dans une casserole, faire chauffer la crème, le lait, le sucre et la vanille. La préparation doit être chaude mais ne pas bouillir. </li><li>Faire tremper la gélatine dans l'eau froide.</li><li>Ajouter la gélatine ramollie dans la casserole et bien mélanger pour la dissoudre. Passer au tamis.\r\n</li><li>Répartir la préparation dans des verrines. Mettre dans le réfrigérateur et laisser durcir environ 3 heures.</li></ol><h4>Couche au chocolat</h4><ol><li>Dans une petite casserole, faire chauffer le lait avec le sucre et le cacao. La préparation doit être chaude mais ne pas bouillir. </li><li>Faire tremper la gélatine dans l'eau froide.</li><li>Ajouter la gélatine ramollie et bien mélanger pour la dissoudre. Passer au tamis.</li><li>Répartir cette préparation au chocolat dans les verrines sur la couche blanche durcie. </li><li>Mettre au réfrigérateur et laisser reposer 3 heures avant de servir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0015.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24524",
+      "sourceTaxonomyId": "24524",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24539",
+      "sourceTaxonomyId": "24539",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24566",
+      "sourceTaxonomyId": "24566",
+      "name": "de sucre",
+      "slug": "de-sucre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24570",
+      "sourceTaxonomyId": "24570",
+      "name": "de vanille liquide (ou 1 gousse de vanille)",
+      "slug": "de-vanille-liquide-ou-1-gousse-de-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24571",
+      "sourceTaxonomyId": "24571",
+      "name": "de gélatine",
+      "slug": "de-gelatine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25496",
+      "sourceTaxonomyId": "25496",
+      "name": "verre",
+      "slug": "verre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "244",
+      "sourceTaxonomyId": "244",
+      "name": "de sucre",
+      "slug": "de-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "372",
+      "sourceTaxonomyId": "372",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "709",
+      "sourceTaxonomyId": "709",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4900",
+      "sourceTaxonomyId": "4900",
+      "name": "de gélatine",
+      "slug": "de-gelatine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15256",
+      "sourceTaxonomyId": "15256",
+      "name": "de vanille liquide (ou 1 gousse de vanille)",
+      "slug": "de-vanille-liquide-ou-1-gousse-de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1248",
+      "sourceTaxonomyId": "1248",
+      "name": "verrine",
+      "slug": "verrine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1552",
+      "sourceTaxonomyId": "1552",
+      "name": "chocolat",
+      "slug": "chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3043",
+      "sourceTaxonomyId": "3043",
+      "name": "vanille",
+      "slug": "vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3156",
+      "sourceTaxonomyId": "3156",
+      "name": "produit laitier",
+      "slug": "produit-laitier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3473",
+      "sourceTaxonomyId": "3473",
+      "name": "cacao en poudre",
+      "slug": "cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3477",
+      "sourceTaxonomyId": "3477",
+      "name": "sans oeuf",
+      "slug": "sans-oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4882",
+      "sourceTaxonomyId": "4882",
+      "name": "duo",
+      "slug": "duo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4884",
+      "sourceTaxonomyId": "4884",
+      "name": "panna cotta",
+      "slug": "panna-cotta"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4886",
+      "sourceTaxonomyId": "4886",
+      "name": "gele",
+      "slug": "gele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4888",
+      "sourceTaxonomyId": "4888",
+      "name": "gelatine",
+      "slug": "gelatine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5117",
+      "sourceTaxonomyId": "5117",
+      "name": "lait d'oiseau",
+      "slug": "lait-doiseau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5119",
+      "sourceTaxonomyId": "5119",
+      "name": "vanille-chocolat",
+      "slug": "vanille-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5163",
+      "sourceTaxonomyId": "5163",
+      "name": "pas cher",
+      "slug": "pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7185",
+      "sourceTaxonomyId": "7185",
+      "name": "dessert facile",
+      "slug": "dessert-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7253",
+      "sourceTaxonomyId": "7253",
+      "name": "dessert russe",
+      "slug": "dessert-russe"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "12 verrines",
+      "value": 12,
+      "unit": "verrines",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "320",
+        "minutes": 320
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "300",
+          "minutes": 300
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:10065",
+    "ingredientGroups": [
+      {
+        "name": "Couche blanche à la vanille",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "500 ml de crème liquide entière",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "500 ml de lait",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "8 cuillères à soupe de sucre en poudre",
+            "quantity": {
+              "raw": "8 cuillères à soupe",
+              "value": 8,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cuillère à soupe de vanille liquide (ou 1 gousse de vanille)",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de vanille liquide (ou 1 gousse de vanille)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 verre d'eau froide",
+            "quantity": {
+              "raw": "1/2 verre",
+              "value": 0.5,
+              "unit": "verre",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": "froide"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "26 g de gélatine",
+            "quantity": {
+              "raw": "26 g",
+              "value": 26,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de gélatine",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Couche au chocolat",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "60 ml de lait",
+            "quantity": {
+              "raw": "60 ml",
+              "value": 60,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cuillère à soupe de sucre",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de sucre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cuillère à soupe de cacao en poudre",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de cacao en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3 cuillères à soupe d'eau froide",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": "froide"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 g de gélatine",
+            "quantity": {
+              "raw": "4 g",
+              "value": 4,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de gélatine",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Couche blanche à la vanille",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une casserole, faire chauffer la crème, le lait, le sucre et la vanille. La préparation doit être chaude mais ne pas bouillir.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire tremper la gélatine dans l'eau froide.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter la gélatine ramollie dans la casserole et bien mélanger pour la dissoudre. Passer au tamis.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Répartir la préparation dans des verrines. Mettre dans le réfrigérateur et laisser durcir environ 3 heures.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Couche au chocolat",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une petite casserole, faire chauffer le lait avec le sucre et le cacao. La préparation doit être chaude mais ne pas bouillir.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire tremper la gélatine dans l'eau froide.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter la gélatine ramollie et bien mélanger pour la dissoudre. Passer au tamis.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Répartir cette préparation au chocolat dans les verrines sur la couche blanche durcie.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Mettre au réfrigérateur et laisser reposer 3 heures avant de servir.",
+            "mediaId": "wordpress-attachment:10064"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10065",
+      "sourceId": "10065",
+      "path": "/recipes/media/wordpress/10065.png",
+      "alt": "Птичье молоко в стаканчиках",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10064",
+      "sourceId": "10064",
+      "path": "/recipes/media/wordpress/10064.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

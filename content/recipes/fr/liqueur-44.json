@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22205",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:9115",
+  "slug": "liqueur-44",
+  "source": {
+    "system": "wordpress",
+    "postId": "22205",
+    "recipeId": "22205",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-liqueur-44",
+    "createdAt": "2019-11-03T04:05:00+00:00",
+    "modifiedAt": "2024-11-12T01:45:19+00:00",
+    "editorialPostId": "13825",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "liqueur-44",
+    "editorialCreatedAt": "2019-11-03T04:05:00+00:00",
+    "editorialModifiedAt": "2024-11-12T01:38:44+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Liqueur 44",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une orange, 1 litre de vodka ou de rhum, 44 grains de café, 44 morceaux de sucre et 44 jours de macération. Une boisson maison qui va enchanter vos invités. A consommer avec modération ! ;)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22205,\"template\":\"chic-template-french\",\"updated\":1731375347631} -->\n<!--WPRM Recipe 22205-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Liqueur 44</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_6084.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 orange non traitée</li><li>44 grains de café</li><li>44 morceaux  de sucre (ou 220 g de sucre en poudre)</li><li>1 litre de vodka ou de rhum</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Laver, ébouillanter puis sécher un bocal assez large pour contenir l'orange. Laver et essuyer l'orange. \r\n     \r\n   \r\n\r\n</li><li>Avec la pointe d'un couteau, faire 44 entailles dans l'orange et y enfoncer les graines de café.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4500.Blog_-150x150.png\"/><br /></li><li>Mettre l'orange dans le bocal, ajouter le sucre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4518.Blog_-150x150.png\"/><br /></li><li>Verser la vodka (ou le rhum).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4530.Blog_-150x150.png\"/><br /></li><li> Fermer hermétiquement et laisser macérer 44 jours dans un endroit sombre et frais.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4546.Blog_-150x150.png\"/><br /></li><li>Jeter l'orange (malheureusement, elle n'est plus bonne du tout). Filtrer la liqueur et mettre en bouteille.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_5977.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Boissons</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "La liqueur 44 : Une orange, 1 litre de vodka ou de rhum, 44 grains de café, 44 morceaux de sucre et 44 jours de macération."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24365",
+      "sourceTaxonomyId": "24365",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24780",
+      "sourceTaxonomyId": "24780",
+      "name": "orange non traitée",
+      "slug": "orange-non-traitee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24781",
+      "sourceTaxonomyId": "24781",
+      "name": "de café",
+      "slug": "de-cafe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24782",
+      "sourceTaxonomyId": "24782",
+      "name": "de sucre (ou 220 g de sucre en poudre)",
+      "slug": "de-sucre-ou-220-g-de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24783",
+      "sourceTaxonomyId": "24783",
+      "name": "de vodka ou de rhum",
+      "slug": "de-vodka-ou-de-rhum"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "114",
+      "sourceTaxonomyId": "114",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1680",
+      "sourceTaxonomyId": "1680",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9099",
+      "sourceTaxonomyId": "9099",
+      "name": "orange non traitée",
+      "slug": "orange-non-traitee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9101",
+      "sourceTaxonomyId": "9101",
+      "name": "de café",
+      "slug": "de-cafe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9103",
+      "sourceTaxonomyId": "9103",
+      "name": "de vodka ou de rhum",
+      "slug": "de-vodka-ou-de-rhum"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9107",
+      "sourceTaxonomyId": "9107",
+      "name": "de sucre (ou 220 g de sucre en poudre)",
+      "slug": "de-sucre-ou-220-g-de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2342",
+      "sourceTaxonomyId": "2342",
+      "name": "vodka",
+      "slug": "vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2350",
+      "sourceTaxonomyId": "2350",
+      "name": "alcool",
+      "slug": "alcool"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6065",
+      "sourceTaxonomyId": "6065",
+      "name": "fait maison",
+      "slug": "fait-maison"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6802",
+      "sourceTaxonomyId": "6802",
+      "name": "boisson de fete",
+      "slug": "boisson-de-fete"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "1 litre",
+      "value": 1,
+      "unit": "litre",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "59",
+        "minutes": 59
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13835",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 orange non traitée",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "orange non traitée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "44 grains de café",
+            "quantity": {
+              "raw": "44 grains",
+              "value": 44,
+              "unit": "grains",
+              "scalable": true
+            },
+            "name": "de café",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "44 morceaux de sucre (ou 220 g de sucre en poudre)",
+            "quantity": {
+              "raw": "44 morceaux",
+              "value": 44,
+              "unit": "morceaux",
+              "scalable": true
+            },
+            "name": "de sucre (ou 220 g de sucre en poudre)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 litre de vodka ou de rhum",
+            "quantity": {
+              "raw": "1 litre",
+              "value": 1,
+              "unit": "litre",
+              "scalable": true
+            },
+            "name": "de vodka ou de rhum",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Laver, ébouillanter puis sécher un bocal assez large pour contenir l'orange. Laver et essuyer l'orange.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Avec la pointe d'un couteau, faire 44 entailles dans l'orange et y enfoncer les graines de café.",
+            "mediaId": "wordpress-attachment:13830"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mettre l'orange dans le bocal, ajouter le sucre.",
+            "mediaId": "wordpress-attachment:13831"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Verser la vodka (ou le rhum).",
+            "mediaId": "wordpress-attachment:13832"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Fermer hermétiquement et laisser macérer 44 jours dans un endroit sombre et frais.",
+            "mediaId": "wordpress-attachment:13833"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Jeter l'orange (malheureusement, elle n'est plus bonne du tout). Filtrer la liqueur et mettre en bouteille.",
+            "mediaId": "wordpress-attachment:13834"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13835",
+      "sourceId": "13835",
+      "path": "/recipes/media/wordpress/13835.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13830",
+      "sourceId": "13830",
+      "path": "/recipes/media/wordpress/13830.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13831",
+      "sourceId": "13831",
+      "path": "/recipes/media/wordpress/13831.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13832",
+      "sourceId": "13832",
+      "path": "/recipes/media/wordpress/13832.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13833",
+      "sourceId": "13833",
+      "path": "/recipes/media/wordpress/13833.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13834",
+      "sourceId": "13834",
+      "path": "/recipes/media/wordpress/13834.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

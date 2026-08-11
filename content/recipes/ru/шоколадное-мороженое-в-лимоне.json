@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22683",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:4457",
+  "slug": "шоколадное-мороженое-в-лимоне",
+  "source": {
+    "system": "wordpress",
+    "postId": "22683",
+    "recipeId": "22683",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5-%d0%b2-%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%b5",
+    "createdAt": "2018-07-25T17:45:00+00:00",
+    "modifiedAt": "2022-11-01T03:32:32+00:00",
+    "editorialPostId": "9428",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b5-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5-%d0%b2-%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%b5",
+    "editorialCreatedAt": "2018-07-25T17:45:00+00:00",
+    "editorialModifiedAt": "2022-11-01T03:32:29+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Мороженое в лимоне",
+  "description": "Чтобы было легче работать с мороженым и сорбетом, достаньте их из морозилки и дайте постоять минуты 3 при комнатной температуре.",
+  "editorial": {
+    "content": "<p>Освежающий и легкий десерт, поданный в кожуре лимона. Внутри лимона под слоем нежного шоколадного мороженого прячется бодрящий своей кислинкой&nbsp; лимонный <span class=\"st\">сорбет</span>.</p>\n<p>Для сервировки а ля&nbsp; <a href=\"https://mycafegourmand.com/ru/cafe-gourmand-3\">Cafe gourmand</a> используйте лимончики маленького размера. Удивите ваших друзей!</p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22683,\"template\":\"chic-template-russian\",\"updated\":1629357101140} -->\n<!--WPRM Recipe 22683-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Мороженое в лимоне</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180507_091837.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tЧтобы было легче работать с мороженым и сорбетом, достаньте их из морозилки и дайте постоять минуты 3 при комнатной температуре. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 лимонов</li><li>1  упаковка (300 г) лимонного сорбета ((sorbet))</li><li>1  упаковка (300 г) шоколадного мороженого</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Срезать у лимонов шапочку. С помощью чайной ложечки аккуратно отделить мякоть от стенок и вынуть ее, не повредив кожуры.</li><li>Положить сначала немного лимонного сорбета в кожуру лимонов. Хорошо утрамбовать. Все оставшееся место наполнить шоколадным мороженым.</li><li>Закрыть наполненные лимоны шапочками и сразу же убрать в морозилку. Десерт можно подавать примерно через 1 час, когда кожура лимонов заморозится.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24933",
+      "sourceTaxonomyId": "24933",
+      "name": "шоколадного мороженого",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25084",
+      "sourceTaxonomyId": "25084",
+      "name": "лимонов",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25085",
+      "sourceTaxonomyId": "25085",
+      "name": "лимонного сорбета",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%be%d1%80%d0%b1%d0%b5%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "728",
+      "sourceTaxonomyId": "728",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2006",
+      "sourceTaxonomyId": "2006",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4496",
+      "sourceTaxonomyId": "4496",
+      "name": "лимонов",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4500",
+      "sourceTaxonomyId": "4500",
+      "name": "шоколадного мороженого",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4514",
+      "sourceTaxonomyId": "4514",
+      "name": "лимонного сорбета",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%be%d1%80%d0%b1%d0%b5%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1578",
+      "sourceTaxonomyId": "1578",
+      "name": "лимон",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4460",
+      "sourceTaxonomyId": "4460",
+      "name": "десерт без выпечки",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b1%d0%b5%d0%b7-%d0%b2%d1%8b%d0%bf%d0%b5%d1%87%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4462",
+      "sourceTaxonomyId": "4462",
+      "name": "летний десерт",
+      "slug": "%d0%bb%d0%b5%d1%82%d0%bd%d0%b8%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4464",
+      "sourceTaxonomyId": "4464",
+      "name": "для лета",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%bb%d0%b5%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4466",
+      "sourceTaxonomyId": "4466",
+      "name": "в жаркий день",
+      "slug": "%d0%b2-%d0%b6%d0%b0%d1%80%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b5%d0%bd%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4468",
+      "sourceTaxonomyId": "4468",
+      "name": "легкий десерт после сытного ужина",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%bf%d0%be%d1%81%d0%bb%d0%b5-%d1%81%d1%8b%d1%82%d0%bd%d0%be%d0%b3%d0%be-%d1%83%d0%b6%d0%b8%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4470",
+      "sourceTaxonomyId": "4470",
+      "name": "кожура лимона",
+      "slug": "%d0%ba%d0%be%d0%b6%d1%83%d1%80%d0%b0-%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4476",
+      "sourceTaxonomyId": "4476",
+      "name": "фруктовое мороженое",
+      "slug": "%d1%84%d1%80%d1%83%d0%ba%d1%82%d0%be%d0%b2%d0%be%d0%b5-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4478",
+      "sourceTaxonomyId": "4478",
+      "name": "цитрусовые",
+      "slug": "%d1%86%d0%b8%d1%82%d1%80%d1%83%d1%81%d0%be%d0%b2%d1%8b%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4480",
+      "sourceTaxonomyId": "4480",
+      "name": "шоколадное мороженое",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b5-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4482",
+      "sourceTaxonomyId": "4482",
+      "name": "лимонное морожено",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%bd%d0%be%d0%b5-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4508",
+      "sourceTaxonomyId": "4508",
+      "name": "сорбет",
+      "slug": "%d1%81%d0%be%d1%80%d0%b1%d0%b5%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4510",
+      "sourceTaxonomyId": "4510",
+      "name": "шербет",
+      "slug": "%d1%88%d0%b5%d1%80%d0%b1%d0%b5%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4512",
+      "sourceTaxonomyId": "4512",
+      "name": "сорбе",
+      "slug": "%d1%81%d0%be%d1%80%d0%b1%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4516",
+      "sourceTaxonomyId": "4516",
+      "name": "удивить друзей",
+      "slug": "%d1%83%d0%b4%d0%b8%d0%b2%d0%b8%d1%82%d1%8c-%d0%b4%d1%80%d1%83%d0%b7%d0%b5%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4690",
+      "sourceTaxonomyId": "4690",
+      "name": "morozhenoe",
+      "slug": "morozhenoe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4692",
+      "sourceTaxonomyId": "4692",
+      "name": "desert v limone",
+      "slug": "desert-v-limone"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5775",
+      "sourceTaxonomyId": "5775",
+      "name": "элегантно",
+      "slug": "%d1%8d%d0%bb%d0%b5%d0%b3%d0%b0%d0%bd%d1%82%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8359",
+      "sourceTaxonomyId": "8359",
+      "name": "десерт для фуршета",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b4%d0%bb%d1%8f-%d1%84%d1%83%d1%80%d1%88%d0%b5%d1%82%d0%b0"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "21",
+        "minutes": 21
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:9412",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 лимонов",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "лимонов",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 упаковка (300 г) лимонного сорбета (sorbet)",
+            "quantity": {
+              "raw": "1 упаковка (300 г)",
+              "value": 1,
+              "unit": "упаковка (300 г)",
+              "scalable": true
+            },
+            "name": "лимонного сорбета",
+            "notes": "(sorbet)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 упаковка (300 г) шоколадного мороженого",
+            "quantity": {
+              "raw": "1 упаковка (300 г)",
+              "value": 1,
+              "unit": "упаковка (300 г)",
+              "scalable": true
+            },
+            "name": "шоколадного мороженого",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Срезать у лимонов шапочку. С помощью чайной ложечки аккуратно отделить мякоть от стенок и вынуть ее, не повредив кожуры.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Положить сначала немного лимонного сорбета в кожуру лимонов. Хорошо утрамбовать. Все оставшееся место наполнить шоколадным мороженым.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Закрыть наполненные лимоны шапочками и сразу же убрать в морозилку. Десерт можно подавать примерно через 1 час, когда кожура лимонов заморозится.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:9412",
+      "sourceId": "9412",
+      "path": "/recipes/media/wordpress/9412.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

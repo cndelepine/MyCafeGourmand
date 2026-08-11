@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22089",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:774",
+  "slug": "oeufs-farcis",
+  "source": {
+    "system": "wordpress",
+    "postId": "22089",
+    "recipeId": "22089",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-oeufs-farcis",
+    "createdAt": "2019-04-22T03:25:43+00:00",
+    "modifiedAt": "2021-12-25T01:58:09+00:00",
+    "editorialPostId": "4609",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "oeufs-farcis",
+    "editorialCreatedAt": "2019-04-22T03:25:43+00:00",
+    "editorialModifiedAt": "2021-12-25T01:58:07+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Œufs farcis",
+  "description": "En fin de cuisson, pour écaler les œufs plus facilement, plongez-les dans l'eau glacée.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une recette d'œufs farcis facile à réaliser pour une entrée ou un apéritif. Il existe de nombreuses recettes : au jambon, au poisson, aux <span id=\":1a3.29\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">champignons</span>... Celle-ci est une des plus simples avec de la mayonnaise et de l'ail. On ajoute un peu de beurre (bien ramolli) dans la garniture et le <span id=\":1a3.30\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">résultat</span> est magnifique - les&nbsp;œufs sont <span id=\":1a3.31\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">très</span> tendres et la garniture est super onctueuse ! Merci pour l'idée, <span id=\":1a3.32\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Olga</span> ! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22089,\"template\":\"chic-template-french\",\"updated\":1640397470732} -->\n<!--WPRM Recipe 22089-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Œufs farcis</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5976.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tEn fin de cuisson, pour écaler les œufs plus facilement, plongez-les dans l'eau glacée. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>10 œufs durs (écalés)</li><li>2 cuillères à café de beurre (très mou)</li><li>1,5 cuillère à soupe de mayonnaise</li><li>2 gousses d'ail (écrasées)</li><li>1  pincée de poivre de Cayenne (en poudre)</li><li>Sel du moulin</li><li>Quelques brins d'aneth (pour la décoration)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Couper les œufs en deux dans la longueur. Retirer les jaunes d'œufs et les écraser à la fourchette.</li><li>Ajouter le beurre ramolli, la mayonnaise, l'ail, le sel et le poivre de Cayenne. Bien mélanger.\r\n\r\n</li><li>Verser la préparation au jaune d'œuf dans une poche à douille et remplir généreusement les demi-blancs d'œufs. Disposer les œufs farcis sur un lit de salade verte. Servir aussitôt, ou réserver dans le réfrigérateur. Avant de servir, décorer avec l'aneth.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_5955.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24500",
+      "sourceTaxonomyId": "24500",
+      "name": "œufs durs",
+      "slug": "oeufs-durs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24556",
+      "sourceTaxonomyId": "24556",
+      "name": "Sel du moulin",
+      "slug": "sel-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24614",
+      "sourceTaxonomyId": "24614",
+      "name": "de poivre de Cayenne",
+      "slug": "de-poivre-de-cayenne"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24690",
+      "sourceTaxonomyId": "24690",
+      "name": "d'aneth",
+      "slug": "daneth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "535",
+      "sourceTaxonomyId": "535",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "555",
+      "sourceTaxonomyId": "555",
+      "name": "d'aneth",
+      "slug": "daneth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1828",
+      "sourceTaxonomyId": "1828",
+      "name": "Sel du moulin",
+      "slug": "sel-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2399",
+      "sourceTaxonomyId": "2399",
+      "name": "œufs durs",
+      "slug": "oeufs-durs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2434",
+      "sourceTaxonomyId": "2434",
+      "name": "de poivre de Cayenne",
+      "slug": "de-poivre-de-cayenne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1212",
+      "sourceTaxonomyId": "1212",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1596",
+      "sourceTaxonomyId": "1596",
+      "name": "ail",
+      "slug": "ail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2422",
+      "sourceTaxonomyId": "2422",
+      "name": "oeufs farcis",
+      "slug": "oeufs-farcis"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3402",
+      "sourceTaxonomyId": "3402",
+      "name": "beurre",
+      "slug": "beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4425",
+      "sourceTaxonomyId": "4425",
+      "name": "oeuf dur",
+      "slug": "oeuf-dur"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 personnes",
+      "value": 10,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:681",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "10 œufs durs écalés",
+            "quantity": {
+              "raw": "10",
+              "value": 10,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs durs",
+            "notes": "écalés"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 cuillères à café de beurre très mou",
+            "quantity": {
+              "raw": "2 cuillères à café",
+              "value": 2,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": "très mou"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1,5 cuillère à soupe de mayonnaise",
+            "quantity": {
+              "raw": "1,5 cuillère à soupe",
+              "unit": "cuillère à soupe",
+              "scalable": false
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 gousses d'ail écrasées",
+            "quantity": {
+              "raw": "2 gousses",
+              "value": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "écrasées"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 pincée de poivre de Cayenne en poudre",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de poivre de Cayenne",
+            "notes": "en poudre"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Sel du moulin",
+            "quantity": null,
+            "name": "Sel du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques brins d'aneth pour la décoration",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "d'aneth",
+            "notes": "pour la décoration"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper les œufs en deux dans la longueur. Retirer les jaunes d'œufs et les écraser à la fourchette.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajouter le beurre ramolli, la mayonnaise, l'ail, le sel et le poivre de Cayenne. Bien mélanger.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Verser la préparation au jaune d'œuf dans une poche à douille et remplir généreusement les demi-blancs d'œufs. Disposer les œufs farcis sur un lit de salade verte. Servir aussitôt, ou réserver dans le réfrigérateur. Avant de servir, décorer avec l'aneth.",
+            "mediaId": "wordpress-attachment:4599"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:681",
+      "sourceId": "681",
+      "path": "/recipes/media/wordpress/681.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4599",
+      "sourceId": "4599",
+      "path": "/recipes/media/wordpress/4599.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

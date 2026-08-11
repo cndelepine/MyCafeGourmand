@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22138",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:4834",
+  "slug": "creme-a-tartiner-aux-champignons",
+  "source": {
+    "system": "wordpress",
+    "postId": "22138",
+    "recipeId": "22138",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-creme-a-tartiner-aux-champignons",
+    "createdAt": "2018-06-04T16:45:27+00:00",
+    "modifiedAt": "2022-07-30T19:13:23+00:00",
+    "editorialPostId": "11204",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "creme-a-tartiner-aux-champignons",
+    "editorialCreatedAt": "2018-06-04T16:45:27+00:00",
+    "editorialModifiedAt": "2022-07-30T19:13:19+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Crème à tartiner aux champignons",
+  "description": "Laisser quelques tranches de champignons pour la décoration.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La crème à tartiner aux champignons n'est pas très originale mais a une texture bien onctueuse qui fond dans la bouche. Vous aussi, fondez de plaisir en la servant sur des toasts ou sur du pain frais. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22138,\"template\":\"chic-template-french\",\"updated\":1659208387406} -->\n<!--WPRM Recipe 22138-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Crème à tartiner aux champignons</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180502_081301.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLaisser quelques tranches de champignons pour la décoration.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>250 g de champignons de Paris ((ou d'autres))</li><li>1 oignon</li><li>3 gousses d'ail</li><li>220 g de cream cheese Philadelphia (Vache qui rit ou Kiri) (à la température ambiante)</li><li>Sel et poivre du moulin</li><li>6 cuillères à soupe d'huile d'olive</li><li>Quelques brins de ciboulette (aneth, persil) (ciselés)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Nettoyer les champignons puis les couper en tranches.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_151111.Blog_-150x150.png\"/><br /></li><li>Éplucher l'oignon et le couper en demi-cercles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_151836.Blog_-150x150.png\"/><br /></li><li>Éplucher et émincer l'ail.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153743.Blog_-150x150.png\"/><br /></li><li>Dans une poêle, faire chauffer un peu d'huile et y faire revenir les champignons sur le feu doux, pendant environ 10 minutes. Saler et poivrer en fin de cuisson. Retirer la poêle du feu et laisser les champignons refroidir.</li><li>Dans une autre poêle, faire chauffer le reste de l'huile et y faire revenir l'oignon sur le feu doux en remuant régulièrement. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153136.Blog_-150x150.png\"/><br /></li><li>Ajouter l'ail, mélanger et faire mijoter pendant encore 1 minute. Retirer la poêle du feu et laisser refroidir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_153844.Blog_-150x150.png\"/><br /></li><li>Mettre dans un blender l'oignon et les champignons. Mixer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_154355.Blog_-150x150.png\"/><br /></li><li>Ajouter le cream cheese Philadelphia. Mixer encore.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_154806.Blog_-150x150.png\"/><br /></li><li>Goûter la préparation et rectifier l'assaisonnement.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_155303.Blog_-150x150.png\"/><br /></li><li>Transférer la crème aux champignons dans un plat de service. Décorer avec des tranches de champignons et de ciboulette.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/Resized_20180501_160107.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24080",
+      "sourceTaxonomyId": "24080",
+      "name": "de ciboulette (aneth, persil)",
+      "slug": "de-ciboulette-aneth-persil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24750",
+      "sourceTaxonomyId": "24750",
+      "name": "de champignons de Paris",
+      "slug": "de-champignons-de-paris"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24751",
+      "sourceTaxonomyId": "24751",
+      "name": "de cream cheese Philadelphia (Vache qui rit ou Kiri)",
+      "slug": "de-cream-cheese-philadelphia-vache-qui-rit-ou-kiri"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3848",
+      "sourceTaxonomyId": "3848",
+      "name": "de ciboulette (aneth, persil)",
+      "slug": "de-ciboulette-aneth-persil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5423",
+      "sourceTaxonomyId": "5423",
+      "name": "de champignons de Paris",
+      "slug": "de-champignons-de-paris"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5425",
+      "sourceTaxonomyId": "5425",
+      "name": "de cream cheese Philadelphia (Vache qui rit ou Kiri)",
+      "slug": "de-cream-cheese-philadelphia-vache-qui-rit-ou-kiri"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1486",
+      "sourceTaxonomyId": "1486",
+      "name": "champignons",
+      "slug": "champignons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2165",
+      "sourceTaxonomyId": "2165",
+      "name": "cream cheese",
+      "slug": "cream-cheese-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2169",
+      "sourceTaxonomyId": "2169",
+      "name": "philadelphia",
+      "slug": "philadelphia-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4437",
+      "sourceTaxonomyId": "4437",
+      "name": "tartine",
+      "slug": "tartine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5411",
+      "sourceTaxonomyId": "5411",
+      "name": "creme a tartiner",
+      "slug": "creme-a-tartiner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5413",
+      "sourceTaxonomyId": "5413",
+      "name": "toast",
+      "slug": "toast"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 personnes",
+      "value": 10,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:9082",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g de champignons de Paris (ou d'autres)",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de champignons de Paris",
+            "notes": "(ou d'autres)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 oignon",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 gousses d'ail",
+            "quantity": {
+              "raw": "3 gousses",
+              "value": 3,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "220 g de cream cheese Philadelphia (Vache qui rit ou Kiri) à la température ambiante",
+            "quantity": {
+              "raw": "220 g",
+              "value": 220,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de cream cheese Philadelphia (Vache qui rit ou Kiri)",
+            "notes": "à la température ambiante"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "6 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "6 cuillères à soupe",
+              "value": 6,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques brins de ciboulette (aneth, persil) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de ciboulette (aneth, persil)",
+            "notes": "ciselés"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Nettoyer les champignons puis les couper en tranches.",
+            "mediaId": "wordpress-attachment:9074"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Éplucher l'oignon et le couper en demi-cercles.",
+            "mediaId": "wordpress-attachment:9075"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Éplucher et émincer l'ail.",
+            "mediaId": "wordpress-attachment:9077"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Dans une poêle, faire chauffer un peu d'huile et y faire revenir les champignons sur le feu doux, pendant environ 10 minutes. Saler et poivrer en fin de cuisson. Retirer la poêle du feu et laisser les champignons refroidir.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Dans une autre poêle, faire chauffer le reste de l'huile et y faire revenir l'oignon sur le feu doux en remuant régulièrement.",
+            "mediaId": "wordpress-attachment:9076"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Ajouter l'ail, mélanger et faire mijoter pendant encore 1 minute. Retirer la poêle du feu et laisser refroidir.",
+            "mediaId": "wordpress-attachment:9078"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Mettre dans un blender l'oignon et les champignons. Mixer.",
+            "mediaId": "wordpress-attachment:9079"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Ajouter le cream cheese Philadelphia. Mixer encore.",
+            "mediaId": "wordpress-attachment:9080"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Goûter la préparation et rectifier l'assaisonnement.",
+            "mediaId": "wordpress-attachment:9081"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Transférer la crème aux champignons dans un plat de service. Décorer avec des tranches de champignons et de ciboulette.",
+            "mediaId": "wordpress-attachment:9083"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:9082",
+      "sourceId": "9082",
+      "path": "/recipes/media/wordpress/9082.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:9074",
+      "sourceId": "9074",
+      "path": "/recipes/media/wordpress/9074.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9075",
+      "sourceId": "9075",
+      "path": "/recipes/media/wordpress/9075.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9077",
+      "sourceId": "9077",
+      "path": "/recipes/media/wordpress/9077.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9076",
+      "sourceId": "9076",
+      "path": "/recipes/media/wordpress/9076.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9078",
+      "sourceId": "9078",
+      "path": "/recipes/media/wordpress/9078.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9079",
+      "sourceId": "9079",
+      "path": "/recipes/media/wordpress/9079.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9080",
+      "sourceId": "9080",
+      "path": "/recipes/media/wordpress/9080.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9081",
+      "sourceId": "9081",
+      "path": "/recipes/media/wordpress/9081.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:9083",
+      "sourceId": "9083",
+      "path": "/recipes/media/wordpress/9083.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

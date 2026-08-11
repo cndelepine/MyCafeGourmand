@@ -1,4 +1,5 @@
 import type { Locale, RecipeRecord } from "@/content/schema";
+import { resolveRecipeMediaUrl } from "./recipe-media";
 import { absoluteUrl, canonicalUrl } from "./site";
 import { getRecipePath } from "./recipe-routes";
 
@@ -47,7 +48,7 @@ export function getRecipeStructuredData(
     return {
       "@type": "HowToStep" as const,
       text: step.text,
-      ...(stepMedia ? { image: absoluteUrl(stepMedia.path) } : {})
+      ...(stepMedia ? { image: absoluteUrl(resolveRecipeMediaUrl(stepMedia.path)) } : {})
     };
   });
   const categories = record.taxonomies
@@ -79,7 +80,7 @@ export function getRecipeStructuredData(
     "@type": "Recipe",
     name: record.title,
     ...(record.description ? { description: record.description } : {}),
-    ...(hero ? { image: [absoluteUrl(hero.path)] } : {}),
+    ...(hero ? { image: [absoluteUrl(resolveRecipeMediaUrl(hero.path))] } : {}),
     recipeIngredient: record.recipe.ingredientGroups.flatMap((group) =>
       group.items.map((item) => item.raw)
     ),

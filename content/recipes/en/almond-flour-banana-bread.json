@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21543",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:5606",
+  "slug": "almond-flour-banana-bread",
+  "source": {
+    "system": "wordpress",
+    "postId": "21543",
+    "recipeId": "21543",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-almond-flour-banana-bread",
+    "createdAt": "2018-05-28T03:33:21+00:00",
+    "modifiedAt": "2022-07-30T18:58:26+00:00",
+    "editorialPostId": "10596",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "almond-flour-banana-bread",
+    "editorialCreatedAt": "2018-05-28T03:33:21+00:00",
+    "editorialModifiedAt": "2022-07-30T18:58:23+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Almond Flour Banana Bread",
+  "description": "Although the chocolate chips and walnuts are not mandatory, they add a whole new level of taste and texture to this cake.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This banana bread gets its amber color and caramelized taste from brown sugar and the taste is amplified by the almond flour. This is not gluten-free recipe, you need to add a little of all purpose flour too.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>If you don't have almond flour or brown sugar, you can try our famous <span class=\"wpurp-recipe-title\"><a href=\"https://mycafegourmand.com/recipe/chocolate-chip-banana-nut-bread\">Chocolate Chip Banana Nut Bread</a>. </span></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>If you are looking for gluten-free recipe, try our <a href=\"https://mycafegourmand.com/recipe/chocolate-chip-banana-nut-muffins\"> Chocolate Chip Banana Nut Muffins</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21543,\"template\":\"chic-template-english\",\"updated\":1607471254919} -->\n<!--WPRM Recipe 21543-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Almond Flour Banana Bread</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180527_194003.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tAlthough the chocolate chips and walnuts are not mandatory, they add a whole new level of taste and texture to this cake.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 very ripe bananas</li><li>200 g brown sugar</li><li>4 eggs</li><li>200 g almond flour</li><li>100 g unsalted butter (melted)</li><li>80 g all purpose flour</li><li>2 pinches salt</li><li>2 tsp baking powder</li><li>100 g chopped walnuts</li><li>60 g chocolate chips (60%)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 350 degrees F (180C). Grease a large bread pan and set aside.</li><li>Mash bananas with a fork and mix them with brown sugar.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0163.Blog_-150x150.png\"/><br /></li><li>Add eggs and mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0165.Blog_-150x150.png\"/><br /></li><li>Add melted butter,<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0170.Blog_-150x150.png\"/><br /></li><li>and almond flour.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0171.Blog_-150x150.png\"/><br /></li><li>Then add all purpose flour, salt and baking powder. Mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0173.Blog_-150x150.png\"/><br /></li><li>Add walnuts<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0174.Blog_-150x150.png\"/><br /></li><li>and chocolate chips.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0175.Blog_-150x150.png\"/><br /></li><li>Pour the batter into bread pan and bake for about 55 minutes.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0177.Blog_-150x150.png\"/><br /></li><li>Banana bread is ready when a knife inserted into the center comes out clean. Cool the bread in pan for 10 minutes. Remove from pan to wire rack to cool completely.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0187.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24198",
+      "sourceTaxonomyId": "24198",
+      "name": "chocolate chips (60%)",
+      "slug": "chocolate-chips-60"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24294",
+      "sourceTaxonomyId": "24294",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24347",
+      "sourceTaxonomyId": "24347",
+      "name": "very ripe bananas",
+      "slug": "very-ripe-bananas"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24348",
+      "sourceTaxonomyId": "24348",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24349",
+      "sourceTaxonomyId": "24349",
+      "name": "chopped walnuts",
+      "slug": "chopped-walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "881",
+      "sourceTaxonomyId": "881",
+      "name": "chopped walnuts",
+      "slug": "chopped-walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2042",
+      "sourceTaxonomyId": "2042",
+      "name": "very ripe bananas",
+      "slug": "very-ripe-bananas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3600",
+      "sourceTaxonomyId": "3600",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4263",
+      "sourceTaxonomyId": "4263",
+      "name": "chocolate chips (60%)",
+      "slug": "chocolate-chips-60"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5153",
+      "sourceTaxonomyId": "5153",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1959",
+      "sourceTaxonomyId": "1959",
+      "name": "chocolate chip",
+      "slug": "chocolate-chip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3022",
+      "sourceTaxonomyId": "3022",
+      "name": "snack",
+      "slug": "snack-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3634",
+      "sourceTaxonomyId": "3634",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3636",
+      "sourceTaxonomyId": "3636",
+      "name": "very ripe banana",
+      "slug": "very-ripe-banana"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4176",
+      "sourceTaxonomyId": "4176",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5121",
+      "sourceTaxonomyId": "5121",
+      "name": "2 bananas",
+      "slug": "2-bananas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5155",
+      "sourceTaxonomyId": "5155",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5157",
+      "sourceTaxonomyId": "5157",
+      "name": "americain dessert",
+      "slug": "americain-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5159",
+      "sourceTaxonomyId": "5159",
+      "name": "banana bread",
+      "slug": "banana-bread-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5171",
+      "sourceTaxonomyId": "5171",
+      "name": "breakfast",
+      "slug": "breakfast"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5345",
+      "sourceTaxonomyId": "5345",
+      "name": "bananoviy keks",
+      "slug": "bananoviy-keks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5347",
+      "sourceTaxonomyId": "5347",
+      "name": "moist",
+      "slug": "moist"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5351",
+      "sourceTaxonomyId": "5351",
+      "name": "most wanted",
+      "slug": "most-wanted"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5777",
+      "sourceTaxonomyId": "5777",
+      "name": "banana nuts and chocolate",
+      "slug": "banana-nuts-and-chocolate"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "70",
+        "minutes": 70
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10614",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 very ripe bananas",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "very ripe bananas",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g brown sugar",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "brown sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g almond flour",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 g unsalted butter melted",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": "melted"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "80 g all purpose flour",
+            "quantity": {
+              "raw": "80 g",
+              "value": 80,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 pinches salt",
+            "quantity": {
+              "raw": "2 pinches",
+              "value": 2,
+              "unit": "pinches",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "2 tsp baking powder",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "100 g chopped walnuts",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chopped walnuts",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "60 g chocolate chips (60%)",
+            "quantity": {
+              "raw": "60 g",
+              "value": 60,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chocolate chips (60%)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 350 degrees F (180C). Grease a large bread pan and set aside.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mash bananas with a fork and mix them with brown sugar.",
+            "mediaId": "wordpress-attachment:10601"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add eggs and mix well.",
+            "mediaId": "wordpress-attachment:10602"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add melted butter,",
+            "mediaId": "wordpress-attachment:10603"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "and almond flour.",
+            "mediaId": "wordpress-attachment:10604"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Then add all purpose flour, salt and baking powder. Mix well.",
+            "mediaId": "wordpress-attachment:10605"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Add walnuts",
+            "mediaId": "wordpress-attachment:10606"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "and chocolate chips.",
+            "mediaId": "wordpress-attachment:10607"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Pour the batter into bread pan and bake for about 55 minutes.",
+            "mediaId": "wordpress-attachment:10608"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Banana bread is ready when a knife inserted into the center comes out clean. Cool the bread in pan for 10 minutes. Remove from pan to wire rack to cool completely.",
+            "mediaId": "wordpress-attachment:10609"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10614",
+      "sourceId": "10614",
+      "path": "/recipes/media/wordpress/10614.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:10601",
+      "sourceId": "10601",
+      "path": "/recipes/media/wordpress/10601.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10602",
+      "sourceId": "10602",
+      "path": "/recipes/media/wordpress/10602.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10603",
+      "sourceId": "10603",
+      "path": "/recipes/media/wordpress/10603.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10604",
+      "sourceId": "10604",
+      "path": "/recipes/media/wordpress/10604.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10605",
+      "sourceId": "10605",
+      "path": "/recipes/media/wordpress/10605.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10606",
+      "sourceId": "10606",
+      "path": "/recipes/media/wordpress/10606.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10607",
+      "sourceId": "10607",
+      "path": "/recipes/media/wordpress/10607.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10608",
+      "sourceId": "10608",
+      "path": "/recipes/media/wordpress/10608.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10609",
+      "sourceId": "10609",
+      "path": "/recipes/media/wordpress/10609.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

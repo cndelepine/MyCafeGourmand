@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21428",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:8303",
+  "slug": "chocolate-yule-log-buche-de-noel",
+  "source": {
+    "system": "wordpress",
+    "postId": "21428",
+    "recipeId": "21428",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chocolate-yule-log-buche-de-noel",
+    "createdAt": "2024-12-09T01:38:00+00:00",
+    "modifiedAt": "2026-02-14T01:28:15+00:00",
+    "editorialPostId": "13305",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chocolate-yule-log-buche-de-noel",
+    "editorialCreatedAt": "2024-12-09T01:38:00+00:00",
+    "editorialModifiedAt": "2026-02-14T00:58:40+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Chocolate Yule Log (Bûche de Noël)",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Chocolate Yule Log (Bûche de Noël) is the French roll cake very popular during the Holiday season. This is a delicious version of Yule Log you can make at home using very simple ingredients you can find in every store.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21428,\"template\":\"chic-template-english\",\"updated\":1766278510474} -->\n<!--WPRM Recipe 21428-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chocolate Yule Log (Bûche de Noël)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5690-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Sugar syrup</h4><ul><li>150 g sugar</li><li>300 ml water</li></ul><h4>Chocolate ganache </h4><ul><li>200 ml heavy whipping cream ( 35%)</li><li>200 g dark chocolate (60-70% cacao)</li><li>15 g unsalted butter</li></ul><h4>Biscuit</h4><ul><li>4 eggs ((at room temperature))</li><li>120 g sugar</li><li>120 g all purpose flour</li><li>1 Tbsp cocoa powder</li></ul><h4>Chantilly cream</h4><ul><li>250 ml heavy whipping cream ( 35%) (very cold)</li><li>100 g mascarpone cheese</li><li>1.25 Tbsp sugar</li></ul><h4>Decoration</h4><ul><li>Few meringues, pieces of chocolat</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Sugar syrup</h4><ol><li>In a small pot, bring cold water and sugar to the boil. Keep boiling for a few minutes, stir constantly until the sugar dissolves completely. Remove the pan from the heat and let cool down. When the syrup is cold, you may add vanilla or the Triple Sec liqueur (optional).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8487.Blog_-150x150.png\"/><br /></li></ol><h4>Biscuit </h4><ol><li>Preheat oven to 380 degrees F (180°C). Line a baking sheet with parchment paper.</li><li>Using an electric mixer, beat eggs and sugar until the mixture becomes thick, fluffy, and triples in volume.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4328.Blog_-150x150.png\"/><br /></li><li>Using a spatula, gently fold in flour and cocoa powder.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5490.Blog_-150x150.png\"/><br /></li><li>Spread the batter evenly in thin layer into the prepared baking sheet. Bake for 7 to 8 minutes in the preheated oven until a toothpick inserted in center of biscuit comes out clean. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5494.Blog_-150x150.png\"/><br /></li><li>Turn upside down onto clean kitchen towel and carefully remove parchment paper. Let cool down. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8481.Blog_-150x150.png\"/><br /></li></ol><h4>Chocolate ganache  </h4><ol><li>Boil the heavy whipping cream. Pour the boiling cream over the dark chocolate. Wait for one minute.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4379.Blog_-150x150.png\"/><br /></li><li>Then mix it until the mixture is smooth.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_6958.Blog_-150x150.png\"/><br /></li><li>Add butter and mix until this is fully dissolved.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_6959.Blog_-150x150.png\"/><br /></li><li>Let cool the ganache for about 30 minutes in the fridge. Mix and check frequently: the ganache is ready when it's not anymore liquid and has a spreadable texture.</li></ol><h4>Chantilly cream</h4><ol><li>Beat together very cold heavy cream and cold mascarpone cheese until this is whipped. Keep gradually adding sugar.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5501.Blog_-150x150.png\"/><br /></li></ol><h4>Assemblage</h4><ol><li>Paint the biscuit with sugar syrup.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5496.Blog_-150x150.png\"/><br /></li><li>Spread the chantilly cream evenly over the biscuit.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5504.Blog_-150x150.png\"/><br /></li><li>Roll up firmly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5654.Blog_-150x150.png\"/><br /></li><li>Tightly cover with plastic wrap, and keep in the fridge until chocolate ganache is ready.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5655.Blog_-150x150.png\"/><br /></li><li>Remove the plastic wrap. Spread the ganache over the cake. Using a fork make lines to look like a log. Transfer the cake to a serving platter and let stand in the fridge for a night or at least 3 hours.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5661.Blog_-150x150.png\"/><br /></li><li>Before serving, dust with cacao cocoa powder and decorate with meringues or pieces of chocolate.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5797-2.Blog_.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<ul>\n<li> </li>\n</ul>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24207",
+      "sourceTaxonomyId": "24207",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24244",
+      "sourceTaxonomyId": "24244",
+      "name": "dark chocolate (60-70% cacao)",
+      "slug": "dark-chocolate-60-70-cacao"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24282",
+      "sourceTaxonomyId": "24282",
+      "name": "mascarpone cheese",
+      "slug": "mascarpone-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24287",
+      "sourceTaxonomyId": "24287",
+      "name": "cocoa powder",
+      "slug": "cocoa-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24288",
+      "sourceTaxonomyId": "24288",
+      "name": "meringues, pieces of chocolat",
+      "slug": "meringues-pieces-of-chocolat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "574",
+      "sourceTaxonomyId": "574",
+      "name": "mascarpone cheese",
+      "slug": "mascarpone-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2984",
+      "sourceTaxonomyId": "2984",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3063",
+      "sourceTaxonomyId": "3063",
+      "name": "cocoa powder",
+      "slug": "cocoa-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4248",
+      "sourceTaxonomyId": "4248",
+      "name": "dark chocolate (60-70% cacao)",
+      "slug": "dark-chocolate-60-70-cacao"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8412",
+      "sourceTaxonomyId": "8412",
+      "name": "meringues, pieces of chocolat",
+      "slug": "meringues-pieces-of-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1897",
+      "sourceTaxonomyId": "1897",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2201",
+      "sourceTaxonomyId": "2201",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5381",
+      "sourceTaxonomyId": "5381",
+      "name": "french dessert",
+      "slug": "french-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8101",
+      "sourceTaxonomyId": "8101",
+      "name": "very popular in france",
+      "slug": "very-popular-in-france"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8432",
+      "sourceTaxonomyId": "8432",
+      "name": "yule log",
+      "slug": "yule-log"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8434",
+      "sourceTaxonomyId": "8434",
+      "name": "roll cake",
+      "slug": "roll-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8436",
+      "sourceTaxonomyId": "8436",
+      "name": "holiday season",
+      "slug": "holiday-season"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8438",
+      "sourceTaxonomyId": "8438",
+      "name": "can make at home",
+      "slug": "can-make-at-home"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8442",
+      "sourceTaxonomyId": "8442",
+      "name": "christmas cake",
+      "slug": "christmas-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8444",
+      "sourceTaxonomyId": "8444",
+      "name": "buche de noel",
+      "slug": "buche-de-noel-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26972",
+      "sourceTaxonomyId": "26972",
+      "name": "faboulous chocolate log",
+      "slug": "faboulous-chocolate-log-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 servings",
+      "value": 10,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "415",
+        "minutes": 415
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:13282",
+    "ingredientGroups": [
+      {
+        "name": "Sugar syrup",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 g sugar",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "300 ml water",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Chocolate ganache",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 ml heavy whipping cream ( 35%)",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream ( 35%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g dark chocolate (60-70% cacao)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "dark chocolate (60-70% cacao)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "15 g unsalted butter",
+            "quantity": {
+              "raw": "15 g",
+              "value": 15,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Biscuit",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 eggs (at room temperature)",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": "(at room temperature)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "120 g sugar",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "120 g all purpose flour",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 Tbsp cocoa powder",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "cocoa powder",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Chantilly cream",
+        "sourceIndex": 3,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 ml heavy whipping cream ( 35%) very cold",
+            "quantity": {
+              "raw": "250 ml",
+              "value": 250,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream ( 35%)",
+            "notes": "very cold"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g mascarpone cheese",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "mascarpone cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1.25 Tbsp sugar",
+            "quantity": {
+              "raw": "1.25 Tbsp",
+              "value": 1.25,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Decoration",
+        "sourceIndex": 4,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "Few meringues, pieces of chocolat",
+            "quantity": {
+              "raw": "Few",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "meringues, pieces of chocolat",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Sugar syrup",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a small pot, bring cold water and sugar to the boil. Keep boiling for a few minutes, stir constantly until the sugar dissolves completely. Remove the pan from the heat and let cool down. When the syrup is cold, you may add vanilla or the Triple Sec liqueur (optional).",
+            "mediaId": "wordpress-attachment:13289"
+          }
+        ]
+      },
+      {
+        "name": "Biscuit",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380 degrees F (180°C). Line a baking sheet with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Using an electric mixer, beat eggs and sugar until the mixture becomes thick, fluffy, and triples in volume.",
+            "mediaId": "wordpress-attachment:13287"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Using a spatula, gently fold in flour and cocoa powder.",
+            "mediaId": "wordpress-attachment:13274"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Spread the batter evenly in thin layer into the prepared baking sheet. Bake for 7 to 8 minutes in the preheated oven until a toothpick inserted in center of biscuit comes out clean.",
+            "mediaId": "wordpress-attachment:13275"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Turn upside down onto clean kitchen towel and carefully remove parchment paper. Let cool down.",
+            "mediaId": "wordpress-attachment:13292"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate ganache",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Boil the heavy whipping cream. Pour the boiling cream over the dark chocolate. Wait for one minute.",
+            "mediaId": "wordpress-attachment:13286"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Then mix it until the mixture is smooth.",
+            "mediaId": "wordpress-attachment:13290"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add butter and mix until this is fully dissolved.",
+            "mediaId": "wordpress-attachment:13291"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Let cool the ganache for about 30 minutes in the fridge. Mix and check frequently: the ganache is ready when it's not anymore liquid and has a spreadable texture.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Chantilly cream",
+        "sourceIndex": 3,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Beat together very cold heavy cream and cold mascarpone cheese until this is whipped. Keep gradually adding sugar.",
+            "mediaId": "wordpress-attachment:13277"
+          }
+        ]
+      },
+      {
+        "name": "Assemblage",
+        "sourceIndex": 4,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Paint the biscuit with sugar syrup.",
+            "mediaId": "wordpress-attachment:13276"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Spread the chantilly cream evenly over the biscuit.",
+            "mediaId": "wordpress-attachment:13278"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Roll up firmly.",
+            "mediaId": "wordpress-attachment:13279"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Tightly cover with plastic wrap, and keep in the fridge until chocolate ganache is ready.",
+            "mediaId": "wordpress-attachment:13280"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Remove the plastic wrap. Spread the ganache over the cake. Using a fork make lines to look like a log. Transfer the cake to a serving platter and let stand in the fridge for a night or at least 3 hours.",
+            "mediaId": "wordpress-attachment:13281"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Before serving, dust with cacao cocoa powder and decorate with meringues or pieces of chocolate.",
+            "mediaId": "wordpress-attachment:13283"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13282",
+      "sourceId": "13282",
+      "path": "/recipes/media/wordpress/13282.png",
+      "alt": "Bûche à la crème chantilly et ganache au chocolat",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13289",
+      "sourceId": "13289",
+      "path": "/recipes/media/wordpress/13289.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13287",
+      "sourceId": "13287",
+      "path": "/recipes/media/wordpress/13287.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13274",
+      "sourceId": "13274",
+      "path": "/recipes/media/wordpress/13274.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13275",
+      "sourceId": "13275",
+      "path": "/recipes/media/wordpress/13275.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13292",
+      "sourceId": "13292",
+      "path": "/recipes/media/wordpress/13292.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13286",
+      "sourceId": "13286",
+      "path": "/recipes/media/wordpress/13286.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13290",
+      "sourceId": "13290",
+      "path": "/recipes/media/wordpress/13290.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13291",
+      "sourceId": "13291",
+      "path": "/recipes/media/wordpress/13291.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13277",
+      "sourceId": "13277",
+      "path": "/recipes/media/wordpress/13277.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13276",
+      "sourceId": "13276",
+      "path": "/recipes/media/wordpress/13276.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13278",
+      "sourceId": "13278",
+      "path": "/recipes/media/wordpress/13278.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13279",
+      "sourceId": "13279",
+      "path": "/recipes/media/wordpress/13279.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13280",
+      "sourceId": "13280",
+      "path": "/recipes/media/wordpress/13280.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13281",
+      "sourceId": "13281",
+      "path": "/recipes/media/wordpress/13281.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13283",
+      "sourceId": "13283",
+      "path": "/recipes/media/wordpress/13283.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27892",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26168",
+  "slug": "easy-baked-chicken",
+  "source": {
+    "system": "wordpress",
+    "postId": "27892",
+    "recipeId": "27892",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-easy-roasted-chicken",
+    "createdAt": "2025-02-09T15:30:00+00:00",
+    "modifiedAt": "2025-02-10T01:21:16+00:00",
+    "editorialPostId": "27890",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "easy-baked-chicken",
+    "editorialCreatedAt": "2025-02-09T15:30:00+00:00",
+    "editorialModifiedAt": "2025-02-10T01:21:14+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Easy roasted chicken",
+  "description": "To calculate the baking time for the chicken, a formula is usually used: 1 kg of chicken - 1 hour, plus 5 minutes for every subsequent 100 g, i.e., if the chicken weighs 1 kg 200 g, the baking time is 1 hour 10 minutes.\n\nPersonally, I never weigh the chicken, I rely on the color of the crust, and if there are any doubts, I pierce it with a knife or use a kitchen thermometer.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Miam, who can resist this roasted chicken with its golden and crispy skin?! A very easy recipe. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Why not bake potatoes at the same time? Potatoes can be left unpeeled, and if they are small in size, you don't even need to cut them into pieces.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27892,\"template\":\"chic-template-english\",\"updated\":1739150397442} -->\n<!--WPRM Recipe 27892-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Easy roasted chicken</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/04/IMG_5148_2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>To calculate the baking time for the chicken, a formula is usually used: 1 kg of chicken - 1 hour, plus 5 minutes for every subsequent 100 g, i.e., if the chicken weighs 1 kg 200 g, the baking time is 1 hour 10 minutes. </p><p>Personally, I never weigh the chicken, I rely on the color of the crust, and if there are any doubts, I pierce it with a knife or use a kitchen thermometer.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 whole chicken (giblets removed)</li><li>1 kg small-sized potatoes</li><li>Salt and pepper</li><li>2-3 cloves crushed garlic</li><li>a bit aromatic herbs (Herbes de Provence)</li><li>1 lemon (optional)</li><li>a bit olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat the oven to 200C (420F). </p></li><li><p>Place the potatoes in an ovenproof dish or on a baking sheet. Season with salt, pepper, and sprinkle with aromatic herbs.</p></li><li><p>Wash and pat dry the chicken with paper towels. Rub with salt, pepper, garlic, not forgetting the inside of the chicken. Place the lemon cut in half inside the chicken. Brush the chicken with olive oil. </p><p>Place the chicken in the dish on top of the potatoes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/04/IMG_4124.Blog_-150x150.png\"/><br /></li><li><p>Put the dish in the oven for about 1 hour 10 minutes to 1 hour 30 minutes. Occasionally, baste the meat and potatoes with the cooking juice.</p></li><li><p>When the chicken is cooked inside (the juice that runs out is clear when pierced) and golden brown on the outside, remove the dish from the oven. </p><p>Don&#039;t forget to check if the potatoes are cooked as well. If they are cooked before the chicken is done, they can be removed beforehand.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/04/IMG_5143.Blog_-e1680766021629-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "The easy baked chicken with a golden crust is prepared very simply. You need to rub it with salt, pepper and garlic. Delicious with potatoes."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24170",
+      "sourceTaxonomyId": "24170",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26645",
+      "sourceTaxonomyId": "26645",
+      "name": "whole chicken",
+      "slug": "whole-chicken"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26646",
+      "sourceTaxonomyId": "26646",
+      "name": "small-sized potatoes",
+      "slug": "small-sized-potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26647",
+      "sourceTaxonomyId": "26647",
+      "name": "aromatic herbs",
+      "slug": "aromatic-herbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26648",
+      "sourceTaxonomyId": "26648",
+      "name": "crushed garlic",
+      "slug": "crushed-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25564",
+      "sourceTaxonomyId": "25564",
+      "name": "cloves",
+      "slug": "cloves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25741",
+      "sourceTaxonomyId": "25741",
+      "name": "kg",
+      "slug": "kg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2852",
+      "sourceTaxonomyId": "2852",
+      "name": "chicken",
+      "slug": "chicken"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 persons",
+      "value": 6,
+      "unit": "persons",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "rest": null,
+      "total": {
+        "raw": "75",
+        "minutes": 75
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26489",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 whole chicken giblets removed",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "whole chicken",
+            "notes": "giblets removed"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 kg small-sized potatoes",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "small-sized potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Salt and pepper",
+            "quantity": null,
+            "name": "Salt and pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2-3 cloves crushed garlic",
+            "quantity": {
+              "raw": "2-3 cloves",
+              "min": 2,
+              "max": 3,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "crushed garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "a bit aromatic herbs Herbes de Provence",
+            "quantity": {
+              "raw": "a bit",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "aromatic herbs",
+            "notes": "Herbes de Provence"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 lemon optional",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon",
+            "notes": "optional"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "a bit olive oil",
+            "quantity": {
+              "raw": "a bit",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 200C (420F).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Place the potatoes in an ovenproof dish or on a baking sheet. Season with salt, pepper, and sprinkle with aromatic herbs.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Wash and pat dry the chicken with paper towels. Rub with salt, pepper, garlic, not forgetting the inside of the chicken. Place the lemon cut in half inside the chicken. Brush the chicken with olive oil.\n\nPlace the chicken in the dish on top of the potatoes.",
+            "mediaId": "wordpress-attachment:26480"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Put the dish in the oven for about 1 hour 10 minutes to 1 hour 30 minutes. Occasionally, baste the meat and potatoes with the cooking juice.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "When the chicken is cooked inside (the juice that runs out is clear when pierced) and golden brown on the outside, remove the dish from the oven.\n\nDon't forget to check if the potatoes are cooked as well. If they are cooked before the chicken is done, they can be removed beforehand.",
+            "mediaId": "wordpress-attachment:26481"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26489",
+      "sourceId": "26489",
+      "path": "/recipes/media/wordpress/26489.png",
+      "alt": "Poulet au four facile",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26480",
+      "sourceId": "26480",
+      "path": "/recipes/media/wordpress/26480.png",
+      "alt": "Poulet au four facile",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26481",
+      "sourceId": "26481",
+      "path": "/recipes/media/wordpress/26481.png",
+      "alt": "Poulet au four facile",
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

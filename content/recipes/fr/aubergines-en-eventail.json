@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21908",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:13123",
+  "slug": "aubergines-en-eventail",
+  "source": {
+    "system": "wordpress",
+    "postId": "21908",
+    "recipeId": "21908",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-aubergines-en-eventail",
+    "createdAt": "2026-02-21T22:45:36+00:00",
+    "modifiedAt": "2026-02-21T22:53:51+00:00",
+    "editorialPostId": "15734",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "aubergines-en-eventail",
+    "editorialCreatedAt": "2026-02-21T22:45:36+00:00",
+    "editorialModifiedAt": "2026-02-21T22:53:48+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Aubergines en éventail",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une belle façon de présenter les  aubergines : découpées en éventail, avec des rondelles de tomates  intercalées et posées sur un lit d'oignon et d'ail. Ce plat servi chaud ou froid va faire de l'effet !<br></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21908,\"template\":\"chic-template-french\",\"updated\":1771714393713} -->\n<!--WPRM Recipe 21908-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Aubergines en éventail</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6615.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 oignons</li><li>4-5 gousses d'ail</li><li>3+3 cuillères à soupe d'huile d'olive</li><li>Sel et poivre du moulin</li><li>6 tomates de petite taille</li><li>4 aubergines de petite taille</li><li>2 feuilles de laurier</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Éplucher et émincer grossièrement les oignons et l'ail. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6561-2.Blog_-150x150.png\"/><br /></li><li>Dans une poêle, faire chauffer 3 cuillères à soupe d'huile d'olive et y faire revenir les oignoins et l'ail. Saler et poivrer. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6569-2.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 180°C (thermostat 6).  Mettre les oignoins dans un plat allant au four. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6577-2.Blog_-150x150.png\"/><br /></li><li>Couper les pédoncules. Puis découper les aubergines en lamelles d'1/2 cm de large sans les couper complètement (s’arrêter à 2 cm avant le bout).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6600-2.Blog_-150x150.png\"/><br /></li><li>Couper les tomates en rondelles d'1/2 cm de largeur. Saler un peu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6602.Blog_-150x150.png\"/><br /></li><li>Insérer les rondelles de tomates dans chaque entaille d'aubergines.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6607.Blog_-150x150.png\"/><br /></li><li>Poser délicatement les aubergines-tomates sur le lit d'oignons et d'ail. Saler, poivrer encore une fois, ajouter les feuilles de laurier. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6605.Blog_-150x150.png\"/><br /></li><li>Badigeonner avec le reste d'huile d'olive.\r\n   <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6610.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant environ 1 heure.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6615.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs, Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24603",
+      "sourceTaxonomyId": "24603",
+      "name": "oignons",
+      "slug": "oignons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24604",
+      "sourceTaxonomyId": "24604",
+      "name": "tomates de petite taille",
+      "slug": "tomates-de-petite-taille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24605",
+      "sourceTaxonomyId": "24605",
+      "name": "aubergines de petite taille",
+      "slug": "aubergines-de-petite-taille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24606",
+      "sourceTaxonomyId": "24606",
+      "name": "feuilles de laurier",
+      "slug": "feuilles-de-laurier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6523",
+      "sourceTaxonomyId": "6523",
+      "name": "oignons",
+      "slug": "oignons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11495",
+      "sourceTaxonomyId": "11495",
+      "name": "feuilles de laurier",
+      "slug": "feuilles-de-laurier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13129",
+      "sourceTaxonomyId": "13129",
+      "name": "tomates de petite taille",
+      "slug": "tomates-de-petite-taille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13160",
+      "sourceTaxonomyId": "13160",
+      "name": "aubergines de petite taille",
+      "slug": "aubergines-de-petite-taille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1316",
+      "sourceTaxonomyId": "1316",
+      "name": "legume",
+      "slug": "legume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1596",
+      "sourceTaxonomyId": "1596",
+      "name": "ail",
+      "slug": "ail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3802",
+      "sourceTaxonomyId": "3802",
+      "name": "aubergine",
+      "slug": "aubergine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4520",
+      "sourceTaxonomyId": "4520",
+      "name": "elegant",
+      "slug": "elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25616",
+      "sourceTaxonomyId": "25616",
+      "name": "comment cuire",
+      "slug": "comment-cuire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25620",
+      "sourceTaxonomyId": "25620",
+      "name": "comment preparer",
+      "slug": "comment-preparer"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26227",
+      "sourceTaxonomyId": "26227",
+      "name": "legumes au four",
+      "slug": "legumes-au-four"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "rest": null,
+      "total": {
+        "raw": "80",
+        "minutes": 80
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:15708",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 oignons",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignons",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4-5 gousses d'ail",
+            "quantity": {
+              "raw": "4-5 gousses",
+              "min": 4,
+              "max": 5,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3+3 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "3+3 cuillères à soupe",
+              "unit": "cuillères à soupe",
+              "scalable": false
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "6 tomates de petite taille",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates de petite taille",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 aubergines de petite taille",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "aubergines de petite taille",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 feuilles de laurier",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "feuilles de laurier",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Éplucher et émincer grossièrement les oignons et l'ail.",
+            "mediaId": "wordpress-attachment:15701"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans une poêle, faire chauffer 3 cuillères à soupe d'huile d'olive et y faire revenir les oignoins et l'ail. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:15702"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Mettre les oignoins dans un plat allant au four.",
+            "mediaId": "wordpress-attachment:15703"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Couper les pédoncules. Puis découper les aubergines en lamelles d'1/2 cm de large sans les couper complètement (s’arrêter à 2 cm avant le bout).",
+            "mediaId": "wordpress-attachment:15704"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couper les tomates en rondelles d'1/2 cm de largeur. Saler un peu.",
+            "mediaId": "wordpress-attachment:15705"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Insérer les rondelles de tomates dans chaque entaille d'aubergines.",
+            "mediaId": "wordpress-attachment:15706"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Poser délicatement les aubergines-tomates sur le lit d'oignons et d'ail. Saler, poivrer encore une fois, ajouter les feuilles de laurier.",
+            "mediaId": "wordpress-attachment:15710"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Badigeonner avec le reste d'huile d'olive.",
+            "mediaId": "wordpress-attachment:15707"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Faire cuire au four pendant environ 1 heure.",
+            "mediaId": "wordpress-attachment:15708"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15708",
+      "sourceId": "15708",
+      "path": "/recipes/media/wordpress/15708.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:15701",
+      "sourceId": "15701",
+      "path": "/recipes/media/wordpress/15701.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15702",
+      "sourceId": "15702",
+      "path": "/recipes/media/wordpress/15702.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15703",
+      "sourceId": "15703",
+      "path": "/recipes/media/wordpress/15703.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15704",
+      "sourceId": "15704",
+      "path": "/recipes/media/wordpress/15704.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15705",
+      "sourceId": "15705",
+      "path": "/recipes/media/wordpress/15705.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15706",
+      "sourceId": "15706",
+      "path": "/recipes/media/wordpress/15706.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15710",
+      "sourceId": "15710",
+      "path": "/recipes/media/wordpress/15710.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:15707",
+      "sourceId": "15707",
+      "path": "/recipes/media/wordpress/15707.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -11,13 +11,11 @@ import path from "node:path";
 import test from "node:test";
 import {
   discoverRecipeFiles,
-  loadRecipeCatalog,
-  recipeCatalog
+  loadRecipeCatalog
 } from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
 import { recipeRecordSchema } from "../src/content/schema";
 import { validateMediaPaths } from "../src/content/validation";
-
-const meatballsSoup = recipeCatalog[0]!;
 
 function withTempDirectory<T>(callback: (directory: string) => T) {
   const directory = mkdtempSync(path.join(process.cwd(), ".content-test-"));
@@ -46,15 +44,19 @@ function writeRecord(
 function localizedRecord(
   locale: "en" | "fr" | "ru",
   slug: string,
-  recipeId: string
+  recipeId: string,
+  translationGroupId: string | null = null
 ) {
   return recipeRecordSchema.parse({
-    ...meatballsSoup,
-    id: `wordpress:wprm:${recipeId}`,
+    ...recipeFixture,
+    id: `test:recipe:${recipeId}`,
     locale,
+    translationGroupId,
     slug,
     source: {
-      ...meatballsSoup.source,
+      ...recipeFixture.source,
+      postId: recipeId,
+      sourceSlug: slug,
       recipeId
     }
   });
@@ -62,7 +64,7 @@ function localizedRecord(
 
 test("recipe discovery is deterministic and permits absent locale folders", () => {
   withTempDirectory((recipesRoot) => {
-    writeRecord(recipesRoot, "en", "zeta.json", meatballsSoup);
+    writeRecord(recipesRoot, "en", "zeta.json", localizedRecord("en", "zeta", "3000"));
     writeRecord(recipesRoot, "en", "alpha.json", localizedRecord("en", "alpha", "3001"));
 
     const files = discoverRecipeFiles(recipesRoot);
@@ -72,7 +74,7 @@ test("recipe discovery is deterministic and permits absent locale folders", () =
     );
     assert.deepEqual(loadRecipeCatalog(recipesRoot).map((record) => record.slug), [
       "alpha",
-      "meatballs-soup"
+      "zeta"
     ]);
   });
 });
@@ -110,7 +112,7 @@ test("recipe discovery rejects symlinked locale paths and records", () => {
   });
 
   withTempDirectory((recipesRoot) => {
-    writeRecord(recipesRoot, "en", "source.json", meatballsSoup);
+    writeRecord(recipesRoot, "en", "source.json", localizedRecord("en", "source", "3000"));
     symlinkSync(
       path.join(recipesRoot, "en", "source.json"),
       path.join(recipesRoot, "en", "linked.json")
@@ -141,7 +143,7 @@ test("malformed JSON errors include the source file", () => {
 
 test("unknown JSON fields are rejected with file context", () => {
   withTempDirectory((recipesRoot) => {
-    const serialized = JSON.stringify(meatballsSoup);
+    const serialized = JSON.stringify(localizedRecord("en", "unknown", "3000"));
     writeRecord(
       recipesRoot,
       "en",
@@ -176,21 +178,21 @@ test("locale-folder mismatches are rejected with file context", () => {
 
 test("duplicate IDs and localized slugs are rejected", () => {
   withTempDirectory((recipesRoot) => {
-    writeRecord(recipesRoot, "en", "first.json", meatballsSoup);
+    writeRecord(recipesRoot, "en", "first.json", localizedRecord("en", "first", "3000"));
     writeRecord(recipesRoot, "fr", "second.json", {
-      ...meatballsSoup,
-      locale: "fr"
+      ...localizedRecord("fr", "second", "3001"),
+      id: "test:recipe:3000"
     });
     assert.throws(() => loadRecipeCatalog(recipesRoot), /Duplicate content ID/);
   });
 
   withTempDirectory((recipesRoot) => {
-    writeRecord(recipesRoot, "en", "first.json", meatballsSoup);
+    writeRecord(recipesRoot, "en", "first.json", localizedRecord("en", "first", "3000"));
     writeRecord(
       recipesRoot,
       "en",
       "second.json",
-      localizedRecord("en", meatballsSoup.slug, "3003")
+      localizedRecord("en", "first", "3003")
     );
     assert.throws(() => loadRecipeCatalog(recipesRoot), /Duplicate localized slug/);
   });
@@ -198,14 +200,18 @@ test("duplicate IDs and localized slugs are rejected", () => {
 
 test("translation groups reject duplicate locales with both source paths", () => {
   withTempDirectory((recipesRoot) => {
-    writeRecord(recipesRoot, "en", "first.json", {
-      ...meatballsSoup,
-      translationGroupId: "group-1"
-    });
-    writeRecord(recipesRoot, "en", "second.json", {
-      ...localizedRecord("en", "second", "3004"),
-      translationGroupId: "group-1"
-    });
+    writeRecord(
+      recipesRoot,
+      "en",
+      "first.json",
+      localizedRecord("en", "first", "3000", "group-1")
+    );
+    writeRecord(
+      recipesRoot,
+      "en",
+      "second.json",
+      localizedRecord("en", "second", "3004", "group-1")
+    );
 
     const secondPath = path.join(recipesRoot, "en", "second.json");
     assert.throws(
@@ -221,14 +227,18 @@ test("translation groups reject duplicate locales with both source paths", () =>
 
 test("translation groups may be asymmetric across locales", () => {
   withTempDirectory((recipesRoot) => {
-    writeRecord(recipesRoot, "en", "english.json", {
-      ...meatballsSoup,
-      translationGroupId: "group-2"
-    });
-    writeRecord(recipesRoot, "fr", "french.json", {
-      ...localizedRecord("fr", "soupe", "3005"),
-      translationGroupId: "group-2"
-    });
+    writeRecord(
+      recipesRoot,
+      "en",
+      "english.json",
+      localizedRecord("en", "english", "3000", "group-2")
+    );
+    writeRecord(
+      recipesRoot,
+      "fr",
+      "french.json",
+      localizedRecord("fr", "soupe", "3005", "group-2")
+    );
 
     assert.deepEqual(
       loadRecipeCatalog(recipesRoot).map((record) => record.locale),
@@ -239,24 +249,28 @@ test("translation groups may be asymmetric across locales", () => {
 
 test("JSON loading preserves nested records and explicit null values", () => {
   withTempDirectory((recipesRoot) => {
-    writeRecord(recipesRoot, "en", "meatballs-soup.json", meatballsSoup);
+    const written = localizedRecord("en", "nested-fixture", "3010");
+    writeRecord(recipesRoot, "en", "nested-fixture.json", written);
     const source = JSON.parse(
-      readFileSync(path.join(recipesRoot, "en/meatballs-soup.json"), "utf8")
+      readFileSync(path.join(recipesRoot, "en/nested-fixture.json"), "utf8")
     ) as unknown;
     const [loaded] = loadRecipeCatalog(recipesRoot);
 
     assert.deepEqual(loaded, source);
-    assert.equal(loaded.recipe.times.cook, null);
-    assert.equal(loaded.recipe.ingredientGroups[0]?.items[0]?.notes, null);
-    assert.equal(loaded.media[0]?.alt, "A bowl of meatball soup");
+    assert.equal(loaded.recipe.times.cook, written.recipe.times.cook);
+    assert.equal(
+      loaded.recipe.ingredientGroups[0]?.items[0]?.notes,
+      written.recipe.ingredientGroups[0]?.items[0]?.notes
+    );
+    assert.equal(loaded.media[0]?.alt, written.media[0]?.alt);
   });
 });
 
 test("media validation requires regular files under public and keeps null alt valid", () => {
   withTempDirectory((publicRoot) => {
     const record = recipeRecordSchema.parse({
-      ...meatballsSoup,
-      media: meatballsSoup.media.map((media, index) => ({
+      ...localizedRecord("en", "media-fixture", "3011"),
+      media: recipeFixture.media.map((media, index) => ({
         ...media,
         path: "/images/hero.png",
         alt: index === 0 ? null : media.alt
@@ -272,8 +286,8 @@ test("media validation requires regular files under public and keeps null alt va
 test("media validation reports missing files and traversal", () => {
   withTempDirectory((publicRoot) => {
     const missing = recipeRecordSchema.parse({
-      ...meatballsSoup,
-      media: meatballsSoup.media.map((media) => ({
+      ...localizedRecord("en", "missing-media", "3012"),
+      media: recipeFixture.media.map((media) => ({
         ...media,
         path: "/images/missing.png"
       }))
@@ -283,16 +297,15 @@ test("media validation reports missing files and traversal", () => {
       /Invalid media.*Missing media file/
     );
 
-    const traversal = recipeRecordSchema.parse({
-      ...meatballsSoup,
-      media: meatballsSoup.media.map((media) => ({
-        ...media,
-        path: "/%2e%2e/outside.png"
-      }))
-    });
     assert.throws(
-      () => validateMediaPaths([traversal], publicRoot),
-      /Invalid media.*traversal/
+      () => recipeRecordSchema.parse({
+        ...localizedRecord("en", "traversal-media", "3013"),
+        media: recipeFixture.media.map((media) => ({
+          ...media,
+          path: "/%2e%2e/outside.png"
+        }))
+      }),
+      /traversal/
     );
   });
 });

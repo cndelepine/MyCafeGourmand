@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21516",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6301",
+  "slug": "ice-cream-cake-iceberg",
+  "source": {
+    "system": "wordpress",
+    "postId": "21516",
+    "recipeId": "21516",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-ice-cream-cake-iceberg",
+    "createdAt": "2020-06-21T05:30:00+00:00",
+    "modifiedAt": "2023-10-15T07:11:24+00:00",
+    "editorialPostId": "11908",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "ice-cream-cake-iceberg",
+    "editorialCreatedAt": "2020-06-21T05:30:00+00:00",
+    "editorialModifiedAt": "2023-10-15T07:11:21+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Ice Cream Cake Iceberg",
+  "description": "My suggestion is to pick red sour berries for rich color and a sour taste.\nDrain the sour cream to avoid liquid.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>I don't mean to brag, but as far as homemade ice cream cake recipes go, this one is the winner. The red berry coulis topping is the perfect balance between sweet and sour. This No-Bake Ice Cream Cake Iceberg is the ideal dessert to serve at your next party on a hot summer day.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21516,\"template\":\"chic-template-english\",\"updated\":1623965888424} -->\n<!--WPRM Recipe 21516-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Ice Cream Cake Iceberg</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0728.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tMy suggestion is to pick red sour berries for rich color and a sour taste. \r\nDrain the sour cream to avoid liquid.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 eggs</li><li>100  g granulated sugar (50 + 50)</li><li>1-2 Tbsp vanilla extract</li><li>300 ml sour cream</li><li>100 ml heavy whipping cream ( 35%)</li><li>1 pinch salt</li><li>300 g red berries (blueberry, huckleberry, boysenberry, raspberry...) (fresh or frozen)</li><li>Some  Fresh berries (for garnish)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Separate egg yolks from egg whites. Whisk egg yolks with sugar (50 g). </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0686.Blog_-150x150.png\"/><br /></li><li>When the sugar is dissolved add vanilla extract and mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0687.Blog_-150x150.png\"/><br /></li><li>In a mixer bowl, whisk together very cold sour cream and heavy cream together until fluffy. Add sugar and continue whisking until firm (don't over whip).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0688.Blog_-150x150.png\"/><br /></li><li>Using a spatula, combine egg yolks with whipped cream together. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0689.Blog_-150x150.png\"/><br /></li><li>In a separate bowl, beat the egg whites with a pinch of salt until stiff.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0690.Blog_-150x150.png\"/><br /></li><li>With a spatula, carefully combine egg whites with whipped cream. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0691.Blog_-150x150.png\"/><br /></li><li>You should get a nice fluffy cream.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0693.Blog_-150x150.png\"/><br /></li><li>Spread the cream evenly into a silicone pan or salad bowl. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0694.Blog_-150x150.png\"/><br /></li><li><p>Cover with plastic wrap and refrigerate for 6 hours or overnight.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0699.Blog_-150x150.png\"/><br /></li><li>Rinse and drain fresh berries and puree until smooth. \r\nIf you are using a frozen berries, place them in a leak-proof container and set the container in cold water for 10-15 minutes, then puree them.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0913.Blog_-150x150.png\"/><br /></li><li>Pass the puree through a fine sieve to remove all tiny seeds. Coulis is ready. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0915.Blog_-150x150.png\"/><br /></li><li>Remove it from the silicone pan and return it back to freezer until serving. (If you used a salad bowl, place it into hot water for a couple seconds). Prepare fresh berries for garnish. </li><li>Right before serving, pour the coulis over the ice cream cake and garnish with fresh berries.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0726.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24207",
+      "sourceTaxonomyId": "24207",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24264",
+      "sourceTaxonomyId": "24264",
+      "name": "vanilla extract",
+      "slug": "vanilla-extract"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24345",
+      "sourceTaxonomyId": "24345",
+      "name": "red berries (blueberry, huckleberry, boysenberry, raspberry...)",
+      "slug": "red-berries-blueberry-huckleberry-boysenberry-raspberry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24346",
+      "sourceTaxonomyId": "24346",
+      "name": "Fresh berries",
+      "slug": "fresh-berries"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25396",
+      "sourceTaxonomyId": "25396",
+      "name": "granulated sugar (50 + 50)",
+      "slug": "granulated-sugar-50-50"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "787",
+      "sourceTaxonomyId": "787",
+      "name": "vanilla extract",
+      "slug": "vanilla-extract"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2984",
+      "sourceTaxonomyId": "2984",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2990",
+      "sourceTaxonomyId": "2990",
+      "name": "Fresh berries",
+      "slug": "fresh-berries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6531",
+      "sourceTaxonomyId": "6531",
+      "name": "red berries (blueberry, huckleberry, boysenberry, raspberry...)",
+      "slug": "red-berries-blueberry-huckleberry-boysenberry-raspberry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2201",
+      "sourceTaxonomyId": "2201",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3356",
+      "sourceTaxonomyId": "3356",
+      "name": "egg whites",
+      "slug": "egg-whites"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4255",
+      "sourceTaxonomyId": "4255",
+      "name": "flourless",
+      "slug": "flourless"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5185",
+      "sourceTaxonomyId": "5185",
+      "name": "summer dessert",
+      "slug": "summer-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6485",
+      "sourceTaxonomyId": "6485",
+      "name": "ice cream",
+      "slug": "ice-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6487",
+      "sourceTaxonomyId": "6487",
+      "name": "cake iceberg",
+      "slug": "cake-iceberg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6489",
+      "sourceTaxonomyId": "6489",
+      "name": "homemade ice cream",
+      "slug": "homemade-ice-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6493",
+      "sourceTaxonomyId": "6493",
+      "name": "no bake cake",
+      "slug": "no-bake-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6495",
+      "sourceTaxonomyId": "6495",
+      "name": "red berries",
+      "slug": "red-berries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6497",
+      "sourceTaxonomyId": "6497",
+      "name": "white dessert",
+      "slug": "white-dessert"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "390",
+        "minutes": 390
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "360",
+          "minutes": 360
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:11832",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g granulated sugar (50 + 50)",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "granulated sugar (50 + 50)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 Tbsp vanilla extract",
+            "quantity": {
+              "raw": "1-2 Tbsp",
+              "min": 1,
+              "max": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "vanilla extract",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "300 ml sour cream",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 ml heavy whipping cream ( 35%)",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream ( 35%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 pinch salt",
+            "quantity": {
+              "raw": "1 pinch",
+              "value": 1,
+              "unit": "pinch",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "300 g red berries (blueberry, huckleberry, boysenberry, raspberry...) fresh or frozen",
+            "quantity": {
+              "raw": "300 g",
+              "value": 300,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "red berries (blueberry, huckleberry, boysenberry, raspberry...)",
+            "notes": "fresh or frozen"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Some Fresh berries for garnish",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "Fresh berries",
+            "notes": "for garnish"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Separate egg yolks from egg whites. Whisk egg yolks with sugar (50 g).",
+            "mediaId": "wordpress-attachment:11825"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "When the sugar is dissolved add vanilla extract and mix well.",
+            "mediaId": "wordpress-attachment:11826"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "In a mixer bowl, whisk together very cold sour cream and heavy cream together until fluffy. Add sugar and continue whisking until firm (don't over whip).",
+            "mediaId": "wordpress-attachment:11837"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Using a spatula, combine egg yolks with whipped cream together.",
+            "mediaId": "wordpress-attachment:11827"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "In a separate bowl, beat the egg whites with a pinch of salt until stiff.",
+            "mediaId": "wordpress-attachment:11828"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "With a spatula, carefully combine egg whites with whipped cream.",
+            "mediaId": "wordpress-attachment:11829"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "You should get a nice fluffy cream.",
+            "mediaId": "wordpress-attachment:11830"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Spread the cream evenly into a silicone pan or salad bowl.",
+            "mediaId": "wordpress-attachment:11838"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Cover with plastic wrap and refrigerate for 6 hours or overnight.",
+            "mediaId": "wordpress-attachment:11831"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Rinse and drain fresh berries and puree until smooth.\nIf you are using a frozen berries, place them in a leak-proof container and set the container in cold water for 10-15 minutes, then puree them.",
+            "mediaId": "wordpress-attachment:11835"
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Pass the puree through a fine sieve to remove all tiny seeds. Coulis is ready.",
+            "mediaId": "wordpress-attachment:11836"
+          },
+          {
+            "sourceIndex": 11,
+            "text": "Remove it from the silicone pan and return it back to freezer until serving. (If you used a salad bowl, place it into hot water for a couple seconds). Prepare fresh berries for garnish.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 12,
+            "text": "Right before serving, pour the coulis over the ice cream cake and garnish with fresh berries.",
+            "mediaId": "wordpress-attachment:11839"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11832",
+      "sourceId": "11832",
+      "path": "/recipes/media/wordpress/11832.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:11825",
+      "sourceId": "11825",
+      "path": "/recipes/media/wordpress/11825.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11826",
+      "sourceId": "11826",
+      "path": "/recipes/media/wordpress/11826.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11837",
+      "sourceId": "11837",
+      "path": "/recipes/media/wordpress/11837.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11827",
+      "sourceId": "11827",
+      "path": "/recipes/media/wordpress/11827.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11828",
+      "sourceId": "11828",
+      "path": "/recipes/media/wordpress/11828.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11829",
+      "sourceId": "11829",
+      "path": "/recipes/media/wordpress/11829.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11830",
+      "sourceId": "11830",
+      "path": "/recipes/media/wordpress/11830.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11838",
+      "sourceId": "11838",
+      "path": "/recipes/media/wordpress/11838.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11831",
+      "sourceId": "11831",
+      "path": "/recipes/media/wordpress/11831.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11835",
+      "sourceId": "11835",
+      "path": "/recipes/media/wordpress/11835.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11836",
+      "sourceId": "11836",
+      "path": "/recipes/media/wordpress/11836.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11839",
+      "sourceId": "11839",
+      "path": "/recipes/media/wordpress/11839.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

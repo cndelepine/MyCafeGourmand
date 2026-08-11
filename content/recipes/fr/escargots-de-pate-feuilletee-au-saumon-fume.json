@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22228",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3440",
+  "slug": "escargots-de-pate-feuilletee-au-saumon-fume",
+  "source": {
+    "system": "wordpress",
+    "postId": "22228",
+    "recipeId": "22228",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-escargots-de-pate-feuilletee-au-saumon-fume",
+    "createdAt": "2026-02-03T02:26:00+00:00",
+    "modifiedAt": "2026-02-09T07:25:40+00:00",
+    "editorialPostId": "7254",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "escargots-de-pate-feuilletee-au-saumon-fume",
+    "editorialCreatedAt": "2026-02-03T02:26:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:25:38+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Escargots de pâte feuilletée au saumon fumé",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ces amuse-bouches en forme d'escargot sont parfaits aussi bien pour un <span id=\":194.1\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">apéritif</span> que pour une <span id=\":194.2\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">fête</span> d'enfants. La <a href=\"https://mycafegourmand.com/fr/pate-feuilletee/\">pâte feuilleté</a>, le saumon fumé et la crème fraîche font un bon <span id=\":194.3\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">ménage</span> et l'aneth apporte un petit plus au <span id=\":194.4\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">goût</span>. J'aime utiliser l'aneth frais mais on peut le remplacer par une herbe <span id=\":194.5\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">séchée</span>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22228,\"template\":\"chic-template-french\",\"updated\":1770621908543} -->\n<!--WPRM Recipe 22228-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Escargots de pâte feuilletée au saumon fumé</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8967.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 feuille pâte feuilletée</li><li>2 cuillères à soupe de crème fraîche épaisse</li><li>Quelques brins d'aneth ciselés (ou de l'aneth séché)</li><li>Poivre du moulin</li><li>200 g de saumon fumé, (en fines tranches)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dérouler la pâte feuilletée. Étaler une fine couche de crème fraîche en laissant 1 cm de pâte sans crème d'un côté. Saupoudrer d'aneth et de poivre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8939.Blog_-150x150.png\"/><br /></li><li>Étaler dessus les tranches de saumon fumé.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8942.Blog_-150x150.png\"/><br /></li><li>Rouler la pâte avec sa garniture, en serrant bien. Mouiller un peu le bord avec de l'eau et bien souder.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8944.Blog_-150x150.png\"/><br /></li><li>Envelopper le boudin de film alimentaire et placer au réfrigérateur pour environ 30 minutes. Cela va faciliter le découpage.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8946.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 180°C (thermostat 6). Avec un couteau bien tranchant, couper le roulé (sans enlever le film plastique) en tranches d'un centimètre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8947.Blog_-150x150.png\"/><br /></li><li>Maintenant, enlever le film plastique et poser les escargots en les espaçant, sur une plaque de recouverte de papier sulfurisé.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8949.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant 15-20 minutes, jusqu'à ce que les escargots soient joliment dorés.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8950.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24471",
+      "sourceTaxonomyId": "24471",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24611",
+      "sourceTaxonomyId": "24611",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24654",
+      "sourceTaxonomyId": "24654",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24796",
+      "sourceTaxonomyId": "24796",
+      "name": "pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24797",
+      "sourceTaxonomyId": "24797",
+      "name": "d'aneth ciselés",
+      "slug": "daneth-ciseles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "551",
+      "sourceTaxonomyId": "551",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "942",
+      "sourceTaxonomyId": "942",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3457",
+      "sourceTaxonomyId": "3457",
+      "name": "pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3459",
+      "sourceTaxonomyId": "3459",
+      "name": "d'aneth ciselés",
+      "slug": "daneth-ciseles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3461",
+      "sourceTaxonomyId": "3461",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1396",
+      "sourceTaxonomyId": "1396",
+      "name": "pate feuilletee",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1522",
+      "sourceTaxonomyId": "1522",
+      "name": "saumon fume",
+      "slug": "saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2034",
+      "sourceTaxonomyId": "2034",
+      "name": "amuse-bouche",
+      "slug": "amuse-bouche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2163",
+      "sourceTaxonomyId": "2163",
+      "name": "aperitif",
+      "slug": "aperitif"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3443",
+      "sourceTaxonomyId": "3443",
+      "name": "escargots",
+      "slug": "escargots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3445",
+      "sourceTaxonomyId": "3445",
+      "name": "roules",
+      "slug": "roules"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3447",
+      "sourceTaxonomyId": "3447",
+      "name": "creme fraiche epaisse",
+      "slug": "creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3449",
+      "sourceTaxonomyId": "3449",
+      "name": "aneth",
+      "slug": "aneth"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "15 pièces",
+      "value": 15,
+      "unit": "pièces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "65",
+        "minutes": 65
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7003",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 feuille pâte feuilletée",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "pâte feuilletée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 cuillères à soupe de crème fraîche épaisse",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de crème fraîche épaisse",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Quelques brins d'aneth ciselés ou de l'aneth séché",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "d'aneth ciselés",
+            "notes": "ou de l'aneth séché"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Poivre du moulin",
+            "quantity": null,
+            "name": "Poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "200 g de saumon fumé, en fines tranches",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de saumon fumé,",
+            "notes": "en fines tranches"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dérouler la pâte feuilletée. Étaler une fine couche de crème fraîche en laissant 1 cm de pâte sans crème d'un côté. Saupoudrer d'aneth et de poivre.",
+            "mediaId": "wordpress-attachment:6995"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Étaler dessus les tranches de saumon fumé.",
+            "mediaId": "wordpress-attachment:6996"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Rouler la pâte avec sa garniture, en serrant bien. Mouiller un peu le bord avec de l'eau et bien souder.",
+            "mediaId": "wordpress-attachment:6997"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Envelopper le boudin de film alimentaire et placer au réfrigérateur pour environ 30 minutes. Cela va faciliter le découpage.",
+            "mediaId": "wordpress-attachment:6998"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Avec un couteau bien tranchant, couper le roulé (sans enlever le film plastique) en tranches d'un centimètre.",
+            "mediaId": "wordpress-attachment:6999"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Maintenant, enlever le film plastique et poser les escargots en les espaçant, sur une plaque de recouverte de papier sulfurisé.",
+            "mediaId": "wordpress-attachment:7000"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Faire cuire au four pendant 15-20 minutes, jusqu'à ce que les escargots soient joliment dorés.",
+            "mediaId": "wordpress-attachment:7001"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7003",
+      "sourceId": "7003",
+      "path": "/recipes/media/wordpress/7003.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6995",
+      "sourceId": "6995",
+      "path": "/recipes/media/wordpress/6995.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6996",
+      "sourceId": "6996",
+      "path": "/recipes/media/wordpress/6996.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6997",
+      "sourceId": "6997",
+      "path": "/recipes/media/wordpress/6997.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6998",
+      "sourceId": "6998",
+      "path": "/recipes/media/wordpress/6998.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6999",
+      "sourceId": "6999",
+      "path": "/recipes/media/wordpress/6999.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7000",
+      "sourceId": "7000",
+      "path": "/recipes/media/wordpress/7000.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7001",
+      "sourceId": "7001",
+      "path": "/recipes/media/wordpress/7001.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

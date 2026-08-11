@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21713",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:1795",
+  "slug": "french-chocolate-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21713",
+    "recipeId": "21713",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-french-chocolate-cake",
+    "createdAt": "2018-02-01T23:12:54+00:00",
+    "modifiedAt": "2021-02-26T01:48:40+00:00",
+    "editorialPostId": "3493",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "french-chocolate-cake",
+    "editorialCreatedAt": "2018-02-01T23:12:54+00:00",
+    "editorialModifiedAt": "2021-02-26T01:48:34+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "French Chocolate Cake",
+  "description": null,
+  "editorial": {
+    "content": "<p>French chocolate cake with dark chocolate. Very elegant and light, incredibly simple to make. It became our family signature cake. I make it for breakfast, for unexpected guests, and even as a birthday cake.</p>\n<p>If you are looking for gluten-free recipe, try our <a href=\"https://mycafegourmand.com/recipe/flourless-chocolate-cake\">Flourless Chocolate Cake.</a> </p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21713,\"template\":\"chic-template-english\",\"updated\":1614304082436} -->\n<!--WPRM Recipe 21713-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">French Chocolate Cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7884.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g dark chocolate chips</li><li>150 g unsalted butter</li><li>6  eggs</li><li>200  g sugar</li><li>2 Tbsp all purpose flour (sifted)</li><li>1/4 tsp powdered sugar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 375 degrees F. Generously butter a baking pan, then dust with little flour and tap out the excess.</li><li>Meanwhile melt the chocolate and butter in the microwave. Mix well.\r\n   <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7863.Blog_-150x150.png\"/><br /></li><li>Whisk eggs with sugar until frothy and blended.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7864.Blog_-150x150.png\"/><br /></li><li>Add eggs to the chocolate batter and whisk.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7865.Blog_-150x150.png\"/><br /></li><li>Add sifted flour and whisk again.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7866.Blog_-150x150.png\"/><br /></li><li>Pour into prepared cake pan and bake for 25- 30 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7868.Blog_-150x150.png\"/><br /></li><li>Run the knife along to check if it is ready. Cake should be moist and not dry. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7871.Blog_-150x150.png\"/><br /></li><li>Let it completely cool, remove the cake from the pan. Dust with confectioner's sugar and serve.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7884.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24200",
+      "sourceTaxonomyId": "24200",
+      "name": "powdered sugar",
+      "slug": "powdered-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24456",
+      "sourceTaxonomyId": "24456",
+      "name": "dark chocolate chips",
+      "slug": "dark-chocolate-chips"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1804",
+      "sourceTaxonomyId": "1804",
+      "name": "powdered sugar",
+      "slug": "powdered-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1806",
+      "sourceTaxonomyId": "1806",
+      "name": "dark chocolate chips",
+      "slug": "dark-chocolate-chips"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1390",
+      "sourceTaxonomyId": "1390",
+      "name": "french",
+      "slug": "french"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1895",
+      "sourceTaxonomyId": "1895",
+      "name": "chocolate cake",
+      "slug": "chocolate-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1897",
+      "sourceTaxonomyId": "1897",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5781",
+      "sourceTaxonomyId": "5781",
+      "name": "best cake ever",
+      "slug": "best-cake-ever"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:3433",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g dark chocolate chips",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "dark chocolate chips",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g unsalted butter",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "6 eggs",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g sugar",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 Tbsp all purpose flour sifted",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": "sifted"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/4 tsp powdered sugar",
+            "quantity": {
+              "raw": "1/4 tsp",
+              "value": 0.25,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "powdered sugar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 375 degrees F. Generously butter a baking pan, then dust with little flour and tap out the excess.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Meanwhile melt the chocolate and butter in the microwave. Mix well.",
+            "mediaId": "wordpress-attachment:3427"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Whisk eggs with sugar until frothy and blended.",
+            "mediaId": "wordpress-attachment:3428"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add eggs to the chocolate batter and whisk.",
+            "mediaId": "wordpress-attachment:3429"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add sifted flour and whisk again.",
+            "mediaId": "wordpress-attachment:3430"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Pour into prepared cake pan and bake for 25- 30 minutes.",
+            "mediaId": "wordpress-attachment:3431"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Run the knife along to check if it is ready. Cake should be moist and not dry.",
+            "mediaId": "wordpress-attachment:3432"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Let it completely cool, remove the cake from the pan. Dust with confectioner's sugar and serve.",
+            "mediaId": "wordpress-attachment:3643"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:3433",
+      "sourceId": "3433",
+      "path": "/recipes/media/wordpress/3433.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3427",
+      "sourceId": "3427",
+      "path": "/recipes/media/wordpress/3427.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3428",
+      "sourceId": "3428",
+      "path": "/recipes/media/wordpress/3428.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3429",
+      "sourceId": "3429",
+      "path": "/recipes/media/wordpress/3429.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3430",
+      "sourceId": "3430",
+      "path": "/recipes/media/wordpress/3430.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3431",
+      "sourceId": "3431",
+      "path": "/recipes/media/wordpress/3431.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3432",
+      "sourceId": "3432",
+      "path": "/recipes/media/wordpress/3432.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3643",
+      "sourceId": "3643",
+      "path": "/recipes/media/wordpress/3643.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

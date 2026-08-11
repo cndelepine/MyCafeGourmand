@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22153",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:5096",
+  "slug": "sauce-au-chocolat",
+  "source": {
+    "system": "wordpress",
+    "postId": "22153",
+    "recipeId": "22153",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-sauce-au-chocolat",
+    "createdAt": "2018-05-27T18:36:07+00:00",
+    "modifiedAt": "2022-07-30T18:58:35+00:00",
+    "editorialPostId": "10578",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "sauce-au-chocolat",
+    "editorialCreatedAt": "2018-05-27T18:36:07+00:00",
+    "editorialModifiedAt": "2022-07-30T18:58:33+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Sauce au chocolat",
+  "description": "Cette sauce sera encore plus onctueuse avec de la crème liquide. Mais comme j'essaie de garder ma ligne, je la prépare le plus souvent avec du lait.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Voici une sauce au chocolat noir onctueuse et fait maison. Elle est bien meilleure que le nappage au chocolat du commerce. Cette sauce est facile à préparer et surtout sans ajout d'ingrédients inutiles. Il vous faudra seulement 2 ingrédients pour réaliser cette recette : le chocolat et le lait. Je prépare cette sauce pour arroser différents desserts : les crêpes, la glace, les fruits et bien sur les <a href=\"https://mycafegourmand.com/fr/recipe/profiteroles\">profiteroles</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><a href=\"https://www.instagram.com/p/BjIktIpBn4P/?taken-by=cafegourmandnatalija\">Mini-video</a> pour vous donner une idée. ;)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22153,\"template\":\"chic-template-french\",\"updated\":1615140031539} -->\n<!--WPRM Recipe 22153-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Sauce au chocolat</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9820.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tCette sauce sera encore plus onctueuse avec de la crème liquide. Mais comme j'essaie de garder ma ligne, je la prépare le plus souvent avec du lait.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>125 ml de lait ou de crème fleurette</li><li>150 g de chocolat noir (60% cacao)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans une petite casserole, porter le lait (ou la crème fleurette) à ébullition. La verser sur le chocolat et laisser reposer pendant 1 minute.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9782.Blog_-150x150.png\"/><br /></li><li>Mélanger vigoureusement pour obtenir un mélange homogène. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9790.Blog_-150x150.png\"/><br /></li><li>Si le chocolat est refroidi et devient moins liquide, vous pouvez le réchauffer au bain-marie.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24480",
+      "sourceTaxonomyId": "24480",
+      "name": "de chocolat noir (60% cacao)",
+      "slug": "de-chocolat-noir-60-cacao"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24758",
+      "sourceTaxonomyId": "24758",
+      "name": "de lait ou de crème fleurette",
+      "slug": "de-lait-ou-de-creme-fleurette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4279",
+      "sourceTaxonomyId": "4279",
+      "name": "de chocolat noir (60% cacao)",
+      "slug": "de-chocolat-noir-60-cacao"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5151",
+      "sourceTaxonomyId": "5151",
+      "name": "de lait ou de crème fleurette",
+      "slug": "de-lait-ou-de-creme-fleurette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3477",
+      "sourceTaxonomyId": "3477",
+      "name": "sans oeuf",
+      "slug": "sans-oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5137",
+      "sourceTaxonomyId": "5137",
+      "name": "sauce au chocolat",
+      "slug": "sauce-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5139",
+      "sourceTaxonomyId": "5139",
+      "name": "chocolat liquide",
+      "slug": "chocolat-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5143",
+      "sourceTaxonomyId": "5143",
+      "name": "pour crepes",
+      "slug": "pour-crepes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5145",
+      "sourceTaxonomyId": "5145",
+      "name": "pour gauffres",
+      "slug": "pour-gauffres"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5147",
+      "sourceTaxonomyId": "5147",
+      "name": "arroser du chocolat",
+      "slug": "arroser-du-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5149",
+      "sourceTaxonomyId": "5149",
+      "name": "topping",
+      "slug": "topping-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5703",
+      "sourceTaxonomyId": "5703",
+      "name": "chocolat patissier",
+      "slug": "chocolat-patissier"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "rest": null,
+      "total": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10307",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "125 ml de lait ou de crème fleurette",
+            "quantity": {
+              "raw": "125 ml",
+              "value": 125,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait ou de crème fleurette",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g de chocolat noir (60% cacao)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir (60% cacao)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une petite casserole, porter le lait (ou la crème fleurette) à ébullition. La verser sur le chocolat et laisser reposer pendant 1 minute.",
+            "mediaId": "wordpress-attachment:10300"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mélanger vigoureusement pour obtenir un mélange homogène.",
+            "mediaId": "wordpress-attachment:10301"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Si le chocolat est refroidi et devient moins liquide, vous pouvez le réchauffer au bain-marie.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10307",
+      "sourceId": "10307",
+      "path": "/recipes/media/wordpress/10307.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10300",
+      "sourceId": "10300",
+      "path": "/recipes/media/wordpress/10300.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10301",
+      "sourceId": "10301",
+      "path": "/recipes/media/wordpress/10301.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

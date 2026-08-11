@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22119",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:15953",
+  "slug": "salade-depinards-aux-fraises",
+  "source": {
+    "system": "wordpress",
+    "postId": "22119",
+    "recipeId": "22119",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-depinards-aux-fraises",
+    "createdAt": "2018-06-22T18:07:00+00:00",
+    "modifiedAt": "2024-12-02T08:15:49+00:00",
+    "editorialPostId": "17276",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-depinards-aux-fraises",
+    "editorialCreatedAt": "2018-06-22T18:07:00+00:00",
+    "editorialModifiedAt": "2024-12-02T08:15:44+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Salade d'épinards aux fraises",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Cette salade d'épinards aux fraises est assaisonnée d'une délicieuse sauce maison composée de vinaigre balsamique, d'huile d'olive et un peu de confiture. Une salade originale et un vrai délice estival!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22119,\"template\":\"chic-template-french\",\"updated\":1733127234164} -->\n<!--WPRM Recipe 22119-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade d'épinards aux fraises</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_9859.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Salade</h4><ul><li>200 g de feuilles d'épinards</li><li>1/2 oignon (rouge) (épluché et finement coupé en lanières)</li><li>100 g de fraises (lavées, équeutées et coupées en tranches)</li></ul><h4>Sauce</h4><ul><li>3-4 cuillères à soupe d'huile d'olive</li><li>1 cuillère à soupe de vinaigre balsamique</li><li>Sel et poivre du moulin</li><li>1 cuillère à café de confiture (de fraises, framboises , abricots)</li><li>Quelques pincée de paprika ((facultatif))</li><li>Un peu d'amandes ou de noix ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans un saladier, mélanger délicatement les épinards, l'oignon et les fraises.</li><li>Dans un bocal, mélanger tous les ingrédients pour la sauce. Bien secouer pour obtenir un mélange bien lisse.</li><li>Au moment de servir, arroser la salade avec la sauce.</li><li>Si vous voulez, ajouter des amandes ou d'autres noix grillées.\r\n</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24477",
+      "sourceTaxonomyId": "24477",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24488",
+      "sourceTaxonomyId": "24488",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24513",
+      "sourceTaxonomyId": "24513",
+      "name": "de vinaigre balsamique",
+      "slug": "de-vinaigre-balsamique"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24731",
+      "sourceTaxonomyId": "24731",
+      "name": "de feuilles d'épinards",
+      "slug": "de-feuilles-depinards"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24732",
+      "sourceTaxonomyId": "24732",
+      "name": "de fraises",
+      "slug": "de-fraises"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24733",
+      "sourceTaxonomyId": "24733",
+      "name": "de confiture (de fraises, framboises , abricots)",
+      "slug": "de-confiture-de-fraises-framboises-abricots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24734",
+      "sourceTaxonomyId": "24734",
+      "name": "d'amandes ou de noix",
+      "slug": "damandes-ou-de-noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "770",
+      "sourceTaxonomyId": "770",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2955",
+      "sourceTaxonomyId": "2955",
+      "name": "de vinaigre balsamique",
+      "slug": "de-vinaigre-balsamique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5824",
+      "sourceTaxonomyId": "5824",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15962",
+      "sourceTaxonomyId": "15962",
+      "name": "de fraises",
+      "slug": "de-fraises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15964",
+      "sourceTaxonomyId": "15964",
+      "name": "de confiture (de fraises, framboises , abricots)",
+      "slug": "de-confiture-de-fraises-framboises-abricots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15966",
+      "sourceTaxonomyId": "15966",
+      "name": "d'amandes ou de noix",
+      "slug": "damandes-ou-de-noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16004",
+      "sourceTaxonomyId": "16004",
+      "name": "de feuilles d'épinards",
+      "slug": "de-feuilles-depinards"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2945",
+      "sourceTaxonomyId": "2945",
+      "name": "vinaigre balsamique",
+      "slug": "vinaigre-balsamique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3854",
+      "sourceTaxonomyId": "3854",
+      "name": "huile d'olive",
+      "slug": "huile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4531",
+      "sourceTaxonomyId": "4531",
+      "name": "salade d'ete",
+      "slug": "salade-dete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6862",
+      "sourceTaxonomyId": "6862",
+      "name": "bon pour la sante",
+      "slug": "bon-pour-la-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7617",
+      "sourceTaxonomyId": "7617",
+      "name": "oignon rouge",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7842",
+      "sourceTaxonomyId": "7842",
+      "name": "sucre-sale",
+      "slug": "sucre-sale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8029",
+      "sourceTaxonomyId": "8029",
+      "name": "originale",
+      "slug": "originale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17191",
+    "ingredientGroups": [
+      {
+        "name": "Salade",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g de feuilles d'épinards",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de feuilles d'épinards",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 oignon (rouge) épluché et finement coupé en lanières",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon (rouge)",
+            "notes": "épluché et finement coupé en lanières"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 g de fraises lavées, équeutées et coupées en tranches",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de fraises",
+            "notes": "lavées, équeutées et coupées en tranches"
+          }
+        ]
+      },
+      {
+        "name": "Sauce",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3-4 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "3-4 cuillères à soupe",
+              "min": 3,
+              "max": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cuillère à soupe de vinaigre balsamique",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de vinaigre balsamique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cuillère à café de confiture (de fraises, framboises , abricots)",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de confiture (de fraises, framboises , abricots)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Quelques pincée de paprika (facultatif)",
+            "quantity": {
+              "raw": "Quelques pincée",
+              "unit": "pincée",
+              "scalable": false
+            },
+            "name": "de paprika",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Un peu d'amandes ou de noix (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'amandes ou de noix",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un saladier, mélanger délicatement les épinards, l'oignon et les fraises.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un bocal, mélanger tous les ingrédients pour la sauce. Bien secouer pour obtenir un mélange bien lisse.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Au moment de servir, arroser la salade avec la sauce.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Si vous voulez, ajouter des amandes ou d'autres noix grillées.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17191",
+      "sourceId": "17191",
+      "path": "/recipes/media/wordpress/17191.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

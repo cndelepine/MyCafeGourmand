@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22834",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:12856",
+  "slug": "французские-шоколадные-макарон",
+  "source": {
+    "system": "wordpress",
+    "postId": "22834",
+    "recipeId": "22834",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b5-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd",
+    "createdAt": "2018-02-25T07:44:00+00:00",
+    "modifiedAt": "2021-02-24T03:25:42+00:00",
+    "editorialPostId": "15561",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b5-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd",
+    "editorialCreatedAt": "2018-02-25T07:44:00+00:00",
+    "editorialModifiedAt": "2021-02-24T03:25:12+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Французские шоколадные макарон",
+  "description": "Не ешьте макарон сразу!!! Дайте им настояться. Хранить печенье можно в холодильнике дней пять. Перед дегустацией, достать из холодильника и подождать минут 30. Удачный макарон должен быть с тоненькой хрустящей корочкой и нежной тающей во рту серединкой.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Макарон (Macarons au chocolat) - нежное французское печенье из молотого миндаля. Начинки могут быть разными, но самая популярная - шоколадный ганаш. Этот рецепт макарон достаточно легкий и даже если у вас не получатся макарон, как на картинке, в любом случае, они будут очень вкусными!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Если у вас осталось немного лишнего ганаша, из него можно сделать несколько <a href=\"https://mycafegourmand.com/ru/recipe/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be-%d0%bc%d0%b0%d0%bb%d0%b8%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d1%81%d0%be-%d0%b2%d0%b7%d0%b1%d0%b8%d1%82%d1%8b-2/\">верринов (десерт в стаканчиках)</a>.  <br></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22834,\"template\":\"chic-template-russian\",\"updated\":1614137062821} -->\n<!--WPRM Recipe 22834-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Французские шоколадные макарон</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7689.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tНе ешьте макарон сразу!!! Дайте им настояться. Хранить печенье можно в холодильнике дней пять. Перед дегустацией, достать из холодильника и подождать минут 30. Удачный макарон должен быть с тоненькой хрустящей корочкой и нежной тающей во рту серединкой. \t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Миндальное печенье</h4><ul><li>75 г миндальной муки</li><li>110 г сахарной пудры</li><li>1 ст.л. какао-порошка</li><li>2 яичных белка ( (примерно 70 г))</li><li>1 щепотка соли</li><li>50 г сахара</li></ul><h4>Начинка из шоколадного ганаша</h4><ul><li>100 мл жирных сливок (35%)</li><li>90 г черного шоколада (60% какао)</li><li>1 ч.л. сметаны</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Миндальное печенье</h4><ol><li>В блендере перемешать миндальную муку и сахарную пудру (40-50 секунд).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_9001.Blog_-150x150.png\"/><br /></li><li>Добавить в миндально-сахарную смесь какао, перемешать и просеять через мелкое сито.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_9009.Blog_-150x150.png\"/><br /></li><li>В яичные белки положить щепотку соли и взбить миксером в мягкую пену.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_9002.Blog_-150x150.png\"/><br /></li><li>По чуть-чуть добавляя сахар, продолжать взбивать до образования устойчивых пиков.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_0582.Blog_-150x150.png\"/><br /></li><li>Соединить взбитые белки и просеянную смесь миндаль-сахар-какао. Тщательно перемешать лопаткой до однородности. Готовое тесто должно стекать с лопатки ленточкой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_0589.Blog_-150x150.png\"/><br /></li><li>Переложить тесто в кулинарный мешок.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_9023.Blog_-150x150.png\"/><br /></li><li>Два противня застелить пергаментной бумагой. Чтобы макарон получились одинакового размера, лучше начертить кружочки (2,5 см диаметром), оставляя расстояние между ними (3-4 см). Можно использовать силиконовый коврик. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_0593.Blog_-150x150.png\"/><br /></li><li>Выдавить тесто в заготовленные места. Пару раз ударить противень об стол, чтобы тесто образовало ровную круглую форму. Оставить тесто подсохнуть 30-45 минут при комнатной температуре.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7493.Blog_-150x150.png\"/><br /></li><li>Разогреть духовку до 150°C (320°F). Выпекать 15 минут. Точное время выпечки зависит от духовки. В моей духовке я выпекаю только один противень за раз. Готовое печенье должно быть легким и твердым. (Мягким внутри оно станет потом, благодаря начинке).\r\nВынуть противень из духовки и остудить. Аккуратно снять печенье с противня.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7498.Blog_-150x150.png\"/><br /></li></ol><h4>Начинка из шоколадного ганаша</h4><ol><li>Сливки довести до кипения и залить ими кусочки шоколада. Подождать 1 минуту...<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_8335.Blog_-150x150.png\"/><br /></li><li>... затем хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_8336.Blog_-150x150.png\"/><br /></li><li>Добавить сметану и перемешать до однородности.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_8337.Blog_-150x150.png\"/><br /></li><li>Перелить ганаш в маленький кулинарный мешок (или в зип-лок мешочек) и оставить остывать примерно 2 часа при комнатной температуре или примерно 30 минут в холодильнике. Ганаш должен загустеть, но еще оставаться мягким.</li><li>Выдавить немного ганаша на одно печенье и накрыть вторым, аккуратно его придавив. Ганаш должен быть виден, но не размазан по краям макарон.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7587.Blog_-150x150.png\"/><br /></li><li>Готовые макарон положить в холодильник и дать им настояться хотя бы 6 часов. Еще вкуснее они станут на следующий день. ;)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7677.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23956",
+      "sourceTaxonomyId": "23956",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23957",
+      "sourceTaxonomyId": "23957",
+      "name": "миндальной муки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24854",
+      "sourceTaxonomyId": "24854",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24925",
+      "sourceTaxonomyId": "24925",
+      "name": "какао-порошка",
+      "slug": "%d0%ba%d0%b0%d0%ba%d0%b0%d0%be-%d0%bf%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24934",
+      "sourceTaxonomyId": "24934",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25128",
+      "sourceTaxonomyId": "25128",
+      "name": "черного шоколада (60% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25167",
+      "sourceTaxonomyId": "25167",
+      "name": "яичных белка",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d1%85-%d0%b1%d0%b5%d0%bb%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "728",
+      "sourceTaxonomyId": "728",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25344",
+      "sourceTaxonomyId": "25344",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b-%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2006",
+      "sourceTaxonomyId": "2006",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "693",
+      "sourceTaxonomyId": "693",
+      "name": "какао-порошка",
+      "slug": "%d0%ba%d0%b0%d0%ba%d0%b0%d0%be-%d0%bf%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "893",
+      "sourceTaxonomyId": "893",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "895",
+      "sourceTaxonomyId": "895",
+      "name": "миндальной муки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "899",
+      "sourceTaxonomyId": "899",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3500",
+      "sourceTaxonomyId": "3500",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5236",
+      "sourceTaxonomyId": "5236",
+      "name": "черного шоколада (60% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7308",
+      "sourceTaxonomyId": "7308",
+      "name": "яичных белка",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d1%85-%d0%b1%d0%b5%d0%bb%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2598",
+      "sourceTaxonomyId": "2598",
+      "name": "французский десерт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2914",
+      "sourceTaxonomyId": "2914",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5521",
+      "sourceTaxonomyId": "5521",
+      "name": "macaroons",
+      "slug": "macaroons-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6973",
+      "sourceTaxonomyId": "6973",
+      "name": "шоколадный ганаш",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%b3%d0%b0%d0%bd%d0%b0%d1%88"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8158",
+      "sourceTaxonomyId": "8158",
+      "name": "глютен фри",
+      "slug": "%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd-%d1%84%d1%80%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8183",
+      "sourceTaxonomyId": "8183",
+      "name": "французская меренга",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d1%80%d0%b5%d0%bd%d0%b3%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8195",
+      "sourceTaxonomyId": "8195",
+      "name": "тает во рту",
+      "slug": "%d1%82%d0%b0%d0%b5%d1%82-%d0%b2%d0%be-%d1%80%d1%82%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23288",
+      "sourceTaxonomyId": "23288",
+      "name": "макарун",
+      "slug": "%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d1%83%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23289",
+      "sourceTaxonomyId": "23289",
+      "name": "макарон",
+      "slug": "%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23290",
+      "sourceTaxonomyId": "23290",
+      "name": "макаронс",
+      "slug": "%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd%d1%81"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "25 макарон",
+      "value": 25,
+      "unit": "макарон",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "cook": {
+        "raw": "24",
+        "minutes": 24
+      },
+      "rest": null,
+      "total": {
+        "raw": "82",
+        "minutes": 82
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:15658",
+    "ingredientGroups": [
+      {
+        "name": "Миндальное печенье",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "75 г миндальной муки",
+            "quantity": {
+              "raw": "75 г",
+              "value": 75,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "миндальной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "110 г сахарной пудры",
+            "quantity": {
+              "raw": "110 г",
+              "value": 110,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахарной пудры",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 ст.л. какао-порошка",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "какао-порошка",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 яичных белка (примерно 70 г)",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яичных белка",
+            "notes": "(примерно 70 г)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 щепотка соли",
+            "quantity": {
+              "raw": "1 щепотка",
+              "value": 1,
+              "unit": "щепотка",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 г сахара",
+            "quantity": {
+              "raw": "50 г",
+              "value": 50,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Начинка из шоколадного ганаша",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 мл жирных сливок (35%)",
+            "quantity": {
+              "raw": "100 мл",
+              "value": 100,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "жирных сливок (35%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "90 г черного шоколада (60% какао)",
+            "quantity": {
+              "raw": "90 г",
+              "value": 90,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "черного шоколада (60% какао)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 ч.л. сметаны",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "сметаны",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Миндальное печенье",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В блендере перемешать миндальную муку и сахарную пудру (40-50 секунд).",
+            "mediaId": "wordpress-attachment:15489"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Добавить в миндально-сахарную смесь какао, перемешать и просеять через мелкое сито.",
+            "mediaId": "wordpress-attachment:15491"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "В яичные белки положить щепотку соли и взбить миксером в мягкую пену.",
+            "mediaId": "wordpress-attachment:15490"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "По чуть-чуть добавляя сахар, продолжать взбивать до образования устойчивых пиков.",
+            "mediaId": "wordpress-attachment:15482"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Соединить взбитые белки и просеянную смесь миндаль-сахар-какао. Тщательно перемешать лопаткой до однородности. Готовое тесто должно стекать с лопатки ленточкой.",
+            "mediaId": "wordpress-attachment:15484"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Переложить тесто в кулинарный мешок.",
+            "mediaId": "wordpress-attachment:15492"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Два противня застелить пергаментной бумагой. Чтобы макарон получились одинакового размера, лучше начертить кружочки (2,5 см диаметром), оставляя расстояние между ними (3-4 см). Можно использовать силиконовый коврик.",
+            "mediaId": "wordpress-attachment:15485"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Выдавить тесто в заготовленные места. Пару раз ударить противень об стол, чтобы тесто образовало ровную круглую форму. Оставить тесто подсохнуть 30-45 минут при комнатной температуре.",
+            "mediaId": "wordpress-attachment:15486"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Разогреть духовку до 150°C (320°F). Выпекать 15 минут. Точное время выпечки зависит от духовки. В моей духовке я выпекаю только один противень за раз. Готовое печенье должно быть легким и твердым. (Мягким внутри оно станет потом, благодаря начинке).\nВынуть противень из духовки и остудить. Аккуратно снять печенье с противня.",
+            "mediaId": "wordpress-attachment:15487"
+          }
+        ]
+      },
+      {
+        "name": "Начинка из шоколадного ганаша",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Сливки довести до кипения и залить ими кусочки шоколада. Подождать 1 минуту...",
+            "mediaId": "wordpress-attachment:15511"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "... затем хорошо перемешать.",
+            "mediaId": "wordpress-attachment:15512"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Добавить сметану и перемешать до однородности.",
+            "mediaId": "wordpress-attachment:15513"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Перелить ганаш в маленький кулинарный мешок (или в зип-лок мешочек) и оставить остывать примерно 2 часа при комнатной температуре или примерно 30 минут в холодильнике. Ганаш должен загустеть, но еще оставаться мягким.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Выдавить немного ганаша на одно печенье и накрыть вторым, аккуратно его придавив. Ганаш должен быть виден, но не размазан по краям макарон.",
+            "mediaId": "wordpress-attachment:15527"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Готовые макарон положить в холодильник и дать им настояться хотя бы 6 часов. Еще вкуснее они станут на следующий день. ;)",
+            "mediaId": "wordpress-attachment:15543"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15658",
+      "sourceId": "15658",
+      "path": "/recipes/media/wordpress/15658.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:15489",
+      "sourceId": "15489",
+      "path": "/recipes/media/wordpress/15489.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:15491",
+      "sourceId": "15491",
+      "path": "/recipes/media/wordpress/15491.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15490",
+      "sourceId": "15490",
+      "path": "/recipes/media/wordpress/15490.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15482",
+      "sourceId": "15482",
+      "path": "/recipes/media/wordpress/15482.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15484",
+      "sourceId": "15484",
+      "path": "/recipes/media/wordpress/15484.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15492",
+      "sourceId": "15492",
+      "path": "/recipes/media/wordpress/15492.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15485",
+      "sourceId": "15485",
+      "path": "/recipes/media/wordpress/15485.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15486",
+      "sourceId": "15486",
+      "path": "/recipes/media/wordpress/15486.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15487",
+      "sourceId": "15487",
+      "path": "/recipes/media/wordpress/15487.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15511",
+      "sourceId": "15511",
+      "path": "/recipes/media/wordpress/15511.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15512",
+      "sourceId": "15512",
+      "path": "/recipes/media/wordpress/15512.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15513",
+      "sourceId": "15513",
+      "path": "/recipes/media/wordpress/15513.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15527",
+      "sourceId": "15527",
+      "path": "/recipes/media/wordpress/15527.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15543",
+      "sourceId": "15543",
+      "path": "/recipes/media/wordpress/15543.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,803 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21366",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:17137",
+  "slug": "smoked-salmon-puffs",
+  "source": {
+    "system": "wordpress",
+    "postId": "21366",
+    "recipeId": "21366",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-smoked-salmon-puffs",
+    "createdAt": "2019-09-09T03:04:22+00:00",
+    "modifiedAt": "2020-12-23T20:41:44+00:00",
+    "editorialPostId": "17898",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "smoked-salmon-puffs",
+    "editorialCreatedAt": "2019-09-09T03:04:22+00:00",
+    "editorialModifiedAt": "2020-12-23T20:41:23+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Smoked Salmon Puffs",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>These are irresistible little Smoked Salmon puffs, filled with a delicate cream made of smoked salmon. Excellent as an appetizer with a glass of Champagne! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Check out my other recipes with <a href=\"https://mycafegourmand.com/puff-pastry/\">puff pastry</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21366,\"template\":\"chic-template-english\",\"updated\":1608755883005} -->\n<!--WPRM Recipe 21366-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Smoked Salmon Puffs</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9048.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Dough</h4><ul><li>200 ml water or milk</li><li>100 g unsalted butter</li><li>3  pinches of salt</li><li>120 g all purpose flour</li><li>3-4 eggs</li><li>1 egg yolk ((optional))</li></ul><h4>Salmon filling</h4><ul><li>250 g smoked salmon (cut into pieces)</li><li>small onion (minced)</li><li>1 clove of garlic (minced)</li><li>1 Tbsp sour cream</li><li>1 Tbsp olive oil</li><li>3 Tbsp freshly squeezed lemon juice</li><li>Salt and freshly ground black pepper</li><li>100 ml heavy cream( 35%) (very cold)</li><li>Some fresh dill, or chive, (minced)</li><li>Few pinches of paprika (for decoration)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Dough</h4><ol><li>Preheat oven to 390 degrees F. Line two baking sheets with parchment paper.\r\nIn a pot, add water, butter and salt. Bring to a boil and remove from the heat. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2359.Blog_-150x150.png\"/><br /></li><li>Add flour and mix well, until the dough comes away from the walls and forms into a ball.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1320.Blog_-150x150.png\"/><br /></li><li>Add the eggs one by one. Stir well. The dough should become smooth and shiny. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1321.Blog_-150x150.png\"/><br /></li><li>Place saucepan back on the heat and keep mixing for about 30-50 seconds, to dry out the moisture. Remove from the heat.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1322.Blog_-150x150.png\"/><br /></li><li>Transfer the dough to a piping bag.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1324.Blog_-150x150.png\"/><br /></li><li>Pipe puffs (no bigger than a walnut). Space the puffs on the baking sheet, because the dough will rise.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8971.Blog_-150x150.png\"/><br /></li><li>Lightly brush the top of puffs with egg yolk. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8974.Blog_-150x150.png\"/><br /></li><li>Bake for 20-25 minutes or until the puffs are puffed and golden brown in color. Do not open the oven while baking. Remove from the oven, let them cool down completely and carefully transfer to a flat surface. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8979.Blog_-150x150.png\"/><br /></li></ol><h4>Smoked salmon filling</h4><ol><li>In a food processor, combine the smoked salmon with the onion, garlic, sour cream and olive oil. Process until smooth. \r\n \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8982.Blog_-150x150.png\"/><br /></li><li>Season with salt, pepper and lemon juice. Mix once more.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8985.Blog_-150x150.png\"/><br /></li><li>Whip heavy cream, until soft peaks form.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8988.Blog_-150x150.png\"/><br /></li><li>Gently fold in salmon mix into the whipped cream. Add the minced fresh dill.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8990.Blog_-150x150.png\"/><br /></li><li>Cut puffs in half. Transfer the filling to a pastry bag and fill the puffs. Replace the top.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9026.Blog_-150x150.png\"/><br /></li><li>Dust puffs with paprika. Serve right away or keep in the refrigerator.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9040.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24160",
+      "sourceTaxonomyId": "24160",
+      "name": "freshly squeezed lemon juice",
+      "slug": "freshly-squeezed-lemon-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24175",
+      "sourceTaxonomyId": "24175",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24186",
+      "sourceTaxonomyId": "24186",
+      "name": "of garlic",
+      "slug": "of-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24191",
+      "sourceTaxonomyId": "24191",
+      "name": "of paprika",
+      "slug": "of-paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24236",
+      "sourceTaxonomyId": "24236",
+      "name": "heavy cream( 35%)",
+      "slug": "heavy-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24246",
+      "sourceTaxonomyId": "24246",
+      "name": "water or milk",
+      "slug": "water-or-milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24247",
+      "sourceTaxonomyId": "24247",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24248",
+      "sourceTaxonomyId": "24248",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24249",
+      "sourceTaxonomyId": "24249",
+      "name": "fresh dill, or chive,",
+      "slug": "fresh-dill-or-chive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "572",
+      "sourceTaxonomyId": "572",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1124",
+      "sourceTaxonomyId": "1124",
+      "name": "of garlic",
+      "slug": "of-garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2996",
+      "sourceTaxonomyId": "2996",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6308",
+      "sourceTaxonomyId": "6308",
+      "name": "heavy cream( 35%)",
+      "slug": "heavy-cream-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7247",
+      "sourceTaxonomyId": "7247",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7320",
+      "sourceTaxonomyId": "7320",
+      "name": "freshly squeezed lemon juice",
+      "slug": "freshly-squeezed-lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17167",
+      "sourceTaxonomyId": "17167",
+      "name": "water or milk",
+      "slug": "water-or-milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17169",
+      "sourceTaxonomyId": "17169",
+      "name": "fresh dill, or chive,",
+      "slug": "fresh-dill-or-chive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17171",
+      "sourceTaxonomyId": "17171",
+      "name": "of paprika",
+      "slug": "of-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1512",
+      "sourceTaxonomyId": "1512",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5397",
+      "sourceTaxonomyId": "5397",
+      "name": "pate a choux",
+      "slug": "pate-a-choux-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7748",
+      "sourceTaxonomyId": "7748",
+      "name": "elegant",
+      "slug": "elegant-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "40 small puffs",
+      "value": 40,
+      "unit": "small puffs",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "cook": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17782",
+    "ingredientGroups": [
+      {
+        "name": "Dough",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 ml water or milk",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "water or milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g unsalted butter",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 pinches of salt",
+            "quantity": {
+              "raw": "3 pinches",
+              "value": 3,
+              "unit": "pinches",
+              "scalable": true
+            },
+            "name": "of salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "120 g all purpose flour",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3-4 eggs",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 egg yolk (optional)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg yolk",
+            "notes": "(optional)"
+          }
+        ]
+      },
+      {
+        "name": "Salmon filling",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g smoked salmon cut into pieces",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "smoked salmon",
+            "notes": "cut into pieces"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "small onion minced",
+            "quantity": {
+              "raw": "small",
+              "unit": "small",
+              "scalable": false
+            },
+            "name": "onion",
+            "notes": "minced"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 clove of garlic minced",
+            "quantity": {
+              "raw": "1 clove",
+              "value": 1,
+              "unit": "clove",
+              "scalable": true
+            },
+            "name": "of garlic",
+            "notes": "minced"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 Tbsp sour cream",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 Tbsp olive oil",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 Tbsp freshly squeezed lemon juice",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "freshly squeezed lemon juice",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "100 ml heavy cream( 35%) very cold",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy cream( 35%)",
+            "notes": "very cold"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Some fresh dill, or chive, minced",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh dill, or chive,",
+            "notes": "minced"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Few pinches of paprika for decoration",
+            "quantity": {
+              "raw": "Few pinches",
+              "unit": "pinches",
+              "scalable": false
+            },
+            "name": "of paprika",
+            "notes": "for decoration"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Dough",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 390 degrees F. Line two baking sheets with parchment paper.\nIn a pot, add water, butter and salt. Bring to a boil and remove from the heat.",
+            "mediaId": "wordpress-attachment:17812"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add flour and mix well, until the dough comes away from the walls and forms into a ball.",
+            "mediaId": "wordpress-attachment:17769"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add the eggs one by one. Stir well. The dough should become smooth and shiny.",
+            "mediaId": "wordpress-attachment:17770"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Place saucepan back on the heat and keep mixing for about 30-50 seconds, to dry out the moisture. Remove from the heat.",
+            "mediaId": "wordpress-attachment:17771"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Transfer the dough to a piping bag.",
+            "mediaId": "wordpress-attachment:17772"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Pipe puffs (no bigger than a walnut). Space the puffs on the baking sheet, because the dough will rise.",
+            "mediaId": "wordpress-attachment:17773"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Lightly brush the top of puffs with egg yolk.",
+            "mediaId": "wordpress-attachment:17774"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Bake for 20-25 minutes or until the puffs are puffed and golden brown in color. Do not open the oven while baking. Remove from the oven, let them cool down completely and carefully transfer to a flat surface.",
+            "mediaId": "wordpress-attachment:17775"
+          }
+        ]
+      },
+      {
+        "name": "Smoked salmon filling",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a food processor, combine the smoked salmon with the onion, garlic, sour cream and olive oil. Process until smooth.",
+            "mediaId": "wordpress-attachment:17776"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Season with salt, pepper and lemon juice. Mix once more.",
+            "mediaId": "wordpress-attachment:17777"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Whip heavy cream, until soft peaks form.",
+            "mediaId": "wordpress-attachment:17778"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Gently fold in salmon mix into the whipped cream. Add the minced fresh dill.",
+            "mediaId": "wordpress-attachment:17779"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Cut puffs in half. Transfer the filling to a pastry bag and fill the puffs. Replace the top.",
+            "mediaId": "wordpress-attachment:17780"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Dust puffs with paprika. Serve right away or keep in the refrigerator.",
+            "mediaId": "wordpress-attachment:17781"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17782",
+      "sourceId": "17782",
+      "path": "/recipes/media/wordpress/17782.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17812",
+      "sourceId": "17812",
+      "path": "/recipes/media/wordpress/17812.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17769",
+      "sourceId": "17769",
+      "path": "/recipes/media/wordpress/17769.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17770",
+      "sourceId": "17770",
+      "path": "/recipes/media/wordpress/17770.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17771",
+      "sourceId": "17771",
+      "path": "/recipes/media/wordpress/17771.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17772",
+      "sourceId": "17772",
+      "path": "/recipes/media/wordpress/17772.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17773",
+      "sourceId": "17773",
+      "path": "/recipes/media/wordpress/17773.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17774",
+      "sourceId": "17774",
+      "path": "/recipes/media/wordpress/17774.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17775",
+      "sourceId": "17775",
+      "path": "/recipes/media/wordpress/17775.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17776",
+      "sourceId": "17776",
+      "path": "/recipes/media/wordpress/17776.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17777",
+      "sourceId": "17777",
+      "path": "/recipes/media/wordpress/17777.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17778",
+      "sourceId": "17778",
+      "path": "/recipes/media/wordpress/17778.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:17779",
+      "sourceId": "17779",
+      "path": "/recipes/media/wordpress/17779.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17780",
+      "sourceId": "17780",
+      "path": "/recipes/media/wordpress/17780.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17781",
+      "sourceId": "17781",
+      "path": "/recipes/media/wordpress/17781.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

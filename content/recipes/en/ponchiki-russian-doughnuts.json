@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21527",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7738",
+  "slug": "ponchiki-russian-doughnuts",
+  "source": {
+    "system": "wordpress",
+    "postId": "21527",
+    "recipeId": "21527",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-ponchiki-russian-doughnuts",
+    "createdAt": "2018-06-05T21:49:18+00:00",
+    "modifiedAt": "2022-06-26T23:55:28+00:00",
+    "editorialPostId": "13430",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "ponchiki-russian-doughnuts",
+    "editorialCreatedAt": "2018-06-05T21:49:18+00:00",
+    "editorialModifiedAt": "2022-06-26T23:55:27+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Ponchiki (Russian Doughnuts)",
+  "description": "If you couldn't find farmers cheese in your local grocery store, don't panic : use ricotta. This is a good substitute for farmers cheese. Very similar taste. But be sure to drain the water out of the ricotta.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Every kid of the Soviet Union should remember the taste of golden and crunchy on the outside and fluffy and tender on the inside tvoroznye ponchiki. It's a deep-fried piece of dough shaped into a small ball and covered with powdered sugar. They don't just look delightful, they taste the same.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>You don't have to take a trip to Russia to get the real taste of ponchiki :&nbsp;I'll be sharing my recipe with you today. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21527,\"template\":\"chic-template-english\",\"updated\":1656287721582} -->\n<!--WPRM Recipe 21527-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Ponchiki (Russian Doughnuts)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_2064-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf you couldn't find farmers cheese in your local grocery store, don't panic : use ricotta. This is a good substitute for farmers cheese. Very similar taste. But be sure to drain the water out of the ricotta.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 cups farmer cheese</li><li>2 eggs</li><li>1 tsp baking soda</li><li>1 Tbsp granulated sugar</li><li>1/4  tsp salt</li><li>2 tsp vanilla</li><li>1 cup all purpose flour</li><li>olive oil or vegetable oil (to fry)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>In a medium bowl, beat two eggs with sugar and salt, add baking soda and vanilla. Continue beating for 30 more seconds. Add two cups of farmers cheese and beat for 20 more seconds. Add flour and stir with a spatula. Dough will be sticky.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/20180121_184448.Blog_-150x150.png\"/><br /></li><li>Using a small ice cream scoop, or wet hands form dough into a small balls.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/20180121_185258.Blog_-150x150.png\"/><br /></li><li>In a large iron skillet, heat the oil until hot (350 degrees F). Add ponchiki, one at a time, and fry over medium heat until golden brown. Normally ponchiki roll over on their own, and you don't have to turn them over. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/20180121_192101.Blog_-150x150.png\"/><br /></li><li>Lift them with tongs, drain on paper towel. Toss ponchiki in powdered sugar while they are still hot. You can serve them right away.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/20180121_195856.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24158",
+      "sourceTaxonomyId": "24158",
+      "name": "olive oil or vegetable oil",
+      "slug": "olive-oil-or-vegetable-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24231",
+      "sourceTaxonomyId": "24231",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24356",
+      "sourceTaxonomyId": "24356",
+      "name": "farmer cheese",
+      "slug": "farmer-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24357",
+      "sourceTaxonomyId": "24357",
+      "name": "baking soda",
+      "slug": "baking-soda"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24358",
+      "sourceTaxonomyId": "24358",
+      "name": "vanilla",
+      "slug": "vanilla"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4134",
+      "sourceTaxonomyId": "4134",
+      "name": "baking soda",
+      "slug": "baking-soda"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4504",
+      "sourceTaxonomyId": "4504",
+      "name": "vanilla",
+      "slug": "vanilla"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8513",
+      "sourceTaxonomyId": "8513",
+      "name": "farmer cheese",
+      "slug": "farmer-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8515",
+      "sourceTaxonomyId": "8515",
+      "name": "olive oil or vegetable oil",
+      "slug": "olive-oil-or-vegetable-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4230",
+      "sourceTaxonomyId": "4230",
+      "name": "russian dessert",
+      "slug": "russian-dessert"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12349",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 cups farmer cheese",
+            "quantity": {
+              "raw": "2 cups",
+              "value": 2,
+              "unit": "cups",
+              "scalable": true
+            },
+            "name": "farmer cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 tsp baking soda",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking soda",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 Tbsp granulated sugar",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/4 tsp salt",
+            "quantity": {
+              "raw": "1/4 tsp",
+              "value": 0.25,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 tsp vanilla",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "vanilla",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 cup all purpose flour",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "olive oil or vegetable oil to fry",
+            "quantity": null,
+            "name": "olive oil or vegetable oil",
+            "notes": "to fry"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a medium bowl, beat two eggs with sugar and salt, add baking soda and vanilla. Continue beating for 30 more seconds. Add two cups of farmers cheese and beat for 20 more seconds. Add flour and stir with a spatula. Dough will be sticky.",
+            "mediaId": "wordpress-attachment:11146"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Using a small ice cream scoop, or wet hands form dough into a small balls.",
+            "mediaId": "wordpress-attachment:11147"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "In a large iron skillet, heat the oil until hot (350 degrees F). Add ponchiki, one at a time, and fry over medium heat until golden brown. Normally ponchiki roll over on their own, and you don't have to turn them over.",
+            "mediaId": "wordpress-attachment:11148"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Lift them with tongs, drain on paper towel. Toss ponchiki in powdered sugar while they are still hot. You can serve them right away.",
+            "mediaId": "wordpress-attachment:11150"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12349",
+      "sourceId": "12349",
+      "path": "/recipes/media/wordpress/12349.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:11146",
+      "sourceId": "11146",
+      "path": "/recipes/media/wordpress/11146.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:11147",
+      "sourceId": "11147",
+      "path": "/recipes/media/wordpress/11147.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:11148",
+      "sourceId": "11148",
+      "path": "/recipes/media/wordpress/11148.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:11150",
+      "sourceId": "11150",
+      "path": "/recipes/media/wordpress/11150.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

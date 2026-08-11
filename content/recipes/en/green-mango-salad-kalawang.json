@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21470",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7376",
+  "slug": "green-mango-salad-kalawang",
+  "source": {
+    "system": "wordpress",
+    "postId": "21470",
+    "recipeId": "21470",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-green-mango-salade-%d0%baalawang",
+    "createdAt": "2021-03-26T23:11:00+00:00",
+    "modifiedAt": "2022-07-30T20:50:39+00:00",
+    "editorialPostId": "12757",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "green-mango-salad-kalawang",
+    "editorialCreatedAt": "2021-03-26T23:11:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:50:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Green Mango Salade (Кalawang)",
+  "description": "Fresh chili pepper can be substituted with chili powder.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Green and unripe mangoes can be eaten, and are often delicious. For example, this salad with shredded green mangoes is very popular in French Guyana, and if you like spicy food, you will love this salad! Serve cold, as an appetizer or as a side dish with fish, shrimp, or meat. For a pretty presentation, I serve the Kalawang in individual plates with shrimps.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21470,\"template\":\"chic-template-english\",\"updated\":1659214227824} -->\n<!--WPRM Recipe 21470-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Green Mango Salade (Кalawang)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_9924.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tFresh chili pepper can be substituted with chili powder.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 green mangoes (unripe)</li><li>1/2 onion (peeled and finely chopped)</li><li>2 cloves garlic (peeled and pressed)</li><li>1/2 chili pepper (seeded and finely chopped)</li><li>Salt and freshly ground black pepper (to taste)</li><li>3 Tbsp freshly squeezed lemon (or lime) juice</li><li>3 Tbsp vegetable oil</li><li>Some fresh herbs (cilantro, green onion, parsley)</li><li>24 prawns (or shrimps) (cooked and peeled)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel the mangoes with a peeling knife. Shred the pulp and discard the pit.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_9917.Blog_-150x150.png\"/><br /></li><li>In the salad bowl, toss the mangoes, onion, salt and pepper. Drizzle with lemon juice and oil. Cover with plastic wrap and chill in a refrigerator for 2-3 hours.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_9921.Blog_-150x150.png\"/><br /></li><li>When ready to serve, transfer the salad on to the serving plates, embellish with fresh herbs, and prawns.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_9927.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24106",
+      "sourceTaxonomyId": "24106",
+      "name": "fresh herbs (cilantro, green onion, parsley)",
+      "slug": "fresh-herbs-cilantro-green-onion-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24291",
+      "sourceTaxonomyId": "24291",
+      "name": "vegetable oil",
+      "slug": "vegetable-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24311",
+      "sourceTaxonomyId": "24311",
+      "name": "green mangoes (unripe)",
+      "slug": "green-mangoes-unripe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24312",
+      "sourceTaxonomyId": "24312",
+      "name": "chili pepper",
+      "slug": "chili-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24313",
+      "sourceTaxonomyId": "24313",
+      "name": "freshly squeezed lemon (or lime) juice",
+      "slug": "freshly-squeezed-lemon-or-lime-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24314",
+      "sourceTaxonomyId": "24314",
+      "name": "prawns (or shrimps)",
+      "slug": "prawns-or-shrimps"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1126",
+      "sourceTaxonomyId": "1126",
+      "name": "vegetable oil",
+      "slug": "vegetable-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7447",
+      "sourceTaxonomyId": "7447",
+      "name": "chili pepper",
+      "slug": "chili-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7449",
+      "sourceTaxonomyId": "7449",
+      "name": "freshly squeezed lemon (or lime) juice",
+      "slug": "freshly-squeezed-lemon-or-lime-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7451",
+      "sourceTaxonomyId": "7451",
+      "name": "fresh herbs (cilantro, green onion, parsley)",
+      "slug": "fresh-herbs-cilantro-green-onion-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7455",
+      "sourceTaxonomyId": "7455",
+      "name": "green mangoes (unripe)",
+      "slug": "green-mangoes-unripe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7459",
+      "sourceTaxonomyId": "7459",
+      "name": "prawns (or shrimps)",
+      "slug": "prawns-or-shrimps"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4059",
+      "sourceTaxonomyId": "4059",
+      "name": "spicy food",
+      "slug": "spicy-food"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6800",
+      "sourceTaxonomyId": "6800",
+      "name": "prawns",
+      "slug": "prawns"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7421",
+      "sourceTaxonomyId": "7421",
+      "name": "exotic",
+      "slug": "exotic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7423",
+      "sourceTaxonomyId": "7423",
+      "name": "tropical",
+      "slug": "tropical"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7425",
+      "sourceTaxonomyId": "7425",
+      "name": "chili pepper",
+      "slug": "chili-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7427",
+      "sourceTaxonomyId": "7427",
+      "name": "kalawang",
+      "slug": "kalawang-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25372",
+      "sourceTaxonomyId": "25372",
+      "name": "next day salad",
+      "slug": "next-day-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25373",
+      "sourceTaxonomyId": "25373",
+      "name": "green mango",
+      "slug": "green-mango"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25374",
+      "sourceTaxonomyId": "25374",
+      "name": "spicy side dish",
+      "slug": "spicy-side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25375",
+      "sourceTaxonomyId": "25375",
+      "name": "guyana",
+      "slug": "guyana"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25377",
+      "sourceTaxonomyId": "25377",
+      "name": "shredded mango",
+      "slug": "shredded-mango"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "130",
+        "minutes": 130
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12740",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 green mangoes (unripe)",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "green mangoes (unripe)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 onion peeled and finely chopped",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": "peeled and finely chopped"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 cloves garlic peeled and pressed",
+            "quantity": {
+              "raw": "2 cloves",
+              "value": 2,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": "peeled and pressed"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 chili pepper seeded and finely chopped",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "chili pepper",
+            "notes": "seeded and finely chopped"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 Tbsp freshly squeezed lemon (or lime) juice",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "freshly squeezed lemon (or lime) juice",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "3 Tbsp vegetable oil",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "vegetable oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Some fresh herbs (cilantro, green onion, parsley)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh herbs (cilantro, green onion, parsley)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "24 prawns (or shrimps) cooked and peeled",
+            "quantity": {
+              "raw": "24",
+              "value": 24,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "prawns (or shrimps)",
+            "notes": "cooked and peeled"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel the mangoes with a peeling knife. Shred the pulp and discard the pit.",
+            "mediaId": "wordpress-attachment:12738"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In the salad bowl, toss the mangoes, onion, salt and pepper. Drizzle with lemon juice and oil. Cover with plastic wrap and chill in a refrigerator for 2-3 hours.",
+            "mediaId": "wordpress-attachment:12739"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "When ready to serve, transfer the salad on to the serving plates, embellish with fresh herbs, and prawns.",
+            "mediaId": "wordpress-attachment:12741"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12740",
+      "sourceId": "12740",
+      "path": "/recipes/media/wordpress/12740.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12738",
+      "sourceId": "12738",
+      "path": "/recipes/media/wordpress/12738.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12739",
+      "sourceId": "12739",
+      "path": "/recipes/media/wordpress/12739.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12741",
+      "sourceId": "12741",
+      "path": "/recipes/media/wordpress/12741.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

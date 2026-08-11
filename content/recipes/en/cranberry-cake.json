@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21444",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:602",
+  "slug": "cranberry-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21444",
+    "recipeId": "21444",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cranberry-cake",
+    "createdAt": "2024-11-23T17:42:00+00:00",
+    "modifiedAt": "2026-02-14T00:58:16+00:00",
+    "editorialPostId": "1651",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cranberry-cake",
+    "editorialCreatedAt": "2024-11-23T17:42:00+00:00",
+    "editorialModifiedAt": "2026-02-14T00:56:31+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Cranberry Cake",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This homemade cranberry cake is perfect for the winter season. Its bright red color brings holiday spirit to your family dinner or friends party. Easy to make and delicious! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21444,\"template\":\"chic-template-english\",\"updated\":1734053369985} -->\n<!--WPRM Recipe 21444-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Cranberry Cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5137.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 eggs</li><li>220 g granulated sugar</li><li>115 g melted butter</li><li>150 g all purpose flour</li><li>2 tsp baking powder</li><li>1 cup fresh cranberries</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 380ºF. Grease and flour a cake pan.  </li><li>Beat eggs and sugar with mixer until slightly thickened.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5261.Blog_-2-150x150.png\"/><br /></li><li>Add melted butter and mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5284.Blog_-2-150x150.png\"/><br /></li><li>Stir in the flour and baking powder.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5282.Blog_-2-150x150.png\"/><br /></li><li>Add the cranberries and stir gently.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5291.Blog_-2-150x150.png\"/><br /></li><li>Pour batter into the prepared pan. Bake for 40-50 minutes or until a toothpick inserted in the center comes out clean.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2017/12/20171105_163404.Blog_-150x150.png\"/><br /></li><li>Remove the cake from the oven and allow it to cool. If desired, dust with confectioners sugar.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2017/12/20171106_180254.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24116",
+      "sourceTaxonomyId": "24116",
+      "name": "fresh cranberries",
+      "slug": "fresh-cranberries"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24197",
+      "sourceTaxonomyId": "24197",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24231",
+      "sourceTaxonomyId": "24231",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "664",
+      "sourceTaxonomyId": "664",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "670",
+      "sourceTaxonomyId": "670",
+      "name": "fresh cranberries",
+      "slug": "fresh-cranberries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1302",
+      "sourceTaxonomyId": "1302",
+      "name": "cranberry",
+      "slug": "cranberry-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3634",
+      "sourceTaxonomyId": "3634",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5781",
+      "sourceTaxonomyId": "5781",
+      "name": "best cake ever",
+      "slug": "best-cake-ever"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7054",
+      "sourceTaxonomyId": "7054",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8442",
+      "sourceTaxonomyId": "8442",
+      "name": "christmas cake",
+      "slug": "christmas-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8456",
+      "sourceTaxonomyId": "8456",
+      "name": "thanksgiving cake",
+      "slug": "thanksgiving-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8458",
+      "sourceTaxonomyId": "8458",
+      "name": "winter season",
+      "slug": "winter-season"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 people",
+      "value": 8,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13374",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "220 g granulated sugar",
+            "quantity": {
+              "raw": "220 g",
+              "value": 220,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "115 g melted butter",
+            "quantity": {
+              "raw": "115 g",
+              "value": 115,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "melted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 g all purpose flour",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 tsp baking powder",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 cup fresh cranberries",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "fresh cranberries",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380ºF. Grease and flour a cake pan.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Beat eggs and sugar with mixer until slightly thickened.",
+            "mediaId": "wordpress-attachment:13384"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add melted butter and mix well.",
+            "mediaId": "wordpress-attachment:13382"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Stir in the flour and baking powder.",
+            "mediaId": "wordpress-attachment:13385"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add the cranberries and stir gently.",
+            "mediaId": "wordpress-attachment:13383"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Pour batter into the prepared pan. Bake for 40-50 minutes or until a toothpick inserted in the center comes out clean.",
+            "mediaId": "wordpress-attachment:1031"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Remove the cake from the oven and allow it to cool. If desired, dust with confectioners sugar.",
+            "mediaId": "wordpress-attachment:765"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13374",
+      "sourceId": "13374",
+      "path": "/recipes/media/wordpress/13374.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13384",
+      "sourceId": "13384",
+      "path": "/recipes/media/wordpress/13384.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13382",
+      "sourceId": "13382",
+      "path": "/recipes/media/wordpress/13382.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13385",
+      "sourceId": "13385",
+      "path": "/recipes/media/wordpress/13385.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13383",
+      "sourceId": "13383",
+      "path": "/recipes/media/wordpress/13383.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1031",
+      "sourceId": "1031",
+      "path": "/recipes/media/wordpress/1031.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:765",
+      "sourceId": "765",
+      "path": "/recipes/media/wordpress/765.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

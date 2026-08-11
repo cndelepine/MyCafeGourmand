@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28873",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26980",
+  "slug": "chocolate-pear-tart",
+  "source": {
+    "system": "wordpress",
+    "postId": "28873",
+    "recipeId": "28873",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chocolate-pear-tart",
+    "createdAt": "2024-12-30T13:00:37+00:00",
+    "modifiedAt": "2024-12-30T16:46:09+00:00",
+    "editorialPostId": "28872",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chocolate-pear-tart",
+    "editorialCreatedAt": "2024-12-30T13:00:37+00:00",
+    "editorialModifiedAt": "2024-12-30T02:12:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Chocolate pear tart",
+  "description": "The dough can be prepared by hand, in a food processor or using a mixer.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Incredibly delicious tart from my favorite chef Philippe (Meilleur du chef). This chocolate pear tart is a little long to prepare, but without a doubt, worth it!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>At the request of friends, my translation from French with slight deviations from the original recipe.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>if you like it, please try my <a href=\"https://mycafegourmand.com/recipes/desserts/\">other desserts</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28873,\"template\":\"chic-template-english\",\"updated\":1735524682143} -->\n<!--WPRM Recipe 28873-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chocolate pear tart</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_1194.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>The dough can be prepared by hand, in a food processor or using a mixer.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Almond Shortcrust Pastry</h4><ul><li>200 g flour</li><li>120 g softened butter</li><li>75 g powdered sugar</li><li>30 g almond flour</li><li>1 egg</li><li>1/2 tsp liquid vanilla (or 1 packet of vanilla sugar or 1 vanilla pod)</li></ul><h4>Almond Cream</h4><ul><li>50 g almond flour</li><li>A dash lemon juice</li><li>45 g sugar</li><li>1 egg yolk</li><li>2 egg whiltes</li><li>3-4 ripe pears</li></ul><h4>Chocolate Ganache</h4><ul><li>150 ml heavy cream (35%)</li><li>210 g chocolate chips (60 % cocoa)</li><li>50 g grated dark chocolate</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Almond Shortcrust Pastry</h4><ol><li><p>Sift the flour and powdered sugar into a bowl or onto a work surface. Add almond flour and butter cubes. Rub with your hands until it becomes crumbly.</p></li><li><p>Add the egg and liquid vanilla. Mix everything quickly. Once it forms into a ball, the dough is ready.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_4615.Blog_-150x150.png\"/><br /></li><li><p>Wrap the dough in plastic wrap and refrigerate for about 1 hour.</p></li><li><p>Preheat the oven to 170°C (340°F). Roll out the dough thinly between parchment paper or plastic wrap.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1337.Blog_-1-150x150.png\"/><br /></li><li><p>Transfer the dough to a tart pan, pressing it against the bottom and sides. Trim off any excess dough. (In the example, a baking ring is used.)</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2396.Blog_-150x150.png\"/><br /></li><li><p>Poke the entire surface with a fork.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2397.Blog_-150x150.png\"/><br /></li><li><p>Bake in the oven for 15–20 minutes until golden. Remove and cool.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2406.Blog_-150x150.png\"/><br /></li></ol><h4>Almond Cream</h4><ol><li><p>Mix sugar with egg yolks. Add lemon juice and almond flour.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2392.Blog_-150x150.png\"/><br /></li><li><p>Beat the egg whites into stiff peaks.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0690.Blog_-150x150.png\"/><br /></li><li><p>Gently fold the beaten egg whites into the almond mixture.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2408.Blog_-150x150.png\"/><br /></li><li><p>Peel the pears, cut them in half, and remove the cores. Slice them very thinly.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2410.Blog_-150x150.png\"/><br /></li><li><p>Spread the almond-egg mixture evenly over the cooled tart crust. Arrange the pear slices decoratively on top.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2413.Blog_-150x150.png\"/><br /></li><li><p>Bake in the oven for about 20 minutes. Remove the tart from the oven and let it cool.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2415.Blog_-150x150.png\"/><br /></li></ol><h4>Chocolate Ganache</h4><ol><li><p>Carefully remove the tart from the pan. Cut a long strip of parchment paper about 5 cm wide. Wrap it around the tart and secure it with tape.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2416.Blog_-150x150.png\"/><br /></li><li><p>Heat the cream to a boil and pour it over the chocolate. Let it sit for 1–2 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2417.Blog_-e1536336296566-150x150.png\"/><br /></li><li><p>Stir until smooth to create a thick ganache.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2418.Blog_-e1536336469854-150x150.png\"/><br /></li><li><p>Pour the ganache over the tart and smooth the surface.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2423.Blog_-150x150.png\"/><br /></li><li><p>Sprinkle with grated chocolate.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/40433191_1966850183379463_6174978544221814784_n.Blog_-1-150x150.png\"/><br /></li><li><p>Let it set at room temperature or in the refrigerator. Once the ganache is firm, remove the parchment strip.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_1194.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Incredibly delicious chocolate pear tart from my favorite French chef Philippe (Meilleur du chef). A bit long to prepare but so good!"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24061",
+      "sourceTaxonomyId": "24061",
+      "name": "egg",
+      "slug": "egg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24064",
+      "sourceTaxonomyId": "24064",
+      "name": "softened butter",
+      "slug": "softened-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24200",
+      "sourceTaxonomyId": "24200",
+      "name": "powdered sugar",
+      "slug": "powdered-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24230",
+      "sourceTaxonomyId": "24230",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24236",
+      "sourceTaxonomyId": "24236",
+      "name": "heavy cream( 35%)",
+      "slug": "heavy-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24248",
+      "sourceTaxonomyId": "24248",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24262",
+      "sourceTaxonomyId": "24262",
+      "name": "flour",
+      "slug": "flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24348",
+      "sourceTaxonomyId": "24348",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24416",
+      "sourceTaxonomyId": "24416",
+      "name": "chocolate chips",
+      "slug": "chocolate-chips"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26981",
+      "sourceTaxonomyId": "26981",
+      "name": "liquid vanilla (or 1 packet of vanilla sugar or 1 vanilla pod)",
+      "slug": "liquid-vanilla-or-1-packet-of-vanilla-sugar-or-1-vanilla-pod"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26982",
+      "sourceTaxonomyId": "26982",
+      "name": "egg whiltes",
+      "slug": "egg-whiltes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26983",
+      "sourceTaxonomyId": "26983",
+      "name": "ripe pears",
+      "slug": "ripe-pears"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26984",
+      "sourceTaxonomyId": "26984",
+      "name": "grated dark chocolate",
+      "slug": "grated-dark-chocolate"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25464",
+      "sourceTaxonomyId": "25464",
+      "name": "tsp",
+      "slug": "tsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4170",
+      "sourceTaxonomyId": "4170",
+      "name": "chocolate",
+      "slug": "chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5381",
+      "sourceTaxonomyId": "5381",
+      "name": "french dessert",
+      "slug": "french-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "24072",
+      "sourceTaxonomyId": "24072",
+      "name": "French Pear Tart",
+      "slug": "french-pear-tart"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 people",
+      "value": 8,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "100",
+        "minutes": 100
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28548",
+    "ingredientGroups": [
+      {
+        "name": "Almond Shortcrust Pastry",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g flour",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "120 g softened butter",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "softened butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "75 g powdered sugar",
+            "quantity": {
+              "raw": "75 g",
+              "value": 75,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "powdered sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "30 g almond flour",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 egg",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 tsp liquid vanilla (or 1 packet of vanilla sugar or 1 vanilla pod)",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "liquid vanilla (or 1 packet of vanilla sugar or 1 vanilla pod)",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Almond Cream",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "50 g almond flour",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "A dash lemon juice",
+            "quantity": {
+              "raw": "A dash",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "lemon juice",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "45 g sugar",
+            "quantity": {
+              "raw": "45 g",
+              "value": 45,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 egg yolk",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg yolk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 egg whiltes",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg whiltes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3-4 ripe pears",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "ripe pears",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Ganache",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 ml heavy cream (35%)",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy cream (35%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "210 g chocolate chips 60 % cocoa",
+            "quantity": {
+              "raw": "210 g",
+              "value": 210,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chocolate chips",
+            "notes": "60 % cocoa"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g grated dark chocolate",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "grated dark chocolate",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Almond Shortcrust Pastry",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Sift the flour and powdered sugar into a bowl or onto a work surface. Add almond flour and butter cubes. Rub with your hands until it becomes crumbly.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add the egg and liquid vanilla. Mix everything quickly. Once it forms into a ball, the dough is ready.",
+            "mediaId": "wordpress-attachment:13238"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Wrap the dough in plastic wrap and refrigerate for about 1 hour.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Preheat the oven to 170°C (340°F). Roll out the dough thinly between parchment paper or plastic wrap.",
+            "mediaId": "wordpress-attachment:12434"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Transfer the dough to a tart pan, pressing it against the bottom and sides. Trim off any excess dough. (In the example, a baking ring is used.)",
+            "mediaId": "wordpress-attachment:12679"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Poke the entire surface with a fork.",
+            "mediaId": "wordpress-attachment:12680"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Bake in the oven for 15–20 minutes until golden. Remove and cool.",
+            "mediaId": "wordpress-attachment:12681"
+          }
+        ]
+      },
+      {
+        "name": "Almond Cream",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Mix sugar with egg yolks. Add lemon juice and almond flour.",
+            "mediaId": "wordpress-attachment:12688"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Beat the egg whites into stiff peaks.",
+            "mediaId": "wordpress-attachment:11828"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Gently fold the beaten egg whites into the almond mixture.",
+            "mediaId": "wordpress-attachment:12682"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Peel the pears, cut them in half, and remove the cores. Slice them very thinly.",
+            "mediaId": "wordpress-attachment:12683"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Spread the almond-egg mixture evenly over the cooled tart crust. Arrange the pear slices decoratively on top.",
+            "mediaId": "wordpress-attachment:12689"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bake in the oven for about 20 minutes. Remove the tart from the oven and let it cool.",
+            "mediaId": "wordpress-attachment:12684"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Ganache",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Carefully remove the tart from the pan. Cut a long strip of parchment paper about 5 cm wide. Wrap it around the tart and secure it with tape.",
+            "mediaId": "wordpress-attachment:12685"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Heat the cream to a boil and pour it over the chocolate. Let it sit for 1–2 minutes.",
+            "mediaId": "wordpress-attachment:12686"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Stir until smooth to create a thick ganache.",
+            "mediaId": "wordpress-attachment:12687"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Pour the ganache over the tart and smooth the surface.",
+            "mediaId": "wordpress-attachment:12691"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sprinkle with grated chocolate.",
+            "mediaId": "wordpress-attachment:12733"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Let it set at room temperature or in the refrigerator. Once the ganache is firm, remove the parchment strip.",
+            "mediaId": "wordpress-attachment:28548"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28548",
+      "sourceId": "28548",
+      "path": "/recipes/media/wordpress/28548.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:13238",
+      "sourceId": "13238",
+      "path": "/recipes/media/wordpress/13238.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12434",
+      "sourceId": "12434",
+      "path": "/recipes/media/wordpress/12434.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12679",
+      "sourceId": "12679",
+      "path": "/recipes/media/wordpress/12679.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12680",
+      "sourceId": "12680",
+      "path": "/recipes/media/wordpress/12680.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12681",
+      "sourceId": "12681",
+      "path": "/recipes/media/wordpress/12681.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12688",
+      "sourceId": "12688",
+      "path": "/recipes/media/wordpress/12688.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11828",
+      "sourceId": "11828",
+      "path": "/recipes/media/wordpress/11828.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12682",
+      "sourceId": "12682",
+      "path": "/recipes/media/wordpress/12682.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12683",
+      "sourceId": "12683",
+      "path": "/recipes/media/wordpress/12683.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12689",
+      "sourceId": "12689",
+      "path": "/recipes/media/wordpress/12689.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12684",
+      "sourceId": "12684",
+      "path": "/recipes/media/wordpress/12684.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12685",
+      "sourceId": "12685",
+      "path": "/recipes/media/wordpress/12685.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12686",
+      "sourceId": "12686",
+      "path": "/recipes/media/wordpress/12686.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:12687",
+      "sourceId": "12687",
+      "path": "/recipes/media/wordpress/12687.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:12691",
+      "sourceId": "12691",
+      "path": "/recipes/media/wordpress/12691.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12733",
+      "sourceId": "12733",
+      "path": "/recipes/media/wordpress/12733.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

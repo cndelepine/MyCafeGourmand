@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21311",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4254",
+  "slug": "flourless-chocolate-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21311",
+    "recipeId": "21311",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-flourless-chocolate-cake",
+    "createdAt": "2023-02-16T00:48:00+00:00",
+    "modifiedAt": "2023-02-16T19:36:08+00:00",
+    "editorialPostId": "8747",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "flourless-chocolate-cake",
+    "editorialCreatedAt": "2023-02-16T00:48:00+00:00",
+    "editorialModifiedAt": "2023-02-16T19:35:51+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Flourless chocolate cake",
+  "description": null,
+  "editorial": {
+    "content": "<p>The flourless chocolate cake is a <span lang=\"en\">delicate </span> gluten free <a href=\"https://mycafegourmand.com/recipes/desserts/\">dessert </a><span lang=\"en\">that melts in your mouth</span>. <span lang=\"en\">The recipe is absolutely simple without any flour! All you need is chocolate, butter, sugar and eggs. </span></p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21311,\"template\":\"chic-template-english\",\"updated\":1608755426798} -->\n<!--WPRM Recipe 21311-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Flourless chocolate cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9637.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g chocolate chips (60%)</li><li>150 g unsalted butter</li><li>200 g sugar</li><li>6 eggs</li><li>2 pinches salt</li><li>1/4 tbsp powdered sugar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Melt the chocolate and butter on a water bath or in a microwave. Mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9608.Blog_-150x150.png\"/><br /></li><li>Add sugar and mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9609.Blog_-150x150.png\"/><br /></li><li>Separate yolks from egg whites.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9607.Blog_-150x150.png\"/><br /></li><li>Add yolks into the melted chocolate and mix.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9610.Blog_-150x150.png\"/><br /></li><li>Add salt to the egg whites, and beat into a thick foam.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9119.Blog_-150x150.png\"/><br /></li><li>Using a spatula carefully fold in whipped egg whites into chocolate mass.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9611.Blog_-150x150.png\"/><br /></li><li>Preheat oven to 380 degrees F.  Generously butter a baking pan and pour the batter into the cake pan.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9616.Blog_.Blog_-150x150.png\"/><br /></li><li>Bake in in the preheated oven for about 25 minutes. The exact time of baking depends on the oven, size and quality of the baking pan. Once the the cake is moist and not liquid inside (it's not a lava cake) - it's ready. Please, don't overcook!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9617.Blog_-150x150.png\"/><br /></li><li>Let the cake cool then carefully remove it from the pan. Dust it with powdered sugar and serve.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9624-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24198",
+      "sourceTaxonomyId": "24198",
+      "name": "chocolate chips (60%)",
+      "slug": "chocolate-chips-60"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24200",
+      "sourceTaxonomyId": "24200",
+      "name": "powdered sugar",
+      "slug": "powdered-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25342",
+      "sourceTaxonomyId": "25342",
+      "name": "Desserts",
+      "slug": "desserts-gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1804",
+      "sourceTaxonomyId": "1804",
+      "name": "powdered sugar",
+      "slug": "powdered-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4263",
+      "sourceTaxonomyId": "4263",
+      "name": "chocolate chips (60%)",
+      "slug": "chocolate-chips-60"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1897",
+      "sourceTaxonomyId": "1897",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1959",
+      "sourceTaxonomyId": "1959",
+      "name": "chocolate chip",
+      "slug": "chocolate-chip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3022",
+      "sourceTaxonomyId": "3022",
+      "name": "snack",
+      "slug": "snack-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4170",
+      "sourceTaxonomyId": "4170",
+      "name": "chocolate",
+      "slug": "chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4255",
+      "sourceTaxonomyId": "4255",
+      "name": "flourless",
+      "slug": "flourless"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4257",
+      "sourceTaxonomyId": "4257",
+      "name": "gliuten free",
+      "slug": "gliuten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4259",
+      "sourceTaxonomyId": "4259",
+      "name": "fondant",
+      "slug": "fondant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:8668",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g chocolate chips (60%)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chocolate chips (60%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g unsalted butter",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "200 g sugar",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "6 eggs",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 pinches salt",
+            "quantity": {
+              "raw": "2 pinches",
+              "value": 2,
+              "unit": "pinches",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/4 tbsp powdered sugar",
+            "quantity": {
+              "raw": "1/4 tbsp",
+              "value": 0.25,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "powdered sugar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Melt the chocolate and butter on a water bath or in a microwave. Mix well.",
+            "mediaId": "wordpress-attachment:8661"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add sugar and mix well.",
+            "mediaId": "wordpress-attachment:8662"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Separate yolks from egg whites.",
+            "mediaId": "wordpress-attachment:8660"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add yolks into the melted chocolate and mix.",
+            "mediaId": "wordpress-attachment:8663"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add salt to the egg whites, and beat into a thick foam.",
+            "mediaId": "wordpress-attachment:8670"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Using a spatula carefully fold in whipped egg whites into chocolate mass.",
+            "mediaId": "wordpress-attachment:8664"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Preheat oven to 380 degrees F. Generously butter a baking pan and pour the batter into the cake pan.",
+            "mediaId": "wordpress-attachment:8665"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Bake in in the preheated oven for about 25 minutes. The exact time of baking depends on the oven, size and quality of the baking pan. Once the the cake is moist and not liquid inside (it's not a lava cake) - it's ready. Please, don't overcook!",
+            "mediaId": "wordpress-attachment:8666"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Let the cake cool then carefully remove it from the pan. Dust it with powdered sugar and serve.",
+            "mediaId": "wordpress-attachment:8667"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8668",
+      "sourceId": "8668",
+      "path": "/recipes/media/wordpress/8668.png",
+      "alt": "My Cafe Gourmand",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:8661",
+      "sourceId": "8661",
+      "path": "/recipes/media/wordpress/8661.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8662",
+      "sourceId": "8662",
+      "path": "/recipes/media/wordpress/8662.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8660",
+      "sourceId": "8660",
+      "path": "/recipes/media/wordpress/8660.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8663",
+      "sourceId": "8663",
+      "path": "/recipes/media/wordpress/8663.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8670",
+      "sourceId": "8670",
+      "path": "/recipes/media/wordpress/8670.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8664",
+      "sourceId": "8664",
+      "path": "/recipes/media/wordpress/8664.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8665",
+      "sourceId": "8665",
+      "path": "/recipes/media/wordpress/8665.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8666",
+      "sourceId": "8666",
+      "path": "/recipes/media/wordpress/8666.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8667",
+      "sourceId": "8667",
+      "path": "/recipes/media/wordpress/8667.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

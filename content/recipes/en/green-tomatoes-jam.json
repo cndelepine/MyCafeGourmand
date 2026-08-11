@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21459",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:17239",
+  "slug": "green-tomatoes-jam",
+  "source": {
+    "system": "wordpress",
+    "postId": "21459",
+    "recipeId": "21459",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-green-tomatoes-jam",
+    "createdAt": "2025-08-14T23:22:00+00:00",
+    "modifiedAt": "2025-08-15T21:56:10+00:00",
+    "editorialPostId": "18285",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "green-tomatoes-jam",
+    "editorialCreatedAt": "2025-08-14T23:22:00+00:00",
+    "editorialModifiedAt": "2025-08-15T21:56:03+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Green Tomatoes Jam",
+  "description": "For this recipe, I like to use green cherries tomatoes, so that they don't need to be peeled. However, if your tomatoes are big and have thick skin, you may need to peel them.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Don't know what to do with the left-over green tomatoes from your summer harvest? Jam, of course!  This recipe is extremely easy. Try it for breakfast, on top of bread, or as an <a href=\"https://mycafegourmand.com/recipes/appetizers/\" target=\"_blank\" rel=\"noreferrer noopener\">appetizer </a>with some cheese.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21459,\"template\":\"chic-template-english\",\"updated\":1728166697803} -->\n<!--WPRM Recipe 21459-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Green Tomatoes Jam</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_9852.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tFor this recipe, I like to use green cherries tomatoes, so that they don't need to be peeled. However, if your tomatoes are big and have thick skin, you may need to peel them.  \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 kg green tomatoes</li><li>3/4 inch ginger ((optional))</li><li>2 lemons</li><li>650 g sugar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut the tomatoes into wedges. Peel and grate the ginger, and press the lemon.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_9791.Blog_-150x150.png\"/><br /></li><li>In a pot, combine the tomatoes, sugar, ginger, and lemon juice. Cover and let sit all night.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_9795.Blog_-150x150.png\"/><br /></li><li>The next day, remove the cover and bring to a boil. Then, reduce the heat and simmer for about 35 minutes, stirring frequently. Skim if needed. The cooking time depends of how much water is in the tomatoes. Don't over cook. When the jam is cooled down, it will be less liquid.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_9799.Blog_-150x150.png\"/><br /></li><li>Pour the jam into a clean jar and cover it with its lid.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_0808.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23948",
+      "sourceTaxonomyId": "23948",
+      "name": "lemons",
+      "slug": "lemons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24305",
+      "sourceTaxonomyId": "24305",
+      "name": "green tomatoes",
+      "slug": "green-tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24306",
+      "sourceTaxonomyId": "24306",
+      "name": "ginger",
+      "slug": "ginger"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "523",
+      "sourceTaxonomyId": "523",
+      "name": "lemons",
+      "slug": "lemons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17283",
+      "sourceTaxonomyId": "17283",
+      "name": "green tomatoes",
+      "slug": "green-tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17285",
+      "sourceTaxonomyId": "17285",
+      "name": "ginger",
+      "slug": "ginger"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4794",
+      "sourceTaxonomyId": "4794",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "17362",
+      "sourceTaxonomyId": "17362",
+      "name": "good for breakfast",
+      "slug": "good-for-breakfast"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26839",
+      "sourceTaxonomyId": "26839",
+      "name": "Green",
+      "slug": "green-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26841",
+      "sourceTaxonomyId": "26841",
+      "name": "Green tomato",
+      "slug": "green-tomato-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26843",
+      "sourceTaxonomyId": "26843",
+      "name": "Green tomatoes jam",
+      "slug": "green-tomatoes-jam-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26845",
+      "sourceTaxonomyId": "26845",
+      "name": "jam",
+      "slug": "jam-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26847",
+      "sourceTaxonomyId": "26847",
+      "name": "with cheese",
+      "slug": "with-cheese-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "650",
+        "minutes": 650
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18187",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 kg green tomatoes",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "green tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3/4 inch ginger (optional)",
+            "quantity": {
+              "raw": "3/4 inch",
+              "value": 0.75,
+              "unit": "inch",
+              "scalable": true
+            },
+            "name": "ginger",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 lemons",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemons",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "650 g sugar",
+            "quantity": {
+              "raw": "650 g",
+              "value": 650,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut the tomatoes into wedges. Peel and grate the ginger, and press the lemon.",
+            "mediaId": "wordpress-attachment:18190"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a pot, combine the tomatoes, sugar, ginger, and lemon juice. Cover and let sit all night.",
+            "mediaId": "wordpress-attachment:18184"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "The next day, remove the cover and bring to a boil. Then, reduce the heat and simmer for about 35 minutes, stirring frequently. Skim if needed. The cooking time depends of how much water is in the tomatoes. Don't over cook. When the jam is cooled down, it will be less liquid.",
+            "mediaId": "wordpress-attachment:18185"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Pour the jam into a clean jar and cover it with its lid.",
+            "mediaId": "wordpress-attachment:18237"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18187",
+      "sourceId": "18187",
+      "path": "/recipes/media/wordpress/18187.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18190",
+      "sourceId": "18190",
+      "path": "/recipes/media/wordpress/18190.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18184",
+      "sourceId": "18184",
+      "path": "/recipes/media/wordpress/18184.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18185",
+      "sourceId": "18185",
+      "path": "/recipes/media/wordpress/18185.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18237",
+      "sourceId": "18237",
+      "path": "/recipes/media/wordpress/18237.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22037",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:559",
+  "slug": "terrine-au-thon-et-saumon-fume",
+  "source": {
+    "system": "wordpress",
+    "postId": "22037",
+    "recipeId": "22037",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-terrine-au-thon-et-saumon-fume",
+    "createdAt": "2019-11-29T07:57:00+00:00",
+    "modifiedAt": "2024-05-08T03:14:38+00:00",
+    "editorialPostId": "1573",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "terrine-au-thon-et-saumon-fume",
+    "editorialCreatedAt": "2019-11-29T07:57:00+00:00",
+    "editorialModifiedAt": "2024-05-08T03:14:35+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Terrine au thon et saumon fumé",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Cette terrine au thon et saumon fumé est une terrine délicieuse à base de mascarpone. Une recette très pratique car elle se prépare à l’avance. À servir au moment de l'apéritif avec des toasts légèrement grillés ou du pain frais.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22037,\"template\":\"chic-template-french\",\"updated\":1715137933299} -->\n<!--WPRM Recipe 22037-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Terrine au thon et saumon fumé</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_4363.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>160 g de mascarpone ((à la température ambiante))</li><li>160 g de thon en boîte ((égoutté))</li><li>1/2 échalote (finement hachée)</li><li>1/4 de botte  d'aneth (ciselé)</li><li>5-6 tranches  de saumon fumé, (découpé en petits morceaux)</li><li>Sel et poivre du moulin</li><li>Quelques  lamelles de saumon fumé (pour la décoration)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>À l'aide d'une fourchette, mélanger le mascarpone avec le thon, les échalotes et l'aneth. (Sortir le mascarpone du refrigerateur 30 minutes avant de commencer la prepararion, il sera plus facile à travailler).</li><li> Ajouter les morceaux de saumon. Saler et poivrer.</li><li>Mettre la préparation dans une terrine ou dans des ramequins. </li><li>Décorer des lamelles de saumon. Parsemer d'aneth. </li><li>Couvrir avec un film alimentaire et placer au réfrigérateur pendant 6 heures.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div><div class=\"wprm-fallback-recipe-meta-cuisine\">française</div><div class=\"wprm-fallback-recipe-meta-keyword\">Terrine au saumon fume, Terrine au thon</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26438",
+      "sourceTaxonomyId": "26438",
+      "name": "Apéritifs",
+      "slug": "aperitifs-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26440",
+      "sourceTaxonomyId": "26440",
+      "name": "française",
+      "slug": "francaise-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24654",
+      "sourceTaxonomyId": "24654",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24686",
+      "sourceTaxonomyId": "24686",
+      "name": "de thon en boîte",
+      "slug": "de-thon-en-boite"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24688",
+      "sourceTaxonomyId": "24688",
+      "name": "de mascarpone",
+      "slug": "de-mascarpone"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24690",
+      "sourceTaxonomyId": "24690",
+      "name": "d'aneth",
+      "slug": "daneth"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24691",
+      "sourceTaxonomyId": "24691",
+      "name": "lamelles de saumon fumé",
+      "slug": "lamelles-de-saumon-fume"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26795",
+      "sourceTaxonomyId": "26795",
+      "name": "échalote",
+      "slug": "echalote"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25485",
+      "sourceTaxonomyId": "25485",
+      "name": "de botte",
+      "slug": "de-botte"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25486",
+      "sourceTaxonomyId": "25486",
+      "name": "tranches",
+      "slug": "tranches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26442",
+      "sourceTaxonomyId": "26442",
+      "name": "Terrine au saumon fume",
+      "slug": "terrine-au-saumon-fume-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26444",
+      "sourceTaxonomyId": "26444",
+      "name": "Terrine au thon",
+      "slug": "terrine-au-thon-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "547",
+      "sourceTaxonomyId": "547",
+      "name": "de thon en boîte",
+      "slug": "de-thon-en-boite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "549",
+      "sourceTaxonomyId": "549",
+      "name": "de mascarpone",
+      "slug": "de-mascarpone"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "551",
+      "sourceTaxonomyId": "551",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "553",
+      "sourceTaxonomyId": "553",
+      "name": "échalotes",
+      "slug": "echalotes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "555",
+      "sourceTaxonomyId": "555",
+      "name": "d'aneth",
+      "slug": "daneth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "557",
+      "sourceTaxonomyId": "557",
+      "name": "lamelles de saumon fumé",
+      "slug": "lamelles-de-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1518",
+      "sourceTaxonomyId": "1518",
+      "name": "terrine",
+      "slug": "terrine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1520",
+      "sourceTaxonomyId": "1520",
+      "name": "thon",
+      "slug": "thon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1522",
+      "sourceTaxonomyId": "1522",
+      "name": "saumon fume",
+      "slug": "saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1524",
+      "sourceTaxonomyId": "1524",
+      "name": "mascarpone",
+      "slug": "mascarpone-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2576",
+      "sourceTaxonomyId": "2576",
+      "name": "plat facile",
+      "slug": "plat-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4520",
+      "sourceTaxonomyId": "4520",
+      "name": "elegant",
+      "slug": "elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6798",
+      "sourceTaxonomyId": "6798",
+      "name": "poisson",
+      "slug": "poisson"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "6",
+        "minutes": 6
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:1561",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "160 g de mascarpone (à la température ambiante)",
+            "quantity": {
+              "raw": "160 g",
+              "value": 160,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de mascarpone",
+            "notes": "(à la température ambiante)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "160 g de thon en boîte (égoutté)",
+            "quantity": {
+              "raw": "160 g",
+              "value": 160,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de thon en boîte",
+            "notes": "(égoutté)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 échalote finement hachée",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "échalote",
+            "notes": "finement hachée"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/4 de botte d'aneth ciselé",
+            "quantity": {
+              "raw": "1/4 de botte",
+              "value": 0.25,
+              "unit": "de botte",
+              "scalable": true
+            },
+            "name": "d'aneth",
+            "notes": "ciselé"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "5-6 tranches de saumon fumé, découpé en petits morceaux",
+            "quantity": {
+              "raw": "5-6 tranches",
+              "min": 5,
+              "max": 6,
+              "unit": "tranches",
+              "scalable": true
+            },
+            "name": "de saumon fumé,",
+            "notes": "découpé en petits morceaux"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques lamelles de saumon fumé pour la décoration",
+            "quantity": {
+              "raw": "Quelques",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "lamelles de saumon fumé",
+            "notes": "pour la décoration"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "À l'aide d'une fourchette, mélanger le mascarpone avec le thon, les échalotes et l'aneth. (Sortir le mascarpone du refrigerateur 30 minutes avant de commencer la prepararion, il sera plus facile à travailler).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajouter les morceaux de saumon. Saler et poivrer.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mettre la préparation dans une terrine ou dans des ramequins.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Décorer des lamelles de saumon. Parsemer d'aneth.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couvrir avec un film alimentaire et placer au réfrigérateur pendant 6 heures.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1561",
+      "sourceId": "1561",
+      "path": "/recipes/media/wordpress/1561.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

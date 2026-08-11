@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22726",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:5606",
+  "slug": "бананово-миндальный-кекс",
+  "source": {
+    "system": "wordpress",
+    "postId": "22726",
+    "recipeId": "22726",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%be%d0%b2%d0%be-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d0%b5%d0%ba%d1%81",
+    "createdAt": "2018-06-11T06:16:39+00:00",
+    "modifiedAt": "2023-05-28T18:30:21+00:00",
+    "editorialPostId": "11496",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%be%d0%b2%d0%be-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d0%b5%d0%ba%d1%81",
+    "editorialCreatedAt": "2018-06-11T06:16:39+00:00",
+    "editorialModifiedAt": "2023-05-28T18:30:19+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Бананово-миндальный кекс",
+  "description": "Грецкие орехи и шоколадные капли необязательны в этом рецепте, но придают кексу дополнительный вкус, аромат и текстуру.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>В этом бананово-миндальном кексе всего два банана, поэтому он нравится даже тем, кто не особо любит банановые десерты. Коричневый сахар придает выпечке красивый цвет и слегка карамельный вкус, а миндальная мука - нежную структуру.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Если Вы придерживаетесь безглютеновой диеты, попробуйте рецепт <a href=\"https://mycafegourmand.com/ru/recipe/%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%be%d0%b2%d1%8b%d0%b5-%d0%ba%d0%b5%d0%ba%d1%81%d0%b8%d0%ba%d0%b8-%d0%b8%d0%b7-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8\">Банановые кексики из миндальной муки</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22726,\"template\":\"chic-template-russian\",\"updated\":1607471037933} -->\n<!--WPRM Recipe 22726-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Бананово-миндальный кекс</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180527_194003.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tГрецкие орехи и шоколадные капли необязательны в этом рецепте, но придают кексу дополнительный вкус, аромат и текстуру.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 очень спелых банана</li><li>200 г коричневого сахара</li><li>4 яйца</li><li>200 г миндальной муки</li><li>100 г растопленного сливочного масла</li><li>80 г просеянной муки</li><li>2 щепотки соли</li><li>2 ч.л. разрыхлителя теста</li><li>100 г грецких орехов</li><li>60 г шоколадных капель (чипс)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Разогреть духовку до 350F (180C). Смазать маслом форму для выпечки.</li><li>Вилкой размять бананы и перемешать их с коричневым сахаром.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0163.Blog_-150x150.png\"/><br /></li><li>Добавить яйца и перемешать (лучше миксером).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0165.Blog_-150x150.png\"/><br /></li><li>Добавить растопленное масло<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0170.Blog_-150x150.png\"/><br /></li><li>и миндальную муку. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0171.Blog_-150x150.png\"/><br /></li><li>Затем добавить муку, соль и разрыхлитель теста. Хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0173.Blog_-150x150.png\"/><br /></li><li>И наконец, добавить орехи<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0174.Blog_-150x150.png\"/><br /></li><li>и шоколад.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0175.Blog_-150x150.png\"/><br /></li><li>Вылить тесто в подготовленную форму. Можно положить на поверхность половинки грецких орехов. Выпекать в разогретой духовке примерно 55 минут.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0177.Blog_-150x150.png\"/><br /></li><li>Проверить готовность зубочисткой (она должна выходить сухая из середины кекса). Достать кекс из духовки, дать ему немного постоять в форме, затем переложить на блюдо.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0187.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Бананово-миндальный кекс"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23548",
+      "sourceTaxonomyId": "23548",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23957",
+      "sourceTaxonomyId": "23957",
+      "name": "миндальной муки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24852",
+      "sourceTaxonomyId": "24852",
+      "name": "растопленного сливочного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%be%d0%bf%d0%bb%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24910",
+      "sourceTaxonomyId": "24910",
+      "name": "разрыхлителя теста",
+      "slug": "%d1%80%d0%b0%d0%b7%d1%80%d1%8b%d1%85%d0%bb%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24932",
+      "sourceTaxonomyId": "24932",
+      "name": "грецких орехов",
+      "slug": "%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d1%85-%d0%be%d1%80%d0%b5%d1%85%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24937",
+      "sourceTaxonomyId": "24937",
+      "name": "коричневого сахара",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25115",
+      "sourceTaxonomyId": "25115",
+      "name": "очень спелых банана",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d1%81%d0%bf%d0%b5%d0%bb%d1%8b%d1%85-%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25116",
+      "sourceTaxonomyId": "25116",
+      "name": "шоколадных капель (чипс)",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d1%85-%d0%ba%d0%b0%d0%bf%d0%b5%d0%bb%d1%8c-%d1%87%d0%b8%d0%bf%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "586",
+      "sourceTaxonomyId": "586",
+      "name": "растопленного сливочного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%be%d0%bf%d0%bb%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "611",
+      "sourceTaxonomyId": "611",
+      "name": "разрыхлителя теста",
+      "slug": "%d1%80%d0%b0%d0%b7%d1%80%d1%8b%d1%85%d0%bb%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "826",
+      "sourceTaxonomyId": "826",
+      "name": "грецких орехов",
+      "slug": "%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d1%85-%d0%be%d1%80%d0%b5%d1%85%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "832",
+      "sourceTaxonomyId": "832",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "895",
+      "sourceTaxonomyId": "895",
+      "name": "миндальной муки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2317",
+      "sourceTaxonomyId": "2317",
+      "name": "очень спелых банана",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d1%81%d0%bf%d0%b5%d0%bb%d1%8b%d1%85-%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3539",
+      "sourceTaxonomyId": "3539",
+      "name": "коричневого сахара",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4098",
+      "sourceTaxonomyId": "4098",
+      "name": "шоколадных капель (чипс)",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d1%85-%d0%ba%d0%b0%d0%bf%d0%b5%d0%bb%d1%8c-%d1%87%d0%b8%d0%bf%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1490",
+      "sourceTaxonomyId": "1490",
+      "name": "грецкие орехи",
+      "slug": "%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d0%b5-%d0%be%d1%80%d0%b5%d1%85%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2303",
+      "sourceTaxonomyId": "2303",
+      "name": "banana bread",
+      "slug": "banana-bread-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3061",
+      "sourceTaxonomyId": "3061",
+      "name": "миндальная мука",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3523",
+      "sourceTaxonomyId": "3523",
+      "name": "коричневый сахар",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d1%8b%d0%b9-%d1%81%d0%b0%d1%85%d0%b0%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3640",
+      "sourceTaxonomyId": "3640",
+      "name": "банановый пирог",
+      "slug": "%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3644",
+      "sourceTaxonomyId": "3644",
+      "name": "очень спелые бананы",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d1%81%d0%bf%d0%b5%d0%bb%d1%8b%d0%b5-%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4558",
+      "sourceTaxonomyId": "4558",
+      "name": "американская выпечка",
+      "slug": "%d0%b0%d0%bc%d0%b5%d1%80%d0%b8%d0%ba%d0%b0%d0%bd%d1%81%d0%ba%d0%b0%d1%8f-%d0%b2%d1%8b%d0%bf%d0%b5%d1%87%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5602",
+      "sourceTaxonomyId": "5602",
+      "name": "банановый хлеб",
+      "slug": "%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d1%85%d0%bb%d0%b5%d0%b1"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5607",
+      "sourceTaxonomyId": "5607",
+      "name": "бананово миндальный кекс",
+      "slug": "%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%be%d0%b2%d0%be-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d0%b5%d0%ba%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5609",
+      "sourceTaxonomyId": "5609",
+      "name": "кекс из банана",
+      "slug": "%d0%ba%d0%b5%d0%ba%d1%81-%d0%b8%d0%b7-%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5613",
+      "sourceTaxonomyId": "5613",
+      "name": "популярный американский пирог",
+      "slug": "%d0%bf%d0%be%d0%bf%d1%83%d0%bb%d1%8f%d1%80%d0%bd%d1%8b%d0%b9-%d0%b0%d0%bc%d0%b5%d1%80%d0%b8%d0%ba%d0%b0%d0%bd%d1%81%d0%ba%d0%b8%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5615",
+      "sourceTaxonomyId": "5615",
+      "name": "bananoviy hleb",
+      "slug": "bananoviy-hleb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5617",
+      "sourceTaxonomyId": "5617",
+      "name": "xleb iz banana",
+      "slug": "xleb-iz-banana"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5619",
+      "sourceTaxonomyId": "5619",
+      "name": "bananoviy keks",
+      "slug": "bananoviy-keks-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5639",
+      "sourceTaxonomyId": "5639",
+      "name": "2 банана",
+      "slug": "2-%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%b0"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 порций",
+      "value": 8,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "70",
+        "minutes": 70
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10614",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 очень спелых банана",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "очень спелых банана",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 г коричневого сахара",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "коричневого сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 яйца",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 г миндальной муки",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "миндальной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 г растопленного сливочного масла",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "растопленного сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "80 г просеянной муки",
+            "quantity": {
+              "raw": "80 г",
+              "value": 80,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "просеянной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 щепотки соли",
+            "quantity": {
+              "raw": "2 щепотки",
+              "value": 2,
+              "unit": "щепотки",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "2 ч.л. разрыхлителя теста",
+            "quantity": {
+              "raw": "2 ч.л.",
+              "value": 2,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "разрыхлителя теста",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "100 г грецких орехов",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "грецких орехов",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "60 г шоколадных капель (чипс)",
+            "quantity": {
+              "raw": "60 г",
+              "value": 60,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "шоколадных капель (чипс)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 350F (180C). Смазать маслом форму для выпечки.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Вилкой размять бананы и перемешать их с коричневым сахаром.",
+            "mediaId": "wordpress-attachment:10601"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Добавить яйца и перемешать (лучше миксером).",
+            "mediaId": "wordpress-attachment:10602"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Добавить растопленное масло",
+            "mediaId": "wordpress-attachment:10603"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "и миндальную муку.",
+            "mediaId": "wordpress-attachment:10604"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Затем добавить муку, соль и разрыхлитель теста. Хорошо перемешать.",
+            "mediaId": "wordpress-attachment:10605"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "И наконец, добавить орехи",
+            "mediaId": "wordpress-attachment:10606"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "и шоколад.",
+            "mediaId": "wordpress-attachment:10607"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Вылить тесто в подготовленную форму. Можно положить на поверхность половинки грецких орехов. Выпекать в разогретой духовке примерно 55 минут.",
+            "mediaId": "wordpress-attachment:10608"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Проверить готовность зубочисткой (она должна выходить сухая из середины кекса). Достать кекс из духовки, дать ему немного постоять в форме, затем переложить на блюдо.",
+            "mediaId": "wordpress-attachment:10609"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10614",
+      "sourceId": "10614",
+      "path": "/recipes/media/wordpress/10614.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:10601",
+      "sourceId": "10601",
+      "path": "/recipes/media/wordpress/10601.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10602",
+      "sourceId": "10602",
+      "path": "/recipes/media/wordpress/10602.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10603",
+      "sourceId": "10603",
+      "path": "/recipes/media/wordpress/10603.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10604",
+      "sourceId": "10604",
+      "path": "/recipes/media/wordpress/10604.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10605",
+      "sourceId": "10605",
+      "path": "/recipes/media/wordpress/10605.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10606",
+      "sourceId": "10606",
+      "path": "/recipes/media/wordpress/10606.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10607",
+      "sourceId": "10607",
+      "path": "/recipes/media/wordpress/10607.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10608",
+      "sourceId": "10608",
+      "path": "/recipes/media/wordpress/10608.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10609",
+      "sourceId": "10609",
+      "path": "/recipes/media/wordpress/10609.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

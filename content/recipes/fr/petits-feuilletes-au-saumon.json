@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22248",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:7937",
+  "slug": "petits-feuilletes-au-saumon",
+  "source": {
+    "system": "wordpress",
+    "postId": "22248",
+    "recipeId": "22248",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-petits-feuilletes-au-saumon",
+    "createdAt": "2018-10-24T03:50:56+00:00",
+    "modifiedAt": "2022-07-30T19:22:50+00:00",
+    "editorialPostId": "13027",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "petits-feuilletes-au-saumon",
+    "editorialCreatedAt": "2018-10-24T03:50:56+00:00",
+    "editorialModifiedAt": "2022-07-30T19:22:47+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Petits feuilletés au saumon",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Des petits feuilletés au saumon frais pour une réception chic ou une soirée entre potes. On peut les servir avec une petite salade verte en été ou avec un bouillon de légumes en hiver. La crème fraîche apporte de la douceur et l'aneth une saveur parfumée bien appréciée.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22248,\"template\":\"chic-template-french\",\"updated\":1607913344026} -->\n<!--WPRM Recipe 22248-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Petits feuilletés au saumon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8125-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 cuillère à soupe d'huile d'olive</li><li>1 oignon (épluché et émincé)</li><li>2 cuillères à soupe de crème fraîche épaisse</li><li>200 g de saumon frais (découpé en petits morceaux)</li><li>Sel et poivre du moulin</li><li>Un peu d'aneth (ciselé)</li><li>1 feuille de pâte feuilletée</li><li>1 œuf (battu)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans une poêle, faire revenir l'oignon dans l'huile d'olive.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8102.Blog_-150x150.png\"/><br /></li><li>Dans un saladier, mélanger le saumon, l'oignon, la crème fraîche et l'aneth. Saler et poivrer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8103.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 180°C (thermostat 6). Tapisser une plaque de papier sulfurisé. </li><li>Sur le plan de travail, étaler la pâte et découper des ronds de 6-8 cm. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8104.Blog_-150x150.png\"/><br /></li><li>Placer une cuillerée de la préparation au saumon sur la moitié de ronds. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8105.Blog_-150x150.png\"/><br /></li><li>Humecter les bords et placer les autres ronds dessus. Bien sceller.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8106.Blog_-150x150.png\"/><br /></li><li>Placer les petits feuilletés sur la plaque. Faire un petit trou dans chaque. Badigeonner avec l'oeuf battu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8107.Blog_-150x150.png\"/><br /></li><li>Percer un petit trou dans chaque feuilleté. Si vous voulez, avec la lame d'un couteau, faire un dessin sur la surface de la pâte, sans la percer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8108.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant environ 20 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8124.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24036",
+      "sourceTaxonomyId": "24036",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24466",
+      "sourceTaxonomyId": "24466",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24471",
+      "sourceTaxonomyId": "24471",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24563",
+      "sourceTaxonomyId": "24563",
+      "name": "de saumon frais",
+      "slug": "de-saumon-frais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24690",
+      "sourceTaxonomyId": "24690",
+      "name": "d'aneth",
+      "slug": "daneth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "470",
+      "sourceTaxonomyId": "470",
+      "name": "de saumon frais",
+      "slug": "de-saumon-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "555",
+      "sourceTaxonomyId": "555",
+      "name": "d'aneth",
+      "slug": "daneth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "762",
+      "sourceTaxonomyId": "762",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "942",
+      "sourceTaxonomyId": "942",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1939",
+      "sourceTaxonomyId": "1939",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3447",
+      "sourceTaxonomyId": "3447",
+      "name": "creme fraiche epaisse",
+      "slug": "creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3449",
+      "sourceTaxonomyId": "3449",
+      "name": "aneth",
+      "slug": "aneth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4520",
+      "sourceTaxonomyId": "4520",
+      "name": "elegant",
+      "slug": "elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5832",
+      "sourceTaxonomyId": "5832",
+      "name": "saumon frais",
+      "slug": "saumon-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6926",
+      "sourceTaxonomyId": "6926",
+      "name": "enfants adorent",
+      "slug": "enfants-adorent"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7060",
+      "sourceTaxonomyId": "7060",
+      "name": "pate feuilletee prete a derouler",
+      "slug": "pate-feuilletee-prete-a-derouler"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7946",
+      "sourceTaxonomyId": "7946",
+      "name": "petits feuilletes au saumon",
+      "slug": "petits-feuilletes-au-saumon"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13018",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 cuillère à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 oignon épluché et émincé",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "épluché et émincé"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 cuillères à soupe de crème fraîche épaisse",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de crème fraîche épaisse",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g de saumon frais découpé en petits morceaux",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de saumon frais",
+            "notes": "découpé en petits morceaux"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Un peu d'aneth ciselé",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'aneth",
+            "notes": "ciselé"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 feuille de pâte feuilletée",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "de pâte feuilletée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 œuf battu",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf",
+            "notes": "battu"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une poêle, faire revenir l'oignon dans l'huile d'olive.",
+            "mediaId": "wordpress-attachment:13009"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un saladier, mélanger le saumon, l'oignon, la crème fraîche et l'aneth. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:13010"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Tapisser une plaque de papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Sur le plan de travail, étaler la pâte et découper des ronds de 6-8 cm.",
+            "mediaId": "wordpress-attachment:13011"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Placer une cuillerée de la préparation au saumon sur la moitié de ronds.",
+            "mediaId": "wordpress-attachment:13012"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Humecter les bords et placer les autres ronds dessus. Bien sceller.",
+            "mediaId": "wordpress-attachment:13013"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Placer les petits feuilletés sur la plaque. Faire un petit trou dans chaque. Badigeonner avec l'oeuf battu.",
+            "mediaId": "wordpress-attachment:13014"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Percer un petit trou dans chaque feuilleté. Si vous voulez, avec la lame d'un couteau, faire un dessin sur la surface de la pâte, sans la percer.",
+            "mediaId": "wordpress-attachment:13015"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Faire cuire au four pendant environ 20 minutes.",
+            "mediaId": "wordpress-attachment:13017"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13018",
+      "sourceId": "13018",
+      "path": "/recipes/media/wordpress/13018.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13009",
+      "sourceId": "13009",
+      "path": "/recipes/media/wordpress/13009.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13010",
+      "sourceId": "13010",
+      "path": "/recipes/media/wordpress/13010.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13011",
+      "sourceId": "13011",
+      "path": "/recipes/media/wordpress/13011.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13012",
+      "sourceId": "13012",
+      "path": "/recipes/media/wordpress/13012.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13013",
+      "sourceId": "13013",
+      "path": "/recipes/media/wordpress/13013.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13014",
+      "sourceId": "13014",
+      "path": "/recipes/media/wordpress/13014.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13015",
+      "sourceId": "13015",
+      "path": "/recipes/media/wordpress/13015.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13017",
+      "sourceId": "13017",
+      "path": "/recipes/media/wordpress/13017.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

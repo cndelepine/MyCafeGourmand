@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22033",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:1736",
+  "slug": "quiche-au-thon",
+  "source": {
+    "system": "wordpress",
+    "postId": "22033",
+    "recipeId": "22033",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-quiche-au-thon",
+    "createdAt": "2021-01-11T05:28:00+00:00",
+    "modifiedAt": "2021-12-04T02:42:05+00:00",
+    "editorialPostId": "3377",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "quiche-au-thon",
+    "editorialCreatedAt": "2021-01-11T05:28:00+00:00",
+    "editorialModifiedAt": "2021-12-04T02:42:03+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Quiche au thon",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une recette facile de quiche au thon. J'utilise la <a href=\"https://mycafegourmand.com/fr/pate-feuilletee/\">pâte feuilletée</a> prête à dérouler, le thon en conserve au naturel, les œufs et la crème fraîche. Une fine couche de moutarde apporte un petit plus gustatif et les rondelles de tomate une jolie couleur.&nbsp;À servir avec une petite salade verte.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22033,\"template\":\"chic-template-french\",\"updated\":1612727356339} -->\n<!--WPRM Recipe 22033-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Quiche au thon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7784.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 feuille de pâte feuilletée</li><li>200 g de thon en boîte ((égoutté))</li><li>1-2 cuillères à soupe de mayonnaise</li><li>2 cuillères à café de moutarde</li><li>2 œufs</li><li>100 ml de crème fraîche épaisse</li><li>Sel et poivre du moulin</li><li>1 tomate (coupée en rondelles )</li><li>30 g de fromage râpé</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 190°C (thermostat 6/7). Mettre la pâte dans un moule sur une feuille de papier sulfurisé. Piquer la pâte avec une fourchette.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7748.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant 10-12 minutes. La pâte doit être un peu cuite mais pas encore dorée. Sortir du four. Si la pâte est trop levée, appuyer légèrement avec une fourchette pour l'aplatir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7752.Blog_-150x150.png\"/><br /></li><li>Dans un bol, écraser le thon à la fourchette, ajouter la mayonnaise et bien mélanger. Saler et poivrer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7746.Blog_-150x150.png\"/><br /></li><li>Étaler sur la pâte mi-cuite une fine couche de moutarde.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7753.Blog_-150x150.png\"/><br /></li><li>Répartir le thon à la mayonnaise sur la pâte et égaliser la surface.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7754.Blog_-150x150.png\"/><br /></li><li>Dans un saladier, mélanger la crème fraîche et les œufs. Saler et poivrer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7750.Blog_-150x150.png\"/><br /></li><li>Verser cette préparation sur le thon.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7756.Blog_-150x150.png\"/><br /></li><li>Placer les rondelles de tomate et saupoudrer toute la surface avec le fromage.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7764.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant environ 30 minutes. La quiche est prête quand la pâte est bien cuite et une croûte dorée est apparue.\r\n\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7766.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24466",
+      "sourceTaxonomyId": "24466",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24471",
+      "sourceTaxonomyId": "24471",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24564",
+      "sourceTaxonomyId": "24564",
+      "name": "de moutarde",
+      "slug": "de-moutarde"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24574",
+      "sourceTaxonomyId": "24574",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24686",
+      "sourceTaxonomyId": "24686",
+      "name": "de thon en boîte",
+      "slug": "de-thon-en-boite"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24687",
+      "sourceTaxonomyId": "24687",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "531",
+      "sourceTaxonomyId": "531",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "535",
+      "sourceTaxonomyId": "535",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "547",
+      "sourceTaxonomyId": "547",
+      "name": "de thon en boîte",
+      "slug": "de-thon-en-boite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "762",
+      "sourceTaxonomyId": "762",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "942",
+      "sourceTaxonomyId": "942",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1077",
+      "sourceTaxonomyId": "1077",
+      "name": "de moutarde",
+      "slug": "de-moutarde"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1749",
+      "sourceTaxonomyId": "1749",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1396",
+      "sourceTaxonomyId": "1396",
+      "name": "pate feuilletee",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1400",
+      "sourceTaxonomyId": "1400",
+      "name": "creme fraiche",
+      "slug": "creme-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1484",
+      "sourceTaxonomyId": "1484",
+      "name": "quiche",
+      "slug": "quiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1520",
+      "sourceTaxonomyId": "1520",
+      "name": "thon",
+      "slug": "thon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1751",
+      "sourceTaxonomyId": "1751",
+      "name": "moutarde",
+      "slug": "moutarde"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3846",
+      "sourceTaxonomyId": "3846",
+      "name": "rondelle de tomate",
+      "slug": "rondelle-de-tomate"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:3367",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 feuille de pâte feuilletée",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "de pâte feuilletée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g de thon en boîte (égoutté)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de thon en boîte",
+            "notes": "(égoutté)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 cuillères à soupe de mayonnaise",
+            "quantity": {
+              "raw": "1-2 cuillères à soupe",
+              "min": 1,
+              "max": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 cuillères à café de moutarde",
+            "quantity": {
+              "raw": "2 cuillères à café",
+              "value": 2,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de moutarde",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 œufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "100 ml de crème fraîche épaisse",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème fraîche épaisse",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 tomate coupée en rondelles",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomate",
+            "notes": "coupée en rondelles"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "30 g de fromage râpé",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de fromage râpé",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 190°C (thermostat 6/7). Mettre la pâte dans un moule sur une feuille de papier sulfurisé. Piquer la pâte avec une fourchette.",
+            "mediaId": "wordpress-attachment:3358"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire cuire au four pendant 10-12 minutes. La pâte doit être un peu cuite mais pas encore dorée. Sortir du four. Si la pâte est trop levée, appuyer légèrement avec une fourchette pour l'aplatir.",
+            "mediaId": "wordpress-attachment:3360"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans un bol, écraser le thon à la fourchette, ajouter la mayonnaise et bien mélanger. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:3357"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Étaler sur la pâte mi-cuite une fine couche de moutarde.",
+            "mediaId": "wordpress-attachment:3361"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Répartir le thon à la mayonnaise sur la pâte et égaliser la surface.",
+            "mediaId": "wordpress-attachment:3362"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Dans un saladier, mélanger la crème fraîche et les œufs. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:3359"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Verser cette préparation sur le thon.",
+            "mediaId": "wordpress-attachment:3363"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Placer les rondelles de tomate et saupoudrer toute la surface avec le fromage.",
+            "mediaId": "wordpress-attachment:3364"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Faire cuire au four pendant environ 30 minutes. La quiche est prête quand la pâte est bien cuite et une croûte dorée est apparue.",
+            "mediaId": "wordpress-attachment:3365"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:3367",
+      "sourceId": "3367",
+      "path": "/recipes/media/wordpress/3367.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3358",
+      "sourceId": "3358",
+      "path": "/recipes/media/wordpress/3358.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3360",
+      "sourceId": "3360",
+      "path": "/recipes/media/wordpress/3360.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3357",
+      "sourceId": "3357",
+      "path": "/recipes/media/wordpress/3357.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3361",
+      "sourceId": "3361",
+      "path": "/recipes/media/wordpress/3361.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3362",
+      "sourceId": "3362",
+      "path": "/recipes/media/wordpress/3362.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3359",
+      "sourceId": "3359",
+      "path": "/recipes/media/wordpress/3359.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3363",
+      "sourceId": "3363",
+      "path": "/recipes/media/wordpress/3363.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3364",
+      "sourceId": "3364",
+      "path": "/recipes/media/wordpress/3364.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3365",
+      "sourceId": "3365",
+      "path": "/recipes/media/wordpress/3365.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

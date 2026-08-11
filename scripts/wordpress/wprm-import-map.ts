@@ -19,6 +19,10 @@ import {
   type PhpValue
 } from "./php-serialize";
 import {
+  normalizeWprmRichText,
+  WprmRichTextNormalizationError
+} from "./html-to-text";
+import {
   WprmImportError,
   type WprmIssueCode,
   type WprmImportLimits,
@@ -157,6 +161,35 @@ function nonEmptyText(value: PhpValue | null | undefined) {
     return String(value);
   }
   return null;
+}
+
+function normalizeWprmText(
+  value: PhpValue | null | undefined,
+  limits: WprmImportLimits,
+  maxInputBytes: number = limits.evidence.maxMetaValueBytes
+) {
+  const source = nonEmptyText(value);
+  try {
+    return normalizeWprmRichText(source, { maxInputBytes });
+  } catch (error) {
+    if (error instanceof WprmRichTextNormalizationError) {
+      throw new WprmMappingError([error.code]);
+    }
+    throw error;
+  }
+}
+
+function requiredWprmText(
+  value: PhpValue | null | undefined,
+  limits: WprmImportLimits,
+  issueCode: WprmIssueCode,
+  maxInputBytes?: number
+) {
+  const normalized = normalizeWprmText(value, limits, maxInputBytes);
+  if (normalized === null) {
+    throw new WprmMappingError([issueCode]);
+  }
+  return normalized;
 }
 
 function objectEntries(value: PhpValue): Array<[string, PhpValue]> {
@@ -408,7 +441,7 @@ function mapIngredients(
       throw new WprmMappingError(["malformed-wprm-ingredients"]);
     }
     unsupported ||= hasUnsupportedKeys(rawGroup, allowedIngredientGroupKeys);
-    const groupName = nonEmptyText(valueAt(rawGroup, "name"));
+    const groupName = normalizeWprmText(valueAt(rawGroup, "name"), limits);
     const rawItems = valueAt(rawGroup, "ingredients");
     if (rawItems === undefined || rawItems === null) {
       throw new WprmMappingError(["malformed-wprm-ingredients"]);
@@ -420,14 +453,15 @@ function mapIngredients(
       }
       unsupported ||= hasUnsupportedKeys(rawItem, allowedIngredientKeys)
         || hasNonEmptyKeys(rawItem, unsupportedIngredientContentKeys);
-      const name = nonEmptyText(valueAt(rawItem, "name"));
-      if (name === null) {
-        throw new WprmMappingError(["malformed-wprm-ingredients"]);
-      }
-      const amount = nonEmptyText(valueAt(rawItem, "amount"));
-      const unit = nonEmptyText(valueAt(rawItem, "unit"));
-      const notes = nonEmptyText(valueAt(rawItem, "notes"));
-      const explicitRaw = nonEmptyText(valueAt(rawItem, "raw"));
+      const name = requiredWprmText(
+        valueAt(rawItem, "name"),
+        limits,
+        "malformed-wprm-ingredients"
+      );
+      const amount = normalizeWprmText(valueAt(rawItem, "amount"), limits);
+      const unit = normalizeWprmText(valueAt(rawItem, "unit"), limits);
+      const notes = normalizeWprmText(valueAt(rawItem, "notes"), limits);
+      const explicitRaw = normalizeWprmText(valueAt(rawItem, "raw"), limits);
       const rawText = explicitRaw
         ?? [amount, unit, name, notes].filter((value): value is string => value !== null).join(" ");
       if (rawText.length === 0) {
@@ -494,16 +528,20 @@ function mapWprmEquipment(
     }
     unsupported ||= hasUnsupportedKeys(rawItem, allowedEquipmentKeys);
     const sourceId = numericReference(valueAt(rawItem, "id"));
-    const name = nonEmptyText(valueAt(rawItem, "name"));
-    if (sourceId === null || name === null) {
+    const name = requiredWprmText(
+      valueAt(rawItem, "name"),
+      limits,
+      "malformed-wprm-meta"
+    );
+    if (sourceId === null) {
       throw new WprmMappingError(["malformed-wprm-meta"]);
     }
     equipment.push({
       sourceIndex,
       sourceId,
       name,
-      amount: nonEmptyText(valueAt(rawItem, "amount")),
-      notes: nonEmptyText(valueAt(rawItem, "notes"))
+      amount: normalizeWprmText(valueAt(rawItem, "amount"), limits),
+      notes: normalizeWprmText(valueAt(rawItem, "notes"), limits)
     });
   }
   return { equipment, unsupported };
@@ -627,12 +665,8 @@ function mapWprmServingsAdvanced(
   };
 }
 
-function nonEmptyMetaText(value: string | undefined) {
-  return value === undefined || value.trim().length === 0 ? null : value;
-}
-
-function mapNutritionAmount(value: string | undefined) {
-  const raw = nonEmptyMetaText(value);
+function mapNutritionAmount(value: string | undefined, limits: WprmImportLimits) {
+  const raw = normalizeWprmText(value, limits);
   if (raw === null) {
     return null;
   }
@@ -646,10 +680,10 @@ function mapNutritionAmount(value: string | undefined) {
     : { raw };
 }
 
-function mapWprmNutrition(values: ReadonlyMap<string, string>) {
-  const calories = mapNutritionAmount(values.get("wprm_nutrition_calories"));
-  const servingSize = mapNutritionAmount(values.get("wprm_nutrition_serving_size"));
-  const servingUnit = nonEmptyMetaText(values.get("wprm_nutrition_serving_unit"));
+function mapWprmNutrition(values: ReadonlyMap<string, string>, limits: WprmImportLimits) {
+  const calories = mapNutritionAmount(values.get("wprm_nutrition_calories"), limits);
+  const servingSize = mapNutritionAmount(values.get("wprm_nutrition_serving_size"), limits);
+  const servingUnit = normalizeWprmText(values.get("wprm_nutrition_serving_unit"), limits);
   return calories === null && servingSize === null && servingUnit === null
     ? null
     : {
@@ -672,7 +706,7 @@ function mapInstructions(
       throw new WprmMappingError(["malformed-wprm-instructions"]);
     }
     unsupported ||= hasUnsupportedKeys(rawGroup, allowedInstructionGroupKeys);
-    const groupName = nonEmptyText(valueAt(rawGroup, "name"));
+    const groupName = normalizeWprmText(valueAt(rawGroup, "name"), limits);
     const rawSteps = valueAt(rawGroup, "instructions");
     if (rawSteps === undefined || rawSteps === null) {
       throw new WprmMappingError(["malformed-wprm-instructions"]);
@@ -684,10 +718,11 @@ function mapInstructions(
       }
       unsupported ||= hasUnsupportedKeys(rawStep, allowedInstructionKeys)
         || hasNonEmptyKeys(rawStep, unsupportedInstructionContentKeys);
-      const text = nonEmptyText(valueAt(rawStep, "text"));
-      if (text === null) {
-        throw new WprmMappingError(["malformed-wprm-instructions"]);
-      }
+      const text = requiredWprmText(
+        valueAt(rawStep, "text"),
+        limits,
+        "malformed-wprm-instructions"
+      );
       const rawImage = valueAt(rawStep, "image");
       const imageText = rawImage === undefined
         || rawImage === null
@@ -772,41 +807,44 @@ function sourceTimestamp(
 
 function mapDuration(
   value: string | undefined,
-  zeroValue: string | undefined
+  zeroValue: string | undefined,
+  limits: WprmImportLimits
 ) {
-  if (value === undefined || value.length === 0) {
+  const raw = normalizeWprmText(value, limits);
+  if (raw === null) {
     return zeroValue === "1"
       ? { raw: "0", minutes: 0 }
       : null;
   }
-  const minutes = /^\d+$/u.test(value) && Number(value) <= Number.MAX_SAFE_INTEGER
-    ? Number(value)
+  const minutes = /^\d+$/u.test(raw) && Number(raw) <= Number.MAX_SAFE_INTEGER
+    ? Number(raw)
     : null;
   return {
-    raw: value,
+    raw,
     minutes
   };
 }
 
-function mapCustomTime(values: ReadonlyMap<string, string>) {
+function mapCustomTime(values: ReadonlyMap<string, string>, limits: WprmImportLimits) {
   const duration = mapDuration(
     values.get("wprm_custom_time"),
-    values.get("wprm_custom_time_zero")
+    values.get("wprm_custom_time_zero"),
+    limits
   );
-  const labelValue = values.get("wprm_custom_time_label");
-  if (duration === null && (labelValue === undefined || labelValue.length === 0)) {
+  const label = normalizeWprmText(values.get("wprm_custom_time_label"), limits);
+  if (duration === null && label === null) {
     return null;
   }
   if (duration === null) {
     throw new WprmMappingError(["malformed-wprm-meta"]);
   }
   return {
-    label: labelValue && labelValue.length > 0 ? labelValue : null,
+    label,
     duration
   };
 }
 
-function normalizeAttachmentFile(value: string | null) {
+export function normalizeWprmAttachmentFile(value: string | null) {
   if (value === null || value.length === 0) {
     return null;
   }
@@ -885,7 +923,7 @@ function mapMedia(
     if (attachmentMeta.duplicateKeys.size > 0) {
       throw new WprmMappingError(["duplicate-singular-meta"]);
     }
-    const archivePath = normalizeAttachmentFile(attachmentMeta.attachedFile);
+    const archivePath = normalizeWprmAttachmentFile(attachmentMeta.attachedFile);
     if (archivePath === null) {
       throw new WprmMappingError(["unsafe-attachment-path"]);
     }
@@ -905,9 +943,7 @@ function mapMedia(
       id: `wordpress-attachment:${attachmentId}`,
       sourceId: attachmentId,
       path: `/recipes/media/wordpress/${attachmentId}${extension}`,
-      alt: attachmentMeta.alt !== null && attachmentMeta.alt.trim().length > 0
-        ? attachmentMeta.alt
-        : null,
+      alt: normalizeWprmText(attachmentMeta.alt, limits),
       width: dimensions.width,
       height: dimensions.height
     });
@@ -963,10 +999,12 @@ export function mapWprmRecipeCandidate(
   if (meta.duplicateKeys.size > 0) {
     codes.add("duplicate-singular-meta");
   }
-  const title = post.title;
-  if (title === null || title.length === 0) {
-    throw new WprmMappingError(["missing-wprm-title"]);
-  }
+  const title = requiredWprmText(
+    post.title,
+    limits,
+    "missing-wprm-title",
+    limits.evidence.maxPostContentBytes
+  );
   const locale = relations.locales.get(recipeId) ?? null;
   if (locale === null) {
     throw new WprmMappingError(["missing-recipe-locale"]);
@@ -1068,17 +1106,32 @@ export function mapWprmRecipeCandidate(
     taxonomy: taxonomy.taxonomy,
     sourceId: taxonomy.sourceId,
     sourceTaxonomyId: taxonomy.sourceTaxonomyId,
-    name: taxonomy.name,
+    name: requiredWprmText(
+      taxonomy.name,
+      limits,
+      "invalid-taxonomy-membership"
+    ),
     slug: taxonomy.slug
   }));
   if (taxonomyValues.length > limits.maxTaxonomiesPerCandidate) {
     throw new WprmMappingError(["source-limit"]);
   }
   const servings = parseWprmQuantity(
-    values.get("wprm_servings") ?? null,
-    values.get("wprm_servings_unit") ?? null
+    normalizeWprmText(values.get("wprm_servings"), limits),
+    normalizeWprmText(values.get("wprm_servings_unit"), limits)
   );
-  const nutrition = mapWprmNutrition(values);
+  const nutrition = mapWprmNutrition(values, limits);
+  let description: string | null;
+  try {
+    description = normalizeWprmRichText(post.content, {
+      maxInputBytes: limits.evidence.maxPostContentBytes
+    });
+  } catch (error) {
+    if (error instanceof WprmRichTextNormalizationError) {
+      throw new WprmMappingError([error.code]);
+    }
+    throw error;
+  }
   const record = recipeRecordSchema.parse({
     schemaVersion: 1,
     kind: "recipe",
@@ -1105,7 +1158,7 @@ export function mapWprmRecipeCandidate(
     },
     redirectFrom: [],
     title,
-    description: post.content !== null && post.content.length > 0 ? post.content : null,
+    description,
     editorial: {
       content: parentUsable && parent?.content !== null && parent?.content !== undefined
         && parent.content.length > 0
@@ -1118,9 +1171,7 @@ export function mapWprmRecipeCandidate(
     },
     taxonomies: taxonomyValues,
     recipe: {
-      notes: values.get("wprm_notes") && values.get("wprm_notes")!.length > 0
-        ? values.get("wprm_notes")!
-        : null,
+      notes: normalizeWprmText(values.get("wprm_notes"), limits),
       servings,
       servingsAdvancedEnabled: servingsAdvancedEnabled.enabled,
       ...(nutrition === null ? {} : { nutrition }),
@@ -1131,15 +1182,17 @@ export function mapWprmRecipeCandidate(
       times: {
         prep: mapDuration(
           values.get("wprm_prep_time"),
-          values.get("wprm_prep_time_zero")
+          values.get("wprm_prep_time_zero"),
+          limits
         ),
         cook: mapDuration(
           values.get("wprm_cook_time"),
-          values.get("wprm_cook_time_zero")
+          values.get("wprm_cook_time_zero"),
+          limits
         ),
         rest: null,
-        total: mapDuration(values.get("wprm_total_time"), undefined),
-        custom: mapCustomTime(values)
+        total: mapDuration(values.get("wprm_total_time"), undefined, limits),
+        custom: mapCustomTime(values, limits)
       },
       heroMediaId: heroReference === null
         ? null

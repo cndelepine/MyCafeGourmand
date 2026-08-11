@@ -1,0 +1,564 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22561",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:13943",
+  "slug": "куриный-суп-со-свежей-капустой",
+  "source": {
+    "system": "wordpress",
+    "postId": "22561",
+    "recipeId": "22561",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d1%8b%d0%b9-%d1%81%d1%83%d0%bf-%d1%81%d0%be-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%ba%d0%b0%d0%bf%d1%83%d1%81%d1%82%d0%be%d0%b9",
+    "createdAt": "2019-03-21T23:00:32+00:00",
+    "modifiedAt": "2021-10-21T22:19:45+00:00",
+    "editorialPostId": "16254",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d1%8b%d0%b9-%d1%81%d1%83%d0%bf-%d1%81%d0%be-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%ba%d0%b0%d0%bf%d1%83%d1%81%d1%82%d0%be%d0%b9",
+    "editorialCreatedAt": "2019-03-21T23:00:32+00:00",
+    "editorialModifiedAt": "2021-10-21T22:19:42+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Куриный суп со свежей капустой",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Простой и полезный суп на курином бульоне с картошкой,  морковкой и свежей капустой. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22561,\"template\":\"chic-template-russian\",\"updated\":1634854757090} -->\n<!--WPRM Recipe 22561-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Куриный суп со свежей капустой</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8376.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1-2 куриних бедра (или 2 грудки)</li><li>2  луковицы (почистить)</li><li>2  большие морковки (почистить)</li><li>2 зубчика чеснока (почистить)</li><li>1-2 стебля сельдерея</li><li>3 лавровых листа</li><li>2 литра воды</li><li>1/2 ч.л. крупной морской соли</li><li>3-4 картофелины (почистить)</li><li>1/4 небольшой головки капусты</li><li>3 ст.л. оливкового масла</li><li>Немного свежей зелени (петрушки, укропа или зеленого лука)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>В большую кастрюлю положить мясо, целую луковицу, морковь, сельдерей, чеснок и лавровый лист. Налить примерно 2 литра холодной воды, поставить на огонь и довести до кипения.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_7239.Blog_-150x150.png\"/><br /></li><li>Уменьшить огонь и варить 15-20 минут. Чтобы бульон получился прозрачным, снимать пенку по мере ее образования. Добавить соль.</li><li>Пока варится бульон, порезать кубиками (примерно 1 см) картофель.\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_9197.Blog_-150x150.png\"/><br /></li><li>Мелко порезать оставшийся лук и морковь.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_9199.Blog_-150x150.png\"/><br /></li><li>Мелко порезать капусту.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8338.Blog_-150x150.png\"/><br /></li><li>Когда мясо сварилось, вынуть и выкинуть из бульона луковицу, чеснок, сельдерей, морковку и лавровые листья. Мясо достать, отделить от костей, порезать кусочками и снова положить в бульон.</li><li>Добавить в бульон нарезанный картофель и варить примерно 10 минут.</li><li>В сковороде разогреть оливковое масло и обжарить в нем лук и морковь на медленном огне. Посолить и поперчить. Снять сковороду с огня.\r\n   <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8332.Blog_-150x150.png\"/><br /></li><li>Добавить в суп нарезанную капусту и обжаренные лук и морковь. Продолжать варить еще примерно 5 минут. Когда картофель сварился, суп готов. Снять кастрюлю с огня. Попробовать суп и если надо, посолить и поперчить по вкусу.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8341.Blog_-150x150.png\"/><br /></li><li>Разлить горячий суп по тарелкам и посыпать свежей зеленью. Приятного аппетита!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8376.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24828",
+      "sourceTaxonomyId": "24828",
+      "name": "сельдерея",
+      "slug": "%d1%81%d0%b5%d0%bb%d1%8c%d0%b4%d0%b5%d1%80%d0%b5%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24850",
+      "sourceTaxonomyId": "24850",
+      "name": "крупной морской соли",
+      "slug": "%d0%ba%d1%80%d1%83%d0%bf%d0%bd%d0%be%d0%b9-%d0%bc%d0%be%d1%80%d1%81%d0%ba%d0%be%d0%b9-%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24851",
+      "sourceTaxonomyId": "24851",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24868",
+      "sourceTaxonomyId": "24868",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24872",
+      "sourceTaxonomyId": "24872",
+      "name": "луковицы",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24887",
+      "sourceTaxonomyId": "24887",
+      "name": "картофелины",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24889",
+      "sourceTaxonomyId": "24889",
+      "name": "свежей зелени (петрушки, укропа или зеленого лука)",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b8-%d1%83%d0%ba%d1%80%d0%be%d0%bf%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%b7%d0%b5%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24998",
+      "sourceTaxonomyId": "24998",
+      "name": "куриних бедра (или 2 грудки)",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d0%b8%d1%85-%d0%b1%d0%b5%d0%b4%d1%80%d0%b0-%d0%b8%d0%bb%d0%b8-2-%d0%b3%d1%80%d1%83%d0%b4%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24999",
+      "sourceTaxonomyId": "24999",
+      "name": "большие морковки",
+      "slug": "%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b8%d0%b5-%d0%bc%d0%be%d1%80%d0%ba%d0%be%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25000",
+      "sourceTaxonomyId": "25000",
+      "name": "лавровых листа",
+      "slug": "%d0%bb%d0%b0%d0%b2%d1%80%d0%be%d0%b2%d1%8b%d1%85-%d0%bb%d0%b8%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25001",
+      "sourceTaxonomyId": "25001",
+      "name": "небольшой головки капусты",
+      "slug": "%d0%bd%d0%b5%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%be%d0%b9-%d0%b3%d0%be%d0%bb%d0%be%d0%b2%d0%ba%d0%b8-%d0%ba%d0%b0%d0%bf%d1%83%d1%81%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "94",
+      "sourceTaxonomyId": "94",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "336",
+      "sourceTaxonomyId": "336",
+      "name": "картофелины",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "342",
+      "sourceTaxonomyId": "342",
+      "name": "луковицы",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "795",
+      "sourceTaxonomyId": "795",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1022",
+      "sourceTaxonomyId": "1022",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3553",
+      "sourceTaxonomyId": "3553",
+      "name": "большие морковки",
+      "slug": "%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b8%d0%b5-%d0%bc%d0%be%d1%80%d0%ba%d0%be%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8646",
+      "sourceTaxonomyId": "8646",
+      "name": "сельдерея",
+      "slug": "%d1%81%d0%b5%d0%bb%d1%8c%d0%b4%d0%b5%d1%80%d0%b5%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13946",
+      "sourceTaxonomyId": "13946",
+      "name": "лавровых листа",
+      "slug": "%d0%bb%d0%b0%d0%b2%d1%80%d0%be%d0%b2%d1%8b%d1%85-%d0%bb%d0%b8%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13948",
+      "sourceTaxonomyId": "13948",
+      "name": "крупной морской соли",
+      "slug": "%d0%ba%d1%80%d1%83%d0%bf%d0%bd%d0%be%d0%b9-%d0%bc%d0%be%d1%80%d1%81%d0%ba%d0%be%d0%b9-%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13950",
+      "sourceTaxonomyId": "13950",
+      "name": "небольшой головки капусты",
+      "slug": "%d0%bd%d0%b5%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%be%d0%b9-%d0%b3%d0%be%d0%bb%d0%be%d0%b2%d0%ba%d0%b8-%d0%ba%d0%b0%d0%bf%d1%83%d1%81%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13952",
+      "sourceTaxonomyId": "13952",
+      "name": "свежей зелени (петрушки, укропа или зеленого лука)",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b8-%d1%83%d0%ba%d1%80%d0%be%d0%bf%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%b7%d0%b5%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14230",
+      "sourceTaxonomyId": "14230",
+      "name": "куриних бедра (или 2 грудки)",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d0%b8%d1%85-%d0%b1%d0%b5%d0%b4%d1%80%d0%b0-%d0%b8%d0%bb%d0%b8-2-%d0%b3%d1%80%d1%83%d0%b4%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1320",
+      "sourceTaxonomyId": "1320",
+      "name": "овощи",
+      "slug": "%d0%be%d0%b2%d0%be%d1%89%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3960",
+      "sourceTaxonomyId": "3960",
+      "name": "мелконарезанные овощи",
+      "slug": "%d0%bc%d0%b5%d0%bb%d0%ba%d0%be%d0%bd%d0%b0%d1%80%d0%b5%d0%b7%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d0%be%d0%b2%d0%be%d1%89%d0%b8"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16219",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1-2 куриних бедра (или 2 грудки)",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "куриних бедра (или 2 грудки)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 луковицы почистить",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "луковицы",
+            "notes": "почистить"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 большие морковки почистить",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "большие морковки",
+            "notes": "почистить"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 зубчика чеснока почистить",
+            "quantity": {
+              "raw": "2 зубчика",
+              "value": 2,
+              "unit": "зубчика",
+              "scalable": true
+            },
+            "name": "чеснока",
+            "notes": "почистить"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1-2 стебля сельдерея",
+            "quantity": {
+              "raw": "1-2 стебля",
+              "min": 1,
+              "max": 2,
+              "unit": "стебля",
+              "scalable": true
+            },
+            "name": "сельдерея",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 лавровых листа",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "лавровых листа",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 литра воды",
+            "quantity": {
+              "raw": "2 литра",
+              "value": 2,
+              "unit": "литра",
+              "scalable": true
+            },
+            "name": "воды",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/2 ч.л. крупной морской соли",
+            "quantity": {
+              "raw": "1/2 ч.л.",
+              "value": 0.5,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "крупной морской соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "3-4 картофелины почистить",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "картофелины",
+            "notes": "почистить"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "1/4 небольшой головки капусты",
+            "quantity": {
+              "raw": "1/4",
+              "value": 0.25,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "небольшой головки капусты",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "3 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "3 ст.л.",
+              "value": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 11,
+            "raw": "Немного свежей зелени (петрушки, укропа или зеленого лука)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "свежей зелени (петрушки, укропа или зеленого лука)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В большую кастрюлю положить мясо, целую луковицу, морковь, сельдерей, чеснок и лавровый лист. Налить примерно 2 литра холодной воды, поставить на огонь и довести до кипения.",
+            "mediaId": "wordpress-attachment:16225"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Уменьшить огонь и варить 15-20 минут. Чтобы бульон получился прозрачным, снимать пенку по мере ее образования. Добавить соль.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Пока варится бульон, порезать кубиками (примерно 1 см) картофель.",
+            "mediaId": "wordpress-attachment:16226"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Мелко порезать оставшийся лук и морковь.",
+            "mediaId": "wordpress-attachment:16227"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Мелко порезать капусту.",
+            "mediaId": "wordpress-attachment:16221"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Когда мясо сварилось, вынуть и выкинуть из бульона луковицу, чеснок, сельдерей, морковку и лавровые листья. Мясо достать, отделить от костей, порезать кусочками и снова положить в бульон.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Добавить в бульон нарезанный картофель и варить примерно 10 минут.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "В сковороде разогреть оливковое масло и обжарить в нем лук и морковь на медленном огне. Посолить и поперчить. Снять сковороду с огня.",
+            "mediaId": "wordpress-attachment:16220"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Добавить в суп нарезанную капусту и обжаренные лук и морковь. Продолжать варить еще примерно 5 минут. Когда картофель сварился, суп готов. Снять кастрюлю с огня. Попробовать суп и если надо, посолить и поперчить по вкусу.",
+            "mediaId": "wordpress-attachment:16222"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Разлить горячий суп по тарелкам и посыпать свежей зеленью. Приятного аппетита!",
+            "mediaId": "wordpress-attachment:16219"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16219",
+      "sourceId": "16219",
+      "path": "/recipes/media/wordpress/16219.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16225",
+      "sourceId": "16225",
+      "path": "/recipes/media/wordpress/16225.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16226",
+      "sourceId": "16226",
+      "path": "/recipes/media/wordpress/16226.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16227",
+      "sourceId": "16227",
+      "path": "/recipes/media/wordpress/16227.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16221",
+      "sourceId": "16221",
+      "path": "/recipes/media/wordpress/16221.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16220",
+      "sourceId": "16220",
+      "path": "/recipes/media/wordpress/16220.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16222",
+      "sourceId": "16222",
+      "path": "/recipes/media/wordpress/16222.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

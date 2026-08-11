@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29095",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26944",
+  "slug": "creme-patissiere",
+  "source": {
+    "system": "wordpress",
+    "postId": "29095",
+    "recipeId": "29095",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-creme-patissiere",
+    "createdAt": "2024-12-10T02:06:00+00:00",
+    "modifiedAt": "2024-12-30T02:08:49+00:00",
+    "editorialPostId": "29094",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "creme-patissiere",
+    "editorialCreatedAt": "2024-12-10T02:06:00+00:00",
+    "editorialModifiedAt": "2024-12-30T02:08:46+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Crème Pâtissière",
+  "description": "La crème pâtissière) est une crème délicate essentielle pour de nombreux desserts: éclairs, petits choux, religieuses, mille-feuille, meringues et d'autres gâteaux.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La crème pâtissière) est une crème délicate essentielle pour de nombreux desserts: éclairs, petits choux, religieuses, mille-feuille, meringues et d'autres gâteaux.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Après avoir essayé beaucoup de versions, ma recette préférée est celle du chef français Johan basé à Toulouse (Johan Le Meilleur Patissier M6).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>J'ai ajouté mes photos. Le lien original est: <a href=\"https://mapatisserie.fr/recette/cremes/recette-creme-patissiere/\">Recette de la Crème Pâtissière à la Vanille</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29095,\"template\":\"chic-template-french\",\"updated\":1735524239115} -->\n<!--WPRM Recipe 29095-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Crème Pâtissière</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_3328-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>La crème pâtissière) est une crème délicate essentielle pour de nombreux desserts: éclairs, petits choux, religieuses, mille-feuille, meringues et d&#039;autres gâteaux.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1/2 gousse de vanille</li><li>250 ml lait entier</li><li>55 g jaunes d&#039;œufs (environ 3 jaunes)</li><li>50 g sucre</li><li>25 g amidon (maizena)</li><li>25 g beurre</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Versez le lait dans une casserole. Fendez la gousse de vanille en deux dans le sens de la longueur et grattez les petites graines avec la pointe d’un couteau. </p><p>Ajoutez la gousse et les graines au lait.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_6688.Blog_-150x150.png\"/><br /></li><li><p>Fouettez les jaunes d&#039;œufs avec le sucre jusqu&#039;à ce que le mélange soit homogène.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4320.Blog_-150x150.png\"/><br /></li><li><p>Ajoutez la maïzena et mélangez soigneusement.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_7071-2.Blog_-150x150.png\"/><br /></li><li><p>Portez le lait à ébullition. Versez progressivement 1/3 du lait chaud dans le mélange jaunes-sucre, en remuant vigoureusement.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_7072.Blog_-150x150.png\"/><br /></li><li><p>Reversez le tout dans la casserole.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_7081.Blog_-150x150.png\"/><br /></li><li><p>Faites cuire la crème à feu doux, en remuant constamment, pendant environ 2 minutes après le début de l’ébullition. Retirez la casserole du feu.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_9946.Blog_-150x150.png\"/><br /></li><li><p>Transférez immédiatement la crème dans un bol froid (préalablement refroidi au réfrigérateur ou au congélateur). Ajoutez le beurre en petits morceaux et mélangez jusqu&#039;à ce que la crème soit lisse. Recouvrez la surface de la crème directement avec un film plastique et réfrigérez jusqu&#039;à refroidissement complet.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_7086.Blog_-150x150.png\"/><br /></li><li><p>Avant de servir, fouettez la crème pour l’assouplir. C’est le moment d’ajouter du rhum ou d&#039;autres arômes, si désiré.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_3328-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<p>La crème pâtissière est une crème délicate utilisée pour les gâteaux à base de pâte à choux (éclairs, petits choux), le mille-feuille, le Napoléon, la meringue et autres gâteaux à base de génoise.</p>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div><div class=\"wprm-fallback-recipe-meta-cuisine\">française, French</div><div class=\"wprm-fallback-recipe-meta-keyword\">Creme</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "La crème pâtissière est une crème délicate utilisée pour les gâteaux à base de pâte à choux (éclairs, petits choux), le mille-feuille, le Napoléon, la meringue et autres gâteaux à base de génoise."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26440",
+      "sourceTaxonomyId": "26440",
+      "name": "française",
+      "slug": "francaise-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24040",
+      "sourceTaxonomyId": "24040",
+      "name": "beurre",
+      "slug": "beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24042",
+      "sourceTaxonomyId": "24042",
+      "name": "sucre",
+      "slug": "sucre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24740",
+      "sourceTaxonomyId": "24740",
+      "name": "gousse de vanille",
+      "slug": "gousse-de-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27117",
+      "sourceTaxonomyId": "27117",
+      "name": "lait entier",
+      "slug": "lait-entier"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27118",
+      "sourceTaxonomyId": "27118",
+      "name": "jaunes d'œufs (environ 3 jaunes)",
+      "slug": "jaunes-doeufs-environ-3-jaunes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27119",
+      "sourceTaxonomyId": "27119",
+      "name": "amidon (maizena)",
+      "slug": "amidon-maizena"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27120",
+      "sourceTaxonomyId": "27120",
+      "name": "Creme",
+      "slug": "creme"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1678",
+      "sourceTaxonomyId": "1678",
+      "name": "creme patissiere",
+      "slug": "creme-patissiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8075",
+      "sourceTaxonomyId": "8075",
+      "name": "decoration de dessert",
+      "slug": "decoration-de-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27123",
+      "sourceTaxonomyId": "27123",
+      "name": "dessert",
+      "slug": "dessert-fr"
+    }
+  ],
+  "recipe": {
+    "notes": "La crème pâtissière est une crème délicate utilisée pour les gâteaux à base de pâte à choux (éclairs, petits choux), le mille-feuille, le Napoléon, la meringue et autres gâteaux à base de génoise.",
+    "servings": {
+      "raw": "10 petits choux",
+      "value": 10,
+      "unit": "petits choux",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "1",
+        "value": 1
+      },
+      "servingSize": null,
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:20413",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 gousse de vanille",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "gousse de vanille",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "250 ml lait entier",
+            "quantity": {
+              "raw": "250 ml",
+              "value": 250,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "lait entier",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "55 g jaunes d'œufs (environ 3 jaunes)",
+            "quantity": {
+              "raw": "55 g",
+              "value": 55,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "jaunes d'œufs (environ 3 jaunes)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "50 g sucre",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sucre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "25 g amidon (maizena)",
+            "quantity": {
+              "raw": "25 g",
+              "value": 25,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "amidon (maizena)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "25 g beurre",
+            "quantity": {
+              "raw": "25 g",
+              "value": 25,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "beurre",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Versez le lait dans une casserole. Fendez la gousse de vanille en deux dans le sens de la longueur et grattez les petites graines avec la pointe d’un couteau.\n\nAjoutez la gousse et les graines au lait.",
+            "mediaId": "wordpress-attachment:20426"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Fouettez les jaunes d'œufs avec le sucre jusqu'à ce que le mélange soit homogène.",
+            "mediaId": "wordpress-attachment:20414"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajoutez la maïzena et mélangez soigneusement.",
+            "mediaId": "wordpress-attachment:20423"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Portez le lait à ébullition. Versez progressivement 1/3 du lait chaud dans le mélange jaunes-sucre, en remuant vigoureusement.",
+            "mediaId": "wordpress-attachment:20415"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Reversez le tout dans la casserole.",
+            "mediaId": "wordpress-attachment:20416"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Faites cuire la crème à feu doux, en remuant constamment, pendant environ 2 minutes après le début de l’ébullition. Retirez la casserole du feu.",
+            "mediaId": "wordpress-attachment:20418"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Transférez immédiatement la crème dans un bol froid (préalablement refroidi au réfrigérateur ou au congélateur). Ajoutez le beurre en petits morceaux et mélangez jusqu'à ce que la crème soit lisse. Recouvrez la surface de la crème directement avec un film plastique et réfrigérez jusqu'à refroidissement complet.",
+            "mediaId": "wordpress-attachment:20417"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Avant de servir, fouettez la crème pour l’assouplir. C’est le moment d’ajouter du rhum ou d'autres arômes, si désiré.",
+            "mediaId": "wordpress-attachment:20413"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20413",
+      "sourceId": "20413",
+      "path": "/recipes/media/wordpress/20413.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20426",
+      "sourceId": "20426",
+      "path": "/recipes/media/wordpress/20426.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20414",
+      "sourceId": "20414",
+      "path": "/recipes/media/wordpress/20414.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20423",
+      "sourceId": "20423",
+      "path": "/recipes/media/wordpress/20423.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20415",
+      "sourceId": "20415",
+      "path": "/recipes/media/wordpress/20415.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:20416",
+      "sourceId": "20416",
+      "path": "/recipes/media/wordpress/20416.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20418",
+      "sourceId": "20418",
+      "path": "/recipes/media/wordpress/20418.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20417",
+      "sourceId": "20417",
+      "path": "/recipes/media/wordpress/20417.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

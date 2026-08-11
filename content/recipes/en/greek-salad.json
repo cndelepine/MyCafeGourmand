@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21490",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:1115",
+  "slug": "greek-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "21490",
+    "recipeId": "21490",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-greek-salad",
+    "createdAt": "2023-07-02T06:13:00+00:00",
+    "modifiedAt": "2023-07-16T18:42:26+00:00",
+    "editorialPostId": "5187",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "greek-salad",
+    "editorialCreatedAt": "2023-07-02T06:13:00+00:00",
+    "editorialModifiedAt": "2023-07-16T18:41:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Greek salad",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This Greek salad is one of my favorite things. No matter how much I make, it seems to always disappear.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21490,\"template\":\"chic-template-english\",\"updated\":1614749309214} -->\n<!--WPRM Recipe 21490-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Greek salad</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7453.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 tomatoes</li><li>1-2 cucumbers</li><li>1 bell pepper ((any color))</li><li>1/2 red onion</li><li>salt and pepper</li><li>1/4 tsp dry oregano leaves</li><li>100 g greek Kalamata olives (pitted)</li><li>100 g feta cheese</li><li>1/2 lemon</li><li>4  Tbsp olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut the tomatoes in quarters.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7662.Blog_-150x150.png\"/><br /></li><li>Slice the cucumbers in half long ways (remove seeds if desired) and cut 1/4 inch slices, starting at one end, so that you end up with bunch of half moon shapes or the letter \"C\". <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7660.Blog_-150x150.png\"/><br /></li><li>Remove the core and seeds from the bell pepper and cut into strips.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7663.Blog_-150x150.png\"/><br /></li><li>Peel the onion and cut into perfectly thin slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7843.Blog_-150x150.png\"/><br /></li><li>Combine the tomatoes, cucumber, onion, bell pepper and olives in a bowl. Season with salt, pepper and dry oregano. Mix.\r\n      </li><li>Top it with sliced feta cheese. Squeeze the lemon on salad and drizzle with olive oil.\r\n <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7666.Blog_-150x150.png\"/><br /></li><li>If you like to serve your Greek Salad in individual cups, you can cut the vegetables into small cubes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7453.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23559",
+      "sourceTaxonomyId": "23559",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24121",
+      "sourceTaxonomyId": "24121",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24123",
+      "sourceTaxonomyId": "24123",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24170",
+      "sourceTaxonomyId": "24170",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24331",
+      "sourceTaxonomyId": "24331",
+      "name": "cucumbers",
+      "slug": "cucumbers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24332",
+      "sourceTaxonomyId": "24332",
+      "name": "dry oregano leaves",
+      "slug": "dry-oregano-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24333",
+      "sourceTaxonomyId": "24333",
+      "name": "greek Kalamata olives",
+      "slug": "greek-kalamata-olives"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "445",
+      "sourceTaxonomyId": "445",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2054",
+      "sourceTaxonomyId": "2054",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2712",
+      "sourceTaxonomyId": "2712",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2714",
+      "sourceTaxonomyId": "2714",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2716",
+      "sourceTaxonomyId": "2716",
+      "name": "dry oregano leaves",
+      "slug": "dry-oregano-leaves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2718",
+      "sourceTaxonomyId": "2718",
+      "name": "greek Kalamata olives",
+      "slug": "greek-kalamata-olives"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2720",
+      "sourceTaxonomyId": "2720",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2752",
+      "sourceTaxonomyId": "2752",
+      "name": "cucumbers",
+      "slug": "cucumbers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2746",
+      "sourceTaxonomyId": "2746",
+      "name": "Greek salad",
+      "slug": "greek-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2748",
+      "sourceTaxonomyId": "2748",
+      "name": "greek",
+      "slug": "greek"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2750",
+      "sourceTaxonomyId": "2750",
+      "name": "Feta",
+      "slug": "feta-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2762",
+      "sourceTaxonomyId": "2762",
+      "name": "olives",
+      "slug": "olives"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2764",
+      "sourceTaxonomyId": "2764",
+      "name": "kalamata",
+      "slug": "kalamata-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4337",
+      "sourceTaxonomyId": "4337",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6357",
+      "sourceTaxonomyId": "6357",
+      "name": "black olive",
+      "slug": "black-olive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8505",
+      "sourceTaxonomyId": "8505",
+      "name": "healthy food",
+      "slug": "healthy-food"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2792",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 tomatoes",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 cucumbers",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "cucumbers",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 bell pepper (any color)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bell pepper",
+            "notes": "(any color)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 red onion",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "red onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "salt and pepper",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/4 tsp dry oregano leaves",
+            "quantity": {
+              "raw": "1/4 tsp",
+              "value": 0.25,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "dry oregano leaves",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "100 g greek Kalamata olives pitted",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "greek Kalamata olives",
+            "notes": "pitted"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "100 g feta cheese",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "feta cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1/2 lemon",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "4 Tbsp olive oil",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut the tomatoes in quarters.",
+            "mediaId": "wordpress-attachment:2711"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Slice the cucumbers in half long ways (remove seeds if desired) and cut 1/4 inch slices, starting at one end, so that you end up with bunch of half moon shapes or the letter \"C\".",
+            "mediaId": "wordpress-attachment:2710"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Remove the core and seeds from the bell pepper and cut into strips.",
+            "mediaId": "wordpress-attachment:2712"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Peel the onion and cut into perfectly thin slices.",
+            "mediaId": "wordpress-attachment:5318"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Combine the tomatoes, cucumber, onion, bell pepper and olives in a bowl. Season with salt, pepper and dry oregano. Mix.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Top it with sliced feta cheese. Squeeze the lemon on salad and drizzle with olive oil.",
+            "mediaId": "wordpress-attachment:2793"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "If you like to serve your Greek Salad in individual cups, you can cut the vegetables into small cubes.",
+            "mediaId": "wordpress-attachment:2792"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2792",
+      "sourceId": "2792",
+      "path": "/recipes/media/wordpress/2792.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2711",
+      "sourceId": "2711",
+      "path": "/recipes/media/wordpress/2711.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2710",
+      "sourceId": "2710",
+      "path": "/recipes/media/wordpress/2710.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:2712",
+      "sourceId": "2712",
+      "path": "/recipes/media/wordpress/2712.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5318",
+      "sourceId": "5318",
+      "path": "/recipes/media/wordpress/5318.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2793",
+      "sourceId": "2793",
+      "path": "/recipes/media/wordpress/2793.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

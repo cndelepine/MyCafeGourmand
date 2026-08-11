@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21268",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6282",
+  "slug": "vegetable-tian",
+  "source": {
+    "system": "wordpress",
+    "postId": "21268",
+    "recipeId": "21268",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-vegetable-tian",
+    "createdAt": "2021-08-24T22:58:00+00:00",
+    "modifiedAt": "2021-08-25T16:25:33+00:00",
+    "editorialPostId": "11886",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "vegetable-tian",
+    "editorialCreatedAt": "2021-08-24T22:58:00+00:00",
+    "editorialModifiedAt": "2021-08-25T16:25:31+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Vegetable Tian",
+  "description": "To make the tian look more appealing, use vegetables with similar widths.",
+  "editorial": {
+    "content": "This is not a ratatouille, it is a \"tian!\" I often have to correct my guests when they ask me if this is a ratatouille. ;)\n\nTian is a french recipe of baked vegetables made with alternating rows of sliced eggplant, tomato, onion and zucchini. A tian itself is an earthenware dish that goes from the oven to table. Everything baked in this dish is called tian.\n\n<!--WPRM Recipe 21268-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Vegetable Tian</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1462.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tTo make the tian look more appealing, use vegetables with similar widths.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 onions</li><li>4 cloves garlic</li><li>7 Tbsp olive oil</li><li>Salt and freshly ground black pepper</li><li>1 eggplant</li><li>1-2 zucchini</li><li>1-2 summer squash</li><li>5 tomatoes</li><li>1/2 tsp herbs de provence</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel and cut the onion into half moons. Peel and cut the garlic into 2-4 pieces.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1443.Blog_-150x150.png\"/><br /></li><li>In a medium skillet heat 2-3 Tbsp of olive oil until hot, add onion and sauté until tender, stirring frequently. Add garlic and cook for another 2 minutes. Season with salt and pepper. Remove from the heat.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1444.Blog_-150x150.png\"/><br /></li><li>Preheat the oven to 400℉. Spread the cooked onion on the bottom of a baking dish.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1449.Blog_-150x150.png\"/><br /></li><li>Cut zucchini and summer squash into 1/4 inch slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1447.Blog_-150x150.png\"/><br /></li><li>Cut the eggplant into 1/4 inch slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1451.Blog_-150x150.png\"/><br /></li><li>Core and cut tomatoes into 1/4 inch thick slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1452.Blog_-150x150.png\"/><br /></li><li>Arrange the zucchini, eggplant, squash and tomatoes in alternating rows. Continue until the baking dish is filled.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1454.Blog_-150x150.png\"/><br /></li><li>Sprinkle the vegetables with salt, pepper, Herbs de Provence and drizzle with the remaining olive oil.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1457.Blog_-150x150.png\"/><br /></li><li>Bake for 40-50 minutes or until the vegetables are soft and golden. If the vegetables are not ready, but the top is starting to burn, cover the tian with aluminum foil.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1463.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24142",
+      "sourceTaxonomyId": "24142",
+      "name": "herbs de provence",
+      "slug": "herbs-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24151",
+      "sourceTaxonomyId": "24151",
+      "name": "onions",
+      "slug": "onions"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24153",
+      "sourceTaxonomyId": "24153",
+      "name": "eggplant",
+      "slug": "eggplant"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24154",
+      "sourceTaxonomyId": "24154",
+      "name": "zucchini",
+      "slug": "zucchini"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24155",
+      "sourceTaxonomyId": "24155",
+      "name": "summer squash",
+      "slug": "summer-squash"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2054",
+      "sourceTaxonomyId": "2054",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4186",
+      "sourceTaxonomyId": "4186",
+      "name": "eggplant",
+      "slug": "eggplant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6293",
+      "sourceTaxonomyId": "6293",
+      "name": "onions",
+      "slug": "onions"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6295",
+      "sourceTaxonomyId": "6295",
+      "name": "zucchini",
+      "slug": "zucchini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6297",
+      "sourceTaxonomyId": "6297",
+      "name": "summer squash",
+      "slug": "summer-squash"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6299",
+      "sourceTaxonomyId": "6299",
+      "name": "herbs de provence",
+      "slug": "herbs-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4196",
+      "sourceTaxonomyId": "4196",
+      "name": "side dish",
+      "slug": "side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6283",
+      "sourceTaxonomyId": "6283",
+      "name": "vegetable tian",
+      "slug": "vegetable-tian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6312",
+      "sourceTaxonomyId": "6312",
+      "name": "ratatouille",
+      "slug": "ratatouille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6314",
+      "sourceTaxonomyId": "6314",
+      "name": "beautifull table",
+      "slug": "beautifull-table"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6316",
+      "sourceTaxonomyId": "6316",
+      "name": "tian",
+      "slug": "tian-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "10828",
+      "sourceTaxonomyId": "10828",
+      "name": "vegetables",
+      "slug": "vegetables"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "80",
+        "minutes": 80
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11878",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 onions",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onions",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 cloves garlic",
+            "quantity": {
+              "raw": "4 cloves",
+              "value": 4,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "7 Tbsp olive oil",
+            "quantity": {
+              "raw": "7 Tbsp",
+              "value": 7,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 eggplant",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggplant",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1-2 zucchini",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "zucchini",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1-2 summer squash",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "summer squash",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "5 tomatoes",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1/2 tsp herbs de provence",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "herbs de provence",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel and cut the onion into half moons. Peel and cut the garlic into 2-4 pieces.",
+            "mediaId": "wordpress-attachment:11860"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a medium skillet heat 2-3 Tbsp of olive oil until hot, add onion and sauté until tender, stirring frequently. Add garlic and cook for another 2 minutes. Season with salt and pepper. Remove from the heat.",
+            "mediaId": "wordpress-attachment:11861"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Preheat the oven to 400℉. Spread the cooked onion on the bottom of a baking dish.",
+            "mediaId": "wordpress-attachment:11863"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Cut zucchini and summer squash into 1/4 inch slices.",
+            "mediaId": "wordpress-attachment:11862"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Cut the eggplant into 1/4 inch slices.",
+            "mediaId": "wordpress-attachment:11864"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Core and cut tomatoes into 1/4 inch thick slices.",
+            "mediaId": "wordpress-attachment:11865"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Arrange the zucchini, eggplant, squash and tomatoes in alternating rows. Continue until the baking dish is filled.",
+            "mediaId": "wordpress-attachment:11866"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Sprinkle the vegetables with salt, pepper, Herbs de Provence and drizzle with the remaining olive oil.",
+            "mediaId": "wordpress-attachment:11867"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Bake for 40-50 minutes or until the vegetables are soft and golden. If the vegetables are not ready, but the top is starting to burn, cover the tian with aluminum foil.",
+            "mediaId": "wordpress-attachment:11868"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11878",
+      "sourceId": "11878",
+      "path": "/recipes/media/wordpress/11878.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11860",
+      "sourceId": "11860",
+      "path": "/recipes/media/wordpress/11860.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11861",
+      "sourceId": "11861",
+      "path": "/recipes/media/wordpress/11861.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11863",
+      "sourceId": "11863",
+      "path": "/recipes/media/wordpress/11863.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11862",
+      "sourceId": "11862",
+      "path": "/recipes/media/wordpress/11862.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11864",
+      "sourceId": "11864",
+      "path": "/recipes/media/wordpress/11864.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11865",
+      "sourceId": "11865",
+      "path": "/recipes/media/wordpress/11865.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11866",
+      "sourceId": "11866",
+      "path": "/recipes/media/wordpress/11866.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11867",
+      "sourceId": "11867",
+      "path": "/recipes/media/wordpress/11867.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11868",
+      "sourceId": "11868",
+      "path": "/recipes/media/wordpress/11868.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

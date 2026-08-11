@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21296",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:23063",
+  "slug": "easy-walnut-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21296",
+    "recipeId": "21296",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-easy-walnut-cake",
+    "createdAt": "2020-03-06T03:27:18+00:00",
+    "modifiedAt": "2021-12-15T04:08:01+00:00",
+    "editorialPostId": "19843",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "easy-walnut-cake",
+    "editorialCreatedAt": "2020-03-06T03:27:18+00:00",
+    "editorialModifiedAt": "2021-12-15T04:07:59+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Easy Walnut Cake",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>There are quite a few nut cake recipes; but this one, which my mother-in-law is preparing is a little different. With that easy walnut cake, you can really taste the taste of nuts thanks to the small pieces that crunch under your teeth!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21296,\"template\":\"chic-template-english\",\"updated\":1639541270627} -->\n<!--WPRM Recipe 21296-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Easy Walnut Cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3564-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 eggs</li><li>220 g sugar</li><li>100 ml milk</li><li>90 ml olive oil</li><li>200 g sifted flour</li><li>2 tsps baking powder</li><li>300 g walnuts</li><li>40 g butter</li><li>Some confectioner's sugar</li><li>Few walnuts halves</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 380 degrees F. Grease and flour a round cake pan or line the bottom of the pan with parchment paper.</li><li>Using a mixer, beat eggs with sugar.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3543-2.Blog_-150x150.png\"/><br /></li><li>Add milk, olive oil, flour, and baking powder. Mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3545-2.Blog_-150x150.png\"/><br /></li><li>Place the walnuts in the zip-lock and cruch them using a pastry pin. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3547-2.Blog_-150x150.png\"/><br /></li><li>Pour the batter in the cake pan (mould). Lay walnuts halves on top of the cake. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3550-2.Blog_-150x150.png\"/><br /></li><li>Bake for 20 minutes. The cake should be well raised with a thin crust but not fully baked. Place the pieces of butter on top of the cake.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3551-2.Blog_-150x150.png\"/><br /></li><li>Continue to cook for another 10 minutes. Remove the cake from the oven, allow to cool before removing it from the mold.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3555-2.Blog_-150x150.png\"/><br /></li><li>Dust it with powdered sugar before serving. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3556-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24063",
+      "sourceTaxonomyId": "24063",
+      "name": "sifted flour",
+      "slug": "sifted-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24065",
+      "sourceTaxonomyId": "24065",
+      "name": "confectioners sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24183",
+      "sourceTaxonomyId": "24183",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24184",
+      "sourceTaxonomyId": "24184",
+      "name": "walnuts halves",
+      "slug": "walnuts-halves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "509",
+      "sourceTaxonomyId": "509",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "789",
+      "sourceTaxonomyId": "789",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "879",
+      "sourceTaxonomyId": "879",
+      "name": "sifted flour",
+      "slug": "sifted-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1176",
+      "sourceTaxonomyId": "1176",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3000",
+      "sourceTaxonomyId": "3000",
+      "name": "confectioner's sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14177",
+      "sourceTaxonomyId": "14177",
+      "name": "walnuts halves",
+      "slug": "walnuts-halves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3434",
+      "sourceTaxonomyId": "3434",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4176",
+      "sourceTaxonomyId": "4176",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5915",
+      "sourceTaxonomyId": "5915",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19787",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 eggs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "220 g sugar",
+            "quantity": {
+              "raw": "220 g",
+              "value": 220,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 ml milk",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "90 ml olive oil",
+            "quantity": {
+              "raw": "90 ml",
+              "value": 90,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "200 g sifted flour",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sifted flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 tsps baking powder",
+            "quantity": {
+              "raw": "2 tsps",
+              "value": 2,
+              "unit": "tsps",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "300 g walnuts",
+            "quantity": {
+              "raw": "300 g",
+              "value": 300,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "walnuts",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "40 g butter",
+            "quantity": {
+              "raw": "40 g",
+              "value": 40,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Some confectioner's sugar",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "confectioner's sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Few walnuts halves",
+            "quantity": {
+              "raw": "Few",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "walnuts halves",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380 degrees F. Grease and flour a round cake pan or line the bottom of the pan with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Using a mixer, beat eggs with sugar.",
+            "mediaId": "wordpress-attachment:19779"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add milk, olive oil, flour, and baking powder. Mix well.",
+            "mediaId": "wordpress-attachment:19780"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Place the walnuts in the zip-lock and cruch them using a pastry pin.",
+            "mediaId": "wordpress-attachment:19781"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Pour the batter in the cake pan (mould). Lay walnuts halves on top of the cake.",
+            "mediaId": "wordpress-attachment:19782"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bake for 20 minutes. The cake should be well raised with a thin crust but not fully baked. Place the pieces of butter on top of the cake.",
+            "mediaId": "wordpress-attachment:19783"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Continue to cook for another 10 minutes. Remove the cake from the oven, allow to cool before removing it from the mold.",
+            "mediaId": "wordpress-attachment:19784"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Dust it with powdered sugar before serving.",
+            "mediaId": "wordpress-attachment:19785"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19787",
+      "sourceId": "19787",
+      "path": "/recipes/media/wordpress/19787.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19779",
+      "sourceId": "19779",
+      "path": "/recipes/media/wordpress/19779.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19780",
+      "sourceId": "19780",
+      "path": "/recipes/media/wordpress/19780.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19781",
+      "sourceId": "19781",
+      "path": "/recipes/media/wordpress/19781.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19782",
+      "sourceId": "19782",
+      "path": "/recipes/media/wordpress/19782.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19783",
+      "sourceId": "19783",
+      "path": "/recipes/media/wordpress/19783.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19784",
+      "sourceId": "19784",
+      "path": "/recipes/media/wordpress/19784.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19785",
+      "sourceId": "19785",
+      "path": "/recipes/media/wordpress/19785.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

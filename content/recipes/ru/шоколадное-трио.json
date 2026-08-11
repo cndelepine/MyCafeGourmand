@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22604",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:1140",
+  "slug": "шоколадное-трио",
+  "source": {
+    "system": "wordpress",
+    "postId": "22604",
+    "recipeId": "22604",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b5-%d1%82%d1%80%d0%b8%d0%be",
+    "createdAt": "2019-01-01T05:43:33+00:00",
+    "modifiedAt": "2022-07-30T19:35:22+00:00",
+    "editorialPostId": "2857",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b5-%d1%82%d1%80%d0%b8%d0%be",
+    "editorialCreatedAt": "2019-01-01T05:43:33+00:00",
+    "editorialModifiedAt": "2022-07-30T19:35:18+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Шоколадное трио",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p><em>Черный шоколад, молочный шоколад, белый шоколад... Каждый слой отличается не только своим вкусом, но и текстурой.&nbsp;Можно использовать стаканчики любой формы и размера. Конечно же, я выбираю размер мини - еще одна идея для <a href=\"https://mycafegourmand.com/ru/cafe-gourmand-3\">Cafe gourmand</a>.</em> </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22604,\"template\":\"chic-template-russian\",\"updated\":1659209705367} -->\n<!--WPRM Recipe 22604-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Шоколадное трио</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180122_090755.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Ганаш из черного шоколада</h4><ul><li>120 мл сливок ((35 % жирности))</li><li>100 г черного шоколада</li></ul><h4>Мусс из молочного шоколада</h4><ul><li>100 г молочного шоколада</li><li>2 яйца</li><li>1 щепотка  соли</li></ul><h4>Мусс из белого шоколада</h4><ul><li>150 мл сливок ((35 % жирности))</li><li>100 г белого шоколада</li></ul><h4>Для украшения</h4><ul><li>6-8  ягод свежей малины</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Ганаш из черного шоколада</h4><ol><li>Довести сливки до кипения и залить ими черный шоколад. Подождать 1 минуту и перемешать до однородности.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6958.Blog_-150x150.png\"/><br /></li><li>Разлить жидкий шоколад по стаканчикам, заполняя их на 1/3. Поставить в холодильник на 1 час.</li></ol><h4>Мусс из молочного шоколада</h4><ol><li>Отделить желтки от белков. </li><li>Молочный шоколад растопить на водяной бане или в микроволновке. Добавить желтки в растопленный шоколад и хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7569.Blog_-150x150.png\"/><br /></li><li>Белки взбить со щепоткой соли в крепкую пену.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7570-2.Blog_-150x150.png\"/><br /></li><li>Аккуратно соединить взбитые белки с шоколадом.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7578-2.Blog_-150x150.png\"/><br /></li><li>Достать стаканчики из холодильника, ганаш уже должен достаточно затвердеть. Распределить мусс по стаканчикам с помощью кулинарного пакета или маленькой ложечки. Поставить снова в холодильник на 1 час.</li></ol><h4>Мусс из белого шоколада</h4><ol><li>Довести сливки до кипения и залить ими белый шоколад. Подождать 1-2 минуты, чтобы шоколад полностью растаял. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7560-2.Blog_-150x150.png\"/><br /></li><li>Перемешать веничком до однородности. Поставить жидкий белый шоколад в холодильник примерно на 45 минут. Шоколад должен полностью охладиться, но еще оставаться жидким.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7568-2.Blog_-150x150.png\"/><br /></li><li>Взбить охлажденный шоколад в нежную пену. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7580-2.Blog_-150x150.png\"/><br /></li><li>С помощью кулинарного пакета или маленькой ложечки распределить мусс по стаканчикам. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7586-2.Blog_-150x150.png\"/><br /></li><li>Поставить десерт в холодильник минимум на 3 часа, а лучше на 6 часов.</li><li>Перед подачей на стол, каждый стаканчик украсить ягодкой. Если стаканчики очень маленькие, красивее будет разрезать ягоды на 2 части.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23981",
+      "sourceTaxonomyId": "23981",
+      "name": "сливок",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24991",
+      "sourceTaxonomyId": "24991",
+      "name": "черного шоколада",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25035",
+      "sourceTaxonomyId": "25035",
+      "name": "молочного шоколада",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25036",
+      "sourceTaxonomyId": "25036",
+      "name": "белого шоколада",
+      "slug": "%d0%b1%d0%b5%d0%bb%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25037",
+      "sourceTaxonomyId": "25037",
+      "name": "свежей малины",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%bc%d0%b0%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "728",
+      "sourceTaxonomyId": "728",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "271",
+      "sourceTaxonomyId": "271",
+      "name": "сливок",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "687",
+      "sourceTaxonomyId": "687",
+      "name": "черного шоколада",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1128",
+      "sourceTaxonomyId": "1128",
+      "name": "белого шоколада",
+      "slug": "%d0%b1%d0%b5%d0%bb%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1130",
+      "sourceTaxonomyId": "1130",
+      "name": "молочного шоколада",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1132",
+      "sourceTaxonomyId": "1132",
+      "name": "свежей малины",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%bc%d0%b0%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1252",
+      "sourceTaxonomyId": "1252",
+      "name": "молочный шоколад",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1254",
+      "sourceTaxonomyId": "1254",
+      "name": "белый шоколад",
+      "slug": "%d0%b1%d0%b5%d0%bb%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1256",
+      "sourceTaxonomyId": "1256",
+      "name": "черный шоколад",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1258",
+      "sourceTaxonomyId": "1258",
+      "name": "горький шоколад",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8c%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1260",
+      "sourceTaxonomyId": "1260",
+      "name": "мусс",
+      "slug": "%d0%bc%d1%83%d1%81%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1262",
+      "sourceTaxonomyId": "1262",
+      "name": "десерт",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1264",
+      "sourceTaxonomyId": "1264",
+      "name": "верины",
+      "slug": "%d0%b2%d0%b5%d1%80%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2195",
+      "sourceTaxonomyId": "2195",
+      "name": "десерт в стаканчике",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6757",
+      "sourceTaxonomyId": "6757",
+      "name": "шоколадный мусс",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bc%d1%83%d1%81%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7195",
+      "sourceTaxonomyId": "7195",
+      "name": "shokoladnoe trio",
+      "slug": "shokoladnoe-trio"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7197",
+      "sourceTaxonomyId": "7197",
+      "name": "desert v stakanchike",
+      "slug": "desert-v-stakanchike"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7201",
+      "sourceTaxonomyId": "7201",
+      "name": "нежный десерт",
+      "slug": "%d0%bd%d0%b5%d0%b6%d0%bd%d1%8b%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8359",
+      "sourceTaxonomyId": "8359",
+      "name": "десерт для фуршета",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b4%d0%bb%d1%8f-%d1%84%d1%83%d1%80%d1%88%d0%b5%d1%82%d0%b0"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "46",
+        "minutes": 46
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2858",
+    "ingredientGroups": [
+      {
+        "name": "Ганаш из черного шоколада",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "120 мл сливок (35 % жирности)",
+            "quantity": {
+              "raw": "120 мл",
+              "value": 120,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "сливок",
+            "notes": "(35 % жирности)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 г черного шоколада",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "черного шоколада",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Мусс из молочного шоколада",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 г молочного шоколада",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "молочного шоколада",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 яйца",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 щепотка соли",
+            "quantity": {
+              "raw": "1 щепотка",
+              "value": 1,
+              "unit": "щепотка",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Мусс из белого шоколада",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 мл сливок (35 % жирности)",
+            "quantity": {
+              "raw": "150 мл",
+              "value": 150,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "сливок",
+            "notes": "(35 % жирности)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 г белого шоколада",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "белого шоколада",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Для украшения",
+        "sourceIndex": 3,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6-8 ягод свежей малины",
+            "quantity": {
+              "raw": "6-8 ягод",
+              "min": 6,
+              "max": 8,
+              "unit": "ягод",
+              "scalable": true
+            },
+            "name": "свежей малины",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Ганаш из черного шоколада",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Довести сливки до кипения и залить ими черный шоколад. Подождать 1 минуту и перемешать до однородности.",
+            "mediaId": "wordpress-attachment:2866"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Разлить жидкий шоколад по стаканчикам, заполняя их на 1/3. Поставить в холодильник на 1 час.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Мусс из молочного шоколада",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Отделить желтки от белков.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Молочный шоколад растопить на водяной бане или в микроволновке. Добавить желтки в растопленный шоколад и хорошо перемешать.",
+            "mediaId": "wordpress-attachment:2861"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Белки взбить со щепоткой соли в крепкую пену.",
+            "mediaId": "wordpress-attachment:2862"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Аккуратно соединить взбитые белки с шоколадом.",
+            "mediaId": "wordpress-attachment:2863"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Достать стаканчики из холодильника, ганаш уже должен достаточно затвердеть. Распределить мусс по стаканчикам с помощью кулинарного пакета или маленькой ложечки. Поставить снова в холодильник на 1 час.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Мусс из белого шоколада",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Довести сливки до кипения и залить ими белый шоколад. Подождать 1-2 минуты, чтобы шоколад полностью растаял.",
+            "mediaId": "wordpress-attachment:2859"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Перемешать веничком до однородности. Поставить жидкий белый шоколад в холодильник примерно на 45 минут. Шоколад должен полностью охладиться, но еще оставаться жидким.",
+            "mediaId": "wordpress-attachment:2860"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Взбить охлажденный шоколад в нежную пену.",
+            "mediaId": "wordpress-attachment:2864"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "С помощью кулинарного пакета или маленькой ложечки распределить мусс по стаканчикам.",
+            "mediaId": "wordpress-attachment:2865"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Поставить десерт в холодильник минимум на 3 часа, а лучше на 6 часов.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Перед подачей на стол, каждый стаканчик украсить ягодкой. Если стаканчики очень маленькие, красивее будет разрезать ягоды на 2 части.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2858",
+      "sourceId": "2858",
+      "path": "/recipes/media/wordpress/2858.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2866",
+      "sourceId": "2866",
+      "path": "/recipes/media/wordpress/2866.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2861",
+      "sourceId": "2861",
+      "path": "/recipes/media/wordpress/2861.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2862",
+      "sourceId": "2862",
+      "path": "/recipes/media/wordpress/2862.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2863",
+      "sourceId": "2863",
+      "path": "/recipes/media/wordpress/2863.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2859",
+      "sourceId": "2859",
+      "path": "/recipes/media/wordpress/2859.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2860",
+      "sourceId": "2860",
+      "path": "/recipes/media/wordpress/2860.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2864",
+      "sourceId": "2864",
+      "path": "/recipes/media/wordpress/2864.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2865",
+      "sourceId": "2865",
+      "path": "/recipes/media/wordpress/2865.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

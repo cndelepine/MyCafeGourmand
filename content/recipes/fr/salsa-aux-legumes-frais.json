@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22115",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3933",
+  "slug": "salsa-aux-legumes-frais",
+  "source": {
+    "system": "wordpress",
+    "postId": "22115",
+    "recipeId": "22115",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salsa-aux-legumes-frais",
+    "createdAt": "2018-08-11T23:56:32+00:00",
+    "modifiedAt": "2022-07-30T19:17:51+00:00",
+    "editorialPostId": "8236",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salsa-aux-legumes-frais",
+    "editorialCreatedAt": "2018-08-11T23:56:32+00:00",
+    "editorialModifiedAt": "2022-07-30T19:17:49+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Salsa aux légumes frais",
+  "description": "Si vous n'avez pas de piment jalapeño sous la main, vous pouvez le remplacer par une épice en poudre, le poivre de Cayenne, par exemple.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Voici ma recette de salsa aux légumes frais finement coupés. Elle convient bien pour une <span id=\":18t.17\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">soirée</span> mexicaine avec des tortilla chips. Ou encore pour une <span id=\":18t.18\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">entr<span id=\":18t.17\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">é</span>e</span> <span id=\":18t.19\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">santé</span> servie comme une salade dans des verrines.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22115,\"template\":\"chic-template-french\",\"updated\":1607914768300} -->\n<!--WPRM Recipe 22115-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salsa aux légumes frais</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/20180420_163553.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tSi vous n'avez pas de piment jalapeño sous la main, vous pouvez le remplacer par une épice en poudre, le poivre de Cayenne, par exemple. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 tomates (coupées en petits cubes)</li><li>1 concombre (coupé en petits cubes)</li><li>1 poivron (rouge, jaune ou vert) (épépiné et coupé en petits cubes)</li><li>1 oignon ( finement coupé )</li><li>1 gousse d'ail ( finement hachée)</li><li>1/2 piment jalapeño (épépiné et finement coupé )</li><li>1/4 bouquet de coriandre fraiche (ciselée)</li><li>Sel et poivre du moulin</li><li>1 citron vert</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Mélanger tous les légumes et la coriandre, saler un peu et arroser de jus de citron. Laisser reposer 30 minutes dans au réfrigérateur avant de servir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8135.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24545",
+      "sourceTaxonomyId": "24545",
+      "name": "de coriandre fraiche",
+      "slug": "de-coriandre-fraiche"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24560",
+      "sourceTaxonomyId": "24560",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24595",
+      "sourceTaxonomyId": "24595",
+      "name": "piment jalapeño",
+      "slug": "piment-jalapeno"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24596",
+      "sourceTaxonomyId": "24596",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24729",
+      "sourceTaxonomyId": "24729",
+      "name": "poivron (rouge, jaune ou vert)",
+      "slug": "poivron-rouge-jaune-ou-vert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24730",
+      "sourceTaxonomyId": "24730",
+      "name": "citron vert",
+      "slug": "citron-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "527",
+      "sourceTaxonomyId": "527",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1099",
+      "sourceTaxonomyId": "1099",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2147",
+      "sourceTaxonomyId": "2147",
+      "name": "de coriandre fraiche",
+      "slug": "de-coriandre-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3895",
+      "sourceTaxonomyId": "3895",
+      "name": "poivron (rouge, jaune ou vert)",
+      "slug": "poivron-rouge-jaune-ou-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3899",
+      "sourceTaxonomyId": "3899",
+      "name": "citron vert",
+      "slug": "citron-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3901",
+      "sourceTaxonomyId": "3901",
+      "name": "piment jalapeño",
+      "slug": "piment-jalapeno"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1690",
+      "sourceTaxonomyId": "1690",
+      "name": "citron vert",
+      "slug": "citron-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3905",
+      "sourceTaxonomyId": "3905",
+      "name": "tex-mex",
+      "slug": "tex-mex"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3907",
+      "sourceTaxonomyId": "3907",
+      "name": "soiree mexicaine",
+      "slug": "soiree-mexicaine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3909",
+      "sourceTaxonomyId": "3909",
+      "name": "legumes frais",
+      "slug": "legumes-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3911",
+      "sourceTaxonomyId": "3911",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3913",
+      "sourceTaxonomyId": "3913",
+      "name": "poivron doux",
+      "slug": "poivron-doux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3915",
+      "sourceTaxonomyId": "3915",
+      "name": "jalapeno",
+      "slug": "jalapeno"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3917",
+      "sourceTaxonomyId": "3917",
+      "name": "salade pimentee",
+      "slug": "salade-pimentee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3919",
+      "sourceTaxonomyId": "3919",
+      "name": "petite salade",
+      "slug": "petite-salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3921",
+      "sourceTaxonomyId": "3921",
+      "name": "legumes du jardin",
+      "slug": "legumes-du-jardin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3923",
+      "sourceTaxonomyId": "3923",
+      "name": "legumes eminces",
+      "slug": "legumes-eminces"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3925",
+      "sourceTaxonomyId": "3925",
+      "name": "repas leger",
+      "slug": "repas-leger"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3927",
+      "sourceTaxonomyId": "3927",
+      "name": "coriandre fraiche",
+      "slug": "coriandre-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3929",
+      "sourceTaxonomyId": "3929",
+      "name": "lime",
+      "slug": "lime-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25269",
+      "sourceTaxonomyId": "25269",
+      "name": "Salsa aux légumes frais",
+      "slug": "salsa-aux-legumes-frais"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:8243",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 tomates coupées en petits cubes",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates",
+            "notes": "coupées en petits cubes"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 concombre coupé en petits cubes",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "concombre",
+            "notes": "coupé en petits cubes"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 poivron (rouge, jaune ou vert) épépiné et coupé en petits cubes",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "poivron (rouge, jaune ou vert)",
+            "notes": "épépiné et coupé en petits cubes"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 oignon finement coupé",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "finement coupé"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 gousse d'ail finement hachée",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "finement hachée"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 piment jalapeño épépiné et finement coupé",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "piment jalapeño",
+            "notes": "épépiné et finement coupé"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/4 bouquet de coriandre fraiche ciselée",
+            "quantity": {
+              "raw": "1/4 bouquet",
+              "value": 0.25,
+              "unit": "bouquet",
+              "scalable": true
+            },
+            "name": "de coriandre fraiche",
+            "notes": "ciselée"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 citron vert",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citron vert",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Mélanger tous les légumes et la coriandre, saler un peu et arroser de jus de citron. Laisser reposer 30 minutes dans au réfrigérateur avant de servir.",
+            "mediaId": "wordpress-attachment:8244"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8243",
+      "sourceId": "8243",
+      "path": "/recipes/media/wordpress/8243.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:8244",
+      "sourceId": "8244",
+      "path": "/recipes/media/wordpress/8244.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

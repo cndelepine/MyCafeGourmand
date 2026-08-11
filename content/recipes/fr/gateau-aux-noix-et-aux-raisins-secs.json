@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22041",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:17325",
+  "slug": "gateau-aux-noix-et-aux-raisins-secs",
+  "source": {
+    "system": "wordpress",
+    "postId": "22041",
+    "recipeId": "22041",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-gateau-aux-noix-et-aux-raisins-secs",
+    "createdAt": "2019-11-01T01:44:15+00:00",
+    "modifiedAt": "2022-07-30T20:03:21+00:00",
+    "editorialPostId": "18695",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "gateau-aux-noix-et-aux-raisins-secs",
+    "editorialCreatedAt": "2019-11-01T01:44:15+00:00",
+    "editorialModifiedAt": "2022-07-30T20:03:19+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Gâteau aux noix et aux raisins secs",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Dans ce gâteau, les noix finement broyées ne se voient absolument pas mais lui donnent un goût particulièrement riche. Une juste quantité de sucre et de raisins secs font le secret de cette recette.  </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22041,\"template\":\"chic-template-french\",\"updated\":1659211391157} -->\n<!--WPRM Recipe 22041-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Gâteau aux noix et aux raisins secs</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1907-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>150 g de noix</li><li>250 g de beurre ramolli</li><li>200 g de sucre en poudre</li><li>4 œufs</li><li>200 g de farine tamisée</li><li>1 sachet de levure chimique</li><li>150 g de raisins secs</li><li>Un peu de sucre glace</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 175°C (thermostat 6), beurrer et fariner un moule. </li><li>Hacher finement les noix.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1768.Blog_-150x150.png\"/><br /></li><li>Dans un saladier, battre le beurre et le sucre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1765.Blog_-150x150.png\"/><br /></li><li>Ajouter les œufs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1766.Blog_-150x150.png\"/><br /></li><li>Puis la farine avec la levure chimique. Bien mélanger. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1770.Blog_-150x150.png\"/><br /></li><li>Incorporer les noix hachées.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1773.Blog_-150x150.png\"/><br /></li><li>Ajouter les raisins secs et mélanger avec une spatule.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1774.Blog_-150x150.png\"/><br /></li><li>Verser la pâte dans le moule et égaliser la surface.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1775.Blog_-150x150.png\"/><br /></li><li>Cuire au four pendant environ 45 minutes. Sortir le gâteau du four. Laisser refroidir un peu. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1776.Blog_-150x150.png\"/><br /></li><li>Démouler sur un plat de présentation. Saupoudrer de sucre glace.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1904.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24319",
+      "sourceTaxonomyId": "24319",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24320",
+      "sourceTaxonomyId": "24320",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24473",
+      "sourceTaxonomyId": "24473",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24502",
+      "sourceTaxonomyId": "24502",
+      "name": "de noix",
+      "slug": "de-noix"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24511",
+      "sourceTaxonomyId": "24511",
+      "name": "de beurre ramolli",
+      "slug": "de-beurre-ramolli"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24692",
+      "sourceTaxonomyId": "24692",
+      "name": "de raisins secs",
+      "slug": "de-raisins-secs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "607",
+      "sourceTaxonomyId": "607",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "840",
+      "sourceTaxonomyId": "840",
+      "name": "de noix",
+      "slug": "de-noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "946",
+      "sourceTaxonomyId": "946",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3104",
+      "sourceTaxonomyId": "3104",
+      "name": "de beurre ramolli",
+      "slug": "de-beurre-ramolli"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3996",
+      "sourceTaxonomyId": "3996",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17322",
+      "sourceTaxonomyId": "17322",
+      "name": "de raisins secs",
+      "slug": "de-raisins-secs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1454",
+      "sourceTaxonomyId": "1454",
+      "name": "noix",
+      "slug": "noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2941",
+      "sourceTaxonomyId": "2941",
+      "name": "petit dejeuner",
+      "slug": "petit-dejeuner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18712",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 g de noix",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noix",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "250 g de beurre ramolli",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre ramolli",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "200 g de sucre en poudre",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4 œufs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "200 g de farine tamisée",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine tamisée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 sachet de levure chimique",
+            "quantity": {
+              "raw": "1 sachet",
+              "value": 1,
+              "unit": "sachet",
+              "scalable": true
+            },
+            "name": "de levure chimique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "150 g de raisins secs",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de raisins secs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Un peu de sucre glace",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de sucre glace",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 175°C (thermostat 6), beurrer et fariner un moule.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Hacher finement les noix.",
+            "mediaId": "wordpress-attachment:18704"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans un saladier, battre le beurre et le sucre.",
+            "mediaId": "wordpress-attachment:18702"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ajouter les œufs.",
+            "mediaId": "wordpress-attachment:18703"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Puis la farine avec la levure chimique. Bien mélanger.",
+            "mediaId": "wordpress-attachment:18705"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Incorporer les noix hachées.",
+            "mediaId": "wordpress-attachment:18707"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Ajouter les raisins secs et mélanger avec une spatule.",
+            "mediaId": "wordpress-attachment:18708"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Verser la pâte dans le moule et égaliser la surface.",
+            "mediaId": "wordpress-attachment:18709"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Cuire au four pendant environ 45 minutes. Sortir le gâteau du four. Laisser refroidir un peu.",
+            "mediaId": "wordpress-attachment:18710"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Démouler sur un plat de présentation. Saupoudrer de sucre glace.",
+            "mediaId": "wordpress-attachment:18711"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18712",
+      "sourceId": "18712",
+      "path": "/recipes/media/wordpress/18712.png",
+      "alt": "Пирог с грецкими орехами и изюмом",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:18704",
+      "sourceId": "18704",
+      "path": "/recipes/media/wordpress/18704.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18702",
+      "sourceId": "18702",
+      "path": "/recipes/media/wordpress/18702.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18703",
+      "sourceId": "18703",
+      "path": "/recipes/media/wordpress/18703.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18705",
+      "sourceId": "18705",
+      "path": "/recipes/media/wordpress/18705.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18707",
+      "sourceId": "18707",
+      "path": "/recipes/media/wordpress/18707.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18708",
+      "sourceId": "18708",
+      "path": "/recipes/media/wordpress/18708.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18709",
+      "sourceId": "18709",
+      "path": "/recipes/media/wordpress/18709.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18710",
+      "sourceId": "18710",
+      "path": "/recipes/media/wordpress/18710.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18711",
+      "sourceId": "18711",
+      "path": "/recipes/media/wordpress/18711.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21697",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3569",
+  "slug": "fried-cabbage-with-sausage",
+  "source": {
+    "system": "wordpress",
+    "postId": "21697",
+    "recipeId": "21697",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-fried-cabbage-with-sausage",
+    "createdAt": "2018-02-02T01:10:49+00:00",
+    "modifiedAt": "2020-11-25T22:12:52+00:00",
+    "editorialPostId": "7625",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "fried-cabbage-with-sausage",
+    "editorialCreatedAt": "2018-02-02T01:10:49+00:00",
+    "editorialModifiedAt": "2020-11-25T22:12:48+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Fried cabbage with sausage",
+  "description": null,
+  "editorial": {
+    "content": "Fried cabbage with sausage is so simple but tasty, and the leftovers are tastier than it was the first day. When it comes to sausage, you can't go wrong with this one. You can use any sausage you like: it can be Italian sausage, Polska kielbasa, smoked sausage, turkey or chicken sausages. Any of them will give a great taste to cabbage. My favorite is Frankfurter sausage. <!--WPRM Recipe 21697-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Fried cabbage with sausage</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9055.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1/2  head cabbage</li><li>2 carrots (large)</li><li>1 onion (large)</li><li>4 Tbsp olive oil</li><li>5-6 sausages</li><li>salt and pepper (to taste)</li><li>1 bay leaf (optional)</li><li>1/2 cup  water</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut the cabbage into thick slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8085.Blog_-150x150.png\"/><br /></li><li>Dice onion into the small squares, shred the carrots.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9036.Blog_-150x150.png\"/><br /></li><li>Slice the sausages.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9041.Blog_.Blog_-150x150.png\"/><br /></li><li>In a large skillet, heat the oil over medium heat. Add onion and cook until lightly brown.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9037.Blog_-150x150.png\"/><br /></li><li>Add shredded carrots and continue cooking for couple more minutes, stirring constantly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9039.Blog_-150x150.png\"/><br /></li><li>Add cabbage and stir well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9040.Blog_-150x150.png\"/><br /></li><li>In a few minutes add sausage. Bury the sausages under the cabbage, to get the brown color.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9042.Blog_-150x150.png\"/><br /></li><li>When the sausages are lightly brown, add salt and pepper, bay leaf, and some water (about 100 ml), mix well. Reduce heat to low, cover the skillet with lid and simmer for about 10 minutes. Mix every 2-3 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9044.Blog_-150x150.png\"/><br /></li><li>Once cooked, add fresh herbs and serve.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9059.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24202",
+      "sourceTaxonomyId": "24202",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24386",
+      "sourceTaxonomyId": "24386",
+      "name": "cabbage",
+      "slug": "cabbage"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24428",
+      "sourceTaxonomyId": "24428",
+      "name": "bay leaf",
+      "slug": "bay-leaf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24452",
+      "sourceTaxonomyId": "24452",
+      "name": "sausages",
+      "slug": "sausages"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1016",
+      "sourceTaxonomyId": "1016",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1059",
+      "sourceTaxonomyId": "1059",
+      "name": "cabbage",
+      "slug": "cabbage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3082",
+      "sourceTaxonomyId": "3082",
+      "name": "bay leaf",
+      "slug": "bay-leaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3580",
+      "sourceTaxonomyId": "3580",
+      "name": "sausages",
+      "slug": "sausages"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1614",
+      "sourceTaxonomyId": "1614",
+      "name": "pan",
+      "slug": "pan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3582",
+      "sourceTaxonomyId": "3582",
+      "name": "fried cabbage",
+      "slug": "fried-cabbage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3584",
+      "sourceTaxonomyId": "3584",
+      "name": "sausage",
+      "slug": "sausage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3768",
+      "sourceTaxonomyId": "3768",
+      "name": "frankfurter sausage",
+      "slug": "frankfurter-sausage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3770",
+      "sourceTaxonomyId": "3770",
+      "name": "frank",
+      "slug": "frank"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3772",
+      "sourceTaxonomyId": "3772",
+      "name": "frying pan",
+      "slug": "frying-pan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3774",
+      "sourceTaxonomyId": "3774",
+      "name": "skillet",
+      "slug": "skillet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3778",
+      "sourceTaxonomyId": "3778",
+      "name": "veggies and sausage",
+      "slug": "veggies-and-sausage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6850",
+      "sourceTaxonomyId": "6850",
+      "name": "most populair in russia",
+      "slug": "most-populair-in-russia"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7577",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 head cabbage",
+            "quantity": {
+              "raw": "1/2 head",
+              "value": 0.5,
+              "unit": "head",
+              "scalable": true
+            },
+            "name": "cabbage",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 carrots large",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carrots",
+            "notes": "large"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 onion large",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": "large"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4 Tbsp olive oil",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "5-6 sausages",
+            "quantity": {
+              "raw": "5-6",
+              "min": 5,
+              "max": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "sausages",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 bay leaf optional",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bay leaf",
+            "notes": "optional"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/2 cup water",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut the cabbage into thick slices.",
+            "mediaId": "wordpress-attachment:7570"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dice onion into the small squares, shred the carrots.",
+            "mediaId": "wordpress-attachment:7574"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Slice the sausages.",
+            "mediaId": "wordpress-attachment:7571"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "In a large skillet, heat the oil over medium heat. Add onion and cook until lightly brown.",
+            "mediaId": "wordpress-attachment:7562"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add shredded carrots and continue cooking for couple more minutes, stirring constantly.",
+            "mediaId": "wordpress-attachment:7563"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Add cabbage and stir well.",
+            "mediaId": "wordpress-attachment:7575"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "In a few minutes add sausage. Bury the sausages under the cabbage, to get the brown color.",
+            "mediaId": "wordpress-attachment:7566"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "When the sausages are lightly brown, add salt and pepper, bay leaf, and some water (about 100 ml), mix well. Reduce heat to low, cover the skillet with lid and simmer for about 10 minutes. Mix every 2-3 minutes.",
+            "mediaId": "wordpress-attachment:7567"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Once cooked, add fresh herbs and serve.",
+            "mediaId": "wordpress-attachment:7569"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7577",
+      "sourceId": "7577",
+      "path": "/recipes/media/wordpress/7577.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7570",
+      "sourceId": "7570",
+      "path": "/recipes/media/wordpress/7570.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7574",
+      "sourceId": "7574",
+      "path": "/recipes/media/wordpress/7574.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7571",
+      "sourceId": "7571",
+      "path": "/recipes/media/wordpress/7571.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7562",
+      "sourceId": "7562",
+      "path": "/recipes/media/wordpress/7562.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7563",
+      "sourceId": "7563",
+      "path": "/recipes/media/wordpress/7563.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7575",
+      "sourceId": "7575",
+      "path": "/recipes/media/wordpress/7575.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7566",
+      "sourceId": "7566",
+      "path": "/recipes/media/wordpress/7566.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7567",
+      "sourceId": "7567",
+      "path": "/recipes/media/wordpress/7567.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7569",
+      "sourceId": "7569",
+      "path": "/recipes/media/wordpress/7569.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

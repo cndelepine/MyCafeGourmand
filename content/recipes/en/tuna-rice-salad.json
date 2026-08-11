@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21370",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:9736",
+  "slug": "tuna-rice-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "21370",
+    "recipeId": "21370",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tuna-rice-salad",
+    "createdAt": "2024-03-31T05:32:00+00:00",
+    "modifiedAt": "2024-04-01T02:53:56+00:00",
+    "editorialPostId": "14059",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tuna-rice-salad",
+    "editorialCreatedAt": "2024-03-31T05:32:00+00:00",
+    "editorialModifiedAt": "2024-04-01T02:53:53+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Tuna Rice Salad",
+  "description": "You can add english cucumber to this salad.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Very nourishing and yet simple to make salad from canned tuna, rice, corn, avocado, eggs and tomatoes. No mayonnaise! This salad always comes to my mind when I have leftover rice.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21370,\"template\":\"chic-template-english\",\"updated\":1711939921596} -->\n<!--WPRM Recipe 21370-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tuna Rice Salad</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9066.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYou can add english cucumber to this salad.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 hard boiled eggs (peeled )</li><li>1 can (150 g)  tuna in its own juice (drained )</li><li>100 g fully cooked rice</li><li>1 avocado</li><li>1 can whole kernel sweet corn (drained )</li><li>2 medium tomatoes (cut into 6-8 wedges)</li><li>1/4 red oinon (peeled and cut in half-moon)</li><li>Salt and freshly ground black pepper</li><li>3 Tbs olive oil</li><li>Green onion or fresh dill (minced)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>In a nice big serving plate, mash tuna using a fork. Add rice and stir to combine.</li><li>Cut the avocado in half, using a sharp knife, slice through the avocado lengthwise until you feel the knife hit the pit. Remove the pit and dice avocado into cubes.</li><li>Add avocado, corn, tomatoes, and red onion. Carefully mix. Season with salt and pepper to taste and drizzle with olive oil.</li><li>Slice eggs into quarter. Arrange them on top of the salad. Garnish with green onion. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9066.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24225",
+      "sourceTaxonomyId": "24225",
+      "name": "whole kernel sweet corn",
+      "slug": "whole-kernel-sweet-corn"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24250",
+      "sourceTaxonomyId": "24250",
+      "name": "hard boiled eggs",
+      "slug": "hard-boiled-eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24251",
+      "sourceTaxonomyId": "24251",
+      "name": "tuna in its own juice",
+      "slug": "tuna-in-its-own-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24252",
+      "sourceTaxonomyId": "24252",
+      "name": "fully cooked rice",
+      "slug": "fully-cooked-rice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24253",
+      "sourceTaxonomyId": "24253",
+      "name": "avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24254",
+      "sourceTaxonomyId": "24254",
+      "name": "red oinon",
+      "slug": "red-oinon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24255",
+      "sourceTaxonomyId": "24255",
+      "name": "Green onion or fresh dill",
+      "slug": "green-onion-or-fresh-dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "580",
+      "sourceTaxonomyId": "580",
+      "name": "tuna in its own juice",
+      "slug": "tuna-in-its-own-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "777",
+      "sourceTaxonomyId": "777",
+      "name": "hard boiled eggs",
+      "slug": "hard-boiled-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2052",
+      "sourceTaxonomyId": "2052",
+      "name": "avocado",
+      "slug": "avocado"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2054",
+      "sourceTaxonomyId": "2054",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7133",
+      "sourceTaxonomyId": "7133",
+      "name": "red oinon",
+      "slug": "red-oinon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7674",
+      "sourceTaxonomyId": "7674",
+      "name": "whole kernel sweet corn",
+      "slug": "whole-kernel-sweet-corn"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9839",
+      "sourceTaxonomyId": "9839",
+      "name": "fully cooked rice",
+      "slug": "fully-cooked-rice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9851",
+      "sourceTaxonomyId": "9851",
+      "name": "Green onion or fresh dill",
+      "slug": "green-onion-or-fresh-dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1352",
+      "sourceTaxonomyId": "1352",
+      "name": "fish",
+      "slug": "fish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1508",
+      "sourceTaxonomyId": "1508",
+      "name": "tuna",
+      "slug": "tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4586",
+      "sourceTaxonomyId": "4586",
+      "name": "rice",
+      "slug": "rice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5915",
+      "sourceTaxonomyId": "5915",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23204",
+      "sourceTaxonomyId": "23204",
+      "name": "after easter",
+      "slug": "after-easter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23205",
+      "sourceTaxonomyId": "23205",
+      "name": "what to do with hard boiled eggs",
+      "slug": "what-to-do-with-hard-boiled-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23464",
+      "sourceTaxonomyId": "23464",
+      "name": "salade bowl",
+      "slug": "salade-bowl"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26667",
+      "sourceTaxonomyId": "26667",
+      "name": "what to do with rice",
+      "slug": "what-to-do-with-rice"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:8789",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 hard boiled eggs peeled",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "hard boiled eggs",
+            "notes": "peeled"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 can (150 g) tuna in its own juice drained",
+            "quantity": {
+              "raw": "1 can (150 g)",
+              "value": 1,
+              "unit": "can (150 g)",
+              "scalable": true
+            },
+            "name": "tuna in its own juice",
+            "notes": "drained"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 g fully cooked rice",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "fully cooked rice",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 avocado",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "avocado",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 can whole kernel sweet corn drained",
+            "quantity": {
+              "raw": "1 can",
+              "value": 1,
+              "unit": "can",
+              "scalable": true
+            },
+            "name": "whole kernel sweet corn",
+            "notes": "drained"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 medium tomatoes cut into 6-8 wedges",
+            "quantity": {
+              "raw": "2 medium",
+              "value": 2,
+              "unit": "medium",
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": "cut into 6-8 wedges"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/4 red oinon peeled and cut in half-moon",
+            "quantity": {
+              "raw": "1/4",
+              "value": 0.25,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "red oinon",
+            "notes": "peeled and cut in half-moon"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "3 Tbs olive oil",
+            "quantity": {
+              "raw": "3 Tbs",
+              "value": 3,
+              "unit": "Tbs",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Green onion or fresh dill minced",
+            "quantity": null,
+            "name": "Green onion or fresh dill",
+            "notes": "minced"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a nice big serving plate, mash tuna using a fork. Add rice and stir to combine.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut the avocado in half, using a sharp knife, slice through the avocado lengthwise until you feel the knife hit the pit. Remove the pit and dice avocado into cubes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add avocado, corn, tomatoes, and red onion. Carefully mix. Season with salt and pepper to taste and drizzle with olive oil.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Slice eggs into quarter. Arrange them on top of the salad. Garnish with green onion.",
+            "mediaId": "wordpress-attachment:8788"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8789",
+      "sourceId": "8789",
+      "path": "/recipes/media/wordpress/8789.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8788",
+      "sourceId": "8788",
+      "path": "/recipes/media/wordpress/8788.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22145",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:5233",
+  "slug": "profiteroles",
+  "source": {
+    "system": "wordpress",
+    "postId": "22145",
+    "recipeId": "22145",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-profiteroles",
+    "createdAt": "2023-05-16T06:23:00+00:00",
+    "modifiedAt": "2023-05-29T17:09:11+00:00",
+    "editorialPostId": "10551",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "profiteroles",
+    "editorialCreatedAt": "2023-05-16T06:23:00+00:00",
+    "editorialModifiedAt": "2023-05-29T17:09:08+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Profiteroles",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ah les profiteroles, quel dessert divin! Un petit chou, de la glace à la vanille, le tout recouvert part une délicieuse <a href=\"https://mycafegourmand.com/fr/recipe/sauce-au-chocolat\">sauce au chocolat</a> : mais comment résister!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Parfait pour un <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">café gourmand</a>. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22145,\"template\":\"chic-template-french\",\"updated\":1638585489827} -->\n<!--WPRM Recipe 22145-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Profiteroles</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9798-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Pâte à choux</h4><ul><li>200 ml d'eau</li><li>1 pincée de sel</li><li>100 g de beurre (découpé en petits morceaux)</li><li>120 g de farine tamisée</li><li>3-4 œufs</li></ul><h4>Garniture</h4><ul><li>1 grand pot  de glace a la vanille ou au chocolat</li></ul><h4>Sauce au chocolat</h4><ul><li>250 ml de lait ou de crème fleurette</li><li>300 g de chocolat noir (60% cacao)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Pâte à choux</h4><ol><li>Préchauffer le four à 190°C (thermostat 6/7). Couvrir 2 plaques à pâtisserie de papier sulfurisé. </li><li>Dans une casserole, mettre l'eau,  le beurre et le sel.  Porter à ébullition puis retirer la casserole du feu. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_2359.Blog_-150x150.png\"/><br /></li><li>Ajouter d'un seul coup la farine tamisée.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_2360.Blog_-150x150.png\"/><br /></li><li>Bien mélanger. La pâte va se détacher des bords et former une boule.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_6321.Blog_-150x150.png\"/><br /></li><li>Ajouter les œufs un par un. Bien mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_6325.Blog_-150x150.png\"/><br /></li><li> La pâte doit devenir lisse et brillante. Remettre la casserole sur le feu et , en remuant sans cesse, faire sécher la pâte pendant 30-50 secondes. Retirer la casserole du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_6326.Blog_-150x150.png\"/><br /></li><li>À l'aide d'une poche à douille (ou une cuillère à café), former des petits choux de la taille d'une noix sur la plaque en les séparant les uns des autres, car ils vont doubler de volume pendant la cuisson.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_6327.Blog_-150x150.png\"/><br /></li><li>Cuire au four pendant 20-25 minutes jusqu’à obtenir une jolie couleur dorée. Il est très important pendant la cuisson de ne pas ouvrir le four. \r\nJe cuis séparément les deux plaques pour obtenir une cuisson parfaite mais cela dépend du four. Si vous faites confiance à votre four, il est possible de cuire les deux plaques en même temps. Sortir les choux du four et les laisser refroidir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_5324.Blog_-150x150.png\"/><br /></li></ol><h4>Garniture</h4><ol><li>Couper le haut des petits choux. Garnir d'une boule de glace.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9705.Blog_-150x150.png\"/><br /></li><li>Refermer et placer dans une boîte avec un couvercle puis ranger dans le congélateur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9795.Blog_-150x150.png\"/><br /></li></ol><h4>Sauce au chocolat</h4><ol><li>Dans une casserole, porter le lait (ou la crème fleurette) à ébullition et la verser sur le chocolat. Laisser reposer pendant 1 minute.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9785.Blog_-150x150.png\"/><br /></li><li>Мélanger pour obtenir un mélange homogène. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9826.Blog_-150x150.png\"/><br /></li><li>Au moment de servir, sortir les profiteroles du congélateur, les répartir dans des assiettes individuelles et arroser de sauce au chocolat.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9796.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Un petit chou, de la glace à la vanille, le tout recouvert part une délicieuse sauce au chocolat : mais comment résister!"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24319",
+      "sourceTaxonomyId": "24319",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24480",
+      "sourceTaxonomyId": "24480",
+      "name": "de chocolat noir (60% cacao)",
+      "slug": "de-chocolat-noir-60-cacao"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24757",
+      "sourceTaxonomyId": "24757",
+      "name": "de glace a la vanille ou au chocolat",
+      "slug": "de-glace-a-la-vanille-ou-au-chocolat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24758",
+      "sourceTaxonomyId": "24758",
+      "name": "de lait ou de crème fleurette",
+      "slug": "de-lait-ou-de-creme-fleurette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3996",
+      "sourceTaxonomyId": "3996",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4279",
+      "sourceTaxonomyId": "4279",
+      "name": "de chocolat noir (60% cacao)",
+      "slug": "de-chocolat-noir-60-cacao"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5151",
+      "sourceTaxonomyId": "5151",
+      "name": "de lait ou de crème fleurette",
+      "slug": "de-lait-ou-de-creme-fleurette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5169",
+      "sourceTaxonomyId": "5169",
+      "name": "de glace a la vanille ou au chocolat",
+      "slug": "de-glace-a-la-vanille-ou-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2327",
+      "sourceTaxonomyId": "2327",
+      "name": "pepites de chocolat",
+      "slug": "pepites-de-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3158",
+      "sourceTaxonomyId": "3158",
+      "name": "lait",
+      "slug": "lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5137",
+      "sourceTaxonomyId": "5137",
+      "name": "sauce au chocolat",
+      "slug": "sauce-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5139",
+      "sourceTaxonomyId": "5139",
+      "name": "chocolat liquide",
+      "slug": "chocolat-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5161",
+      "sourceTaxonomyId": "5161",
+      "name": "profiteroles",
+      "slug": "profiteroles-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5163",
+      "sourceTaxonomyId": "5163",
+      "name": "pas cher",
+      "slug": "pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5165",
+      "sourceTaxonomyId": "5165",
+      "name": "pate a choux",
+      "slug": "pate-a-choux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5167",
+      "sourceTaxonomyId": "5167",
+      "name": "glace a la vanille",
+      "slug": "glace-a-la-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "50 petits profiteroles",
+      "value": 50,
+      "unit": "petits profiteroles",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "80",
+        "minutes": 80
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10656",
+    "ingredientGroups": [
+      {
+        "name": "Pâte à choux",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 ml d'eau",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 pincée de sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 g de beurre découpé en petits morceaux",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": "découpé en petits morceaux"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "120 g de farine tamisée",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine tamisée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3-4 œufs",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Garniture",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 grand pot de glace a la vanille ou au chocolat",
+            "quantity": {
+              "raw": "1 grand pot",
+              "value": 1,
+              "unit": "grand pot",
+              "scalable": true
+            },
+            "name": "de glace a la vanille ou au chocolat",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Sauce au chocolat",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 ml de lait ou de crème fleurette",
+            "quantity": {
+              "raw": "250 ml",
+              "value": 250,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait ou de crème fleurette",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "300 g de chocolat noir (60% cacao)",
+            "quantity": {
+              "raw": "300 g",
+              "value": 300,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir (60% cacao)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Pâte à choux",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 190°C (thermostat 6/7). Couvrir 2 plaques à pâtisserie de papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans une casserole, mettre l'eau, le beurre et le sel. Porter à ébullition puis retirer la casserole du feu.",
+            "mediaId": "wordpress-attachment:10645"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter d'un seul coup la farine tamisée.",
+            "mediaId": "wordpress-attachment:10646"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Bien mélanger. La pâte va se détacher des bords et former une boule.",
+            "mediaId": "wordpress-attachment:10649"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter les œufs un par un. Bien mélanger.",
+            "mediaId": "wordpress-attachment:10650"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "La pâte doit devenir lisse et brillante. Remettre la casserole sur le feu et , en remuant sans cesse, faire sécher la pâte pendant 30-50 secondes. Retirer la casserole du feu.",
+            "mediaId": "wordpress-attachment:10651"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "À l'aide d'une poche à douille (ou une cuillère à café), former des petits choux de la taille d'une noix sur la plaque en les séparant les uns des autres, car ils vont doubler de volume pendant la cuisson.",
+            "mediaId": "wordpress-attachment:10652"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Cuire au four pendant 20-25 minutes jusqu’à obtenir une jolie couleur dorée. Il est très important pendant la cuisson de ne pas ouvrir le four.\nJe cuis séparément les deux plaques pour obtenir une cuisson parfaite mais cela dépend du four. Si vous faites confiance à votre four, il est possible de cuire les deux plaques en même temps. Sortir les choux du four et les laisser refroidir.",
+            "mediaId": "wordpress-attachment:10648"
+          }
+        ]
+      },
+      {
+        "name": "Garniture",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper le haut des petits choux. Garnir d'une boule de glace.",
+            "mediaId": "wordpress-attachment:10653"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Refermer et placer dans une boîte avec un couvercle puis ranger dans le congélateur.",
+            "mediaId": "wordpress-attachment:10654"
+          }
+        ]
+      },
+      {
+        "name": "Sauce au chocolat",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une casserole, porter le lait (ou la crème fleurette) à ébullition et la verser sur le chocolat. Laisser reposer pendant 1 minute.",
+            "mediaId": "wordpress-attachment:10759"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Мélanger pour obtenir un mélange homogène.",
+            "mediaId": "wordpress-attachment:10760"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Au moment de servir, sortir les profiteroles du congélateur, les répartir dans des assiettes individuelles et arroser de sauce au chocolat.",
+            "mediaId": "wordpress-attachment:10655"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10656",
+      "sourceId": "10656",
+      "path": "/recipes/media/wordpress/10656.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:10645",
+      "sourceId": "10645",
+      "path": "/recipes/media/wordpress/10645.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10646",
+      "sourceId": "10646",
+      "path": "/recipes/media/wordpress/10646.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10649",
+      "sourceId": "10649",
+      "path": "/recipes/media/wordpress/10649.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10650",
+      "sourceId": "10650",
+      "path": "/recipes/media/wordpress/10650.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10651",
+      "sourceId": "10651",
+      "path": "/recipes/media/wordpress/10651.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10652",
+      "sourceId": "10652",
+      "path": "/recipes/media/wordpress/10652.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10648",
+      "sourceId": "10648",
+      "path": "/recipes/media/wordpress/10648.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10653",
+      "sourceId": "10653",
+      "path": "/recipes/media/wordpress/10653.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10654",
+      "sourceId": "10654",
+      "path": "/recipes/media/wordpress/10654.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10759",
+      "sourceId": "10759",
+      "path": "/recipes/media/wordpress/10759.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10760",
+      "sourceId": "10760",
+      "path": "/recipes/media/wordpress/10760.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10655",
+      "sourceId": "10655",
+      "path": "/recipes/media/wordpress/10655.png",
+      "alt": "Profiterole",
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21651",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:13514",
+  "slug": "irish-coffee-2",
+  "source": {
+    "system": "wordpress",
+    "postId": "21651",
+    "recipeId": "21651",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-irish-coffee",
+    "createdAt": "2019-03-03T17:07:00+00:00",
+    "modifiedAt": "2023-05-10T07:12:09+00:00",
+    "editorialPostId": "16132",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "irish-coffee-2",
+    "editorialCreatedAt": "2019-03-03T17:07:00+00:00",
+    "editorialModifiedAt": "2023-05-10T07:12:06+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Irish coffee",
+  "description": "Heat the cup or glass before preparing.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The perfect cocktail to celebrate Saint Patrick's Day, the national holiday of Ireland. Irish Coffee is quickly prepared with coffee, sugar, heavy whipping cream, and whisky!<br></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21651,\"template\":\"chic-template-english\",\"updated\":1638321064172} -->\n<!--WPRM Recipe 21651-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Irish coffee</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8296.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tHeat the cup or glass before preparing.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 black coffee</li><li>1/2 tea spoon brown sugar or powder sugar ((optional))</li><li>2 Tbsp whisky</li><li>A bit of heavy whipping cream</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Pour the whiskey and the sugar in the bottom of the cup. Prepare a black coffee and pour it in to the glass.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8266-3.Blog_-150x150.png\"/><br /></li><li>Finish with a little bit of heavy whipping cream (preferably homemade) on the whiskey coffee. Serve right away.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8296-3.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24243",
+      "sourceTaxonomyId": "24243",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24421",
+      "sourceTaxonomyId": "24421",
+      "name": "black coffee",
+      "slug": "black-coffee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24422",
+      "sourceTaxonomyId": "24422",
+      "name": "brown sugar (or powder sugar)",
+      "slug": "brown-sugar-or-powder-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24423",
+      "sourceTaxonomyId": "24423",
+      "name": "whisky",
+      "slug": "whisky"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26140",
+      "sourceTaxonomyId": "26140",
+      "name": "tea spoon",
+      "slug": "tea-spoon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "112",
+      "sourceTaxonomyId": "112",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1992",
+      "sourceTaxonomyId": "1992",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13625",
+      "sourceTaxonomyId": "13625",
+      "name": "black coffee",
+      "slug": "black-coffee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13627",
+      "sourceTaxonomyId": "13627",
+      "name": "brown sugar (or powder sugar)",
+      "slug": "brown-sugar-or-powder-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13629",
+      "sourceTaxonomyId": "13629",
+      "name": "whisky",
+      "slug": "whisky"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2382",
+      "sourceTaxonomyId": "2382",
+      "name": "alcohol",
+      "slug": "alcohol"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4349",
+      "sourceTaxonomyId": "4349",
+      "name": "coffee time",
+      "slug": "coffee-time"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6091",
+      "sourceTaxonomyId": "6091",
+      "name": "5-minutes ready",
+      "slug": "5-minutes-ready"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "22863",
+      "sourceTaxonomyId": "22863",
+      "name": "for adult",
+      "slug": "for-adult"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23110",
+      "sourceTaxonomyId": "23110",
+      "name": "whisky",
+      "slug": "whisky"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23115",
+      "sourceTaxonomyId": "23115",
+      "name": "irish coffee",
+      "slug": "irish-coffee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23119",
+      "sourceTaxonomyId": "23119",
+      "name": "March 17th",
+      "slug": "march-17th"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23120",
+      "sourceTaxonomyId": "23120",
+      "name": "hot cocktail",
+      "slug": "hot-cocktail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23121",
+      "sourceTaxonomyId": "23121",
+      "name": "cocktail with whisky",
+      "slug": "cocktail-with-whisky"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "1 cup",
+      "value": 1,
+      "unit": "cup",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:16099",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 black coffee",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "black coffee",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 tea spoon brown sugar or powder sugar (optional)",
+            "quantity": {
+              "raw": "1/2 tea spoon",
+              "value": 0.5,
+              "unit": "tea spoon",
+              "scalable": true
+            },
+            "name": "brown sugar or powder sugar",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 Tbsp whisky",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "whisky",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "A bit of heavy whipping cream",
+            "quantity": {
+              "raw": "A bit of",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "heavy whipping cream",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Pour the whiskey and the sugar in the bottom of the cup. Prepare a black coffee and pour it in to the glass.",
+            "mediaId": "wordpress-attachment:16076"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Finish with a little bit of heavy whipping cream (preferably homemade) on the whiskey coffee. Serve right away.",
+            "mediaId": "wordpress-attachment:16111"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16099",
+      "sourceId": "16099",
+      "path": "/recipes/media/wordpress/16099.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:16076",
+      "sourceId": "16076",
+      "path": "/recipes/media/wordpress/16076.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:16111",
+      "sourceId": "16111",
+      "path": "/recipes/media/wordpress/16111.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

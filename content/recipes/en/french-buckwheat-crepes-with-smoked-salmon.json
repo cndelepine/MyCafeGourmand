@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21319",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:23027",
+  "slug": "french-buckwheat-crepes-with-smoked-salmon",
+  "source": {
+    "system": "wordpress",
+    "postId": "21319",
+    "recipeId": "21319",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-french-buckwheat-crepes-with-smoked-salmon",
+    "createdAt": "2020-02-23T02:09:07+00:00",
+    "modifiedAt": "2020-11-25T17:24:52+00:00",
+    "editorialPostId": "19748",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "french-buckwheat-crepes-with-smoked-salmon",
+    "editorialCreatedAt": "2020-02-23T02:09:07+00:00",
+    "editorialModifiedAt": "2020-11-25T17:24:48+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "French Buckwheat Crepes with smoked salmon",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p> French Buckwheat Crepes with smoked salmon and sour cream are delicious. Must try!</p>\n<!-- /wp:paragraph --> <!--WPRM Recipe 21319-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">French Buckwheat Crepes with smoked salmon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3451-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>250 g buckwheat flour</li><li>1  tsp sea salt</li><li>350 g milk</li><li>350 g water</li><li>2 eggs</li><li>50 g melted butter</li><li>8 thin slices of smoked salmon</li><li>8 Tbsp sour cream</li><li>Some fresh or dry dill ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Mix buckwheat flour with salt, milk, water, and eggs together. Add melted butter and whisk until you get a smooth batter. Let rest for at least 2 hours. When you are ready to cook the crepes, stir the batter before frying each crepe. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0413.Blog_-150x150.png\"/><br /></li><li>Heat a lightly buttered nonstick skillet over medium high heat.\r\nAdd 1/4 cupful batter to skillet and immediately tilt to fully cover the bottom of the pan with a thin layer. Cook for a few seconds.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3447-2.Blog_-150x150.png\"/><br /></li><li>Without flipping the crepe, place a slice of smoked salmon in the center, add 1 Tsp of sour cream, and sprinkle with dill. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3448-2.Blog_-150x150.png\"/><br /></li><li>A few seconds later, as the crepe seems to be ready, carefully lift one side with a spatula and fold it to make a triangle, or a square.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3431-2.Blog_-150x150.png\"/><br /></li><li>Transfer the crepe to the plate and serve right away. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/02/IMG_3454-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24195",
+      "sourceTaxonomyId": "24195",
+      "name": "buckwheat flour",
+      "slug": "buckwheat-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24196",
+      "sourceTaxonomyId": "24196",
+      "name": "sea salt",
+      "slug": "sea-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24197",
+      "sourceTaxonomyId": "24197",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24205",
+      "sourceTaxonomyId": "24205",
+      "name": "of smoked salmon",
+      "slug": "of-smoked-salmon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24206",
+      "sourceTaxonomyId": "24206",
+      "name": "fresh or dry dill",
+      "slug": "fresh-or-dry-dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "664",
+      "sourceTaxonomyId": "664",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1176",
+      "sourceTaxonomyId": "1176",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5891",
+      "sourceTaxonomyId": "5891",
+      "name": "buckwheat flour",
+      "slug": "buckwheat-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8160",
+      "sourceTaxonomyId": "8160",
+      "name": "sea salt",
+      "slug": "sea-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23052",
+      "sourceTaxonomyId": "23052",
+      "name": "fresh or dry dill",
+      "slug": "fresh-or-dry-dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23054",
+      "sourceTaxonomyId": "23054",
+      "name": "of smoked salmon",
+      "slug": "of-smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1512",
+      "sourceTaxonomyId": "1512",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5895",
+      "sourceTaxonomyId": "5895",
+      "name": "buckwheat crepes",
+      "slug": "buckwheat-crepes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5905",
+      "sourceTaxonomyId": "5905",
+      "name": "buckwheat",
+      "slug": "buckwheat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8164",
+      "sourceTaxonomyId": "8164",
+      "name": "french buckwheat crepe breton",
+      "slug": "french-buckwheat-crepe-breton"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8237",
+      "sourceTaxonomyId": "8237",
+      "name": "galette",
+      "slug": "galette-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 crepes",
+      "value": 8,
+      "unit": "crepes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19689",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g buckwheat flour",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "buckwheat flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 tsp sea salt",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sea salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "350 g milk",
+            "quantity": {
+              "raw": "350 g",
+              "value": 350,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "350 g water",
+            "quantity": {
+              "raw": "350 g",
+              "value": 350,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 g melted butter",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "melted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "8 thin slices of smoked salmon",
+            "quantity": {
+              "raw": "8 thin slices",
+              "value": 8,
+              "unit": "thin slices",
+              "scalable": true
+            },
+            "name": "of smoked salmon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "8 Tbsp sour cream",
+            "quantity": {
+              "raw": "8 Tbsp",
+              "value": 8,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Some fresh or dry dill (optional)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh or dry dill",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Mix buckwheat flour with salt, milk, water, and eggs together. Add melted butter and whisk until you get a smooth batter. Let rest for at least 2 hours. When you are ready to cook the crepes, stir the batter before frying each crepe.",
+            "mediaId": "wordpress-attachment:11332"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Heat a lightly buttered nonstick skillet over medium high heat.\nAdd 1/4 cupful batter to skillet and immediately tilt to fully cover the bottom of the pan with a thin layer. Cook for a few seconds.",
+            "mediaId": "wordpress-attachment:19687"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Without flipping the crepe, place a slice of smoked salmon in the center, add 1 Tsp of sour cream, and sprinkle with dill.",
+            "mediaId": "wordpress-attachment:19688"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "A few seconds later, as the crepe seems to be ready, carefully lift one side with a spatula and fold it to make a triangle, or a square.",
+            "mediaId": "wordpress-attachment:19692"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Transfer the crepe to the plate and serve right away.",
+            "mediaId": "wordpress-attachment:19693"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19689",
+      "sourceId": "19689",
+      "path": "/recipes/media/wordpress/19689.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11332",
+      "sourceId": "11332",
+      "path": "/recipes/media/wordpress/11332.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:19687",
+      "sourceId": "19687",
+      "path": "/recipes/media/wordpress/19687.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19688",
+      "sourceId": "19688",
+      "path": "/recipes/media/wordpress/19688.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19692",
+      "sourceId": "19692",
+      "path": "/recipes/media/wordpress/19692.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19693",
+      "sourceId": "19693",
+      "path": "/recipes/media/wordpress/19693.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

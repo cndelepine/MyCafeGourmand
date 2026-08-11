@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28766",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:26931",
+  "slug": "рулетики-из-ветчины-с-салатом-оливье",
+  "source": {
+    "system": "wordpress",
+    "postId": "28766",
+    "recipeId": "28766",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%80%d1%83%d0%bb%d0%b5%d1%82%d0%b8%d0%ba%d0%b8-%d0%b8%d0%b7-%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d1%8b-%d1%81-%d1%81%d0%b0%d0%bb%d0%b0%d1%82%d0%be%d0%bc-%d0%be%d0%bb%d0%b8%d0%b2%d1%8c%d0%b5",
+    "createdAt": "2024-12-05T22:08:07+00:00",
+    "modifiedAt": "2024-12-28T17:27:34+00:00",
+    "editorialPostId": "28765",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%80%d1%83%d0%bb%d0%b5%d1%82%d0%b8%d0%ba%d0%b8-%d0%b8%d0%b7-%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d1%8b-%d1%81-%d1%81%d0%b0%d0%bb%d0%b0%d1%82%d0%be%d0%bc-%d0%be%d0%bb%d0%b8%d0%b2%d1%8c%d0%b5",
+    "editorialCreatedAt": "2024-12-05T22:08:07+00:00",
+    "editorialModifiedAt": "2024-12-10T07:28:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [],
+  "title": "Рулетики из ветчины с салатом оливье",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Всеми любимый салат Оливье по-новому. Эту версию я подсмотрела у французов: Roulé de jambon à la macédoine эффектно смотрится на праздничном столе. Но наш салат Оливье вкуснее, чем Македонский салат, поэтому, вуаля, альянс французской и русской кухни.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28766,\"template\":\"chic-template-russian\",\"updated\":1733815546631} -->\n<!--WPRM Recipe 28766-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Рулетики из ветчины с салатом оливье</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/IMG_1527.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1-2 морковки</li><li>4 средних картофелины</li><li>1/2 луковицы</li><li>3-4 яйца</li><li>4 соленых огурчиков</li><li>100 г зелёного горошка ((консервированного))</li><li>3 ст.ложки майонеза</li><li>Соль и свежемолотый перец (du moulin)</li><li>Немного свежей зелени (петрушки, укропа или зеленого лука)</li><li>8 тонких ломтиков ветчины</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Отварить картошку и морковь. Они должны легко протыкаться ножом, но не быть переваренными, иначе салат будет похож на кашу. Слить воду и охладить.</p></li><li><p>Почистить картошку, морковь, яйца и лук.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732776_10211393242889162_1434227691_o-150x150.png\"/><br /></li><li><p>Порезать картошку, морковь, яйца, лук и огурчики маленькими кубиками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732789_10211393239289072_1633728185_o.Blog_-150x150.png\"/><br /></li><li><p>Все нарезанные ингредиенты и зеленый горошек аккуратно перемешать. Добавить майонез, соль и перец по вкусу.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26613468_1747902331888848_210845601_o.Blog_-3-150x150.png\"/><br /></li><li><p>На каждый ломтик ветчины положить 2-3 столовые ложки салата и аккуратно свернуть рулетиком. Можно закрепить шпажками. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/IMG_1518.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26447",
+      "sourceTaxonomyId": "26447",
+      "name": "Salade",
+      "slug": "salade-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24835",
+      "sourceTaxonomyId": "24835",
+      "name": "морковки",
+      "slug": "%d0%bc%d0%be%d1%80%d0%ba%d0%be%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24855",
+      "sourceTaxonomyId": "24855",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24859",
+      "sourceTaxonomyId": "24859",
+      "name": "ветчины",
+      "slug": "%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24872",
+      "sourceTaxonomyId": "24872",
+      "name": "луковицы",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24884",
+      "sourceTaxonomyId": "24884",
+      "name": "майонеза",
+      "slug": "%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24889",
+      "sourceTaxonomyId": "24889",
+      "name": "свежей зелени (петрушки, укропа или зеленого лука)",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b8-%d1%83%d0%ba%d1%80%d0%be%d0%bf%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%b7%d0%b5%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25062",
+      "sourceTaxonomyId": "25062",
+      "name": "соленых огурчиков",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b5%d0%bd%d1%8b%d1%85-%d0%be%d0%b3%d1%83%d1%80%d1%87%d0%b8%d0%ba%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25123",
+      "sourceTaxonomyId": "25123",
+      "name": "средних картофелины",
+      "slug": "%d1%81%d1%80%d0%b5%d0%b4%d0%bd%d0%b8%d1%85-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26942",
+      "sourceTaxonomyId": "26942",
+      "name": "зелёного горошка",
+      "slug": "%d0%b7%d0%b5%d0%bb%d1%91%d0%bd%d0%be%d0%b3%d0%be-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25513",
+      "sourceTaxonomyId": "25513",
+      "name": "тонких ломтиков",
+      "slug": "%d1%82%d0%be%d0%bd%d0%ba%d0%b8%d1%85-%d0%bb%d0%be%d0%bc%d1%82%d0%b8%d0%ba%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26943",
+      "sourceTaxonomyId": "26943",
+      "name": "ст.ложки",
+      "slug": "%d1%81%d1%82-%d0%bb%d0%be%d0%b6%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "88",
+      "sourceTaxonomyId": "88",
+      "name": "Салаты",
+      "slug": "%d1%81%d0%b0%d0%bb%d0%b0%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1236",
+      "sourceTaxonomyId": "1236",
+      "name": "майонез",
+      "slug": "%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1242",
+      "sourceTaxonomyId": "1242",
+      "name": "русская кухня",
+      "slug": "%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1570",
+      "sourceTaxonomyId": "1570",
+      "name": "ветчина",
+      "slug": "%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1634",
+      "sourceTaxonomyId": "1634",
+      "name": "оливье",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d1%8c%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6938",
+      "sourceTaxonomyId": "6938",
+      "name": "любимое блюдо мужа",
+      "slug": "%d0%bb%d1%8e%d0%b1%d0%b8%d0%bc%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be-%d0%bc%d1%83%d0%b6%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8191",
+      "sourceTaxonomyId": "8191",
+      "name": "новый год",
+      "slug": "%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d0%b3%d0%be%d0%b4"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 человека",
+      "value": 8,
+      "unit": "человека",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28717",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1-2 морковки",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "морковки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 средних картофелины",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "средних картофелины",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 луковицы",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "луковицы",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3-4 яйца",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 соленых огурчиков",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "соленых огурчиков",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "100 г зелёного горошка (консервированного)",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "зелёного горошка",
+            "notes": "(консервированного)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "3 ст.ложки майонеза",
+            "quantity": {
+              "raw": "3 ст.ложки",
+              "value": 3,
+              "unit": "ст.ложки",
+              "scalable": true
+            },
+            "name": "майонеза",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Соль и свежемолотый перец du moulin",
+            "quantity": null,
+            "name": "Соль и свежемолотый перец",
+            "notes": "du moulin"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Немного свежей зелени (петрушки, укропа или зеленого лука)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "свежей зелени (петрушки, укропа или зеленого лука)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "8 тонких ломтиков ветчины",
+            "quantity": {
+              "raw": "8 тонких ломтиков",
+              "value": 8,
+              "unit": "тонких ломтиков",
+              "scalable": true
+            },
+            "name": "ветчины",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Отварить картошку и морковь. Они должны легко протыкаться ножом, но не быть переваренными, иначе салат будет похож на кашу. Слить воду и охладить.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Почистить картошку, морковь, яйца и лук.",
+            "mediaId": "wordpress-attachment:1362"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Порезать картошку, морковь, яйца, лук и огурчики маленькими кубиками.",
+            "mediaId": "wordpress-attachment:1363"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Все нарезанные ингредиенты и зеленый горошек аккуратно перемешать. Добавить майонез, соль и перец по вкусу.",
+            "mediaId": "wordpress-attachment:1407"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "На каждый ломтик ветчины положить 2-3 столовые ложки салата и аккуратно свернуть рулетиком. Можно закрепить шпажками.",
+            "mediaId": "wordpress-attachment:28718"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28717",
+      "sourceId": "28717",
+      "path": "/recipes/media/wordpress/28717.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:1362",
+      "sourceId": "1362",
+      "path": "/recipes/media/wordpress/1362.png",
+      "alt": null,
+      "width": 1600,
+      "height": 1038
+    },
+    {
+      "id": "wordpress-attachment:1363",
+      "sourceId": "1363",
+      "path": "/recipes/media/wordpress/1363.png",
+      "alt": null,
+      "width": 768,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1407",
+      "sourceId": "1407",
+      "path": "/recipes/media/wordpress/1407.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28718",
+      "sourceId": "28718",
+      "path": "/recipes/media/wordpress/28718.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

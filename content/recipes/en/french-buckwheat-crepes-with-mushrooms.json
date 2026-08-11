@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21388",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:23227",
+  "slug": "french-buckwheat-crepes-with-mushrooms",
+  "source": {
+    "system": "wordpress",
+    "postId": "21388",
+    "recipeId": "21388",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-french-buckwheat-crepes-with-mushrooms",
+    "createdAt": "2024-01-31T04:13:00+00:00",
+    "modifiedAt": "2024-02-07T04:49:33+00:00",
+    "editorialPostId": "20284",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "french-buckwheat-crepes-with-mushrooms",
+    "editorialCreatedAt": "2024-01-31T04:13:00+00:00",
+    "editorialModifiedAt": "2024-02-07T01:53:20+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "French Buckwheat Crepes with Mushrooms",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Prepare buckwheat crepes and garnish them with this delicious, simple mushroom and sour cream combination. A French favorite! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Find other recipes on this site: the <a href=\"https://mycafegourmand.com/recipe/buckwheat-crepes/\">buckwheat crepes</a> or the <a href=\"https://mycafegourmand.com/recipe/french-buckwheat-crepes-with-ham-and-cheese/\">version with ham and cheese.</a></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21388,\"template\":\"chic-template-english\",\"updated\":1638321437848} -->\n<!--WPRM Recipe 21388-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">French Buckwheat Crepes with Mushrooms</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/04/IMG_4001-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Buckwheat Crepes (for 12 galettes)</h4><ul><li>250 g buckwheat flour</li><li>1 tsp sea salt</li><li>350 ml water</li><li>350  ml milk</li><li>2 eggs</li><li>50 g melted butter</li></ul><h4>Filling (4 servings)</h4><ul><li>1 onion (peeled and minced)</li><li>1 Tbsp olive oil</li><li>400 g mushrooms cleaned and sliced (or 2 jars of canned sliced mushrooms)</li><li>150 ml sour cream</li><li>Salt and freshly ground black pepper</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Mix buckwheat flour with salt, milk, water, and eggs together. Add melted butter and whisk until you get a smooth batter. Cover with plastic and and let rest for at least 2 hours. When you are ready to cook the crepes, stir the batter before frying each crepe. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0413.Blog_-1-150x150.png\"/><br /></li><li>In a medium skillet, heat the oil add onion and sauté for 3-5 minutes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/04/IMG_3928-2.Blog_-1-150x150.png\"/><br /></li><li>Add sliced mushrooms and sauté for another 5 minutes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/04/IMG_3986-2.Blog_-1-150x150.png\"/><br /></li><li>Add the sour cream, mix well, and cook for another few minutes. Season with salt and pepper. Remove from heat.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/04/IMG_3989-2.Blog_-1-150x150.png\"/><br /></li><li>Heat a lightly buttered nonstick skillet. Add 1/4 cupful batter to skillet and immediately tilt to fully cover the bottom of the pan with a thin layer. Cook for a few seconds until the surface isn't liquid. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/04/IMG_3992-2.Blog_-1-150x150.png\"/><br /></li><li>Without flipping the crepe, place 2-3 Tbsps of mushroom's filling in the center. A 10-15 seconds later, as the crepe seems to be ready, carefully lift the sides with a spatula and fold them to form a square, or triangle. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/04/IMG_3995-3.Blog_-150x150.png\"/><br /></li><li>Carrefully transfer the crepe from the pan to tha plate, and serve quickly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/04/IMG_4001-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24195",
+      "sourceTaxonomyId": "24195",
+      "name": "buckwheat flour",
+      "slug": "buckwheat-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24196",
+      "sourceTaxonomyId": "24196",
+      "name": "sea salt",
+      "slug": "sea-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24197",
+      "sourceTaxonomyId": "24197",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24267",
+      "sourceTaxonomyId": "24267",
+      "name": "mushrooms cleaned and sliced",
+      "slug": "mushrooms-cleaned-and-sliced"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "664",
+      "sourceTaxonomyId": "664",
+      "name": "melted butter",
+      "slug": "melted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1176",
+      "sourceTaxonomyId": "1176",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5891",
+      "sourceTaxonomyId": "5891",
+      "name": "buckwheat flour",
+      "slug": "buckwheat-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8160",
+      "sourceTaxonomyId": "8160",
+      "name": "sea salt",
+      "slug": "sea-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23266",
+      "sourceTaxonomyId": "23266",
+      "name": "mushrooms cleaned and sliced",
+      "slug": "mushrooms-cleaned-and-sliced"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4261",
+      "sourceTaxonomyId": "4261",
+      "name": "like in france",
+      "slug": "like-in-france"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5111",
+      "sourceTaxonomyId": "5111",
+      "name": "crepes",
+      "slug": "crepes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5905",
+      "sourceTaxonomyId": "5905",
+      "name": "buckwheat",
+      "slug": "buckwheat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5955",
+      "sourceTaxonomyId": "5955",
+      "name": "Breton",
+      "slug": "breton"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8164",
+      "sourceTaxonomyId": "8164",
+      "name": "french buckwheat crepe breton",
+      "slug": "french-buckwheat-crepe-breton"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "17364",
+      "sourceTaxonomyId": "17364",
+      "name": "canned mushrooms",
+      "slug": "canned-mushrooms"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 galettes",
+      "value": 4,
+      "unit": "galettes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "165",
+        "minutes": 165
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:20203",
+    "ingredientGroups": [
+      {
+        "name": "Buckwheat Crepes (for 12 galettes)",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g buckwheat flour",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "buckwheat flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 tsp sea salt",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sea salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "350 ml water",
+            "quantity": {
+              "raw": "350 ml",
+              "value": 350,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "350 ml milk",
+            "quantity": {
+              "raw": "350 ml",
+              "value": 350,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 g melted butter",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "melted butter",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Filling (4 servings)",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 onion peeled and minced",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": "peeled and minced"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 Tbsp olive oil",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "400 g mushrooms cleaned and sliced or 2 jars of canned sliced mushrooms",
+            "quantity": {
+              "raw": "400 g",
+              "value": 400,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "mushrooms cleaned and sliced",
+            "notes": "or 2 jars of canned sliced mushrooms"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 ml sour cream",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Mix buckwheat flour with salt, milk, water, and eggs together. Add melted butter and whisk until you get a smooth batter. Cover with plastic and and let rest for at least 2 hours. When you are ready to cook the crepes, stir the batter before frying each crepe.",
+            "mediaId": "wordpress-attachment:11443"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a medium skillet, heat the oil add onion and sauté for 3-5 minutes.",
+            "mediaId": "wordpress-attachment:20198"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add sliced mushrooms and sauté for another 5 minutes.",
+            "mediaId": "wordpress-attachment:20199"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add the sour cream, mix well, and cook for another few minutes. Season with salt and pepper. Remove from heat.",
+            "mediaId": "wordpress-attachment:20200"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Heat a lightly buttered nonstick skillet. Add 1/4 cupful batter to skillet and immediately tilt to fully cover the bottom of the pan with a thin layer. Cook for a few seconds until the surface isn't liquid.",
+            "mediaId": "wordpress-attachment:20201"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Without flipping the crepe, place 2-3 Tbsps of mushroom's filling in the center. A 10-15 seconds later, as the crepe seems to be ready, carefully lift the sides with a spatula and fold them to form a square, or triangle.",
+            "mediaId": "wordpress-attachment:20202"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Carrefully transfer the crepe from the pan to tha plate, and serve quickly.",
+            "mediaId": "wordpress-attachment:20203"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20203",
+      "sourceId": "20203",
+      "path": "/recipes/media/wordpress/20203.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:11443",
+      "sourceId": "11443",
+      "path": "/recipes/media/wordpress/11443.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:20198",
+      "sourceId": "20198",
+      "path": "/recipes/media/wordpress/20198.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20199",
+      "sourceId": "20199",
+      "path": "/recipes/media/wordpress/20199.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20200",
+      "sourceId": "20200",
+      "path": "/recipes/media/wordpress/20200.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20201",
+      "sourceId": "20201",
+      "path": "/recipes/media/wordpress/20201.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20202",
+      "sourceId": "20202",
+      "path": "/recipes/media/wordpress/20202.png",
+      "alt": null,
+      "width": 800,
+      "height": 512
+    }
+  ],
+  "seo": null
+}

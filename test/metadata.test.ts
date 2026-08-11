@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { recipeCatalog } from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
   getLandingCopy,
@@ -8,8 +8,6 @@ import {
   getOpenGraphLocale,
   getRecipeMetadata
 } from "../src/lib/site";
-
-const meatballsSoup = recipeCatalog[0]!;
 
 test("locale Open Graph values use region-qualified codes", () => {
   assert.equal(getOpenGraphLocale("en"), "en_US");
@@ -19,7 +17,7 @@ test("locale Open Graph values use region-qualified codes", () => {
 
 test("landing and recipe metadata use mapped Open Graph locales", () => {
   const landing = getLandingMetadata("fr");
-  const recipe = getRecipeMetadata(meatballsSoup);
+  const recipe = getRecipeMetadata(recipeFixture);
 
   assert.equal(landing.openGraph?.locale, "fr_FR");
   assert.equal(recipe.openGraph?.locale, "en_US");
@@ -27,13 +25,13 @@ test("landing and recipe metadata use mapped Open Graph locales", () => {
 
 test("canonical metadata URLs encode raw Unicode slugs once", () => {
   const localized = recipeRecordSchema.parse({
-    ...meatballsSoup,
-    id: "wordpress:wprm:2981",
+    ...recipeFixture,
+    id: "test:recipe:ru",
     locale: "ru",
     slug: "суп-с-фрикадельками",
     source: {
-      ...meatballsSoup.source,
-      recipeId: "2981"
+      ...recipeFixture.source,
+      recipeId: "2"
     }
   });
   const canonical =

@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22411",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:498",
+  "slug": "помидоры-фаршированные-сыром-и-чесно",
+  "source": {
+    "system": "wordpress",
+    "postId": "22411",
+    "recipeId": "22411",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d1%8b-%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d1%81%d1%8b%d1%80%d0%be%d0%bc-%d0%b8-%d1%87%d0%b5%d1%81%d0%bd%d0b",
+    "createdAt": "2024-01-31T16:59:00+00:00",
+    "modifiedAt": "2024-05-04T21:58:18+00:00",
+    "editorialPostId": "1460",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d1%8b-%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d1%81%d1%8b%d1%80%d0%be%d0%bc-%d0%b8-%d1%87%d0%b5%d1%81%d0%bd%d0%be",
+    "editorialCreatedAt": "2024-01-31T16:59:00+00:00",
+    "editorialModifiedAt": "2024-02-02T03:25:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Помидоры фаршированные сыром и чесноком",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Помидоры - сыр - чеснок. Кто не любит такое сочетание? Колличество чеснока - на Ваш вкус. Я люблю остренькие. ;) </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22411,\"template\":\"chic-template-russian\",\"updated\":1659213449185} -->\n<!--WPRM Recipe 22411-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Помидоры фаршированные сыром и чесноком</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20171010_172807.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>18 небольших помидорoв</li><li>2-3 зубчика чеснока</li><li>200  г тертого сыра</li><li>зелень</li><li>2-3 ст.л. майонеза</li><li>соль и перец (по вкусу)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>У помидоров срезать шапочку. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180109_212028.Blog_-1-150x150.png\"/><br /></li><li>Маленькой ложечкой аккуратно вынуть мякоть. Помидоры положить на бумажную салфетку срезом вниз. Шапочки сохранить.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180109_212125.Blog_-1-150x150.png\"/><br /></li><li>Сок и семечки отделить от мякоти. Мякоть измельчить.</li><li>Чеснок подавить в чесночнице и смешать с сыром. </li><li>Добавить майонез, мелко нарезанную зелень и мякоть помидоров. Посолить и поперчить. Хорошенько перемешать.</li><li>Наполнить помидоры приготовленной сырной начинкой, накрыть шапочками. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180109_212206.Blog_-1-150x150.png\"/><br /></li><li>Поставить помидорчики в холодильник до момента подачи на стол.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<p>Если Вас нет времени вынимать мякоть, приготовьте не фаршированные помидоры, а просто <a href=\"https://mycafegourmand.com/ru/recipe/%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b0-%d0%b8%d0%b7-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d0%be%d0%b2-%d1%81-%d1%81%d1%8b%d1%80%d0%be%d0%bc-%d0%b8-%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%be\">закуску </a>из них.</p>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Закуски</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24840",
+      "sourceTaxonomyId": "24840",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24860",
+      "sourceTaxonomyId": "24860",
+      "name": "тертого сыра",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d0%be%d0%b3%d0%be-%d1%81%d1%8b%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24881",
+      "sourceTaxonomyId": "24881",
+      "name": "небольших помидорoв",
+      "slug": "%d0%bd%d0%b5%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b8%d1%85-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80o%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24882",
+      "sourceTaxonomyId": "24882",
+      "name": "зубчика чеснока",
+      "slug": "%d0%b7%d1%83%d0%b1%d1%87%d0%b8%d0%ba%d0%b0-%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24883",
+      "sourceTaxonomyId": "24883",
+      "name": "зелень",
+      "slug": "%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d1%8c"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24884",
+      "sourceTaxonomyId": "24884",
+      "name": "майонеза",
+      "slug": "%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24885",
+      "sourceTaxonomyId": "24885",
+      "name": "соль и перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "86",
+      "sourceTaxonomyId": "86",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1526",
+      "sourceTaxonomyId": "1526",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "350",
+      "sourceTaxonomyId": "350",
+      "name": "майонеза",
+      "slug": "%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "352",
+      "sourceTaxonomyId": "352",
+      "name": "соль и перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "478",
+      "sourceTaxonomyId": "478",
+      "name": "небольших помидорoв",
+      "slug": "%d0%bd%d0%b5%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b8%d1%85-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80o%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "480",
+      "sourceTaxonomyId": "480",
+      "name": "зубчика чеснока",
+      "slug": "%d0%b7%d1%83%d0%b1%d1%87%d0%b8%d0%ba%d0%b0-%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "482",
+      "sourceTaxonomyId": "482",
+      "name": "тертого сыра",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d0%be%d0%b3%d0%be-%d1%81%d1%8b%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "484",
+      "sourceTaxonomyId": "484",
+      "name": "зелень",
+      "slug": "%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1232",
+      "sourceTaxonomyId": "1232",
+      "name": "сыр",
+      "slug": "%d1%81%d1%8b%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1608",
+      "sourceTaxonomyId": "1608",
+      "name": "помидор",
+      "slug": "%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1612",
+      "sourceTaxonomyId": "1612",
+      "name": "чеснок",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3620",
+      "sourceTaxonomyId": "3620",
+      "name": "для любителей чеснока",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%bb%d1%8e%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b5%d0%b9-%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3622",
+      "sourceTaxonomyId": "3622",
+      "name": "закуска с сыром",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b0-%d1%81-%d1%81%d1%8b%d1%80%d0%be%d0%bc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3656",
+      "sourceTaxonomyId": "3656",
+      "name": "пикантные помидоры",
+      "slug": "%d0%bf%d0%b8%d0%ba%d0%b0%d0%bd%d1%82%d0%bd%d1%8b%d0%b5-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3658",
+      "sourceTaxonomyId": "3658",
+      "name": "свежие помидоры",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b8%d0%b5-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4728",
+      "sourceTaxonomyId": "4728",
+      "name": "pomidory s syrom s chesnokom",
+      "slug": "pomidory-s-syrom-s-chesnokom"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5775",
+      "sourceTaxonomyId": "5775",
+      "name": "элегантно",
+      "slug": "%d1%8d%d0%bb%d0%b5%d0%b3%d0%b0%d0%bd%d1%82%d0%bd%d0%be"
+    }
+  ],
+  "recipe": {
+    "notes": "Если Вас нет времени вынимать мякоть, приготовьте не фаршированные помидоры, а просто закуску из них.",
+    "servings": {
+      "raw": "6 порции",
+      "value": 6,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:721",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "18 небольших помидорoв",
+            "quantity": {
+              "raw": "18",
+              "value": 18,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "небольших помидорoв",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2-3 зубчика чеснока",
+            "quantity": {
+              "raw": "2-3",
+              "min": 2,
+              "max": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "зубчика чеснока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "200 г тертого сыра",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "тертого сыра",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "зелень",
+            "quantity": null,
+            "name": "зелень",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2-3 ст.л. майонеза",
+            "quantity": {
+              "raw": "2-3 ст.л.",
+              "min": 2,
+              "max": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "майонеза",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "соль и перец по вкусу",
+            "quantity": null,
+            "name": "соль и перец",
+            "notes": "по вкусу"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "У помидоров срезать шапочку.",
+            "mediaId": "wordpress-attachment:1544"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Маленькой ложечкой аккуратно вынуть мякоть. Помидоры положить на бумажную салфетку срезом вниз. Шапочки сохранить.",
+            "mediaId": "wordpress-attachment:1545"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Сок и семечки отделить от мякоти. Мякоть измельчить.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Чеснок подавить в чесночнице и смешать с сыром.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Добавить майонез, мелко нарезанную зелень и мякоть помидоров. Посолить и поперчить. Хорошенько перемешать.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Наполнить помидоры приготовленной сырной начинкой, накрыть шапочками.",
+            "mediaId": "wordpress-attachment:1546"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Поставить помидорчики в холодильник до момента подачи на стол.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:721",
+      "sourceId": "721",
+      "path": "/recipes/media/wordpress/721.png",
+      "alt": null,
+      "width": 800,
+      "height": 576
+    },
+    {
+      "id": "wordpress-attachment:1544",
+      "sourceId": "1544",
+      "path": "/recipes/media/wordpress/1544.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1545",
+      "sourceId": "1545",
+      "path": "/recipes/media/wordpress/1545.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1546",
+      "sourceId": "1546",
+      "path": "/recipes/media/wordpress/1546.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

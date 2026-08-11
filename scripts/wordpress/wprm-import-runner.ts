@@ -14,6 +14,11 @@ import {
 import {
   extractWprmSource
 } from "./wprm-import-source";
+import { resolveWprmUploadArchives } from "./wprm-import-source";
+import {
+  hashVerifiedOpenUploadArchiveEntry,
+  openVerifiedUploadArchive
+} from "./uploads-media";
 import {
   WprmImportError,
   mergeWprmImportLimits,
@@ -21,8 +26,10 @@ import {
   type WprmImportOptions,
   type WprmBulkImportResult,
   type WprmIssueCode,
+  type WprmStagedMediaBindings,
   type WprmSafeManifest
 } from "./wprm-import-contracts";
+import { normalizeWprmAttachmentFile } from "./wprm-import-map";
 import { uploadMatchedAttachmentCount } from "./wprm-import-contracts";
 
 const fatalIssueCodes = new Set<WprmIssueCode>([
@@ -32,6 +39,8 @@ const fatalIssueCodes = new Set<WprmIssueCode>([
   "nonpublish-recipe",
   "protected-source-post",
   "missing-wprm-title",
+  "malformed-wprm-rich-text",
+  "rich-text-normalization-limit",
   "malformed-wprm-ingredients",
   "malformed-wprm-instructions",
   "duplicate-singular-meta",
@@ -283,6 +292,119 @@ function addCollisionErrors(outcomes: readonly CandidateOutcome[]) {
     : outcome);
 }
 
+function referencedMediaIds(record: NonNullable<CandidateOutcome["record"]>) {
+  return new Set([
+    record.recipe.heroMediaId,
+    ...record.recipe.instructionGroups.flatMap((group) =>
+      group.steps.map((step) => step.mediaId)
+    )
+  ].filter((value): value is string => value !== null));
+}
+
+async function bindStagedMedia(
+  outcomes: readonly CandidateOutcome[],
+  snapshot: Awaited<ReturnType<typeof extractWprmSource>>,
+  archivePaths: readonly string[],
+  key: Uint8Array
+): Promise<WprmStagedMediaBindings> {
+  const required = new Map<string, {
+    readonly archiveIndex: number;
+    readonly sourcePath: string;
+  }>();
+  for (const outcome of outcomes) {
+    if (outcome.status !== "ready" || outcome.record === null) {
+      continue;
+    }
+    const referenced = referencedMediaIds(outcome.record);
+    if (referenced.size !== outcome.record.media.length) {
+      throw new WprmImportError("invalid-media-provenance");
+    }
+    for (const media of outcome.record.media) {
+      if (
+        !referenced.has(media.id)
+        || media.sourceId === null
+        || !/^\d+$/u.test(media.sourceId)
+        || media.id !== `wordpress-attachment:${media.sourceId}`
+      ) {
+        throw new WprmImportError("invalid-media-provenance");
+      }
+      const metadata = snapshot.metadata.attachments.get(media.sourceId);
+      const sourcePath = normalizeWprmAttachmentFile(metadata?.attachedFile ?? null);
+      const indexes = sourcePath === null
+        ? undefined
+        : snapshot.uploads.uploadPathArchives.get(sourcePath);
+      if (
+        snapshot.graph.attachments.get(media.sourceId) === undefined
+        || metadata === undefined
+        || sourcePath === null
+        || snapshot.uploads.uploadPathCounts.get(sourcePath) !== 1
+        || indexes === undefined
+        || indexes.size !== 1
+      ) {
+        throw new WprmImportError("invalid-media-provenance");
+      }
+      const archiveIndex = [...indexes][0];
+      if (archiveIndex === undefined || archivePaths[archiveIndex] === undefined) {
+        throw new WprmImportError("invalid-media-provenance");
+      }
+      const previous = required.get(media.sourceId);
+      if (
+        previous !== undefined
+        && (
+          previous.archiveIndex !== archiveIndex
+          || previous.sourcePath !== sourcePath
+        )
+      ) {
+        throw new WprmImportError("invalid-media-provenance");
+      }
+      required.set(media.sourceId, { archiveIndex, sourcePath });
+    }
+  }
+
+  const opened: Awaited<ReturnType<typeof openVerifiedUploadArchive>>[] = [];
+  try {
+    for (const archivePath of archivePaths) {
+      opened.push(await openVerifiedUploadArchive(archivePath));
+    }
+    const entries = [];
+    for (const attachmentId of [...required.keys()].sort(numericIdSort)) {
+      const source = required.get(attachmentId);
+      if (source === undefined) {
+        throw new WprmImportError("invalid-media-provenance");
+      }
+      const archive = opened[source.archiveIndex];
+      if (archive === undefined) {
+        throw new WprmImportError("invalid-media-provenance");
+      }
+      const verified = await hashVerifiedOpenUploadArchiveEntry(
+        archive,
+        source.sourcePath,
+        {
+          keyedDigest: {
+            key,
+            context: attachmentId
+          }
+        }
+      );
+      if (verified.keyedSha256 === null) {
+        throw new WprmImportError("invalid-media-bindings");
+      }
+      entries.push({
+        attachmentId,
+        bytes: verified.bytes,
+        keyedSha256: verified.keyedSha256
+      });
+    }
+    return {
+      schemaVersion: 1,
+      kind: "wprm-staged-media-bindings",
+      entries
+    };
+  } finally {
+    await Promise.all(opened.map((archive) => archive.close()));
+  }
+}
+
 export async function runWprmBulkImport(
   options: WprmImportOptions
 ): Promise<WprmBulkImportResult> {
@@ -308,10 +430,13 @@ export async function runWprmBulkImport(
   }
   const limits = mergeWprmImportLimits(options.limits);
   const key = await readFingerprintKey(options.fingerprintKeyFile);
+  const archives = await resolveWprmUploadArchives(
+    options.uploadsDir,
+    options.uploadArchives
+  );
   const snapshot = await extractWprmSource({
     database: options.database,
-    uploadsDir: options.uploadsDir,
-    uploadArchives: options.uploadArchives,
+    uploadArchives: archives,
     limits
   });
   const relations = deriveWprmRelations(snapshot.graph, snapshot.metadata, limits);
@@ -364,7 +489,13 @@ export async function runWprmBulkImport(
   let manifest = createManifest(snapshot, relations, outcomes);
   let finalOutcomes = outcomes;
   if (write) {
-    const staged = await stageWprmCandidates(finalOutcomes, manifest, {
+    const mediaBindings = await bindStagedMedia(
+      finalOutcomes,
+      snapshot,
+      archives,
+      key
+    );
+    const staged = await stageWprmCandidates(finalOutcomes, manifest, mediaBindings, {
       stagingDir: options.stagingDir!,
       fingerprintKeyFile: options.fingerprintKeyFile,
       resume: options.resume
@@ -378,7 +509,8 @@ export async function runWprmBulkImport(
   return {
     manifest,
     outcomes: finalOutcomes,
-    snapshot
+    snapshot,
+    sourceTranslationGroups: relations.translationGroups
   };
 }
 

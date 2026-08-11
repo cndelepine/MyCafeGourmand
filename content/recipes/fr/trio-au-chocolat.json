@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22093",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:1140",
+  "slug": "trio-au-chocolat",
+  "source": {
+    "system": "wordpress",
+    "postId": "22093",
+    "recipeId": "22093",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-trio-au-chocolat",
+    "createdAt": "2019-05-11T05:56:04+00:00",
+    "modifiedAt": "2022-06-24T21:19:03+00:00",
+    "editorialPostId": "2881",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "trio-au-chocolat",
+    "editorialCreatedAt": "2019-05-11T05:56:04+00:00",
+    "editorialModifiedAt": "2022-06-24T21:19:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Trio au chocolat",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le trio au chocolat est une délicieuse verrine aux chocolats noir, blanc et au lait avec une framboise sur le dessus. Chaque couche de ces verrines se distingue par son goût et par sa texture. C'est parfait pour un <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">Café gourmand</a>&nbsp;! Les amateurs de chocolat vont adorer. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22093,\"template\":\"chic-template-french\",\"updated\":1656105523049} -->\n<!--WPRM Recipe 22093-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Trio au chocolat</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180122_090755.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Ganache au chocolat noir</h4><ul><li>120 ml de crème liquide entière</li><li>100 g de chocolat noir ((60 % de cacao))</li></ul><h4>Mousse au chocolat au lait</h4><ul><li>100 g de chocolat au lait</li><li>2 œufs</li><li>1 pincée  de sel</li></ul><h4>Mousse au chocolat blanc</h4><ul><li>150 ml de crème liquide entière</li><li>100 g de chocolat blanc</li></ul><h4>Pour la décoration</h4><ul><li>6-8  framboises</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Ganache au chocolat noir</h4><ol><li>Porter à ébullition la crème liquide et la verser sur le chocolat noir. Attendre 1 minute puis mélanger jusqu'à ce que le mélange soit homogène.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6958.Blog_-150x150.png\"/><br /></li><li>Répartir le chocolat noir liquide dans des verrines en les remplissant à 1/3. Mettre au réfrigérateur pendant 1 heure.</li></ol><h4>Mousse au chocolat au lait</h4><ol><li>Séparer les blancs des jaunes d’œufs. </li><li>Faire fondre le chocolat au lait au bain-marie ou au micro-onde. Ajouter les jaunes d'œufs et mélanger énergiquement.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7569.Blog_-150x150.png\"/><br /></li><li>Battre les blancs d’œufs en neige très ferme avec une pincée de sel. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7570-2.Blog_-150x150.png\"/><br /></li><li>Mélanger délicatement les blancs battus en neige et le chocolat fondu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7578-2.Blog_-150x150.png\"/><br /></li><li>A l'aide d'une poche à douille ou une petite cuillère, répartir la mousse dans les verrines sur la ganache durcie. Remettre dans le réfrigérateur pour 1 heure.</li></ol><h4>Mousse au chocolat blanc</h4><ol><li>Porter à ébullition la crème liquide et la verser sur le chocolat blanc. Attendre 1-2 minute pour que le chocolat soit fondu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7560-2.Blog_-150x150.png\"/><br /></li><li>Mélanger avec un fouet jusqu'à ce que le mélange soit homogène. Laisser reposer le chocolat liquide dans le réfrigérateur  pendant environ 45 minutes. Le chocolat doit refroidir complètement mais rester encore liquide.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7568-2.Blog_-150x150.png\"/><br /></li><li>A l'aide d'un batteur electrique, battre le chocolat liquide en mousse.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7580-2.Blog_-150x150.png\"/><br /></li><li>A l'aide d'une poche à douille ou une petite cuillère, répartir la mousse blanche dans les verrines.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7586-2.Blog_-150x150.png\"/><br /></li><li>Remettre dans le réfrigérateur encore pour au moins 3 heures. Je recommande d'attendre 6 heures, c'est meilleur.</li><li>Au moment de servir, décorer chaque verrine avec une framboise. Si les verrines sont petites, couper chaque framboise en deux.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24583",
+      "sourceTaxonomyId": "24583",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24717",
+      "sourceTaxonomyId": "24717",
+      "name": "de chocolat au lait",
+      "slug": "de-chocolat-au-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24718",
+      "sourceTaxonomyId": "24718",
+      "name": "de chocolat blanc",
+      "slug": "de-chocolat-blanc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24719",
+      "sourceTaxonomyId": "24719",
+      "name": "framboises",
+      "slug": "framboises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "240",
+      "sourceTaxonomyId": "240",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1134",
+      "sourceTaxonomyId": "1134",
+      "name": "de chocolat au lait",
+      "slug": "de-chocolat-au-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1136",
+      "sourceTaxonomyId": "1136",
+      "name": "de chocolat blanc",
+      "slug": "de-chocolat-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1138",
+      "sourceTaxonomyId": "1138",
+      "name": "framboises",
+      "slug": "framboises"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1218",
+      "sourceTaxonomyId": "1218",
+      "name": "trio au chocolat",
+      "slug": "trio-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1222",
+      "sourceTaxonomyId": "1222",
+      "name": "chocolat blanc",
+      "slug": "chocolat-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1224",
+      "sourceTaxonomyId": "1224",
+      "name": "chocolat au lait",
+      "slug": "chocolat-au-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1246",
+      "sourceTaxonomyId": "1246",
+      "name": "mousse",
+      "slug": "mousse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1248",
+      "sourceTaxonomyId": "1248",
+      "name": "verrine",
+      "slug": "verrine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1502",
+      "sourceTaxonomyId": "1502",
+      "name": "creme liquide",
+      "slug": "creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5598",
+      "sourceTaxonomyId": "5598",
+      "name": "dessert elegant",
+      "slug": "dessert-elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5800",
+      "sourceTaxonomyId": "5800",
+      "name": "cocktail dinatoire",
+      "slug": "cocktail-dinatoire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7205",
+      "sourceTaxonomyId": "7205",
+      "name": "pour les amoureaux du chocolat",
+      "slug": "pour-les-amoureaux-du-chocolat"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "46",
+        "minutes": 46
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2858",
+    "ingredientGroups": [
+      {
+        "name": "Ganache au chocolat noir",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "120 ml de crème liquide entière",
+            "quantity": {
+              "raw": "120 ml",
+              "value": 120,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g de chocolat noir (60 % de cacao)",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir",
+            "notes": "(60 % de cacao)"
+          }
+        ]
+      },
+      {
+        "name": "Mousse au chocolat au lait",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 g de chocolat au lait",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat au lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 œufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 pincée de sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Mousse au chocolat blanc",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 ml de crème liquide entière",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g de chocolat blanc",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat blanc",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Pour la décoration",
+        "sourceIndex": 3,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6-8 framboises",
+            "quantity": {
+              "raw": "6-8",
+              "min": 6,
+              "max": 8,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "framboises",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Ganache au chocolat noir",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Porter à ébullition la crème liquide et la verser sur le chocolat noir. Attendre 1 minute puis mélanger jusqu'à ce que le mélange soit homogène.",
+            "mediaId": "wordpress-attachment:2866"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Répartir le chocolat noir liquide dans des verrines en les remplissant à 1/3. Mettre au réfrigérateur pendant 1 heure.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Mousse au chocolat au lait",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Séparer les blancs des jaunes d’œufs.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire fondre le chocolat au lait au bain-marie ou au micro-onde. Ajouter les jaunes d'œufs et mélanger énergiquement.",
+            "mediaId": "wordpress-attachment:2861"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Battre les blancs d’œufs en neige très ferme avec une pincée de sel.",
+            "mediaId": "wordpress-attachment:2862"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mélanger délicatement les blancs battus en neige et le chocolat fondu.",
+            "mediaId": "wordpress-attachment:2863"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "A l'aide d'une poche à douille ou une petite cuillère, répartir la mousse dans les verrines sur la ganache durcie. Remettre dans le réfrigérateur pour 1 heure.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Mousse au chocolat blanc",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Porter à ébullition la crème liquide et la verser sur le chocolat blanc. Attendre 1-2 minute pour que le chocolat soit fondu.",
+            "mediaId": "wordpress-attachment:2859"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mélanger avec un fouet jusqu'à ce que le mélange soit homogène. Laisser reposer le chocolat liquide dans le réfrigérateur pendant environ 45 minutes. Le chocolat doit refroidir complètement mais rester encore liquide.",
+            "mediaId": "wordpress-attachment:2860"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "A l'aide d'un batteur electrique, battre le chocolat liquide en mousse.",
+            "mediaId": "wordpress-attachment:2864"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "A l'aide d'une poche à douille ou une petite cuillère, répartir la mousse blanche dans les verrines.",
+            "mediaId": "wordpress-attachment:2865"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Remettre dans le réfrigérateur encore pour au moins 3 heures. Je recommande d'attendre 6 heures, c'est meilleur.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Au moment de servir, décorer chaque verrine avec une framboise. Si les verrines sont petites, couper chaque framboise en deux.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2858",
+      "sourceId": "2858",
+      "path": "/recipes/media/wordpress/2858.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2866",
+      "sourceId": "2866",
+      "path": "/recipes/media/wordpress/2866.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2861",
+      "sourceId": "2861",
+      "path": "/recipes/media/wordpress/2861.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2862",
+      "sourceId": "2862",
+      "path": "/recipes/media/wordpress/2862.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2863",
+      "sourceId": "2863",
+      "path": "/recipes/media/wordpress/2863.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2859",
+      "sourceId": "2859",
+      "path": "/recipes/media/wordpress/2859.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2860",
+      "sourceId": "2860",
+      "path": "/recipes/media/wordpress/2860.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2864",
+      "sourceId": "2864",
+      "path": "/recipes/media/wordpress/2864.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2865",
+      "sourceId": "2865",
+      "path": "/recipes/media/wordpress/2865.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

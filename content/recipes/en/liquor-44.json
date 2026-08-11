@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21424",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:9115",
+  "slug": "liquor-44",
+  "source": {
+    "system": "wordpress",
+    "postId": "21424",
+    "recipeId": "21424",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-liquor-44",
+    "createdAt": "2019-01-03T07:03:30+00:00",
+    "modifiedAt": "2022-07-30T19:41:55+00:00",
+    "editorialPostId": "13889",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "liquor-44",
+    "editorialCreatedAt": "2019-01-03T07:03:30+00:00",
+    "editorialModifiedAt": "2022-07-30T19:41:53+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Liquor 44",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>One orange, one liter of vodka or rum, 44 coffee beans, 44 pieces of sugar, and 44 days of infusion. A French alcohol drink that will enchant your guests. Consume with moderation!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21424,\"template\":\"chic-template-english\",\"updated\":1659210102750} -->\n<!--WPRM Recipe 21424-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Liquor 44</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_6084.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 orange (organic)</li><li>44 coffee beans</li><li>44 pieces  of sugar (or 220 g of granulated sugar)</li><li>1 liter vodka or white rum</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Wash a jar with boiling water then dry it. Wash and dry the orange.\r\n     \r\n   \r\n\r\n</li><li>With a knife, make 44 cuts in the orange and put a coffee bean in each hole.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4500.Blog_-150x150.png\"/><br /></li><li>Put the orange in the jar and add the sugar.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4518.Blog_-150x150.png\"/><br /></li><li>Add the vodka (or rum).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4530.Blog_-150x150.png\"/><br /></li><li>Close the jar well, keep it in a cool and dark place for 44 days.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_4546.Blog_-150x150.png\"/><br /></li><li>Throw away the orange (sadly it is not good anymore). Filter the liquor and pour into a bottle.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/IMG_5977.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Drinks</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23539",
+      "sourceTaxonomyId": "23539",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24283",
+      "sourceTaxonomyId": "24283",
+      "name": "orange",
+      "slug": "orange"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24284",
+      "sourceTaxonomyId": "24284",
+      "name": "coffee beans",
+      "slug": "coffee-beans"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24285",
+      "sourceTaxonomyId": "24285",
+      "name": "of sugar (or 220 g of granulated sugar)",
+      "slug": "of-sugar-or-220-g-of-granulated-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24286",
+      "sourceTaxonomyId": "24286",
+      "name": "vodka or white rum",
+      "slug": "vodka-or-white-rum"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "112",
+      "sourceTaxonomyId": "112",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1694",
+      "sourceTaxonomyId": "1694",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9144",
+      "sourceTaxonomyId": "9144",
+      "name": "orange",
+      "slug": "orange"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9146",
+      "sourceTaxonomyId": "9146",
+      "name": "coffee beans",
+      "slug": "coffee-beans"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9154",
+      "sourceTaxonomyId": "9154",
+      "name": "of sugar (or 220 g of granulated sugar)",
+      "slug": "of-sugar-or-220-g-of-granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9156",
+      "sourceTaxonomyId": "9156",
+      "name": "vodka or white rum",
+      "slug": "vodka-or-white-rum"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2380",
+      "sourceTaxonomyId": "2380",
+      "name": "vodka",
+      "slug": "vodka-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4162",
+      "sourceTaxonomyId": "4162",
+      "name": "orange",
+      "slug": "orange"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "1 litre",
+      "value": 1,
+      "unit": "litre",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "59",
+        "minutes": 59
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13835",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 orange organic",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "orange",
+            "notes": "organic"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "44 coffee beans",
+            "quantity": {
+              "raw": "44",
+              "value": 44,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "coffee beans",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "44 pieces of sugar (or 220 g of granulated sugar)",
+            "quantity": {
+              "raw": "44 pieces",
+              "value": 44,
+              "unit": "pieces",
+              "scalable": true
+            },
+            "name": "of sugar (or 220 g of granulated sugar)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 liter vodka or white rum",
+            "quantity": {
+              "raw": "1 liter",
+              "value": 1,
+              "unit": "liter",
+              "scalable": true
+            },
+            "name": "vodka or white rum",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Wash a jar with boiling water then dry it. Wash and dry the orange.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "With a knife, make 44 cuts in the orange and put a coffee bean in each hole.",
+            "mediaId": "wordpress-attachment:13830"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Put the orange in the jar and add the sugar.",
+            "mediaId": "wordpress-attachment:13831"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add the vodka (or rum).",
+            "mediaId": "wordpress-attachment:13832"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Close the jar well, keep it in a cool and dark place for 44 days.",
+            "mediaId": "wordpress-attachment:13833"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Throw away the orange (sadly it is not good anymore). Filter the liquor and pour into a bottle.",
+            "mediaId": "wordpress-attachment:13834"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13835",
+      "sourceId": "13835",
+      "path": "/recipes/media/wordpress/13835.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13830",
+      "sourceId": "13830",
+      "path": "/recipes/media/wordpress/13830.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13831",
+      "sourceId": "13831",
+      "path": "/recipes/media/wordpress/13831.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13832",
+      "sourceId": "13832",
+      "path": "/recipes/media/wordpress/13832.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13833",
+      "sourceId": "13833",
+      "path": "/recipes/media/wordpress/13833.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:13834",
+      "sourceId": "13834",
+      "path": "/recipes/media/wordpress/13834.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

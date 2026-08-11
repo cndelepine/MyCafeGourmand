@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21801",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2614",
+  "slug": "salade-au-chou-blanc",
+  "source": {
+    "system": "wordpress",
+    "postId": "21801",
+    "recipeId": "21801",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-au-chou-blanc",
+    "createdAt": "2018-02-24T02:38:34+00:00",
+    "modifiedAt": "2022-07-04T20:35:32+00:00",
+    "editorialPostId": "5075",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-au-chou-blanc",
+    "editorialCreatedAt": "2018-02-24T02:38:34+00:00",
+    "editorialModifiedAt": "2022-07-04T20:35:30+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Salade au chou blanc",
+  "description": "Salade est prête à être déguster tout de suite mais elle sera meilleure si elle est préparée a l'avance et laisse au réfrigérateur pendant quelques heures.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Cette salade au chou blanc et aux carottes ressemble un peu au coleslaw américain. Mais elle est sans mayonnaise, assaisonnée de vinaigre blanc (ou de jus de citron) et d'huile. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21801,\"template\":\"chic-template-french\",\"updated\":1656966925849} -->\n<!--WPRM Recipe 21801-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade au chou blanc</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8168-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tSalade est prête à être déguster tout de suite mais elle sera meilleure si elle est préparée a l'avance et laisse au réfrigérateur pendant quelques heures.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 tête  de chou blanc ((taille moyenne))</li><li>2-3 pincées de sel fin</li><li>2 carottes</li><li>1/2 cuillère à café de sucre en poudre</li><li>Sel et poivre du moulin</li><li>4-5 cuillères à soupe de vinaigre blanc (ou de jus de citron)</li><li>4-5 cuillères à soupe d'huile végétale</li><li>Quelques brins d'aneth (ciboulette, persil, ou d'oignon vert) (ciselés )</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Couper le chou en fines lamelles. Saupoudrer de sel et malaxer avec les mains.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8087.Blog_-150x150.png\"/><br /></li><li>Éplucher et râper les carottes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8090.Blog_-150x150.png\"/><br /></li><li>Dans un saladier, mélanger le chou, les carottes et le sucre. Goûter la salade : s'il faut, ajouter du sel. Poivrer et parsemer d'aneth. Arroser de vinaigre et d'huile. Si possible, laisser reposer dans le réfrigérateur avant de déguster\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8167.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24304",
+      "sourceTaxonomyId": "24304",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24482",
+      "sourceTaxonomyId": "24482",
+      "name": "de sel fin",
+      "slug": "de-sel-fin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24510",
+      "sourceTaxonomyId": "24510",
+      "name": "d'aneth (ciboulette, persil, ou d'oignon vert)",
+      "slug": "daneth-ciboulette-persil-ou-doignon-vert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24520",
+      "sourceTaxonomyId": "24520",
+      "name": "de chou blanc",
+      "slug": "de-chou-blanc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24530",
+      "sourceTaxonomyId": "24530",
+      "name": "de vinaigre blanc (ou de jus de citron)",
+      "slug": "de-vinaigre-blanc-ou-de-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1188",
+      "sourceTaxonomyId": "1188",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "354",
+      "sourceTaxonomyId": "354",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1028",
+      "sourceTaxonomyId": "1028",
+      "name": "de chou blanc",
+      "slug": "de-chou-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1893",
+      "sourceTaxonomyId": "1893",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2629",
+      "sourceTaxonomyId": "2629",
+      "name": "de sel fin",
+      "slug": "de-sel-fin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2631",
+      "sourceTaxonomyId": "2631",
+      "name": "de vinaigre blanc (ou de jus de citron)",
+      "slug": "de-vinaigre-blanc-ou-de-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2633",
+      "sourceTaxonomyId": "2633",
+      "name": "d'aneth (ciboulette, persil, ou d'oignon vert)",
+      "slug": "daneth-ciboulette-persil-ou-doignon-vert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1268",
+      "sourceTaxonomyId": "1268",
+      "name": "chou blanc",
+      "slug": "chou-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1334",
+      "sourceTaxonomyId": "1334",
+      "name": "vinaigre",
+      "slug": "vinaigre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3925",
+      "sourceTaxonomyId": "3925",
+      "name": "repas leger",
+      "slug": "repas-leger"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4529",
+      "sourceTaxonomyId": "4529",
+      "name": "recette sante",
+      "slug": "recette-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5673",
+      "sourceTaxonomyId": "5673",
+      "name": "huile vegetale",
+      "slug": "huile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6852",
+      "sourceTaxonomyId": "6852",
+      "name": "cuisine russe",
+      "slug": "cuisine-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6862",
+      "sourceTaxonomyId": "6862",
+      "name": "bon pour la sante",
+      "slug": "bon-pour-la-sante"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:5027",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 tête de chou blanc (taille moyenne)",
+            "quantity": {
+              "raw": "1 tête",
+              "value": 1,
+              "unit": "tête",
+              "scalable": true
+            },
+            "name": "de chou blanc",
+            "notes": "(taille moyenne)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2-3 pincées de sel fin",
+            "quantity": {
+              "raw": "2-3 pincées",
+              "min": 2,
+              "max": 3,
+              "unit": "pincées",
+              "scalable": true
+            },
+            "name": "de sel fin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 carottes",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 cuillère à café de sucre en poudre",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4-5 cuillères à soupe de vinaigre blanc (ou de jus de citron)",
+            "quantity": {
+              "raw": "4-5 cuillères à soupe",
+              "min": 4,
+              "max": 5,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de vinaigre blanc (ou de jus de citron)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "4-5 cuillères à soupe d'huile végétale",
+            "quantity": {
+              "raw": "4-5 cuillères à soupe",
+              "min": 4,
+              "max": 5,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile végétale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Quelques brins d'aneth (ciboulette, persil, ou d'oignon vert) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "d'aneth (ciboulette, persil, ou d'oignon vert)",
+            "notes": "ciselés"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper le chou en fines lamelles. Saupoudrer de sel et malaxer avec les mains.",
+            "mediaId": "wordpress-attachment:5024"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Éplucher et râper les carottes.",
+            "mediaId": "wordpress-attachment:5025"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans un saladier, mélanger le chou, les carottes et le sucre. Goûter la salade : s'il faut, ajouter du sel. Poivrer et parsemer d'aneth. Arroser de vinaigre et d'huile. Si possible, laisser reposer dans le réfrigérateur avant de déguster",
+            "mediaId": "wordpress-attachment:5026"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5027",
+      "sourceId": "5027",
+      "path": "/recipes/media/wordpress/5027.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5024",
+      "sourceId": "5024",
+      "path": "/recipes/media/wordpress/5024.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5025",
+      "sourceId": "5025",
+      "path": "/recipes/media/wordpress/5025.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5026",
+      "sourceId": "5026",
+      "path": "/recipes/media/wordpress/5026.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21288",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3440",
+  "slug": "puff-pastry-swirls-with-smoked-salmon",
+  "source": {
+    "system": "wordpress",
+    "postId": "21288",
+    "recipeId": "21288",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-puff-pastry-swirls-with-smoked-salmon",
+    "createdAt": "2026-02-02T06:46:00+00:00",
+    "modifiedAt": "2026-02-09T07:23:52+00:00",
+    "editorialPostId": "7597",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "puff-pastry-swirls-with-smoked-salmon",
+    "editorialCreatedAt": "2026-02-02T06:46:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:23:49+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Puff Pastry Swirls With Smoked Salmon",
+  "description": "You can cut the puff pastry sheet in half and make two rolls, but this is only if you want to make them super tiny.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>What could be better with <a href=\"https://mycafegourmand.com/puff-pastry/\">puff pastry</a> than sour cream and smoked salmon? Kids and adults will really appreciate these savory small appetizers. The best part is, they are very simple to make. All it takes is spreading the filling onto the puff pastry, rolling it up, cutting it into rolls and bake.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21288,\"template\":\"chic-template-english\",\"updated\":1770621660129} -->\n<!--WPRM Recipe 21288-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Puff Pastry Swirls With Smoked Salmon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8967.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYou can cut the puff pastry sheet in half and make two rolls, but this is only if you want to make them super tiny.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet all butter puff pastry</li><li>2 Tbsp sour cream</li><li>A bit of dill (fresh or dried )</li><li>ground black pepper (to taste)</li><li>200 g smoked salmon (slices)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Roll the puff pastry out with rolling pin into 1/2 inch thick square. Spread the sour cream on the top. Leave about 1cm around the edges. Sprinkle with tiny chopped dill. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8939.Blog_-150x150.png\"/><br /></li><li>Arrange the smoked salmon evenly on top of the puff pastry sheet.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8942.Blog_-150x150.png\"/><br /></li><li>Starting at one end, roll the pastry up as tightly as possible.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8944.Blog_-150x150.png\"/><br /></li><li>Tightly cover with plastic wrap, and chill in the fridge for about 30 minutes. It will be much easier to cut cold roll. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8946.Blog_-150x150.png\"/><br /></li><li>Preheat the oven to 380 degrees F.  Line a baking sheet with parchment paper. With a very sharp knife, cut the roll into 1 cm slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8947.Blog_-150x150.png\"/><br /></li><li>Remove the plastic wrap and transfer them to the baking sheet.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8949.Blog_-150x150.png\"/><br /></li><li>Bake for about 15 -20 minutes until the \"snails\" are puffed and golden.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8950.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24173",
+      "sourceTaxonomyId": "24173",
+      "name": "of dill",
+      "slug": "of-dill"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24174",
+      "sourceTaxonomyId": "24174",
+      "name": "ground black pepper",
+      "slug": "ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24175",
+      "sourceTaxonomyId": "24175",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "572",
+      "sourceTaxonomyId": "572",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "967",
+      "sourceTaxonomyId": "967",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1789",
+      "sourceTaxonomyId": "1789",
+      "name": "ground black pepper",
+      "slug": "ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3598",
+      "sourceTaxonomyId": "3598",
+      "name": "of dill",
+      "slug": "of-dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1354",
+      "sourceTaxonomyId": "1354",
+      "name": "salmon",
+      "slug": "salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1386",
+      "sourceTaxonomyId": "1386",
+      "name": "puff pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1512",
+      "sourceTaxonomyId": "1512",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3590",
+      "sourceTaxonomyId": "3590",
+      "name": "snails",
+      "slug": "snails"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3592",
+      "sourceTaxonomyId": "3592",
+      "name": "bake",
+      "slug": "bake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3594",
+      "sourceTaxonomyId": "3594",
+      "name": "swirls",
+      "slug": "swirls"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3596",
+      "sourceTaxonomyId": "3596",
+      "name": "rolls",
+      "slug": "rolls"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8414",
+      "sourceTaxonomyId": "8414",
+      "name": "finger food",
+      "slug": "finger-food"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8416",
+      "sourceTaxonomyId": "8416",
+      "name": "cocktail party",
+      "slug": "cocktail-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8418",
+      "sourceTaxonomyId": "8418",
+      "name": "fine cuisine",
+      "slug": "fine-cuisine"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "15 pieces",
+      "value": 15,
+      "unit": "pieces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "65",
+        "minutes": 65
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7003",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 Tbsp sour cream",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "A bit of dill fresh or dried",
+            "quantity": {
+              "raw": "A bit",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "of dill",
+            "notes": "fresh or dried"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "ground black pepper to taste",
+            "quantity": null,
+            "name": "ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "200 g smoked salmon slices",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "smoked salmon",
+            "notes": "slices"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Roll the puff pastry out with rolling pin into 1/2 inch thick square. Spread the sour cream on the top. Leave about 1cm around the edges. Sprinkle with tiny chopped dill.",
+            "mediaId": "wordpress-attachment:6995"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Arrange the smoked salmon evenly on top of the puff pastry sheet.",
+            "mediaId": "wordpress-attachment:6996"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Starting at one end, roll the pastry up as tightly as possible.",
+            "mediaId": "wordpress-attachment:6997"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Tightly cover with plastic wrap, and chill in the fridge for about 30 minutes. It will be much easier to cut cold roll.",
+            "mediaId": "wordpress-attachment:6998"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Preheat the oven to 380 degrees F. Line a baking sheet with parchment paper. With a very sharp knife, cut the roll into 1 cm slices.",
+            "mediaId": "wordpress-attachment:6999"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Remove the plastic wrap and transfer them to the baking sheet.",
+            "mediaId": "wordpress-attachment:7000"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Bake for about 15 -20 minutes until the \"snails\" are puffed and golden.",
+            "mediaId": "wordpress-attachment:7001"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7003",
+      "sourceId": "7003",
+      "path": "/recipes/media/wordpress/7003.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6995",
+      "sourceId": "6995",
+      "path": "/recipes/media/wordpress/6995.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6996",
+      "sourceId": "6996",
+      "path": "/recipes/media/wordpress/6996.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6997",
+      "sourceId": "6997",
+      "path": "/recipes/media/wordpress/6997.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6998",
+      "sourceId": "6998",
+      "path": "/recipes/media/wordpress/6998.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6999",
+      "sourceId": "6999",
+      "path": "/recipes/media/wordpress/6999.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7000",
+      "sourceId": "7000",
+      "path": "/recipes/media/wordpress/7000.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7001",
+      "sourceId": "7001",
+      "path": "/recipes/media/wordpress/7001.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22064",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:17137",
+  "slug": "petits-choux-au-saumon-fume",
+  "source": {
+    "system": "wordpress",
+    "postId": "22064",
+    "recipeId": "22064",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-petits-choux-au-saumon-fume",
+    "createdAt": "2023-01-29T09:00:38+00:00",
+    "modifiedAt": "2023-01-30T01:20:53+00:00",
+    "editorialPostId": "17799",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "petits-choux-au-saumon-fume",
+    "editorialCreatedAt": "2023-01-29T09:00:38+00:00",
+    "editorialModifiedAt": "2023-01-28T22:57:09+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [],
+  "title": "Petits choux au saumon fumé",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ces petits choux dorés sont fourrés à la mousse très délicate au saumon fumé. Ils sont tout simplement irrésistibles. A servir avec du champagne  lors d'une occasion spéciale.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22064,\"template\":\"chic-template-french\",\"updated\":1659211153535} -->\n<!--WPRM Recipe 22064-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Petits choux au saumon fumé</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9048.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Pâte à choux</h4><ul><li>200 ml d'eau ou de lait</li><li>100 g de beurre</li><li>3  pincées de sel</li><li>120 g de farine</li><li>3-4 œufs</li><li>1 jaune d’œuf battu ((facultatif))</li></ul><h4>Mousse au saumon fumé</h4><ul><li>250 g de saumon fumé, (порезать на кусочки)</li><li>2 échalotes (hachées)</li><li>1 gousse d'ail (hachée)</li><li>1 cuillère à soupe de crème fraîche épaisse</li><li>1 cuillère à soupe d'huile d'olive</li><li>3 cuillères à soupe de jus de citron</li><li>Sel et poivre du moulin</li><li>100 ml de crème liquide entière ( très froide)</li><li>Quelques brins d'aneth (ou de ciboulette) (ciselés)</li><li>Quelques pincées de paprika (pour la décoration)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Pâte à choux</h4><ol><li>Préchauffer le four à 190°C (thermostat 6/7). Couvrir 2 plaques à pâtisserie de papier sulfurisé. Dans une casserole, porter l'eau à ébullition avec le beurre et le sel. Retirer la casserole du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2359.Blog_-150x150.png\"/><br /></li><li>Ajouter d'un seul coup la farine. Bien mélanger. La pâte doit se détacher des bords et former une boule.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1320.Blog_-150x150.png\"/><br /></li><li>Ajouter les œufs un par un. Bien mélanger. La pâte doit être lisse et brillante.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1321.Blog_-150x150.png\"/><br /></li><li>Remettre la casserole sur le feu et faire sécher la pâte en remuant tout le temps pendant 30 à 50 secondes.\r\nRetirer la casserole du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1322.Blog_-150x150.png\"/><br /></li><li>Mettre la pâte dans une poche à douille.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1324.Blog_-150x150.png\"/><br /></li><li>Former des petits tas sur la plaque en les séparant les uns des autres, ils vont doubler de volume pendant la cuisson.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8971.Blog_-150x150.png\"/><br /></li><li>Dorer le dessus des choux avec le jaune d'œuf.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8974.Blog_-150x150.png\"/><br /></li><li>Cuire au four pendant 20-25 minutes jusqu’à obtenir une jolie couleur dorée. Sortir les choux du four et les laisser refroidir. Ne pas ouvrir la porte du four pendant la cuisson !<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8979.Blog_-150x150.png\"/><br /></li></ol><h4>Mousse au saumon fumé</h4><ol><li>Dans le bol du robot, mettre le saumon fumé, les échalotes, l'ail, la crème fraîche épaisse et l'huile d'olive.  Mixer.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8982.Blog_-150x150.png\"/><br /></li><li>Saler, poivrer et arroser de jus de citron. Mixer encore un peu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8985.Blog_-150x150.png\"/><br /></li><li>Monter la crème froide en chantilly. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8988.Blog_-150x150.png\"/><br /></li><li>Délicatement incorporer la chantilly à la préparation au saumon en ajoutant l'aneth.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8990.Blog_-150x150.png\"/><br /></li><li>Couper le haut des petits choux et les garnir avec de la mousse à l'aide d'une poche à douille (ou avec une cuillerée).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9026.Blog_-150x150.png\"/><br /></li><li>Saupoudrer de paprika. Servir aussitôt ou mettre dans le réfrigérateur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9040.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24468",
+      "sourceTaxonomyId": "24468",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24471",
+      "sourceTaxonomyId": "24471",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24477",
+      "sourceTaxonomyId": "24477",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24654",
+      "sourceTaxonomyId": "24654",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24689",
+      "sourceTaxonomyId": "24689",
+      "name": "échalotes",
+      "slug": "echalotes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24702",
+      "sourceTaxonomyId": "24702",
+      "name": "d'eau ou de lait",
+      "slug": "deau-ou-de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24703",
+      "sourceTaxonomyId": "24703",
+      "name": "jaune d’œuf battu",
+      "slug": "jaune-doeuf-battu"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24704",
+      "sourceTaxonomyId": "24704",
+      "name": "d'aneth (ou de ciboulette)",
+      "slug": "daneth-ou-de-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "551",
+      "sourceTaxonomyId": "551",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "553",
+      "sourceTaxonomyId": "553",
+      "name": "échalotes",
+      "slug": "echalotes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "605",
+      "sourceTaxonomyId": "605",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "770",
+      "sourceTaxonomyId": "770",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "938",
+      "sourceTaxonomyId": "938",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "942",
+      "sourceTaxonomyId": "942",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15536",
+      "sourceTaxonomyId": "15536",
+      "name": "jaune d’œuf battu",
+      "slug": "jaune-doeuf-battu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17153",
+      "sourceTaxonomyId": "17153",
+      "name": "d'eau ou de lait",
+      "slug": "deau-ou-de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17157",
+      "sourceTaxonomyId": "17157",
+      "name": "d'aneth (ou de ciboulette)",
+      "slug": "daneth-ou-de-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1522",
+      "sourceTaxonomyId": "1522",
+      "name": "saumon fume",
+      "slug": "saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5800",
+      "sourceTaxonomyId": "5800",
+      "name": "cocktail dinatoire",
+      "slug": "cocktail-dinatoire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6798",
+      "sourceTaxonomyId": "6798",
+      "name": "poisson",
+      "slug": "poisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "40 petits choux",
+      "value": 40,
+      "unit": "petits choux",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "cook": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17782",
+    "ingredientGroups": [
+      {
+        "name": "Pâte à choux",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 ml d'eau ou de lait",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'eau ou de lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g de beurre",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 pincées de sel",
+            "quantity": {
+              "raw": "3 pincées",
+              "value": 3,
+              "unit": "pincées",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "120 g de farine",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3-4 œufs",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 jaune d’œuf battu (facultatif)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jaune d’œuf battu",
+            "notes": "(facultatif)"
+          }
+        ]
+      },
+      {
+        "name": "Mousse au saumon fumé",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 g de saumon fumé, порезать на кусочки",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de saumon fumé,",
+            "notes": "порезать на кусочки"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 échalotes hachées",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "échalotes",
+            "notes": "hachées"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 gousse d'ail hachée",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "hachée"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cuillère à soupe de crème fraîche épaisse",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de crème fraîche épaisse",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 cuillère à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 cuillères à soupe de jus de citron",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de jus de citron",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "100 ml de crème liquide entière très froide",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": "très froide"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Quelques brins d'aneth (ou de ciboulette) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "d'aneth (ou de ciboulette)",
+            "notes": "ciselés"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Quelques pincées de paprika pour la décoration",
+            "quantity": {
+              "raw": "Quelques pincées",
+              "unit": "pincées",
+              "scalable": false
+            },
+            "name": "de paprika",
+            "notes": "pour la décoration"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Pâte à choux",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 190°C (thermostat 6/7). Couvrir 2 plaques à pâtisserie de papier sulfurisé. Dans une casserole, porter l'eau à ébullition avec le beurre et le sel. Retirer la casserole du feu.",
+            "mediaId": "wordpress-attachment:17812"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajouter d'un seul coup la farine. Bien mélanger. La pâte doit se détacher des bords et former une boule.",
+            "mediaId": "wordpress-attachment:17769"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter les œufs un par un. Bien mélanger. La pâte doit être lisse et brillante.",
+            "mediaId": "wordpress-attachment:17770"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Remettre la casserole sur le feu et faire sécher la pâte en remuant tout le temps pendant 30 à 50 secondes.\nRetirer la casserole du feu.",
+            "mediaId": "wordpress-attachment:17771"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Mettre la pâte dans une poche à douille.",
+            "mediaId": "wordpress-attachment:17772"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Former des petits tas sur la plaque en les séparant les uns des autres, ils vont doubler de volume pendant la cuisson.",
+            "mediaId": "wordpress-attachment:17773"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Dorer le dessus des choux avec le jaune d'œuf.",
+            "mediaId": "wordpress-attachment:17774"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Cuire au four pendant 20-25 minutes jusqu’à obtenir une jolie couleur dorée. Sortir les choux du four et les laisser refroidir. Ne pas ouvrir la porte du four pendant la cuisson !",
+            "mediaId": "wordpress-attachment:17775"
+          }
+        ]
+      },
+      {
+        "name": "Mousse au saumon fumé",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans le bol du robot, mettre le saumon fumé, les échalotes, l'ail, la crème fraîche épaisse et l'huile d'olive. Mixer.",
+            "mediaId": "wordpress-attachment:17776"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Saler, poivrer et arroser de jus de citron. Mixer encore un peu.",
+            "mediaId": "wordpress-attachment:17777"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Monter la crème froide en chantilly.",
+            "mediaId": "wordpress-attachment:17778"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Délicatement incorporer la chantilly à la préparation au saumon en ajoutant l'aneth.",
+            "mediaId": "wordpress-attachment:17779"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couper le haut des petits choux et les garnir avec de la mousse à l'aide d'une poche à douille (ou avec une cuillerée).",
+            "mediaId": "wordpress-attachment:17780"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Saupoudrer de paprika. Servir aussitôt ou mettre dans le réfrigérateur.",
+            "mediaId": "wordpress-attachment:17781"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17782",
+      "sourceId": "17782",
+      "path": "/recipes/media/wordpress/17782.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17812",
+      "sourceId": "17812",
+      "path": "/recipes/media/wordpress/17812.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17769",
+      "sourceId": "17769",
+      "path": "/recipes/media/wordpress/17769.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17770",
+      "sourceId": "17770",
+      "path": "/recipes/media/wordpress/17770.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17771",
+      "sourceId": "17771",
+      "path": "/recipes/media/wordpress/17771.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17772",
+      "sourceId": "17772",
+      "path": "/recipes/media/wordpress/17772.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17773",
+      "sourceId": "17773",
+      "path": "/recipes/media/wordpress/17773.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17774",
+      "sourceId": "17774",
+      "path": "/recipes/media/wordpress/17774.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17775",
+      "sourceId": "17775",
+      "path": "/recipes/media/wordpress/17775.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17776",
+      "sourceId": "17776",
+      "path": "/recipes/media/wordpress/17776.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17777",
+      "sourceId": "17777",
+      "path": "/recipes/media/wordpress/17777.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17778",
+      "sourceId": "17778",
+      "path": "/recipes/media/wordpress/17778.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:17779",
+      "sourceId": "17779",
+      "path": "/recipes/media/wordpress/17779.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17780",
+      "sourceId": "17780",
+      "path": "/recipes/media/wordpress/17780.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17781",
+      "sourceId": "17781",
+      "path": "/recipes/media/wordpress/17781.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}
