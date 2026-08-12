@@ -14,17 +14,27 @@ import {
   isWordPressRecipeMediaObjectKey,
   validateRecipeMediaPath
 } from "./media";
-import { localeValues, type Locale, type RecipeRecord } from "./schema";
 import {
+  getCategoryCatalog,
+  getRecipeCategories
+} from "./categories";
+import { localeValues, type Locale, type RecipeRecord } from "./schema";
+import { localPathKey } from "./url-path";
+import {
+  findCategoryBySegments,
+  findLandingPageBySegments,
   findRecipeBySegments,
   getRecipeLanguageAlternates,
   getRecipePath,
   getRecipeSegments,
   getRecipeTranslations,
-  getStaticPageParams
+  getStaticPageParams,
+  paginationRouteSegment
 } from "../lib/recipe-routes";
+import { getPageCount } from "../lib/pagination";
 import { recipeMatchesQuery } from "../lib/recipe-search";
 import { getRecipeStructuredData } from "../lib/recipe-structured-data";
+import { getSitemapEntries } from "../lib/site-map";
 
 export const defaultPublicRoot = path.resolve(process.cwd(), "public");
 const renderableHtmlMarkup =
@@ -264,8 +274,13 @@ export function validateContent(options: {
 
 export type CatalogBehaviorSummary = {
   readonly byLocale: Readonly<Record<Locale, number>>;
+  readonly categoriesByLocale: Readonly<Record<Locale, number>>;
+  readonly categoryMembershipsByLocale: Readonly<Record<Locale, number>>;
+  readonly categoryPagesByLocale: Readonly<Record<Locale, number>>;
   readonly ids: number;
+  readonly landingPagesByLocale: Readonly<Record<Locale, number>>;
   readonly localizedSlugs: number;
+  readonly sitemapPaths: number;
   readonly staticPaths: number;
   readonly translationLinks: number;
 };
@@ -275,18 +290,38 @@ function canonicalRecipeUrlPath(record: RecipeRecord) {
   return path.endsWith("/") ? path : `${path}/`;
 }
 
+function emptyLocaleCounts(): Record<Locale, number> {
+  return { en: 0, fr: 0, ru: 0 };
+}
+
+function staticPathFromSegments(segments: readonly string[]) {
+  return segments.length === 0
+    ? "/"
+    : `/${segments.map((segment) => encodeURIComponent(segment)).join("/")}`;
+}
+
 export function validateCatalogBehavior(
   records: readonly RecipeRecord[]
 ): CatalogBehaviorSummary {
   validateNormalizedRecipeDisplayText(records);
   const ids = new Set<string>();
   const localizedSlugs = new Set<string>();
-  const byLocale: Record<Locale, number> = {
-    en: 0,
-    fr: 0,
-    ru: 0
-  };
+  const byLocale = emptyLocaleCounts();
+  const categoriesByLocale = emptyLocaleCounts();
+  const categoryMembershipsByLocale = emptyLocaleCounts();
+  const categoryPagesByLocale = emptyLocaleCounts();
+  const landingPagesByLocale = emptyLocaleCounts();
   let translationLinks = 0;
+  const categories = getCategoryCatalog(records);
+
+  for (const category of categories) {
+    if (category.recipes.length === 0) {
+      throw new Error(`Empty editorial category archive: ${category.identity}`);
+    }
+    categoriesByLocale[category.locale] += 1;
+    categoryMembershipsByLocale[category.locale] += category.recipes.length;
+    categoryPagesByLocale[category.locale] += getPageCount(category.recipes.length);
+  }
 
   for (const record of records) {
     if (ids.has(record.id)) {
@@ -299,6 +334,17 @@ export function validateCatalogBehavior(
     }
     localizedSlugs.add(localizedSlug);
     byLocale[record.locale] += 1;
+
+    const recipeCategories = getRecipeCategories(record, categories);
+    const editorialCategoryCount = record.taxonomies.filter(
+      (taxonomy) => taxonomy.scope === "editorial" && taxonomy.taxonomy === "category"
+    ).length;
+    if (
+      recipeCategories.length !== editorialCategoryCount
+      || recipeCategories.some((category) => !category.recipes.includes(record))
+    ) {
+      throw new Error(`Invalid editorial category membership for recipe: ${record.id}`);
+    }
 
     const translations = getRecipeTranslations(record, records);
     const alternates = getRecipeLanguageAlternates(record, records);
@@ -318,7 +364,7 @@ export function validateCatalogBehavior(
     translationLinks += alternates.length;
 
     const data = getRecipeStructuredData(record);
-    const categories = record.taxonomies
+    const structuredCategoryNames = record.taxonomies
       .filter((taxonomy) => taxonomy.taxonomy === "category")
       .map((taxonomy) => taxonomy.name);
     if (
@@ -336,7 +382,7 @@ export function validateCatalogBehavior(
           (count, group) => count + group.steps.length,
           0
         )
-      || JSON.stringify(data.recipeCategory ?? []) !== JSON.stringify(categories)
+      || JSON.stringify(data.recipeCategory ?? []) !== JSON.stringify(structuredCategoryNames)
     ) {
       throw new Error(`Invalid Recipe JSON-LD for recipe: ${record.id}`);
     }
@@ -351,20 +397,65 @@ export function validateCatalogBehavior(
     }
   }
 
+  for (const locale of localeValues) {
+    landingPagesByLocale[locale] = Math.max(
+      1,
+      getPageCount(byLocale[locale])
+    );
+  }
   const staticPaths = getStaticPageParams(records);
-  const uniqueStaticPaths = new Set(
-    staticPaths.map(({ segments }) => segments.map(encodeURIComponent).join("/"))
-  );
+  const uniqueStaticPaths = new Set(staticPaths.map(({ segments }) =>
+    localPathKey(staticPathFromSegments(segments))
+  ));
+  const expectedStaticPaths = records.length
+    + localeValues.reduce(
+      (count, locale) =>
+        count + landingPagesByLocale[locale] + categoryPagesByLocale[locale],
+      0
+    );
   if (
-    staticPaths.length !== records.length + localeValues.length
+    staticPaths.length !== expectedStaticPaths
     || uniqueStaticPaths.size !== staticPaths.length
   ) {
-    throw new Error("Static recipe routes are not unique or complete.");
+    throw new Error("Static catalog routes are not unique or complete.");
+  }
+  for (const { segments } of staticPaths) {
+    if (
+      segments.includes(paginationRouteSegment)
+      && segments.at(-1) === "1"
+    ) {
+      throw new Error(`Page-one duplicate static route: ${staticPathFromSegments(segments)}`);
+    }
+    const matches = [
+      findLandingPageBySegments(segments, records) !== undefined,
+      findCategoryBySegments(segments, records) !== undefined,
+      findRecipeBySegments(segments, records) !== undefined
+    ].filter(Boolean).length;
+    if (matches !== 1) {
+      throw new Error(`Static route shadow or lookup failure: ${staticPathFromSegments(segments)}`);
+    }
+  }
+
+  const sitemapPaths = getSitemapEntries(records).map((entry) =>
+    localPathKey(new URL(entry.url).pathname)
+  );
+  const uniqueSitemapPaths = new Set(sitemapPaths);
+  if (
+    sitemapPaths.length !== expectedStaticPaths
+    || uniqueSitemapPaths.size !== sitemapPaths.length
+    || sitemapPaths.some((path) => !uniqueStaticPaths.has(path))
+  ) {
+    throw new Error("Sitemap paths are not unique or do not match static catalog routes.");
   }
   return {
     byLocale,
+    categoriesByLocale,
+    categoryMembershipsByLocale,
+    categoryPagesByLocale,
     ids: ids.size,
+    landingPagesByLocale,
     localizedSlugs: localizedSlugs.size,
+    sitemapPaths: sitemapPaths.length,
     staticPaths: staticPaths.length,
     translationLinks
   };

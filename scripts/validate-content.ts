@@ -18,8 +18,17 @@ const redirectCount = records.reduce(
 console.log(
   `Validated ${records.length} recipe(s) ` +
   `(en: ${summary.byLocale.en}, fr: ${summary.byLocale.fr}, ru: ${summary.byLocale.ru}), ` +
+  `${summary.categoriesByLocale.en}/${summary.categoriesByLocale.fr}/${summary.categoriesByLocale.ru} ` +
+  `editorial category archive(s), ` +
+  `${summary.categoryMembershipsByLocale.en}/${summary.categoryMembershipsByLocale.fr}/` +
+  `${summary.categoryMembershipsByLocale.ru} category membership(s), ` +
+  `${summary.landingPagesByLocale.en}/${summary.landingPagesByLocale.fr}/` +
+  `${summary.landingPagesByLocale.ru} landing page(s), ` +
+  `${summary.categoryPagesByLocale.en}/${summary.categoryPagesByLocale.fr}/` +
+  `${summary.categoryPagesByLocale.ru} category page(s), ` +
   `${summary.ids} ID(s), ${summary.localizedSlugs} localized slug(s), ` +
   `${summary.translationLinks} translation link(s), ${summary.staticPaths} static path(s), ` +
+  `${summary.sitemapPaths} sitemap path(s), ` +
   `${redirectCount} recipe redirect source(s), and ${config.routes.length} ` +
   `total Static Web Apps route rule(s).`
 );

@@ -7,7 +7,8 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
-      allow: "/"
+      allow: "/",
+      disallow: "/_search/"
     },
     sitemap: absoluteUrl("/sitemap.xml"),
     host: siteUrl

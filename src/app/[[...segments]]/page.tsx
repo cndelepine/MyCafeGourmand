@@ -1,16 +1,20 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { CategoryPage } from "@/components/category-page";
 import { LandingPage } from "@/components/landing-page";
 import { RecipeView } from "@/components/recipe-view";
 import { recipeCatalog } from "@/content/catalog";
 import {
-  findLandingLocaleBySegments,
+  findCategoryBySegments,
+  findLandingPageBySegments,
   findRecipeBySegments,
-  getPageLocale,
-  getRecipesByLocale,
   getStaticPageParams
 } from "@/lib/recipe-routes";
-import { getLandingMetadata, getRecipeMetadata } from "@/lib/site";
+import {
+  getCategoryMetadata,
+  getLandingMetadata,
+  getRecipeMetadata
+} from "@/lib/site";
 
 type StaticPathPageProps = {
   params: Promise<{ segments?: string[] }>;
@@ -27,20 +31,25 @@ export async function generateMetadata({
 }: StaticPathPageProps): Promise<Metadata> {
   const { segments: routeSegments } = await params;
   const segments = routeSegments ?? [];
-  const locale = getPageLocale(segments);
-  const landingLocale = findLandingLocaleBySegments(segments);
-
-  if (segments.length === 0) {
-    return getLandingMetadata("en");
+  const landing = findLandingPageBySegments(segments, recipeCatalog);
+  if (landing) {
+    return getLandingMetadata(landing.locale, landing.page);
   }
-  if (landingLocale) {
-    return getLandingMetadata(landingLocale);
+  const category = findCategoryBySegments(segments, recipeCatalog);
+  if (category) {
+    return getCategoryMetadata(category.category, category.page);
   }
 
   const recipe = findRecipeBySegments(segments, recipeCatalog);
-  return recipe
-    ? getRecipeMetadata(recipe, recipeCatalog)
-    : getLandingMetadata(locale);
+  if (recipe) {
+    return getRecipeMetadata(recipe, recipeCatalog);
+  }
+  return {
+    robots: {
+      follow: false,
+      index: false
+    }
+  };
 }
 
 export default async function StaticPathPage({
@@ -48,22 +57,24 @@ export default async function StaticPathPage({
 }: StaticPathPageProps) {
   const { segments: routeSegments } = await params;
   const segments = routeSegments ?? [];
-
-  if (segments.length === 0) {
+  const landing = findLandingPageBySegments(segments, recipeCatalog);
+  if (landing) {
     return (
       <LandingPage
-        locale="en"
-        recipes={getRecipesByLocale("en", recipeCatalog)}
+        catalog={recipeCatalog}
+        locale={landing.locale}
+        page={landing.page}
       />
     );
   }
 
-  const landingLocale = findLandingLocaleBySegments(segments);
-  if (landingLocale) {
+  const category = findCategoryBySegments(segments, recipeCatalog);
+  if (category) {
     return (
-      <LandingPage
-        locale={landingLocale}
-        recipes={getRecipesByLocale(landingLocale, recipeCatalog)}
+      <CategoryPage
+        catalog={recipeCatalog}
+        category={category.category}
+        page={category.page}
       />
     );
   }

@@ -25,7 +25,7 @@ h1 { font-size:clamp(3.5rem, 7vw, 6.6rem); letter-spacing:-.075em; line-height:.
 .steam { border-left:5px solid rgba(251,249,241,.55); border-radius:50%; height:80px; position:absolute; top:70px; width:44px; }.steam-one{left:32%;transform:rotate(-20deg)}.steam-two{left:51%;top:40px;transform:rotate(16deg)}.steam-three{left:67%;transform:rotate(-20deg)}
 .herb { color:#d4e58b; font-size:5rem; position:absolute; }.herb-one{bottom:40px;left:10%;transform:rotate(-28deg)}.herb-two{right:8%;top:45%;transform:rotate(25deg)}
 .recipe { margin:auto; max-width:1040px; padding:120px 32px 80px; }.recipe-heading { display:flex; justify-content:space-between; margin-bottom:55px; }.recipe-heading h2 { font-size:clamp(2.5rem,5vw,4.5rem); letter-spacing:-.06em; line-height:.98; margin:0; }
-.details { border-bottom:1px solid var(--line); border-top:1px solid var(--line); display:grid; grid-template-columns:repeat(3,1fr); margin:0 0 96px; padding:22px 0; }.details div { border-left:1px solid var(--line); padding-left:20px; }.details div:first-child{border:0;padding-left:0}.details dt { color:#718179; font-size:.69rem; font-weight:bold; letter-spacing:.1em; text-transform:uppercase; }.details dd { font-family:Georgia,serif; font-size:1.12rem; margin:8px 0 0; }
+.details { border-bottom:1px solid var(--line); border-top:1px solid var(--line); display:grid; grid-template-columns:repeat(3,1fr); margin:0 0 96px; padding:22px 0; }.details div { border-left:1px solid var(--line); padding-left:20px; }.details div:first-child{border:0;padding-left:0}.details dt { color:#5f7068; font-size:.69rem; font-weight:bold; letter-spacing:.1em; text-transform:uppercase; }.details dd { font-family:Georgia,serif; font-size:1.12rem; margin:8px 0 0; }
 .ingredients,.method { display:grid; grid-template-columns:30% 1fr; padding:0 0 110px; }.section-label { display:flex; gap:18px; }.section-label span { color:#73865e; font-size:.75rem; font-weight:bold; }.section-label h2 { font-size:2rem; letter-spacing:-.04em; margin:-8px 0 0; }.ingredient-groups { display:grid; gap:42px; grid-template-columns:repeat(2,1fr); }.ingredient-group h3 { border-bottom:1px solid var(--line); font-size:1.35rem; margin:0 0 16px; padding-bottom:12px; }.ingredient-group ul { list-style:none; margin:0; padding:0; }.ingredient-group li { border-bottom:1px solid #e5e7dc; font-size:.95rem; line-height:1.35; padding:10px 0; }
 .method { padding-bottom:20px; }.instruction-group + .instruction-group { margin-top:32px; }.instruction-group h3 { border-bottom:1px solid var(--line); font-size:1.35rem; margin:0 0 4px; padding-bottom:12px; }.method ol { list-style:none; margin:0; padding:0; }.method li { border-top:1px solid var(--line); display:grid; gap:22px; grid-template-columns:42px 1fr; padding:20px 0; }.method li span { color:#758866; font-size:.73rem; font-weight:bold; letter-spacing:.08em; }.method p { font-family:Georgia,serif; font-size:1.18rem; line-height:1.45; margin:0; }
 .step-photo { display:block; height:auto; margin-top:24px; max-width:100%; width:540px; }
@@ -35,6 +35,23 @@ footer { background:var(--ink); color:#edf0df; font-family:Georgia,serif; font-s
 .landing-hero { background:#d8e1c0; min-height:430px; }
 .landing-hero-copy { margin:auto; max-width:1180px; padding:105px 28px 90px; }
 .landing-hero h1 { max-width:760px; }
+.category-directory { background:#f0f1e6; margin:auto; max-width:1180px; padding:62px 28px 70px; }
+.category-directory-heading { align-items:end; display:flex; justify-content:space-between; margin-bottom:30px; }
+.category-directory-heading h2 { font-size:clamp(2rem,4vw,3.35rem); letter-spacing:-.05em; line-height:1; margin:0; max-width:520px; }
+.category-directory-heading .eyebrow { margin:0; }
+.category-directory ul { display:grid; gap:1px; grid-template-columns:repeat(2,minmax(0,1fr)); list-style:none; margin:0; padding:0; }
+.category-directory li { align-items:baseline; background:var(--paper); display:flex; gap:14px; justify-content:space-between; padding:17px 18px; }
+.category-directory a { border-bottom:1px solid transparent; font-family:Georgia,serif; font-size:1.15rem; line-height:1.2; }
+.category-directory a:hover { border-bottom-color:var(--ink); }
+.category-directory li span { color:#5f7068; font-size:.71rem; font-weight:bold; letter-spacing:.07em; text-align:right; text-transform:uppercase; }
+.breadcrumbs { margin:auto; max-width:1180px; padding:24px 28px 0; }
+.breadcrumbs ol { color:#5f7068; display:flex; flex-wrap:wrap; font-size:.72rem; font-weight:bold; gap:8px; letter-spacing:.07em; list-style:none; margin:0; padding:0; text-transform:uppercase; }
+.breadcrumbs li + li::before { content:"/"; margin-right:8px; }
+.breadcrumbs a { border-bottom:1px solid transparent; color:var(--ink); }
+.breadcrumbs a:hover { border-bottom-color:var(--ink); }
+.archive-hero { background:#d8e1c0; margin-top:24px; min-height:340px; }
+.archive-hero-copy { margin:auto; max-width:1180px; padding:78px 28px 72px; }
+.archive-hero h1 { max-width:760px; }
 .catalog { margin:auto; max-width:1180px; padding:105px 28px 120px; }
 .catalog-heading { align-items:end; display:flex; justify-content:space-between; margin-bottom:45px; }
 .catalog-heading h2 { font-size:clamp(2.5rem,5vw,4.5rem); letter-spacing:-.06em; line-height:.98; margin:0; max-width:590px; }
@@ -44,26 +61,44 @@ footer { background:var(--ink); color:#edf0df; font-family:Georgia,serif; font-s
 .recipe-card-image { display:block; height:auto; object-fit:cover; width:100%; }
 .recipe-card-copy { padding:28px 28px 34px; }
 .recipe-card-copy h3 { font-size:2.25rem; letter-spacing:-.05em; line-height:1; margin:0 0 16px; }
-.recipe-card-copy > p:not(.eyebrow) { font-family:Georgia,serif; font-size:1.05rem; line-height:1.5; margin:0 0 26px; }
+.recipe-card-copy > p:not(.eyebrow):not(.recipe-card-categories) { font-family:Georgia,serif; font-size:1.05rem; line-height:1.5; margin:0 0 26px; }
 .recipe-card-copy .eyebrow { margin-bottom:15px; }
+.recipe-card-categories { color:#596a4b; font-size:.71rem; font-weight:bold; letter-spacing:.1em; line-height:1.5; margin:0 0 15px; text-transform:uppercase; }
+.recipe-card-categories a { border-bottom:1px solid transparent; }
+.recipe-card-categories a:hover { border-bottom-color:currentColor; }
 .catalog-search { border-bottom:1px solid var(--line); border-top:1px solid var(--line); display:grid; gap:10px; margin:0 0 14px; padding:18px 0; }
-.catalog-search label { color:#718179; font-size:.69rem; font-weight:bold; letter-spacing:.1em; text-transform:uppercase; }
+.catalog-search label { color:#5f7068; font-size:.69rem; font-weight:bold; letter-spacing:.1em; text-transform:uppercase; }
 .catalog-search-row { display:flex; gap:12px; max-width:700px; }
 .catalog-search input { background:#fff; border:1px solid #bfc8b7; border-radius:0; color:var(--ink); flex:1; font:inherit; min-height:44px; padding:9px 12px; }
 .catalog-search button, .serving-controls button { background:var(--paper); border:1px solid var(--ink); color:var(--ink); cursor:pointer; font:inherit; font-weight:bold; min-height:44px; padding:9px 15px; }
 .catalog-search button:hover, .serving-controls button:hover { background:#e9eddd; }
-.search-status { color:#718179; font-size:.75rem; margin:0 0 28px; }
+.search-status { color:#5f7068; font-size:.75rem; margin:0 0 28px; }
 .empty-catalog { border-top:1px solid var(--line); font-family:Georgia,serif; font-size:1.3rem; line-height:1.5; margin:0; max-width:600px; padding-top:24px; }
+.pagination { align-items:center; border-bottom:1px solid var(--line); border-top:1px solid var(--line); display:flex; flex-wrap:wrap; gap:18px; justify-content:space-between; margin-top:46px; padding:18px 0; }
+.pagination > p { color:#5f7068; font-size:.71rem; font-weight:bold; letter-spacing:.09em; margin:0; text-transform:uppercase; }
+.pagination ol { align-items:center; display:flex; flex-wrap:wrap; gap:6px; list-style:none; margin:0; padding:0; }
+.pagination a, .pagination span { align-items:center; border:1px solid var(--line); display:flex; font-size:.78rem; font-weight:bold; justify-content:center; min-height:38px; min-width:38px; padding:7px 10px; }
+.pagination a:hover { background:#e9eddd; border-color:var(--ink); }
+.pagination span[aria-current="page"] { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+.pagination span[aria-disabled="true"] { color:#9aa49d; }
 .serving-controls { align-items:center; border:0; display:flex; gap:10px; margin:0 0 28px; padding:0; }
-.serving-controls legend { color:#718179; float:left; font-size:.69rem; font-weight:bold; letter-spacing:.1em; margin-right:8px; padding:0; text-transform:uppercase; }
+.serving-controls legend { color:#5f7068; float:left; font-size:.69rem; font-weight:bold; letter-spacing:.1em; margin-right:8px; padding:0; text-transform:uppercase; }
 .serving-controls button[aria-pressed="true"] { background:var(--ink); color:var(--paper); }
 
 @media (max-width:700px) {
   .landing-hero-copy { padding:75px 28px 65px; }
+  .category-directory { padding:52px 22px 58px; }
+  .category-directory-heading { align-items:start; display:block; }
+  .category-directory-heading h2 { margin-top:18px; }
+  .category-directory ul { grid-template-columns:1fr; }
+  .breadcrumbs { padding:18px 22px 0; }
+  .archive-hero { margin-top:18px; }
+  .archive-hero-copy { padding:64px 22px 58px; }
   .catalog { padding:72px 22px 80px; }
   .catalog-heading { align-items:start; display:block; }
   .catalog-heading h2 { margin-top:18px; }
   .catalog-search-row { align-items:stretch; flex-direction:column; }
+  .pagination { align-items:flex-start; flex-direction:column; }
   .serving-controls { align-items:flex-start; flex-wrap:wrap; }
   .serving-controls legend { flex-basis:100%; margin-bottom:4px; }
 }
@@ -72,7 +107,7 @@ footer { background:var(--ink); color:#edf0df; font-family:Georgia,serif; font-s
   :root { --paper:#fff; --ink:#000; --line:#aaa; }
   html { scroll-behavior:auto; }
   body { background:#fff; color:#000; }
-  .site-header, .hero-art, footer, .jump-link, .landing-hero, .catalog-search, .search-status, .serving-controls { display:none !important; }
+  .site-header, .hero-art, footer, .jump-link, .landing-hero, .archive-hero, .breadcrumbs, .category-directory, .catalog-search, .search-status, .pagination, .serving-controls { display:none !important; }
   .hero { background:#fff; display:block; min-height:0; }
   .hero-copy { max-width:none; padding:0 0 28px; }
   .hero-copy .eyebrow { margin-bottom:10px; }

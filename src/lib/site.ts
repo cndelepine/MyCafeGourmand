@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { recipeCatalog } from "@/content/catalog";
+import type { RecipeCategory } from "@/content/categories";
 import type { Locale, RecipeRecord } from "@/content/schema";
 import { resolveRecipeMediaUrl } from "./recipe-media";
 import {
+  getCategoryPagePath,
+  getLandingPagePath,
   getLocaleHomePath,
   getRecipeLanguageAlternates,
   getRecipePath,
@@ -119,8 +122,23 @@ const landingCopy: Record<
     searchLabel: string;
     searchPlaceholder: string;
     searchResults: string;
+    loadingSearch: string;
+    searchUnavailable: string;
     viewRecipe: string;
     footer: string;
+    categoryDirectoryEyebrow: string;
+    categoryDirectoryTitle: string;
+    categoryArchiveEyebrow: string;
+    categoryArchiveTitle: string;
+    categoryDescription: (name: string, count: number) => string;
+    categoryRecipeCount: (count: number) => string;
+    backToCatalog: string;
+    paginationNavigation: string;
+    previousPage: string;
+    nextPage: string;
+    currentPage: (currentPage: number, totalPages: number) => string;
+    landingPageTitle: (page: number) => string;
+    categoryPageTitle: (name: string, page: number) => string;
   }
 > = {
   en: {
@@ -136,8 +154,24 @@ const landingCopy: Record<
     searchLabel: "Search recipes",
     searchPlaceholder: "Search by title, ingredient, or method",
     searchResults: "recipes found",
+    loadingSearch: "Loading all recipes…",
+    searchUnavailable: "Search is temporarily unavailable. Browse with the page links below.",
     viewRecipe: "View recipe",
-    footer: "Made with care, one recipe at a time."
+    footer: "Made with care, one recipe at a time.",
+    categoryDirectoryEyebrow: "Browse by category",
+    categoryDirectoryTitle: "Find a recipe for the table.",
+    categoryArchiveEyebrow: "Category",
+    categoryArchiveTitle: "Recipes in this category",
+    categoryDescription: (name, count) =>
+      `Browse ${count} ${count === 1 ? "recipe" : "recipes"} in ${name}.`,
+    categoryRecipeCount: (count) => `${count} ${count === 1 ? "recipe" : "recipes"}`,
+    backToCatalog: "All recipes",
+    paginationNavigation: "Recipe pages",
+    previousPage: "Previous",
+    nextPage: "Next",
+    currentPage: (currentPage, totalPages) => `Page ${currentPage} of ${totalPages}`,
+    landingPageTitle: (page) => `Recipes from our family kitchen — Page ${page}`,
+    categoryPageTitle: (name, page) => `${name} recipes — Page ${page}`
   },
   fr: {
     title: "Les recettes de notre cuisine familiale",
@@ -152,8 +186,25 @@ const landingCopy: Record<
     searchLabel: "Rechercher des recettes",
     searchPlaceholder: "Rechercher par titre, ingrédient ou préparation",
     searchResults: "recettes trouvées",
+    loadingSearch: "Chargement de toutes les recettes…",
+    searchUnavailable:
+      "La recherche est temporairement indisponible. Parcourez les recettes avec les liens de page ci-dessous.",
     viewRecipe: "Voir la recette",
-    footer: "Préparé avec soin, une recette à la fois."
+    footer: "Préparé avec soin, une recette à la fois.",
+    categoryDirectoryEyebrow: "Parcourir par catégorie",
+    categoryDirectoryTitle: "Trouvez une recette pour la table.",
+    categoryArchiveEyebrow: "Catégorie",
+    categoryArchiveTitle: "Recettes de cette catégorie",
+    categoryDescription: (name, count) =>
+      `Parcourez ${count} ${count === 1 ? "recette" : "recettes"} dans ${name}.`,
+    categoryRecipeCount: (count) => `${count} ${count === 1 ? "recette" : "recettes"}`,
+    backToCatalog: "Toutes les recettes",
+    paginationNavigation: "Pages de recettes",
+    previousPage: "Précédent",
+    nextPage: "Suivant",
+    currentPage: (currentPage, totalPages) => `Page ${currentPage} sur ${totalPages}`,
+    landingPageTitle: (page) => `Les recettes de notre cuisine familiale — Page ${page}`,
+    categoryPageTitle: (name, page) => `${name} — Page ${page}`
   },
   ru: {
     title: "Рецепты нашей семейной кухни",
@@ -168,8 +219,25 @@ const landingCopy: Record<
     searchLabel: "Поиск рецептов",
     searchPlaceholder: "Искать по названию, ингредиенту или способу",
     searchResults: "рецептов найдено",
+    loadingSearch: "Загружаются все рецепты…",
+    searchUnavailable:
+      "Поиск временно недоступен. Просматривайте рецепты с помощью ссылок на страницы ниже.",
     viewRecipe: "Посмотреть рецепт",
-    footer: "С заботой, по одному рецепту за раз."
+    footer: "С заботой, по одному рецепту за раз.",
+    categoryDirectoryEyebrow: "Поиск по категориям",
+    categoryDirectoryTitle: "Найдите рецепт для общего стола.",
+    categoryArchiveEyebrow: "Категория",
+    categoryArchiveTitle: "Рецепты этой категории",
+    categoryDescription: (name, count) =>
+      `Просмотрите ${count} ${count === 1 ? "рецепт" : "рецептов"} в категории «${name}».`,
+    categoryRecipeCount: (count) => `${count} ${count === 1 ? "рецепт" : "рецептов"}`,
+    backToCatalog: "Все рецепты",
+    paginationNavigation: "Страницы рецептов",
+    previousPage: "Назад",
+    nextPage: "Далее",
+    currentPage: (currentPage, totalPages) => `Страница ${currentPage} из ${totalPages}`,
+    landingPageTitle: (page) => `Рецепты нашей семейной кухни — Страница ${page}`,
+    categoryPageTitle: (name, page) => `${name} — Страница ${page}`
   }
 };
 
@@ -177,23 +245,51 @@ export function getLandingCopy(locale: Locale) {
   return landingCopy[locale];
 }
 
-export function getLandingMetadata(locale: Locale): Metadata {
+export function getLandingMetadata(locale: Locale, page = 1): Metadata {
   const copy = getLandingCopy(locale);
-  const canonical = canonicalUrl(getLocaleHomePath(locale));
+  const canonical = canonicalUrl(getLandingPagePath(locale, page));
+  const title = page === 1 ? copy.title : copy.landingPageTitle(page);
 
   return {
-    title: copy.title,
+    title,
     description: copy.description,
     alternates: {
       canonical,
-      languages: getLandingLanguageLinks()
+      ...(page === 1 ? { languages: getLandingLanguageLinks() } : {})
     },
     openGraph: {
-      title: copy.title,
+      title,
       description: copy.description,
       url: canonical,
       siteName,
       locale: getOpenGraphLocale(locale)
+    }
+  };
+}
+
+export function getCategoryMetadata(
+  category: RecipeCategory,
+  page = 1
+): Metadata {
+  const copy = getLandingCopy(category.locale);
+  const title = page === 1
+    ? category.name
+    : copy.categoryPageTitle(category.name, page);
+  const description = copy.categoryDescription(category.name, category.recipes.length);
+  const canonical = canonicalUrl(getCategoryPagePath(category, page));
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName,
+      locale: getOpenGraphLocale(category.locale)
     }
   };
 }

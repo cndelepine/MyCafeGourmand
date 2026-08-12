@@ -46,6 +46,7 @@ export function runStaticBuild(
     const buildEnvironment = { ...environment };
     delete buildEnvironment[recipeMediaReleaseBuildModeEnvironmentVariable];
     run(command("npm"), ["run", "content:validate"], buildEnvironment);
+    run(command("npm"), ["run", "search:generate"], buildEnvironment);
     run(nextExecutable(), ["build"], buildEnvironment);
     run(command("npm"), ["run", "staticwebapp:generate"], buildEnvironment);
     return;
@@ -61,6 +62,7 @@ export function runStaticBuild(
   assertRecipeMediaBuildEnvironment(mode, buildEnvironment);
   run(command("npm"), ["run", "release:validate"], buildEnvironment);
   run(command("npm"), ["run", "content:validate"], buildEnvironment);
+  run(command("npm"), ["run", "search:generate"], buildEnvironment);
   run(nextExecutable(), ["build"], buildEnvironment);
   run(command("npm"), ["run", "staticwebapp:generate"], buildEnvironment);
   assertRecipeMediaBuildEnvironment(mode, buildEnvironment);

@@ -8,10 +8,14 @@ import {
 import path from "node:path";
 import test from "node:test";
 import { createRecipeMediaManifest } from "../src/content/media-manifest";
+import { recipeRecordSchema } from "../src/content/schema";
 import {
   ReleaseMediaOutputValidationError,
-  validateReleaseMediaOutput
+  validateReleaseMediaOutput,
+  validateStaticExportOutput
 } from "../scripts/validate-release-media-output";
+import { recipeFixture } from "./fixtures/recipe";
+import { getStaticPageParams } from "../src/lib/recipe-routes";
 
 const base = "https://media.example.test/recipe-container";
 const absoluteMedia = `${base}/recipes/media/wordpress/900.jpg`;
@@ -95,4 +99,41 @@ test("release output validation rejects wrong media URLs in every runtime payloa
       );
     });
   }
+});
+
+test("release output validation requires every generated category and pagination route", () => {
+  const catalog = Array.from({ length: 25 }, (_, index) => recipeRecordSchema.parse({
+    ...recipeFixture,
+    id: `test:release-route:${index + 1}`,
+    slug: `release-route-${index + 1}`,
+    source: {
+      ...recipeFixture.source,
+      recipeId: String(index + 1)
+    },
+    taxonomies: [{
+      scope: "editorial",
+      taxonomy: "category",
+      sourceId: "100",
+      sourceTaxonomyId: "200",
+      name: "Release routes",
+      slug: "release-routes"
+    }]
+  }));
+  const files = Object.fromEntries(
+    getStaticPageParams(catalog).map(({ segments }) => [
+      segments.length === 0 ? "index.html" : `${segments.join("/")}/index.html`,
+      "x"
+    ])
+  );
+
+  withOutput(files, (outputDirectory) => {
+    assert.deepEqual(
+      validateStaticExportOutput({ catalog, outputDirectory }),
+      {
+        bytes: getStaticPageParams(catalog).length,
+        files: getStaticPageParams(catalog).length,
+        routes: getStaticPageParams(catalog).length
+      }
+    );
+  });
 });

@@ -8,6 +8,7 @@ import {
   validateSafeLocalPath
 } from "../src/content/url-path";
 import {
+  validateCatalogBehavior,
   validateNormalizedRecipeDisplayText
 } from "../src/content/validation";
 
@@ -40,6 +41,17 @@ test("missing translations remain missing", () => {
   const catalog = validateCatalog([recipeFixture]);
 
   assert.deepEqual(catalog.map((record) => record.locale), ["en"]);
+});
+
+test("the promoted catalog has deterministic category, pagination, and sitemap coverage", () => {
+  const summary = validateCatalogBehavior(recipeCatalog);
+
+  assert.deepEqual(summary.categoriesByLocale, { en: 11, fr: 10, ru: 12 });
+  assert.deepEqual(summary.categoryMembershipsByLocale, { en: 224, fr: 246, ru: 263 });
+  assert.deepEqual(summary.landingPagesByLocale, { en: 7, fr: 8, ru: 8 });
+  assert.deepEqual(summary.categoryPagesByLocale, { en: 15, fr: 15, ru: 18 });
+  assert.equal(summary.staticPaths, 590);
+  assert.equal(summary.sitemapPaths, 590);
 });
 
 test("the schema rejects dangling media references", () => {

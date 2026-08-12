@@ -1,10 +1,20 @@
 import type { Locale, RecipeRecord } from "@/content/schema";
+import {
+  getCategoryCatalog,
+  getRecipeCategories,
+  type RecipeCategory
+} from "@/content/categories";
 import { resolveRecipeMediaUrl } from "./recipe-media";
-import { getRecipePath } from "./recipe-routes";
+import { getCategoryPath, getRecipePath } from "./recipe-routes";
 import { getRecipeSearchText, normalizeSearchText } from "./recipe-search";
 
+export type RecipeCatalogCategory = {
+  readonly name: string;
+  readonly path: string;
+};
+
 export type RecipeCatalogEntry = {
-  readonly category: string | null;
+  readonly categories: readonly RecipeCatalogCategory[];
   readonly description: string | null;
   readonly hero: {
     readonly alt: string | null;
@@ -20,17 +30,18 @@ export type RecipeCatalogEntry = {
 };
 
 export function createRecipeCatalogEntries(
-  recipes: readonly RecipeRecord[]
+  recipes: readonly RecipeRecord[],
+  categories: readonly RecipeCategory[] = getCategoryCatalog(recipes)
 ): readonly RecipeCatalogEntry[] {
   return recipes.map((recipe) => {
     const hero = recipe.recipe.heroMediaId === null
       ? undefined
       : recipe.media.find((asset) => asset.id === recipe.recipe.heroMediaId);
-    const category = recipe.taxonomies.find(
-      (taxonomy) => taxonomy.taxonomy === "category"
-    );
     return {
-      category: category?.name ?? null,
+      categories: getRecipeCategories(recipe, categories).map((category) => ({
+        name: category.name,
+        path: getCategoryPath(category)
+      })),
       description: recipe.description,
       hero: hero === undefined
         ? null

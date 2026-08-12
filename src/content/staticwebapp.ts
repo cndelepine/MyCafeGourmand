@@ -1,10 +1,10 @@
-import { localeValues, type RecipeRecord } from "./schema";
+import { type RecipeRecord } from "./schema";
 import {
   decodeLocalPath,
   localPathKey,
   validateSafeLocalPath
 } from "./url-path";
-import { getLocaleHomePath, getRecipePath } from "../lib/recipe-routes";
+import { getRecipePath, getStaticPageParams } from "../lib/recipe-routes";
 
 type RecipeRedirect = {
   source: string;
@@ -58,11 +58,15 @@ function getRecipeRedirectDestination(record: RecipeRecord) {
 }
 
 function canonicalPaths(records: readonly RecipeRecord[]) {
-  return new Set([
-    "/",
-    ...localeValues.map(getLocaleHomePath),
-    ...records.map(getRecipePath)
-  ].map(azurePathKey));
+  return new Set(
+    getStaticPageParams(records).map(({ segments }) =>
+      azurePathKey(
+        segments.length === 0
+          ? "/"
+          : `/${segments.map((segment) => encodeURIComponent(segment)).join("/")}`
+      )
+    )
+  );
 }
 
 export function buildRedirectManifest(

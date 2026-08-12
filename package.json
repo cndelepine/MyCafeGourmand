@@ -6,6 +6,7 @@
     "node": ">=22.13.0"
   },
   "scripts": {
+    "predev": "npm run search:generate",
     "dev": "next dev",
     "build": "npm run build:ci",
     "build:static": "tsx scripts/build-static.ts",
@@ -16,6 +17,7 @@
     "typecheck": "tsc --noEmit --incremental false",
     "test": "tsx --test test/*.test.ts",
     "content:validate": "tsx scripts/validate-content.ts",
+    "search:generate": "tsx scripts/generate-recipe-search-index.ts",
     "staticwebapp:generate": "tsx scripts/generate-staticwebapp.ts",
     "import:wprm-bulk": "tsx scripts/import-wordpress-wprm.ts",
     "import:recipe": "tsx scripts/import-wordpress-wprm.ts",

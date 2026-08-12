@@ -11,13 +11,16 @@ import {
   loadRecipeMediaManifest,
   type RecipeMediaManifest
 } from "../src/content/media-manifest";
+import type { RecipeRecord } from "../src/content/schema";
 import {
   requireRecipeMediaBaseUrl,
   resolveRecipeMediaUrl
 } from "../src/lib/recipe-media";
+import { getStaticPageParams } from "../src/lib/recipe-routes";
 
 const maxReleaseArtifactBytes = 16 * 1024 * 1024;
-const maxReleaseArtifacts = 100_000;
+export const maxAzureStaticWebAppsFiles = 15_000;
+export const maxAzureStaticWebAppsBytes = 250 * 1024 * 1024;
 const maxFlightJsonNesting = 256;
 const mediaObjectPath = "/recipes/media/wordpress/";
 const mediaObjectReference = new RegExp(
@@ -36,6 +39,17 @@ export type ReleaseMediaOutputValidationOptions = {
 export type ReleaseMediaOutputValidationResult = {
   readonly documents: number;
   readonly mediaUrls: number;
+};
+
+export type StaticExportOutputValidationOptions = {
+  readonly catalog: readonly RecipeRecord[];
+  readonly outputDirectory?: string;
+};
+
+export type StaticExportOutputValidationResult = {
+  readonly bytes: number;
+  readonly files: number;
+  readonly routes: number;
 };
 
 export class ReleaseMediaOutputValidationError extends Error {
@@ -65,7 +79,7 @@ function outputFiles(root: string) {
           visit(candidate);
         } else if (entry.isFile()) {
           files.push(candidate);
-          if (files.length > maxReleaseArtifacts) {
+          if (files.length > maxAzureStaticWebAppsFiles) {
             fail();
           }
         } else {
@@ -98,6 +112,74 @@ function readReleaseArtifact(file: string) {
   } catch {
     fail();
   }
+}
+
+function outputRoot(outputDirectory: string | undefined) {
+  const root = path.resolve(outputDirectory ?? path.join(process.cwd(), "out"));
+  let rootStats;
+  try {
+    rootStats = lstatSync(root);
+  } catch {
+    fail();
+  }
+  if (rootStats.isSymbolicLink() || !rootStats.isDirectory()) {
+    fail();
+  }
+  return root;
+}
+
+function outputFileSize(file: string) {
+  try {
+    const stats = lstatSync(file);
+    if (stats.isSymbolicLink() || !stats.isFile() || stats.size > maxReleaseArtifactBytes) {
+      fail();
+    }
+    return stats.size;
+  } catch (error) {
+    if (error instanceof ReleaseMediaOutputValidationError) {
+      throw error;
+    }
+    fail();
+  }
+}
+
+function staticPageFile(
+  outputDirectory: string,
+  segments: readonly string[]
+) {
+  const file = path.resolve(outputDirectory, ...segments, "index.html");
+  if (
+    file !== outputDirectory
+    && !file.startsWith(`${outputDirectory}${path.sep}`)
+  ) {
+    fail();
+  }
+  return file;
+}
+
+export function validateStaticExportOutput(
+  options: StaticExportOutputValidationOptions
+): StaticExportOutputValidationResult {
+  const root = outputRoot(options.outputDirectory);
+  const files = outputFiles(root);
+  const bytes = files.reduce((total, file) => {
+    const next = total + outputFileSize(file);
+    if (next > maxAzureStaticWebAppsBytes) {
+      fail();
+    }
+    return next;
+  }, 0);
+  const staticRoutes = getStaticPageParams(options.catalog);
+
+  for (const { segments } of staticRoutes) {
+    outputFileSize(staticPageFile(root, segments));
+  }
+
+  return {
+    bytes,
+    files: files.length,
+    routes: staticRoutes.length
+  };
 }
 
 function isUrlCharacter(value: string) {
@@ -327,16 +409,7 @@ export function validateReleaseMediaOutput(
   const base = requireRecipeMediaBaseUrl(options.mediaBaseUrl);
   const manifest = options.mediaManifest ?? loadRecipeMediaManifest();
   const expectedByUrl = expectedMediaUrls(manifest, base);
-  const root = path.resolve(options.outputDirectory ?? path.join(process.cwd(), "out"));
-  let rootStats;
-  try {
-    rootStats = lstatSync(root);
-  } catch {
-    fail();
-  }
-  if (rootStats.isSymbolicLink() || !rootStats.isDirectory()) {
-    fail();
-  }
+  const root = outputRoot(options.outputDirectory);
   let mediaUrls = 0;
   const seenKeys = new Set<string>();
   const files = outputFiles(root);
@@ -356,10 +429,17 @@ export function validateReleaseMediaOutput(
 }
 
 if (fileURLToPath(import.meta.url) === path.resolve(process.argv[1] ?? "")) {
-  try {
-    process.stdout.write(`${JSON.stringify(validateReleaseMediaOutput(), null, 2)}\n`);
-  } catch {
-    console.error("release-media-output-validation-failed");
-    process.exitCode = 1;
-  }
+  void import("../src/content/catalog")
+    .then(({ recipeCatalog }) => {
+      process.stdout.write(
+        `${JSON.stringify({
+          media: validateReleaseMediaOutput(),
+          staticExport: validateStaticExportOutput({ catalog: recipeCatalog })
+        }, null, 2)}\n`
+      );
+    })
+    .catch(() => {
+      console.error("release-media-output-validation-failed");
+      process.exitCode = 1;
+    });
 }
