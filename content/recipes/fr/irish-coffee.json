@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/irish-coffee/"
+  ],
   "title": "Irish coffee (café irlandais)",
   "description": "Il faut chauffer la tasse ou le verre avant de préparer.",
   "editorial": {

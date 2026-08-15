@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tarte-bourdaloue-aux-poires/"
+  ],
   "title": "Tarte Bourdaloue aux poires",
   "description": "Crème d’amande, poires et quelques amandes : un dessert pour les vrais gourmets.",
   "editorial": {

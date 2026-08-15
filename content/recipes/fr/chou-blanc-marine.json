@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/chou-blanc-marine/"
+  ],
   "title": "Chou blanc mariné",
   "description": null,
   "editorial": {

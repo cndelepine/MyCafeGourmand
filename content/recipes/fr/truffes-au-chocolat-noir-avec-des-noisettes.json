@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/truffes-au-chocolat-noir-avec-des-noisettes/"
+  ],
   "title": "Truffes au chocolat avec des noisettes",
   "description": "Les noisettes peuvent être remplacées par des noix, noix de pécan, noix de cajou ou macadamia. Par contre, il est important de griller les noix pour plus de saveur. Surtout, assurez-vous que vos amis n'ont pas d'allergie ! En cas de doute, préparez les truffes nature, elles sont aussi délicieuses !",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-concombre-et-feta-a-la-menthe/"
+  ],
   "title": "Salade de concombre et feta à la menthe",
   "description": "La feta est déjà salée donc attention de ne pas trop ajouter de sel.",
   "editorial": {

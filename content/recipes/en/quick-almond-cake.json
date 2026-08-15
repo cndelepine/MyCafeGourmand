@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/quick-almond-cake/"
+  ],
   "title": "Quick Almond Cake",
   "description": "You can use any cake pan you like or have. My favorite one is loaf pan, and I usually make it without the almonds on top. Easy to cut and easy to pack for lunch or picnic.",
   "editorial": {

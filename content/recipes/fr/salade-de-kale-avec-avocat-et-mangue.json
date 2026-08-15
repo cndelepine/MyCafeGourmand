@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-kale-avec-avocat-et-mangue/"
+  ],
   "title": "Salade de kale avec avocat et mangue",
   "description": null,
   "editorial": {

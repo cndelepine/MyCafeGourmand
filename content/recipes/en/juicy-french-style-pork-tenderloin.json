@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/juicy-french-style-pork-tenderloin/"
+  ],
   "title": "Juicy French Style Pork Tenderloin",
   "description": "The main ingredients in this dish are meat, mayonnaise, cheese and onion, lots of onion.",
   "editorial": {

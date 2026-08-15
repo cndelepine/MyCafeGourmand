@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chunky-guacamole/"
+  ],
   "title": "Chunky Guacamole",
   "description": "Guacamole can be served not only with tortilla chips, but also with fresh sliced vegetables, such as radishes, cucumber, or celery.",
   "editorial": {

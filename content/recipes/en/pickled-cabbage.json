@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/pickled-cabbage/"
+  ],
   "title": "Pickled Cabbage",
   "description": null,
   "editorial": {

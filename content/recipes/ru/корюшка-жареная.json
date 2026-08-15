@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%ba%d0%be%d1%80%d1%8e%d1%88%d0%ba%d0%b0-%d0%b6%d0%b0%d1%80%d0%b5%d0%bd%d0%b0%d1%8f/"
+  ],
   "title": "Корюшка жареная",
   "description": null,
   "editorial": {

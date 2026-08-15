@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/veloute-de-courgettes/"
+  ],
   "title": "Velouté de courgettes",
   "description": "Si vous aimez les cubes de bouillon Maggi, ajoutez un cube dans la soupe pendant la cuisson. Dans ce cas, il ne faut pas ajouter le sel, le poivre et les herbes séchées.",
   "editorial": {

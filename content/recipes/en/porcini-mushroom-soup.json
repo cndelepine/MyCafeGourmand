@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/porcini-mushroom-soup/"
+  ],
   "title": "Porcini mushroom soup",
   "description": "Excellent mushroom soup made of porcini (ceps)",
   "editorial": {

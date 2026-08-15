@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tian-de-legumes/"
+  ],
   "title": "Tian de légumes",
   "description": "Pour cette recette, il est préférable d'utiliser des légumes de la même taille : le plat aura l'air plus joli. Si l'aubergine est plus épaisse que les autres légumes, vous pouvez couper ses rondelles en deux parties.",
   "editorial": {

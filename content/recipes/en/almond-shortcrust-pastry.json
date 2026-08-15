@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/almond-shortcrust-pastry/"
+  ],
   "title": "Almond Shortcrust Pastry",
   "description": "I found this recipe on the French website Meilleur du Chef (https://www.meilleurduchef.com/fr/recette/pate-sablee-amande.html) and since then, I have not looked for any other options.\n\nHere is my translation from French. Try making this dough and baking a fruit or berry pie from it.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/puree-de-pommes-de-terre-doree-au-four/"
+  ],
   "title": "Purée de pommes de terre dorée au four",
   "description": "Préparez la purée selon votre goût : plus ou moins lisse; avec de la crème liquide ou du lait.",
   "editorial": {

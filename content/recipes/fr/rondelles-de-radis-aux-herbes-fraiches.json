@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/rondelles-de-radis-aux-herbes-fraiches/"
+  ],
   "title": "Rondelles de radis aux herbes fraîches",
   "description": "Si vous préférez, vous pouvez remplacer le vinaigre et l'huile par 1 cuillère à soupe de crème fraîche ou de yaourt nature.",
   "editorial": {

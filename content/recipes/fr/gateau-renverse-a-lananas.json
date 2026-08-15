@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-renverse-a-lananas/"
+  ],
   "title": "Gâteau renversé à l'ananas",
   "description": null,
   "editorial": {

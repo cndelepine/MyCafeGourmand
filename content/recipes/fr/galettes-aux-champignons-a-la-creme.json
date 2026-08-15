@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/galettes-aux-champignons-a-la-creme/"
+  ],
   "title": "Galettes aux champignons à la crème",
   "description": null,
   "editorial": {

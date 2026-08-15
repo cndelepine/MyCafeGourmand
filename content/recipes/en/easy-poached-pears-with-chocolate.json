@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/easy-poached-pears-with-chocolate/"
+  ],
   "title": "Easy poached pears with chocolate",
   "description": null,
   "editorial": {

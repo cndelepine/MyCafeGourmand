@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/lemon-rosemary-salmon/"
+  ],
   "title": "Lemon Rosemary Salmon",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/soupe-aux-frikadelkis/"
+  ],
   "title": "Soupe aux frikadelkis",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chocolate-king-cake-galette-des-rois/"
+  ],
   "title": "Chocolate King Cake (Galette des Rois)",
   "description": null,
   "editorial": {

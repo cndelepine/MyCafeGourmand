@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tarte-fine-aux-pommes/"
+  ],
   "title": "Tarte fine aux pommes",
   "description": "Vous pouvez servir cette tarte telle qu'elle est ou avec une boule de glace à la vanille.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/aubergines-en-eventail/"
+  ],
   "title": "Aubergines en éventail",
   "description": null,
   "editorial": {

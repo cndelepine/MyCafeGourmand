@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/vanilla-creme-brulee/"
+  ],
   "title": "Vanilla Crème brûlée",
   "description": "Use vanilla extract instead of vanilla bean, if you don't have vanilla bean. You could add 2 Tbsp. of rum into the cream if desired. If you don't own a blow torch, you can always use your broiler as well. You will need to move the top rack in your oven up as high as it will go.",
   "editorial": {

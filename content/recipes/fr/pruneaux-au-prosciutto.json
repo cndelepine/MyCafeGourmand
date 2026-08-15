@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/pruneaux-au-prosciutto/"
+  ],
   "title": "Pruneaux au prosciutto",
   "description": "Il est possible de cuire les pruneaux au prosciutto dans une poêle mais c'est meilleur et plus facile de les préparer au four.",
   "editorial": {

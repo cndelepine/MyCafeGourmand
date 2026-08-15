@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chocolate-cake-without-flour-sugar-butter-and-dairy-products/"
+  ],
   "title": "Chocolate cake without flour, sugar, butter and dairy products",
   "description": null,
   "editorial": {

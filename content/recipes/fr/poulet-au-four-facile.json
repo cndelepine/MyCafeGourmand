@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/poulet-au-four-facile/"
+  ],
   "title": "Poulet au four facile",
   "description": "Le temps de cuisson dépend de la taille du poulet : 1 heure pour 1 kg puis 5 minutes pour les 100 g. suivants.",
   "editorial": {

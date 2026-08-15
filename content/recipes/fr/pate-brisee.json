@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/pate-brisee/"
+  ],
   "title": "Pâte brisée",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/french-buckwheat-crepes-with-smoked-salmon/"
+  ],
   "title": "French Buckwheat Crepes with smoked salmon",
   "description": null,
   "editorial": {

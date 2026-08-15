@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tomates-farcies-au-fromage/"
+  ],
   "title": "Tomates farcies au fromage",
   "description": null,
   "editorial": {

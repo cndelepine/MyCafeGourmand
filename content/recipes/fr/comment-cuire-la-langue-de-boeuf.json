@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/comment-cuire-la-langue-de-boeuf/"
+  ],
   "title": "Comment cuire la langue de bœuf",
   "description": "La langue de bœuf cuite peut être utilisé pour des nombreuses recettes : en entrée froide, en salade ou en sandwich. Le bouillon peut être utilisé pour la préparation des soupes et des sauces.",
   "editorial": {

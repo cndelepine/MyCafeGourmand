@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/hachis-parmentier/"
+  ],
   "title": "Hachis Parmentier",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/peches-melba/"
+  ],
   "title": "Pêches Melba",
   "description": "Si vous êtes pressé(e) ou que ce n'est pas la saison des pêches, utiliser les pêches au sirop léger en conserve.",
   "editorial": {

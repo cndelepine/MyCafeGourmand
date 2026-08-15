@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%be%d0%b5-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5-%d0%b2-%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%b5/"
+  ],
   "title": "Мороженое в лимоне",
   "description": "Чтобы было легче работать с мороженым и сорбетом, достаньте их из морозилки и дайте постоять минуты 3 при комнатной температуре.",
   "editorial": {

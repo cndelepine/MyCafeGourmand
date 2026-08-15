@@ -159,6 +159,12 @@ export without the generated redirect validation. Hand-authored exact
 redirects participate in merged loop checks; wildcard redirect routes are
 rejected because their possible cycles cannot be proven statically.
 
+The migration resolver promises only exact recipe redirects: the published
+editorial post permalink, safe `_wp_old_slug` values on that same editorial
+parent, and enabled exact Redirection URL/301 rows that terminate at one
+promoted recipe. It does not promise taxonomy, feed, attachment, print,
+shortlink, or other historical WordPress routes.
+
 To preview the completed static export locally:
 
 ```sh
@@ -299,10 +305,22 @@ npm run import:wprm-bulk -- \
 ```
 
 Dry-run stdout is an aggregate privacy-safe manifest: it contains counts,
-numeric IDs, locales, safe issue codes, the whole decompressed-source hash,
-keyed candidate fingerprints, and reconciliation counters only. It never
-contains source wording, titles, bodies, slugs, URLs, filenames, timestamps,
-metadata values, or serialized payloads.
+numeric IDs, locales, stable issue codes, the whole decompressed-source hash,
+keyed candidate authentication values, and reconciliation counters only. It
+never contains source wording, titles, bodies, slugs, URLs, filenames,
+timestamps, metadata values, or serialized payloads. Redirect reporting is
+aggregate-only: canonical, `_wp_old_slug`, and Redirection-plugin rows are
+classified by accepted, unresolved, external/ambiguous, conflict, cycle, and
+unsupported outcomes, with locale totals and recipe counts.
+
+Before redirect resolution, the importer requires exactly one authoritative
+options table with `home`, `permalink_structure`, and `polylang` rows. The
+accepted contract is the approved HTTP/HTTPS origin, `/%postname%/`, and the
+Polylang settings `force_lang=1`, `hide_default=true`, `rewrite=true`,
+`redirect_lang=false`, and `default_lang=en`, with only `en`, `fr`, and `ru`
+locales. The origin is retained privately only to normalize same-origin
+absolute Redirection targets. Missing, duplicate, malformed, or unsupported
+settings fail closed; they never produce redirects.
 
 To create private schema-valid candidate files, use a staging-only path:
 
@@ -311,7 +329,7 @@ npm run import:wprm-bulk -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --write --staging-dir migration-output/wprm-bulk
+  --write --staging-dir migration-output/wprm-bulk-v9
 ```
 
 Candidate files are mode `0600` below numeric recipe-ID paths, and staging
@@ -355,6 +373,17 @@ reviews, and 15 non-published errors. Its status-aware reconciliation classifies
 4 candidates as publication-excluded and 14 as integrity-blocking without
 emitting source statuses or record values.
 
+The approved redirect pass is separately bounded and classified: 521 canonical
+editorial candidates, 519 promotion-eligible records, 48 safe old-slug
+candidates, and 185 Redirection rows (184 exact URL rows and one regex row).
+It accepts 519 canonical sources and 48 old-slug sources (567 unique sources
+and generated routes). Of the 185 plugin rows, 39 corroborate accepted
+canonical, old-slug, or current terminals and are counted as accepted and
+deduplicated evidence without adding routes; 145 remain unresolved, one is a
+regex row, and none are conflicts, unsupported, external, or cyclic. Rows
+terminating at excluded or unpromoted identities remain unresolved and are not
+routes.
+
 ### Authenticated WPRM promotion
 
 Promotion is a separate, explicit step. Before it can run, regenerate private
@@ -366,16 +395,16 @@ npm run import:wprm-bulk -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --write --staging-dir migration-output/wprm-bulk-v7
+  --write --staging-dir migration-output/wprm-bulk-v9
 ```
 
 The prior `wprm-bulk-import-v3` staging format intentionally cannot be resumed
-or promoted: it has no private media-byte bindings. The v7 mapper contract is
-intentionally incompatible with v6 because it authenticates the status-aware
+or promoted: it has no private media-byte bindings. The v9 mapper contract is
+intentionally incompatible with v8 because it authenticates the status-aware
 translation-closure model and fully validates non-public peers before deciding
 whether they are intentionally unavailable. Keep prior roots for audit if
 needed, then create a new private staging root as above rather than trusting or
-overwriting it. The v7 `media-bindings.json` is mode
+overwriting it. The v9 `media-bindings.json` is mode
 `0600`, contains only
 numeric attachment IDs, byte counts, and keyed digests, and must remain outside
 Git with the fingerprint key.
@@ -387,7 +416,7 @@ npm run promote:wprm -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v7 \
+  --staging-dir migration-output/wprm-bulk-v9 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --dry-run
 ```
@@ -448,10 +477,10 @@ non-text recipe data, and media differences still fail as collisions.
 
 WordPress Recipe Maker and WP Ultimate Recipe identifiers are import-time
 source concerns only; WP Ultimate Recipe signals remain unresolved and emit
-zero records. Redirect and old-slug candidates are classified but none are
-accepted until a canonical original-permalink resolver exists. Comments,
-ratings, and private data are excluded. Original-media handling is the
-separate authenticated Blob staging workflow below.
+zero records. Redirect and old-slug candidates are accepted only when their source identity
+terminates at one of the 519 promotion-eligible recipes; comments, ratings,
+and private data are excluded. Original-media handling is the separate
+authenticated Blob staging workflow below.
 
 ### Blob-backed recipe originals
 
@@ -464,7 +493,7 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v7 \
+  --staging-dir migration-output/wprm-bulk-v9 \
   --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --dry-run
@@ -481,7 +510,7 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v7 \
+  --staging-dir migration-output/wprm-bulk-v9 \
   --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --write --write-public-manifest
@@ -499,7 +528,7 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v7 \
+  --staging-dir migration-output/wprm-bulk-v9 \
   --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --write --resume --write-public-manifest

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/delicious-tomato-avocado-crostini/"
+  ],
   "title": "Delicious Tomato & Avocado Crostini",
   "description": "You can use french baguette or any brad that you like or have in your pantry.",
   "editorial": {

@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/tomatoes-stuffed-with-tuna/",
+    "/tuna-stuffed-tomatoes/"
+  ],
   "title": "Tuna stuffed tomatoes",
   "description": "Choose small-sized tomatoes if you want to make a starter out of this recipe, or cherry tomatoes to serve as an appetizer.",
   "editorial": {

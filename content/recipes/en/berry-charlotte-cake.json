@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/berry-charlotte-cake/"
+  ],
   "title": "Berry Charlotte Cake",
   "description": "Even though the berry season is only a few months out of the year, frozen berries allow us enjoying the sweet taste of summer year round.\nIf it is winter time or you happen to not finding any good berries at the store, use frozen ones, for the mousse and fresh ones for the decor.",
   "editorial": {

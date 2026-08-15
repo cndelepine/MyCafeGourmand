@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/caviar-de-cowboy/"
+  ],
   "title": "Caviar de cowboy",
   "description": "Cette salade peut être préparée avec des haricots noirs, rouges ou haricots à œil noir ou, encore, un mélange de différents types d'haricots. Le petit piment jalapeño peut être remplacé par 3 pincées de poivre de Cayenne en poudre.",
   "editorial": {

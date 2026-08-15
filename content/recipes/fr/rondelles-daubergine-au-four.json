@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/rondelles-daubergine-au-four/"
+  ],
   "title": "Rondelles d'aubergine au four",
   "description": "Les tomates ne sont pas nécessaires dans cette recette: elles sont surtout là pour ajouter de la couleur et rendre le plat plus appétissant.",
   "editorial": {

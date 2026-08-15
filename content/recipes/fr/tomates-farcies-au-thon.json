@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tomates-farcies-au-thon/"
+  ],
   "title": "Tomates farcies au thon",
   "description": "Choisissez des tomates de petite taille si vous voulez faire une entrée de cette recette, ou des tomates cerises pour servir en guise d’apéritif.",
   "editorial": {

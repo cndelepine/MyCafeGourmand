@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8/",
+    "/ru/%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8-%d1%81-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d1%8b%d0%bc-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d1%8b%d0%bc/"
+  ],
   "title": "Профитроли с ванильным мороженым",
   "description": "Для особых любителей шоколада ванильное мороженое можно заменить шоколадным.",
   "editorial": {

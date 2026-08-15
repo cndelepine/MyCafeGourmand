@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/taboule-aux-legumes-frais/"
+  ],
   "title": "Taboulé aux légumes frais",
   "description": "Le taboulé est très pratique à transporter en pique-nique ou pour un lunch au travail. Mais pensez aussi à ce plat pour une table de fête : présenté dans des verrines, en assiettes individuelles ou encore dans des tomates, il fera une entrée élégante et sophistiquée.",
   "editorial": {

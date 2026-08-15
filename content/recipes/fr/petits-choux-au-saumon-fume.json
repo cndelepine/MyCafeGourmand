@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/petits-choux-au-saumon-fume/"
+  ],
   "title": "Petits choux au saumon fumé",
   "description": null,
   "editorial": {

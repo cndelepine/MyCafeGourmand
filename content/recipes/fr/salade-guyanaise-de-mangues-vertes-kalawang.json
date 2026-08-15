@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-guyanaise-de-mangues-vertes-kalawang/",
+    "/fr/salade-guyanaise-de-mangues-vertes-%d0%baalawang/"
+  ],
   "title": "Salade guyanaise de mangues vertes (Кalawang)",
   "description": "Le piment oiseau peut être remplacé par le piment de Cayenne en poudre.",
   "editorial": {

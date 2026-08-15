@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/rondelles-de-concombre-avec-le-saumon-fume/"
+  ],
   "title": "Rondelles de concombre avec le saumon fumé",
   "description": null,
   "editorial": {

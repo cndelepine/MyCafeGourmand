@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/potato-salad-russian-salad/"
+  ],
   "title": "Potato salad (Russian salad)",
   "description": null,
   "editorial": {

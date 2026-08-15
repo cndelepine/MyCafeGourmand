@@ -83,7 +83,12 @@ export function buildRedirectManifest(
     }
   }
 
-  return validateRecipeRedirects(redirects, records);
+  const validated = validateRecipeRedirects(redirects, records);
+  return [...validated].sort((left, right) =>
+    azurePathKey(left.source).localeCompare(azurePathKey(right.source))
+      || left.source.localeCompare(right.source)
+      || left.destination.localeCompare(right.destination)
+  );
 }
 
 function validateRecipeRedirects(

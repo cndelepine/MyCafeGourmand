@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/feta-grillee-psiti/"
+  ],
   "title": "Feta grillée (Psiti)",
   "description": null,
   "editorial": {

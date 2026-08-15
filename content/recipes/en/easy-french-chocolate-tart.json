@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/easy-french-chocolate-tart/",
+    "/stunning-french-chocolate-tart/"
+  ],
   "title": "Easy French Chocolate Tart",
   "description": "Higher quality chocolate makes a better tart.\nDecorate the tart with nuts or raspberries.",
   "editorial": {

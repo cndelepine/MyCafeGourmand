@@ -34,6 +34,10 @@ import {
 } from "./wprm-import-contracts";
 import { normalizeWprmAttachmentFile } from "./wprm-import-map";
 import { uploadMatchedAttachmentCount } from "./wprm-import-contracts";
+import { resolveWprmRedirects } from "./wprm-import-redirects";
+import { loadHandAuthoredStaticWebAppConfig } from "../staticwebapp-config";
+import { loadRecipeCatalogWithSources } from "../../src/content/catalog";
+import { getStaticPageParams } from "../../src/lib/recipe-routes";
 
 const fatalIssueCodes = new Set<WprmIssueCode>([
   "missing-recipe-locale",
@@ -108,6 +112,47 @@ function numericIdSort(left: string, right: string) {
     : leftNumber > rightNumber
       ? 1
       : left.localeCompare(right);
+}
+
+function handAuthoredRoutePaths() {
+  const config = loadHandAuthoredStaticWebAppConfig(process.cwd());
+  if (
+    config === undefined
+    || typeof config !== "object"
+    || config === null
+    || !("routes" in config)
+    || !Array.isArray(config.routes)
+  ) {
+    return [];
+  }
+
+  return config.routes.flatMap((route) =>
+    typeof route === "object"
+      && route !== null
+      && !Array.isArray(route)
+      && "route" in route
+      && typeof route.route === "string"
+      ? [route.route]
+      : []
+  );
+}
+
+function currentStaticRoutePaths() {
+  const routes = getStaticPageParams(loadRecipeCatalogWithSources().records).map(({ segments }) =>
+    segments.length === 0
+      ? "/"
+      : `/${segments.map((segment, index) =>
+        index === segments.length - 1 ? encodeURIComponent(segment) : segment
+      ).join("/")}`
+  );
+  return [
+    ...routes,
+    "/robots.txt",
+    "/sitemap.xml",
+    "/_search/en.json",
+    "/_search/fr.json",
+    "/_search/ru.json"
+  ];
 }
 
 function outcomeWithStatus(
@@ -243,7 +288,8 @@ function nonLaunchFieldReconciliation(
 function createManifest(
   snapshot: Awaited<ReturnType<typeof extractWprmSource>>,
   relations: ReturnType<typeof deriveWprmRelations>,
-  outcomes: readonly CandidateOutcome[]
+  outcomes: readonly CandidateOutcome[],
+  redirects = relations.redirects
 ): WprmSafeManifest {
   const ready = outcomes.filter((outcome) => outcome.status === "ready").length;
   const review = outcomes.filter((outcome) => outcome.status === "review").length;
@@ -266,7 +312,7 @@ function createManifest(
     classifyWprmCandidateDisposition(outcome.codes) === "integrity-blocking"
   ).length;
   return {
-    schemaVersion: 2,
+    schemaVersion: 4,
     kind: "wprm-bulk-import-manifest",
     source,
     candidates: {
@@ -278,7 +324,7 @@ function createManifest(
     },
     wpurSignals: snapshot.metadata.wpurSignalPosts.size,
     wpurRecordsEmitted: 0,
-    redirects: relations.redirects,
+    redirects,
     aggregate: {
       wprmPosts: outcomes.length,
       nonpublishRecipes: outcomes.filter((outcome) =>
@@ -296,8 +342,8 @@ function createManifest(
       wpurRecordsEmitted: 0,
       indexedAttachments: snapshot.graph.attachments.size,
       matchedAttachments: source.uploads.matchedAttachments,
-      redirectCandidates: relations.redirects.candidates,
-      acceptedRedirects: relations.redirects.accepted,
+      redirectCandidates: redirects.candidates,
+      acceptedRedirects: redirects.accepted,
       nonLaunchFields
     },
     privacy: {
@@ -527,7 +573,10 @@ export async function runWprmBulkImport(
         ? new Set<WprmIssueCode>(["duplicate-singular-meta"])
         : undefined
     );
-    mapped.push(candidate);
+    mapped.push({
+      ...candidate,
+      translationGroupId: relations.translationGroups.get(recipeId) ?? null
+    });
   }
   const outcomes = addCollisionErrors(mapped).map((outcome) => ({
     ...outcome,
@@ -535,8 +584,36 @@ export async function runWprmBulkImport(
       ? null
       : fingerprintCandidate(key, outcome.record)
   }));
-  let manifest = createManifest(snapshot, relations, outcomes);
-  let finalOutcomes = outcomes;
+  const redirectResolution = resolveWprmRedirects({
+    graph: snapshot.graph,
+    metadata: snapshot.metadata,
+    relations,
+    outcomes,
+    sourceTranslationGroups: relations.translationGroups,
+    options: snapshot.options,
+    staticRoutePaths: options.staticRoutePaths ?? currentStaticRoutePaths(),
+    azureRoutePaths: options.azureRoutePaths ?? handAuthoredRoutePaths(),
+    limits
+  });
+  const redirectedOutcomes = outcomes.map((outcome) => {
+    if (outcome.record === null) {
+      return outcome;
+    }
+    const redirectFrom = redirectResolution.byRecipeId.get(outcome.record.id) ?? [];
+    const record = redirectFrom.length === 0
+      ? outcome.record
+      : {
+        ...outcome.record,
+        redirectFrom: [...redirectFrom]
+      };
+    return {
+      ...outcome,
+      record,
+      fingerprint: fingerprintCandidate(key, record)
+    };
+  });
+  let manifest = createManifest(snapshot, relations, redirectedOutcomes, redirectResolution.manifest);
+  let finalOutcomes = redirectedOutcomes;
   if (write) {
     const mediaBindings = await bindStagedMedia(
       finalOutcomes,
@@ -553,7 +630,12 @@ export async function runWprmBulkImport(
     manifest = staged.manifest;
   } else if (!dryRun) {
     // The importer is intentionally safe by default; no mode means dry-run.
-    manifest = createManifest(snapshot, relations, finalOutcomes);
+    manifest = createManifest(
+      snapshot,
+      relations,
+      finalOutcomes,
+      redirectResolution.manifest
+    );
   }
   return {
     manifest,

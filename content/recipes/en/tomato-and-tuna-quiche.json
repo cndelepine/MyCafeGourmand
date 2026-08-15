@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/tomato-and-tuna-quiche/",
+    "/tomato-tuna-quiche/"
+  ],
   "title": "Tuna Quiche",
   "description": "I usually serve it with green salad. Aragula works the best.",
   "editorial": {

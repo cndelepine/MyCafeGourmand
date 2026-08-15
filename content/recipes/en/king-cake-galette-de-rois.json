@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/king-cake-galette-de-rois/"
+  ],
   "title": "King Cake (Galette des Rois)",
   "description": null,
   "editorial": {

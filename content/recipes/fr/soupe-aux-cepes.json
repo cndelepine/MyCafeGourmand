@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/soupe-aux-cepes/"
+  ],
   "title": "Soupe aux cèpes",
   "description": null,
   "editorial": {

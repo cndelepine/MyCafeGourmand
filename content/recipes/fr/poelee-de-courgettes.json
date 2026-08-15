@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/poelee-de-courgettes/"
+  ],
   "title": "Poêlée de courgettes",
   "description": "Les courgettes poêlées peuvent etre servies chaudes ou à température ambiante.",
   "editorial": {

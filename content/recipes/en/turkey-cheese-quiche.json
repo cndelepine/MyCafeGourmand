@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/turkey-cheese-quiche/"
+  ],
   "title": "Turkey and Cheese Quiche",
   "description": null,
   "editorial": {

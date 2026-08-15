@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/galettes-de-pommes-de-terre-draniki/"
+  ],
   "title": "Galettes de pommes de terre (Draniki)",
   "description": "Dans cette recette, vous pouvez remplacer le kefir par un mélange avec 2 cuillères à soupe de crème fraîche et 1 cuillère à soupe de lait.",
   "editorial": {

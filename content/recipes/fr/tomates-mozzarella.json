@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tomates-mozarella/",
+    "/fr/tomates-mozzarella/"
+  ],
   "title": "Tomates Mozzarella",
   "description": "Délicieuse entrée, parfaite pour l'été!",
   "editorial": {

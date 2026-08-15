@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/beef-beets-cabbage-borscht/"
+  ],
   "title": "Beets and beef borscht",
   "description": "Traditionally, Russian borscht is prepared with beef, but you can make it with any meat you like.",
   "editorial": {

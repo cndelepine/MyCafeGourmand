@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/almond-croissant/"
+  ],
   "title": "Almond Croissant",
   "description": "You can prepare the almond cream and fill the croissants in the evening. In the morning, all you have to do is take the croissants out of the fridge, preheat the oven and prepare the coffee while waiting for your delicious almond croissants to be cooked.",
   "editorial": {

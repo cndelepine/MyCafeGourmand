@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/pain-de-poisson-au-saumon/"
+  ],
   "title": "Pain de poisson au saumon",
   "description": "Ce plat se mange froid et il sera encore meilleur le lendemain. Préparez-le à l'avance.",
   "editorial": {

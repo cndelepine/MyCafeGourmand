@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/fruits-au-cognac/"
+  ],
   "title": "Fruits au cognac",
   "description": "Le cognac peut être remplacé par du whisky ou du brandy. Mais le cognac donne un goût et un arôme particulier et exquis!\n\nLes fruits et baies fraîches peuvent être remplacés par des fruits en conserves.",
   "editorial": {

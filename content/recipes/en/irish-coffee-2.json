@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/irish-coffee-2/"
+  ],
   "title": "Irish coffee",
   "description": "Heat the cup or glass before preparing.",
   "editorial": {

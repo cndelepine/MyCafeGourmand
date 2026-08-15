@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/jambon-a-la-macedoine-de-legumes/",
+    "/fr/roule-de-jambon-a-la-macedoine-de-legumes/"
+  ],
   "title": "Roulé de jambon à la macédoine de légumes",
   "description": null,
   "editorial": {

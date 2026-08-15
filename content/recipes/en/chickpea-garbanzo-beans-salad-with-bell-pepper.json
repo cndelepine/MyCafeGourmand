@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chickpea-garbanzo-beans-salad-with-bell-pepper/"
+  ],
   "title": "Chickpea salad with bell pepper",
   "description": "This salad can by served immediately or chilled for few hours to get all of its flavors.",
   "editorial": {

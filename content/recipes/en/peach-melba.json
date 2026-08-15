@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/peach-melba/"
+  ],
   "title": "Peach Melba",
   "description": "If you're in a hurry or you don't have fresh peaches, just use canned peaches.",
   "editorial": {

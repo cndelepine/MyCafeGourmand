@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/brookies/"
+  ],
   "title": "Brookie",
   "description": null,
   "editorial": {

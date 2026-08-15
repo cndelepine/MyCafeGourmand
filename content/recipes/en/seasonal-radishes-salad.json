@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/seasonal-radishes-salad/"
+  ],
   "title": "Seasonal Radishes Salad",
   "description": "If prefer it, you can replace the vinegar and oil with a tablespoon of sour cream or Greek yogurt .",
   "editorial": {

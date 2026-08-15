@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/confiture-aux-tomates-vertes/"
+  ],
   "title": "Confiture aux tomates vertes",
   "description": "J'utilise des tomates cerises vertes pour cette recette. Si vous avez des tomates assez grosses et avec une peau épaisse, il vaut mieux les ébouillanter pendant 30 secondes, les plonger dans l'eau très froide puis peler.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/liqueur-44/"
+  ],
   "title": "Liqueur 44",
   "description": null,
   "editorial": {

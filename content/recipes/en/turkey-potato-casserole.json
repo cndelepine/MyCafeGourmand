@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/turkey-potato-casserole/"
+  ],
   "title": "Turkey Potato Casserole",
   "description": null,
   "editorial": {

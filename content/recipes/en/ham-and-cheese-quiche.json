@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ham-and-cheese-quiche/"
+  ],
   "title": "Ham and cheese quiche",
   "description": null,
   "editorial": {

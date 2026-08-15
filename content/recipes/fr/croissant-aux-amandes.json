@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/croissant-aux-amandes/"
+  ],
   "title": "Croissant aux amandes",
   "description": "Une recette facile pour améliorer vos croissants!",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/smoked-salmon-puffs/"
+  ],
   "title": "Smoked Salmon Puffs",
   "description": null,
   "editorial": {

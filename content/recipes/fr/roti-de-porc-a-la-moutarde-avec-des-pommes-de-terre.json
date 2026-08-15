@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/roti-de-porc-a-la-moutarde-avec-des-pommes-de-terre/"
+  ],
   "title": "Rôti de porc à la moutarde avec des pommes de terre",
   "description": "Même pas besoin d'éplucher les pommes de terre.\nIl est pratique de cuire deux rôtis d'un seul coup. L'utilisation du four est optimisée et cela vous fera 2 repas, si vous ne mangez pas tout de suite ! ;)",
   "editorial": {

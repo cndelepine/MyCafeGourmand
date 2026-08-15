@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chocolate-chip-banana-nut-muffins/"
+  ],
   "title": "Chocolate Chip Banana Nut Muffins",
   "description": "I like to use brown sugar, it gives a beautiful color and a caramelized taste but this recipe can by made with white sugar too.",
   "editorial": {

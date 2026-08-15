@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-aux-endives-et-roquefort/"
+  ],
   "title": "Salade aux endives et Roquefort",
   "description": "Pas la peine de mesurer la quantité d'ingrédients: vous pouvez en mettre plus ou moins selon vos envies (ou ce qu'il vous reste dans le frigo).\n\nLe roquefort est assez salé donc on peut ne pas ajouter le sel.",
   "editorial": {

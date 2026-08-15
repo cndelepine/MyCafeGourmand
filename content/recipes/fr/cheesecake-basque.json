@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/cheesecake-basque/"
+  ],
   "title": "Cheesecake basque",
   "description": "Conseil important: la pâte doit être mélangée à petite vitesse pour ne pas ajouter des boules d'air.",
   "editorial": {

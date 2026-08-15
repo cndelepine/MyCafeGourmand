@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-classique-au-chocolat/"
+  ],
   "title": "Gâteau classique au chocolat",
   "description": null,
   "editorial": {

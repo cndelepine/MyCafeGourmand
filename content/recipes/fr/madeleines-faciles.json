@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/madeleines/",
+    "/fr/madeleines-faciles/"
+  ],
   "title": "Madeleines",
   "description": "Bien sûr, les madeleines doivent avoir une forme de coquillage, mais quand on n'a pas de moule à madeleines (par exemple en vacances) ou quand on n'a pas le temps pour la préparation, il est possible de cuire ce dessert dans un moule à muffins ou encore dans un grand moule à cake. Toujours délicieux !",
   "editorial": {

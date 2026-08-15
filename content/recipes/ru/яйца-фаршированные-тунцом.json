@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d1%8f%d0%b9%d1%86%d0%b0-%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d1%82%d1%83%d0%bd%d1%86%d0%be%d0%bc/"
+  ],
   "title": "Яйца фаршированные тунцом",
   "description": "В этом рецепте начинка делается не только из желтков, но и из белка, поэтому блюдо получается особенно нежным.",
   "editorial": {

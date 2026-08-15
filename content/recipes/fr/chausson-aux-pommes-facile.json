@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/chausson-aux-pommes-facile/"
+  ],
   "title": "Chausson aux pommes facile",
   "description": "Une recette facile pour preparer cette delicieuse viennoiserie aux pommes.",
   "editorial": {

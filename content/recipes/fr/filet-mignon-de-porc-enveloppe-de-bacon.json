@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/filet-mignon-de-porc-enveloppe-de-bacon/"
+  ],
   "title": "Filet mignon de porc enveloppé de bacon",
   "description": "Pour vérifier la cuisson de viande, il est très pratique d'utiliser un thermomètre de cuisine. Mais je n'en ai pas... Je pique la viande avec la lame d'un couteau, c'est prêt quand le jus qui s'écoule est transparent. Et n'oubliez pas vérifier la cuisson des pommes de terre, aussi en les piquant avec le couteau.",
   "editorial": {

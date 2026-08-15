@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/french-chocolate-cake/"
+  ],
   "title": "French Chocolate Cake",
   "description": null,
   "editorial": {

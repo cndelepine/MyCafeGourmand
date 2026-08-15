@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/prosciutto-rolls-ups-with-boursin/"
+  ],
   "title": "Prosciutto Rolls Ups with Boursin™",
   "description": null,
   "editorial": {

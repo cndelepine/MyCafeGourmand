@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/citron-givre/"
+  ],
   "title": "Citron givré",
   "description": "La glace et le sorbet sont plus facileс à travailler si on les fait sortir du réfrigérateur et laisse reposer environ 3 minutes à la température ambiante avant de commencer à remplir les citrons.",
   "editorial": {

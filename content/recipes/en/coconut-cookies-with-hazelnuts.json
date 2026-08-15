@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/coconut-cookies/",
+    "/coconut-cookies-with-hazelnuts/"
+  ],
   "title": "Coconut cookies with hazelnuts",
   "description": "You can use walnuts or pecans.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fried-mushrooms-with-sour-cream/"
+  ],
   "title": "Fried mushrooms with sour cream",
   "description": "This dish can be served with boiled potatoes, mashed potatoes or rice.",
   "editorial": {

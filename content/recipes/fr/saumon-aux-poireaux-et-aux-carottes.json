@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/saumon-au-poireau-et-aux-carottes/",
+    "/fr/saumon-aux-poireaux-et-aux-carottes/"
+  ],
   "title": "Saumon aux poireaux et aux carottes",
   "description": null,
   "editorial": {

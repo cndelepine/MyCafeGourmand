@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-aux-noix-de-joelle/"
+  ],
   "title": "Gâteau aux noix de Joëlle",
   "description": null,
   "editorial": {

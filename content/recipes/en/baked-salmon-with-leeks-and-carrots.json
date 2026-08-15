@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/baked-salmon-with-leeks-and-carrots/"
+  ],
   "title": "Baked Salmon with Leeks and Carrots",
   "description": null,
   "editorial": {

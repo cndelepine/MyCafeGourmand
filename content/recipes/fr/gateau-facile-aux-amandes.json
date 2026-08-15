@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-facile-aux-amandes/"
+  ],
   "title": "Gâteau facile aux amandes",
   "description": "Ce gâteau peut être cuit dans n'importe quel moule. Le moule à cake est très pratique pour découper le gâteau et l'emporter au travail ou pour un pique-nique.\nCe cake reste délicieux sans les amandes qui sont optionnelles.",
   "editorial": {

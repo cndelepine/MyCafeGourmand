@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/verrines-a-la-ganache-au-chocolat-et-aux-framboises/",
+    "/fr/verrines-de-ganache-au-chocolat-et-framboises/"
+  ],
   "title": "Verrines à la ganache au chocolat et aux framboises",
   "description": null,
   "editorial": {

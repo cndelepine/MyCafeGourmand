@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/frosted-clementine-with-grand-marnier/"
+  ],
   "title": "Frosted clementine with Grand Marnier",
   "description": null,
   "editorial": {

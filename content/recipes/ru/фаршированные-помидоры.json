@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d1%8b/",
+    "/ru/%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d1%8b-%d0%bf%d0%be-%d0%b8%d1%82%d0%b0%d0%bb%d1%8c%d1%8f%d0%bd%d1%81%d0%ba/"
+  ],
   "title": "Фаршированные помидоры по-итальянски",
   "description": "Помидоры фаршируются рисом, базиликом, петрушкой и запекаются в духовке на ломтиках картофеля. Вегетарианский рецепт Pomidori ripieni di riso из книги итальянской кухни (Délices d'Italie Loukie Werle), которая меня ни разу не подвела.",
   "editorial": {

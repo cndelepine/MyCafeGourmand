@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/spinach-salad-with-strawberries/"
+  ],
   "title": "Spinach Salad with Strawberries",
   "description": null,
   "editorial": {

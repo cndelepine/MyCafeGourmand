@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/boursin-stuffed-mushrooms/"
+  ],
   "title": "Boursin Stuffed Mushrooms",
   "description": "The Boursin™ Garlic & Fine Herbs Cheese is aleredy salty enough so don't add more salt.\nOn the other end, if you like spicy food, season with pepper.",
   "editorial": {

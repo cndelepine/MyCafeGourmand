@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/poivrons-grilles-au-four/"
+  ],
   "title": "Mini poivrons grillés au four",
   "description": "Mini poivrons grillés au four sont faciles à préparer en saison.",
   "editorial": {

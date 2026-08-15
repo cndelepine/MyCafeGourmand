@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/potato-gratin-with-blue-cheese/"
+  ],
   "title": "Potato Gratin with Blue Cheese",
   "description": null,
   "editorial": {

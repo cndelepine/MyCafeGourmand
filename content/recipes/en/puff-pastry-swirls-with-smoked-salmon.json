@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/puff-pastry-swirls-with-smoked-salmon/"
+  ],
   "title": "Puff Pastry Swirls With Smoked Salmon",
   "description": "You can cut the puff pastry sheet in half and make two rolls, but this is only if you want to make them super tiny.",
   "editorial": {

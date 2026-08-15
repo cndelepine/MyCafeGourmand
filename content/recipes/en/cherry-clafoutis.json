@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/cherry-clafoutis/"
+  ],
   "title": "Cherry clafoutis",
   "description": "Here’s the classic version of cherry clafoutis made with pitted cherries. I recommend removing the pits — it’s much easier to eat that way!For a more elegant presentation, you can bake it in small molds or ramekins.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/easy-walnut-cake/"
+  ],
   "title": "Easy Walnut Cake",
   "description": null,
   "editorial": {

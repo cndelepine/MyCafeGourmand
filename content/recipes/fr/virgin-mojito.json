@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/virgin-mojito/"
+  ],
   "title": "Virgin mojito",
   "description": "Virgin mojito est une boisson sans alcool très rafraichissante en été.",
   "editorial": {

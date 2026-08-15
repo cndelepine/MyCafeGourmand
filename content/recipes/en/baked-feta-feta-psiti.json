@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/baked-feta-feta-psiti/"
+  ],
   "title": "Baked Feta (Feta Psiti)",
   "description": null,
   "editorial": {

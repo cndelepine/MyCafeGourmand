@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/terrine-au-thon-et-saumon-fume/"
+  ],
   "title": "Terrine au thon et saumon fumé",
   "description": null,
   "editorial": {

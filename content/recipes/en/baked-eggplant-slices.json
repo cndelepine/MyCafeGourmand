@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/baked-eggplant-slices/"
+  ],
   "title": "Baked eggplant slices",
   "description": "Tomatoes are not necessary in this recipe: they are mainly there to add color and make the dish more appetizing.",
   "editorial": {

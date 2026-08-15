@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/flourless-chocolate-cake/"
+  ],
   "title": "Flourless chocolate cake",
   "description": null,
   "editorial": {

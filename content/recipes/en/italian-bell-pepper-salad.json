@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/italian-bell-pepper-salad/"
+  ],
   "title": "Italian bell pepper salad",
   "description": "A delicious salad, found in an Italian cookbook (Délices d'Italie by Loukie Werle).\n\nA recipe that will please everyone, vegetarian or not. The peppers are roasted under the grill and then mixed with a tomato. An appetizer that is best eaten cold, so it can be prepared ahead of time.",
   "editorial": {

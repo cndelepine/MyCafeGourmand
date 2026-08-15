@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ice-cream-cake-iceberg/"
+  ],
   "title": "Ice Cream Cake Iceberg",
   "description": "My suggestion is to pick red sour berries for rich color and a sour taste.\nDrain the sour cream to avoid liquid.",
   "editorial": {

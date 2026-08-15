@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/walnut-pineapple-upside-down-cake/"
+  ],
   "title": "Walnut Pineapple Upside-Down Cake",
   "description": null,
   "editorial": {

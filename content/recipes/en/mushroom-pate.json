@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/mushroom-pate/"
+  ],
   "title": "Mushroom Pate",
   "description": null,
   "editorial": {

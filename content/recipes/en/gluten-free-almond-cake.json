@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/gluten-free-almond-cake/"
+  ],
   "title": "Gluten-free almond cake",
   "description": "Amandier",
   "editorial": {

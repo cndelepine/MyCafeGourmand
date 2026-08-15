@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/easy-apple-cake/"
+  ],
   "title": "Easy Apple Cake",
   "description": "Take sour apples for this recipe.",
   "editorial": {

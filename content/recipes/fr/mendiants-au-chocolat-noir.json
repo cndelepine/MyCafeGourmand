@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/mendiants-au-chocolat-noir/"
+  ],
   "title": "Mendiants au chocolat noir",
   "description": "Ces petites mignardises sont faciles à faire soi-même et les enfants seront ravis de vous aider. Les mendiants sont encore meilleurs si vous grillez les amandes et les noix avant de les concasser.",
   "editorial": {

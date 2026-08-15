@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/mouth-watering-venison-roast/"
+  ],
   "title": "Mouth Watering Venison Roast",
   "description": "Marinade is optional, but I always like my meat to be marinated before cooking.",
   "editorial": {

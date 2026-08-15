@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/soupe-au-poulet-et-au-chou-blanc/"
+  ],
   "title": "Soupe au poulet et au chou blanc",
   "description": null,
   "editorial": {

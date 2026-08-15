@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/appetizer-shishito-peppers/"
+  ],
   "title": "Appetizer Shishito peppers",
   "description": "Minimal preparation for an excellent appetizer (or side dish).\n\nYou can serve them with soy sauce for dipping.",
   "editorial": {

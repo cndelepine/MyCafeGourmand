@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ratatouille-2/"
+  ],
   "title": "Ratatouille",
   "description": "My version of the ratatouille that you can prepare the day before and in any season. Serve it as a main dish or side dish.",
   "editorial": {

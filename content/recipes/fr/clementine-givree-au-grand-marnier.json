@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/clementine-givree-au-grand-marnier/"
+  ],
   "title": "Clémentine givrée au Grand Marnier",
   "description": null,
   "editorial": {

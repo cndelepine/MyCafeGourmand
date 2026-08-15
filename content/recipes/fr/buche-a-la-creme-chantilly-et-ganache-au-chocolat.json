@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/buche-a-la-creme-chantilly-et-ganache-au-chocolat/"
+  ],
   "title": "Bûche à la crème chantilly et ganache au chocolat",
   "description": "Bûche à la crème chantilly et ganache au chocolat: un excellent dessert pour les fêtes de fin d'annee.",
   "editorial": {

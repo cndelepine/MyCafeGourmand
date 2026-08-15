@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/roasted-pumpkin-wedges/"
+  ],
   "title": "Roasted Pumpkin Wedges",
   "description": null,
   "editorial": {

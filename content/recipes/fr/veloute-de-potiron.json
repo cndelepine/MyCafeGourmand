@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/veloute-de-potiron/"
+  ],
   "title": "Velouté de potiron",
   "description": "Pour une présentation plus sophistiquée, servir la soupe dans des petits potirons individuels : évidez-les et réchauffez dans le four avant d'y verser la soupe.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/verrine-aux-mures-et-a-la-chantilly/"
+  ],
   "title": "Verrine aux mûres et à la chantilly",
   "description": null,
   "editorial": {

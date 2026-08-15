@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/asperges-vertes-au-vinaigre-balsamique/"
+  ],
   "title": "Asperges vertes au vinaigre balsamique",
   "description": "Les asperges blanches se préparent et se servent de la même façon. Ajustez le temps de cuisson en fonction de leur grosseur.",
   "editorial": {

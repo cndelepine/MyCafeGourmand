@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/cake-au-citron/"
+  ],
   "title": "Cake au citron",
   "description": "Ajuster la quantité de zeste selon l'intensité souhaitée. Si vous n'avez pas d'arôme de citron, augmenter la quantité de jus de citron pressé.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-a-la-canneberge/"
+  ],
   "title": "Gâteau à la canneberge",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-italien-aux-noix-et-cerises/"
+  ],
   "title": "Gâteau italien aux noix et cerises",
   "description": "Ce gâteau italien aux noix et cerises est ma version du livre \"Délices d'Italie\" de Loukie Werle. Vous allez adorer ce mariage cerises-noix.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/buttery-quiche-with-mushrooms/"
+  ],
   "title": "Quiche With Mushrooms",
   "description": null,
   "editorial": {

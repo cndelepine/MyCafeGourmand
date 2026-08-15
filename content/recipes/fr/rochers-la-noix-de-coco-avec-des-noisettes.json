@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/rochers-la-noix-de-coco/",
+    "/fr/rochers-la-noix-de-coco-avec-des-noisettes/"
+  ],
   "title": "Rochers à la noix de coco avec des noisettes",
   "description": "Ces rochers se conservent très bien dans le congélateur. Même pas besoin de décongeler à l'avance. Juste sortir les rochers à l'heure du café.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d1%81%d0%b0%d0%bb%d0%b0%d1%82-%d1%81-%d0%bd%d1%83%d1%82%d0%be%d0%bc-%d0%b8-%d1%84%d0%b5%d1%82%d0%be%d0%b9/"
+  ],
   "title": "Простой салат с нутом и фетой",
   "description": "Салат можно подавать на стол сразу или дать ему настояться несколько часов в холодильнике.",
   "editorial": {

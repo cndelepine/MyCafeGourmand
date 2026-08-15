@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d1%85%d1%83%d0%bc%d1%83%d1%81/"
+  ],
   "title": "Хумус",
   "description": "Чтобы получить желаемую консистенцию добавьте в хумус 1-2 ст.л. воды или жидкости от консервированного нута.",
   "editorial": {

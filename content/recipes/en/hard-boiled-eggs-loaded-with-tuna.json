@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/hard-boiled-eggs-loaded-with-tuna/"
+  ],
   "title": "Hard-Boiled Eggs Loaded With Tuna",
   "description": "To make the filling more smooth and fluffy I use not just egg yolks, but I also add one egg white.",
   "editorial": {

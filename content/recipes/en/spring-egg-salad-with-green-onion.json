@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/spring-egg-salad-with-green-onion/"
+  ],
   "title": "Spring Egg Salad With Green Onion",
   "description": "To avoid over salting your salad, taste the salad right after adding mayonnaise, and only then add salt and pepper. Don't squish the salad, it has to stay light and fluffy.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-riz-au-thon-et-aux-oeufs-durs/"
+  ],
   "title": "Salade de riz au thon et aux œufs durs",
   "description": "Pas la peine de mesurer la quantité d'ingrédients, vous pouvez en mettre plus ou moins selon vos envies (ou ce qu'il vous reste dans le frigo).",
   "editorial": {

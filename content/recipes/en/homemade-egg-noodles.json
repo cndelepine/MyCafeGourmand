@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/homemade-egg-noodles/"
+  ],
   "title": "Homemade Egg Noodles",
   "description": "If it's anyone's first time for making egg noodles, add the extra water or flour bits at a time until you get a dough that you can knee very easy and it will smooth out nice, when rolling on the floured surface.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ham-roll-with-mixed-vegetable-salad/"
+  ],
   "title": "Ham roll with Mixed Vegetable Salad",
   "description": null,
   "editorial": {

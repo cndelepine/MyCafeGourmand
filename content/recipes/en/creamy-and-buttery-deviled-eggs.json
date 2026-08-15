@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/creamy-and-buttery-deviled-eggs/",
+    "/stuffed-eggs/"
+  ],
   "title": "Stuffed Eggs",
   "description": "To cook a perfect boiled eggs, simply place eggs in a large saucepan. Cover them with cool water by 1 inch. Cover pan with a lid and bring to a boil over high heat, boil for 6 to 7 minutes over medium heat for perfect hard boiled eggs.",
   "editorial": {

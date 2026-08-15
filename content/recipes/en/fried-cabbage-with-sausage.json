@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fried-cabbage-with-sausage/"
+  ],
   "title": "Fried cabbage with sausage",
   "description": null,
   "editorial": {

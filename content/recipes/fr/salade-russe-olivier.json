@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-russe-olivier/"
+  ],
   "title": "Salade russe Olivier",
   "description": null,
   "editorial": {

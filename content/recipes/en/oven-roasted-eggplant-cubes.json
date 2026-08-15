@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/oven-roasted-eggplant-cubes/"
+  ],
   "title": "Oven Roasted Eggplant Cubes",
   "description": "If you are not a garlic lover like I am, add only 2-3 garlic cloves instead of a whole garlic bulb.",
   "editorial": {

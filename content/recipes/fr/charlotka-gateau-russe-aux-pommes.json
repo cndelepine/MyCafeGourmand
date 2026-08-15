@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/charlotka-gateau-russe-aux-pommes/"
+  ],
   "title": "Charlotka (Gâteau russe aux pommes)",
   "description": "Si les pommes sont trop sucrées, je les arrose avec du jus de citron fraîchement pressé.",
   "editorial": {

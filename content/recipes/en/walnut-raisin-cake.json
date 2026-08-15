@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/walnut-raisin-cake/"
+  ],
   "title": "Walnut Raisin Cake",
   "description": null,
   "editorial": {

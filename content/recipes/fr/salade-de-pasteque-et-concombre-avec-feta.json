@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-pasteque-et-concombre-avec-feta/"
+  ],
   "title": "Salade de pastèque et concombre avec feta",
   "description": "Assurez-vous de laisser la salade au réfrigérateur assez longtemps avant de servir.\nLe féta est assez salé: ne salez pas plus. J'ajoute seulement du poivre, de préférence fraîchement moulu.",
   "editorial": {

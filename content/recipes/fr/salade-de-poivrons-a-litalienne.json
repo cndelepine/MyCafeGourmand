@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-poivrons-a-litalienne/"
+  ],
   "title": "Salade de poivrons à l'italienne",
   "description": "Une délicieuse salade, trouvée dans un livre de cuisine italienne (Délices d'Italie de Loukie Werle).\n\nUne recette qui plaira à tous, végétarien ou pas. Les poivrons sont rôtis sous le gril puis mélangés avec une tomate. Un hors-d'oeuvre qui se déguste froid, donc il peut être préparé à l'avance.",
   "editorial": {

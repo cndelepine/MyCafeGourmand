@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chocolate-hazelnut-truffles/"
+  ],
   "title": "Chocolat Hazelnut Truffles",
   "description": "If you don't have hazelnuts, feel free to use almonds, cashews, walnuts or any other nuts you like. Just don't forget to roast them in the oven before making the truffles. Fresh nuts taste way better.",
   "editorial": {

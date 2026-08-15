@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chocolate-chip-walnut-cookies/"
+  ],
   "title": "Chocolate Chip and Nut Cookies",
   "description": "Dough balls may be frozen, which is very convenient when you have someone coming over. Don't forget to add some extra time to the baking.",
   "editorial": {

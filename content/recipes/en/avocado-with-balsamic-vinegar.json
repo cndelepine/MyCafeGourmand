@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/avocado-with-balsamic-vinegar/"
+  ],
   "title": "Avocado boats with balsamic vinegar",
   "description": "Eat avocado halves with tea spoon.",
   "editorial": {

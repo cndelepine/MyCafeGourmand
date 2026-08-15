@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/cucumber-and-feta-salad/"
+  ],
   "title": "Cucumber and feta salad",
   "description": "Feta cheese is naturally salty so be mindful to avoid adding too much salt.",
   "editorial": {

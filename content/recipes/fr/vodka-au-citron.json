@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/vodka-au-citron/"
+  ],
   "title": "Vodka au citron",
   "description": null,
   "editorial": {

@@ -45,6 +45,16 @@ CREATE TABLE `wp_redirection_items` (
   `action_code` varchar(10) NOT NULL,
   `action_data` text NULL
 );
+CREATE TABLE `wp_options` (
+  `option_id` bigint NOT NULL,
+  `option_name` varchar(191) NOT NULL,
+  `option_value` longtext NOT NULL
+);
+
+INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`) VALUES
+  (1, 'home', 'https://example.test/'),
+  (2, 'permalink_structure', '/%postname%/'),
+  (3, 'polylang', 'a:5:{s:10:"force_lang";i:1;s:12:"hide_default";b:1;s:7:"rewrite";b:1;s:13:"redirect_lang";b:0;s:12:"default_lang";s:2:"en";}');
 
 INSERT INTO `wp_posts`
   (`ID`, `post_type`, `post_status`, `post_parent`, `post_name`, `post_title`,

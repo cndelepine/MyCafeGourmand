@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/walnut-pie-with-plums/"
+  ],
   "title": "Walnut Cake with Plums",
   "description": null,
   "editorial": {

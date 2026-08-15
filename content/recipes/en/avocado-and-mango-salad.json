@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/avocado-and-mango-salad/"
+  ],
   "title": "Kale Salad with Avocado and Mango",
   "description": null,
   "editorial": {

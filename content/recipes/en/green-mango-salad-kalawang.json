@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/green-mango-salad-kalawang/",
+    "/green-mango-salad-%d0%baalawang/"
+  ],
   "title": "Green Mango Salade (Кalawang)",
   "description": "Fresh chili pepper can be substituted with chili powder.",
   "editorial": {

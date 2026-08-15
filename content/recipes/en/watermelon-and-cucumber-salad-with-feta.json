@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/watermelon-and-cucumber-salad-with-feta/"
+  ],
   "title": "Watermelon and Cucumber salad with Feta",
   "description": "The feta cheese is already salty, no need to add salt. Only pepper needs to be added, preferably freshly ground pepper.\nMake sure to leave the salad in the refrigerator long enough before serving.",
   "editorial": {

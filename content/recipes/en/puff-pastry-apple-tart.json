@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/puff-pastry-apple-tart/"
+  ],
   "title": "Puff pastry apple tart",
   "description": "Taste first your apples, then add more or less sugar to make tart perfect to your taste.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/oeufs-farcis/"
+  ],
   "title": "Œufs farcis",
   "description": "En fin de cuisson, pour écaler les œufs plus facilement, plongez-les dans l'eau glacée.",
   "editorial": {

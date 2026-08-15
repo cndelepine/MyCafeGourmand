@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/carottes-a-la-coreenne/"
+  ],
   "title": "Carottes à la coréenne",
   "description": "Au moment de servir, on peut saupoudrer la salade avec de la coriandre fraîche et des graines de sésame mais comme je l'avais déjà dit, la salade est tellement épicée que les graines de sésame ne jouent pas un rôle pour le goût.",
   "editorial": {

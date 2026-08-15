@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/hachis-parmentier-au-boeuf-hache/"
+  ],
   "title": "Hachis Parmentier au bœuf haché",
   "description": "Vous pouvez ajouter vos herbes ou épices préférés dans le bœuf haché.",
   "editorial": {

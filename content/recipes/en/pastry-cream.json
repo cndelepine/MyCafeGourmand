@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/pastry-cream/"
+  ],
   "title": "Pastry Cream",
   "description": "Pastry Cream is a delicate cream for custard cakes (eclairs, petits choux), Napoleon, mille-feuille, meringue and other sponge cakes.",
   "editorial": {

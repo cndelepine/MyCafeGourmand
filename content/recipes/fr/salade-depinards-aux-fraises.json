@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-depinards-aux-fraises/"
+  ],
   "title": "Salade d'épinards aux fraises",
   "description": null,
   "editorial": {

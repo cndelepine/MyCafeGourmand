@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tapenade-noire-aux-anchois/"
+  ],
   "title": "Tapenade noire aux anchois",
   "description": "Les anchois sont assez salés donc on n'ajoute pas du tout de sel dans la tapenade ! Si vous trouvez que les filets d'anchois sont particulièrement salés, augmentez la quantité d'olives ou d'huile d'olive.",
   "editorial": {

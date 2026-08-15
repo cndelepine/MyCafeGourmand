@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/pommes-duchesse/"
+  ],
   "title": "Pommes Duchesse",
   "description": null,
   "editorial": {

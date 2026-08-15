@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/cowboy-caviar/"
+  ],
   "title": "Cowboy caviar",
   "description": "The jalapeño can be replaced by a few pinches of chili powder.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chicken-noodle-soup/"
+  ],
   "title": "Chicken Noodle Soup",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/veloute-aux-petits-pois/"
+  ],
   "title": "Velouté aux petits pois",
   "description": "À servir bien chaud avec un peu de crème.",
   "editorial": {

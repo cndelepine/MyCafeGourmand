@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/whole-roast-duck-with-apple-and-cranberry-stuffing/",
+    "/whole-roast-duck-with-apples-and-cranberry-stuffing/"
+  ],
   "title": "Whole Roast Duck With Apples And Cranberry Stuffing",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-courgettes-crues/"
+  ],
   "title": "Salade de courgettes crues",
   "description": null,
   "editorial": {

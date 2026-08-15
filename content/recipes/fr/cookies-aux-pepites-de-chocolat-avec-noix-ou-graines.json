@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/cookies-aux-pepites-de-chocolat-avec-noix-ou-graines/"
+  ],
   "title": "Cookies aux pépites de chocolat avec des noix et des graines",
   "description": "Il est possible de préparer la pâte, la diviser en boules et congeler. Quand vous voulez préparer les cookies, vous pouvez les cuire sans décongeler mais le temps de cuisson va être plus long.",
   "editorial": {

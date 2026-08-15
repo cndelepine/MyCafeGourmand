@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/cucumber-tomato-green-onion-salad/"
+  ],
   "title": "Cucumber tomato & green onion salad",
   "description": "Adding any other vegetables to this salad is not prohibited!\nUse olive oil instead of sour cream if you don't like sour cream.",
   "editorial": {

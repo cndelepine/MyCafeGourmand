@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/syrniki-galettes-au-fromage-blanc-russe/"
+  ],
   "title": "Syrniki (Galettes au fromage blanc russe)",
   "description": "Vous pouvez préparer la pâte la veille, former les syrniki, les couvrir de film alimentaire et les mettre au réfrigérateur. Ainsi, au moment voulu, il ne vous restera plus qu'à les faire cuire dans une poêle jusqu'à ce qu'ils soient bien dorés et appétissants.",
   "editorial": {

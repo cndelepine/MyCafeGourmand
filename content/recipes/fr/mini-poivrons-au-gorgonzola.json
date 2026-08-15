@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/mini-poivrons-au-gorgonzola/"
+  ],
   "title": "Mini poivrons au gorgonzola",
   "description": null,
   "editorial": {

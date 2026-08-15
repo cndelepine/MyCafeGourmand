@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/roasted-eggplants-with-tomatoes/"
+  ],
   "title": "Roasted eggplants with tomatoes",
   "description": null,
   "editorial": {

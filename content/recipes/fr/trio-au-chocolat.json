@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/trio-au-chocolat/"
+  ],
   "title": "Trio au chocolat",
   "description": null,
   "editorial": {

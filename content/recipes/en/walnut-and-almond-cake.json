@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/walnut-and-almond-cake/"
+  ],
   "title": "Walnut and Almond Cake",
   "description": null,
   "editorial": {

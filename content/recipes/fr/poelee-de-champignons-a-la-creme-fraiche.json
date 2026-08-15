@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/poelee-de-champignons-a-la-creme-fraiche/"
+  ],
   "title": "Poêlée de champignons à la crème fraîche",
   "description": "Ce plat peut être servi avec des pommes de terre cuites à l'eau, de la purée de pommes de terre ou du riz.",
   "editorial": {

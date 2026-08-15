@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-facile-aux-pommes/"
+  ],
   "title": "Gâteau facile aux pommes",
   "description": "Il est plus facile et plus rapide de préparer la pâte à l'aide d'un mixeur bien qu'il soit possible de le faire avec un fouet. Choisissez des pommes acidulées pour cette recette.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/bread-kvass/"
+  ],
   "title": "Bread Kvass",
   "description": null,
   "editorial": {

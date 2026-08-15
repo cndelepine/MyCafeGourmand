@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/canard-farci-aux-pommes-et-aux-airelles/"
+  ],
   "title": "Canard farci aux pommes et aux airelles",
   "description": "Vous pouvez utiliser des airelles fraîches, surgelées ou séchées. N'oublier pas de sortir le canard du réfrigérateur 1h minimum avant de l'enfourner.",
   "editorial": {

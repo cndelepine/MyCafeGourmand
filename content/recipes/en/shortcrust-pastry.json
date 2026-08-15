@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/pate-brisee-pie-shell/",
+    "/shortcrust-pastry/"
+  ],
   "title": "Shortcrust pastry",
   "description": "Wrap the dough tightly in plastic wrap, then freeze. It can last up to 3 months.\n\nThis is also called pie crust pastry.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/french-pear-pie-tarte-bourdaloue/"
+  ],
   "title": "French Pear pie (Tarte Bourdaloue)",
   "description": "Almond cream, pears and some almonds: a dessert for real gourmets.",
   "editorial": {

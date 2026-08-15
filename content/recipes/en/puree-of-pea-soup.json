@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/puree-of-pea-soup/"
+  ],
   "title": "Pureed Pea Soup",
   "description": "It takes a lot less time to make this soup, compare to regular soups. All you have to do is chop up the vegetables into chunks, and don't worry about cutting them perfectly, soup will be blended anyway.",
   "editorial": {

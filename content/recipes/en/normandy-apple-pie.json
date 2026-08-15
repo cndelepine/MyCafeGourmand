@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/normandy-apple-pie/"
+  ],
   "title": "Normandy Apple Pie",
   "description": null,
   "editorial": {

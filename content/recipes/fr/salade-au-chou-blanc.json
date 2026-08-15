@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-au-chou-blanc/"
+  ],
   "title": "Salade au chou blanc",
   "description": "Salade est prête à être déguster tout de suite mais elle sera meilleure si elle est préparée a l'avance et laisse au réfrigérateur pendant quelques heures.",
   "editorial": {

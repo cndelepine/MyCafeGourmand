@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/galette-jambon-fromage/"
+  ],
   "title": "Galette Jambon Fromage",
   "description": null,
   "editorial": {

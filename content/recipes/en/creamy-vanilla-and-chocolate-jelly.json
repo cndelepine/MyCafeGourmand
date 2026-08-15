@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/creamy-vanilla-and-chocolate-jelly/"
+  ],
   "title": "Creamy Vanilla And Chocolate Jelly",
   "description": "You can also make it in one big baking pan and cut it into small squares.",
   "editorial": {

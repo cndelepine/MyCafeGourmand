@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/oeufs-surprise-au-thon/"
+  ],
   "title": "Œufs surprise au thon",
   "description": "Dans cette recette, pour la garniture j'utilise non seulement les jaunes d'œufs mais mais aussi un œuf entier : cela change légèrement la texture.",
   "editorial": {

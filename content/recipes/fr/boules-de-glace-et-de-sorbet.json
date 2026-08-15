@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/boules-de-glace-et-de-sorbet/"
+  ],
   "title": "Boules de glace et de sorbet",
   "description": "Achetez différents parfums de glace et de sorbet, préparez des topping de votre choix : la chantilly, le chocolat râpé, la sauce chocolat maison ou du commerce, les confitures, des noix ou noisettes grillées... Dans les ingrédients, j'ai juste noté mes parfums préférés.",
   "editorial": {

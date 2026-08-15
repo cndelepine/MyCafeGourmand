@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/three-layer-chocolate-mousse/"
+  ],
   "title": "Three layer chocolate mousse",
   "description": null,
   "editorial": {

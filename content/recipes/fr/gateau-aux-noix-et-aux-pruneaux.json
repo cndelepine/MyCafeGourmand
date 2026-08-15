@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-aux-noix-et-aux-pruneaux/"
+  ],
   "title": "Gâteau aux noix et aux pruneaux",
   "description": null,
   "editorial": {

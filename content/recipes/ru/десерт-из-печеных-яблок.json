@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b8%d0%b7-%d0%bf%d0%b5%d1%87%d0%b5%d0%bd%d1%8b%d1%85-%d1%8f%d0%b1%d0%bb%d0%be%d0%ba/"
+  ],
   "title": "Десерт из печеных яблок",
   "description": "Количество сахара зависит от сорта яблок.",
   "editorial": {

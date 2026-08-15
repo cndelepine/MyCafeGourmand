@@ -51,12 +51,15 @@ import {
   parseWordPressRecipeMediaObjectKey
 } from "../../src/content/media";
 import {
-  classifyWprmCandidateDisposition,
   wprmImportContractVersion,
   type CandidateOutcome,
   type WprmStagedMediaBinding,
   type WprmStagedMediaBindings
 } from "./wprm-import-contracts";
+import {
+  selectPromotionEligibleRecords,
+  WprmPromotionEligibilityError
+} from "./wprm-promotion-eligibility";
 import { normalizeWprmAttachmentFile } from "./wprm-import-map";
 import { runWprmBulkImport } from "./wprm-import-runner";
 import {
@@ -66,6 +69,7 @@ import {
 } from "./wprm-import-stage";
 import { normalizeWprmRichText } from "./html-to-text";
 import { resolveWprmUploadArchives } from "./wprm-import-source";
+import { loadHandAuthoredStaticWebAppConfig } from "../staticwebapp-config";
 
 const moduleDirectory = path.dirname(fileURLToPath(import.meta.url));
 export const defaultPromotionRepositoryRoot = realpathSync(path.resolve(moduleDirectory, "../.."));
@@ -154,6 +158,7 @@ type PlannedRecord = {
   readonly action:
     | "create"
     | "reuse"
+    | "replace-redirects"
     | "replace-normalized-display-text"
     | "replace-prototype";
 };
@@ -240,7 +245,7 @@ export type WprmPromotionOptions = {
 };
 
 export type WprmPromotionResult = {
-  readonly schemaVersion: 1;
+  readonly schemaVersion: 2;
   readonly kind: "wprm-promotion-result";
   readonly mode: "dry-run" | "write";
   readonly candidates: OutcomeCounts;
@@ -258,6 +263,7 @@ export type WprmPromotionResult = {
   readonly records: {
     readonly byLocale: Readonly<Record<Locale, number>>;
     readonly created: number;
+    readonly replacedRedirects: number;
     readonly replacedNormalizedDisplayText: number;
     readonly replacedPrototype: number;
     readonly reused: number;
@@ -269,7 +275,7 @@ export type WprmPromotionResult = {
     readonly reusedFromManifest: number;
   };
   readonly redirects: {
-    readonly published: 0;
+    readonly published: number;
   };
 };
 
@@ -696,9 +702,6 @@ function validateCandidateRecord(
   if (!canonicalEquals(record, expected.record)) {
     fail("staged-candidate-source-mismatch");
   }
-  if (record.redirectFrom.length !== 0) {
-    fail("unproven-redirect");
-  }
   return record;
 }
 
@@ -769,68 +772,35 @@ async function authenticateMediaBindings(staging: StagingPaths) {
   return new Map(parsed.entries.map((entry) => [entry.attachmentId, entry] as const));
 }
 
-function isPublicationExcludedOutcome(outcome: CandidateOutcome) {
-  return outcome.status === "error"
-    && classifyWprmCandidateDisposition(outcome.codes) === "publication-excluded";
-}
-
-function groupIntegrityBlockers(
-  members: readonly CandidateOutcome[],
-  selectedIds: ReadonlySet<string>
-) {
-  return members.filter((member) =>
-    !isPublicationExcludedOutcome(member)
-    && (member.status !== "ready" || !selectedIds.has(member.recipeId))
-  );
-}
-
-export function validatePromotionTranslationClosure(
+function selectEligibleRecords(
   selected: readonly RecipeRecord[],
   outcomes: readonly CandidateOutcome[],
-  existing: readonly RecipeRecord[],
-  sourceTranslationGroups?: ReadonlyMap<string, string | null>
+  sourceTranslationGroups: ReadonlyMap<string, string | null>
 ) {
-  const groups = sourceTranslationGroups ?? new Map(
-    outcomes.map((outcome) => [
-      outcome.recipeId,
-      outcome.record?.translationGroupId ?? null
-    ] as const)
-  );
-  const selectedIds = new Set(selected.map((record) => record.source.recipeId));
-  const allByGroup = new Map<string, CandidateOutcome[]>();
-  for (const outcome of outcomes) {
-    const groupId = groups.get(outcome.recipeId);
-    if (groupId === undefined) {
-      fail("source-translation-group-missing");
+  try {
+    return selectPromotionEligibleRecords(
+      selected,
+      outcomes,
+      sourceTranslationGroups
+    );
+  } catch (error) {
+    if (error instanceof WprmPromotionEligibilityError) {
+      fail(error.code);
     }
-    if (groupId === null) {
-      continue;
-    }
-    const members = allByGroup.get(groupId) ?? [];
-    members.push(outcome);
-    allByGroup.set(groupId, members);
+    throw error;
   }
+}
+
+function validateExistingTranslationCollisions(
+  selected: readonly RecipeRecord[],
+  existing: readonly RecipeRecord[]
+) {
+  const selectedIds = new Set(selected.map((record) => record.source.recipeId));
   const selectedGroups = new Set(
     selected
       .map((record) => record.translationGroupId)
       .filter((group): group is string => group !== null)
   );
-  for (const record of selected) {
-    const sourceGroup = groups.get(record.source.recipeId);
-    if (sourceGroup === undefined || sourceGroup !== record.translationGroupId) {
-      fail("source-translation-group-mismatch");
-    }
-    if (record.translationGroupId === null) {
-      continue;
-    }
-    const members = allByGroup.get(record.translationGroupId);
-    if (
-      members === undefined
-      || groupIntegrityBlockers(members, selectedIds).length > 0
-    ) {
-      fail("incomplete-translation-closure");
-    }
-  }
   for (const record of existing) {
     if (
       record.translationGroupId !== null
@@ -842,82 +812,46 @@ export function validatePromotionTranslationClosure(
   }
 }
 
+export function validatePromotionTranslationClosure(
+  selected: readonly RecipeRecord[],
+  outcomes: readonly CandidateOutcome[],
+  existing: readonly RecipeRecord[],
+  sourceTranslationGroups?: ReadonlyMap<string, string | null>
+) {
+  const groups = sourceTranslationGroups ?? new Map(
+    outcomes.map((outcome) => [
+      outcome.recipeId,
+      outcome.translationGroupId
+        ?? outcome.record?.translationGroupId
+        ?? null
+    ] as const)
+  );
+  const eligibility = selectEligibleRecords(selected, outcomes, groups);
+  const eligibleIds = new Set(
+    eligibility.selected.map((record) => record.source.recipeId)
+  );
+  if (
+    eligibleIds.size !== selected.length
+    || selected.some((record) => !eligibleIds.has(record.source.recipeId))
+  ) {
+    fail("incomplete-translation-closure");
+  }
+  validateExistingTranslationCollisions(selected, existing);
+}
+
 export function classifyPromotionTranslationClosure(
   selected: readonly RecipeRecord[],
   outcomes: readonly CandidateOutcome[],
   existing: readonly RecipeRecord[],
   sourceTranslationGroups: ReadonlyMap<string, string | null>
 ) {
-  const selectedIds = new Set(selected.map((record) => record.source.recipeId));
-  const membersByGroup = new Map<string, CandidateOutcome[]>();
-  for (const outcome of outcomes) {
-    const groupId = sourceTranslationGroups.get(outcome.recipeId);
-    if (groupId === undefined) {
-      fail("source-translation-group-missing");
-    }
-    if (groupId === null) {
-      continue;
-    }
-    const members = membersByGroup.get(groupId) ?? [];
-    members.push(outcome);
-    membersByGroup.set(groupId, members);
-  }
-  const blocked = new Map<string, CandidateOutcome[]>();
-  const publicationExcluded = new Map<string, CandidateOutcome[]>();
-  const integrityBlockers = new Map<string, CandidateOutcome[]>();
-  for (const record of selected) {
-    const groupId = sourceTranslationGroups.get(record.source.recipeId);
-    if (groupId === undefined || groupId !== record.translationGroupId) {
-      fail("source-translation-group-mismatch");
-    }
-    if (groupId === null) {
-      continue;
-    }
-    const members = membersByGroup.get(groupId);
-    if (members === undefined) {
-      blocked.set(groupId, []);
-      continue;
-    }
-    const excludedMembers = members.filter(isPublicationExcludedOutcome);
-    if (excludedMembers.length > 0) {
-      publicationExcluded.set(groupId, excludedMembers);
-    }
-    const blockers = groupIntegrityBlockers(members, selectedIds);
-    if (blockers.length > 0) {
-      blocked.set(groupId, blockers);
-      integrityBlockers.set(groupId, blockers);
-    }
-  }
-  const eligible = selected.filter((record) =>
-    record.translationGroupId === null
-    || !blocked.has(record.translationGroupId)
-  );
-  validatePromotionTranslationClosure(
-    eligible,
+  const eligibility = selectEligibleRecords(
+    selected,
     outcomes,
-    existing,
     sourceTranslationGroups
   );
-  const publicationExcludedPeerIds = new Set(
-    [...publicationExcluded.values()].flat().map((member) => member.recipeId)
-  );
-  const integrityBlockingMembers = [...integrityBlockers.values()].flat();
-  const integrityBlockingPeerIds = new Set(
-    integrityBlockingMembers.map((member) => member.recipeId)
-  );
-  const intentionallyPartialGroups = [...publicationExcluded.entries()]
-    .filter(([groupId]) => !blocked.has(groupId))
-    .length;
-  return {
-    selected: eligible,
-    excluded: selected.length - eligible.length,
-    blockedGroups: blocked.size,
-    intentionallyPartialGroups,
-    publicationExcludedPeers: publicationExcludedPeerIds.size,
-    integrityBlockingPeers: integrityBlockingPeerIds.size,
-    reviewPeers: integrityBlockingMembers.filter((member) => member.status === "review").length,
-    errorPeers: integrityBlockingMembers.filter((member) => member.status === "error").length
-  };
+  validateExistingTranslationCollisions(eligibility.selected, existing);
+  return eligibility;
 }
 
 function contentDestination(record: RecipeRecord, contentRoot: string) {
@@ -1105,6 +1039,19 @@ function isAuthorizedDisplayTextNormalizationReplacement(
   }
 }
 
+function isAuthorizedRedirectReplacement(
+  existing: RecipeRecord,
+  candidate: RecipeRecord
+) {
+  if (!provenanceEquals(existing, candidate)) {
+    return false;
+  }
+  return canonicalEquals(
+    { ...existing, redirectFrom: [] },
+    { ...candidate, redirectFrom: [] }
+  );
+}
+
 async function planRecords(
   selected: readonly RecipeRecord[],
   roots: PromotionRoots,
@@ -1142,11 +1089,15 @@ async function planRecords(
     destinations.add(destination);
     ids.add(record.id);
     localizedSlugs.add(localizedSlug);
-    const prototypeReplacement = destination === legacyDestination
-      && isAuthorizedPrototypeReplacement(record, prototypeSeed);
-
     const existingId = existingById.get(record.id);
     const existingSlug = existingBySlug.get(localizedSlug);
+    const existingAtDestination = existingId ?? existingSlug;
+    const prototypeReplacement = destination === legacyDestination
+      && isAuthorizedPrototypeReplacement(record, prototypeSeed)
+      && (
+        existingAtDestination === undefined
+        || existingAtDestination.record.id === prototypeSeed.id
+      );
     for (const existing of [existingId, existingSlug]) {
       if (existing === undefined) {
         continue;
@@ -1163,6 +1114,7 @@ async function planRecords(
         || !provenanceEquals(existing.record, record)
         || (
           !canonicalEquals(existing.record, record)
+          && !isAuthorizedRedirectReplacement(existing.record, record)
           && !isAuthorizedDisplayTextNormalizationReplacement(existing.record, record)
         )
       ) {
@@ -1210,6 +1162,10 @@ async function planRecords(
     }
     if (canonicalEquals(existingTarget.data, record)) {
       planned.push({ record, destination, action: "reuse" });
+      continue;
+    }
+    if (isAuthorizedRedirectReplacement(existingTarget.data, record)) {
+      planned.push({ record, destination, action: "replace-redirects" });
       continue;
     }
     if (isAuthorizedDisplayTextNormalizationReplacement(existingTarget.data, record)) {
@@ -3875,7 +3831,7 @@ function prospectiveCatalog(
 async function validateProspectivePromotion(
   roots: PromotionRoots,
   records: readonly PlannedRecord[],
-  staged: StagedPromotionPlan,
+  staged: StagedPromotionPlan | null,
   prototypeSeed: WprmPrototypeSeed,
   mediaManifest: PlannedMediaManifest
 ) {
@@ -3888,14 +3844,16 @@ async function validateProspectivePromotion(
       mediaManifest.manifest
     );
     validateRecipeMediaManifestClosure(catalog, mediaManifest.manifest);
-    if (staged.mediaManifest !== undefined) {
+    if (staged?.mediaManifest !== undefined) {
       const parsed = parseRecipeMediaManifest(await readRegularJson(staged.mediaManifest));
       if (!canonicalEquals(parsed, mediaManifest.manifest)) {
         fail("promotion-stage-failed");
       }
     }
     validateCatalogBehavior(catalog);
-    createStaticWebAppConfig(catalog);
+    createStaticWebAppConfig(catalog, {
+      handAuthoredConfig: loadHandAuthoredStaticWebAppConfig(roots.repositoryRoot)
+    });
   } catch (error) {
     if (error instanceof WprmPromotionError) {
       throw error;
@@ -4228,6 +4186,13 @@ async function applyPlan(
         if (hasFailureInjection(failureInjection, "after-normalized-display-text-replacement")) {
           fail("injected-promotion-failure");
         }
+      } else if (entry.action === "replace-redirects") {
+        await publishReplacement(
+          transaction,
+          stagedFile,
+          entry.destination,
+          "redirect-replacement-failed"
+        );
       } else {
         await publish(stagedFile, entry.destination);
       }
@@ -4309,12 +4274,9 @@ function validatePromotedCatalog(
   } catch {
     fail("invalid-promoted-catalog-behavior");
   }
-  for (const record of promoted) {
-    if (record.redirectFrom.length !== 0) {
-      fail("unproven-redirect");
-    }
-  }
-  createStaticWebAppConfig(catalog);
+  createStaticWebAppConfig(catalog, {
+    handAuthoredConfig: loadHandAuthoredStaticWebAppConfig(roots.repositoryRoot)
+  });
 }
 
 function localeCounts(records: readonly RecipeRecord[]) {
@@ -4490,7 +4452,7 @@ function promotionResult(
   write: boolean
 ): WprmPromotionResult {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     kind: "wprm-promotion-result",
     mode: write ? "write" : "dry-run",
     candidates: prepared.actualCounts,
@@ -4508,6 +4470,9 @@ function promotionResult(
     records: {
       byLocale: localeCounts(prepared.selected),
       created: prepared.records.filter((entry) => entry.action === "create").length,
+      replacedRedirects: prepared.records.filter(
+        (entry) => entry.action === "replace-redirects"
+      ).length,
       replacedNormalizedDisplayText: prepared.records.filter(
         (entry) => entry.action === "replace-normalized-display-text"
       ).length,
@@ -4527,7 +4492,10 @@ function promotionResult(
       ).length
     },
     redirects: {
-      published: 0
+      published: prepared.selected.reduce(
+        (total, record) => total + record.redirectFrom.length,
+        0
+      )
     }
   };
 }
@@ -4612,6 +4580,14 @@ export async function promoteWprmStaging(
           prepared.key,
           prepared.selected,
           options.failureInjection,
+          prepared.prototypeSeed,
+          prepared.mediaManifest
+        );
+      } else {
+        await validateProspectivePromotion(
+          prepared.roots,
+          prepared.records,
+          null,
           prepared.prototypeSeed,
           prepared.mediaManifest
         );

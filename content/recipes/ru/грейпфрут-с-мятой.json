@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%b3%d1%80%d0%b5%d0%b9%d0%bf%d1%84%d1%80%d1%83%d1%82-%d1%81-%d0%bc%d1%8f%d1%82%d0%be%d0%b9/"
+  ],
   "title": "Грейпфрут с мятой",
   "description": "Сладкоежки могут добавить щепотку сахара. В жаркий день, перед подачей на стол, охладите грейпфрут в холодильнике.",
   "editorial": {

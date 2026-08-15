@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/escalopes-de-porc-panees/",
+    "/fr/escalopes-de-porc-panes/"
+  ],
   "title": "Escalopes de porc panées",
   "description": "On peut aussi préparer des escalopes de poulet ou de dinde d'après cette recette,",
   "editorial": {

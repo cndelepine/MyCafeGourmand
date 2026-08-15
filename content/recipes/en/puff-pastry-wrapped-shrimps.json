@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/puff-pastry-wrapped-shrimps/"
+  ],
   "title": "Puff Pastry-Wrapped Shrimps",
   "description": null,
   "editorial": {

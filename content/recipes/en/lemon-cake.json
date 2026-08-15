@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/lemon-cake/",
+    "/lemon-loaf-lemon-cake/"
+  ],
   "title": "Lemon Cake",
   "description": null,
   "editorial": {

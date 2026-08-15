@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/ratatouille/"
+  ],
   "title": "Ratatouille",
   "description": "La ratatouille est encore meilleure quand elle est préparée la veille.",
   "editorial": {

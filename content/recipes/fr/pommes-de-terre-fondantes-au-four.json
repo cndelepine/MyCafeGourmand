@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/pommes-de-terre-fondantes-au-four/"
+  ],
   "title": "Pommes de terre fondantes au four",
   "description": null,
   "editorial": {

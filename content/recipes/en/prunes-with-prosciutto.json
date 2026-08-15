@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/prunes-with-prosciutto/"
+  ],
   "title": "Prunes with prosciutto",
   "description": "It is possible to cook the prosciutto prunes in a pan but it is better and easier to prepare them in the oven.",
   "editorial": {

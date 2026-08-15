@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/green-cabbage-carrot-slaw/"
+  ],
   "title": "Cabbage and carrot slaw",
   "description": "It tastes even better the next day.",
   "editorial": {

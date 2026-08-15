@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fresh-vegetable-salsa/"
+  ],
   "title": "Fresh Vegetable Salsa",
   "description": "If you don't have jalapeños, you can use chili powder. Lime can be replaced with a lemon. The taste will be different, but still delicious.",
   "editorial": {

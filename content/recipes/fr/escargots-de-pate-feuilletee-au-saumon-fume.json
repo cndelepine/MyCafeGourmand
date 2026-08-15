@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/escargots-de-pate-feuilletee-au-saumon-fume/"
+  ],
   "title": "Escargots de pâte feuilletée au saumon fumé",
   "description": null,
   "editorial": {

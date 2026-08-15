@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/petits-feuilletes-au-saumon/"
+  ],
   "title": "Petits feuilletés au saumon",
   "description": null,
   "editorial": {

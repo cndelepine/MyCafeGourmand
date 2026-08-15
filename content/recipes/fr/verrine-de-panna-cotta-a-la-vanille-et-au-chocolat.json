@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/verrine-de-panna-cotta-a-la-vanille-et-au-chocolat/"
+  ],
   "title": "Verrine de panna cotta à la vanille et au chocolat",
   "description": "Vous pouvez aussi préparer ce dessert dans un grand moule puis le découper en cubes avant de servir.",
   "editorial": {

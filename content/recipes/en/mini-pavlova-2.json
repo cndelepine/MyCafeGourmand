@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/mini-pavlova-2/"
+  ],
   "title": "Mini Pavlova dessert",
   "description": "I rarely use food coloring when baking. I like my desserts to have their original color. But if you are cooking for Valentine's Day or for a Princess party, you may add some food coloring to your dessert. This time, I used one tiny drop of red coloring to make the cream pink.",
   "editorial": {

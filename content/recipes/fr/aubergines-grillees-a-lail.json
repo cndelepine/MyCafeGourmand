@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/aubergines-grillees-a-lail/"
+  ],
   "title": "Aubergines grillées à l'ail",
   "description": "Je mets une tête d'ail entière, Si vous trouvez que c'est trop, vous pouvez utiliser que 3-4 gousses d'ail.",
   "editorial": {

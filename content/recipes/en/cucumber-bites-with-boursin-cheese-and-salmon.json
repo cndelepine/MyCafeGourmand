@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/cucumber-bites-with-boursin-cheese-and-salmon/"
+  ],
   "title": "Cucumber Bites With Boursin Cheese And Salmon",
   "description": "If you are not familiar with Boursin™ cheese or you don't have any, don't worry. A good substitute for Boursin is Philadelphia cream cheese or farmer cheese with some garlic and fresh herbs.",
   "editorial": {

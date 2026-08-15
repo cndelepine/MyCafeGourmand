@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/tomato-mozarella/"
+  ],
   "title": "Tomatoes Mozzarella",
   "description": "Enjoy this simple and refreshing dish!",
   "editorial": {

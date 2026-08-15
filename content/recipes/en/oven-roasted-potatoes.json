@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/oven-roasted-potatoes/"
+  ],
   "title": "Oven roasted potatoes",
   "description": null,
   "editorial": {

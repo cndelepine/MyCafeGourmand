@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%ba%d0%be%d0%bf%d1%87%d0%b5%d0%bd%d1%8b%d0%b9-%d0%bb%d0%be%d1%81%d0%be%d1%81%d1%8c-%d1%81%d0%be-%d1%81%d0%b2%d0%b5%d0%b6%d0%b8%d0%bc-%d0%be%d0%b3%d1%83%d1%80%d1%86%d0%be%d0%bc/"
+  ],
   "title": "Копченый лосось со свежим огурцом",
   "description": "Французский сыр Бурсен (Boursin™) можно заменить сливочным сыром Филадельфия или просто творогом, добавив в них специи, свежую мелко нарезанную зелень и немного чеснока.",
   "editorial": {

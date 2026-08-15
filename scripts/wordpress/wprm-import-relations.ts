@@ -356,7 +356,39 @@ function classifyRedirects(
     unsupported,
     unresolvedTarget,
     oldSlugCandidates: graph.oldSlugCount,
-    accepted: 0
+    accepted: 0,
+    canonicalCandidates: 0,
+    promotionEligibleCandidates: 0,
+    canonicalAccepted: 0,
+    oldSlugAccepted: 0,
+    pluginRows: graph.redirects.length,
+    pluginAccepted: 0,
+    pluginDeduplicated: 0,
+    pluginRegex: regex,
+    pluginUnsupported: unsupported,
+    pluginExternalOrAmbiguous: 0,
+    pluginUnresolved: unresolvedTarget,
+    pluginConflict: 0,
+    pluginCycle: 0,
+    plugin: {
+      rows: graph.redirects.length,
+      accepted: 0,
+      deduplicated: 0,
+      regex,
+      unsupported,
+      externalOrAmbiguous: 0,
+      unresolved: unresolvedTarget,
+      conflict: 0,
+      cycle: 0
+    },
+    uniqueAcceptedSources: 0,
+    recipesWithRedirects: 0,
+    localeCounts: {
+      en: 0,
+      fr: 0,
+      ru: 0
+    },
+    issueCodes: []
   };
 }
 

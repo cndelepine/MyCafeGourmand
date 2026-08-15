@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/easy-baked-chicken/"
+  ],
   "title": "Easy roasted chicken",
   "description": "To calculate the baking time for the chicken, a formula is usually used: 1 kg of chicken - 1 hour, plus 5 minutes for every subsequent 100 g, i.e., if the chicken weighs 1 kg 200 g, the baking time is 1 hour 10 minutes.\n\nPersonally, I never weigh the chicken, I rely on the color of the crust, and if there are any doubts, I pierce it with a knife or use a kitchen thermometer.",
   "editorial": {

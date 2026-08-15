@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/lemon-shells-stuffed-with-chocolate-ice-cream/",
+    "/lemon-shells-stuffed-with-ice-cream/"
+  ],
   "title": "Lemon Shells Stuffed With Ice Cream",
   "description": "It will be easier to work with lemon sorbet and chocolate ice cream if you remove it from the freezer 3 minutes before.",
   "editorial": {

@@ -22,7 +22,11 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/cottage-cheese-donut-ponchiki/",
+    "/fr/ponchiki-beignets-a-la-ricotta/",
+    "/fr/ponchiki-beignets-russes/"
+  ],
   "title": "Ponchiki (Beignets russes)",
   "description": "Pour vérifier si l'huile est assez chaude, plonger une cuillère en bois, si de petites bulles d'air apparaissent, elle est prête.",
   "editorial": {

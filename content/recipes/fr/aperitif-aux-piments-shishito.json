@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/aperitif-aux-piments-shishito/"
+  ],
   "title": "Apéritif aux piments Shishito",
   "description": "Préparation minimale pour un excellent appéritif (ou pour accompagner un plat).",
   "editorial": {

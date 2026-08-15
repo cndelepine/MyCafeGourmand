@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/vegetarian-tabbouleh-salad/"
+  ],
   "title": "Tabbouleh Salad",
   "description": "Tabbouleh Salad can be served as a main course or side dish.",
   "editorial": {

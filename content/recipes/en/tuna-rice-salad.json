@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/tuna-rice-salad/"
+  ],
   "title": "Tuna Rice Salad",
   "description": "You can add english cucumber to this salad.",
   "editorial": {

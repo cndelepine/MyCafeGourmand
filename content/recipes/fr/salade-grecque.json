@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-grecque/"
+  ],
   "title": "Salade grecque",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-pois-chiches-et-feta/"
+  ],
   "title": "Salade de pois chiches et feta",
   "description": "La feta est déjà assez salée. Donc salez avec parcimonie cette salade.",
   "editorial": {

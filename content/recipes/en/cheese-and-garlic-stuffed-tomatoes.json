@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/cheese-and-garlic-stuffed-tomatoes/",
+    "/herb-and-cheese-stuffed-tomatoes/"
+  ],
   "title": "Cheese and Garlic Stuffed Tomatoes",
   "description": null,
   "editorial": {

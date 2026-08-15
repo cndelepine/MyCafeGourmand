@@ -18,6 +18,7 @@ import path from "node:path";
 import test from "node:test";
 import { loadRecipeCatalog } from "../src/content/catalog";
 import { recipeRecordSchema } from "../src/content/schema";
+import { getRecipePath } from "../src/lib/recipe-routes";
 import { recipeFixture } from "./fixtures/recipe";
 import type { CandidateOutcome } from "../scripts/wordpress/wprm-import-contracts";
 import { runWprmBulkImport } from "../scripts/wordpress/wprm-import-runner";
@@ -402,7 +403,7 @@ test("promotion authenticates, records a media manifest, and resumes determinist
     assert.deepEqual(secondDryRun, firstDryRun);
     assert.equal(firstDryRun.mode, "dry-run");
     assert.equal(firstDryRun.records.created, firstDryRun.candidates.ready);
-    assert.equal(firstDryRun.redirects.published, 0);
+    assert.ok(firstDryRun.redirects.published > 0);
 
     const applied = await promoteWprmStaging(promotionOptions(fixtureValues, true));
     assert.equal(applied.mode, "write");
@@ -421,7 +422,7 @@ test("promotion authenticates, records a media manifest, and resumes determinist
     );
     assert.equal(records.length, readyIds.size);
     assert.ok(records.every((record) => readyIds.has(record.source.recipeId)));
-    assert.ok(records.every((record) => record.redirectFrom.length === 0));
+    assert.ok(records.some((record) => record.redirectFrom.length > 0));
 
     const publishedMedia = records.flatMap((record) => record.media);
     assert.ok(publishedMedia.length > 0);
@@ -466,6 +467,31 @@ test("a promotion with no unfinished journal leaves the production hashes unchan
     const result = await promoteWprmStaging(promotionOptions(fixtureValues));
     assert.equal(result.mode, "dry-run");
     assert.deepEqual(productionSnapshot(fixtureValues.repositoryRoot), before);
+  });
+});
+
+test("promotion dry-run rejects merged Azure redirect cycles", async () => {
+  await withPromotionFixture(async (fixtureValues) => {
+    const record = readyRecord(fixtureValues);
+    const source = record.redirectFrom[0];
+    assert.ok(source);
+    writeFileSync(
+      path.join(fixtureValues.repositoryRoot, "staticwebapp.config.json"),
+      `${JSON.stringify({
+        routes: [{
+          route: getRecipePath(record),
+          redirect: source,
+          statusCode: 301
+        }]
+      }, null, 2)}\n`
+    );
+
+    await assert.rejects(
+      promoteWprmStaging(promotionOptions(fixtureValues)),
+      (error: unknown) =>
+        error instanceof WprmPromotionError
+        && error.code === "invalid-prospective-catalog"
+    );
   });
 });
 

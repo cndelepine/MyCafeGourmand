@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/creme-a-tartiner-aux-champignons/"
+  ],
   "title": "Crème à tartiner aux champignons",
   "description": "Laisser quelques tranches de champignons pour la décoration.",
   "editorial": {

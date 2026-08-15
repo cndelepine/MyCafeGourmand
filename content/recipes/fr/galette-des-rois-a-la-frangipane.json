@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/galette-des-rois-a-la-frangipane/"
+  ],
   "title": "Galette des rois à la frangipane",
   "description": null,
   "editorial": {

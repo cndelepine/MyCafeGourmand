@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/poires-au-vin-rouge/"
+  ],
   "title": "Poires au vin rouge",
   "description": null,
   "editorial": {

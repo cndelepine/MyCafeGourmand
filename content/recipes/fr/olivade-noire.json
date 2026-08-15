@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/olivade-noire/"
+  ],
   "title": "Olivade noire",
   "description": "Une tapenade sans anchois ni câpres.",
   "editorial": {

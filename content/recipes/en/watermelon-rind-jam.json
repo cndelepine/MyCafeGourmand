@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/watermelon-rind-jam/"
+  ],
   "title": "Watermelon Rind Jam",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/quiche-au-thon/"
+  ],
   "title": "Quiche au thon",
   "description": null,
   "editorial": {

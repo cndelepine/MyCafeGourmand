@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/cake-marbre-au-chocolat/"
+  ],
   "title": "Cake marbré au chocolat",
   "description": null,
   "editorial": {

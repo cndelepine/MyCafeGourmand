@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/muffins-a-la-banane-avec-pepites-de-chocolat-et-noix/"
+  ],
   "title": "Muffins à la banane avec pépites de chocolat et noix",
   "description": "Pas la peine de peser la quantité de pépites de chocolat ou de noix : ajoutez-les plus ou moins selon vos envies du moment.",
   "editorial": {

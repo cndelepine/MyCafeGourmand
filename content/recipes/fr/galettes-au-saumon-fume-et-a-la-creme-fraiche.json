@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/galettes-au-saumon-fume-et-a-la-creme-fraiche/"
+  ],
   "title": "Galettes au saumon fumé et à la crème fraîche",
   "description": null,
   "editorial": {

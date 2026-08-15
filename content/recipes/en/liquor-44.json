@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/liquor-44/"
+  ],
   "title": "Liquor 44",
   "description": null,
   "editorial": {

@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/salmon-wrapped-in-puff-pastry-with-sour-cream/",
+    "/salmon-wrapped-in-puff-pastry-with-sour-cream-and-herbs/"
+  ],
   "title": "Salmon in Puff Pastry",
   "description": null,
   "editorial": {

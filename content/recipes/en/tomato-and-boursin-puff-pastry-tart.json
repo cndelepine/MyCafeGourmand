@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/tomato-and-boursin-puff-pastry-tart/"
+  ],
   "title": "Tomato and Boursin™ Puff Pastry Tart",
   "description": null,
   "editorial": {

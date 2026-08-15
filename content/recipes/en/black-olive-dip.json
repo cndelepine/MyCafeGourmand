@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/black-olive-dip/"
+  ],
   "title": "Black olive dip",
   "description": "Simplified version of tapenade without anchovies nor capers.",
   "editorial": {

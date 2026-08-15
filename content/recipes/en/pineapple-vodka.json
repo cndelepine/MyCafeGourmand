@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/pineapple-vodka/"
+  ],
   "title": "Pineapple vodka",
   "description": "Pineapple needs to be ripe and juicy. Vodka needs to be good. And don't think that ripe pineapple will save your bad quality vodka, or good vodka will make your green pineapple taste better!",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/poire-pochee/"
+  ],
   "title": "Poire pochée",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/homemade-hummus/"
+  ],
   "title": "Homemade Hummus",
   "description": "If you don't like spicy food, use paprika instead of chili powder, it makes the dish look pretty, and only slightly alters flavor.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/okroshka-cold-slavic-soup/"
+  ],
   "title": "Okroshka (Cold Slavic Soup)",
   "description": "The word \"okroshka\" come from Russian word \"kroshka\" (crumbs) and means \"made of crumbs\". All ingredients must be finely diced.",
   "editorial": {

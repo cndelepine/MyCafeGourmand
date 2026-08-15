@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/quiche-au-jambon/",
+    "/fr/quiches-au-jambon/"
+  ],
   "title": "Quiche au jambon",
   "description": null,
   "editorial": {

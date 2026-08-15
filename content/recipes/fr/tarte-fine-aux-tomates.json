@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tarte-fine-aux-tomates/"
+  ],
   "title": "Tarte fine aux tomates",
   "description": "Cette tarte peut être réalisée avec des tomates de même taille ou avec de diamètre varié : différentes couleurs et différentes sortes. Le plus important est qu'elles soient bien mûres et goûteuses.",
   "editorial": {

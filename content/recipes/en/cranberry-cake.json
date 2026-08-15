@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/cranberry-cake/"
+  ],
   "title": "Cranberry Cake",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/crostinis-la-tomate-et-avocat/"
+  ],
   "title": "Crostinis à la tomate et avocat",
   "description": null,
   "editorial": {

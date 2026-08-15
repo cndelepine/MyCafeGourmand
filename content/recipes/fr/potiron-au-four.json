@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/potiron-au-four/"
+  ],
   "title": "Potiron au four",
   "description": null,
   "editorial": {

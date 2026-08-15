@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/houmous/"
+  ],
   "title": "Houmous fait maison",
   "description": "Si vous n'aimez pas les plats épicés, utilisez plutôt le paprika que le poivre de Cayenne: il ajoute une jolie couleur mais n'as pas beaucoup de goût.",
   "editorial": {

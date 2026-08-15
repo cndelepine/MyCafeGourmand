@@ -22,7 +22,11 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/easy-madeleines/",
+    "/madeleines-2/",
+    "/madeleines-cookies/"
+  ],
   "title": "French Madeleines",
   "description": "To make an authentic madeleine, you will need a madeleine pan. But you can use a muffin pan or any cake pan.",
   "editorial": {

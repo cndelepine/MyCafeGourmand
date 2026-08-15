@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/brandied-fruit/"
+  ],
   "title": "Brandied Fruit",
   "description": "The brandy (or cognac) can be substituted by whisky. But cognac gives a special, exquisite taste and aroma!\n\nFresh fruits and berries can be replaced with canned fruits.",
   "editorial": {

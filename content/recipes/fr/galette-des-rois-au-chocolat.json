@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/galette-des-rois-au-chocolat/"
+  ],
   "title": "Galette des rois au chocolat",
   "description": null,
   "editorial": {

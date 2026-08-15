@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tomates-farcies-a-litalienne/"
+  ],
   "title": "Tomates farcies à l'italienne",
   "description": "Une recette succulente, trouvée dans un livre de cuisine italienne (Délices d'Italie de Loukie Werle). Les tomates sont farcies de riz et de basilic puis cuites au four sur un lit de pommes de terre. Une recette qui plaira à tous, végétarien ou pas.",
   "editorial": {

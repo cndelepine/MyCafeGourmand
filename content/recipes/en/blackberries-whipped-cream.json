@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/blackberries-whipped-cream/"
+  ],
   "title": "Fresh whipped cream with blackberries",
   "description": "The proportion for this recipe is for the mini glasses. If you are using regular wine glasses you'll get 2-3 servings.",
   "editorial": {

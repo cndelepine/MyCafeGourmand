@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gratin-dasperges-a-litalienne/"
+  ],
   "title": "Gratin d'asperges à l'italienne",
   "description": "Une recette succulente, trouvée dans un livre de cuisine italienne (Délices d'Italie de Loukie Werle).\n\nUne recette qui plaira à tous, végétarien ou pas.",
   "editorial": {

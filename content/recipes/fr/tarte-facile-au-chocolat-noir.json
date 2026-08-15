@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tarte-facile-au-chocolat-noir/"
+  ],
   "title": "Tarte facile au chocolat noir",
   "description": "Un chocolat de meilleure qualité égale une meilleure tarte...\n\nVous pouvez choisir des moules de différentes tailles pour une tartelette individuelle ou une tarte pour 6-8 personnes.",
   "editorial": {

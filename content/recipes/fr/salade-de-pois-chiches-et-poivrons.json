@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-pois-chiches-et-poivrons/"
+  ],
   "title": "Salade de pois chiches et poivrons",
   "description": "Cette salade peut être servie aussitôt après la préparation mais elle sera encore meilleure si on laisse les saveurs se développer pendant 2-3 heures au réfrigérateur.",
   "editorial": {

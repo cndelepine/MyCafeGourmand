@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/almond-flour-banana-bread/"
+  ],
   "title": "Almond Flour Banana Bread",
   "description": "Although the chocolate chips and walnuts are not mandatory, they add a whole new level of taste and texture to this cake.",
   "editorial": {

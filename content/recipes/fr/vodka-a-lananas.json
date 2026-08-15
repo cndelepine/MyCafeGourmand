@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/vodka-a-lananas/"
+  ],
   "title": "Vodka à l'ananas",
   "description": "Choisissez un ananas bien mûr, parfumé et juteux et une vodka de bonne qualité. Il ne faut pas espérer qu'une vodka va améliorer un ananas sans goût ou le goût d'ananas va cacher celui médiocre de la vodka. :)",
   "editorial": {

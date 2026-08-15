@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/cotes-de-porc-au-four/"
+  ],
   "title": "Côtes de porc au four",
   "description": null,
   "editorial": {

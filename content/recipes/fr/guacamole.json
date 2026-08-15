@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/guacamole/"
+  ],
   "title": "Guacamole",
   "description": "Un guacamole peut être servi non pas seulement avec des tortilla chips mais avec des légumes frais du jardin (des radis, des concombres, céleris ou des tomates cerises) taillés en rondelles ou en bâtonnets.",
   "editorial": {

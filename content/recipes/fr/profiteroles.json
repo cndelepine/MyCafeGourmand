@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/profiteroles/"
+  ],
   "title": "Profiteroles",
   "description": null,
   "editorial": {

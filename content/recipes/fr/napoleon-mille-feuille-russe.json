@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/napoleon-mille-feuille-russe/"
+  ],
   "title": "Napoléon (mille-feuille russe)",
   "description": null,
   "editorial": {

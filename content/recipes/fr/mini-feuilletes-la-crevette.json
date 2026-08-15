@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/mini-feuilletes-la-crevette/"
+  ],
   "title": "Mini-feuilletés à la crevette",
   "description": "Chaque crevette est emballée dans une fine couche de pâte feuilletée",
   "editorial": {

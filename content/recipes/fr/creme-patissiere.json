@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/creme-patissiere/"
+  ],
   "title": "Crème Pâtissière",
   "description": "La crème pâtissière) est une crème délicate essentielle pour de nombreux desserts: éclairs, petits choux, religieuses, mille-feuille, meringues et d'autres gâteaux.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/french-chocolate-macarons/"
+  ],
   "title": "French Chocolate Macarons",
   "description": "Please don't eat your macarons right away, wait until they reach ambient temperature. Macarons can be stored in the refrigerator for 5 days. Remove from the refrigerator 30 minutes before serving.",
   "editorial": {

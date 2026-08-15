@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-menthe-et-de-coriandre/"
+  ],
   "title": "Salade de menthe et de coriandre",
   "description": null,
   "editorial": {

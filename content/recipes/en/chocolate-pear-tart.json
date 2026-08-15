@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chocolate-pear-tart/"
+  ],
   "title": "Chocolate pear tart",
   "description": "The dough can be prepared by hand, in a food processor or using a mixer.",
   "editorial": {

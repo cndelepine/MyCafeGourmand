@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/golden-baked-mashed-potatoes/"
+  ],
   "title": "Golden Baked Мashed Potatoes",
   "description": "While you can just simply reheat mashed potatoes, or make pancakes, my favorite way to serve leftover mashed potatoes is this Fluffy Baked Mashed Potatoes.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chickpea-salad-with-feta-cheese/"
+  ],
   "title": "Chickpea Salad with Feta Cheese",
   "description": "The feta cheese is already salty enough, so salt the salad lightly.",
   "editorial": {

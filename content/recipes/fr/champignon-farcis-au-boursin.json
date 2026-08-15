@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/champignon-farcis-au-boursin/"
+  ],
   "title": "Champignon farcis au Boursin™",
   "description": "Le fromage Boursin™ est assez salé donc pas la peine d'en rajouter; par contre, si vous aimez les plats épicés, poivrez selon votre goût.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/meatballs-soup/"
+  ],
   "title": "Meatballs Soup",
   "description": "I like to make meatballs and cut all the vegetables before boiling the water for soup.",
   "editorial": {

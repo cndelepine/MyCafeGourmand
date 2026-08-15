@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/jambon-prosciutto-au-boursin/"
+  ],
   "title": "Jambon Prosciutto au Boursin™",
   "description": null,
   "editorial": {

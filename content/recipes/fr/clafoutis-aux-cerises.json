@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/clafoutis-aux-cerises/"
+  ],
   "title": "Clafoutis aux cerises",
   "description": "Voici la version classique du clafoutis aux cerises dénoyautées. Je vous conseille de retirer les noyaux : beaucoup plus pratique à manger!\n\nPour un service plus élégant, vous pouvez cuisiner dans des petits moules ou des ramequins.",
   "editorial": {

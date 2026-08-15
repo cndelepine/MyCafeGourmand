@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ground-beef-hardshell-tacos/"
+  ],
   "title": "Ground beef hardshell tacos",
   "description": null,
   "editorial": {

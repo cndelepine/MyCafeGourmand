@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/basque-cheesecake/"
+  ],
   "title": "Basque Cheesecake",
   "description": "Important tip: the batter should be mixed at low speed to avoid adding air bubbles.",
   "editorial": {

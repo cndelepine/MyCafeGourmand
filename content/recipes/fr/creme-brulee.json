@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/creme-brulee/"
+  ],
   "title": "Crème brûlée",
   "description": "Vous pouvez ajouter 1-2 cuillères à soupe de rhum dans la crème. La gousse de vanille peut être remplacée par le sucre vanille ou l'arôme de vanillé. Néanmoins, si vous avez le choix, utilisez la gousse : les petites graines de vanille apportent du goût et un arôme particulier.",
   "editorial": {

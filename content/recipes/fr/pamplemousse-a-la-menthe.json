@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/pamplemousse-a-la-menthe/"
+  ],
   "title": "Pamplemousse à la menthe",
   "description": "Si vous trouvez que le pamplemousse est trop acide, saupoudrez-le de quelques pincées de sucre en poudre. En été, avant de servir, placez le fruit dans le réfrigérateur pour le refroidir.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/mignardises-a-la-vanille/"
+  ],
   "title": "Mignardises à la vanille",
   "description": null,
   "editorial": {

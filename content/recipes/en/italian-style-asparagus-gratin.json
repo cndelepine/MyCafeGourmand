@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/italian-style-asparagus-gratin/"
+  ],
   "title": "Italian-style asparagus gratin",
   "description": "A succulent recipe found in an Italian cookbook (Italian Delights by Loukie Werle). A recipe that will please everyone, vegetarian or not.",
   "editorial": {

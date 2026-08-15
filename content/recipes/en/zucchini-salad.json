@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/zucchini-salad/"
+  ],
   "title": "Zucchini Salad",
   "description": null,
   "editorial": {

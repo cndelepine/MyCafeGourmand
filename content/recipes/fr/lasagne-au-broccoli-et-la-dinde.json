@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/lasagne-au-broccoli-et-la-dinde/"
+  ],
   "title": "Lasagnes au brocoli et à la dinde",
   "description": null,
   "editorial": {

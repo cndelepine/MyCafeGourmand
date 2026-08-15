@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/borsch/"
+  ],
   "title": "Borsch",
   "description": "Je vous le conseille de servir le borsch bien chaud avec de la crème fraîche épaisse et du pain au seigle. C'est bon aussi avec la baguette.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/cake-a-la-banane-avec-pepites-de-chocolat/"
+  ],
   "title": "Cake à la banane avec pépites de chocolat",
   "description": "Les noix et les pépites de chocolat sont optionnelles mais elles donnent une belle texture et un délicieux goût au dessert.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/sauteed-zucchini/"
+  ],
   "title": "Sautéed Zucchini",
   "description": null,
   "editorial": {

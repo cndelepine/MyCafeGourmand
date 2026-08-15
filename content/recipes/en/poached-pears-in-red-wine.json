@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/poached-pears-in-red-wine/"
+  ],
   "title": "Poached pears in red wine",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/rondelles-de-tomate-a-lail-et-au-fromage-rape/"
+  ],
   "title": "Rondelles de tomate à l'ail et au fromage râpé",
   "description": "Pour cette recette, presque tous les fromages à pâte dure conviennent.",
   "editorial": {

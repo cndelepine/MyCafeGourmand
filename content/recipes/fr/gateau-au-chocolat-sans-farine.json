@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gateau-au-chocolat-sans-farine/"
+  ],
   "title": "Gâteau au chocolat sans farine",
   "description": null,
   "editorial": {

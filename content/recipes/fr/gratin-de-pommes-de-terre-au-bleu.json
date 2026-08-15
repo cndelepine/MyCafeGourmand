@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/gratin-de-pommes-de-terre-au-bleu/"
+  ],
   "title": "Gratin de pommes de terre au bleu",
   "description": null,
   "editorial": {

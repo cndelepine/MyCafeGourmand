@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/feuillete-aux-tomates-et-fromage-frais/"
+  ],
   "title": "Feuilletée aux tomates et fromage frais",
   "description": "Pratique pour préparer à l'avance.",
   "editorial": {

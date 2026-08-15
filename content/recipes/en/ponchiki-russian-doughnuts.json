@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ponchiki-russian-doughnuts/"
+  ],
   "title": "Ponchiki (Russian Doughnuts)",
   "description": "If you couldn't find farmers cheese in your local grocery store, don't panic : use ricotta. This is a good substitute for farmers cheese. Very similar taste. But be sure to drain the water out of the ricotta.",
   "editorial": {

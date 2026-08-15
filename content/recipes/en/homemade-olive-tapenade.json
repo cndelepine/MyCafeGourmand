@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/homemade-olive-tapenade/"
+  ],
   "title": "Homemade Olive Tapenade",
   "description": "The anchovies are very salty. If you find your tapenade too salty, add more olives or olive oil.",
   "editorial": {

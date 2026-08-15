@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/salmon-loaf/",
+    "/salmon-terrine/"
+  ],
   "title": "Salmon Terrine",
   "description": "This Salmon Terrine is served cold and gets even better the next day. Very convenient to prepare in advance.",
   "editorial": {

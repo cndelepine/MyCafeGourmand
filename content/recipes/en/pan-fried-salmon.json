@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/pan-fried-salmon/"
+  ],
   "title": "Pan fried salmon",
   "description": null,
   "editorial": {

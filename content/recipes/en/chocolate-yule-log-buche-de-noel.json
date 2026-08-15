@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chocolate-yule-log-buche-de-noel/"
+  ],
   "title": "Chocolate Yule Log (Bûche de Noël)",
   "description": null,
   "editorial": {

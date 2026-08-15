@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/tomato-rounds-with-garlic-cheese/"
+  ],
   "title": "Tomato Rounds With Garlic & Cheese",
   "description": "Please don't use store-bought shredded cheese, it will not taste the same trust me, it is not so hard to shred the cheese after all.",
   "editorial": {

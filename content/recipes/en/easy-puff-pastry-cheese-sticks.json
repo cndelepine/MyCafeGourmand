@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/easy-puff-pastry-cheese-sticks/"
+  ],
   "title": "Easy Puff Pastry Cheese Sticks",
   "description": null,
   "editorial": {

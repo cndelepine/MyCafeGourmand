@@ -56,6 +56,8 @@ const allowedOptions = new Set([
   "max-total-uncompressed-bytes",
   "max-redirect-records",
   "max-old-slug-records",
+  "max-option-records",
+  "max-redirect-depth",
   "max-taxonomies-per-candidate",
   "max-media-per-candidate"
 ]);
@@ -167,6 +169,8 @@ function limitsFromArguments(args: Arguments): WprmImportLimitsInput | undefined
   }
   const maxRedirectRecords = numericOption(args, "max-redirect-records");
   const maxOldSlugRecords = numericOption(args, "max-old-slug-records");
+  const maxOptionRecords = numericOption(args, "max-option-records");
+  const maxRedirectDepth = numericOption(args, "max-redirect-depth");
   const maxTaxonomiesPerCandidate = numericOption(args, "max-taxonomies-per-candidate");
   const maxMediaPerCandidate = numericOption(args, "max-media-per-candidate");
   if (
@@ -175,6 +179,8 @@ function limitsFromArguments(args: Arguments): WprmImportLimitsInput | undefined
     && Object.keys(uploads).length === 0
     && maxRedirectRecords === undefined
     && maxOldSlugRecords === undefined
+    && maxOptionRecords === undefined
+    && maxRedirectDepth === undefined
     && maxTaxonomiesPerCandidate === undefined
     && maxMediaPerCandidate === undefined
   ) {
@@ -188,6 +194,8 @@ function limitsFromArguments(args: Arguments): WprmImportLimitsInput | undefined
     },
     ...(maxRedirectRecords === undefined ? {} : { maxRedirectRecords }),
     ...(maxOldSlugRecords === undefined ? {} : { maxOldSlugRecords }),
+    ...(maxOptionRecords === undefined ? {} : { maxOptionRecords }),
+    ...(maxRedirectDepth === undefined ? {} : { maxRedirectDepth }),
     ...(maxTaxonomiesPerCandidate === undefined ? {} : { maxTaxonomiesPerCandidate }),
     ...(maxMediaPerCandidate === undefined ? {} : { maxMediaPerCandidate })
   };

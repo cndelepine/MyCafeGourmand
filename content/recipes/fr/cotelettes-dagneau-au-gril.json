@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/cotelettes-dagneau-au-gril/"
+  ],
   "title": "Côtelettes d'agneau au gril",
   "description": "Le temps de cuisson dépend du four: surveillez les côtelettes de près pour ne pas surcuire ! Sortez la viande du réfrigérateur 1 heure avant de commencer la préparation.",
   "editorial": {

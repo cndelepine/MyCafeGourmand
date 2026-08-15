@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/sauce-au-chocolat/"
+  ],
   "title": "Sauce au chocolat",
   "description": "Cette sauce sera encore plus onctueuse avec de la crème liquide. Mais comme j'essaie de garder ma ligne, je la prépare le plus souvent avec du lait.",
   "editorial": {

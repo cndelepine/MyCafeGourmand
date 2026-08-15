@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/duchess-potatoes/"
+  ],
   "title": "Duchess Potatoes",
   "description": null,
   "editorial": {

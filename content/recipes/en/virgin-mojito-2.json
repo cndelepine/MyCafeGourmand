@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/virgin-mojito-2/"
+  ],
   "title": "Virgin Mojito",
   "description": null,
   "editorial": {

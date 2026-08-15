@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%be%d0%b2%d0%be-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d0%b5%d0%ba%d1%81/"
+  ],
   "title": "Бананово-миндальный кекс",
   "description": "Грецкие орехи и шоколадные капли необязательны в этом рецепте, но придают кексу дополнительный вкус, аромат и текстуру.",
   "editorial": {

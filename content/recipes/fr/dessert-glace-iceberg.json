@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/dessert-glace-iceberg/"
+  ],
   "title": "Dessert glacé Iceberg",
   "description": "Pour le coulis, choisissez des fruits acidulés et de couleur rouge vif.",
   "editorial": {

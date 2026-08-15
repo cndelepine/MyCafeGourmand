@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/buckwheat-crepes/"
+  ],
   "title": "Buckwheat Crepes",
   "description": "One of the most common tips you're likely to encounter for this buckwheat pancakes is to let the batter rest for at least 2 hours. If overnight, cover with plastic wrap and refrigerate.",
   "editorial": {

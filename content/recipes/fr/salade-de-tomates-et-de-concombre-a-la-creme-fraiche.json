@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-de-tomates-et-de-concombre-a-la-creme-fraiche/"
+  ],
   "title": "Salade de tomates et de concombre à la crème fraîche",
   "description": "N'hésitez pas de rajouter d'autres herbes fraîches du jardin.",
   "editorial": {

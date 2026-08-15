@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/creamy-zucchini-soup/"
+  ],
   "title": "Creamy Zucchini Soup",
   "description": "If you like Maggi broth cubes, add one to the soup while it is being boiled. By doing so, it is no longer needed to add salt, pepper, or herbs.",
   "editorial": {

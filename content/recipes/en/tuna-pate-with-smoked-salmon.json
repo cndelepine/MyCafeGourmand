@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/tuna-pate-with-smoked-salmon/"
+  ],
   "title": "Tuna pate with smoked salmon",
   "description": null,
   "editorial": {

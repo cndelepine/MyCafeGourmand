@@ -14,6 +14,7 @@ export interface PhpSerializationLimits {
   readonly maxDepth: number;
   readonly maxEntries: number;
   readonly maxStringBytes: number;
+  readonly rejectDuplicateKeys?: boolean;
 }
 
 export class PhpSerializationError extends Error {
@@ -38,7 +39,8 @@ const unboundedPhpSerializationLimits: PhpSerializationLimits = {
   maxInputBytes: Number.MAX_SAFE_INTEGER,
   maxDepth: Number.MAX_SAFE_INTEGER,
   maxEntries: Number.MAX_SAFE_INTEGER,
-  maxStringBytes: Number.MAX_SAFE_INTEGER
+  maxStringBytes: Number.MAX_SAFE_INTEGER,
+  rejectDuplicateKeys: false
 };
 
 function mergedLimits(input: Partial<PhpSerializationLimits> | undefined) {
@@ -46,7 +48,12 @@ function mergedLimits(input: Partial<PhpSerializationLimits> | undefined) {
     ...unboundedPhpSerializationLimits,
     ...input
   };
-  for (const value of Object.values(limits)) {
+  for (const value of [
+    limits.maxInputBytes,
+    limits.maxDepth,
+    limits.maxEntries,
+    limits.maxStringBytes
+  ]) {
     if (!Number.isSafeInteger(value) || value <= 0) {
       throw new PhpSerializationError(
         "malformed",
@@ -182,7 +189,10 @@ export function parsePhpSerialized(
         malformed("Invalid serialized array.");
       }
 
-      const result: Record<string, PhpValue> = {};
+      const result: Record<string, PhpValue> = Object.create(null) as Record<
+        string,
+        PhpValue
+      >;
       for (let index = 0; index < length; index += 1) {
         entries += 1;
         if (entries > limits.maxEntries) {
@@ -194,6 +204,12 @@ export function parsePhpSerialized(
         const key = parseValue(currentDepth + 1);
         if (typeof key !== "string" && typeof key !== "number") {
           malformed("Serialized array keys must be strings or numbers.");
+        }
+        if (
+          limits.rejectDuplicateKeys === true
+          && Object.prototype.hasOwnProperty.call(result, String(key))
+        ) {
+          malformed("Serialized array keys must be unique.");
         }
         result[String(key)] = parseValue(currentDepth + 1);
       }

@@ -34,6 +34,11 @@ import {
   inventoryUploadArchives,
   type UploadArchiveInventory
 } from "./uploads-inventory";
+import {
+  parseWordPressSourceOptions,
+  WprmSourceOptionsError,
+  type WprmWordPressOptions
+} from "./wprm-import-options";
 
 const wprmMetaKeys = new Set([
   "wprm_ingredients",
@@ -171,6 +176,11 @@ interface PassOneState {
   readonly tableColumns: Map<string, Set<string>>;
   readonly postTables: Set<string>;
   readonly postMetaTables: Set<string>;
+  readonly optionTables: Set<string>;
+  readonly optionTableDefinitions: Set<string>;
+  readonly optionTableCandidates: Set<string>;
+  readonly options: Map<string, string | null>;
+  optionRecordCount: number;
   readonly posts: Map<string, RawWordPressPost>;
   readonly attachments: Map<string, RawAttachment>;
   readonly terms: Map<string, RawTerm>;
@@ -190,6 +200,11 @@ function createPassOneState(): PassOneState {
     tableColumns: new Map(),
     postTables: new Set(),
     postMetaTables: new Set(),
+    optionTables: new Set(),
+    optionTableDefinitions: new Set(),
+    optionTableCandidates: new Set(),
+    options: new Map(),
+    optionRecordCount: 0,
     posts: new Map(),
     attachments: new Map(),
     terms: new Map(),
@@ -354,10 +369,57 @@ function processRedirect(
   });
 }
 
+function processOption(
+  state: PassOneState,
+  insert: SqlInsert,
+  limits: WprmImportLimits,
+  optionTable: string
+) {
+  if (insert.table.toLowerCase() !== optionTable) {
+    return;
+  }
+  state.optionRecordCount += 1;
+  if (state.optionRecordCount > limits.maxOptionRecords) {
+    throw new SourceEvidenceError("option-record-limit");
+  }
+  const name = rowValue(insert.row, "option_name");
+  if (name === null || name === undefined) {
+    throw new SourceEvidenceError("malformed-option");
+  }
+  if (
+    name === "home"
+    || name === "permalink_structure"
+    || name === "polylang"
+  ) {
+    if (state.options.has(name)) {
+      throw new SourceEvidenceError("duplicate-option");
+    }
+    const value = valueText(rowValue(insert.row, "option_value"));
+    if (
+      value !== null
+      && Buffer.byteLength(value, "utf8") > limits.evidence.maxMetaValueBytes
+    ) {
+      throw new SourceEvidenceError("option-value-limit");
+    }
+    state.options.set(name, value);
+  }
+}
+
 function graphHandlers(state: PassOneState, limits: WprmImportLimits) {
   return {
     onCreateTable(table: { readonly table: string; readonly columns: readonly string[] }) {
       const columns = rememberColumns(state, table.table, table.columns);
+      const normalizedTable = table.table.toLowerCase();
+      if (tableEndsWith(normalizedTable, "options")) {
+        if (state.optionTableDefinitions.has(normalizedTable)) {
+          throw new SourceEvidenceError("duplicate-options-table");
+        }
+        state.optionTableDefinitions.add(normalizedTable);
+        state.optionTables.add(normalizedTable);
+        if (tableHasColumns(columns, ["option_name", "option_value"])) {
+          state.optionTableCandidates.add(normalizedTable);
+        }
+      }
       if (
         tableEndsWith(table.table, "posts")
         && tableHasColumns(columns, ["ID", "post_type"])
@@ -377,7 +439,18 @@ function graphHandlers(state: PassOneState, limits: WprmImportLimits) {
     onInsert(insert: SqlInsert) {
       const columns = rememberColumns(state, insert.table, insert.columns);
       const table = insert.table.toLowerCase();
-      if (
+      if (tableEndsWith(table, "options")) {
+        state.optionTables.add(table);
+        if (tableHasColumns(columns, ["option_name", "option_value"])) {
+          state.optionTableCandidates.add(table);
+          processOption(
+            state,
+            insert,
+            limits,
+            table
+          );
+        }
+      } else if (
         tableEndsWith(table, "posts")
         && tableHasColumns(columns, ["ID", "post_type"])
       ) {
@@ -413,6 +486,19 @@ function selectTable(
     throw new WprmImportError(code);
   }
   return matches[0]!;
+}
+
+function selectOptionsTable(state: PassOneState) {
+  if (state.optionTables.size === 0) {
+    throw new WprmImportError("missing-options-table");
+  }
+  if (state.optionTables.size !== 1) {
+    throw new WprmImportError("multiple-options-tables");
+  }
+  if (state.optionTableCandidates.size !== 1) {
+    throw new WprmImportError("missing-options-columns");
+  }
+  return [...state.optionTableCandidates][0]!;
 }
 
 function makeGraph(state: PassOneState): WprmSourceGraph {
@@ -820,10 +906,10 @@ export async function resolveWprmUploadArchives(
 }
 
 export async function extractWprmSource(
-  options: Pick<WprmImportSourceOptions, "database" | "uploadsDir" | "uploadArchives" | "limits">
+  input: Pick<WprmImportSourceOptions, "database" | "uploadsDir" | "uploadArchives" | "limits">
 ): Promise<WprmSourceSnapshot> {
-  const limits = mergeWprmImportLimits(options.limits);
-  const database = path.resolve(options.database);
+  const limits = mergeWprmImportLimits(input.limits);
+  const database = path.resolve(input.database);
   const passOne = createPassOneState();
   let firstSql: Awaited<ReturnType<typeof scanSqlDump>>;
   try {
@@ -837,11 +923,21 @@ export async function extractWprmSource(
   }
   selectTable(passOne.postTables, "posts", "missing-core-table");
   const postMetaTable = selectTable(passOne.postMetaTables, "postmeta", "missing-postmeta-table");
+  selectOptionsTable(passOne);
+  let sourceOptions: WprmWordPressOptions;
+  try {
+    sourceOptions = parseWordPressSourceOptions(passOne.options, limits);
+  } catch (error) {
+    if (error instanceof WprmSourceOptionsError) {
+      throw new WprmImportError(error.code);
+    }
+    throw new WprmImportError("invalid-wordpress-options");
+  }
   if (passOne.relationshipCount > limits.evidence.maxTermRelationships) {
     throw new WprmImportError("term-relationship-limit");
   }
 
-  const archives = await resolveWprmUploadArchives(options.uploadsDir, options.uploadArchives);
+  const archives = await resolveWprmUploadArchives(input.uploadsDir, input.uploadArchives);
   let uploads: UploadArchiveInventory;
   try {
     uploads = await inventoryUploadArchives(archives, limits.evidence.uploads);
@@ -903,6 +999,7 @@ export async function extractWprmSource(
   return {
     graph,
     metadata,
+    options: sourceOptions,
     sql: firstSql,
     uploads
   };

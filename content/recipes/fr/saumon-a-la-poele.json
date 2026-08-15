@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/saumon-a-la-poele/"
+  ],
   "title": "Saumon à la poêle",
   "description": "Saumon à la poêle: Un bon poisson frais ne demande pas une longue préparation.",
   "editorial": {

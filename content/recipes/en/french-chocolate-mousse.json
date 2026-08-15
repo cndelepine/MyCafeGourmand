@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/french-chocolate-mousse/"
+  ],
   "title": "French Chocolate Mousse",
   "description": "Use very fresh eggs and do not refrigerate the mousse for more than 24 hours. I recommend keeping the mousse in the freezer if it needs to be stored for an extended period of time.",
   "editorial": {

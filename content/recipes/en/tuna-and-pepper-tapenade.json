@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/tuna-and-pepper-tapenade/"
+  ],
   "title": "Tuna and pepper Tapenade",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/coeur-de-glace-pour-la-saint-valentin/"
+  ],
   "title": "Glace pour la Saint-Valentin",
   "description": "Si votre moule est grand, faites un dessert à partager pour deux. Si vous avez des petits moules, préparez deux cœurs. Choisissez une glace ou un sorbet selon votre goût (et celui de votre amoureux/amoureuse) et servez le dessert avec de la chantilly, du chocolat, des fruits...",
   "editorial": {

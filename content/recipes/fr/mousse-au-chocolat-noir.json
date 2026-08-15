@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/mousse-au-chocolat-noir/"
+  ],
   "title": "Mousse au chocolat noir",
   "description": "Utilisez des oeufs très frais et ne gardez pas la mousse plus de 24 heures au réfrigérateur. Si je fais ce dessert bien à l'avance, je le garde au congélateur.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/charlotte-aux-fruits-rouges/"
+  ],
   "title": "Charlotte aux fruits rouges",
   "description": "La quantité de sucre dépend de l'acidité des fruits rouges. Goûtez-les en préparant le coulis.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tapenade-au-thon-et-aux-poivrons/"
+  ],
   "title": "Tapenade au thon et aux poivrons",
   "description": null,
   "editorial": {

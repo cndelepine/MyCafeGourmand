@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/beef-rice-pilaf-with-dry-barberry-berries/"
+  ],
   "title": "Beef Rice Pilaf With Dry Barberry Berries",
   "description": "It is very important to put the raw garlic on top of the rice before covering everything with water.",
   "editorial": {

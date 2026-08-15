@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/financiers-french-almond-mini-cakes/"
+  ],
   "title": "Financiers (French Almond Mini Cakes)",
   "description": null,
   "editorial": {

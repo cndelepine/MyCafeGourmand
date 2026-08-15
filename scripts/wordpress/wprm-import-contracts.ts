@@ -8,6 +8,7 @@ import {
   type UploadArchiveInventory,
 } from "./uploads-inventory";
 import type { SqlDumpStats } from "./sql-stream";
+import type { WprmWordPressOptions } from "./wprm-import-options";
 
 export type WprmImportStatus = "ready" | "review" | "error";
 
@@ -155,6 +156,8 @@ export interface WprmImportLimits {
   readonly evidence: SourceEvidenceLimits;
   readonly maxRedirectRecords: number;
   readonly maxOldSlugRecords: number;
+  readonly maxOptionRecords: number;
+  readonly maxRedirectDepth: number;
   readonly maxTaxonomiesPerCandidate: number;
   readonly maxMediaPerCandidate: number;
 }
@@ -172,6 +175,8 @@ export const defaultWprmImportLimits: WprmImportLimits = {
   evidence: defaultSourceEvidenceLimits,
   maxRedirectRecords: 100_000,
   maxOldSlugRecords: 100_000,
+  maxOptionRecords: 100_000,
+  maxRedirectDepth: 64,
   maxTaxonomiesPerCandidate: 10_000,
   maxMediaPerCandidate: 10_000
 };
@@ -320,6 +325,7 @@ export interface WprmSourceMetadata {
 export interface WprmSourceSnapshot {
   readonly graph: WprmSourceGraph;
   readonly metadata: WprmSourceMetadata;
+  readonly options: WprmWordPressOptions;
   readonly sql: SqlDumpStats;
   readonly uploads: UploadArchiveInventory;
 }
@@ -328,6 +334,7 @@ export interface CandidateOutcome {
   readonly recipeId: string;
   readonly status: WprmImportStatus;
   readonly locale: Locale | null;
+  readonly translationGroupId?: string | null;
   readonly codes: readonly WprmIssueCode[];
   readonly record: RecipeRecord | null;
   readonly fingerprint: string | null;
@@ -349,6 +356,37 @@ export interface RedirectManifest {
   readonly unresolvedTarget: number;
   readonly oldSlugCandidates: number;
   readonly accepted: number;
+  readonly canonicalCandidates: number;
+  readonly promotionEligibleCandidates: number;
+  readonly canonicalAccepted: number;
+  readonly oldSlugAccepted: number;
+  readonly pluginRows: number;
+  readonly pluginAccepted: number;
+  readonly pluginDeduplicated: number;
+  readonly pluginRegex: number;
+  readonly pluginUnsupported: number;
+  readonly pluginExternalOrAmbiguous: number;
+  readonly pluginUnresolved: number;
+  readonly pluginConflict: number;
+  readonly pluginCycle: number;
+  readonly plugin: {
+    readonly rows: number;
+    readonly accepted: number;
+    readonly deduplicated: number;
+    readonly regex: number;
+    readonly unsupported: number;
+    readonly externalOrAmbiguous: number;
+    readonly unresolved: number;
+    readonly conflict: number;
+    readonly cycle: number;
+  };
+  readonly uniqueAcceptedSources: number;
+  readonly recipesWithRedirects: number;
+  readonly localeCounts: Readonly<Record<Locale, number>>;
+  readonly issueCodes: readonly {
+    readonly code: string;
+    readonly count: number;
+  }[];
 }
 
 export interface WprmAggregateReconciliation {
@@ -380,7 +418,7 @@ export interface WprmAggregateReconciliation {
 }
 
 export interface WprmSafeManifest {
-  readonly schemaVersion: 2;
+  readonly schemaVersion: 4;
   readonly kind: "wprm-bulk-import-manifest";
   readonly source: {
     readonly format: "sql" | "gzip";
@@ -416,7 +454,7 @@ export interface WprmSafeManifest {
   };
 }
 
-export const wprmImportContractVersion = "wprm-bulk-import-v7";
+export const wprmImportContractVersion = "wprm-bulk-import-v9";
 
 export interface WprmStagedMediaBinding {
   readonly attachmentId: string;
@@ -448,6 +486,8 @@ export interface WprmImportOptions {
   readonly stagingDir?: string;
   readonly resume?: boolean;
   readonly limits?: WprmImportLimitsInput;
+  readonly staticRoutePaths?: readonly string[];
+  readonly azureRoutePaths?: readonly string[];
 }
 
 export interface WprmBulkImportResult {
@@ -544,6 +584,10 @@ export function mergeWprmImportLimits(
       input?.maxRedirectRecords ?? defaultWprmImportLimits.maxRedirectRecords,
     maxOldSlugRecords:
       input?.maxOldSlugRecords ?? defaultWprmImportLimits.maxOldSlugRecords,
+    maxOptionRecords:
+      input?.maxOptionRecords ?? defaultWprmImportLimits.maxOptionRecords,
+    maxRedirectDepth:
+      input?.maxRedirectDepth ?? defaultWprmImportLimits.maxRedirectDepth,
     maxTaxonomiesPerCandidate:
       input?.maxTaxonomiesPerCandidate
       ?? defaultWprmImportLimits.maxTaxonomiesPerCandidate,
@@ -559,6 +603,8 @@ export function mergeWprmImportLimits(
   for (const [name, value] of [
     ["maxRedirectRecords", merged.maxRedirectRecords],
     ["maxOldSlugRecords", merged.maxOldSlugRecords],
+    ["maxOptionRecords", merged.maxOptionRecords],
+    ["maxRedirectDepth", merged.maxRedirectDepth],
     ["maxTaxonomiesPerCandidate", merged.maxTaxonomiesPerCandidate],
     ["maxMediaPerCandidate", merged.maxMediaPerCandidate],
     ["maxPosts", evidence.maxPosts],

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/pork-schnitzel/"
+  ],
   "title": "Pork Schnitzel",
   "description": "The trick to a tender, juicy schnitzel is not cutting the meat super thin, but rather using a meat tenderizer to pound the meat down to a 1/4 inch thickness.",
   "editorial": {

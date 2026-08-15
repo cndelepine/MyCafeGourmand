@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/galette-des-rois-a-la-creme-damandes/"
+  ],
   "title": "Galette des Rois à la crème d’amandes",
   "description": null,
   "editorial": {

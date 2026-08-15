@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/lemon-infused-vodka/"
+  ],
   "title": "Lemon Infused Vodka",
   "description": null,
   "editorial": {

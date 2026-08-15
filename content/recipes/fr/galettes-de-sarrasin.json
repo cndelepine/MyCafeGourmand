@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/galettes-de-sarrasin/"
+  ],
   "title": "Galettes de sarrasin",
   "description": "Les galettes se cuisent très vite: ne vous éloignez pas trop de la poêle.",
   "editorial": {

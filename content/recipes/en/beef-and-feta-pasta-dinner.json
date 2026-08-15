@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/beef-and-feta-pasta-dinner/"
+  ],
   "title": "Beef And Feta Pasta Dinner",
   "description": "You might seriously consider making a double batch of this Beef and feta pasta dinner because your family will definitely ask you for more.",
   "editorial": {

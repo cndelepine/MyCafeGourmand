@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/heart-shaped-ice-cream/"
+  ],
   "title": "Heart-shaped Ice Cream",
   "description": "Choose your favorite sorbet or ice cream flavor (or your significant other's) and serve this dessert with whipping cream, chocolate and fruit.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/roasted-sweet-mini-peppers/"
+  ],
   "title": "Roasted Sweet Mini Peppers",
   "description": "You can use a regular bell pepper for this recipe, but don't forget to add some more time when cooking.",
   "editorial": {

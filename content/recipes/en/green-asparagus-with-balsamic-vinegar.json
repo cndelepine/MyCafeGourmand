@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/green-asparagus-with-balsamic-vinegar/"
+  ],
   "title": "Green Asparagus with Balsamic Vinegar",
   "description": "White asparagus is prepared and served in the same way. Adjust the cooking time according to its size.",
   "editorial": {

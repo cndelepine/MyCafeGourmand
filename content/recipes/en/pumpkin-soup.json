@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/pumpkin-soup/"
+  ],
   "title": "Pumpkin Soup",
   "description": "This soup is delicious and silky even without any cream. I add very little, just to make it look beautiful.",
   "editorial": {

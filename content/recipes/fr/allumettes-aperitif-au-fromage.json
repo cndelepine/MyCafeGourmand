@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/allumettes-aperitif-au-fromage/"
+  ],
   "title": "Allumettes apéritif au fromage",
   "description": null,
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/mini-pavlova/"
+  ],
   "title": "Mini Pavlova",
   "description": "Je n'utilise pas souvent les colorants. Cette fois-là, à l'occasion de la Saint-Valentin. j'ai essayé d'ajouter une toute petite goutte de colorant alimentaire rouge pour la crème. J'ai obtenu une très jolie couleur rose et c'était parfait pour ce dessert.",
   "editorial": {

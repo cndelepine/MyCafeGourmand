@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salade-aux-oeufs-et-oignons-verts/"
+  ],
   "title": "Salade aux œufs et oignons verts",
   "description": "N'oubliez pas de plonger les œufs cuits dans l'eau glacée pour les refroidir. Ainsi ils vont s'écaler plus facilement.",
   "editorial": {

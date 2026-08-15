@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/mediterranean-roasted-tomato-tart/"
+  ],
   "title": "Tomato Tart",
   "description": "This mediterranean tart is a must make. You can make it with tomatoes of the same or different size, of different colors and different varieties. The most important thing is that they are ripe and flavorful. Perfect dish for small crowds.",
   "editorial": {

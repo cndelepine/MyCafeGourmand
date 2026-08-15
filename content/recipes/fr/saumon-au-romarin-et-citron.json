@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/saumon-au-romarin-et-citron/"
+  ],
   "title": "Saumon au romarin et citron",
   "description": null,
   "editorial": {

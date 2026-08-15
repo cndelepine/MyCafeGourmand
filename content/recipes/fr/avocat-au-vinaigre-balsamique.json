@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/avocat/",
+    "/fr/avocat-au-vinaigre-balsamique/"
+  ],
   "title": "Avocat au vinaigre balsamique",
   "description": "Pour pleinement apprécier cet entrée, utiliser un vinaigre balsamique de très bonne qualité et du poivre fraîchement moulu.",
   "editorial": {

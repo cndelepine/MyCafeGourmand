@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/bouchees-aux-amandes/"
+  ],
   "title": "Bouchées aux amandes",
   "description": null,
   "editorial": {

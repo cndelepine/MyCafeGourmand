@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%bb%d0%b0%d0%bf%d1%88%d0%b0-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8f%d1%8f/"
+  ],
   "title": "Лапша домашняя",
   "description": "Готовую лапшу можно хранить в бумажном пакете.",
   "editorial": {

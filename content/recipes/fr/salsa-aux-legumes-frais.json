@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/salsa-aux-legumes-frais/"
+  ],
   "title": "Salsa aux légumes frais",
   "description": "Si vous n'avez pas de piment jalapeño sous la main, vous pouvez le remplacer par une épice en poudre, le poivre de Cayenne, par exemple.",
   "editorial": {

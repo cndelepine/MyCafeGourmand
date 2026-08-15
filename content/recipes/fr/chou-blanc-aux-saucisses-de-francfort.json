@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/chou-blanc-aux-saucisses-de-francfort/"
+  ],
   "title": "Chou blanc aux saucisses de Francfort",
   "description": "Si vous voulez, vous pouvez ajouter un peu de sauce tomate ou une tomate fraîche découpée en demi-rondelles dans l'étape 8.",
   "editorial": {

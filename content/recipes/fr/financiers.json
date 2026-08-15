@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/financiers/"
+  ],
   "title": "Financiers",
   "description": null,
   "editorial": {

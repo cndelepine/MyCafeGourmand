@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/creamy-broccoli-lasagna-with-white-sauce/"
+  ],
   "title": "Turkey Broccoli Lasagna with White Sauce",
   "description": null,
   "editorial": {

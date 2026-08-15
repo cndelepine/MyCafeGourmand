@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": true
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/bouchees-aux-sardines/"
+  ],
   "title": "Bouchées aux sardines",
   "description": null,
   "editorial": {

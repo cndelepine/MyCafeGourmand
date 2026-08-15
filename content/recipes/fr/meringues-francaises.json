@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/meringues-francaises/"
+  ],
   "title": "Meringues françaises",
   "description": "Vous pouvez rajouter des colorants alimentaires (en poudre) pour donner aux meringues de belles couleurs vives, ou les saupoudrer avec un peu de cacao en poudre.",
   "editorial": {

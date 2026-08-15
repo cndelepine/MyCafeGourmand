@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/fr/tarte-normande-feuilletee/"
+  ],
   "title": "Tarte normande feuilletée",
   "description": null,
   "editorial": {

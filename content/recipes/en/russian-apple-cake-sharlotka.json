@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/apple-sharlotka/",
+    "/russian-apple-cake-sharlotka/"
+  ],
   "title": "Russian Apple Cake Sharlotka",
   "description": "If the apples are too sweet, sprinkle with freshly squeezed lemon juice.",
   "editorial": {

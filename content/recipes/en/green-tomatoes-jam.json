@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/green-tomatoes-jam/"
+  ],
   "title": "Green Tomatoes Jam",
   "description": "For this recipe, I like to use green cherries tomatoes, so that they don't need to be peeled. However, if your tomatoes are big and have thick skin, you may need to peel them.",
   "editorial": {

@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/potato-pancakes-draniki/"
+  ],
   "title": "Potato Pancakes (Draniki)",
   "description": "You will need some extra olive oil, draniki absorb oil very fast.",
   "editorial": {

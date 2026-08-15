@@ -22,7 +22,9 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/chocolate-sauce/"
+  ],
   "title": "Chocolate sauce",
   "description": "Your sauce will taste even better if you will use heavy cream. Unfortunatly most of the time I use milk, since I'm always trying to lose weight 😉 but it keeps finding me for some reason.",
   "editorial": {

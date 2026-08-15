@@ -22,7 +22,10 @@
     "wprmType": "food",
     "wprmTypePresent": false
   },
-  "redirectFrom": [],
+  "redirectFrom": [
+    "/ru/%d0%bd%d0%b5%d1%81%d0%bb%d0%b0%d0%b4%d0%ba%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be/",
+    "/ru/%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be/"
+  ],
   "title": "Песочное тесто",
   "description": "Хорошо упакованное песочное тесто может храниться в морозилке несколько месяцев.",
   "editorial": {
