@@ -130,11 +130,11 @@ test("source evidence is deterministic across reversed upload arguments", async 
     writeFileSync(structuralBase, zipArchive(["uploads/2026/08/unrelated-a.jpg"]));
     const renamedReport = await probe(fixture, [renamed]);
     const structuralReport = await probe(fixture, [structuralBase]);
-    assert.equal(
+    assert.notEqual(
       renamedReport.contracts.uploadIndexContractSha256,
       structuralReport.contracts.uploadIndexContractSha256
     );
-    assert.equal(
+    assert.notEqual(
       renamedReport.contracts.reportStructuralSha256,
       structuralReport.contracts.reportStructuralSha256
     );
@@ -142,6 +142,7 @@ test("source evidence is deterministic across reversed upload arguments", async 
       JSON.stringify(renamedReport).includes("unrelated-b.jpg"),
       false
     );
+    assert.equal(JSON.stringify(renamedReport).includes(renamed), false);
   });
 });
 
@@ -157,8 +158,8 @@ test("the probe emits only whole-input hashes and safe aggregates", async () => 
     );
     const changed = await probe(changedDatabase);
     const serialized = JSON.stringify(report);
-    assert.equal(report.schemaVersion, 2);
-    assert.equal(report.contracts.probe, "wordpress-source-evidence-v2");
+    assert.equal(report.schemaVersion, 3);
+    assert.equal(report.contracts.probe, "wordpress-source-evidence-v3");
     assert.equal(report.source.database.format, "gzip");
     assert.notEqual(
       report.contracts.sqlDecompressedSha256,

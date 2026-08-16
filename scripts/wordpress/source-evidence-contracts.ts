@@ -58,7 +58,7 @@ export interface BwgArchivePathCandidate {
   readonly archivePath: string | null;
 }
 
-export const sourceEvidenceSchemaVersion = 2;
+export const sourceEvidenceSchemaVersion = 3;
 
 export interface SourceEvidenceLimits {
   readonly sql: Partial<SqlDumpLimits>;
@@ -189,14 +189,14 @@ export interface ActionCountLabel {
 }
 
 interface SourceEvidenceReportContracts {
-  readonly probe: "wordpress-source-evidence-v2";
+  readonly probe: "wordpress-source-evidence-v3";
   readonly sqlDecompressedSha256: string;
   readonly uploadIndexContractSha256: string;
   readonly reportStructuralSha256: string;
 }
 
 interface SourceEvidenceReport {
-  readonly schemaVersion: 2;
+  readonly schemaVersion: 3;
   readonly kind: "wordpress-source-evidence";
   readonly contracts: SourceEvidenceReportContracts;
   readonly source: {

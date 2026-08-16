@@ -23,37 +23,12 @@ import {
 import { compareSourceEvidenceBaseline } from "./source-evidence-baseline";
 import { keySignature } from "./source-evidence-structured";
 import type { SqlDumpStats } from "./sql-stream";
-import type { UploadArchiveInventory } from "./uploads-inventory";
+import {
+  uploadIndexContractHash,
+  type UploadArchiveInventory
+} from "./uploads-inventory";
 
-function uploadIndexContractHash(archive: UploadArchiveInventory) {
-    const summaries = archive.summaries
-      .map((summary) => ({
-        bytes: summary.bytes,
-        entries: summary.entries,
-        files: summary.files,
-        directories: summary.directories,
-        uploadFiles: summary.uploadFiles,
-        generatedDerivativeFiles: summary.generatedDerivativeFiles,
-        invalidEntries: summary.invalidEntries,
-        duplicateUploadFiles: summary.duplicateUploadFiles,
-        extensions: summary.extensions,
-        yearMonths: summary.yearMonths
-      }))
-      .sort((left, right) =>
-        JSON.stringify(left).localeCompare(JSON.stringify(right))
-      );
-    const pathCounts = [...archive.uploadPathCounts.values()];
-    return createHash("sha256")
-      .update(JSON.stringify({
-        summaries,
-        aggregate: {
-          uniqueUploadFiles: pathCounts.length,
-          uploadPathOccurrences: pathCounts.reduce((total, count) => total + count, 0),
-          duplicateUploadPaths: pathCounts.filter((count) => count > 1).length
-        }
-      }), "utf8")
-      .digest("hex");
-  }
+export { uploadIndexContractHash } from "./uploads-inventory";
 
   function uploadSummary(archive: UploadArchiveInventory) {
     return {
@@ -196,7 +171,7 @@ function uploadIndexContractHash(archive: UploadArchiveInventory) {
       schemaVersion: sourceEvidenceSchemaVersion,
       kind: "wordpress-source-evidence",
       contracts: {
-        probe: "wordpress-source-evidence-v2",
+        probe: "wordpress-source-evidence-v3",
         sqlDecompressedSha256: sqlStats.sqlDecompressedSha256,
         uploadIndexContractSha256: uploadIndexContractHash(archive),
         reportStructuralSha256: ""

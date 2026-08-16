@@ -329,15 +329,18 @@ npm run import:wprm-bulk -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --write --staging-dir migration-output/wprm-bulk-v9
+  --write --staging-dir migration-output/wprm-bulk-v10
 ```
 
 Candidate files are mode `0600` below numeric recipe-ID paths, and staging
-directories are mode `0700`. Existing matching files can be resumed with
-`--resume`; changed artifacts fail with `staging-conflict`. `--apply`,
-`--copy-media`, `--content-root`, and `--public-root` are rejected. The
-deprecated `import:recipe` script is a compatibility alias for this bulk CLI
-and rejects `--recipe-id`, `--slug`, and `--locale`.
+directories are mode `0700`. WPRM and editorial use the same root-scoped
+exclusive lock; an existing populated root must already carry the matching
+format marker before either writer can modify it. Existing matching files can
+be resumed with `--resume`; changed SQL, upload archives, entry metadata, or
+artifacts fail with `staging-conflict`. `--apply`, `--copy-media`,
+`--content-root`, and `--public-root` are rejected. The deprecated
+`import:recipe` script is a compatibility alias for this bulk CLI and rejects
+`--recipe-id`, `--slug`, and `--locale`.
 
 The WPRM 10.7.1 reconciliation maps equipment (including explicit empty
 lists), nutrition source text with safely parsed numeric values when available,
@@ -384,6 +387,100 @@ regex row, and none are conflicts, unsupported, external, or cyclic. Rows
 terminating at excluded or unpromoted identities remain unresolved and are not
 routes.
 
+### Editorial pages and BWG gallery staging
+
+`import:editorial` is a separate, staging-only foundation for authoritative
+WordPress `page` records and the BWG gallery. It has no connection to
+`RecipeRecord`, the runtime recipe catalog, public routes, redirects, SEO, media
+copying, or promotion. It preserves page and gallery source rows only in private
+candidate files; it does not claim that editorial content is ready to publish.
+
+It requires the authorized database, the complete upload-archive directory, and
+a private regular HMAC key file. The default mode is dry run:
+
+```sh
+umask 077
+openssl rand 32 > migration-output/editorial-fingerprint.key
+npm run import:editorial -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/editorial-fingerprint.key \
+  --dry-run
+```
+
+Dry-run stdout is a deterministic safe manifest. It contains source and
+aggregate upload contract hashes, counts, locale/status/issue/media/translation
+aggregates, and keyed HMAC candidate fingerprints only. It never prints page
+or gallery IDs, titles, slugs, body text, form data, media paths, timestamps,
+alt text, archive paths, ZIP entry names, or staged records. The upload
+contract binds each archive's SHA-256 identity and canonical central-directory
+entry metadata without exposing those values individually. The extractor
+validates the approved WordPress/Polylang options, streams SQL twice to detect
+a changing source, inventories ZIP central directories without extraction, and
+validates raw-Unicode slugs and local paths with the shared URL-path checks.
+
+Use explicit private staging only after reviewing the safe manifest:
+
+```sh
+npm run import:editorial -- \
+  --database /path/to/approved/wordpress.sql.gz \
+  --uploads-dir /path/to/approved/upload-archives \
+  --fingerprint-key-file migration-output/editorial-fingerprint.key \
+  --write --staging-dir migration-output/editorial-v2
+```
+
+The root and `candidates/` directories are owner-only `0700`; marker,
+manifest, and candidate files are `0600`, written atomically through no-follow
+handles under one root-scoped owner-only lock shared with WPRM staging. Before
+any write, an existing root must be empty or carry this exact editorial marker;
+populated WPRM, editorial, or unknown roots fail without modification.
+`--resume` accepts only a matching source/hash/contract marker and
+byte-equivalent private records; any changed source or artifact, concurrent
+writer, or stale/crash lock fails closed with `staging-conflict`. Output, apply,
+publish, content-root, public-root, destination, route-root, and media-copy
+options are rejected.
+
+Candidate source bodies are staged losslessly with a structural analysis rather
+than silently transformed. `wp-tiles`, Contact Form 7, unknown shortcodes and
+blocks, unresolved/unsafe/ambiguous internal links and inline media, malformed
+image markup, and unlocalized BWG publication are review issues. Every `img`
+and `source` `src`/`srcset` candidate is inspected and counted; a construct
+that cannot be parsed losslessly is review-gated. Page paths are derived from
+validated parent chains; malformed non-root IDs, missing, cyclic, non-page,
+unsafe, locale-incompatible, translation-incompatible, or non-public parents
+are never flattened.
+Non-public and private pages are explicitly publication-excluded. The tool does
+not infer locales, translations, author names, or alt text.
+
+Before any later editorial publication design, review private candidates and
+resolve every review issue, verify translations and source wording, validate all
+selected upload paths, decide gallery localization/publication behavior, and
+add a separately reviewed promotion plan. There is deliberately no editorial
+promotion command in this milestone.
+
+The editorial safety budgets count every recognized `posts`-table row toward
+`evidence.maxPosts`. `evidence.maxEvidenceReferences` counts one gallery
+shortcode occurrence, one distinct inline attachment identifier per page,
+every `img`/`source` `src` and `srcset` candidate, one page `_thumbnail_id`
+row, and each non-empty BWG original/thumbnail path. Both extraction and
+mapping fail with a coded limit error before retaining an over-budget row or
+reference.
+
+For the current approved source, repeat dry runs must be byte-identical and
+reconcile to 57 pages: 56 published and one private; EN/FR/RU counts of
+22/18/17; 18 translation groups (17 triples and one EN/FR pair); and four
+ungrouped EN pages. It reports 26 unique page attachments, all archive-backed,
+30 featured references, eight inline references, and one unresolved media
+reference after validating inherited attachment state. The current validated
+status counts are seven ready candidates, 49 review candidates, and one
+publication-excluded candidate; 20 page candidates are review-gated by
+ambiguous canonical attachment paths. Every extracted BWG gallery is staged as
+own review candidate, including the unreferenced gallery (67 published images
+and 134 original/thumbnail assets), which carries `gallery-reference-missing`.
+Every BWG image row whose gallery ID is null, malformed, or missing from the
+source is instead retained as its own unassigned-image review candidate; no
+synthetic gallery is created. These are review gates, not publication approval.
+
 ### Authenticated WPRM promotion
 
 Promotion is a separate, explicit step. Before it can run, regenerate private
@@ -395,16 +492,16 @@ npm run import:wprm-bulk -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --write --staging-dir migration-output/wprm-bulk-v9
+  --write --staging-dir migration-output/wprm-bulk-v10
 ```
 
 The prior `wprm-bulk-import-v3` staging format intentionally cannot be resumed
-or promoted: it has no private media-byte bindings. The v9 mapper contract is
-intentionally incompatible with v8 because it authenticates the status-aware
-translation-closure model and fully validates non-public peers before deciding
-whether they are intentionally unavailable. Keep prior roots for audit if
+or promoted: it has no private media-byte bindings. The v10 mapper and staging
+contract intentionally cannot resume v9 roots: it cryptographically binds the
+canonical upload-archive and entry inventory as well as the SQL source, so a
+same-count archive replacement fails closed. Keep prior roots for audit if
 needed, then create a new private staging root as above rather than trusting or
-overwriting it. The v9 `media-bindings.json` is mode
+overwriting it. The v10 `media-bindings.json` is mode
 `0600`, contains only
 numeric attachment IDs, byte counts, and keyed digests, and must remain outside
 Git with the fingerprint key.
@@ -416,7 +513,7 @@ npm run promote:wprm -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v9 \
+  --staging-dir migration-output/wprm-bulk-v10 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --dry-run
 ```
@@ -493,7 +590,7 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v9 \
+  --staging-dir migration-output/wprm-bulk-v10 \
   --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --dry-run
@@ -510,7 +607,7 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v9 \
+  --staging-dir migration-output/wprm-bulk-v10 \
   --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --write --write-public-manifest
@@ -528,7 +625,7 @@ npm run media:upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/wprm-fingerprint.key \
-  --staging-dir migration-output/wprm-bulk-v9 \
+  --staging-dir migration-output/wprm-bulk-v10 \
   --upload-dir migration-output/wprm-media-azure-v4 \
   --expected-ready 521 --expected-review 3 --expected-error 15 \
   --write --resume --write-public-manifest
@@ -609,10 +706,13 @@ WordPress structures needed to reconcile WPRM/WPUR signals, Polylang groups,
 attachments, redirects, and Photo Gallery relationships. It never writes
 recipes, content, or media and never emits source values, filenames, paths,
 timestamps, personal data, or record-level entries. PHP and JSON inspection is
-bounded by the command's safety limits. Its report is schema v2: recipe/editorial
-translation derivation is parent-group authoritative, and Photo Gallery image
-and thumbnail coverage reports strict root-normalized matches separately from
-generic attachment normalization.
+bounded by the command's safety limits. Its report is schema v3: its upload
+contract cryptographically binds archive SHA-256 identities, canonical
+central-directory entry metadata, and normalized upload-path multiplicity
+without emitting archive paths or entry names. Recipe/editorial translation
+derivation is parent-group authoritative, and Photo Gallery image and thumbnail
+coverage reports strict root-normalized matches separately from generic
+attachment normalization.
 
 Run a dry probe to stdout:
 

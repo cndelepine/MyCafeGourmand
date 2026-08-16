@@ -550,9 +550,10 @@ function hasExactKeys(value: unknown, keys: readonly string[]): value is Record<
 }
 
 function isCurrentMarker(value: unknown): value is {
-  readonly schemaVersion: 2;
+  readonly schemaVersion: 3;
   readonly kind: "wprm-bulk-staging";
   readonly sqlDecompressedSha256: string;
+  readonly uploadIndexContractSha256: string;
   readonly importerContractVersion: typeof wprmImportContractVersion;
   readonly mediaBindingVersion: 1;
 } {
@@ -560,13 +561,16 @@ function isCurrentMarker(value: unknown): value is {
     "schemaVersion",
     "kind",
     "sqlDecompressedSha256",
+    "uploadIndexContractSha256",
     "importerContractVersion",
     "mediaBindingVersion"
   ])
-    && value.schemaVersion === 2
+    && value.schemaVersion === 3
     && value.kind === "wprm-bulk-staging"
     && typeof value.sqlDecompressedSha256 === "string"
     && /^[a-f0-9]{64}$/u.test(value.sqlDecompressedSha256)
+    && typeof value.uploadIndexContractSha256 === "string"
+    && /^[a-f0-9]{64}$/u.test(value.uploadIndexContractSha256)
     && value.importerContractVersion === wprmImportContractVersion
     && value.mediaBindingVersion === 1;
 }
@@ -4348,6 +4352,7 @@ async function prepareWprmPromotion(
   }
   if (
     marker.sqlDecompressedSha256 !== fresh.manifest.source.sqlDecompressedSha256
+    || marker.uploadIndexContractSha256 !== fresh.manifest.source.uploadIndexContractSha256
     || marker.importerContractVersion !== wprmImportContractVersion
     || marker.mediaBindingVersion !== 1
   ) {

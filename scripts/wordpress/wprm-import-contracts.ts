@@ -418,12 +418,13 @@ export interface WprmAggregateReconciliation {
 }
 
 export interface WprmSafeManifest {
-  readonly schemaVersion: 4;
+  readonly schemaVersion: 5;
   readonly kind: "wprm-bulk-import-manifest";
   readonly source: {
     readonly format: "sql" | "gzip";
     readonly decompressedBytes: number;
     readonly sqlDecompressedSha256: string;
+    readonly uploadIndexContractSha256: string;
     readonly sqlRows: number;
     readonly sqlStatements: number;
     readonly uploads: {
@@ -454,7 +455,7 @@ export interface WprmSafeManifest {
   };
 }
 
-export const wprmImportContractVersion = "wprm-bulk-import-v9";
+export const wprmImportContractVersion = "wprm-bulk-import-v10";
 
 export interface WprmStagedMediaBinding {
   readonly attachmentId: string;
@@ -469,9 +470,10 @@ export interface WprmStagedMediaBindings {
 }
 
 export interface WprmStagingMarker {
-  readonly schemaVersion: 2;
+  readonly schemaVersion: 3;
   readonly kind: "wprm-bulk-staging";
   readonly sqlDecompressedSha256: string;
+  readonly uploadIndexContractSha256: string;
   readonly importerContractVersion: typeof wprmImportContractVersion;
   readonly mediaBindingVersion: 1;
 }

@@ -121,7 +121,10 @@ function optionalPolylangValueValid(key: string, value: PhpValue | undefined) {
   }
 }
 
-function parsePolylangValue(value: string, limits: WprmImportLimits) {
+function parsePolylangValue(
+  value: string,
+  limits: Pick<WprmImportLimits, "evidence">
+) {
   let parsed: PhpValue;
   try {
     parsed = parsePhpSerialized(value, {
@@ -168,7 +171,7 @@ function parsePolylangValue(value: string, limits: WprmImportLimits) {
 
 export function parsePolylangPermalinkConfig(
   value: string | null | undefined,
-  limits: WprmImportLimits = defaultWprmImportLimits
+  limits: Pick<WprmImportLimits, "evidence"> = defaultWprmImportLimits
 ) {
   const source = optionString(value, "invalid-polylang-option");
   parsePolylangValue(source, limits);
@@ -179,7 +182,7 @@ export function parseWordPressSourceOptions(
   values:
     | ReadonlyMap<string, string | null | undefined>
     | Readonly<Record<string, string | null | undefined>>,
-  limits: WprmImportLimits = defaultWprmImportLimits
+  limits: Pick<WprmImportLimits, "evidence"> = defaultWprmImportLimits
 ): WprmWordPressOptions {
   const options = values instanceof Map
     ? values

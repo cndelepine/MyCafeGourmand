@@ -698,7 +698,7 @@ test("promotion rejects a same-structure archive whose selected bytes changed", 
       promoteWprmStaging(promotionOptions(fixtureValues)),
       (error: unknown) =>
         error instanceof WprmPromotionError
-        && error.code === "staged-media-binding-mismatch"
+        && error.code === "staging-source-or-contract-mismatch"
     );
   });
 });

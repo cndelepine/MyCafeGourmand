@@ -19,6 +19,7 @@ import {
   hashVerifiedOpenUploadArchiveEntry,
   openVerifiedUploadArchive
 } from "./uploads-media";
+import { uploadIndexContractHash } from "./uploads-inventory";
 import {
   classifyWprmCandidateDisposition,
   isInformationalWprmIssueCode,
@@ -244,6 +245,7 @@ function sourceSummary(snapshot: Awaited<ReturnType<typeof extractWprmSource>>) 
     format: snapshot.sql.format,
     decompressedBytes: snapshot.sql.decompressedBytes,
     sqlDecompressedSha256: snapshot.sql.sqlDecompressedSha256,
+    uploadIndexContractSha256: uploadIndexContractHash(snapshot.uploads),
     sqlRows: snapshot.sql.rows,
     sqlStatements: snapshot.sql.statements,
     uploads: {
@@ -312,7 +314,7 @@ function createManifest(
     classifyWprmCandidateDisposition(outcome.codes) === "integrity-blocking"
   ).length;
   return {
-    schemaVersion: 4,
+    schemaVersion: 5,
     kind: "wprm-bulk-import-manifest",
     source,
     candidates: {

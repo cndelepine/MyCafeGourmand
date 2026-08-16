@@ -21,6 +21,7 @@
     "staticwebapp:generate": "tsx scripts/generate-staticwebapp.ts",
     "import:wprm-bulk": "tsx scripts/import-wordpress-wprm.ts",
     "import:recipe": "tsx scripts/import-wordpress-wprm.ts",
+    "import:editorial": "tsx scripts/import-wordpress-editorial.ts",
     "promote:wprm": "tsx scripts/promote-wordpress-wprm.ts",
     "media:upload-plan": "tsx scripts/plan-wordpress-media-upload.ts",
     "media:verify-azure": "tsx scripts/verify-azure-recipe-media.ts",

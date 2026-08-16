@@ -5,6 +5,7 @@ import {
   lstat,
   mkdir,
   open,
+  readdir,
   realpath,
   rename,
   unlink
@@ -30,6 +31,7 @@ export interface StagingOptions {
 const moduleDirectory = path.dirname(fileURLToPath(import.meta.url));
 export const repositoryRoot = realpathSync(path.resolve(moduleDirectory, "../.."));
 const migrationOutputRoot = path.join(repositoryRoot, "migration-output");
+const rootStagingLockFileName = ".wordpress-staging.lock";
 const forbiddenRootNames = ["src", "content", "public", "out", ".next"] as const;
 const forbiddenRoots = forbiddenRootNames.map((name) =>
   path.join(repositoryRoot, name)
@@ -50,6 +52,14 @@ interface StagingDirectories {
   readonly candidates: string;
   readonly inputWasAbsolute: boolean;
   readonly allowExistingExternal: boolean;
+  readonly initialRootState: ExistingRootState;
+}
+
+interface StagingLock {
+  readonly path: string;
+  readonly handle: Awaited<ReturnType<typeof open>>;
+  readonly dev: number;
+  readonly ino: number;
 }
 
 function isWithin(candidate: string, directory: string) {
@@ -110,11 +120,12 @@ function hasExactKeys(value: unknown, keys: readonly string[]): value is Record<
 }
 
 interface WprmStagingMarkerShape {
-  readonly schemaVersion: 1 | 2;
+  readonly schemaVersion: 1 | 2 | 3;
   readonly kind: "wprm-bulk-staging";
   readonly sqlDecompressedSha256: string;
   readonly importerContractVersion: string;
   readonly mediaBindingVersion?: 1;
+  readonly uploadIndexContractSha256?: string;
 }
 
 function isWprmStagingMarkerShape(value: unknown): value is WprmStagingMarkerShape {
@@ -125,7 +136,7 @@ function isWprmStagingMarkerShape(value: unknown): value is WprmStagingMarkerSha
     "importerContractVersion"
   ])
     && value.schemaVersion === 1;
-  const isCurrent = hasExactKeys(value, [
+  const isPreUploadBound = hasExactKeys(value, [
     "schemaVersion",
     "kind",
     "sqlDecompressedSha256",
@@ -134,7 +145,19 @@ function isWprmStagingMarkerShape(value: unknown): value is WprmStagingMarkerSha
   ])
     && value.schemaVersion === 2
     && value.mediaBindingVersion === 1;
-  return (isLegacy || isCurrent)
+  const isUploadBound = hasExactKeys(value, [
+    "schemaVersion",
+    "kind",
+    "sqlDecompressedSha256",
+    "uploadIndexContractSha256",
+    "importerContractVersion",
+    "mediaBindingVersion"
+  ])
+    && value.schemaVersion === 3
+    && value.mediaBindingVersion === 1
+    && typeof value.uploadIndexContractSha256 === "string"
+    && /^[a-f0-9]{64}$/u.test(value.uploadIndexContractSha256);
+  return (isLegacy || isPreUploadBound || isUploadBound)
     && value.kind === "wprm-bulk-staging"
     && typeof value.sqlDecompressedSha256 === "string"
     && /^[a-f0-9]{64}$/u.test(value.sqlDecompressedSha256)
@@ -144,8 +167,9 @@ function isWprmStagingMarkerShape(value: unknown): value is WprmStagingMarkerSha
 
 function isWprmStagingMarker(value: unknown): value is WprmStagingMarker {
   return isWprmStagingMarkerShape(value)
-    && value.schemaVersion === 2
+    && value.schemaVersion === 3
     && value.mediaBindingVersion === 1
+    && typeof value.uploadIndexContractSha256 === "string"
     && value.importerContractVersion === wprmImportContractVersion;
 }
 
@@ -160,6 +184,7 @@ function markerMatches(
   return actual.schemaVersion === expected.schemaVersion
     && actual.kind === expected.kind
     && actual.sqlDecompressedSha256 === expected.sqlDecompressedSha256
+    && actual.uploadIndexContractSha256 === expected.uploadIndexContractSha256
     && actual.importerContractVersion === expected.importerContractVersion
     && actual.mediaBindingVersion === expected.mediaBindingVersion;
 }
@@ -167,6 +192,10 @@ function markerMatches(
 function isLegacyV3Marker(value: WprmStagingMarkerShape) {
   return value.schemaVersion === 1
     && value.importerContractVersion === "wprm-bulk-import-v3";
+}
+
+function isPreUploadBindingMarker(value: WprmStagingMarkerShape) {
+  return value.schemaVersion === 2 && value.mediaBindingVersion === 1;
 }
 
 async function privateDirectoryStats(target: string) {
@@ -188,7 +217,8 @@ async function privateDirectoryStats(target: string) {
 
 async function readPrivateMarker(
   target: string,
-  expected?: WprmStagingMarker
+  expected?: WprmStagingMarker,
+  genericMatches?: (value: unknown) => boolean
 ) {
   let stats;
   try {
@@ -211,11 +241,20 @@ async function readPrivateMarker(
       throw new WprmImportError("unsafe-staging-dir");
     }
     const parsed: unknown = JSON.parse((await handle.readFile()).toString("utf8"));
+    if (genericMatches !== undefined) {
+      if (!genericMatches(parsed)) {
+        throw new WprmImportError("staging-conflict");
+      }
+      return parsed;
+    }
     if (!isWprmStagingMarkerShape(parsed)) {
       throw new WprmImportError("unsafe-staging-dir");
     }
     if (expected !== undefined && isLegacyV3Marker(parsed)) {
       throw new WprmImportError("staging-media-binding-upgrade-required");
+    }
+    if (expected !== undefined && isPreUploadBindingMarker(parsed)) {
+      throw new WprmImportError("staging-upload-contract-upgrade-required");
     }
     if (expected !== undefined && !markerMatches(parsed, expected)) {
       throw new WprmImportError("staging-conflict");
@@ -234,19 +273,98 @@ async function readPrivateMarker(
   }
 }
 
-async function validateExistingExternalRoot(
+type ExistingRootState = "absent" | "empty" | "matching";
+
+async function existingRootState(
   authorization: DestinationAuthorization,
-  expectedMarker?: WprmStagingMarker
-) {
-  if (authorization.inRepository || !authorization.exists) {
-    throw new WprmImportError("unsafe-staging-dir");
+  markerFileName: string,
+  assertMarker: () => Promise<void>,
+  ignoreOwnedLock = false,
+  allowEmptyCandidatesDirectory = false
+): Promise<ExistingRootState> {
+  if (!authorization.exists) {
+    return "absent";
   }
   await privateDirectoryStats(authorization.destination);
-  const candidates = path.join(authorization.destination, "candidates");
-  await privateDirectoryStats(candidates);
-  await readPrivateMarker(
-    path.join(authorization.destination, ".wprm-staging.json"),
-    expectedMarker
+  let entries: string[];
+  try {
+    entries = await readdir(authorization.destination);
+  } catch {
+    throw new WprmImportError("unsafe-staging-dir");
+  }
+  const effectiveEntries = entries.filter((entry) =>
+    !ignoreOwnedLock || entry !== rootStagingLockFileName
+  );
+  if (effectiveEntries.length === 0) {
+    return "empty";
+  }
+  if (
+    allowEmptyCandidatesDirectory
+    && effectiveEntries.length === 1
+    && effectiveEntries[0] === "candidates"
+  ) {
+    await privateDirectoryStats(path.join(authorization.destination, "candidates"));
+    let candidateEntries: string[];
+    try {
+      candidateEntries = await readdir(path.join(authorization.destination, "candidates"));
+    } catch {
+      throw new WprmImportError("unsafe-staging-dir");
+    }
+    if (candidateEntries.length === 0) {
+      return "empty";
+    }
+  }
+  if (!effectiveEntries.includes(markerFileName)) {
+    throw new WprmImportError("staging-conflict");
+  }
+  for (const marker of [".wprm-staging.json", ".editorial-staging.json"]) {
+    if (marker !== markerFileName && effectiveEntries.includes(marker)) {
+      throw new WprmImportError("staging-conflict");
+    }
+  }
+  await assertMarker();
+  return "matching";
+}
+
+async function existingWprmRootState(
+  authorization: DestinationAuthorization,
+  expectedMarker?: WprmStagingMarker,
+  ignoreOwnedLock = false,
+  allowEmptyCandidatesDirectory = false
+) {
+  return existingRootState(
+    authorization,
+    ".wprm-staging.json",
+    async () => {
+      await readPrivateMarker(
+        path.join(authorization.destination, ".wprm-staging.json"),
+        expectedMarker
+      );
+    },
+    ignoreOwnedLock,
+    allowEmptyCandidatesDirectory
+  );
+}
+
+async function existingGenericRootState(
+  authorization: DestinationAuthorization,
+  markerFileName: string,
+  markerMatches: (value: unknown) => boolean,
+  ignoreOwnedLock = false,
+  allowEmptyCandidatesDirectory = false
+) {
+  return existingRootState(
+    authorization,
+    markerFileName,
+    async () => {
+      await readPrivateMarker(
+        path.join(authorization.destination, markerFileName),
+        undefined,
+        markerMatches
+      );
+    },
+    ignoreOwnedLock,
+    allowEmptyCandidatesDirectory
   );
 }
 
@@ -357,11 +475,14 @@ async function ensurePrivateDirectory(
     await privateDirectoryStats(initial.destination);
   }
   let current = initial.existingPrefix;
+  let createdDestination = false;
   for (const part of initial.missingParts) {
     const next = path.join(current, part);
     await authorizeDestination(current, inputWasAbsoluteOverride, true);
+    let created = false;
     try {
       await mkdir(next, { mode: 0o700 });
+      created = true;
     } catch (error) {
       if (!error || typeof error !== "object" || !("code" in error) || error.code !== "EEXIST") {
         throw new WprmImportError("staging-write-failed");
@@ -376,12 +497,17 @@ async function ensurePrivateDirectory(
     if (stats.isSymbolicLink() || !stats.isDirectory()) {
       throw new WprmImportError("unsafe-staging-dir");
     }
-    await chmod(next, 0o700);
+    if (created) {
+      await chmod(next, 0o700);
+    }
+    if (created && next === initial.destination) {
+      createdDestination = true;
+    }
     await authorizeDestination(next, inputWasAbsoluteOverride, true);
     current = next;
   }
   await authorizeDestination(initial.destination, inputWasAbsoluteOverride, true);
-  if (initial.inRepository || !initial.exists) {
+  if (createdDestination) {
     await chmod(initial.destination, 0o700);
   }
   await authorizeDestination(initial.destination, inputWasAbsoluteOverride, true);
@@ -401,11 +527,214 @@ async function revalidateStagingDirectories(
     directories.inputWasAbsolute,
     directories.allowExistingExternal
   );
-  if (!rootAuthorization.inRepository && rootAuthorization.exists) {
+  if (rootAuthorization.exists) {
     await privateDirectoryStats(rootAuthorization.destination);
   }
-  if (!candidatesAuthorization.inRepository && candidatesAuthorization.exists) {
+  if (candidatesAuthorization.exists) {
     await privateDirectoryStats(candidatesAuthorization.destination);
+  }
+}
+
+function sameFileIdentity(
+  left: { readonly dev: number; readonly ino: number },
+  right: { readonly dev: number; readonly ino: number }
+) {
+  return left.dev === right.dev && left.ino === right.ino;
+}
+
+async function assertStagingLock(lock: StagingLock) {
+  let pathStats;
+  try {
+    pathStats = await lstat(lock.path);
+  } catch {
+    throw new WprmImportError("staging-conflict");
+  }
+  if (
+    pathStats.isSymbolicLink()
+    || !pathStats.isFile()
+    || !isPrivateOwned(pathStats)
+    || !sameFileIdentity(pathStats, lock)
+  ) {
+    throw new WprmImportError("staging-conflict");
+  }
+  let handleStats;
+  try {
+    handleStats = await lock.handle.stat();
+  } catch {
+    throw new WprmImportError("staging-conflict");
+  }
+  if (
+    !handleStats.isFile()
+    || !isPrivateOwned(handleStats)
+    || !sameFileIdentity(handleStats, lock)
+  ) {
+    throw new WprmImportError("staging-conflict");
+  }
+}
+
+async function acquireStagingLock(root: string) {
+  const lockPath = path.join(root, rootStagingLockFileName);
+  let handle: Awaited<ReturnType<typeof open>>;
+  try {
+    handle = await open(
+      lockPath,
+      constants.O_WRONLY
+        | constants.O_CREAT
+        | constants.O_EXCL
+        | constants.O_NOFOLLOW,
+      0o600
+    );
+  } catch (error) {
+    if (
+      error !== null
+      && typeof error === "object"
+      && "code" in error
+      && error.code === "EEXIST"
+    ) {
+      try {
+        const existing = await lstat(lockPath);
+        if (
+          existing.isSymbolicLink()
+          || !existing.isFile()
+          || !isPrivateOwned(existing)
+        ) {
+          throw new WprmImportError("unsafe-staging-dir");
+        }
+      } catch (inspectionError) {
+        if (inspectionError instanceof WprmImportError) {
+          throw inspectionError;
+        }
+        throw new WprmImportError("staging-conflict");
+      }
+      throw new WprmImportError("staging-conflict");
+    }
+    if (
+      error !== null
+      && typeof error === "object"
+      && "code" in error
+      && error.code === "ELOOP"
+    ) {
+      throw new WprmImportError("unsafe-staging-dir");
+    }
+    throw new WprmImportError("staging-write-failed");
+  }
+  let lock: StagingLock | undefined;
+  try {
+    const stats = await handle.stat();
+    if (!stats.isFile() || !isPrivateOwned(stats)) {
+      throw new WprmImportError("unsafe-staging-dir");
+    }
+    lock = {
+      path: lockPath,
+      handle,
+      dev: stats.dev,
+      ino: stats.ino
+    };
+    await handle.writeFile(
+      `${JSON.stringify({
+        schemaVersion: 1,
+        kind: "exclusive-wordpress-staging-lock",
+        pid: process.pid,
+        nonce: randomBytes(16).toString("hex")
+      })}\n`,
+      "utf8"
+    );
+    await handle.chmod(0o600);
+    await handle.sync();
+    await assertStagingLock(lock);
+    return lock;
+  } catch (error) {
+    try {
+      if (lock !== undefined) {
+        const pathStats = await lstat(lock.path);
+        if (
+          !pathStats.isSymbolicLink()
+          && pathStats.isFile()
+          && isPrivateOwned(pathStats)
+          && sameFileIdentity(pathStats, lock)
+        ) {
+          await unlink(lock.path);
+        }
+      }
+    } catch {
+      // Leave an uncertain lock in place so a later run fails closed.
+    } finally {
+      try {
+        await handle.close();
+      } catch {
+        // Preserve the original acquisition failure.
+      }
+    }
+    if (error instanceof WprmImportError) {
+      throw error;
+    }
+    throw new WprmImportError("staging-write-failed");
+  }
+}
+
+async function releaseStagingLock(lock: StagingLock) {
+  let tombstonePath: string | undefined;
+  let ownsTombstone = false;
+  let failure: WprmImportError | undefined;
+  try {
+    await assertStagingLock(lock);
+    await privateDirectoryStats(path.dirname(lock.path));
+    tombstonePath = path.join(
+      path.dirname(lock.path),
+      `.${path.basename(lock.path)}.released-${randomBytes(16).toString("hex")}`
+    );
+    try {
+      await lstat(tombstonePath);
+      throw new WprmImportError("staging-conflict");
+    } catch (error) {
+      if (!missingError(error)) {
+        throw error;
+      }
+    }
+    await rename(lock.path, tombstonePath);
+    const tombstoneStats = await lstat(tombstonePath);
+    if (
+      tombstoneStats.isSymbolicLink()
+      || !tombstoneStats.isFile()
+      || !isPrivateOwned(tombstoneStats)
+      || !sameFileIdentity(tombstoneStats, lock)
+    ) {
+      throw new WprmImportError("staging-conflict");
+    }
+    ownsTombstone = true;
+  } catch (error) {
+    failure = error instanceof WprmImportError
+      ? error
+      : new WprmImportError("staging-conflict");
+  } finally {
+    try {
+      await lock.handle.close();
+    } catch {
+      if (failure === undefined) {
+        failure = new WprmImportError("staging-conflict");
+      }
+    }
+  }
+  if (ownsTombstone && tombstonePath !== undefined) {
+    try {
+      const tombstoneStats = await lstat(tombstonePath);
+      if (
+        tombstoneStats.isSymbolicLink()
+        || !tombstoneStats.isFile()
+        || !isPrivateOwned(tombstoneStats)
+        || !sameFileIdentity(tombstoneStats, lock)
+      ) {
+        throw new WprmImportError("staging-conflict");
+      }
+      await unlink(tombstonePath);
+    } catch {
+      if (failure === undefined) {
+        failure = new WprmImportError("staging-conflict");
+      }
+    }
+  }
+  if (failure !== undefined) {
+    throw failure;
   }
 }
 
@@ -490,32 +819,45 @@ export async function assertPrivateStagingDirectory(
   const existingExternal = (
     !initialAuthorization.inRepository && initialAuthorization.exists
   );
+  const state = await existingWprmRootState(
+    initialAuthorization,
+    expectedMarker,
+    false,
+    true
+  );
   if (existingExternal) {
     if (!resume) {
       throw new WprmImportError("unsafe-staging-dir");
     }
-    await validateExistingExternalRoot(initialAuthorization, expectedMarker);
-  } else if (resume && initialAuthorization.exists) {
-    await readPrivateMarker(
-      path.join(initialAuthorization.destination, ".wprm-staging.json"),
-      expectedMarker
-    );
-  } else if (initialAuthorization.exists) {
-    const markerPath = path.join(initialAuthorization.destination, ".wprm-staging.json");
-    try {
-      await lstat(markerPath);
-      await readPrivateMarker(markerPath, expectedMarker);
-    } catch (error) {
-      if (!missingError(error)) {
-        throw error;
-      }
-    }
+  }
+  if (resume && state !== "matching") {
+    throw new WprmImportError("staging-conflict");
+  }
+  if (!resume && state === "matching") {
+    throw new WprmImportError("staging-conflict");
   }
   const root = await ensurePrivateDirectory(
     canonical.destination,
     canonical.inputWasAbsolute,
     existingExternal
   );
+  const rootAuthorization = await authorizeDestination(
+    root,
+    canonical.inputWasAbsolute,
+    !initialAuthorization.inRepository
+  );
+  const rootState = await existingWprmRootState(
+    rootAuthorization,
+    expectedMarker,
+    false,
+    true
+  );
+  if (resume && rootState !== "matching") {
+    throw new WprmImportError("staging-conflict");
+  }
+  if (!resume && rootState === "matching") {
+    throw new WprmImportError("staging-conflict");
+  }
   const candidates = await ensurePrivateDirectory(
     path.join(root, "candidates"),
     canonical.inputWasAbsolute,
@@ -525,16 +867,14 @@ export async function assertPrivateStagingDirectory(
     root,
     candidates,
     inputWasAbsolute: canonical.inputWasAbsolute,
-    allowExistingExternal: !initialAuthorization.inRepository
+    allowExistingExternal: !initialAuthorization.inRepository,
+    initialRootState: rootState
   } satisfies StagingDirectories;
   await revalidateStagingDirectories(directories);
   return directories;
 }
 
-async function readExistingRegularFile(
-  target: string,
-  mode: number
-) {
+async function readExistingRegularFile(target: string) {
   let stats;
   try {
     stats = await lstat(target);
@@ -544,18 +884,17 @@ async function readExistingRegularFile(
     }
     throw new WprmImportError("staging-conflict");
   }
-  if (stats.isSymbolicLink() || !stats.isFile()) {
+  if (stats.isSymbolicLink() || !stats.isFile() || !isPrivateOwned(stats)) {
     throw new WprmImportError("staging-conflict");
   }
   let handle: Awaited<ReturnType<typeof open>> | undefined;
   try {
     handle = await open(target, constants.O_RDONLY | constants.O_NOFOLLOW);
     const handleStats = await handle.stat();
-    if (!handleStats.isFile()) {
+    if (!handleStats.isFile() || !isPrivateOwned(handleStats)) {
       throw new WprmImportError("staging-conflict");
     }
     const content = await handle.readFile();
-    await handle.chmod(mode);
     return content;
   } catch (error) {
     if (error instanceof WprmImportError) {
@@ -573,10 +912,14 @@ async function writeAtomic(
   mode: number,
   resume: boolean,
   directories: StagingDirectories,
-  matchesExisting: (existing: Buffer) => boolean
+  matchesExisting: (existing: Buffer) => boolean,
+  lock?: StagingLock
 ) {
+  if (lock !== undefined) {
+    await assertStagingLock(lock);
+  }
   await revalidateStagingDirectories(directories);
-  const existing = await readExistingRegularFile(target, mode);
+  const existing = await readExistingRegularFile(target);
   if (existing !== null) {
     if (!resume || !matchesExisting(existing)) {
       throw new WprmImportError("staging-conflict");
@@ -585,6 +928,9 @@ async function writeAtomic(
     return false;
   }
 
+  if (lock !== undefined) {
+    await assertStagingLock(lock);
+  }
   await revalidateStagingDirectories(directories);
   const temporary = path.join(
     path.dirname(target),
@@ -615,8 +961,11 @@ async function writeAtomic(
   }
 
   try {
+    if (lock !== undefined) {
+      await assertStagingLock(lock);
+    }
     await revalidateStagingDirectories(directories);
-    const raced = await readExistingRegularFile(target, mode);
+    const raced = await readExistingRegularFile(target);
     if (raced !== null) {
       throw new WprmImportError("staging-conflict");
     }
@@ -633,6 +982,203 @@ async function writeAtomic(
     throw new WprmImportError("staging-write-failed");
   }
   return true;
+}
+
+export interface PrivateStagingFile {
+  readonly relativePath: string;
+  readonly content: string;
+  readonly matchesExisting?: (existing: Buffer) => boolean;
+}
+
+export interface PrivateStagingFilesOptions {
+  readonly stagingDir: string;
+  readonly resume?: boolean;
+  readonly markerFileName: string;
+  readonly markerContent: string;
+  readonly markerMatches: (value: unknown) => boolean;
+  readonly files: readonly PrivateStagingFile[];
+}
+
+function validPrivateMarkerFileName(value: string) {
+  return /^\.[A-Za-z0-9][A-Za-z0-9._-]*\.json$/u.test(value);
+}
+
+function stagingRelativeTarget(
+  directories: StagingDirectories,
+  relativePath: string,
+  markerFileName: string
+) {
+  const rootFile = /^[A-Za-z0-9][A-Za-z0-9._-]*\.json$/u;
+  const candidateFile = /^candidates\/[A-Za-z0-9][A-Za-z0-9._-]*\.json$/u;
+  if (
+    relativePath === markerFileName
+    || (!rootFile.test(relativePath) && !candidateFile.test(relativePath))
+  ) {
+    throw new WprmImportError("unsafe-staging-dir");
+  }
+  const target = path.resolve(directories.root, relativePath);
+  if (!isWithin(target, directories.root)) {
+    throw new WprmImportError("unsafe-staging-dir");
+  }
+  return target;
+}
+
+export async function stagePrivateStagingFiles(
+  options: PrivateStagingFilesOptions
+) {
+  if (!validPrivateMarkerFileName(options.markerFileName)) {
+    throw new WprmImportError("unsafe-staging-dir");
+  }
+  const seenFiles = new Set<string>();
+  for (const file of options.files) {
+    if (seenFiles.has(file.relativePath)) {
+      throw new WprmImportError("staging-conflict");
+    }
+    seenFiles.add(file.relativePath);
+  }
+  const canonical = canonicalDestination(options.stagingDir);
+  const initialAuthorization = await authorizeDestination(
+    canonical.destination,
+    canonical.inputWasAbsolute,
+    true
+  );
+  const existingExternal = (
+    !initialAuthorization.inRepository && initialAuthorization.exists
+  );
+  const state = await existingGenericRootState(
+    initialAuthorization,
+    options.markerFileName,
+    options.markerMatches,
+    false,
+    true
+  );
+  if (existingExternal) {
+    if (!options.resume) {
+      throw new WprmImportError("unsafe-staging-dir");
+    }
+  }
+  if (options.resume && state !== "matching") {
+    throw new WprmImportError("staging-conflict");
+  }
+  if (!options.resume && state === "matching") {
+    throw new WprmImportError("staging-conflict");
+  }
+  const root = await ensurePrivateDirectory(
+    canonical.destination,
+    canonical.inputWasAbsolute,
+    existingExternal
+  );
+  const rootAuthorization = await authorizeDestination(
+    root,
+    canonical.inputWasAbsolute,
+    !initialAuthorization.inRepository
+  );
+  const rootState = await existingGenericRootState(
+    rootAuthorization,
+    options.markerFileName,
+    options.markerMatches,
+    false,
+    true
+  );
+  if (options.resume && rootState !== "matching") {
+    throw new WprmImportError("staging-conflict");
+  }
+  if (!options.resume && rootState === "matching") {
+    throw new WprmImportError("staging-conflict");
+  }
+  const candidates = await ensurePrivateDirectory(
+    path.join(root, "candidates"),
+    canonical.inputWasAbsolute,
+    !initialAuthorization.inRepository
+  );
+  const directories = {
+    root,
+    candidates,
+    inputWasAbsolute: canonical.inputWasAbsolute,
+    allowExistingExternal: !initialAuthorization.inRepository,
+    initialRootState: rootState
+  } satisfies StagingDirectories;
+  await revalidateStagingDirectories(directories);
+  const lock = await acquireStagingLock(root);
+  try {
+    await assertStagingLock(lock);
+    const lockedAuthorization = await authorizeDestination(
+      root,
+      directories.inputWasAbsolute,
+      directories.allowExistingExternal
+    );
+    const lockedState = await existingGenericRootState(
+      lockedAuthorization,
+      options.markerFileName,
+      options.markerMatches,
+      true,
+      directories.initialRootState !== "matching"
+    );
+    if (
+      (options.resume === true && lockedState !== "matching")
+      || (options.resume !== true && lockedState === "matching")
+    ) {
+      throw new WprmImportError("staging-conflict");
+    }
+    if (options.resume === true) {
+      const expectedRootEntries = new Set([
+        options.markerFileName,
+        rootStagingLockFileName,
+        "candidates",
+        ...options.files
+          .filter((file) => !file.relativePath.startsWith("candidates/"))
+          .map((file) => file.relativePath)
+      ]);
+      const expectedCandidateEntries = new Set(
+        options.files
+          .filter((file) => file.relativePath.startsWith("candidates/"))
+          .map((file) => path.basename(file.relativePath))
+      );
+      const rootEntries = await readdir(root);
+      const candidateEntries = await readdir(candidates);
+      if (
+        rootEntries.some((entry) => !expectedRootEntries.has(entry))
+        || candidateEntries.some((entry) => !expectedCandidateEntries.has(entry))
+      ) {
+        throw new WprmImportError("staging-conflict");
+      }
+    }
+    const markerPath = path.join(root, options.markerFileName);
+    await writeAtomic(
+      markerPath,
+      options.markerContent,
+      0o600,
+      options.resume === true,
+      directories,
+      (existing) => {
+        try {
+          return options.markerMatches(JSON.parse(existing.toString("utf8")));
+        } catch {
+          return false;
+        }
+      },
+      lock
+    );
+    for (const file of options.files) {
+      const target = stagingRelativeTarget(
+        directories,
+        file.relativePath,
+        options.markerFileName
+      );
+      await writeAtomic(
+        target,
+        file.content,
+        0o600,
+        options.resume === true,
+        directories,
+        file.matchesExisting ?? ((existing) => existing.toString("utf8") === file.content),
+        lock
+      );
+    }
+  } finally {
+    await releaseStagingLock(lock);
+  }
+  return directories;
 }
 
 function candidateContent(record: RecipeRecord) {
@@ -671,9 +1217,10 @@ export async function stageWprmCandidates(
   const key = await readFingerprintKey(options.fingerprintKeyFile);
   const resume = options.resume === true;
   const marker: WprmStagingMarker = {
-    schemaVersion: 2,
+    schemaVersion: 3,
     kind: "wprm-bulk-staging",
     sqlDecompressedSha256: manifest.source.sqlDecompressedSha256,
+    uploadIndexContractSha256: manifest.source.uploadIndexContractSha256,
     importerContractVersion: wprmImportContractVersion,
     mediaBindingVersion: 1
   };
@@ -682,90 +1229,118 @@ export async function stageWprmCandidates(
     resume,
     marker
   );
-  await writeAtomic(
-    path.join(directories.root, ".wprm-staging.json"),
-    markerContent(marker),
-    0o600,
-    resume,
-    directories,
-    (existing) => {
-      try {
-        const parsed: unknown = JSON.parse(existing.toString("utf8"));
-        return isWprmStagingMarker(parsed)
-          && markerMatches(parsed, marker);
-      } catch {
-        return false;
-      }
+  const lock = await acquireStagingLock(directories.root);
+  try {
+    await assertStagingLock(lock);
+    const lockedAuthorization = await authorizeDestination(
+      directories.root,
+      directories.inputWasAbsolute,
+      directories.allowExistingExternal
+    );
+    const lockedState = await existingWprmRootState(
+      lockedAuthorization,
+      marker,
+      true,
+      directories.initialRootState !== "matching"
+    );
+    if (
+      (resume && lockedState !== "matching")
+      || (!resume && lockedState === "matching")
+    ) {
+      throw new WprmImportError("staging-conflict");
     }
-  );
-  const staged: CandidateOutcome[] = [];
-  for (const outcome of [...outcomes].sort((left, right) =>
-    numericIdSort(left.recipeId, right.recipeId)
-  )) {
-    if (outcome.status === "error" || outcome.record === null) {
-      await revalidateStagingDirectories(directories);
-      const errorTarget = path.join(
-        directories.candidates,
-        `${outcome.recipeId}.json`
-      );
-      if (await readExistingRegularFile(errorTarget, 0o600) !== null) {
-        throw new WprmImportError("staging-conflict");
-      }
-      staged.push({ ...outcome, fingerprint: null });
-      continue;
-    }
-    const fingerprint = fingerprintCandidate(key, outcome.record);
-    const target = path.join(directories.candidates, `${outcome.recipeId}.json`);
     await writeAtomic(
-      target,
-      candidateContent(outcome.record),
+      path.join(directories.root, ".wprm-staging.json"),
+      markerContent(marker),
       0o600,
       resume,
       directories,
       (existing) => {
         try {
           const parsed: unknown = JSON.parse(existing.toString("utf8"));
-          const record = recipeRecordSchema.parse(parsed);
-          return fingerprintCandidate(key, record) === fingerprint;
+          return isWprmStagingMarker(parsed)
+            && markerMatches(parsed, marker);
         } catch {
           return false;
         }
-      }
+      },
+      lock
     );
-    staged.push({ ...outcome, fingerprint });
-  }
-  const safeManifest = {
-    ...manifest,
-    candidates: {
-      ...manifest.candidates,
-      outcomes: staged.map((outcome) => ({
-        recipeId: outcome.recipeId,
-        locale: outcome.locale,
-        status: outcome.status,
-        codes: outcome.codes,
-        fingerprint: outcome.fingerprint
-      }))
+    const staged: CandidateOutcome[] = [];
+    for (const outcome of [...outcomes].sort((left, right) =>
+      numericIdSort(left.recipeId, right.recipeId)
+    )) {
+      if (outcome.status === "error" || outcome.record === null) {
+        await assertStagingLock(lock);
+        await revalidateStagingDirectories(directories);
+        const errorTarget = path.join(
+          directories.candidates,
+          `${outcome.recipeId}.json`
+        );
+        if (await readExistingRegularFile(errorTarget) !== null) {
+          throw new WprmImportError("staging-conflict");
+        }
+        staged.push({ ...outcome, fingerprint: null });
+        continue;
+      }
+      const fingerprint = fingerprintCandidate(key, outcome.record);
+      const target = path.join(directories.candidates, `${outcome.recipeId}.json`);
+      await writeAtomic(
+        target,
+        candidateContent(outcome.record),
+        0o600,
+        resume,
+        directories,
+        (existing) => {
+          try {
+            const parsed: unknown = JSON.parse(existing.toString("utf8"));
+            const record = recipeRecordSchema.parse(parsed);
+            return fingerprintCandidate(key, record) === fingerprint;
+          } catch {
+            return false;
+          }
+        },
+        lock
+      );
+      staged.push({ ...outcome, fingerprint });
     }
-  } satisfies WprmSafeManifest;
-  const mediaBindingContent = `${JSON.stringify(mediaBindings, null, 2)}\n`;
-  await writeAtomic(
-    path.join(directories.root, "media-bindings.json"),
-    mediaBindingContent,
-    0o600,
-    resume,
-    directories,
-    (existing) => existing.toString("utf8") === mediaBindingContent
-  );
-  const manifestContent = `${JSON.stringify(safeManifest, null, 2)}\n`;
-  await writeAtomic(
-    path.join(directories.root, "manifest.json"),
-    manifestContent,
-    0o600,
-    resume,
-    directories,
-    (existing) => existing.toString("utf8") === manifestContent
-  );
-  return { outcomes: staged, manifest: safeManifest };
+    const safeManifest = {
+      ...manifest,
+      candidates: {
+        ...manifest.candidates,
+        outcomes: staged.map((outcome) => ({
+          recipeId: outcome.recipeId,
+          locale: outcome.locale,
+          status: outcome.status,
+          codes: outcome.codes,
+          fingerprint: outcome.fingerprint
+        }))
+      }
+    } satisfies WprmSafeManifest;
+    const mediaBindingContent = `${JSON.stringify(mediaBindings, null, 2)}\n`;
+    await writeAtomic(
+      path.join(directories.root, "media-bindings.json"),
+      mediaBindingContent,
+      0o600,
+      resume,
+      directories,
+      (existing) => existing.toString("utf8") === mediaBindingContent,
+      lock
+    );
+    const manifestContent = `${JSON.stringify(safeManifest, null, 2)}\n`;
+    await writeAtomic(
+      path.join(directories.root, "manifest.json"),
+      manifestContent,
+      0o600,
+      resume,
+      directories,
+      (existing) => existing.toString("utf8") === manifestContent,
+      lock
+    );
+    return { outcomes: staged, manifest: safeManifest };
+  } finally {
+    await releaseStagingLock(lock);
+  }
 }
 
 export const writeWprmStaging = stageWprmCandidates;

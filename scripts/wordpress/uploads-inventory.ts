@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { lstat, open } from "node:fs/promises";
 import path from "node:path";
 import { TextDecoder } from "node:util";
@@ -32,6 +33,12 @@ export const defaultUploadArchiveLimits: UploadArchiveLimits = {
 
 export interface UploadArchiveSummary {
   readonly index: number;
+  /**
+   * Hashes deliberately identify archive and central-directory content without
+   * retaining the operator's local archive path or ZIP entry names in output.
+   */
+  readonly archiveSha256: string;
+  readonly entryIndexContractSha256: string;
   readonly bytes: number;
   readonly entries: number;
   readonly files: number;
@@ -95,6 +102,7 @@ async function readExact(
   if (!Number.isSafeInteger(position) || !Number.isSafeInteger(length) || position < 0 || length < 0) {
     throw new UploadArchiveError("malformed-zip", "A ZIP range is invalid.");
   }
+
   const buffer = Buffer.alloc(length);
   let offset = 0;
   while (offset < length) {
@@ -105,6 +113,29 @@ async function readExact(
     offset += result.bytesRead;
   }
   return buffer;
+}
+
+async function sha256File(
+  handle: Awaited<ReturnType<typeof open>>,
+  bytes: number
+) {
+  const hash = createHash("sha256");
+  const chunk = Buffer.allocUnsafe(64 * 1024);
+  let position = 0;
+  while (position < bytes) {
+    const length = Math.min(chunk.byteLength, bytes - position);
+    const { bytesRead } = await handle.read(chunk, 0, length, position);
+    if (bytesRead === 0) {
+      throw new UploadArchiveError("malformed-zip", "An upload archive was truncated.");
+    }
+    hash.update(chunk.subarray(0, bytesRead));
+    position += bytesRead;
+  }
+  return hash.digest("hex");
+}
+
+function sha256Value(value: Buffer | string) {
+  return createHash("sha256").update(value).digest("hex");
 }
 
 function findEndOfCentralDirectory(buffer: Buffer) {
@@ -406,6 +437,7 @@ async function inspectArchive(
     const archiveUploadPaths = new Set<string>();
     const extensions = new Map<string, number>();
     const yearMonths = new Map<string, number>();
+    const entryIndexHash = createHash("sha256");
     const utf8Decoder = new TextDecoder("utf-8", { fatal: true });
 
     for (let entryIndex = 0; entryIndex < entries; entryIndex += 1) {
@@ -419,6 +451,10 @@ async function inspectArchive(
         throw new UploadArchiveError("malformed-zip", "A ZIP central directory entry is malformed.");
       }
       const flags = central.readUInt16LE(position + 8);
+      const compressionMethod = central.readUInt16LE(position + 10);
+      const crc32 = central.readUInt32LE(position + 16)
+        .toString(16)
+        .padStart(8, "0");
       const compressedSize = central.readUInt32LE(position + 20);
       const uncompressedSize = central.readUInt32LE(position + 24);
       const nameLength = central.readUInt16LE(position + 28);
@@ -470,6 +506,7 @@ async function inspectArchive(
 
       const isDirectory = name.endsWith("/")
         || (externalAttributes & 0x10) !== 0;
+      let normalizedUploadPath: string | null = null;
       if (isDirectory) {
         directories += 1;
       } else {
@@ -478,6 +515,7 @@ async function inspectArchive(
         if (!relativePath) {
           invalidEntries += 1;
         } else {
+          normalizedUploadPath = relativePath;
           uploadFiles += 1;
           if (/-\d+x\d+\.[^./]+$/u.test(relativePath)) {
             generatedDerivativeFiles += 1;
@@ -498,6 +536,24 @@ async function inspectArchive(
           }
         }
       }
+      entryIndexHash.update(
+        `${JSON.stringify({
+          ordinal: entryIndex,
+          nameSha256: sha256Value(nameBytes),
+          normalizedUploadPathSha256: normalizedUploadPath === null
+            ? null
+            : sha256Value(normalizedUploadPath),
+          flags,
+          compressionMethod,
+          crc32,
+          compressedBytes: sizes.compressedSize,
+          uncompressedBytes: sizes.uncompressedSize,
+          localOffset: sizes.localOffset,
+          externalAttributes,
+          isDirectory
+        })}\n`,
+        "utf8"
+      );
       position = entryEnd;
       parsedEntries += 1;
     }
@@ -510,6 +566,8 @@ async function inspectArchive(
     }
     return {
       index,
+      archiveSha256: await sha256File(handle, stats.size),
+      entryIndexContractSha256: entryIndexHash.digest("hex"),
       bytes: stats.size,
       entries,
       files,
@@ -559,4 +617,42 @@ export async function inventoryUploadArchives(
     summaries.push(summary);
   }
   return { summaries, uploadPathCounts, uploadPathArchives };
+}
+
+/**
+ * Binds source archive bytes, all central-directory entry identities, and the
+ * normalized upload-path multiset without exposing local archive paths or ZIP
+ * entry names in a safe manifest.
+ */
+export function uploadIndexContractHash(archive: UploadArchiveInventory) {
+  const archives = archive.summaries
+    .map((summary) => ({
+      archiveSha256: summary.archiveSha256,
+      entryIndexContractSha256: summary.entryIndexContractSha256,
+      bytes: summary.bytes,
+      entries: summary.entries,
+      files: summary.files,
+      directories: summary.directories,
+      uploadFiles: summary.uploadFiles,
+      invalidEntries: summary.invalidEntries
+    }))
+    .sort((left, right) => JSON.stringify(left).localeCompare(JSON.stringify(right)));
+  const hash = createHash("sha256");
+  hash.update('{"archives":', "utf8");
+  hash.update(JSON.stringify(archives), "utf8");
+  hash.update(',"normalizedPaths":[', "utf8");
+  let first = true;
+  for (const [pathValue, occurrences] of [...archive.uploadPathCounts.entries()]
+    .sort(([left], [right]) => left.localeCompare(right))) {
+    if (!first) {
+      hash.update(",", "utf8");
+    }
+    hash.update(
+      JSON.stringify({ pathSha256: sha256Value(pathValue), occurrences }),
+      "utf8"
+    );
+    first = false;
+  }
+  hash.update("]}", "utf8");
+  return hash.digest("hex");
 }
