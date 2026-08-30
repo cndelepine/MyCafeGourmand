@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { spawnSync } from "node:child_process";
 import {
   chmodSync,
   lstatSync,
@@ -13,6 +14,7 @@ import {
 import { randomBytes } from "node:crypto";
 import path from "node:path";
 import test from "node:test";
+import { pathToFileURL } from "node:url";
 import { runWprmBulkImport } from "../scripts/wordpress/wprm-import-runner";
 import {
   assertPrivateStagingDirectory,
@@ -110,7 +112,6 @@ test("staging authorization is fixed to the physical repository boundary", async
   const outside = path.join(repositoryRoot, "..", `.wprm-auth-outside-${suffix}`);
   const symlinkRoot = path.join(repositoryRoot, "migration-output", `.wprm-link-${suffix}`);
   const symlinkTarget = path.join(repositoryRoot, "migration-output", `.wprm-target-${suffix}`);
-  const originalCwd = process.cwd();
   try {
     const allowedDirectories = await assertPrivateStagingDirectory(
       path.relative(repositoryRoot, allowed)
@@ -119,11 +120,32 @@ test("staging authorization is fixed to the physical repository boundary", async
     assert.equal(lstatSync(allowed).mode & 0o777, 0o700);
     assert.equal(lstatSync(allowedDirectories.candidates).mode & 0o777, 0o700);
 
-    process.chdir(path.dirname(repositoryRoot));
-    const cwdIndependent = await assertPrivateStagingDirectory(
-      path.relative(repositoryRoot, `${allowed}-cwd`)
+    const stageModuleUrl = pathToFileURL(
+      path.join(repositoryRoot, "scripts/wordpress/wprm-import-stage.ts")
+    ).href;
+    const alternateCwdResult = spawnSync(
+      process.execPath,
+      [
+        path.join(repositoryRoot, "node_modules/tsx/dist/cli.mjs"),
+        "--eval",
+        `void import(${JSON.stringify(stageModuleUrl)}).then(async (loaded) => {
+          const stage = loaded.default ?? loaded;
+          const result = await stage.assertPrivateStagingDirectory(
+            ${JSON.stringify(path.relative(repositoryRoot, `${allowed}-cwd`))}
+          );
+          process.stdout.write(result.root);
+        }).catch((error) => {
+          console.error(error);
+          process.exitCode = 1;
+        });`
+      ],
+      {
+        cwd: path.dirname(repositoryRoot),
+        encoding: "utf8"
+      }
     );
-    assert.equal(cwdIndependent.root, `${allowed}-cwd`);
+    assert.equal(alternateCwdResult.status, 0, alternateCwdResult.stderr);
+    assert.equal(alternateCwdResult.stdout, `${allowed}-cwd`);
 
     for (const forbidden of ["", "src", "content", "public", "out", ".next", "test"]) {
       await assert.rejects(
@@ -158,7 +180,6 @@ test("staging authorization is fixed to the physical repository boundary", async
         && error.code === "unsafe-staging-dir"
     );
   } finally {
-    process.chdir(originalCwd);
     for (const value of [symlinkRoot, `${symlinkRoot}-final`]) {
       try {
         unlinkSync(value);
