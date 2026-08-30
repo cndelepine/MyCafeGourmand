@@ -80,45 +80,6 @@ test("the end-to-end bulk runner keeps every WPRM post accounted", async () => {
       dryRun: true
     });
 
-    test("default redirect reservations include editorial, gallery, and generated routes", () => {
-      const routes = new Set(currentStaticRoutePaths());
-      for (const { segments } of [
-        ...getEditorialStaticParams(loadEditorialCatalog()),
-        ...getGalleryStaticParams(loadGalleryCatalog())
-      ]) {
-        assert.equal(routes.has(getStaticPathFromSegments(segments)), true);
-      }
-      assert.equal(routes.has("/staticwebapp.config.json"), true);
-    });
-
-    test("old-slug limits count rows rather than distinct posts", async () => {
-      const directory = mkdtempSync(path.join(process.cwd(), ".wprm-old-slug-limit-"));
-      try {
-        const database = path.join(directory, "duplicate-old-slugs.sql");
-        writeFileSync(
-          database,
-          readFileSync(fixture, "utf8").replace(
-            "(13, 100, '_wp_old_slug', 'ready-old'),",
-            "(13, 100, '_wp_old_slug', 'ready-old'),\n"
-              + "  (130, 100, '_wp_old_slug', 'another-old'),"
-          )
-        );
-        await assert.rejects(
-          extractWprmSource({
-            database,
-            limits: { maxOldSlugRecords: 1 }
-          }),
-          (error: unknown) =>
-            error !== null
-            && typeof error === "object"
-            && "code" in error
-            && error.code === "old-slug-record-limit"
-        );
-      } finally {
-        rmSync(directory, { recursive: true, force: true });
-      }
-    });
-
     assert.equal(result.manifest.candidates.total, 10);
     assert.equal(
       result.manifest.candidates.ready
@@ -130,6 +91,45 @@ test("the end-to-end bulk runner keeps every WPRM post accounted", async () => {
     assert.equal(result.manifest.wpurRecordsEmitted, 0);
     assert.equal(result.manifest.privacy.rawValuesEmitted, false);
     assert.equal(result.manifest.privacy.sourceWordingEmitted, false);
+  } finally {
+    rmSync(directory, { recursive: true, force: true });
+  }
+});
+
+test("default redirect reservations include editorial, gallery, and generated routes", () => {
+  const routes = new Set(currentStaticRoutePaths());
+  for (const { segments } of [
+    ...getEditorialStaticParams(loadEditorialCatalog()),
+    ...getGalleryStaticParams(loadGalleryCatalog())
+  ]) {
+    assert.equal(routes.has(getStaticPathFromSegments(segments)), true);
+  }
+  assert.equal(routes.has("/staticwebapp.config.json"), true);
+});
+
+test("old-slug limits count rows rather than distinct posts", async () => {
+  const directory = mkdtempSync(path.join(process.cwd(), ".wprm-old-slug-limit-"));
+  try {
+    const database = path.join(directory, "duplicate-old-slugs.sql");
+    writeFileSync(
+      database,
+      readFileSync(fixture, "utf8").replace(
+        "(13, 100, '_wp_old_slug', 'ready-old'),",
+        "(13, 100, '_wp_old_slug', 'ready-old'),\n"
+          + "  (130, 100, '_wp_old_slug', 'another-old'),"
+      )
+    );
+    await assert.rejects(
+      extractWprmSource({
+        database,
+        limits: { maxOldSlugRecords: 1 }
+      }),
+      (error: unknown) =>
+        error !== null
+        && typeof error === "object"
+        && "code" in error
+        && error.code === "old-slug-record-limit"
+    );
   } finally {
     rmSync(directory, { recursive: true, force: true });
   }
