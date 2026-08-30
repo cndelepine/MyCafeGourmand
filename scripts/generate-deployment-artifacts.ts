@@ -3,14 +3,19 @@
 import { existsSync, lstatSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { validateContent } from "../src/content/validation";
+import {
+  createExactRedirectManifest,
+  serializeExactRedirectManifest
+} from "../src/content/redirect-manifest";
 import {
   createStaticWebAppConfig,
   serializeStaticWebAppConfig
 } from "../src/content/staticwebapp";
+import { validateContent } from "../src/content/validation";
+import { exactRedirectManifestPath } from "../src/lib/public-routes";
 import { loadHandAuthoredStaticWebAppConfig } from "./staticwebapp-config";
 
-export function generateStaticWebAppConfig(
+export function generateDeploymentArtifacts(
   projectRoot: string = process.cwd(),
   outputDirectory = path.join(projectRoot, "out")
 ) {
@@ -33,11 +38,18 @@ export function generateStaticWebAppConfig(
     publicRoot: path.join(root, "public"),
     recipesRoot: path.join(root, "content/recipes")
   });
-  const config = createStaticWebAppConfig(records, {
+  const redirectManifest = createExactRedirectManifest(
+    records,
+    editorialRecords,
+    galleryRecords
+  );
+  const staticWebAppConfig = createStaticWebAppConfig(records, {
     editorialRecords,
     galleryRecords,
     handAuthoredConfig
   });
+  const redirectManifestContents = serializeExactRedirectManifest(redirectManifest);
+  const staticWebAppConfigContents = serializeStaticWebAppConfig(staticWebAppConfig);
 
   if (!existsSync(outputRoot)) {
     mkdirSync(outputRoot, { recursive: true });
@@ -47,16 +59,33 @@ export function generateStaticWebAppConfig(
     throw new Error(`Static export output is not a directory: "${outputRoot}"`);
   }
 
-  const outputPath = path.join(outputRoot, "staticwebapp.config.json");
-  writeFileSync(outputPath, serializeStaticWebAppConfig(config), "utf8");
-  return { outputPath, config };
+  const redirectManifestOutputPath = path.join(
+    outputRoot,
+    exactRedirectManifestPath.slice(1)
+  );
+  const staticWebAppConfigPath = path.join(outputRoot, "staticwebapp.config.json");
+  writeFileSync(redirectManifestOutputPath, redirectManifestContents, "utf8");
+  writeFileSync(staticWebAppConfigPath, staticWebAppConfigContents, "utf8");
+  return {
+    redirectManifest,
+    redirectManifestPath: redirectManifestOutputPath,
+    staticWebAppConfig,
+    staticWebAppConfigPath
+  };
 }
 
 if (fileURLToPath(import.meta.url) === path.resolve(process.argv[1] ?? "")) {
   try {
-    const { outputPath, config } = generateStaticWebAppConfig();
-    const routes = Array.isArray(config.routes) ? config.routes.length : 0;
-    console.log(`Generated ${outputPath} with ${routes} route rule(s).`);
+    const {
+      redirectManifest,
+      redirectManifestPath,
+      staticWebAppConfigPath
+    } = generateDeploymentArtifacts();
+    console.log(
+      `Generated ${redirectManifestPath} with ` +
+      `${redirectManifest.redirects.length} exact redirect(s).`
+    );
+    console.log(`Generated ${staticWebAppConfigPath}.`);
   } catch (error) {
     console.error(error instanceof Error ? error.message : error);
     process.exitCode = 1;

@@ -51,7 +51,7 @@ export function runStaticBuild(
     run(command("npm"), ["run", "content:validate"], buildEnvironment);
     run(command("npm"), ["run", "search:generate"], buildEnvironment);
     run(nextExecutable(), ["build"], buildEnvironment);
-    run(command("npm"), ["run", "staticwebapp:generate"], buildEnvironment);
+    run(command("npm"), ["run", "deployment:generate"], buildEnvironment);
     return;
   }
 
@@ -68,7 +68,7 @@ export function runStaticBuild(
   run(command("npm"), ["run", "content:validate"], buildEnvironment);
   run(command("npm"), ["run", "search:generate"], buildEnvironment);
   run(nextExecutable(), ["build"], buildEnvironment);
-  run(command("npm"), ["run", "staticwebapp:generate"], buildEnvironment);
+  run(command("npm"), ["run", "deployment:generate"], buildEnvironment);
   assertRecipeMediaBuildEnvironment(mode, buildEnvironment);
   run(command("npm"), ["run", "release:validate-output"], buildEnvironment);
   assertRecipeMediaBuildEnvironment(mode, buildEnvironment);

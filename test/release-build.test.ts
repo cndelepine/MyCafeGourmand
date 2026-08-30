@@ -7,6 +7,7 @@ import {
   assertRecipeMediaBuildEnvironment,
   recipeMediaBaseUrlEnvironmentVariable
 } from "../src/lib/recipe-media";
+import { assertReleaseDeploymentIntegration } from "../src/lib/release-deployment";
 
 type PackageScripts = Readonly<Record<string, string>>;
 
@@ -29,6 +30,10 @@ test("only the guarded release command can produce a deployable static artifact"
   assert.equal(scripts["build:static"], "tsx scripts/build-static.ts");
   assert.equal(scripts["build:ci"], "npm run build:static");
   assert.equal(scripts["build:local"], "npm run build:static");
+  assert.equal(
+    scripts["deployment:generate"],
+    "tsx scripts/generate-deployment-artifacts.ts"
+  );
   assert.match(
     scripts["release:validate"],
     /validate-release-contact-form/u
@@ -36,6 +41,28 @@ test("only the guarded release command can produce a deployable static artifact"
   assert.match(
     readFileSync(path.resolve(process.cwd(), ".github/workflows/ci.yml"), "utf8"),
     /npm run build:ci/u
+  );
+});
+
+test("release builds remain blocked until exact redirects have a deployment adapter", () => {
+  assert.throws(
+    () => assertReleaseDeploymentIntegration(),
+    /blocked until an exact-redirect edge adapter consumes out\/redirect-manifest\.json/u
+  );
+
+  const result = spawnSync(
+    process.platform === "win32" ? "npm.cmd" : "npm",
+    ["run", "build:release"],
+    {
+      cwd: process.cwd(),
+      encoding: "utf8",
+      env: process.env
+    }
+  );
+  assert.notEqual(result.status, 0);
+  assert.match(
+    `${result.stdout}\n${result.stderr}`,
+    /release-build-failed: Release build is blocked/u
   );
 });
 

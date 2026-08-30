@@ -12,7 +12,7 @@ import { editorialCatalog } from "../src/content/editorial-catalog";
 import { getEditorialGalleryMediaDimensions } from "../src/content/editorial-media-manifest";
 import { editorialPageRecordSchema } from "../src/content/editorial-schema";
 import { galleryCatalog } from "../src/content/gallery-catalog";
-import { createStaticWebAppConfig } from "../src/content/staticwebapp";
+import { createExactRedirectManifest } from "../src/content/redirect-manifest";
 import { validatePublicContentBehavior } from "../src/content/validation";
 import {
   getEditorialStructuredData,
@@ -86,6 +86,10 @@ test("editorial routes preserve nested Unicode canonical paths and translation r
   assert.equal(getStaticPathFromSegments(["ru", "о-сайте"]), "/ru/%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%D0%B5");
   assert.equal(
     getReservedPublicPaths(recipeCatalog).includes("/staticwebapp.config.json"),
+    true
+  );
+  assert.equal(
+    getReservedPublicPaths(recipeCatalog).includes("/redirect-manifest.json"),
     true
   );
 });
@@ -381,13 +385,11 @@ test("gallery rendering, sitemap, and static redirects close the public route se
     assert.equal(paths.includes(path), true);
   }
   assert.deepEqual(
-    createStaticWebAppConfig([], {
-      editorialRecords: [redirectingEditorial]
-    }).routes,
+    createExactRedirectManifest([], [redirectingEditorial]).redirects,
     [{
-      route: "/old-editorial/",
-      redirect: "/editorial-redirect/",
-      statusCode: 301
+      source: "/old-editorial/",
+      destination: "/editorial-redirect/",
+      status: 301
     }]
   );
   assert.throws(

@@ -34,7 +34,8 @@ Key paths:
 - `content/galleries/` - validated language-neutral gallery records
 - `content/*media-manifest.json` - public metadata for Blob-backed media
 - `src/content/url-path.ts` - shared slug and local URL-path validation
-- `src/content/staticwebapp.ts` - generated Azure redirects and route checks
+- `src/content/redirect-manifest.ts` - provider-neutral exact redirect manifest
+- `src/content/staticwebapp.ts` - bounded Azure origin configuration and route checks
 - `scripts/import-wordpress-wprm.ts` and `scripts/import-wordpress-editorial.ts`
   - authenticated staging importers
 - `scripts/promote-wordpress-wprm.ts` and
@@ -137,8 +138,8 @@ case sensitivity when they affect published output.
   from old recipe URLs. Do not promise taxonomy, feed, attachment, print, or
   shortlink URL compatibility.
 - Generated recipe redirect destinations must use canonical static-export
-  recipe paths, including their trailing slash. Validate generated and
-  hand-authored Azure redirects together for conflicts and cycles; do not
+  recipe paths, including their trailing slash. Validate provider-neutral and
+  hand-authored Azure exact redirects together for conflicts and cycles; do not
   bypass these checks with wildcard redirects.
 - Generate canonical URLs and `hreflang` links from validated content relationships.
 - Emit valid Recipe JSON-LD on recipe pages and appropriate WebPage, Article, and breadcrumb metadata where applicable.
@@ -168,8 +169,9 @@ npm run build:ci
   source for the CI runtime.
 - Run the smallest relevant checks while iterating, then run `npm run check` and
   `npm run build:ci` before reporting an implementation complete. `build:ci`
-  and `build:local` artifacts are nondeployable when Blob media is present;
-  deployment must use the guarded `npm run build:release` command with a
+  and `build:local` artifacts are nondeployable when Blob media is present.
+  `build:release` must remain fail-closed until a checked-in edge adapter
+  deploys and verifies every exact redirect, in addition to requiring a
   validated HTTPS `NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL`.
 - `npm test` runs the focused Node test suite, and CI runs `npm run check`.
 - Declare Node test-runner tests at module scope. Do not dynamically register a
