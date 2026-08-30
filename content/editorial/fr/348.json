@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:348",
+  "locale": "fr",
+  "canonicalPath": "/fr/decorations-2/",
+  "translationGroupId": "wordpress:post-translations:50",
+  "source": {
+    "system": "wordpress",
+    "postId": 348,
+    "sourcePath": "/fr/decorations-2/",
+    "sourceSlug": "decorations-2",
+    "createdAt": "2017-12-25T20:07:04Z",
+    "modifiedAt": "2017-12-25T20:07:04Z"
+  },
+  "title": "Décorations",
+  "excerpt": null,
+  "publishedAt": "2017-12-25T20:07:04Z",
+  "modifiedAt": "2017-12-25T20:07:04Z",
+  "content": [
+    {
+      "type": "heading",
+      "level": 4,
+      "children": [
+        {
+          "type": "text",
+          "value": "Spring\nSummer\nFall\nWinter"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "mediaId": "wordpress:attachment:90",
+      "alt": "20171110_170033",
+      "caption": null
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:90",
+      "path": "/editorial/media/wordpress/90.jpg",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 90
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

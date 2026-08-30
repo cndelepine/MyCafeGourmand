@@ -33,6 +33,7 @@ import {
   type WprmStagedMediaBindings,
   type WprmSafeManifest
 } from "./wprm-import-contracts";
+import { isIntentionallyPartialOutcome } from "./wprm-promotion-eligibility";
 import { normalizeWprmAttachmentFile } from "./wprm-import-map";
 import { uploadMatchedAttachmentCount } from "./wprm-import-contracts";
 import { resolveWprmRedirects } from "./wprm-import-redirects";
@@ -397,6 +398,7 @@ function referencedMediaIds(record: NonNullable<CandidateOutcome["record"]>) {
 
 async function bindStagedMedia(
   outcomes: readonly CandidateOutcome[],
+  sourceTranslationGroups: ReadonlyMap<string, string | null>,
   snapshot: Awaited<ReturnType<typeof extractWprmSource>>,
   archivePaths: readonly string[],
   key: Uint8Array
@@ -406,7 +408,16 @@ async function bindStagedMedia(
     readonly sourcePath: string;
   }>();
   for (const outcome of outcomes) {
-    if (outcome.status !== "ready" || outcome.record === null) {
+    if (
+      (
+        outcome.status !== "ready"
+        && !isIntentionallyPartialOutcome(
+          outcome,
+          sourceTranslationGroups.get(outcome.recipeId)
+        )
+      )
+      || outcome.record === null
+    ) {
       continue;
     }
     const referenced = referencedMediaIds(outcome.record);
@@ -619,6 +630,7 @@ export async function runWprmBulkImport(
   if (write) {
     const mediaBindings = await bindStagedMedia(
       finalOutcomes,
+      relations.translationGroups,
       snapshot,
       archives,
       key

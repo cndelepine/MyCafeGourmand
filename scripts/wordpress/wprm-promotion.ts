@@ -57,6 +57,7 @@ import {
   type WprmStagedMediaBindings
 } from "./wprm-import-contracts";
 import {
+  isIntentionallyPartialOutcome,
   selectPromotionEligibleRecords,
   WprmPromotionEligibilityError
 } from "./wprm-promotion-eligibility";
@@ -255,6 +256,7 @@ export type WprmPromotionResult = {
     readonly excluded: number;
     readonly blockedGroups: number;
     readonly intentionallyPartialGroups: number;
+    readonly intentionallyPartialCandidates: number;
     readonly publicationExcludedPeers: number;
     readonly integrityBlockingPeers: number;
     readonly reviewPeers: number;
@@ -4386,9 +4388,15 @@ async function prepareWprmPromotion(
   }
   const authenticated = await authenticateCandidates(staging, fresh.outcomes, key);
   const mediaBindings = await authenticateMediaBindings(staging);
-  const readySelected = sortedNumericIds(
+  const promotionCandidates = sortedNumericIds(
     fresh.outcomes
-      .filter((outcome) => outcome.status === "ready")
+      .filter((outcome) =>
+        outcome.status === "ready"
+        || isIntentionallyPartialOutcome(
+          outcome,
+          fresh.sourceTranslationGroups.get(outcome.recipeId)
+        )
+      )
       .map((outcome) => outcome.recipeId)
   ).map((recipeId) => {
     const record = authenticated.get(recipeId);
@@ -4397,13 +4405,13 @@ async function prepareWprmPromotion(
     }
     return record;
   });
-  if (readySelected.length !== options.expected.ready) {
+  if (promotionCandidates.length < options.expected.ready) {
     fail("unexpected-candidate-count");
   }
   await assertDirectoryChain(roots.repositoryRoot, roots.contentRoot, false);
   await assertDirectoryChain(roots.repositoryRoot, roots.mediaRoot, false);
   const translation = classifyPromotionTranslationClosure(
-    readySelected,
+    promotionCandidates,
     fresh.outcomes,
     loadRecipeCatalogWithSources(roots.contentRoot).records,
     fresh.sourceTranslationGroups
@@ -4417,7 +4425,7 @@ async function prepareWprmPromotion(
     fresh.snapshot,
     mediaBindings,
     key,
-    mediaBindingIds(readySelected),
+    mediaBindingIds(promotionCandidates),
     existingMediaManifest.manifest
   );
   try {
@@ -4467,6 +4475,8 @@ function promotionResult(
       excluded: prepared.translation.excluded,
       blockedGroups: prepared.translation.blockedGroups,
       intentionallyPartialGroups: prepared.translation.intentionallyPartialGroups,
+      intentionallyPartialCandidates:
+        prepared.translation.intentionallyPartialCandidates,
       publicationExcludedPeers: prepared.translation.publicationExcludedPeers,
       integrityBlockingPeers: prepared.translation.integrityBlockingPeers,
       reviewPeers: prepared.translation.reviewPeers,

@@ -7,6 +7,9 @@ import {
 } from "node:fs";
 import path from "node:path";
 import test from "node:test";
+import {
+  createEditorialGalleryMediaManifest
+} from "../src/content/editorial-media-manifest";
 import { createRecipeMediaManifest } from "../src/content/media-manifest";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
@@ -15,12 +18,14 @@ import {
   validateStaticExportOutput
 } from "../scripts/validate-release-media-output";
 import { recipeFixture } from "./fixtures/recipe";
-import { getStaticPageParams } from "../src/lib/recipe-routes";
+import { getPublicStaticPageParams } from "../src/lib/public-routes";
 
 const base = "https://media.example.test/recipe-container";
 const absoluteMedia = `${base}/recipes/media/wordpress/900.jpg`;
 const localMedia = "/recipes/media/wordpress/900.jpg";
 const wrongMedia = "https://other.example.test/recipe-container/recipes/media/wordpress/900.jpg";
+const editorialMedia = "/editorial/media/wordpress/81.jpg";
+const absoluteEditorialMedia = `${base}${editorialMedia}`;
 
 function mediaManifest() {
   return createRecipeMediaManifest([{
@@ -98,7 +103,33 @@ test("release output validation rejects wrong media URLs in every runtime payloa
         ReleaseMediaOutputValidationError
       );
     });
+
   }
+});
+
+test("release output validation recognizes managed editorial media", () => {
+  const editorialManifest = createEditorialGalleryMediaManifest([{
+    key: editorialMedia,
+    bytes: 12,
+    sha256: "b".repeat(64),
+    source: {
+      system: "wordpress",
+      attachmentId: 81
+    }
+  }]);
+  withOutput({
+    "index.html": `<img src="${absoluteMedia}"><img src="${absoluteEditorialMedia}">`
+  }, (outputDirectory) => {
+    assert.deepEqual(
+      validateReleaseMediaOutput({
+        editorialGalleryMediaManifest: editorialManifest,
+        mediaBaseUrl: base,
+        mediaManifest: mediaManifest(),
+        outputDirectory
+      }),
+      { documents: 1, mediaUrls: 2 }
+    );
+  });
 });
 
 test("release output validation requires every generated category and pagination route", () => {
@@ -119,8 +150,9 @@ test("release output validation requires every generated category and pagination
       slug: "release-routes"
     }]
   }));
+  const staticRoutes = getPublicStaticPageParams(catalog, [], []);
   const files = Object.fromEntries(
-    getStaticPageParams(catalog).map(({ segments }) => [
+    staticRoutes.map(({ segments }) => [
       segments.length === 0 ? "index.html" : `${segments.join("/")}/index.html`,
       "x"
     ])
@@ -130,9 +162,9 @@ test("release output validation requires every generated category and pagination
     assert.deepEqual(
       validateStaticExportOutput({ catalog, outputDirectory }),
       {
-        bytes: getStaticPageParams(catalog).length,
-        files: getStaticPageParams(catalog).length,
-        routes: getStaticPageParams(catalog).length
+        bytes: staticRoutes.length,
+        files: staticRoutes.length,
+        routes: staticRoutes.length
       }
     );
   });

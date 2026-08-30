@@ -5,13 +5,24 @@ import {
 import { createStaticWebAppConfig } from "../src/content/staticwebapp";
 import { loadHandAuthoredStaticWebAppConfig } from "./staticwebapp-config";
 
-const { records } = validateContent();
+const {
+  editorialGalleryMediaManifest,
+  editorialRecords,
+  galleryRecords,
+  publicBehavior,
+  records
+} = validateContent();
 const summary = validateCatalogBehavior(records);
 const config = createStaticWebAppConfig(records, {
+  editorialRecords,
+  galleryRecords,
   handAuthoredConfig: loadHandAuthoredStaticWebAppConfig()
 });
 const redirectCount = records.reduce(
   (count, record) => count + record.redirectFrom.length,
+  0
+) + editorialRecords.reduce(
+  (count, record) => count + (record.redirectFrom?.length ?? 0),
   0
 );
 
@@ -27,8 +38,10 @@ console.log(
   `${summary.categoryPagesByLocale.en}/${summary.categoryPagesByLocale.fr}/` +
   `${summary.categoryPagesByLocale.ru} category page(s), ` +
   `${summary.ids} ID(s), ${summary.localizedSlugs} localized slug(s), ` +
-  `${summary.translationLinks} translation link(s), ${summary.staticPaths} static path(s), ` +
-  `${summary.sitemapPaths} sitemap path(s), ` +
-  `${redirectCount} recipe redirect source(s), and ${config.routes.length} ` +
+  `${summary.translationLinks} recipe translation link(s), ${editorialRecords.length} editorial ` +
+  `page(s), ${galleryRecords.length} gallery, ${editorialGalleryMediaManifest.entries.length} ` +
+  `editorial/gallery media object(s), ${publicBehavior.staticPaths} public static path(s), ` +
+  `${publicBehavior.sitemapPaths} sitemap path(s), ${redirectCount} content redirect source(s), and ` +
+  `${config.routes.length} ` +
   `total Static Web Apps route rule(s).`
 );

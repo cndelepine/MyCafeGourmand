@@ -17,7 +17,10 @@ import {
 } from "../../src/content/url-path";
 import { getRecipePath } from "../../src/lib/recipe-routes";
 import { type Locale, type RecipeRecord } from "../../src/content/schema";
-import { selectPromotionEligibleRecords } from "./wprm-promotion-eligibility";
+import {
+  isIntentionallyPartialOutcome,
+  selectPromotionEligibleRecords
+} from "./wprm-promotion-eligibility";
 
 export type WprmRedirectIssue = {
   readonly code: string;
@@ -213,44 +216,86 @@ function sourceValidIdentity(
   } satisfies Identity;
 }
 
-function selectedRecords(input: WprmRedirectResolverInput) {
-  const explicit = input.promotedRecords ?? input.eligibleRecords;
-  const candidates = explicit === undefined
-    ? (input.outcomes ?? [])
-    .filter((outcome) => outcome.status === "ready" && outcome.record !== null)
-    .map((outcome) => outcome.record!)
-    : [...explicit];
-  const sorted = candidates.sort((left, right) =>
+function sortedRecords(records: readonly RecipeRecord[]) {
+  return [...records].sort((left, right) =>
     numericIdSort(left.source.recipeId, right.source.recipeId)
   );
+}
+
+function sourceTranslationGroupEvidence(input: WprmRedirectResolverInput) {
+  const supplied = input.sourceTranslationGroups ?? input.relations.translationGroups;
+  if (supplied !== undefined) {
+    return supplied;
+  }
   if (input.outcomes === undefined) {
-    return sorted;
+    return undefined;
   }
-  const sourceTranslationGroups = input.sourceTranslationGroups
-    ?? input.relations.translationGroups
-    ?? new Map(
-      input.outcomes.map((outcome) => [
-        outcome.recipeId,
-        outcome.translationGroupId
-          ?? outcome.record?.translationGroupId
-          ?? null
-      ] as const)
-    );
-  if (
-    input.sourceTranslationGroups === undefined
-    && input.relations.translationGroups === undefined
-    && input.outcomes.some((outcome) =>
-      outcome.translationGroupId === undefined
-      && outcome.record?.translationGroupId === undefined
+  if (input.outcomes.some((outcome) =>
+    outcome.translationGroupId === undefined
+    && outcome.record?.translationGroupId === undefined
+  )) {
+    return null;
+  }
+  return new Map(
+    input.outcomes.map((outcome) => [
+      outcome.recipeId,
+      outcome.translationGroupId
+        ?? outcome.record?.translationGroupId
+        ?? null
+    ] as const)
+  );
+}
+
+function outcomeRecordsEligibleForRedirects(
+  outcomes: readonly CandidateOutcome[],
+  sourceTranslationGroups: ReadonlyMap<string, string | null>
+) {
+  return outcomes.flatMap((outcome) =>
+    outcome.record !== null
+    && (
+      outcome.status === "ready"
+      || isIntentionallyPartialOutcome(
+        outcome,
+        sourceTranslationGroups.get(outcome.recipeId)
+      )
     )
-  ) {
-    return [];
+      ? [outcome.record]
+      : []
+  );
+}
+
+function redirectEligibleRecords(input: WprmRedirectResolverInput) {
+  const explicit = input.promotedRecords ?? input.eligibleRecords;
+  if (input.outcomes === undefined) {
+    const records = sortedRecords(explicit ?? []);
+    return { candidates: records, selected: records };
   }
-  return selectPromotionEligibleRecords(
-    sorted,
+
+  const sourceTranslationGroups = sourceTranslationGroupEvidence(input);
+  if (sourceTranslationGroups === null || sourceTranslationGroups === undefined) {
+    return { candidates: [], selected: [] };
+  }
+
+  const outcomeCandidates = outcomeRecordsEligibleForRedirects(
     input.outcomes,
     sourceTranslationGroups
-  ).selected;
+  );
+  const eligibleOutcomeIds = new Set(
+    outcomeCandidates.map((record) => record.source.recipeId)
+  );
+  const candidates = sortedRecords(
+    explicit === undefined
+      ? outcomeCandidates
+      : explicit.filter((record) => eligibleOutcomeIds.has(record.source.recipeId))
+  );
+  return {
+    candidates,
+    selected: selectPromotionEligibleRecords(
+      candidates,
+      input.outcomes,
+      sourceTranslationGroups
+    ).selected
+  };
 }
 
 function targetFromActionData(
@@ -436,25 +481,13 @@ function resolveWprmRedirectsInternal(
 ): WprmRedirectResolution {
   const limits = input.limits ?? defaultWprmImportLimits;
   const issues = new Map<string, number>();
-  const candidateRecords = (() => {
-    const explicit = input.promotedRecords ?? input.eligibleRecords;
-    if (explicit !== undefined) {
-      return [...explicit].sort((left, right) =>
-        numericIdSort(left.source.recipeId, right.source.recipeId)
-      );
-    }
-    return (input.outcomes ?? [])
-      .filter((outcome) => outcome.status === "ready" && outcome.record !== null)
-      .map((outcome) => outcome.record!)
-      .sort((left, right) =>
-        numericIdSort(left.source.recipeId, right.source.recipeId)
-      );
-  })();
+  const eligibility = redirectEligibleRecords(input);
+  const candidateRecords = eligibility.candidates;
   const sourceValidRecords = candidateRecords.filter((record) =>
     sourceValidIdentity(record, input.graph, input.relations) !== null
   );
   const identities: Identity[] = [];
-  const eligibleRecords = selectedRecords(input);
+  const eligibleRecords = eligibility.selected;
   const eligibleIds = new Set(
     eligibleRecords.map((record) => record.source.recipeId)
   );

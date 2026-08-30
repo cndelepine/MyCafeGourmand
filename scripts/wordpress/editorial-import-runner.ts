@@ -121,6 +121,7 @@ function createManifest(
         .map((outcome) => ({
           fingerprint: outcome.fingerprint,
           locale: outcome.locale,
+          publicationDisposition: outcome.record.publicationDisposition,
           status: outcome.status,
           publication: outcome.publication,
           issueCodes: outcome.issueCodes

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:225",
+  "locale": "ru",
+  "canonicalPath": "/ru/kontact/",
+  "translationGroupId": "wordpress:post-translations:35",
+  "source": {
+    "system": "wordpress",
+    "postId": 225,
+    "sourcePath": "/ru/kontact/",
+    "sourceSlug": "kontact",
+    "createdAt": "2017-12-23T02:21:27Z",
+    "modifiedAt": "2018-01-28T02:49:04Z"
+  },
+  "title": "Контакт",
+  "excerpt": null,
+  "publishedAt": "2017-12-23T02:21:27Z",
+  "modifiedAt": "2018-01-28T02:49:04Z",
+  "content": [
+    {
+      "type": "heading",
+      "level": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Вопросы и предложения?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "\nВы можете отправить нам сообщение.\n\nЕсли Вы хотите задать вопрос по конкретному рецепту, пожалуйста, оставьте комментарий прямо после рецепта.\n\n"
+        }
+      ]
+    },
+    {
+      "type": "contactForm"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:15",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:15",
+      "path": "/editorial/media/wordpress/15.jpg",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 15
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

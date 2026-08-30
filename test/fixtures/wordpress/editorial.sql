@@ -29,6 +29,7 @@ CREATE TABLE `wp_postmeta` (
 );
 CREATE TABLE `wp_terms` (
   `term_id` bigint NOT NULL,
+  `name` varchar(200) NOT NULL,
   `slug` varchar(200) NOT NULL
 );
 CREATE TABLE `wp_term_taxonomy` (
@@ -55,7 +56,8 @@ CREATE TABLE `wp_bwg_image` (
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`) VALUES
   (1, 'home', 'https://example.test'),
   (2, 'permalink_structure', '/%postname%/'),
-  (3, 'polylang', 'a:5:{s:10:"force_lang";i:1;s:12:"hide_default";b:1;s:7:"rewrite";b:1;s:13:"redirect_lang";b:0;s:12:"default_lang";s:2:"en";}');
+  (3, 'polylang', 'a:5:{s:10:"force_lang";i:1;s:12:"hide_default";b:1;s:7:"rewrite";b:1;s:13:"redirect_lang";b:0;s:12:"default_lang";s:2:"en";}'),
+  (4, 'wp_tiles', 'a:2:{s:12:"default_grid";s:7:"Default";s:10:"pagination";s:4:"ajax";}');
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `post_password`, `post_name`, `post_modified`, `post_modified_gmt`, `post_parent`, `guid`, `post_type`, `post_mime_type`) VALUES
   (1, 5, '2026-01-01 10:00:00', '2026-01-01 10:00:00', '<p>Source wording</p><img class="wp-image-10" src="/wp-content/uploads/2026/01/photo.jpg">[wp-tiles]<!-- wp:vendor/unknown -->', 'English page', '', 'publish', '', 'about', '2026-01-02 10:00:00', '2026-01-02 10:00:00', 0, 'https://example.test/about/', 'page', ''),
@@ -69,9 +71,9 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
   (2, 10, '_wp_attached_file', '2026/01/photo.jpg'),
   (3, 10, '_wp_attachment_image_alt', 'Source alt text');
 
-INSERT INTO `wp_terms` (`term_id`, `slug`) VALUES
-  (1, 'en'),
-  (2, 'fr');
+INSERT INTO `wp_terms` (`term_id`, `name`, `slug`) VALUES
+  (1, 'Test English Locale', 'en'),
+  (2, 'Test French Locale', 'fr');
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`) VALUES
   (10, 1, 'language'),
   (11, 2, 'language'),

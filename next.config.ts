@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 import {
   assertRecipeMediaBuildEnvironment,
-  getRecipeMediaRemotePattern,
+  getManagedMediaRemotePatterns,
   isRecipeMediaReleaseBuild
 } from "./src/lib/recipe-media";
 
@@ -11,14 +11,14 @@ const nextConfig = (phase: string): NextConfig => {
       isRecipeMediaReleaseBuild() ? "release" : "non-release"
     );
   }
-  const recipeMediaRemotePattern = getRecipeMediaRemotePattern();
+  const managedMediaRemotePatterns = getManagedMediaRemotePatterns();
   return {
     output: "export",
     images: {
       unoptimized: true,
-      ...(recipeMediaRemotePattern === undefined
+      ...(managedMediaRemotePatterns.length === 0
         ? {}
-        : { remotePatterns: [recipeMediaRemotePattern] })
+        : { remotePatterns: managedMediaRemotePatterns })
     },
     trailingSlash: true
   };

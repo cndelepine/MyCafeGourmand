@@ -23,12 +23,14 @@
     "import:recipe": "tsx scripts/import-wordpress-wprm.ts",
     "import:editorial": "tsx scripts/import-wordpress-editorial.ts",
     "promote:wprm": "tsx scripts/promote-wordpress-wprm.ts",
+    "promote:editorial": "tsx scripts/promote-wordpress-editorial.ts",
     "media:upload-plan": "tsx scripts/plan-wordpress-media-upload.ts",
+    "media:editorial-upload-plan": "tsx scripts/plan-wordpress-editorial-media-upload.ts",
     "media:verify-azure": "tsx scripts/verify-azure-recipe-media.ts",
     "inventory:urls": "tsx scripts/inventory-urls.ts",
     "inventory:wordpress-source": "tsx scripts/inventory-wordpress-source.ts",
     "probe:wordpress-source": "tsx scripts/inventory-wordpress-source-evidence.ts",
-    "release:validate": "tsx scripts/validate-release-media.ts",
+    "release:validate": "tsx scripts/validate-release-media.ts && tsx scripts/validate-release-contact-form.ts",
     "release:validate-output": "tsx scripts/validate-release-media-output.ts",
     "build:release": "tsx scripts/build-release.ts",
     "check": "npm run lint && npm run typecheck && npm test"
@@ -36,6 +38,7 @@
   "dependencies": {
     "fast-xml-parser": "5.10.1",
     "next": "16.2.11",
+    "parse5": "7.3.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "zod": "4.1.12"

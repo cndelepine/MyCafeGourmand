@@ -17,11 +17,25 @@ export function generateStaticWebAppConfig(
   const root = path.resolve(projectRoot);
   const outputRoot = path.resolve(outputDirectory);
   const handAuthoredConfig = loadHandAuthoredStaticWebAppConfig(root);
-  const { records } = validateContent({
+  const {
+    editorialRecords,
+    galleryRecords,
+    records
+  } = validateContent({
+    editorialGalleryMediaManifestPath: path.join(
+      root,
+      "content",
+      "editorial-gallery-media-manifest.json"
+    ),
+    editorialRoot: path.join(root, "content", "editorial"),
+    galleriesRoot: path.join(root, "content", "galleries"),
+    mediaManifestPath: path.join(root, "content", "media-manifest.json"),
     publicRoot: path.join(root, "public"),
     recipesRoot: path.join(root, "content/recipes")
   });
   const config = createStaticWebAppConfig(records, {
+    editorialRecords,
+    galleryRecords,
     handAuthoredConfig
   });
 

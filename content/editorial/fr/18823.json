@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:18823",
+  "locale": "fr",
+  "canonicalPath": "/fr/pate-feuilletee/",
+  "translationGroupId": "wordpress:post-translations:17359",
+  "source": {
+    "system": "wordpress",
+    "postId": 18823,
+    "sourcePath": "/fr/pate-feuilletee/",
+    "sourceSlug": "pate-feuilletee",
+    "createdAt": "2019-11-10T02:37:32Z",
+    "modifiedAt": "2019-11-10T02:37:32Z"
+  },
+  "title": "Pâte Feuilletée",
+  "excerpt": null,
+  "publishedAt": "2019-11-10T02:37:32Z",
+  "modifiedAt": "2019-11-10T02:37:32Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

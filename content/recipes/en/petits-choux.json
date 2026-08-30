@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:25047",
+  "locale": "en",
+  "translationGroupId": null,
+  "slug": "petits-choux",
+  "source": {
+    "system": "wordpress",
+    "postId": "25047",
+    "recipeId": "25047",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-petits-choux",
+    "createdAt": "2017-10-27T02:53:59+00:00",
+    "modifiedAt": "2022-06-26T23:15:01+00:00",
+    "editorialPostId": "453",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "petits-choux",
+    "editorialCreatedAt": "2017-10-27T02:53:59+00:00",
+    "editorialModifiedAt": "2022-06-26T23:15:03+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/petits-choux/"
+  ],
+  "title": "Petits choux",
+  "description": "Cream Petits choux will go perfectly with your coffee or tea.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This is one of my favorite puff pastry for a \"<a href=\"https://mycafegourmand.com/cafe-gourmand/\" target=\"_blank\" rel=\"noreferrer noopener\">cafe gourmand</a>\".</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":25047,\"template\":\"chic-template-english\",\"updated\":1656285178207} -->\n<!--WPRM Recipe 25047-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Petits choux</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2017/12/20171217_161320.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Cream Petits choux will go perfectly with your coffee or tea.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Ingredients for the choux pastry</h4><ul><li>200 ml water</li><li>100 g butter</li><li>2 pinches of salt</li><li>120 g flour</li><li>3-4 eggs</li></ul><h4>Ingredients for the cream</h4><ul><li>1 egg yolk</li><li>120 g sugar</li><li>125 ml milk</li><li>1/2 vanilla bean (cut into two in its length)</li><li>200 g softened butter</li><li>1 tbsp icing sugar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>For the choux pastry</h4><ol><li><p>Preheat the oven to 200°C (thermostat 6/7). Cover a baking sheet with parchment paper.</p></li><li><p>In a saucepan, put the butter and salt. Bring to a boil. When the butter is completely melted, remove the pan from the heat.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2017/12/IMG_2359.Blog_-150x150.png\"/><br /></li><li><p>Add flour and mix well.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2017/12/IMG_2360.Blog_-150x150.png\"/><br /></li><li><p>The dough should form a ball.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6321.Blog_-150x150.png\"/><br /></li><li><p>Add the eggs one by one. Mix well.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6324.Blog_-150x150.png\"/><br /></li><li><p>The dough should be smooth and not stick to the edges of the pan.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6326.Blog_-150x150.png\"/><br /></li><li><p>Using a spoon or a pastry bag, form small heaps of dough on the baking sheet, separating them from each other as the puffs will double in size during cooking.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6327.Blog_-150x150.png\"/><br /></li><li><p>Bake at 200°C for 10-15 minutes. Then lower the temperature to 180°C (thermostat 6) and cook for another 10 minutes or so until you get a nice golden color. Remove the puffs from the oven and let cool.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6333.Blog_-150x150.png\"/><br /></li></ol><h4>For the cream</h4><ol><li><p>In a small saucepan, blanch the egg with the sugar.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6329.Blog_-150x150.png\"/><br /></li><li><p>Add milk and vanilla. Place over very low heat. Stirring constantly, bring to a boil. Remove from heat and let cool. Remove the vanilla pod.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6332.Blog_-150x150.png\"/><br /></li><li><p>In the bowl of a mixer, cream the butter. While continuing to mix, gradually incorporate the milk and sugar preparation.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6339.Blog_-150x150.png\"/><br /></li><li><p>Make an incision in the choux. Using a teaspoon or a pastry bag, fill them with the cream. Sprinkle with icing sugar.</p></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div><div class=\"wprm-fallback-recipe-meta-cuisine\">French</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23540",
+      "sourceTaxonomyId": "23540",
+      "name": "French",
+      "slug": "french"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24064",
+      "sourceTaxonomyId": "24064",
+      "name": "softened butter",
+      "slug": "softened-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24108",
+      "sourceTaxonomyId": "24108",
+      "name": "vanilla bean",
+      "slug": "vanilla-bean"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24248",
+      "sourceTaxonomyId": "24248",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24262",
+      "sourceTaxonomyId": "24262",
+      "name": "flour",
+      "slug": "flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25561",
+      "sourceTaxonomyId": "25561",
+      "name": "icing sugar",
+      "slug": "icing-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25560",
+      "sourceTaxonomyId": "25560",
+      "name": "pinches of",
+      "slug": "pinches-of"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "70",
+      "sourceTaxonomyId": "70",
+      "name": "Desserts",
+      "slug": "desserts-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2264",
+      "sourceTaxonomyId": "2264",
+      "name": "petits choux",
+      "slug": "petits-choux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2266",
+      "sourceTaxonomyId": "2266",
+      "name": "cream puff",
+      "slug": "cream-puff"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2268",
+      "sourceTaxonomyId": "2268",
+      "name": "french pastry",
+      "slug": "french-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2848",
+      "sourceTaxonomyId": "2848",
+      "name": "flour",
+      "slug": "flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3092",
+      "sourceTaxonomyId": "3092",
+      "name": "vanilla",
+      "slug": "vanilla"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3434",
+      "sourceTaxonomyId": "3434",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5381",
+      "sourceTaxonomyId": "5381",
+      "name": "french dessert",
+      "slug": "french-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8418",
+      "sourceTaxonomyId": "8418",
+      "name": "fine cuisine",
+      "slug": "fine-cuisine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8497",
+      "sourceTaxonomyId": "8497",
+      "name": "new year table",
+      "slug": "new-year-table"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:449",
+    "ingredientGroups": [
+      {
+        "name": "Ingredients for the choux pastry",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 ml water",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g butter",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 pinches of salt",
+            "quantity": {
+              "raw": "2 pinches of",
+              "value": 2,
+              "unit": "pinches of",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "120 g flour",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3-4 eggs",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Ingredients for the cream",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 egg yolk",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg yolk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "120 g sugar",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "125 ml milk",
+            "quantity": {
+              "raw": "125 ml",
+              "value": 125,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 vanilla bean cut into two in its length",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "vanilla bean",
+            "notes": "cut into two in its length"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "200 g softened butter",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "softened butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 tbsp icing sugar",
+            "quantity": {
+              "raw": "1 tbsp",
+              "value": 1,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "icing sugar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "For the choux pastry",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 200°C (thermostat 6/7). Cover a baking sheet with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a saucepan, put the butter and salt. Bring to a boil. When the butter is completely melted, remove the pan from the heat.",
+            "mediaId": "wordpress-attachment:759"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add flour and mix well.",
+            "mediaId": "wordpress-attachment:825"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "The dough should form a ball.",
+            "mediaId": "wordpress-attachment:839"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add the eggs one by one. Mix well.",
+            "mediaId": "wordpress-attachment:842"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "The dough should be smooth and not stick to the edges of the pan.",
+            "mediaId": "wordpress-attachment:838"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Using a spoon or a pastry bag, form small heaps of dough on the baking sheet, separating them from each other as the puffs will double in size during cooking.",
+            "mediaId": "wordpress-attachment:831"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Bake at 200°C for 10-15 minutes. Then lower the temperature to 180°C (thermostat 6) and cook for another 10 minutes or so until you get a nice golden color. Remove the puffs from the oven and let cool.",
+            "mediaId": "wordpress-attachment:827"
+          }
+        ]
+      },
+      {
+        "name": "For the cream",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a small saucepan, blanch the egg with the sugar.",
+            "mediaId": "wordpress-attachment:836"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add milk and vanilla. Place over very low heat. Stirring constantly, bring to a boil. Remove from heat and let cool. Remove the vanilla pod.",
+            "mediaId": "wordpress-attachment:828"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "In the bowl of a mixer, cream the butter. While continuing to mix, gradually incorporate the milk and sugar preparation.",
+            "mediaId": "wordpress-attachment:824"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Make an incision in the choux. Using a teaspoon or a pastry bag, fill them with the cream. Sprinkle with icing sugar.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:449",
+      "sourceId": "449",
+      "path": "/recipes/media/wordpress/449.png",
+      "alt": null,
+      "width": 448,
+      "height": 600
+    },
+    {
+      "id": "wordpress-attachment:759",
+      "sourceId": "759",
+      "path": "/recipes/media/wordpress/759.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:825",
+      "sourceId": "825",
+      "path": "/recipes/media/wordpress/825.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:839",
+      "sourceId": "839",
+      "path": "/recipes/media/wordpress/839.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:842",
+      "sourceId": "842",
+      "path": "/recipes/media/wordpress/842.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:838",
+      "sourceId": "838",
+      "path": "/recipes/media/wordpress/838.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:831",
+      "sourceId": "831",
+      "path": "/recipes/media/wordpress/831.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:827",
+      "sourceId": "827",
+      "path": "/recipes/media/wordpress/827.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:836",
+      "sourceId": "836",
+      "path": "/recipes/media/wordpress/836.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:828",
+      "sourceId": "828",
+      "path": "/recipes/media/wordpress/828.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:824",
+      "sourceId": "824",
+      "path": "/recipes/media/wordpress/824.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

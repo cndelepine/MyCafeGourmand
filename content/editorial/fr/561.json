@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:561",
+  "locale": "fr",
+  "canonicalPath": "/fr/decorations-de-table/printemps/",
+  "translationGroupId": "wordpress:post-translations:151",
+  "source": {
+    "system": "wordpress",
+    "postId": 561,
+    "sourcePath": "/fr/decorations-de-table/printemps/",
+    "sourceSlug": "printemps",
+    "createdAt": "2017-12-31T03:34:27Z",
+    "modifiedAt": "2018-01-19T02:51:04Z"
+  },
+  "title": "Printemps",
+  "excerpt": null,
+  "publishedAt": "2017-12-31T03:34:27Z",
+  "modifiedAt": "2018-01-19T02:51:04Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

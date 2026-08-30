@@ -22,6 +22,7 @@ import {
   type EditorialImportLimits,
   type EditorialIssueCode,
   type EditorialMediaReference,
+  type EditorialPublicationDisposition,
   type EditorialPublicationStatus,
   type EditorialSourceSnapshot,
   type EditorialStructuralAnalysis,
@@ -1370,12 +1371,33 @@ function attachmentReference(
   };
 }
 
+function publicationDisposition(
+  sourceId: string,
+  snapshot: EditorialSourceSnapshot
+): EditorialPublicationDisposition {
+  return snapshot.options.pageForPosts === sourceId
+    ? "posts-archive"
+    : "editorial-page";
+}
+
+function publicationStatus(
+  disposition: EditorialPublicationDisposition,
+  page: RawEditorialPage
+) {
+  return disposition === "posts-archive"
+    ? "publication-excluded" as const
+    : classifyEditorialPublicationStatus(page.status);
+}
+
 function publicationIssue(
   publication: EditorialPublicationStatus,
+  disposition: EditorialPublicationDisposition,
   page: RawEditorialPage,
   issues: Set<EditorialIssueCode>
 ) {
-  if (publication === "publication-excluded") {
+  if (disposition === "posts-archive") {
+    issues.add("page-for-posts-archive");
+  } else if (publication === "publication-excluded") {
     issues.add("nonpublish-page");
   }
   if (page.hasPassword) {
@@ -1405,8 +1427,9 @@ function mapPageCandidate(
     throw new EditorialImportError("missing-page");
   }
   const pageIssues = new Set(relations.issues.get(sourceId) ?? []);
-  const publication = classifyEditorialPublicationStatus(page.status);
-  publicationIssue(publication, page, pageIssues);
+  const disposition = publicationDisposition(sourceId, snapshot);
+  const publication = publicationStatus(disposition, page);
+  publicationIssue(publication, disposition, page, pageIssues);
   const scan = scanContent(page.content, limits, pageIssues);
   if (scan.galleryReferences > 0) {
     pageIssues.add("unlocalized-gallery-publication");
@@ -1544,6 +1567,7 @@ function mapPageCandidate(
     locale: relations.locales.get(sourceId) ?? null,
     translationGroupId: relations.translationGroups.get(sourceId) ?? null,
     sourcePath: currentPath,
+    publicationDisposition: disposition,
     publication,
     status,
     issueCodes,

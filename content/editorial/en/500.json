@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:500",
+  "locale": "en",
+  "canonicalPath": "/table-setting/",
+  "translationGroupId": "wordpress:post-translations:121",
+  "source": {
+    "system": "wordpress",
+    "postId": 500,
+    "sourcePath": "/table-setting/",
+    "sourceSlug": "table-setting",
+    "createdAt": "2017-12-28T04:36:31Z",
+    "modifiedAt": "2018-01-04T05:21:20Z"
+  },
+  "title": "Table setting",
+  "excerpt": null,
+  "publishedAt": "2017-12-28T04:36:31Z",
+  "modifiedAt": "2018-01-04T05:21:20Z",
+  "content": [
+    {
+      "type": "editorialPageCardGrid",
+      "pageIds": [
+        "wordpress:page:553",
+        "wordpress:page:550",
+        "wordpress:page:555",
+        "wordpress:page:557"
+      ]
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:496",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:496",
+      "path": "/editorial/media/wordpress/496.png",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 496
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

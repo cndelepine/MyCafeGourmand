@@ -22,6 +22,7 @@ import { getRecipePath } from "../src/lib/recipe-routes";
 import { recipeFixture } from "./fixtures/recipe";
 import type { CandidateOutcome } from "../scripts/wordpress/wprm-import-contracts";
 import { runWprmBulkImport } from "../scripts/wordpress/wprm-import-runner";
+import { isIntentionallyPartialOutcome } from "../scripts/wordpress/wprm-promotion-eligibility";
 import {
   WprmPromotionError,
   classifyPromotionTranslationClosure,
@@ -402,12 +403,20 @@ test("promotion authenticates, records a media manifest, and resumes determinist
     const secondDryRun = await promoteWprmStaging(promotionOptions(fixtureValues));
     assert.deepEqual(secondDryRun, firstDryRun);
     assert.equal(firstDryRun.mode, "dry-run");
-    assert.equal(firstDryRun.records.created, firstDryRun.candidates.ready);
+    assert.equal(
+      firstDryRun.records.created,
+      firstDryRun.candidates.ready
+        + firstDryRun.translation.intentionallyPartialCandidates
+    );
     assert.ok(firstDryRun.redirects.published > 0);
 
     const applied = await promoteWprmStaging(promotionOptions(fixtureValues, true));
     assert.equal(applied.mode, "write");
-    assert.equal(applied.records.created, applied.candidates.ready);
+    assert.equal(
+      applied.records.created,
+      applied.candidates.ready
+        + applied.translation.intentionallyPartialCandidates
+    );
     assert.equal(applied.records.reused, 0);
     assert.ok(applied.media.referenced > 0);
     assert.ok(applied.media.addedToManifest > 0);
@@ -415,13 +424,19 @@ test("promotion authenticates, records a media manifest, and resumes determinist
     const records = loadRecipeCatalog(
       path.join(fixtureValues.repositoryRoot, "content", "recipes")
     );
-    const readyIds = new Set(
+    const eligibleIds = new Set(
       fixtureValues.initial.outcomes
-        .filter((outcome) => outcome.status === "ready")
+        .filter((outcome) =>
+          outcome.status === "ready"
+          || isIntentionallyPartialOutcome(
+            outcome,
+            fixtureValues.initial.sourceTranslationGroups.get(outcome.recipeId)
+          )
+        )
         .map((outcome) => outcome.recipeId)
     );
-    assert.equal(records.length, readyIds.size);
-    assert.ok(records.every((record) => readyIds.has(record.source.recipeId)));
+    assert.equal(records.length, eligibleIds.size);
+    assert.ok(records.every((record) => eligibleIds.has(record.source.recipeId)));
     assert.ok(records.some((record) => record.redirectFrom.length > 0));
 
     const publishedMedia = records.flatMap((record) => record.media);
@@ -449,7 +464,11 @@ test("promotion authenticates, records a media manifest, and resumes determinist
 
     const resumed = await promoteWprmStaging(promotionOptions(fixtureValues, true));
     assert.equal(resumed.records.created, 0);
-    assert.equal(resumed.records.reused, resumed.candidates.ready);
+    assert.equal(
+      resumed.records.reused,
+      resumed.candidates.ready
+        + resumed.translation.intentionallyPartialCandidates
+    );
     assert.equal(resumed.media.addedToManifest, 0);
     assert.equal(resumed.media.reusedFromManifest, resumed.media.unique);
   });
@@ -1295,6 +1314,53 @@ test("authenticated upload staging rejects symlinked object destinations", async
   });
 });
 
+test("authenticated upload staging requires an exact recursive object tree in every mode", async () => {
+  await withPromotionFixture(async (fixtureValues) => {
+    await promoteWprmStaging(promotionOptions(fixtureValues, true));
+    await createWprmMediaUploadPlan(uploadPlanOptions(fixtureValues));
+    const objects = path.join(
+      fixtureValues.repositoryRoot,
+      "migration-output",
+      "wprm-media-upload",
+      "objects"
+    );
+
+    const extraFile = path.join(objects, "unexpected.jpg");
+    writeFileSync(extraFile, "unexpected", { mode: 0o600 });
+    await assert.rejects(
+      createWprmMediaUploadPlan({
+        ...uploadPlanOptions(fixtureValues),
+        dryRun: true,
+        write: false
+      }),
+      (error: unknown) =>
+        error instanceof WprmMediaUploadPlanError
+        && error.code === "upload-staging-conflict"
+    );
+    rmSync(extraFile);
+
+    const extraDirectory = path.join(objects, "unexpected");
+    mkdirSync(extraDirectory, { mode: 0o700 });
+    await assert.rejects(
+      createWprmMediaUploadPlan(uploadPlanOptions(fixtureValues, { resume: true })),
+      (error: unknown) =>
+        error instanceof WprmMediaUploadPlanError
+        && error.code === "upload-staging-conflict"
+    );
+    rmSync(extraDirectory, { recursive: true });
+
+    const target = path.join(fixtureValues.repositoryRoot, "unexpected-media");
+    writeFileSync(target, originalMedia, { mode: 0o600 });
+    symlinkSync(target, path.join(objects, "unexpected-link"));
+    await assert.rejects(
+      createWprmMediaUploadPlan(uploadPlanOptions(fixtureValues)),
+      (error: unknown) =>
+        error instanceof WprmMediaUploadPlanError
+        && error.code === "unsafe-upload-staging"
+    );
+  });
+});
+
 test("the allowlisted prototype replacement restores the exact seed on failure", async () => {
   await withPromotionFixture(async (fixtureValues) => {
     const seed = path.join(
@@ -1348,7 +1414,11 @@ test("the allowlisted prototype replacement restores the exact seed on failure",
     assert.equal(existsSync(placeholders[1]!), false);
     const resumed = await promoteWprmStaging(promotionOptions(fixtureValues, true));
     assert.equal(applied.records.created > 0, true);
-    assert.equal(resumed.records.reused, resumed.candidates.ready);
+    assert.equal(
+      resumed.records.reused,
+      resumed.candidates.ready
+        + resumed.translation.intentionallyPartialCandidates
+    );
   }, {
     databaseContents: authoritativeSeedReplacementSql(),
     includePrototypeSeed: true
@@ -1512,6 +1582,7 @@ test("translation closure blocks error peers and all three review exclusions", (
     media: [],
     seo: null
   });
+
   const review = recipeRecordSchema.parse({
     ...base,
     id: "wordpress:wprm:101",
@@ -1652,5 +1723,46 @@ test("translation closure blocks error peers and all three review exclusions", (
     (error: unknown) =>
       error instanceof WprmPromotionError
       && error.code === "incomplete-translation-closure"
+  );
+});
+
+test("intentional partial eligibility is limited to ungrouped incomplete translations", () => {
+  const record = recipeRecordSchema.parse({
+    ...recipeFixture,
+    translationGroupId: null
+  });
+  const outcome: CandidateOutcome = {
+    recipeId: record.source.recipeId,
+    status: "review",
+    locale: record.locale,
+    codes: [
+      "excluded-author-data",
+      "incomplete-parent-translation"
+    ],
+    record,
+    fingerprint: "fingerprint"
+  };
+
+  assert.equal(isIntentionallyPartialOutcome(outcome, null), true);
+  assert.equal(
+    isIntentionallyPartialOutcome({
+      ...outcome,
+      codes: [...outcome.codes, "unsupported-wprm-field"]
+    }, null),
+    false
+  );
+  assert.equal(
+    isIntentionallyPartialOutcome(outcome, "wordpress:post-translations:1"),
+    false
+  );
+  assert.equal(
+    isIntentionallyPartialOutcome({
+      ...outcome,
+      record: {
+        ...record,
+        translationGroupId: "wordpress:post-translations:1"
+      }
+    }, null),
+    false
   );
 });

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:563",
+  "locale": "fr",
+  "canonicalPath": "/fr/decorations-de-table/ete/",
+  "translationGroupId": "wordpress:post-translations:152",
+  "source": {
+    "system": "wordpress",
+    "postId": 563,
+    "sourcePath": "/fr/decorations-de-table/ete/",
+    "sourceSlug": "ete",
+    "createdAt": "2017-12-31T03:34:52Z",
+    "modifiedAt": "2018-01-19T02:51:59Z"
+  },
+  "title": "Eté",
+  "excerpt": null,
+  "publishedAt": "2017-12-31T03:34:52Z",
+  "modifiedAt": "2018-01-19T02:51:59Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:497",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:497",
+      "path": "/editorial/media/wordpress/497.png",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 497
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

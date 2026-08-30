@@ -11,6 +11,22 @@ import {
   type RecipeMediaManifest
 } from "./media-manifest";
 import {
+  defaultEditorialGalleryMediaManifestPath,
+  loadEditorialGalleryMediaManifest,
+  validateEditorialGalleryMediaManifestClosure
+} from "./editorial-media-manifest";
+import {
+  defaultEditorialRoot,
+  loadEditorialCatalogWithSources
+} from "./editorial-catalog";
+import {
+  defaultGalleriesRoot,
+  loadGalleryCatalogWithSources,
+  validatePublicContentCatalogs
+} from "./gallery-catalog";
+import type { EditorialPageRecord } from "./editorial-schema";
+import type { GalleryRecord } from "./gallery-schema";
+import {
   isWordPressRecipeMediaObjectKey,
   validateRecipeMediaPath
 } from "./media";
@@ -35,6 +51,10 @@ import { getPageCount } from "../lib/pagination";
 import { recipeMatchesQuery } from "../lib/recipe-search";
 import { getRecipeStructuredData } from "../lib/recipe-structured-data";
 import { getSitemapEntries } from "../lib/site-map";
+import {
+  getReservedPublicPaths,
+  validatePublicStaticRoutes
+} from "../lib/public-routes";
 
 export const defaultPublicRoot = path.resolve(process.cwd(), "public");
 const renderableHtmlMarkup =
@@ -42,6 +62,17 @@ const renderableHtmlMarkup =
 
 function isWithinDirectory(candidate: string, directory: string) {
   return candidate === directory || candidate.startsWith(`${directory}${path.sep}`);
+}
+
+export function validatePublicContentBehavior(
+  recipes: readonly RecipeRecord[],
+  editorial: readonly EditorialPageRecord[],
+  galleries: readonly GalleryRecord[]
+): PublicContentBehaviorSummary {
+  const sitemapPaths = getSitemapEntries(recipes, editorial, galleries).map((entry) =>
+    new URL(entry.url).pathname
+  );
+  return validatePublicStaticRoutes(recipes, editorial, galleries, sitemapPaths);
 }
 
 export function resolveLocalMediaPath(
@@ -254,6 +285,9 @@ export function validateNormalizedRecipeDisplayText(records: readonly RecipeReco
 export const validateNormalizedDescriptions = validateNormalizedRecipeDisplayText;
 
 export function validateContent(options: {
+  editorialGalleryMediaManifestPath?: string;
+  editorialRoot?: string;
+  galleriesRoot?: string;
   mediaManifestPath?: string;
   publicRoot?: string;
   recipesRoot?: string;
@@ -269,7 +303,43 @@ export function validateContent(options: {
     mediaManifest
   );
   validateRecipeMediaManifestClosure(loaded.records, mediaManifest);
-  return { ...loaded, mediaManifest };
+  const loadedEditorial = loadEditorialCatalogWithSources(
+    options.editorialRoot ?? defaultEditorialRoot
+  );
+  const loadedGalleries = loadGalleryCatalogWithSources(
+    options.galleriesRoot ?? defaultGalleriesRoot
+  );
+  const publicCatalogs = validatePublicContentCatalogs(
+    loadedEditorial.records,
+    loadedGalleries.records,
+    {
+      recipeRecords: loaded.records,
+      reservedPaths: getReservedPublicPaths(loaded.records)
+    }
+  );
+  const editorialGalleryMediaManifest = loadEditorialGalleryMediaManifest(
+    options.editorialGalleryMediaManifestPath ?? defaultEditorialGalleryMediaManifestPath
+  );
+  validateEditorialGalleryMediaManifestClosure(
+    publicCatalogs.editorial,
+    publicCatalogs.gallery,
+    editorialGalleryMediaManifest
+  );
+  const publicBehavior = validatePublicContentBehavior(
+    loaded.records,
+    publicCatalogs.editorial,
+    publicCatalogs.gallery
+  );
+  return {
+    ...loaded,
+    editorialFiles: loadedEditorial.files,
+    editorialGalleryMediaManifest,
+    editorialRecords: publicCatalogs.editorial,
+    galleryFiles: loadedGalleries.files,
+    galleryRecords: publicCatalogs.gallery,
+    mediaManifest,
+    publicBehavior
+  };
 }
 
 export type CatalogBehaviorSummary = {
@@ -283,6 +353,11 @@ export type CatalogBehaviorSummary = {
   readonly sitemapPaths: number;
   readonly staticPaths: number;
   readonly translationLinks: number;
+};
+
+export type PublicContentBehaviorSummary = {
+  readonly sitemapPaths: number;
+  readonly staticPaths: number;
 };
 
 function canonicalRecipeUrlPath(record: RecipeRecord) {
@@ -318,6 +393,7 @@ export function validateCatalogBehavior(
     if (category.recipes.length === 0) {
       throw new Error(`Empty editorial category archive: ${category.identity}`);
     }
+
     categoriesByLocale[category.locale] += 1;
     categoryMembershipsByLocale[category.locale] += category.recipes.length;
     categoryPagesByLocale[category.locale] += getPageCount(category.recipes.length);

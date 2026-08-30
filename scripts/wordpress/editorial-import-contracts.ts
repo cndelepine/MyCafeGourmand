@@ -6,7 +6,7 @@ import {
 import type { SqlDumpStats } from "./sql-stream";
 import type { UploadArchiveInventory } from "./uploads-inventory";
 
-export const editorialImportContractVersion = "wordpress-editorial-staging-v2";
+export const editorialImportContractVersion = "wordpress-editorial-staging-v3";
 
 export type EditorialPublicationStatus =
   | "published"
@@ -17,6 +17,10 @@ export type EditorialCandidateStatus =
   | "ready"
   | "review"
   | "publication-excluded";
+
+export type EditorialPublicationDisposition =
+  | "editorial-page"
+  | "posts-archive";
 
 export type EditorialIssueCode =
   | "ambiguous-gallery-reference"
@@ -51,6 +55,7 @@ export type EditorialIssueCode =
   | "malformed-attachment-parent"
   | "malformed-page-parent"
   | "page-parent-depth-limit"
+  | "page-for-posts-archive"
   | "missing-attachment"
   | "missing-attachment-file"
   | "missing-attachment-parent"
@@ -214,6 +219,7 @@ export interface RawEditorialPage {
   readonly createdGmt: string | null;
   readonly modifiedLocal: string | null;
   readonly modifiedGmt: string | null;
+  readonly guid: string | null;
   readonly source: Readonly<Record<string, string | null>>;
 }
 
@@ -235,6 +241,19 @@ export interface RawEditorialPostState {
   readonly hasPassword: boolean;
   readonly parentId: string | null;
   readonly parentIdMalformed: boolean;
+  readonly menuOrder: number | null;
+  readonly menuOrderMalformed: boolean;
+  readonly createdGmt: string | null;
+}
+
+export interface RawWpTilesGridTemplate {
+  readonly id: string;
+  readonly status: string;
+  readonly hasPassword: boolean;
+  readonly title: string | null;
+  readonly content: string | null;
+  readonly menuOrder: number | null;
+  readonly menuOrderMalformed: boolean;
 }
 
 export interface RawEditorialAttachmentMeta {
@@ -245,6 +264,7 @@ export interface RawEditorialAttachmentMeta {
 
 export interface RawTerm {
   readonly id: string;
+  readonly name: string | null;
   readonly slug: string | null;
 }
 
@@ -252,6 +272,8 @@ export interface RawTermTaxonomy {
   readonly id: string;
   readonly termId: string;
   readonly taxonomy: string;
+  readonly parentTermId: string | null;
+  readonly parentTermIdMalformed: boolean;
 }
 
 export interface RawBwgGallery {
@@ -265,6 +287,10 @@ export interface RawBwgImage {
   readonly galleryIdState: "present" | "missing" | "malformed";
   readonly imageUrl: string | null;
   readonly thumbUrl: string | null;
+  readonly alt: string | null;
+  readonly description: string | null;
+  readonly order: number | null;
+  readonly orderMalformed: boolean;
   readonly source: Readonly<Record<string, string | null>>;
 }
 
@@ -285,6 +311,7 @@ export interface EditorialSourceGraph {
   readonly terms: ReadonlyMap<string, RawTerm>;
   readonly taxonomies: ReadonlyMap<string, RawTermTaxonomy>;
   readonly relationships: ReadonlyMap<string, ReadonlySet<string>>;
+  readonly gridTemplates: ReadonlyMap<string, RawWpTilesGridTemplate>;
   readonly galleries: ReadonlyMap<string, RawBwgGallery>;
   readonly galleryImages: readonly RawBwgImage[];
 }
@@ -296,6 +323,9 @@ export interface EditorialSourceSnapshot {
   readonly options: {
     readonly homeOrigin: string;
     readonly locales: readonly ["en", "fr", "ru"];
+    readonly pageForPosts: string | null;
+    readonly wpTilesDefaultGrid: string | null;
+    readonly wpTilesPagination: "ajax" | null;
   };
 }
 
@@ -338,6 +368,7 @@ export interface EditorialPageCandidate {
   readonly locale: Locale | null;
   readonly translationGroupId: string | null;
   readonly sourcePath: string | null;
+  readonly publicationDisposition: EditorialPublicationDisposition;
   readonly publication: EditorialPublicationStatus;
   readonly status: EditorialCandidateStatus;
   readonly issueCodes: readonly EditorialIssueCode[];
@@ -416,6 +447,7 @@ export interface EditorialGalleryOutcome {
 export interface EditorialSafeOutcome {
   readonly fingerprint: string;
   readonly locale: Locale | null;
+  readonly publicationDisposition: EditorialPublicationDisposition;
   readonly status: EditorialCandidateStatus;
   readonly publication: EditorialPublicationStatus;
   readonly issueCodes: readonly EditorialIssueCode[];

@@ -142,7 +142,7 @@ test("bulk dry-run accounts WPRM outcomes and does not leak source values", asyn
     );
     assert.equal(result.manifest.wpurSignals, 1);
     assert.equal(result.manifest.wpurRecordsEmitted, 0);
-    assert.equal(result.manifest.redirects.accepted, 2);
+    assert.equal(result.manifest.redirects.accepted, 3);
     const ready = result.outcomes.find((outcome) => outcome.recipeId === "100");
     assert.equal(ready?.status, "ready");
     assert.equal(ready?.record?.slug, "editorial-ready");

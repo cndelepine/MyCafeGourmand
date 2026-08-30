@@ -1,6 +1,7 @@
 import type { RecipeRecord } from "../../src/content/schema";
 import {
   classifyWprmCandidateDisposition,
+  isInformationalWprmIssueCode,
   type CandidateOutcome
 } from "./wprm-import-contracts";
 
@@ -9,6 +10,7 @@ export type PromotionEligibilityResult = {
   readonly excluded: number;
   readonly blockedGroups: number;
   readonly intentionallyPartialGroups: number;
+  readonly intentionallyPartialCandidates: number;
   readonly publicationExcludedPeers: number;
   readonly integrityBlockingPeers: number;
   readonly reviewPeers: number;
@@ -36,6 +38,21 @@ export function isPublicationExcludedOutcome(outcome: CandidateOutcome) {
     && classifyWprmCandidateDisposition(outcome.codes) === "publication-excluded";
 }
 
+export function isIntentionallyPartialOutcome(
+  outcome: CandidateOutcome,
+  sourceTranslationGroup: string | null | undefined
+) {
+  return outcome.status === "review"
+    && outcome.record !== null
+    && outcome.record.translationGroupId === null
+    && sourceTranslationGroup === null
+    && outcome.codes.includes("incomplete-parent-translation")
+    && outcome.codes.every((code) =>
+      code === "incomplete-parent-translation"
+      || isInformationalWprmIssueCode(code)
+    );
+}
+
 function groupIntegrityBlockers(
   members: readonly CandidateOutcome[],
   selectedIds: ReadonlySet<string>
@@ -52,6 +69,12 @@ export function selectPromotionEligibleRecords(
   sourceTranslationGroups: ReadonlyMap<string, string | null>
 ): PromotionEligibilityResult {
   const selectedIds = new Set(selected.map((record) => record.source.recipeId));
+  const intentionallyPartialCandidates = outcomes.filter((outcome) =>
+    isIntentionallyPartialOutcome(
+      outcome,
+      sourceTranslationGroups.get(outcome.recipeId)
+    )
+  ).length;
   const membersByGroup = new Map<string, CandidateOutcome[]>();
   for (const outcome of outcomes) {
     const groupId = sourceTranslationGroups.get(outcome.recipeId);
@@ -112,6 +135,7 @@ export function selectPromotionEligibleRecords(
     excluded: selected.length - eligible.length,
     blockedGroups: blocked.size,
     intentionallyPartialGroups,
+    intentionallyPartialCandidates,
     publicationExcludedPeers: publicationExcludedPeerIds.size,
     integrityBlockingPeers: integrityBlockingPeerIds.size,
     reviewPeers: integrityBlockingMembers.filter((member) => member.status === "review").length,

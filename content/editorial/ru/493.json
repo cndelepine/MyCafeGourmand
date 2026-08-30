@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:493",
+  "locale": "ru",
+  "canonicalPath": "/ru/декор-стола-и-дома/",
+  "translationGroupId": "wordpress:post-translations:121",
+  "source": {
+    "system": "wordpress",
+    "postId": 493,
+    "sourcePath": "/ru/декор-стола-и-дома/",
+    "sourceSlug": "%d0%b4%d0%b5%d0%ba%d0%be%d1%80-%d1%81%d1%82%d0%be%d0%bb%d0%b0-%d0%b8-%d0%b4%d0%be%d0%bc%d0%b0",
+    "createdAt": "2017-12-28T04:34:27Z",
+    "modifiedAt": "2018-01-22T01:40:00Z"
+  },
+  "title": "Декор стола и дома",
+  "excerpt": null,
+  "publishedAt": "2017-12-28T04:34:27Z",
+  "modifiedAt": "2018-01-22T01:40:00Z",
+  "content": [
+    {
+      "type": "editorialPageCardGrid",
+      "pageIds": [
+        "wordpress:page:659",
+        "wordpress:page:664",
+        "wordpress:page:668",
+        "wordpress:page:670"
+      ]
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:494",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:494",
+      "path": "/editorial/media/wordpress/494.png",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 494
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

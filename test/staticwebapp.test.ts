@@ -1,8 +1,16 @@
 import assert from "node:assert/strict";
-import { mkdtempSync, readFileSync, rmSync } from "node:fs";
+import {
+  cpSync,
+  mkdtempSync,
+  mkdirSync,
+  readFileSync,
+  rmSync,
+  writeFileSync
+} from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import { recipeFixture } from "./fixtures/recipe";
+import { editorialPageRecordSchema } from "../src/content/editorial-schema";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
   createStaticWebAppConfig,
@@ -217,5 +225,61 @@ test("emits the validated artifact into the static export directory", () => {
 
     assert.equal(readFileSync(outputPath, "utf8"), serializeStaticWebAppConfig(config));
     assert.equal(path.basename(outputPath), "staticwebapp.config.json");
+  });
+});
+
+test("derives every content path from an alternate project root", () => {
+  withTempDirectory((directory) => {
+    const projectRoot = path.join(directory, "alternate-project");
+    cpSync(path.join(process.cwd(), "content"), path.join(projectRoot, "content"), {
+      recursive: true
+    });
+    cpSync(path.join(process.cwd(), "public"), path.join(projectRoot, "public"), {
+      recursive: true
+    });
+    const record = editorialPageRecordSchema.parse({
+      schemaVersion: 1,
+      kind: "editorial-page",
+      id: "wordpress:page:999999",
+      locale: "en",
+      canonicalPath: "/alternate-root-only/",
+      translationGroupId: null,
+      source: {
+        system: "wordpress",
+        postId: 999999,
+        sourcePath: "/alternate-root-only/",
+        sourceSlug: "alternate-root-only",
+        createdAt: null,
+        modifiedAt: null
+      },
+      title: "Alternate root",
+      excerpt: null,
+      publishedAt: null,
+      modifiedAt: null,
+      content: null,
+      featuredMediaId: null,
+      featuredMediaAlt: null,
+      media: null,
+      redirectFrom: ["/old-alternate-root-only/"]
+    });
+    const editorialDirectory = path.join(projectRoot, "content", "editorial", "en");
+    mkdirSync(editorialDirectory, { recursive: true });
+    writeFileSync(
+      path.join(editorialDirectory, "999999.json"),
+      `${JSON.stringify(record, null, 2)}\n`
+    );
+
+    const { config } = generateStaticWebAppConfig(
+      projectRoot,
+      path.join(projectRoot, "out")
+    );
+    assert.equal(
+      config.routes.some((route) =>
+        "route" in route
+        && route.route === "/old-alternate-root-only/"
+        && route.redirect === "/alternate-root-only/"
+      ),
+      true
+    );
   });
 });

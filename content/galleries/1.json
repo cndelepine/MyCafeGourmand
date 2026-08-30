@@ -1,0 +1,1961 @@
+{
+  "schemaVersion": 1,
+  "kind": "gallery",
+  "id": "wordpress:bwg-gallery:1",
+  "locale": null,
+  "canonicalPath": "/gallery/",
+  "source": {
+    "system": "wordpress-bwg",
+    "galleryId": 1
+  },
+  "title": "My Cafe Gourmand",
+  "description": null,
+  "featuredMediaId": null,
+  "media": [
+    {
+      "id": "wordpress:bwg-image:1:original",
+      "path": "/gallery/media/wordpress-bwg/1-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 1
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:1:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/1-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 1
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:10:original",
+      "path": "/gallery/media/wordpress-bwg/10-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 10
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:10:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/10-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 10
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:105:original",
+      "path": "/gallery/media/wordpress-bwg/105-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 105
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:105:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/105-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 105
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:107:original",
+      "path": "/gallery/media/wordpress-bwg/107-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 107
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:107:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/107-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 107
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:111:original",
+      "path": "/gallery/media/wordpress-bwg/111-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 111
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:111:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/111-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 111
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:112:original",
+      "path": "/gallery/media/wordpress-bwg/112-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 112
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:112:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/112-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 112
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:115:original",
+      "path": "/gallery/media/wordpress-bwg/115-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 115
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:115:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/115-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 115
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:117:original",
+      "path": "/gallery/media/wordpress-bwg/117-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 117
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:117:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/117-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 117
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:122:original",
+      "path": "/gallery/media/wordpress-bwg/122-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 122
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:122:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/122-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 122
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:129:original",
+      "path": "/gallery/media/wordpress-bwg/129-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 129
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:129:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/129-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 129
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:13:original",
+      "path": "/gallery/media/wordpress-bwg/13-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 13
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:13:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/13-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 13
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:131:original",
+      "path": "/gallery/media/wordpress-bwg/131-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 131
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:131:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/131-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 131
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:132:original",
+      "path": "/gallery/media/wordpress-bwg/132-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 132
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:132:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/132-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 132
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:136:original",
+      "path": "/gallery/media/wordpress-bwg/136-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 136
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:136:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/136-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 136
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:143:original",
+      "path": "/gallery/media/wordpress-bwg/143-original.jpg",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 143
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:143:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/143-thumbnail.jpg",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 143
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:144:original",
+      "path": "/gallery/media/wordpress-bwg/144-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 144
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:144:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/144-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 144
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:145:original",
+      "path": "/gallery/media/wordpress-bwg/145-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 145
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:145:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/145-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 145
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:147:original",
+      "path": "/gallery/media/wordpress-bwg/147-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 147
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:147:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/147-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 147
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:150:original",
+      "path": "/gallery/media/wordpress-bwg/150-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 150
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:150:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/150-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 150
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:154:original",
+      "path": "/gallery/media/wordpress-bwg/154-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 154
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:154:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/154-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 154
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:158:original",
+      "path": "/gallery/media/wordpress-bwg/158-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 158
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:158:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/158-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 158
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:160:original",
+      "path": "/gallery/media/wordpress-bwg/160-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 160
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:160:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/160-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 160
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:176:original",
+      "path": "/gallery/media/wordpress-bwg/176-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 176
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:176:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/176-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 176
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:188:original",
+      "path": "/gallery/media/wordpress-bwg/188-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 188
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:188:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/188-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 188
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:189:original",
+      "path": "/gallery/media/wordpress-bwg/189-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 189
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:189:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/189-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 189
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:194:original",
+      "path": "/gallery/media/wordpress-bwg/194-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 194
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:194:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/194-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 194
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:195:original",
+      "path": "/gallery/media/wordpress-bwg/195-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 195
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:195:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/195-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 195
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:196:original",
+      "path": "/gallery/media/wordpress-bwg/196-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 196
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:196:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/196-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 196
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:197:original",
+      "path": "/gallery/media/wordpress-bwg/197-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 197
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:197:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/197-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 197
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:20:original",
+      "path": "/gallery/media/wordpress-bwg/20-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 20
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:20:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/20-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 20
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:201:original",
+      "path": "/gallery/media/wordpress-bwg/201-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 201
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:201:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/201-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 201
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:206:original",
+      "path": "/gallery/media/wordpress-bwg/206-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 206
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:206:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/206-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 206
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:207:original",
+      "path": "/gallery/media/wordpress-bwg/207-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 207
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:207:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/207-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 207
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:209:original",
+      "path": "/gallery/media/wordpress-bwg/209-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 209
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:209:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/209-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 209
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:21:original",
+      "path": "/gallery/media/wordpress-bwg/21-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 21
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:21:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/21-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 21
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:227:original",
+      "path": "/gallery/media/wordpress-bwg/227-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 227
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:227:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/227-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 227
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:229:original",
+      "path": "/gallery/media/wordpress-bwg/229-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 229
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:229:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/229-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 229
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:230:original",
+      "path": "/gallery/media/wordpress-bwg/230-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 230
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:230:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/230-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 230
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:234:original",
+      "path": "/gallery/media/wordpress-bwg/234-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 234
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:234:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/234-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 234
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:235:original",
+      "path": "/gallery/media/wordpress-bwg/235-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 235
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:235:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/235-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 235
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:25:original",
+      "path": "/gallery/media/wordpress-bwg/25-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 25
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:25:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/25-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 25
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:27:original",
+      "path": "/gallery/media/wordpress-bwg/27-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 27
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:27:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/27-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 27
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:28:original",
+      "path": "/gallery/media/wordpress-bwg/28-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 28
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:28:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/28-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 28
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:29:original",
+      "path": "/gallery/media/wordpress-bwg/29-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 29
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:29:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/29-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 29
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:30:original",
+      "path": "/gallery/media/wordpress-bwg/30-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 30
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:30:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/30-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 30
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:31:original",
+      "path": "/gallery/media/wordpress-bwg/31-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 31
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:31:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/31-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 31
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:37:original",
+      "path": "/gallery/media/wordpress-bwg/37-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 37
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:37:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/37-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 37
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:38:original",
+      "path": "/gallery/media/wordpress-bwg/38-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 38
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:38:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/38-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 38
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:41:original",
+      "path": "/gallery/media/wordpress-bwg/41-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 41
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:41:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/41-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 41
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:44:original",
+      "path": "/gallery/media/wordpress-bwg/44-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 44
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:44:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/44-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 44
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:45:original",
+      "path": "/gallery/media/wordpress-bwg/45-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 45
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:45:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/45-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 45
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:49:original",
+      "path": "/gallery/media/wordpress-bwg/49-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 49
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:49:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/49-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 49
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:5:original",
+      "path": "/gallery/media/wordpress-bwg/5-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 5
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:5:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/5-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 5
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:51:original",
+      "path": "/gallery/media/wordpress-bwg/51-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 51
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:51:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/51-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 51
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:52:original",
+      "path": "/gallery/media/wordpress-bwg/52-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 52
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:52:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/52-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 52
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:58:original",
+      "path": "/gallery/media/wordpress-bwg/58-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 58
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:58:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/58-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 58
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:63:original",
+      "path": "/gallery/media/wordpress-bwg/63-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 63
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:63:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/63-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 63
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:66:original",
+      "path": "/gallery/media/wordpress-bwg/66-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 66
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:66:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/66-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 66
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:67:original",
+      "path": "/gallery/media/wordpress-bwg/67-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 67
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:67:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/67-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 67
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:75:original",
+      "path": "/gallery/media/wordpress-bwg/75-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 75
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:75:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/75-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 75
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:77:original",
+      "path": "/gallery/media/wordpress-bwg/77-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 77
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:77:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/77-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 77
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:79:original",
+      "path": "/gallery/media/wordpress-bwg/79-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 79
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:79:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/79-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 79
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:81:original",
+      "path": "/gallery/media/wordpress-bwg/81-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 81
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:81:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/81-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 81
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:82:original",
+      "path": "/gallery/media/wordpress-bwg/82-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 82
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:82:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/82-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 82
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:9:original",
+      "path": "/gallery/media/wordpress-bwg/9-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 9
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:9:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/9-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 9
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:93:original",
+      "path": "/gallery/media/wordpress-bwg/93-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 93
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:93:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/93-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 93
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:96:original",
+      "path": "/gallery/media/wordpress-bwg/96-original.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 96
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "wordpress:bwg-image:96:thumbnail",
+      "path": "/gallery/media/wordpress-bwg/96-thumbnail.png",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 96
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    }
+  ],
+  "images": [
+    {
+      "sourceImageId": 235,
+      "originalMediaId": "wordpress:bwg-image:235:original",
+      "thumbnailMediaId": "wordpress:bwg-image:235:thumbnail",
+      "caption": null,
+      "alt": "Chunky Guacamole"
+    },
+    {
+      "sourceImageId": 234,
+      "originalMediaId": "wordpress:bwg-image:234:original",
+      "thumbnailMediaId": "wordpress:bwg-image:234:thumbnail",
+      "caption": null,
+      "alt": "Chunky Guacamole"
+    },
+    {
+      "sourceImageId": 230,
+      "originalMediaId": "wordpress:bwg-image:230:original",
+      "thumbnailMediaId": "wordpress:bwg-image:230:thumbnail",
+      "caption": null,
+      "alt": "Chunky Guacamole"
+    },
+    {
+      "sourceImageId": 229,
+      "originalMediaId": "wordpress:bwg-image:229:original",
+      "thumbnailMediaId": "wordpress:bwg-image:229:thumbnail",
+      "caption": null,
+      "alt": "Cucumber Tomato & Green Onion Salad"
+    },
+    {
+      "sourceImageId": 227,
+      "originalMediaId": "wordpress:bwg-image:227:original",
+      "thumbnailMediaId": "wordpress:bwg-image:227:thumbnail",
+      "caption": null,
+      "alt": "Creamy Vanilla And Chocolate Jelly"
+    },
+    {
+      "sourceImageId": 209,
+      "originalMediaId": "wordpress:bwg-image:209:original",
+      "thumbnailMediaId": "wordpress:bwg-image:209:thumbnail",
+      "caption": null,
+      "alt": "Almond Flour Banana Bread"
+    },
+    {
+      "sourceImageId": 207,
+      "originalMediaId": "wordpress:bwg-image:207:original",
+      "thumbnailMediaId": "wordpress:bwg-image:207:thumbnail",
+      "caption": null,
+      "alt": "Almond Flour Banana Bread"
+    },
+    {
+      "sourceImageId": 206,
+      "originalMediaId": "wordpress:bwg-image:206:original",
+      "thumbnailMediaId": "wordpress:bwg-image:206:thumbnail",
+      "caption": null,
+      "alt": "Almond Flour Banana Bread"
+    },
+    {
+      "sourceImageId": 201,
+      "originalMediaId": "wordpress:bwg-image:201:original",
+      "thumbnailMediaId": "wordpress:bwg-image:201:thumbnail",
+      "caption": null,
+      "alt": "Profiteroles With Vanilla Ice Cream"
+    },
+    {
+      "sourceImageId": 197,
+      "originalMediaId": "wordpress:bwg-image:197:original",
+      "thumbnailMediaId": "wordpress:bwg-image:197:thumbnail",
+      "caption": null,
+      "alt": "Profiteroles With Vanilla Ice Cream"
+    },
+    {
+      "sourceImageId": 196,
+      "originalMediaId": "wordpress:bwg-image:196:original",
+      "thumbnailMediaId": "wordpress:bwg-image:196:thumbnail",
+      "caption": null,
+      "alt": "Profiteroles With Vanilla Ice Cream"
+    },
+    {
+      "sourceImageId": 195,
+      "originalMediaId": "wordpress:bwg-image:195:original",
+      "thumbnailMediaId": "wordpress:bwg-image:195:thumbnail",
+      "caption": null,
+      "alt": "Profiteroles With Vanilla Ice Cream"
+    },
+    {
+      "sourceImageId": 194,
+      "originalMediaId": "wordpress:bwg-image:194:original",
+      "thumbnailMediaId": "wordpress:bwg-image:194:thumbnail",
+      "caption": null,
+      "alt": "Profiteroles With Vanilla Ice Cream"
+    },
+    {
+      "sourceImageId": 189,
+      "originalMediaId": "wordpress:bwg-image:189:original",
+      "thumbnailMediaId": "wordpress:bwg-image:189:thumbnail",
+      "caption": null,
+      "alt": "Potato Pancakes (Draniki)"
+    },
+    {
+      "sourceImageId": 188,
+      "originalMediaId": "wordpress:bwg-image:188:original",
+      "thumbnailMediaId": "wordpress:bwg-image:188:thumbnail",
+      "caption": null,
+      "alt": "Potato Pancakes (Draniki)"
+    },
+    {
+      "sourceImageId": 176,
+      "originalMediaId": "wordpress:bwg-image:176:original",
+      "thumbnailMediaId": "wordpress:bwg-image:176:thumbnail",
+      "caption": null,
+      "alt": "Mouth Watering Venison Roast"
+    },
+    {
+      "sourceImageId": 160,
+      "originalMediaId": "wordpress:bwg-image:160:original",
+      "thumbnailMediaId": "wordpress:bwg-image:160:thumbnail",
+      "caption": null,
+      "alt": "Buckwheat Crepes"
+    },
+    {
+      "sourceImageId": 158,
+      "originalMediaId": "wordpress:bwg-image:158:original",
+      "thumbnailMediaId": "wordpress:bwg-image:158:thumbnail",
+      "caption": null,
+      "alt": "Buckwheat Crepes"
+    },
+    {
+      "sourceImageId": 154,
+      "originalMediaId": "wordpress:bwg-image:154:original",
+      "thumbnailMediaId": "wordpress:bwg-image:154:thumbnail",
+      "caption": null,
+      "alt": "20180530_190427.Blog"
+    },
+    {
+      "sourceImageId": 150,
+      "originalMediaId": "wordpress:bwg-image:150:original",
+      "thumbnailMediaId": "wordpress:bwg-image:150:thumbnail",
+      "caption": null,
+      "alt": "Табуле из кускуса со свежими овощами"
+    },
+    {
+      "sourceImageId": 147,
+      "originalMediaId": "wordpress:bwg-image:147:original",
+      "thumbnailMediaId": "wordpress:bwg-image:147:thumbnail",
+      "caption": null,
+      "alt": "Табуле из кускуса со свежими овощами"
+    },
+    {
+      "sourceImageId": 145,
+      "originalMediaId": "wordpress:bwg-image:145:original",
+      "thumbnailMediaId": "wordpress:bwg-image:145:thumbnail",
+      "caption": null,
+      "alt": "Табуле из кускуса со свежими овощами"
+    },
+    {
+      "sourceImageId": 144,
+      "originalMediaId": "wordpress:bwg-image:144:original",
+      "thumbnailMediaId": "wordpress:bwg-image:144:thumbnail",
+      "caption": null,
+      "alt": "Табуле из кускуса со свежими овощами"
+    },
+    {
+      "sourceImageId": 143,
+      "originalMediaId": "wordpress:bwg-image:143:original",
+      "thumbnailMediaId": "wordpress:bwg-image:143:thumbnail",
+      "caption": "Aperture: 5\nCamera: Canon EOS REBEL T3i\nIso: 100\nOrientation: 1",
+      "alt": "Табуле из кускуса со свежими овощами"
+    },
+    {
+      "sourceImageId": 136,
+      "originalMediaId": "wordpress:bwg-image:136:original",
+      "thumbnailMediaId": "wordpress:bwg-image:136:thumbnail",
+      "caption": null,
+      "alt": "Террин из лосося"
+    },
+    {
+      "sourceImageId": 132,
+      "originalMediaId": "wordpress:bwg-image:132:original",
+      "thumbnailMediaId": "wordpress:bwg-image:132:thumbnail",
+      "caption": null,
+      "alt": "Chickpea (Garbanzo Beans) salad with bell pepper"
+    },
+    {
+      "sourceImageId": 131,
+      "originalMediaId": "wordpress:bwg-image:131:original",
+      "thumbnailMediaId": "wordpress:bwg-image:131:thumbnail",
+      "caption": null,
+      "alt": "Homemade Hummus"
+    },
+    {
+      "sourceImageId": 129,
+      "originalMediaId": "wordpress:bwg-image:129:original",
+      "thumbnailMediaId": "wordpress:bwg-image:129:thumbnail",
+      "caption": null,
+      "alt": "Homemade Hummus"
+    },
+    {
+      "sourceImageId": 122,
+      "originalMediaId": "wordpress:bwg-image:122:original",
+      "thumbnailMediaId": "wordpress:bwg-image:122:thumbnail",
+      "caption": null,
+      "alt": "Варенье из арбузных корок"
+    },
+    {
+      "sourceImageId": 117,
+      "originalMediaId": "wordpress:bwg-image:117:original",
+      "thumbnailMediaId": "wordpress:bwg-image:117:thumbnail",
+      "caption": null,
+      "alt": "Варенье из арбузных корок"
+    },
+    {
+      "sourceImageId": 115,
+      "originalMediaId": "wordpress:bwg-image:115:original",
+      "thumbnailMediaId": "wordpress:bwg-image:115:thumbnail",
+      "caption": null,
+      "alt": "Chocolate Chip Banana Nut Muffins"
+    },
+    {
+      "sourceImageId": 112,
+      "originalMediaId": "wordpress:bwg-image:112:original",
+      "thumbnailMediaId": "wordpress:bwg-image:112:thumbnail",
+      "caption": null,
+      "alt": "Chocolate Chip Banana Nut Muffins"
+    },
+    {
+      "sourceImageId": 111,
+      "originalMediaId": "wordpress:bwg-image:111:original",
+      "thumbnailMediaId": "wordpress:bwg-image:111:thumbnail",
+      "caption": null,
+      "alt": "Chocolate Chip Banana Nut Muffins"
+    },
+    {
+      "sourceImageId": 107,
+      "originalMediaId": "wordpress:bwg-image:107:original",
+      "thumbnailMediaId": "wordpress:bwg-image:107:thumbnail",
+      "caption": null,
+      "alt": "Chocolate Chip Banana Nut Muffins"
+    },
+    {
+      "sourceImageId": 105,
+      "originalMediaId": "wordpress:bwg-image:105:original",
+      "thumbnailMediaId": "wordpress:bwg-image:105:thumbnail",
+      "caption": null,
+      "alt": "Варенье из арбузных корок"
+    },
+    {
+      "sourceImageId": 96,
+      "originalMediaId": "wordpress:bwg-image:96:original",
+      "thumbnailMediaId": "wordpress:bwg-image:96:thumbnail",
+      "caption": null,
+      "alt": "Ice Cream Cake Iceberg"
+    },
+    {
+      "sourceImageId": 93,
+      "originalMediaId": "wordpress:bwg-image:93:original",
+      "thumbnailMediaId": "wordpress:bwg-image:93:thumbnail",
+      "caption": null,
+      "alt": "Ice Cream Cake Iceberg"
+    },
+    {
+      "sourceImageId": 82,
+      "originalMediaId": "wordpress:bwg-image:82:original",
+      "thumbnailMediaId": "wordpress:bwg-image:82:thumbnail",
+      "caption": null,
+      "alt": "Vegetable Tian"
+    },
+    {
+      "sourceImageId": 81,
+      "originalMediaId": "wordpress:bwg-image:81:original",
+      "thumbnailMediaId": "wordpress:bwg-image:81:thumbnail",
+      "caption": null,
+      "alt": "Vegetable Tian"
+    },
+    {
+      "sourceImageId": 79,
+      "originalMediaId": "wordpress:bwg-image:79:original",
+      "thumbnailMediaId": "wordpress:bwg-image:79:thumbnail",
+      "caption": null,
+      "alt": "Vegetable Tian"
+    },
+    {
+      "sourceImageId": 77,
+      "originalMediaId": "wordpress:bwg-image:77:original",
+      "thumbnailMediaId": "wordpress:bwg-image:77:thumbnail",
+      "caption": null,
+      "alt": "Homemade Olive Tapenade"
+    },
+    {
+      "sourceImageId": 75,
+      "originalMediaId": "wordpress:bwg-image:75:original",
+      "thumbnailMediaId": "wordpress:bwg-image:75:thumbnail",
+      "caption": null,
+      "alt": "Отварная зеленая спаржа"
+    },
+    {
+      "sourceImageId": 67,
+      "originalMediaId": "wordpress:bwg-image:67:original",
+      "thumbnailMediaId": "wordpress:bwg-image:67:thumbnail",
+      "caption": null,
+      "alt": "Bread Kvass"
+    },
+    {
+      "sourceImageId": 66,
+      "originalMediaId": "wordpress:bwg-image:66:original",
+      "thumbnailMediaId": "wordpress:bwg-image:66:thumbnail",
+      "caption": null,
+      "alt": "Bread Kvass"
+    },
+    {
+      "sourceImageId": 63,
+      "originalMediaId": "wordpress:bwg-image:63:original",
+      "thumbnailMediaId": "wordpress:bwg-image:63:thumbnail",
+      "caption": null,
+      "alt": "Как просто и красиво подать мороженое"
+    },
+    {
+      "sourceImageId": 58,
+      "originalMediaId": "wordpress:bwg-image:58:original",
+      "thumbnailMediaId": "wordpress:bwg-image:58:thumbnail",
+      "caption": null,
+      "alt": "Okroshka"
+    },
+    {
+      "sourceImageId": 52,
+      "originalMediaId": "wordpress:bwg-image:52:original",
+      "thumbnailMediaId": "wordpress:bwg-image:52:thumbnail",
+      "caption": null,
+      "alt": "French Chocolate Mousse"
+    },
+    {
+      "sourceImageId": 51,
+      "originalMediaId": "wordpress:bwg-image:51:original",
+      "thumbnailMediaId": "wordpress:bwg-image:51:thumbnail",
+      "caption": null,
+      "alt": "French Chocolate Mousse"
+    },
+    {
+      "sourceImageId": 49,
+      "originalMediaId": "wordpress:bwg-image:49:original",
+      "thumbnailMediaId": "wordpress:bwg-image:49:thumbnail",
+      "caption": null,
+      "alt": "Bread Kvass"
+    },
+    {
+      "sourceImageId": 45,
+      "originalMediaId": "wordpress:bwg-image:45:original",
+      "thumbnailMediaId": "wordpress:bwg-image:45:thumbnail",
+      "caption": null,
+      "alt": "Stunning French Chocolate Tart"
+    },
+    {
+      "sourceImageId": 44,
+      "originalMediaId": "wordpress:bwg-image:44:original",
+      "thumbnailMediaId": "wordpress:bwg-image:44:thumbnail",
+      "caption": null,
+      "alt": "Stunning French Chocolate Tart"
+    },
+    {
+      "sourceImageId": 41,
+      "originalMediaId": "wordpress:bwg-image:41:original",
+      "thumbnailMediaId": "wordpress:bwg-image:41:thumbnail",
+      "caption": null,
+      "alt": "Pâte brisée Pie shell"
+    },
+    {
+      "sourceImageId": 38,
+      "originalMediaId": "wordpress:bwg-image:38:original",
+      "thumbnailMediaId": "wordpress:bwg-image:38:thumbnail",
+      "caption": null,
+      "alt": "Pâte brisée Pie shell"
+    },
+    {
+      "sourceImageId": 37,
+      "originalMediaId": "wordpress:bwg-image:37:original",
+      "thumbnailMediaId": "wordpress:bwg-image:37:thumbnail",
+      "caption": null,
+      "alt": "Pâte brisée Pie shell"
+    },
+    {
+      "sourceImageId": 31,
+      "originalMediaId": "wordpress:bwg-image:31:original",
+      "thumbnailMediaId": "wordpress:bwg-image:31:thumbnail",
+      "caption": null,
+      "alt": "Watermelon and Cucumber salad with Feta"
+    },
+    {
+      "sourceImageId": 30,
+      "originalMediaId": "wordpress:bwg-image:30:original",
+      "thumbnailMediaId": "wordpress:bwg-image:30:thumbnail",
+      "caption": null,
+      "alt": "Cucumber and feta salad"
+    },
+    {
+      "sourceImageId": 29,
+      "originalMediaId": "wordpress:bwg-image:29:original",
+      "thumbnailMediaId": "wordpress:bwg-image:29:thumbnail",
+      "caption": null,
+      "alt": "Грушево-шоколадный тарт"
+    },
+    {
+      "sourceImageId": 28,
+      "originalMediaId": "wordpress:bwg-image:28:original",
+      "thumbnailMediaId": "wordpress:bwg-image:28:thumbnail",
+      "caption": null,
+      "alt": "Грушево-шоколадный тарт"
+    },
+    {
+      "sourceImageId": 27,
+      "originalMediaId": "wordpress:bwg-image:27:original",
+      "thumbnailMediaId": "wordpress:bwg-image:27:thumbnail",
+      "caption": null,
+      "alt": "Грушево-шоколадный тарт"
+    },
+    {
+      "sourceImageId": 25,
+      "originalMediaId": "wordpress:bwg-image:25:original",
+      "thumbnailMediaId": "wordpress:bwg-image:25:thumbnail",
+      "caption": null,
+      "alt": "Грушево-шоколадный тарт"
+    },
+    {
+      "sourceImageId": 21,
+      "originalMediaId": "wordpress:bwg-image:21:original",
+      "thumbnailMediaId": "wordpress:bwg-image:21:thumbnail",
+      "caption": null,
+      "alt": "Грушево-шоколадный тарт"
+    },
+    {
+      "sourceImageId": 20,
+      "originalMediaId": "wordpress:bwg-image:20:original",
+      "thumbnailMediaId": "wordpress:bwg-image:20:thumbnail",
+      "caption": null,
+      "alt": "Грушево-шоколадный тарт"
+    },
+    {
+      "sourceImageId": 13,
+      "originalMediaId": "wordpress:bwg-image:13:original",
+      "thumbnailMediaId": "wordpress:bwg-image:13:thumbnail",
+      "caption": null,
+      "alt": "Грушево-шоколадный тарт"
+    },
+    {
+      "sourceImageId": 10,
+      "originalMediaId": "wordpress:bwg-image:10:original",
+      "thumbnailMediaId": "wordpress:bwg-image:10:thumbnail",
+      "caption": null,
+      "alt": "Корюшка жареная"
+    },
+    {
+      "sourceImageId": 9,
+      "originalMediaId": "wordpress:bwg-image:9:original",
+      "thumbnailMediaId": "wordpress:bwg-image:9:thumbnail",
+      "caption": null,
+      "alt": "Корюшка жареная"
+    },
+    {
+      "sourceImageId": 5,
+      "originalMediaId": "wordpress:bwg-image:5:original",
+      "thumbnailMediaId": "wordpress:bwg-image:5:thumbnail",
+      "caption": "Green Mango Salad (Кalawang)",
+      "alt": "Green Mango Salad (Кalawang)"
+    },
+    {
+      "sourceImageId": 1,
+      "originalMediaId": "wordpress:bwg-image:1:original",
+      "thumbnailMediaId": "wordpress:bwg-image:1:thumbnail",
+      "caption": "Green Mango Salad (Кalawang)",
+      "alt": "Green Mango Salad (Кalawang)"
+    }
+  ]
+}

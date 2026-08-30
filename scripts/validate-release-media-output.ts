@@ -8,29 +8,45 @@ import {
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  createEditorialGalleryMediaManifest,
+  loadEditorialGalleryMediaManifest,
+  type EditorialGalleryMediaManifest
+} from "../src/content/editorial-media-manifest";
+import type { EditorialPageRecord } from "../src/content/editorial-schema";
+import type { GalleryRecord } from "../src/content/gallery-schema";
+import {
   loadRecipeMediaManifest,
   type RecipeMediaManifest
 } from "../src/content/media-manifest";
 import type { RecipeRecord } from "../src/content/schema";
 import {
   requireRecipeMediaBaseUrl,
+  resolveManagedMediaUrl,
   resolveRecipeMediaUrl
 } from "../src/lib/recipe-media";
-import { getStaticPageParams } from "../src/lib/recipe-routes";
+import { getPublicStaticPageParams } from "../src/lib/public-routes";
 
 const maxReleaseArtifactBytes = 16 * 1024 * 1024;
 export const maxAzureStaticWebAppsFiles = 15_000;
 export const maxAzureStaticWebAppsBytes = 250 * 1024 * 1024;
 const maxFlightJsonNesting = 256;
-const mediaObjectPath = "/recipes/media/wordpress/";
+const mediaObjectPaths = [
+  "/recipes/media/wordpress/",
+  "/editorial/media/wordpress/",
+  "/gallery/media/wordpress-bwg/"
+] as const;
 const mediaObjectReference = new RegExp(
-  "^/recipes/media/wordpress/(?:0|[1-9]\\d*)\\.(?:avif|gif|jpe?g|png|webp)" +
+  "^/(?:recipes/media/wordpress/(?:0|[1-9]\\d*)|" +
+    "editorial/media/wordpress/[1-9]\\d*|" +
+    "gallery/media/wordpress-bwg/[1-9]\\d*-(?:original|thumbnail))" +
+    "\\.(?:avif|gif|jpe?g|png|webp)" +
     "(?=$|[^A-Za-z0-9._~-])",
   "u"
 );
 const flightPushPrefix = "self.__next_f.push(";
 
 export type ReleaseMediaOutputValidationOptions = {
+  readonly editorialGalleryMediaManifest?: EditorialGalleryMediaManifest;
   readonly mediaBaseUrl?: string;
   readonly mediaManifest?: RecipeMediaManifest;
   readonly outputDirectory?: string;
@@ -43,6 +59,8 @@ export type ReleaseMediaOutputValidationResult = {
 
 export type StaticExportOutputValidationOptions = {
   readonly catalog: readonly RecipeRecord[];
+  readonly editorialRecords?: readonly EditorialPageRecord[];
+  readonly galleryRecords?: readonly GalleryRecord[];
   readonly outputDirectory?: string;
 };
 
@@ -169,7 +187,11 @@ export function validateStaticExportOutput(
     }
     return next;
   }, 0);
-  const staticRoutes = getStaticPageParams(options.catalog);
+  const staticRoutes = getPublicStaticPageParams(
+    options.catalog,
+    options.editorialRecords ?? [],
+    options.galleryRecords ?? []
+  );
 
   for (const { segments } of staticRoutes) {
     outputFileSize(staticPageFile(root, segments));
@@ -210,12 +232,12 @@ function decodedTransportText(value: string) {
   return decoded;
 }
 
-function mediaUrlAt(value: string, pathIndex: number) {
+function mediaUrlAt(value: string, pathIndex: number, mediaPath: string) {
   let start = pathIndex;
   while (start > 0 && isUrlCharacter(value[start - 1]!)) {
     start -= 1;
   }
-  let end = pathIndex + mediaObjectPath.length;
+  let end = pathIndex + mediaPath.length;
   while (end < value.length && isUrlCharacter(value[end]!)) {
     end += 1;
   }
@@ -229,20 +251,33 @@ function validateMediaReferences(
 ) {
   const decoded = decodedTransportText(content);
   let count = 0;
-  let index = decoded.indexOf(mediaObjectPath);
-  while (index !== -1) {
+  let start = 0;
+  while (start < decoded.length) {
+    const next = mediaObjectPaths.reduce<{ index: number; path: string } | undefined>(
+      (closest, mediaPath) => {
+        const index = decoded.indexOf(mediaPath, start);
+        return index === -1 || (closest !== undefined && closest.index < index)
+          ? closest
+          : { index, path: mediaPath };
+      },
+      undefined
+    );
+    if (next === undefined) {
+      break;
+    }
+    const { index, path: mediaPath } = next;
     if (!mediaObjectReference.test(decoded.slice(index))) {
-      index = decoded.indexOf(mediaObjectPath, index + mediaObjectPath.length);
+      start = index + mediaPath.length;
       continue;
     }
-    const candidate = mediaUrlAt(decoded, index);
+    const candidate = mediaUrlAt(decoded, index, mediaPath);
     const key = expectedByUrl.get(candidate);
     if (key === undefined) {
       fail();
     }
     seenKeys.add(key);
     count += 1;
-    index = decoded.indexOf(mediaObjectPath, index + mediaObjectPath.length);
+    start = index + mediaPath.length;
   }
   return count;
 }
@@ -386,12 +421,26 @@ function validateHtmlDocument(
   return mediaUrls;
 }
 
-function expectedMediaUrls(manifest: RecipeMediaManifest, base: URL) {
+function expectedMediaUrls(
+  recipeManifest: RecipeMediaManifest,
+  editorialGalleryManifest: EditorialGalleryMediaManifest,
+  base: URL
+) {
   const expected = new Map<string, string>();
-  for (const entry of manifest.entries) {
+  const entries = [
+    ...recipeManifest.entries.map((entry) => ({
+      key: entry.key,
+      resolve: resolveRecipeMediaUrl
+    })),
+    ...editorialGalleryManifest.entries.map((entry) => ({
+      key: entry.key,
+      resolve: resolveManagedMediaUrl
+    }))
+  ];
+  for (const entry of entries) {
     let resolved: string;
     try {
-      resolved = resolveRecipeMediaUrl(entry.key, base.href);
+      resolved = entry.resolve(entry.key, base.href);
     } catch {
       fail();
     }
@@ -408,7 +457,11 @@ export function validateReleaseMediaOutput(
 ): ReleaseMediaOutputValidationResult {
   const base = requireRecipeMediaBaseUrl(options.mediaBaseUrl);
   const manifest = options.mediaManifest ?? loadRecipeMediaManifest();
-  const expectedByUrl = expectedMediaUrls(manifest, base);
+  const editorialGalleryManifest = options.editorialGalleryMediaManifest
+    ?? (options.mediaManifest === undefined
+      ? loadEditorialGalleryMediaManifest()
+      : createEditorialGalleryMediaManifest([]));
+  const expectedByUrl = expectedMediaUrls(manifest, editorialGalleryManifest, base);
   const root = outputRoot(options.outputDirectory);
   let mediaUrls = 0;
   const seenKeys = new Set<string>();
@@ -419,7 +472,10 @@ export function validateReleaseMediaOutput(
       ? validateHtmlDocument(content, expectedByUrl, seenKeys)
       : validateMediaReferences(content, expectedByUrl, seenKeys);
   }
-  if (seenKeys.size !== manifest.entries.length) {
+  if (
+    seenKeys.size
+    !== manifest.entries.length + editorialGalleryManifest.entries.length
+  ) {
     fail();
   }
   return {
@@ -429,12 +485,20 @@ export function validateReleaseMediaOutput(
 }
 
 if (fileURLToPath(import.meta.url) === path.resolve(process.argv[1] ?? "")) {
-  void import("../src/content/catalog")
-    .then(({ recipeCatalog }) => {
+  void Promise.all([
+    import("../src/content/catalog"),
+    import("../src/content/editorial-catalog"),
+    import("../src/content/gallery-catalog")
+  ])
+    .then(([{ recipeCatalog }, { editorialCatalog }, { galleryCatalog }]) => {
       process.stdout.write(
         `${JSON.stringify({
           media: validateReleaseMediaOutput(),
-          staticExport: validateStaticExportOutput({ catalog: recipeCatalog })
+          staticExport: validateStaticExportOutput({
+            catalog: recipeCatalog,
+            editorialRecords: editorialCatalog,
+            galleryRecords: galleryCatalog
+          })
         }, null, 2)}\n`
       );
     })

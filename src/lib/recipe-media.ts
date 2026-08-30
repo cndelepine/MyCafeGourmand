@@ -2,6 +2,7 @@ import {
   isWordPressRecipeMediaObjectKey,
   validateRecipeMediaPath
 } from "../content/media";
+import { publicManagedMediaPathSchema } from "../content/editorial-schema";
 import { validateSafeLocalPath } from "../content/url-path";
 
 export const recipeMediaBaseUrlEnvironmentVariable = "NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL";
@@ -127,6 +128,21 @@ export function resolveRecipeMediaUrl(
   if (!isWordPressRecipeMediaObjectKey(mediaPath)) {
     return mediaPath;
   }
+  return resolveManagedObjectUrl(mediaPath, baseUrl);
+}
+
+export function resolveManagedMediaUrl(
+  mediaPath: string,
+  baseUrl: string | undefined = process.env.NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL
+) {
+  publicManagedMediaPathSchema.parse(mediaPath);
+  return resolveManagedObjectUrl(mediaPath, baseUrl);
+}
+
+function resolveManagedObjectUrl(
+  mediaPath: string,
+  baseUrl: string | undefined
+) {
   const parsedBase = getRecipeMediaBaseUrl(baseUrl);
   if (parsedBase === undefined) {
     return mediaPath;
@@ -160,4 +176,24 @@ export function getRecipeMediaRemotePattern(
     port: base.port,
     pathname: `${basePath}/recipes/media/wordpress/**`
   };
+}
+
+export function getManagedMediaRemotePatterns(
+  value: string | undefined = process.env.NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL
+) {
+  const base = getRecipeMediaBaseUrl(value);
+  if (base === undefined) {
+    return [];
+  }
+  const basePath = base.pathname === "/" ? "" : base.pathname.replace(/\/$/u, "");
+  return [
+    "recipes/media/wordpress/**",
+    "editorial/media/wordpress/**",
+    "gallery/media/wordpress-bwg/**"
+  ].map((pathname) => ({
+    protocol: "https" as const,
+    hostname: base.hostname,
+    port: base.port,
+    pathname: `${basePath}/${pathname}`
+  }));
 }

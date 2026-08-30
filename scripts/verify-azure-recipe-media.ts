@@ -7,17 +7,27 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   recipeMediaUploadPlanSchema,
-  type RecipeMediaUploadPlan
 } from "./wordpress/wprm-media-upload-plan";
+import {
+  editorialGalleryMediaUploadPlanSchema
+} from "./wordpress/editorial-media-upload-plan";
 
 const defaultRequestTimeoutMs = 30_000;
+const maxPrivateUploadManifestBytes = 8 * 1024 * 1024;
 
 export type AzureVerificationOptions = {
   readonly accountName: string;
   readonly container: string;
   readonly repositoryRoot?: string;
   readonly timeoutMs?: number;
-  readonly uploadDir: string;
+  /**
+   * Compatibility form for verifying one recipe or editorial upload plan.
+   */
+  readonly uploadDir?: string;
+  /**
+   * Verify independent, non-overlapping private plans as one Blob set.
+   */
+  readonly uploadDirs?: readonly string[];
 };
 
 export type AzureMediaVerificationDependencies = {
@@ -37,6 +47,7 @@ export type AzureMediaVerificationResult = {
   readonly streamFailures: number;
   readonly sizeMismatches: number;
   readonly sha256Mismatches: number;
+  readonly contentTypeMismatches: number;
 };
 
 export class AzureMediaVerificationError extends Error {
@@ -83,10 +94,46 @@ async function assertDirectory(target: string) {
   }
 }
 
+type AzureUploadManifest = {
+  readonly entries: readonly {
+    readonly bytes: number;
+    readonly contentType: AzureMediaContentType;
+    readonly key: string;
+    readonly sha256: string;
+  }[];
+};
+
+type AzureMediaContentType =
+  | "image/avif"
+  | "image/gif"
+  | "image/jpeg"
+  | "image/png"
+  | "image/webp";
+
+function isAzureMediaContentType(value: string): value is AzureMediaContentType {
+  return value === "image/avif"
+    || value === "image/gif"
+    || value === "image/jpeg"
+    || value === "image/png"
+    || value === "image/webp";
+}
+
+function parseAzureUploadManifest(value: unknown): AzureUploadManifest {
+  const recipe = recipeMediaUploadPlanSchema.safeParse(value);
+  if (recipe.success) {
+    return recipe.data;
+  }
+  const editorial = editorialGalleryMediaUploadPlanSchema.safeParse(value);
+  if (editorial.success) {
+    return editorial.data;
+  }
+  fail("invalid-upload-manifest");
+}
+
 async function readPrivateUploadManifest(
   repositoryRoot: string,
   uploadDir: string
-): Promise<RecipeMediaUploadPlan> {
+): Promise<AzureUploadManifest> {
   if (path.isAbsolute(uploadDir)) {
     fail("unsafe-upload-staging");
   }
@@ -116,6 +163,8 @@ async function readPrivateUploadManifest(
     || !stats.isFile()
     || !isPrivateOwned(stats)
     || (stats.mode & 0o777) !== 0o600
+    || !Number.isSafeInteger(stats.size)
+    || stats.size > maxPrivateUploadManifestBytes
   ) {
     fail("unsafe-upload-staging");
   }
@@ -127,10 +176,12 @@ async function readPrivateUploadManifest(
       !opened.isFile()
       || !isPrivateOwned(opened)
       || (opened.mode & 0o777) !== 0o600
+      || !Number.isSafeInteger(opened.size)
+      || opened.size > maxPrivateUploadManifestBytes
     ) {
       fail("unsafe-upload-staging");
     }
-    return recipeMediaUploadPlanSchema.parse(
+    return parseAzureUploadManifest(
       JSON.parse((await handle.readFile()).toString("utf8")) as unknown
     );
   } catch (error) {
@@ -142,6 +193,32 @@ async function readPrivateUploadManifest(
     await handle?.close();
   }
   fail("invalid-upload-manifest");
+}
+
+function uploadDirectories(options: AzureVerificationOptions) {
+  if (
+    options.uploadDir !== undefined
+    && options.uploadDirs !== undefined
+  ) {
+    fail("invalid-upload-directories");
+  }
+  const directories = options.uploadDirs ?? (
+    options.uploadDir === undefined ? [] : [options.uploadDir]
+  );
+  if (
+    directories.length === 0
+    || directories.length > 64
+    || directories.some((directory) =>
+      typeof directory !== "string" || directory.length === 0
+    )
+  ) {
+    fail("invalid-upload-directories");
+  }
+  const unique = new Set(directories);
+  if (unique.size !== directories.length) {
+    fail("invalid-upload-directories");
+  }
+  return [...directories];
 }
 
 function validateAzureNames(accountName: string, container: string) {
@@ -210,6 +287,21 @@ function contentLength(response: Response) {
   }
   const bytes = Number(value);
   return Number.isSafeInteger(bytes) ? bytes : null;
+}
+
+function normalizedContentType(response: Response): AzureMediaContentType | null {
+  const header = response.headers.get("content-type");
+  if (
+    header === null
+    || Buffer.byteLength(header, "utf8") > 256
+    || /[\u0000-\u001f\u007f]/u.test(header)
+  ) {
+    return null;
+  }
+  const mediaType = header.split(";", 1)[0]?.trim().toLowerCase();
+  return mediaType !== undefined && isAzureMediaContentType(mediaType)
+    ? mediaType
+    : null;
 }
 
 function responseMatchesRequest(response: Response, expected: URL) {
@@ -295,6 +387,7 @@ async function hashResponseBody(
 }
 
 type ObjectVerification = {
+  readonly contentTypeMismatch: boolean;
   readonly unavailable: boolean;
   readonly statusFailure: boolean;
   readonly streamFailure: boolean;
@@ -305,6 +398,7 @@ type ObjectVerification = {
 async function verifyObject(
   expected: {
     readonly bytes: number;
+    readonly contentType: AzureMediaContentType;
     readonly key: string;
     readonly sha256: string;
   },
@@ -324,6 +418,7 @@ async function verifyObject(
       });
     } catch {
       return {
+        contentTypeMismatch: false,
         unavailable: true,
         statusFailure: true,
         streamFailure: false,
@@ -341,6 +436,7 @@ async function verifyObject(
         // The aggregate result remains authoritative.
       }
       return {
+        contentTypeMismatch: false,
         unavailable: true,
         statusFailure: true,
         streamFailure: false,
@@ -349,8 +445,10 @@ async function verifyObject(
       };
     }
     const declaredBytes = contentLength(response);
+    const contentTypeMismatch = normalizedContentType(response) !== expected.contentType;
     const streamed = await hashResponseBody(response, expected.bytes);
     return {
+      contentTypeMismatch,
       unavailable: false,
       statusFailure: false,
       streamFailure: streamed.failed,
@@ -376,16 +474,31 @@ export async function verifyAzureRecipeMedia(
   } catch {
     fail("invalid-repository-root");
   }
-  const manifest = await readPrivateUploadManifest(repositoryRoot, options.uploadDir);
+  const manifests = [];
+  for (const directory of uploadDirectories(options)) {
+    manifests.push(await readPrivateUploadManifest(repositoryRoot, directory));
+  }
+  const expected = new Map<string, AzureUploadManifest["entries"][number]>();
+  for (const manifest of manifests) {
+    for (const entry of manifest.entries) {
+      if (expected.has(entry.key)) {
+        fail("duplicate-upload-object-key");
+      }
+      expected.set(entry.key, entry);
+    }
+  }
   const origin = resolveBlobOrigin(options.accountName, dependencies);
   let unavailable = 0;
   let statusFailures = 0;
   let streamFailures = 0;
   let sizeMismatches = 0;
   let sha256Mismatches = 0;
+  let contentTypeMismatches = 0;
   let bytes = 0;
 
-  for (const entry of manifest.entries) {
+  for (const entry of [...expected.values()].sort((left, right) =>
+    left.key < right.key ? -1 : left.key > right.key ? 1 : 0
+  )) {
     bytes += entry.bytes;
     const result = await verifyObject(
       entry,
@@ -393,6 +506,7 @@ export async function verifyAzureRecipeMedia(
       timeoutMs
     );
     unavailable += result.unavailable ? 1 : 0;
+    contentTypeMismatches += result.contentTypeMismatch ? 1 : 0;
     statusFailures += result.statusFailure ? 1 : 0;
     streamFailures += result.streamFailure ? 1 : 0;
     sizeMismatches += result.sizeMismatch ? 1 : 0;
@@ -401,18 +515,20 @@ export async function verifyAzureRecipeMedia(
   return {
     schemaVersion: 1,
     kind: "azure-recipe-media-verification",
-    objects: manifest.entries.length,
+    objects: expected.size,
     bytes,
     unavailable,
     statusFailures,
     streamFailures,
     sizeMismatches,
-    sha256Mismatches
+    sha256Mismatches,
+    contentTypeMismatches
   };
 }
 
 function parseArguments(values: readonly string[]) {
   const parsed = new Map<string, string>();
+  const uploadDirs: string[] = [];
   const allowed = new Set(["account-name", "container", "upload-dir"]);
   for (let index = 0; index < values.length; index += 1) {
     const argument = values[index]!;
@@ -420,23 +536,26 @@ function parseArguments(values: readonly string[]) {
       fail("invalid-argument");
     }
     const key = argument.slice(2);
-    if (!allowed.has(key) || parsed.has(key)) {
+    if (!allowed.has(key) || (key !== "upload-dir" && parsed.has(key))) {
       fail("invalid-argument");
     }
     const value = values[index + 1];
     if (value === undefined || value.startsWith("--")) {
       fail("invalid-argument");
     }
-    parsed.set(key, value);
+    if (key === "upload-dir") {
+      uploadDirs.push(value);
+    } else {
+      parsed.set(key, value);
+    }
     index += 1;
   }
   const accountName = parsed.get("account-name");
   const container = parsed.get("container");
-  const uploadDir = parsed.get("upload-dir");
-  if (accountName === undefined || container === undefined || uploadDir === undefined) {
+  if (accountName === undefined || container === undefined || uploadDirs.length === 0) {
     fail("missing-argument");
   }
-  return { accountName, container, uploadDir };
+  return { accountName, container, uploadDirs };
 }
 
 if (fileURLToPath(import.meta.url) === path.resolve(process.argv[1] ?? "")) {
@@ -449,6 +568,7 @@ if (fileURLToPath(import.meta.url) === path.resolve(process.argv[1] ?? "")) {
       || result.streamFailures > 0
       || result.sizeMismatches > 0
       || result.sha256Mismatches > 0
+      || result.contentTypeMismatches > 0
     ) {
       process.exitCode = 1;
     }

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:222",
+  "locale": "fr",
+  "canonicalPath": "/fr/contact-2/",
+  "translationGroupId": "wordpress:post-translations:35",
+  "source": {
+    "system": "wordpress",
+    "postId": 222,
+    "sourcePath": "/fr/contact-2/",
+    "sourceSlug": "contact-2",
+    "createdAt": "2017-12-23T02:20:51Z",
+    "modifiedAt": "2017-12-28T20:53:26Z"
+  },
+  "title": "Contact",
+  "excerpt": null,
+  "publishedAt": "2017-12-23T02:20:51Z",
+  "modifiedAt": "2017-12-28T20:53:26Z",
+  "content": [
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Vous avez une question ou une idée? Envoyez-nous un message avec le formulaire ci-dessous\n\nSi vous avez une question spécifique sur une recette, demandez-la directement avec un commentaire sur la recette.\n\n"
+        }
+      ]
+    },
+    {
+      "type": "contactForm"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:15",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:15",
+      "path": "/editorial/media/wordpress/15.jpg",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 15
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

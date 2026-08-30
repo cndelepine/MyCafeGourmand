@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:664",
+  "locale": "ru",
+  "canonicalPath": "/ru/декор-стола-и-дома/весна/",
+  "translationGroupId": "wordpress:post-translations:151",
+  "source": {
+    "system": "wordpress",
+    "postId": 664,
+    "sourcePath": "/ru/декор-стола-и-дома/весна/",
+    "sourceSlug": "%d0%b2%d0%b5%d1%81%d0%bd%d0%b0",
+    "createdAt": "2018-01-01T21:11:06Z",
+    "modifiedAt": "2018-01-19T02:51:37Z"
+  },
+  "title": "весна",
+  "excerpt": null,
+  "publishedAt": "2018-01-01T21:11:06Z",
+  "modifiedAt": "2018-01-19T02:51:37Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

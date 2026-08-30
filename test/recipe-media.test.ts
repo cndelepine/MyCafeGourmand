@@ -11,8 +11,10 @@ import {
   getRecipeStructuredData
 } from "../src/lib/recipe-structured-data";
 import {
+  getManagedMediaRemotePatterns,
   getRecipeMediaRemotePattern,
   requireRecipeMediaBaseUrl,
+  resolveManagedMediaUrl,
   resolveRecipeMediaUrl
 } from "../src/lib/recipe-media";
 import { getRecipeMetadata } from "../src/lib/site";
@@ -77,6 +79,23 @@ test("recipe media resolver preserves stable object keys under a safe HTTPS base
       pathname: "/recipe-container/recipes/media/wordpress/**"
     }
   );
+  assert.equal(
+    resolveManagedMediaUrl(
+      "/editorial/media/wordpress/81.jpg",
+      "https://media.example.test/recipe-container"
+    ),
+    "https://media.example.test/recipe-container/editorial/media/wordpress/81.jpg"
+  );
+  assert.deepEqual(
+    getManagedMediaRemotePatterns("https://media.example.test/recipe-container/").map(
+      (pattern) => pattern.pathname
+    ),
+    [
+      "/recipe-container/recipes/media/wordpress/**",
+      "/recipe-container/editorial/media/wordpress/**",
+      "/recipe-container/gallery/media/wordpress-bwg/**"
+    ]
+  );
 });
 
 test("recipe media resolver rejects path escape and base URL confusion", () => {
@@ -88,6 +107,13 @@ test("recipe media resolver rejects path escape and base URL confusion", () => {
   ]) {
     assert.throws(() => resolveRecipeMediaUrl(mediaPath, "https://media.example.test"));
   }
+  assert.throws(
+    () => resolveManagedMediaUrl(
+      "/editorial/media/wordpress/%2e%2e%2f900.jpg",
+      "https://media.example.test"
+    ),
+    /unsafe separator|traversal/
+  );
   for (const baseUrl of [
     "http://media.example.test",
     "https://user:pass@media.example.test",

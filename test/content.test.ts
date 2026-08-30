@@ -21,9 +21,13 @@ test("the production catalog passes the canonical schema", () => {
     ])
   );
 
-  assert.equal(validated.length, 519);
-  assert.deepEqual(localeCounts, { en: 161, fr: 171, ru: 187 });
+  assert.equal(validated.length, 522);
+  assert.deepEqual(localeCounts, { en: 162, fr: 172, ru: 188 });
   assert.equal(new Set(validated.map((record) => record.id)).size, validated.length);
+  assert.equal(
+    validated.reduce((total, record) => total + record.redirectFrom.length, 0),
+    570
+  );
   assert.equal(
     validated.every((record) => record.schemaVersion === 1 && record.kind === "recipe"),
     true
@@ -37,6 +41,23 @@ test("the production catalog passes the canonical schema", () => {
   assert.equal(authoritative.source.recipeId, "21681");
 });
 
+test("intentionally partial recipes retain their verified canonical legacy redirects", () => {
+  const expectedRedirects = new Map([
+    ["25047", "/petits-choux/"],
+    ["25967", "/fr/rochers-a-la-noix-de-coco/"],
+    [
+      "26044",
+      "/ru/%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%be%d0%b5-%d0%ba%d0%be%d0%ba%d0%be%d1%81%d0%be%d0%b2%d0%be%d0%b5-%d0%bf%d0%b5%d1%87%d0%b5%d0%bd%d1%8c%d0%b5/"
+    ]
+  ]);
+
+  for (const [recipeId, redirect] of expectedRedirects) {
+    const record = recipeCatalog.find((candidate) => candidate.source.recipeId === recipeId);
+    assert.ok(record, `Missing intentionally partial recipe ${recipeId}`);
+    assert.deepEqual(record.redirectFrom, [redirect]);
+  }
+});
+
 test("missing translations remain missing", () => {
   const catalog = validateCatalog([recipeFixture]);
 
@@ -47,11 +68,11 @@ test("the promoted catalog has deterministic category, pagination, and sitemap c
   const summary = validateCatalogBehavior(recipeCatalog);
 
   assert.deepEqual(summary.categoriesByLocale, { en: 11, fr: 10, ru: 12 });
-  assert.deepEqual(summary.categoryMembershipsByLocale, { en: 224, fr: 246, ru: 263 });
+  assert.deepEqual(summary.categoryMembershipsByLocale, { en: 225, fr: 250, ru: 265 });
   assert.deepEqual(summary.landingPagesByLocale, { en: 7, fr: 8, ru: 8 });
   assert.deepEqual(summary.categoryPagesByLocale, { en: 15, fr: 15, ru: 18 });
-  assert.equal(summary.staticPaths, 590);
-  assert.equal(summary.sitemapPaths, 590);
+  assert.equal(summary.staticPaths, 593);
+  assert.equal(summary.sitemapPaths, 593);
 });
 
 test("the schema rejects dangling media references", () => {

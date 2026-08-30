@@ -1,7 +1,13 @@
 import type { MetadataRoute } from "next";
 import { getCategoryCatalog } from "@/content/categories";
+import type { EditorialPageRecord } from "@/content/editorial-schema";
+import type { GalleryRecord } from "@/content/gallery-schema";
 import type { RecipeRecord } from "@/content/schema";
-import { resolveRecipeMediaUrl } from "./recipe-media";
+import { resolveManagedMediaUrl, resolveRecipeMediaUrl } from "./recipe-media";
+import {
+  getEditorialLanguageAlternates,
+  getEditorialPath
+} from "./editorial-routes";
 import {
   getCategoryPagePath,
   getLandingPagePath,
@@ -15,7 +21,9 @@ import { getPageNumbers } from "./pagination";
 import { absoluteUrl, canonicalUrl } from "./site";
 
 export function getSitemapEntries(
-  catalog: readonly RecipeRecord[]
+  catalog: readonly RecipeRecord[],
+  editorial: readonly EditorialPageRecord[] = [],
+  galleries: readonly GalleryRecord[] = []
 ): MetadataRoute.Sitemap {
   const landingEntries = supportedLocales.map((locale) => ({
     url: canonicalUrl(getLocaleHomePath(locale)),
@@ -60,11 +68,51 @@ export function getSitemapEntries(
       ...(hero ? { images: [absoluteUrl(resolveRecipeMediaUrl(hero.path))] } : {})
     };
   });
+  const editorialEntries = editorial.map((page) => {
+    const featured = page.featuredMediaId === null
+      ? undefined
+      : page.media?.find((media) => media.id === page.featuredMediaId);
+    const modified = page.modifiedAt ?? page.source.modifiedAt ?? page.publishedAt ?? page.source.createdAt;
+
+    return {
+      url: canonicalUrl(getEditorialPath(page)),
+      ...(modified ? { lastModified: modified } : {}),
+      alternates: {
+        languages: Object.fromEntries(
+          getEditorialLanguageAlternates(page, editorial).map(({ locale, path }) => [
+            locale,
+            canonicalUrl(path)
+          ])
+        )
+      },
+      ...(featured === undefined
+        ? {}
+        : { images: [absoluteUrl(resolveManagedMediaUrl(featured.path))] })
+    };
+  });
+  const galleryEntries = galleries.map((gallery) => ({
+    url: canonicalUrl(gallery.canonicalPath),
+    ...(gallery.images.length === 0
+      ? {}
+      : {
+        images: gallery.images.map((image) => {
+          const media = gallery.media?.find(
+            (candidate) => candidate.id === image.originalMediaId
+          );
+          if (media === undefined) {
+            throw new Error(`Gallery image media is missing: ${image.originalMediaId}`);
+          }
+          return absoluteUrl(resolveManagedMediaUrl(media.path));
+        })
+      })
+  }));
 
   return [
     ...landingEntries,
     ...landingPageEntries,
     ...categoryEntries,
-    ...recipeEntries
+    ...recipeEntries,
+    ...editorialEntries,
+    ...galleryEntries
   ];
 }

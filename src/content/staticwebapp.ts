@@ -1,12 +1,19 @@
+import type { EditorialPageRecord } from "./editorial-schema";
+import type { GalleryRecord } from "./gallery-schema";
 import { type RecipeRecord } from "./schema";
 import {
   decodeLocalPath,
   localPathKey,
   validateSafeLocalPath
 } from "./url-path";
-import { getRecipePath, getStaticPageParams } from "../lib/recipe-routes";
+import { getRecipePath } from "../lib/recipe-routes";
+import { getEditorialPath } from "../lib/editorial-routes";
+import {
+  getPublicStaticPageParams,
+  getStaticPathFromSegments
+} from "../lib/public-routes";
 
-type RecipeRedirect = {
+type ContentRedirect = {
   source: string;
   destination: string;
   status: 301;
@@ -23,6 +30,8 @@ export type StaticWebAppConfig = Record<string, unknown> & {
 };
 
 export type StaticWebAppConfigOptions = {
+  editorialRecords?: readonly EditorialPageRecord[];
+  galleryRecords?: readonly GalleryRecord[];
   handAuthoredConfig?: unknown;
 };
 
@@ -57,22 +66,29 @@ function getRecipeRedirectDestination(record: RecipeRecord) {
   return path.endsWith("/") ? path : `${path}/`;
 }
 
-function canonicalPaths(records: readonly RecipeRecord[]) {
+function getEditorialRedirectDestination(record: EditorialPageRecord) {
+  const path = getEditorialPath(record);
+  return path.endsWith("/") ? path : `${path}/`;
+}
+
+function canonicalPaths(
+  records: readonly RecipeRecord[],
+  editorialRecords: readonly EditorialPageRecord[],
+  galleryRecords: readonly GalleryRecord[]
+) {
   return new Set(
-    getStaticPageParams(records).map(({ segments }) =>
-      azurePathKey(
-        segments.length === 0
-          ? "/"
-          : `/${segments.map((segment) => encodeURIComponent(segment)).join("/")}`
-      )
+    getPublicStaticPageParams(records, editorialRecords, galleryRecords).map(({ segments }) =>
+      azurePathKey(getStaticPathFromSegments(segments))
     )
   );
 }
 
 export function buildRedirectManifest(
-  records: readonly RecipeRecord[]
+  records: readonly RecipeRecord[],
+  editorialRecords: readonly EditorialPageRecord[] = [],
+  galleryRecords: readonly GalleryRecord[] = []
 ) {
-  const redirects: RecipeRedirect[] = [];
+  const redirects: ContentRedirect[] = [];
   for (const record of records) {
     for (const redirectFrom of record.redirectFrom) {
       redirects.push({
@@ -82,8 +98,22 @@ export function buildRedirectManifest(
       });
     }
   }
+  for (const record of editorialRecords) {
+    for (const redirectFrom of record.redirectFrom ?? []) {
+      redirects.push({
+        source: redirectFrom,
+        destination: getEditorialRedirectDestination(record),
+        status: 301
+      });
+    }
+  }
 
-  const validated = validateRecipeRedirects(redirects, records);
+  const validated = validateContentRedirects(
+    redirects,
+    records,
+    editorialRecords,
+    galleryRecords
+  );
   return [...validated].sort((left, right) =>
     azurePathKey(left.source).localeCompare(azurePathKey(right.source))
       || left.source.localeCompare(right.source)
@@ -91,11 +121,13 @@ export function buildRedirectManifest(
   );
 }
 
-function validateRecipeRedirects(
-  redirects: readonly RecipeRedirect[],
-  records: readonly RecipeRecord[]
+function validateContentRedirects(
+  redirects: readonly ContentRedirect[],
+  records: readonly RecipeRecord[],
+  editorialRecords: readonly EditorialPageRecord[],
+  galleryRecords: readonly GalleryRecord[]
 ) {
-  const currentPaths = canonicalPaths(records);
+  const currentPaths = canonicalPaths(records, editorialRecords, galleryRecords);
   const sourcePaths = new Set<string>();
   const redirectGraph = new Map<string, string>();
 
@@ -138,7 +170,7 @@ function validateRecipeRedirects(
   return redirects;
 }
 
-function createGeneratedRoutes(redirects: readonly RecipeRedirect[]) {
+function createGeneratedRoutes(redirects: readonly ContentRedirect[]) {
   return redirects.map((redirect) => ({
     route: redirect.source,
     redirect: redirect.destination,
@@ -285,9 +317,12 @@ export function createStaticWebAppConfig(
   records: readonly RecipeRecord[],
   options: StaticWebAppConfigOptions = {}
 ): StaticWebAppConfig {
-  const manifest = buildRedirectManifest(records);
+  const editorialRecords = options.editorialRecords ?? [];
+  const galleryRecords = options.galleryRecords ?? [];
+  const manifest = buildRedirectManifest(records, editorialRecords, galleryRecords);
   const generatedRoutes = createGeneratedRoutes(manifest);
   const handAuthoredRoutes = getHandAuthoredRoutes(options.handAuthoredConfig);
+  const currentPaths = canonicalPaths(records, editorialRecords, galleryRecords);
 
   const generatedRouteKeys = new Set(generatedRoutes.map((route) => azurePathKey(route.route)));
   for (const [index, route] of handAuthoredRoutes.entries()) {
@@ -302,6 +337,19 @@ export function createStaticWebAppConfig(
     }
   }
   validateMergedRedirectGraph(generatedRoutes, handAuthoredRoutes);
+  for (const [index, route] of handAuthoredRoutes.entries()) {
+    if (
+      isRecord(route)
+      && typeof route.route === "string"
+      && ("redirect" in route || "rewrite" in route)
+      && isExactAzureRoute(route.route)
+      && currentPaths.has(azurePathKey(route.route))
+    ) {
+      throw new Error(
+        `Hand-authored Static Web Apps route ${index + 1} conflicts with a canonical route: ${route.route}`
+      );
+    }
+  }
 
   const baseConfig = options.handAuthoredConfig;
   const config = isRecord(baseConfig) ? { ...baseConfig } : {};

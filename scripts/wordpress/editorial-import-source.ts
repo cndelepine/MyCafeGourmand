@@ -15,6 +15,7 @@ import {
   parseWordPressSourceOptions,
   WprmSourceOptionsError
 } from "./wprm-import-options";
+import { parsePhpSerialized } from "./php-serialize";
 import {
   EditorialImportError,
   mergeEditorialImportLimits,
@@ -27,6 +28,7 @@ import {
   type RawEditorialAttachmentMeta,
   type RawEditorialPage,
   type RawEditorialPostState,
+  type RawWpTilesGridTemplate,
   type RawTerm,
   type RawTermTaxonomy
 } from "./editorial-import-contracts";
@@ -45,6 +47,7 @@ interface PassOneState {
   readonly terms: Map<string, RawTerm>;
   readonly taxonomies: Map<string, RawTermTaxonomy>;
   readonly relationships: Map<string, Set<string>>;
+  readonly gridTemplates: Map<string, RawWpTilesGridTemplate>;
   readonly galleries: Map<string, RawBwgGallery>;
   readonly galleryImages: RawBwgImage[];
   readonly galleryImageIds: Set<string>;
@@ -99,6 +102,10 @@ function textOrNull(value: SqlValue | undefined) {
   return value === undefined || value === null || value.length === 0 ? null : value;
 }
 
+function exactTextOrNull(value: SqlValue | undefined) {
+  return value === undefined || value === null ? null : value;
+}
+
 function numericOrNull(value: SqlValue | undefined) {
   return value === undefined || value === null || value.trim().length === 0
     ? null
@@ -117,6 +124,21 @@ function wordpressParentId(value: SqlValue | undefined) {
   return id === null
     ? { id: null, malformed: true }
     : { id, malformed: false };
+}
+
+function wordpressMenuOrder(value: SqlValue | undefined) {
+  if (value === undefined || value === null || value.trim().length === 0) {
+    return { value: null, malformed: false };
+  }
+  const normalized = value.trim();
+  if (!/^\d+$/u.test(normalized)) {
+    return { value: null, malformed: true };
+  }
+  const parsed = Number(normalized);
+  if (!Number.isSafeInteger(parsed)) {
+    return { value: null, malformed: true };
+  }
+  return { value: parsed, malformed: false };
 }
 
 function bwgGalleryId(value: SqlValue | undefined) {
@@ -174,6 +196,7 @@ function createPassOneState(): PassOneState {
     terms: new Map(),
     taxonomies: new Map(),
     relationships: new Map(),
+    gridTemplates: new Map(),
     galleries: new Map(),
     galleryImages: [],
     galleryImageIds: new Set(),
@@ -220,6 +243,7 @@ function processPost(
   const status = rowValue(insert.row, "post_status")?.trim().toLowerCase() ?? "";
   const hasPassword = (rowValue(insert.row, "post_password") ?? "").length > 0;
   const parent = wordpressParentId(rowValue(insert.row, "post_parent"));
+  const menuOrder = wordpressMenuOrder(rowValue(insert.row, "menu_order"));
   if (type === "page") {
     addEvidenceReferences(
       state,
@@ -233,8 +257,26 @@ function processPost(
     status,
     hasPassword,
     parentId: parent.id,
-    parentIdMalformed: parent.malformed
+    parentIdMalformed: parent.malformed,
+    menuOrder: menuOrder.value,
+    menuOrderMalformed: menuOrder.malformed,
+    createdGmt: textOrNull(rowValue(insert.row, "post_date_gmt"))
   });
+  if (type === "grid_template") {
+    if (state.gridTemplates.has(id)) {
+      throw scanError("malformed-wp-tiles-grid");
+    }
+    state.gridTemplates.set(id, {
+      id,
+      status,
+      hasPassword,
+      title: textOrNull(rowValue(insert.row, "post_title")),
+      content,
+      menuOrder: menuOrder.value,
+      menuOrderMalformed: menuOrder.malformed
+    });
+    return;
+  }
   if (type !== "page" && type !== "attachment") {
     return;
   }
@@ -261,6 +303,7 @@ function processPost(
       createdGmt: textOrNull(rowValue(insert.row, "post_date_gmt")),
       modifiedLocal: textOrNull(rowValue(insert.row, "post_modified")),
       modifiedGmt: textOrNull(rowValue(insert.row, "post_modified_gmt")),
+      guid: textOrNull(rowValue(insert.row, "guid")),
       source
     });
     state.pageCount += 1;
@@ -293,7 +336,11 @@ function processTerms(
     if (id === null || state.terms.has(id)) {
       throw scanError("malformed-term");
     }
-    state.terms.set(id, { id, slug: textOrNull(rowValue(insert.row, "slug")) });
+    state.terms.set(id, {
+      id,
+      name: exactTextOrNull(rowValue(insert.row, "name")),
+      slug: textOrNull(rowValue(insert.row, "slug"))
+    });
     return;
   }
   if (tableEndsWith(table, "term_taxonomy")) {
@@ -306,7 +353,14 @@ function processTerms(
     if (state.taxonomies.has(id)) {
       throw scanError("duplicate-term-taxonomy");
     }
-    state.taxonomies.set(id, { id, termId, taxonomy: taxonomy.trim().toLowerCase() });
+    const parent = wordpressParentId(rowValue(insert.row, "parent"));
+    state.taxonomies.set(id, {
+      id,
+      termId,
+      taxonomy: taxonomy.trim().toLowerCase(),
+      parentTermId: parent.id,
+      parentTermIdMalformed: parent.malformed
+    });
     return;
   }
   if (tableEndsWith(table, "term_relationships")) {
@@ -338,7 +392,9 @@ function processOption(
   if (
     optionName !== "home"
     && optionName !== "permalink_structure"
+    && optionName !== "page_for_posts"
     && optionName !== "polylang"
+    && optionName !== "wp_tiles"
   ) {
     return;
   }
@@ -355,6 +411,83 @@ function processOption(
   }
   options.set(optionName, optionValue);
   state.optionsByTable.set(table, options);
+}
+
+const maxWpTilesOptionValueBytes = 4_096;
+
+type WpTilesSourceOptions = {
+  readonly defaultGrid: string | null;
+  readonly pagination: "ajax" | null;
+};
+
+function wpTilesSourceOptions(
+  value: string | null | undefined,
+  limits: EditorialImportLimits
+): WpTilesSourceOptions {
+  if (value === undefined) {
+    return { defaultGrid: null, pagination: null };
+  }
+  if (value === null) {
+    throw new EditorialImportError("invalid-wp-tiles-option");
+  }
+  let parsed: ReturnType<typeof parsePhpSerialized>;
+  try {
+    parsed = parsePhpSerialized(value, {
+      maxInputBytes: limits.evidence.maxMetaValueBytes,
+      maxDepth: limits.evidence.maxSerializedDepth,
+      maxEntries: limits.evidence.maxSerializedEntries,
+      maxStringBytes: limits.evidence.maxMetaValueBytes,
+      rejectDuplicateKeys: true
+    });
+  } catch {
+    throw new EditorialImportError("invalid-wp-tiles-option");
+  }
+  if (parsed === null || typeof parsed !== "object" || Array.isArray(parsed)) {
+    throw new EditorialImportError("invalid-wp-tiles-option");
+  }
+  const defaultGrid = parsed.default_grid;
+  let normalizedDefaultGrid: string | null;
+  if (defaultGrid === undefined || defaultGrid === null || defaultGrid === false) {
+    normalizedDefaultGrid = null;
+  } else if (
+    typeof defaultGrid !== "string"
+    || defaultGrid.length === 0
+    || Buffer.byteLength(defaultGrid, "utf8") > maxWpTilesOptionValueBytes
+    || /[\u0000-\u001f\u007f]/u.test(defaultGrid)
+  ) {
+    throw new EditorialImportError("invalid-wp-tiles-option");
+  } else {
+    normalizedDefaultGrid = defaultGrid;
+  }
+  const pagination = parsed.pagination;
+  if (pagination === undefined) {
+    return { defaultGrid: normalizedDefaultGrid, pagination: null };
+  }
+  if (
+    typeof pagination !== "string"
+    || pagination.length === 0
+    || Buffer.byteLength(pagination, "utf8") > maxWpTilesOptionValueBytes
+    || /[\u0000-\u001f\u007f]/u.test(pagination)
+  ) {
+    throw new EditorialImportError("invalid-wp-tiles-pagination-option");
+  }
+  if (pagination !== "ajax") {
+    throw new EditorialImportError("unsupported-wp-tiles-pagination-option");
+  }
+  return { defaultGrid: normalizedDefaultGrid, pagination };
+}
+
+function pageForPosts(value: string | null | undefined) {
+  if (value === undefined) {
+    return null;
+  }
+  if (
+    value === null
+    || !/^(?:0|[1-9]\d*)$/u.test(value)
+  ) {
+    throw new EditorialImportError("invalid-page-for-posts-option");
+  }
+  return value === "0" ? null : value;
 }
 
 function processGallery(
@@ -386,6 +519,7 @@ function processGallery(
   }
   const imageUrl = textOrNull(rowValue(insert.row, "image_url"));
   const thumbUrl = textOrNull(rowValue(insert.row, "thumb_url"));
+  const order = wordpressMenuOrder(rowValue(insert.row, "order"));
   addEvidenceReferences(
     state,
     (imageUrl === null ? 0 : 1) + (thumbUrl === null ? 0 : 1),
@@ -398,6 +532,10 @@ function processGallery(
     galleryIdState: gallery.state,
     imageUrl,
     thumbUrl,
+    alt: textOrNull(rowValue(insert.row, "alt")),
+    description: textOrNull(rowValue(insert.row, "description")),
+    order: order.value,
+    orderMalformed: order.malformed,
     source: rawRow(insert.row)
   });
 }
@@ -601,6 +739,36 @@ export async function extractEditorialSource(input: {
     }
     throw new EditorialImportError("invalid-wordpress-options");
   }
+  let wpTiles: WpTilesSourceOptions;
+  try {
+    wpTiles = wpTilesSourceOptions(
+      passOne.optionsByTable.get(optionTable)?.get("wp_tiles"),
+      limits
+    );
+  } catch (error) {
+    if (error instanceof EditorialImportError) {
+      throw error;
+    }
+    throw new EditorialImportError("invalid-wp-tiles-option");
+  }
+  let postsPage: string | null;
+  try {
+    postsPage = pageForPosts(
+      passOne.optionsByTable.get(optionTable)?.get("page_for_posts")
+    );
+  } catch (error) {
+    if (error instanceof EditorialImportError) {
+      throw error;
+    }
+    throw new EditorialImportError("invalid-page-for-posts-option");
+  }
+  if (postsPage !== null && !passOne.pages.has(postsPage)) {
+    throw new EditorialImportError(
+      passOne.posts.has(postsPage)
+        ? "page-for-posts-not-page"
+        : "unresolved-page-for-posts"
+    );
+  }
   if (postTable.slice(0, -"posts".length) !== postMetaTable.slice(0, -"postmeta".length)) {
     throw new EditorialImportError("unpaired-core-tables");
   }
@@ -681,6 +849,7 @@ export async function extractEditorialSource(input: {
       terms: passOne.terms,
       taxonomies: passOne.taxonomies,
       relationships: passOne.relationships,
+      gridTemplates: passOne.gridTemplates,
       galleries: passOne.galleries,
       galleryImages: [...passOne.galleryImages].sort((left, right) =>
         BigInt(left.id) < BigInt(right.id) ? -1 : BigInt(left.id) > BigInt(right.id) ? 1 : 0
@@ -690,7 +859,10 @@ export async function extractEditorialSource(input: {
     uploads,
     options: {
       homeOrigin: options.homeOrigin,
-      locales: options.locales
+      locales: options.locales,
+      pageForPosts: postsPage,
+      wpTilesDefaultGrid: wpTiles.defaultGrid,
+      wpTilesPagination: wpTiles.pagination
     }
   };
 }

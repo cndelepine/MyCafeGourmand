@@ -1,11 +1,12 @@
 import { createHash, randomBytes } from "node:crypto";
-import { constants, realpathSync } from "node:fs";
+import { constants, realpathSync, type Dirent } from "node:fs";
 import {
   chmod,
   link,
   lstat,
   mkdir,
   open,
+  readdir,
   unlink
 } from "node:fs/promises";
 import path from "node:path";
@@ -17,6 +18,7 @@ import {
   type RecipeMediaManifest
 } from "../../src/content/media-manifest";
 import { parseWordPressRecipeMediaObjectKey } from "../../src/content/media";
+import { validateSafeLocalPath } from "../../src/content/url-path";
 import {
   WprmPromotionError,
   withAuthenticatedWprmMediaPlan,
@@ -25,6 +27,7 @@ import {
 
 const maxPrivateUploadManifestBytes = 8 * 1024 * 1024;
 const maxPrivateObjectBytes = 1_000_000_000;
+const maxPrivateObjectTreeEntries = 100_000;
 
 const uploadManifestEntrySchema = z.strictObject({
   key: z.string().min(1),
@@ -61,6 +64,38 @@ export const recipeMediaUploadPlanSchema = z.strictObject({
 });
 
 export type RecipeMediaUploadPlan = z.infer<typeof recipeMediaUploadPlanSchema>;
+
+/**
+ * A source-authenticated plan keeps archive access open only while its bytes
+ * are copied into an owner-private upload tree.
+ */
+export type AuthenticatedMediaUploadPlan = {
+  readonly entries: readonly {
+    readonly bytes: number;
+    readonly key: string;
+    readonly sha256: string;
+  }[];
+  copyToPrivateFile(key: string, destination: string): Promise<void>;
+};
+
+export type AuthenticatedMediaUploadStagingOptions = {
+  readonly dryRun?: boolean;
+  readonly repositoryRoot: string;
+  readonly resume?: boolean;
+  readonly uploadDir: string;
+  readonly uploadManifest: string;
+  readonly write?: boolean;
+};
+
+export type AuthenticatedMediaUploadStagingResult = {
+  readonly mode: "dry-run" | "write";
+  readonly objects: {
+    readonly count: number;
+    readonly bytes: number;
+    readonly created: number;
+    readonly reused: number;
+  };
+};
 
 export type WprmMediaUploadPlanOptions = Omit<
   WprmPromotionOptions,
@@ -220,8 +255,15 @@ async function resolveUploadDirectories(
 }
 
 function objectDestination(objectsRoot: string, objectKey: string) {
-  const parsed = parseWordPressRecipeMediaObjectKey(objectKey);
-  const destination = path.resolve(objectsRoot, ...parsed.key.slice(1).split("/"));
+  try {
+    validateSafeLocalPath(objectKey, "Upload object key");
+  } catch {
+    fail("unsafe-upload-staging");
+  }
+  if (!objectKey.startsWith("/") || objectKey.endsWith("/")) {
+    fail("unsafe-upload-staging");
+  }
+  const destination = path.resolve(objectsRoot, ...objectKey.slice(1).split("/"));
   if (!isWithin(destination, objectsRoot)) {
     fail("unsafe-upload-staging");
   }
@@ -361,6 +403,161 @@ async function hashPrivateObject(target: string) {
   }
 }
 
+async function assertPrivateObjectDirectory(target: string) {
+  const stats = await existingStats(target);
+  if (
+    stats === null
+    || stats.isSymbolicLink()
+    || !stats.isDirectory()
+    || !isPrivateOwned(stats)
+    || (stats.mode & 0o777) !== 0o700
+  ) {
+    fail("unsafe-upload-staging");
+  }
+}
+
+type ExpectedObjectTree = {
+  readonly directories: ReadonlySet<string>;
+  readonly files: ReadonlyMap<string, AuthenticatedMediaUploadPlan["entries"][number]>;
+};
+
+function expectedObjectTree(
+  objectsRoot: string,
+  entries: AuthenticatedMediaUploadPlan["entries"]
+): ExpectedObjectTree {
+  const directories = new Set<string>();
+  const files = new Map<string, AuthenticatedMediaUploadPlan["entries"][number]>();
+  for (const entry of entries) {
+    const destination = objectDestination(objectsRoot, entry.key);
+    const relative = path.relative(objectsRoot, destination);
+    if (
+      relative.length === 0
+      || relative === ".."
+      || relative.startsWith(`..${path.sep}`)
+      || files.has(relative)
+    ) {
+      fail("authenticated-media-plan-mismatch");
+    }
+    files.set(relative, entry);
+    const parts = relative.split(path.sep);
+    parts.pop();
+    let directory = "";
+    for (const part of parts) {
+      directory = directory.length === 0 ? part : path.join(directory, part);
+      directories.add(directory);
+      if (directories.size + files.size > maxPrivateObjectTreeEntries) {
+        fail("upload-plan-size-limit");
+      }
+    }
+  }
+  return { directories, files };
+}
+
+async function assertObjectTreeClosure(
+  objectsRoot: string,
+  entries: AuthenticatedMediaUploadPlan["entries"],
+  requireComplete: boolean
+) {
+  const expected = expectedObjectTree(objectsRoot, entries);
+  const observedDirectories = new Set<string>();
+  const observedFiles = new Set<string>();
+  let observedEntries = 0;
+
+  const visit = async (directory: string, relativeDirectory: string): Promise<void> => {
+    let children: Dirent[];
+    try {
+      children = await readdir(directory, { withFileTypes: true });
+    } catch {
+      fail("unsafe-upload-staging");
+    }
+    children.sort((left, right) => left.name.localeCompare(right.name));
+    for (const child of children) {
+      observedEntries += 1;
+      if (observedEntries > maxPrivateObjectTreeEntries) {
+        fail("upload-staging-conflict");
+      }
+      const relative = relativeDirectory.length === 0
+        ? child.name
+        : path.join(relativeDirectory, child.name);
+      const target = path.join(directory, child.name);
+      const stats = await existingStats(target);
+      if (stats === null || stats.isSymbolicLink()) {
+        fail("unsafe-upload-staging");
+      }
+      if (stats.isDirectory()) {
+        if (!expected.directories.has(relative)) {
+          fail("upload-staging-conflict");
+        }
+        await assertPrivateObjectDirectory(target);
+        observedDirectories.add(relative);
+        await visit(target, relative);
+        continue;
+      }
+      if (!stats.isFile()) {
+        fail("unsafe-upload-staging");
+      }
+      const entry = expected.files.get(relative);
+      if (entry === undefined) {
+        fail("upload-staging-conflict");
+      }
+      const actual = await hashPrivateObject(target);
+      if (actual.bytes !== entry.bytes || actual.sha256 !== entry.sha256) {
+        fail("upload-staging-conflict");
+      }
+      observedFiles.add(relative);
+    }
+  };
+
+  await assertPrivateObjectDirectory(objectsRoot);
+  await visit(objectsRoot, "");
+  if (
+    requireComplete
+    && (
+      observedDirectories.size !== expected.directories.size
+      || observedFiles.size !== expected.files.size
+      || [...expected.directories].some((directory) => !observedDirectories.has(directory))
+      || [...expected.files.keys()].some((file) => !observedFiles.has(file))
+    )
+  ) {
+    fail("upload-staging-conflict");
+  }
+}
+
+async function assertExistingObjectTreeClosureForDryRun(
+  repositoryRoot: string,
+  uploadDir: string,
+  entries: AuthenticatedMediaUploadPlan["entries"]
+) {
+  if (path.isAbsolute(uploadDir)) {
+    fail("unsafe-upload-staging");
+  }
+  const migrationOutput = path.join(repositoryRoot, "migration-output");
+  const root = path.resolve(repositoryRoot, uploadDir);
+  if (!isWithin(root, migrationOutput) || root === migrationOutput) {
+    fail("unsafe-upload-staging");
+  }
+  if (await existingStats(migrationOutput) === null) {
+    return;
+  }
+  await assertPrivateObjectDirectory(migrationOutput);
+  let current = migrationOutput;
+  for (const part of path.relative(migrationOutput, root).split(path.sep)) {
+    if (part.length === 0 || part === "." || part === "..") {
+      fail("unsafe-upload-staging");
+    }
+    current = path.join(current, part);
+    if (await existingStats(current) === null) {
+      return;
+    }
+    await assertPrivateObjectDirectory(current);
+  }
+  const objects = path.join(root, "objects");
+  if (await existingStats(objects) === null) {
+    return;
+  }
+  await assertObjectTreeClosure(objects, entries, true);
+}
+
 async function writePrivateText(
   target: string,
   content: string,
@@ -410,6 +607,127 @@ async function writePrivateText(
     fail("upload-staging-conflict");
   }
   return true;
+}
+
+function validAuthenticatedEntry(
+  entry: AuthenticatedMediaUploadPlan["entries"][number],
+  previous: string | undefined
+) {
+  if (
+    !Number.isSafeInteger(entry.bytes)
+    || entry.bytes <= 0
+    || entry.bytes > maxPrivateObjectBytes
+    || !/^[a-f0-9]{64}$/u.test(entry.sha256)
+    || (previous !== undefined && previous >= entry.key)
+  ) {
+    fail("authenticated-media-plan-mismatch");
+  }
+  objectDestination(path.resolve(path.sep, "objects"), entry.key);
+}
+
+/**
+ * Materialize a plan only after its caller has authenticated both the source
+ * bytes and every binding. Recipe and editorial plans share this deliberately
+ * narrow private-tree writer instead of reimplementing its no-follow rules.
+ */
+export async function stageAuthenticatedMediaUploadPlan(
+  options: AuthenticatedMediaUploadStagingOptions,
+  plan: AuthenticatedMediaUploadPlan
+): Promise<AuthenticatedMediaUploadStagingResult> {
+  const write = options.write === true;
+  const dryRun = options.dryRun === true;
+  if (write === dryRun || (options.resume === true && !write)) {
+    fail("invalid-upload-plan-mode");
+  }
+  if (
+    Buffer.byteLength(options.uploadManifest, "utf8") > maxPrivateUploadManifestBytes
+    || !options.uploadManifest.endsWith("\n")
+  ) {
+    fail("authenticated-media-plan-mismatch");
+  }
+  let previous: string | undefined;
+  let totalBytes = 0;
+  for (const entry of plan.entries) {
+    validAuthenticatedEntry(entry, previous);
+    previous = entry.key;
+    totalBytes += entry.bytes;
+    if (!Number.isSafeInteger(totalBytes)) {
+      fail("upload-plan-size-limit");
+    }
+  }
+  let repositoryRoot: string;
+  try {
+    repositoryRoot = realpathSync(path.resolve(options.repositoryRoot));
+  } catch {
+    fail("invalid-repository-root");
+  }
+  if (!write) {
+    await assertExistingObjectTreeClosureForDryRun(
+      repositoryRoot,
+      options.uploadDir,
+      plan.entries
+    );
+    return {
+      mode: "dry-run",
+      objects: {
+        count: plan.entries.length,
+        bytes: totalBytes,
+        created: 0,
+        reused: 0
+      }
+    };
+  }
+  const directories = await resolveUploadDirectories(repositoryRoot, options.uploadDir);
+  await assertObjectTreeClosure(directories.objects, plan.entries, false);
+  const existingManifest = await existingStats(directories.manifest);
+  if (existingManifest !== null) {
+    const value = await readPrivateFile(directories.manifest);
+    if (
+      !options.resume
+      || value.bytes.toString("utf8") !== options.uploadManifest
+    ) {
+      fail("upload-staging-conflict");
+    }
+  }
+  let created = 0;
+  let reused = 0;
+  for (const entry of plan.entries) {
+    const destination = objectDestination(directories.objects, entry.key);
+    await ensurePrivateDirectoryChain(directories.objects, path.dirname(destination));
+    const existing = await existingStats(destination);
+    if (existing !== null) {
+      const actual = await hashPrivateObject(destination);
+      if (actual.bytes !== entry.bytes || actual.sha256 !== entry.sha256) {
+        fail("upload-staging-conflict");
+      }
+      if (!options.resume) {
+        fail("upload-staging-conflict");
+      }
+      reused += 1;
+      continue;
+    }
+    await plan.copyToPrivateFile(entry.key, destination);
+    const copied = await hashPrivateObject(destination);
+    if (copied.bytes !== entry.bytes || copied.sha256 !== entry.sha256) {
+      fail("upload-staging-integrity-failed");
+    }
+    created += 1;
+  }
+  await writePrivateText(
+    directories.manifest,
+    options.uploadManifest,
+    options.resume === true
+  );
+  await assertObjectTreeClosure(directories.objects, plan.entries, true);
+  return {
+    mode: "write",
+    objects: {
+      count: plan.entries.length,
+      bytes: totalBytes,
+      created,
+      reused
+    }
+  };
 }
 
 async function writePublicManifest(
@@ -495,6 +813,9 @@ function assertManifestMatchesAuthenticatedPlan(
   const expectedEntries = new Map(
     manifest.entries.map((entry) => [entry.key, entry] as const)
   );
+  if (expectedEntries.size !== entries.length) {
+    fail("authenticated-media-plan-mismatch");
+  }
   for (const entry of entries) {
     const expected = expectedEntries.get(entry.key);
     if (
@@ -533,85 +854,36 @@ export async function createWprmMediaUploadPlan(
     },
     async (authenticated) => {
       assertManifestMatchesAuthenticatedPlan(authenticated.manifest, authenticated.entries);
-      const totalBytes = authenticated.entries.reduce((sum, entry) => sum + entry.bytes, 0);
-      if (!Number.isSafeInteger(totalBytes)) {
-        fail("upload-plan-size-limit");
-      }
-      if (!write) {
-        return {
-          schemaVersion: 1,
-          kind: "wprm-media-upload-plan-result",
-          mode: "dry-run",
-          objects: {
-            count: authenticated.entries.length,
-            bytes: totalBytes,
-            created: 0,
-            reused: 0
-          },
-          publicManifest: {
-            created: 0,
-            reused: 0
-          }
-        };
-      }
-
-      const directories = await resolveUploadDirectories(repositoryRoot, options.uploadDir);
-      let created = 0;
-      let reused = 0;
-      for (const entry of authenticated.entries) {
-        const destination = objectDestination(directories.objects, entry.key);
-        await ensurePrivateDirectoryChain(directories.objects, path.dirname(destination));
-        const existing = await existingStats(destination);
-        if (existing !== null) {
-          const actual = await hashPrivateObject(destination);
-          if (actual.bytes !== entry.bytes || actual.sha256 !== entry.sha256) {
-            fail("upload-staging-conflict");
-          }
-          if (!options.resume) {
-            fail("upload-staging-conflict");
-          }
-          reused += 1;
-          continue;
-        }
-        try {
-          await authenticated.copyToPrivateFile(entry.key, destination);
-        } catch (error) {
-          if (error instanceof WprmPromotionError) {
-            throw new WprmMediaUploadPlanError(error.code);
-          }
-          throw error;
-        }
-        const copied = await hashPrivateObject(destination);
-        if (copied.bytes !== entry.bytes || copied.sha256 !== entry.sha256) {
-          fail("upload-staging-integrity-failed");
-        }
-        created += 1;
-      }
-
       const uploadManifest = buildUploadManifest(createRecipeMediaManifest(
         authenticated.entries
       ));
-      await writePrivateText(
-        directories.manifest,
-        serialized(uploadManifest),
-        options.resume === true
-      );
-      const manifestCreated = options.writePublicManifest === true
+      let staged: AuthenticatedMediaUploadStagingResult;
+      try {
+        staged = await stageAuthenticatedMediaUploadPlan({
+          repositoryRoot,
+          uploadDir: options.uploadDir,
+          dryRun,
+          write,
+          resume: options.resume,
+          uploadManifest: serialized(uploadManifest)
+        }, authenticated);
+      } catch (error) {
+        if (error instanceof WprmPromotionError) {
+          throw new WprmMediaUploadPlanError(error.code);
+        }
+        throw error;
+      }
+      const manifestCreated = write && options.writePublicManifest === true
         ? await writePublicManifest(repositoryRoot, authenticated.manifest)
         : false;
       return {
         schemaVersion: 1,
         kind: "wprm-media-upload-plan-result",
-        mode: "write",
-        objects: {
-          count: authenticated.entries.length,
-          bytes: totalBytes,
-          created,
-          reused
-        },
+        mode: staged.mode,
+        objects: staged.objects,
         publicManifest: {
           created: manifestCreated ? 1 : 0,
-          reused: options.writePublicManifest === true && !manifestCreated ? 1 : 0
+          reused: write && options.writePublicManifest === true && !manifestCreated ? 1 : 0
         }
       };
     }

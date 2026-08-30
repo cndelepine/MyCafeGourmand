@@ -8,10 +8,18 @@ import { validateContent } from "../src/content/validation";
 
 try {
   requireRecipeMediaBaseUrl();
-  const { records, mediaManifest } = validateContent();
+  const {
+    editorialGalleryMediaManifest,
+    editorialRecords,
+    galleryRecords,
+    mediaManifest,
+    records
+  } = validateContent();
   console.log(
     `Validated release media configuration for ${records.length} recipe(s) and ` +
-    `${mediaManifest.entries.length} manifest object(s) using ` +
+    `${editorialRecords.length} editorial page(s), ${galleryRecords.length} gallery, and ` +
+    `${mediaManifest.entries.length + editorialGalleryMediaManifest.entries.length} ` +
+    `manifest object(s) using ` +
     `${recipeMediaBaseUrlEnvironmentVariable}.`
   );
 } catch (error) {

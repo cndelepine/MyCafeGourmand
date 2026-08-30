@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
 import { recipeCatalog } from "@/content/catalog";
 import type { RecipeCategory } from "@/content/categories";
+import type { EditorialPageRecord } from "@/content/editorial-schema";
+import type { GalleryRecord } from "@/content/gallery-schema";
 import type { Locale, RecipeRecord } from "@/content/schema";
-import { resolveRecipeMediaUrl } from "./recipe-media";
+import { resolveManagedMediaUrl, resolveRecipeMediaUrl } from "./recipe-media";
+import {
+  getContactSuccessCopy,
+  getContactSuccessPath
+} from "./contact-routes";
+import {
+  getEditorialLanguageAlternates,
+  getEditorialPath
+} from "./editorial-routes";
 import {
   getCategoryPagePath,
   getLandingPagePath,
@@ -63,6 +73,17 @@ function getRecipeLanguageLinks(
   return links;
 }
 
+function getEditorialLanguageLinks(
+  record: EditorialPageRecord,
+  catalog: readonly EditorialPageRecord[]
+): LocaleLanguageLinks {
+  const links: LocaleLanguageLinks = {};
+  for (const { locale, path } of getEditorialLanguageAlternates(record, catalog)) {
+    links[locale] = canonicalUrl(path);
+  }
+  return links;
+}
+
 function getRecipeImage(record: RecipeRecord) {
   const hero = record.recipe.heroMediaId
     ? record.media.find((media) => media.id === record.recipe.heroMediaId)
@@ -104,6 +125,97 @@ export function getRecipeMetadata(
       siteName,
       locale: getOpenGraphLocale(record.locale),
       ...(image ? { images: [image] } : {})
+    }
+  };
+}
+
+export function getEditorialMetadata(
+  record: EditorialPageRecord,
+  catalog: readonly EditorialPageRecord[]
+): Metadata {
+  const title = record.title ?? undefined;
+  const description = record.excerpt ?? undefined;
+  const canonical = canonicalUrl(getEditorialPath(record));
+  const featured = record.featuredMediaId === null
+    ? undefined
+    : record.media?.find((media) => media.id === record.featuredMediaId);
+  const image = featured === undefined
+    ? undefined
+    : {
+      url: absoluteUrl(resolveManagedMediaUrl(featured.path)),
+      ...(featured.width === null ? {} : { width: featured.width }),
+      ...(featured.height === null ? {} : { height: featured.height }),
+      alt: record.featuredMediaAlt ?? undefined
+    };
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical,
+      languages: getEditorialLanguageLinks(record, catalog)
+    },
+    openGraph: {
+      type: "website",
+      title,
+      description,
+      url: canonical,
+      siteName,
+      locale: getOpenGraphLocale(record.locale),
+      ...(image ? { images: [image] } : {})
+    }
+  };
+}
+
+export function getGalleryMetadata(record: GalleryRecord): Metadata {
+  const title = record.title ?? undefined;
+  const description = record.description ?? undefined;
+  const canonical = canonicalUrl(record.canonicalPath);
+  const featured = record.featuredMediaId === null
+    ? undefined
+    : record.media?.find((media) => media.id === record.featuredMediaId);
+  const image = featured === undefined
+    ? undefined
+    : {
+      url: absoluteUrl(resolveManagedMediaUrl(featured.path)),
+      ...(featured.width === null ? {} : { width: featured.width }),
+      ...(featured.height === null ? {} : { height: featured.height })
+    };
+
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      type: "website",
+      title,
+      description,
+      url: canonical,
+      siteName,
+      locale: getOpenGraphLocale("en"),
+      ...(image ? { images: [image] } : {})
+    }
+  };
+}
+
+export function getContactSuccessMetadata(locale: Locale): Metadata {
+  const copy = getContactSuccessCopy(locale);
+  const canonical = canonicalUrl(getContactSuccessPath(locale));
+
+  return {
+    title: copy.title,
+    description: copy.message,
+    alternates: { canonical },
+    robots: {
+      follow: true,
+      index: false
+    },
+    openGraph: {
+      title: copy.title,
+      description: copy.message,
+      url: canonical,
+      siteName,
+      locale: getOpenGraphLocale(locale)
     }
   };
 }

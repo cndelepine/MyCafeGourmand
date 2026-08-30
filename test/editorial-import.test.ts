@@ -144,6 +144,117 @@ test("editorial extraction is deterministic and preserves partial and ungrouped 
     assert.equal(ungrouped?.status, "ready");
     assert.equal(privatePage?.status, "publication-excluded");
     assert.equal(privatePage?.publication, "publication-excluded");
+    assert.equal(first.snapshot.graph.terms.get("1")?.name, "Test English Locale");
+    assert.equal(first.snapshot.options.wpTilesPagination, "ajax");
+  });
+});
+
+test("page_for_posts is a source-backed archive disposition, not a publishable editorial page", async () => {
+  await withDirectory(async (directory) => {
+    const database = path.join(directory, "page-for-posts.sql");
+    writeFileSync(
+      database,
+      `${readFileSync(fixture, "utf8")}
+INSERT INTO \`wp_options\` (\`option_id\`, \`option_name\`, \`option_value\`) VALUES
+  (5, 'page_for_posts', '3');
+`,
+      { mode: 0o600 }
+    );
+    const result = await runEditorialImport(fixtureOptions(directory, database));
+    const archive = result.outcomes.find((outcome) => outcome.sourceId === "3");
+
+    assert.equal(result.snapshot.options.pageForPosts, "3");
+    assert.equal(archive?.record.publicationDisposition, "posts-archive");
+    assert.equal(archive?.publication, "publication-excluded");
+    assert.equal(archive?.status, "publication-excluded");
+    assert.deepEqual(archive?.issueCodes, ["page-for-posts-archive"]);
+    assert.deepEqual(result.manifest.pages.status, {
+      ready: 0,
+      review: 2,
+      "publication-excluded": 2
+    });
+    assert.equal(
+      result.manifest.pages.outcomes.find((outcome) =>
+        outcome.publicationDisposition === "posts-archive"
+      )?.status,
+      "publication-excluded"
+    );
+  });
+});
+
+test("page_for_posts source options reject malformed and unresolved designations", async () => {
+  await withDirectory(async (directory) => {
+    for (const [name, value, code] of [
+      ["malformed", "not-a-page", "invalid-page-for-posts-option"],
+      ["unresolved", "999", "unresolved-page-for-posts"],
+      ["nonpage", "10", "page-for-posts-not-page"]
+    ] as const) {
+      const database = path.join(directory, `${name}-page-for-posts.sql`);
+      writeFileSync(
+        database,
+        `${readFileSync(fixture, "utf8")}
+INSERT INTO \`wp_options\` (\`option_id\`, \`option_name\`, \`option_value\`) VALUES
+  (5, 'page_for_posts', '${value}');
+`,
+        { mode: 0o600 }
+      );
+      await assert.rejects(
+        runEditorialImport(fixtureOptions(directory, database)),
+        (error: unknown) =>
+          error instanceof Error
+          && "code" in error
+          && error.code === code
+      );
+    }
+  });
+});
+
+test("WP Tiles global pagination is authenticated and rejects malformed or unsupported values", async () => {
+  await withDirectory(async (directory) => {
+    const validOption = 'a:2:{s:12:"default_grid";s:7:"Default";s:10:"pagination";s:4:"ajax";}';
+    for (const [name, replacement, code] of [
+      [
+        "malformed",
+        'a:2:{s:12:"default_grid";s:7:"Default";s:10:"pagination";i:1;}',
+        "invalid-wp-tiles-pagination-option"
+      ],
+      [
+        "unsupported",
+        'a:2:{s:12:"default_grid";s:7:"Default";s:10:"pagination";s:6:"paging";}',
+        "unsupported-wp-tiles-pagination-option"
+      ]
+    ] as const) {
+      const database = path.join(directory, `${name}-wp-tiles.sql`);
+      writeFileSync(
+        database,
+        readFileSync(fixture, "utf8").replace(validOption, replacement),
+        { mode: 0o600 }
+      );
+      await assert.rejects(
+        runEditorialImport(fixtureOptions(directory, database)),
+        (error: unknown) =>
+          error instanceof Error
+          && "code" in error
+          && error.code === code
+      );
+    }
+    const oversized = "a".repeat(4_097);
+    const oversizedDatabase = path.join(directory, "oversized-wp-tiles.sql");
+    writeFileSync(
+      oversizedDatabase,
+      readFileSync(fixture, "utf8").replace(
+        validOption,
+        `a:2:{s:12:"default_grid";s:7:"Default";s:10:"pagination";s:${oversized.length}:"${oversized}";}`
+      ),
+      { mode: 0o600 }
+    );
+    await assert.rejects(
+      runEditorialImport(fixtureOptions(directory, oversizedDatabase)),
+      (error: unknown) =>
+        error instanceof Error
+        && "code" in error
+        && error.code === "invalid-wp-tiles-pagination-option"
+    );
   });
 });
 
@@ -299,7 +410,8 @@ test("editorial manifests emit only aggregate metadata and keyed candidate finge
       "Source alt text",
       "Private gallery wording",
       "photo.jpg",
-      "à-propos"
+      "à-propos",
+      "Test English Locale"
     ]) {
       assert.equal(serialized.includes(forbidden), false);
     }
@@ -340,6 +452,7 @@ test("editorial staging is private, resumable, and conflicts on changed markers"
         lstatSync(path.join(stagingDir, "candidates", "gallery-300.json")).mode & 0o777,
         0o600
       );
+      assert.equal(stagingTreeSnapshot(stagingDir).includes("Test English Locale"), false);
       const candidatePath = path.join(stagingDir, "candidates", "page-1.json");
       const originalCandidate = readFileSync(candidatePath, "utf8");
       const resumed = await runEditorialImport({

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:23755",
+  "locale": "fr",
+  "canonicalPath": "/fr/sans-gluten/",
+  "translationGroupId": "wordpress:post-translations:25348",
+  "source": {
+    "system": "wordpress",
+    "postId": 23755,
+    "sourcePath": "/fr/sans-gluten/",
+    "sourceSlug": "sans-gluten",
+    "createdAt": "2021-02-24T01:47:25Z",
+    "modifiedAt": "2021-02-24T02:54:06Z"
+  },
+  "title": "Sans gluten",
+  "excerpt": null,
+  "publishedAt": "2021-02-24T01:47:25Z",
+  "modifiedAt": "2021-02-24T02:54:06Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

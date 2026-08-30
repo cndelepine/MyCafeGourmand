@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:553",
+  "locale": "en",
+  "canonicalPath": "/table-setting/winter/",
+  "translationGroupId": "wordpress:post-translations:150",
+  "source": {
+    "system": "wordpress",
+    "postId": 553,
+    "sourcePath": "/table-setting/winter/",
+    "sourceSlug": "winter",
+    "createdAt": "2017-12-31T03:31:02Z",
+    "modifiedAt": "2018-01-19T02:49:34Z"
+  },
+  "title": "Winter",
+  "excerpt": null,
+  "publishedAt": "2017-12-31T03:31:02Z",
+  "modifiedAt": "2018-01-19T02:49:34Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:169",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:169",
+      "path": "/editorial/media/wordpress/169.jpg",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 169
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

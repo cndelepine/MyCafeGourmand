@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:18815",
+  "locale": "en",
+  "canonicalPath": "/puff-pastry/",
+  "translationGroupId": "wordpress:post-translations:17359",
+  "source": {
+    "system": "wordpress",
+    "postId": 18815,
+    "sourcePath": "/puff-pastry/",
+    "sourceSlug": "puff-pastry",
+    "createdAt": "2019-11-10T01:34:03Z",
+    "modifiedAt": "2019-11-10T02:29:45Z"
+  },
+  "title": "Puff Pastry",
+  "excerpt": null,
+  "publishedAt": "2019-11-10T01:34:03Z",
+  "modifiedAt": "2019-11-10T02:29:45Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    },
+    {
+      "type": "galleryCallout",
+      "galleryId": "wordpress:bwg-gallery:1"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

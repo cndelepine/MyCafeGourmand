@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:25967",
+  "locale": "fr",
+  "translationGroupId": null,
+  "slug": "rochers-a-la-noix-de-coco",
+  "source": {
+    "system": "wordpress",
+    "postId": "25967",
+    "recipeId": "25967",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-rochers-a-la-noix-de-coco",
+    "createdAt": "2022-12-04T07:24:56+00:00",
+    "modifiedAt": "2022-12-06T04:33:23+00:00",
+    "editorialPostId": "25307",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "rochers-a-la-noix-de-coco",
+    "editorialCreatedAt": "2022-12-04T07:24:56+00:00",
+    "editorialModifiedAt": "2022-12-06T04:33:19+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/rochers-a-la-noix-de-coco/"
+  ],
+  "title": "Rochers à la noix de coco",
+  "description": "Ces délicieux rochers à la noix de coco sont rapides à préparer. Aussi pratique si vous avez des blancs d’œufs à utiliser.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Voici un dessert sans gluten. Très facile avec seulement 3 ingrédients: œufs, sucre et noix de coco.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Parfait pour un <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2/\" target=\"_blank\" rel=\"noreferrer noopener\">café gourmand</a>!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":25967,\"template\":\"chic-template-french\",\"updated\":1670301184879} -->\n<!--WPRM Recipe 25967-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Rochers à la noix de coco</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/11/IMG_0390.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Ces délicieux rochers à la noix de coco sont rapides à préparer. Aussi pratique si vous avez des blancs d’œufs à utiliser.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 blancs d’œufs</li><li>1 pincée de sel</li><li>120 g de sucre en poudre</li><li>150 g de noix de coco râpées</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le four à 150°C (thermostat 4). Couvrir 2 plaques à pâtisserie avec du papier sulfurisé. </p></li><li><p>Battre les blancs d’œufs en mousse en ajoutant le sel. Petit à petit, ajouter le sucre. Continuer de battre jusqu’à ce que les blancs soient bien fermes et brillants.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_9002.Blog_-150x150.png\"/><br /></li><li><p>Incorporer délicatement la noix de coco en mélangeant avec une spatule.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/11/IMG_0339.Blog_-150x150.png\"/><br /></li><li><p>Avec une cuillère à café, déposer des petits tas de pâte sur les plaques en les espaçant les uns des autres. On peut ajouter des petits morceaux de noix sur les tas. Faire cuire pendant 20-25 minutes. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/11/IMG_0348-150x150.jpg\"/><br /></li><li><p>Le temps de cuisson dépend du four et de la taille de rochers. Goûter un (ou deux  ;) ) pour décider si c&#039;est prêt. ;) </p><p>Sortir les plaques du four et laisser les rochers refroidir avant de les enlever des plaques.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/11/IMG_0390.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, française, French</div><div class=\"wprm-fallback-recipe-meta-keyword\">rochers noix de coco</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23540",
+      "sourceTaxonomyId": "23540",
+      "name": "French",
+      "slug": "french"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24046",
+      "sourceTaxonomyId": "24046",
+      "name": "Français",
+      "slug": "francais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24047",
+      "sourceTaxonomyId": "24047",
+      "name": "française",
+      "slug": "francaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24527",
+      "sourceTaxonomyId": "24527",
+      "name": "blancs d'oeufs",
+      "slug": "blancs-doeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24528",
+      "sourceTaxonomyId": "24528",
+      "name": "de noix de coco râpées",
+      "slug": "de-noix-de-coco-rapees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25433",
+      "sourceTaxonomyId": "25433",
+      "name": "pincée",
+      "slug": "pincee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25663",
+      "sourceTaxonomyId": "25663",
+      "name": "rochers noix de coco",
+      "slug": "rochers-noix-de-coco"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25346",
+      "sourceTaxonomyId": "25346",
+      "name": "Desserts",
+      "slug": "desserts-fr-sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2214",
+      "sourceTaxonomyId": "2214",
+      "name": "blanc d'oeuf",
+      "slug": "blanc-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2645",
+      "sourceTaxonomyId": "2645",
+      "name": "noix de coco",
+      "slug": "noix-de-coco"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3166",
+      "sourceTaxonomyId": "3166",
+      "name": "sans farine",
+      "slug": "sans-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25618",
+      "sourceTaxonomyId": "25618",
+      "name": "quoi faire avec",
+      "slug": "quoi-faire-avec"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "45 petites pièces",
+      "value": 45,
+      "unit": "petites pièces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "12",
+        "minutes": 12
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "27",
+        "minutes": 27
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:25960",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 blancs d’œufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "blancs d’œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 pincée de sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "120 g de sucre en poudre",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 g de noix de coco râpées",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noix de coco râpées",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 150°C (thermostat 4). Couvrir 2 plaques à pâtisserie avec du papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Battre les blancs d’œufs en mousse en ajoutant le sel. Petit à petit, ajouter le sucre. Continuer de battre jusqu’à ce que les blancs soient bien fermes et brillants.",
+            "mediaId": "wordpress-attachment:15490"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Incorporer délicatement la noix de coco en mélangeant avec une spatule.",
+            "mediaId": "wordpress-attachment:25957"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Avec une cuillère à café, déposer des petits tas de pâte sur les plaques en les espaçant les uns des autres. On peut ajouter des petits morceaux de noix sur les tas. Faire cuire pendant 20-25 minutes.",
+            "mediaId": "wordpress-attachment:25958"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Le temps de cuisson dépend du four et de la taille de rochers. Goûter un (ou deux ;) ) pour décider si c'est prêt. ;)\n\nSortir les plaques du four et laisser les rochers refroidir avant de les enlever des plaques.",
+            "mediaId": "wordpress-attachment:25960"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:25960",
+      "sourceId": "25960",
+      "path": "/recipes/media/wordpress/25960.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15490",
+      "sourceId": "15490",
+      "path": "/recipes/media/wordpress/15490.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:25957",
+      "sourceId": "25957",
+      "path": "/recipes/media/wordpress/25957.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:25958",
+      "sourceId": "25958",
+      "path": "/recipes/media/wordpress/25958.jpg",
+      "alt": null,
+      "width": 2560,
+      "height": 1920
+    }
+  ],
+  "seo": null
+}

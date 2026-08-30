@@ -3,13 +3,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { RecipeCatalogEntry } from "@/lib/recipe-catalog-data";
+import { ContentHeading } from "./content-heading";
 
 type RecipeCardGridProps = {
+  readonly headingLevel?: number;
   readonly recipes: readonly RecipeCatalogEntry[];
   readonly viewRecipe: string;
 };
 
-export function RecipeCardGrid({ recipes, viewRecipe }: RecipeCardGridProps) {
+export function RecipeCardGrid({
+  headingLevel = 3,
+  recipes,
+  viewRecipe
+}: RecipeCardGridProps) {
   return (
     <div className="recipe-grid">
       {recipes.map((recipe) => (
@@ -34,7 +40,7 @@ export function RecipeCardGrid({ recipes, viewRecipe }: RecipeCardGridProps) {
                 ))}
               </p>
             ) : null}
-            <h3>{recipe.title}</h3>
+            <ContentHeading level={headingLevel}>{recipe.title}</ContentHeading>
             {recipe.description ? <p>{recipe.description}</p> : null}
             <Link className="jump-link" href={recipe.path}>
               {viewRecipe} <span aria-hidden="true">→</span>

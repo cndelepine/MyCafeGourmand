@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:670",
+  "locale": "ru",
+  "canonicalPath": "/ru/декор-стола-и-дома/осень/",
+  "translationGroupId": "wordpress:post-translations:153",
+  "source": {
+    "system": "wordpress",
+    "postId": 670,
+    "sourcePath": "/ru/декор-стола-и-дома/осень/",
+    "sourceSlug": "%d0%be%d1%81%d0%b5%d0%bd%d1%8c",
+    "createdAt": "2018-01-01T21:12:13Z",
+    "modifiedAt": "2018-01-19T02:53:28Z"
+  },
+  "title": "осень",
+  "excerpt": null,
+  "publishedAt": "2018-01-01T21:12:13Z",
+  "modifiedAt": "2018-01-19T02:53:28Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

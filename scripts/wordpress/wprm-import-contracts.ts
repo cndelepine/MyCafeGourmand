@@ -455,7 +455,7 @@ export interface WprmSafeManifest {
   };
 }
 
-export const wprmImportContractVersion = "wprm-bulk-import-v10";
+export const wprmImportContractVersion = "wprm-bulk-import-v12";
 
 export interface WprmStagedMediaBinding {
   readonly attachmentId: string;

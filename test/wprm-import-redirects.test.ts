@@ -361,6 +361,41 @@ test("publication-only translation peers do not block redirect eligibility", () 
   ]);
 });
 
+test("only intentionally partial review outcomes receive redirects", () => {
+  const partial = record("20", "fr", "10", "current");
+  const intentionallyPartial = {
+    ...readyOutcome(partial),
+    status: "review" as const,
+    codes: ["incomplete-parent-translation" as const]
+  };
+  const accepted = resolveWprmRedirects({
+    ...fixtureGraph("source"),
+    outcomes: [intentionallyPartial],
+    sourceTranslationGroups: new Map([["20", null]]),
+    options: options()
+  });
+
+  assert.deepEqual(accepted.byRecipeId.get(partial.id), [
+    "/fr/ancien/",
+    "/fr/source/"
+  ]);
+
+  const arbitraryReview = {
+    ...intentionallyPartial,
+    codes: ["redirect-candidate" as const]
+  };
+  const rejected = resolveWprmRedirects({
+    ...fixtureGraph("source"),
+    promotedRecords: [partial],
+    outcomes: [arbitraryReview],
+    sourceTranslationGroups: new Map([["20", null]]),
+    options: options()
+  });
+
+  assert.equal(rejected.manifest.promotionEligibleCandidates, 0);
+  assert.deepEqual(rejected.redirects, []);
+});
+
 test("repeated encoding, separators, and malformed editorial slugs are rejected", () => {
   for (const slug of ["source%252Dname", "source%2Fname", "source%"]) {
     const result = resolver(fixtureGraph(slug));

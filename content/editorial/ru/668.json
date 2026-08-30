@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:668",
+  "locale": "ru",
+  "canonicalPath": "/ru/декор-стола-и-дома/лето/",
+  "translationGroupId": "wordpress:post-translations:152",
+  "source": {
+    "system": "wordpress",
+    "postId": 668,
+    "sourcePath": "/ru/декор-стола-и-дома/лето/",
+    "sourceSlug": "%d0%bb%d0%b5%d1%82%d0%be",
+    "createdAt": "2018-01-01T21:11:46Z",
+    "modifiedAt": "2018-01-19T02:52:25Z"
+  },
+  "title": "лето",
+  "excerpt": null,
+  "publishedAt": "2018-01-01T21:11:46Z",
+  "modifiedAt": "2018-01-19T02:52:25Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:494",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:494",
+      "path": "/editorial/media/wordpress/494.png",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 494
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}
