@@ -4,19 +4,44 @@ import {
   validateRecipeSlug,
   validateSafeLocalPath
 } from "./url-path";
-import { validateRecipeMediaPath } from "./media";
+import {
+  parseWordPressRecipeMediaObjectKey,
+  validateRecipeMediaPath,
+  wordpressRecipeMediaPrefix
+} from "./media";
+import { getRecipePath } from "./recipe-path";
 import { localeValues } from "./locales";
 
 export { localeValues };
 export type { Locale } from "./locales";
 export const localeSchema = z.enum(localeValues);
 
+export const recipeContentLimits = Object.freeze({
+  maxFileBytes: 1_048_576,
+  maxCatalogRecords: 1_024,
+  maxLocaleRecords: 512,
+  maxJsonDepth: 32,
+  maxStringLength: 65_536,
+  maxRedirects: 256,
+  maxTaxonomies: 512,
+  maxEquipment: 256,
+  maxIngredientGroups: 128,
+  maxIngredientsPerGroup: 512,
+  maxInstructionGroups: 128,
+  maxStepsPerGroup: 512,
+  maxMedia: 512
+});
+
+const boundedStringSchema = z.string().max(recipeContentLimits.maxStringLength);
+const nonEmptyStringSchema = boundedStringSchema.min(1);
+const numericStringSchema = nonEmptyStringSchema.regex(/^\d+$/u);
+
 export const quantitySchema = z.strictObject({
-  raw: z.string().min(1),
+  raw: nonEmptyStringSchema,
   value: z.number().positive().optional(),
   min: z.number().positive().optional(),
   max: z.number().positive().optional(),
-  unit: z.string().min(1).nullable(),
+  unit: nonEmptyStringSchema.nullable(),
   scalable: z.boolean()
 }).superRefine((quantity, context) => {
   const hasValue = quantity.value !== undefined;
@@ -49,19 +74,19 @@ export const quantitySchema = z.strictObject({
 });
 
 export const durationSchema = z.strictObject({
-  raw: z.string().min(1),
-  minutes: z.number().int().nonnegative().nullable()
+  raw: nonEmptyStringSchema,
+  minutes: z.number().int().nonnegative().safe().nullable()
 });
 
 export const nutritionAmountSchema = z.strictObject({
-  raw: z.string().min(1),
+  raw: nonEmptyStringSchema,
   value: z.number().nonnegative().optional()
 });
 
 export const nutritionSchema = z.strictObject({
   calories: nutritionAmountSchema.nullable(),
   servingSize: nutritionAmountSchema.nullable(),
-  servingUnit: z.string().min(1).nullable()
+  servingUnit: nonEmptyStringSchema.nullable()
 }).superRefine((nutrition, context) => {
   if (
     nutrition.calories === null
@@ -76,26 +101,26 @@ export const nutritionSchema = z.strictObject({
 });
 
 export const equipmentItemSchema = z.strictObject({
-  sourceIndex: z.number().int().nonnegative(),
-  sourceId: z.string().regex(/^\d+$/),
-  name: z.string().min(1),
-  amount: z.string().min(1).nullable(),
-  notes: z.string().min(1).nullable()
+  sourceIndex: z.number().int().nonnegative().safe(),
+  sourceId: numericStringSchema,
+  name: nonEmptyStringSchema,
+  amount: nonEmptyStringSchema.nullable(),
+  notes: nonEmptyStringSchema.nullable()
 });
 
 export const servingsAdvancedSchema = z.strictObject({
   diameter: z.number().nonnegative(),
   height: z.number().nonnegative(),
   length: z.number().nonnegative(),
-  shape: z.string().min(1),
-  unit: z.string().min(1),
+  shape: nonEmptyStringSchema,
+  unit: nonEmptyStringSchema,
   width: z.number().nonnegative()
 });
 
 export const mediaAssetSchema = z.strictObject({
-  id: z.string().min(1),
-  sourceId: z.string().min(1).nullable(),
-  path: z.string().min(1).superRefine((value, context) => {
+  id: nonEmptyStringSchema,
+  sourceId: numericStringSchema.nullable(),
+  path: nonEmptyStringSchema.superRefine((value, context) => {
     try {
       validateRecipeMediaPath(value);
     } catch (error) {
@@ -105,12 +130,52 @@ export const mediaAssetSchema = z.strictObject({
       });
     }
   }),
-  alt: z.string().min(1).nullable(),
-  width: z.number().int().positive().nullable(),
-  height: z.number().int().positive().nullable()
+  alt: nonEmptyStringSchema.nullable(),
+  width: z.number().int().positive().safe().nullable(),
+  height: z.number().int().positive().safe().nullable()
+}).superRefine((media, context) => {
+  if (media.path.startsWith(wordpressRecipeMediaPrefix)) {
+    let attachmentId: string | undefined;
+    try {
+      attachmentId = parseWordPressRecipeMediaObjectKey(media.path).attachmentId;
+    } catch {
+      // The path schema reports the malformed managed object key.
+      return;
+    }
+    if (media.sourceId !== attachmentId) {
+      context.addIssue({
+        code: "custom",
+        message: `Managed recipe media source ID must match attachment ${attachmentId}.`,
+        path: ["sourceId"]
+      });
+    }
+    const expectedId = `wordpress-attachment:${attachmentId}`;
+    if (media.id !== expectedId) {
+      context.addIssue({
+        code: "custom",
+        message: `Managed recipe media ID must be ${expectedId}.`,
+        path: ["id"]
+      });
+    }
+  } else {
+    if (media.sourceId !== null) {
+      context.addIssue({
+        code: "custom",
+        message: "Recipe media with a WordPress source ID must use a managed media path.",
+        path: ["sourceId"]
+      });
+    }
+    if (media.id.startsWith("wordpress-attachment:")) {
+      context.addIssue({
+        code: "custom",
+        message: "WordPress attachment media IDs must use a managed media path.",
+        path: ["id"]
+      });
+    }
+  }
 });
 
-export const redirectFromPathSchema = z.string().min(1).superRefine((value, context) => {
+export const redirectFromPathSchema = nonEmptyStringSchema.superRefine((value, context) => {
   try {
     validateSafeLocalPath(value, "Recipe redirect source");
     if (value === "/") {
@@ -130,10 +195,10 @@ export const redirectFromPathSchema = z.string().min(1).superRefine((value, cont
 export const recipeRecordSchema = z.strictObject({
   schemaVersion: z.literal(1),
   kind: z.literal("recipe"),
-  id: z.string().min(1),
+  id: nonEmptyStringSchema,
   locale: localeSchema,
-  translationGroupId: z.string().min(1).nullable(),
-  slug: z.string().min(1).superRefine((slug, context) => {
+  translationGroupId: nonEmptyStringSchema.nullable(),
+  slug: nonEmptyStringSchema.superRefine((slug, context) => {
     try {
       validateRecipeSlug(slug);
     } catch (error) {
@@ -145,88 +210,88 @@ export const recipeRecordSchema = z.strictObject({
   }),
   source: z.strictObject({
     system: z.literal("wordpress"),
-    postId: z.string().regex(/^\d+$/).nullable(),
-    recipeId: z.string().regex(/^\d+$/),
-    postType: z.string().min(1).nullable(),
+    postId: numericStringSchema.nullable(),
+    recipeId: numericStringSchema,
+    postType: nonEmptyStringSchema.nullable(),
     plugin: z.enum(["wprm", "wpur"]),
-    sourceSlug: z.string().min(1).nullable(),
-    createdAt: z.string().datetime({ offset: true }).nullable(),
-    modifiedAt: z.string().datetime({ offset: true }).nullable(),
-    editorialPostId: z.string().regex(/^\d+$/).nullable(),
-    editorialPostType: z.string().min(1).nullable(),
-    editorialSourceSlug: z.string().min(1).nullable(),
-    editorialCreatedAt: z.string().datetime({ offset: true }).nullable(),
-    editorialModifiedAt: z.string().datetime({ offset: true }).nullable(),
+    sourceSlug: nonEmptyStringSchema.nullable(),
+    createdAt: boundedStringSchema.datetime({ offset: true }).nullable(),
+    modifiedAt: boundedStringSchema.datetime({ offset: true }).nullable(),
+    editorialPostId: numericStringSchema.nullable(),
+    editorialPostType: nonEmptyStringSchema.nullable(),
+    editorialSourceSlug: nonEmptyStringSchema.nullable(),
+    editorialCreatedAt: boundedStringSchema.datetime({ offset: true }).nullable(),
+    editorialModifiedAt: boundedStringSchema.datetime({ offset: true }).nullable(),
     wprmType: z.enum(["food", "howto", "other", "unknown", "malformed"]).optional(),
     wprmTypePresent: z.boolean().optional()
   }),
-  redirectFrom: z.array(redirectFromPathSchema),
-  title: z.string().min(1),
-  description: z.string().min(1).nullable(),
+  redirectFrom: z.array(redirectFromPathSchema).max(recipeContentLimits.maxRedirects),
+  title: nonEmptyStringSchema,
+  description: nonEmptyStringSchema.nullable(),
   editorial: z.strictObject({
-    content: z.string().min(1).nullable(),
-    excerpt: z.string().min(1).nullable()
+    content: nonEmptyStringSchema.nullable(),
+    excerpt: nonEmptyStringSchema.nullable()
   }),
   taxonomies: z.array(z.strictObject({
     scope: z.enum(["recipe", "editorial"]).nullable(),
-    taxonomy: z.string().min(1),
-    sourceId: z.string().min(1).nullable(),
-    sourceTaxonomyId: z.string().regex(/^\d+$/).nullable(),
-    name: z.string().min(1),
-    slug: z.string().min(1)
-  })),
+    taxonomy: nonEmptyStringSchema,
+    sourceId: nonEmptyStringSchema.nullable(),
+    sourceTaxonomyId: numericStringSchema.nullable(),
+    name: nonEmptyStringSchema,
+    slug: nonEmptyStringSchema
+  })).max(recipeContentLimits.maxTaxonomies),
   recipe: z.strictObject({
-    notes: z.string().min(1).nullable(),
+    notes: nonEmptyStringSchema.nullable(),
     servings: quantitySchema.nullable(),
     servingsAdvancedEnabled: z.boolean().nullable().optional(),
     nutrition: nutritionSchema.nullable().optional(),
     servingsAdvanced: servingsAdvancedSchema.nullable().optional(),
-    equipment: z.array(equipmentItemSchema).nullable().optional(),
+    equipment: z.array(equipmentItemSchema)
+      .max(recipeContentLimits.maxEquipment)
+      .nullable()
+      .optional(),
     times: z.strictObject({
       prep: durationSchema.nullable(),
       cook: durationSchema.nullable(),
       rest: durationSchema.nullable(),
       total: durationSchema.nullable(),
       custom: z.strictObject({
-        label: z.string().min(1).nullable(),
+        label: nonEmptyStringSchema.nullable(),
         duration: durationSchema
       }).nullable()
     }),
-    heroMediaId: z.string().min(1).nullable(),
+    heroMediaId: nonEmptyStringSchema.nullable(),
     ingredientGroups: z.array(z.strictObject({
-      name: z.string().min(1).nullable(),
-      sourceIndex: z.number().int().nonnegative(),
+      name: nonEmptyStringSchema.nullable(),
+      sourceIndex: z.number().int().nonnegative().safe(),
       items: z.array(z.strictObject({
-        sourceIndex: z.number().int().nonnegative(),
-        raw: z.string().min(1),
+        sourceIndex: z.number().int().nonnegative().safe(),
+        raw: nonEmptyStringSchema,
         quantity: quantitySchema.nullable(),
-        name: z.string().min(1),
-        pluralName: z.string().min(1).optional(),
-        notes: z.string().min(1).nullable()
-      })).min(1)
-    })).min(1),
+        name: nonEmptyStringSchema,
+        pluralName: nonEmptyStringSchema.optional(),
+        notes: nonEmptyStringSchema.nullable()
+      })).min(1).max(recipeContentLimits.maxIngredientsPerGroup)
+    })).min(1).max(recipeContentLimits.maxIngredientGroups),
     instructionGroups: z.array(z.strictObject({
-      name: z.string().min(1).nullable(),
-      sourceIndex: z.number().int().nonnegative(),
+      name: nonEmptyStringSchema.nullable(),
+      sourceIndex: z.number().int().nonnegative().safe(),
       steps: z.array(z.strictObject({
-        sourceIndex: z.number().int().nonnegative(),
-        text: z.string().min(1),
-        mediaId: z.string().min(1).nullable()
-      })).min(1)
-    })).min(1)
+        sourceIndex: z.number().int().nonnegative().safe(),
+        text: nonEmptyStringSchema,
+        mediaId: nonEmptyStringSchema.nullable()
+      })).min(1).max(recipeContentLimits.maxStepsPerGroup)
+    })).min(1).max(recipeContentLimits.maxInstructionGroups)
   }),
-  media: z.array(mediaAssetSchema),
+  media: z.array(mediaAssetSchema).max(recipeContentLimits.maxMedia),
   seo: z.strictObject({
-    title: z.string().min(1).nullable(),
-    description: z.string().min(1).nullable()
+    title: nonEmptyStringSchema.nullable(),
+    description: nonEmptyStringSchema.nullable()
   }).nullable()
 }).superRefine((record, context) => {
-  const canonicalPath = record.locale === "en"
-    ? `/recipes/${encodeURIComponent(record.slug)}`
-    : `/${record.locale}/recipes/${encodeURIComponent(record.slug)}`;
   let canonicalKey: string | undefined;
   try {
-    canonicalKey = localPathKey(canonicalPath);
+    canonicalKey = localPathKey(getRecipePath(record));
   } catch {
     // The slug schema reports the invalid canonical segment.
   }
@@ -261,6 +326,8 @@ export const recipeRecordSchema = z.strictObject({
   }
 
   const mediaIds = new Set<string>();
+  const mediaPaths = new Set<string>();
+  const mediaSourceIds = new Set<string>();
   for (const [index, media] of record.media.entries()) {
     if (mediaIds.has(media.id)) {
       context.addIssue({
@@ -270,14 +337,32 @@ export const recipeRecordSchema = z.strictObject({
       });
     }
     mediaIds.add(media.id);
+    if (mediaPaths.has(media.path)) {
+      context.addIssue({
+        code: "custom",
+        message: `Duplicate media path: ${media.path}`,
+        path: ["media", index, "path"]
+      });
+    }
+    mediaPaths.add(media.path);
+    if (media.sourceId !== null) {
+      if (mediaSourceIds.has(media.sourceId)) {
+        context.addIssue({
+          code: "custom",
+          message: `Duplicate media source ID: ${media.sourceId}`,
+          path: ["media", index, "sourceId"]
+        });
+      }
+      mediaSourceIds.add(media.sourceId);
+    }
   }
 
-  const references = [
+  const references = new Set([
     record.recipe.heroMediaId,
     ...record.recipe.instructionGroups.flatMap((group) =>
       group.steps.map((step) => step.mediaId)
     )
-  ].filter((id): id is string => id !== null);
+  ].filter((id): id is string => id !== null));
 
   for (const reference of references) {
     if (!mediaIds.has(reference)) {
@@ -285,6 +370,16 @@ export const recipeRecordSchema = z.strictObject({
         code: "custom",
         message: `Unknown media reference: ${reference}`,
         path: ["media"]
+      });
+    }
+  }
+
+  for (const [index, media] of record.media.entries()) {
+    if (!references.has(media.id)) {
+      context.addIssue({
+        code: "custom",
+        message: `Unreferenced recipe media: ${media.id}`,
+        path: ["media", index, "id"]
       });
     }
   }

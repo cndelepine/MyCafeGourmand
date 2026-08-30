@@ -268,7 +268,19 @@ ordinary server-rendered links.
 
 Canonical recipe records live in `content/recipes/{en,fr,ru}/` as independent
 JSON files. Discovery is deterministic and validates each record with its
-source path. Promoted WordPress media uses stable canonical object keys such as
+source path. The recipe tree is closed: its root permits only those locale
+directories, and each locale permits only bounded regular files named exactly
+`<slug>.json` with NFC-normalized raw Unicode. Bounded strict-JSON loading
+rejects malformed UTF-8, excessive nesting, duplicate object keys, oversized
+strings and arrays, and catalog overflow before rendering. Published record IDs
+remain tied to their WordPress plugin/recipe identity, and source-backed
+WordPress editorial URLs that identify one promoted recipe must remain in
+`redirectFrom` even when an unpublished new-site recipe slug changes. Shared
+parent URLs stay ambiguous rather than being assigned without source evidence.
+Preserved raw WordPress editorial HTML remains source provenance within the
+recipe record bounds.
+
+Promoted WordPress media uses stable canonical object keys such as
 `/recipes/media/wordpress/<attachmentId>.jpg`, never deployment-specific URLs.
 `content/media-manifest.json` is a bounded, deterministic public inventory of
 only those keys, byte counts, SHA-256 values, and numeric attachment IDs.

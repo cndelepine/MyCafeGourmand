@@ -1,11 +1,24 @@
 import {
+  closeSync,
+  constants,
   existsSync,
+  fstatSync,
   lstatSync,
+  openSync,
   readFileSync,
   readdirSync
 } from "node:fs";
 import path from "node:path";
-import { recipeRecordSchema, localeValues, type Locale, type RecipeRecord } from "./schema";
+import { parseJsonAtBoundary } from "./json-boundary";
+import { getCanonicalRecipePath } from "./recipe-path";
+import {
+  recipeContentLimits,
+  recipeRecordSchema,
+  localeValues,
+  type Locale,
+  type RecipeRecord
+} from "./schema";
+import { localPathKey, validateSafeLocalPath } from "./url-path";
 
 export const defaultRecipesRoot = path.resolve(process.cwd(), "content/recipes");
 
@@ -49,6 +62,34 @@ function compareNames(left: string, right: string) {
   return left < right ? -1 : left > right ? 1 : 0;
 }
 
+function assertRecordCount(count: number, label: string) {
+  if (count > recipeContentLimits.maxCatalogRecords) {
+    throw new Error(
+      `${label} exceeds the maximum of ${recipeContentLimits.maxCatalogRecords} records.`
+    );
+  }
+}
+
+function rejectSymlink(entryPath: string) {
+  throw new Error(`Symbolic links are not allowed in recipe content: "${entryPath}"`);
+}
+
+function assertJsonFile(
+  entry: { isSymbolicLink(): boolean; isFile(): boolean; name: string },
+  directory: string
+) {
+  const entryPath = path.join(directory, entry.name);
+  if (entry.isSymbolicLink()) {
+    rejectSymlink(entryPath);
+  }
+  if (!entry.isFile() || path.extname(entry.name) !== ".json") {
+    throw new Error(
+      `Unsupported recipe content file: "${entryPath}". ` +
+      "Only lowercase <slug>.json regular files are permitted in recipe locale folders."
+    );
+  }
+}
+
 /**
  * Discover JSON records in locale order and filename order. Missing locale
  * folders are intentional: an untranslated locale has no records yet.
@@ -67,18 +108,22 @@ export function discoverRecipeFiles(
   }
 
   for (const entry of getDirectoryEntries(root)) {
+    const entryPath = path.join(root, entry.name);
     if (entry.isSymbolicLink()) {
-      throw new Error(`Symbolic links are not allowed in recipe content: "${path.join(root, entry.name)}"`);
+      rejectSymlink(entryPath);
     }
-    if (
-      entry.isDirectory() &&
-      !localeValues.some((locale) => locale === entry.name)
-    ) {
+    if (!entry.isDirectory()) {
+      throw new Error(
+        `Unsupported recipe content file: "${entryPath}". ` +
+        "Only en, fr, and ru locale directories are permitted."
+      );
+    }
+    if (!localeValues.some((locale) => locale === entry.name)) {
       throw new Error(`Unsupported locale folder "${entry.name}" in "${root}"`);
     }
   }
 
-  return localeValues.flatMap((locale) => {
+  const files = localeValues.flatMap((locale) => {
     const localeDirectory = path.join(root, locale);
 
     if (!existsSync(localeDirectory)) {
@@ -90,16 +135,24 @@ export function discoverRecipeFiles(
     }
 
     const entries = getDirectoryEntries(localeDirectory);
+    if (entries.length > recipeContentLimits.maxLocaleRecords) {
+      throw new Error(
+        `Recipe locale "${locale}" exceeds the maximum of ` +
+        `${recipeContentLimits.maxLocaleRecords} records.`
+      );
+    }
     for (const entry of entries) {
+      const entryPath = path.join(localeDirectory, entry.name);
       if (entry.isSymbolicLink()) {
-        throw new Error(
-          `Symbolic links are not allowed in recipe content: "${path.join(localeDirectory, entry.name)}"`
-        );
+        rejectSymlink(entryPath);
       }
+      if (entry.isDirectory()) {
+        throw new Error(`Unsupported recipe content directory: "${entryPath}"`);
+      }
+      assertJsonFile(entry, localeDirectory);
     }
 
     return entries
-      .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".json")
       .map((entry) => entry.name)
       .sort(compareNames)
       .map((fileName) => ({
@@ -107,6 +160,8 @@ export function discoverRecipeFiles(
         path: path.join(localeDirectory, fileName)
       }));
   });
+  assertRecordCount(files.length, "Recipe catalog");
+  return files;
 }
 
 export function parseRecipeRecord(input: unknown, sourcePath?: string): RecipeRecord {
@@ -126,7 +181,33 @@ function readRecipeRecord(source: RecipeSourceFile) {
   let contents: string;
 
   try {
-    contents = readFileSync(source.path, "utf8");
+    const descriptor = openSync(
+      source.path,
+      constants.O_RDONLY | constants.O_NOFOLLOW
+    );
+    try {
+      const stats = fstatSync(descriptor);
+      if (!stats.isFile()) {
+        throw new Error("source is not a regular file");
+      }
+      if (stats.size > recipeContentLimits.maxFileBytes) {
+        throw new Error(
+          `file exceeds the maximum size of ${recipeContentLimits.maxFileBytes} bytes`
+        );
+      }
+      const bytes = readFileSync(descriptor);
+      if (bytes.byteLength > recipeContentLimits.maxFileBytes) {
+        throw new Error(
+          `file exceeds the maximum size of ${recipeContentLimits.maxFileBytes} bytes`
+        );
+      }
+      contents = new TextDecoder("utf-8", {
+        fatal: true,
+        ignoreBOM: true
+      }).decode(bytes);
+    } finally {
+      closeSync(descriptor);
+    }
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     throw new Error(`Unable to read recipe file "${source.path}": ${message}`, {
@@ -136,7 +217,9 @@ function readRecipeRecord(source: RecipeSourceFile) {
 
   let input: unknown;
   try {
-    input = JSON.parse(contents) as unknown;
+    input = parseJsonAtBoundary(contents, {
+      maxDepth: recipeContentLimits.maxJsonDepth
+    });
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     throw new Error(`Malformed JSON in "${source.path}": ${message}`, {
@@ -151,8 +234,43 @@ function readRecipeRecord(source: RecipeSourceFile) {
       `does not match folder "${source.locale}".`
     );
   }
+  const fileName = path.basename(source.path);
+  if (fileName !== fileName.normalize("NFC")) {
+    throw new Error(
+      `Recipe filename must use NFC-normalized Unicode: "${source.path}". ` +
+      `Rename it to "${fileName.normalize("NFC")}".`
+    );
+  }
+  const expectedFileName = `${record.slug}.json`;
+  if (fileName !== expectedFileName) {
+    throw new Error(
+      `Filename-slug mismatch in "${source.path}": expected "${expectedFileName}" ` +
+      `for recipe slug "${record.slug}".`
+    );
+  }
 
   return record;
+}
+
+function routeKey(value: string, label: string) {
+  try {
+    validateSafeLocalPath(value, label);
+    return localPathKey(value);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`${label} is unsafe: ${value}: ${message}`, { cause: error });
+  }
+}
+
+function sourceWordPressPath(record: RecipeRecord) {
+  if (
+    record.source.editorialPostId === null
+    || record.source.editorialSourceSlug === null
+  ) {
+    return null;
+  }
+  const prefix = record.locale === "en" ? "" : `/${record.locale}`;
+  return `${prefix}/${record.source.editorialSourceSlug}/`;
 }
 
 export function validateCatalog(
@@ -160,12 +278,24 @@ export function validateCatalog(
   options: CatalogValidationOptions = {}
 ): RecipeRecord[] {
   const input = catalog ?? loadRecipeCatalogWithSources().records;
+  assertRecordCount(input.length, "Recipe catalog");
+  if (
+    options.sourceFiles !== undefined
+    && options.sourceFiles.length !== input.length
+  ) {
+    throw new Error(
+      `Recipe source-file count ${options.sourceFiles.length} does not match ` +
+      `catalog count ${input.length}.`
+    );
+  }
   const parsed = input.map((record, index) =>
     parseRecipeRecord(record, options.sourceFiles?.[index]?.path)
   );
   const ids = new Map<string, number>();
   const localizedSlugs = new Map<string, number>();
   const translationGroupLocales = new Map<string, number>();
+  const canonicalRoutes = new Map<string, number>();
+  const wordpressSourceRoutes = new Map<string, number[]>();
 
   for (const [index, record] of parsed.entries()) {
     const sourcePath = options.sourceFiles?.[index]?.path;
@@ -175,12 +305,43 @@ export function validateCatalog(
       throw new Error(`Duplicate content ID${context}: ${record.id}`);
     }
     ids.set(record.id, index);
+    const expectedId = `wordpress:${record.source.plugin}:${record.source.recipeId}`;
+    if (record.id !== expectedId) {
+      throw new Error(
+        `Recipe content ID does not match source identity${context}: ` +
+        `expected ${expectedId}, received ${record.id}`
+      );
+    }
 
     const localizedSlug = `${record.locale}:${record.slug}`;
     if (localizedSlugs.has(localizedSlug)) {
       throw new Error(`Duplicate localized slug${context}: ${localizedSlug}`);
     }
     localizedSlugs.set(localizedSlug, index);
+    const canonicalRoute = getCanonicalRecipePath(record);
+    const canonicalKey = routeKey(canonicalRoute, "Recipe canonical route");
+    const previousCanonicalIndex = canonicalRoutes.get(canonicalKey);
+    if (previousCanonicalIndex !== undefined) {
+      const previousSourcePath = options.sourceFiles?.[previousCanonicalIndex]?.path;
+      const previousContext = previousSourcePath
+        ? ` (already defined in "${previousSourcePath}")`
+        : "";
+      throw new Error(
+        `Duplicate recipe canonical route${context}: ${canonicalRoute}${previousContext}`
+      );
+    }
+    canonicalRoutes.set(canonicalKey, index);
+
+    const wordpressPath = sourceWordPressPath(record);
+    if (wordpressPath !== null) {
+      const wordpressKey = routeKey(
+        wordpressPath,
+        "WordPress recipe source route"
+      );
+      const sourceIndexes = wordpressSourceRoutes.get(wordpressKey) ?? [];
+      sourceIndexes.push(index);
+      wordpressSourceRoutes.set(wordpressKey, sourceIndexes);
+    }
 
     if (record.translationGroupId !== null) {
       const translationGroupLocale = `${record.translationGroupId}:${record.locale}`;
@@ -196,6 +357,48 @@ export function validateCatalog(
         );
       }
       translationGroupLocales.set(translationGroupLocale, index);
+    }
+  }
+
+  const redirectSources = new Map<string, number>();
+  for (const [index, record] of parsed.entries()) {
+    const sourcePath = options.sourceFiles?.[index]?.path;
+    const context = sourcePath ? ` in "${sourcePath}"` : "";
+    for (const redirectFrom of record.redirectFrom) {
+      const redirectKey = routeKey(redirectFrom, "Recipe redirect source");
+      if (canonicalRoutes.has(redirectKey)) {
+        throw new Error(
+          `Recipe redirect source collides with a canonical route${context}: ${redirectFrom}`
+        );
+      }
+      const previousIndex = redirectSources.get(redirectKey);
+      if (previousIndex !== undefined) {
+        const previousSourcePath = options.sourceFiles?.[previousIndex]?.path;
+        const previousContext = previousSourcePath
+          ? ` (already defined in "${previousSourcePath}")`
+          : "";
+        throw new Error(
+          `Duplicate recipe redirect source${context}: ${redirectFrom}${previousContext}`
+        );
+      }
+      redirectSources.set(redirectKey, index);
+    }
+  }
+
+  for (const [wordpressKey, sourceIndexes] of wordpressSourceRoutes) {
+    if (sourceIndexes.length !== 1) {
+      continue;
+    }
+    const index = sourceIndexes[0]!;
+    const redirectOwner = redirectSources.get(wordpressKey);
+    if (redirectOwner !== index) {
+      const record = parsed[index]!;
+      const sourcePath = options.sourceFiles?.[index]?.path;
+      const context = sourcePath ? ` in "${sourcePath}"` : "";
+      throw new Error(
+        `Recipe does not preserve its WordPress source URL${context}: ` +
+        `${sourceWordPressPath(record)}`
+      );
     }
   }
 

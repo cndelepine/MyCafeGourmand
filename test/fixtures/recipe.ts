@@ -3,7 +3,7 @@ import { recipeRecordSchema, type RecipeRecord } from "../../src/content/schema"
 export const recipeFixture: RecipeRecord = recipeRecordSchema.parse({
   schemaVersion: 1,
   kind: "recipe",
-  id: "test:recipe:1",
+  id: "wordpress:wprm:1",
   locale: "en",
   translationGroupId: null,
   slug: "fixture-recipe",

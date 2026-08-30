@@ -71,6 +71,9 @@ function inspectRecipeSlugLayer(value: string, label: string) {
   if (/\s/u.test(value)) {
     throw new Error(`${label} must not contain whitespace: ${value}`);
   }
+  if (value !== value.normalize("NFC")) {
+    throw new Error(`${label} must use NFC-normalized Unicode: ${value}`);
+  }
   if (
     /[\/\\?#*\u0000-\u001f\u007f]/u.test(value)
     || value === "."
