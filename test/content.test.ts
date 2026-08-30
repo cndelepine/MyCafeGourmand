@@ -7,6 +7,7 @@ import {
   recipeRecordSchema
 } from "../src/content/schema";
 import {
+  decodeLocalPath,
   decodeRecipeSlug,
   validateSafeLocalPath
 } from "../src/content/url-path";
@@ -380,11 +381,14 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
     "unsafe%252fslug",
     "unsafe%5cslug",
     "malformed%",
-    "malformed%2"
+    "malformed%2",
+    "bad\ud800slug",
+    "bad\udfffslug",
+    "trailing\ud800"
   ]) {
     assert.throws(
       () => recipeRecordSchema.parse({ ...recipeFixture, slug }),
-      /unsafe path segment|URL encoding|raw Unicode/
+      /unsafe path segment|URL encoding|raw Unicode|well-formed Unicode/
     );
   }
 
@@ -430,7 +434,10 @@ test("recipe slug boundary decoding accepts Unicode but rejects unsafe layers", 
     "%20space",
     "%2awildcard",
     "malformed%",
-    "literal%25"
+    "literal%25",
+    "bad\ud800slug",
+    "bad\udfffslug",
+    "trailing\ud800"
   ]) {
     assert.throws(() => decodeRecipeSlug(slug));
   }
@@ -541,10 +548,26 @@ test("safe local paths inspect repeated encodings and preserve encoded Unicode",
     "/safe%252fprivate",
     "/%5cprivate",
     "/malformed%",
-    "/malformed%2"
+    "/malformed%2",
+    "/bad\ud800path",
+    "/bad\udfffpath",
+    "/trailing\ud800"
   ]) {
     assert.throws(() => validateSafeLocalPath(path, "Test path"));
   }
+  assert.throws(
+    () => decodeLocalPath("/bad\ud800path"),
+    /well-formed Unicode/
+  );
+  assert.throws(
+    () => decodeLocalPath("/bad\udfffpath"),
+    /well-formed Unicode/
+  );
+  assert.throws(
+    () => decodeLocalPath("/trailing\ud800"),
+    /well-formed Unicode/
+  );
+  assert.doesNotThrow(() => validateSafeLocalPath("/emoji-\ud83d\ude00", "Test path"));
 
   assert.doesNotThrow(() =>
     validateSafeLocalPath(
@@ -561,6 +584,49 @@ test("safe local paths inspect repeated encodings and preserve encoded Unicode",
   assert.throws(
     () => validateSafeLocalPath(`/${excessivelyEncoded}`, "Test path"),
     /excessive URL encoding/
+  );
+});
+
+test("media paths reject managed aliases and compare effective local paths", () => {
+  for (const mediaPath of [
+    "/recipes/media/%77ordpress/900.jpg",
+    "/recipes/media/%2577ordpress/900.jpg",
+    "/recipes/media/wordpress/900.jp%67",
+    "/recipes/media/wordpress/900.jpg%",
+    "/recipes/media/wordpress",
+    "/recipes/media/wordpress/",
+    "/recipes/media/wordpress//"
+  ]) {
+    assert.throws(
+      () => recipeRecordSchema.parse({
+        ...recipeFixture,
+        recipe: {
+          ...recipeFixture.recipe,
+          heroMediaId: "wordpress-attachment:900"
+        },
+        media: [{
+          ...recipeFixture.media[0]!,
+          id: "wordpress-attachment:900",
+          sourceId: "900",
+          path: mediaPath
+        }, recipeFixture.media[1]]
+      }),
+      /managed media namespace|canonical WordPress recipe media key|valid URL encoding/
+    );
+  }
+
+  assert.throws(
+    () => recipeRecordSchema.parse({
+      ...recipeFixture,
+      media: [{
+        ...recipeFixture.media[0]!,
+        path: "/images/apple.png"
+      }, {
+        ...recipeFixture.media[1]!,
+        path: "/images/%61pple.png"
+      }]
+    }),
+    /Duplicate effective media path/
   );
 });
 

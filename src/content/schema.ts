@@ -5,9 +5,10 @@ import {
   validateSafeLocalPath
 } from "./url-path";
 import {
+  isWordPressRecipeMediaNamespacePath,
   parseWordPressRecipeMediaObjectKey,
-  validateRecipeMediaPath,
-  wordpressRecipeMediaPrefix
+  recipeMediaPathKey,
+  validateRecipeMediaPath
 } from "./media";
 import { getRecipePath } from "./recipe-path";
 import { localeValues } from "./locales";
@@ -134,7 +135,14 @@ export const mediaAssetSchema = z.strictObject({
   width: z.number().int().positive().safe().nullable(),
   height: z.number().int().positive().safe().nullable()
 }).superRefine((media, context) => {
-  if (media.path.startsWith(wordpressRecipeMediaPrefix)) {
+  let isManagedNamespace: boolean;
+  try {
+    isManagedNamespace = isWordPressRecipeMediaNamespacePath(media.path);
+  } catch {
+    // The path schema reports the invalid path.
+    return;
+  }
+  if (isManagedNamespace) {
     let attachmentId: string | undefined;
     try {
       attachmentId = parseWordPressRecipeMediaObjectKey(media.path).attachmentId;
@@ -337,14 +345,21 @@ export const recipeRecordSchema = z.strictObject({
       });
     }
     mediaIds.add(media.id);
-    if (mediaPaths.has(media.path)) {
+    let effectiveMediaPath: string;
+    try {
+      effectiveMediaPath = recipeMediaPathKey(media.path);
+    } catch {
+      // The media path schema reports the invalid path.
+      continue;
+    }
+    if (mediaPaths.has(effectiveMediaPath)) {
       context.addIssue({
         code: "custom",
-        message: `Duplicate media path: ${media.path}`,
+        message: `Duplicate effective media path: ${media.path}`,
         path: ["media", index, "path"]
       });
     }
-    mediaPaths.add(media.path);
+    mediaPaths.add(effectiveMediaPath);
     if (media.sourceId !== null) {
       if (mediaSourceIds.has(media.sourceId)) {
         context.addIssue({

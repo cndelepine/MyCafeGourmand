@@ -280,6 +280,13 @@ parent URLs stay ambiguous rather than being assigned without source evidence.
 Preserved raw WordPress editorial HTML remains source provenance within the
 recipe record bounds.
 
+Recipe loading opens each leaf with `O_NOFOLLOW`, verifies its captured
+device/inode/type identity, and revalidates the complete root and locale tree
+after reading. Node does not expose a portable `openat`-style traversal, so a
+hostile local process that can swap and restore ancestor directories entirely
+between checks remains outside this boundary; builds and validation therefore
+require a trusted local workspace.
+
 Promoted WordPress media uses stable canonical object keys such as
 `/recipes/media/wordpress/<attachmentId>.jpg`, never deployment-specific URLs.
 `content/media-manifest.json` is a bounded, deterministic public inventory of

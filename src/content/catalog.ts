@@ -6,7 +6,9 @@ import {
   lstatSync,
   openSync,
   readFileSync,
-  readdirSync
+  readdirSync,
+  realpathSync,
+  type BigIntStats
 } from "node:fs";
 import path from "node:path";
 import { parseJsonAtBoundary } from "./json-boundary";
@@ -25,6 +27,32 @@ export const defaultRecipesRoot = path.resolve(process.cwd(), "content/recipes")
 export type RecipeSourceFile = {
   locale: Locale;
   path: string;
+};
+
+type RecipeFileSystemIdentity = {
+  path: string;
+  realPath: string;
+  dev: bigint;
+  ino: bigint;
+  mode: bigint;
+  size: bigint;
+  mtimeNs: bigint;
+  ctimeNs: bigint;
+};
+
+type DiscoveredRecipeSourceFile = RecipeSourceFile & {
+  identity: RecipeFileSystemIdentity;
+};
+
+type DiscoveredRecipeTree = {
+  rootPath: string;
+  root: RecipeFileSystemIdentity | null;
+  localeDirectories: RecipeFileSystemIdentity[];
+  files: DiscoveredRecipeSourceFile[];
+};
+
+export type RecipeContentTreeGuard = {
+  assertUnchanged(): void;
 };
 
 export type LoadedRecipeCatalog = {
@@ -62,6 +90,67 @@ function compareNames(left: string, right: string) {
   return left < right ? -1 : left > right ? 1 : 0;
 }
 
+function sameIdentity(
+  left: RecipeFileSystemIdentity,
+  right: RecipeFileSystemIdentity
+) {
+  return left.path === right.path
+    && left.realPath === right.realPath
+    && left.dev === right.dev
+    && left.ino === right.ino
+    && left.mode === right.mode
+    && left.size === right.size
+    && left.mtimeNs === right.mtimeNs
+    && left.ctimeNs === right.ctimeNs;
+}
+
+function identityFromStats(
+  entryPath: string,
+  realPath: string,
+  stats: BigIntStats
+): RecipeFileSystemIdentity {
+  return {
+    path: entryPath,
+    realPath,
+    dev: stats.dev,
+    ino: stats.ino,
+    mode: stats.mode,
+    size: stats.size,
+    mtimeNs: stats.mtimeNs,
+    ctimeNs: stats.ctimeNs
+  };
+}
+
+function captureIdentity(
+  entryPath: string,
+  expectedType: "directory" | "file",
+  typeError: string
+) {
+  const before = lstatSync(entryPath, { bigint: true });
+  if (
+    before.isSymbolicLink()
+    || (expectedType === "directory" ? !before.isDirectory() : !before.isFile())
+  ) {
+    throw new Error(typeError);
+  }
+  const realPath = realpathSync.native(entryPath);
+  const after = lstatSync(entryPath, { bigint: true });
+  const resolved = lstatSync(realPath, { bigint: true });
+  const beforeIdentity = identityFromStats(entryPath, realPath, before);
+  const afterIdentity = identityFromStats(entryPath, realPath, after);
+  const resolvedIdentity = identityFromStats(entryPath, realPath, resolved);
+  if (
+    after.isSymbolicLink()
+    || (expectedType === "directory" ? !after.isDirectory() : !after.isFile())
+    || (expectedType === "directory" ? !resolved.isDirectory() : !resolved.isFile())
+    || !sameIdentity(beforeIdentity, afterIdentity)
+    || !sameIdentity(afterIdentity, resolvedIdentity)
+  ) {
+    throw new Error(`Recipe content path changed while being inspected: "${entryPath}"`);
+  }
+  return afterIdentity;
+}
+
 function assertRecordCount(count: number, label: string) {
   if (count > recipeContentLimits.maxCatalogRecords) {
     throw new Error(
@@ -90,23 +179,26 @@ function assertJsonFile(
   }
 }
 
-/**
- * Discover JSON records in locale order and filename order. Missing locale
- * folders are intentional: an untranslated locale has no records yet.
- */
-export function discoverRecipeFiles(
+function discoverRecipeTree(
   recipesRoot: string = defaultRecipesRoot
-): RecipeSourceFile[] {
+): DiscoveredRecipeTree {
   const root = path.resolve(recipesRoot);
 
   if (!existsSync(root)) {
-    return [];
+    return {
+      rootPath: root,
+      root: null,
+      localeDirectories: [],
+      files: []
+    };
   }
-  const rootStats = lstatSync(root);
-  if (rootStats.isSymbolicLink() || !rootStats.isDirectory()) {
-    throw new Error(`Recipe content root is not a directory: "${root}"`);
-  }
+  const rootIdentity = captureIdentity(
+    root,
+    "directory",
+    `Recipe content root is not a directory: "${root}"`
+  );
 
+  const localeIdentityByName = new Map<Locale, RecipeFileSystemIdentity>();
   for (const entry of getDirectoryEntries(root)) {
     const entryPath = path.join(root, entry.name);
     if (entry.isSymbolicLink()) {
@@ -121,18 +213,24 @@ export function discoverRecipeFiles(
     if (!localeValues.some((locale) => locale === entry.name)) {
       throw new Error(`Unsupported locale folder "${entry.name}" in "${root}"`);
     }
+    const locale = entry.name as Locale;
+    localeIdentityByName.set(locale, captureIdentity(
+      entryPath,
+      "directory",
+      `Locale content path is not a directory: "${entryPath}"`
+    ));
   }
 
+  const localeDirectories = localeValues.flatMap((locale) => {
+    const identity = localeIdentityByName.get(locale);
+    return identity === undefined ? [] : [identity];
+  });
   const files = localeValues.flatMap((locale) => {
-    const localeDirectory = path.join(root, locale);
-
-    if (!existsSync(localeDirectory)) {
+    const localeIdentity = localeIdentityByName.get(locale);
+    if (localeIdentity === undefined) {
       return [];
     }
-    const localeStats = lstatSync(localeDirectory);
-    if (localeStats.isSymbolicLink() || !localeStats.isDirectory()) {
-      throw new Error(`Locale content path is not a directory: "${localeDirectory}"`);
-    }
+    const localeDirectory = localeIdentity.path;
 
     const entries = getDirectoryEntries(localeDirectory);
     if (entries.length > recipeContentLimits.maxLocaleRecords) {
@@ -157,11 +255,87 @@ export function discoverRecipeFiles(
       .sort(compareNames)
       .map((fileName) => ({
         locale,
-        path: path.join(localeDirectory, fileName)
+        path: path.join(localeDirectory, fileName),
+        identity: captureIdentity(
+          path.join(localeDirectory, fileName),
+          "file",
+          `Recipe content path is not a regular file: ` +
+          `"${path.join(localeDirectory, fileName)}"`
+        )
       }));
   });
   assertRecordCount(files.length, "Recipe catalog");
-  return files;
+  return {
+    rootPath: root,
+    root: rootIdentity,
+    localeDirectories,
+    files
+  };
+}
+
+function publicSourceFiles(tree: DiscoveredRecipeTree): RecipeSourceFile[] {
+  return tree.files.map(({ locale, path: sourcePath }) => ({
+    locale,
+    path: sourcePath
+  }));
+}
+
+function sameIdentityList(
+  left: readonly RecipeFileSystemIdentity[],
+  right: readonly RecipeFileSystemIdentity[]
+) {
+  return left.length === right.length
+    && left.every((identity, index) => {
+      const other = right[index];
+      return other !== undefined && sameIdentity(identity, other);
+    });
+}
+
+function assertRecipeTreeUnchanged(snapshot: DiscoveredRecipeTree) {
+  let current: DiscoveredRecipeTree;
+  try {
+    current = discoverRecipeTree(snapshot.rootPath);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(
+      `Recipe content tree changed during catalog load: ${message}`,
+      { cause: error }
+    );
+  }
+  const rootsMatch = snapshot.root === null
+    ? current.root === null
+    : current.root !== null && sameIdentity(snapshot.root, current.root);
+  if (
+    !rootsMatch
+    || !sameIdentityList(snapshot.localeDirectories, current.localeDirectories)
+    || !sameIdentityList(
+      snapshot.files.map((file) => file.identity),
+      current.files.map((file) => file.identity)
+    )
+  ) {
+    throw new Error(
+      `Recipe content tree changed during catalog load: "${snapshot.rootPath}"`
+    );
+  }
+}
+
+/**
+ * Discover JSON records in locale order and filename order. Missing locale
+ * folders are intentional: an untranslated locale has no records yet.
+ */
+export function discoverRecipeFiles(
+  recipesRoot: string = defaultRecipesRoot
+): RecipeSourceFile[] {
+  return publicSourceFiles(discoverRecipeTree(recipesRoot));
+}
+
+export function createRecipeContentTreeGuard(
+  recipesRoot: string = defaultRecipesRoot
+): RecipeContentTreeGuard {
+  const snapshot = discoverRecipeTree(recipesRoot);
+  return Object.freeze({
+    assertUnchanged: () => assertRecipeTreeUnchanged(snapshot)
+  });
 }
 
 export function parseRecipeRecord(input: unknown, sourcePath?: string): RecipeRecord {
@@ -177,7 +351,7 @@ export function parseRecipeRecord(input: unknown, sourcePath?: string): RecipeRe
   return result.data;
 }
 
-function readRecipeRecord(source: RecipeSourceFile) {
+function readRecipeRecord(source: DiscoveredRecipeSourceFile) {
   let contents: string;
 
   try {
@@ -186,11 +360,16 @@ function readRecipeRecord(source: RecipeSourceFile) {
       constants.O_RDONLY | constants.O_NOFOLLOW
     );
     try {
-      const stats = fstatSync(descriptor);
-      if (!stats.isFile()) {
-        throw new Error("source is not a regular file");
+      const stats = fstatSync(descriptor, { bigint: true });
+      const openedIdentity = identityFromStats(
+        source.path,
+        source.identity.realPath,
+        stats
+      );
+      if (!stats.isFile() || !sameIdentity(source.identity, openedIdentity)) {
+        throw new Error("source identity changed before it was read");
       }
-      if (stats.size > recipeContentLimits.maxFileBytes) {
+      if (stats.size > BigInt(recipeContentLimits.maxFileBytes)) {
         throw new Error(
           `file exceeds the maximum size of ${recipeContentLimits.maxFileBytes} bytes`
         );
@@ -205,6 +384,13 @@ function readRecipeRecord(source: RecipeSourceFile) {
         fatal: true,
         ignoreBOM: true
       }).decode(bytes);
+      const afterRead = fstatSync(descriptor, { bigint: true });
+      if (!sameIdentity(
+        source.identity,
+        identityFromStats(source.path, source.identity.realPath, afterRead)
+      )) {
+        throw new Error("source identity changed while it was read");
+      }
     } finally {
       closeSync(descriptor);
     }
@@ -408,8 +594,28 @@ export function validateCatalog(
 export function loadRecipeCatalogWithSources(
   recipesRoot: string = defaultRecipesRoot
 ): LoadedRecipeCatalog {
-  const files = discoverRecipeFiles(recipesRoot);
-  const records = files.map(readRecipeRecord);
+  const snapshot = discoverRecipeTree(recipesRoot);
+  let records: RecipeRecord[];
+  try {
+    records = snapshot.files.map(readRecipeRecord);
+  } catch (loadError) {
+    try {
+      assertRecipeTreeUnchanged(snapshot);
+    } catch (treeError) {
+      if (loadError instanceof Error) {
+        const causes = loadError.cause === undefined
+          ? [treeError]
+          : [loadError.cause, treeError];
+        loadError.cause = new AggregateError(
+          causes,
+          "Recipe loading failed while the content tree also changed."
+        );
+      }
+    }
+    throw loadError;
+  }
+  assertRecipeTreeUnchanged(snapshot);
+  const files = publicSourceFiles(snapshot);
   return {
     files,
     records: validateCatalog(records, { sourceFiles: files })

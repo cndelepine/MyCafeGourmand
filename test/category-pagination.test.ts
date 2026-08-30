@@ -145,7 +145,14 @@ test("category archives decode encoded Cyrillic once and resolve raw or encoded 
 });
 
 test("category catalog rejects unsafe, missing, and colliding source identities", () => {
-  for (const slug of ["..", "unsafe%252fpath", "malformed%"]) {
+  for (const slug of [
+    "..",
+    "unsafe%252fpath",
+    "malformed%",
+    "bad\ud800slug",
+    "bad\udfffslug",
+    "trailing\ud800"
+  ]) {
     assert.throws(
       () => getCategoryCatalog([
         recipeWithCategory(1, "en", "safe-recipe", {
@@ -153,7 +160,7 @@ test("category catalog rejects unsafe, missing, and colliding source identities"
           slug
         })
       ]),
-      /unsafe path segment|unsafe separator|URL encoding/
+      /unsafe path segment|unsafe separator|URL encoding|well-formed Unicode/
     );
   }
   assert.throws(

@@ -3,6 +3,7 @@ import {
   mkdtempSync,
   mkdirSync,
   readFileSync,
+  renameSync,
   rmSync,
   symlinkSync,
   writeFileSync
@@ -10,6 +11,7 @@ import {
 import path from "node:path";
 import test from "node:test";
 import {
+  createRecipeContentTreeGuard,
   discoverRecipeFiles,
   loadRecipeCatalog,
   validateCatalog
@@ -165,6 +167,34 @@ test("recipe discovery rejects symlinked locale paths and records", () => {
       () => discoverRecipeFiles(recipesRoot),
       /Symbolic links are not allowed/
     );
+  });
+});
+
+test("recipe tree guards detect locale directory replacement after discovery", () => {
+  withTempDirectory((recipesRoot) => {
+    writeRecord(
+      recipesRoot,
+      "en",
+      "original.json",
+      localizedRecord("en", "original", "3099")
+    );
+    const guard = createRecipeContentTreeGuard(recipesRoot);
+    const movedLocale = `${recipesRoot}-original-en`;
+    try {
+      renameSync(path.join(recipesRoot, "en"), movedLocale);
+      writeRecord(
+        recipesRoot,
+        "en",
+        "replacement.json",
+        localizedRecord("en", "replacement", "3100")
+      );
+      assert.throws(
+        () => guard.assertUnchanged(),
+        /Recipe content tree changed during catalog load/
+      );
+    } finally {
+      rmSync(movedLocale, { force: true, recursive: true });
+    }
   });
 });
 
