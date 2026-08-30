@@ -478,7 +478,28 @@ async function ensurePrivateDirectory(
   let createdDestination = false;
   for (const part of initial.missingParts) {
     const next = path.join(current, part);
-    await authorizeDestination(current, inputWasAbsoluteOverride, true);
+    if (initial.inRepository && current === repositoryRoot) {
+      try {
+        const [stats, physicalCurrent] = await Promise.all([
+          lstat(current),
+          realpath(current)
+        ]);
+        if (
+          stats.isSymbolicLink()
+          || !stats.isDirectory()
+          || physicalCurrent !== repositoryRoot
+        ) {
+          throw new WprmImportError("unsafe-staging-dir");
+        }
+      } catch (error) {
+        if (error instanceof WprmImportError) {
+          throw error;
+        }
+        throw new WprmImportError("unsafe-staging-dir");
+      }
+    } else {
+      await authorizeDestination(current, inputWasAbsoluteOverride, true);
+    }
     let created = false;
     try {
       await mkdir(next, { mode: 0o700 });
@@ -499,6 +520,9 @@ async function ensurePrivateDirectory(
     }
     if (created) {
       await chmod(next, 0o700);
+    }
+    if (initial.inRepository && next === migrationOutputRoot) {
+      await privateDirectoryStats(next);
     }
     if (created && next === initial.destination) {
       createdDestination = true;

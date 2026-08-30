@@ -234,9 +234,7 @@ test("derives every content path from an alternate project root", () => {
     cpSync(path.join(process.cwd(), "content"), path.join(projectRoot, "content"), {
       recursive: true
     });
-    cpSync(path.join(process.cwd(), "public"), path.join(projectRoot, "public"), {
-      recursive: true
-    });
+    mkdirSync(path.join(projectRoot, "public"), { recursive: true });
     const record = editorialPageRecordSchema.parse({
       schemaVersion: 1,
       kind: "editorial-page",
