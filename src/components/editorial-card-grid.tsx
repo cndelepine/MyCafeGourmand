@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getEditorialGalleryMediaDimensions } from "@/content/editorial-media-manifest";
 import type { EditorialPageRecord } from "@/content/editorial-schema";
 import { resolveManagedMediaUrl } from "@/lib/recipe-media";
 import { getEditorialPath } from "@/lib/editorial-routes";
@@ -22,17 +23,20 @@ export function EditorialCardGrid({
         const featured = page.featuredMediaId === null
           ? undefined
           : page.media?.find((media) => media.id === page.featuredMediaId);
+        const dimensions = featured === undefined
+          ? undefined
+          : getEditorialGalleryMediaDimensions(featured.path);
 
         return (
           <article className="editorial-card" key={page.id}>
-            {featured ? (
+            {featured && dimensions ? (
               <Image
                 alt={page.featuredMediaAlt ?? ""}
                 className="editorial-card-image"
-                height={featured.height ?? 800}
+                height={dimensions.height}
                 sizes="(max-width: 700px) 100vw, 50vw"
                 src={resolveManagedMediaUrl(featured.path)}
-                width={featured.width ?? 1200}
+                width={dimensions.width}
               />
             ) : null}
             <div className="editorial-card-copy">

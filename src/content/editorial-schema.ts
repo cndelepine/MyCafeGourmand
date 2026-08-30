@@ -1,8 +1,17 @@
 import { z } from "zod";
 import { localeSchema, localeValues } from "./schema";
 import { localPathKey, validateSafeLocalPath } from "./url-path";
+import {
+  editorialManagedMediaPrefix,
+  galleryManagedMediaPrefix,
+  validatePublicManagedMediaPath
+} from "./editorial-media-path";
 
 export { localeSchema, localeValues };
+export {
+  editorialManagedMediaPrefix,
+  galleryManagedMediaPrefix
+} from "./editorial-media-path";
 export type { Locale } from "./schema";
 /**
  * Public content is deliberately bounded at the content boundary. These
@@ -27,8 +36,6 @@ export const publicContentLimits = Object.freeze({
 
 export type PublicContentLimits = typeof publicContentLimits;
 
-export const editorialManagedMediaPrefix = "/editorial/media/wordpress/";
-export const galleryManagedMediaPrefix = "/gallery/media/wordpress-bwg/";
 const renderableHtmlMarkup =
   /(?:<!--|<\s*\/?\s*[A-Za-z][A-Za-z0-9:-]*(?:\s+[^<>]*)?\/?\s*>)/u;
 const boundedStringSchema = z.string().max(publicContentLimits.maxStringLength);
@@ -282,26 +289,9 @@ const supportedImageMimeTypes = [
   "image/webp"
 ] as const;
 export const publicImageMimeTypeSchema = z.enum(supportedImageMimeTypes);
-function validateManagedMediaPath(value: string, label: string) {
-  validateSafeLocalPath(value, label);
-  if (value.includes("%")) {
-    throw new Error(`${label} must be a canonical raw path: ${value}`);
-  }
-  if (
-    !value.startsWith(editorialManagedMediaPrefix)
-    && !value.startsWith(galleryManagedMediaPrefix)
-  ) {
-    throw new Error(
-      `${label} must use an approved editorial or gallery managed prefix: ${value}`
-    );
-  }
-  if (value.endsWith("/")) {
-    throw new Error(`${label} must identify a managed object, not a directory: ${value}`);
-  }
-}
 export const publicManagedMediaPathSchema = boundedStringSchema.min(1).superRefine((value, context) => {
   try {
-    validateManagedMediaPath(value, "Public media path");
+    validatePublicManagedMediaPath(value, "Public media path");
   } catch (error) {
     context.addIssue(validationIssue(error));
   }

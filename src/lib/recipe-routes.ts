@@ -3,7 +3,8 @@ import {
   getCategoryCatalog,
   type RecipeCategory
 } from "@/content/categories";
-import { localeValues, type Locale, type RecipeRecord } from "@/content/schema";
+import { localeValues, type Locale } from "@/content/locales";
+import type { RecipeRecord } from "@/content/schema";
 import { decodeRecipeSlug, validateRecipeSlug } from "@/content/url-path";
 import {
   getPageCount,

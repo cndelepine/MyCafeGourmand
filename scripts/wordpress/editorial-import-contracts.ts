@@ -6,7 +6,7 @@ import {
 import type { SqlDumpStats } from "./sql-stream";
 import type { UploadArchiveInventory } from "./uploads-inventory";
 
-export const editorialImportContractVersion = "wordpress-editorial-staging-v3";
+export const editorialImportContractVersion = "wordpress-editorial-staging-v4";
 
 export type EditorialPublicationStatus =
   | "published"
@@ -260,6 +260,8 @@ export interface RawEditorialAttachmentMeta {
   readonly attachedFile: string | null;
   readonly alt: string | null;
   readonly duplicateKeys: ReadonlySet<string>;
+  readonly width: number | null;
+  readonly height: number | null;
 }
 
 export interface RawTerm {
@@ -287,6 +289,7 @@ export interface RawBwgImage {
   readonly galleryIdState: "present" | "missing" | "malformed";
   readonly imageUrl: string | null;
   readonly thumbUrl: string | null;
+  readonly resolution: string | null;
   readonly alt: string | null;
   readonly description: string | null;
   readonly order: number | null;
@@ -336,6 +339,8 @@ export interface EditorialMediaReference {
   readonly attachedFile: string | null;
   readonly alt: string | null;
   readonly archiveMatch: "matched" | "missing" | "duplicate" | "unsafe";
+  readonly width: number | null;
+  readonly height: number | null;
 }
 
 export interface EditorialStructuralAnalysis {

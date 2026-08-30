@@ -175,6 +175,14 @@ application fields:
 | `locale` | one of `en`, `fr`, or `ru` |
 | `returnUrl` | one of the app-generated absolute canonical success URLs |
 
+Production launch is blocked until the owner approves an accurate replacement
+privacy notice for the selected contact provider and its actual data flow,
+retention, deletion, and contact practices. The obsolete WordPress privacy page
+is intentionally excluded rather than published with inaccurate descriptions
+of retired comments, newsletters, analytics, advertising, and service
+providers. The contact UI should also discourage sensitive or health
+information unless the eventual provider and policy explicitly support it.
+
 The form also sends a `website` honeypot. The adapter may reject a nonempty
 value, but must not treat it as contact data. It must independently enforce all
 field bounds and allow-list `returnUrl`; never trust a posted URL solely because
@@ -484,7 +492,7 @@ npm run import:editorial -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/editorial-fingerprint.key \
-  --write --staging-dir migration-output/editorial-v3
+  --write --staging-dir migration-output/editorial-v4
 ```
 
 The root and `candidates/` directories are owner-only `0700`; marker,
@@ -526,13 +534,13 @@ npm run promote:editorial -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/editorial-fingerprint.key \
-  --staging-dir migration-output/editorial-v3 \
+  --staging-dir migration-output/editorial-v4 \
   --expected-ready 6 \
   --expected-review 49 \
   --expected-publication-excluded 2 \
   --expected-gallery-candidates 1 \
   --expected-galleries 1 \
-  --expected-selected 28 \
+  --expected-selected 27 \
   --dry-run
 ```
 
@@ -573,7 +581,9 @@ neutral gallery to `content/galleries/`, and
 bytes under `content/` or `public/`.
 
 The editorial/gallery manifest is a bounded deterministic public inventory of
-managed object keys, byte sizes, SHA-256 hashes, and public source identifiers.
+managed object keys, byte sizes, SHA-256 hashes, public source identifiers, and
+authoritative display dimensions from WordPress metadata, Photo Gallery
+metadata, or bounded parsing of the authenticated image bytes.
 It excludes archive paths, source filenames, candidate fingerprints, source
 wording, and timestamps. Before writing it, promotion re-inventories the
 authorized archives and CRC-checks and hashes every selected entry through
@@ -596,10 +606,11 @@ back before another dry run or write proceeds.
 There is no general overwrite. Byte-equivalent already-published records,
 gallery, and manifest entries are reused for idempotency. A record or gallery
 change, a conflicting managed-media key, or a changed manifest entry fails
-closed. The only removal is a transactionally backed-up
-source-designated `page_for_posts` editorial record when no archive is
-modeled, along with manifest entries no longer referenced by retained public
-content.
+closed. Transactionally backed-up removals are limited to explicit publication
+policy outcomes: a source-designated `page_for_posts` record when no archive is
+modeled and the owner-excluded obsolete WordPress privacy page. Manifest entries
+no longer referenced by retained public content are removed in the same
+transaction.
 
 Stdout is aggregate-only: it contains no titles, body text, source paths,
 identifiers, timestamps, media filenames, staged records, or candidate
@@ -633,7 +644,7 @@ source is instead retained as its own unassigned-image review candidate; no
 synthetic gallery is created. These are review gates, not publication approval.
 
 The authenticated editorial promotion aggregate against the 522-recipe catalog
-is 54 direct policy-eligible pages, 28 selected pages (EN/FR/RU: 11/9/8), one
+is 53 direct policy-eligible pages, 27 selected pages (EN/FR/RU: 10/9/8), one
 selected neutral gallery, 27 approved explicit empty card grids, and 143
 planned media bindings (nine editorial and 134 gallery). The explicit
 empty-grid reason is `source-category-missing` (27), separate from mapping
@@ -642,11 +653,12 @@ publishing the three narrowly approved incomplete-translation recipes resolved
 one earlier blocked page but did not make integrity-blocked source posts into
 recipes. Closure then blocks eight translation peers, 14 descendants, and two
 page references. The direct policy blocks remain `publication-excluded` (two)
-and `source-issues:unresolved-inline-media` (one).
+`source-issues:unresolved-inline-media` (one), and
+`owner-excluded-obsolete-privacy-policy` (one).
 
 ### Blob-backed editorial and gallery originals
 
-The validated promotion plan contains 28 editorial records, one neutral gallery,
+The validated promotion plan contains 27 editorial records, one neutral gallery,
 and 143 managed media objects (92,121,745 bytes; nine editorial and 134
 gallery). Stage them only after editorial promotion has written the validated public records and
 `content/editorial-gallery-media-manifest.json`. This command is
@@ -658,10 +670,10 @@ npm run media:editorial-upload-plan -- \
   --database /path/to/approved/wordpress.sql.gz \
   --uploads-dir /path/to/approved/upload-archives \
   --fingerprint-key-file migration-output/editorial-fingerprint.key \
-  --staging-dir migration-output/editorial-v3 \
-  --upload-dir migration-output/editorial-media-azure-v2 \
+  --staging-dir migration-output/editorial-v4 \
+  --upload-dir migration-output/editorial-media-azure-v4 \
   --expected-ready 6 --expected-review 49 --expected-publication-excluded 2 \
-  --expected-gallery-candidates 1 --expected-galleries 1 --expected-selected 28 \
+  --expected-gallery-candidates 1 --expected-galleries 1 --expected-selected 27 \
   --dry-run
 ```
 
@@ -669,7 +681,7 @@ After reviewing a byte-identical dry run, repeat with `--write`. It
 re-authenticates the SQL source, upload central-directory contract, private
 editorial staging marker, HMAC candidates, selected public records, manifest,
 and every media-byte binding before streaming the exact objects to
-`migration-output/editorial-media-azure-v2/objects/`. All created directories
+`migration-output/editorial-media-azure-v4/objects/`. All created directories
 are `0700`; objects and the private `upload-manifest.json` are `0600`. Any
 existing object tree is recursively checked against the exact planned files and
 directories during dry validation, write, and resume; extra files, directories,
@@ -896,7 +908,7 @@ npm run media:verify-azure -- \
   --account-name "$AZURE_STORAGE_ACCOUNT" \
   --container "$AZURE_STORAGE_CONTAINER" \
   --upload-dir migration-output/wprm-media-azure-v6 \
-  --upload-dir migration-output/editorial-media-azure-v2
+  --upload-dir migration-output/editorial-media-azure-v4
 ```
 
 `--upload-dir` may be repeated to verify the disjoint recipe and

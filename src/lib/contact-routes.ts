@@ -1,4 +1,4 @@
-import { localeValues, type Locale } from "@/content/schema";
+import { localeValues, type Locale } from "@/content/locales";
 
 export type ContactSuccessRouteParams = {
   readonly segments: string[];

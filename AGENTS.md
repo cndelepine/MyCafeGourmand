@@ -20,17 +20,27 @@ Comments, ratings, newsletters, advertisements, analytics, and social integratio
 ## Current state
 
 This repository is a Next.js App Router, React, and TypeScript static-export
-application deployed to Azure Static Web Apps. The catalog is still small and
-the importer is a migration foundation, not a complete site migration tool.
+application prepared for Azure Static Web Apps. Azure resources are not yet
+provisioned. The authenticated, source-specific migration has published the
+currently approved recipe, editorial, and gallery catalogs; it is not a
+general-purpose WordPress migration tool. Keep volatile catalog counts in
+validated reports and `README.md`, not in this instruction file.
 
 Key paths:
 
 - `src/app/` - routes, layouts, metadata, and UI
 - `content/recipes/{en,fr,ru}/` - validated recipe JSON records
-- `public/recipes/` - local recipe images
+- `content/editorial/{en,fr,ru}/` - validated editorial JSON records
+- `content/galleries/` - validated language-neutral gallery records
+- `content/*media-manifest.json` - public metadata for Blob-backed media
 - `src/content/url-path.ts` - shared slug and local URL-path validation
 - `src/content/staticwebapp.ts` - generated Azure redirects and route checks
-- `scripts/import-wordpress-recipe.ts` - WordPress recipe importer foundation
+- `scripts/import-wordpress-wprm.ts` and `scripts/import-wordpress-editorial.ts`
+  - authenticated staging importers
+- `scripts/promote-wordpress-wprm.ts` and
+  `scripts/promote-wordpress-editorial.ts` - transactional public promotion
+- `scripts/plan-wordpress-media-upload.ts` and
+  `scripts/plan-wordpress-editorial-media-upload.ts` - private Blob upload plans
 - `scripts/url-inventory/` - bounded public URL discovery and comparison
 - `test/` - focused Node test-runner coverage
 - `.github/workflows/ci.yml` - lint, typecheck, test, and build validation
@@ -68,7 +78,16 @@ Treat an owner-authorized WordPress database/files backup or export as the migra
   Reconcile them against authoritative exports and human decisions; never turn
   discovered URLs directly into content records or redirects.
 
-Before bulk importing, fix and validate the prototype importer. It currently does not cover the full site and must not be presented as a complete migration tool.
+The current import and promotion contracts are tied to the authorized source
+snapshot and reviewed plugin behavior. Do not present them as arbitrary
+WordPress compatibility. When source interpretation changes, version the
+authenticated staging contract, reject incompatible resumes, regenerate the
+private staging data, and compare a byte-identical dry run before writing.
+
+Derive plugin and shortcode behavior from the authorized plugin source and
+authenticated WordPress options rather than intuition. Preserve source-specific
+details such as PHP truthiness, global option inheritance, traversal order, and
+case sensitivity when they affect published output.
 
 ## Sensitive migration data
 
@@ -83,6 +102,16 @@ Before bulk importing, fix and validate the prototype importer. It currently doe
 - Keep TypeScript strict and avoid `any`, unsafe casts, and silent fallback values.
 - Reuse shared schemas, types, parsing helpers, and UI components rather than duplicating recipe-specific logic.
 - Validate external and imported data at its boundary before application code consumes it.
+- Keep route ownership centralized. New public pages or generated assets must
+  participate in the shared reserved-path set, static route enumeration,
+  sitemap policy, redirect conflict/cycle checks, and release-output validation.
+- Validate every live publication destination before recording it in a
+  transaction journal. Authenticated journals and rollback cannot make an
+  invalid or differently parsed destination safe after a crash.
+- Require exact closure for private media upload trees: every planned object
+  must exist with the authenticated bytes and MIME type, and no extra file,
+  directory, or symlink may be accepted. Remote verification must check the
+  exact HTTPS origin/path, redirect behavior, byte count, hash, and content type.
 - Reuse `src/content/url-path.ts` when validating or canonicalizing slugs and
   local URL paths. Do not replace its layered checks with one-pass decoding or
   ad hoc normalization: validation must account for repeated percent encoding,

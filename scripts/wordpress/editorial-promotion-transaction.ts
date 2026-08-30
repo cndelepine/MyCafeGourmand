@@ -13,6 +13,7 @@ import {
   unlink
 } from "node:fs/promises";
 import path from "node:path";
+import { Writable } from "node:stream";
 import { loadRecipeCatalogWithSources } from "../../src/content/catalog";
 import {
   createEditorialGalleryMediaManifest,
@@ -48,6 +49,10 @@ import {
   editorialImportContractVersion,
   type EditorialSafeManifest
 } from "./editorial-import-contracts";
+import {
+  maxImageDimensionProbeBytes,
+  parseImageDimensions
+} from "./image-dimensions";
 import { type EditorialPromotionPlan, type EditorialPlannedMediaBinding } from "./editorial-promotion";
 import { resolveEditorialUploadArchives } from "./editorial-import-source";
 import { canonicalCandidateJson } from "./wprm-import-stage";
@@ -71,12 +76,14 @@ type FailureInjection =
   | "after-staged-artifact-write"
   | "after-prepared-transaction-journal"
   | "after-publishing-transaction-journal"
+  | "before-create-link"
   | "after-create-link"
   | "after-live-move-before-replacement-link"
   | "after-replacement-link"
   | "after-first-publication"
   | "after-some-new-files-publish"
   | "after-rollback-transaction-journal"
+  | "after-rollback-preserved-create-journal"
   | "after-rollback-create-unlink"
   | "after-rollback-replacement-unlink"
   | "after-rollback-backup-rename"
@@ -120,6 +127,7 @@ export type EditorialPublicationSummary = {
     readonly addedToManifest: number;
     readonly removedFromManifest: number;
     readonly reusedFromManifest: number;
+    readonly updatedInManifest: number;
   };
 };
 
@@ -1547,7 +1555,7 @@ function transactionFromJournal(
 
 type RecoveryAction = {
   readonly operation: TransactionOperation;
-  readonly action: "none" | "remove-created" | "restore";
+  readonly action: "none" | "preserve-conflict" | "remove-created" | "restore";
 };
 
 async function inspectRecoveryOperation(operation: TransactionOperation): Promise<RecoveryAction> {
@@ -1562,10 +1570,13 @@ async function inspectRecoveryOperation(operation: TransactionOperation): Promis
     if (destination === null) {
       return { operation, action: "none" };
     }
-    if (!await proofMatches(operation.destination, operation.stagedProof)) {
-      fail("invalid-promotion-journal");
+    if (await proofMatches(operation.destination, operation.stagedProof)) {
+      return { operation, action: "remove-created" };
     }
-    return { operation, action: "remove-created" };
+    if (operation.state === "prepared" || operation.state === "rolled-back") {
+      return { operation, action: "preserve-conflict" };
+    }
+    fail("invalid-promotion-journal");
   }
   const backup = await existingStats(operation.backup);
   if (
@@ -1606,7 +1617,7 @@ async function executeRecoveryAction(
   action: RecoveryAction,
   failureInjection: EditorialPublicationTestOptions["failureInjection"]
 ) {
-  if (action.action === "none") {
+  if (action.action === "none" || action.action === "preserve-conflict") {
     return;
   }
   const { operation } = action;
@@ -1651,12 +1662,13 @@ async function executeRecoveryAction(
 }
 
 async function rollbackOperation(transaction: Transaction, operation: TransactionOperation) {
-  await executeRecoveryAction(
-    await inspectRecoveryOperation(operation),
-    transaction.failureInjection
-  );
+  const action = await inspectRecoveryOperation(operation);
+  await executeRecoveryAction(action, transaction.failureInjection);
   operation.state = "rolled-back";
   await writeJournal(transaction);
+  if (action.action === "preserve-conflict") {
+    interruptAt(transaction.failureInjection, "after-rollback-preserved-create-journal");
+  }
 }
 
 async function rollbackTransaction(transaction: Transaction) {
@@ -1709,7 +1721,15 @@ async function assertFinalLiveState(transaction: Transaction) {
     ) {
       fail("promotion-journal-recovery-failed");
     } else if (operation.kind === "create") {
-      if (await existingStats(operation.destination) !== null) {
+      const destination = await existingStats(operation.destination);
+      if (
+        destination !== null
+        && (
+          !isRegularFile(destination)
+          || !isOwnedByCurrentUser(destination)
+          || await proofMatches(operation.destination, operation.stagedProof)
+        )
+      ) {
         fail("promotion-journal-recovery-failed");
       }
     } else if (!await proofMatches(operation.destination, operation.backupProof)) {
@@ -1941,23 +1961,12 @@ async function removeAuthenticatedJournalTemps(
   }
 }
 
-async function validateRestoredContent(roots: Roots, recipeRecords: readonly RecipeRecord[]) {
+async function validateRecoveryDomain(roots: Roots, recipeRecords: readonly RecipeRecord[]) {
   try {
     const recipes = loadRecipeCatalogWithSources(path.join(roots.contentRoot, "recipes")).records;
     if (!canonicalEquals(recipes, recipeRecords)) {
       fail("recipe-catalog-changed");
     }
-    const editorial = loadEditorialCatalogWithSources(roots.editorialRoot).records;
-    const galleries = loadGalleryCatalogWithSources(roots.galleryRoot).records;
-    validatePublicContentCatalogs(editorial, galleries, {
-      recipeRecords: recipes,
-      reservedPaths: getReservedPublicPaths(recipes)
-    });
-    const stats = await existingStats(roots.mediaManifest);
-    const manifest = stats === null
-      ? createEditorialGalleryMediaManifest([])
-      : loadEditorialGalleryMediaManifest(roots.mediaManifest);
-    validateEditorialGalleryMediaManifestClosure(editorial, galleries, manifest);
   } catch (error) {
     if (error instanceof EditorialPublicationError) {
       throw error;
@@ -2006,7 +2015,7 @@ async function recoverTransaction(
   }
   if (rootStats === null) {
     if (bootstrap.phase === "cleanup") {
-      await validateRestoredContent(roots, recipeRecords);
+      await validateRecoveryDomain(roots, recipeRecords);
     }
     await removeBootstrapOnlyTransaction(location, roots, bootstrap);
     return;
@@ -2023,7 +2032,7 @@ async function recoverTransaction(
       bootstrap
     );
     if (bootstrap.phase === "cleanup") {
-      await validateRestoredContent(roots, recipeRecords);
+      await validateRecoveryDomain(roots, recipeRecords);
     }
     await removeBootstrapOnlyTransaction(location, roots, bootstrap);
     return;
@@ -2067,7 +2076,7 @@ async function recoverTransaction(
   try {
     if (transaction.phase === "cleanup") {
       await assertFinalLiveState(transaction);
-      await validateRestoredContent(roots, recipeRecords);
+      await validateRecoveryDomain(roots, recipeRecords);
       await removeTransactionTree(transaction);
       return;
     }
@@ -2082,7 +2091,7 @@ async function recoverTransaction(
     for (const operation of [...transaction.operations].reverse()) {
       await rollbackOperation(transaction, operation);
     }
-    await validateRestoredContent(roots, recipeRecords);
+    await validateRecoveryDomain(roots, recipeRecords);
     await persistCleanupState(transaction, "rolled-back");
     await removeTransactionTree(transaction);
   } catch (error) {
@@ -2426,16 +2435,51 @@ async function withAuthenticatedEditorialMediaEntries<T>(
       if (archive === undefined) {
         fail("editorial-media-binding-mismatch");
       }
-      const verified = await hashVerifiedOpenUploadArchiveEntry(
-        archive,
-        binding.archivePath,
-        {
-          keyedDigest: {
-            key: input.fingerprintKey,
-            context: `${binding.sourceKind}:${binding.sourceId}:${binding.publicPath}`
-          }
-        }
-      );
+      const keyedDigest = {
+        key: input.fingerprintKey,
+        context: `${binding.sourceKind}:${binding.sourceId}:${binding.publicPath}`
+      };
+      const sourceDimensions = binding.width === null || binding.height === null
+        ? null
+        : { width: binding.width, height: binding.height };
+      const authenticated = sourceDimensions === null
+        ? await (async () => {
+            const headerChunks: Buffer[] = [];
+            let headerBytes = 0;
+            const sink = new Writable({
+              write(chunk: Buffer, _encoding, done) {
+                if (headerBytes < maxImageDimensionProbeBytes) {
+                  const retained = chunk.subarray(
+                    0,
+                    maxImageDimensionProbeBytes - headerBytes
+                  );
+                  headerChunks.push(Buffer.from(retained));
+                  headerBytes += retained.length;
+                }
+                done();
+              }
+            });
+            const result = await archive.verifyEntry(binding.archivePath, sink, {
+              keyedDigest
+            });
+            const parsedDimensions = await parseImageDimensions(
+              Buffer.concat(headerChunks, headerBytes),
+              object.mimeType
+            );
+            if (parsedDimensions === null) {
+              fail("invalid-gallery-media-dimensions");
+            }
+            return { dimensions: parsedDimensions, verified: result };
+          })()
+        : {
+            dimensions: sourceDimensions,
+            verified: await hashVerifiedOpenUploadArchiveEntry(
+              archive,
+              binding.archivePath,
+              { keyedDigest }
+            )
+          };
+      const { dimensions: authenticatedDimensions, verified } = authenticated;
       if (verified.bytes <= 0 || verified.keyedSha256 === null) {
         fail("media-source-verification-failed");
       }
@@ -2448,7 +2492,9 @@ async function withAuthenticatedEditorialMediaEntries<T>(
         key,
         bytes: verified.bytes,
         sha256: verified.sha256,
-        source: object.source
+        source: object.source,
+        width: authenticatedDimensions.width,
+        height: authenticatedDimensions.height
       });
     }
     callbackStarted = true;
@@ -2507,7 +2553,29 @@ type PlannedManifest = {
   readonly added: number;
   readonly removed: number;
   readonly reused: number;
+  readonly updated: number;
 };
+
+function isDimensionEnrichment(
+  existing: EditorialGalleryMediaManifestEntry,
+  next: EditorialGalleryMediaManifestEntry
+) {
+  const {
+    width: existingWidth,
+    height: existingHeight,
+    ...existingIdentity
+  } = existing;
+  const {
+    width: nextWidth,
+    height: nextHeight,
+    ...nextIdentity
+  } = next;
+  return existingWidth === undefined
+    && existingHeight === undefined
+    && nextWidth !== undefined
+    && nextHeight !== undefined
+    && canonicalEquals(existingIdentity, nextIdentity);
+}
 
 async function planManifest(
   roots: Roots,
@@ -2535,7 +2603,12 @@ async function planManifest(
     }
   }
   try {
-    validateEditorialGalleryMediaManifestClosure(existingEditorial, existingGalleries, existing);
+    validateEditorialGalleryMediaManifestClosure(
+      existingEditorial,
+      existingGalleries,
+      existing,
+      { requireDimensions: false }
+    );
   } catch {
     fail("invalid-editorial-media-manifest");
   }
@@ -2558,11 +2631,15 @@ async function planManifest(
   let added = 0;
   const removed = existing.entries.length - entries.size;
   let reused = 0;
+  let updated = 0;
   for (const entry of authenticated) {
     const old = entries.get(entry.key);
     if (old === undefined) {
       entries.set(entry.key, entry);
       added += 1;
+    } else if (isDimensionEnrichment(old, entry)) {
+      entries.set(entry.key, entry);
+      updated += 1;
     } else if (!canonicalEquals(old, entry)) {
       fail("editorial-media-manifest-collision");
     } else {
@@ -2593,7 +2670,10 @@ async function planManifest(
     existing.entries.some((entry) => {
       const next = manifest.entries.find((candidate) => candidate.key === entry.key);
       return projectedMedia.has(entry.key)
-        && (next === undefined || !canonicalEquals(next, entry));
+        && (
+          next === undefined
+          || (!canonicalEquals(next, entry) && !isDimensionEnrichment(entry, next))
+        );
     })
   ) {
     fail("editorial-media-manifest-collision");
@@ -2605,7 +2685,8 @@ async function planManifest(
     manifest,
     added,
     removed,
-    reused
+    reused,
+    updated
   };
 }
 
@@ -2772,6 +2853,10 @@ async function stagedProof(transaction: Transaction, staged: string) {
 
 async function publishCreate(transaction: Transaction, staged: string, destination: string) {
   const stagedFileProof = await stagedProof(transaction, staged);
+  await assertDirectoryChain(transaction.roots.repositoryRoot, path.dirname(destination), false);
+  if (await existingStats(destination) !== null) {
+    fail("destination-file-conflict");
+  }
   const operation: TransactionOperation = {
     kind: "create",
     destination,
@@ -2781,8 +2866,8 @@ async function publishCreate(transaction: Transaction, staged: string, destinati
   };
   transaction.operations.push(operation);
   await writeJournal(transaction);
+  interruptAt(transaction.failureInjection, "before-create-link");
   try {
-    await assertDirectoryChain(transaction.roots.repositoryRoot, path.dirname(destination), false);
     await link(staged, destination);
     await syncDirectory(path.dirname(destination));
   } catch {
@@ -3175,7 +3260,7 @@ async function applyPublication(
     }
     try {
       await rollbackTransaction(transaction);
-      await validateRestoredContent(roots, input.recipeRecords);
+      await validateRecoveryDomain(roots, input.recipeRecords);
       await persistCleanupState(transaction, "rolled-back");
       await removeTransactionTree(transaction);
     } catch (rollbackError) {
@@ -3255,7 +3340,8 @@ export async function publishEditorialPromotion(
         media: {
           addedToManifest: prepared.manifest.added,
           removedFromManifest: prepared.manifest.removed,
-          reusedFromManifest: prepared.manifest.reused
+          reusedFromManifest: prepared.manifest.reused,
+          updatedInManifest: prepared.manifest.updated
         }
       };
     }

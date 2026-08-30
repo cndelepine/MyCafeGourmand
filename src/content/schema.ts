@@ -5,8 +5,10 @@ import {
   validateSafeLocalPath
 } from "./url-path";
 import { validateRecipeMediaPath } from "./media";
+import { localeValues } from "./locales";
 
-export const localeValues = ["en", "fr", "ru"] as const;
+export { localeValues };
+export type { Locale } from "./locales";
 export const localeSchema = z.enum(localeValues);
 
 export const quantitySchema = z.strictObject({
@@ -288,7 +290,6 @@ export const recipeRecordSchema = z.strictObject({
   }
 });
 
-export type Locale = z.infer<typeof localeSchema>;
 export type Quantity = z.infer<typeof quantitySchema>;
 export type NutritionAmount = z.infer<typeof nutritionAmountSchema>;
 export type Nutrition = z.infer<typeof nutritionSchema>;

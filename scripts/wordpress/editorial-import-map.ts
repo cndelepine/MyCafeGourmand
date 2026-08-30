@@ -1319,6 +1319,9 @@ function attachmentReference(
   if (metadata.duplicateKeys.size > 0) {
     issues.add("duplicate-attachment-meta");
   }
+  if (metadata.width === null || metadata.height === null) {
+    issues.add("invalid-attachment-metadata");
+  }
   if (ambiguousAttachmentIds.has(sourceId)) {
     issues.add("ambiguous-attachment-path");
   }
@@ -1331,7 +1334,9 @@ function attachmentReference(
       mimeType: attachment.mimeType,
       attachedFile: null,
       alt: metadata.alt,
-      archiveMatch: "missing"
+      archiveMatch: "missing",
+      width: metadata.width,
+      height: metadata.height
     };
   }
   const attachedFile = normalizeWprmAttachmentFile(metadata.attachedFile);
@@ -1343,7 +1348,9 @@ function attachmentReference(
       mimeType: attachment.mimeType,
       attachedFile: null,
       alt: metadata.alt,
-      archiveMatch: "unsafe"
+      archiveMatch: "unsafe",
+      width: metadata.width,
+      height: metadata.height
     };
   }
   const extension = path.posix.extname(attachedFile).toLowerCase();
@@ -1367,7 +1374,9 @@ function attachmentReference(
     mimeType: attachment.mimeType,
     attachedFile,
     alt: metadata.alt,
-    archiveMatch
+    archiveMatch,
+    width: metadata.width,
+    height: metadata.height
   };
 }
 

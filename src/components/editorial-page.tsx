@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { EditorialPageRecord } from "@/content/editorial-schema";
 import type { GalleryRecord } from "@/content/gallery-schema";
 import type { RecipeRecord } from "@/content/schema";
+import { getEditorialGalleryMediaDimensions } from "@/content/editorial-media-manifest";
 import {
   getEditorialStructuredData,
   serializeEditorialStructuredData
@@ -56,6 +57,12 @@ export function EditorialPage({
   if (page.featuredMediaId !== null && featured === undefined) {
     throw new Error(`Validated editorial featured media is missing at render time: ${page.featuredMediaId}`);
   }
+  const featuredWithDimensions = featured === undefined
+    ? undefined
+    : {
+        media: featured,
+        dimensions: getEditorialGalleryMediaDimensions(featured.path)
+      };
 
   return (
     <>
@@ -72,16 +79,16 @@ export function EditorialPage({
           <header className="editorial-page-header">
             {page.title ? <h1>{page.title}</h1> : null}
             {page.excerpt ? <p className="intro">{page.excerpt}</p> : null}
-            {featured ? (
+            {featuredWithDimensions ? (
               <figure className="editorial-featured-figure">
                 <Image
                   alt={page.featuredMediaAlt ?? ""}
                   className="editorial-featured-image"
-                  height={featured.height ?? 800}
+                  height={featuredWithDimensions.dimensions.height}
                   priority
                   sizes="(max-width: 700px) 100vw, 820px"
-                  src={resolveManagedMediaUrl(featured.path)}
-                  width={featured.width ?? 1200}
+                  src={resolveManagedMediaUrl(featuredWithDimensions.media.path)}
+                  width={featuredWithDimensions.dimensions.width}
                 />
               </figure>
             ) : null}

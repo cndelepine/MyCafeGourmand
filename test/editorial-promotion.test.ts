@@ -87,13 +87,25 @@ function crc32(value: Buffer) {
   return (current ^ 0xffffffff) >>> 0;
 }
 
+function sanitizedImageBytes(name: string) {
+  const image = Buffer.from(
+    "/9j/2wBDAP//////////////////////////////////////////////////////////////////////////////////////"
+    + "2wBDAf//////////////////////////////////////////////////////////////////////////////////////"
+    + "wAARCAADAAIDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/"
+    + "xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/"
+    + "EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKAA/9k=",
+    "base64"
+  );
+  return Buffer.concat([image, Buffer.from(`sanitized ${name}`, "utf8")]);
+}
+
 function zipArchive(names: readonly string[]) {
   const local: Buffer[] = [];
   const central: Buffer[] = [];
   let offset = 0;
   for (const name of names) {
     const nameBytes = Buffer.from(name, "utf8");
-    const content = Buffer.from(`sanitized ${name}`, "utf8");
+    const content = sanitizedImageBytes(name);
     const checksum = crc32(content);
     const localHeader = Buffer.alloc(30);
     localHeader.writeUInt32LE(0x04034b50, 0);
@@ -1367,7 +1379,9 @@ test("policy accepts only mapped issue combinations and exact featured ambiguity
       {
         attachedFile: "media/photo.jpg",
         alt: null,
-        duplicateKeys: new Set()
+        duplicateKeys: new Set(),
+        width: 800,
+        height: 600
       }
     ]],
     summaries: [archiveSummary()],
@@ -1383,7 +1397,9 @@ test("policy accepts only mapped issue combinations and exact featured ambiguity
     mimeType: "image/jpeg",
     attachedFile: "media/photo.jpg",
     alt: null,
-    archiveMatch: "matched"
+    archiveMatch: "matched",
+    width: 800,
+    height: 600
   };
   const cases: Array<{
     readonly accepted: boolean;
@@ -1433,6 +1449,15 @@ test("policy accepts only mapped issue combinations and exact featured ambiguity
       `policy case ${index + 1}`
     );
   }
+  assert.equal(
+    isEditorialPromotionPolicyEligible(candidate({
+      id: "25283",
+      sourcePath: "/privacy-policy/",
+      content: "<p>Obsolete policy</p>",
+      issueCodes: []
+    }), input),
+    false
+  );
 
   const featuredPlan = planEditorialPromotion({
     outcomes: [candidate({
@@ -1635,6 +1660,7 @@ test("gallery and provider-neutral contact blocks map source-backed public recor
     galleryIdState: "present",
     imageUrl: "photo-gallery/album/original.jpg",
     thumbUrl: "photo-gallery/album/thumb.jpg",
+    resolution: "1200 x 800 px",
     alt: "Source alt",
     description: "Source caption",
     order: 0,
@@ -2060,9 +2086,9 @@ test("editorial media upload planning is private, deterministic, and resumable",
     );
     assert.deepEqual(dryRun.objects, {
       count: 3,
-      bytes: Buffer.byteLength("sanitized uploads/2026/01/photo.jpg", "utf8")
-        + Buffer.byteLength("sanitized uploads/photo-gallery/album/original.jpg", "utf8")
-        + Buffer.byteLength("sanitized uploads/photo-gallery/album/thumb.jpg", "utf8"),
+      bytes: sanitizedImageBytes("uploads/2026/01/photo.jpg").byteLength
+        + sanitizedImageBytes("uploads/photo-gallery/album/original.jpg").byteLength
+        + sanitizedImageBytes("uploads/photo-gallery/album/thumb.jpg").byteLength,
       created: 0,
       reused: 0
     });
@@ -2515,6 +2541,52 @@ test("publication rolls back a failed write and recovers an interrupted write id
     assertNoEditorialTransactionArtifacts(fixtureValues.repositoryRoot);
     await promoteEditorialStaging(fixtureValues.promotionOptions);
     assert.deepEqual(publicationSnapshot(fixtureValues.repositoryRoot), before);
+  });
+});
+
+test("a conflicting create after journaling does not strand editorial recovery", async () => {
+  await withPublicationFixture(async (fixtureValues) => {
+    await assert.rejects(
+      promoteEditorialStaging({
+        ...fixtureValues.promotionOptions,
+        write: true,
+        failureInjection: "before-create-link"
+      }),
+      isInjectedPromotionInterruption
+    );
+    const conflict = path.join(
+      fixtureValues.repositoryRoot,
+      "content",
+      "editorial",
+      "en",
+      "1.json"
+    );
+    writeFileSync(conflict, "{}\n");
+
+    await assert.rejects(
+      promoteEditorialStaging({
+        ...fixtureValues.promotionOptions,
+        failureInjection: "after-rollback-preserved-create-journal"
+      }),
+      isInjectedPromotionInterruption
+    );
+    assert.equal(readFileSync(conflict, "utf8"), "{}\n");
+
+    await assert.rejects(
+      promoteEditorialStaging(fixtureValues.promotionOptions),
+      (error: unknown) => {
+        assert.ok(error instanceof EditorialPromotionRunnerError);
+        assert.equal(error.code, "editorial-content-collision");
+        return true;
+      }
+    );
+    assert.equal(readFileSync(conflict, "utf8"), "{}\n");
+    assertNoEditorialTransactionArtifacts(fixtureValues.repositoryRoot);
+
+    unlinkSync(conflict);
+    const recovered = await promoteEditorialStaging(fixtureValues.promotionOptions);
+    assert.equal(recovered.mode, "dry-run");
+    assertNoEditorialTransactionArtifacts(fixtureValues.repositoryRoot);
   });
 });
 

@@ -9,6 +9,7 @@ import { LandingPage } from "../src/components/landing-page";
 import { SiteHeader } from "../src/components/site-header";
 import { recipeCatalog } from "../src/content/catalog";
 import { editorialCatalog } from "../src/content/editorial-catalog";
+import { getEditorialGalleryMediaDimensions } from "../src/content/editorial-media-manifest";
 import { editorialPageRecordSchema } from "../src/content/editorial-schema";
 import { galleryCatalog } from "../src/content/gallery-catalog";
 import { createStaticWebAppConfig } from "../src/content/staticwebapp";
@@ -77,10 +78,10 @@ test("editorial routes preserve nested Unicode canonical paths and translation r
       }
     ]
   );
-  assert.equal(getEditorialStaticParams(editorialCatalog).length, 28);
+  assert.equal(getEditorialStaticParams(editorialCatalog).length, 27);
   assert.equal(
     getPublicStaticPageParams(recipeCatalog, editorialCatalog, galleryCatalog).length,
-    625
+    624
   );
   assert.equal(getStaticPathFromSegments(["ru", "о-сайте"]), "/ru/%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%D0%B5");
   assert.equal(
@@ -156,7 +157,16 @@ test("mobile navigation is server-rendered with native keyboard-operable disclos
 test("editorial rendering maps every bounded AST block to safe semantic HTML", () => {
   const source = page("wordpress:page:4");
   const mediaId = source.media?.[0]?.id;
+  const mediaPath = source.media?.[0]?.path;
   assert.ok(mediaId);
+  assert.ok(mediaPath);
+  const dimensions = getEditorialGalleryMediaDimensions(mediaPath);
+  assert.notDeepEqual(dimensions, { width: 1200, height: 800 });
+  const cardPage = editorialCatalog.find((candidate) => candidate.featuredMediaId !== null);
+  assert.ok(cardPage);
+  const cardMedia = cardPage.media?.find((media) => media.id === cardPage.featuredMediaId);
+  assert.ok(cardMedia);
+  const cardDimensions = getEditorialGalleryMediaDimensions(cardMedia.path);
   const gallery = galleryCatalog[0]!;
   const rendered = editorialPageRecordSchema.parse({
     ...source,
@@ -208,7 +218,7 @@ test("editorial rendering maps every bounded AST block to safe semantic HTML", (
         images: [{ mediaId, alt: "Reviewed image", caption: null }]
       },
       { type: "recipeCardGrid", recipeIds: [recipeCatalog[0]!.id] },
-      { type: "editorialPageCardGrid", pageIds: [source.id] },
+      { type: "editorialPageCardGrid", pageIds: [cardPage.id] },
       { type: "emptyCardGrid", reason: "source-category-missing" },
       { type: "galleryCallout", galleryId: gallery.id },
       { type: "contactForm" }
@@ -235,6 +245,15 @@ test("editorial rendering maps every bounded AST block to safe semantic HTML", (
   assert.match(markup, /class="gallery-callout"/u);
   assert.match(markup, /data-contact-form-boundary="unavailable"/u);
   assert.match(markup, /class="editorial-featured-image"/u);
+  assert.match(markup, new RegExp(`width="${dimensions.width}"`));
+  assert.match(markup, new RegExp(`height="${dimensions.height}"`));
+  assert.match(
+    markup,
+    new RegExp(
+      `<img(?=[^>]*class="editorial-card-image")(?=[^>]*width="${cardDimensions.width}")`
+      + `(?=[^>]*height="${cardDimensions.height}")[^>]*>`
+    )
+  );
   assert.match(markup, /href="\/table-setting\/?"/u);
   assert.match(markup, /href="\/gallery\/?"/u);
   assert.doesNotMatch(markup, /<form/u);
@@ -322,6 +341,15 @@ test("editorial headings and content-card headings are contextual without changi
 test("gallery rendering, sitemap, and static redirects close the public route set", () => {
   const gallery = galleryCatalog[0]!;
   const markup = renderToStaticMarkup(createElement(GalleryPage, { gallery }));
+  const firstImage = gallery.images[0];
+  assert.ok(firstImage);
+  assert.ok(firstImage.thumbnailMediaId);
+  const firstThumbnail = gallery.media?.find(
+    (media) => media.id === firstImage.thumbnailMediaId
+  );
+  assert.ok(firstThumbnail);
+  const dimensions = getEditorialGalleryMediaDimensions(firstThumbnail.path);
+  assert.notDeepEqual(dimensions, { width: 1200, height: 800 });
   const summary = validatePublicContentBehavior(recipeCatalog, editorialCatalog, galleryCatalog);
   const paths = sitemap().map((entry) => new URL(entry.url).pathname);
   const editorial = page("wordpress:page:4");
@@ -339,8 +367,11 @@ test("gallery rendering, sitemap, and static redirects close the public route se
 
   assert.match(markup, /class="gallery-grid"/u);
   assert.match(markup, /<img/u);
-  assert.equal(summary.staticPaths, 625);
-  assert.equal(summary.sitemapPaths, 622);
+  assert.equal(markup.includes(encodeURIComponent(firstThumbnail.path)), true);
+  assert.match(markup, new RegExp(`width="${dimensions.width}"`));
+  assert.match(markup, new RegExp(`height="${dimensions.height}"`));
+  assert.equal(summary.staticPaths, 624);
+  assert.equal(summary.sitemapPaths, 621);
   for (const path of [
     "/about-2/",
     "/fr/contact-2/",

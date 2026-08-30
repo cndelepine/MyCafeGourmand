@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getEditorialGalleryMediaDimensions } from "@/content/editorial-media-manifest";
 import type { GalleryRecord } from "@/content/gallery-schema";
 import {
   getGalleryStructuredData,
@@ -34,9 +35,10 @@ export function GalleryPage({ gallery }: GalleryPageProps) {
           <ul>
             {gallery.images.map((image) => {
               const original = getGalleryMedia(gallery, image.originalMediaId);
-              const thumbnail = image.thumbnailMediaId === null
+              const display = image.thumbnailMediaId === null
                 ? original
                 : getGalleryMedia(gallery, image.thumbnailMediaId);
+              const dimensions = getEditorialGalleryMediaDimensions(display.path);
               return (
                 <li key={image.sourceImageId}>
                   <figure>
@@ -46,10 +48,10 @@ export function GalleryPage({ gallery }: GalleryPageProps) {
                     >
                       <Image
                         alt={image.alt ?? ""}
-                        height={thumbnail.height ?? 800}
+                        height={dimensions.height}
                         sizes="(max-width: 700px) 100vw, 33vw"
-                        src={resolveManagedMediaUrl(thumbnail.path)}
-                        width={thumbnail.width ?? 1200}
+                        src={resolveManagedMediaUrl(display.path)}
+                        width={dimensions.width}
                       />
                     </a>
                     {image.caption ? <figcaption>{image.caption}</figcaption> : null}

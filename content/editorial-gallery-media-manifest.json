@@ -9,7 +9,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 15
-      }
+      },
+      "width": 900,
+      "height": 600
     },
     {
       "key": "/editorial/media/wordpress/169.jpg",
@@ -18,7 +20,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 169
-      }
+      },
+      "width": 2560,
+      "height": 1707
     },
     {
       "key": "/editorial/media/wordpress/494.png",
@@ -27,7 +31,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 494
-      }
+      },
+      "width": 592,
+      "height": 800
     },
     {
       "key": "/editorial/media/wordpress/496.png",
@@ -36,7 +42,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 496
-      }
+      },
+      "width": 592,
+      "height": 800
     },
     {
       "key": "/editorial/media/wordpress/497.png",
@@ -45,7 +53,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 497
-      }
+      },
+      "width": 592,
+      "height": 800
     },
     {
       "key": "/editorial/media/wordpress/687.jpg",
@@ -54,7 +64,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 687
-      }
+      },
+      "width": 2560,
+      "height": 1707
     },
     {
       "key": "/editorial/media/wordpress/688.jpg",
@@ -63,7 +75,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 688
-      }
+      },
+      "width": 2560,
+      "height": 1707
     },
     {
       "key": "/editorial/media/wordpress/81.jpg",
@@ -72,7 +86,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 81
-      }
+      },
+      "width": 1920,
+      "height": 2560
     },
     {
       "key": "/editorial/media/wordpress/90.jpg",
@@ -81,7 +97,9 @@
       "source": {
         "system": "wordpress",
         "attachmentId": 90
-      }
+      },
+      "width": 1920,
+      "height": 2560
     },
     {
       "key": "/gallery/media/wordpress-bwg/1-original.png",
@@ -90,7 +108,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 1
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/1-thumbnail.png",
@@ -99,7 +119,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 1
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/10-original.png",
@@ -108,7 +130,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 10
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/10-thumbnail.png",
@@ -117,7 +141,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 10
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/105-original.png",
@@ -126,7 +152,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 105
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/105-thumbnail.png",
@@ -135,7 +163,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 105
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/107-original.png",
@@ -144,7 +174,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 107
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/107-thumbnail.png",
@@ -153,7 +185,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 107
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/111-original.png",
@@ -162,7 +196,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 111
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/111-thumbnail.png",
@@ -171,7 +207,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 111
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/112-original.png",
@@ -180,7 +218,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 112
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/112-thumbnail.png",
@@ -189,7 +229,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 112
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/115-original.png",
@@ -198,7 +240,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 115
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/115-thumbnail.png",
@@ -207,7 +251,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 115
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/117-original.png",
@@ -216,7 +262,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 117
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/117-thumbnail.png",
@@ -225,7 +273,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 117
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/122-original.png",
@@ -234,7 +284,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 122
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/122-thumbnail.png",
@@ -243,7 +295,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 122
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/129-original.png",
@@ -252,7 +306,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 129
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/129-thumbnail.png",
@@ -261,7 +317,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 129
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/13-original.png",
@@ -270,7 +328,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 13
-      }
+      },
+      "width": 800,
+      "height": 800
     },
     {
       "key": "/gallery/media/wordpress-bwg/13-thumbnail.png",
@@ -279,7 +339,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 13
-      }
+      },
+      "width": 500,
+      "height": 500
     },
     {
       "key": "/gallery/media/wordpress-bwg/131-original.png",
@@ -288,7 +350,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 131
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/131-thumbnail.png",
@@ -297,7 +361,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 131
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/132-original.png",
@@ -306,7 +372,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 132
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/132-thumbnail.png",
@@ -315,7 +383,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 132
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/136-original.png",
@@ -324,7 +394,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 136
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/136-thumbnail.png",
@@ -333,7 +405,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 136
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/143-original.jpg",
@@ -342,7 +416,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 143
-      }
+      },
+      "width": 1200,
+      "height": 800
     },
     {
       "key": "/gallery/media/wordpress-bwg/143-thumbnail.jpg",
@@ -351,7 +427,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 143
-      }
+      },
+      "width": 500,
+      "height": 333
     },
     {
       "key": "/gallery/media/wordpress-bwg/144-original.png",
@@ -360,7 +438,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 144
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/144-thumbnail.png",
@@ -369,7 +449,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 144
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/145-original.png",
@@ -378,7 +460,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 145
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/145-thumbnail.png",
@@ -387,7 +471,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 145
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/147-original.png",
@@ -396,7 +482,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 147
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/147-thumbnail.png",
@@ -405,7 +493,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 147
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/150-original.png",
@@ -414,7 +504,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 150
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/150-thumbnail.png",
@@ -423,7 +515,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 150
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/154-original.png",
@@ -432,7 +526,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 154
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/154-thumbnail.png",
@@ -441,7 +537,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 154
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/158-original.png",
@@ -450,7 +548,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 158
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/158-thumbnail.png",
@@ -459,7 +559,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 158
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/160-original.png",
@@ -468,7 +570,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 160
-      }
+      },
+      "width": 528,
+      "height": 800
     },
     {
       "key": "/gallery/media/wordpress-bwg/160-thumbnail.png",
@@ -477,7 +581,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 160
-      }
+      },
+      "width": 330,
+      "height": 500
     },
     {
       "key": "/gallery/media/wordpress-bwg/176-original.png",
@@ -486,7 +592,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 176
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/176-thumbnail.png",
@@ -495,7 +603,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 176
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/188-original.png",
@@ -504,7 +614,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 188
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/188-thumbnail.png",
@@ -513,7 +625,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 188
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/189-original.png",
@@ -522,7 +636,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 189
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/189-thumbnail.png",
@@ -531,7 +647,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 189
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/194-original.png",
@@ -540,7 +658,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 194
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/194-thumbnail.png",
@@ -549,7 +669,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 194
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/195-original.png",
@@ -558,7 +680,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 195
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/195-thumbnail.png",
@@ -567,7 +691,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 195
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/196-original.png",
@@ -576,7 +702,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 196
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/196-thumbnail.png",
@@ -585,7 +713,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 196
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/197-original.png",
@@ -594,7 +724,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 197
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/197-thumbnail.png",
@@ -603,7 +735,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 197
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/20-original.png",
@@ -612,7 +746,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 20
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/20-thumbnail.png",
@@ -621,7 +757,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 20
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/201-original.png",
@@ -630,7 +768,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 201
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/201-thumbnail.png",
@@ -639,7 +779,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 201
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/206-original.png",
@@ -648,7 +790,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 206
-      }
+      },
+      "width": 800,
+      "height": 800
     },
     {
       "key": "/gallery/media/wordpress-bwg/206-thumbnail.png",
@@ -657,7 +801,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 206
-      }
+      },
+      "width": 500,
+      "height": 500
     },
     {
       "key": "/gallery/media/wordpress-bwg/207-original.png",
@@ -666,7 +812,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 207
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/207-thumbnail.png",
@@ -675,7 +823,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 207
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/209-original.png",
@@ -684,7 +834,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 209
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/209-thumbnail.png",
@@ -693,7 +845,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 209
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/21-original.png",
@@ -702,7 +856,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 21
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/21-thumbnail.png",
@@ -711,7 +867,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 21
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/227-original.png",
@@ -720,7 +878,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 227
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/227-thumbnail.png",
@@ -729,7 +889,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 227
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/229-original.png",
@@ -738,7 +900,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 229
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/229-thumbnail.png",
@@ -747,7 +911,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 229
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/230-original.png",
@@ -756,7 +922,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 230
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/230-thumbnail.png",
@@ -765,7 +933,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 230
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/234-original.png",
@@ -774,7 +944,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 234
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/234-thumbnail.png",
@@ -783,7 +955,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 234
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/235-original.png",
@@ -792,7 +966,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 235
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/235-thumbnail.png",
@@ -801,7 +977,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 235
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/25-original.png",
@@ -810,7 +988,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 25
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/25-thumbnail.png",
@@ -819,7 +999,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 25
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/27-original.png",
@@ -828,7 +1010,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 27
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/27-thumbnail.png",
@@ -837,7 +1021,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 27
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/28-original.png",
@@ -846,7 +1032,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 28
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/28-thumbnail.png",
@@ -855,7 +1043,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 28
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/29-original.png",
@@ -864,7 +1054,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 29
-      }
+      },
+      "width": 592,
+      "height": 800
     },
     {
       "key": "/gallery/media/wordpress-bwg/29-thumbnail.png",
@@ -873,7 +1065,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 29
-      }
+      },
+      "width": 370,
+      "height": 500
     },
     {
       "key": "/gallery/media/wordpress-bwg/30-original.png",
@@ -882,7 +1076,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 30
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/30-thumbnail.png",
@@ -891,7 +1087,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 30
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/31-original.png",
@@ -900,7 +1098,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 31
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/31-thumbnail.png",
@@ -909,7 +1109,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 31
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/37-original.png",
@@ -918,7 +1120,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 37
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/37-thumbnail.png",
@@ -927,7 +1131,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 37
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/38-original.png",
@@ -936,7 +1142,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 38
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/38-thumbnail.png",
@@ -945,7 +1153,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 38
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/41-original.png",
@@ -954,7 +1164,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 41
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/41-thumbnail.png",
@@ -963,7 +1175,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 41
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/44-original.png",
@@ -972,7 +1186,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 44
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/44-thumbnail.png",
@@ -981,7 +1197,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 44
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/45-original.png",
@@ -990,7 +1208,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 45
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/45-thumbnail.png",
@@ -999,7 +1219,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 45
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/49-original.png",
@@ -1008,7 +1230,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 49
-      }
+      },
+      "width": 592,
+      "height": 800
     },
     {
       "key": "/gallery/media/wordpress-bwg/49-thumbnail.png",
@@ -1017,7 +1241,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 49
-      }
+      },
+      "width": 370,
+      "height": 500
     },
     {
       "key": "/gallery/media/wordpress-bwg/5-original.png",
@@ -1026,7 +1252,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 5
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/5-thumbnail.png",
@@ -1035,7 +1263,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 5
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/51-original.png",
@@ -1044,7 +1274,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 51
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/51-thumbnail.png",
@@ -1053,7 +1285,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 51
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/52-original.png",
@@ -1062,7 +1296,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 52
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/52-thumbnail.png",
@@ -1071,7 +1307,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 52
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/58-original.png",
@@ -1080,7 +1318,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 58
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/58-thumbnail.png",
@@ -1089,7 +1329,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 58
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/63-original.png",
@@ -1098,7 +1340,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 63
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/63-thumbnail.png",
@@ -1107,7 +1351,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 63
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/66-original.png",
@@ -1116,7 +1362,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 66
-      }
+      },
+      "width": 592,
+      "height": 800
     },
     {
       "key": "/gallery/media/wordpress-bwg/66-thumbnail.png",
@@ -1125,7 +1373,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 66
-      }
+      },
+      "width": 370,
+      "height": 500
     },
     {
       "key": "/gallery/media/wordpress-bwg/67-original.png",
@@ -1134,7 +1384,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 67
-      }
+      },
+      "width": 800,
+      "height": 784
     },
     {
       "key": "/gallery/media/wordpress-bwg/67-thumbnail.png",
@@ -1143,7 +1395,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 67
-      }
+      },
+      "width": 500,
+      "height": 490
     },
     {
       "key": "/gallery/media/wordpress-bwg/75-original.png",
@@ -1152,7 +1406,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 75
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/75-thumbnail.png",
@@ -1161,7 +1417,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 75
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/77-original.png",
@@ -1170,7 +1428,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 77
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/77-thumbnail.png",
@@ -1179,7 +1439,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 77
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/79-original.png",
@@ -1188,7 +1450,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 79
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/79-thumbnail.png",
@@ -1197,7 +1461,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 79
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/81-original.png",
@@ -1206,7 +1472,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 81
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/81-thumbnail.png",
@@ -1215,7 +1483,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 81
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/82-original.png",
@@ -1224,7 +1494,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 82
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/82-thumbnail.png",
@@ -1233,7 +1505,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 82
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/9-original.png",
@@ -1242,7 +1516,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 9
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/9-thumbnail.png",
@@ -1251,7 +1527,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 9
-      }
+      },
+      "width": 500,
+      "height": 370
     },
     {
       "key": "/gallery/media/wordpress-bwg/93-original.png",
@@ -1260,7 +1538,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 93
-      }
+      },
+      "width": 800,
+      "height": 528
     },
     {
       "key": "/gallery/media/wordpress-bwg/93-thumbnail.png",
@@ -1269,7 +1549,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 93
-      }
+      },
+      "width": 500,
+      "height": 330
     },
     {
       "key": "/gallery/media/wordpress-bwg/96-original.png",
@@ -1278,7 +1560,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 96
-      }
+      },
+      "width": 800,
+      "height": 592
     },
     {
       "key": "/gallery/media/wordpress-bwg/96-thumbnail.png",
@@ -1287,7 +1571,9 @@
       "source": {
         "system": "wordpress-bwg",
         "imageId": 96
-      }
+      },
+      "width": 500,
+      "height": 370
     }
   ]
 }

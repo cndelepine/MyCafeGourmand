@@ -2,7 +2,7 @@ import {
   isWordPressRecipeMediaObjectKey,
   validateRecipeMediaPath
 } from "../content/media";
-import { publicManagedMediaPathSchema } from "../content/editorial-schema";
+import { validatePublicManagedMediaPath } from "../content/editorial-media-path";
 import { validateSafeLocalPath } from "../content/url-path";
 
 export const recipeMediaBaseUrlEnvironmentVariable = "NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL";
@@ -135,7 +135,7 @@ export function resolveManagedMediaUrl(
   mediaPath: string,
   baseUrl: string | undefined = process.env.NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL
 ) {
-  publicManagedMediaPathSchema.parse(mediaPath);
+  validatePublicManagedMediaPath(mediaPath, "Public media path");
   return resolveManagedObjectUrl(mediaPath, baseUrl);
 }
 

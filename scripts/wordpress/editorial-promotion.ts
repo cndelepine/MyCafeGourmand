@@ -80,6 +80,7 @@ const acceptedIssuePatterns = new Set([
   "unsupported-contact-form-7",
   "unsupported-wp-tiles"
 ]);
+const ownerExcludedEditorialSourceIds = new Set(["25283"]);
 
 type SourceRouteTarget =
   | {
@@ -150,6 +151,8 @@ export type EditorialPlannedMediaBinding = {
   readonly role: "featured" | "inline" | "original" | "thumbnail";
   readonly sourceId: string;
   readonly sourceKind: "wordpress-attachment" | "wordpress-bwg-image";
+  readonly width: number | null;
+  readonly height: number | null;
 };
 
 export type EditorialPromotionSummary = {
@@ -1309,6 +1312,9 @@ function attachmentMedia(
     fail("unresolved-editorial-media");
   }
   const { extension, mimeType } = extensionMimeType(archivePath, attachment.mimeType);
+  if (metadata.width === null || metadata.height === null) {
+    fail("invalid-editorial-media-dimensions");
+  }
   const mediaId = `wordpress:attachment:${attachmentId}`;
   const publicPath = `/editorial/media/wordpress/${attachmentId}${extension}`;
   const bindingKey = `${attachmentId}:${publicPath}`;
@@ -1320,7 +1326,9 @@ function attachmentMedia(
     publicPath,
     role: "inline",
     sourceId: attachmentId,
-    sourceKind: "wordpress-attachment"
+    sourceKind: "wordpress-attachment",
+    width: metadata.width,
+    height: metadata.height
   });
   return {
     media: {
@@ -1397,6 +1405,9 @@ function policyBlockReason(
   outcome: EditorialCandidateOutcome,
   snapshot: EditorialSourceSnapshot
 ) {
+  if (ownerExcludedEditorialSourceIds.has(outcome.sourceId)) {
+    return "owner-excluded-obsolete-privacy-policy";
+  }
   if (
     outcome.record.publicationDisposition === "posts-archive"
     || outcome.publication !== "published"
@@ -1688,10 +1699,21 @@ function galleryImagePublished(image: RawBwgImage) {
   fail("unknown-gallery-image-publication");
 }
 
+function galleryDimensions(value: string | null) {
+  const match = value?.match(/^\s*(?<width>[1-9]\d*)\s*x\s*(?<height>[1-9]\d*)(?:\s*px)?\s*$/iu);
+  const width = match?.groups?.width === undefined ? Number.NaN : Number(match.groups.width);
+  const height = match?.groups?.height === undefined ? Number.NaN : Number(match.groups.height);
+  if (!Number.isSafeInteger(width) || !Number.isSafeInteger(height)) {
+    fail("invalid-gallery-media-dimensions");
+  }
+  return { width, height };
+}
+
 function galleryAsset(
   sourceId: string,
   role: "original" | "thumbnail",
   sourcePath: string,
+  dimensions: { readonly width: number; readonly height: number } | null,
   snapshot: EditorialSourceSnapshot,
   bindings: Map<string, EditorialPlannedMediaBinding>
 ) {
@@ -1738,7 +1760,9 @@ function galleryAsset(
     publicPath,
     role,
     sourceId,
-    sourceKind: "wordpress-bwg-image"
+    sourceKind: "wordpress-bwg-image",
+    width: dimensions?.width ?? null,
+    height: dimensions?.height ?? null
   });
   return {
     id: mediaId,
@@ -1786,11 +1810,18 @@ function mapGallery(snapshot: EditorialSourceSnapshot, gallerySourceId: string) 
     if (image.imageUrl === null) {
       fail("missing-gallery-original");
     }
-    const original = galleryAsset(image.id, "original", image.imageUrl, snapshot, bindings);
+    const original = galleryAsset(
+      image.id,
+      "original",
+      image.imageUrl,
+      galleryDimensions(image.resolution),
+      snapshot,
+      bindings
+    );
     media.push(original);
     const thumbnail = image.thumbUrl === null
       ? null
-      : galleryAsset(image.id, "thumbnail", image.thumbUrl, snapshot, bindings);
+      : galleryAsset(image.id, "thumbnail", image.thumbUrl, null, snapshot, bindings);
     if (thumbnail !== null) {
       media.push(thumbnail);
     }
@@ -2044,6 +2075,8 @@ export function planEditorialPromotion(input: {
           || existing.archivePath !== binding.archivePath
           || existing.archiveSha256 !== binding.archiveSha256
           || existing.entryIndexContractSha256 !== binding.entryIndexContractSha256
+          || existing.width !== binding.width
+          || existing.height !== binding.height
         )
       ) {
         fail("editorial-media-binding-mismatch");
@@ -2080,7 +2113,10 @@ export function planEditorialPromotion(input: {
     gallery,
     mediaBindings: bindings,
     publicationExcludedRecordIds: input.outcomes
-      .filter((outcome) => outcome.record.publicationDisposition === "posts-archive")
+      .filter((outcome) =>
+        outcome.record.publicationDisposition === "posts-archive"
+        || ownerExcludedEditorialSourceIds.has(outcome.sourceId)
+      )
       .map((outcome) => pageRecordId(outcome.sourceId))
       .sort((left, right) => left.localeCompare(right)),
     records: selectedPages.map((page) => page.record),

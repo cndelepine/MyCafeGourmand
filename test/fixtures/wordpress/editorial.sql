@@ -50,6 +50,8 @@ CREATE TABLE `wp_bwg_image` (
   `gallery_id` bigint NOT NULL,
   `image_url` varchar(255),
   `thumb_url` varchar(255),
+  `resolution` varchar(128),
+  `resolution_thumb` varchar(128),
   `published` varchar(10) NOT NULL
 );
 
@@ -69,7 +71,8 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
   (1, 1, '_thumbnail_id', '10'),
   (2, 10, '_wp_attached_file', '2026/01/photo.jpg'),
-  (3, 10, '_wp_attachment_image_alt', 'Source alt text');
+  (3, 10, '_wp_attachment_image_alt', 'Source alt text'),
+  (4, 10, '_wp_attachment_metadata', 'a:2:{s:5:"width";i:800;s:6:"height";i:600;}');
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`) VALUES
   (1, 'Test English Locale', 'en'),
@@ -88,5 +91,5 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`) VALUES
 
 INSERT INTO `wp_bwg_gallery` (`id`, `name`) VALUES
   (300, 'Private gallery wording');
-INSERT INTO `wp_bwg_image` (`id`, `gallery_id`, `image_url`, `thumb_url`, `published`) VALUES
-  (301, 300, 'photo-gallery/album/original.jpg', 'photo-gallery/album/thumb.jpg', '1');
+INSERT INTO `wp_bwg_image` (`id`, `gallery_id`, `image_url`, `thumb_url`, `resolution`, `resolution_thumb`, `published`) VALUES
+  (301, 300, 'photo-gallery/album/original.jpg', 'photo-gallery/album/thumb.jpg', '1200 x 800 px', '300x200', '1');

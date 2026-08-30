@@ -42,7 +42,9 @@ export const editorialGalleryMediaManifestEntrySchema = z.strictObject({
   key: publicManagedMediaPathSchema,
   bytes: z.number().int().positive().max(1_000_000_000),
   sha256: z.string().regex(sha256),
-  source: publicMediaSourceSchema
+  source: publicMediaSourceSchema,
+  width: z.number().int().positive().safe().optional(),
+  height: z.number().int().positive().safe().optional()
 }).superRefine((entry, context) => {
   if (!sourceMatchesPath(entry.key, entry.source)) {
     context.addIssue({
@@ -139,7 +141,8 @@ function sameSource(left: PublicMediaSource, right: PublicMediaSource) {
 export function validateEditorialGalleryMediaManifestClosure(
   editorialRecords: readonly EditorialPageRecord[],
   galleryRecords: readonly GalleryRecord[],
-  manifest: EditorialGalleryMediaManifest
+  manifest: EditorialGalleryMediaManifest,
+  options: { readonly requireDimensions?: boolean } = {}
 ) {
   const entries = new Map(manifest.entries.map((entry) => [entry.key, entry] as const));
   const referenced = new Set<string>();
@@ -150,7 +153,14 @@ export function validateEditorialGalleryMediaManifestClosure(
 
   for (const object of media) {
     const entry = entries.get(object.path);
-    if (entry === undefined || !sameSource(entry.source, object.source)) {
+    if (
+      entry === undefined
+      || !sameSource(entry.source, object.source)
+      || (
+        options.requireDimensions !== false
+        && (entry.width === undefined || entry.height === undefined)
+      )
+    ) {
       throw new Error(
         `Promoted editorial/gallery media is absent from the media manifest: ${object.path}`
       );
@@ -164,4 +174,18 @@ export function validateEditorialGalleryMediaManifestClosure(
       );
     }
   }
+}
+
+let cachedDefaultManifest: EditorialGalleryMediaManifest | undefined;
+
+export function getEditorialGalleryMediaDimensions(mediaPath: string) {
+  const manifest = cachedDefaultManifest ??= loadEditorialGalleryMediaManifest();
+  const entry = manifest.entries.find((candidate) => candidate.key === mediaPath);
+  if (entry?.width === undefined || entry.height === undefined) {
+    throw new Error(`Editorial/gallery media dimensions are unavailable: ${mediaPath}`);
+  }
+  return {
+    width: entry.width,
+    height: entry.height
+  };
 }

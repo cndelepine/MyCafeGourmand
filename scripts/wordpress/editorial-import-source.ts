@@ -16,6 +16,7 @@ import {
   WprmSourceOptionsError
 } from "./wprm-import-options";
 import { parsePhpSerialized } from "./php-serialize";
+import { parseStructuredValue } from "./source-evidence-structured";
 import {
   EditorialImportError,
   mergeEditorialImportLimits,
@@ -62,11 +63,40 @@ interface PassTwoState {
   readonly attachmentAlts: Map<string, string | null>;
   readonly attachmentSeenKeys: Map<string, Set<string>>;
   readonly attachmentDuplicateKeys: Map<string, Set<string>>;
+  readonly attachmentDimensions: Map<string, {
+    readonly width: number | null;
+    readonly height: number | null;
+  }>;
   readonly featuredValues: Map<string, string[]>;
   readonly featuredMalformed: Set<string>;
   evidenceReferenceCount: number;
   featuredReferenceCount: number;
   postMetaRows: number;
+}
+
+function positiveDimension(value: unknown) {
+  const parsed = typeof value === "number"
+    ? value
+    : typeof value === "string" && /^(?:0|[1-9]\d*)$/u.test(value)
+      ? Number(value)
+      : Number.NaN;
+  return Number.isSafeInteger(parsed) && parsed > 0 ? parsed : null;
+}
+
+function attachmentDimensions(value: string, limits: EditorialImportLimits) {
+  const parsed = parseStructuredValue(value, limits.evidence);
+  if (
+    parsed === null
+    || parsed.value === null
+    || typeof parsed.value !== "object"
+    || Array.isArray(parsed.value)
+  ) {
+    return { width: null, height: null };
+  }
+  return {
+    width: positiveDimension(parsed.value.width),
+    height: positiveDimension(parsed.value.height)
+  };
 }
 
 function sourceError(error: unknown, fallback = "source-error"): EditorialImportError {
@@ -532,6 +562,7 @@ function processGallery(
     galleryIdState: gallery.state,
     imageUrl,
     thumbUrl,
+    resolution: textOrNull(rowValue(insert.row, "resolution")),
     alt: textOrNull(rowValue(insert.row, "alt")),
     description: textOrNull(rowValue(insert.row, "description")),
     order: order.value,
@@ -651,7 +682,11 @@ function metadataHandlers(
       if (!attachments.has(postId)) {
         return;
       }
-      if (key !== "_wp_attached_file" && key !== "_wp_attachment_image_alt") {
+      if (
+        key !== "_wp_attached_file"
+        && key !== "_wp_attachment_image_alt"
+        && key !== "_wp_attachment_metadata"
+      ) {
         return;
       }
       const seen = state.attachmentSeenKeys.get(postId) ?? new Set<string>();
@@ -664,8 +699,10 @@ function metadataHandlers(
       state.attachmentDuplicateKeys.set(postId, duplicates);
       if (key === "_wp_attached_file") {
         state.attachedFiles.set(postId, value.length === 0 ? null : value);
-      } else {
+      } else if (key === "_wp_attachment_image_alt") {
         state.attachmentAlts.set(postId, rowValue(insert.row, "meta_value") ?? null);
+      } else {
+        state.attachmentDimensions.set(postId, attachmentDimensions(value, limits));
       }
     }
   };
@@ -787,6 +824,7 @@ export async function extractEditorialSource(input: {
     attachmentAlts: new Map(),
     attachmentSeenKeys: new Map(),
     attachmentDuplicateKeys: new Map(),
+    attachmentDimensions: new Map(),
     featuredValues: new Map(),
     featuredMalformed: new Set(),
     evidenceReferenceCount: passOne.evidenceReferenceCount,
@@ -818,10 +856,13 @@ export async function extractEditorialSource(input: {
   }
   const attachmentMeta = new Map<string, RawEditorialAttachmentMeta>();
   for (const attachmentId of passOne.attachments.keys()) {
+    const dimensions = passTwo.attachmentDimensions.get(attachmentId);
     attachmentMeta.set(attachmentId, {
       attachedFile: passTwo.attachedFiles.get(attachmentId) ?? null,
       alt: passTwo.attachmentAlts.get(attachmentId) ?? null,
-      duplicateKeys: passTwo.attachmentDuplicateKeys.get(attachmentId) ?? new Set()
+      duplicateKeys: passTwo.attachmentDuplicateKeys.get(attachmentId) ?? new Set(),
+      width: dimensions?.width ?? null,
+      height: dimensions?.height ?? null
     });
   }
   const featuredMediaReferences = new Map<string, readonly (string | null)[]>();

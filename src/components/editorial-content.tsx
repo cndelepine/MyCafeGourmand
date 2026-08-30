@@ -5,6 +5,7 @@ import type {
   RichTextBlock,
   RichTextInline
 } from "@/content/editorial-schema";
+import { getEditorialGalleryMediaDimensions } from "@/content/editorial-media-manifest";
 import type { GalleryRecord } from "@/content/gallery-schema";
 import type { RecipeRecord } from "@/content/schema";
 import { createRecipeCatalogEntries } from "@/lib/recipe-catalog-data";
@@ -86,15 +87,16 @@ function EditorialImage({
   readonly mediaId: string;
 }) {
   const asset = getMedia(media, mediaId);
+  const dimensions = getEditorialGalleryMediaDimensions(asset.path);
   return (
     <figure className="editorial-figure">
       <Image
         alt={alt ?? ""}
         className="editorial-image"
-        height={asset.height ?? 800}
+        height={dimensions.height}
         sizes="(max-width: 700px) 100vw, 900px"
         src={resolveManagedMediaUrl(asset.path)}
-        width={asset.width ?? 1200}
+        width={dimensions.width}
       />
       {caption ? <figcaption>{caption}</figcaption> : null}
     </figure>

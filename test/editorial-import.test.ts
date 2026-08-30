@@ -1211,7 +1211,7 @@ test("missing BWG gallery references remain visible without gallery candidates",
         ""
       )
       .replace(
-        "INSERT INTO `wp_bwg_image` (`id`, `gallery_id`, `image_url`, `thumb_url`, `published`) VALUES\n  (301, 300, 'photo-gallery/album/original.jpg', 'photo-gallery/album/thumb.jpg', '1');\n",
+        "INSERT INTO `wp_bwg_image` (`id`, `gallery_id`, `image_url`, `thumb_url`, `resolution`, `resolution_thumb`, `published`) VALUES\n  (301, 300, 'photo-gallery/album/original.jpg', 'photo-gallery/album/thumb.jpg', '1200 x 800 px', '300x200', '1');\n",
         ""
       )
       .replace(

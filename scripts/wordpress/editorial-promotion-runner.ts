@@ -88,6 +88,7 @@ export type EditorialPromotionResult = {
     readonly addedToManifest: number;
     readonly removedFromManifest: number;
     readonly reusedFromManifest: number;
+    readonly updatedInManifest: number;
   };
   readonly privacy: {
     readonly candidateIdentifiersAreKeyedHmac: true;
