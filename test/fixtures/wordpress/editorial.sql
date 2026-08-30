@@ -43,7 +43,8 @@ CREATE TABLE `wp_term_relationships` (
 );
 CREATE TABLE `wp_bwg_gallery` (
   `id` bigint NOT NULL,
-  `name` varchar(255) NOT NULL
+  `name` varchar(255) NOT NULL,
+  `published` varchar(10) NOT NULL
 );
 CREATE TABLE `wp_bwg_image` (
   `id` bigint NOT NULL,
@@ -89,7 +90,7 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`) VALUES
   (1, 100),
   (2, 100);
 
-INSERT INTO `wp_bwg_gallery` (`id`, `name`) VALUES
-  (300, 'Private gallery wording');
+INSERT INTO `wp_bwg_gallery` (`id`, `name`, `published`) VALUES
+  (300, 'Private gallery wording', '1');
 INSERT INTO `wp_bwg_image` (`id`, `gallery_id`, `image_url`, `thumb_url`, `resolution`, `resolution_thumb`, `published`) VALUES
   (301, 300, 'photo-gallery/album/original.jpg', 'photo-gallery/album/thumb.jpg', '1200 x 800 px', '300x200', '1');

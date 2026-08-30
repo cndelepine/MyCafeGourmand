@@ -2080,6 +2080,9 @@ async function recoverTransaction(
       await removeTransactionTree(transaction);
       return;
     }
+    for (const operation of transaction.operations) {
+      await inspectRecoveryOperation(operation);
+    }
     if (transaction.phase !== "rollback") {
       await persistState(
         transaction,

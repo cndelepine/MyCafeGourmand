@@ -156,6 +156,7 @@ type StagingPaths = {
 type PlannedRecord = {
   readonly record: RecipeRecord;
   readonly destination: string;
+  readonly expectedDestinationProof: FileProof | null;
   readonly action:
     | "create"
     | "reuse"
@@ -186,6 +187,7 @@ type PlannedMediaManifest = {
   readonly action: "create" | "replace" | "reuse";
   readonly destination: string;
   readonly expected: RecipeMediaManifest | null;
+  readonly expectedDestinationProof: FileProof | null;
   readonly manifest: RecipeMediaManifest;
 };
 
@@ -877,7 +879,7 @@ function contentDestination(record: RecipeRecord, contentRoot: string) {
   return destination;
 }
 
-async function readRegularJson(target: string) {
+async function readRegularJsonWithProof(target: string) {
   const stats = await existingStats(target);
   if (stats === null || !isRegularFile(stats)) {
     fail("destination-file-conflict");
@@ -889,7 +891,16 @@ async function readRegularJson(target: string) {
     if (!handleStats.isFile()) {
       fail("destination-file-conflict");
     }
-    return JSON.parse((await handle.readFile()).toString("utf8")) as unknown;
+    const bytes = await handle.readFile();
+    return {
+      value: JSON.parse(bytes.toString("utf8")) as unknown,
+      proof: {
+        bytes: handleStats.size,
+        dev: handleStats.dev,
+        ino: handleStats.ino,
+        sha256: createHash("sha256").update(bytes).digest("hex")
+      }
+    };
   } catch (error) {
     if (error instanceof WprmPromotionError) {
       throw error;
@@ -898,6 +909,10 @@ async function readRegularJson(target: string) {
   } finally {
     await handle?.close();
   }
+}
+
+async function readRegularJson(target: string) {
+  return (await readRegularJsonWithProof(target)).value;
 }
 
 function isAuthorizedPrototypeReplacement(
@@ -1130,20 +1145,21 @@ async function planRecords(
 
     const targetStats = await existingStats(destination);
     if (targetStats === null) {
-      planned.push({ record, destination, action: "create" });
+      planned.push({ record, destination, expectedDestinationProof: null, action: "create" });
       continue;
     }
     if (prototypeReplacement) {
       if (!isRegularFile(targetStats)) {
         fail("destination-file-conflict");
       }
-      const existingTarget = recipeRecordSchema.safeParse(await readRegularJson(destination));
+      const existingTargetRead = await readRegularJsonWithProof(destination);
+      const existingTarget = recipeRecordSchema.safeParse(existingTargetRead.value);
       if (
         existingTarget.success
         && canonicalEquals(existingTarget.data, record)
         && provenanceEquals(existingTarget.data, record)
       ) {
-        planned.push({ record, destination, action: "reuse" });
+        planned.push({ record, destination, expectedDestinationProof: null, action: "reuse" });
         continue;
       }
       if (
@@ -1151,31 +1167,52 @@ async function planRecords(
         && provenanceEquals(existingTarget.data, record)
         && isAuthorizedDisplayTextNormalizationReplacement(existingTarget.data, record)
       ) {
-        planned.push({ record, destination, action: "replace-normalized-display-text" });
+        planned.push({
+          record,
+          destination,
+          expectedDestinationProof: existingTargetRead.proof,
+          action: "replace-normalized-display-text"
+        });
         continue;
       }
       await verifyLegacyPrototypeSeed(roots, destination, prototypeSeed);
-      planned.push({ record, destination, action: "replace-prototype" });
+      planned.push({
+        record,
+        destination,
+        expectedDestinationProof: existingTargetRead.proof,
+        action: "replace-prototype"
+      });
       replacedExistingIds.add(prototypeSeed.id);
       continue;
     }
     if (!isRegularFile(targetStats)) {
       fail("destination-file-conflict");
     }
-    const existingTarget = recipeRecordSchema.safeParse(await readRegularJson(destination));
+    const existingTargetRead = await readRegularJsonWithProof(destination);
+    const existingTarget = recipeRecordSchema.safeParse(existingTargetRead.value);
     if (!existingTarget.success || !provenanceEquals(existingTarget.data, record)) {
       fail("destination-file-conflict");
     }
     if (canonicalEquals(existingTarget.data, record)) {
-      planned.push({ record, destination, action: "reuse" });
+      planned.push({ record, destination, expectedDestinationProof: null, action: "reuse" });
       continue;
     }
     if (isAuthorizedRedirectReplacement(existingTarget.data, record)) {
-      planned.push({ record, destination, action: "replace-redirects" });
+      planned.push({
+        record,
+        destination,
+        expectedDestinationProof: existingTargetRead.proof,
+        action: "replace-redirects"
+      });
       continue;
     }
     if (isAuthorizedDisplayTextNormalizationReplacement(existingTarget.data, record)) {
-      planned.push({ record, destination, action: "replace-normalized-display-text" });
+      planned.push({
+        record,
+        destination,
+        expectedDestinationProof: existingTargetRead.proof,
+        action: "replace-normalized-display-text"
+      });
       continue;
     }
     fail("destination-file-conflict");
@@ -1512,16 +1549,20 @@ async function loadExistingMediaManifest(roots: PromotionRoots) {
   if (stats === null) {
     return {
       manifest: createRecipeMediaManifest([]),
-      exists: false
+      exists: false,
+      proof: null
     };
   }
   if (!isRegularFile(stats)) {
     fail("media-manifest-conflict");
   }
   try {
+    const existing = await readRegularJsonWithProof(roots.mediaManifest);
+    const manifest = parseRecipeMediaManifest(existing.value);
     return {
-      manifest: loadRecipeMediaManifest(roots.mediaManifest),
-      exists: true
+      manifest,
+      exists: true,
+      proof: existing.proof
     };
   } catch {
     fail("invalid-media-manifest");
@@ -1591,6 +1632,7 @@ function planMediaManifest(
   roots: PromotionRoots,
   existing: RecipeMediaManifest,
   exists: boolean,
+  expectedDestinationProof: FileProof | null,
   prospective: RecipeMediaManifest
 ): PlannedMediaManifest {
   return {
@@ -1599,6 +1641,7 @@ function planMediaManifest(
       : "create",
     destination: roots.mediaManifest,
     expected: exists ? existing : null,
+    expectedDestinationProof,
     manifest: prospective
   };
 }
@@ -2826,7 +2869,7 @@ async function validatePromotionTransactionTree(
       .filter((operation) => operation.kind === "replace" || operation.kind === "remove")
       .map((operation) => [
         path.basename(operation.backup),
-        operation.backupProof
+        operation
       ] as const)
   );
   if (
@@ -2892,17 +2935,23 @@ async function validatePromotionTransactionTree(
       maxPromotionJournalOperations + 1
     );
     for (const entry of backupEntries) {
-      const proof = expectedBackups.get(entry.name);
+      const operation = expectedBackups.get(entry.name);
       const target = path.join(location.backups, entry.name);
       const stats = await existingStats(target);
+      const preservesPreparedReplacementConflict = operation?.kind === "replace"
+        && operation.state === "prepared"
+        && await existingStats(operation.destination) === null;
       if (
-        proof === undefined
+        operation === undefined
         || entry.isSymbolicLink()
         || !entry.isFile()
         || stats === null
         || !isRegularFile(stats)
         || !isOwnedByCurrentUser(stats)
-        || !await proofMatches(target, proof)
+        || (
+          !await proofMatches(target, operation.backupProof)
+          && !preservesPreparedReplacementConflict
+        )
       ) {
         fail("invalid-promotion-journal");
       }
@@ -2949,7 +2998,12 @@ async function matchesStagedArtifact(target: string, artifact: StagedArtifact) {
 
 type PromotionRecoveryAction = {
   readonly operation: TransactionOperation;
-  readonly action: "none" | "remove-created" | "restore";
+  readonly action:
+    | "none"
+    | "preserve-conflict"
+    | "remove-created"
+    | "restore"
+    | "restore-conflict";
 };
 
 async function inspectPromotionRecoveryOperation(
@@ -2976,15 +3030,22 @@ async function inspectPromotionRecoveryOperation(
   }
 
   const backupStats = await existingStats(operation.backup);
-  if (backupStats !== null && (
-    !isRegularFile(backupStats)
-    || !isOwnedByCurrentUser(backupStats)
-    || !await proofMatches(operation.backup, operation.backupProof)
-  )) {
+  if (
+    backupStats !== null
+    && (!isRegularFile(backupStats) || !isOwnedByCurrentUser(backupStats))
+  ) {
     fail("invalid-promotion-journal");
   }
+  const backupMatches = backupStats !== null
+    && await proofMatches(operation.backup, operation.backupProof);
   if (operation.kind === "replace") {
     if (backupStats !== null) {
+      if (!backupMatches) {
+        if (operation.state === "prepared" && destinationStats === null) {
+          return { operation, action: "restore-conflict" };
+        }
+        fail("invalid-promotion-journal");
+      }
       if (
         destinationStats !== null
         && !await proofMatches(operation.destination, operation.stagedProof)
@@ -2999,10 +3060,19 @@ async function inspectPromotionRecoveryOperation(
     ) {
       return { operation, action: "none" };
     }
+    if (
+      backupStats === null
+      && (operation.state === "prepared" || operation.state === "rolled-back")
+    ) {
+      return { operation, action: "preserve-conflict" };
+    }
     fail("invalid-promotion-journal");
   }
 
   if (backupStats !== null) {
+    if (!backupMatches) {
+      fail("invalid-promotion-journal");
+    }
     if (destinationStats !== null) {
       fail("invalid-promotion-journal");
     }
@@ -3021,7 +3091,7 @@ async function executePromotionRecoveryAction(
   action: PromotionRecoveryAction,
   failureInjection: WprmPromotionOptions["failureInjection"] | undefined
 ) {
-  if (action.action === "none") {
+  if (action.action === "none" || action.action === "preserve-conflict") {
     return;
   }
   const { operation } = action;
@@ -3047,7 +3117,10 @@ async function executePromotionRecoveryAction(
     backupStats === null
     || !isRegularFile(backupStats)
     || !isOwnedByCurrentUser(backupStats)
-    || !await proofMatches(operation.backup, operation.backupProof)
+    || (
+      action.action !== "restore-conflict"
+      && !await proofMatches(operation.backup, operation.backupProof)
+    )
   ) {
     fail("promotion-journal-recovery-failed");
   }
@@ -3925,14 +3998,14 @@ async function publishReplacement(
   transaction: PromotionTransaction,
   staged: string,
   destination: string,
+  expectedDestinationProof: FileProof,
   failureCode: string
 ) {
-  const targetStats = await existingStats(destination);
-  if (targetStats === null || !isRegularFile(targetStats)) {
+  if (!await proofMatches(destination, expectedDestinationProof)) {
     fail(failureCode);
   }
   const stagedProof = await stagedProofForTransaction(transaction, staged);
-  const backupProof = await hashRegularFile(destination);
+  const backupProof = expectedDestinationProof;
   const backup = path.join(
     transaction.backups,
     `${transaction.backupSequence += 1}.replacement`
@@ -3958,6 +4031,9 @@ async function publishReplacement(
       path.dirname(destination),
       transaction.backups
     ]);
+    if (!await proofMatches(backup, expectedDestinationProof)) {
+      fail(failureCode);
+    }
     interruptAt(
       transaction.failureInjection,
       "after-live-move-before-replacement-link"
@@ -3980,6 +4056,7 @@ async function publishPrototypeReplacement(
   transaction: PromotionTransaction,
   staged: string,
   destination: string,
+  expectedDestinationProof: FileProof,
   prototypeSeed: WprmPrototypeSeed
 ) {
   await verifyLegacyPrototypeSeed(transaction.roots, destination, prototypeSeed);
@@ -3987,6 +4064,7 @@ async function publishPrototypeReplacement(
     transaction,
     staged,
     destination,
+    expectedDestinationProof,
     "prototype-seed-replacement-failed"
   );
 }
@@ -4000,7 +4078,11 @@ async function publishMediaManifest(
     await publishCreate(transaction, staged, mediaManifest.destination);
     return;
   }
-  if (mediaManifest.action !== "replace" || mediaManifest.expected === null) {
+  if (
+    mediaManifest.action !== "replace"
+    || mediaManifest.expected === null
+    || mediaManifest.expectedDestinationProof === null
+  ) {
     fail("media-manifest-conflict");
   }
   let actual: RecipeMediaManifest;
@@ -4018,6 +4100,7 @@ async function publishMediaManifest(
     transaction,
     staged,
     mediaManifest.destination,
+    mediaManifest.expectedDestinationProof,
     "media-manifest-replacement-failed"
   );
 }
@@ -4173,30 +4256,42 @@ async function applyPlan(
         fail("promotion-stage-failed");
       }
       if (entry.action === "replace-prototype") {
+        if (entry.expectedDestinationProof === null) {
+          fail("prototype-seed-replacement-failed");
+        }
         await publishPrototypeReplacement(
           transaction,
           stagedFile,
           entry.destination,
+          entry.expectedDestinationProof,
           prototypeSeed
         );
         if (hasFailureInjection(failureInjection, "after-prototype-replacement")) {
           fail("injected-promotion-failure");
         }
       } else if (entry.action === "replace-normalized-display-text") {
+        if (entry.expectedDestinationProof === null) {
+          fail("normalized-display-text-replacement-failed");
+        }
         await publishReplacement(
           transaction,
           stagedFile,
           entry.destination,
+          entry.expectedDestinationProof,
           "normalized-display-text-replacement-failed"
         );
         if (hasFailureInjection(failureInjection, "after-normalized-display-text-replacement")) {
           fail("injected-promotion-failure");
         }
       } else if (entry.action === "replace-redirects") {
+        if (entry.expectedDestinationProof === null) {
+          fail("redirect-replacement-failed");
+        }
         await publishReplacement(
           transaction,
           stagedFile,
           entry.destination,
+          entry.expectedDestinationProof,
           "redirect-replacement-failed"
         );
       } else {
@@ -4438,6 +4533,7 @@ async function prepareWprmPromotion(
       roots,
       existingMediaManifest.manifest,
       existingMediaManifest.exists,
+      existingMediaManifest.proof,
       prospectiveMediaManifest
     );
 

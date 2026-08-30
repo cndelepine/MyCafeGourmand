@@ -33,6 +33,7 @@ import {
   type EditorialCandidateOutcome,
   type EditorialIssueCode,
   type EditorialSourceSnapshot,
+  type RawBwgGallery,
   type RawBwgImage,
   type RawEditorialPostState,
   type RawTermTaxonomy,
@@ -1699,6 +1700,21 @@ function galleryImagePublished(image: RawBwgImage) {
   fail("unknown-gallery-image-publication");
 }
 
+function galleryPublished(gallery: RawBwgGallery) {
+  const value = gallery.source.published ?? gallery.source.publish ?? gallery.source.status;
+  if (value === undefined || value === null) {
+    fail("unknown-gallery-publication");
+  }
+  const normalized = value.trim().toLowerCase();
+  if (["1", "true", "publish", "published"].includes(normalized)) {
+    return true;
+  }
+  if (["0", "false", "draft", "private", "trash"].includes(normalized)) {
+    return false;
+  }
+  fail("unknown-gallery-publication");
+}
+
 function galleryDimensions(value: string | null) {
   const match = value?.match(/^\s*(?<width>[1-9]\d*)\s*x\s*(?<height>[1-9]\d*)(?:\s*px)?\s*$/iu);
   const width = match?.groups?.width === undefined ? Number.NaN : Number(match.groups.width);
@@ -1781,6 +1797,9 @@ function mapGallery(snapshot: EditorialSourceSnapshot, gallerySourceId: string) 
   const gallery = snapshot.graph.galleries.get(gallerySourceId);
   if (gallery === undefined) {
     fail("missing-gallery-source");
+  }
+  if (!galleryPublished(gallery)) {
+    fail("nonpublish-gallery");
   }
   const bindings = new Map<string, EditorialPlannedMediaBinding>();
   const images = snapshot.graph.galleryImages

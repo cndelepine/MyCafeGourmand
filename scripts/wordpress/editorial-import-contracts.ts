@@ -41,6 +41,8 @@ export type EditorialIssueCode =
   | "malformed-bwg-image-gallery-id"
   | "missing-bwg-image-gallery"
   | "missing-bwg-image-gallery-id"
+  | "nonpublish-gallery"
+  | "unknown-gallery-publication"
   | "unknown-gallery-image-publication"
   | "gallery-reference-missing"
   | "invalid-page-ancestor"

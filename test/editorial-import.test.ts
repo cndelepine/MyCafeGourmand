@@ -314,6 +314,22 @@ test("editorial media and BWG assets require archive-backed safe paths", async (
     });
     assert.equal(normalizeBwgArchivePath("../unsafe.jpg").kind, "unsafe");
 
+    const unpublishedGalleryDatabase = path.join(directory, "unpublished-gallery.sql");
+    writeFileSync(
+      unpublishedGalleryDatabase,
+      readFileSync(galleryDatabase, "utf8").replace(
+        "(300, 'Private gallery wording', '1');",
+        "(300, 'Private gallery wording', '0');"
+      )
+    );
+    const unpublished = await runEditorialImport(
+      fixtureOptions(directory, unpublishedGalleryDatabase)
+    );
+    assert.equal(
+      unpublished.gallery?.record.issueCodes.includes("nonpublish-gallery"),
+      true
+    );
+
     const missingMediaArchive = path.join(directory, "missing-page-media.zip");
     writeFileSync(
       missingMediaArchive,
@@ -1147,8 +1163,8 @@ test("BWG staging binds only unambiguous referenced galleries", async () => {
       multipleDatabase,
       source
         .replace(
-          "(300, 'Private gallery wording');",
-          "(300, 'Private gallery wording'),\n  (400, 'Second gallery wording');"
+          "(300, 'Private gallery wording', '1');",
+          "(300, 'Private gallery wording', '1'),\n  (400, 'Second gallery wording', '1');"
         )
         .replace(
           "(301, 300, 'photo-gallery/album/original.jpg', 'photo-gallery/album/thumb.jpg', '1');",
@@ -1207,7 +1223,7 @@ test("missing BWG gallery references remain visible without gallery candidates",
     const database = path.join(directory, "missing-gallery.sql");
     const source = readFileSync(fixture, "utf8")
       .replace(
-        "INSERT INTO `wp_bwg_gallery` (`id`, `name`) VALUES\n  (300, 'Private gallery wording');\n",
+        "INSERT INTO `wp_bwg_gallery` (`id`, `name`, `published`) VALUES\n  (300, 'Private gallery wording', '1');\n",
         ""
       )
       .replace(

@@ -520,7 +520,7 @@ interface PassTwoState {
   readonly wpurSignals: Map<string, Set<string>>;
   readonly wpurSignalPosts: Set<string>;
   postMetaRows: number;
-  readonly oldSlugPosts: Set<string>;
+  oldSlugRecords: number;
   referenceCount: number;
   excludedRatingData: number;
 }
@@ -813,8 +813,8 @@ function metadataHandlers(
         && post !== undefined
         && ["wprm_recipe", "post", "page"].includes(post.type.toLowerCase())
       ) {
-        state.oldSlugPosts.add(postId);
-        if (state.oldSlugPosts.size > limits.maxOldSlugRecords) {
+        state.oldSlugRecords += 1;
+        if (state.oldSlugRecords > limits.maxOldSlugRecords) {
           throw new SourceEvidenceError("old-slug-record-limit");
         }
         const builder = state.wprm.get(postId) ?? createWprmBuilder();
@@ -951,7 +951,7 @@ export async function extractWprmSource(
     wpurSignals: new Map(),
     wpurSignalPosts: new Set(),
     postMetaRows: 0,
-    oldSlugPosts: new Set(),
+    oldSlugRecords: 0,
     referenceCount: 0,
     excludedRatingData: 0
   };
@@ -980,7 +980,7 @@ export async function extractWprmSource(
   const metadata = freezeMetadata(passTwo, secondSql);
   const graph: WprmSourceGraph = {
     ...makeGraph(passOne),
-    oldSlugCount: passTwo.oldSlugPosts.size,
+    oldSlugCount: passTwo.oldSlugRecords,
     excludedRatingData: passOne.excludedRatingData + passTwo.excludedRatingData
   };
   const wprmCount = [...graph.posts.values()]

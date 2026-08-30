@@ -39,7 +39,12 @@ import { uploadMatchedAttachmentCount } from "./wprm-import-contracts";
 import { resolveWprmRedirects } from "./wprm-import-redirects";
 import { loadHandAuthoredStaticWebAppConfig } from "../staticwebapp-config";
 import { loadRecipeCatalogWithSources } from "../../src/content/catalog";
-import { getStaticPageParams } from "../../src/lib/recipe-routes";
+import { loadEditorialCatalog } from "../../src/content/editorial-catalog";
+import { loadGalleryCatalog } from "../../src/content/gallery-catalog";
+import {
+  getPublicStaticPageParams,
+  getStaticPathFromSegments
+} from "../../src/lib/public-routes";
 
 const fatalIssueCodes = new Set<WprmIssueCode>([
   "missing-recipe-locale",
@@ -139,18 +144,18 @@ function handAuthoredRoutePaths() {
   );
 }
 
-function currentStaticRoutePaths() {
-  const routes = getStaticPageParams(loadRecipeCatalogWithSources().records).map(({ segments }) =>
-    segments.length === 0
-      ? "/"
-      : `/${segments.map((segment, index) =>
-        index === segments.length - 1 ? encodeURIComponent(segment) : segment
-      ).join("/")}`
-  );
+export function currentStaticRoutePaths() {
+  const recipes = loadRecipeCatalogWithSources().records;
+  const routes = getPublicStaticPageParams(
+    recipes,
+    loadEditorialCatalog(),
+    loadGalleryCatalog()
+  ).map(({ segments }) => getStaticPathFromSegments(segments));
   return [
     ...routes,
     "/robots.txt",
     "/sitemap.xml",
+    "/staticwebapp.config.json",
     "/_search/en.json",
     "/_search/fr.json",
     "/_search/ru.json"

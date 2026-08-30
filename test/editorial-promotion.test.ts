@@ -30,6 +30,7 @@ import {
   runEditorialImport
 } from "../scripts/wordpress/editorial-import-runner";
 import {
+  EditorialPromotionError,
   isEditorialPromotionPolicyEligible,
   planEditorialPromotion,
   wpTilesGridCapacity
@@ -1651,7 +1652,8 @@ test("gallery and provider-neutral contact blocks map source-backed public recor
     id: "300",
     source: {
       name: "Gallery",
-      description: null
+      description: null,
+      published: "1"
     }
   };
   const image: RawBwgImage = {
@@ -1702,6 +1704,47 @@ test("gallery and provider-neutral contact blocks map source-backed public recor
       ]
     })
   });
+  assert.throws(
+    () => planEditorialPromotion({
+      outcomes: [candidate({
+        id: "1",
+        sourcePath: "/about/",
+        content: galleryContent,
+        issueCodes: ["unsupported-block", "unsupported-wp-tiles"]
+      })],
+      recipeRecords: [recipe("10", "10"), recipe("11", "11")],
+      snapshot: snapshot({
+        pages: [sourcePage],
+        posts: [
+          post("1", "page"),
+          post("10", "post", { createdGmt: "2024-01-01 00:00:00" }),
+          post("11", "post", { createdGmt: "2024-02-01 00:00:00" })
+        ],
+        terms: [term("1", "en"), term("2", "sweet")],
+        taxonomies: [
+          taxonomy("100", "1", "language"),
+          taxonomy("200", "2", "category")
+        ],
+        relationships: [
+          ["100", ["1", "10", "11"]],
+          ["200", ["10", "11"]]
+        ],
+        galleries: [{
+          ...gallery,
+          source: { ...gallery.source, published: "0" }
+        }],
+        galleryImages: [image],
+        summaries: [archiveSummary()],
+        uploadPaths: [
+          "photo-gallery/album/original.jpg",
+          "photo-gallery/album/thumb.jpg"
+        ]
+      })
+    }),
+    (error: unknown) =>
+      error instanceof EditorialPromotionError
+      && error.code === "nonpublish-gallery"
+  );
   assert.equal(galleryPlan.gallery?.canonicalPath, "/gallery/");
   assert.equal(galleryPlan.gallery?.images.length, 1);
   assert.equal(galleryPlan.summary.media.galleryBindings, 2);

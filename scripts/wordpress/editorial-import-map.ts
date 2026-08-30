@@ -1622,6 +1622,27 @@ function galleryImagePublished(
   return false;
 }
 
+function galleryPublished(
+  gallery: RawBwgGallery,
+  issueCodes: Set<EditorialIssueCode>
+) {
+  const value = gallery.source.published ?? gallery.source.publish ?? gallery.source.status;
+  if (value === undefined || value === null) {
+    issueCodes.add("unknown-gallery-publication");
+    return false;
+  }
+  const normalized = value.trim().toLowerCase();
+  if (["1", "true", "publish", "published"].includes(normalized)) {
+    return true;
+  }
+  if (["0", "false", "draft", "private", "trash"].includes(normalized)) {
+    issueCodes.add("nonpublish-gallery");
+    return false;
+  }
+  issueCodes.add("unknown-gallery-publication");
+  return false;
+}
+
 function galleryImageAssets(
   snapshot: EditorialSourceSnapshot,
   image: RawBwgImage,
@@ -1674,6 +1695,7 @@ function mapSingleGalleryCandidate(
   if (!referencedIds.has(gallery.id)) {
     issueCodes.add("gallery-reference-missing");
   }
+  galleryPublished(gallery, issueCodes);
   issueCodes.add("unlocalized-gallery-publication");
   const images = snapshot.graph.galleryImages
     .filter((image) =>

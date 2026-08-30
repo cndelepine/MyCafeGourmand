@@ -22,6 +22,7 @@ function run(
   const result = spawnSync(executable, arguments_, {
     cwd: process.cwd(),
     env: environment,
+    shell: process.platform === "win32",
     stdio: "inherit"
   });
   if (result.error !== undefined || result.status !== 0) {

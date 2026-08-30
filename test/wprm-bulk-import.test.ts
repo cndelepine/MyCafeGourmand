@@ -15,7 +15,18 @@ import { randomBytes } from "node:crypto";
 import path from "node:path";
 import test from "node:test";
 import { pathToFileURL } from "node:url";
-import { runWprmBulkImport } from "../scripts/wordpress/wprm-import-runner";
+import {
+  currentStaticRoutePaths,
+  runWprmBulkImport
+} from "../scripts/wordpress/wprm-import-runner";
+import { extractWprmSource } from "../scripts/wordpress/wprm-import-source";
+import { loadEditorialCatalog } from "../src/content/editorial-catalog";
+import { loadGalleryCatalog } from "../src/content/gallery-catalog";
+import {
+  getEditorialStaticParams,
+  getGalleryStaticParams
+} from "../src/lib/editorial-routes";
+import { getStaticPathFromSegments } from "../src/lib/public-routes";
 import {
   assertPrivateStagingDirectory,
   repositoryRoot
@@ -67,6 +78,45 @@ test("the end-to-end bulk runner keeps every WPRM post accounted", async () => {
       database: fixture,
       fingerprintKeyFile: keyFile,
       dryRun: true
+    });
+
+    test("default redirect reservations include editorial, gallery, and generated routes", () => {
+      const routes = new Set(currentStaticRoutePaths());
+      for (const { segments } of [
+        ...getEditorialStaticParams(loadEditorialCatalog()),
+        ...getGalleryStaticParams(loadGalleryCatalog())
+      ]) {
+        assert.equal(routes.has(getStaticPathFromSegments(segments)), true);
+      }
+      assert.equal(routes.has("/staticwebapp.config.json"), true);
+    });
+
+    test("old-slug limits count rows rather than distinct posts", async () => {
+      const directory = mkdtempSync(path.join(process.cwd(), ".wprm-old-slug-limit-"));
+      try {
+        const database = path.join(directory, "duplicate-old-slugs.sql");
+        writeFileSync(
+          database,
+          readFileSync(fixture, "utf8").replace(
+            "(13, 100, '_wp_old_slug', 'ready-old'),",
+            "(13, 100, '_wp_old_slug', 'ready-old'),\n"
+              + "  (130, 100, '_wp_old_slug', 'another-old'),"
+          )
+        );
+        await assert.rejects(
+          extractWprmSource({
+            database,
+            limits: { maxOldSlugRecords: 1 }
+          }),
+          (error: unknown) =>
+            error !== null
+            && typeof error === "object"
+            && "code" in error
+            && error.code === "old-slug-record-limit"
+        );
+      } finally {
+        rmSync(directory, { recursive: true, force: true });
+      }
     });
 
     assert.equal(result.manifest.candidates.total, 10);
