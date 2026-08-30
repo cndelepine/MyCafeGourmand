@@ -31,6 +31,8 @@ pnpm-debug.log*
 *WordPress*.xml.*
 wp-config.php
 wp-config.php.*
+/backup/
+/backups/
 /wp-content/
 /uploads/
 /upload-archives/

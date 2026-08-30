@@ -13,11 +13,12 @@ provision Azure resources, deploy the site, or select an external service.
 | `.github/dependabot.yml` | Weekly npm and GitHub Actions update pull requests |
 | `scripts/check-forbidden-migration-inputs.mjs` | Reject tracked raw migration inputs outside the sanitized fixture boundary |
 
-CI and CodeQL run for pull requests targeting `main`, pushes to `main`, and
-manual dispatch. CodeQL also runs weekly. Concurrency groups cancel superseded
-runs, every job has a timeout, and workflows default to read-only repository
-permissions. CodeQL receives only the additional `security-events: write`
-permission needed to publish its analysis.
+CI and CodeQL run for pull requests targeting `main`, merge-queue check
+requests, pushes to `main`, and manual dispatch. CodeQL also runs weekly.
+Concurrency groups isolate pull request numbers and merge-group head SHAs so
+superseded runs cancel without crossing changes. Every job has a timeout, and
+workflows default to read-only repository permissions. CodeQL receives only the
+additional `security-events: write` permission needed to publish its analysis.
 
 All third-party workflow steps use immutable commit SHAs with a nearby release
 comment. Dependabot proposes action updates, but a reviewer must verify that a
