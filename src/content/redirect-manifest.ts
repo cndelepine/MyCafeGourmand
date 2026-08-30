@@ -3,10 +3,7 @@ import type { GalleryRecord } from "./gallery-schema";
 import type { RecipeRecord } from "./schema";
 import { localPathKey, validateSafeLocalPath } from "./url-path";
 import { getEditorialPath } from "../lib/editorial-routes";
-import {
-  getPublicStaticPageParams,
-  getStaticPathFromSegments
-} from "../lib/public-routes";
+import { getOwnedPublicPaths } from "../lib/public-routes";
 import { getRecipePath } from "../lib/recipe-routes";
 
 export type ExactRedirect = {
@@ -40,9 +37,7 @@ function getCanonicalPathKeys(
   galleryRecords: readonly GalleryRecord[]
 ) {
   return new Set(
-    getPublicStaticPageParams(records, editorialRecords, galleryRecords).map(
-      ({ segments }) => localPathKey(getStaticPathFromSegments(segments))
-    )
+    getOwnedPublicPaths(records, editorialRecords, galleryRecords).map(localPathKey)
   );
 }
 

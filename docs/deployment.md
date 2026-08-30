@@ -34,8 +34,9 @@ trailing slashes, sorts deterministically, and rejects duplicate sources,
 canonical-route conflicts, and cycles. The generator stages and atomically
 replaces `.deployment/` on each successful metadata generation, removing stale
 or extra files. Static builds clear prior deployment metadata before starting
-and publish the replacement only after the site export succeeds. `out/` never
-contains this manifest.
+any argument, environment, or release-integration checks and publish the
+replacement only after the site export succeeds. Any later validation failure
+invalidates the current metadata again. `out/` never contains this manifest.
 
 `npm run build:ci` and `npm run build:local` create useful prebuilt artifacts
 for validation, but they are nondeployable because managed media remains

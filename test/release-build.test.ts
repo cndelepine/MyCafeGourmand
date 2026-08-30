@@ -1,8 +1,19 @@
 import assert from "node:assert/strict";
-import { spawnSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import {
+  existsSync,
+  mkdtempSync,
+  mkdirSync,
+  readFileSync,
+  rmSync,
+  writeFileSync
+} from "node:fs";
 import path from "node:path";
 import test from "node:test";
+import { runReleaseBuild } from "../scripts/build-release";
+import {
+  runStaticBuild,
+  runWithDeploymentMetadataInvalidation
+} from "../scripts/build-static";
 import {
   assertRecipeMediaBuildEnvironment,
   recipeMediaBaseUrlEnvironmentVariable
@@ -10,6 +21,25 @@ import {
 import { assertReleaseDeploymentIntegration } from "../src/lib/release-deployment";
 
 type PackageScripts = Readonly<Record<string, string>>;
+
+function withTempDirectory<T>(callback: (directory: string) => T) {
+  const directory = mkdtempSync(path.join(process.cwd(), ".release-build-test-"));
+  try {
+    return callback(directory);
+  } finally {
+    rmSync(directory, { force: true, recursive: true });
+  }
+}
+
+function seedDeploymentMetadata(projectRoot: string) {
+  const metadataRoot = path.join(projectRoot, ".deployment");
+  mkdirSync(metadataRoot);
+  writeFileSync(
+    path.join(metadataRoot, "redirect-manifest.json"),
+    "{\"stale\":true}\n"
+  );
+  return metadataRoot;
+}
 
 function packageScripts() {
   const packageJson = JSON.parse(
@@ -53,21 +83,18 @@ test("release builds remain blocked until exact redirects have a deployment adap
     () => assertReleaseDeploymentIntegration(),
     /blocked until an exact-redirect edge adapter consumes \.deployment\/redirect-manifest\.json/u
   );
-
-  const result = spawnSync(
-    process.platform === "win32" ? "npm.cmd" : "npm",
-    ["run", "build:release"],
-    {
-      cwd: process.cwd(),
-      encoding: "utf8",
-      env: process.env
-    }
-  );
-  assert.notEqual(result.status, 0);
-  assert.match(
-    `${result.stdout}\n${result.stderr}`,
-    /release-build-failed: Release build is blocked/u
-  );
+  withTempDirectory((projectRoot) => {
+    const metadataRoot = seedDeploymentMetadata(projectRoot);
+    assert.throws(
+      () => runReleaseBuild(
+        ["node", "scripts/build-release.ts"],
+        { ...process.env, npm_lifecycle_event: "build:release" },
+        projectRoot
+      ),
+      /Release build is blocked/u
+    );
+    assert.equal(existsSync(metadataRoot), false);
+  });
 });
 
 test("non-release builds reject a configured public media base before running Next", () => {
@@ -89,21 +116,29 @@ test("non-release builds reject a configured public media base before running Ne
     npm_lifecycle_event: "build:release"
   })));
 
-  const result = spawnSync(
-    process.platform === "win32" ? "npm.cmd" : "npm",
-    ["run", "build:static"],
-    {
-      cwd: process.cwd(),
-      encoding: "utf8",
-      env: {
-        ...process.env,
-        [recipeMediaBaseUrlEnvironmentVariable]: "https://media.example.test/container"
-      }
-    }
-  );
-  assert.notEqual(result.status, 0);
-  assert.match(
-    `${result.stdout}\n${result.stderr}`,
-    /NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL is only permitted/u
-  );
+  withTempDirectory((projectRoot) => {
+    const metadataRoot = seedDeploymentMetadata(projectRoot);
+    assert.throws(
+      () => runStaticBuild("non-release", environment({
+        [recipeMediaBaseUrlEnvironmentVariable]:
+          "https://media.example.test/container"
+      }), projectRoot),
+      /NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL is only permitted/u
+    );
+    assert.equal(existsSync(metadataRoot), false);
+  });
+});
+
+test("post-publication validation failures invalidate current deployment metadata", () => {
+  withTempDirectory((projectRoot) => {
+    const metadataRoot = path.join(projectRoot, ".deployment");
+    assert.throws(
+      () => runWithDeploymentMetadataInvalidation(() => {
+        seedDeploymentMetadata(projectRoot);
+        throw new Error("post-publication-validation-failed");
+      }, projectRoot),
+      /post-publication-validation-failed/u
+    );
+    assert.equal(existsSync(metadataRoot), false);
+  });
 });

@@ -8,10 +8,7 @@ import {
   localPathKey,
   validateSafeLocalPath
 } from "./url-path";
-import {
-  getPublicStaticPageParams,
-  getStaticPathFromSegments
-} from "../lib/public-routes";
+import { getOwnedPublicPaths } from "../lib/public-routes";
 
 export const maxStaticWebAppConfigBytes = 20_000;
 
@@ -57,9 +54,7 @@ function canonicalPaths(
   galleryRecords: readonly GalleryRecord[]
 ) {
   return new Set(
-    getPublicStaticPageParams(records, editorialRecords, galleryRecords).map(({ segments }) =>
-      azurePathKey(getStaticPathFromSegments(segments))
-    )
+    getOwnedPublicPaths(records, editorialRecords, galleryRecords).map(azurePathKey)
   );
 }
 

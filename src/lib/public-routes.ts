@@ -60,6 +60,19 @@ export function getPublicStaticPageParams(
   ];
 }
 
+export function getOwnedPublicPaths(
+  recipes: readonly RecipeRecord[],
+  editorial: readonly EditorialPageRecord[],
+  galleries: readonly GalleryRecord[]
+) {
+  return [
+    ...getPublicStaticPageParams(recipes, editorial, galleries).map(
+      ({ segments }) => getStaticPathFromSegments(segments)
+    ),
+    ...generatedStaticAssetPaths
+  ];
+}
+
 export type PublicStaticRouteSummary = {
   readonly sitemapPaths: number;
   readonly staticPaths: number;

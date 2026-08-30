@@ -293,6 +293,34 @@ test("rejects duplicate generated redirect sources across recipes", () => {
   );
 });
 
+test("exact redirects cannot shadow generated static assets", () => {
+  for (const redirectFrom of [
+    "/robots.txt",
+    "/sitemap.xml",
+    "/_search/en.json",
+    "/staticwebapp.config.json"
+  ]) {
+    const record = recipeRecordSchema.parse({
+      ...recipeFixture,
+      redirectFrom: [redirectFrom]
+    });
+    assert.throws(
+      () => createExactRedirectManifest([record]),
+      /conflicts with a canonical route/u,
+      redirectFrom
+    );
+    assert.throws(
+      () => createStaticWebAppConfig([], {
+        handAuthoredConfig: {
+          routes: [{ route: redirectFrom, redirect: "/target/", statusCode: 301 }]
+        }
+      }),
+      /conflicts with a canonical route/u,
+      redirectFrom
+    );
+  }
+});
+
 test("isolates exact redirect metadata from the bounded Azure origin artifact", () => {
   withTempDirectory((directory) => {
     const projectRoot = path.join(directory, "project");
