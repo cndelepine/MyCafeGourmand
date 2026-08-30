@@ -9,6 +9,7 @@ import {
   type RecipeMediaBuildMode
 } from "../src/lib/recipe-media";
 import { assertContactFormBuildEnvironment } from "../src/lib/contact-form";
+import { cleanDeploymentMetadata } from "./generate-deployment-artifacts";
 
 function command(name: string) {
   return process.platform === "win32" ? `${name}.cmd` : name;
@@ -48,6 +49,7 @@ export function runStaticBuild(
     assertContactFormBuildEnvironment(mode, environment);
     const buildEnvironment = { ...environment };
     delete buildEnvironment[recipeMediaReleaseBuildModeEnvironmentVariable];
+    cleanDeploymentMetadata();
     run(command("npm"), ["run", "content:validate"], buildEnvironment);
     run(command("npm"), ["run", "search:generate"], buildEnvironment);
     run(nextExecutable(), ["build"], buildEnvironment);
@@ -64,6 +66,7 @@ export function runStaticBuild(
   };
   assertRecipeMediaBuildEnvironment(mode, buildEnvironment);
   assertContactFormBuildEnvironment(mode, buildEnvironment);
+  cleanDeploymentMetadata();
   run(command("npm"), ["run", "release:validate"], buildEnvironment);
   run(command("npm"), ["run", "content:validate"], buildEnvironment);
   run(command("npm"), ["run", "search:generate"], buildEnvironment);

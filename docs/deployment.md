@@ -2,18 +2,18 @@
 
 Azure Static Web Apps remains the static origin, but production release is
 blocked until an edge provider is selected and a checked-in adapter deploys the
-complete exact redirect manifest. Do not deploy `out/` manually or add an
-operator bypass.
+complete exact redirect manifest. Do not add an operator bypass.
 
 ## Prebuilt artifact contract
 
-The build owns the contents of `out/`:
+The build owns two sibling outputs with separate trust boundaries:
 
-- `staticwebapp.config.json` is the bounded SWA origin configuration. It
+- `out/` contains only site files intended for the static origin. Its
+  `staticwebapp.config.json` is the bounded SWA origin configuration. It
   contains trailing-slash behavior and baseline response headers, not the
   historical redirect catalog.
-- `redirect-manifest.json` is deployment metadata with this versioned,
-  provider-neutral shape:
+- `.deployment/` is ignored deployment metadata outside the public artifact.
+  Its `redirect-manifest.json` has this versioned, provider-neutral shape:
 
   ```json
   {
@@ -31,8 +31,11 @@ The build owns the contents of `out/`:
 Every entry is an exact permanent redirect. The generator preserves validated
 source spelling and encoding, emits canonical static-export destinations with
 trailing slashes, sorts deterministically, and rejects duplicate sources,
-canonical-route conflicts, and cycles. The manifest is not public site
-content.
+canonical-route conflicts, and cycles. The generator stages and atomically
+replaces `.deployment/` on each successful metadata generation, removing stale
+or extra files. Static builds clear prior deployment metadata before starting
+and publish the replacement only after the site export succeeds. `out/` never
+contains this manifest.
 
 `npm run build:ci` and `npm run build:local` create useful prebuilt artifacts
 for validation, but they are nondeployable because managed media remains
@@ -46,19 +49,17 @@ any failure:
 
 1. Run the guarded release build with the provisioned HTTPS media base and
    external contact form endpoint.
-2. Parse only the supported redirect manifest schema and reject unknown fields,
-   statuses, limits, or path transformations that the selected provider cannot
-   preserve.
+2. Parse `.deployment/redirect-manifest.json` using only the supported schema
+   and reject unknown fields, statuses, limits, or path transformations that
+   the selected provider cannot preserve.
 3. Deploy every manifest entry to the edge provider and verify the provider's
    accepted rule count and configuration version. Partial publication is a
    failed release.
-4. Remove `redirect-manifest.json` from the origin upload tree. The deployment
-   adapter consumes it; the website must not serve it.
-5. Upload the remaining prebuilt `out/` directory to SWA without running a
+4. Upload the complete prebuilt `out/` directory to SWA without running a
    second application build. For `Azure/static-web-apps-deploy`, the relevant
    inputs are `app_location: "out"`, `output_location: ""`,
    `skip_app_build: true`, and `skip_api_build: true`.
-6. Verify the deployed artifact and live behavior before changing production
+5. Verify the deployed artifact and live behavior before changing production
    DNS or traffic.
 
 The redirect adapter must be implemented and reviewed in the repository before
@@ -82,8 +83,8 @@ Production remains blocked until all of these conditions are met:
   deployed responses contain the reviewed headers.
 - Representative English, French, and Russian pages pass navigation, search,
   image, print, structured-data, contact, canonical, and `hreflang` checks.
-- The provider manifest is absent from the public origin after the adapter has
-  consumed it.
+- The upload source is exactly `out/`; `.deployment/` is never copied into or
+  uploaded with the public origin artifact.
 
 ## Content Security Policy staging
 

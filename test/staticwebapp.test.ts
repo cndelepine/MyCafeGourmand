@@ -1,8 +1,10 @@
 import assert from "node:assert/strict";
 import {
   cpSync,
+  existsSync,
   mkdtempSync,
   mkdirSync,
+  readdirSync,
   readFileSync,
   rmSync,
   writeFileSync
@@ -23,7 +25,10 @@ import {
   maxStaticWebAppConfigBytes,
   serializeStaticWebAppConfig
 } from "../src/content/staticwebapp";
-import { generateDeploymentArtifacts } from "../scripts/generate-deployment-artifacts";
+import {
+  cleanDeploymentMetadata,
+  generateDeploymentArtifacts
+} from "../scripts/generate-deployment-artifacts";
 import { loadHandAuthoredStaticWebAppConfig } from "../scripts/staticwebapp-config";
 
 function withTempDirectory<T>(callback: (directory: string) => T) {
@@ -32,6 +37,15 @@ function withTempDirectory<T>(callback: (directory: string) => T) {
     return callback(directory);
   } finally {
     rmSync(directory, { force: true, recursive: true });
+  }
+}
+
+function copyBuildInputs(projectRoot: string) {
+  mkdirSync(projectRoot, { recursive: true });
+  for (const directory of ["config", "content", "public"]) {
+    cpSync(path.join(process.cwd(), directory), path.join(projectRoot, directory), {
+      recursive: true
+    });
   }
 }
 
@@ -279,15 +293,33 @@ test("rejects duplicate generated redirect sources across recipes", () => {
   );
 });
 
-test("emits complete redirect and bounded Azure artifacts into the static export directory", () => {
+test("isolates exact redirect metadata from the bounded Azure origin artifact", () => {
   withTempDirectory((directory) => {
-    const outputDirectory = path.join(directory, "out");
+    const projectRoot = path.join(directory, "project");
+    const outputDirectory = path.join(projectRoot, "out");
+    const metadataDirectory = path.join(projectRoot, ".deployment");
+    const stagedDirectory = path.join(projectRoot, ".deployment.next");
+    const previousDirectory = path.join(projectRoot, ".deployment.previous");
+    copyBuildInputs(projectRoot);
+    mkdirSync(outputDirectory);
+    writeFileSync(
+      path.join(outputDirectory, "redirect-manifest.json"),
+      "{\"legacy\":true}\n"
+    );
+    for (const staleDirectory of [
+      metadataDirectory,
+      stagedDirectory,
+      previousDirectory
+    ]) {
+      mkdirSync(staleDirectory);
+      writeFileSync(path.join(staleDirectory, "stale.json"), "{}\n");
+    }
     const {
       redirectManifest,
       redirectManifestPath,
       staticWebAppConfig,
       staticWebAppConfigPath
-    } = generateDeploymentArtifacts(process.cwd(), outputDirectory);
+    } = generateDeploymentArtifacts(projectRoot, outputDirectory);
     const expectedRedirects = recipeCatalog.reduce(
       (count, record) => count + record.redirectFrom.length,
       0
@@ -306,18 +338,43 @@ test("emits complete redirect and bounded Azure artifacts into the static export
       serializeStaticWebAppConfig(staticWebAppConfig)
     );
     assert.equal(path.basename(redirectManifestPath), "redirect-manifest.json");
+    assert.equal(path.dirname(redirectManifestPath), metadataDirectory);
     assert.equal(path.basename(staticWebAppConfigPath), "staticwebapp.config.json");
     assert.deepEqual(staticWebAppConfig.routes, []);
+    assert.deepEqual(readdirSync(metadataDirectory), ["redirect-manifest.json"]);
+    assert.equal(existsSync(stagedDirectory), false);
+    assert.equal(existsSync(previousDirectory), false);
+    assert.equal(
+      existsSync(path.join(outputDirectory, "redirect-manifest.json")),
+      false
+    );
+  });
+});
+
+test("cleans all deployment metadata before a new static build", () => {
+  withTempDirectory((directory) => {
+    for (const name of [
+      ".deployment",
+      ".deployment.next",
+      ".deployment.previous"
+    ]) {
+      const candidate = path.join(directory, name);
+      mkdirSync(candidate);
+      writeFileSync(path.join(candidate, "stale.json"), "{}\n");
+    }
+
+    cleanDeploymentMetadata(directory);
+
+    assert.equal(existsSync(path.join(directory, ".deployment")), false);
+    assert.equal(existsSync(path.join(directory, ".deployment.next")), false);
+    assert.equal(existsSync(path.join(directory, ".deployment.previous")), false);
   });
 });
 
 test("derives every content path from an alternate project root", () => {
   withTempDirectory((directory) => {
     const projectRoot = path.join(directory, "alternate-project");
-    cpSync(path.join(process.cwd(), "content"), path.join(projectRoot, "content"), {
-      recursive: true
-    });
-    mkdirSync(path.join(projectRoot, "public"), { recursive: true });
+    copyBuildInputs(projectRoot);
     const record = editorialPageRecordSchema.parse({
       schemaVersion: 1,
       kind: "editorial-page",

@@ -34,6 +34,10 @@ test("only the guarded release command can produce a deployable static artifact"
     scripts["deployment:generate"],
     "tsx scripts/generate-deployment-artifacts.ts"
   );
+  assert.equal(
+    scripts["staticwebapp:generate"],
+    scripts["deployment:generate"]
+  );
   assert.match(
     scripts["release:validate"],
     /validate-release-contact-form/u
@@ -47,7 +51,7 @@ test("only the guarded release command can produce a deployable static artifact"
 test("release builds remain blocked until exact redirects have a deployment adapter", () => {
   assert.throws(
     () => assertReleaseDeploymentIntegration(),
-    /blocked until an exact-redirect edge adapter consumes out\/redirect-manifest\.json/u
+    /blocked until an exact-redirect edge adapter consumes \.deployment\/redirect-manifest\.json/u
   );
 
   const result = spawnSync(

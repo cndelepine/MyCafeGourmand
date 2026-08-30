@@ -1,6 +1,13 @@
 #!/usr/bin/env node
 
-import { existsSync, lstatSync, mkdirSync, writeFileSync } from "node:fs";
+import {
+  existsSync,
+  lstatSync,
+  mkdirSync,
+  renameSync,
+  rmSync,
+  writeFileSync
+} from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -12,8 +19,106 @@ import {
   serializeStaticWebAppConfig
 } from "../src/content/staticwebapp";
 import { validateContent } from "../src/content/validation";
-import { exactRedirectManifestPath } from "../src/lib/public-routes";
 import { loadHandAuthoredStaticWebAppConfig } from "./staticwebapp-config";
+
+const deploymentMetadataDirectoryName = ".deployment";
+const stagedDeploymentMetadataDirectoryName = ".deployment.next";
+const previousDeploymentMetadataDirectoryName = ".deployment.previous";
+const redirectManifestFileName = "redirect-manifest.json";
+
+function validateManagedDirectory(directory: string, label: string) {
+  const stats = lstatSync(directory);
+  if (stats.isSymbolicLink() || !stats.isDirectory()) {
+    throw new Error(`${label} is not a regular directory: "${directory}"`);
+  }
+}
+
+function removeManagedDirectory(directory: string, label: string) {
+  if (!existsSync(directory)) {
+    return;
+  }
+  validateManagedDirectory(directory, label);
+  rmSync(directory, { recursive: true });
+}
+
+export function cleanDeploymentMetadata(projectRoot: string = process.cwd()) {
+  const root = path.resolve(projectRoot);
+  removeManagedDirectory(
+    path.join(root, deploymentMetadataDirectoryName),
+    "Deployment metadata path"
+  );
+  removeManagedDirectory(
+    path.join(root, stagedDeploymentMetadataDirectoryName),
+    "Staged deployment metadata path"
+  );
+  removeManagedDirectory(
+    path.join(root, previousDeploymentMetadataDirectoryName),
+    "Previous deployment metadata path"
+  );
+}
+
+function assertMetadataOutsideOutput(metadataRoot: string, outputRoot: string) {
+  if (
+    metadataRoot === outputRoot
+    || metadataRoot.startsWith(`${outputRoot}${path.sep}`)
+    || outputRoot.startsWith(`${metadataRoot}${path.sep}`)
+  ) {
+    throw new Error("Deployment metadata directory must be outside the static export.");
+  }
+}
+
+function removeLegacyPublicRedirectManifest(outputRoot: string) {
+  const legacyPath = path.join(outputRoot, redirectManifestFileName);
+  if (!existsSync(legacyPath)) {
+    return;
+  }
+  const stats = lstatSync(legacyPath);
+  if (stats.isSymbolicLink() || !stats.isFile()) {
+    throw new Error(
+      `Legacy public redirect manifest is not a regular file: "${legacyPath}"`
+    );
+  }
+  rmSync(legacyPath);
+}
+
+function replaceDeploymentMetadata(
+  projectRoot: string,
+  outputRoot: string,
+  redirectManifestContents: string
+) {
+  const metadataRoot = path.join(projectRoot, deploymentMetadataDirectoryName);
+  const stagedRoot = path.join(projectRoot, stagedDeploymentMetadataDirectoryName);
+  const previousRoot = path.join(projectRoot, previousDeploymentMetadataDirectoryName);
+  assertMetadataOutsideOutput(metadataRoot, outputRoot);
+  assertMetadataOutsideOutput(stagedRoot, outputRoot);
+  assertMetadataOutsideOutput(previousRoot, outputRoot);
+
+  removeManagedDirectory(stagedRoot, "Staged deployment metadata path");
+  removeManagedDirectory(previousRoot, "Previous deployment metadata path");
+  mkdirSync(stagedRoot);
+  const stagedManifestPath = path.join(stagedRoot, redirectManifestFileName);
+  writeFileSync(stagedManifestPath, redirectManifestContents, "utf8");
+
+  let movedPrevious = false;
+  try {
+    if (existsSync(metadataRoot)) {
+      validateManagedDirectory(metadataRoot, "Deployment metadata path");
+      renameSync(metadataRoot, previousRoot);
+      movedPrevious = true;
+    }
+    renameSync(stagedRoot, metadataRoot);
+  } catch (error) {
+    if (movedPrevious && !existsSync(metadataRoot) && existsSync(previousRoot)) {
+      renameSync(previousRoot, metadataRoot);
+    }
+    removeManagedDirectory(stagedRoot, "Staged deployment metadata path");
+    throw error;
+  }
+  if (movedPrevious) {
+    removeManagedDirectory(previousRoot, "Previous deployment metadata path");
+  }
+  return path.join(metadataRoot, redirectManifestFileName);
+}
 
 export function generateDeploymentArtifacts(
   projectRoot: string = process.cwd(),
@@ -59,16 +164,17 @@ export function generateDeploymentArtifacts(
     throw new Error(`Static export output is not a directory: "${outputRoot}"`);
   }
 
-  const redirectManifestOutputPath = path.join(
-    outputRoot,
-    exactRedirectManifestPath.slice(1)
-  );
   const staticWebAppConfigPath = path.join(outputRoot, "staticwebapp.config.json");
-  writeFileSync(redirectManifestOutputPath, redirectManifestContents, "utf8");
+  removeLegacyPublicRedirectManifest(outputRoot);
   writeFileSync(staticWebAppConfigPath, staticWebAppConfigContents, "utf8");
+  const redirectManifestPath = replaceDeploymentMetadata(
+    root,
+    outputRoot,
+    redirectManifestContents
+  );
   return {
     redirectManifest,
-    redirectManifestPath: redirectManifestOutputPath,
+    redirectManifestPath,
     staticWebAppConfig,
     staticWebAppConfigPath
   };

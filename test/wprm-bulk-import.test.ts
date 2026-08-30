@@ -105,7 +105,6 @@ test("default redirect reservations include editorial, gallery, and generated ro
     assert.equal(routes.has(getStaticPathFromSegments(segments)), true);
   }
   assert.equal(routes.has("/staticwebapp.config.json"), true);
-  assert.equal(routes.has("/redirect-manifest.json"), true);
 });
 
 test("old-slug limits count rows rather than distinct posts", async () => {

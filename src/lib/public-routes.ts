@@ -20,13 +20,10 @@ import {
   type EditorialRouteParams
 } from "./editorial-routes";
 
-export const exactRedirectManifestPath = "/redirect-manifest.json";
-
 export const generatedStaticAssetPaths = [
   "/robots.txt",
   "/sitemap.xml",
   "/staticwebapp.config.json",
-  exactRedirectManifestPath,
   "/_search/en.json",
   "/_search/fr.json",
   "/_search/ru.json"

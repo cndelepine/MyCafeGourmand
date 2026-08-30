@@ -35,6 +35,7 @@ Key paths:
 - `content/*media-manifest.json` - public metadata for Blob-backed media
 - `src/content/url-path.ts` - shared slug and local URL-path validation
 - `src/content/redirect-manifest.ts` - provider-neutral exact redirect manifest
+- `.deployment/` - ignored deployment metadata outside the public static export
 - `src/content/staticwebapp.ts` - bounded Azure origin configuration and route checks
 - `scripts/import-wordpress-wprm.ts` and `scripts/import-wordpress-editorial.ts`
   - authenticated staging importers

@@ -88,10 +88,6 @@ test("editorial routes preserve nested Unicode canonical paths and translation r
     getReservedPublicPaths(recipeCatalog).includes("/staticwebapp.config.json"),
     true
   );
-  assert.equal(
-    getReservedPublicPaths(recipeCatalog).includes("/redirect-manifest.json"),
-    true
-  );
 });
 
 test("editorial metadata and JSON-LD use canonical paths, available hreflang links, and breadcrumbs", () => {

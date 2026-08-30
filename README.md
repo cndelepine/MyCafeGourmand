@@ -116,6 +116,9 @@ canonical object keys are resolved to Blob Storage or a CDN at release time.
 `build:static`, `build:local`, and `build:ci` reject any configured
 `NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL`; a configured public media base is accepted
 only by the explicit guarded release command.
+Exact redirect deployment metadata is generated separately at
+`.deployment/redirect-manifest.json`; it is never placed in the public `out/`
+tree.
 `next/image` remains unoptimized for static export; when a media base is
 configured, Next allows only that validated HTTPS host and the
 `/recipes/media/wordpress/**`, `/editorial/media/wordpress/**`, and
@@ -191,11 +194,12 @@ noindex routes and are intentionally excluded from the sitemap.
 
 The build validates each recipe and editorial page's `redirectFrom` paths, then
 writes the complete deterministic provider-neutral manifest to
-`out/redirect-manifest.json`. Redirect sources target the matching canonical
+`.deployment/redirect-manifest.json`. Redirect sources target the matching canonical
 locale route with its static-export trailing slash. Sources are root-relative
 local URL paths without query strings or fragments; duplicates, canonical-route
 conflicts, and cycles are rejected. The generated file is ignored and must not
-be committed or served as public content.
+be committed. The metadata directory is cleanly replaced on each build and is
+separate from the complete origin upload tree in `out/`.
 
 The separate `out/staticwebapp.config.json` is generated from
 `config/staticwebapp.config.json`, is explicitly limited to 20,000 UTF-8 bytes,
