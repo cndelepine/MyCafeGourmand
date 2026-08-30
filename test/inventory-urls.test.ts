@@ -20,7 +20,7 @@ import {
   parseSitemapDocument,
   runUrlInventory
 } from "../scripts/inventory-urls";
-import { recipeCatalog } from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
 import { recipeRecordSchema } from "../src/content/schema";
 
 const fixtureRoot = path.resolve(process.cwd(), "test/fixtures/sitemaps");
@@ -425,14 +425,14 @@ test("rejects redirect targets outside the remote scope", async () => {
 
 test("comparison is deterministic and does not create redirects", () => {
   const catalogRecord = recipeRecordSchema.parse({
-    ...recipeCatalog[0],
+    ...recipeFixture,
     redirectFrom: ["/old/soup/"]
   });
   const comparison = compareDiscoveredPaths(
     [
       { path: "/new/path/" },
       { path: "/old/soup/" },
-      { path: "/recipes/meatballs-soup" }
+      { path: "/recipes/fixture-recipe" }
     ],
     [catalogRecord]
   );
@@ -440,7 +440,7 @@ test("comparison is deterministic and does not create redirects", () => {
   assert.deepEqual(comparison.entries, [
     { path: "/new/path/", status: "discovered-only" },
     { path: "/old/soup/", status: "redirect-covered" },
-    { path: "/recipes/meatballs-soup", status: "current-covered" }
+    { path: "/recipes/fixture-recipe", status: "current-covered" }
   ]);
   assert.deepEqual(comparison.discoveredOnly, ["/new/path/"]);
   assert.deepEqual(comparison.redirectCovered, ["/old/soup/"]);
@@ -449,11 +449,11 @@ test("comparison is deterministic and does not create redirects", () => {
 
 test("comparison equates non-root trailing slashes but keeps raw queries distinct", () => {
   const catalogRecord = recipeRecordSchema.parse({
-    ...recipeCatalog[0],
+    ...recipeFixture,
     redirectFrom: ["/old/path"]
   });
   const comparison = compareDiscoveredPaths(
-    ["/recipes/meatballs-soup/", "/fr/", "/fr/?lang=fr", "/old/path/", "/old/path?source=archive"],
+    ["/recipes/fixture-recipe/", "/fr/", "/fr/?lang=fr", "/old/path/", "/old/path?source=archive"],
     [catalogRecord]
   );
 
@@ -462,7 +462,7 @@ test("comparison equates non-root trailing slashes but keeps raw queries distinc
     { path: "/fr/?lang=fr", status: "discovered-only" },
     { path: "/old/path/", status: "redirect-covered" },
     { path: "/old/path?source=archive", status: "discovered-only" },
-    { path: "/recipes/meatballs-soup/", status: "current-covered" }
+    { path: "/recipes/fixture-recipe/", status: "current-covered" }
   ]);
 });
 

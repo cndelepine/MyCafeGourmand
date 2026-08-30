@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:24137",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:25395",
+  "slug": "mendiants-au-chocolat-noir",
+  "source": {
+    "system": "wordpress",
+    "postId": "24137",
+    "recipeId": "24137",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-mendiants-au-chocolat-noir",
+    "createdAt": "2020-12-05T23:40:00+00:00",
+    "modifiedAt": "2022-07-30T20:44:21+00:00",
+    "editorialPostId": "24135",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "mendiants-au-chocolat-noir",
+    "editorialCreatedAt": "2020-12-05T23:40:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:44:14+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/mendiants-au-chocolat-noir/"
+  ],
+  "title": "Mendiants au chocolat noir",
+  "description": "Ces petites mignardises sont faciles à faire soi-même et les enfants seront ravis de vous aider. Les mendiants sont encore meilleurs si vous grillez les amandes et les noix avant de les concasser.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ces petites mignardises sont faciles à faire soi-même et les enfants seront ravis de vous aider. Les mendiants sont encore meilleurs si vous grillez les amandes et les noix avant de les concasser.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Parfait pour accompagner un <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2/\" target=\"_blank\" rel=\"noreferrer noopener\">café gourmand</a>!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":24137,\"template\":\"chic-template-french\",\"updated\":1622932939730} -->\n<!--WPRM Recipe 24137-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Mendiants au chocolat noir</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2021/06/IMG_0276-2.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Ces petites mignardises sont faciles à faire soi-même et les enfants seront ravis de vous aider. Les mendiants sont encore meilleurs si vous grillez les amandes et les noix avant de les concasser. </p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g chocolat noir</li><li>Un peu d&#039;amandes concassées</li><li>Un peu de noix concassées</li><li>Un peu de raisins secs</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Tapisser une plaque à pâtisserie avec du papier sulfurisé.</p></li><li><p>Faire fondre le chocolat au bain-marie avec une noisette de beurre. Mélanger pour obtenir une consistance bien lisse.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/06/IMG_0260-2.Blog_-150x150.png\"/><br /></li><li><p>Verser le chocolat fondu dans un sac plastique refermable ou dans une poche à douille. Attendre un peu pour refroidir le chocolat. Il doit rester liquide !</p></li><li><p>Couper un coin du sac plastique et dresser des petits ronds sur la plaque de cuisson bien froide. Tapoter légèrement la plaque sur un plan de travail pour que le chocolat s’étale. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/06/IMG_0261-2.Blog_-150x150.png\"/><br /></li><li><p>Déposer tout de suite un morceau (ou des morceaux) d&#039;amande, de noix et 1-2 raisins secs sur chaque mendiant. Laisser durcir avant de décoller délicatement.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/06/IMG_9428-150x150.jpg\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24321",
+      "sourceTaxonomyId": "24321",
+      "name": "de noix concassées",
+      "slug": "de-noix-concassees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24486",
+      "sourceTaxonomyId": "24486",
+      "name": "d'amandes concassées",
+      "slug": "damandes-concassees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24692",
+      "sourceTaxonomyId": "24692",
+      "name": "de raisins secs",
+      "slug": "de-raisins-secs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25382",
+      "sourceTaxonomyId": "25382",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1454",
+      "sourceTaxonomyId": "1454",
+      "name": "noix",
+      "slug": "noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25262",
+      "sourceTaxonomyId": "25262",
+      "name": "dessert pour Noel",
+      "slug": "dessert-pour-noel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25386",
+      "sourceTaxonomyId": "25386",
+      "name": "bonbons au chocolat",
+      "slug": "bonbons-au-chocolat"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "custom": {
+        "label": "Pour durcir",
+        "duration": {
+          "raw": "30",
+          "minutes": 30
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:24155",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g chocolat noir",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chocolat noir",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Un peu d'amandes concassées",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'amandes concassées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Un peu de noix concassées",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de noix concassées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un peu de raisins secs",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de raisins secs",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Tapisser une plaque à pâtisserie avec du papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire fondre le chocolat au bain-marie avec une noisette de beurre. Mélanger pour obtenir une consistance bien lisse.",
+            "mediaId": "wordpress-attachment:24149"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Verser le chocolat fondu dans un sac plastique refermable ou dans une poche à douille. Attendre un peu pour refroidir le chocolat. Il doit rester liquide !",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Couper un coin du sac plastique et dresser des petits ronds sur la plaque de cuisson bien froide. Tapoter légèrement la plaque sur un plan de travail pour que le chocolat s’étale.",
+            "mediaId": "wordpress-attachment:24150"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Déposer tout de suite un morceau (ou des morceaux) d'amande, de noix et 1-2 raisins secs sur chaque mendiant. Laisser durcir avant de décoller délicatement.",
+            "mediaId": "wordpress-attachment:24153"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:24155",
+      "sourceId": "24155",
+      "path": "/recipes/media/wordpress/24155.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24149",
+      "sourceId": "24149",
+      "path": "/recipes/media/wordpress/24149.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24150",
+      "sourceId": "24150",
+      "path": "/recipes/media/wordpress/24150.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24153",
+      "sourceId": "24153",
+      "path": "/recipes/media/wordpress/24153.jpg",
+      "alt": null,
+      "width": 2560,
+      "height": 1920
+    }
+  ],
+  "seo": null
+}

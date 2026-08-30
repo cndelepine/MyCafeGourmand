@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22259",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:17317",
+  "slug": "potiron-au-four",
+  "source": {
+    "system": "wordpress",
+    "postId": "22259",
+    "recipeId": "22259",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-potiron-au-four",
+    "createdAt": "2024-09-30T00:19:00+00:00",
+    "modifiedAt": "2026-02-14T00:58:16+00:00",
+    "editorialPostId": "18638",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "potiron-au-four",
+    "editorialCreatedAt": "2024-09-30T00:19:00+00:00",
+    "editorialModifiedAt": "2026-02-14T00:56:54+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/potiron-au-four/"
+  ],
+  "title": "Potiron au four",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le potiron au four est un plat sain et facile à préparer. Les tranches de potiron sont cuites au four. Parfait avec de la viande ou du poisson. Cette recette est très simple : potiron, sel, poivre, ail, huile d'olive et herbes fraîches.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22259,\"template\":\"chic-template-french\",\"updated\":1759381874602} -->\n<!--WPRM Recipe 22259-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Potiron au four</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1666-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 tranches de potiron</li><li>1 gousse d'ail (écrasée)</li><li>Sel et poivre du moulin</li><li>Un peu d'huile d'olive</li><li>Un peu d'herbes fraîches ou séchées (coriandre, ciboulette, persil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 200 °C. Tapisser la plaque à pâtisserie avec du papier d'aluminium ou du papier sulfurisé.</li><li>Couper le potiron en deux et l'évider. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/20180920_225215.Blog_-150x150.png\"/><br /></li><li>Couper en tranches d'environ 2 cm. Pas la peine d'enlever la peau! Saler et poivrer. Presser l'ail et le mélanger avec l'huile d'olive. Badigeonner les tranches de potiron  avec cette préparation.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1653.Blog_-150x150.png\"/><br /></li><li>Placer la potiron sur la plaque et faire cuire au four pendant environ 20 minutes. Le temps de cuisson dépend de la sorte de citrouille et de la taille des tranches. Piquer les tranches avec la lame d'un couteau : le potiron doit devenir tendre mais garder sa forme.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1657-2.Blog_-150x150.png\"/><br /></li><li>Saupoudrer les tranches d'herbes ciselées et servir tant que c'est chaud.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/10/IMG_1665.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24810",
+      "sourceTaxonomyId": "24810",
+      "name": "de potiron",
+      "slug": "de-potiron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24811",
+      "sourceTaxonomyId": "24811",
+      "name": "d'herbes fraîches ou séchées (coriandre, ciboulette, persil",
+      "slug": "dherbes-fraiches-ou-sechees-coriandre-ciboulette-persil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17318",
+      "sourceTaxonomyId": "17318",
+      "name": "de potiron",
+      "slug": "de-potiron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17320",
+      "sourceTaxonomyId": "17320",
+      "name": "d'herbes fraîches ou séchées (coriandre, ciboulette, persil",
+      "slug": "dherbes-fraiches-ou-sechees-coriandre-ciboulette-persil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1208",
+      "sourceTaxonomyId": "1208",
+      "name": "plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6862",
+      "sourceTaxonomyId": "6862",
+      "name": "bon pour la sante",
+      "slug": "bon-pour-la-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7526",
+      "sourceTaxonomyId": "7526",
+      "name": "plat d'automne",
+      "slug": "plat-dautomne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18615",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 tranches de potiron",
+            "quantity": {
+              "raw": "4 tranches",
+              "value": 4,
+              "unit": "tranches",
+              "scalable": true
+            },
+            "name": "de potiron",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 gousse d'ail écrasée",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "écrasée"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un peu d'huile d'olive",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Un peu d'herbes fraîches ou séchées (coriandre, ciboulette, persil",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'herbes fraîches ou séchées (coriandre, ciboulette, persil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 200 °C. Tapisser la plaque à pâtisserie avec du papier d'aluminium ou du papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper le potiron en deux et l'évider.",
+            "mediaId": "wordpress-attachment:18611"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper en tranches d'environ 2 cm. Pas la peine d'enlever la peau! Saler et poivrer. Presser l'ail et le mélanger avec l'huile d'olive. Badigeonner les tranches de potiron avec cette préparation.",
+            "mediaId": "wordpress-attachment:18612"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Placer la potiron sur la plaque et faire cuire au four pendant environ 20 minutes. Le temps de cuisson dépend de la sorte de citrouille et de la taille des tranches. Piquer les tranches avec la lame d'un couteau : le potiron doit devenir tendre mais garder sa forme.",
+            "mediaId": "wordpress-attachment:18613"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Saupoudrer les tranches d'herbes ciselées et servir tant que c'est chaud.",
+            "mediaId": "wordpress-attachment:18614"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18615",
+      "sourceId": "18615",
+      "path": "/recipes/media/wordpress/18615.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:18611",
+      "sourceId": "18611",
+      "path": "/recipes/media/wordpress/18611.png",
+      "alt": null,
+      "width": 789,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18612",
+      "sourceId": "18612",
+      "path": "/recipes/media/wordpress/18612.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18613",
+      "sourceId": "18613",
+      "path": "/recipes/media/wordpress/18613.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:18614",
+      "sourceId": "18614",
+      "path": "/recipes/media/wordpress/18614.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

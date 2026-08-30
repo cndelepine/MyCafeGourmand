@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21339",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:333",
+  "slug": "potato-salad-russian-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "21339",
+    "recipeId": "21339",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-potato-salad-russian-salad",
+    "createdAt": "2020-01-12T07:23:00+00:00",
+    "modifiedAt": "2021-12-04T03:01:00+00:00",
+    "editorialPostId": "1183",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "potato-salad-russian-salad",
+    "editorialCreatedAt": "2020-01-12T07:23:00+00:00",
+    "editorialModifiedAt": "2021-12-04T03:00:57+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/potato-salad-russian-salad/"
+  ],
+  "title": "Potato salad (Russian salad)",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This is the most traditional Russian salad we make for any holiday, and New Year's Eve is the biggest holiday of all, when \"Olivier\" would be on all tables. What makes it more special is \"leftovers\"... You can eat it the next day and joke that the salad is from last year.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>If you like it, try <a href=\"https://mycafegourmand.com/recipes/salads/\">other salads</a> from my cooking blog!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21339,\"template\":\"chic-template-english\",\"updated\":1607294662219} -->\n<!--WPRM Recipe 21339-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Potato salad (Russian salad)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7135.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 large potatoes</li><li>3 medium carrots</li><li>7 hardboiled eggs</li><li>1 lb bologna</li><li>7 pickles</li><li>1/2 raw onion</li><li>1 can peas (14 oz)</li><li>1/2 cup mayonnaise</li><li>Salt and pepper to taste</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cook potatoes and carrots in a medium pot in their skins until tender. Do not overcook.</li><li>Peel the vegetables and eggs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732776_10211393242889162_1434227691_o-150x150.png\"/><br /></li><li>Cut the potatoes, carrots, bologna, eggs, pickles and onion into small 1/4 inch squares.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732789_10211393239289072_1633728185_o.Blog_-150x150.png\"/><br /></li><li>Mix all the ingredients with mayonnaise, salt and black pepper. Chill salad before serving.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26613468_1747902331888848_210845601_o.Blog_-2-150x150.png\"/><br /></li><li>For a fancier presentation, serve it in mini cups.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7151.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24215",
+      "sourceTaxonomyId": "24215",
+      "name": "large potatoes",
+      "slug": "large-potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24216",
+      "sourceTaxonomyId": "24216",
+      "name": "medium carrots",
+      "slug": "medium-carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24217",
+      "sourceTaxonomyId": "24217",
+      "name": "hardboiled eggs",
+      "slug": "hardboiled-eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24218",
+      "sourceTaxonomyId": "24218",
+      "name": "bologna",
+      "slug": "bologna"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24219",
+      "sourceTaxonomyId": "24219",
+      "name": "pickles",
+      "slug": "pickles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24220",
+      "sourceTaxonomyId": "24220",
+      "name": "raw onion",
+      "slug": "raw-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24221",
+      "sourceTaxonomyId": "24221",
+      "name": "peas (14 oz)",
+      "slug": "peas-14-oz"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24222",
+      "sourceTaxonomyId": "24222",
+      "name": "Salt and pepper to taste",
+      "slug": "salt-and-pepper-to-taste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "288",
+      "sourceTaxonomyId": "288",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "297",
+      "sourceTaxonomyId": "297",
+      "name": "medium carrots",
+      "slug": "medium-carrots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "299",
+      "sourceTaxonomyId": "299",
+      "name": "large potatoes",
+      "slug": "large-potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "303",
+      "sourceTaxonomyId": "303",
+      "name": "bologna",
+      "slug": "bologna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "305",
+      "sourceTaxonomyId": "305",
+      "name": "peas (14 oz)",
+      "slug": "peas-14-oz"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "307",
+      "sourceTaxonomyId": "307",
+      "name": "pickles",
+      "slug": "pickles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "309",
+      "sourceTaxonomyId": "309",
+      "name": "raw onion",
+      "slug": "raw-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "519",
+      "sourceTaxonomyId": "519",
+      "name": "hardboiled eggs",
+      "slug": "hardboiled-eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2024",
+      "sourceTaxonomyId": "2024",
+      "name": "Salt and pepper to taste",
+      "slug": "salt-and-pepper-to-taste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1606",
+      "sourceTaxonomyId": "1606",
+      "name": "mayonnaise",
+      "slug": "mayonnaise-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1642",
+      "sourceTaxonomyId": "1642",
+      "name": "potato",
+      "slug": "potato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1646",
+      "sourceTaxonomyId": "1646",
+      "name": "peas",
+      "slug": "peas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1650",
+      "sourceTaxonomyId": "1650",
+      "name": "russian",
+      "slug": "russian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1654",
+      "sourceTaxonomyId": "1654",
+      "name": "pickles",
+      "slug": "pickles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1656",
+      "sourceTaxonomyId": "1656",
+      "name": "bologna",
+      "slug": "bologna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1658",
+      "sourceTaxonomyId": "1658",
+      "name": "oignon",
+      "slug": "oignon-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5351",
+      "sourceTaxonomyId": "5351",
+      "name": "most wanted",
+      "slug": "most-wanted"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6812",
+      "sourceTaxonomyId": "6812",
+      "name": "homemade salad",
+      "slug": "homemade-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6814",
+      "sourceTaxonomyId": "6814",
+      "name": "russian party",
+      "slug": "russian-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6850",
+      "sourceTaxonomyId": "6850",
+      "name": "most populair in russia",
+      "slug": "most-populair-in-russia"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8497",
+      "sourceTaxonomyId": "8497",
+      "name": "new year table",
+      "slug": "new-year-table"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 people",
+      "value": 8,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1383",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 large potatoes",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "large potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 medium carrots",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "medium carrots",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "7 hardboiled eggs",
+            "quantity": {
+              "raw": "7",
+              "value": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "hardboiled eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 lb bologna",
+            "quantity": {
+              "raw": "1 lb",
+              "value": 1,
+              "unit": "lb",
+              "scalable": true
+            },
+            "name": "bologna",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "7 pickles",
+            "quantity": {
+              "raw": "7",
+              "value": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pickles",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 raw onion",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "raw onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 can peas (14 oz)",
+            "quantity": {
+              "raw": "1 can",
+              "value": 1,
+              "unit": "can",
+              "scalable": true
+            },
+            "name": "peas (14 oz)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/2 cup mayonnaise",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Salt and pepper to taste",
+            "quantity": null,
+            "name": "Salt and pepper to taste",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cook potatoes and carrots in a medium pot in their skins until tender. Do not overcook.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel the vegetables and eggs.",
+            "mediaId": "wordpress-attachment:1375"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cut the potatoes, carrots, bologna, eggs, pickles and onion into small 1/4 inch squares.",
+            "mediaId": "wordpress-attachment:1377"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mix all the ingredients with mayonnaise, salt and black pepper. Chill salad before serving.",
+            "mediaId": "wordpress-attachment:1404"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "For a fancier presentation, serve it in mini cups.",
+            "mediaId": "wordpress-attachment:1380"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1383",
+      "sourceId": "1383",
+      "path": "/recipes/media/wordpress/1383.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1375",
+      "sourceId": "1375",
+      "path": "/recipes/media/wordpress/1375.png",
+      "alt": null,
+      "width": 1600,
+      "height": 1038
+    },
+    {
+      "id": "wordpress-attachment:1377",
+      "sourceId": "1377",
+      "path": "/recipes/media/wordpress/1377.png",
+      "alt": null,
+      "width": 768,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1404",
+      "sourceId": "1404",
+      "path": "/recipes/media/wordpress/1404.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1380",
+      "sourceId": "1380",
+      "path": "/recipes/media/wordpress/1380.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

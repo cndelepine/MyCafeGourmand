@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21853",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:991",
+  "slug": "cotes-de-porc-au-four",
+  "source": {
+    "system": "wordpress",
+    "postId": "21853",
+    "recipeId": "21853",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cotes-de-porc-au-four",
+    "createdAt": "2018-01-23T08:02:53+00:00",
+    "modifiedAt": "2022-06-26T23:47:26+00:00",
+    "editorialPostId": "2548",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cotes-de-porc-au-four",
+    "editorialCreatedAt": "2018-01-23T08:02:53+00:00",
+    "editorialModifiedAt": "2022-06-26T23:47:24+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/cotes-de-porc-au-four/"
+  ],
+  "title": "Côtes de porc au four",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les côtes de porc sont cuites au four sous une couche d'oignons, de fromage et de mayonnaise. Un plat très populaire en Russie. D'ailleurs, c'est tellement délicieux qu'on l'appelle « La viande à la française »! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21853,\"template\":\"chic-template-french\",\"updated\":1656287150708} -->\n<!--WPRM Recipe 21853-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Côtes de porc au four</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7305-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 côtes  de porc désossées</li><li>Sel et poivre du moulin</li><li>1-2 oignons épluchés et découpés en demi rondelles</li><li>200 g de fromage râpé</li><li>5-6 cuillères à soupe de mayonnaise</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 200 °C (th. 6/7). Tapisser une plaque de cuisson avec une feuille de papier aluminium (cela facilite le nettoyage après).</li><li>Couvrir les côtes de porc avec un film alimentaire et taper de chaque côté pour les aplatir un peu. Saler et poivrer la viande.\r\n   <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7277.Blog_-150x150.png\"/><br /></li><li>Placer les côtes de porc sur la plaque. Recouvrir la viande d'abord par une couche d'oignon puis saupoudrer de fromage. Étaler la mayonnaise par dessus.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7278-2.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant 30-40 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7292-2.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24572",
+      "sourceTaxonomyId": "24572",
+      "name": "de porc désossées",
+      "slug": "de-porc-desossees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24573",
+      "sourceTaxonomyId": "24573",
+      "name": "oignons épluchés et découpés en demi rondelles",
+      "slug": "oignons-epluches-et-decoupes-en-demi-rondelles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24574",
+      "sourceTaxonomyId": "24574",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "531",
+      "sourceTaxonomyId": "531",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "535",
+      "sourceTaxonomyId": "535",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "987",
+      "sourceTaxonomyId": "987",
+      "name": "de porc désossées",
+      "slug": "de-porc-desossees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "993",
+      "sourceTaxonomyId": "993",
+      "name": "oignons épluchés et découpés en demi rondelles",
+      "slug": "oignons-epluches-et-decoupes-en-demi-rondelles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1200",
+      "sourceTaxonomyId": "1200",
+      "name": "porc",
+      "slug": "porc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1202",
+      "sourceTaxonomyId": "1202",
+      "name": "viande",
+      "slug": "viande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1204",
+      "sourceTaxonomyId": "1204",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1206",
+      "sourceTaxonomyId": "1206",
+      "name": "plat russe",
+      "slug": "plat-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1208",
+      "sourceTaxonomyId": "1208",
+      "name": "plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1212",
+      "sourceTaxonomyId": "1212",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1226",
+      "sourceTaxonomyId": "1226",
+      "name": "Côtes de porc au four",
+      "slug": "cotes-de-porc-au-four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1244",
+      "sourceTaxonomyId": "1244",
+      "name": "viande a la francaise",
+      "slug": "viande-a-la-francaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2467",
+      "sourceTaxonomyId": "2467",
+      "name": "fromage rape",
+      "slug": "fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6852",
+      "sourceTaxonomyId": "6852",
+      "name": "cuisine russe",
+      "slug": "cuisine-russe"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2193",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 côtes de porc désossées",
+            "quantity": {
+              "raw": "6 côtes",
+              "value": 6,
+              "unit": "côtes",
+              "scalable": true
+            },
+            "name": "de porc désossées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 oignons épluchés et découpés en demi rondelles",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignons épluchés et découpés en demi rondelles",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g de fromage râpé",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de fromage râpé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "5-6 cuillères à soupe de mayonnaise",
+            "quantity": {
+              "raw": "5-6 cuillères à soupe",
+              "min": 5,
+              "max": 6,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 200 °C (th. 6/7). Tapisser une plaque de cuisson avec une feuille de papier aluminium (cela facilite le nettoyage après).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couvrir les côtes de porc avec un film alimentaire et taper de chaque côté pour les aplatir un peu. Saler et poivrer la viande.",
+            "mediaId": "wordpress-attachment:2190"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Placer les côtes de porc sur la plaque. Recouvrir la viande d'abord par une couche d'oignon puis saupoudrer de fromage. Étaler la mayonnaise par dessus.",
+            "mediaId": "wordpress-attachment:2191"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire cuire au four pendant 30-40 minutes.",
+            "mediaId": "wordpress-attachment:2589"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2193",
+      "sourceId": "2193",
+      "path": "/recipes/media/wordpress/2193.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2190",
+      "sourceId": "2190",
+      "path": "/recipes/media/wordpress/2190.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2191",
+      "sourceId": "2191",
+      "path": "/recipes/media/wordpress/2191.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2589",
+      "sourceId": "2589",
+      "path": "/recipes/media/wordpress/2589.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22232",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2207",
+  "slug": "mini-pavlova",
+  "source": {
+    "system": "wordpress",
+    "postId": "22232",
+    "recipeId": "22232",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-mini-pavlova-2",
+    "createdAt": "2018-12-09T00:43:59+00:00",
+    "modifiedAt": "2022-07-30T19:37:17+00:00",
+    "editorialPostId": "4246",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "mini-pavlova",
+    "editorialCreatedAt": "2018-12-09T00:43:59+00:00",
+    "editorialModifiedAt": "2022-07-30T19:37:13+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/mini-pavlova/"
+  ],
+  "title": "Mini Pavlova",
+  "description": "Je n'utilise pas souvent les colorants. Cette fois-là, à l'occasion de la Saint-Valentin. j'ai essayé d'ajouter une toute petite goutte de colorant alimentaire rouge pour la crème. J'ai obtenu une très jolie couleur rose et c'était parfait pour ce dessert.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le mini Pavlova est un dessert délicat à base de meringue, crème chantilly au <span id=\":zi.52\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">mascarpone</span> et de fruits. Pour ne pas casser le dessert en le <span id=\":zi.53\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">découpant</span>, je le <span id=\":zi.165\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">préfère</span> <span id=\":zi.55\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\"></span>en version individuelle. Et bien sûr, j'adore en mini taille pour mon <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">Café gourmand</a> !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Les <span id=\":zi.59\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">meringues</span> <span id=\":zi.60\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">peuvent</span> <span id=\":zi.61\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">être</span> <span id=\":zi.62\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">préparées</span>&nbsp;à l'avance et <span id=\":zi.63\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">congelée</span>s. Je <span id=\":zi.65\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">prépare la crème</span> le jour <span id=\":zi.66\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">même</span>. Et le dressage des <span id=\":zi.67\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">gâteaux</span> au moment de servir.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22232,\"template\":\"chic-template-french\",\"updated\":1607912431486} -->\n<!--WPRM Recipe 22232-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Mini Pavlova</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20171211_105816.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tJe n'utilise pas souvent les colorants. Cette fois-là, à l'occasion de la Saint-Valentin. j'ai essayé d'ajouter une toute petite goutte de colorant alimentaire rouge pour la crème. J'ai obtenu une très jolie couleur rose et c'était parfait pour ce dessert. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Merinque</h4><ul><li>4 blancs d'oeufs ( (à température ambiante))</li><li>1 pincée  de sel</li><li>220 g de sucre glace</li></ul><h4>Crème </h4><ul><li>200 ml de crème liquide entière (très froide)</li><li>100 g de mascarpone (froide)</li><li>1,5 cuillère à soupe de sucre en poudre</li><li>1 petite goutte de colorant alimentaire rouge ((facultatif))</li><li>Des fruits rouges frais : (framboises, myrtilles, fraises...)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Meringue</h4><ol><li>Battre les blancs en neige avec le sel. Petit à petit, ajouter le sucre glace. Continuer à battre jusqu'à ce que la neige brille et soit très ferme.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8595.Blog_-1-150x150.png\"/><br /></li><li>Préchauffer le four à 100°C (thermostat 3/4). Tapisser une plaque à pâtisserie avec une feuille de papier sulfurisé. Tracer au crayon à papier des cercles de la taille souhaitée, (4-8 cm de diamètre).\r\n\r\n</li><li>À l'aide d'une poche à douille, dresser des petits disques en formant des petits bords. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8598.Blog_-1-150x150.png\"/><br /></li><li>Faire cuire au four pendant environ 1 heure et demie. Éteindre le four et laisser complètement refroidir les meringues dans le four éteint. Les meringues réussies sont blanches, sèches, légères et croquantes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8628.Blog_-1-150x150.png\"/><br /></li><li>Si vous ne servez pas ce dessert le jour même, placer les meringues refroidies dans une boîte hermétique et les mettre au congélateur.</li></ol><h4>Crème </h4><ol><li>Dans une jatte, mettre le mascarpone et la crème liquide. Les fouetter en chantilly en ajoutant le sucre. (Ajouter une petite goutte de colorant alimentaire rouge.)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8372.Blog_-1-150x150.png\"/><br /></li><li>Mettre la crème dans une poche à douille et la garder dans le réfrigérateur jusqu'au moment de servir.</li><li>Laver, sécher et couper les fruits.</li><li>Au moment de servir, répartir la crème sur les meringues. Décorer avec des fruits. Servir aussitôt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180308_120148.Blog_-1-150x150.png\"/><br /></li><li>Si vous avez trop de crème, vous pouvez préparer des verrines. Répartir les fruits dans les verrines puis garnir avec la crème.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180129_174601.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24473",
+      "sourceTaxonomyId": "24473",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24527",
+      "sourceTaxonomyId": "24527",
+      "name": "blancs d'oeufs",
+      "slug": "blancs-doeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24688",
+      "sourceTaxonomyId": "24688",
+      "name": "de mascarpone",
+      "slug": "de-mascarpone"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24798",
+      "sourceTaxonomyId": "24798",
+      "name": "de colorant alimentaire rouge",
+      "slug": "de-colorant-alimentaire-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24799",
+      "sourceTaxonomyId": "24799",
+      "name": "Des fruits rouges frais :",
+      "slug": "des-fruits-rouges-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "549",
+      "sourceTaxonomyId": "549",
+      "name": "de mascarpone",
+      "slug": "de-mascarpone"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "946",
+      "sourceTaxonomyId": "946",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2218",
+      "sourceTaxonomyId": "2218",
+      "name": "blancs d'oeufs",
+      "slug": "blancs-doeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2230",
+      "sourceTaxonomyId": "2230",
+      "name": "de colorant alimentaire rouge",
+      "slug": "de-colorant-alimentaire-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2232",
+      "sourceTaxonomyId": "2232",
+      "name": "Des fruits rouges frais :",
+      "slug": "des-fruits-rouges-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1524",
+      "sourceTaxonomyId": "1524",
+      "name": "mascarpone",
+      "slug": "mascarpone-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1933",
+      "sourceTaxonomyId": "1933",
+      "name": "mini",
+      "slug": "mini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2183",
+      "sourceTaxonomyId": "2183",
+      "name": "fruits rouges",
+      "slug": "fruits-rouges"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2208",
+      "sourceTaxonomyId": "2208",
+      "name": "meringue",
+      "slug": "meringue"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2210",
+      "sourceTaxonomyId": "2210",
+      "name": "sucre en poudre",
+      "slug": "sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2212",
+      "sourceTaxonomyId": "2212",
+      "name": "creme liquide entiere",
+      "slug": "creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2214",
+      "sourceTaxonomyId": "2214",
+      "name": "blanc d'oeuf",
+      "slug": "blanc-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2216",
+      "sourceTaxonomyId": "2216",
+      "name": "dessert individuel",
+      "slug": "dessert-individuel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5598",
+      "sourceTaxonomyId": "5598",
+      "name": "dessert elegant",
+      "slug": "dessert-elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5800",
+      "sourceTaxonomyId": "5800",
+      "name": "cocktail dinatoire",
+      "slug": "cocktail-dinatoire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6423",
+      "sourceTaxonomyId": "6423",
+      "name": "creme rose",
+      "slug": "creme-rose"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6425",
+      "sourceTaxonomyId": "6425",
+      "name": "une goutte de colorant rouge",
+      "slug": "une-goutte-de-colorant-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6427",
+      "sourceTaxonomyId": "6427",
+      "name": "la Saint-Valentin",
+      "slug": "la-saint-valentin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6429",
+      "sourceTaxonomyId": "6429",
+      "name": "dessert pour les fille",
+      "slug": "dessert-pour-les-fille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7062",
+      "sourceTaxonomyId": "7062",
+      "name": "idee cafe gourmand",
+      "slug": "idee-cafe-gourmand"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "36",
+        "minutes": 36
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:3858",
+    "ingredientGroups": [
+      {
+        "name": "Merinque",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 blancs d'oeufs (à température ambiante)",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "blancs d'oeufs",
+            "notes": "(à température ambiante)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 pincée de sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "220 g de sucre glace",
+            "quantity": {
+              "raw": "220 g",
+              "value": 220,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre glace",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Crème",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 ml de crème liquide entière très froide",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": "très froide"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g de mascarpone froide",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de mascarpone",
+            "notes": "froide"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1,5 cuillère à soupe de sucre en poudre",
+            "quantity": {
+              "raw": "1,5 cuillère à soupe",
+              "unit": "cuillère à soupe",
+              "scalable": false
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 petite goutte de colorant alimentaire rouge (facultatif)",
+            "quantity": {
+              "raw": "1 petite goutte",
+              "value": 1,
+              "unit": "petite goutte",
+              "scalable": true
+            },
+            "name": "de colorant alimentaire rouge",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Des fruits rouges frais : framboises, myrtilles, fraises...",
+            "quantity": null,
+            "name": "Des fruits rouges frais :",
+            "notes": "framboises, myrtilles, fraises..."
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Meringue",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Battre les blancs en neige avec le sel. Petit à petit, ajouter le sucre glace. Continuer à battre jusqu'à ce que la neige brille et soit très ferme.",
+            "mediaId": "wordpress-attachment:6019"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Préchauffer le four à 100°C (thermostat 3/4). Tapisser une plaque à pâtisserie avec une feuille de papier sulfurisé. Tracer au crayon à papier des cercles de la taille souhaitée, (4-8 cm de diamètre).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "À l'aide d'une poche à douille, dresser des petits disques en formant des petits bords.",
+            "mediaId": "wordpress-attachment:6020"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire cuire au four pendant environ 1 heure et demie. Éteindre le four et laisser complètement refroidir les meringues dans le four éteint. Les meringues réussies sont blanches, sèches, légères et croquantes.",
+            "mediaId": "wordpress-attachment:6021"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Si vous ne servez pas ce dessert le jour même, placer les meringues refroidies dans une boîte hermétique et les mettre au congélateur.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Crème",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une jatte, mettre le mascarpone et la crème liquide. Les fouetter en chantilly en ajoutant le sucre. (Ajouter une petite goutte de colorant alimentaire rouge.)",
+            "mediaId": "wordpress-attachment:6022"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mettre la crème dans une poche à douille et la garder dans le réfrigérateur jusqu'au moment de servir.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Laver, sécher et couper les fruits.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Au moment de servir, répartir la crème sur les meringues. Décorer avec des fruits. Servir aussitôt.",
+            "mediaId": "wordpress-attachment:6018"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Si vous avez trop de crème, vous pouvez préparer des verrines. Répartir les fruits dans les verrines puis garnir avec la crème.",
+            "mediaId": "wordpress-attachment:3860"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:3858",
+      "sourceId": "3858",
+      "path": "/recipes/media/wordpress/3858.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:6019",
+      "sourceId": "6019",
+      "path": "/recipes/media/wordpress/6019.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6020",
+      "sourceId": "6020",
+      "path": "/recipes/media/wordpress/6020.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6021",
+      "sourceId": "6021",
+      "path": "/recipes/media/wordpress/6021.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6022",
+      "sourceId": "6022",
+      "path": "/recipes/media/wordpress/6022.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:6018",
+      "sourceId": "6018",
+      "path": "/recipes/media/wordpress/6018.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:3860",
+      "sourceId": "3860",
+      "path": "/recipes/media/wordpress/3860.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

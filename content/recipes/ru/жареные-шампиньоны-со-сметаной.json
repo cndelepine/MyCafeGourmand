@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27936",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:26661",
+  "slug": "жареные-шампиньоны-со-сметаной",
+  "source": {
+    "system": "wordpress",
+    "postId": "27936",
+    "recipeId": "27936",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b6%d0%b0%d1%80%d0%b5%d0%bd%d1%8b%d0%b5-%d1%88%d0%b0%d0%bc%d0%bf%d0%b8%d0%bd%d1%8c%d0%be%d0%bd%d1%8b-%d1%81%d0%be-%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d0%be%d0%b9",
+    "createdAt": "2024-09-11T04:07:24+00:00",
+    "modifiedAt": "2024-09-18T04:07:41+00:00",
+    "editorialPostId": "27932",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b6%d0%b0%d1%80%d0%b5%d0%bd%d1%8b%d0%b5-%d1%88%d0%b0%d0%bc%d0%bf%d0%b8%d0%bd%d1%8c%d0%be%d0%bd%d1%8b-%d1%81%d0%be-%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d0%be%d0%b9",
+    "editorialCreatedAt": "2024-09-11T04:07:24+00:00",
+    "editorialModifiedAt": "2024-09-18T04:07:37+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d0%b6%d0%b0%d1%80%d0%b5%d0%bd%d1%8b%d0%b5-%d1%88%d0%b0%d0%bc%d0%bf%d0%b8%d0%bd%d1%8c%d0%be%d0%bd%d1%8b-%d1%81%d0%be-%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d0%be%d0%b9/"
+  ],
+  "title": "Жареные шампиньоны со сметаной",
+  "description": "Можно подать с отварным картофелем, картофельным пюре или рисом.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Сытное вегетарианское блюдо. Грибы, лук, сметана - вот и все ингредиенты.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27936,\"template\":\"chic-template-russian\",\"updated\":1726632440356} -->\n<!--WPRM Recipe 27936-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Жареные шампиньоны со сметаной</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4785.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Можно подать с отварным картофелем, картофельным пюре или рисом.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 большая луковица</li><li>1-2 зубчика чеснока</li><li>500 г шампиньонов (или коричневые шампиньоны/портобелло)</li><li>10 г сливочного масла </li><li>2 ст.л. растительного масла</li><li>200 мл сметаны</li><li>Соль и свежемолотый черный перец</li><li>Немного свежей зелени: петрушки, зеленого лука, кинзы ((по желанию))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Подготовить шампиньоны. Если они не очень грязные, не мыть, а просто протереть влажной салфеткой. Если вы решили помыть шампиньоны, делайте это быстро, чтобы грибы не пропитались водой. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4775.Blog_-150x150.png\"/><br /></li><li><p>Промытые шампиньоны хорошо высушить бумажным полотенцем</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4780.Blog_-150x150.png\"/><br /></li><li><p>Шампиньоны нарезать ломтиками или дольками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4781.Blog_-150x150.png\"/><br /></li><li><p>Лук и чеснок очистить и мелко нарезать.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4760.Blog_-150x150.png\"/><br /></li><li><p>В сковороде разогреть растительное и сливочное масло. На среднем огне обжарить сначала лук.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4771.Blog_-150x150.png\"/><br /></li><li><p>Затем добавить чеснок  (Если чеснок положить в сковороду вместе с луком, он пожарится быстрее и начнет подгорать). </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4772.Blog_-150x150.png\"/><br /></li><li><p>Добавить шампиньоны и жарить еще примерно 10 минут.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/received_8257399460567832.Blog_-150x150.png\"/><br /></li><li><p>Добавить сметану.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4785.Blog_-150x150.png\"/><br /></li><li><p>Хорошо перемешать. Посолить и поперчить. Подержать на огне еще 1-2 минуты. Готово.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4786.Blog_-150x150.png\"/><br /></li><li><p>Вкусно с картофельным пюре, рисом или макаронами.  </p><p>Не поленитесь (как я ;) )и посыпьте свежей зеленью - будет еще вкуснее и аппетитнее выглядеть на тарелке.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4794.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24808",
+      "sourceTaxonomyId": "24808",
+      "name": "растительного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24821",
+      "sourceTaxonomyId": "24821",
+      "name": "шампиньонов",
+      "slug": "%d1%88%d0%b0%d0%bc%d0%bf%d0%b8%d0%bd%d1%8c%d0%be%d0%bd%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24826",
+      "sourceTaxonomyId": "24826",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24827",
+      "sourceTaxonomyId": "24827",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24854",
+      "sourceTaxonomyId": "24854",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24868",
+      "sourceTaxonomyId": "24868",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26657",
+      "sourceTaxonomyId": "26657",
+      "name": "свежей зелени: петрушки, зеленого лука, кинзы",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b8-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%bb%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25457",
+      "sourceTaxonomyId": "25457",
+      "name": "мл",
+      "slug": "%d0%bc%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26166",
+      "sourceTaxonomyId": "26166",
+      "name": "зубчика",
+      "slug": "%d0%b7%d1%83%d0%b1%d1%87%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26237",
+      "sourceTaxonomyId": "26237",
+      "name": "большая",
+      "slug": "%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b0%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "20",
+      "sourceTaxonomyId": "20",
+      "name": "Uncategorized",
+      "slug": "uncategorized-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1422",
+      "sourceTaxonomyId": "1422",
+      "name": "сметана",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1496",
+      "sourceTaxonomyId": "1496",
+      "name": "грибы",
+      "slug": "%d0%b3%d1%80%d0%b8%d0%b1%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3547",
+      "sourceTaxonomyId": "3547",
+      "name": "на сковороде",
+      "slug": "%d0%bd%d0%b0-%d1%81%d0%ba%d0%be%d0%b2%d0%be%d1%80%d0%be%d0%b4%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4837",
+      "sourceTaxonomyId": "4837",
+      "name": "шампиньоны",
+      "slug": "%d1%88%d0%b0%d0%bc%d0%bf%d0%b8%d0%bd%d1%8c%d0%be%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5261",
+      "sourceTaxonomyId": "5261",
+      "name": "со сметаной",
+      "slug": "%d1%81%d0%be-%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d0%be%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26606",
+      "sourceTaxonomyId": "26606",
+      "name": "очень вкусно",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26608",
+      "sourceTaxonomyId": "26608",
+      "name": "на скорую руку",
+      "slug": "%d0%bd%d0%b0-%d1%81%d0%ba%d0%be%d1%80%d1%83%d1%8e-%d1%80%d1%83%d0%ba%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26659",
+      "sourceTaxonomyId": "26659",
+      "name": "в сметане",
+      "slug": "%d0%b2-%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d0%b5"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 порции",
+      "value": 4,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27944",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 большая луковица",
+            "quantity": {
+              "raw": "1 большая",
+              "value": 1,
+              "unit": "большая",
+              "scalable": true
+            },
+            "name": "луковица",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 зубчика чеснока",
+            "quantity": {
+              "raw": "1-2 зубчика",
+              "min": 1,
+              "max": 2,
+              "unit": "зубчика",
+              "scalable": true
+            },
+            "name": "чеснока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 г шампиньонов или коричневые шампиньоны/портобелло",
+            "quantity": {
+              "raw": "500 г",
+              "value": 500,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "шампиньонов",
+            "notes": "или коричневые шампиньоны/портобелло"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "10 г сливочного масла",
+            "quantity": {
+              "raw": "10 г",
+              "value": 10,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 ст.л. растительного масла",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "растительного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "200 мл сметаны",
+            "quantity": {
+              "raw": "200 мл",
+              "value": 200,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "сметаны",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Соль и свежемолотый черный перец",
+            "quantity": null,
+            "name": "Соль и свежемолотый черный перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Немного свежей зелени: петрушки, зеленого лука, кинзы (по желанию)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "свежей зелени: петрушки, зеленого лука, кинзы",
+            "notes": "(по желанию)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Подготовить шампиньоны. Если они не очень грязные, не мыть, а просто протереть влажной салфеткой. Если вы решили помыть шампиньоны, делайте это быстро, чтобы грибы не пропитались водой.",
+            "mediaId": "wordpress-attachment:27941"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Промытые шампиньоны хорошо высушить бумажным полотенцем",
+            "mediaId": "wordpress-attachment:27942"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Шампиньоны нарезать ломтиками или дольками.",
+            "mediaId": "wordpress-attachment:27943"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Лук и чеснок очистить и мелко нарезать.",
+            "mediaId": "wordpress-attachment:27949"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "В сковороде разогреть растительное и сливочное масло. На среднем огне обжарить сначала лук.",
+            "mediaId": "wordpress-attachment:27950"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Затем добавить чеснок (Если чеснок положить в сковороду вместе с луком, он пожарится быстрее и начнет подгорать).",
+            "mediaId": "wordpress-attachment:27951"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Добавить шампиньоны и жарить еще примерно 10 минут.",
+            "mediaId": "wordpress-attachment:27952"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Добавить сметану.",
+            "mediaId": "wordpress-attachment:27944"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Хорошо перемешать. Посолить и поперчить. Подержать на огне еще 1-2 минуты. Готово.",
+            "mediaId": "wordpress-attachment:27945"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Вкусно с картофельным пюре, рисом или макаронами.\n\nНе поленитесь (как я ;) )и посыпьте свежей зеленью - будет еще вкуснее и аппетитнее выглядеть на тарелке.",
+            "mediaId": "wordpress-attachment:27946"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27944",
+      "sourceId": "27944",
+      "path": "/recipes/media/wordpress/27944.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27941",
+      "sourceId": "27941",
+      "path": "/recipes/media/wordpress/27941.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27942",
+      "sourceId": "27942",
+      "path": "/recipes/media/wordpress/27942.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27943",
+      "sourceId": "27943",
+      "path": "/recipes/media/wordpress/27943.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27949",
+      "sourceId": "27949",
+      "path": "/recipes/media/wordpress/27949.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27950",
+      "sourceId": "27950",
+      "path": "/recipes/media/wordpress/27950.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27951",
+      "sourceId": "27951",
+      "path": "/recipes/media/wordpress/27951.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27952",
+      "sourceId": "27952",
+      "path": "/recipes/media/wordpress/27952.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27945",
+      "sourceId": "27945",
+      "path": "/recipes/media/wordpress/27945.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27946",
+      "sourceId": "27946",
+      "path": "/recipes/media/wordpress/27946.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

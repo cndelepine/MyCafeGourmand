@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28968",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:27017",
+  "slug": "black-olive-dip",
+  "source": {
+    "system": "wordpress",
+    "postId": "28968",
+    "recipeId": "28968",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-black-olive-dip",
+    "createdAt": "2024-12-28T17:59:12+00:00",
+    "modifiedAt": "2024-12-30T02:14:03+00:00",
+    "editorialPostId": "28967",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "black-olive-dip",
+    "editorialCreatedAt": "2024-12-28T17:59:12+00:00",
+    "editorialModifiedAt": "2024-12-30T02:14:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/black-olive-dip/"
+  ],
+  "title": "Black olive dip",
+  "description": "Simplified version of tapenade without anchovies nor capers.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Provençal recipe, this black olive dip is a tapenade without anchovies nor capers. This black olive paste is ready in just a few minutes, served with fresh bread, toast, or pita bread.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28968,\"template\":\"chic-template-english\",\"updated\":1735524809798} -->\n<!--WPRM Recipe 28968-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Black olive dip</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/PXL_20241209_041723738.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Simplified version of tapenade without anchovies nor capers.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>180 g black olives (picholine ou kalamata) (pitted )</li><li>1 clove orgarlic (épluchées et coupées en 4)</li><li>1  bunch fresh basil leaves</li><li>1/2 lemon (juice only)</li><li>4  Tbsps olive oil</li><li>Freshly ground black pepper</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Separate the basil leaves from the sprigs. Peel the garlic clove and cut into 3-4 parts.</p></li><li><p>Place olives, garlic and basil leaves in a food processor bowl. Add lemon juice and olive oil. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/IMG_2292.Blog_-150x150.png\"/><br /></li><li><p>Pulse 2-3 times for a few seconds.The olivada should have a slightly grainy texture.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/PXL_20241209_035052197.Blog_-150x150.png\"/><br /></li><li><p>Season to taste and serve with your favorite bread.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/PXL_20241209_041723738.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs, Appetizer</div><div class=\"wprm-fallback-recipe-meta-cuisine\">French</div><div class=\"wprm-fallback-recipe-meta-keyword\">Appetizers, Olive, Provence</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "The black olive dip is a tapenade without anchovies nor capers"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26438",
+      "sourceTaxonomyId": "26438",
+      "name": "Apéritifs",
+      "slug": "aperitifs-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26793",
+      "sourceTaxonomyId": "26793",
+      "name": "Appetizer",
+      "slug": "appetizer-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24105",
+      "sourceTaxonomyId": "24105",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24126",
+      "sourceTaxonomyId": "24126",
+      "name": "lemon (juice only)",
+      "slug": "lemon-juice-only"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26810",
+      "sourceTaxonomyId": "26810",
+      "name": "fresh basil leaves",
+      "slug": "fresh-basil-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27028",
+      "sourceTaxonomyId": "27028",
+      "name": "black olives (picholine ou kalamata)",
+      "slug": "black-olives-picholine-ou-kalamata"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27029",
+      "sourceTaxonomyId": "27029",
+      "name": "orgarlic",
+      "slug": "orgarlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26203",
+      "sourceTaxonomyId": "26203",
+      "name": "clove",
+      "slug": "clove"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26736",
+      "sourceTaxonomyId": "26736",
+      "name": "Tbsps",
+      "slug": "tbsps"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27030",
+      "sourceTaxonomyId": "27030",
+      "name": "bunch",
+      "slug": "bunch"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27036",
+      "sourceTaxonomyId": "27036",
+      "name": "Olive",
+      "slug": "olive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27038",
+      "sourceTaxonomyId": "27038",
+      "name": "Provence",
+      "slug": "provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27040",
+      "sourceTaxonomyId": "27040",
+      "name": "Appetizers",
+      "slug": "appetizers-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "2",
+      "sourceTaxonomyId": "2",
+      "name": "Culinary blog",
+      "slug": "culinary-blog"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6357",
+      "sourceTaxonomyId": "6357",
+      "name": "black olive",
+      "slug": "black-olive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "13635",
+      "sourceTaxonomyId": "13635",
+      "name": "5 minutes ready",
+      "slug": "5-minutes-ready-2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26940",
+      "sourceTaxonomyId": "26940",
+      "name": "dip",
+      "slug": "dip-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27032",
+      "sourceTaxonomyId": "27032",
+      "name": "fresh basil",
+      "slug": "fresh-basil"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 people",
+      "value": 4,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "1",
+        "value": 1
+      },
+      "servingSize": {
+        "raw": "10",
+        "value": 10
+      },
+      "servingUnit": "g"
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28961",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "180 g black olives (picholine ou kalamata) pitted",
+            "quantity": {
+              "raw": "180 g",
+              "value": 180,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "black olives (picholine ou kalamata)",
+            "notes": "pitted"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 clove orgarlic épluchées et coupées en 4",
+            "quantity": {
+              "raw": "1 clove",
+              "value": 1,
+              "unit": "clove",
+              "scalable": true
+            },
+            "name": "orgarlic",
+            "notes": "épluchées et coupées en 4"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 bunch fresh basil leaves",
+            "quantity": {
+              "raw": "1 bunch",
+              "value": 1,
+              "unit": "bunch",
+              "scalable": true
+            },
+            "name": "fresh basil leaves",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 lemon (juice only)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon (juice only)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 Tbsps olive oil",
+            "quantity": {
+              "raw": "4 Tbsps",
+              "value": 4,
+              "unit": "Tbsps",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Freshly ground black pepper",
+            "quantity": null,
+            "name": "Freshly ground black pepper",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Separate the basil leaves from the sprigs. Peel the garlic clove and cut into 3-4 parts.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Place olives, garlic and basil leaves in a food processor bowl. Add lemon juice and olive oil.",
+            "mediaId": "wordpress-attachment:28956"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Pulse 2-3 times for a few seconds.The olivada should have a slightly grainy texture.",
+            "mediaId": "wordpress-attachment:28960"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Season to taste and serve with your favorite bread.",
+            "mediaId": "wordpress-attachment:28961"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28961",
+      "sourceId": "28961",
+      "path": "/recipes/media/wordpress/28961.png",
+      "alt": null,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28956",
+      "sourceId": "28956",
+      "path": "/recipes/media/wordpress/28956.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28960",
+      "sourceId": "28960",
+      "path": "/recipes/media/wordpress/28960.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

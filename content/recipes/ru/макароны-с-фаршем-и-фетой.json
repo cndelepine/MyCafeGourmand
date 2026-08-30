@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22472",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:11251",
+  "slug": "макароны-с-фаршем-и-фетой",
+  "source": {
+    "system": "wordpress",
+    "postId": "22472",
+    "recipeId": "22472",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd%d1%8b-%d1%81-%d1%84%d0%b0%d1%80%d1%88%d0%b5%d0%bc-%d0%b8-%d1%84%d0%b5%d1%82%d0%be%d0%b9",
+    "createdAt": "2020-01-20T07:21:10+00:00",
+    "modifiedAt": "2022-07-30T20:11:00+00:00",
+    "editorialPostId": "14735",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd%d1%8b-%d1%81-%d1%84%d0%b0%d1%80%d1%88%d0%b5%d0%bc-%d0%b8-%d1%84%d0%b5%d1%82%d0%be%d0%b9",
+    "editorialCreatedAt": "2020-01-20T07:21:10+00:00",
+    "editorialModifiedAt": "2022-07-30T20:10:58+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd%d1%8b-%d1%81-%d1%84%d0%b0%d1%80%d1%88%d0%b5%d0%bc-%d0%b8-%d1%84%d0%b5%d1%82%d0%be%d0%b9/"
+  ],
+  "title": "Макароны с фаршем и фетой",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Многие любят макароны, особенно макароны по-флотски. А пробовали вы добавить в это блюдо сыр фета и свежий укроп? Советую приготовить сразу большую порцию, будьте готовы, что каждый попросит добавку!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22472,\"template\":\"chic-template-russian\",\"updated\":1659211852696} -->\n<!--WPRM Recipe 22472-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Макароны с фаршем и фетой</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50436409_614562915667462_9012105490372493312_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>500 г любых макарон</li><li>500 г фарша из говядины</li><li>200 г сыра фета</li><li>4 ст.л. оливкового масла</li><li>1 луковица</li><li>Соль и свежемолотый черный перец (по вкусу)</li><li>Немного свежего укропа</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Сварить в подсоленной воде макароны. Время варки указано в инструкции на упаковке. Слить воду и накрыть макароны крышкой, чтобы они не остыли.\r\nПока варятся макароны, приготовить лук и фарш.\r\n</li><li>Лук почистить и измельчить.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50226140_2427386454002668_2506782216638431232_n.Blog_-150x150.png\"/><br /></li><li>В сковороде разогреть оливковое масло и обжарить в нем лук.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50394041_2025102471120933_5111755030705209344_n.Blog_-150x150.png\"/><br /></li><li>На другой сковороде обжарить фарш. Посолить и поперчить. Соединить готовый фарш с уже обжаренным луком.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50401035_2009728035802762_8561041981927587840_n.Blog_-1-150x150.png\"/><br /></li><li>Вилкой искрошить фету.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50333868_2238846079710323_3941302375834189824_n.Blog_-150x150.png\"/><br /></li><li>Соединить сваренные макароны с обжаренным фаршем и фетой. Посыпать укропом и хорошо перемешать. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50020354_403921007046464_1391901623919312896_n.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24826",
+      "sourceTaxonomyId": "24826",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24827",
+      "sourceTaxonomyId": "24827",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24866",
+      "sourceTaxonomyId": "24866",
+      "name": "сыра фета",
+      "slug": "%d1%81%d1%8b%d1%80%d0%b0-%d1%84%d0%b5%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24941",
+      "sourceTaxonomyId": "24941",
+      "name": "любых макарон",
+      "slug": "%d0%bb%d1%8e%d0%b1%d1%8b%d1%85-%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24942",
+      "sourceTaxonomyId": "24942",
+      "name": "фарша из говядины",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88%d0%b0-%d0%b8%d0%b7-%d0%b3%d0%be%d0%b2%d1%8f%d0%b4%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24943",
+      "sourceTaxonomyId": "24943",
+      "name": "свежего укропа",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b3%d0%be-%d1%83%d0%ba%d1%80%d0%be%d0%bf%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1438",
+      "sourceTaxonomyId": "1438",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "797",
+      "sourceTaxonomyId": "797",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1876",
+      "sourceTaxonomyId": "1876",
+      "name": "фарша из говядины",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88%d0%b0-%d0%b8%d0%b7-%d0%b3%d0%be%d0%b2%d1%8f%d0%b4%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3350",
+      "sourceTaxonomyId": "3350",
+      "name": "свежего укропа",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b3%d0%be-%d1%83%d0%ba%d1%80%d0%be%d0%bf%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4948",
+      "sourceTaxonomyId": "4948",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7108",
+      "sourceTaxonomyId": "7108",
+      "name": "сыра фета",
+      "slug": "%d1%81%d1%8b%d1%80%d0%b0-%d1%84%d0%b5%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11260",
+      "sourceTaxonomyId": "11260",
+      "name": "любых макарон",
+      "slug": "%d0%bb%d1%8e%d0%b1%d1%8b%d1%85-%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1866",
+      "sourceTaxonomyId": "1866",
+      "name": "фарш",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3376",
+      "sourceTaxonomyId": "3376",
+      "name": "паста",
+      "slug": "%d0%bf%d0%b0%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4776",
+      "sourceTaxonomyId": "4776",
+      "name": "syr",
+      "slug": "syr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5556",
+      "sourceTaxonomyId": "5556",
+      "name": "легко и вкусно",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be-%d0%b8-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7090",
+      "sourceTaxonomyId": "7090",
+      "name": "сыр фета",
+      "slug": "%d1%81%d1%8b%d1%80-%d1%84%d0%b5%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8572",
+      "sourceTaxonomyId": "8572",
+      "name": "простой рецепт с пошаговыми фото",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%bc%d0%b8-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "11243",
+      "sourceTaxonomyId": "11243",
+      "name": "макароны с фаршем",
+      "slug": "%d0%bc%d0%b0%d0%ba%d0%b0%d1%80%d0%be%d0%bd%d1%8b-%d1%81-%d1%84%d0%b0%d1%80%d1%88%d0%b5%d0%bc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "22920",
+      "sourceTaxonomyId": "22920",
+      "name": "просто и вкусно",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be-%d0%b8-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d0%be"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:14670",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "500 г любых макарон",
+            "quantity": {
+              "raw": "500 г",
+              "value": 500,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "любых макарон",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "500 г фарша из говядины",
+            "quantity": {
+              "raw": "500 г",
+              "value": 500,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "фарша из говядины",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "200 г сыра фета",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сыра фета",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "4 ст.л.",
+              "value": 4,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 луковица",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "луковица",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Соль и свежемолотый черный перец по вкусу",
+            "quantity": null,
+            "name": "Соль и свежемолотый черный перец",
+            "notes": "по вкусу"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Немного свежего укропа",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "свежего укропа",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Сварить в подсоленной воде макароны. Время варки указано в инструкции на упаковке. Слить воду и накрыть макароны крышкой, чтобы они не остыли.\nПока варятся макароны, приготовить лук и фарш.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Лук почистить и измельчить.",
+            "mediaId": "wordpress-attachment:14665"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "В сковороде разогреть оливковое масло и обжарить в нем лук.",
+            "mediaId": "wordpress-attachment:14668"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "На другой сковороде обжарить фарш. Посолить и поперчить. Соединить готовый фарш с уже обжаренным луком.",
+            "mediaId": "wordpress-attachment:14669"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Вилкой искрошить фету.",
+            "mediaId": "wordpress-attachment:14667"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Соединить сваренные макароны с обжаренным фаршем и фетой. Посыпать укропом и хорошо перемешать.",
+            "mediaId": "wordpress-attachment:14664"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:14670",
+      "sourceId": "14670",
+      "path": "/recipes/media/wordpress/14670.png",
+      "alt": null,
+      "width": 800,
+      "height": 576
+    },
+    {
+      "id": "wordpress-attachment:14665",
+      "sourceId": "14665",
+      "path": "/recipes/media/wordpress/14665.png",
+      "alt": null,
+      "width": 800,
+      "height": 560
+    },
+    {
+      "id": "wordpress-attachment:14668",
+      "sourceId": "14668",
+      "path": "/recipes/media/wordpress/14668.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14669",
+      "sourceId": "14669",
+      "path": "/recipes/media/wordpress/14669.png",
+      "alt": null,
+      "width": 800,
+      "height": 576
+    },
+    {
+      "id": "wordpress-attachment:14667",
+      "sourceId": "14667",
+      "path": "/recipes/media/wordpress/14667.png",
+      "alt": null,
+      "width": 800,
+      "height": 560
+    },
+    {
+      "id": "wordpress-attachment:14664",
+      "sourceId": "14664",
+      "path": "/recipes/media/wordpress/14664.png",
+      "alt": null,
+      "width": 800,
+      "height": 544
+    }
+  ],
+  "seo": null
+}

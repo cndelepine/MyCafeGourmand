@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29650",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:27304",
+  "slug": "watermelon-rind-jam",
+  "source": {
+    "system": "wordpress",
+    "postId": "29650",
+    "recipeId": "29650",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-watermelon-rind-jam",
+    "createdAt": "2018-08-17T12:56:00+00:00",
+    "modifiedAt": "2025-10-02T05:42:42+00:00",
+    "editorialPostId": "29649",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "watermelon-rind-jam",
+    "editorialCreatedAt": "2018-08-17T12:56:00+00:00",
+    "editorialModifiedAt": "2025-10-02T05:42:11+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/watermelon-rind-jam/"
+  ],
+  "title": "Watermelon Rind Jam",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Throwing away watermelon rinds? You can make jam from them. Sweet tooths will be delighted! Leave a little pulp on the rind; this will give the jam a beautiful, appetizing color.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29650,\"template\":\"chic-template-english\",\"updated\":1759383692904} -->\n<!--WPRM Recipe 29650-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Watermelon Rind Jam</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/08/IMG_9870.Blog-3-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 kg watermelon rind</li><li>1 litre boiling water</li><li>500 ml water</li><li>1 kg sugar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Wash the watermelon and cut it into wedges. Remove the rind, leaving some red flesh.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9812.Blog_-150x150.png\"/><br /></li><li><p>Using a vegetable peeler, remove the green skin from the rind.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9813.Blog_-150x150.png\"/><br /></li><li><p>Cut into small pieces.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9815.Blog_-150x150.png\"/><br /></li><li><p>Pour boiling water over the rinds. Bring to a boil and cook for about 10 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9816.Blog_-150x150.png\"/><br /></li><li><p>Drain the water and let the rinds cool.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9819.Blog_-150x150.png\"/><br /></li><li><p>Place the sugar in a small saucepan, add 1/2 liter of water and, while stirring, bring to a boil.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9821.Blog_-150x150.png\"/><br /></li><li><p>Pour this syrup over the crusts and cook over low heat for 20 to 25 minutes. Remove from heat and let cool for 2 to 3 hours.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9823.Blog_-150x150.png\"/><br /></li><li><p>Return to the heat and cook for 20 to 25 minutes. Let cool.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9824.Blog_-150x150.png\"/><br /></li><li><p>Return it to the heat a third time and cook for 20 to 25 minutes. Let it cool.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9853.Blog_-150x150.png\"/><br /></li><li><p>Check that the jam is ready. The pieces of watermelon rind should become almost transparent, a reddish-amber in color. A drop of jam should retain its shape and not spill onto the plate. If necessary, reboil the jam until it reaches the desired consistency.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9870.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Don't throw away the watermelon rind; you can make jam from it. A little pulp on the rind gives it an appetizing color."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27320",
+      "sourceTaxonomyId": "27320",
+      "name": "watermelon rind",
+      "slug": "watermelon-rind"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27321",
+      "sourceTaxonomyId": "27321",
+      "name": "boiling water",
+      "slug": "boiling-water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25741",
+      "sourceTaxonomyId": "25741",
+      "name": "kg",
+      "slug": "kg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27316",
+      "sourceTaxonomyId": "27316",
+      "name": "litre",
+      "slug": "litre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7119",
+      "sourceTaxonomyId": "7119",
+      "name": "watermelon",
+      "slug": "watermelon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26845",
+      "sourceTaxonomyId": "26845",
+      "name": "jam",
+      "slug": "jam-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "75",
+        "minutes": 75
+      },
+      "rest": null,
+      "total": {
+        "raw": "275",
+        "minutes": 275
+      },
+      "custom": {
+        "label": "Resting time (to cool down)",
+        "duration": {
+          "raw": "180",
+          "minutes": 180
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:20830",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 kg watermelon rind",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "watermelon rind",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 litre boiling water",
+            "quantity": {
+              "raw": "1 litre",
+              "value": 1,
+              "unit": "litre",
+              "scalable": true
+            },
+            "name": "boiling water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 ml water",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 kg sugar",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Wash the watermelon and cut it into wedges. Remove the rind, leaving some red flesh.",
+            "mediaId": "wordpress-attachment:11743"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Using a vegetable peeler, remove the green skin from the rind.",
+            "mediaId": "wordpress-attachment:11744"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cut into small pieces.",
+            "mediaId": "wordpress-attachment:11745"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Pour boiling water over the rinds. Bring to a boil and cook for about 10 minutes.",
+            "mediaId": "wordpress-attachment:11746"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Drain the water and let the rinds cool.",
+            "mediaId": "wordpress-attachment:11736"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Place the sugar in a small saucepan, add 1/2 liter of water and, while stirring, bring to a boil.",
+            "mediaId": "wordpress-attachment:11738"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Pour this syrup over the crusts and cook over low heat for 20 to 25 minutes. Remove from heat and let cool for 2 to 3 hours.",
+            "mediaId": "wordpress-attachment:11740"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Return to the heat and cook for 20 to 25 minutes. Let cool.",
+            "mediaId": "wordpress-attachment:11741"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Return it to the heat a third time and cook for 20 to 25 minutes. Let it cool.",
+            "mediaId": "wordpress-attachment:11790"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Check that the jam is ready. The pieces of watermelon rind should become almost transparent, a reddish-amber in color. A drop of jam should retain its shape and not spill onto the plate. If necessary, reboil the jam until it reaches the desired consistency.",
+            "mediaId": "wordpress-attachment:11748"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20830",
+      "sourceId": "20830",
+      "path": "/recipes/media/wordpress/20830.png",
+      "alt": null,
+      "width": 658,
+      "height": 487
+    },
+    {
+      "id": "wordpress-attachment:11743",
+      "sourceId": "11743",
+      "path": "/recipes/media/wordpress/11743.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11744",
+      "sourceId": "11744",
+      "path": "/recipes/media/wordpress/11744.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11745",
+      "sourceId": "11745",
+      "path": "/recipes/media/wordpress/11745.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11746",
+      "sourceId": "11746",
+      "path": "/recipes/media/wordpress/11746.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11736",
+      "sourceId": "11736",
+      "path": "/recipes/media/wordpress/11736.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11738",
+      "sourceId": "11738",
+      "path": "/recipes/media/wordpress/11738.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11740",
+      "sourceId": "11740",
+      "path": "/recipes/media/wordpress/11740.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11741",
+      "sourceId": "11741",
+      "path": "/recipes/media/wordpress/11741.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11790",
+      "sourceId": "11790",
+      "path": "/recipes/media/wordpress/11790.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11748",
+      "sourceId": "11748",
+      "path": "/recipes/media/wordpress/11748.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

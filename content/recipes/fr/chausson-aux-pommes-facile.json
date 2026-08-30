@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27715",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26595",
+  "slug": "chausson-aux-pommes-facile",
+  "source": {
+    "system": "wordpress",
+    "postId": "27715",
+    "recipeId": "27715",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chausson-aux-pommes-facile",
+    "createdAt": "2024-01-15T02:16:56+00:00",
+    "modifiedAt": "2024-01-21T03:29:13+00:00",
+    "editorialPostId": "27713",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chausson-aux-pommes-facile",
+    "editorialCreatedAt": "2024-01-15T02:16:56+00:00",
+    "editorialModifiedAt": "2024-01-21T03:29:11+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/chausson-aux-pommes-facile/"
+  ],
+  "title": "Chausson aux pommes facile",
+  "description": "Une recette facile pour preparer cette delicieuse viennoiserie aux pommes.",
+  "editorial": {
+    "content": "<!-- wp:paragraph {\"fontSize\":\"small\"} -->\n<p class=\"has-small-font-size\"><bdo lang=\"fr\" dir=\"ltr\">Préparer de délicieux chaussons aux pommes devient un jeu d'enfant avec de la pâte feuilletée prête à dérouler et de la compote de pommes du  commerce!</bdo></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27715,\"template\":\"chic-template-french\",\"updated\":1705807744077,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 27715-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chausson aux pommes facile</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4151.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Une recette facile pour preparer cette delicieuse viennoiserie aux pommes.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 feuille  pâte feuilletée             (prête à dérouler)</li><li>1 petite pomme</li><li>250  g compote de pommes</li><li>30  g beurre (coupé en petits morceaux)</li><li>2-3 cuillères à café sucre roux</li><li>1 œuf battu</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le four à 190°C (thermostat 6/7). </p></li><li><p>Étaler la pâte feuilletée. Avec un emporte-pièce, former des cercles de 10-15 cm de diamètre. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4309.Blog_-150x150.png\"/><br /></li><li><p>Éplucher la pomme et la couper en fines lamelles.                          </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4307.Blog_-150x150.png\"/><br /></li><li><p>Sur chaque cercle, mettre un peu de compote de pommes, puis 2-3 lamelles de pomme et un morceau de beurre. Saupoudrer de sucre.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4310.Blog_-150x150.png\"/><br /></li><li><p>Mouiller les bords avec de l&#039;eau. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4312.Blog_-150x150.png\"/><br /></li><li><p>Plier le cercle en formant un demi-cercle et bien souder les bords.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4314.Blog_-150x150.png\"/><br /></li><li><p>Badigeonner avec l’œuf battu.  </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4318.Blog_-150x150.png\"/><br /></li><li><p>Faire des incisions  en forme de grille sur la pâte, sans la découper complètement (facultatif).       </p><p>Avec un couteau, faire un petit trou dans chaque chausson. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4322.Blog_-150x150.png\"/><br /></li><li><p>Cuire au four pendant environ 20 minutes. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4347.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24040",
+      "sourceTaxonomyId": "24040",
+      "name": "beurre",
+      "slug": "beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24796",
+      "sourceTaxonomyId": "24796",
+      "name": "pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26303",
+      "sourceTaxonomyId": "26303",
+      "name": "œuf battu",
+      "slug": "oeuf-battu"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26518",
+      "sourceTaxonomyId": "26518",
+      "name": "petite pomme",
+      "slug": "petite-pomme"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26519",
+      "sourceTaxonomyId": "26519",
+      "name": "compote de pommes",
+      "slug": "compote-de-pommes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26521",
+      "sourceTaxonomyId": "26521",
+      "name": "sucre roux",
+      "slug": "sucre-roux"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25462",
+      "sourceTaxonomyId": "25462",
+      "name": "feuille",
+      "slug": "feuille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25574",
+      "sourceTaxonomyId": "25574",
+      "name": "cuillères à café",
+      "slug": "cuilleres-a-cafe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1396",
+      "sourceTaxonomyId": "1396",
+      "name": "pate feuilletee",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26524",
+      "sourceTaxonomyId": "26524",
+      "name": "compote de pomme",
+      "slug": "compote-de-pomme"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26526",
+      "sourceTaxonomyId": "26526",
+      "name": "viennoiserie",
+      "slug": "viennoiserie"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 pieces",
+      "value": 6,
+      "unit": "pieces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27741",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 feuille pâte feuilletée prête à dérouler",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "pâte feuilletée",
+            "notes": "prête à dérouler"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 petite pomme",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "petite pomme",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "250 g compote de pommes",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "compote de pommes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "30 g beurre coupé en petits morceaux",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "beurre",
+            "notes": "coupé en petits morceaux"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2-3 cuillères à café sucre roux",
+            "quantity": {
+              "raw": "2-3 cuillères à café",
+              "min": 2,
+              "max": 3,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "sucre roux",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 œuf battu",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf battu",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 190°C (thermostat 6/7).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Étaler la pâte feuilletée. Avec un emporte-pièce, former des cercles de 10-15 cm de diamètre.",
+            "mediaId": "wordpress-attachment:27743"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Éplucher la pomme et la couper en fines lamelles.",
+            "mediaId": "wordpress-attachment:27742"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Sur chaque cercle, mettre un peu de compote de pommes, puis 2-3 lamelles de pomme et un morceau de beurre. Saupoudrer de sucre.",
+            "mediaId": "wordpress-attachment:27744"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Mouiller les bords avec de l'eau.",
+            "mediaId": "wordpress-attachment:27745"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Plier le cercle en formant un demi-cercle et bien souder les bords.",
+            "mediaId": "wordpress-attachment:27746"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Badigeonner avec l’œuf battu.",
+            "mediaId": "wordpress-attachment:27747"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Faire des incisions en forme de grille sur la pâte, sans la découper complètement (facultatif).\n\nAvec un couteau, faire un petit trou dans chaque chausson.",
+            "mediaId": "wordpress-attachment:27748"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Cuire au four pendant environ 20 minutes.",
+            "mediaId": "wordpress-attachment:27749"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27741",
+      "sourceId": "27741",
+      "path": "/recipes/media/wordpress/27741.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:27743",
+      "sourceId": "27743",
+      "path": "/recipes/media/wordpress/27743.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27742",
+      "sourceId": "27742",
+      "path": "/recipes/media/wordpress/27742.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27744",
+      "sourceId": "27744",
+      "path": "/recipes/media/wordpress/27744.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27745",
+      "sourceId": "27745",
+      "path": "/recipes/media/wordpress/27745.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27746",
+      "sourceId": "27746",
+      "path": "/recipes/media/wordpress/27746.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27747",
+      "sourceId": "27747",
+      "path": "/recipes/media/wordpress/27747.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27748",
+      "sourceId": "27748",
+      "path": "/recipes/media/wordpress/27748.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27749",
+      "sourceId": "27749",
+      "path": "/recipes/media/wordpress/27749.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

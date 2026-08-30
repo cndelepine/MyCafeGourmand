@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21560",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:846",
+  "slug": "walnut-pie-with-plums",
+  "source": {
+    "system": "wordpress",
+    "postId": "21560",
+    "recipeId": "21560",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-walnut-cake-with-plums",
+    "createdAt": "2024-02-15T08:40:00+00:00",
+    "modifiedAt": "2024-02-16T08:16:25+00:00",
+    "editorialPostId": "2349",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "walnut-pie-with-plums",
+    "editorialCreatedAt": "2024-02-15T08:40:00+00:00",
+    "editorialModifiedAt": "2024-02-16T08:16:23+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/walnut-pie-with-plums/"
+  ],
+  "title": "Walnut Cake with Plums",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>You will love this walnut cake with plums.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"All&nbsp;<b>prunes</b>&nbsp;are&nbsp;<b>plums</b>, but not all&nbsp;<b>plums&nbsp;</b>are&nbsp;<b>prunes</b>.&nbsp;When dried,&nbsp;<b>plums</b>&nbsp;are called&nbsp;<b>prunes</b>, but the&nbsp;<b>prune</b>&nbsp;fruit comes from a different type of plant than&nbsp;<b>plums</b>.\"</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Whatever you call them, they're the best combination with walnuts! :) </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21560,\"template\":\"chic-template-english\",\"updated\":1708071300566} -->\n<!--WPRM Recipe 21560-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Walnut Cake with Plums</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20171102_173351.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>240 g softened butter</li><li>200 g granulated sugar</li><li>4 eggs</li><li>200 g sifted flour</li><li>1 tsp baking powder</li><li>160 g ground walnuts</li><li>6-12 pieces pitted dried plums ((cut into 2-4pieces))</li><li>8-10 halves walnuts</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 380 degrees F. Generously butter a skillet.</li><li>In a medium bowl combine butter and sugar together and beat until creamy. </li><li>Add eggs, flour, baking powder and mix until the batter is smooth. Add ground walnuts and mix. </li><li>Scrape the batter into the skillet and smooth the top with spoon. Lay slices of plums and walnuts halves on top of your cake. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20171102_160725.Blog_-150x150.png\"/><br /></li><li>Bake for 40-45 minutes. (Check often last 5-10 minutes).</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24063",
+      "sourceTaxonomyId": "24063",
+      "name": "sifted flour",
+      "slug": "sifted-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24064",
+      "sourceTaxonomyId": "24064",
+      "name": "softened butter",
+      "slug": "softened-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24183",
+      "sourceTaxonomyId": "24183",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24231",
+      "sourceTaxonomyId": "24231",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24383",
+      "sourceTaxonomyId": "24383",
+      "name": "ground walnuts",
+      "slug": "ground-walnuts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24384",
+      "sourceTaxonomyId": "24384",
+      "name": "pitted dried plums",
+      "slug": "pitted-dried-plums"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "789",
+      "sourceTaxonomyId": "789",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "877",
+      "sourceTaxonomyId": "877",
+      "name": "softened butter",
+      "slug": "softened-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "879",
+      "sourceTaxonomyId": "879",
+      "name": "sifted flour",
+      "slug": "sifted-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "883",
+      "sourceTaxonomyId": "883",
+      "name": "pitted dried plums",
+      "slug": "pitted-dried-plums"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "885",
+      "sourceTaxonomyId": "885",
+      "name": "ground walnuts",
+      "slug": "ground-walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1378",
+      "sourceTaxonomyId": "1378",
+      "name": "pie",
+      "slug": "pie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1468",
+      "sourceTaxonomyId": "1468",
+      "name": "walnut",
+      "slug": "walnut"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1470",
+      "sourceTaxonomyId": "1470",
+      "name": "plum",
+      "slug": "plum"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5355",
+      "sourceTaxonomyId": "5355",
+      "name": "not too sweet",
+      "slug": "not-too-sweet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7072",
+      "sourceTaxonomyId": "7072",
+      "name": "delicious cake",
+      "slug": "delicious-cake"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2278",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "240 g softened butter",
+            "quantity": {
+              "raw": "240 g",
+              "value": 240,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "softened butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g granulated sugar",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g sifted flour",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sifted flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 tsp baking powder",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "160 g ground walnuts",
+            "quantity": {
+              "raw": "160 g",
+              "value": 160,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "ground walnuts",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "6-12 pieces pitted dried plums (cut into 2-4pieces)",
+            "quantity": {
+              "raw": "6-12 pieces",
+              "min": 6,
+              "max": 12,
+              "unit": "pieces",
+              "scalable": true
+            },
+            "name": "pitted dried plums",
+            "notes": "(cut into 2-4pieces)"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "8-10 halves walnuts",
+            "quantity": {
+              "raw": "8-10 halves",
+              "min": 8,
+              "max": 10,
+              "unit": "halves",
+              "scalable": true
+            },
+            "name": "walnuts",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380 degrees F. Generously butter a skillet.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a medium bowl combine butter and sugar together and beat until creamy.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add eggs, flour, baking powder and mix until the batter is smooth. Add ground walnuts and mix.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Scrape the batter into the skillet and smooth the top with spoon. Lay slices of plums and walnuts halves on top of your cake.",
+            "mediaId": "wordpress-attachment:2277"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Bake for 40-45 minutes. (Check often last 5-10 minutes).",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2278",
+      "sourceId": "2278",
+      "path": "/recipes/media/wordpress/2278.png",
+      "alt": null,
+      "width": 784,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2277",
+      "sourceId": "2277",
+      "path": "/recipes/media/wordpress/2277.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

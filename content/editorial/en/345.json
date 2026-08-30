@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:345",
+  "locale": "en",
+  "canonicalPath": "/decorations/",
+  "translationGroupId": "wordpress:post-translations:50",
+  "source": {
+    "system": "wordpress",
+    "postId": 345,
+    "sourcePath": "/decorations/",
+    "sourceSlug": "decorations",
+    "createdAt": "2017-12-25T20:06:29Z",
+    "modifiedAt": "2017-12-25T20:06:29Z"
+  },
+  "title": "Decorations",
+  "excerpt": null,
+  "publishedAt": "2017-12-25T20:06:29Z",
+  "modifiedAt": "2017-12-25T20:06:29Z",
+  "content": [
+    {
+      "type": "heading",
+      "level": 4,
+      "children": [
+        {
+          "type": "text",
+          "value": "Spring\nSummer\nFall\nWinter"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "\nНесколько ёлочных игрушек, ёлочная веточка, соль и прозрачная ваза. Вот и всё что нужно для создания новогоднего настроения."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "mediaId": "wordpress:attachment:90",
+      "alt": "20171110_170033",
+      "caption": null
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:90",
+      "path": "/editorial/media/wordpress/90.jpg",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 90
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

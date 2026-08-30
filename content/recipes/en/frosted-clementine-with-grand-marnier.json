@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29808",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:25688",
+  "slug": "frosted-clementine-with-grand-marnier",
+  "source": {
+    "system": "wordpress",
+    "postId": "29808",
+    "recipeId": "29808",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-frosted-clementine-with-grand-marnier",
+    "createdAt": "2024-12-21T01:15:24+00:00",
+    "modifiedAt": "2026-02-14T00:55:14+00:00",
+    "editorialPostId": "29805",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "frosted-clementine-with-grand-marnier",
+    "editorialCreatedAt": "2024-12-21T01:15:24+00:00",
+    "editorialModifiedAt": "2026-02-14T00:55:07+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/frosted-clementine-with-grand-marnier/"
+  ],
+  "title": "Frosted clementine with Grand Marnier",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This frozen clementine dessert with Grand Marnier is gluten-free, egg-free, and dairy-free. But be warned: it's for adults only. I adapted from a French recipe <a href=\"https://www.laurentmariotte.com/mes-recettes/\">by Laurent Mariotte</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29808,\"template\":\"chic-template-english\",\"updated\":1766279550051} -->\n<!--WPRM Recipe 29808-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Frosted clementine with Grand Marnier</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_4014.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 clementines</li><li>1-2 tbsp honey</li><li>150 ml Grand Marnier</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Cut off the top of each clementine.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3921.Blog_-150x150.png\"/><br /></li><li><p>Carefully remove the flesh without damaging the skin of the clementine.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3937.Blog_-150x150.png\"/><br /></li><li><p>Set the skin aside. Keep it wrapped in damp paper towels.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3952.Blog_-150x150.png\"/><br /></li><li><p>Pour the flesh of the clementines into a bowl. Add the honey and Grand Marnier.</p><p>Blend using a blender.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3950.Blog_-150x150.png\"/><br /></li><li><p>Filter</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3954.Blog_-150x150.png\"/><br /></li><li><p>Cover the mixture and place it in the freezer for about 4 hours.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3960.Blog_-150x150.png\"/><br /></li><li><p>Remove from the freezer and mix the frozen mixture with a fork.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3980.Blog_-150x150.png\"/><br /></li><li><p>Pour the chilled mixture into each hollowed-out clementine.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_3986.Blog_-150x150.jpg\"/><br /></li><li><p>Put the lid back on for a nice presentation.</p><p>Serve and enjoy!</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/12/IMG_4005.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-cuisine\">française, French</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26440",
+      "sourceTaxonomyId": "26440",
+      "name": "française",
+      "slug": "francaise-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24353",
+      "sourceTaxonomyId": "24353",
+      "name": "honey",
+      "slug": "honey"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25680",
+      "sourceTaxonomyId": "25680",
+      "name": "clémentines",
+      "slug": "clementines"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25685",
+      "sourceTaxonomyId": "25685",
+      "name": "Grand Marnier",
+      "slug": "grand-marnier"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25342",
+      "sourceTaxonomyId": "25342",
+      "name": "Desserts",
+      "slug": "desserts-gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25689",
+      "sourceTaxonomyId": "25689",
+      "name": "Grand Marnier",
+      "slug": "grand-marnier"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "265",
+        "minutes": 265
+      },
+      "custom": {
+        "label": "In the freezer",
+        "duration": {
+          "raw": "240",
+          "minutes": 240
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26103",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 clementines",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "clementines",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 tbsp honey",
+            "quantity": {
+              "raw": "1-2 tbsp",
+              "min": 1,
+              "max": 2,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "honey",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 ml Grand Marnier",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "Grand Marnier",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut off the top of each clementine.",
+            "mediaId": "wordpress-attachment:26094"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Carefully remove the flesh without damaging the skin of the clementine.",
+            "mediaId": "wordpress-attachment:26095"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Set the skin aside. Keep it wrapped in damp paper towels.",
+            "mediaId": "wordpress-attachment:26097"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Pour the flesh of the clementines into a bowl. Add the honey and Grand Marnier.\n\nBlend using a blender.",
+            "mediaId": "wordpress-attachment:26096"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Filter",
+            "mediaId": "wordpress-attachment:26098"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Cover the mixture and place it in the freezer for about 4 hours.",
+            "mediaId": "wordpress-attachment:26099"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Remove from the freezer and mix the frozen mixture with a fork.",
+            "mediaId": "wordpress-attachment:26100"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Pour the chilled mixture into each hollowed-out clementine.",
+            "mediaId": "wordpress-attachment:26101"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Put the lid back on for a nice presentation.\n\nServe and enjoy!",
+            "mediaId": "wordpress-attachment:26102"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26103",
+      "sourceId": "26103",
+      "path": "/recipes/media/wordpress/26103.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26094",
+      "sourceId": "26094",
+      "path": "/recipes/media/wordpress/26094.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26095",
+      "sourceId": "26095",
+      "path": "/recipes/media/wordpress/26095.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26097",
+      "sourceId": "26097",
+      "path": "/recipes/media/wordpress/26097.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26096",
+      "sourceId": "26096",
+      "path": "/recipes/media/wordpress/26096.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26098",
+      "sourceId": "26098",
+      "path": "/recipes/media/wordpress/26098.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26099",
+      "sourceId": "26099",
+      "path": "/recipes/media/wordpress/26099.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26100",
+      "sourceId": "26100",
+      "path": "/recipes/media/wordpress/26100.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26101",
+      "sourceId": "26101",
+      "path": "/recipes/media/wordpress/26101.jpg",
+      "alt": null,
+      "width": 635,
+      "height": 476
+    },
+    {
+      "id": "wordpress-attachment:26102",
+      "sourceId": "26102",
+      "path": "/recipes/media/wordpress/26102.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28459",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:25539",
+  "slug": "tomato-mozarella",
+  "source": {
+    "system": "wordpress",
+    "postId": "28459",
+    "recipeId": "28459",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tomatoes-mozzarella",
+    "createdAt": "2024-08-26T01:19:06+00:00",
+    "modifiedAt": "2024-12-28T18:27:59+00:00",
+    "editorialPostId": "28456",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tomato-mozarella",
+    "editorialCreatedAt": "2024-08-26T01:19:06+00:00",
+    "editorialModifiedAt": "2024-09-07T18:33:31+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/tomato-mozarella/"
+  ],
+  "title": "Tomatoes Mozzarella",
+  "description": "Enjoy this simple and refreshing dish!",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>What could be more delicious than a ripe summer tomato paired with authentic Italian mozzarella made from the milk of black buffaloes? This is a perfect snack for warm days when you don’t feel like spending time at the stove.<br></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28459,\"updated\":1725733989533} -->\n<!--WPRM Recipe 28459-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tomatoes Mozzarella</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/06/IMG_8645.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Enjoy this simple and refreshing dish!</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 large, flavorful tomato</li><li>1 large ball  of mozzarella (from buffalo milk)</li><li>A few fresh basil leaves</li><li>salt and freshly ground pepper</li><li>A drizzle of olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Slice the tomato into wedges, removing the stem. Arrange the slices beautifully on a plate. Place the ball of mozzarella in the center. </p><p>Lightly season with salt and freshly ground pepper. </p><p>Add a few fresh basil leaves. Drizzle with olive oil. </p><p>Done!</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/06/IMG_8625.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Starter</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian</div><div class=\"wprm-fallback-recipe-meta-keyword\">mozzarella, tomates mozarella, tomato</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26714",
+      "sourceTaxonomyId": "26714",
+      "name": "Starter",
+      "slug": "starter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26754",
+      "sourceTaxonomyId": "26754",
+      "name": "Italian",
+      "slug": "italian-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26756",
+      "sourceTaxonomyId": "26756",
+      "name": "Italien",
+      "slug": "italien-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24329",
+      "sourceTaxonomyId": "24329",
+      "name": "salt and freshly ground pepper",
+      "slug": "salt-and-freshly-ground-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25581",
+      "sourceTaxonomyId": "25581",
+      "name": "of olive oil",
+      "slug": "of-olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26807",
+      "sourceTaxonomyId": "26807",
+      "name": "large, flavorful tomato",
+      "slug": "large-flavorful-tomato"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26809",
+      "sourceTaxonomyId": "26809",
+      "name": "of mozzarella (from buffalo milk)",
+      "slug": "of-mozzarella-from-buffalo-milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26810",
+      "sourceTaxonomyId": "26810",
+      "name": "fresh basil leaves",
+      "slug": "fresh-basil-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26808",
+      "sourceTaxonomyId": "26808",
+      "name": "large ball",
+      "slug": "large-ball"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26788",
+      "sourceTaxonomyId": "26788",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26800",
+      "sourceTaxonomyId": "26800",
+      "name": "mozzarella",
+      "slug": "mozzarella-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26802",
+      "sourceTaxonomyId": "26802",
+      "name": "tomates mozarella",
+      "slug": "tomates-mozarella-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1604",
+      "sourceTaxonomyId": "1604",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7127",
+      "sourceTaxonomyId": "7127",
+      "name": "summer menu",
+      "slug": "summer-menu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25603",
+      "sourceTaxonomyId": "25603",
+      "name": "italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26703",
+      "sourceTaxonomyId": "26703",
+      "name": "no cooking",
+      "slug": "no-cooking"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26811",
+      "sourceTaxonomyId": "26811",
+      "name": "buffaloe",
+      "slug": "buffaloe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26813",
+      "sourceTaxonomyId": "26813",
+      "name": "warm day",
+      "slug": "warm-day"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26815",
+      "sourceTaxonomyId": "26815",
+      "name": "basil",
+      "slug": "basil"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 people",
+      "value": 2,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "2",
+        "value": 2
+      },
+      "servingSize": {
+        "raw": "0",
+        "value": 0
+      },
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:24913",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 large, flavorful tomato",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "large, flavorful tomato",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 large ball of mozzarella (from buffalo milk)",
+            "quantity": {
+              "raw": "1 large ball",
+              "value": 1,
+              "unit": "large ball",
+              "scalable": true
+            },
+            "name": "of mozzarella (from buffalo milk)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "A few fresh basil leaves",
+            "quantity": {
+              "raw": "A few",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh basil leaves",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "salt and freshly ground pepper",
+            "quantity": null,
+            "name": "salt and freshly ground pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "A drizzle of olive oil",
+            "quantity": {
+              "raw": "A drizzle",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "of olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Slice the tomato into wedges, removing the stem. Arrange the slices beautifully on a plate. Place the ball of mozzarella in the center.\n\nLightly season with salt and freshly ground pepper.\n\nAdd a few fresh basil leaves. Drizzle with olive oil.\n\nDone!",
+            "mediaId": "wordpress-attachment:24916"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:24913",
+      "sourceId": "24913",
+      "path": "/recipes/media/wordpress/24913.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:24916",
+      "sourceId": "24916",
+      "path": "/recipes/media/wordpress/24916.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

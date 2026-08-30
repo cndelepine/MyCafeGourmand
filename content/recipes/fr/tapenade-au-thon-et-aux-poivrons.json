@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27270",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26369",
+  "slug": "tapenade-au-thon-et-aux-poivrons",
+  "source": {
+    "system": "wordpress",
+    "postId": "27270",
+    "recipeId": "27270",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tapenade-au-thon-et-aux-poivrons",
+    "createdAt": "2023-09-26T01:21:48+00:00",
+    "modifiedAt": "2024-12-05T08:24:09+00:00",
+    "editorialPostId": "27268",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tapenade-au-thon-et-aux-poivrons",
+    "editorialCreatedAt": "2023-09-26T01:21:48+00:00",
+    "editorialModifiedAt": "2023-09-26T01:27:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/tapenade-au-thon-et-aux-poivrons/"
+  ],
+  "title": "Tapenade au thon et aux poivrons",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Entre la terrine et le dip, cette tapenade au thon et aux poivrons est impeccable en apéritif pour y tremper du céleri branche ou des bâtonnets de carottes, des toasts grillés... </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27270,\"template\":\"chic-template-french\",\"updated\":1695691622652} -->\n<!--WPRM Recipe 27270-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tapenade au thon et aux poivrons</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1337.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>160 g de thon en boîte ((égoutté))</li><li>1/2 poivron rouge         </li><li>1/2 poivron jaune</li><li>150  g de fromage à tartiner style Philadelphia        </li><li>Sel et poivre du moulin</li><li>Quelques gouttes de Tabasco™ ((facultatif))</li><li>Un peu de persil haché</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Avec une fourchette, travailler le thon et le fromage dans un bol.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1305.Blog_-150x150.png\"/><br /></li><li><p>Couper le poivron en deux dans la longueur. Retirer les graines et les filaments. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1306.Blog_-150x150.png\"/><br /></li><li><p>Couper les poivrons  en petits dés et les ajouter dans le bol. Saler, poivrer et bien mélanger. </p><p>Si vous voulez une tapenade plus relevée, ajoutez quelques gouttes de Tabasco™.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1309.Blog_-150x150.png\"/><br /></li><li><p> Couvrir d&#039;un film plastique et réfrigérer pendant une bonne demi-heure.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1311.Blog_-150x150.png\"/><br /></li><li><p>Saupoudrer de persil haché et servir.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1323.Blog_-150x150.png\"/><br /></li></ol><h4>Pour une jolie présentation :</h4><ol><li><p>Garnir des petits bols avec du cellophane. Remplir avec la terrine au thon et bien tasser dans le bol. </p><p>Retourner sur une assiette de service et retirer le bol (et le cellophane !) pour obtenir un petit dôme. Décorer à votre guise.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_1337.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div><div class=\"wprm-fallback-recipe-meta-cuisine\">française</div><div class=\"wprm-fallback-recipe-meta-keyword\">Terrine au saumon fume, Terrine au thon</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24047",
+      "sourceTaxonomyId": "24047",
+      "name": "française",
+      "slug": "francaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24686",
+      "sourceTaxonomyId": "24686",
+      "name": "de thon en boîte",
+      "slug": "de-thon-en-boite"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26350",
+      "sourceTaxonomyId": "26350",
+      "name": "de fromage à tartiner style Philadelphia",
+      "slug": "de-fromage-a-tartiner-style-philadelphia"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26352",
+      "sourceTaxonomyId": "26352",
+      "name": "de tabasco",
+      "slug": "de-tabasco"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26364",
+      "sourceTaxonomyId": "26364",
+      "name": "poivron rouge",
+      "slug": "poivron-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26365",
+      "sourceTaxonomyId": "26365",
+      "name": "poivron jaune",
+      "slug": "poivron-jaune"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26366",
+      "sourceTaxonomyId": "26366",
+      "name": "de persil haché",
+      "slug": "de-persil-hache"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25471",
+      "sourceTaxonomyId": "25471",
+      "name": "gouttes",
+      "slug": "gouttes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25487",
+      "sourceTaxonomyId": "25487",
+      "name": "Terrine au thon",
+      "slug": "terrine-au-thon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25488",
+      "sourceTaxonomyId": "25488",
+      "name": "Terrine au saumon fume",
+      "slug": "terrine-au-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1520",
+      "sourceTaxonomyId": "1520",
+      "name": "thon",
+      "slug": "thon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2163",
+      "sourceTaxonomyId": "2163",
+      "name": "aperitif",
+      "slug": "aperitif"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2165",
+      "sourceTaxonomyId": "2165",
+      "name": "cream cheese",
+      "slug": "cream-cheese-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2169",
+      "sourceTaxonomyId": "2169",
+      "name": "philadelphia",
+      "slug": "philadelphia-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3300",
+      "sourceTaxonomyId": "3300",
+      "name": "poivre rouge",
+      "slug": "poivre-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3913",
+      "sourceTaxonomyId": "3913",
+      "name": "poivron doux",
+      "slug": "poivron-doux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5962",
+      "sourceTaxonomyId": "5962",
+      "name": "poivron",
+      "slug": "poivron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26367",
+      "sourceTaxonomyId": "26367",
+      "name": "fromage a tartiner",
+      "slug": "fromage-a-tartiner"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": {
+        "label": "Réfrigération",
+        "duration": {
+          "raw": "30",
+          "minutes": 30
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27310",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "160 g de thon en boîte (égoutté)",
+            "quantity": {
+              "raw": "160 g",
+              "value": 160,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de thon en boîte",
+            "notes": "(égoutté)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 poivron rouge",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "poivron rouge",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 poivron jaune",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "poivron jaune",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 g de fromage à tartiner style Philadelphia",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de fromage à tartiner style Philadelphia",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Quelques gouttes de Tabasco™ (facultatif)",
+            "quantity": {
+              "raw": "Quelques gouttes",
+              "unit": "gouttes",
+              "scalable": false
+            },
+            "name": "de Tabasco™",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Un peu de persil haché",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de persil haché",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Avec une fourchette, travailler le thon et le fromage dans un bol.",
+            "mediaId": "wordpress-attachment:27305"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper le poivron en deux dans la longueur. Retirer les graines et les filaments.",
+            "mediaId": "wordpress-attachment:27306"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper les poivrons en petits dés et les ajouter dans le bol. Saler, poivrer et bien mélanger.\n\nSi vous voulez une tapenade plus relevée, ajoutez quelques gouttes de Tabasco™.",
+            "mediaId": "wordpress-attachment:27307"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Couvrir d'un film plastique et réfrigérer pendant une bonne demi-heure.",
+            "mediaId": "wordpress-attachment:27308"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Saupoudrer de persil haché et servir.",
+            "mediaId": "wordpress-attachment:27309"
+          }
+        ]
+      },
+      {
+        "name": "Pour une jolie présentation :",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Garnir des petits bols avec du cellophane. Remplir avec la terrine au thon et bien tasser dans le bol.\n\nRetourner sur une assiette de service et retirer le bol (et le cellophane !) pour obtenir un petit dôme. Décorer à votre guise.",
+            "mediaId": "wordpress-attachment:27310"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27310",
+      "sourceId": "27310",
+      "path": "/recipes/media/wordpress/27310.png",
+      "alt": "Tapenade au thon et aux poivrons",
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27305",
+      "sourceId": "27305",
+      "path": "/recipes/media/wordpress/27305.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27306",
+      "sourceId": "27306",
+      "path": "/recipes/media/wordpress/27306.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27307",
+      "sourceId": "27307",
+      "path": "/recipes/media/wordpress/27307.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27308",
+      "sourceId": "27308",
+      "path": "/recipes/media/wordpress/27308.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27309",
+      "sourceId": "27309",
+      "path": "/recipes/media/wordpress/27309.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

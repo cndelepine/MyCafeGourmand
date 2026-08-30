@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27486",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26409",
+  "slug": "prosciutto-rolls-ups-with-boursin",
+  "source": {
+    "system": "wordpress",
+    "postId": "27486",
+    "recipeId": "27486",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-prosciutto-rolls-ups-with-boursin",
+    "createdAt": "2023-10-17T07:07:20+00:00",
+    "modifiedAt": "2024-04-16T06:53:32+00:00",
+    "editorialPostId": "27485",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "prosciutto-rolls-ups-with-boursin",
+    "editorialCreatedAt": "2023-10-17T07:07:20+00:00",
+    "editorialModifiedAt": "2024-04-16T06:53:29+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/prosciutto-rolls-ups-with-boursin/"
+  ],
+  "title": "Prosciutto Rolls Ups with Boursin™",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>A quick and simple appetizer recipe to accompany your aperitif drink. Your guests will love these Italian Prosciutto Ham rolls ups with Boursin™ Cheese. Add more or less cheese, depending on your taste. Or, cut the rolls in half if you want smaller portions.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27486,\"template\":\"chic-template-english\",\"updated\":1713250241178} -->\n<!--WPRM Recipe 27486-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Prosciutto Rolls Ups with Boursin™</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_1531.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>12 slices Prosciutto ham</li><li>150 g Boursin™ (or any fresh cheese with herbs)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Spread the Boursin™ on about half of each slice of ham.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_1521.Blog_-1-150x150.png\"/><br /></li><li><p>Roll up the slice.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_1528.Blog_-1-150x150.png\"/><br /></li><li><p>Put on a nice dish and serve.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_1537.Blog_-1-150x150.jpg\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26407",
+      "sourceTaxonomyId": "26407",
+      "name": "Prosciutto ham",
+      "slug": "prosciutto-ham"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26408",
+      "sourceTaxonomyId": "26408",
+      "name": "Boursin™ (or any fresh cheese with herbs)",
+      "slug": "boursin-or-any-fresh-cheese-with-herbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25489",
+      "sourceTaxonomyId": "25489",
+      "name": "slices",
+      "slug": "slices"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8",
+      "sourceTaxonomyId": "8",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1704",
+      "sourceTaxonomyId": "1704",
+      "name": "big party",
+      "slug": "big-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8414",
+      "sourceTaxonomyId": "8414",
+      "name": "finger food",
+      "slug": "finger-food"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "22994",
+      "sourceTaxonomyId": "22994",
+      "name": "boursin",
+      "slug": "boursin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26411",
+      "sourceTaxonomyId": "26411",
+      "name": "prosciutto",
+      "slug": "prosciutto-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26724",
+      "sourceTaxonomyId": "26724",
+      "name": "what to bring",
+      "slug": "what-to-bring"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "12 pieces",
+      "value": 12,
+      "unit": "pieces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27449",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "12 slices Prosciutto ham",
+            "quantity": {
+              "raw": "12 slices",
+              "value": 12,
+              "unit": "slices",
+              "scalable": true
+            },
+            "name": "Prosciutto ham",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g Boursin™ (or any fresh cheese with herbs)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "Boursin™ (or any fresh cheese with herbs)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Spread the Boursin™ on about half of each slice of ham.",
+            "mediaId": "wordpress-attachment:27451"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Roll up the slice.",
+            "mediaId": "wordpress-attachment:27452"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Put on a nice dish and serve.",
+            "mediaId": "wordpress-attachment:27454"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27449",
+      "sourceId": "27449",
+      "path": "/recipes/media/wordpress/27449.png",
+      "alt": "Jambon Prosciutto au Boursin™",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27451",
+      "sourceId": "27451",
+      "path": "/recipes/media/wordpress/27451.png",
+      "alt": "Jambon Prosciutto au Boursin™",
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27452",
+      "sourceId": "27452",
+      "path": "/recipes/media/wordpress/27452.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27454",
+      "sourceId": "27454",
+      "path": "/recipes/media/wordpress/27454.jpg",
+      "alt": null,
+      "width": 791,
+      "height": 632
+    }
+  ],
+  "seo": null
+}

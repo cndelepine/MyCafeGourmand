@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21151",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3864",
+  "slug": "poivrons-grilles-au-four",
+  "source": {
+    "system": "wordpress",
+    "postId": "21151",
+    "recipeId": "21151",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-mini-poivrons-grilles-au-four",
+    "createdAt": "2025-07-08T06:58:00+00:00",
+    "modifiedAt": "2025-07-08T21:07:42+00:00",
+    "editorialPostId": "8139",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "poivrons-grilles-au-four",
+    "editorialCreatedAt": "2025-07-08T06:58:00+00:00",
+    "editorialModifiedAt": "2025-07-08T21:06:55+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/poivrons-grilles-au-four/"
+  ],
+  "title": "Mini poivrons grillés au four",
+  "description": "Mini poivrons grillés au four sont faciles à préparer en saison.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les mini poivrons de <span id=\":18h.13\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">différentes</span> couleurs sont bien <span id=\":18h.14\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">appétissants</span> et <span id=\":18h.15\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">très</span> tendres. Grillés au four, ils sont faciles et rapides à préparer. Assaisonnés qu'avec du sel et du poivre, ils sont <span id=\":18h.16\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">excellents</span> pour accompagner <a href=\"https://mycafegourmand.com/fr/recettes/plat-principal/\">votre poisson ou la viande</a>. <span id=\":18h.17\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">N'hésitez</span> pas à ajouter ces mini poivrons grillés au four dans des salades de <span id=\":18h.18\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">légumes</span> frais.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21151,\"template\":\"chic-template-french\",\"updated\":1731539078553,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 21151-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Mini poivrons grillés au four</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9520.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Comme les mini poivrons sont assez petits, on peut ne pas les couper en lanières, comme je l&#039;ai fait dans cette recette mais seulement les couper en deux dans la longueur.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>600 g mini poivrons (de différentes couleurs)</li><li>Sel et poivre du moulin</li><li>Quelques filets d'huile d'olive</li><li>Quelques brins de ciboulette (aneth, persil) (ciselés)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 220°C (thermostat 7). Couper les poivrons en deux dans la longueur, retirer les graines et les membranes puis couper en lanières. Placer les poivrons dans un plat allant au four. Saler, poivrer et arroser avec l'huile d'olive.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9502.Blog_-150x150.png\"/><br /></li><li>Faire cuire les poivrons dans le four pendant environ 15 minutes. Servir chaud ou froid.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9505.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<p><span data-slate-fragment=\"JTVCJTdCJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmNoaWxkcmVuJTIyJTNBJTVCJTdCJTIydGV4dCUyMiUzQSUyMkNvbW1lJTIwbGVzJTIwbWluaSUyMHBvaXZyb25zJTIwc29udCUyMGFzc2V6JTIwcGV0aXRzJTJDJTIwb24lMjBwZXV0JTIwbmUlMjBwYXMlMjBsZXMlMjBjb3VwZXIlMjBlbiUyMGxhbmklQzMlQThyZXMlMkMlMjBjb21tZSUyMGplJTIwbCdhaSUyMGZhaXQlMjBkYW5zJTIwY2V0dGUlMjByZWNldHRlJTIwbWFpcyUyMHNldWxlbWVudCUyMGxlcyUyMGNvdXBlciUyMGVuJTIwZGV1eCUyMGRhbnMlMjBsYSUyMGxvbmd1ZXVyLiUyMiU3RCU1RCU3RCU1RA==\">Comme les mini poivrons sont assez petits, on peut ne pas les couper en lanières, comme je l'ai fait dans cette recette mais seulement les couper en deux dans la longueur.</span></p>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Mini poivrons grillés au four. Les mini poivrons de différentes couleurs sont bien appétissants et très tendres. Grillés au four, ils sont faciles et rapides à préparer."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26395",
+      "sourceTaxonomyId": "26395",
+      "name": "Plat Principal",
+      "slug": "plat-principal-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26440",
+      "sourceTaxonomyId": "26440",
+      "name": "française",
+      "slug": "francaise-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26750",
+      "sourceTaxonomyId": "26750",
+      "name": "Français",
+      "slug": "francais-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24077",
+      "sourceTaxonomyId": "24077",
+      "name": "mini poivrons (de différentes couleurs)",
+      "slug": "mini-poivrons-de-differentes-couleurs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24080",
+      "sourceTaxonomyId": "24080",
+      "name": "de ciboulette (aneth, persil)",
+      "slug": "de-ciboulette-aneth-persil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25667",
+      "sourceTaxonomyId": "25667",
+      "name": "brins",
+      "slug": "brins"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26142",
+      "sourceTaxonomyId": "26142",
+      "name": "filets",
+      "slug": "filets"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27074",
+      "sourceTaxonomyId": "27074",
+      "name": "Mini poivrons grillés au four",
+      "slug": "mini-poivrons-grilles-au-four"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27076",
+      "sourceTaxonomyId": "27076",
+      "name": "poivrons",
+      "slug": "poivrons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27078",
+      "sourceTaxonomyId": "27078",
+      "name": "mini poivrons",
+      "slug": "mini-poivrons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3848",
+      "sourceTaxonomyId": "3848",
+      "name": "de ciboulette (aneth, persil)",
+      "slug": "de-ciboulette-aneth-persil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3858",
+      "sourceTaxonomyId": "3858",
+      "name": "mini poivrons (de différentes couleurs)",
+      "slug": "mini-poivrons-de-differentes-couleurs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1316",
+      "sourceTaxonomyId": "1316",
+      "name": "legume",
+      "slug": "legume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1933",
+      "sourceTaxonomyId": "1933",
+      "name": "mini",
+      "slug": "mini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3808",
+      "sourceTaxonomyId": "3808",
+      "name": "au sel et poivre",
+      "slug": "au-sel-et-poivre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3854",
+      "sourceTaxonomyId": "3854",
+      "name": "huile d'olive",
+      "slug": "huile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3856",
+      "sourceTaxonomyId": "3856",
+      "name": "entree froide ou chaude",
+      "slug": "entree-froide-ou-chaude"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3913",
+      "sourceTaxonomyId": "3913",
+      "name": "poivron doux",
+      "slug": "poivron-doux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": "Comme les mini poivrons sont assez petits, on peut ne pas les couper en lanières, comme je l'ai fait dans cette recette mais seulement les couper en deux dans la longueur.",
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "1",
+        "value": 1
+      },
+      "servingSize": {
+        "raw": "50",
+        "value": 50
+      },
+      "servingUnit": "g"
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:8146",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "600 g mini poivrons (de différentes couleurs)",
+            "quantity": {
+              "raw": "600 g",
+              "value": 600,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "mini poivrons (de différentes couleurs)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Quelques filets d'huile d'olive",
+            "quantity": {
+              "raw": "Quelques filets",
+              "unit": "filets",
+              "scalable": false
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Quelques brins de ciboulette (aneth, persil) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de ciboulette (aneth, persil)",
+            "notes": "ciselés"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 220°C (thermostat 7). Couper les poivrons en deux dans la longueur, retirer les graines et les membranes puis couper en lanières. Placer les poivrons dans un plat allant au four. Saler, poivrer et arroser avec l'huile d'olive.",
+            "mediaId": "wordpress-attachment:8143"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire cuire les poivrons dans le four pendant environ 15 minutes. Servir chaud ou froid.",
+            "mediaId": "wordpress-attachment:8142"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8146",
+      "sourceId": "8146",
+      "path": "/recipes/media/wordpress/8146.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8143",
+      "sourceId": "8143",
+      "path": "/recipes/media/wordpress/8143.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8142",
+      "sourceId": "8142",
+      "path": "/recipes/media/wordpress/8142.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

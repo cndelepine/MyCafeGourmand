@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22074",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:15369",
+  "slug": "allumettes-aperitif-au-fromage",
+  "source": {
+    "system": "wordpress",
+    "postId": "22074",
+    "recipeId": "22074",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-allumettes-aperitif-au-fromage",
+    "createdAt": "2019-05-18T19:09:17+00:00",
+    "modifiedAt": "2020-12-09T00:07:39+00:00",
+    "editorialPostId": "16963",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "allumettes-aperitif-au-fromage",
+    "editorialCreatedAt": "2019-05-18T19:09:17+00:00",
+    "editorialModifiedAt": "2020-12-09T00:07:32+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/allumettes-aperitif-au-fromage/"
+  ],
+  "title": "Allumettes apéritif au fromage",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ces allumettes apéritif au fromage seront parfaites servies au moment de l'apéro ou en accompagnement d'une soupe ou une salade. Elles sont  relevées avec du poivre fraîchement moulu. Mais n'hésitez pas à le remplacer par une pointe de piment de Cayenne ou des herbes séchées.                              </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22074,\"template\":\"chic-template-french\",\"updated\":1607472282822} -->\n<!--WPRM Recipe 22074-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Allumettes apéritif au fromage</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_7365-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 feuille de pâte feuilletée</li><li>1 jaune d’œuf battu</li><li>50 g fromage râpé</li><li>Un peu d'herbes de Provence (ou d'autres épices de votre choix)</li><li>Poivre du moulin ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 180°C (thermostat 6). Étaler la pâte feuilletée sur une feuille de papier sulfurisé.</li><li>Badigeonner de jaune d’œuf.\r\n   \r\n  </li><li>Saupoudrer de fromage, d'herbes de Provence et de poivre. Découper la pâte en lanières de 1 cm de largeur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_7633.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant 7-9 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/IMG_7362.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24466",
+      "sourceTaxonomyId": "24466",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24611",
+      "sourceTaxonomyId": "24611",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24624",
+      "sourceTaxonomyId": "24624",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24703",
+      "sourceTaxonomyId": "24703",
+      "name": "jaune d’œuf battu",
+      "slug": "jaune-doeuf-battu"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24711",
+      "sourceTaxonomyId": "24711",
+      "name": "fromage râpé",
+      "slug": "fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "762",
+      "sourceTaxonomyId": "762",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2584",
+      "sourceTaxonomyId": "2584",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3461",
+      "sourceTaxonomyId": "3461",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15438",
+      "sourceTaxonomyId": "15438",
+      "name": "fromage râpé",
+      "slug": "fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15536",
+      "sourceTaxonomyId": "15536",
+      "name": "jaune d’œuf battu",
+      "slug": "jaune-doeuf-battu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1396",
+      "sourceTaxonomyId": "1396",
+      "name": "pate feuilletee",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2467",
+      "sourceTaxonomyId": "2467",
+      "name": "fromage rape",
+      "slug": "fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5163",
+      "sourceTaxonomyId": "5163",
+      "name": "pas cher",
+      "slug": "pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5533",
+      "sourceTaxonomyId": "5533",
+      "name": "tres facile",
+      "slug": "tres-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7060",
+      "sourceTaxonomyId": "7060",
+      "name": "pate feuilletee prete a derouler",
+      "slug": "pate-feuilletee-prete-a-derouler"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "rest": null,
+      "total": {
+        "raw": "13",
+        "minutes": 13
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16902",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 feuille de pâte feuilletée",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "de pâte feuilletée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 jaune d’œuf battu",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jaune d’œuf battu",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g fromage râpé",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "fromage râpé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un peu d'herbes de Provence ou d'autres épices de votre choix",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'herbes de Provence",
+            "notes": "ou d'autres épices de votre choix"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Poivre du moulin (facultatif)",
+            "quantity": null,
+            "name": "Poivre du moulin",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Étaler la pâte feuilletée sur une feuille de papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Badigeonner de jaune d’œuf.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Saupoudrer de fromage, d'herbes de Provence et de poivre. Découper la pâte en lanières de 1 cm de largeur.",
+            "mediaId": "wordpress-attachment:16886"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire cuire au four pendant 7-9 minutes.",
+            "mediaId": "wordpress-attachment:16883"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16902",
+      "sourceId": "16902",
+      "path": "/recipes/media/wordpress/16902.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:16886",
+      "sourceId": "16886",
+      "path": "/recipes/media/wordpress/16886.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16883",
+      "sourceId": "16883",
+      "path": "/recipes/media/wordpress/16883.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

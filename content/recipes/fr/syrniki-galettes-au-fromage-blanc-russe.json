@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22252",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:7930",
+  "slug": "syrniki-galettes-au-fromage-blanc-russe",
+  "source": {
+    "system": "wordpress",
+    "postId": "22252",
+    "recipeId": "22252",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-syrniki-galettes-au-fromage-blanc-russe",
+    "createdAt": "2025-01-02T09:38:00+00:00",
+    "modifiedAt": "2025-01-04T01:18:01+00:00",
+    "editorialPostId": "13006",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "syrniki-galettes-au-fromage-blanc-russe",
+    "editorialCreatedAt": "2025-01-02T09:38:00+00:00",
+    "editorialModifiedAt": "2025-01-04T01:16:45+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/syrniki-galettes-au-fromage-blanc-russe/"
+  ],
+  "title": "Syrniki (Galettes au fromage blanc russe)",
+  "description": "Vous pouvez préparer la pâte la veille, former les syrniki, les couvrir de film alimentaire et les mettre au réfrigérateur. Ainsi, au moment voulu, il ne vous restera plus qu'à les faire cuire dans une poêle jusqu'à ce qu'ils soient bien dorés et appétissants.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Il est difficile de trouver quelqu'un qui n'aime pas les syrniki. La recette est très simple et populaire en Europe de l'Est. Les plus savoureux sont ceux fraîchement préparés et encore chauds. Ne les faites pas cuire à l'avance ! </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22252,\"template\":\"chic-template-french\",\"updated\":1735594676059} -->\n<!--WPRM Recipe 22252-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Syrniki (Galettes au fromage blanc russe)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/20180926_143555.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Vous pouvez préparer la pâte la veille, former les syrniki, les couvrir de film alimentaire et les mettre au réfrigérateur. Ainsi, au moment voulu, il ne vous restera plus qu&#039;à les faire cuire dans une poêle jusqu&#039;à ce qu&#039;ils soient bien dorés et appétissants.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>300 g fromage blanc  ((de préférence 9 % de matière grasse ou plus))</li><li>1  gros  œuf</li><li>1 pincée sel</li><li>1  cuillère à soupe  sucre</li><li>1 sachet  sucre vanillé ((facultatif))</li><li>3-4 cuillère à soupe farine</li><li>Un peu huile végétale  (pour la cuisson)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Écrasez le fromage blanc à la fourchette en le mélangeant avec l&#039;œuf, le sucre, le sucre vanillé (si utilisé) et le sel.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9690.Blog_-150x150.png\"/><br /></li><li><p>Ajoutez la farine et pétrissez la pâte à la main. Vous pourriez avoir besoin de plus de farine que ce qui est indiqué dans les ingrédients.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9692.Blog_-150x150.png\"/><br /></li><li><p>Façonnez la pâte en 2 rouleaux et saupoudrez-les de farine pour éviter qu’ils ne collent aux mains.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9693.Blog_-150x150.png\"/><br /></li><li><p>Découpez les rouleaux en tranches d’environ 1,5 cm d’épaisseur.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9695.Blog_-150x150.png\"/><br /></li><li><p>Formez des rondelles à partir des tranches et saupoudrez-les légèrement de farine pour qu’elles ne collent pas à la surface de travail.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9698.Blog_-150x150.png\"/><br /></li><li><p>Faites chauffer un peu d’huile végétale dans une grande poêle et faites-y cuire les syrniki à feu doux des deux côtés jusqu’à ce qu’ils soient bien dorés.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_9703.Blog_-150x150.png\"/><br /></li><li><p>Servez chaud avec de la crème fraîche, de la confiture, du sucre, du miel ou vos garnitures préférées.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/20180926_143653.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert, desserts</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Russe, Russian, slave</div><div class=\"wprm-fallback-recipe-meta-keyword\">dessert russe, galette au fromage blanc, russe, syrniki</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Il est difficile de trouver quelqu'un qui n'aime pas les syrniki ou galettes au fromage blanc russe. La recette est très simple. Les plus savoureux sont ceux fraîchement préparés, encore chauds. Ne les faites pas cuire à l'avance ! "
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27129",
+      "sourceTaxonomyId": "27129",
+      "name": "desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27095",
+      "sourceTaxonomyId": "27095",
+      "name": "Russian",
+      "slug": "russian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27131",
+      "sourceTaxonomyId": "27131",
+      "name": "Russe",
+      "slug": "russe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27133",
+      "sourceTaxonomyId": "27133",
+      "name": "slave",
+      "slug": "slave"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23992",
+      "sourceTaxonomyId": "23992",
+      "name": "sel",
+      "slug": "sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24036",
+      "sourceTaxonomyId": "24036",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24042",
+      "sourceTaxonomyId": "24042",
+      "name": "sucre",
+      "slug": "sucre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25300",
+      "sourceTaxonomyId": "25300",
+      "name": "farine",
+      "slug": "farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27126",
+      "sourceTaxonomyId": "27126",
+      "name": "fromage blanc",
+      "slug": "fromage-blanc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27127",
+      "sourceTaxonomyId": "27127",
+      "name": "sucre vanillé",
+      "slug": "sucre-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27128",
+      "sourceTaxonomyId": "27128",
+      "name": "huile végétale",
+      "slug": "huile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25433",
+      "sourceTaxonomyId": "25433",
+      "name": "pincée",
+      "slug": "pincee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26143",
+      "sourceTaxonomyId": "26143",
+      "name": "gros",
+      "slug": "gros"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26161",
+      "sourceTaxonomyId": "26161",
+      "name": "sachet",
+      "slug": "sachet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27135",
+      "sourceTaxonomyId": "27135",
+      "name": "syrniki",
+      "slug": "syrniki"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27137",
+      "sourceTaxonomyId": "27137",
+      "name": "galette au fromage blanc",
+      "slug": "galette-au-fromage-blanc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27139",
+      "sourceTaxonomyId": "27139",
+      "name": "russe",
+      "slug": "russe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27141",
+      "sourceTaxonomyId": "27141",
+      "name": "dessert russe",
+      "slug": "dessert-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "699",
+      "sourceTaxonomyId": "699",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1038",
+      "sourceTaxonomyId": "1038",
+      "name": "растительного масла",
+      "slug": "%d1%80%d0%b0%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1931",
+      "sourceTaxonomyId": "1931",
+      "name": "яйцо",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2228",
+      "sourceTaxonomyId": "2228",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5337",
+      "sourceTaxonomyId": "5337",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7931",
+      "sourceTaxonomyId": "7931",
+      "name": "ванильного сахара",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2939",
+      "sourceTaxonomyId": "2939",
+      "name": "gouter",
+      "slug": "gouter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3271",
+      "sourceTaxonomyId": "3271",
+      "name": "farine",
+      "slug": "farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6852",
+      "sourceTaxonomyId": "6852",
+      "name": "cuisine russe",
+      "slug": "cuisine-russe"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 portions",
+      "value": 4,
+      "unit": "portions",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "1",
+        "value": 1
+      },
+      "servingSize": null,
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:12928",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "300 g fromage blanc (de préférence 9 % de matière grasse ou plus)",
+            "quantity": {
+              "raw": "300 g",
+              "value": 300,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "fromage blanc",
+            "notes": "(de préférence 9 % de matière grasse ou plus)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 gros œuf",
+            "quantity": {
+              "raw": "1 gros",
+              "value": 1,
+              "unit": "gros",
+              "scalable": true
+            },
+            "name": "œuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 pincée sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cuillère à soupe sucre",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "sucre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 sachet sucre vanillé (facultatif)",
+            "quantity": {
+              "raw": "1 sachet",
+              "value": 1,
+              "unit": "sachet",
+              "scalable": true
+            },
+            "name": "sucre vanillé",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3-4 cuillère à soupe farine",
+            "quantity": {
+              "raw": "3-4 cuillère à soupe",
+              "min": 3,
+              "max": 4,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "farine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Un peu huile végétale pour la cuisson",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "huile végétale",
+            "notes": "pour la cuisson"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Écrasez le fromage blanc à la fourchette en le mélangeant avec l'œuf, le sucre, le sucre vanillé (si utilisé) et le sel.",
+            "mediaId": "wordpress-attachment:12930"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajoutez la farine et pétrissez la pâte à la main. Vous pourriez avoir besoin de plus de farine que ce qui est indiqué dans les ingrédients.",
+            "mediaId": "wordpress-attachment:12931"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Façonnez la pâte en 2 rouleaux et saupoudrez-les de farine pour éviter qu’ils ne collent aux mains.",
+            "mediaId": "wordpress-attachment:12932"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Découpez les rouleaux en tranches d’environ 1,5 cm d’épaisseur.",
+            "mediaId": "wordpress-attachment:12933"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Formez des rondelles à partir des tranches et saupoudrez-les légèrement de farine pour qu’elles ne collent pas à la surface de travail.",
+            "mediaId": "wordpress-attachment:12934"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Faites chauffer un peu d’huile végétale dans une grande poêle et faites-y cuire les syrniki à feu doux des deux côtés jusqu’à ce qu’ils soient bien dorés.",
+            "mediaId": "wordpress-attachment:12935"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Servez chaud avec de la crème fraîche, de la confiture, du sucre, du miel ou vos garnitures préférées.",
+            "mediaId": "wordpress-attachment:12929"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12928",
+      "sourceId": "12928",
+      "path": "/recipes/media/wordpress/12928.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12930",
+      "sourceId": "12930",
+      "path": "/recipes/media/wordpress/12930.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12931",
+      "sourceId": "12931",
+      "path": "/recipes/media/wordpress/12931.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12932",
+      "sourceId": "12932",
+      "path": "/recipes/media/wordpress/12932.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12933",
+      "sourceId": "12933",
+      "path": "/recipes/media/wordpress/12933.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12934",
+      "sourceId": "12934",
+      "path": "/recipes/media/wordpress/12934.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12935",
+      "sourceId": "12935",
+      "path": "/recipes/media/wordpress/12935.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12929",
+      "sourceId": "12929",
+      "path": "/recipes/media/wordpress/12929.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

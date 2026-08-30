@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21258",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:14885",
+  "slug": "mediterranean-roasted-tomato-tart",
+  "source": {
+    "system": "wordpress",
+    "postId": "21258",
+    "recipeId": "21258",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tomato-tart",
+    "createdAt": "2020-07-31T23:15:00+00:00",
+    "modifiedAt": "2020-12-23T20:14:11+00:00",
+    "editorialPostId": "16668",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "mediterranean-roasted-tomato-tart",
+    "editorialCreatedAt": "2020-07-31T23:15:00+00:00",
+    "editorialModifiedAt": "2020-12-23T20:14:06+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/mediterranean-roasted-tomato-tart/"
+  ],
+  "title": "Tomato Tart",
+  "description": "This mediterranean tart is a must make. You can make it with tomatoes of the same or different size, of different colors and different varieties. The most important thing is that they are ripe and flavorful. Perfect dish for small crowds.",
+  "editorial": {
+    "content": "<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\n<p class=\"has-medium-font-size\">Who said that tarts are only for dessert? Fill a square of puff pastry with colorful mosaic of tomatoes, cheese, Dijon mustard, herbs de Provence. Then surprise your friends or family with this savory piece of artwork. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21258,\"template\":\"chic-template-english\",\"updated\":1608754111552} -->\n<!--WPRM Recipe 21258-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tomato Tart</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/22279401_1578027812261704_7545639075651100608_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThis mediterranean tart is a must make. You can make it with tomatoes of the same or different size, of different colors and different varieties. The most important thing is that they are ripe and flavorful. Perfect dish for small crowds.\r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet all butter puff pastry</li><li>1-2 Tblsp  Dijion mustard</li><li>5-6 tomatoes</li><li>30 g shreaded cheese (parmesan)</li><li>Salt and freshly ground black pepper (to taste)</li><li>herbs de provence ((optional))</li><li>couple basil leaf ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut tomatoes into thin (0.5 cm) slices. Put them in a single layer on paper towel. Pat dry with paper towel.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8846.Blog_-150x150.png\"/><br /></li><li>Preheat the oven to 375°F. On the floured piece of parchment paper roll out the puff pastry and poke all over with a fork, to release the steam while baking.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8844.Blog_-150x150.png\"/><br /></li><li>Evenly spread with dijon mustard.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8845.Blog_-150x150.png\"/><br /></li><li>Arrange the tomatoes on top. Fold the edges of dough.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8850.Blog_-150x150.png\"/><br /></li><li>Season with salt and pepper, sprinkle with cheese and herbs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8853.Blog_-150x150.png\"/><br /></li><li>Bake on the bottom rack of the oven for about 25-30 minutes until the tomatoes are cooked through and the cheese is softening and colouring at the edges.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8861.Blog_-150x150.png\"/><br /></li><li>Cut the tart into quarters, garnish with fresh basil and serve.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/22279401_1578027812261704_7545639075651100608_n.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24139",
+      "sourceTaxonomyId": "24139",
+      "name": "Dijion mustard",
+      "slug": "dijion-mustard"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24141",
+      "sourceTaxonomyId": "24141",
+      "name": "shreaded cheese (parmesan)",
+      "slug": "shreaded-cheese-parmesan"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24142",
+      "sourceTaxonomyId": "24142",
+      "name": "herbs de provence",
+      "slug": "herbs-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24143",
+      "sourceTaxonomyId": "24143",
+      "name": "basil leaf",
+      "slug": "basil-leaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "967",
+      "sourceTaxonomyId": "967",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2054",
+      "sourceTaxonomyId": "2054",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6299",
+      "sourceTaxonomyId": "6299",
+      "name": "herbs de provence",
+      "slug": "herbs-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15205",
+      "sourceTaxonomyId": "15205",
+      "name": "Dijion mustard",
+      "slug": "dijion-mustard"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15211",
+      "sourceTaxonomyId": "15211",
+      "name": "shreaded cheese (parmesan)",
+      "slug": "shreaded-cheese-parmesan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15215",
+      "sourceTaxonomyId": "15215",
+      "name": "basil leaf",
+      "slug": "basil-leaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1386",
+      "sourceTaxonomyId": "1386",
+      "name": "puff pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1604",
+      "sourceTaxonomyId": "1604",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23486",
+      "sourceTaxonomyId": "23486",
+      "name": "Mediterranean Tomato Tart",
+      "slug": "mediterranean-tomato-tart"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 persons",
+      "value": 8,
+      "unit": "persons",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16615",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 Tblsp Dijion mustard",
+            "quantity": {
+              "raw": "1-2 Tblsp",
+              "min": 1,
+              "max": 2,
+              "unit": "Tblsp",
+              "scalable": true
+            },
+            "name": "Dijion mustard",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "5-6 tomatoes",
+            "quantity": {
+              "raw": "5-6",
+              "min": 5,
+              "max": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "30 g shreaded cheese (parmesan)",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "shreaded cheese (parmesan)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "herbs de provence (optional)",
+            "quantity": null,
+            "name": "herbs de provence",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "couple basil leaf (optional)",
+            "quantity": {
+              "raw": "couple",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "basil leaf",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut tomatoes into thin (0.5 cm) slices. Put them in a single layer on paper towel. Pat dry with paper towel.",
+            "mediaId": "wordpress-attachment:16622"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Preheat the oven to 375°F. On the floured piece of parchment paper roll out the puff pastry and poke all over with a fork, to release the steam while baking.",
+            "mediaId": "wordpress-attachment:16620"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Evenly spread with dijon mustard.",
+            "mediaId": "wordpress-attachment:16621"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Arrange the tomatoes on top. Fold the edges of dough.",
+            "mediaId": "wordpress-attachment:16623"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Season with salt and pepper, sprinkle with cheese and herbs.",
+            "mediaId": "wordpress-attachment:16624"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bake on the bottom rack of the oven for about 25-30 minutes until the tomatoes are cooked through and the cheese is softening and colouring at the edges.",
+            "mediaId": "wordpress-attachment:16625"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Cut the tart into quarters, garnish with fresh basil and serve.",
+            "mediaId": "wordpress-attachment:16615"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16615",
+      "sourceId": "16615",
+      "path": "/recipes/media/wordpress/16615.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:16622",
+      "sourceId": "16622",
+      "path": "/recipes/media/wordpress/16622.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16620",
+      "sourceId": "16620",
+      "path": "/recipes/media/wordpress/16620.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16621",
+      "sourceId": "16621",
+      "path": "/recipes/media/wordpress/16621.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16623",
+      "sourceId": "16623",
+      "path": "/recipes/media/wordpress/16623.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16624",
+      "sourceId": "16624",
+      "path": "/recipes/media/wordpress/16624.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16625",
+      "sourceId": "16625",
+      "path": "/recipes/media/wordpress/16625.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

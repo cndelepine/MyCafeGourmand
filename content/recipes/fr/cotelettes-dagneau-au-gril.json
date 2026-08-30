@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22185",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2569",
+  "slug": "cotelettes-dagneau-au-gril",
+  "source": {
+    "system": "wordpress",
+    "postId": "22185",
+    "recipeId": "22185",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cotelettes-dagneau-au-gril",
+    "createdAt": "2023-03-22T08:42:00+00:00",
+    "modifiedAt": "2023-03-23T03:12:40+00:00",
+    "editorialPostId": "4925",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cotelettes-dagneau-au-gril",
+    "editorialCreatedAt": "2023-03-22T08:42:00+00:00",
+    "editorialModifiedAt": "2023-03-23T03:12:38+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/cotelettes-dagneau-au-gril/"
+  ],
+  "title": "Côtelettes d'agneau au gril",
+  "description": "Le temps de cuisson dépend du four: surveillez les côtelettes de près pour ne pas surcuire ! Sortez la viande du réfrigérateur 1 heure avant de commencer la préparation.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ces délicieuses côtelettes d'agneau au gril sont juste assaisonnées de sel, de poivre et d'herbes de <span id=\"gmail-:r1.99\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\">Provence. Elles</span> sont préparées au four sous le gril. Depuis que nous avons découvert cette recette, elle est devenue une des préférées de notre famille.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22185,\"template\":\"chic-template-french\",\"updated\":1607742232839} -->\n<!--WPRM Recipe 22185-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Côtelettes d'agneau au gril</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7832.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLe temps de cuisson dépend du four: surveillez les côtelettes de près pour ne pas surcuire ! Sortez la viande du réfrigérateur 1 heure avant de commencer la préparation.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 gousse d'ail (coupée en deux dans la longueur)</li><li>3 côtelettes d'agneau</li><li>Un peu d'huile d'olive</li><li>Un peu d'herbes de Provence</li><li>Sel et poivre du moulin</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Faire chauffer le gril du four. Pour un nettoyage plus facile, couvrir la lèchefrite avec une feuille de papier aluminium. Poser une grille dessus.\r\n</li><li>Frotter les côtelettes avec l'ail et les badigeonner d'huile. Disposer les côtelettes sur la grille.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7830.Blog_-150x150.png\"/><br /></li><li>Enfourner à 15-20 cm de la rampe et les faire griller pendant 4 minutes. Retourner les côtelettes et faire cuire encore 4 minutes de l'autre côté.</li><li>Sortir la lèchefrite du four, saupoudrer les côtelettes d'herbes, de sel et de poivre. Remettre au four et faire cuire 2 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7831.Blog_-150x150.png\"/><br /></li><li>Ressortir la lèchefrite, retourner les côtelettes. Saler, poivrer et saupoudrer d'herbes. Remettre une dernière fois au four pour environ 2 minutes.</li><li>Vérifier la cuisson, sortir les côtelettes aussitôt du four et servir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7836-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24624",
+      "sourceTaxonomyId": "24624",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24772",
+      "sourceTaxonomyId": "24772",
+      "name": "côtelettes d'agneau",
+      "slug": "cotelettes-dagneau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2582",
+      "sourceTaxonomyId": "2582",
+      "name": "côtelettes d'agneau",
+      "slug": "cotelettes-dagneau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2584",
+      "sourceTaxonomyId": "2584",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2570",
+      "sourceTaxonomyId": "2570",
+      "name": "cotelettes d'agneau",
+      "slug": "cotelettes-dagneau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2572",
+      "sourceTaxonomyId": "2572",
+      "name": "gril",
+      "slug": "gril"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2574",
+      "sourceTaxonomyId": "2574",
+      "name": "agneau",
+      "slug": "agneau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2576",
+      "sourceTaxonomyId": "2576",
+      "name": "plat facile",
+      "slug": "plat-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2578",
+      "sourceTaxonomyId": "2578",
+      "name": "sel et poivre",
+      "slug": "sel-et-poivre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2580",
+      "sourceTaxonomyId": "2580",
+      "name": "herbes de provence",
+      "slug": "herbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6924",
+      "sourceTaxonomyId": "6924",
+      "name": "assaisonné de sel et de poivre",
+      "slug": "assaisonne-de-sel-et-de-poivre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "1 personne",
+      "value": 1,
+      "unit": "personne",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "12",
+        "minutes": 12
+      },
+      "rest": null,
+      "total": {
+        "raw": "17",
+        "minutes": 17
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:4302",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 gousse d'ail coupée en deux dans la longueur",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "coupée en deux dans la longueur"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 côtelettes d'agneau",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "côtelettes d'agneau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Un peu d'huile d'olive",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un peu d'herbes de Provence",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'herbes de Provence",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Faire chauffer le gril du four. Pour un nettoyage plus facile, couvrir la lèchefrite avec une feuille de papier aluminium. Poser une grille dessus.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Frotter les côtelettes avec l'ail et les badigeonner d'huile. Disposer les côtelettes sur la grille.",
+            "mediaId": "wordpress-attachment:4300"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Enfourner à 15-20 cm de la rampe et les faire griller pendant 4 minutes. Retourner les côtelettes et faire cuire encore 4 minutes de l'autre côté.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Sortir la lèchefrite du four, saupoudrer les côtelettes d'herbes, de sel et de poivre. Remettre au four et faire cuire 2 minutes.",
+            "mediaId": "wordpress-attachment:4301"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ressortir la lèchefrite, retourner les côtelettes. Saler, poivrer et saupoudrer d'herbes. Remettre une dernière fois au four pour environ 2 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Vérifier la cuisson, sortir les côtelettes aussitôt du four et servir.",
+            "mediaId": "wordpress-attachment:4307"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4302",
+      "sourceId": "4302",
+      "path": "/recipes/media/wordpress/4302.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4300",
+      "sourceId": "4300",
+      "path": "/recipes/media/wordpress/4300.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4301",
+      "sourceId": "4301",
+      "path": "/recipes/media/wordpress/4301.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4307",
+      "sourceId": "4307",
+      "path": "/recipes/media/wordpress/4307.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22157",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:4620",
+  "slug": "guacamole",
+  "source": {
+    "system": "wordpress",
+    "postId": "22157",
+    "recipeId": "22157",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-guacamole",
+    "createdAt": "2018-05-23T15:29:06+00:00",
+    "modifiedAt": "2022-07-30T19:00:02+00:00",
+    "editorialPostId": "9516",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "guacamole",
+    "editorialCreatedAt": "2018-05-23T15:29:06+00:00",
+    "editorialModifiedAt": "2022-07-30T18:59:58+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/guacamole/"
+  ],
+  "title": "Guacamole",
+  "description": "Un guacamole peut être servi non pas seulement avec des tortilla chips mais avec des légumes frais du jardin (des radis, des concombres, céleris ou des tomates cerises) taillés en rondelles ou en bâtonnets.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le secret d’un guacamole bien réussi, c’est évidemment un avocat mûr à point. Si vous aimez une texture très lisse, utiliser un blender pour mixer les avocats. Personnellement, je préfère les avocats écrasés à la fourchette avec les tomates, l’oignon et la coriandre fraîche finement découpée.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22157,\"template\":\"chic-template-french\",\"updated\":1659207564522} -->\n<!--WPRM Recipe 22157-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Guacamole</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9564.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tUn guacamole peut être servi non pas seulement avec des tortilla chips mais avec des légumes frais du jardin (des radis, des concombres, céleris ou des tomates cerises) taillés en rondelles ou en bâtonnets.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 avocats bien mûrs</li><li>1/2 citron pressé ((ou 1 citron vert))</li><li>2 tomates</li><li>1/2 oignon épluché</li><li>2 gousses  d'ail ( épluchées)</li><li>Sel et poivre du moulin</li><li>1 pincée de piment de Cayenne</li><li>1/4 bouquet de coriandre fraiche</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Couper les avocats en deux dans la longueur, jeter le noyau et la peau. Écraser la chair d'avocats avec une fourchette. Arroser de jus de citron.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9555.Blog_-150x150.png\"/><br /></li><li>Émincer l'oignon, les tomates et la coriandre. Écraser l'ail.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9557.Blog_-150x150.png\"/><br /></li><li>Mélanger tous les légumes aux avocats. Saler, poivrer et saupoudrer de piment de Cayenne.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9558.Blog_-150x150.png\"/><br /></li><li>Mettre le guacamole dans un bol de service et servir accompagné de tortilla chips ou des petits légumes frais. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9559.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24545",
+      "sourceTaxonomyId": "24545",
+      "name": "de coriandre fraiche",
+      "slug": "de-coriandre-fraiche"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24596",
+      "sourceTaxonomyId": "24596",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24682",
+      "sourceTaxonomyId": "24682",
+      "name": "oignon épluché",
+      "slug": "oignon-epluche"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24759",
+      "sourceTaxonomyId": "24759",
+      "name": "avocats bien mûrs",
+      "slug": "avocats-bien-murs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24760",
+      "sourceTaxonomyId": "24760",
+      "name": "citron pressé",
+      "slug": "citron-presse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24761",
+      "sourceTaxonomyId": "24761",
+      "name": "de piment de Cayenne",
+      "slug": "de-piment-de-cayenne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "527",
+      "sourceTaxonomyId": "527",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2147",
+      "sourceTaxonomyId": "2147",
+      "name": "de coriandre fraiche",
+      "slug": "de-coriandre-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4612",
+      "sourceTaxonomyId": "4612",
+      "name": "avocats bien mûrs",
+      "slug": "avocats-bien-murs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4614",
+      "sourceTaxonomyId": "4614",
+      "name": "citron pressé",
+      "slug": "citron-presse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4618",
+      "sourceTaxonomyId": "4618",
+      "name": "de piment de Cayenne",
+      "slug": "de-piment-de-cayenne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5094",
+      "sourceTaxonomyId": "5094",
+      "name": "oignon épluché",
+      "slug": "oignon-epluche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1596",
+      "sourceTaxonomyId": "1596",
+      "name": "ail",
+      "slug": "ail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3905",
+      "sourceTaxonomyId": "3905",
+      "name": "tex-mex",
+      "slug": "tex-mex"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3927",
+      "sourceTaxonomyId": "3927",
+      "name": "coriandre fraiche",
+      "slug": "coriandre-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4596",
+      "sourceTaxonomyId": "4596",
+      "name": "guacamole",
+      "slug": "guacamole"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4598",
+      "sourceTaxonomyId": "4598",
+      "name": "poivre cayenne",
+      "slug": "poivre-cayenne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4600",
+      "sourceTaxonomyId": "4600",
+      "name": "avocat ecrase",
+      "slug": "avocat-ecrase"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4602",
+      "sourceTaxonomyId": "4602",
+      "name": "dip",
+      "slug": "dip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4604",
+      "sourceTaxonomyId": "4604",
+      "name": "plat mexicain",
+      "slug": "plat-mexicain"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4606",
+      "sourceTaxonomyId": "4606",
+      "name": "citron presse",
+      "slug": "citron-presse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4608",
+      "sourceTaxonomyId": "4608",
+      "name": "jus de citron",
+      "slug": "jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4610",
+      "sourceTaxonomyId": "4610",
+      "name": "piment",
+      "slug": "piment"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:9777",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 avocats bien mûrs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "avocats bien mûrs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 citron pressé (ou 1 citron vert)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citron pressé",
+            "notes": "(ou 1 citron vert)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 tomates",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 oignon épluché",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon épluché",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 gousses d'ail épluchées",
+            "quantity": {
+              "raw": "2 gousses",
+              "value": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 pincée de piment de Cayenne",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de piment de Cayenne",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/4 bouquet de coriandre fraiche",
+            "quantity": {
+              "raw": "1/4 bouquet",
+              "value": 0.25,
+              "unit": "bouquet",
+              "scalable": true
+            },
+            "name": "de coriandre fraiche",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper les avocats en deux dans la longueur, jeter le noyau et la peau. Écraser la chair d'avocats avec une fourchette. Arroser de jus de citron.",
+            "mediaId": "wordpress-attachment:9773"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Émincer l'oignon, les tomates et la coriandre. Écraser l'ail.",
+            "mediaId": "wordpress-attachment:9774"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mélanger tous les légumes aux avocats. Saler, poivrer et saupoudrer de piment de Cayenne.",
+            "mediaId": "wordpress-attachment:9775"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mettre le guacamole dans un bol de service et servir accompagné de tortilla chips ou des petits légumes frais.",
+            "mediaId": "wordpress-attachment:9778"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:9777",
+      "sourceId": "9777",
+      "path": "/recipes/media/wordpress/9777.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9773",
+      "sourceId": "9773",
+      "path": "/recipes/media/wordpress/9773.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9774",
+      "sourceId": "9774",
+      "path": "/recipes/media/wordpress/9774.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9775",
+      "sourceId": "9775",
+      "path": "/recipes/media/wordpress/9775.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9778",
+      "sourceId": "9778",
+      "path": "/recipes/media/wordpress/9778.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

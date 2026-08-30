@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28330",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26769",
+  "slug": "tuna-stuffed-tomatoes",
+  "source": {
+    "system": "wordpress",
+    "postId": "28330",
+    "recipeId": "28330",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tuna-stuffed-tomatoes",
+    "createdAt": "2024-05-04T23:20:56+00:00",
+    "modifiedAt": "2024-05-04T23:35:11+00:00",
+    "editorialPostId": "28328",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tuna-stuffed-tomatoes",
+    "editorialCreatedAt": "2024-05-04T23:20:56+00:00",
+    "editorialModifiedAt": "2024-05-04T23:35:09+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/tomatoes-stuffed-with-tuna/",
+    "/tuna-stuffed-tomatoes/"
+  ],
+  "title": "Tuna stuffed tomatoes",
+  "description": "Choose small-sized tomatoes if you want to make a starter out of this recipe, or cherry tomatoes to serve as an appetizer.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Here is my recipe for tuna-stuffed tomatoes with mayonnaise. Choose small-sized tomatoes if you want to make an appetizer out of this recipe, and cherry tomatoes to serve as an appetizer.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28330,\"template\":\"chic-template-english\",\"updated\":1714865703374} -->\n<!--WPRM Recipe 28330-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tuna stuffed tomatoes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5293.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Choose small-sized tomatoes if you want to make a starter out of this recipe, or cherry tomatoes to serve as an appetizer.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>180  g canned tuna (drained)</li><li>1 hard-boiled egg (peeled)</li><li>2 tablespoons mayonnaise</li><li>2-3 tablespoons lemon juice</li><li>Salt and pepper</li><li>4 small-sized tomatoes or 24 cherry tomatoes</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Mash the tuna using a fork.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5239.Blog_-150x150.png\"/><br /></li><li><p>Grate the egg (or crush it with a fork).</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5242.Blog_-150x150.png\"/><br /></li><li><p>Mix the tuna with the egg and mayonnaise.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5243.Blog_-150x150.png\"/><br /></li><li><p>Drizzle with lemon juice.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5248.Blog_-150x150.png\"/><br /></li><li><p>Season with salt and pepper.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5264.Blog_-150x150.png\"/><br /></li><li><p>Cut the tops off the tomatoes to form a lid. Hollow them out without damaging the skin.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/11/IMG_3607.Blog_-150x150.png\"/><br /></li><li><p>Stuff the tomatoes (with the tuna mixture) and close the lids.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5269.Blog_-150x150.png\"/><br /></li><li><p>Cherry tomatoes take longer to stuff, but they will make an impression at a party. ;)</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5695.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizer</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, French, Italian, Italien</div><div class=\"wprm-fallback-recipe-meta-keyword\">tomates farcies, tomates farcies au fromage, tomato, tomatoes stuffed, tomatoes stuffed with tuna</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Tomatoes stuffed with tuna"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26793",
+      "sourceTaxonomyId": "26793",
+      "name": "Appetizer",
+      "slug": "appetizer-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26750",
+      "sourceTaxonomyId": "26750",
+      "name": "Français",
+      "slug": "francais-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26754",
+      "sourceTaxonomyId": "26754",
+      "name": "Italian",
+      "slug": "italian-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26756",
+      "sourceTaxonomyId": "26756",
+      "name": "Italien",
+      "slug": "italien-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24230",
+      "sourceTaxonomyId": "24230",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26370",
+      "sourceTaxonomyId": "26370",
+      "name": "canned tuna",
+      "slug": "canned-tuna"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26790",
+      "sourceTaxonomyId": "26790",
+      "name": "hard-boiled egg",
+      "slug": "hard-boiled-egg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26792",
+      "sourceTaxonomyId": "26792",
+      "name": "small-sized tomatoes or 24 cherry tomatoes",
+      "slug": "small-sized-tomatoes-or-24-cherry-tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26791",
+      "sourceTaxonomyId": "26791",
+      "name": "tablespoons",
+      "slug": "tablespoons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26758",
+      "sourceTaxonomyId": "26758",
+      "name": "tomates farcies",
+      "slug": "tomates-farcies-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26760",
+      "sourceTaxonomyId": "26760",
+      "name": "tomates farcies au fromage",
+      "slug": "tomates-farcies-au-fromage-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26784",
+      "sourceTaxonomyId": "26784",
+      "name": "tomatoes stuffed",
+      "slug": "tomatoes-stuffed"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26786",
+      "sourceTaxonomyId": "26786",
+      "name": "tomatoes stuffed with tuna",
+      "slug": "tomatoes-stuffed-with-tuna"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26788",
+      "sourceTaxonomyId": "26788",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1508",
+      "sourceTaxonomyId": "1508",
+      "name": "tuna",
+      "slug": "tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1953",
+      "sourceTaxonomyId": "1953",
+      "name": "canned tuna",
+      "slug": "canned-tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4794",
+      "sourceTaxonomyId": "4794",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 persons",
+      "value": 4,
+      "unit": "persons",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28269",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "180 g canned tuna drained",
+            "quantity": {
+              "raw": "180 g",
+              "value": 180,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "canned tuna",
+            "notes": "drained"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 hard-boiled egg peeled",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "hard-boiled egg",
+            "notes": "peeled"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 tablespoons mayonnaise",
+            "quantity": {
+              "raw": "2 tablespoons",
+              "value": 2,
+              "unit": "tablespoons",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2-3 tablespoons lemon juice",
+            "quantity": {
+              "raw": "2-3 tablespoons",
+              "min": 2,
+              "max": 3,
+              "unit": "tablespoons",
+              "scalable": true
+            },
+            "name": "lemon juice",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and pepper",
+            "quantity": null,
+            "name": "Salt and pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 small-sized tomatoes or 24 cherry tomatoes",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "small-sized tomatoes or 24 cherry tomatoes",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Mash the tuna using a fork.",
+            "mediaId": "wordpress-attachment:28263"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Grate the egg (or crush it with a fork).",
+            "mediaId": "wordpress-attachment:28264"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mix the tuna with the egg and mayonnaise.",
+            "mediaId": "wordpress-attachment:28265"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Drizzle with lemon juice.",
+            "mediaId": "wordpress-attachment:28266"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Season with salt and pepper.",
+            "mediaId": "wordpress-attachment:28267"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Cut the tops off the tomatoes to form a lid. Hollow them out without damaging the skin.",
+            "mediaId": "wordpress-attachment:24396"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Stuff the tomatoes (with the tuna mixture) and close the lids.",
+            "mediaId": "wordpress-attachment:28268"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Cherry tomatoes take longer to stuff, but they will make an impression at a party. ;)",
+            "mediaId": "wordpress-attachment:28280"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28269",
+      "sourceId": "28269",
+      "path": "/recipes/media/wordpress/28269.png",
+      "alt": "Tomatoes stuffed with tuna",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28263",
+      "sourceId": "28263",
+      "path": "/recipes/media/wordpress/28263.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28264",
+      "sourceId": "28264",
+      "path": "/recipes/media/wordpress/28264.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28265",
+      "sourceId": "28265",
+      "path": "/recipes/media/wordpress/28265.png",
+      "alt": null,
+      "width": 800,
+      "height": 624
+    },
+    {
+      "id": "wordpress-attachment:28266",
+      "sourceId": "28266",
+      "path": "/recipes/media/wordpress/28266.png",
+      "alt": null,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28267",
+      "sourceId": "28267",
+      "path": "/recipes/media/wordpress/28267.png",
+      "alt": null,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:24396",
+      "sourceId": "24396",
+      "path": "/recipes/media/wordpress/24396.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:28268",
+      "sourceId": "28268",
+      "path": "/recipes/media/wordpress/28268.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28280",
+      "sourceId": "28280",
+      "path": "/recipes/media/wordpress/28280.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

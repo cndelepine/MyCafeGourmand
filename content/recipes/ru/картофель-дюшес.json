@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26623",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:26209",
+  "slug": "картофель-дюшес",
+  "source": {
+    "system": "wordpress",
+    "postId": "26623",
+    "recipeId": "26623",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c-%d0%b4%d1%8e%d1%88%d0%b5%d1%81",
+    "createdAt": "2021-12-21T19:02:00+00:00",
+    "modifiedAt": "2023-05-17T07:35:02+00:00",
+    "editorialPostId": "26622",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c-%d0%b4%d1%8e%d1%88%d0%b5%d1%81",
+    "editorialCreatedAt": "2021-12-21T19:02:00+00:00",
+    "editorialModifiedAt": "2023-05-17T07:34:59+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c-%d0%b4%d1%8e%d1%88%d0%b5%d1%81/"
+  ],
+  "title": "Картофель дюшес",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Картофель дюшес (Pommes de terre duchesse) - французский классический рецепт из картофельного пюре с добавлением сливочного масла и яичных желтков. При помощи кондитерского мешка из пюре формируются розочки и запекаются в духовке до золотистой корочки<strong>.</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Блюдо выглядит очень элегантно и подается к праздничному столу, как гарнир к мясу, рыбе или овощам.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26623,\"template\":\"chic-template-russian\",\"updated\":1682468682259} -->\n<!--WPRM Recipe 26623-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Картофель дюшес</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0694.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1,5 кг картофеля</li><li>200 г сливочного масла</li><li>Соль и свежемолотый перец (по вкусу)</li><li>Немного (на кончике ножа) тертого мускатного ореха ((по желанию))</li><li>4 яичных желтка</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Очищенный картофель, порезать на части и отварить в подсоленной воде. Когда картофель сварился (проткнуть картошку ножом или вилкой, чтобы проверить готовность), сразу же слить воду.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7686.Blog_-150x150.png\"/><br /></li><li><p>Размять горячий картофель в пюре, добавив сливочное масло. Посолить, поперчить и добавить мускатный орех. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0396.Blog_-150x150.png\"/><br /></li><li><p>Добавить яичные желтки и очень хорошо перемешать. Пюре должно быть нежным и без комочков.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0399.Blog_-150x150.png\"/><br /></li><li><p>Разогреть духовку до 200С. Застелить противень пекарской бумагой или силиконовым ковриком.</p></li><li><p>Переложить готовое пюре в кондитерский мешок с насадкой &quot;звездочка&quot; и отсадить на противень розочки желаемого размера.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0402.Blog_-150x150.png\"/><br /></li><li><p>Выпекать в разогретой духовке до золотистой корочки, примерно 10 минут.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0692.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24855",
+      "sourceTaxonomyId": "24855",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25015",
+      "sourceTaxonomyId": "25015",
+      "name": "картофеля",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26191",
+      "sourceTaxonomyId": "26191",
+      "name": "яичных желтка",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d1%85-%d0%b6%d0%b5%d0%bb%d1%82%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26194",
+      "sourceTaxonomyId": "26194",
+      "name": "тертого мускатного ореха",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d0%be%d0%b3%d0%be-%d0%bc%d1%83%d1%81%d0%ba%d0%b0%d1%82%d0%bd%d0%be%d0%b3%d0%be-%d0%be%d1%80%d0%b5%d1%85%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25554",
+      "sourceTaxonomyId": "25554",
+      "name": "кг",
+      "slug": "%d0%ba%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26192",
+      "sourceTaxonomyId": "26192",
+      "name": "(на кончике ножа)",
+      "slug": "%d0%bd%d0%b0-%d0%ba%d0%be%d0%bd%d1%87%d0%b8%d0%ba%d0%b5-%d0%bd%d0%be%d0%b6%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1286",
+      "sourceTaxonomyId": "1286",
+      "name": "картофель",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1288",
+      "sourceTaxonomyId": "1288",
+      "name": "картошка",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2440",
+      "sourceTaxonomyId": "2440",
+      "name": "картофельное пюре",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bf%d1%8e%d1%80%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3030",
+      "sourceTaxonomyId": "3030",
+      "name": "яичные желтки",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d0%b5-%d0%b6%d0%b5%d0%bb%d1%82%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3883",
+      "sourceTaxonomyId": "3883",
+      "name": "гарнир к мясу",
+      "slug": "%d0%b3%d0%b0%d1%80%d0%bd%d0%b8%d1%80-%d0%ba-%d0%bc%d1%8f%d1%81%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3885",
+      "sourceTaxonomyId": "3885",
+      "name": "гарнир к рыбе",
+      "slug": "%d0%b3%d0%b0%d1%80%d0%bd%d0%b8%d1%80-%d0%ba-%d1%80%d1%8b%d0%b1%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5271",
+      "sourceTaxonomyId": "5271",
+      "name": "kartoshka",
+      "slug": "kartoshka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5775",
+      "sourceTaxonomyId": "5775",
+      "name": "элегантно",
+      "slug": "%d1%8d%d0%bb%d0%b5%d0%b3%d0%b0%d0%bd%d1%82%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26195",
+      "sourceTaxonomyId": "26195",
+      "name": "pomme duchesse",
+      "slug": "pomme-duchesse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26197",
+      "sourceTaxonomyId": "26197",
+      "name": "картофель дюшес",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c-%d0%b4%d1%8e%d1%88%d0%b5%d1%81"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порции",
+      "value": 6,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26636",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1,5 кг картофеля",
+            "quantity": {
+              "raw": "1,5 кг",
+              "unit": "кг",
+              "scalable": false
+            },
+            "name": "картофеля",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 г сливочного масла",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Соль и свежемолотый перец по вкусу",
+            "quantity": null,
+            "name": "Соль и свежемолотый перец",
+            "notes": "по вкусу"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Немного (на кончике ножа) тертого мускатного ореха (по желанию)",
+            "quantity": {
+              "raw": "Немного (на кончике ножа)",
+              "unit": "(на кончике ножа)",
+              "scalable": false
+            },
+            "name": "тертого мускатного ореха",
+            "notes": "(по желанию)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 яичных желтка",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яичных желтка",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Очищенный картофель, порезать на части и отварить в подсоленной воде. Когда картофель сварился (проткнуть картошку ножом или вилкой, чтобы проверить готовность), сразу же слить воду.",
+            "mediaId": "wordpress-attachment:4322"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Размять горячий картофель в пюре, добавив сливочное масло. Посолить, поперчить и добавить мускатный орех.",
+            "mediaId": "wordpress-attachment:26632"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Добавить яичные желтки и очень хорошо перемешать. Пюре должно быть нежным и без комочков.",
+            "mediaId": "wordpress-attachment:26633"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Разогреть духовку до 200С. Застелить противень пекарской бумагой или силиконовым ковриком.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Переложить готовое пюре в кондитерский мешок с насадкой \"звездочка\" и отсадить на противень розочки желаемого размера.",
+            "mediaId": "wordpress-attachment:26634"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Выпекать в разогретой духовке до золотистой корочки, примерно 10 минут.",
+            "mediaId": "wordpress-attachment:26635"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26636",
+      "sourceId": "26636",
+      "path": "/recipes/media/wordpress/26636.png",
+      "alt": "Duchess potatoes",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:4322",
+      "sourceId": "4322",
+      "path": "/recipes/media/wordpress/4322.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26632",
+      "sourceId": "26632",
+      "path": "/recipes/media/wordpress/26632.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26633",
+      "sourceId": "26633",
+      "path": "/recipes/media/wordpress/26633.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26634",
+      "sourceId": "26634",
+      "path": "/recipes/media/wordpress/26634.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26635",
+      "sourceId": "26635",
+      "path": "/recipes/media/wordpress/26635.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

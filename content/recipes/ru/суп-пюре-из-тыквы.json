@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22295",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:7528",
+  "slug": "суп-пюре-из-тыквы",
+  "source": {
+    "system": "wordpress",
+    "postId": "22295",
+    "recipeId": "22295",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%81%d1%83%d0%bf-%d0%bf%d1%8e%d1%80%d0%b5-%d0%b8%d0%b7-%d1%82%d1%8b%d0%ba%d0%b2%d1%8b",
+    "createdAt": "2025-10-01T01:37:00+00:00",
+    "modifiedAt": "2025-10-02T05:06:35+00:00",
+    "editorialPostId": "12816",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%81%d1%83%d0%bf-%d0%bf%d1%8e%d1%80%d0%b5-%d0%b8%d0%b7-%d1%82%d1%8b%d0%ba%d0%b2%d1%8b",
+    "editorialCreatedAt": "2025-10-01T01:37:00+00:00",
+    "editorialModifiedAt": "2025-10-02T05:06:03+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d1%81%d1%83%d0%bf-%d0%bf%d1%8e%d1%80%d0%b5-%d0%b8%d0%b7-%d1%82%d1%8b%d0%ba%d0%b2%d1%8b/"
+  ],
+  "title": "Суп-пюре из тыквы",
+  "description": "Суп получается вкусным и бархатным даже без добавления сливок или сметаны. Я добавляю совсем чуть-чуть, просто для красоты.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Французский рецепт нежного супа-пюре из тыквы и&nbsp;лука-порея. Готовится очень легко, нравится всем! Если у вас дома есть блендер, обязательно приготовьте его осенью, как только появятся тыквы.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Удивите ваших гостей, подав суп в тыкве!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22295,\"template\":\"chic-template-russian\",\"updated\":1759381038714} -->\n<!--WPRM Recipe 22295-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Суп-пюре из тыквы</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3174.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tСуп получается вкусным и бархатным даже без добавления сливок или сметаны. Я добавляю совсем чуть-чуть, просто для красоты.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 лука порея ((только белая и светло-зеленая часть))</li><li>1 тыква ( (примерно 1,5 кг))</li><li>4 ст.л. оливкового масла</li><li>Соль и свежемолотый черный перец</li><li>Немного сливок или сметаны</li><li>Немного нарубленной петрушки ( (кинзы или зеленого лука))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Лук-порей хорошо промыть и нарезать кружочками.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_224123.Blog_-150x150.png\"/><br /></li><li>Тыкву помыть, разрезать на две части и удалить семечки. (Семечки можно не выкидывать, а поджарить в духовке со специями).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_225215.Blog_-150x150.png\"/><br /></li><li>Разрезать тыквы на дольки, срезать кожуру и порезать кубиками.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_231440.Blog_-150x150.png\"/><br /></li><li>В сковороде разогреть оливковое масло и обжарить в нем лук-порей, примерно 5 минут.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_185635.Blog_-150x150.png\"/><br /></li><li>Добавить тыкву и продолжать обжаривать еще 5-7 минут, регулярно помешивая.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_185829.Blog_-150x150.png\"/><br /></li><li>Переложить лук-порей и тыкву в кастрюлю. Залить водой: вода должна всего лишь покрывать овощи, ее не должно быть слишком много. Посолить и поперчить. Варить на среднем огне 15 минут.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_190527.Blog_-150x150.png\"/><br /></li><li>Когда тыква сварится, блендером перемолоть суп до состояния пюре. Если суп получится слишком густой, добавить немного кипяченной воды.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_192320.Blog_-150x150.png\"/><br /></li><li>Разлить суп по тарелкам, добавить сливки или сметану для еще более нежного вкуса. Украсить петрушкой и посыпать свежемолотым перцем.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_202056.Blog_-150x150.png\"/><br /></li></ol><h4>Если вы хотите подать на стол этот суп в тыкве:</h4><ol><li>Отрезать у тыквы верхушку, удалить семечки.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3153.Blog_-150x150.png\"/><br /></li><li> Перед тем, как налить в тыкву суп, подогреть ее несколько минут в духовке.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3163.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Супы</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24845",
+      "sourceTaxonomyId": "24845",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24826",
+      "sourceTaxonomyId": "24826",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24841",
+      "sourceTaxonomyId": "24841",
+      "name": "лука порея",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%b0-%d0%bf%d0%be%d1%80%d0%b5%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24842",
+      "sourceTaxonomyId": "24842",
+      "name": "тыква",
+      "slug": "%d1%82%d1%8b%d0%ba%d0%b2%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24843",
+      "sourceTaxonomyId": "24843",
+      "name": "сливок или сметаны",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-%d0%b8%d0%bb%d0%b8-%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24844",
+      "sourceTaxonomyId": "24844",
+      "name": "нарубленной петрушки",
+      "slug": "%d0%bd%d0%b0%d1%80%d1%83%d0%b1%d0%bb%d0%b5%d0%bd%d0%bd%d0%be%d0%b9-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "94",
+      "sourceTaxonomyId": "94",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1862",
+      "sourceTaxonomyId": "1862",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1083",
+      "sourceTaxonomyId": "1083",
+      "name": "лука порея",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%b0-%d0%bf%d0%be%d1%80%d0%b5%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2839",
+      "sourceTaxonomyId": "2839",
+      "name": "нарубленной петрушки",
+      "slug": "%d0%bd%d0%b0%d1%80%d1%83%d0%b1%d0%bb%d0%b5%d0%bd%d0%bd%d0%be%d0%b9-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4948",
+      "sourceTaxonomyId": "4948",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7553",
+      "sourceTaxonomyId": "7553",
+      "name": "тыква",
+      "slug": "%d1%82%d1%8b%d0%ba%d0%b2%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7555",
+      "sourceTaxonomyId": "7555",
+      "name": "сливок или сметаны",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-%d0%b8%d0%bb%d0%b8-%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1368",
+      "sourceTaxonomyId": "1368",
+      "name": "лук порей",
+      "slug": "%d0%bb%d1%83%d0%ba-%d0%bf%d0%be%d1%80%d0%b5%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4374",
+      "sourceTaxonomyId": "4374",
+      "name": "французский рецепт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6916",
+      "sourceTaxonomyId": "6916",
+      "name": "очень простой и вкусный рецепт",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d0%b8-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7529",
+      "sourceTaxonomyId": "7529",
+      "name": "суп-пюре из тыквы",
+      "slug": "%d1%81%d1%83%d0%bf-%d0%bf%d1%8e%d1%80%d0%b5-%d0%b8%d0%b7-%d1%82%d1%8b%d0%ba%d0%b2%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7531",
+      "sourceTaxonomyId": "7531",
+      "name": "суп-крем",
+      "slug": "%d1%81%d1%83%d0%bf-%d0%ba%d1%80%d0%b5%d0%bc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7533",
+      "sourceTaxonomyId": "7533",
+      "name": "тыква",
+      "slug": "%d1%82%d1%8b%d0%ba%d0%b2%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7535",
+      "sourceTaxonomyId": "7535",
+      "name": "суп в тыкве",
+      "slug": "%d1%81%d1%83%d0%bf-%d0%b2-%d1%82%d1%8b%d0%ba%d0%b2%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7537",
+      "sourceTaxonomyId": "7537",
+      "name": "оранжевый суп",
+      "slug": "%d0%be%d1%80%d0%b0%d0%bd%d0%b6%d0%b5%d0%b2%d1%8b%d0%b9-%d1%81%d1%83%d0%bf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7539",
+      "sourceTaxonomyId": "7539",
+      "name": "осеннее блюдо",
+      "slug": "%d0%be%d1%81%d0%b5%d0%bd%d0%bd%d0%b5%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7541",
+      "sourceTaxonomyId": "7541",
+      "name": "хеллоин",
+      "slug": "%d1%85%d0%b5%d0%bb%d0%bb%d0%be%d0%b8%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7543",
+      "sourceTaxonomyId": "7543",
+      "name": "велуте",
+      "slug": "%d0%b2%d0%b5%d0%bb%d1%83%d1%82%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8135",
+      "sourceTaxonomyId": "8135",
+      "name": "день благодарения",
+      "slug": "%d0%b4%d0%b5%d0%bd%d1%8c-%d0%b1%d0%bb%d0%b0%d0%b3%d0%be%d0%b4%d0%b0%d1%80%d0%b5%d0%bd%d0%b8%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8137",
+      "sourceTaxonomyId": "8137",
+      "name": "осенние рецепты",
+      "slug": "%d0%be%d1%81%d0%b5%d0%bd%d0%bd%d0%b8%d0%b5-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26817",
+      "sourceTaxonomyId": "26817",
+      "name": "осенний рецепт",
+      "slug": "%d0%be%d1%81%d0%b5%d0%bd%d0%bd%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12804",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 лука порея (только белая и светло-зеленая часть)",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "лука порея",
+            "notes": "(только белая и светло-зеленая часть)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 тыква (примерно 1,5 кг)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "тыква",
+            "notes": "(примерно 1,5 кг)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "4 ст.л.",
+              "value": 4,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Соль и свежемолотый черный перец",
+            "quantity": null,
+            "name": "Соль и свежемолотый черный перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Немного сливок или сметаны",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "сливок или сметаны",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Немного нарубленной петрушки (кинзы или зеленого лука)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "нарубленной петрушки",
+            "notes": "(кинзы или зеленого лука)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Лук-порей хорошо промыть и нарезать кружочками.",
+            "mediaId": "wordpress-attachment:12810"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Тыкву помыть, разрезать на две части и удалить семечки. (Семечки можно не выкидывать, а поджарить в духовке со специями).",
+            "mediaId": "wordpress-attachment:12805"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Разрезать тыквы на дольки, срезать кожуру и порезать кубиками.",
+            "mediaId": "wordpress-attachment:12806"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "В сковороде разогреть оливковое масло и обжарить в нем лук-порей, примерно 5 минут.",
+            "mediaId": "wordpress-attachment:12807"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Добавить тыкву и продолжать обжаривать еще 5-7 минут, регулярно помешивая.",
+            "mediaId": "wordpress-attachment:12808"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Переложить лук-порей и тыкву в кастрюлю. Залить водой: вода должна всего лишь покрывать овощи, ее не должно быть слишком много. Посолить и поперчить. Варить на среднем огне 15 минут.",
+            "mediaId": "wordpress-attachment:12809"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Когда тыква сварится, блендером перемолоть суп до состояния пюре. Если суп получится слишком густой, добавить немного кипяченной воды.",
+            "mediaId": "wordpress-attachment:12800"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Разлить суп по тарелкам, добавить сливки или сметану для еще более нежного вкуса. Украсить петрушкой и посыпать свежемолотым перцем.",
+            "mediaId": "wordpress-attachment:12801"
+          }
+        ]
+      },
+      {
+        "name": "Если вы хотите подать на стол этот суп в тыкве:",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Отрезать у тыквы верхушку, удалить семечки.",
+            "mediaId": "wordpress-attachment:12802"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Перед тем, как налить в тыкву суп, подогреть ее несколько минут в духовке.",
+            "mediaId": "wordpress-attachment:12803"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12804",
+      "sourceId": "12804",
+      "path": "/recipes/media/wordpress/12804.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12810",
+      "sourceId": "12810",
+      "path": "/recipes/media/wordpress/12810.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12805",
+      "sourceId": "12805",
+      "path": "/recipes/media/wordpress/12805.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12806",
+      "sourceId": "12806",
+      "path": "/recipes/media/wordpress/12806.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12807",
+      "sourceId": "12807",
+      "path": "/recipes/media/wordpress/12807.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12808",
+      "sourceId": "12808",
+      "path": "/recipes/media/wordpress/12808.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12809",
+      "sourceId": "12809",
+      "path": "/recipes/media/wordpress/12809.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12800",
+      "sourceId": "12800",
+      "path": "/recipes/media/wordpress/12800.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12801",
+      "sourceId": "12801",
+      "path": "/recipes/media/wordpress/12801.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12802",
+      "sourceId": "12802",
+      "path": "/recipes/media/wordpress/12802.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12803",
+      "sourceId": "12803",
+      "path": "/recipes/media/wordpress/12803.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

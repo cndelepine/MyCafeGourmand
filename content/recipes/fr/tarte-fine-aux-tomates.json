@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21930",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:14885",
+  "slug": "tarte-fine-aux-tomates",
+  "source": {
+    "system": "wordpress",
+    "postId": "21930",
+    "recipeId": "21930",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tarte-fine-aux-tomates",
+    "createdAt": "2020-07-13T03:07:09+00:00",
+    "modifiedAt": "2020-12-07T02:26:52+00:00",
+    "editorialPostId": "16608",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tarte-fine-aux-tomates",
+    "editorialCreatedAt": "2020-07-13T03:07:09+00:00",
+    "editorialModifiedAt": "2020-12-07T02:26:47+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/tarte-fine-aux-tomates/"
+  ],
+  "title": "Tarte fine aux tomates",
+  "description": "Cette tarte peut être réalisée avec des tomates de même taille ou avec de diamètre varié : différentes couleurs et différentes sortes. Le plus important est qu'elles soient bien mûres et goûteuses.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La tarte fine aux tomates est très facile à préparer. Juste une  couche de pâte feuilletée, un peu de moutarde, des rondelles de tomates fraîches et un peu de fromage râpé. Il est important que les tomates soient bien mûres et goûteuses. A vous de choisir de belles tomates et décorer à votre goût!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21930,\"template\":\"chic-template-french\",\"updated\":1606681552270} -->\n<!--WPRM Recipe 21930-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tarte fine aux tomates</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/22279401_1578027812261704_7545639075651100608_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tCette tarte peut être réalisée avec des tomates de même taille ou avec de diamètre varié : différentes couleurs et différentes sortes. Le plus important est qu'elles soient bien mûres et goûteuses.\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 feuille de pâte feuilletée</li><li>1-2 cuillères à soupe de moutarde à l'ancienne ((ou de Dijon))</li><li>5-6 tomates bien mûres</li><li>30 g de fromage râpé (parmesan)</li><li>Sel et poivre du moulin</li><li>Quelques pincées d'herbes de Provence ((facultatif))</li><li>Quelques feuilles de basilic ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Couper les tomates en fines rondelles, les placer sur un papier absorbant et les égoutter un peu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8846.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 180°C (thermostat 6). Étaler la pâte sur une plaque à pâtisserie recouverte de papier sulfurisé. La piquer avec une fourchette.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8844.Blog_-150x150.png\"/><br /></li><li>Etaler une fine couche de moutarde sur toute la surface.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8845.Blog_-150x150.png\"/><br /></li><li>Placer les rondelles de tomates. Replier un peu les bords de la tarte. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8850.Blog_-150x150.png\"/><br /></li><li>Saler, poivrer puis saupoudrer d'herbes de Provence et de fromage.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8853.Blog_-150x150.png\"/><br /></li><li>Faire cuire dans la partie basse du four pendant environ 25-30 minutes. Le temps de cuisson dépend du four, la tarte est prête quand la pâte est dorée et croustillante.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/IMG_8861.Blog_-150x150.png\"/><br /></li><li>Décorer avec des feuilles de basilic.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/04/22279401_1578027812261704_7545639075651100608_n.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24466",
+      "sourceTaxonomyId": "24466",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24621",
+      "sourceTaxonomyId": "24621",
+      "name": "de moutarde à l'ancienne",
+      "slug": "de-moutarde-a-lancienne"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24622",
+      "sourceTaxonomyId": "24622",
+      "name": "tomates bien mûres",
+      "slug": "tomates-bien-mures"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24623",
+      "sourceTaxonomyId": "24623",
+      "name": "de fromage râpé (parmesan)",
+      "slug": "de-fromage-rape-parmesan"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24624",
+      "sourceTaxonomyId": "24624",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24625",
+      "sourceTaxonomyId": "24625",
+      "name": "de basilic",
+      "slug": "de-basilic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "762",
+      "sourceTaxonomyId": "762",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2584",
+      "sourceTaxonomyId": "2584",
+      "name": "d'herbes de Provence",
+      "slug": "dherbes-de-provence"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14811",
+      "sourceTaxonomyId": "14811",
+      "name": "tomates bien mûres",
+      "slug": "tomates-bien-mures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14815",
+      "sourceTaxonomyId": "14815",
+      "name": "de basilic",
+      "slug": "de-basilic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14841",
+      "sourceTaxonomyId": "14841",
+      "name": "de moutarde à l'ancienne",
+      "slug": "de-moutarde-a-lancienne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "14843",
+      "sourceTaxonomyId": "14843",
+      "name": "de fromage râpé (parmesan)",
+      "slug": "de-fromage-rape-parmesan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1751",
+      "sourceTaxonomyId": "1751",
+      "name": "moutarde",
+      "slug": "moutarde"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2653",
+      "sourceTaxonomyId": "2653",
+      "name": "facile et rapide",
+      "slug": "facile-et-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3508",
+      "sourceTaxonomyId": "3508",
+      "name": "tarte fine",
+      "slug": "tarte-fine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7060",
+      "sourceTaxonomyId": "7060",
+      "name": "pate feuilletee prete a derouler",
+      "slug": "pate-feuilletee-prete-a-derouler"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16615",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 feuille de pâte feuilletée",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "de pâte feuilletée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 cuillères à soupe de moutarde à l'ancienne (ou de Dijon)",
+            "quantity": {
+              "raw": "1-2 cuillères à soupe",
+              "min": 1,
+              "max": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de moutarde à l'ancienne",
+            "notes": "(ou de Dijon)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "5-6 tomates bien mûres",
+            "quantity": {
+              "raw": "5-6",
+              "min": 5,
+              "max": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates bien mûres",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "30 g de fromage râpé (parmesan)",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de fromage râpé (parmesan)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Quelques pincées d'herbes de Provence (facultatif)",
+            "quantity": {
+              "raw": "Quelques pincées",
+              "unit": "pincées",
+              "scalable": false
+            },
+            "name": "d'herbes de Provence",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques feuilles de basilic (facultatif)",
+            "quantity": {
+              "raw": "Quelques feuilles",
+              "unit": "feuilles",
+              "scalable": false
+            },
+            "name": "de basilic",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper les tomates en fines rondelles, les placer sur un papier absorbant et les égoutter un peu.",
+            "mediaId": "wordpress-attachment:16622"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Étaler la pâte sur une plaque à pâtisserie recouverte de papier sulfurisé. La piquer avec une fourchette.",
+            "mediaId": "wordpress-attachment:16620"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Etaler une fine couche de moutarde sur toute la surface.",
+            "mediaId": "wordpress-attachment:16621"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Placer les rondelles de tomates. Replier un peu les bords de la tarte.",
+            "mediaId": "wordpress-attachment:16623"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Saler, poivrer puis saupoudrer d'herbes de Provence et de fromage.",
+            "mediaId": "wordpress-attachment:16624"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Faire cuire dans la partie basse du four pendant environ 25-30 minutes. Le temps de cuisson dépend du four, la tarte est prête quand la pâte est dorée et croustillante.",
+            "mediaId": "wordpress-attachment:16625"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Décorer avec des feuilles de basilic.",
+            "mediaId": "wordpress-attachment:16615"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16615",
+      "sourceId": "16615",
+      "path": "/recipes/media/wordpress/16615.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:16622",
+      "sourceId": "16622",
+      "path": "/recipes/media/wordpress/16622.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16620",
+      "sourceId": "16620",
+      "path": "/recipes/media/wordpress/16620.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16621",
+      "sourceId": "16621",
+      "path": "/recipes/media/wordpress/16621.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16623",
+      "sourceId": "16623",
+      "path": "/recipes/media/wordpress/16623.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16624",
+      "sourceId": "16624",
+      "path": "/recipes/media/wordpress/16624.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:16625",
+      "sourceId": "16625",
+      "path": "/recipes/media/wordpress/16625.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

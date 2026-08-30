@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21941",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:23129",
+  "slug": "hachis-parmentier",
+  "source": {
+    "system": "wordpress",
+    "postId": "21941",
+    "recipeId": "21941",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-hachis-parmentier",
+    "createdAt": "2026-02-07T21:23:00+00:00",
+    "modifiedAt": "2026-02-09T07:54:24+00:00",
+    "editorialPostId": "20083",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "hachis-parmentier",
+    "editorialCreatedAt": "2026-02-07T21:23:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:54:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/hachis-parmentier/"
+  ],
+  "title": "Hachis Parmentier",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Hachis Parmentier is a delicious French casserole made with layers of mashed potatoes and ground beef.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The dish is named after Antoine Parmentier (1737-1813). He was a French pharmacist who made potatoes popular in Paris and northern France.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21941,\"template\":\"chic-template-french\",\"updated\":1770623538800} -->\n<!--WPRM Recipe 21941-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Hachis Parmentier</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3946-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 kg large potatoes</li><li>100 g butter ((50+30+20))</li><li>50 ml milk ((heated))</li><li>1 large onion</li><li>1-2 cloves garlic</li><li>500 g ground beef</li><li>Salt and freshly ground black pepper</li><li>1 egg</li><li>30 g grated cheese</li><li>Some seasonings or minced parsley ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel the potatoes and chop them into cubes.  Boil in salted water until easily pricked with fork, about 20 minutes. Then drain water.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3601-2.Blog_-150x150.png\"/><br /></li><li>Add 50 g of butter and mash. Add warmed milk and mash together to smooth consistency. Taste the puree, add more salt if needed.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3603.Blog_-150x150.png\"/><br /></li><li>Peel and chop the onion and garlic.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3923-2.Blog_-150x150.png\"/><br /></li><li>Melt 30 g of butter in a large pan and saute onion and garlic until soft.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3927-2.Blog_-150x150.png\"/><br /></li><li>Add ground beef and cook until browned. Add salt and pepper to taste.\r\n <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3930-2.Blog_-150x150.png\"/><br /></li><li>Take the pan off the fire and let cool down a little. Add a row egg.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3931-2.Blog_-150x150.png\"/><br /></li><li>Process to finer texture by using a food processor, if desired.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3933-2.Blog_-150x150.png\"/><br /></li><li>Preheat oven to 380F/190C. Grease baking dish.</li><li>Add 1/2 of mashed potatoes in thin layer to the prepared dish. Then layer beef preparation on top of potatoes.\r\nYou can also add your favorite seasonings at this point or some chopped parsley. (This time, I added paprika).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3935-3.Blog_-150x150.png\"/><br /></li><li>Top with remaining potatoes. You can make some shapes on the top using the fork. Add remaining butter and dot on the potatoes. Sprinkle with grated cheese.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3939-2.Blog_-150x150.png\"/><br /></li><li>Bake uncovered for about 25 minutes until the top is golden.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3944-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24061",
+      "sourceTaxonomyId": "24061",
+      "name": "egg",
+      "slug": "egg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24132",
+      "sourceTaxonomyId": "24132",
+      "name": "grated cheese",
+      "slug": "grated-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24161",
+      "sourceTaxonomyId": "24161",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24215",
+      "sourceTaxonomyId": "24215",
+      "name": "large potatoes",
+      "slug": "large-potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24638",
+      "sourceTaxonomyId": "24638",
+      "name": "large onion",
+      "slug": "large-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24639",
+      "sourceTaxonomyId": "24639",
+      "name": "seasonings or minced parsley",
+      "slug": "seasonings-or-minced-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "299",
+      "sourceTaxonomyId": "299",
+      "name": "large potatoes",
+      "slug": "large-potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "509",
+      "sourceTaxonomyId": "509",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "525",
+      "sourceTaxonomyId": "525",
+      "name": "grated cheese",
+      "slug": "grated-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1156",
+      "sourceTaxonomyId": "1156",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1176",
+      "sourceTaxonomyId": "1176",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1947",
+      "sourceTaxonomyId": "1947",
+      "name": "egg",
+      "slug": "egg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23182",
+      "sourceTaxonomyId": "23182",
+      "name": "large onion",
+      "slug": "large-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23184",
+      "sourceTaxonomyId": "23184",
+      "name": "seasonings or minced parsley",
+      "slug": "seasonings-or-minced-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1308",
+      "sourceTaxonomyId": "1308",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1773",
+      "sourceTaxonomyId": "1773",
+      "name": "casserole",
+      "slug": "casserole"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7076",
+      "sourceTaxonomyId": "7076",
+      "name": "good for kids great for mums",
+      "slug": "good-for-kids-great-for-mums"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23161",
+      "sourceTaxonomyId": "23161",
+      "name": "Hachis Parmentier",
+      "slug": "hachis-parmentier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23186",
+      "sourceTaxonomyId": "23186",
+      "name": "layers of mashed potatoes and beef",
+      "slug": "layers-of-mashed-potatoes-and-beef"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23187",
+      "sourceTaxonomyId": "23187",
+      "name": "Antoine Parmentier",
+      "slug": "antoine-parmentier"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "70",
+        "minutes": 70
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19921",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 kg large potatoes",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "large potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g butter (50+30+20)",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": "(50+30+20)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 ml milk (heated)",
+            "quantity": {
+              "raw": "50 ml",
+              "value": 50,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": "(heated)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 large onion",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "large onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1-2 cloves garlic",
+            "quantity": {
+              "raw": "1-2 cloves",
+              "min": 1,
+              "max": 2,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "500 g ground beef",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "ground beef",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 egg",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "30 g grated cheese",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "grated cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Some seasonings or minced parsley (optional)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "seasonings or minced parsley",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel the potatoes and chop them into cubes. Boil in salted water until easily pricked with fork, about 20 minutes. Then drain water.",
+            "mediaId": "wordpress-attachment:19911"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add 50 g of butter and mash. Add warmed milk and mash together to smooth consistency. Taste the puree, add more salt if needed.",
+            "mediaId": "wordpress-attachment:19912"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel and chop the onion and garlic.",
+            "mediaId": "wordpress-attachment:19913"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Melt 30 g of butter in a large pan and saute onion and garlic until soft.",
+            "mediaId": "wordpress-attachment:19914"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add ground beef and cook until browned. Add salt and pepper to taste.",
+            "mediaId": "wordpress-attachment:19915"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Take the pan off the fire and let cool down a little. Add a row egg.",
+            "mediaId": "wordpress-attachment:19916"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Process to finer texture by using a food processor, if desired.",
+            "mediaId": "wordpress-attachment:19917"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Preheat oven to 380F/190C. Grease baking dish.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Add 1/2 of mashed potatoes in thin layer to the prepared dish. Then layer beef preparation on top of potatoes.\nYou can also add your favorite seasonings at this point or some chopped parsley. (This time, I added paprika).",
+            "mediaId": "wordpress-attachment:19918"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Top with remaining potatoes. You can make some shapes on the top using the fork. Add remaining butter and dot on the potatoes. Sprinkle with grated cheese.",
+            "mediaId": "wordpress-attachment:19919"
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Bake uncovered for about 25 minutes until the top is golden.",
+            "mediaId": "wordpress-attachment:19920"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19921",
+      "sourceId": "19921",
+      "path": "/recipes/media/wordpress/19921.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19911",
+      "sourceId": "19911",
+      "path": "/recipes/media/wordpress/19911.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19912",
+      "sourceId": "19912",
+      "path": "/recipes/media/wordpress/19912.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19913",
+      "sourceId": "19913",
+      "path": "/recipes/media/wordpress/19913.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19914",
+      "sourceId": "19914",
+      "path": "/recipes/media/wordpress/19914.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19915",
+      "sourceId": "19915",
+      "path": "/recipes/media/wordpress/19915.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19916",
+      "sourceId": "19916",
+      "path": "/recipes/media/wordpress/19916.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19917",
+      "sourceId": "19917",
+      "path": "/recipes/media/wordpress/19917.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19918",
+      "sourceId": "19918",
+      "path": "/recipes/media/wordpress/19918.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19919",
+      "sourceId": "19919",
+      "path": "/recipes/media/wordpress/19919.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19920",
+      "sourceId": "19920",
+      "path": "/recipes/media/wordpress/19920.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

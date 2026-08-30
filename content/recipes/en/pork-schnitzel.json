@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21635",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4026",
+  "slug": "pork-schnitzel",
+  "source": {
+    "system": "wordpress",
+    "postId": "21635",
+    "recipeId": "21635",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pork-schnitzel",
+    "createdAt": "2018-04-20T05:51:21+00:00",
+    "modifiedAt": "2022-07-04T20:36:55+00:00",
+    "editorialPostId": "6518",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pork-schnitzel",
+    "editorialCreatedAt": "2018-04-20T05:51:21+00:00",
+    "editorialModifiedAt": "2022-07-04T20:36:51+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/pork-schnitzel/"
+  ],
+  "title": "Pork Schnitzel",
+  "description": "The trick to a tender, juicy schnitzel is not cutting the meat super thin, but rather using a meat tenderizer to pound the meat down to a 1/4 inch thickness.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Schnitzel is the German word for \"cutlet\", which is usually made with veal and is thinly pounded, breaded and fried in oil. I make my Schnitzel with pork and it tastes just amazing, soft inside and crispy outside. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21635,\"template\":\"chic-template-english\",\"updated\":1656967003550} -->\n<!--WPRM Recipe 21635-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pork Schnitzel</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/20180319_110521.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThe trick to a tender, juicy schnitzel is not cutting the meat super thin, but rather using a meat tenderizer to pound the meat down to a 1/4 inch thickness.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 lb pork tenderloin</li><li>1/2  cup all purpose flour</li><li>1/2 tsp paprika</li><li>1 cup bread crumbs</li><li>2 large  eggs</li><li>1/4 cup milk</li><li>1/2 cup olive oil</li><li>Salt and pepper to taste</li><li>1 lemon (thinly sliced )</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut the meat into 6 equal pieces. Place each piece between two sheets of plastic wrap and pound with the flat side of meat tenderizer, until about 1/4 inch thick.</li><li>You will need four large dinner plates:\r\nIn the first plate, combine together flour, salt and pepper.\r\nWhisk eggs and milk in the second plate.\r\nIn your third plate stir together paprika with bread crumbs.\r\nAnd one empty plate.</li><li>Dip each piece of meat one by one into the egg mixture.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/20180318_192709.Blog_-150x150.png\"/><br /></li><li>Then dip into flour.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/20180318_192812.Blog_-150x150.png\"/><br /></li><li>And again into egg mixture.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/20180318_192848.Blog_-150x150.png\"/><br /></li><li>Then into bread crumbs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/20180318_192906.Blog_.Blog_-150x150.png\"/><br /></li><li>Place your coated schnitzel on the plate number four.</li><li>Pour oil into a large skillet about 1/2 inch. Heat the oil over medium heat. </li><li>Once the oil is hot, carefully lay in each prepared schnitzel, cooking one at a time. Cook on each side for about 3 minutes. Turn it over to brown the other side.</li><li>Transfer to paper towel. Repeat with remaining pork slices.</li><li>Garnish with lemon slices and parsley.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24117",
+      "sourceTaxonomyId": "24117",
+      "name": "bread crumbs",
+      "slug": "bread-crumbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24150",
+      "sourceTaxonomyId": "24150",
+      "name": "paprika",
+      "slug": "paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24170",
+      "sourceTaxonomyId": "24170",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24222",
+      "sourceTaxonomyId": "24222",
+      "name": "Salt and pepper to taste",
+      "slug": "salt-and-pepper-to-taste"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24419",
+      "sourceTaxonomyId": "24419",
+      "name": "pork tenderloin",
+      "slug": "pork-tenderloin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "445",
+      "sourceTaxonomyId": "445",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "515",
+      "sourceTaxonomyId": "515",
+      "name": "paprika",
+      "slug": "paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1176",
+      "sourceTaxonomyId": "1176",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2024",
+      "sourceTaxonomyId": "2024",
+      "name": "Salt and pepper to taste",
+      "slug": "salt-and-pepper-to-taste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3232",
+      "sourceTaxonomyId": "3232",
+      "name": "pork tenderloin",
+      "slug": "pork-tenderloin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3242",
+      "sourceTaxonomyId": "3242",
+      "name": "bread crumbs",
+      "slug": "bread-crumbs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2786",
+      "sourceTaxonomyId": "2786",
+      "name": "meat",
+      "slug": "meat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2848",
+      "sourceTaxonomyId": "2848",
+      "name": "flour",
+      "slug": "flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3108",
+      "sourceTaxonomyId": "3108",
+      "name": "pork schnitzel",
+      "slug": "pork-schnitzel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3110",
+      "sourceTaxonomyId": "3110",
+      "name": "pork",
+      "slug": "pork"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3234",
+      "sourceTaxonomyId": "3234",
+      "name": "pork tenderloin chops",
+      "slug": "pork-tenderloin-chops"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3236",
+      "sourceTaxonomyId": "3236",
+      "name": "bread crumbs",
+      "slug": "bread-crumbs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3238",
+      "sourceTaxonomyId": "3238",
+      "name": "fried meat",
+      "slug": "fried-meat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3240",
+      "sourceTaxonomyId": "3240",
+      "name": "pounded meat",
+      "slug": "pounded-meat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3304",
+      "sourceTaxonomyId": "3304",
+      "name": "schnitzel",
+      "slug": "schnitzel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:6539",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 lb pork tenderloin",
+            "quantity": {
+              "raw": "2 lb",
+              "value": 2,
+              "unit": "lb",
+              "scalable": true
+            },
+            "name": "pork tenderloin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 cup all purpose flour",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 tsp paprika",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "paprika",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cup bread crumbs",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "bread crumbs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 large eggs",
+            "quantity": {
+              "raw": "2 large",
+              "value": 2,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/4 cup milk",
+            "quantity": {
+              "raw": "1/4 cup",
+              "value": 0.25,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/2 cup olive oil",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Salt and pepper to taste",
+            "quantity": null,
+            "name": "Salt and pepper to taste",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 lemon thinly sliced",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon",
+            "notes": "thinly sliced"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut the meat into 6 equal pieces. Place each piece between two sheets of plastic wrap and pound with the flat side of meat tenderizer, until about 1/4 inch thick.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "You will need four large dinner plates:\nIn the first plate, combine together flour, salt and pepper.\nWhisk eggs and milk in the second plate.\nIn your third plate stir together paprika with bread crumbs.\nAnd one empty plate.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dip each piece of meat one by one into the egg mixture.",
+            "mediaId": "wordpress-attachment:6533"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Then dip into flour.",
+            "mediaId": "wordpress-attachment:6535"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "And again into egg mixture.",
+            "mediaId": "wordpress-attachment:6536"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Then into bread crumbs.",
+            "mediaId": "wordpress-attachment:6537"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Place your coated schnitzel on the plate number four.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Pour oil into a large skillet about 1/2 inch. Heat the oil over medium heat.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Once the oil is hot, carefully lay in each prepared schnitzel, cooking one at a time. Cook on each side for about 3 minutes. Turn it over to brown the other side.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Transfer to paper towel. Repeat with remaining pork slices.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Garnish with lemon slices and parsley.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:6539",
+      "sourceId": "6539",
+      "path": "/recipes/media/wordpress/6539.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:6533",
+      "sourceId": "6533",
+      "path": "/recipes/media/wordpress/6533.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:6535",
+      "sourceId": "6535",
+      "path": "/recipes/media/wordpress/6535.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:6536",
+      "sourceId": "6536",
+      "path": "/recipes/media/wordpress/6536.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:6537",
+      "sourceId": "6537",
+      "path": "/recipes/media/wordpress/6537.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

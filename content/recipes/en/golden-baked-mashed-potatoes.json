@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21358",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3147",
+  "slug": "golden-baked-mashed-potatoes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21358",
+    "recipeId": "21358",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-golden-baked-%d0%bcashed-potatoes",
+    "createdAt": "2020-03-02T05:53:00+00:00",
+    "modifiedAt": "2023-05-10T07:30:05+00:00",
+    "editorialPostId": "13849",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "golden-baked-mashed-potatoes",
+    "editorialCreatedAt": "2020-03-02T05:53:00+00:00",
+    "editorialModifiedAt": "2023-05-10T07:30:02+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/golden-baked-mashed-potatoes/"
+  ],
+  "title": "Golden Baked Мashed Potatoes",
+  "description": "While you can just simply reheat mashed potatoes, or make pancakes, my favorite way to serve leftover mashed potatoes is this Fluffy Baked Mashed Potatoes.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>If you find yourself with more left over potatoes than you can deal with, this recipe is for you!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21358,\"template\":\"chic-template-english\",\"updated\":1677916843430} -->\n<!--WPRM Recipe 21358-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Golden Baked Мashed Potatoes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7732.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tWhile you can just simply reheat mashed potatoes, or make pancakes, my favorite way to serve leftover mashed potatoes is this Fluffy Baked Mashed Potatoes.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1,2 kg potatoes</li><li>90 g butter</li><li>100 ml heavy cream or milk ((warm))</li><li>Salt and freshly ground black pepper (to taste)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel the potatoes. Chop the potatoes into cubes. Place them in a medium pot. Add salt to the water and cook for 15-20 minutes. When they are fork tender, strain the potatoes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7686.Blog_-150x150.png\"/><br /></li><li>Add butter and mash until smooth and creamy. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7689.Blog_-150x150.png\"/><br /></li><li>Next, pour the warm heavy cream or milk. Add salt and pepper to taste.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7690.Blog_-150x150.png\"/><br /></li><li>Coat a baking dish with butter. Transfer potatoes to the prepared dish. You can make some shapes on the top.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7692.Blog_-150x150.png\"/><br /></li><li><p>Preheat oven to 400 degrees F. Bake uncovered for about 15 minutes until the top is golden.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7726.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24240",
+      "sourceTaxonomyId": "24240",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24241",
+      "sourceTaxonomyId": "24241",
+      "name": "heavy cream or milk",
+      "slug": "heavy-cream-or-milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25741",
+      "sourceTaxonomyId": "25741",
+      "name": "kg",
+      "slug": "kg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "509",
+      "sourceTaxonomyId": "509",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1142",
+      "sourceTaxonomyId": "1142",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9113",
+      "sourceTaxonomyId": "9113",
+      "name": "heavy cream or milk",
+      "slug": "heavy-cream-or-milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3698",
+      "sourceTaxonomyId": "3698",
+      "name": "easy and cheap",
+      "slug": "easy-and-cheap"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:5110",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1,2 kg potatoes",
+            "quantity": {
+              "raw": "1,2 kg",
+              "unit": "kg",
+              "scalable": false
+            },
+            "name": "potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "90 g butter",
+            "quantity": {
+              "raw": "90 g",
+              "value": 90,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 ml heavy cream or milk (warm)",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy cream or milk",
+            "notes": "(warm)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel the potatoes. Chop the potatoes into cubes. Place them in a medium pot. Add salt to the water and cook for 15-20 minutes. When they are fork tender, strain the potatoes.",
+            "mediaId": "wordpress-attachment:4322"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add butter and mash until smooth and creamy.",
+            "mediaId": "wordpress-attachment:4323"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Next, pour the warm heavy cream or milk. Add salt and pepper to taste.",
+            "mediaId": "wordpress-attachment:4324"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Coat a baking dish with butter. Transfer potatoes to the prepared dish. You can make some shapes on the top.",
+            "mediaId": "wordpress-attachment:4325"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Preheat oven to 400 degrees F. Bake uncovered for about 15 minutes until the top is golden.",
+            "mediaId": "wordpress-attachment:4319"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5110",
+      "sourceId": "5110",
+      "path": "/recipes/media/wordpress/5110.png",
+      "alt": "Purée de pommes de terre dorée au four",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4322",
+      "sourceId": "4322",
+      "path": "/recipes/media/wordpress/4322.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4323",
+      "sourceId": "4323",
+      "path": "/recipes/media/wordpress/4323.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4324",
+      "sourceId": "4324",
+      "path": "/recipes/media/wordpress/4324.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4325",
+      "sourceId": "4325",
+      "path": "/recipes/media/wordpress/4325.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4319",
+      "sourceId": "4319",
+      "path": "/recipes/media/wordpress/4319.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

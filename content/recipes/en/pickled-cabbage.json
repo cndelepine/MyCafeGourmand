@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21567",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:1040",
+  "slug": "pickled-cabbage",
+  "source": {
+    "system": "wordpress",
+    "postId": "21567",
+    "recipeId": "21567",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pickled-cabbage",
+    "createdAt": "2024-12-02T04:53:00+00:00",
+    "modifiedAt": "2024-12-02T08:13:59+00:00",
+    "editorialPostId": "2740",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pickled-cabbage",
+    "editorialCreatedAt": "2024-12-02T04:53:00+00:00",
+    "editorialModifiedAt": "2024-12-02T08:14:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/pickled-cabbage/"
+  ],
+  "title": "Pickled Cabbage",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>For my version of pickled cabbage, cabbage and carrots are marinated with vinegar. This is an easy recipe and ready to eat the next day!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21567,\"template\":\"chic-template-english\",\"updated\":1733127157142} -->\n<!--WPRM Recipe 21567-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pickled Cabbage</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7587-3.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3-4 lb cabbage</li><li>3-4 carrots</li><li>1 head of garlic</li><li>4 cup  water</li><li>1/4 cup  sugar</li><li>2 Tbsp salt</li><li>1/2 cup vegetable oil</li><li>1 cup 6% vinegar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut, core and shred cabbage finely.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7466.Blog_-150x150.png\"/><br /></li><li>Peel the carrots and grate.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7478.Blog_-150x150.png\"/><br /></li><li>Peel the garlic and cut each clove into 4 pieces.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7486.Blog_-150x150.png\"/><br /></li><li>Place vegetables in a mason jar. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7485-2.Blog_-150x150.png\"/><br /></li><li>Meanwhile, in a large pot, boil water with salt, sugar and olive oil. \r\nRemove from the heat and add vinegar. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7490-2.Blog_-150x150.png\"/><br /></li><li>Pour hot marinade over the cabbage and let it cool completely.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7494.Blog_.Blog_-150x150.png\"/><br /></li><li>Cover with tight lid and store it in the refrigerator. Cabbage will be ready in 12 hours.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7587-3.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24186",
+      "sourceTaxonomyId": "24186",
+      "name": "of garlic",
+      "slug": "of-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24202",
+      "sourceTaxonomyId": "24202",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24291",
+      "sourceTaxonomyId": "24291",
+      "name": "vegetable oil",
+      "slug": "vegetable-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24386",
+      "sourceTaxonomyId": "24386",
+      "name": "cabbage",
+      "slug": "cabbage"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24387",
+      "sourceTaxonomyId": "24387",
+      "name": "6% vinegar",
+      "slug": "6-vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1016",
+      "sourceTaxonomyId": "1016",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1059",
+      "sourceTaxonomyId": "1059",
+      "name": "cabbage",
+      "slug": "cabbage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1065",
+      "sourceTaxonomyId": "1065",
+      "name": "6% vinegar",
+      "slug": "6-vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1124",
+      "sourceTaxonomyId": "1124",
+      "name": "of garlic",
+      "slug": "of-garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1126",
+      "sourceTaxonomyId": "1126",
+      "name": "vegetable oil",
+      "slug": "vegetable-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1326",
+      "sourceTaxonomyId": "1326",
+      "name": "pickled",
+      "slug": "pickled"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1328",
+      "sourceTaxonomyId": "1328",
+      "name": "cabbage",
+      "slug": "cabbage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1330",
+      "sourceTaxonomyId": "1330",
+      "name": "vinegar",
+      "slug": "vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2782",
+      "sourceTaxonomyId": "2782",
+      "name": "russian dish",
+      "slug": "russian-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4196",
+      "sourceTaxonomyId": "4196",
+      "name": "side dish",
+      "slug": "side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6878",
+      "sourceTaxonomyId": "6878",
+      "name": "russian favorite",
+      "slug": "russian-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7750",
+      "sourceTaxonomyId": "7750",
+      "name": "ready next day",
+      "slug": "ready-next-day"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7752",
+      "sourceTaxonomyId": "7752",
+      "name": "marinated",
+      "slug": "marinated"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "rest": null,
+      "total": {
+        "raw": "723",
+        "minutes": 723
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2702",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3-4 lb cabbage",
+            "quantity": {
+              "raw": "3-4 lb",
+              "min": 3,
+              "max": 4,
+              "unit": "lb",
+              "scalable": true
+            },
+            "name": "cabbage",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3-4 carrots",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carrots",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 head of garlic",
+            "quantity": {
+              "raw": "1 head",
+              "value": 1,
+              "unit": "head",
+              "scalable": true
+            },
+            "name": "of garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4 cup water",
+            "quantity": {
+              "raw": "4 cup",
+              "value": 4,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/4 cup sugar",
+            "quantity": {
+              "raw": "1/4 cup",
+              "value": 0.25,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 Tbsp salt",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/2 cup vegetable oil",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "vegetable oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 cup 6% vinegar",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "6% vinegar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut, core and shred cabbage finely.",
+            "mediaId": "wordpress-attachment:2696"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel the carrots and grate.",
+            "mediaId": "wordpress-attachment:2697"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel the garlic and cut each clove into 4 pieces.",
+            "mediaId": "wordpress-attachment:2699"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Place vegetables in a mason jar.",
+            "mediaId": "wordpress-attachment:2698"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Meanwhile, in a large pot, boil water with salt, sugar and olive oil.\nRemove from the heat and add vinegar.",
+            "mediaId": "wordpress-attachment:2700"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Pour hot marinade over the cabbage and let it cool completely.",
+            "mediaId": "wordpress-attachment:2701"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Cover with tight lid and store it in the refrigerator. Cabbage will be ready in 12 hours.",
+            "mediaId": "wordpress-attachment:2702"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2702",
+      "sourceId": "2702",
+      "path": "/recipes/media/wordpress/2702.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2696",
+      "sourceId": "2696",
+      "path": "/recipes/media/wordpress/2696.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2697",
+      "sourceId": "2697",
+      "path": "/recipes/media/wordpress/2697.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2699",
+      "sourceId": "2699",
+      "path": "/recipes/media/wordpress/2699.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2698",
+      "sourceId": "2698",
+      "path": "/recipes/media/wordpress/2698.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2700",
+      "sourceId": "2700",
+      "path": "/recipes/media/wordpress/2700.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2701",
+      "sourceId": "2701",
+      "path": "/recipes/media/wordpress/2701.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

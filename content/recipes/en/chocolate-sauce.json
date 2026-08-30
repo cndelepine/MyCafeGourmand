@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21595",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:5096",
+  "slug": "chocolate-sauce",
+  "source": {
+    "system": "wordpress",
+    "postId": "21595",
+    "recipeId": "21595",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chocolate-sauce",
+    "createdAt": "2018-05-25T02:24:12+00:00",
+    "modifiedAt": "2022-07-30T18:58:47+00:00",
+    "editorialPostId": "10482",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chocolate-sauce",
+    "editorialCreatedAt": "2018-05-25T02:24:12+00:00",
+    "editorialModifiedAt": "2022-07-30T18:58:45+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/chocolate-sauce/"
+  ],
+  "title": "Chocolate sauce",
+  "description": "Your sauce will taste even better if you will use heavy cream. Unfortunatly most of the time I use milk, since I'm always trying to lose weight 😉 but it keeps finding me for some reason.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>After trying to make this chocolate sauce at home, you will never go back to store-bought syrup again. No weird preservatives or ingredients like the ones in the store. You will &nbsp;need two ingredients to make this delicious sauce.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Watch this <a href=\"https://www.instagram.com/p/BjIktIpBn4P/?taken-by=cafegourmandnatalija\">quick video</a> to make your mouth water.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21595,\"template\":\"chic-template-english\",\"updated\":1615140321970} -->\n<!--WPRM Recipe 21595-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chocolate sauce</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9820.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYour sauce will taste even better if you will use heavy cream. Unfortunatly most of the time I use milk, since I'm always trying to lose weight 😉 but it keeps finding me for some reason. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>125 ml milk or heavy cream</li><li>150 g dark chocolate (60-70%)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>In a small saucepan bring milk (or cream) to boil. Remove from the heat and pour the liquid over the chocolate. Allow it to sit for 1 minute. Whisk to combine.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9782.Blog_-150x150.png\"/><br /></li><li>The sauce will stay loose while its hot. But you can always reheat it. Spoon the chocolate mixture into a heatproof bowl set over a saucepan of simmering water. Heat the sauce for about 3-4 minutes stirring constantly or until it has become liquid again.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_9790.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24367",
+      "sourceTaxonomyId": "24367",
+      "name": "milk or heavy cream",
+      "slug": "milk-or-heavy-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24402",
+      "sourceTaxonomyId": "24402",
+      "name": "dark chocolate (60-70%)",
+      "slug": "dark-chocolate-60-70"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5099",
+      "sourceTaxonomyId": "5099",
+      "name": "milk or heavy cream",
+      "slug": "milk-or-heavy-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5101",
+      "sourceTaxonomyId": "5101",
+      "name": "dark chocolate (60-70%)",
+      "slug": "dark-chocolate-60-70"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1897",
+      "sourceTaxonomyId": "1897",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5103",
+      "sourceTaxonomyId": "5103",
+      "name": "chocolate syrup",
+      "slug": "chocolate-syrup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5105",
+      "sourceTaxonomyId": "5105",
+      "name": "chocolate souce",
+      "slug": "chocolate-souce"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5107",
+      "sourceTaxonomyId": "5107",
+      "name": "ice cream topping",
+      "slug": "ice-cream-topping"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5109",
+      "sourceTaxonomyId": "5109",
+      "name": "dessert topping",
+      "slug": "dessert-topping"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5111",
+      "sourceTaxonomyId": "5111",
+      "name": "crepes",
+      "slug": "crepes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5113",
+      "sourceTaxonomyId": "5113",
+      "name": "waffles",
+      "slug": "waffles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5115",
+      "sourceTaxonomyId": "5115",
+      "name": "profitroles",
+      "slug": "profitroles"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "rest": null,
+      "total": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10307",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "125 ml milk or heavy cream",
+            "quantity": {
+              "raw": "125 ml",
+              "value": 125,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk or heavy cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g dark chocolate (60-70%)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "dark chocolate (60-70%)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a small saucepan bring milk (or cream) to boil. Remove from the heat and pour the liquid over the chocolate. Allow it to sit for 1 minute. Whisk to combine.",
+            "mediaId": "wordpress-attachment:10300"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "The sauce will stay loose while its hot. But you can always reheat it. Spoon the chocolate mixture into a heatproof bowl set over a saucepan of simmering water. Heat the sauce for about 3-4 minutes stirring constantly or until it has become liquid again.",
+            "mediaId": "wordpress-attachment:10301"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10307",
+      "sourceId": "10307",
+      "path": "/recipes/media/wordpress/10307.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10300",
+      "sourceId": "10300",
+      "path": "/recipes/media/wordpress/10300.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10301",
+      "sourceId": "10301",
+      "path": "/recipes/media/wordpress/10301.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

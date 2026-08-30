@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21603",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4881",
+  "slug": "creamy-vanilla-and-chocolate-jelly",
+  "source": {
+    "system": "wordpress",
+    "postId": "21603",
+    "recipeId": "21603",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-creamy-vanilla-and-chocolate-jelly",
+    "createdAt": "2018-05-17T21:47:47+00:00",
+    "modifiedAt": "2022-02-27T23:45:36+00:00",
+    "editorialPostId": "9433",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "creamy-vanilla-and-chocolate-jelly",
+    "editorialCreatedAt": "2018-05-17T21:47:47+00:00",
+    "editorialModifiedAt": "2022-02-27T23:45:34+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/creamy-vanilla-and-chocolate-jelly/"
+  ],
+  "title": "Creamy Vanilla And Chocolate Jelly",
+  "description": "You can also make it in one big baking pan and cut it into small squares.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Creamy Vanilla And Chocolate Jelly is a very light and airy dessert, with a touch of sweetness. Who wouldn't love chocolate and vanilla goodness in a cup? I always try to limit myself. This dessert is so simple to make and a great way to end a special dinner. It can be done the day before.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21603,\"template\":\"chic-template-english\",\"updated\":1646005523133} -->\n<!--WPRM Recipe 21603-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Creamy Vanilla And Chocolate Jelly</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0025.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYou can also make it in one big baking pan and cut it into small squares.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Vanilla layer</h4><ul><li>1/2 cup water (cold)</li><li>3 packs Knox original gelatin (unflavored)</li><li>500 ml heavy whipping cream</li><li>500 ml whole milk</li><li>8 Tbsp sugar</li><li>1 Tbsp vanilla extract</li></ul><h4>Chocolate layer</h4><ul><li>60 ml whole milk</li><li>3 Tbsp water (cold)</li><li>1/2 pack Knox original gelatin (unflavored)</li><li>1 Tbsp sugar</li><li>1 Tbsp cacao powder</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Vanilla layer</h4><ol><li>In a small bowl, sprinkle gelatin over 1/2 cup of cold water. Let stand for 5 minutes. </li><li>In a large saucepan, bring milk, heavy whipping cream, vanilla extract and sugar to a simmer, stirring constantly, until sugar is dissolved. </li><li>Add gelatin mixture and stir until dissolved. Remove the saucepan from the heat. Let it cool for 5 minutes, strain through a fine sieve.</li><li>Divide the mixture between 12 small glasses and place them in the fridge until firm (2-3 hours). </li></ol><h4>Chocolate layer</h4><ol><li>In a small saucepan, add milk and water. Sprinkle gelatin on top and set aside for 3 minutes. Add cacao powder and sugar, mix well.</li><li>Place over medium heat and heat until barely boiling, stirring constantly. </li><li>Remove from the heat and strain through a fine sieve. Let the mix cool down. </li><li>Remove the glasses from the refrigerator and pour the chocolate mixture on top of the vanilla jelly.</li><li>Refrigerate for 2 more hours. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0015.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24243",
+      "sourceTaxonomyId": "24243",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24245",
+      "sourceTaxonomyId": "24245",
+      "name": "cacao powder",
+      "slug": "cacao-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24264",
+      "sourceTaxonomyId": "24264",
+      "name": "vanilla extract",
+      "slug": "vanilla-extract"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24403",
+      "sourceTaxonomyId": "24403",
+      "name": "Knox original gelatin",
+      "slug": "knox-original-gelatin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24404",
+      "sourceTaxonomyId": "24404",
+      "name": "whole milk",
+      "slug": "whole-milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "787",
+      "sourceTaxonomyId": "787",
+      "name": "vanilla extract",
+      "slug": "vanilla-extract"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "863",
+      "sourceTaxonomyId": "863",
+      "name": "cacao powder",
+      "slug": "cacao-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1992",
+      "sourceTaxonomyId": "1992",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4502",
+      "sourceTaxonomyId": "4502",
+      "name": "whole milk",
+      "slug": "whole-milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4940",
+      "sourceTaxonomyId": "4940",
+      "name": "Knox original gelatin",
+      "slug": "knox-original-gelatin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2125",
+      "sourceTaxonomyId": "2125",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2131",
+      "sourceTaxonomyId": "2131",
+      "name": "verrine",
+      "slug": "verrine-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2201",
+      "sourceTaxonomyId": "2201",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3092",
+      "sourceTaxonomyId": "3092",
+      "name": "vanilla",
+      "slug": "vanilla"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3434",
+      "sourceTaxonomyId": "3434",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4170",
+      "sourceTaxonomyId": "4170",
+      "name": "chocolate",
+      "slug": "chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4240",
+      "sourceTaxonomyId": "4240",
+      "name": "creamy",
+      "slug": "creamy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4533",
+      "sourceTaxonomyId": "4533",
+      "name": "jelly",
+      "slug": "jelly"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4535",
+      "sourceTaxonomyId": "4535",
+      "name": "gellatto",
+      "slug": "gellatto"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4537",
+      "sourceTaxonomyId": "4537",
+      "name": "cocoa",
+      "slug": "cocoa"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4539",
+      "sourceTaxonomyId": "4539",
+      "name": "in a cap",
+      "slug": "in-a-cap"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4541",
+      "sourceTaxonomyId": "4541",
+      "name": "ptichie moloko",
+      "slug": "ptichie-moloko"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4543",
+      "sourceTaxonomyId": "4543",
+      "name": "whole milk",
+      "slug": "whole-milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4545",
+      "sourceTaxonomyId": "4545",
+      "name": "Knox original gelatine",
+      "slug": "knox-original-gelatine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7219",
+      "sourceTaxonomyId": "7219",
+      "name": "without egg",
+      "slug": "without-egg"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "12 servings",
+      "value": 12,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "320",
+        "minutes": 320
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "300",
+          "minutes": 300
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:10065",
+    "ingredientGroups": [
+      {
+        "name": "Vanilla layer",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 cup water cold",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": "cold"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 packs Knox original gelatin unflavored",
+            "quantity": {
+              "raw": "3 packs",
+              "value": 3,
+              "unit": "packs",
+              "scalable": true
+            },
+            "name": "Knox original gelatin",
+            "notes": "unflavored"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 ml heavy whipping cream",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "500 ml whole milk",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "whole milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "8 Tbsp sugar",
+            "quantity": {
+              "raw": "8 Tbsp",
+              "value": 8,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 Tbsp vanilla extract",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "vanilla extract",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Chocolate layer",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "60 ml whole milk",
+            "quantity": {
+              "raw": "60 ml",
+              "value": 60,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "whole milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 Tbsp water cold",
+            "quantity": {
+              "raw": "3 Tbsp",
+              "value": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": "cold"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 pack Knox original gelatin unflavored",
+            "quantity": {
+              "raw": "1/2 pack",
+              "value": 0.5,
+              "unit": "pack",
+              "scalable": true
+            },
+            "name": "Knox original gelatin",
+            "notes": "unflavored"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 Tbsp sugar",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 Tbsp cacao powder",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "cacao powder",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Vanilla layer",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a small bowl, sprinkle gelatin over 1/2 cup of cold water. Let stand for 5 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a large saucepan, bring milk, heavy whipping cream, vanilla extract and sugar to a simmer, stirring constantly, until sugar is dissolved.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add gelatin mixture and stir until dissolved. Remove the saucepan from the heat. Let it cool for 5 minutes, strain through a fine sieve.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Divide the mixture between 12 small glasses and place them in the fridge until firm (2-3 hours).",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Chocolate layer",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a small saucepan, add milk and water. Sprinkle gelatin on top and set aside for 3 minutes. Add cacao powder and sugar, mix well.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Place over medium heat and heat until barely boiling, stirring constantly.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Remove from the heat and strain through a fine sieve. Let the mix cool down.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Remove the glasses from the refrigerator and pour the chocolate mixture on top of the vanilla jelly.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Refrigerate for 2 more hours.",
+            "mediaId": "wordpress-attachment:10064"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10065",
+      "sourceId": "10065",
+      "path": "/recipes/media/wordpress/10065.png",
+      "alt": "Птичье молоко в стаканчиках",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10064",
+      "sourceId": "10064",
+      "path": "/recipes/media/wordpress/10064.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

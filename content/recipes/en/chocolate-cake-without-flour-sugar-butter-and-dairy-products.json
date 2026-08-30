@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26289",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:25734",
+  "slug": "chocolate-cake-without-flour-sugar-butter-and-dairy-products",
+  "source": {
+    "system": "wordpress",
+    "postId": "26289",
+    "recipeId": "26289",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chocolate-cake-without-flour-sugar-butter-and-dairy-products",
+    "createdAt": "2023-03-12T18:00:33+00:00",
+    "modifiedAt": "2023-03-12T18:00:42+00:00",
+    "editorialPostId": "26287",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chocolate-cake-without-flour-sugar-butter-and-dairy-products",
+    "editorialCreatedAt": "2023-03-12T18:00:33+00:00",
+    "editorialModifiedAt": "2023-03-12T18:00:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/chocolate-cake-without-flour-sugar-butter-and-dairy-products/"
+  ],
+  "title": "Chocolate cake without flour, sugar, butter and dairy products",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This is must-try chocolate cake without flour, sugar, butter and dairy products. So you can allow yourself to eat the second (and third) piece. ;) All chocolate lovers will definitely fell in love with dessert. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This is translation of original french recipe 𝙈<strong>𝙤𝙚𝙡𝙡𝙚𝙪𝙭 𝙡é𝙜𝙚𝙧 𝙖𝙪 𝙘𝙝</strong>𝙤𝙘𝙤𝙡𝙖𝙩 @<a href=\"https://www.instagram.com/recettes_simplyfit/\">recettes_simplyfit</a> without any modification: delicate and very chocolate dessert.  </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>You like it? Check my <a href=\"https://mycafegourmand.com/gluten-free/\" target=\"_blank\" rel=\"noreferrer noopener\">other gluten-free recipes.</a></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26289,\"template\":\"chic-template-english\",\"updated\":1678643594970} -->\n<!--WPRM Recipe 26289-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chocolate cake without flour, sugar, butter and dairy products</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/02/20220924_153727choc.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>150 g chocolate (60% cocoa)</li><li>180 g applesauce without sugar</li><li>40 g starch (maizena)</li><li>2 tsp baking powder dough</li><li>3 eggs (separate yolks from whites)</li><li>1 a pinch of salt</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat the oven to 180C, (390F) and line a baking dish with parchment paper or use a silicone mold.</p></li><li><p>Melt the chocolate in a water bath or a microwave.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/02/20221024_220114choc.Blog_-150x150.png\"/><br /></li><li><p>Add applesauce to melted chocolate. Mix.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/02/20221024_220400.Blog_-150x150.png\"/><br /></li><li><p>Add yolks and mix well.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/02/20221024_220507.Blog_-150x150.png\"/><br /></li><li><p>Add starch and baking powder. Mix.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/02/20221024_220840.Blog_-150x150.png\"/><br /></li><li><p>Beat egg whites until foamy, adding a pinch of salt.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9119.Blog_-150x150.png\"/><br /></li><li><p>Gently fold the beaten egg whites into the chocolate mixture.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/02/20221024_221145.Blog_-150x150.png\"/><br /></li><li><p>Pour the batter into a baking dish.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/02/20221024_221740.Blog_-150x150.png\"/><br /></li><li><p>Bake in preheated oven for approximately 25 minutes. Baking time depends on the oven and shape. Check readiness with a knife blade.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/02/IMG_3111-150x150.jpg\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25735",
+      "sourceTaxonomyId": "25735",
+      "name": "chocolate (60% cocoa)",
+      "slug": "chocolate-60-cocoa"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25736",
+      "sourceTaxonomyId": "25736",
+      "name": "applesauce without sugar",
+      "slug": "applesauce-without-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25738",
+      "sourceTaxonomyId": "25738",
+      "name": "baking powder dough",
+      "slug": "baking-powder-dough"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25739",
+      "sourceTaxonomyId": "25739",
+      "name": "eggs (separate yolks from whites)",
+      "slug": "eggs-separate-yolks-from-whites"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25740",
+      "sourceTaxonomyId": "25740",
+      "name": "a pinch of salt",
+      "slug": "a-pinch-of-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26141",
+      "sourceTaxonomyId": "26141",
+      "name": "starch (maizena)",
+      "slug": "starch-maizena"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25464",
+      "sourceTaxonomyId": "25464",
+      "name": "tsp",
+      "slug": "tsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25342",
+      "sourceTaxonomyId": "25342",
+      "name": "Desserts",
+      "slug": "desserts-gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1895",
+      "sourceTaxonomyId": "1895",
+      "name": "chocolate cake",
+      "slug": "chocolate-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1897",
+      "sourceTaxonomyId": "1897",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1959",
+      "sourceTaxonomyId": "1959",
+      "name": "chocolate chip",
+      "slug": "chocolate-chip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4170",
+      "sourceTaxonomyId": "4170",
+      "name": "chocolate",
+      "slug": "chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4255",
+      "sourceTaxonomyId": "4255",
+      "name": "flourless",
+      "slug": "flourless"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5355",
+      "sourceTaxonomyId": "5355",
+      "name": "not too sweet",
+      "slug": "not-too-sweet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6164",
+      "sourceTaxonomyId": "6164",
+      "name": "dairy-free",
+      "slug": "dairy-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7072",
+      "sourceTaxonomyId": "7072",
+      "name": "delicious cake",
+      "slug": "delicious-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7241",
+      "sourceTaxonomyId": "7241",
+      "name": "no sugar",
+      "slug": "no-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7766",
+      "sourceTaxonomyId": "7766",
+      "name": "best ever",
+      "slug": "best-ever"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8170",
+      "sourceTaxonomyId": "8170",
+      "name": "no milk",
+      "slug": "no-milk"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 people",
+      "value": 8,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26269",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 g chocolate (60% cocoa)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chocolate (60% cocoa)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "180 g applesauce without sugar",
+            "quantity": {
+              "raw": "180 g",
+              "value": 180,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "applesauce without sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "40 g starch (maizena)",
+            "quantity": {
+              "raw": "40 g",
+              "value": 40,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "starch (maizena)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 tsp baking powder dough",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder dough",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 eggs (separate yolks from whites)",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs (separate yolks from whites)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 a pinch of salt",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "a pinch of salt",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 180C, (390F) and line a baking dish with parchment paper or use a silicone mold.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Melt the chocolate in a water bath or a microwave.",
+            "mediaId": "wordpress-attachment:26270"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add applesauce to melted chocolate. Mix.",
+            "mediaId": "wordpress-attachment:26271"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add yolks and mix well.",
+            "mediaId": "wordpress-attachment:26272"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add starch and baking powder. Mix.",
+            "mediaId": "wordpress-attachment:26273"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Beat egg whites until foamy, adding a pinch of salt.",
+            "mediaId": "wordpress-attachment:8670"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Gently fold the beaten egg whites into the chocolate mixture.",
+            "mediaId": "wordpress-attachment:26274"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Pour the batter into a baking dish.",
+            "mediaId": "wordpress-attachment:26275"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Bake in preheated oven for approximately 25 minutes. Baking time depends on the oven and shape. Check readiness with a knife blade.",
+            "mediaId": "wordpress-attachment:26276"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26269",
+      "sourceId": "26269",
+      "path": "/recipes/media/wordpress/26269.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26270",
+      "sourceId": "26270",
+      "path": "/recipes/media/wordpress/26270.png",
+      "alt": null,
+      "width": 560,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26271",
+      "sourceId": "26271",
+      "path": "/recipes/media/wordpress/26271.png",
+      "alt": null,
+      "width": 608,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26272",
+      "sourceId": "26272",
+      "path": "/recipes/media/wordpress/26272.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26273",
+      "sourceId": "26273",
+      "path": "/recipes/media/wordpress/26273.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:8670",
+      "sourceId": "8670",
+      "path": "/recipes/media/wordpress/8670.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26274",
+      "sourceId": "26274",
+      "path": "/recipes/media/wordpress/26274.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26275",
+      "sourceId": "26275",
+      "path": "/recipes/media/wordpress/26275.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26276",
+      "sourceId": "26276",
+      "path": "/recipes/media/wordpress/26276.jpg",
+      "alt": null,
+      "width": 2560,
+      "height": 1707
+    }
+  ],
+  "seo": null
+}

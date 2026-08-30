@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22236",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:22849",
+  "slug": "vodka-au-citron",
+  "source": {
+    "system": "wordpress",
+    "postId": "22236",
+    "recipeId": "22236",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-vodka-au-citron",
+    "createdAt": "2018-11-30T20:28:00+00:00",
+    "modifiedAt": "2021-03-15T23:43:39+00:00",
+    "editorialPostId": "15281",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "vodka-au-citron",
+    "editorialCreatedAt": "2018-11-30T20:28:00+00:00",
+    "editorialModifiedAt": "2021-03-15T23:43:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/vodka-au-citron/"
+  ],
+  "title": "Vodka au citron",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Surprenez vos invités avec ce <a href=\"https://mycafegourmand.com/fr/recettes/boissons/\">cocktail</a> à base de vodka parfumée au citron. La recette est simple mais il faut attendre une semaine avant d’y goûter !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22236,\"template\":\"chic-template-french\",\"updated\":1615851799577} -->\n<!--WPRM Recipe 22236-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Vodka au citron</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_2084-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 citron organique</li><li>1 cuillère à café de sucre en poudre</li><li>1/2 l de vodka</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peler le citron puis le couper en rondelles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_4413.Blog_-150x150.png\"/><br /></li><li>Mélanger le citron et le sucre avec la vodka.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_4445.Blog_-150x150.png\"/><br /></li><li>Réserver pendant 7 jours. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_4452.Blog_-150x150.png\"/><br /></li><li>Jeter le citron et filtrer. Servir avec ou sans glaçons. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_2084-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Boissons</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24365",
+      "sourceTaxonomyId": "24365",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24534",
+      "sourceTaxonomyId": "24534",
+      "name": "de vodka",
+      "slug": "de-vodka"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24800",
+      "sourceTaxonomyId": "24800",
+      "name": "citron organique",
+      "slug": "citron-organique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "114",
+      "sourceTaxonomyId": "114",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1680",
+      "sourceTaxonomyId": "1680",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2354",
+      "sourceTaxonomyId": "2354",
+      "name": "de vodka",
+      "slug": "de-vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "22847",
+      "sourceTaxonomyId": "22847",
+      "name": "citron organique",
+      "slug": "citron-organique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1540",
+      "sourceTaxonomyId": "1540",
+      "name": "citron",
+      "slug": "citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2342",
+      "sourceTaxonomyId": "2342",
+      "name": "vodka",
+      "slug": "vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2350",
+      "sourceTaxonomyId": "2350",
+      "name": "alcool",
+      "slug": "alcool"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "12",
+        "minutes": 12
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19087",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 citron organique",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citron organique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cuillère à café de sucre en poudre",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 l de vodka",
+            "quantity": {
+              "raw": "1/2 l",
+              "value": 0.5,
+              "unit": "l",
+              "scalable": true
+            },
+            "name": "de vodka",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peler le citron puis le couper en rondelles.",
+            "mediaId": "wordpress-attachment:15282"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mélanger le citron et le sucre avec la vodka.",
+            "mediaId": "wordpress-attachment:15283"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Réserver pendant 7 jours.",
+            "mediaId": "wordpress-attachment:15284"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Jeter le citron et filtrer. Servir avec ou sans glaçons.",
+            "mediaId": "wordpress-attachment:19087"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19087",
+      "sourceId": "19087",
+      "path": "/recipes/media/wordpress/19087.png",
+      "alt": null,
+      "width": 800,
+      "height": 544
+    },
+    {
+      "id": "wordpress-attachment:15282",
+      "sourceId": "15282",
+      "path": "/recipes/media/wordpress/15282.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15283",
+      "sourceId": "15283",
+      "path": "/recipes/media/wordpress/15283.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:15284",
+      "sourceId": "15284",
+      "path": "/recipes/media/wordpress/15284.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

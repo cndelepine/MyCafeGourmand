@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28234",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26769",
+  "slug": "tomates-farcies-au-thon",
+  "source": {
+    "system": "wordpress",
+    "postId": "28234",
+    "recipeId": "28234",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tomates-farcies-au-thon",
+    "createdAt": "2024-05-03T04:34:50+00:00",
+    "modifiedAt": "2024-05-04T23:05:38+00:00",
+    "editorialPostId": "28232",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tomates-farcies-au-thon",
+    "editorialCreatedAt": "2024-05-03T04:34:50+00:00",
+    "editorialModifiedAt": "2024-05-04T22:14:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/tomates-farcies-au-thon/"
+  ],
+  "title": "Tomates farcies au thon",
+  "description": "Choisissez des tomates de petite taille si vous voulez faire une entrée de cette recette, ou des tomates cerises pour servir en guise d’apéritif.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Voici ma recette de tomates farcies au thon et à la mayonnaise. Choisissez des tomates de petite taille si vous voulez faire une entrée de cette recette  et des tomates cerises pour servir en guise d’apéritif.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28234,\"template\":\"chic-template-french\",\"updated\":1714860844622} -->\n<!--WPRM Recipe 28234-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tomates farcies au thon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5293.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Choisissez des tomates de petite taille si vous voulez faire une entrée de cette recette, ou des tomates cerises pour servir en guise d’apéritif.    </p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>180  g thon en boîte  (égoutté)</li><li>1 œuf dur écalé                                            </li><li>2 cuillères à soupe de mayonnaise</li><li>2-3 cuillères à soupe  de jus de citron</li><li>Sel et poivre du moulin</li><li>4 tomates de petite taille ou 24 tomate-cerises</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>À l&#039;aide d&#039;une fourchette, écraser le thon.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5239.Blog_-150x150.png\"/><br /></li><li><p>Raper l&#039;œuf (ou l&#039;écraser à l&#039;aide  d&#039;une fourchette).</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5242.Blog_-150x150.png\"/><br /></li><li><p>Mixer le thon avec l’œuf et la mayonnaise. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5243.Blog_-150x150.png\"/><br /></li><li><p>Arroser de jus de citron. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5248.Blog_-150x150.png\"/><br /></li><li><p>Saler et poivrer.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5264.Blog_-150x150.png\"/><br /></li><li><p>Couper le dessus de tomates pour former un chapeau. Les évider sans abimer la peau.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/11/IMG_3607.Blog_-150x150.png\"/><br /></li><li><p> Farcir les tomates et refermer les chapeaux.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5269.Blog_-150x150.png\"/><br /></li><li><p>Les tomate-cerises sont plus longues à farcir mais feront leur effet lors d&#039;une soirée. ;)</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/05/IMG_5695.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, French, Italian, Italien</div><div class=\"wprm-fallback-recipe-meta-keyword\">tomates farcies, tomates farcies au fromage</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26438",
+      "sourceTaxonomyId": "26438",
+      "name": "Apéritifs",
+      "slug": "aperitifs-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26750",
+      "sourceTaxonomyId": "26750",
+      "name": "Français",
+      "slug": "francais-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26754",
+      "sourceTaxonomyId": "26754",
+      "name": "Italian",
+      "slug": "italian-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26756",
+      "sourceTaxonomyId": "26756",
+      "name": "Italien",
+      "slug": "italien-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24468",
+      "sourceTaxonomyId": "24468",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26762",
+      "sourceTaxonomyId": "26762",
+      "name": "thon en boîte",
+      "slug": "thon-en-boite"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26768",
+      "sourceTaxonomyId": "26768",
+      "name": "tomates de petite taille ou 24 tomate-cerises",
+      "slug": "tomates-de-petite-taille-ou-24-tomate-cerises"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26783",
+      "sourceTaxonomyId": "26783",
+      "name": "œuf dur écalé",
+      "slug": "oeuf-dur-ecale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26758",
+      "sourceTaxonomyId": "26758",
+      "name": "tomates farcies",
+      "slug": "tomates-farcies-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26760",
+      "sourceTaxonomyId": "26760",
+      "name": "tomates farcies au fromage",
+      "slug": "tomates-farcies-au-fromage-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1520",
+      "sourceTaxonomyId": "1520",
+      "name": "thon",
+      "slug": "thon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3838",
+      "sourceTaxonomyId": "3838",
+      "name": "entree froide",
+      "slug": "entree-froide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28269",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "180 g thon en boîte égoutté",
+            "quantity": {
+              "raw": "180 g",
+              "value": 180,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "thon en boîte",
+            "notes": "égoutté"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 œuf dur écalé",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf dur écalé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 cuillères à soupe de mayonnaise",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2-3 cuillères à soupe de jus de citron",
+            "quantity": {
+              "raw": "2-3 cuillères à soupe",
+              "min": 2,
+              "max": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de jus de citron",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 tomates de petite taille ou 24 tomate-cerises",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates de petite taille ou 24 tomate-cerises",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "À l'aide d'une fourchette, écraser le thon.",
+            "mediaId": "wordpress-attachment:28263"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Raper l'œuf (ou l'écraser à l'aide d'une fourchette).",
+            "mediaId": "wordpress-attachment:28264"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mixer le thon avec l’œuf et la mayonnaise.",
+            "mediaId": "wordpress-attachment:28265"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Arroser de jus de citron.",
+            "mediaId": "wordpress-attachment:28266"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Saler et poivrer.",
+            "mediaId": "wordpress-attachment:28267"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Couper le dessus de tomates pour former un chapeau. Les évider sans abimer la peau.",
+            "mediaId": "wordpress-attachment:24396"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Farcir les tomates et refermer les chapeaux.",
+            "mediaId": "wordpress-attachment:28268"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Les tomate-cerises sont plus longues à farcir mais feront leur effet lors d'une soirée. ;)",
+            "mediaId": "wordpress-attachment:28280"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28269",
+      "sourceId": "28269",
+      "path": "/recipes/media/wordpress/28269.png",
+      "alt": "Tomatoes stuffed with tuna",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28263",
+      "sourceId": "28263",
+      "path": "/recipes/media/wordpress/28263.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28264",
+      "sourceId": "28264",
+      "path": "/recipes/media/wordpress/28264.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28265",
+      "sourceId": "28265",
+      "path": "/recipes/media/wordpress/28265.png",
+      "alt": null,
+      "width": 800,
+      "height": 624
+    },
+    {
+      "id": "wordpress-attachment:28266",
+      "sourceId": "28266",
+      "path": "/recipes/media/wordpress/28266.png",
+      "alt": null,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28267",
+      "sourceId": "28267",
+      "path": "/recipes/media/wordpress/28267.png",
+      "alt": null,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:24396",
+      "sourceId": "24396",
+      "path": "/recipes/media/wordpress/24396.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:28268",
+      "sourceId": "28268",
+      "path": "/recipes/media/wordpress/28268.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28280",
+      "sourceId": "28280",
+      "path": "/recipes/media/wordpress/28280.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

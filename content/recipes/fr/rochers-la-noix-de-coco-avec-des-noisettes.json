@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21797",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2659",
+  "slug": "rochers-la-noix-de-coco-avec-des-noisettes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21797",
+    "recipeId": "21797",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-rochers-a-la-noix-de-coco-avec-des-noisettes",
+    "createdAt": "2018-02-25T02:39:05+00:00",
+    "modifiedAt": "2022-07-25T00:51:42+00:00",
+    "editorialPostId": "5114",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "rochers-la-noix-de-coco-avec-des-noisettes",
+    "editorialCreatedAt": "2018-02-25T02:39:05+00:00",
+    "editorialModifiedAt": "2022-07-25T00:51:38+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/rochers-la-noix-de-coco/",
+    "/fr/rochers-la-noix-de-coco-avec-des-noisettes/"
+  ],
+  "title": "Rochers à la noix de coco avec des noisettes",
+  "description": "Ces rochers se conservent très bien dans le congélateur. Même pas besoin de décongeler à l'avance. Juste sortir les rochers à l'heure du café.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les rochers à la noix de coco font un délicieux dessert et peuvent accompagnés votre <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">café gourmand</a>. Un dessert qui convient pour un régime sans gluten. Dans cette recette, j'ajoute des noisettes ou des noix hachées.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21797,\"template\":\"chic-template-french\",\"updated\":1658710241853} -->\n<!--WPRM Recipe 21797-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Rochers à la noix de coco avec des noisettes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8310.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tCes rochers se conservent très bien dans le congélateur. Même pas besoin de décongeler à l'avance. Juste sortir les rochers à l'heure du café.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 blancs d'oeufs</li><li>1 pincée de sel</li><li>120 g de sucre en poudre</li><li>150 g de noix de coco râpées</li><li>50 g de noisettes hachées ((facultative))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 160°C (thermostat 4/5). Couvrir 2 plaques à pâtisserie avec du papier sulfurisé. </li><li>Battre les blancs d’œufs en neige en ajoutant le sel. Petit à petit, ajouter le sucre. Continuer de battre jusqu’à ce que les blancs soient bien fermes et brillants.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8061.Blog_-150x150.png\"/><br /></li><li>Incorporer délicatement la noix de coco et les noix en mélangeant avec une spatule.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8062.Blog_-150x150.png\"/><br /></li><li><p>Avec une cuillère à café, déposer des petits tas de pâte sur les plaques en les espaçant les uns des autres. On peut ajouter des petits morceaux de noix sur les tas. Faire cuire pendant 15-20 minutes. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8068.Blog_-150x150.png\"/><br /></li><li>Le temps de cuisson dépend du four et de la taille de rochers. J'en goûte un (ou deux) pour décider si c'est prêt. ;) Sortir les plaques du four et laisser les rochers refroidir avant de les enlever des plaques.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180219_134438.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24527",
+      "sourceTaxonomyId": "24527",
+      "name": "blancs d'oeufs",
+      "slug": "blancs-doeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24528",
+      "sourceTaxonomyId": "24528",
+      "name": "de noix de coco râpées",
+      "slug": "de-noix-de-coco-rapees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25434",
+      "sourceTaxonomyId": "25434",
+      "name": "de noisettes hachées",
+      "slug": "de-noisettes-hachees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25433",
+      "sourceTaxonomyId": "25433",
+      "name": "pincée",
+      "slug": "pincee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25346",
+      "sourceTaxonomyId": "25346",
+      "name": "Desserts",
+      "slug": "desserts-fr-sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2218",
+      "sourceTaxonomyId": "2218",
+      "name": "blancs d'oeufs",
+      "slug": "blancs-doeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2680",
+      "sourceTaxonomyId": "2680",
+      "name": "de noix de coco râpées",
+      "slug": "de-noix-de-coco-rapees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2682",
+      "sourceTaxonomyId": "2682",
+      "name": "de noisettes (ou de noix, noix de pécan)",
+      "slug": "de-noisettes-ou-de-noix-noix-de-pecan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1454",
+      "sourceTaxonomyId": "1454",
+      "name": "noix",
+      "slug": "noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2214",
+      "sourceTaxonomyId": "2214",
+      "name": "blanc d'oeuf",
+      "slug": "blanc-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2643",
+      "sourceTaxonomyId": "2643",
+      "name": "rochers",
+      "slug": "rochers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2645",
+      "sourceTaxonomyId": "2645",
+      "name": "noix de coco",
+      "slug": "noix-de-coco"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2647",
+      "sourceTaxonomyId": "2647",
+      "name": "macarons",
+      "slug": "macarons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2649",
+      "sourceTaxonomyId": "2649",
+      "name": "noisette",
+      "slug": "noisette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2651",
+      "sourceTaxonomyId": "2651",
+      "name": "pecan",
+      "slug": "pecan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2653",
+      "sourceTaxonomyId": "2653",
+      "name": "facile et rapide",
+      "slug": "facile-et-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3166",
+      "sourceTaxonomyId": "3166",
+      "name": "sans farine",
+      "slug": "sans-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4273",
+      "sourceTaxonomyId": "4273",
+      "name": "gluten free",
+      "slug": "gluten-free-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25453",
+      "sourceTaxonomyId": "25453",
+      "name": "congolais",
+      "slug": "congolais"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "50 pièces",
+      "value": 50,
+      "unit": "pièces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "12",
+        "minutes": 12
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "27",
+        "minutes": 27
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:5152",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 blancs d'oeufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "blancs d'oeufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 pincée de sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "120 g de sucre en poudre",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 g de noix de coco râpées",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noix de coco râpées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "50 g de noisettes hachées (facultative)",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noisettes hachées",
+            "notes": "(facultative)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 160°C (thermostat 4/5). Couvrir 2 plaques à pâtisserie avec du papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Battre les blancs d’œufs en neige en ajoutant le sel. Petit à petit, ajouter le sucre. Continuer de battre jusqu’à ce que les blancs soient bien fermes et brillants.",
+            "mediaId": "wordpress-attachment:5125"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Incorporer délicatement la noix de coco et les noix en mélangeant avec une spatule.",
+            "mediaId": "wordpress-attachment:5126"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Avec une cuillère à café, déposer des petits tas de pâte sur les plaques en les espaçant les uns des autres. On peut ajouter des petits morceaux de noix sur les tas. Faire cuire pendant 15-20 minutes.",
+            "mediaId": "wordpress-attachment:5128"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Le temps de cuisson dépend du four et de la taille de rochers. J'en goûte un (ou deux) pour décider si c'est prêt. ;) Sortir les plaques du four et laisser les rochers refroidir avant de les enlever des plaques.",
+            "mediaId": "wordpress-attachment:5130"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5152",
+      "sourceId": "5152",
+      "path": "/recipes/media/wordpress/5152.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5125",
+      "sourceId": "5125",
+      "path": "/recipes/media/wordpress/5125.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5126",
+      "sourceId": "5126",
+      "path": "/recipes/media/wordpress/5126.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5128",
+      "sourceId": "5128",
+      "path": "/recipes/media/wordpress/5128.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5130",
+      "sourceId": "5130",
+      "path": "/recipes/media/wordpress/5130.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

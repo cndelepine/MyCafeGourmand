@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21579",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7110",
+  "slug": "watermelon-and-cucumber-salad-with-feta",
+  "source": {
+    "system": "wordpress",
+    "postId": "21579",
+    "recipeId": "21579",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-watermelon-and-cucumber-salad-with-feta",
+    "createdAt": "2019-07-12T04:58:00+00:00",
+    "modifiedAt": "2025-03-23T07:21:40+00:00",
+    "editorialPostId": "12504",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "watermelon-and-cucumber-salad-with-feta",
+    "editorialCreatedAt": "2019-07-12T04:58:00+00:00",
+    "editorialModifiedAt": "2025-03-23T07:21:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/watermelon-and-cucumber-salad-with-feta/"
+  ],
+  "title": "Watermelon and Cucumber salad with Feta",
+  "description": "The feta cheese is already salty, no need to add salt. Only pepper needs to be added, preferably freshly ground pepper.\nMake sure to leave the salad in the refrigerator long enough before serving.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p><span id=\"result_box\" class=\"\" lang=\"fr\"><span class=\"\">This fantastic watermelon salad with cucumbers, feta cheese and onion is perfect for spring and summer. Sweet, savory and delicious salad or side dish will look gorgeous for your next BBQ party.</span></span> </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21579,\"template\":\"chic-template-english\",\"updated\":1742714465956} -->\n<!--WPRM Recipe 21579-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Watermelon and Cucumber salad with Feta</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_2133.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThe feta cheese is already salty, no need to add salt. Only pepper needs to be added, preferably freshly ground pepper. \r\nMake sure to leave the salad in the refrigerator long enough before serving. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1/2 watermelon (or 1 small watermelon ) (peeled and cubed)</li><li>1 english cucumber (cubed)</li><li>1/2 red onion (finely sliced)</li><li>200 g feta cheese (cubed)</li><li>1/2 bunch of Fresh mint (minced)</li><li>1/2 lemon (juice only)</li><li>freshly ground black pepper (to taste)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>In a large bowl, gently toss all cut ingredients, drizzle with lemon juice and season with pepper. Cover and refrigerate for about 1 hour before serving. </li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23559",
+      "sourceTaxonomyId": "23559",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24105",
+      "sourceTaxonomyId": "24105",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24110",
+      "sourceTaxonomyId": "24110",
+      "name": "Fresh mint",
+      "slug": "fresh-mint"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24121",
+      "sourceTaxonomyId": "24121",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24126",
+      "sourceTaxonomyId": "24126",
+      "name": "lemon (juice only)",
+      "slug": "lemon-juice-only"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24146",
+      "sourceTaxonomyId": "24146",
+      "name": "english cucumber",
+      "slug": "english-cucumber"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24393",
+      "sourceTaxonomyId": "24393",
+      "name": "watermelon (or 1 small watermelon )",
+      "slug": "watermelon-or-1-small-watermelon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2714",
+      "sourceTaxonomyId": "2714",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2720",
+      "sourceTaxonomyId": "2720",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3746",
+      "sourceTaxonomyId": "3746",
+      "name": "Fresh mint",
+      "slug": "fresh-mint"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4118",
+      "sourceTaxonomyId": "4118",
+      "name": "english cucumber",
+      "slug": "english-cucumber"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4584",
+      "sourceTaxonomyId": "4584",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6371",
+      "sourceTaxonomyId": "6371",
+      "name": "lemon (juice only)",
+      "slug": "lemon-juice-only"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7157",
+      "sourceTaxonomyId": "7157",
+      "name": "watermelon (or 1 small watermelon )",
+      "slug": "watermelon-or-1-small-watermelon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2125",
+      "sourceTaxonomyId": "2125",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4329",
+      "sourceTaxonomyId": "4329",
+      "name": "spring salad",
+      "slug": "spring-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4337",
+      "sourceTaxonomyId": "4337",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4796",
+      "sourceTaxonomyId": "4796",
+      "name": "cucumber",
+      "slug": "cucumber"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4798",
+      "sourceTaxonomyId": "4798",
+      "name": "summer salad",
+      "slug": "summer-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4800",
+      "sourceTaxonomyId": "4800",
+      "name": "healthy salad",
+      "slug": "healthy-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7119",
+      "sourceTaxonomyId": "7119",
+      "name": "watermelon",
+      "slug": "watermelon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7121",
+      "sourceTaxonomyId": "7121",
+      "name": "salad with feta",
+      "slug": "salad-with-feta"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7123",
+      "sourceTaxonomyId": "7123",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7127",
+      "sourceTaxonomyId": "7127",
+      "name": "summer menu",
+      "slug": "summer-menu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7145",
+      "sourceTaxonomyId": "7145",
+      "name": "fresh mint",
+      "slug": "fresh-mint"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7159",
+      "sourceTaxonomyId": "7159",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25608",
+      "sourceTaxonomyId": "25608",
+      "name": "salad",
+      "slug": "salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25622",
+      "sourceTaxonomyId": "25622",
+      "name": "how to prepare",
+      "slug": "how-to-prepare"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "75",
+        "minutes": 75
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12491",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 watermelon (or 1 small watermelon ) peeled and cubed",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "watermelon (or 1 small watermelon )",
+            "notes": "peeled and cubed"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 english cucumber cubed",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "english cucumber",
+            "notes": "cubed"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 red onion finely sliced",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "red onion",
+            "notes": "finely sliced"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g feta cheese cubed",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "feta cheese",
+            "notes": "cubed"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 bunch of Fresh mint minced",
+            "quantity": {
+              "raw": "1/2 bunch of",
+              "value": 0.5,
+              "unit": "bunch of",
+              "scalable": true
+            },
+            "name": "Fresh mint",
+            "notes": "minced"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 lemon (juice only)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon (juice only)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "freshly ground black pepper",
+            "notes": "to taste"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a large bowl, gently toss all cut ingredients, drizzle with lemon juice and season with pepper. Cover and refrigerate for about 1 hour before serving.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12491",
+      "sourceId": "12491",
+      "path": "/recipes/media/wordpress/12491.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

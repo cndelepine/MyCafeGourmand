@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21575",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:10065",
+  "slug": "king-cake-galette-de-rois",
+  "source": {
+    "system": "wordpress",
+    "postId": "21575",
+    "recipeId": "21575",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-king-cake-galette-des-rois",
+    "createdAt": "2024-12-29T22:00:00+00:00",
+    "modifiedAt": "2026-02-14T00:55:13+00:00",
+    "editorialPostId": "13965",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "king-cake-galette-de-rois",
+    "editorialCreatedAt": "2024-12-29T22:00:00+00:00",
+    "editorialModifiedAt": "2026-02-14T00:54:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/king-cake-galette-de-rois/"
+  ],
+  "title": "King Cake (Galette des Rois)",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This King Cake (Galette des Rois) is a very popular French pie. It celebrates the holiday of Epiphany, the day when 3 wise men came bearing gifts for newborn Jesus. The traditional way to bake this king cake is to place a porcelain figurine, a charm or \"fève\" into the center of the galette. &nbsp;The person who receives the slice with the charm is \"King of the Day\". The lucky winner gets to wear a (paper) crown for the rest of the day!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21575,\"template\":\"chic-template-english\",\"updated\":1705290209607,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 21575-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">King Cake (Galette des Rois)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4391.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t \r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1/2 cup (100 g)  softened butter</li><li>1/2 cup (100 g) sugar</li><li>2 eggs</li><li>1/2 cup (100 g) almond flour</li><li>1 Tbsp vanilla extract ((optional))</li><li>1 Tbsp rum ((optional))</li><li>2 sheets  ready-to-use puff pastry ( Puff Pastry Sheets)</li><li>1 egg yolk</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Beat the softened butter and sugar together, then beat in the eggs. Stir in the almond powder. Add vanilla, rum and set it aside. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7018.Blog_-1-150x150.png\"/><br /></li><li>Roll out one sheet of puff pastry. Poke holes with fork.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7020-2.Blog_-1-150x150.png\"/><br /></li><li>Spread the almond filling over the center of the dough, leaving a 1 inch (1.2 cm) exposed border. If you wish, place a little porcelain figurine \"fève\" somewhere in the almond filling.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/20190106_172942.Blog_-150x150.png\"/><br /></li><li>Brush the edges of the pastry with water and cover with another circle of dough on top and press down to seal the edges.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7092.Blog_-150x150.png\"/><br /></li><li><p>Brush with beaten yolk then use a paring knife to create a design on top of your galette, </p><p>Poke 8-10 holes in the top, to allow steam to escape while baking.  </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7028-2.Blog_-1-150x150.png\"/><br /></li><li>Place in the refrigerator for 1 hour. </li><li>Preheat oven to 380 degrees F. Bake for 30-35 minutes or until the pastry is golden brown. (Bake on the bottom rack of the oven).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7043.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "King Cake (Galette des Rois)"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24064",
+      "sourceTaxonomyId": "24064",
+      "name": "softened butter",
+      "slug": "softened-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24248",
+      "sourceTaxonomyId": "24248",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24264",
+      "sourceTaxonomyId": "24264",
+      "name": "vanilla extract",
+      "slug": "vanilla-extract"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24348",
+      "sourceTaxonomyId": "24348",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24391",
+      "sourceTaxonomyId": "24391",
+      "name": "rum",
+      "slug": "rum"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24392",
+      "sourceTaxonomyId": "24392",
+      "name": "ready-to-use puff pastry ( Puff Pastry Sheets)",
+      "slug": "ready-to-use-puff-pastry-puff-pastry-sheets"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25494",
+      "sourceTaxonomyId": "25494",
+      "name": "sheets",
+      "slug": "sheets"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "787",
+      "sourceTaxonomyId": "787",
+      "name": "vanilla extract",
+      "slug": "vanilla-extract"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "877",
+      "sourceTaxonomyId": "877",
+      "name": "softened butter",
+      "slug": "softened-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "973",
+      "sourceTaxonomyId": "973",
+      "name": "almond powder",
+      "slug": "almond-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7247",
+      "sourceTaxonomyId": "7247",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9553",
+      "sourceTaxonomyId": "9553",
+      "name": "ready-to-use puff pastry ( Puff Pastry Sheets)",
+      "slug": "ready-to-use-puff-pastry-puff-pastry-sheets"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10235",
+      "sourceTaxonomyId": "10235",
+      "name": "rum",
+      "slug": "rum"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1386",
+      "sourceTaxonomyId": "1386",
+      "name": "puff pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3712",
+      "sourceTaxonomyId": "3712",
+      "name": "King Cake",
+      "slug": "king-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3714",
+      "sourceTaxonomyId": "3714",
+      "name": "Galette de Rois",
+      "slug": "galette-de-rois"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3720",
+      "sourceTaxonomyId": "3720",
+      "name": "almond powder",
+      "slug": "almond-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3722",
+      "sourceTaxonomyId": "3722",
+      "name": "feve",
+      "slug": "feve-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5155",
+      "sourceTaxonomyId": "5155",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8033",
+      "sourceTaxonomyId": "8033",
+      "name": "holiday entertaining",
+      "slug": "holiday-entertaining"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8101",
+      "sourceTaxonomyId": "8101",
+      "name": "very popular in france",
+      "slug": "very-popular-in-france"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8458",
+      "sourceTaxonomyId": "8458",
+      "name": "winter season",
+      "slug": "winter-season"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26505",
+      "sourceTaxonomyId": "26505",
+      "name": "almond cream",
+      "slug": "almond-cream-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26507",
+      "sourceTaxonomyId": "26507",
+      "name": "Epiphany",
+      "slug": "epiphany-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "110",
+        "minutes": 110
+      },
+      "custom": {
+        "label": "Resting time (refrigerator)",
+        "duration": {
+          "raw": "60",
+          "minutes": 60
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27761",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 cup (100 g) softened butter",
+            "quantity": {
+              "raw": "1/2 cup (100 g)",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "softened butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 cup (100 g) sugar",
+            "quantity": {
+              "raw": "1/2 cup (100 g)",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 cup (100 g) almond flour",
+            "quantity": {
+              "raw": "1/2 cup (100 g)",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 Tbsp vanilla extract (optional)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "vanilla extract",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 Tbsp rum (optional)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "rum",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 sheets ready-to-use puff pastry ( Puff Pastry Sheets)",
+            "quantity": {
+              "raw": "2 sheets",
+              "value": 2,
+              "unit": "sheets",
+              "scalable": true
+            },
+            "name": "ready-to-use puff pastry ( Puff Pastry Sheets)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 egg yolk",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg yolk",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Beat the softened butter and sugar together, then beat in the eggs. Stir in the almond powder. Add vanilla, rum and set it aside.",
+            "mediaId": "wordpress-attachment:975"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Roll out one sheet of puff pastry. Poke holes with fork.",
+            "mediaId": "wordpress-attachment:976"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Spread the almond filling over the center of the dough, leaving a 1 inch (1.2 cm) exposed border. If you wish, place a little porcelain figurine \"fève\" somewhere in the almond filling.",
+            "mediaId": "wordpress-attachment:14125"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Brush the edges of the pastry with water and cover with another circle of dough on top and press down to seal the edges.",
+            "mediaId": "wordpress-attachment:1133"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Brush with beaten yolk then use a paring knife to create a design on top of your galette,\n\nPoke 8-10 holes in the top, to allow steam to escape while baking.",
+            "mediaId": "wordpress-attachment:977"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Place in the refrigerator for 1 hour.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Preheat oven to 380 degrees F. Bake for 30-35 minutes or until the pastry is golden brown. (Bake on the bottom rack of the oven).",
+            "mediaId": "wordpress-attachment:959"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27761",
+      "sourceId": "27761",
+      "path": "/recipes/media/wordpress/27761.png",
+      "alt": null,
+      "width": 800,
+      "height": 560
+    },
+    {
+      "id": "wordpress-attachment:975",
+      "sourceId": "975",
+      "path": "/recipes/media/wordpress/975.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:976",
+      "sourceId": "976",
+      "path": "/recipes/media/wordpress/976.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:14125",
+      "sourceId": "14125",
+      "path": "/recipes/media/wordpress/14125.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:1133",
+      "sourceId": "1133",
+      "path": "/recipes/media/wordpress/1133.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:977",
+      "sourceId": "977",
+      "path": "/recipes/media/wordpress/977.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:959",
+      "sourceId": "959",
+      "path": "/recipes/media/wordpress/959.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

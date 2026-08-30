@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27029",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26273",
+  "slug": "brandied-fruit",
+  "source": {
+    "system": "wordpress",
+    "postId": "27029",
+    "recipeId": "27029",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-brandied-fruit",
+    "createdAt": "2023-06-09T00:18:02+00:00",
+    "modifiedAt": "2023-06-09T00:18:08+00:00",
+    "editorialPostId": "27028",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "brandied-fruit",
+    "editorialCreatedAt": "2023-06-09T00:18:02+00:00",
+    "editorialModifiedAt": "2023-06-09T00:18:05+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/brandied-fruit/"
+  ],
+  "title": "Brandied Fruit",
+  "description": "The brandy (or cognac) can be substituted by whisky. But cognac gives a special, exquisite taste and aroma!\n\nFresh fruits and berries can be replaced with canned fruits.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Peaches, apricots, cherries, blackcurrants and pineapples with brandy are a great adult-only fruit dessert.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>These brandied fruits can be enjoyed on their own or combined with another <a href=\"https://mycafegourmand.com/recipes/desserts/\" target=\"_blank\" rel=\"noreferrer noopener\">dessert</a>. You can add nutmeg and cinnamon.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27029,\"template\":\"chic-template-english\",\"updated\":1686269575550} -->\n<!--WPRM Recipe 27029-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Brandied Fruit</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_7658.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>The brandy (or cognac) can be substituted by whisky. But cognac gives a special, exquisite taste and aroma!</p><p>Fresh fruits and berries can be replaced with canned fruits.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 pineapple</li><li>500 g apricots (or peaches)</li><li>500 g sour cherries or black currants</li><li>250 g sugar</li><li>300 ml brandy (cognac)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Peel the pineapple. Cut it in the middle and then cut into cubes.</p><p>Cut the apricots in half and remove the pits. Cut the apricot halves into quarters.</p><p>Pour in the cherries (I use cherries with pits).</p><p>Put all the prepared fruits and berries in a large glass jar with a lid.</p><p>Add the sugar.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_1488.Blog_-150x150.png\"/><br /></li><li><p>Pour in the brandy and close the lid.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_0326.Blog_-150x150.png\"/><br /></li><li><p>Leave to infuse for 21 days in a cool, dark place.</p><p>Gently shake the jar twice a week.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_3072.Blog_-150x150.png\"/><br /></li><li><p>After 21 days, separate the fruit from the liquid. Drain and save the liquid which can be used as a starter to bake bread.</p><p>Fruits and berries can be used as a dessert.</p><p>Note: I have never tried making bread with it. We taste as it is: first the fruit then we drink the liquid! </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/06/IMG_7675.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Peaches, apricots, cherries, blackcurrants and pineapples with brandy are a great adult-only fruit dessert."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26282",
+      "sourceTaxonomyId": "26282",
+      "name": "pineapple",
+      "slug": "pineapple"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26283",
+      "sourceTaxonomyId": "26283",
+      "name": "apricots (or peaches)",
+      "slug": "apricots-or-peaches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26284",
+      "sourceTaxonomyId": "26284",
+      "name": "sour cherries or black currants",
+      "slug": "sour-cherries-or-black-currants"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26285",
+      "sourceTaxonomyId": "26285",
+      "name": "brandy (cognac)",
+      "slug": "brandy-cognac"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "112",
+      "sourceTaxonomyId": "112",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1442",
+      "sourceTaxonomyId": "1442",
+      "name": "pineapple",
+      "slug": "pineapple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2205",
+      "sourceTaxonomyId": "2205",
+      "name": "fruits",
+      "slug": "fruits"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5385",
+      "sourceTaxonomyId": "5385",
+      "name": "party drink",
+      "slug": "party-drink"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7165",
+      "sourceTaxonomyId": "7165",
+      "name": "pineapple slices",
+      "slug": "pineapple-slices"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7167",
+      "sourceTaxonomyId": "7167",
+      "name": "pineapple from can",
+      "slug": "pineapple-from-can"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7169",
+      "sourceTaxonomyId": "7169",
+      "name": "canned pineapple",
+      "slug": "canned-pineapple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25586",
+      "sourceTaxonomyId": "25586",
+      "name": "cherries",
+      "slug": "cherries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25589",
+      "sourceTaxonomyId": "25589",
+      "name": "cherry",
+      "slug": "cherry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25622",
+      "sourceTaxonomyId": "25622",
+      "name": "how to prepare",
+      "slug": "how-to-prepare"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10",
+      "value": 10,
+      "unit": null,
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "30250",
+        "minutes": 30250
+      },
+      "custom": {
+        "label": "Temps d'infusion",
+        "duration": {
+          "raw": "30240",
+          "minutes": 30240
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26976",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 pineapple",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pineapple",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "500 g apricots (or peaches)",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "apricots (or peaches)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 g sour cherries or black currants",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sour cherries or black currants",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "250 g sugar",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "300 ml brandy (cognac)",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "brandy (cognac)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel the pineapple. Cut it in the middle and then cut into cubes.\n\nCut the apricots in half and remove the pits. Cut the apricot halves into quarters.\n\nPour in the cherries (I use cherries with pits).\n\nPut all the prepared fruits and berries in a large glass jar with a lid.\n\nAdd the sugar.",
+            "mediaId": "wordpress-attachment:26962"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Pour in the brandy and close the lid.",
+            "mediaId": "wordpress-attachment:26961"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Leave to infuse for 21 days in a cool, dark place.\n\nGently shake the jar twice a week.",
+            "mediaId": "wordpress-attachment:26963"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "After 21 days, separate the fruit from the liquid. Drain and save the liquid which can be used as a starter to bake bread.\n\nFruits and berries can be used as a dessert.\n\nNote: I have never tried making bread with it. We taste as it is: first the fruit then we drink the liquid!",
+            "mediaId": "wordpress-attachment:26977"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26976",
+      "sourceId": "26976",
+      "path": "/recipes/media/wordpress/26976.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26962",
+      "sourceId": "26962",
+      "path": "/recipes/media/wordpress/26962.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26961",
+      "sourceId": "26961",
+      "path": "/recipes/media/wordpress/26961.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26963",
+      "sourceId": "26963",
+      "path": "/recipes/media/wordpress/26963.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26977",
+      "sourceId": "26977",
+      "path": "/recipes/media/wordpress/26977.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

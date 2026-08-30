@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29521",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:25522",
+  "slug": "cherry-clafoutis",
+  "source": {
+    "system": "wordpress",
+    "postId": "29521",
+    "recipeId": "29521",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cherry-clafoutis",
+    "createdAt": "2026-06-19T22:36:00+00:00",
+    "modifiedAt": "2026-06-21T03:33:08+00:00",
+    "editorialPostId": "29520",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cherry-clafoutis",
+    "editorialCreatedAt": "2026-06-19T22:36:00+00:00",
+    "editorialModifiedAt": "2026-06-20T22:06:56+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/cherry-clafoutis/"
+  ],
+  "title": "Cherry clafoutis",
+  "description": "Here’s the classic version of cherry clafoutis made with pitted cherries. I recommend removing the pits — it’s much easier to eat that way!For a more elegant presentation, you can bake it in small molds or ramekins.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This is my favorite cherry clafoutis recipe — a delightful take from the classic version that I’ve adapted with my own twist. With cherry season in full swing, this simple yet irresistible dessert is the perfect way to enjoy summer’s sweet bounty!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29521,\"template\":\"chic-template-english\",\"updated\":1759383564838} -->\n<!--WPRM Recipe 29521-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Cherry clafoutis</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1471.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Here’s the classic version of cherry clafoutis made with pitted cherries. I recommend removing the pits — it’s much easier to eat that way!For a more elegant presentation, you can bake it in small molds or ramekins.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 <a href=\"https://en.wiktionary.org/wiki/%C5%93ufs\">eggs</a></li><li>100 g sugar</li><li>110 g flour</li><li>1  pinch salt</li><li>450 ml liquid cream (35%)</li><li>150 ml milk</li><li>1 cuillère a soupe liquid vanilla</li><li>600 g pitted cherries (griottes)</li><li>Bit of  sugar for the mold</li><li>Bit of  butter for the mold</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat the oven (210°С/ 410°F).</p></li><li><p>Mix the eggs and  the sugar</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1430.Blog_-150x150.png\"/><br /></li><li><p>Add milk and liquid cream. Mix.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1432.Blog_-150x150.png\"/><br /></li><li><p>Add vanilla.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1436.Blog_-150x150.png\"/><br /></li><li><p>Add flour and salt. Mix well one more time. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1438.Blog_-150x150.png\"/><br /></li><li><p>Generously butter the baking dish(es) and sprinkle them with sugar.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1443.Blog_-150x150.png\"/><br /></li><li><p>Spread the pitted cherries over the bottom of the molds.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1452.Blog_-150x150.png\"/><br /></li><li><p>Pour in the clafoutis batter. The cherries should remain visible.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1458.Blog_-150x150.png\"/><br /></li><li><p>Bake for 30-40 minutes. Baking time depends on the size of the molds.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1460.Blog_-150x150.png\"/><br /></li><li><p>Serve warm or cold. In my opinion, it tastes better cold.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/05/IMG_1474.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "This is my favorite cherry clafoutis recipe. With cherry season in full swing, this simple dessert is the perfect summer treat!"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24262",
+      "sourceTaxonomyId": "24262",
+      "name": "flour",
+      "slug": "flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27269",
+      "sourceTaxonomyId": "27269",
+      "name": "pitted cherries (griottes)",
+      "slug": "pitted-cherries-griottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27270",
+      "sourceTaxonomyId": "27270",
+      "name": "sugar for the mold",
+      "slug": "sugar-for-the-mold"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27271",
+      "sourceTaxonomyId": "27271",
+      "name": "butter for the mold",
+      "slug": "butter-for-the-mold"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27272",
+      "sourceTaxonomyId": "27272",
+      "name": "liquid cream (35%)",
+      "slug": "liquid-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27273",
+      "sourceTaxonomyId": "27273",
+      "name": "liquid vanilla",
+      "slug": "liquid-vanilla"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25475",
+      "sourceTaxonomyId": "25475",
+      "name": "pinch",
+      "slug": "pinch"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "70",
+      "sourceTaxonomyId": "70",
+      "name": "Desserts",
+      "slug": "desserts-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5185",
+      "sourceTaxonomyId": "5185",
+      "name": "summer dessert",
+      "slug": "summer-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25586",
+      "sourceTaxonomyId": "25586",
+      "name": "cherries",
+      "slug": "cherries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25589",
+      "sourceTaxonomyId": "25589",
+      "name": "cherry",
+      "slug": "cherry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27275",
+      "sourceTaxonomyId": "27275",
+      "name": "clafoutis",
+      "slug": "clafoutis-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:24790",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g sugar",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "110 g flour",
+            "quantity": {
+              "raw": "110 g",
+              "value": 110,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 pinch salt",
+            "quantity": {
+              "raw": "1 pinch",
+              "value": 1,
+              "unit": "pinch",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "450 ml liquid cream (35%)",
+            "quantity": {
+              "raw": "450 ml",
+              "value": 450,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "liquid cream (35%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "150 ml milk",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 cuillère a soupe liquid vanilla",
+            "quantity": {
+              "raw": "1 cuillère a soupe",
+              "value": 1,
+              "unit": "cuillère a soupe",
+              "scalable": true
+            },
+            "name": "liquid vanilla",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "600 g pitted cherries (griottes)",
+            "quantity": {
+              "raw": "600 g",
+              "value": 600,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "pitted cherries (griottes)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Bit of sugar for the mold",
+            "quantity": {
+              "raw": "Bit of",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "sugar for the mold",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Bit of butter for the mold",
+            "quantity": {
+              "raw": "Bit of",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "butter for the mold",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven (210°С/ 410°F).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mix the eggs and the sugar",
+            "mediaId": "wordpress-attachment:24787"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add milk and liquid cream. Mix.",
+            "mediaId": "wordpress-attachment:24798"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add vanilla.",
+            "mediaId": "wordpress-attachment:24799"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add flour and salt. Mix well one more time.",
+            "mediaId": "wordpress-attachment:24800"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Generously butter the baking dish(es) and sprinkle them with sugar.",
+            "mediaId": "wordpress-attachment:24801"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Spread the pitted cherries over the bottom of the molds.",
+            "mediaId": "wordpress-attachment:24802"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Pour in the clafoutis batter. The cherries should remain visible.",
+            "mediaId": "wordpress-attachment:24803"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Bake for 30-40 minutes. Baking time depends on the size of the molds.",
+            "mediaId": "wordpress-attachment:24804"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Serve warm or cold. In my opinion, it tastes better cold.",
+            "mediaId": "wordpress-attachment:24797"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:24790",
+      "sourceId": "24790",
+      "path": "/recipes/media/wordpress/24790.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24787",
+      "sourceId": "24787",
+      "path": "/recipes/media/wordpress/24787.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24798",
+      "sourceId": "24798",
+      "path": "/recipes/media/wordpress/24798.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24799",
+      "sourceId": "24799",
+      "path": "/recipes/media/wordpress/24799.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24800",
+      "sourceId": "24800",
+      "path": "/recipes/media/wordpress/24800.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24801",
+      "sourceId": "24801",
+      "path": "/recipes/media/wordpress/24801.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24802",
+      "sourceId": "24802",
+      "path": "/recipes/media/wordpress/24802.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24803",
+      "sourceId": "24803",
+      "path": "/recipes/media/wordpress/24803.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24804",
+      "sourceId": "24804",
+      "path": "/recipes/media/wordpress/24804.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24797",
+      "sourceId": "24797",
+      "path": "/recipes/media/wordpress/24797.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:18825",
+  "locale": "ru",
+  "canonicalPath": "/ru/слоеное-тесто/",
+  "translationGroupId": "wordpress:post-translations:17359",
+  "source": {
+    "system": "wordpress",
+    "postId": 18825,
+    "sourcePath": "/ru/слоеное-тесто/",
+    "sourceSlug": "%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be",
+    "createdAt": "2019-11-10T02:37:51Z",
+    "modifiedAt": "2019-11-10T02:46:09Z"
+  },
+  "title": "Слоеное тесто",
+  "excerpt": null,
+  "publishedAt": "2019-11-10T02:37:51Z",
+  "modifiedAt": "2019-11-10T02:46:09Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

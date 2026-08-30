@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { recipeCatalog } from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
   findRecipeByRoute,
@@ -16,13 +16,12 @@ import {
   isLocalizedLocale
 } from "../src/lib/recipe-routes";
 
-const meatballsSoup = recipeCatalog[0]!;
-
 test("route generation uses the English root and language prefixes", () => {
-  assert.deepEqual(getEnglishRecipeParams(recipeCatalog), [
-    { slug: "meatballs-soup" }
+  const catalog = [recipeFixture];
+  assert.deepEqual(getEnglishRecipeParams(catalog), [
+    { slug: "fixture-recipe" }
   ]);
-  assert.deepEqual(getLocalizedRecipeParams(recipeCatalog), []);
+  assert.deepEqual(getLocalizedRecipeParams(catalog), []);
   assert.deepEqual(getLocalizedLandingParams(), [
     { locale: "fr" },
     { locale: "ru" }
@@ -31,34 +30,35 @@ test("route generation uses the English root and language prefixes", () => {
   assert.equal(getPageLocale(["fr"]), "fr");
   assert.equal(getPageLocale(["ru", "recipes", "soupe"]), "ru");
   assert.equal(getPageLocale(["de"]), "en");
-  assert.deepEqual(getStaticPageParams(recipeCatalog), [
+  assert.deepEqual(getStaticPageParams(catalog), [
     { segments: [] },
     { segments: ["fr"] },
     { segments: ["ru"] },
-    { segments: ["recipes", "meatballs-soup"] }
+    { segments: ["recipes", "fixture-recipe"] }
   ]);
   assert.equal(getLocaleHomePath("en"), "/");
   assert.equal(getLocaleHomePath("fr"), "/fr");
-  assert.equal(getRecipePath(meatballsSoup), "/recipes/meatballs-soup");
+  assert.equal(getRecipePath(recipeFixture), "/recipes/fixture-recipe");
 });
 
 test("locale lookup rejects unsupported locales and missing records", () => {
-  assert.equal(findRecipeByRoute("de", "meatballs-soup", recipeCatalog), undefined);
-  assert.equal(findRecipeByRoute("en", "does-not-exist", recipeCatalog), undefined);
-  assert.deepEqual(getRecipesByLocale("de", recipeCatalog), []);
+  const catalog = [recipeFixture];
+  assert.equal(findRecipeByRoute("de", "fixture-recipe", catalog), undefined);
+  assert.equal(findRecipeByRoute("en", "does-not-exist", catalog), undefined);
+  assert.deepEqual(getRecipesByLocale("de", catalog), []);
   assert.equal(isLocalizedLocale("en"), false);
   assert.equal(isLocalizedLocale("de"), false);
 });
 
 test("route generation and lookup encode raw localized slugs once", () => {
   const localized = recipeRecordSchema.parse({
-    ...meatballsSoup,
-    id: "wordpress:wprm:2981",
+    ...recipeFixture,
+    id: "test:recipe:ru",
     locale: "ru",
     slug: "суп-с-фрикадельками",
     source: {
-      ...meatballsSoup.source,
-      recipeId: "2981"
+      ...recipeFixture.source,
+      recipeId: "2"
     }
   });
   const catalog = [localized];
@@ -87,7 +87,7 @@ test("route generation and lookup encode raw localized slugs once", () => {
 
 test("route generation rejects unsafe slugs even for bypassed records", () => {
   for (const slug of [".", "..", "%252e%252e", "unsafe%252fpath", "malformed%"]) {
-    const record = Object.assign({}, meatballsSoup, { slug });
+    const record = Object.assign({}, recipeFixture, { slug });
     assert.throws(
       () => getRecipePath(record),
       /unsafe path segment|URL encoding|raw Unicode/

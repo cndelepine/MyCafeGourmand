@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28367",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:27213",
+  "slug": "brookies",
+  "source": {
+    "system": "wordpress",
+    "postId": "28367",
+    "recipeId": "28367",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-brookie",
+    "createdAt": "2025-03-21T22:23:44+00:00",
+    "modifiedAt": "2025-03-22T08:34:12+00:00",
+    "editorialPostId": "28363",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "brookies",
+    "editorialCreatedAt": "2025-03-21T22:23:44+00:00",
+    "editorialModifiedAt": "2025-03-22T08:34:08+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/brookies/"
+  ],
+  "title": "Brookie",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ma version des brookies, un dessert d'origine américaine: moitié brownies, moitié cookies. Pas trop healthy mais tellement bon !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":1} -->\n<h1 class=\"wp-block-heading\"></h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p id=\"block-1b24a77b-e20d-42ae-8322-c1be18704b0a\">Un parfait mélange d'un fondant au chocolat noir et croustillant avec des pépites de chocolat qui va surement plaire aux amateurs de cacao!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28367,\"template\":\"chic-template-french\",\"updated\":1742631824156} -->\n<!--WPRM Recipe 28367-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Brookie</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6628.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Pâte à brownie</h4><ul><li>100 g de chocolat noir ((60% de cacao))</li><li>75 g de beurre</li><li>3 œufs</li><li>100  g de sucre en poudre</li><li>1 cuillère à soupe de farine (tamisée)</li></ul><h4>Pâte à cookie</h4><ul><li>115 g de beurre  (à la température ambiante)</li><li>40 de sucre en poudre</li><li>50 g de sucre roux</li><li>1 œuf</li><li>165 g de farine tamisée</li><li>1/8 cuillère à café de sel fin</li><li>1/2 cuillère à café de bicarbonate de soude</li><li>1 cuillère à café vanille liquide (1/2 sachet de sucre vanillé ou 1/4 gousse de vanille) ((facultatif))</li><li>175 g pépites de chocolat</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Pâte à brownie</h4><ol><li>Préchauffer le four à 180°C (thermostat 6). Beurrer et fariner un moule. \r\n  </li><li><p>Faire fondre le chocolat et le beurre au bain marie ou au micro-onde. Mélanger pour obtenir un mélange homogène.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7863.Blog_-150x150.png\"/><br /></li><li><p>Ajouter le sucre en poudre. Bien mélanger.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6599.Blog_-150x150.png\"/><br /></li><li><p>Un par un, ajouter les œufs.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6601.Blog_-150x150.png\"/><br /></li><li>Incorporer la farine.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6607.Blog_-150x150.png\"/><br /></li><li><p>Verser la préparation dans le moule.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6609.Blog_-150x150.png\"/><br /></li></ol><h4>Pâte à cookie</h4><ol><li><p>Dans une jatte, à l&#039;aide d&#039;un mixeur, battre le beurre, le sucre roux, le sucre en poudre et la vanille.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5525.Blog_-150x150.png\"/><br /></li><li><p>Ajouter l&#039;œuf.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5532.Blog_-150x150.png\"/><br /></li><li><p>Petit à petit, incorporer la farine avec le bicarbonate de soude et le sel. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5534.Blog_-150x150.png\"/><br /></li><li><p>Ajouter les pépites de chocolat. Bien mélanger pour la dernière fois avec une spatule.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5540.Blog_-150x150.png\"/><br /></li><li><p>Répartir la pâte à cookie dans le moule sur la pâte à brownie.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6610.Blog_-150x150.png\"/><br /></li><li><p>Faire cuire au four pendant environ 20 minutes. Vérifier la cuisson avec la lame d&#039;un couteau. Le gâteau doit rester légèrement humide à l’intérieur mais pas liquide. La surface de brookie doit devenir légèrement dorée et croustillante.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6613.Blog_-150x150.png\"/><br /></li><li><p>Laisser refroidir avant de démouler et découper.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6628.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24036",
+      "sourceTaxonomyId": "24036",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24316",
+      "sourceTaxonomyId": "24316",
+      "name": "de sucre roux",
+      "slug": "de-sucre-roux"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24319",
+      "sourceTaxonomyId": "24319",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24482",
+      "sourceTaxonomyId": "24482",
+      "name": "de sel fin",
+      "slug": "de-sel-fin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24483",
+      "sourceTaxonomyId": "24483",
+      "name": "de bicarbonate de soude",
+      "slug": "de-bicarbonate-de-soude"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24583",
+      "sourceTaxonomyId": "24583",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27195",
+      "sourceTaxonomyId": "27195",
+      "name": "vanille liquide (1/2 sachet de sucre vanillé ou 1/4 gousse de vanille)",
+      "slug": "vanille-liquide-1-2-sachet-de-sucre-vanille-ou-1-4-gousse-de-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27196",
+      "sourceTaxonomyId": "27196",
+      "name": "pépites de chocolat",
+      "slug": "pepites-de-chocolat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25461",
+      "sourceTaxonomyId": "25461",
+      "name": "cuillère à café",
+      "slug": "cuillere-a-cafe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1552",
+      "sourceTaxonomyId": "1552",
+      "name": "chocolat",
+      "slug": "chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2327",
+      "sourceTaxonomyId": "2327",
+      "name": "pepites de chocolat",
+      "slug": "pepites-de-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4014",
+      "sourceTaxonomyId": "4014",
+      "name": "dessert americain",
+      "slug": "dessert-americain"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4271",
+      "sourceTaxonomyId": "4271",
+      "name": "fondant",
+      "slug": "fondant-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7706",
+      "sourceTaxonomyId": "7706",
+      "name": "pour le gouter",
+      "slug": "pour-le-gouter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7708",
+      "sourceTaxonomyId": "7708",
+      "name": "moelleux",
+      "slug": "moelleux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27197",
+      "sourceTaxonomyId": "27197",
+      "name": "brownie",
+      "slug": "brownie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27199",
+      "sourceTaxonomyId": "27199",
+      "name": "cookie",
+      "slug": "cookie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27201",
+      "sourceTaxonomyId": "27201",
+      "name": "moitie",
+      "slug": "moitie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27203",
+      "sourceTaxonomyId": "27203",
+      "name": "mi-brownie",
+      "slug": "mi-brownie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27205",
+      "sourceTaxonomyId": "27205",
+      "name": "mi-cookie",
+      "slug": "mi-cookie"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:29249",
+    "ingredientGroups": [
+      {
+        "name": "Pâte à brownie",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 g de chocolat noir (60% de cacao)",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir",
+            "notes": "(60% de cacao)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "75 g de beurre",
+            "quantity": {
+              "raw": "75 g",
+              "value": 75,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 œufs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "100 g de sucre en poudre",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 cuillère à soupe de farine tamisée",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": "tamisée"
+          }
+        ]
+      },
+      {
+        "name": "Pâte à cookie",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "115 g de beurre à la température ambiante",
+            "quantity": {
+              "raw": "115 g",
+              "value": 115,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": "à la température ambiante"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "40 de sucre en poudre",
+            "quantity": {
+              "raw": "40",
+              "value": 40,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g de sucre roux",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre roux",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 œuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "165 g de farine tamisée",
+            "quantity": {
+              "raw": "165 g",
+              "value": 165,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine tamisée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/8 cuillère à café de sel fin",
+            "quantity": {
+              "raw": "1/8 cuillère à café",
+              "value": 0.125,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sel fin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/2 cuillère à café de bicarbonate de soude",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de bicarbonate de soude",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 cuillère à café vanille liquide (1/2 sachet de sucre vanillé ou 1/4 gousse de vanille) (facultatif)",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "vanille liquide (1/2 sachet de sucre vanillé ou 1/4 gousse de vanille)",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "175 g pépites de chocolat",
+            "quantity": {
+              "raw": "175 g",
+              "value": 175,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "pépites de chocolat",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Pâte à brownie",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Beurrer et fariner un moule.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire fondre le chocolat et le beurre au bain marie ou au micro-onde. Mélanger pour obtenir un mélange homogène.",
+            "mediaId": "wordpress-attachment:3427"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter le sucre en poudre. Bien mélanger.",
+            "mediaId": "wordpress-attachment:29242"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Un par un, ajouter les œufs.",
+            "mediaId": "wordpress-attachment:29243"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Incorporer la farine.",
+            "mediaId": "wordpress-attachment:29244"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Verser la préparation dans le moule.",
+            "mediaId": "wordpress-attachment:29245"
+          }
+        ]
+      },
+      {
+        "name": "Pâte à cookie",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une jatte, à l'aide d'un mixeur, battre le beurre, le sucre roux, le sucre en poudre et la vanille.",
+            "mediaId": "wordpress-attachment:8337"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajouter l'œuf.",
+            "mediaId": "wordpress-attachment:8339"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Petit à petit, incorporer la farine avec le bicarbonate de soude et le sel.",
+            "mediaId": "wordpress-attachment:8340"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ajouter les pépites de chocolat. Bien mélanger pour la dernière fois avec une spatule.",
+            "mediaId": "wordpress-attachment:8341"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Répartir la pâte à cookie dans le moule sur la pâte à brownie.",
+            "mediaId": "wordpress-attachment:29246"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Faire cuire au four pendant environ 20 minutes. Vérifier la cuisson avec la lame d'un couteau. Le gâteau doit rester légèrement humide à l’intérieur mais pas liquide. La surface de brookie doit devenir légèrement dorée et croustillante.",
+            "mediaId": "wordpress-attachment:29247"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Laisser refroidir avant de démouler et découper.",
+            "mediaId": "wordpress-attachment:29249"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:29249",
+      "sourceId": "29249",
+      "path": "/recipes/media/wordpress/29249.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:3427",
+      "sourceId": "3427",
+      "path": "/recipes/media/wordpress/3427.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:29242",
+      "sourceId": "29242",
+      "path": "/recipes/media/wordpress/29242.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:29243",
+      "sourceId": "29243",
+      "path": "/recipes/media/wordpress/29243.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:29244",
+      "sourceId": "29244",
+      "path": "/recipes/media/wordpress/29244.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:29245",
+      "sourceId": "29245",
+      "path": "/recipes/media/wordpress/29245.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8337",
+      "sourceId": "8337",
+      "path": "/recipes/media/wordpress/8337.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8339",
+      "sourceId": "8339",
+      "path": "/recipes/media/wordpress/8339.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8340",
+      "sourceId": "8340",
+      "path": "/recipes/media/wordpress/8340.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8341",
+      "sourceId": "8341",
+      "path": "/recipes/media/wordpress/8341.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:29246",
+      "sourceId": "29246",
+      "path": "/recipes/media/wordpress/29246.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:29247",
+      "sourceId": "29247",
+      "path": "/recipes/media/wordpress/29247.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

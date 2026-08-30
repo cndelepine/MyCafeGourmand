@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21968",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3479",
+  "slug": "truffes-au-chocolat-noir-avec-des-noisettes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21968",
+    "recipeId": "21968",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-truffes-au-chocolat-avec-des-noisettes",
+    "createdAt": "2022-11-30T22:02:00+00:00",
+    "modifiedAt": "2024-05-05T20:22:53+00:00",
+    "editorialPostId": "7280",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "truffes-au-chocolat-noir-avec-des-noisettes",
+    "editorialCreatedAt": "2022-11-30T22:02:00+00:00",
+    "editorialModifiedAt": "2024-04-10T08:15:17+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/truffes-au-chocolat-noir-avec-des-noisettes/"
+  ],
+  "title": "Truffes au chocolat avec des noisettes",
+  "description": "Les noisettes peuvent être remplacées par des noix, noix de pécan, noix de cajou ou macadamia. Par contre, il est important de griller les noix pour plus de saveur. Surtout, assurez-vous que vos amis n'ont pas d'allergie ! En cas de doute, préparez les truffes nature, elles sont aussi délicieuses !",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Des <span id=\":18t.24\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">délicieuses</span> truffes au chocolat noir enrobées de cacao amer et avec une surprise&nbsp;<span class=\"wpurp-recipe-ingredient-unit\" data-original=\"cuillère à café\">à</span> l'intérieur : une noisette croquante. Difficile <span id=\":18t.25\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\"><span class=\"wpurp-recipe-ingredient-unit\" data-original=\"cuillère à café\">de</span></span> <span id=\":18t.26\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">résister et</span> n'en manger qu'une ! Vraiment facile <span class=\"wpurp-recipe-ingredient-unit\" data-original=\"cuillère à café\">à</span> faire&nbsp;<span class=\"wpurp-recipe-ingredient-unit\" data-original=\"cuillère à café\">à</span> la maison. Les truffes se conservent dans le <span id=\":18t.27\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">réfrigérateur</span> pendant&nbsp;environ 5 jours et sont pratiques pour servir avec un <a href=\"https://mycafegourmand.com/fr/cafe-gourmand-2\">Café <span id=\":18t.28\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">gourmand</span></a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21968,\"template\":\"chic-template-french\",\"updated\":1712736413531} -->\n<!--WPRM Recipe 21968-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Truffes au chocolat avec des noisettes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9098.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLes noisettes peuvent être remplacées par des noix, noix de pécan, noix de cajou ou macadamia. Par contre, il est important de griller les noix pour plus de saveur. Surtout, assurez-vous que vos amis n'ont pas d'allergie ! En cas de doute, préparez les truffes nature, elles sont aussi délicieuses !\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>150 ml de crème liquide entière</li><li>200 g de chocolat noir</li><li>50 g de beurre</li><li>30 g de noisettes ((facultatif))</li><li>2 cuillères à soupe de cacao en poudre (non sucré)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Porter la crème liquide à ébullition. La verser sur le chocolat et laisser reposer 1-2 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9030.Blog_-150x150.png\"/><br /></li><li><p>Ajouter le beurre et mélanger pour obtenir un mélange homogène. Mettre au congélateur pendant 2 heures.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9034.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 160 C (thermostat 5-6). Faire dorer les noisettes au four pendant 10-15 minutes, en les mélangeant souvent. Laisser refroidir les noisettes puis enlever leur peau marron en frottant entre les doigts. Je fais des petites truffes : pour cela, je coupe chaque noisette en deux. Mais si vous préférez, vous pouvez faire des truffes plus grandes avec une noisette entière.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9068.Blog_-150x150.png\"/><br /></li><li>Prélever l'équivalent d'une cuillerée à café de ganache. Enfoncer une demi noisette ou une noisette entière dans la ganache. (Je n'ai pas de photo quand je mets la noisette dans la ganache car ce n'est pas pratique de manipuler l'appareil photo en travaillant le chocolat. ;) )<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9047.Blog_-150x150.png\"/><br /></li><li>Façonner des boules entre les paumes de vos mains. Enrober les truffes de cacao.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9051.Blog_-150x150.png\"/><br /></li><li> Laisser reposer dans le réfrigérateur pendant 1 heure avant de les déguster.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9092-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26708",
+      "sourceTaxonomyId": "26708",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24539",
+      "sourceTaxonomyId": "24539",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24583",
+      "sourceTaxonomyId": "24583",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24652",
+      "sourceTaxonomyId": "24652",
+      "name": "de noisettes",
+      "slug": "de-noisettes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "240",
+      "sourceTaxonomyId": "240",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "709",
+      "sourceTaxonomyId": "709",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2641",
+      "sourceTaxonomyId": "2641",
+      "name": "de noisettes",
+      "slug": "de-noisettes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1552",
+      "sourceTaxonomyId": "1552",
+      "name": "chocolat",
+      "slug": "chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2212",
+      "sourceTaxonomyId": "2212",
+      "name": "creme liquide entiere",
+      "slug": "creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3166",
+      "sourceTaxonomyId": "3166",
+      "name": "sans farine",
+      "slug": "sans-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3465",
+      "sourceTaxonomyId": "3465",
+      "name": "Truffes au chocolat",
+      "slug": "truffes-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3467",
+      "sourceTaxonomyId": "3467",
+      "name": "noisettes",
+      "slug": "noisettes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3469",
+      "sourceTaxonomyId": "3469",
+      "name": "idee pour offrir",
+      "slug": "idee-pour-offrir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3471",
+      "sourceTaxonomyId": "3471",
+      "name": "noisettes grillees",
+      "slug": "noisettes-grillees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3473",
+      "sourceTaxonomyId": "3473",
+      "name": "cacao en poudre",
+      "slug": "cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3475",
+      "sourceTaxonomyId": "3475",
+      "name": "cacao amer",
+      "slug": "cacao-amer"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3477",
+      "sourceTaxonomyId": "3477",
+      "name": "sans oeuf",
+      "slug": "sans-oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6065",
+      "sourceTaxonomyId": "6065",
+      "name": "fait maison",
+      "slug": "fait-maison"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8467",
+      "sourceTaxonomyId": "8467",
+      "name": "fetes de la fin d'annee",
+      "slug": "fetes-de-la-fin-dannee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "45 pièces",
+      "value": 45,
+      "unit": "pièces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "2",
+        "minutes": 2
+      },
+      "rest": null,
+      "total": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:7297",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 ml de crème liquide entière",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g de chocolat noir",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g de beurre",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "30 g de noisettes (facultatif)",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noisettes",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 cuillères à soupe de cacao en poudre non sucré",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de cacao en poudre",
+            "notes": "non sucré"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Porter la crème liquide à ébullition. La verser sur le chocolat et laisser reposer 1-2 minutes.",
+            "mediaId": "wordpress-attachment:7281"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajouter le beurre et mélanger pour obtenir un mélange homogène. Mettre au congélateur pendant 2 heures.",
+            "mediaId": "wordpress-attachment:7283"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Préchauffer le four à 160 C (thermostat 5-6). Faire dorer les noisettes au four pendant 10-15 minutes, en les mélangeant souvent. Laisser refroidir les noisettes puis enlever leur peau marron en frottant entre les doigts. Je fais des petites truffes : pour cela, je coupe chaque noisette en deux. Mais si vous préférez, vous pouvez faire des truffes plus grandes avec une noisette entière.",
+            "mediaId": "wordpress-attachment:7286"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Prélever l'équivalent d'une cuillerée à café de ganache. Enfoncer une demi noisette ou une noisette entière dans la ganache. (Je n'ai pas de photo quand je mets la noisette dans la ganache car ce n'est pas pratique de manipuler l'appareil photo en travaillant le chocolat. ;) )",
+            "mediaId": "wordpress-attachment:7284"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Façonner des boules entre les paumes de vos mains. Enrober les truffes de cacao.",
+            "mediaId": "wordpress-attachment:7285"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Laisser reposer dans le réfrigérateur pendant 1 heure avant de les déguster.",
+            "mediaId": "wordpress-attachment:7296"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7297",
+      "sourceId": "7297",
+      "path": "/recipes/media/wordpress/7297.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7281",
+      "sourceId": "7281",
+      "path": "/recipes/media/wordpress/7281.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7283",
+      "sourceId": "7283",
+      "path": "/recipes/media/wordpress/7283.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7286",
+      "sourceId": "7286",
+      "path": "/recipes/media/wordpress/7286.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7284",
+      "sourceId": "7284",
+      "path": "/recipes/media/wordpress/7284.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7285",
+      "sourceId": "7285",
+      "path": "/recipes/media/wordpress/7285.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7296",
+      "sourceId": "7296",
+      "path": "/recipes/media/wordpress/7296.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

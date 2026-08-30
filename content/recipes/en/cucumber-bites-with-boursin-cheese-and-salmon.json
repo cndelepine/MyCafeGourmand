@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21265",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:12795",
+  "slug": "cucumber-bites-with-boursin-cheese-and-salmon",
+  "source": {
+    "system": "wordpress",
+    "postId": "21265",
+    "recipeId": "21265",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cucumber-bites-with-boursin-cheese-and-salmon",
+    "createdAt": "2022-12-19T14:42:00+00:00",
+    "modifiedAt": "2022-12-19T15:15:44+00:00",
+    "editorialPostId": "17038",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cucumber-bites-with-boursin-cheese-and-salmon",
+    "editorialCreatedAt": "2022-12-19T14:42:00+00:00",
+    "editorialModifiedAt": "2022-12-19T05:56:33+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/cucumber-bites-with-boursin-cheese-and-salmon/"
+  ],
+  "title": "Cucumber Bites With Boursin Cheese And Salmon",
+  "description": "If you are not familiar with Boursin™ cheese or you don't have any, don't worry. A good substitute for Boursin is Philadelphia cream cheese or farmer cheese with some garlic and fresh herbs.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The freshness of the cucumber and the bite of Boursin cheese in this smoked salmon roll will hit all of your taste buds.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21265,\"template\":\"chic-template-english\",\"updated\":1612726601027} -->\n<!--WPRM Recipe 21265-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Cucumber Bites With Boursin Cheese And Salmon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_1466.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf you are not familiar with Boursin™ cheese or you don't have any, don't worry.  A good substitute for Boursin is Philadelphia cream cheese or farmer cheese with some garlic and fresh herbs. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 english cucumber</li><li>8 thin smoked salmon slices</li><li>90 g Boursin cheese</li><li>some fresh dill ((optional))</li><li>2 pinches  paprika ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut the cucumber into slices (1/2 cm). Cut each slice of smoked salmon in half lengthwise (smaller than your cucumber slice).</li><li>Spread 1tsp of Boursin™ cheese on each salmon strip and roll it up. </li><li>Top each cucumber slice with a salmon roll. Insert a wooden stick down the center to keep everything together. Garnish with finely chopped fresh dill and paprika. Serve at once or keep refrigerated until needed.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_1472.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24146",
+      "sourceTaxonomyId": "24146",
+      "name": "english cucumber",
+      "slug": "english-cucumber"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24147",
+      "sourceTaxonomyId": "24147",
+      "name": "thin smoked salmon slices",
+      "slug": "thin-smoked-salmon-slices"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24148",
+      "sourceTaxonomyId": "24148",
+      "name": "Boursin cheese",
+      "slug": "boursin-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24149",
+      "sourceTaxonomyId": "24149",
+      "name": "fresh dill",
+      "slug": "fresh-dill"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24150",
+      "sourceTaxonomyId": "24150",
+      "name": "paprika",
+      "slug": "paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "515",
+      "sourceTaxonomyId": "515",
+      "name": "paprika",
+      "slug": "paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "578",
+      "sourceTaxonomyId": "578",
+      "name": "fresh dill",
+      "slug": "fresh-dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4118",
+      "sourceTaxonomyId": "4118",
+      "name": "english cucumber",
+      "slug": "english-cucumber"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15672",
+      "sourceTaxonomyId": "15672",
+      "name": "Boursin cheese",
+      "slug": "boursin-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15689",
+      "sourceTaxonomyId": "15689",
+      "name": "thin smoked salmon slices",
+      "slug": "thin-smoked-salmon-slices"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8",
+      "sourceTaxonomyId": "8",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1512",
+      "sourceTaxonomyId": "1512",
+      "name": "smoked salmon",
+      "slug": "smoked-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4413",
+      "sourceTaxonomyId": "4413",
+      "name": "simple and elegant",
+      "slug": "simple-and-elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4796",
+      "sourceTaxonomyId": "4796",
+      "name": "cucumber",
+      "slug": "cucumber"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 persons",
+      "value": 6,
+      "unit": "persons",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:15344",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 english cucumber",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "english cucumber",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "8 thin smoked salmon slices",
+            "quantity": {
+              "raw": "8",
+              "value": 8,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "thin smoked salmon slices",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "90 g Boursin cheese",
+            "quantity": {
+              "raw": "90 g",
+              "value": 90,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "Boursin cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "some fresh dill (optional)",
+            "quantity": {
+              "raw": "some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh dill",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 pinches paprika (optional)",
+            "quantity": {
+              "raw": "2 pinches",
+              "value": 2,
+              "unit": "pinches",
+              "scalable": true
+            },
+            "name": "paprika",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut the cucumber into slices (1/2 cm). Cut each slice of smoked salmon in half lengthwise (smaller than your cucumber slice).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Spread 1tsp of Boursin™ cheese on each salmon strip and roll it up.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Top each cucumber slice with a salmon roll. Insert a wooden stick down the center to keep everything together. Garnish with finely chopped fresh dill and paprika. Serve at once or keep refrigerated until needed.",
+            "mediaId": "wordpress-attachment:15346"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15344",
+      "sourceId": "15344",
+      "path": "/recipes/media/wordpress/15344.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15346",
+      "sourceId": "15346",
+      "path": "/recipes/media/wordpress/15346.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

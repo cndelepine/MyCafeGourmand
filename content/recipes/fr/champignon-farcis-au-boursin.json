@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21982",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:22980",
+  "slug": "champignon-farcis-au-boursin",
+  "source": {
+    "system": "wordpress",
+    "postId": "21982",
+    "recipeId": "21982",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-champignon-farcis-au-boursin",
+    "createdAt": "2025-01-29T02:57:42+00:00",
+    "modifiedAt": "2025-02-10T01:14:19+00:00",
+    "editorialPostId": "19615",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "champignon-farcis-au-boursin",
+    "editorialCreatedAt": "2025-01-29T02:57:42+00:00",
+    "editorialModifiedAt": "2025-02-10T01:13:54+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/champignon-farcis-au-boursin/"
+  ],
+  "title": "Champignon farcis au Boursin™",
+  "description": "Le fromage Boursin™ est assez salé donc pas la peine d'en rajouter; par contre, si vous aimez les plats épicés, poivrez selon votre goût.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les champignons de petite taille sont parfaits pour préparer ces amuse-bouches. Voici une recette super simple avec seulement 2 ingrédients : les champignons et le fromage aux herbes type Boursin™. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21982,\"template\":\"chic-template-french\",\"updated\":1659211751510} -->\n<!--WPRM Recipe 21982-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Champignon farcis au Boursin™</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1960.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLe fromage Boursin™ est assez salé donc pas la peine d'en rajouter; par contre, si vous aimez les plats épicés, poivrez selon votre goût.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>30 petits champignons (portobello ou champignons de Paris) nettoyés (nettoyés)</li><li>150 g Boursin™ (ou un autre fromage frais aux herbes)</li><li>Poivre du moulin</li><li>Un peu de persil (d'aneth ou de ciboulette) (ciselé)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 200С. </li><li>Retirer les pieds des champignons en faisant attention de ne pas abîmer les chapeaux. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1947.Blog_-150x150.png\"/><br /></li><li>Placer les chapeaux dans un plat allant au four. Poivrer. Garnir chaque chapeau avec 1-2 cuillères à café de Boursin™ .<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1949.Blog_-150x150.png\"/><br /></li><li>Enfourner et laisser gratiner pendant environ 25 minutes. Le temps de cuisson dépend de la taille des champignons et de votre four.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1954.Blog_-150x150.png\"/><br /></li><li>Sortir les champignons du four, saupoudrer avec les herbes,<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1963.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24611",
+      "sourceTaxonomyId": "24611",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24657",
+      "sourceTaxonomyId": "24657",
+      "name": "petits champignons (portobello ou champignons de Paris) nettoyés",
+      "slug": "petits-champignons-portobello-ou-champignons-de-paris-nettoyes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24658",
+      "sourceTaxonomyId": "24658",
+      "name": "Boursin™ (ou un autre fromage frais aux herbes)",
+      "slug": "boursin-ou-un-autre-fromage-frais-aux-herbes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24659",
+      "sourceTaxonomyId": "24659",
+      "name": "de persil (d'aneth ou de ciboulette)",
+      "slug": "de-persil-daneth-ou-de-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3461",
+      "sourceTaxonomyId": "3461",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5543",
+      "sourceTaxonomyId": "5543",
+      "name": "de persil (d'aneth ou de ciboulette)",
+      "slug": "de-persil-daneth-ou-de-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "22946",
+      "sourceTaxonomyId": "22946",
+      "name": "petits champignons (portobello ou champignons de Paris) nettoyés",
+      "slug": "petits-champignons-portobello-ou-champignons-de-paris-nettoyes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "22949",
+      "sourceTaxonomyId": "22949",
+      "name": "Boursin™ (ou un autre fromage frais aux herbes)",
+      "slug": "boursin-ou-un-autre-fromage-frais-aux-herbes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1486",
+      "sourceTaxonomyId": "1486",
+      "name": "champignons",
+      "slug": "champignons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2653",
+      "sourceTaxonomyId": "2653",
+      "name": "facile et rapide",
+      "slug": "facile-et-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5533",
+      "sourceTaxonomyId": "5533",
+      "name": "tres facile",
+      "slug": "tres-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6782",
+      "sourceTaxonomyId": "6782",
+      "name": "seulement 2 ingredients",
+      "slug": "seulement-2-ingredients"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27150",
+      "sourceTaxonomyId": "27150",
+      "name": "boursin",
+      "slug": "boursin-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27152",
+      "sourceTaxonomyId": "27152",
+      "name": "entre amis",
+      "slug": "entre-amis-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27154",
+      "sourceTaxonomyId": "27154",
+      "name": "fromage aux herbes",
+      "slug": "fromage-aux-herbes-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27156",
+      "sourceTaxonomyId": "27156",
+      "name": "fromage frais",
+      "slug": "fromage-frais-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19050",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "30 petits champignons (portobello ou champignons de Paris) nettoyés nettoyés",
+            "quantity": {
+              "raw": "30",
+              "value": 30,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "petits champignons (portobello ou champignons de Paris) nettoyés",
+            "notes": "nettoyés"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g Boursin™ (ou un autre fromage frais aux herbes)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "Boursin™ (ou un autre fromage frais aux herbes)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Poivre du moulin",
+            "quantity": null,
+            "name": "Poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un peu de persil (d'aneth ou de ciboulette) ciselé",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de persil (d'aneth ou de ciboulette)",
+            "notes": "ciselé"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 200С.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Retirer les pieds des champignons en faisant attention de ne pas abîmer les chapeaux.",
+            "mediaId": "wordpress-attachment:19047"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Placer les chapeaux dans un plat allant au four. Poivrer. Garnir chaque chapeau avec 1-2 cuillères à café de Boursin™ .",
+            "mediaId": "wordpress-attachment:19048"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Enfourner et laisser gratiner pendant environ 25 minutes. Le temps de cuisson dépend de la taille des champignons et de votre four.",
+            "mediaId": "wordpress-attachment:19049"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sortir les champignons du four, saupoudrer avec les herbes,",
+            "mediaId": "wordpress-attachment:19051"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19050",
+      "sourceId": "19050",
+      "path": "/recipes/media/wordpress/19050.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19047",
+      "sourceId": "19047",
+      "path": "/recipes/media/wordpress/19047.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19048",
+      "sourceId": "19048",
+      "path": "/recipes/media/wordpress/19048.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19049",
+      "sourceId": "19049",
+      "path": "/recipes/media/wordpress/19049.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19051",
+      "sourceId": "19051",
+      "path": "/recipes/media/wordpress/19051.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

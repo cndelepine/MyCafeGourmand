@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21916",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:23506",
+  "slug": "mini-poivrons-au-gorgonzola",
+  "source": {
+    "system": "wordpress",
+    "postId": "21916",
+    "recipeId": "21916",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-mini-poivrons-au-gorgonzola",
+    "createdAt": "2020-08-12T02:13:46+00:00",
+    "modifiedAt": "2020-12-06T06:39:45+00:00",
+    "editorialPostId": "20746",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "mini-poivrons-au-gorgonzola",
+    "editorialCreatedAt": "2020-08-12T02:13:46+00:00",
+    "editorialModifiedAt": "2020-12-06T06:39:40+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/mini-poivrons-au-gorgonzola/"
+  ],
+  "title": "Mini poivrons au gorgonzola",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Des mini poivrons au gorgonzola : c'est un hors d'oeuvre chaud, super simple et sympa pour une soirée d'été.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Les mini poivrons se préparent très vite, il suffit de les griller 7-10 minutes et ils sont prêts à déguster.</p>\n<!-- /wp:paragraph -->\n\n\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21916,\"template\":\"chic-template-french\",\"updated\":1607236759251} -->\n<!--WPRM Recipe 21916-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Mini poivrons au gorgonzola</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/08/IMG_5718-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>16 mini poivrons (de différentes couleurs)</li><li>150 g de gorgonzola</li><li>Poivre du moulin ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le gril du four. Couper les poivrons en deux dans la longueur. Retirer les graines et les filaments.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/08/IMG_5710-2.Blog_-150x150.png\"/><br /></li><li>Mettre un petit morceau de gorgonzola dans chaque demi-povron. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/08/IMG_5713-2.Blog_-150x150.png\"/><br /></li><li>Faire griller au four chaud pendant 7-10 minutes, jusqu'à ce que les poivrons soient tendres et le fromage doré. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/08/IMG_5716-2.Blog_-150x150.png\"/><br /></li><li>Retirer les mini poivrons du four, délicatement transférer sur un plat de présentation. Saupoudrer de poivre fraîchement moulu, si vous aimez un goût plus épicé.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/08/IMG_5730-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24077",
+      "sourceTaxonomyId": "24077",
+      "name": "mini poivrons (de différentes couleurs)",
+      "slug": "mini-poivrons-de-differentes-couleurs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24610",
+      "sourceTaxonomyId": "24610",
+      "name": "de gorgonzola",
+      "slug": "de-gorgonzola"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24611",
+      "sourceTaxonomyId": "24611",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3461",
+      "sourceTaxonomyId": "3461",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3858",
+      "sourceTaxonomyId": "3858",
+      "name": "mini poivrons (de différentes couleurs)",
+      "slug": "mini-poivrons-de-differentes-couleurs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23507",
+      "sourceTaxonomyId": "23507",
+      "name": "de gorgonzola",
+      "slug": "de-gorgonzola"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1933",
+      "sourceTaxonomyId": "1933",
+      "name": "mini",
+      "slug": "mini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2951",
+      "sourceTaxonomyId": "2951",
+      "name": "entree",
+      "slug": "entree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23498",
+      "sourceTaxonomyId": "23498",
+      "name": "mini poivron",
+      "slug": "mini-poivron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23499",
+      "sourceTaxonomyId": "23499",
+      "name": "fromage bleu",
+      "slug": "fromage-bleu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23500",
+      "sourceTaxonomyId": "23500",
+      "name": "gorgonzola",
+      "slug": "gorgonzola"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23501",
+      "sourceTaxonomyId": "23501",
+      "name": "poivrons doux",
+      "slug": "poivrons-doux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23502",
+      "sourceTaxonomyId": "23502",
+      "name": "multi-couleurs",
+      "slug": "multi-couleurs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23503",
+      "sourceTaxonomyId": "23503",
+      "name": "grill",
+      "slug": "grill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23504",
+      "sourceTaxonomyId": "23504",
+      "name": "mini poivron au four",
+      "slug": "mini-poivron-au-four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23505",
+      "sourceTaxonomyId": "23505",
+      "name": "poivron doux farci",
+      "slug": "poivron-doux-farci"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "12",
+        "minutes": 12
+      },
+      "cook": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "rest": null,
+      "total": {
+        "raw": "19",
+        "minutes": 19
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:20750",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "16 mini poivrons (de différentes couleurs)",
+            "quantity": {
+              "raw": "16",
+              "value": 16,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "mini poivrons (de différentes couleurs)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g de gorgonzola",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de gorgonzola",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Poivre du moulin (facultatif)",
+            "quantity": null,
+            "name": "Poivre du moulin",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le gril du four. Couper les poivrons en deux dans la longueur. Retirer les graines et les filaments.",
+            "mediaId": "wordpress-attachment:20747"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mettre un petit morceau de gorgonzola dans chaque demi-povron.",
+            "mediaId": "wordpress-attachment:20748"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Faire griller au four chaud pendant 7-10 minutes, jusqu'à ce que les poivrons soient tendres et le fromage doré.",
+            "mediaId": "wordpress-attachment:20749"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Retirer les mini poivrons du four, délicatement transférer sur un plat de présentation. Saupoudrer de poivre fraîchement moulu, si vous aimez un goût plus épicé.",
+            "mediaId": "wordpress-attachment:20751"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20750",
+      "sourceId": "20750",
+      "path": "/recipes/media/wordpress/20750.png",
+      "alt": "Mini poivrons au gorgonzola",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:20747",
+      "sourceId": "20747",
+      "path": "/recipes/media/wordpress/20747.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20748",
+      "sourceId": "20748",
+      "path": "/recipes/media/wordpress/20748.png",
+      "alt": "Mini poivrons au gorgonzola",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:20749",
+      "sourceId": "20749",
+      "path": "/recipes/media/wordpress/20749.png",
+      "alt": "Mini poivrons au gorgonzola",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20751",
+      "sourceId": "20751",
+      "path": "/recipes/media/wordpress/20751.png",
+      "alt": "Mini poivrons au gorgonzola",
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

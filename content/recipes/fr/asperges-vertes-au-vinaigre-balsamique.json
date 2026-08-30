@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21769",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:6636",
+  "slug": "asperges-vertes-au-vinaigre-balsamique",
+  "source": {
+    "system": "wordpress",
+    "postId": "21769",
+    "recipeId": "21769",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-asperges-vertes-au-vinaigre-balsamique",
+    "createdAt": "2025-05-12T06:17:00+00:00",
+    "modifiedAt": "2025-05-14T02:38:04+00:00",
+    "editorialPostId": "12112",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "asperges-vertes-au-vinaigre-balsamique",
+    "editorialCreatedAt": "2025-05-12T06:17:00+00:00",
+    "editorialModifiedAt": "2025-05-14T02:36:17+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/asperges-vertes-au-vinaigre-balsamique/"
+  ],
+  "title": "Asperges vertes au vinaigre balsamique",
+  "description": "Les asperges blanches se préparent et se servent de la même façon. Ajustez le temps de cuisson en fonction de leur grosseur.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les asperges vertes au vinaigre balsamique sont toujours <span id=\":r6.4\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">délicieuses</span> ! Les asperges <span id=\":r6.1\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">peuvent</span> <span id=\":r6.2\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">être</span> cuites&nbsp;à la vapeur, au four,&nbsp;à la <span id=\":r6.3\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">poêle</span> et sur le gril. Dans cette recette, je choisis&nbsp;la <span id=\":r6.5\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">préparation</span> la plus simple qui demande un minimum d'<span id=\":r6.6\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">équipement</span> - juste une casserole. Une sauce <span id=\":r6.7\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">très</span> <span id=\":r6.8\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">légère</span> au vinaigre balsamique et&nbsp;à l'huile d'olive. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Savourez-les en <span id=\":r6.9\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">entrée</span>, ou comme accompagnement pour la viande, le poisson, des œufs...</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21769,\"template\":\"chic-template-french\",\"updated\":1608313572362} -->\n<!--WPRM Recipe 21769-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Asperges vertes au vinaigre balsamique</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9912.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLes asperges blanches se préparent et se servent de la même façon. Ajustez le temps de cuisson en fonction de leur grosseur.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 botte d'asperges vertes</li><li>1/4 cuillère à café de sel</li><li>1 cuillère à soupe vinaigre balsamique</li><li>2 cuillères à soupe d'huile d'olive</li><li>Sel et poivre du moulin</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Éplucher les asperges à l'aide d'un couteau économe et couper la partie dure de tiges. Dans une grande casserole, porter l'eau salée à ébullition et y plonger les asperges. Faire cuire pendant 8 à 10 minutes, selon leur grosseur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9903.Blog_-150x150.png\"/><br /></li><li>En attendant, mélanger le vinaigre balsamique et l'huile d'olive dans un petit bol. </li><li>Vérifier la cuisson avec la pointe d'un couteau. Quand les asperges sont cuites à votre goût, les plonger dans l'eau glacée pour arrêter la cuisson puis les égoutter.</li><li>Mettre les asperges sur un plat de service, saler, poivrer et arroser de la sauce. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_9910.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Les asperges vertes au vinaigre balsamique sont toujours délicieuses. La préparation est simple avec un minimum d'équipement. La sauce très légère est au vinaigre balsamique et à l'huile d'olive."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24504",
+      "sourceTaxonomyId": "24504",
+      "name": "d'asperges vertes",
+      "slug": "dasperges-vertes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24505",
+      "sourceTaxonomyId": "24505",
+      "name": "vinaigre balsamique",
+      "slug": "vinaigre-balsamique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6643",
+      "sourceTaxonomyId": "6643",
+      "name": "d'asperges vertes",
+      "slug": "dasperges-vertes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6645",
+      "sourceTaxonomyId": "6645",
+      "name": "vinaigre balsamique",
+      "slug": "vinaigre-balsamique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2945",
+      "sourceTaxonomyId": "2945",
+      "name": "vinaigre balsamique",
+      "slug": "vinaigre-balsamique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3854",
+      "sourceTaxonomyId": "3854",
+      "name": "huile d'olive",
+      "slug": "huile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6637",
+      "sourceTaxonomyId": "6637",
+      "name": "asperges vertes",
+      "slug": "asperges-vertes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6639",
+      "sourceTaxonomyId": "6639",
+      "name": "asperges cuites a l'eau",
+      "slug": "asperges-cuites-a-leau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6641",
+      "sourceTaxonomyId": "6641",
+      "name": "simple et bon",
+      "slug": "simple-et-bon"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 personnes",
+      "value": 2,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11969",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 botte d'asperges vertes",
+            "quantity": {
+              "raw": "1 botte",
+              "value": 1,
+              "unit": "botte",
+              "scalable": true
+            },
+            "name": "d'asperges vertes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/4 cuillère à café de sel",
+            "quantity": {
+              "raw": "1/4 cuillère à café",
+              "value": 0.25,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cuillère à soupe vinaigre balsamique",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "vinaigre balsamique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Éplucher les asperges à l'aide d'un couteau économe et couper la partie dure de tiges. Dans une grande casserole, porter l'eau salée à ébullition et y plonger les asperges. Faire cuire pendant 8 à 10 minutes, selon leur grosseur.",
+            "mediaId": "wordpress-attachment:11967"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "En attendant, mélanger le vinaigre balsamique et l'huile d'olive dans un petit bol.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Vérifier la cuisson avec la pointe d'un couteau. Quand les asperges sont cuites à votre goût, les plonger dans l'eau glacée pour arrêter la cuisson puis les égoutter.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mettre les asperges sur un plat de service, saler, poivrer et arroser de la sauce.",
+            "mediaId": "wordpress-attachment:11968"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11969",
+      "sourceId": "11969",
+      "path": "/recipes/media/wordpress/11969.png",
+      "alt": "Отварная зеленая спаржа",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11967",
+      "sourceId": "11967",
+      "path": "/recipes/media/wordpress/11967.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11968",
+      "sourceId": "11968",
+      "path": "/recipes/media/wordpress/11968.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

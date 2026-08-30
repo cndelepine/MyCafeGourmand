@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21463",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:17218",
+  "slug": "peach-melba",
+  "source": {
+    "system": "wordpress",
+    "postId": "21463",
+    "recipeId": "21463",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-peach-melba",
+    "createdAt": "2025-08-15T10:04:55+00:00",
+    "modifiedAt": "2025-08-15T22:05:06+00:00",
+    "editorialPostId": "18216",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "peach-melba",
+    "editorialCreatedAt": "2025-08-15T10:04:55+00:00",
+    "editorialModifiedAt": "2025-08-15T22:05:06+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/peach-melba/"
+  ],
+  "title": "Peach Melba",
+  "description": "If you're in a hurry or you don't have fresh peaches, just use canned peaches.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p> This is my version of a classical dessert \"Peach Melba\". You just need roasted peaches, a red berry sauce and an exquisite whipped cream. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21463,\"template\":\"chic-template-english\",\"updated\":1755295486789} -->\n<!--WPRM Recipe 21463-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Peach Melba</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_2437.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf you're in a hurry or you don't have fresh peaches, just use canned peaches.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 peaches</li><li>1 Tbsp brown sugar (or sugar)</li><li>250 g berries (raspberries, strawberries, blackberries)...)</li><li>200 ml heavy whipping cream ( 35%) (very cold)</li><li>2 tsp sugar</li><li>1/2 l vanilla ice cream</li><li>Some dark chocolate</li><li>Some sliced almonds</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 390 degrees F. Line one baking sheet with parchment paper.</li><li>Cut the peaches in half, and remove the stones. Place the peach halves on the baking sheet. Sprinkle with brown sugar. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2212.Blog_-150x150.png\"/><br /></li><li>Bake in the oven about 35 minutes until the peaches are tender. Remove from the oven, let them cool down completely, then carefully peel the skin.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2217.Blog_-150x150.png\"/><br /></li><li>Rinse and drain fresh berries and puree them until smooth. Pass the puree through a fine sieve to remove all tiny seeds.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2130.Blog_-150x150.png\"/><br /></li><li>Whip the heavy cream with the sugar until fluffy. Don't over beat. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_2430.Blog_-150x150.png\"/><br /></li><li>In each glass, put one half of peach and one ball of vanilla ice cream.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2424.Blog_-150x150.png\"/><br /></li><li>Pour 2 tablespoons of berries puree.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2427.Blog_-150x150.png\"/><br /></li><li>Add the whipped cream and finish with chocolate crumbs and sliced almonds. Serve right away. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2435.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24109",
+      "sourceTaxonomyId": "24109",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24207",
+      "sourceTaxonomyId": "24207",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24233",
+      "sourceTaxonomyId": "24233",
+      "name": "sliced almonds",
+      "slug": "sliced-almonds"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24307",
+      "sourceTaxonomyId": "24307",
+      "name": "peaches",
+      "slug": "peaches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24308",
+      "sourceTaxonomyId": "24308",
+      "name": "brown sugar (or sugar)",
+      "slug": "brown-sugar-or-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24309",
+      "sourceTaxonomyId": "24309",
+      "name": "berries (raspberries, strawberries, blackberries)...)",
+      "slug": "berries-raspberries-strawberries-blackberries"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24310",
+      "sourceTaxonomyId": "24310",
+      "name": "vanilla ice cream",
+      "slug": "vanilla-ice-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "975",
+      "sourceTaxonomyId": "975",
+      "name": "sliced almonds",
+      "slug": "sliced-almonds"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1800",
+      "sourceTaxonomyId": "1800",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2984",
+      "sourceTaxonomyId": "2984",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17260",
+      "sourceTaxonomyId": "17260",
+      "name": "peaches",
+      "slug": "peaches"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17274",
+      "sourceTaxonomyId": "17274",
+      "name": "brown sugar (or sugar)",
+      "slug": "brown-sugar-or-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17278",
+      "sourceTaxonomyId": "17278",
+      "name": "vanilla ice cream",
+      "slug": "vanilla-ice-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17287",
+      "sourceTaxonomyId": "17287",
+      "name": "berries (raspberries, strawberries, blackberries)...)",
+      "slug": "berries-raspberries-strawberries-blackberries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2131",
+      "sourceTaxonomyId": "2131",
+      "name": "verrine",
+      "slug": "verrine-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2201",
+      "sourceTaxonomyId": "2201",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27296",
+      "sourceTaxonomyId": "27296",
+      "name": "canned fruits",
+      "slug": "canned-fruits-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27298",
+      "sourceTaxonomyId": "27298",
+      "name": "dessert in a glass",
+      "slug": "dessert-in-a-glass-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27300",
+      "sourceTaxonomyId": "27300",
+      "name": "peach",
+      "slug": "peach-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27302",
+      "sourceTaxonomyId": "27302",
+      "name": "peach in the oven",
+      "slug": "peach-in-the-oven-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "90",
+        "minutes": 90
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18094",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 peaches",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "peaches",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 Tbsp brown sugar (or sugar)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "brown sugar (or sugar)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "250 g berries (raspberries, strawberries, blackberries)...)",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "berries (raspberries, strawberries, blackberries)...)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 ml heavy whipping cream ( 35%) very cold",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream ( 35%)",
+            "notes": "very cold"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 tsp sugar",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 l vanilla ice cream",
+            "quantity": {
+              "raw": "1/2 l",
+              "value": 0.5,
+              "unit": "l",
+              "scalable": true
+            },
+            "name": "vanilla ice cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Some dark chocolate",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "dark chocolate",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Some sliced almonds",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "sliced almonds",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 390 degrees F. Line one baking sheet with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut the peaches in half, and remove the stones. Place the peach halves on the baking sheet. Sprinkle with brown sugar.",
+            "mediaId": "wordpress-attachment:17872"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Bake in the oven about 35 minutes until the peaches are tender. Remove from the oven, let them cool down completely, then carefully peel the skin.",
+            "mediaId": "wordpress-attachment:17873"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Rinse and drain fresh berries and puree them until smooth. Pass the puree through a fine sieve to remove all tiny seeds.",
+            "mediaId": "wordpress-attachment:18080"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Whip the heavy cream with the sugar until fluffy. Don't over beat.",
+            "mediaId": "wordpress-attachment:13109"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "In each glass, put one half of peach and one ball of vanilla ice cream.",
+            "mediaId": "wordpress-attachment:17874"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Pour 2 tablespoons of berries puree.",
+            "mediaId": "wordpress-attachment:17875"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Add the whipped cream and finish with chocolate crumbs and sliced almonds. Serve right away.",
+            "mediaId": "wordpress-attachment:17876"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18094",
+      "sourceId": "18094",
+      "path": "/recipes/media/wordpress/18094.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:17872",
+      "sourceId": "17872",
+      "path": "/recipes/media/wordpress/17872.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17873",
+      "sourceId": "17873",
+      "path": "/recipes/media/wordpress/17873.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:18080",
+      "sourceId": "18080",
+      "path": "/recipes/media/wordpress/18080.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13109",
+      "sourceId": "13109",
+      "path": "/recipes/media/wordpress/13109.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17874",
+      "sourceId": "17874",
+      "path": "/recipes/media/wordpress/17874.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17875",
+      "sourceId": "17875",
+      "path": "/recipes/media/wordpress/17875.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17876",
+      "sourceId": "17876",
+      "path": "/recipes/media/wordpress/17876.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

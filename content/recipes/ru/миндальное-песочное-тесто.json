@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21005",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:27317",
+  "slug": "миндальное-песочное-тесто",
+  "source": {
+    "system": "wordpress",
+    "postId": "21005",
+    "recipeId": "21005",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be",
+    "createdAt": "2021-09-21T01:23:00+00:00",
+    "modifiedAt": "2025-08-16T21:43:14+00:00",
+    "editorialPostId": "21036",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be",
+    "editorialCreatedAt": "2021-09-21T01:23:00+00:00",
+    "editorialModifiedAt": "2025-08-16T21:43:11+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be/"
+  ],
+  "title": "Миндальное песочное тесто",
+  "description": "Этот рецепт я нашла на французском сайте Meilleur du Chef (https://www.meilleurduchef.com/fr/recette/pate-sablee-amande.html) и с тех пор не ищу никаких других вариантов. Вот мой перевод с французского языка. Попробуйте приготовить это тесто и испечь из него фруктовый или ягодный пирог.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Миндальное песочное тесто готовиться очень легко, хорошо хранится и подходит для печенья или основы для тарта (открытый пирог).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21005,\"template\":\"chic-template-russian\",\"updated\":1755380570127} -->\n<!--WPRM Recipe 21005-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Миндальное песочное тесто</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/09/IMG_4615.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Этот рецепт я нашла на французском сайте <em>Meilleur du Chef</em>  (https://www.meilleurduchef.com/fr/recette/pate-sablee-amande.html) и с тех пор не ищу никаких других вариантов.  Вот мой перевод с французского языка. Попробуйте приготовить это тесто и испечь из него фруктовый или ягодный пирог.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>120 г размягченного сливочного масла</li><li>75 г сахарной пудры</li><li>30 г миндальной муки</li><li>1 щепотку мелкой соли</li><li>1 ч.л. жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)</li><li>1 яйцо (немного взбить вилкой) </li><li>200 г муки</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>В чашу миксера положить масло, сахарную пудру, миндальную муку, соль, ваниль, яйцо и муку. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/09/IMG_6312-2.Blog_-150x150.png\"/><br /></li><li><p>Насадкой-лопаткой (лист) перемешать ингредиенты на небольшой скорости до однородного состояния. Осторожно: тесто не надо долго мешать.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/09/IMG_6314-2.Blog_-150x150.png\"/><br /></li><li><p>Сформоровать из теста шар.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/09/IMG_6317-2.Blog_-150x150.png\"/><br /></li><li><p>Для удобства, немного разплющить, завернуть в пищевую пленку и убрать в холодильник минимум на 1 час. Через час (а еще лучше на следующий день), можно приступать к приготовлению пирога.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_0208-2.Blog_-150x150.png\"/><br /></li><li><p>Это тесто хорошо хранится в замороженном виде, поэтому я всегда готовлю двойную порцию, делю на 2 части: одну часть готовлю сразу, а врорая лежит в морозилке до подходящего случая.</p></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26571",
+      "sourceTaxonomyId": "26571",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23549",
+      "sourceTaxonomyId": "23549",
+      "name": "размягченного сливочного масла",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23956",
+      "sourceTaxonomyId": "23956",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23957",
+      "sourceTaxonomyId": "23957",
+      "name": "миндальной муки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23959",
+      "sourceTaxonomyId": "23959",
+      "name": "жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+      "slug": "%d0%b6%d0%b8%d0%b4%d0%ba%d0%be%d0%b9-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8-1-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b8%d0%ba-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24786",
+      "sourceTaxonomyId": "24786",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25403",
+      "sourceTaxonomyId": "25403",
+      "name": "мелкой соли",
+      "slug": "%d0%bc%d0%b5%d0%bb%d0%ba%d0%be%d0%b9-%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27319",
+      "sourceTaxonomyId": "27319",
+      "name": "яйцо (немного взбить вилкой)",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be-%d0%bd%d0%b5%d0%bc%d0%bd%d0%be%d0%b3%d0%be-%d0%b2%d0%b7%d0%b1%d0%b8%d1%82%d1%8c-%d0%b2%d0%b8%d0%bb%d0%ba%d0%be%d0%b9"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25406",
+      "sourceTaxonomyId": "25406",
+      "name": "щепотку",
+      "slug": "%d1%89%d0%b5%d0%bf%d0%be%d1%82%d0%ba%d1%83"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25407",
+      "sourceTaxonomyId": "25407",
+      "name": "ч.л.",
+      "slug": "%d1%87-%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2199",
+      "sourceTaxonomyId": "2199",
+      "name": "легко и быстро",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be-%d0%b8-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3061",
+      "sourceTaxonomyId": "3061",
+      "name": "миндальная мука",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6977",
+      "sourceTaxonomyId": "6977",
+      "name": "песочное тесто",
+      "slug": "%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7026",
+      "sourceTaxonomyId": "7026",
+      "name": "основа для пирога",
+      "slug": "%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%bf%d0%b8%d1%80%d0%be%d0%b3%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8351",
+      "sourceTaxonomyId": "8351",
+      "name": "тарталетки",
+      "slug": "%d1%82%d0%b0%d1%80%d1%82%d0%b0%d0%bb%d0%b5%d1%82%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27192",
+      "sourceTaxonomyId": "27192",
+      "name": "тарт",
+      "slug": "%d1%82%d0%b0%d1%80%d1%82-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "1 открытый пирог",
+      "value": 1,
+      "unit": "открытый пирог",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "60",
+          "minutes": 60
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:20871",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "120 г размягченного сливочного масла",
+            "quantity": {
+              "raw": "120 г",
+              "value": 120,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "размягченного сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "75 г сахарной пудры",
+            "quantity": {
+              "raw": "75 г",
+              "value": 75,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахарной пудры",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "30 г миндальной муки",
+            "quantity": {
+              "raw": "30 г",
+              "value": 30,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "миндальной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 щепотку мелкой соли",
+            "quantity": {
+              "raw": "1 щепотку",
+              "value": 1,
+              "unit": "щепотку",
+              "scalable": true
+            },
+            "name": "мелкой соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 ч.л. жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 яйцо (немного взбить вилкой)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйцо (немного взбить вилкой)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "200 г муки",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "муки",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В чашу миксера положить масло, сахарную пудру, миндальную муку, соль, ваниль, яйцо и муку.",
+            "mediaId": "wordpress-attachment:20864"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Насадкой-лопаткой (лист) перемешать ингредиенты на небольшой скорости до однородного состояния. Осторожно: тесто не надо долго мешать.",
+            "mediaId": "wordpress-attachment:20865"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Сформоровать из теста шар.",
+            "mediaId": "wordpress-attachment:20866"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Для удобства, немного разплющить, завернуть в пищевую пленку и убрать в холодильник минимум на 1 час. Через час (а еще лучше на следующий день), можно приступать к приготовлению пирога.",
+            "mediaId": "wordpress-attachment:23562"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Это тесто хорошо хранится в замороженном виде, поэтому я всегда готовлю двойную порцию, делю на 2 части: одну часть готовлю сразу, а врорая лежит в морозилке до подходящего случая.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20871",
+      "sourceId": "20871",
+      "path": "/recipes/media/wordpress/20871.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20864",
+      "sourceId": "20864",
+      "path": "/recipes/media/wordpress/20864.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20865",
+      "sourceId": "20865",
+      "path": "/recipes/media/wordpress/20865.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20866",
+      "sourceId": "20866",
+      "path": "/recipes/media/wordpress/20866.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:23562",
+      "sourceId": "23562",
+      "path": "/recipes/media/wordpress/23562.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

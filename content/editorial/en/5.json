@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:5",
+  "locale": "en",
+  "canonicalPath": "/contact/",
+  "translationGroupId": "wordpress:post-translations:35",
+  "source": {
+    "system": "wordpress",
+    "postId": 5,
+    "sourcePath": "/contact/",
+    "sourceSlug": "contact",
+    "createdAt": "2017-11-29T17:03:15Z",
+    "modifiedAt": "2017-12-28T20:40:31Z"
+  },
+  "title": "Contact",
+  "excerpt": null,
+  "publishedAt": "2017-11-29T17:03:15Z",
+  "modifiedAt": "2017-12-28T20:40:31Z",
+  "content": [
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Have any questions or concerns? Don't hesitate and send a message using the form below.\n\nIf you have a specific question about a recipe, you can directly ask using a comment on the recipe post.\n\n"
+        }
+      ]
+    },
+    {
+      "type": "contactForm"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:15",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:15",
+      "path": "/editorial/media/wordpress/15.jpg",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 15
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

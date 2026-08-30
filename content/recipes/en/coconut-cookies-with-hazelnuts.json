@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21685",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:2659",
+  "slug": "coconut-cookies-with-hazelnuts",
+  "source": {
+    "system": "wordpress",
+    "postId": "21685",
+    "recipeId": "21685",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-coconut-cookies-with-hazelnuts",
+    "createdAt": "2018-02-25T09:29:20+00:00",
+    "modifiedAt": "2022-07-04T20:33:21+00:00",
+    "editorialPostId": "5274",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "coconut-cookies-with-hazelnuts",
+    "editorialCreatedAt": "2018-02-25T09:29:20+00:00",
+    "editorialModifiedAt": "2022-07-04T20:33:18+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/coconut-cookies/",
+    "/coconut-cookies-with-hazelnuts/"
+  ],
+  "title": "Coconut cookies with hazelnuts",
+  "description": "You can use walnuts or pecans.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Very light, melting in your mouth, make these coconut cookies with shredded coconut and crushed hazelnuts. Works perfectly for gluten free diet. You may want to double the recipe as one batch never seems to be enough. You can freeze the leftovers in a plastic container.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21685,\"template\":\"chic-template-english\",\"updated\":1614303426010} -->\n<!--WPRM Recipe 21685-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Coconut cookies with hazelnuts</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8308.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYou can use walnuts or pecans. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 egg whites</li><li>1 pinch of salt</li><li>120 g sugar</li><li>150 g shredded coconut, (unsweetened)</li><li>50 g crushed hazelnuts</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 340 degrees F. \r\n</li><li>Combine egg whites and salt in a large bowl. Beat with a mixer at medium speed until soft peaks form. Add sugar, one tablespoon at a time, beating at high speed until stiff peaks form.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8061.Blog_-150x150.png\"/><br /></li><li>Gently fold in coconut and hazelnut.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8062.Blog_-150x150.png\"/><br /></li><li>Drop by rounded tablespoons, 2 inches apart, onto 2 baking sheets covered with parchment paper. Garnish each cookie with half hazelnut. I bake one baking sheet at a time, for 15-20 minutes.  \r\n\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8068.Blog_-150x150.png\"/><br /></li><li>Remove from the oven and try if the cookie is ready. Cool for about 3 minutes and transfer them onto the serving plate. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180219_134438.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24446",
+      "sourceTaxonomyId": "24446",
+      "name": "egg whites",
+      "slug": "egg-whites"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24447",
+      "sourceTaxonomyId": "24447",
+      "name": "pinch of salt",
+      "slug": "pinch-of-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24448",
+      "sourceTaxonomyId": "24448",
+      "name": "shredded coconut,",
+      "slug": "shredded-coconut"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24449",
+      "sourceTaxonomyId": "24449",
+      "name": "crushed hazelnuts",
+      "slug": "crushed-hazelnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "722",
+      "sourceTaxonomyId": "722",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25342",
+      "sourceTaxonomyId": "25342",
+      "name": "Desserts",
+      "slug": "desserts-gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2119",
+      "sourceTaxonomyId": "2119",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2736",
+      "sourceTaxonomyId": "2736",
+      "name": "egg whites",
+      "slug": "egg-whites"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2738",
+      "sourceTaxonomyId": "2738",
+      "name": "pinch of salt",
+      "slug": "pinch-of-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2744",
+      "sourceTaxonomyId": "2744",
+      "name": "crushed hazelnuts",
+      "slug": "crushed-hazelnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3018",
+      "sourceTaxonomyId": "3018",
+      "name": "shredded coconut,",
+      "slug": "shredded-coconut"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2756",
+      "sourceTaxonomyId": "2756",
+      "name": "coconut cookies",
+      "slug": "coconut-cookies"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2758",
+      "sourceTaxonomyId": "2758",
+      "name": "coconut",
+      "slug": "coconut"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2760",
+      "sourceTaxonomyId": "2760",
+      "name": "cookies",
+      "slug": "cookies"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3356",
+      "sourceTaxonomyId": "3356",
+      "name": "egg whites",
+      "slug": "egg-whites"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4250",
+      "sourceTaxonomyId": "4250",
+      "name": "hazelnut",
+      "slug": "hazelnut"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5517",
+      "sourceTaxonomyId": "5517",
+      "name": "macaroons",
+      "slug": "macaroons"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "50 pieces",
+      "value": 50,
+      "unit": "pieces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "12",
+        "minutes": 12
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "27",
+        "minutes": 27
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:5129",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 egg whites",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg whites",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 pinch of salt",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pinch of salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "120 g sugar",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 g shredded coconut, unsweetened",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "shredded coconut,",
+            "notes": "unsweetened"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "50 g crushed hazelnuts",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "crushed hazelnuts",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 340 degrees F.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Combine egg whites and salt in a large bowl. Beat with a mixer at medium speed until soft peaks form. Add sugar, one tablespoon at a time, beating at high speed until stiff peaks form.",
+            "mediaId": "wordpress-attachment:5125"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Gently fold in coconut and hazelnut.",
+            "mediaId": "wordpress-attachment:5126"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Drop by rounded tablespoons, 2 inches apart, onto 2 baking sheets covered with parchment paper. Garnish each cookie with half hazelnut. I bake one baking sheet at a time, for 15-20 minutes.",
+            "mediaId": "wordpress-attachment:5128"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Remove from the oven and try if the cookie is ready. Cool for about 3 minutes and transfer them onto the serving plate.",
+            "mediaId": "wordpress-attachment:5130"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5129",
+      "sourceId": "5129",
+      "path": "/recipes/media/wordpress/5129.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:5125",
+      "sourceId": "5125",
+      "path": "/recipes/media/wordpress/5125.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5126",
+      "sourceId": "5126",
+      "path": "/recipes/media/wordpress/5126.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5128",
+      "sourceId": "5128",
+      "path": "/recipes/media/wordpress/5128.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5130",
+      "sourceId": "5130",
+      "path": "/recipes/media/wordpress/5130.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

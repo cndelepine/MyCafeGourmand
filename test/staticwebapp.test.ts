@@ -1,16 +1,22 @@
 import assert from "node:assert/strict";
-import { mkdtempSync, readFileSync, rmSync } from "node:fs";
+import {
+  cpSync,
+  mkdtempSync,
+  mkdirSync,
+  readFileSync,
+  rmSync,
+  writeFileSync
+} from "node:fs";
 import path from "node:path";
 import test from "node:test";
-import { recipeCatalog } from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
+import { editorialPageRecordSchema } from "../src/content/editorial-schema";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
   createStaticWebAppConfig,
   serializeStaticWebAppConfig
 } from "../src/content/staticwebapp";
 import { generateStaticWebAppConfig } from "../scripts/generate-staticwebapp";
-
-const meatballsSoup = recipeCatalog[0]!;
 
 function withTempDirectory<T>(callback: (directory: string) => T) {
   const directory = mkdtempSync(path.join(process.cwd(), ".staticwebapp-test-"));
@@ -23,7 +29,7 @@ function withTempDirectory<T>(callback: (directory: string) => T) {
 
 test("generates deterministic Azure redirects from recipe redirect sources", () => {
   const record = recipeRecordSchema.parse({
-    ...meatballsSoup,
+    ...recipeFixture,
     redirectFrom: ["/old/soup/", "/old/soup-2"]
   });
   const config = createStaticWebAppConfig([record]);
@@ -31,12 +37,12 @@ test("generates deterministic Azure redirects from recipe redirect sources", () 
   assert.deepEqual(config.routes, [
     {
       route: "/old/soup/",
-      redirect: "/recipes/meatballs-soup/",
+      redirect: "/recipes/fixture-recipe/",
       statusCode: 301
     },
     {
       route: "/old/soup-2",
-      redirect: "/recipes/meatballs-soup/",
+      redirect: "/recipes/fixture-recipe/",
       statusCode: 301
     }
   ]);
@@ -48,13 +54,13 @@ test("generates deterministic Azure redirects from recipe redirect sources", () 
 
 test("uses trailing-slash canonical destinations for localized recipes", () => {
   const record = recipeRecordSchema.parse({
-    ...meatballsSoup,
-    id: "wordpress:wprm:2981",
+    ...recipeFixture,
+    id: "test:recipe:fr",
     locale: "fr",
     slug: "soupe",
     source: {
-      ...meatballsSoup.source,
-      recipeId: "2981"
+      ...recipeFixture.source,
+      recipeId: "2"
     },
     redirectFrom: ["/ancienne-soupe"]
   });
@@ -69,7 +75,7 @@ test("uses trailing-slash canonical destinations for localized recipes", () => {
 });
 
 test("preserves hand-authored Azure config", () => {
-  const config = createStaticWebAppConfig([meatballsSoup], {
+  const config = createStaticWebAppConfig([recipeFixture], {
     handAuthoredConfig: {
       globalHeaders: { "X-Content-Type-Options": "nosniff" },
       routes: [{ route: "/*", rewrite: "/index.html" }]
@@ -84,14 +90,14 @@ test("preserves hand-authored Azure config", () => {
 
 test("detects cycles between generated and exact hand-authored redirects", () => {
   const record = recipeRecordSchema.parse({
-    ...meatballsSoup,
+    ...recipeFixture,
     redirectFrom: ["/old-recipe"]
   });
   assert.throws(
     () => createStaticWebAppConfig([record], {
       handAuthoredConfig: {
         routes: [{
-          route: "/recipes/meatballs-soup",
+          route: "/recipes/fixture-recipe",
           redirect: "/old-recipe",
           statusCode: 301
         }]
@@ -165,14 +171,14 @@ test("accepts a terminal literal percent in an exact hand-authored path", () => 
 test("rejects redirect conflicts and Azure-incompatible paths", () => {
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
-      redirectFrom: ["/recipes/meatballs-soup/"]
+      ...recipeFixture,
+      redirectFrom: ["/recipes/fixture-recipe/"]
     }),
     /canonical recipe route/
   );
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       redirectFrom: ["/old?print=1"]
     }),
     /cannot contain a query/
@@ -192,16 +198,16 @@ test("rejects redirect conflicts and Azure-incompatible paths", () => {
 
 test("rejects duplicate generated redirect sources across recipes", () => {
   const first = recipeRecordSchema.parse({
-    ...meatballsSoup,
+    ...recipeFixture,
     redirectFrom: ["/old/soup"]
   });
   const second = recipeRecordSchema.parse({
-    ...meatballsSoup,
-    id: "wordpress:wprm:2981",
+    ...recipeFixture,
+    id: "test:recipe:other",
     slug: "other-soup",
     source: {
-      ...meatballsSoup.source,
-      recipeId: "2981"
+      ...recipeFixture.source,
+      recipeId: "3"
     },
     redirectFrom: ["/old/soup/"]
   });
@@ -219,5 +225,59 @@ test("emits the validated artifact into the static export directory", () => {
 
     assert.equal(readFileSync(outputPath, "utf8"), serializeStaticWebAppConfig(config));
     assert.equal(path.basename(outputPath), "staticwebapp.config.json");
+  });
+});
+
+test("derives every content path from an alternate project root", () => {
+  withTempDirectory((directory) => {
+    const projectRoot = path.join(directory, "alternate-project");
+    cpSync(path.join(process.cwd(), "content"), path.join(projectRoot, "content"), {
+      recursive: true
+    });
+    mkdirSync(path.join(projectRoot, "public"), { recursive: true });
+    const record = editorialPageRecordSchema.parse({
+      schemaVersion: 1,
+      kind: "editorial-page",
+      id: "wordpress:page:999999",
+      locale: "en",
+      canonicalPath: "/alternate-root-only/",
+      translationGroupId: null,
+      source: {
+        system: "wordpress",
+        postId: 999999,
+        sourcePath: "/alternate-root-only/",
+        sourceSlug: "alternate-root-only",
+        createdAt: null,
+        modifiedAt: null
+      },
+      title: "Alternate root",
+      excerpt: null,
+      publishedAt: null,
+      modifiedAt: null,
+      content: null,
+      featuredMediaId: null,
+      featuredMediaAlt: null,
+      media: null,
+      redirectFrom: ["/old-alternate-root-only/"]
+    });
+    const editorialDirectory = path.join(projectRoot, "content", "editorial", "en");
+    mkdirSync(editorialDirectory, { recursive: true });
+    writeFileSync(
+      path.join(editorialDirectory, "999999.json"),
+      `${JSON.stringify(record, null, 2)}\n`
+    );
+
+    const { config } = generateStaticWebAppConfig(
+      projectRoot,
+      path.join(projectRoot, "out")
+    );
+    assert.equal(
+      config.routes.some((route) =>
+        "route" in route
+        && route.route === "/old-alternate-root-only/"
+        && route.redirect === "/alternate-root-only/"
+      ),
+      true
+    );
   });
 });

@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21631",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4063",
+  "slug": "chocolate-chip-walnut-cookies",
+  "source": {
+    "system": "wordpress",
+    "postId": "21631",
+    "recipeId": "21631",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chocolate-chip-and-nut-cookies",
+    "createdAt": "2018-04-26T00:27:49+00:00",
+    "modifiedAt": "2023-03-09T08:30:48+00:00",
+    "editorialPostId": "8490",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chocolate-chip-walnut-cookies",
+    "editorialCreatedAt": "2018-04-26T00:27:49+00:00",
+    "editorialModifiedAt": "2022-07-30T18:52:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/chocolate-chip-walnut-cookies/"
+  ],
+  "title": "Chocolate Chip and Nut Cookies",
+  "description": "Dough balls may be frozen, which is very convenient when you have someone coming over. Don't forget to add some extra time to the baking.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Excellent Chocolate Chip Walnut Cookies. I've tried a lot of different chocolate chip cookie recipes, and this one is the best one by far. They have the right balance of flavor and texture. My kids remove them from the oven as soon as the edges turn gold. They don't look done when they are, so be carefully not to burn the bottoms. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21631,\"template\":\"chic-template-english\",\"updated\":1659207133653} -->\n<!--WPRM Recipe 21631-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chocolate Chip and Nut Cookies</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5638.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tDough balls may be frozen, which is very convenient when you have someone coming over. Don't forget to add some extra time to the baking.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>225 g butter (softened)</li><li>80 g brown sugar</li><li>1 tsp vanilla sugar ((optional))</li><li>100 g sugar</li><li>330 g all purpose flour (sifted)</li><li>1/2 tsp salt</li><li>1 tsp baking soda</li><li>2 eggs</li><li>350 g chocolate chips</li><li>50 g walnuts</li><li>50 g hazelnuts</li><li>50 g almonds</li><li>50 g pumpkin seeds</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 380 degrees F. Cover 2 baking sheets with parchment paper. Beat together butter, brown sugar, granulated sugar and vanilla sugar.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5525.Blog_-150x150.png\"/><br /></li><li>Add eggs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5532.Blog_-150x150.png\"/><br /></li><li>Little by little add sifted flour ,mixed with salt and baking soda.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5534.Blog_-150x150.png\"/><br /></li><li>Add chocolate chips and mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5540.Blog_-150x150.png\"/><br /></li><li>Spoon out the cookie dough using a cookie scoop(use your hand if you don't have cookie spoon) and place on the parchment lined baking sheet. Divide the nuts and seeds on top of the each cookie and gently press down on the dough ball to flatten slightly. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5541.Blog_-150x150.png\"/><br /></li><li>Bake for 8-10 minutes, until the edges are set but the middle is still soft. </li><li>Let cool cookies for few minutes then transfer them with a spatula to a rack to cool completely.\r\n</li><li>Enjoy it with glass of milk or your favorite tea.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24183",
+      "sourceTaxonomyId": "24183",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24242",
+      "sourceTaxonomyId": "24242",
+      "name": "hazelnuts",
+      "slug": "hazelnuts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24294",
+      "sourceTaxonomyId": "24294",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24357",
+      "sourceTaxonomyId": "24357",
+      "name": "baking soda",
+      "slug": "baking-soda"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24371",
+      "sourceTaxonomyId": "24371",
+      "name": "vanilla sugar",
+      "slug": "vanilla-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24416",
+      "sourceTaxonomyId": "24416",
+      "name": "chocolate chips",
+      "slug": "chocolate-chips"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24417",
+      "sourceTaxonomyId": "24417",
+      "name": "almonds",
+      "slug": "almonds"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24418",
+      "sourceTaxonomyId": "24418",
+      "name": "pumpkin seeds",
+      "slug": "pumpkin-seeds"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25464",
+      "sourceTaxonomyId": "25464",
+      "name": "tsp",
+      "slug": "tsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "509",
+      "sourceTaxonomyId": "509",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "789",
+      "sourceTaxonomyId": "789",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2046",
+      "sourceTaxonomyId": "2046",
+      "name": "chocolate chips",
+      "slug": "chocolate-chips"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3600",
+      "sourceTaxonomyId": "3600",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4132",
+      "sourceTaxonomyId": "4132",
+      "name": "vanilla sugar",
+      "slug": "vanilla-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4134",
+      "sourceTaxonomyId": "4134",
+      "name": "baking soda",
+      "slug": "baking-soda"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4136",
+      "sourceTaxonomyId": "4136",
+      "name": "hazelnuts",
+      "slug": "hazelnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4138",
+      "sourceTaxonomyId": "4138",
+      "name": "almonds",
+      "slug": "almonds"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4140",
+      "sourceTaxonomyId": "4140",
+      "name": "pumpkin seeds",
+      "slug": "pumpkin-seeds"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1959",
+      "sourceTaxonomyId": "1959",
+      "name": "chocolate chip",
+      "slug": "chocolate-chip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2760",
+      "sourceTaxonomyId": "2760",
+      "name": "cookies",
+      "slug": "cookies"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3716",
+      "sourceTaxonomyId": "3716",
+      "name": "almonds",
+      "slug": "almonds"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4156",
+      "sourceTaxonomyId": "4156",
+      "name": "crunchy",
+      "slug": "crunchy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4170",
+      "sourceTaxonomyId": "4170",
+      "name": "chocolate",
+      "slug": "chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4172",
+      "sourceTaxonomyId": "4172",
+      "name": "nuts",
+      "slug": "nuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4174",
+      "sourceTaxonomyId": "4174",
+      "name": "hazelnuts",
+      "slug": "hazelnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4176",
+      "sourceTaxonomyId": "4176",
+      "name": "walnuts",
+      "slug": "walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4200",
+      "sourceTaxonomyId": "4200",
+      "name": "pumpkin seeds",
+      "slug": "pumpkin-seeds"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4202",
+      "sourceTaxonomyId": "4202",
+      "name": "homemade cookies",
+      "slug": "homemade-cookies"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4204",
+      "sourceTaxonomyId": "4204",
+      "name": "americain snack",
+      "slug": "americain-snack"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5355",
+      "sourceTaxonomyId": "5355",
+      "name": "not too sweet",
+      "slug": "not-too-sweet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8107",
+      "sourceTaxonomyId": "8107",
+      "name": "lots of chocolate",
+      "slug": "lots-of-chocolate"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "26 pieces",
+      "value": 26,
+      "unit": "pieces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "rest": null,
+      "total": {
+        "raw": "23",
+        "minutes": 23
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:8324",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "225 g butter softened",
+            "quantity": {
+              "raw": "225 g",
+              "value": 225,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": "softened"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g brown sugar",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "brown sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 tsp vanilla sugar (optional)",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "vanilla sugar",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "100 g sugar",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "330 g all purpose flour sifted",
+            "quantity": {
+              "raw": "330 g",
+              "value": 330,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": "sifted"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/4 tsp salt",
+            "quantity": {
+              "raw": "1/4 tsp",
+              "value": 0.25,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 tsp baking soda",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking soda",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "350 g chocolate chips",
+            "quantity": {
+              "raw": "350 g",
+              "value": 350,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chocolate chips",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "50 g walnuts",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "walnuts",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "50 g hazelnuts",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "hazelnuts",
+            "notes": null
+          },
+          {
+            "sourceIndex": 11,
+            "raw": "50 g almonds",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almonds",
+            "notes": null
+          },
+          {
+            "sourceIndex": 12,
+            "raw": "50 g pumpkin seeds",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "pumpkin seeds",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380 degrees F. Cover 2 baking sheets with parchment paper. Beat together butter, brown sugar, granulated sugar and vanilla sugar.",
+            "mediaId": "wordpress-attachment:8337"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add eggs.",
+            "mediaId": "wordpress-attachment:8339"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Little by little add sifted flour ,mixed with salt and baking soda.",
+            "mediaId": "wordpress-attachment:8340"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add chocolate chips and mix well.",
+            "mediaId": "wordpress-attachment:8341"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Spoon out the cookie dough using a cookie scoop(use your hand if you don't have cookie spoon) and place on the parchment lined baking sheet. Divide the nuts and seeds on top of the each cookie and gently press down on the dough ball to flatten slightly.",
+            "mediaId": "wordpress-attachment:8342"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bake for 8-10 minutes, until the edges are set but the middle is still soft.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Let cool cookies for few minutes then transfer them with a spatula to a rack to cool completely.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Enjoy it with glass of milk or your favorite tea.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8324",
+      "sourceId": "8324",
+      "path": "/recipes/media/wordpress/8324.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8337",
+      "sourceId": "8337",
+      "path": "/recipes/media/wordpress/8337.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8339",
+      "sourceId": "8339",
+      "path": "/recipes/media/wordpress/8339.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8340",
+      "sourceId": "8340",
+      "path": "/recipes/media/wordpress/8340.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8341",
+      "sourceId": "8341",
+      "path": "/recipes/media/wordpress/8341.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8342",
+      "sourceId": "8342",
+      "path": "/recipes/media/wordpress/8342.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

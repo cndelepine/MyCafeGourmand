@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21599",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3833",
+  "slug": "tomato-rounds-with-garlic-cheese",
+  "source": {
+    "system": "wordpress",
+    "postId": "21599",
+    "recipeId": "21599",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tomato-rounds-with-garlic-cheese",
+    "createdAt": "2018-05-17T05:31:36+00:00",
+    "modifiedAt": "2022-07-30T19:02:22+00:00",
+    "editorialPostId": "10004",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tomato-rounds-with-garlic-cheese",
+    "editorialCreatedAt": "2018-05-17T05:31:36+00:00",
+    "editorialModifiedAt": "2022-07-30T19:02:15+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/tomato-rounds-with-garlic-cheese/"
+  ],
+  "title": "Tomato Rounds With Garlic & Cheese",
+  "description": "Please don't use store-bought shredded cheese, it will not taste the same trust me, it is not so hard to shred the cheese after all.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>It's a super simple and fantastic 10 minutes appetizers, that I could eat a plateful. And when it comes to cheese, you are the boss. You can choose any hard/firm cheese that you like, as long as you'll be able to grate it. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21599,\"template\":\"chic-template-english\",\"updated\":1659207727979} -->\n<!--WPRM Recipe 21599-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tomato Rounds With Garlic &amp; Cheese</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9146.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tPlease don't use  store-bought shredded cheese, it will not taste the same trust me, it is not so hard to shred the cheese after all.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4-6 tomatoes</li><li>Salt and freshly ground black pepper (to aste)</li><li>1 clove garlic</li><li>100 g hard cheese</li><li>some olive oil ((optional))</li><li>some  fresh herbs (parsley, green onion, dill, )</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Wash and cut the tomatoes into circles and layer them on the plater. Sprinkle with some salt and pepper to taste.</li><li>Grate garlic, using microplane, sprinkle it on top of the tomatoes. Using the same microplane shred the cheese. Evenly layer on top of the tomatoes.</li><li>Drizzle with some olive oil and garnish with fresh herbs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9147.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24133",
+      "sourceTaxonomyId": "24133",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24237",
+      "sourceTaxonomyId": "24237",
+      "name": "hard cheese",
+      "slug": "hard-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "505",
+      "sourceTaxonomyId": "505",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2054",
+      "sourceTaxonomyId": "2054",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4861",
+      "sourceTaxonomyId": "4861",
+      "name": "hard cheese",
+      "slug": "hard-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1598",
+      "sourceTaxonomyId": "1598",
+      "name": "cheese",
+      "slug": "cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1600",
+      "sourceTaxonomyId": "1600",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4196",
+      "sourceTaxonomyId": "4196",
+      "name": "side dish",
+      "slug": "side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4794",
+      "sourceTaxonomyId": "4794",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4796",
+      "sourceTaxonomyId": "4796",
+      "name": "cucumber",
+      "slug": "cucumber"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4857",
+      "sourceTaxonomyId": "4857",
+      "name": "10 minutes appetizers",
+      "slug": "10-minutes-appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4859",
+      "sourceTaxonomyId": "4859",
+      "name": "hard cheese",
+      "slug": "hard-cheese"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7734",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4-6 tomatoes",
+            "quantity": {
+              "raw": "4-6",
+              "min": 4,
+              "max": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Salt and freshly ground black pepper to aste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to aste"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 clove garlic",
+            "quantity": {
+              "raw": "1 clove",
+              "value": 1,
+              "unit": "clove",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "100 g hard cheese",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "hard cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "some olive oil (optional)",
+            "quantity": {
+              "raw": "some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "olive oil",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "some fresh herbs parsley, green onion, dill,",
+            "quantity": {
+              "raw": "some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh herbs",
+            "notes": "parsley, green onion, dill,"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Wash and cut the tomatoes into circles and layer them on the plater. Sprinkle with some salt and pepper to taste.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Grate garlic, using microplane, sprinkle it on top of the tomatoes. Using the same microplane shred the cheese. Evenly layer on top of the tomatoes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Drizzle with some olive oil and garnish with fresh herbs.",
+            "mediaId": "wordpress-attachment:7735"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7734",
+      "sourceId": "7734",
+      "path": "/recipes/media/wordpress/7734.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7735",
+      "sourceId": "7735",
+      "path": "/recipes/media/wordpress/7735.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

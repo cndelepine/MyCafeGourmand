@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22017",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:5848",
+  "slug": "pain-de-poisson-au-saumon",
+  "source": {
+    "system": "wordpress",
+    "postId": "22017",
+    "recipeId": "22017",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pain-de-poisson-au-saumon",
+    "createdAt": "2024-12-16T19:20:15+00:00",
+    "modifiedAt": "2024-12-28T17:43:27+00:00",
+    "editorialPostId": "11592",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pain-de-poisson-au-saumon",
+    "editorialCreatedAt": "2024-12-16T19:20:15+00:00",
+    "editorialModifiedAt": "2024-12-16T19:30:35+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/pain-de-poisson-au-saumon/"
+  ],
+  "title": "Pain de poisson au saumon",
+  "description": "Ce plat se mange froid et il sera encore meilleur le lendemain. Préparez-le à l'avance.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le pain de poisson au saumon est parfait lors d'un buffet froid. Servez cette entrée <span class=\"st\">raffinée </span>et délicieuse accompagnée d'une mayonnaise, de <span id=\":s2.1\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">légumes</span> crus ou d'une salade verte. Une recette facile à base de saumon frais et saumon fumé, avec des œufs, de la crème fraîche et du persil. Préparez-le à l'avance!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22017,\"template\":\"chic-template-french\",\"updated\":1734377389720,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 22017-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pain de poisson au saumon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0723.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tCe plat se mange froid et il sera encore meilleur le lendemain. Préparez-le à l'avance.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>500 g de saumon frais (sans peau, sans arêtes)</li><li>5 œufs</li><li>250 g de crème fraîche légère</li><li>1/4 de bouquet persil (ou de ciboulette) (ciselé)</li><li>250 g de saumon fumé, (découpé en petits morceaux)</li><li>Sel et poivre du moulin</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 180°C (thermostat 6). Beurrer un moule à cake. </li><li>Découper le saumon frais en morceaux et le mixer à l'aide d'un mixeur plongeant.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0702.Blog_-150x150.png\"/><br /></li><li>Ajouter les œufs et bien mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0705.Blog_-150x150.png\"/><br /></li><li>Ajouter la crème fraîche et le persil. Mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0706.Blog_-150x150.png\"/><br /></li><li>Ajouter le saumon fumé. Saler et poivrer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0707.Blog_-150x150.png\"/><br /></li><li>Verser la préparation au saumon dans le moule. Cuire au four pendant 35-40 minutes. Laisser refroidir avant de démouler. Servir froid.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0720.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Pain de poisson au saumon"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26438",
+      "sourceTaxonomyId": "26438",
+      "name": "Apéritifs",
+      "slug": "aperitifs-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26440",
+      "sourceTaxonomyId": "26440",
+      "name": "française",
+      "slug": "francaise-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26750",
+      "sourceTaxonomyId": "26750",
+      "name": "Français",
+      "slug": "francais-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24563",
+      "sourceTaxonomyId": "24563",
+      "name": "de saumon frais",
+      "slug": "de-saumon-frais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24654",
+      "sourceTaxonomyId": "24654",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24676",
+      "sourceTaxonomyId": "24676",
+      "name": "de crème fraîche légère",
+      "slug": "de-creme-fraiche-legere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24677",
+      "sourceTaxonomyId": "24677",
+      "name": "persil (ou de ciboulette)",
+      "slug": "persil-ou-de-ciboulette"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25470",
+      "sourceTaxonomyId": "25470",
+      "name": "de bouquet",
+      "slug": "de-bouquet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26442",
+      "sourceTaxonomyId": "26442",
+      "name": "Terrine au saumon fume",
+      "slug": "terrine-au-saumon-fume-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27046",
+      "sourceTaxonomyId": "27046",
+      "name": "pain de poisson",
+      "slug": "pain-de-poisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "470",
+      "sourceTaxonomyId": "470",
+      "name": "de saumon frais",
+      "slug": "de-saumon-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "551",
+      "sourceTaxonomyId": "551",
+      "name": "de saumon fumé,",
+      "slug": "de-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5842",
+      "sourceTaxonomyId": "5842",
+      "name": "de crème fraîche légère",
+      "slug": "de-creme-fraiche-legere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5844",
+      "sourceTaxonomyId": "5844",
+      "name": "persil (ou de ciboulette)",
+      "slug": "persil-ou-de-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1400",
+      "sourceTaxonomyId": "1400",
+      "name": "creme fraiche",
+      "slug": "creme-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1522",
+      "sourceTaxonomyId": "1522",
+      "name": "saumon fume",
+      "slug": "saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4447",
+      "sourceTaxonomyId": "4447",
+      "name": "a l'avance",
+      "slug": "a-lavance"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5832",
+      "sourceTaxonomyId": "5832",
+      "name": "saumon frais",
+      "slug": "saumon-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5834",
+      "sourceTaxonomyId": "5834",
+      "name": "pain de saumon",
+      "slug": "pain-de-saumon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5836",
+      "sourceTaxonomyId": "5836",
+      "name": "pain de poisson",
+      "slug": "pain-de-poisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5840",
+      "sourceTaxonomyId": "5840",
+      "name": "buffet froid",
+      "slug": "buffet-froid"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5846",
+      "sourceTaxonomyId": "5846",
+      "name": "au saumon frais et saumon fume",
+      "slug": "au-saumon-frais-et-saumon-fume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26484",
+      "sourceTaxonomyId": "26484",
+      "name": "pain de poisson au saumon",
+      "slug": "pain-de-poisson-au-saumon-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "2",
+        "value": 2
+      },
+      "servingSize": {
+        "raw": "70",
+        "value": 70
+      },
+      "servingUnit": "g"
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:11601",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "500 g de saumon frais sans peau, sans arêtes",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de saumon frais",
+            "notes": "sans peau, sans arêtes"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "5 œufs",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "250 g de crème fraîche légère",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de crème fraîche légère",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/4 de bouquet persil (ou de ciboulette) ciselé",
+            "quantity": {
+              "raw": "1/4 de bouquet",
+              "value": 0.25,
+              "unit": "de bouquet",
+              "scalable": true
+            },
+            "name": "persil (ou de ciboulette)",
+            "notes": "ciselé"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "250 g de saumon fumé, découpé en petits morceaux",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de saumon fumé,",
+            "notes": "découpé en petits morceaux"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Beurrer un moule à cake.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Découper le saumon frais en morceaux et le mixer à l'aide d'un mixeur plongeant.",
+            "mediaId": "wordpress-attachment:11596"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter les œufs et bien mélanger.",
+            "mediaId": "wordpress-attachment:11597"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ajouter la crème fraîche et le persil. Mélanger.",
+            "mediaId": "wordpress-attachment:11598"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter le saumon fumé. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:11599"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Verser la préparation au saumon dans le moule. Cuire au four pendant 35-40 minutes. Laisser refroidir avant de démouler. Servir froid.",
+            "mediaId": "wordpress-attachment:11600"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11601",
+      "sourceId": "11601",
+      "path": "/recipes/media/wordpress/11601.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11596",
+      "sourceId": "11596",
+      "path": "/recipes/media/wordpress/11596.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11597",
+      "sourceId": "11597",
+      "path": "/recipes/media/wordpress/11597.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11598",
+      "sourceId": "11598",
+      "path": "/recipes/media/wordpress/11598.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11599",
+      "sourceId": "11599",
+      "path": "/recipes/media/wordpress/11599.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11600",
+      "sourceId": "11600",
+      "path": "/recipes/media/wordpress/11600.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

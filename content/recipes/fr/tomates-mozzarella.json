@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:24906",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:25539",
+  "slug": "tomates-mozzarella",
+  "source": {
+    "system": "wordpress",
+    "postId": "24906",
+    "recipeId": "24906",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tomates-mozzarella",
+    "createdAt": "2021-07-13T03:54:00+00:00",
+    "modifiedAt": "2024-12-02T08:20:55+00:00",
+    "editorialPostId": "24904",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tomates-mozzarella",
+    "editorialCreatedAt": "2021-07-13T03:54:00+00:00",
+    "editorialModifiedAt": "2024-12-02T08:20:54+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/tomates-mozarella/",
+    "/fr/tomates-mozzarella/"
+  ],
+  "title": "Tomates Mozzarella",
+  "description": "Délicieuse entrée, parfaite pour l'été!",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Voici une salade délicieuse et très simple à faire. Le succès de cette entrée est d'utiliser le véritable fromage de buflonne d'Italie</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":24906,\"template\":\"chic-template-french\",\"updated\":1733127606884} -->\n<!--WPRM Recipe 24906-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tomates Mozzarella</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/06/IMG_8645.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Délicieuse entrée, parfaite pour l&#039;été!</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 grosse tomate</li><li>1 boule mozzarella de buflonne</li><li>Des feuilles de basilic</li><li>Sel et poivre du moulin</li><li>1 filet d&#039;huile d&#039;olive</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Couper la tomate en quartiers, les disposer joliment sur une assiette. </p><p>Placer une boule de mozzarella au centre des quartiers de tomate. </p><p>Saler un tout petit peu et poivrer. Disposer les feuilles de basilic, Arroser d&#039;un filet d&#039;huile d&#039;olives.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/06/IMG_8625.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian, Italien</div><div class=\"wprm-fallback-recipe-meta-keyword\">mozzarella, tomates mozarella</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23541",
+      "sourceTaxonomyId": "23541",
+      "name": "Italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "25483",
+      "sourceTaxonomyId": "25483",
+      "name": "Italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25530",
+      "sourceTaxonomyId": "25530",
+      "name": "grosse tomate",
+      "slug": "grosse-tomate"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25536",
+      "sourceTaxonomyId": "25536",
+      "name": "feuilles de basilic",
+      "slug": "feuilles-de-basilic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25551",
+      "sourceTaxonomyId": "25551",
+      "name": "mozzarella de buflonne",
+      "slug": "mozzarella-de-buflonne"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25424",
+      "sourceTaxonomyId": "25424",
+      "name": "filet",
+      "slug": "filet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25531",
+      "sourceTaxonomyId": "25531",
+      "name": "boule",
+      "slug": "boule"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25664",
+      "sourceTaxonomyId": "25664",
+      "name": "mozzarella",
+      "slug": "mozzarella"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25665",
+      "sourceTaxonomyId": "25665",
+      "name": "tomates mozarella",
+      "slug": "tomates-mozarella"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3852",
+      "sourceTaxonomyId": "3852",
+      "name": "tomate de jardin",
+      "slug": "tomate-de-jardin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6101",
+      "sourceTaxonomyId": "6101",
+      "name": "pret en 5 min",
+      "slug": "pret-en-5-min"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7395",
+      "sourceTaxonomyId": "7395",
+      "name": "jolie presentation",
+      "slug": "jolie-presentation"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25549",
+      "sourceTaxonomyId": "25549",
+      "name": "mozzarella",
+      "slug": "mozzarella"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 personnes",
+      "value": 2,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "2",
+        "value": 2
+      },
+      "servingSize": {
+        "raw": "0",
+        "value": 0
+      },
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:24913",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 grosse tomate",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "grosse tomate",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 boule mozzarella de buflonne",
+            "quantity": {
+              "raw": "1 boule",
+              "value": 1,
+              "unit": "boule",
+              "scalable": true
+            },
+            "name": "mozzarella de buflonne",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Des feuilles de basilic",
+            "quantity": {
+              "raw": "Des",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "feuilles de basilic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 filet d'huile d'olive",
+            "quantity": {
+              "raw": "1 filet",
+              "value": 1,
+              "unit": "filet",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper la tomate en quartiers, les disposer joliment sur une assiette.\n\nPlacer une boule de mozzarella au centre des quartiers de tomate.\n\nSaler un tout petit peu et poivrer. Disposer les feuilles de basilic, Arroser d'un filet d'huile d'olives.",
+            "mediaId": "wordpress-attachment:24916"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:24913",
+      "sourceId": "24913",
+      "path": "/recipes/media/wordpress/24913.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:24916",
+      "sourceId": "24916",
+      "path": "/recipes/media/wordpress/24916.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

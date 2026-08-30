@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28153",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26712",
+  "slug": "baked-eggplant-slices",
+  "source": {
+    "system": "wordpress",
+    "postId": "28153",
+    "recipeId": "28153",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-baked-eggplant-slices",
+    "createdAt": "2024-04-13T08:09:33+00:00",
+    "modifiedAt": "2024-04-13T08:09:38+00:00",
+    "editorialPostId": "28151",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "baked-eggplant-slices",
+    "editorialCreatedAt": "2024-04-13T08:09:33+00:00",
+    "editorialModifiedAt": "2024-04-13T08:09:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/baked-eggplant-slices/"
+  ],
+  "title": "Baked eggplant slices",
+  "description": "Tomatoes are not necessary in this recipe: they are mainly there to add color and make the dish more appetizing.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p id=\"tw-target-text\">The eggplants are cut into slices and roasted with salt, pepper and olive oil. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p id=\"tw-target-text\">Eggplants with garlic are delicious whether served hot or cold, which is why they can be prepared in advance.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28153,\"template\":\"chic-template-english\",\"updated\":1712995428403} -->\n<!--WPRM Recipe 28153-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Baked eggplant slices</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5212.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Tomatoes are not necessary in this recipe: they are mainly there to add color and make the dish more appetizing. </p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2-3 eggplants</li><li>1-3 cloves garlic</li><li>Salt and freshly ground black pepper</li><li>3-4 Tsp olive oil</li><li>Some fresh herbs (cilantro, green onion, parsley)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat the oven to the broil setting.</p></li><li><p>Wash the eggplants and slice them into 0.7 cm thick rounds. Place them on a baking sheet in a single layer. </p><p>Season with salt, pepper, and brush both sides with olive oil.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5185.Blog_-150x150.png\"/><br /></li><li><p>Cook under the broiler for 15-20 minutes. Flip to the other side.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5193.Blog_-150x150.png\"/><br /></li><li><p>Cook for another approximately 10 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5194.Blog_-150x150.png\"/><br /></li><li><p>Peel the garlic, grate it using a fine grater (or crush it). Then spread it over the eggplant rounds before they cool down.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5201.Blog_-150x150.png\"/><br /></li><li><p>Serve hot or cold, sprinkled with parsley or coriander. </p><p>Add slices or wedges of tomato if desired.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/04/IMG_5212.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish, Starter</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26714",
+      "sourceTaxonomyId": "26714",
+      "name": "Starter",
+      "slug": "starter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26716",
+      "sourceTaxonomyId": "26716",
+      "name": "Main Dish",
+      "slug": "main-dish-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24106",
+      "sourceTaxonomyId": "24106",
+      "name": "fresh herbs (cilantro, green onion, parsley)",
+      "slug": "fresh-herbs-cilantro-green-onion-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26713",
+      "sourceTaxonomyId": "26713",
+      "name": "eggplants",
+      "slug": "eggplants"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25464",
+      "sourceTaxonomyId": "25464",
+      "name": "tsp",
+      "slug": "tsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25564",
+      "sourceTaxonomyId": "25564",
+      "name": "cloves",
+      "slug": "cloves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1600",
+      "sourceTaxonomyId": "1600",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4192",
+      "sourceTaxonomyId": "4192",
+      "name": "eggplant",
+      "slug": "eggplant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28136",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2-3 eggplants",
+            "quantity": {
+              "raw": "2-3",
+              "min": 2,
+              "max": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggplants",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-3 cloves garlic",
+            "quantity": {
+              "raw": "1-3 cloves",
+              "min": 1,
+              "max": 3,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3-4 Tsp olive oil",
+            "quantity": {
+              "raw": "3-4 Tsp",
+              "min": 3,
+              "max": 4,
+              "unit": "Tsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Some fresh herbs (cilantro, green onion, parsley)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh herbs (cilantro, green onion, parsley)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to the broil setting.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Wash the eggplants and slice them into 0.7 cm thick rounds. Place them on a baking sheet in a single layer.\n\nSeason with salt, pepper, and brush both sides with olive oil.",
+            "mediaId": "wordpress-attachment:28132"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cook under the broiler for 15-20 minutes. Flip to the other side.",
+            "mediaId": "wordpress-attachment:28133"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Cook for another approximately 10 minutes.",
+            "mediaId": "wordpress-attachment:28137"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Peel the garlic, grate it using a fine grater (or crush it). Then spread it over the eggplant rounds before they cool down.",
+            "mediaId": "wordpress-attachment:28134"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Serve hot or cold, sprinkled with parsley or coriander.\n\nAdd slices or wedges of tomato if desired.",
+            "mediaId": "wordpress-attachment:28136"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28136",
+      "sourceId": "28136",
+      "path": "/recipes/media/wordpress/28136.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28132",
+      "sourceId": "28132",
+      "path": "/recipes/media/wordpress/28132.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:28133",
+      "sourceId": "28133",
+      "path": "/recipes/media/wordpress/28133.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28137",
+      "sourceId": "28137",
+      "path": "/recipes/media/wordpress/28137.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:28134",
+      "sourceId": "28134",
+      "path": "/recipes/media/wordpress/28134.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

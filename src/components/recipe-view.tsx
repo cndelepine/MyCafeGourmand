@@ -4,6 +4,8 @@ import {
   getRecipeStructuredData,
   serializeRecipeStructuredData
 } from "@/lib/recipe-structured-data";
+import { resolveRecipeMediaUrl } from "@/lib/recipe-media";
+import { getRecipePath, getRecipeTranslations } from "@/lib/recipe-routes";
 import { RecipeScaling } from "./recipe-scaling";
 import { SiteHeader } from "./site-header";
 
@@ -94,16 +96,38 @@ export function RecipeView({ catalog, recipe }: RecipeViewProps) {
     ? media.get(recipe.recipe.heroMediaId)
     : undefined;
   const ingredientGroups = recipe.recipe.ingredientGroups;
-  const steps = recipe.recipe.instructionGroups.flatMap((group) => group.steps);
+  const instructionGroups = recipe.recipe.instructionGroups.reduce<
+    Array<{
+      firstStep: number;
+      group: RecipeRecord["recipe"]["instructionGroups"][number];
+      headingId: string;
+      key: string;
+    }>
+  >((groups, group, groupIndex) => {
+    const previous = groups.at(-1);
+    return [
+      ...groups,
+      {
+        firstStep: previous === undefined
+          ? 1
+          : previous.firstStep + previous.group.steps.length,
+        group,
+        key: `${group.sourceIndex}-${groupIndex}`,
+        headingId: `instruction-group-${group.sourceIndex}-${groupIndex}`
+      }
+    ];
+  }, []);
   const recipeData = getRecipeStructuredData(recipe);
 
   return (
     <>
       <SiteHeader
-        catalog={catalog}
         locale={recipe.locale}
         page="recipe"
-        recipe={recipe}
+        translations={getRecipeTranslations(recipe, catalog).map((translation) => ({
+          locale: translation.locale,
+          path: getRecipePath(translation)
+        }))}
       />
       <main lang={recipe.locale}>
         <section className="hero" id="top">
@@ -125,7 +149,7 @@ export function RecipeView({ catalog, recipe }: RecipeViewProps) {
                 fill
                 priority
                 sizes="(max-width: 700px) 100vw, 50vw"
-                src={hero.path}
+                src={resolveRecipeMediaUrl(hero.path)}
               />
             ) : null}
             <div className="steam steam-one" />
@@ -174,31 +198,43 @@ export function RecipeView({ catalog, recipe }: RecipeViewProps) {
               <span>02</span>
               <h2 id="method-title">{labels.method}</h2>
             </div>
-            <ol>
-              {steps.map((step, index) => {
-                const stepMedia = step.mediaId
-                  ? media.get(step.mediaId)
-                  : undefined;
+            <div className="instruction-groups">
+              {instructionGroups.map(({ firstStep, group, headingId, key }) => (
+                <section
+                  aria-labelledby={group.name ? headingId : undefined}
+                  className="instruction-group"
+                  key={key}
+                >
+                  {group.name ? <h3 id={headingId}>{group.name}</h3> : null}
+                  <ol start={firstStep}>
+                    {group.steps.map((step, stepIndex) => {
+                      const stepMedia = step.mediaId
+                        ? media.get(step.mediaId)
+                        : undefined;
+                      const stepNumber = firstStep + stepIndex;
 
-                return (
-                  <li key={`${step.sourceIndex}-${index}`}>
-                    <span>{String(index + 1).padStart(2, "0")}</span>
-                    <div>
-                      <p>{step.text}</p>
-                      {stepMedia ? (
-                        <Image
-                          alt={stepMedia.alt ?? ""}
-                          className="step-photo"
-                          height={stepMedia.height ?? 592}
-                          src={stepMedia.path}
-                          width={stepMedia.width ?? 800}
-                        />
-                      ) : null}
-                    </div>
-                  </li>
-                );
-              })}
-            </ol>
+                      return (
+                        <li key={`${step.sourceIndex}-${stepIndex}`}>
+                          <span>{String(stepNumber).padStart(2, "0")}</span>
+                          <div>
+                            <p>{step.text}</p>
+                            {stepMedia ? (
+                              <Image
+                                alt={stepMedia.alt ?? ""}
+                                className="step-photo"
+                                height={stepMedia.height ?? 592}
+                                src={resolveRecipeMediaUrl(stepMedia.path)}
+                                width={stepMedia.width ?? 800}
+                              />
+                            ) : null}
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ol>
+                </section>
+              ))}
+            </div>
           </section>
         </article>
       </main>

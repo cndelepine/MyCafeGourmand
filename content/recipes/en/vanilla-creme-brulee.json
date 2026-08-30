@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21392",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3038",
+  "slug": "vanilla-creme-brulee",
+  "source": {
+    "system": "wordpress",
+    "postId": "21392",
+    "recipeId": "21392",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-vanilla-creme-brulee",
+    "createdAt": "2021-02-15T04:54:00+00:00",
+    "modifiedAt": "2022-07-04T21:07:56+00:00",
+    "editorialPostId": "6255",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "vanilla-creme-brulee",
+    "editorialCreatedAt": "2021-02-15T04:54:00+00:00",
+    "editorialModifiedAt": "2022-07-04T21:07:35+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/vanilla-creme-brulee/"
+  ],
+  "title": "Vanilla Crème brûlée",
+  "description": "Use vanilla extract instead of vanilla bean, if you don't have vanilla bean. You could add 2 Tbsp. of rum into the cream if desired. If you don't own a blow torch, you can always use your broiler as well. You will need to move the top rack in your oven up as high as it will go.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Absolutely amazing what a little cream, a little sugar and couple of eggs can turn into.... &nbsp;Perfect restaurant quality dessert. A rich custard topped with a hard layer of caramel. &nbsp;This Vanilla creme brulee is very easy to make if you follow all the steps correctly.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It will perfectly complete your&nbsp; <a href=\"https://mycafegourmand.com/cafe-gourmand\">cafe gourmand</a> if the crème brûlée is served in small ramekins.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Look at <a href=\"https://www.instagram.com/p/BgVCgwRl9fc/?taken-by=cafegourmandnatalija\">this short video </a>! :)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21392,\"template\":\"chic-template-english\",\"updated\":1614750068299} -->\n<!--WPRM Recipe 21392-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Vanilla Crème brûlée</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8051.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tUse vanilla extract instead of vanilla bean, if you don't have vanilla bean. You could add 2 Tbsp. of rum into the cream if desired. If you don't own a blow torch, you can always use your broiler as well. You will need to move the top rack in your oven up as high as it will go.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>8 egg yolks</li><li>120 g granulated sugar</li><li>1/2 vanilla bean</li><li>640 ml whipping cream</li><li>6 tsp granulated sugar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 250 degrees F. Split the vanilla bean in half and scrape the seeds into the cream. In a medium bowl, combine together sugar, eggs yolks, vanilla and whisk.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8014.Blog_-150x150.png\"/><br /></li><li>Add the cream a little at a time and stir. Remove the scum with a tea spoon.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8015.Blog_-150x150.png\"/><br /></li><li>Strain the mixture through a fine sieve and pour it into the ramekins. Divide cream mixture among ramekins (about 6 ramekins).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8017.Blog_-150x150.png\"/><br /></li><li>Arrange the ramekins in a baking pan with deep sides. And carefully pour water around ramekins so that the water level must reach about 2/3 of the ramekins. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_5678.Blog_-150x150.png\"/><br /></li><li>Bake for 1 hour and 30 minutes. You will know its ready when the custard is wobbly and jiggle from side to side when nudged (it looks like jello).</li><li>Remove the custard from the water bath and let cool completely, cover with plastic wrap and refrigerate for 6 hours (overnight).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_8812.Blog_-2-150x150.png\"/><br /></li><li>Before serving, cover each cold creme brulee evenly with sugar (1 tsp).\r\nCaramelize using a propane torch.\r\nIf you don't have one propane torch, use the broiler: put the oven rack about 6 inches away from the broiler.  Place the custards on the baking sheet  and broil for about 3-5 minutes, or until sugar bubbles and turns golden brown. (Keep a close eye on them, they can burn quickly)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7061.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<p>With remaining eggs white, you could make some <a href=\"https://mycafegourmand.com/recipe/coconut-cookies\">Coconut cookies</a>.</p>\n<h1 class=\"entry-title\"></h1>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24108",
+      "sourceTaxonomyId": "24108",
+      "name": "vanilla bean",
+      "slug": "vanilla-bean"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24231",
+      "sourceTaxonomyId": "24231",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24268",
+      "sourceTaxonomyId": "24268",
+      "name": "egg yolks",
+      "slug": "egg-yolks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24269",
+      "sourceTaxonomyId": "24269",
+      "name": "whipping cream",
+      "slug": "whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "722",
+      "sourceTaxonomyId": "722",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2119",
+      "sourceTaxonomyId": "2119",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1907",
+      "sourceTaxonomyId": "1907",
+      "name": "whipping cream",
+      "slug": "whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2374",
+      "sourceTaxonomyId": "2374",
+      "name": "vanilla bean",
+      "slug": "vanilla-bean"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3074",
+      "sourceTaxonomyId": "3074",
+      "name": "egg yolks",
+      "slug": "egg-yolks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2201",
+      "sourceTaxonomyId": "2201",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3090",
+      "sourceTaxonomyId": "3090",
+      "name": "creme brulee",
+      "slug": "creme-brulee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3092",
+      "sourceTaxonomyId": "3092",
+      "name": "vanilla",
+      "slug": "vanilla"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3094",
+      "sourceTaxonomyId": "3094",
+      "name": "egg yolks",
+      "slug": "egg-yolks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3096",
+      "sourceTaxonomyId": "3096",
+      "name": "propane torch",
+      "slug": "propane-torch"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5355",
+      "sourceTaxonomyId": "5355",
+      "name": "not too sweet",
+      "slug": "not-too-sweet"
+    }
+  ],
+  "recipe": {
+    "notes": "With remaining eggs white, you could make some Coconut cookies.",
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "371",
+        "minutes": 371
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:5984",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "8 egg yolks",
+            "quantity": {
+              "raw": "8",
+              "value": 8,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg yolks",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "120 g granulated sugar",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 vanilla bean",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "vanilla bean",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "640 ml whipping cream",
+            "quantity": {
+              "raw": "640 ml",
+              "value": 640,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "whipping cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "6 tsp granulated sugar",
+            "quantity": {
+              "raw": "6 tsp",
+              "value": 6,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 250 degrees F. Split the vanilla bean in half and scrape the seeds into the cream. In a medium bowl, combine together sugar, eggs yolks, vanilla and whisk.",
+            "mediaId": "wordpress-attachment:5978"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add the cream a little at a time and stir. Remove the scum with a tea spoon.",
+            "mediaId": "wordpress-attachment:5979"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Strain the mixture through a fine sieve and pour it into the ramekins. Divide cream mixture among ramekins (about 6 ramekins).",
+            "mediaId": "wordpress-attachment:5980"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Arrange the ramekins in a baking pan with deep sides. And carefully pour water around ramekins so that the water level must reach about 2/3 of the ramekins.",
+            "mediaId": "wordpress-attachment:5988"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Bake for 1 hour and 30 minutes. You will know its ready when the custard is wobbly and jiggle from side to side when nudged (it looks like jello).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Remove the custard from the water bath and let cool completely, cover with plastic wrap and refrigerate for 6 hours (overnight).",
+            "mediaId": "wordpress-attachment:6614"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Before serving, cover each cold creme brulee evenly with sugar (1 tsp).\nCaramelize using a propane torch.\nIf you don't have one propane torch, use the broiler: put the oven rack about 6 inches away from the broiler. Place the custards on the baking sheet and broil for about 3-5 minutes, or until sugar bubbles and turns golden brown. (Keep a close eye on them, they can burn quickly)",
+            "mediaId": "wordpress-attachment:5975"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5984",
+      "sourceId": "5984",
+      "path": "/recipes/media/wordpress/5984.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5978",
+      "sourceId": "5978",
+      "path": "/recipes/media/wordpress/5978.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5979",
+      "sourceId": "5979",
+      "path": "/recipes/media/wordpress/5979.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5980",
+      "sourceId": "5980",
+      "path": "/recipes/media/wordpress/5980.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5988",
+      "sourceId": "5988",
+      "path": "/recipes/media/wordpress/5988.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6614",
+      "sourceId": "6614",
+      "path": "/recipes/media/wordpress/6614.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5975",
+      "sourceId": "5975",
+      "path": "/recipes/media/wordpress/5975.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

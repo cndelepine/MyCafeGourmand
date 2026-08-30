@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:659",
+  "locale": "ru",
+  "canonicalPath": "/ru/декор-стола-и-дома/зима/",
+  "translationGroupId": "wordpress:post-translations:150",
+  "source": {
+    "system": "wordpress",
+    "postId": 659,
+    "sourcePath": "/ru/декор-стола-и-дома/зима/",
+    "sourceSlug": "%d0%b7%d0%b8%d0%bc%d0%b0",
+    "createdAt": "2018-01-01T21:10:30Z",
+    "modifiedAt": "2018-01-19T02:49:51Z"
+  },
+  "title": "зима",
+  "excerpt": null,
+  "publishedAt": "2018-01-01T21:10:30Z",
+  "modifiedAt": "2018-01-19T02:49:51Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:687",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:687",
+      "path": "/editorial/media/wordpress/687.jpg",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 687
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

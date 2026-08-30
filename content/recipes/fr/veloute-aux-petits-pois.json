@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21793",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2841",
+  "slug": "veloute-aux-petits-pois",
+  "source": {
+    "system": "wordpress",
+    "postId": "21793",
+    "recipeId": "21793",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-veloute-aux-petits-pois",
+    "createdAt": "2023-11-06T02:33:00+00:00",
+    "modifiedAt": "2023-11-22T00:04:48+00:00",
+    "editorialPostId": "5384",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "veloute-aux-petits-pois",
+    "editorialCreatedAt": "2023-11-06T02:33:00+00:00",
+    "editorialModifiedAt": "2023-11-22T00:04:46+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/veloute-aux-petits-pois/"
+  ],
+  "title": "Velouté aux petits pois",
+  "description": "À servir bien chaud avec un peu de crème.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le velouté aux petits pois est une savoureuse soupe au poulet, avec des petits pois et des pommes de terre. Une recette facile à préparer, avec des ingrédients que l'on a souvent sous la main. Le blanc de poulet peut être remplacé par de la dinde. Les petits pois peuvent être frais, congelés ou en conserve.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Vous aimez ce velouté? Essayez mes autres <a href=\"https://mycafegourmand.com/fr/recettes/soupes/\">soupes</a> !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21793,\"template\":\"chic-template-french\",\"updated\":1700611478547} -->\n<!--WPRM Recipe 21793-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Velouté aux petits pois</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7970.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t À servir bien chaud avec un peu de crème.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 cuillères à soupe d'huile d'olive</li><li>200 g de filet de blanc de poulet sans peau (découpé en morceaux)</li><li>1 oignon (épluché et découpé en lanières)</li><li>5 pommes de terre (épluchées et découpées en cubes)</li><li>1,5 l d'eau</li><li>400 g de petits pois surgelés ((ou en conserve))</li><li>Sel et poivre du moulin</li><li>Un peu de crème fraîche épaisse</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans une casserole, faire chauffer l'huile d'olive et y faire dorer les morceaux de poulet. Ajouter l'oignon et faire cuire sur feu moyen pendant environ 5 minutes. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7956.Blog_-150x150.png\"/><br /></li><li> Ajouter les pommes de terre et 1,5 l d'eau dans la casserole. Porter à ébullition.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7957.Blog_-150x150.png\"/><br /></li><li>Ajouter les petits pois surgelés (ou des petits pois en conserve égouttés). Porter à nouveau à ébullition. Saler et poivrer. Laisser cuire à feu doux pendant environ 20 minutes. Retirer la casserole du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7958.Blog_-150x150.png\"/><br /></li><li>Mouliner jusqu’à obtenir un velouté parfait. Si la soupe est trop épaisse, ajouter un peu d’eau bouillante  pour obtenir la consistence souhaitée . <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7959.Blog_-150x150.png\"/><br /></li><li><p>Au moment de servir, décorer avec une pointe de crème fraîche. Servir dans des assiettes avec un peu de crème fraîche.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7967.Blog_-150x150.png\"/><br /></li><li><p>Vous avez des talents d&#039;artiste? Améliorer la présentation avec de jolis dessins sur votre velouté!</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7965.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soupes</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26487",
+      "sourceTaxonomyId": "26487",
+      "name": "Soupes",
+      "slug": "soupes-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24471",
+      "sourceTaxonomyId": "24471",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24517",
+      "sourceTaxonomyId": "24517",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24525",
+      "sourceTaxonomyId": "24525",
+      "name": "de filet de blanc de poulet sans peau",
+      "slug": "de-filet-de-blanc-de-poulet-sans-peau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24526",
+      "sourceTaxonomyId": "24526",
+      "name": "de petits pois surgelés",
+      "slug": "de-petits-pois-surgeles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26188",
+      "sourceTaxonomyId": "26188",
+      "name": "L",
+      "slug": "l"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "98",
+      "sourceTaxonomyId": "98",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1562",
+      "sourceTaxonomyId": "1562",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "942",
+      "sourceTaxonomyId": "942",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2469",
+      "sourceTaxonomyId": "2469",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2870",
+      "sourceTaxonomyId": "2870",
+      "name": "de filet de blanc de poulet sans peau",
+      "slug": "de-filet-de-blanc-de-poulet-sans-peau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2872",
+      "sourceTaxonomyId": "2872",
+      "name": "de petits pois surgelés",
+      "slug": "de-petits-pois-surgeles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1290",
+      "sourceTaxonomyId": "1290",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1666",
+      "sourceTaxonomyId": "1666",
+      "name": "petits pois",
+      "slug": "petits-pois"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2858",
+      "sourceTaxonomyId": "2858",
+      "name": "veloute",
+      "slug": "veloute"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2860",
+      "sourceTaxonomyId": "2860",
+      "name": "poulet",
+      "slug": "poulet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2862",
+      "sourceTaxonomyId": "2862",
+      "name": "soupe-puree",
+      "slug": "soupe-puree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2864",
+      "sourceTaxonomyId": "2864",
+      "name": "petits pois en conserve",
+      "slug": "petits-pois-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2866",
+      "sourceTaxonomyId": "2866",
+      "name": "petits pois congeles",
+      "slug": "petits-pois-congeles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:5391",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g de filet de blanc de poulet sans peau découpé en morceaux",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de filet de blanc de poulet sans peau",
+            "notes": "découpé en morceaux"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 oignon épluché et découpé en lanières",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "épluché et découpé en lanières"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "5 pommes de terre épluchées et découpées en cubes",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pommes de terre",
+            "notes": "épluchées et découpées en cubes"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1,5 l d'eau",
+            "quantity": {
+              "raw": "1,5 l",
+              "unit": "l",
+              "scalable": false
+            },
+            "name": "d'eau",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "400 g de petits pois surgelés (ou en conserve)",
+            "quantity": {
+              "raw": "400 g",
+              "value": 400,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de petits pois surgelés",
+            "notes": "(ou en conserve)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Un peu de crème fraîche épaisse",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de crème fraîche épaisse",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une casserole, faire chauffer l'huile d'olive et y faire dorer les morceaux de poulet. Ajouter l'oignon et faire cuire sur feu moyen pendant environ 5 minutes.",
+            "mediaId": "wordpress-attachment:5386"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ajouter les pommes de terre et 1,5 l d'eau dans la casserole. Porter à ébullition.",
+            "mediaId": "wordpress-attachment:5387"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter les petits pois surgelés (ou des petits pois en conserve égouttés). Porter à nouveau à ébullition. Saler et poivrer. Laisser cuire à feu doux pendant environ 20 minutes. Retirer la casserole du feu.",
+            "mediaId": "wordpress-attachment:5388"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mouliner jusqu’à obtenir un velouté parfait. Si la soupe est trop épaisse, ajouter un peu d’eau bouillante pour obtenir la consistence souhaitée .",
+            "mediaId": "wordpress-attachment:5389"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Au moment de servir, décorer avec une pointe de crème fraîche. Servir dans des assiettes avec un peu de crème fraîche.",
+            "mediaId": "wordpress-attachment:5390"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Vous avez des talents d'artiste? Améliorer la présentation avec de jolis dessins sur votre velouté!",
+            "mediaId": "wordpress-attachment:5580"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5391",
+      "sourceId": "5391",
+      "path": "/recipes/media/wordpress/5391.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5386",
+      "sourceId": "5386",
+      "path": "/recipes/media/wordpress/5386.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5387",
+      "sourceId": "5387",
+      "path": "/recipes/media/wordpress/5387.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5388",
+      "sourceId": "5388",
+      "path": "/recipes/media/wordpress/5388.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5389",
+      "sourceId": "5389",
+      "path": "/recipes/media/wordpress/5389.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5390",
+      "sourceId": "5390",
+      "path": "/recipes/media/wordpress/5390.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5580",
+      "sourceId": "5580",
+      "path": "/recipes/media/wordpress/5580.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

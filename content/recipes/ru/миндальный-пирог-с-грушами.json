@@ -1,0 +1,772 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:20888",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:23530",
+  "slug": "миндальный-пирог-с-грушами",
+  "source": {
+    "system": "wordpress",
+    "postId": "20888",
+    "recipeId": "20888",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d1%81-%d0%b3%d1%80%d1%83%d1%88%d0%b0%d0%bc%d0%b8",
+    "createdAt": "2022-11-09T00:40:00+00:00",
+    "modifiedAt": "2024-11-02T07:55:40+00:00",
+    "editorialPostId": "20863",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d1%81-%d0%b3%d1%80%d1%83%d1%88%d0%b0%d0%bc%d0%b8",
+    "editorialCreatedAt": "2022-11-09T00:40:00+00:00",
+    "editorialModifiedAt": "2024-11-02T07:55:38+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d1%81-%d0%b3%d1%80%d1%83%d1%88%d0%b0%d0%bc%d0%b8/"
+  ],
+  "title": "Миндальный пирог с грушами",
+  "description": "Миндальный пирог с грушами",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Миндальное тесто, миндальный крем, груши и немного миндальных орешков - десерт, для истинных гурманов. <br>Этот миндальный пирог очень популярен во Франции и называется  Тарт Бурдалу (Bourdaloue). </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":20888,\"template\":\"chic-template-russian\",\"updated\":1730534028778} -->\n<!--WPRM Recipe 20888-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Миндальный пирог с грушами</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/11/IMG_7240-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Миндальный пирог с грушами</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Миндальное песочное тесто</h4><ul><li>120 г размягченного сливочного масла</li><li>75 г сахарной пудры</li><li>30 г миндальной муки</li><li>1 щепотка  соли</li><li>1 яйцо ((взбить немного вилкой))</li><li>1 ч.л. <a href=\"https://mycafegourmand.com/ru/ingredient/%d0%b6%d0%b8%d0%b4%d0%ba%d0%be%d0%b9-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8-1-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b8%d0%ba-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85/\"></a>жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)</li><li>200 г просеянной муки</li></ul><h4>Миндальный крем</h4><ul><li>100 г размягченного сливочного масла</li><li>100 г сахара</li><li>2  яйца</li><li>100 г миндальной муки</li><li>2 ст.л. сливок</li><li>3 груши</li></ul><h4>Еще </h4><ul><li>15 г сливочного масла ((растопить))</li><li>1 ст.л. <a href=\"https://mycafegourmand.com/ru/ingredient/%d0%bb%d0%be%d0%bc%d1%82%d0%b8%d0%ba%d0%be%d0%b2-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8f/\">ломтиков миндаля</a></li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Миндальное песочное тесто</h4><ol><li><p>В миску или на кухонный стол просеять муку и сахарную пудру. Добавить миндальную муку и кусочки масла.  Перетереть руками до состояния рассыпчатой смеси.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/11/IMG_0183-2.Blog_-150x150.png\"/><br /></li><li><p>Добавить яйцо и жидкую ваниль. Очень быстро все перемешать. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/11/IMG_0188-2.Blog_-150x150.png\"/><br /></li><li><p>Руками слепить из теста шар.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/09/IMG_0202-2.Blog_-150x150.png\"/><br /></li><li><p>Завернуть тесто в пищевую пленку и убрать в холодильник на 1 час. Или заморозить, если не собираетесь готовить в ближайшие дни.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/09/IMG_4613-150x150.jpg\"/><br /></li></ol><h4>Миндальный крем</h4><ol><li><p>Миксером взбить масло с сахаром. Добавить яйца, сливки и миндальную муку.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4458.Blog_-150x150.png\"/><br /></li></ol><h4>Приготовление тарта</h4><ol><li><p>Разогреть духовку до 170°C. Через пергаментную бумагу или пищевую пленку тонко раскатать тесто.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1337.Blog_-1-150x150.png\"/><br /></li><li><p>Перенести тесто в форму, прижать ко дну и стенкам. Обрезать лишнее тесто. Наколоть всю поверхность вилкой.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_2397.Blog_-150x150.png\"/><br /></li><li><p>Равномерно распределить миндальную начинку на тесто. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/11/IMG_7197-2.Blog_-150x150.png\"/><br /></li><li><p>Почистить груши, разрезать их пополам. Удалить сердцевину. Нарезать очень тонкими ломтиками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/11/IMG_7203-2.Blog_-150x150.png\"/><br /></li><li><p>Красиво разложить ломтики груш. Смазать растопленным сливочным маслом. Посыпать миндальными орешками.                                </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/11/IMG_7206-2.Blog_-150x150.png\"/><br /></li><li><p>Выпекать в духовке примерно 40 минут до красивого золотого цвета. Достать тарт из духовки и охладить. Перед подачей на стол можно слегка посыпать сахарной пудрой.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/11/IMG_7240-3.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div><div class=\"wprm-fallback-recipe-meta-cuisine\">French</div><div class=\"wprm-fallback-recipe-meta-keyword\">mycafegourmand, грушевый пирог, груши, миндальное тесто, миндальный крем, песочное тесто, пирог бурдалу, тарт с грушами, французский пирог, французский рецепт</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+    "excerpt": "Миндальное тесто, миндальный крем, груши и немного миндальных орешков - десерт, для истинных гурманов. "
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23540",
+      "sourceTaxonomyId": "23540",
+      "name": "French",
+      "slug": "french"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23548",
+      "sourceTaxonomyId": "23548",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23549",
+      "sourceTaxonomyId": "23549",
+      "name": "размягченного сливочного масла",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23955",
+      "sourceTaxonomyId": "23955",
+      "name": "яйцо",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23956",
+      "sourceTaxonomyId": "23956",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23957",
+      "sourceTaxonomyId": "23957",
+      "name": "миндальной муки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23959",
+      "sourceTaxonomyId": "23959",
+      "name": "жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+      "slug": "%d0%b6%d0%b8%d0%b4%d0%ba%d0%be%d0%b9-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8-1-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b8%d0%ba-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23981",
+      "sourceTaxonomyId": "23981",
+      "name": "сливок",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23982",
+      "sourceTaxonomyId": "23982",
+      "name": "груши",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23983",
+      "sourceTaxonomyId": "23983",
+      "name": "ломтиков миндаля",
+      "slug": "%d0%bb%d0%be%d0%bc%d1%82%d0%b8%d0%ba%d0%be%d0%b2-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23960",
+      "sourceTaxonomyId": "23960",
+      "name": "песочное тесто",
+      "slug": "%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23961",
+      "sourceTaxonomyId": "23961",
+      "name": "миндальное тесто",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23962",
+      "sourceTaxonomyId": "23962",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23984",
+      "sourceTaxonomyId": "23984",
+      "name": "груши",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23985",
+      "sourceTaxonomyId": "23985",
+      "name": "миндальный крем",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d1%80%d0%b5%d0%bc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23986",
+      "sourceTaxonomyId": "23986",
+      "name": "французский рецепт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23987",
+      "sourceTaxonomyId": "23987",
+      "name": "тарт с грушами",
+      "slug": "%d1%82%d0%b0%d1%80%d1%82-%d1%81-%d0%b3%d1%80%d1%83%d1%88%d0%b0%d0%bc%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23988",
+      "sourceTaxonomyId": "23988",
+      "name": "грушевый пирог",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b5%d0%b2%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23989",
+      "sourceTaxonomyId": "23989",
+      "name": "французский пирог",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "23990",
+      "sourceTaxonomyId": "23990",
+      "name": "пирог бурдалу",
+      "slug": "%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d0%b1%d1%83%d1%80%d0%b4%d0%b0%d0%bb%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "828",
+      "sourceTaxonomyId": "828",
+      "name": "размягченного сливочного масла",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "832",
+      "sourceTaxonomyId": "832",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3059",
+      "sourceTaxonomyId": "3059",
+      "name": "миндальный пирог",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3061",
+      "sourceTaxonomyId": "3061",
+      "name": "миндальная мука",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3728",
+      "sourceTaxonomyId": "3728",
+      "name": "миндальная начинка",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%bd%d0%b0%d1%87%d0%b8%d0%bd%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4374",
+      "sourceTaxonomyId": "4374",
+      "name": "французский рецепт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6977",
+      "sourceTaxonomyId": "6977",
+      "name": "песочное тесто",
+      "slug": "%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6985",
+      "sourceTaxonomyId": "6985",
+      "name": "французский пирог",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8422",
+      "sourceTaxonomyId": "8422",
+      "name": "миндальные лепестки",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bb%d0%b5%d0%bf%d0%b5%d1%81%d1%82%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8535",
+      "sourceTaxonomyId": "8535",
+      "name": "миндальный крем",
+      "slug": "%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d1%80%d0%b5%d0%bc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26852",
+      "sourceTaxonomyId": "26852",
+      "name": "грушевый пирог",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b5%d0%b2%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26869",
+      "sourceTaxonomyId": "26869",
+      "name": "груша",
+      "slug": "%d0%b3%d1%80%d1%83%d1%88%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26872",
+      "sourceTaxonomyId": "26872",
+      "name": "бурдалу",
+      "slug": "%d0%b1%d1%83%d1%80%d0%b4%d0%b0%d0%bb%d1%83"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "1 тарт",
+      "value": 1,
+      "unit": "тарт",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "135",
+        "minutes": 135
+      },
+      "custom": {
+        "label": "Пассивное время",
+        "duration": {
+          "raw": "60",
+          "minutes": 60
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:21011",
+    "ingredientGroups": [
+      {
+        "name": "Миндальное песочное тесто",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "120 г размягченного сливочного масла",
+            "quantity": {
+              "raw": "120 г",
+              "value": 120,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "размягченного сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "75 г сахарной пудры",
+            "quantity": {
+              "raw": "75 г",
+              "value": 75,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахарной пудры",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "30 г миндальной муки",
+            "quantity": {
+              "raw": "30 г",
+              "value": 30,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "миндальной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 щепотка соли",
+            "quantity": {
+              "raw": "1 щепотка",
+              "value": 1,
+              "unit": "щепотка",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 яйцо (взбить немного вилкой)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйцо",
+            "notes": "(взбить немного вилкой)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 ч.л. жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "жидкой ванили (1 пакетик ванильного сахара или 1 стручок ванили)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "200 г просеянной муки",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "просеянной муки",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Миндальный крем",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 г размягченного сливочного масла",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "размягченного сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 г сахара",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 яйца",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "100 г миндальной муки",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "миндальной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 ст.л. сливок",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "сливок",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 груши",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "груши",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Еще",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "15 г сливочного масла (растопить)",
+            "quantity": {
+              "raw": "15 г",
+              "value": 15,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": "(растопить)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 ст.л. ломтиков миндаля",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "ломтиков миндаля",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Миндальное песочное тесто",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В миску или на кухонный стол просеять муку и сахарную пудру. Добавить миндальную муку и кусочки масла. Перетереть руками до состояния рассыпчатой смеси.",
+            "mediaId": "wordpress-attachment:21015"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Добавить яйцо и жидкую ваниль. Очень быстро все перемешать.",
+            "mediaId": "wordpress-attachment:21016"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Руками слепить из теста шар.",
+            "mediaId": "wordpress-attachment:20867"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Завернуть тесто в пищевую пленку и убрать в холодильник на 1 час. Или заморозить, если не собираетесь готовить в ближайшие дни.",
+            "mediaId": "wordpress-attachment:20870"
+          }
+        ]
+      },
+      {
+        "name": "Миндальный крем",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Миксером взбить масло с сахаром. Добавить яйца, сливки и миндальную муку.",
+            "mediaId": "wordpress-attachment:13250"
+          }
+        ]
+      },
+      {
+        "name": "Приготовление тарта",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 170°C. Через пергаментную бумагу или пищевую пленку тонко раскатать тесто.",
+            "mediaId": "wordpress-attachment:12434"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Перенести тесто в форму, прижать ко дну и стенкам. Обрезать лишнее тесто. Наколоть всю поверхность вилкой.",
+            "mediaId": "wordpress-attachment:12680"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Равномерно распределить миндальную начинку на тесто.",
+            "mediaId": "wordpress-attachment:21012"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Почистить груши, разрезать их пополам. Удалить сердцевину. Нарезать очень тонкими ломтиками.",
+            "mediaId": "wordpress-attachment:21013"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Красиво разложить ломтики груш. Смазать растопленным сливочным маслом. Посыпать миндальными орешками.",
+            "mediaId": "wordpress-attachment:21014"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Выпекать в духовке примерно 40 минут до красивого золотого цвета. Достать тарт из духовки и охладить. Перед подачей на стол можно слегка посыпать сахарной пудрой.",
+            "mediaId": "wordpress-attachment:21018"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:21011",
+      "sourceId": "21011",
+      "path": "/recipes/media/wordpress/21011.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:21015",
+      "sourceId": "21015",
+      "path": "/recipes/media/wordpress/21015.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:21016",
+      "sourceId": "21016",
+      "path": "/recipes/media/wordpress/21016.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20867",
+      "sourceId": "20867",
+      "path": "/recipes/media/wordpress/20867.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20870",
+      "sourceId": "20870",
+      "path": "/recipes/media/wordpress/20870.jpg",
+      "alt": null,
+      "width": 2560,
+      "height": 1707
+    },
+    {
+      "id": "wordpress-attachment:13250",
+      "sourceId": "13250",
+      "path": "/recipes/media/wordpress/13250.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12434",
+      "sourceId": "12434",
+      "path": "/recipes/media/wordpress/12434.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12680",
+      "sourceId": "12680",
+      "path": "/recipes/media/wordpress/12680.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:21012",
+      "sourceId": "21012",
+      "path": "/recipes/media/wordpress/21012.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:21013",
+      "sourceId": "21013",
+      "path": "/recipes/media/wordpress/21013.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:21014",
+      "sourceId": "21014",
+      "path": "/recipes/media/wordpress/21014.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:21018",
+      "sourceId": "21018",
+      "path": "/recipes/media/wordpress/21018.png",
+      "alt": null,
+      "width": 734,
+      "height": 462
+    }
+  ],
+  "seo": null
+}

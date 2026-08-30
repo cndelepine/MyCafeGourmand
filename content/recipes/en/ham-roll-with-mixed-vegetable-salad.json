@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28751",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26931",
+  "slug": "ham-roll-with-mixed-vegetable-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "28751",
+    "recipeId": "28751",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-ham-roll-with-mixed-vegetable-salad",
+    "createdAt": "2024-12-03T01:16:08+00:00",
+    "modifiedAt": "2024-12-10T07:30:36+00:00",
+    "editorialPostId": "28750",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "ham-roll-with-mixed-vegetable-salad",
+    "editorialCreatedAt": "2024-12-03T01:16:08+00:00",
+    "editorialModifiedAt": "2024-12-10T07:30:34+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ham-roll-with-mixed-vegetable-salad/"
+  ],
+  "title": "Ham roll with Mixed Vegetable Salad",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The vegetables are cooked and finely cut, then mixed with mayonnaise. This presentation with the rolled ham makes an elegant starter.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28751,\"template\":\"chic-template-english\",\"updated\":1733815741898} -->\n<!--WPRM Recipe 28751-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Ham roll with Mixed Vegetable Salad</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/IMG_1527.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1-2 carrots</li><li>4 potatoes</li><li>1/2 onion</li><li>3 hard-boiled eggs (peeled)</li><li>3-4 large pickles (Russian-style)</li><li>100 g peas (canned extra-fine, drained)</li><li>2-3 tablespoons  mayonnaise</li><li>Salt and freshly ground pepper</li><li>A  few  sprigs  dill (or parsley) (finely chopped)</li><li>8 slices ham (Black Forest)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Cook the potatoes and carrots in water or steam them until tender but not overcooked. Drain and let cool slightly. Boil the eggs.</p></li><li><p>Peel the potatoes, carrots, and onion. Peel the boiled eggs.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732776_10211393242889162_1434227691_o-150x150.png\"/><br /></li><li><p>Dice all the vegetables and eggs into small cubes. Drain the peas.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26732789_10211393239289072_1633728185_o.Blog_-150x150.png\"/><br /></li><li><p>Gently mix the potatoes, carrots, onion, pickles, eggs, and peas. Add the mayonnaise, season with salt and pepper, and combine carefully to avoid crushing the vegetables.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/26613468_1747902331888848_210845601_o.Blog_-3-150x150.png\"/><br /></li><li><p>Place a generous spoonful of the vegetable mixture onto each ham slice. Roll up the slices and secure them with a chive sprig.</p><p>Refrigerate until chilled. Serve on a platter or individually on plates.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/12/IMG_1518.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24202",
+      "sourceTaxonomyId": "24202",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24240",
+      "sourceTaxonomyId": "24240",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24250",
+      "sourceTaxonomyId": "24250",
+      "name": "hard boiled eggs",
+      "slug": "hard-boiled-eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24329",
+      "sourceTaxonomyId": "24329",
+      "name": "salt and freshly ground pepper",
+      "slug": "salt-and-freshly-ground-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26932",
+      "sourceTaxonomyId": "26932",
+      "name": "large pickles",
+      "slug": "large-pickles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26933",
+      "sourceTaxonomyId": "26933",
+      "name": "peas",
+      "slug": "peas"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26935",
+      "sourceTaxonomyId": "26935",
+      "name": "dill (or parsley)",
+      "slug": "dill-or-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26936",
+      "sourceTaxonomyId": "26936",
+      "name": "ham (Black Forest)",
+      "slug": "ham-black-forest"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25489",
+      "sourceTaxonomyId": "25489",
+      "name": "slices",
+      "slug": "slices"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26791",
+      "sourceTaxonomyId": "26791",
+      "name": "tablespoons",
+      "slug": "tablespoons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26934",
+      "sourceTaxonomyId": "26934",
+      "name": "sprigs",
+      "slug": "sprigs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 people",
+      "value": 8,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28717",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1-2 carrots",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carrots",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 potatoes",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 onion",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3 hard-boiled eggs peeled",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "hard-boiled eggs",
+            "notes": "peeled"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3-4 large pickles Russian-style",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "large pickles",
+            "notes": "Russian-style"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "100 g peas canned extra-fine, drained",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "peas",
+            "notes": "canned extra-fine, drained"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2-3 tablespoons mayonnaise",
+            "quantity": {
+              "raw": "2-3 tablespoons",
+              "min": 2,
+              "max": 3,
+              "unit": "tablespoons",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Salt and freshly ground pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "A few sprigs dill (or parsley) finely chopped",
+            "quantity": {
+              "raw": "A few sprigs",
+              "unit": "sprigs",
+              "scalable": false
+            },
+            "name": "dill (or parsley)",
+            "notes": "finely chopped"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "8 slices ham (Black Forest)",
+            "quantity": {
+              "raw": "8 slices",
+              "value": 8,
+              "unit": "slices",
+              "scalable": true
+            },
+            "name": "ham (Black Forest)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cook the potatoes and carrots in water or steam them until tender but not overcooked. Drain and let cool slightly. Boil the eggs.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel the potatoes, carrots, and onion. Peel the boiled eggs.",
+            "mediaId": "wordpress-attachment:1362"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dice all the vegetables and eggs into small cubes. Drain the peas.",
+            "mediaId": "wordpress-attachment:1363"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Gently mix the potatoes, carrots, onion, pickles, eggs, and peas. Add the mayonnaise, season with salt and pepper, and combine carefully to avoid crushing the vegetables.",
+            "mediaId": "wordpress-attachment:1407"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Place a generous spoonful of the vegetable mixture onto each ham slice. Roll up the slices and secure them with a chive sprig.\n\nRefrigerate until chilled. Serve on a platter or individually on plates.",
+            "mediaId": "wordpress-attachment:28718"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28717",
+      "sourceId": "28717",
+      "path": "/recipes/media/wordpress/28717.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:1362",
+      "sourceId": "1362",
+      "path": "/recipes/media/wordpress/1362.png",
+      "alt": null,
+      "width": 1600,
+      "height": 1038
+    },
+    {
+      "id": "wordpress-attachment:1363",
+      "sourceId": "1363",
+      "path": "/recipes/media/wordpress/1363.png",
+      "alt": null,
+      "width": 768,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1407",
+      "sourceId": "1407",
+      "path": "/recipes/media/wordpress/1407.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28718",
+      "sourceId": "28718",
+      "path": "/recipes/media/wordpress/28718.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

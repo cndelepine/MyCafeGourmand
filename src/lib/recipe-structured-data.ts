@@ -1,4 +1,5 @@
 import type { Locale, RecipeRecord } from "@/content/schema";
+import { resolveRecipeMediaUrl } from "./recipe-media";
 import { absoluteUrl, canonicalUrl } from "./site";
 import { getRecipePath } from "./recipe-routes";
 
@@ -19,6 +20,11 @@ export type RecipeStructuredData = {
   cookTime?: string;
   totalTime?: string;
   recipeCategory?: string[];
+  nutrition?: {
+    "@type": "NutritionInformation";
+    calories?: string;
+    servingSize?: string;
+  };
   inLanguage: Locale;
   url: string;
   datePublished?: string;
@@ -42,19 +48,39 @@ export function getRecipeStructuredData(
     return {
       "@type": "HowToStep" as const,
       text: step.text,
-      ...(stepMedia ? { image: absoluteUrl(stepMedia.path) } : {})
+      ...(stepMedia ? { image: absoluteUrl(resolveRecipeMediaUrl(stepMedia.path)) } : {})
     };
   });
   const categories = record.taxonomies
     .filter((taxonomy) => taxonomy.taxonomy === "category")
     .map((taxonomy) => taxonomy.name);
+  const nutrition = record.recipe.nutrition;
+  const servingSize = nutrition?.servingSize
+    ? [nutrition.servingSize.raw, nutrition.servingUnit]
+      .filter((value): value is string => value !== null)
+      .join(" ")
+    : undefined;
+  const calorieValue = nutrition?.calories?.value;
+  const calories = typeof calorieValue === "number"
+    && Number.isFinite(calorieValue)
+    && calorieValue >= 0
+    ? `${String(calorieValue)} calories`
+    : undefined;
+  const structuredNutrition = nutrition
+    && (calories !== undefined || servingSize !== undefined)
+    ? {
+      "@type": "NutritionInformation" as const,
+      ...(calories !== undefined ? { calories } : {}),
+      ...(servingSize !== undefined ? { servingSize } : {})
+    }
+    : undefined;
 
   return {
     "@context": "https://schema.org",
     "@type": "Recipe",
     name: record.title,
     ...(record.description ? { description: record.description } : {}),
-    ...(hero ? { image: [absoluteUrl(hero.path)] } : {}),
+    ...(hero ? { image: [absoluteUrl(resolveRecipeMediaUrl(hero.path))] } : {}),
     recipeIngredient: record.recipe.ingredientGroups.flatMap((group) =>
       group.items.map((item) => item.raw)
     ),
@@ -73,6 +99,7 @@ export function getRecipeStructuredData(
       ? { totalTime: toIsoDuration(record.recipe.times.total.minutes) }
       : {}),
     ...(categories.length > 0 ? { recipeCategory: categories } : {}),
+    ...(structuredNutrition ? { nutrition: structuredNutrition } : {}),
     inLanguage: record.locale,
     url: canonicalUrl(getRecipePath(record)),
     ...(record.source.createdAt

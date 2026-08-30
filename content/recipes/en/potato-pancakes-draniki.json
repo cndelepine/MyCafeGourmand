@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21539",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:5254",
+  "slug": "potato-pancakes-draniki",
+  "source": {
+    "system": "wordpress",
+    "postId": "21539",
+    "recipeId": "21539",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-potato-pancakes-draniki",
+    "createdAt": "2018-05-31T06:29:50+00:00",
+    "modifiedAt": "2022-07-30T18:58:11+00:00",
+    "editorialPostId": "10813",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "potato-pancakes-draniki",
+    "editorialCreatedAt": "2018-05-31T06:29:50+00:00",
+    "editorialModifiedAt": "2022-07-30T18:58:08+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/potato-pancakes-draniki/"
+  ],
+  "title": "Potato Pancakes (Draniki)",
+  "description": "You will need some extra olive oil, draniki absorb oil very fast.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>One of my husband's favorite food is draniki. Russian style potato pancakes. Perfect for breakfast or branch. I've seen draniki &nbsp;recipes that use mashed potato also, but I personally prefer my potato to be coarsely &nbsp;grated, because then you have more crispy ends. Traditionally draniki are served with sour cream, but you can also serve them with ketchup or cottage cheese. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21539,\"template\":\"chic-template-english\",\"updated\":1659207478091} -->\n<!--WPRM Recipe 21539-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Potato Pancakes (Draniki)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180530_230540.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYou will need some extra olive oil, draniki absorb oil very fast.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 medium potatoes (washed )</li><li>2 eggs</li><li>1/2 tsp baking soda</li><li>50 ml buttermilk</li><li>1/2  tsp salt</li><li>1/2 tsp freshly ground black pepper</li><li>50 g all purpose flour</li><li>1/2 cup olive oil ((plus extra))</li><li>1/2  cup sour cream ((optional))</li><li>fresh herbs ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel and grate potatoes. Squeeze grated potatoes with hands, extracting as much liquid as possible.</li><li>In a large bowl beet eggs, baking soda and buttermilk, add grated potatoes, salt, pepper and flour, mix well. </li><li>In a large iron skillet heat the olive oil until hot. Place the tablespoons of batter in the pan and flatten with spoon. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180530_230802.Blog_-150x150.png\"/><br /></li><li>Reduce heat to medium and cook until the bottom is golden brown.Turn over and cook on the other side.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/received_10212442291274716.Blog_-150x150.png\"/><br /></li><li>Garnish with fresh herbs and serve them hot with sour cream.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24105",
+      "sourceTaxonomyId": "24105",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24133",
+      "sourceTaxonomyId": "24133",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24240",
+      "sourceTaxonomyId": "24240",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24357",
+      "sourceTaxonomyId": "24357",
+      "name": "baking soda",
+      "slug": "baking-soda"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24369",
+      "sourceTaxonomyId": "24369",
+      "name": "buttermilk",
+      "slug": "buttermilk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "505",
+      "sourceTaxonomyId": "505",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1142",
+      "sourceTaxonomyId": "1142",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2844",
+      "sourceTaxonomyId": "2844",
+      "name": "buttermilk",
+      "slug": "buttermilk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4134",
+      "sourceTaxonomyId": "4134",
+      "name": "baking soda",
+      "slug": "baking-soda"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4584",
+      "sourceTaxonomyId": "4584",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2782",
+      "sourceTaxonomyId": "2782",
+      "name": "russian dish",
+      "slug": "russian-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3634",
+      "sourceTaxonomyId": "3634",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3772",
+      "sourceTaxonomyId": "3772",
+      "name": "frying pan",
+      "slug": "frying-pan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5195",
+      "sourceTaxonomyId": "5195",
+      "name": "potato pancakes",
+      "slug": "potato-pancakes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5197",
+      "sourceTaxonomyId": "5197",
+      "name": "draniki",
+      "slug": "draniki"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5199",
+      "sourceTaxonomyId": "5199",
+      "name": "buttermilk",
+      "slug": "buttermilk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5227",
+      "sourceTaxonomyId": "5227",
+      "name": "картофельные блины",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%b1%d0%bb%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5229",
+      "sourceTaxonomyId": "5229",
+      "name": "драники",
+      "slug": "%d0%b4%d1%80%d0%b0%d0%bd%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5231",
+      "sourceTaxonomyId": "5231",
+      "name": "bielorussian dish",
+      "slug": "bielorussian-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5407",
+      "sourceTaxonomyId": "5407",
+      "name": "deruni",
+      "slug": "deruni"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10882",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 medium potatoes washed",
+            "quantity": {
+              "raw": "6 medium",
+              "value": 6,
+              "unit": "medium",
+              "scalable": true
+            },
+            "name": "potatoes",
+            "notes": "washed"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 tsp baking soda",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking soda",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "50 ml buttermilk",
+            "quantity": {
+              "raw": "50 ml",
+              "value": 50,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "buttermilk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 tsp salt",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 tsp freshly ground black pepper",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "50 g all purpose flour",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/2 cup olive oil (plus extra)",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": "(plus extra)"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1/2 cup sour cream (optional)",
+            "quantity": {
+              "raw": "1/2 cup",
+              "value": 0.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "fresh herbs (optional)",
+            "quantity": null,
+            "name": "fresh herbs",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel and grate potatoes. Squeeze grated potatoes with hands, extracting as much liquid as possible.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a large bowl beet eggs, baking soda and buttermilk, add grated potatoes, salt, pepper and flour, mix well.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "In a large iron skillet heat the olive oil until hot. Place the tablespoons of batter in the pan and flatten with spoon.",
+            "mediaId": "wordpress-attachment:10886"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Reduce heat to medium and cook until the bottom is golden brown.Turn over and cook on the other side.",
+            "mediaId": "wordpress-attachment:10887"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Garnish with fresh herbs and serve them hot with sour cream.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10882",
+      "sourceId": "10882",
+      "path": "/recipes/media/wordpress/10882.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10886",
+      "sourceId": "10886",
+      "path": "/recipes/media/wordpress/10886.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:10887",
+      "sourceId": "10887",
+      "path": "/recipes/media/wordpress/10887.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

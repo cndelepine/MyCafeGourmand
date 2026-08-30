@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28544",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26868",
+  "slug": "poires-au-vin-rouge",
+  "source": {
+    "system": "wordpress",
+    "postId": "28544",
+    "recipeId": "28544",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-poires-au-vin-rouge",
+    "createdAt": "2024-11-02T02:55:09+00:00",
+    "modifiedAt": "2024-11-03T18:17:59+00:00",
+    "editorialPostId": "28541",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "poires-au-vin-rouge",
+    "editorialCreatedAt": "2024-11-02T02:55:09+00:00",
+    "editorialModifiedAt": "2024-11-03T07:44:02+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/poires-au-vin-rouge/"
+  ],
+  "title": "Poires au vin rouge",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une excellente recette saisonnière. Ces poires avec une jolie couleur rouge sont savoureuses après avoir été pochées dans le vin rouge avec des épices.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Un <a href=\"https://mycafegourmand.com/fr/recettes/desserts/\">dessert</a> facile à faire et parfait pour terminer un repas en fin d'année.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28544,\"template\":\"chic-template-french\",\"updated\":1730619822682} -->\n<!--WPRM Recipe 28544-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Poires au vin rouge</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/IMG_1340.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4-8 poires (fermes)</li><li>750 ml de vin rouge</li><li>150 g  de sucre en poudre (ou sucre brun)</li><li>1 gousse de vanille (fendue en deux dans sa longueur )</li><li>1 zeste  d&#039;orange</li><li>5 grains de poivre</li><li>1-2 clous de girofle</li><li>1  bâton de cannelle</li><li>1 étoile de badiane</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Dans une casserole, mettre le sucre, poivre, zeste d&#039;orange, la gousse de vanille fendue en deux dans la longueur. Ajouter le bâton de cannelle, les clous de girofle et l&#039;étoile de badiane.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/IMG_1299.Blog_-150x150.png\"/><br /></li><li><p>Verser le vin et porter à ébullition.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/PXL_20241031_025921257_exported_1191_1730449141324.Blog_-150x150.png\"/><br /></li><li><p>Pendant ce temps, éplucher les poires. Garder les queues si possible.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/IMG_1182.Blog_-150x150.png\"/><br /></li><li><p>Lorsque le vin est en ébullition, baisser le feu et y plonger les poires. Laisser cuire 20 à 50 minutes, jusqu&#039;à ce que la chair des poires soit tendre. Le temps de cuisson varie en fonction de la fermeté des poires. </p><p>Couper le feu et laisser refroidir les poires dans le vin.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/PXL_20241031_033616327.MP_.Blog_-150x150.png\"/><br /></li><li><p>Pour servir, mettre les poire dans des ramequins ou des assiettes en arrosant du vin épicé. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/11/IMG_1363.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24600",
+      "sourceTaxonomyId": "24600",
+      "name": "de vanille",
+      "slug": "de-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26855",
+      "sourceTaxonomyId": "26855",
+      "name": "poires (fermes)",
+      "slug": "poires-fermes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26856",
+      "sourceTaxonomyId": "26856",
+      "name": "de vin rouge",
+      "slug": "de-vin-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26857",
+      "sourceTaxonomyId": "26857",
+      "name": "de sucre en poudre (ou sucre brun)",
+      "slug": "de-sucre-en-poudre-ou-sucre-brun"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26859",
+      "sourceTaxonomyId": "26859",
+      "name": "de poivre",
+      "slug": "de-poivre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26861",
+      "sourceTaxonomyId": "26861",
+      "name": "de girofle",
+      "slug": "de-girofle"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26863",
+      "sourceTaxonomyId": "26863",
+      "name": "de cannelle",
+      "slug": "de-cannelle"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26867",
+      "sourceTaxonomyId": "26867",
+      "name": "d'orange",
+      "slug": "dorange"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26911",
+      "sourceTaxonomyId": "26911",
+      "name": "de badiane",
+      "slug": "de-badiane"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25423",
+      "sourceTaxonomyId": "25423",
+      "name": "gousse",
+      "slug": "gousse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26858",
+      "sourceTaxonomyId": "26858",
+      "name": "grains",
+      "slug": "grains"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26860",
+      "sourceTaxonomyId": "26860",
+      "name": "clous",
+      "slug": "clous"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26862",
+      "sourceTaxonomyId": "26862",
+      "name": "bâton",
+      "slug": "baton"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26864",
+      "sourceTaxonomyId": "26864",
+      "name": "étoile",
+      "slug": "etoile"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26866",
+      "sourceTaxonomyId": "26866",
+      "name": "zeste",
+      "slug": "zeste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25346",
+      "sourceTaxonomyId": "25346",
+      "name": "Desserts",
+      "slug": "desserts-fr-sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2216",
+      "sourceTaxonomyId": "2216",
+      "name": "dessert individuel",
+      "slug": "dessert-individuel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3408",
+      "sourceTaxonomyId": "3408",
+      "name": "dessert de fete",
+      "slug": "dessert-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6862",
+      "sourceTaxonomyId": "6862",
+      "name": "bon pour la sante",
+      "slug": "bon-pour-la-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7526",
+      "sourceTaxonomyId": "7526",
+      "name": "plat d'automne",
+      "slug": "plat-dautomne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26637",
+      "sourceTaxonomyId": "26637",
+      "name": "poire",
+      "slug": "poire"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": {
+        "label": "Refroidir",
+        "duration": {
+          "raw": "60",
+          "minutes": 60
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:28561",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4-8 poires (fermes)",
+            "quantity": {
+              "raw": "4-8",
+              "min": 4,
+              "max": 8,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "poires (fermes)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "750 ml de vin rouge",
+            "quantity": {
+              "raw": "750 ml",
+              "value": 750,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de vin rouge",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 g de sucre en poudre (ou sucre brun)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre (ou sucre brun)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 gousse de vanille fendue en deux dans sa longueur",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "de vanille",
+            "notes": "fendue en deux dans sa longueur"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 zeste d'orange",
+            "quantity": {
+              "raw": "1 zeste",
+              "value": 1,
+              "unit": "zeste",
+              "scalable": true
+            },
+            "name": "d'orange",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "5 grains de poivre",
+            "quantity": {
+              "raw": "5 grains",
+              "value": 5,
+              "unit": "grains",
+              "scalable": true
+            },
+            "name": "de poivre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1-2 clous de girofle",
+            "quantity": {
+              "raw": "1-2 clous",
+              "min": 1,
+              "max": 2,
+              "unit": "clous",
+              "scalable": true
+            },
+            "name": "de girofle",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 bâton de cannelle",
+            "quantity": {
+              "raw": "1 bâton",
+              "value": 1,
+              "unit": "bâton",
+              "scalable": true
+            },
+            "name": "de cannelle",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 étoile de badiane",
+            "quantity": {
+              "raw": "1 étoile",
+              "value": 1,
+              "unit": "étoile",
+              "scalable": true
+            },
+            "name": "de badiane",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une casserole, mettre le sucre, poivre, zeste d'orange, la gousse de vanille fendue en deux dans la longueur. Ajouter le bâton de cannelle, les clous de girofle et l'étoile de badiane.",
+            "mediaId": "wordpress-attachment:28560"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Verser le vin et porter à ébullition.",
+            "mediaId": "wordpress-attachment:28564"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Pendant ce temps, éplucher les poires. Garder les queues si possible.",
+            "mediaId": "wordpress-attachment:28562"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Lorsque le vin est en ébullition, baisser le feu et y plonger les poires. Laisser cuire 20 à 50 minutes, jusqu'à ce que la chair des poires soit tendre. Le temps de cuisson varie en fonction de la fermeté des poires.\n\nCouper le feu et laisser refroidir les poires dans le vin.",
+            "mediaId": "wordpress-attachment:28565"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Pour servir, mettre les poire dans des ramequins ou des assiettes en arrosant du vin épicé.",
+            "mediaId": "wordpress-attachment:28563"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:28561",
+      "sourceId": "28561",
+      "path": "/recipes/media/wordpress/28561.png",
+      "alt": null,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28560",
+      "sourceId": "28560",
+      "path": "/recipes/media/wordpress/28560.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:28564",
+      "sourceId": "28564",
+      "path": "/recipes/media/wordpress/28564.png",
+      "alt": null,
+      "width": 560,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28562",
+      "sourceId": "28562",
+      "path": "/recipes/media/wordpress/28562.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:28565",
+      "sourceId": "28565",
+      "path": "/recipes/media/wordpress/28565.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:28563",
+      "sourceId": "28563",
+      "path": "/recipes/media/wordpress/28563.png",
+      "alt": "Poached pears in red wine",
+      "width": 640,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

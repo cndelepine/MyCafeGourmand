@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29949",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:23270",
+  "slug": "financiers",
+  "source": {
+    "system": "wordpress",
+    "postId": "29949",
+    "recipeId": "29949",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-financiers",
+    "createdAt": "2026-03-10T05:34:56+00:00",
+    "modifiedAt": "2026-03-10T05:36:01+00:00",
+    "editorialPostId": "29948",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "financiers",
+    "editorialCreatedAt": "2026-03-10T05:34:56+00:00",
+    "editorialModifiedAt": "2026-03-10T05:35:29+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/financiers/"
+  ],
+  "title": "Financiers",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Petits gâteaux français classiques à base de poudre d'amandes et de blancs d'œufs, cuits dans des moules en forme de petits lingots d'or. Parfait pour utiliser des blancs d'œufs restants !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29949,\"template\":\"chic-template-french\",\"updated\":1773120745298} -->\n<!--WPRM Recipe 29949-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Financiers</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4469-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>60 g poudre d&#039;amandes</li><li>60 g farine tamisée</li><li>150 g sucre glace  (tamisé)</li><li>1/2 cuillère a café levure chimique</li><li>6 blancs d&#039;œufs (environ 210 g)</li><li>1 cuillère a café extrait de vanille liquide (ou 1 sachet de sucre vanillé)</li><li>90 g beurre (non-salé) (fondu)</li><li>Un peu amandes effilées ( (facultatif, pour la décoration))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le four à 220°C. Beurrer les moules. (Les moules en silicone n&#039;ont pas besoin d&#039;être beurrés.)</p></li><li><p>Dans un bol, mélanger tous les ingrédients secs : poudre d&#039;amandes, farine tamisée, sucre glace tamisé et la levure chimique.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4429-2.Blog_-150x150.png\"/><br /></li><li><p>Ajouter les 6  blancs d&#039;œufs et l&#039;extrait de vanille liquide (ou 1 sachet de sucre vanillé), puis mélanger à l&#039;aide d&#039;un batteur électrique jusqu&#039;à obtenir une pâte homogène.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4430-2.Blog_-150x150.png\"/><br /></li><li><p>Ajouter le beurre fondu et bien mélanger. La pâte est assez liquide — c&#039;est normal.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4431-2.Blog_-150x150.png\"/><br /></li><li><p>Verser la pâte dans les moules. Parsemer d&#039;amandes effilées si désiré (facultatif, pour la décoration).</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_3760-2.Blog_-150x150.png\"/><br /></li><li><p>Cuire au four préchauffé pendant environ 20 minutes, jusqu&#039;à ce que les financiers soient dorés. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4440-2.Blog_-150x150.png\"/><br /></li><li><p>Le temps de cuisson peut varier selon votre four et la taille de vos moules.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4447-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, française</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Les Financiers sont des petits gâteaux français à base de poudre d'amandes et de blancs d'œufs, cuits dans des moules en forme de lingots. "
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27176",
+      "sourceTaxonomyId": "27176",
+      "name": "Dessert",
+      "slug": "dessert-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27326",
+      "sourceTaxonomyId": "27326",
+      "name": "Français",
+      "slug": "francais-en-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27329",
+      "sourceTaxonomyId": "27329",
+      "name": "française",
+      "slug": "francaise-en-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24034",
+      "sourceTaxonomyId": "24034",
+      "name": "sucre glace",
+      "slug": "sucre-glace"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24039",
+      "sourceTaxonomyId": "24039",
+      "name": "farine tamisée",
+      "slug": "farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24041",
+      "sourceTaxonomyId": "24041",
+      "name": "amandes effilées",
+      "slug": "amandes-effilees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27459",
+      "sourceTaxonomyId": "27459",
+      "name": "poudre d'amandes",
+      "slug": "poudre-damandes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27460",
+      "sourceTaxonomyId": "27460",
+      "name": "levure chimique",
+      "slug": "levure-chimique"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27462",
+      "sourceTaxonomyId": "27462",
+      "name": "extrait de vanille liquide (ou 1 sachet de sucre vanillé)",
+      "slug": "extrait-de-vanille-liquide-ou-1-sachet-de-sucre-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27463",
+      "sourceTaxonomyId": "27463",
+      "name": "beurre (non-salé)",
+      "slug": "beurre-non-sale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27469",
+      "sourceTaxonomyId": "27469",
+      "name": "blancs d'œufs (environ 210 g)",
+      "slug": "blancs-doeufs-environ-210-g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25461",
+      "sourceTaxonomyId": "25461",
+      "name": "cuillère à café",
+      "slug": "cuillere-a-cafe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8083",
+      "sourceTaxonomyId": "8083",
+      "name": "quoi faire avec blanc d'oeuf qui reste",
+      "slug": "quoi-faire-avec-blanc-doeuf-qui-reste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27470",
+      "sourceTaxonomyId": "27470",
+      "name": "financier",
+      "slug": "financier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27472",
+      "sourceTaxonomyId": "27472",
+      "name": "comment utiliser blanc d'oeuf",
+      "slug": "comment-utiliser-blanc-doeuf"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 personnes",
+      "value": 10,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:20333",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "60 g poudre d'amandes",
+            "quantity": {
+              "raw": "60 g",
+              "value": 60,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "poudre d'amandes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "60 g farine tamisée",
+            "quantity": {
+              "raw": "60 g",
+              "value": 60,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "farine tamisée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 g sucre glace tamisé",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sucre glace",
+            "notes": "tamisé"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cuillère a café levure chimique",
+            "quantity": {
+              "raw": "1 cuillère a café",
+              "value": 1,
+              "unit": "cuillère a café",
+              "scalable": true
+            },
+            "name": "levure chimique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "6 blancs d'œufs (environ 210 g)",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "blancs d'œufs (environ 210 g)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 cuillère a café extrait de vanille liquide (ou 1 sachet de sucre vanillé)",
+            "quantity": {
+              "raw": "1 cuillère a café",
+              "value": 1,
+              "unit": "cuillère a café",
+              "scalable": true
+            },
+            "name": "extrait de vanille liquide (ou 1 sachet de sucre vanillé)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "90 g beurre (non-salé) fondu",
+            "quantity": {
+              "raw": "90 g",
+              "value": 90,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "beurre (non-salé)",
+            "notes": "fondu"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Un peu amandes effilées (facultatif, pour la décoration)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "amandes effilées",
+            "notes": "(facultatif, pour la décoration)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 220°C. Beurrer les moules. (Les moules en silicone n'ont pas besoin d'être beurrés.)",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un bol, mélanger tous les ingrédients secs : poudre d'amandes, farine tamisée, sucre glace tamisé et la levure chimique.",
+            "mediaId": "wordpress-attachment:20328"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter les 6 blancs d'œufs et l'extrait de vanille liquide (ou 1 sachet de sucre vanillé), puis mélanger à l'aide d'un batteur électrique jusqu'à obtenir une pâte homogène.",
+            "mediaId": "wordpress-attachment:20329"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ajouter le beurre fondu et bien mélanger. La pâte est assez liquide — c'est normal.",
+            "mediaId": "wordpress-attachment:20330"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Verser la pâte dans les moules. Parsemer d'amandes effilées si désiré (facultatif, pour la décoration).",
+            "mediaId": "wordpress-attachment:20327"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Cuire au four préchauffé pendant environ 20 minutes, jusqu'à ce que les financiers soient dorés.",
+            "mediaId": "wordpress-attachment:20331"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Le temps de cuisson peut varier selon votre four et la taille de vos moules.",
+            "mediaId": "wordpress-attachment:20332"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20333",
+      "sourceId": "20333",
+      "path": "/recipes/media/wordpress/20333.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20328",
+      "sourceId": "20328",
+      "path": "/recipes/media/wordpress/20328.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20329",
+      "sourceId": "20329",
+      "path": "/recipes/media/wordpress/20329.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20330",
+      "sourceId": "20330",
+      "path": "/recipes/media/wordpress/20330.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20327",
+      "sourceId": "20327",
+      "path": "/recipes/media/wordpress/20327.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20331",
+      "sourceId": "20331",
+      "path": "/recipes/media/wordpress/20331.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20332",
+      "sourceId": "20332",
+      "path": "/recipes/media/wordpress/20332.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

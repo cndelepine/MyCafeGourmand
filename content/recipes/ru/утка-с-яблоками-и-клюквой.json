@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22283",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:8797",
+  "slug": "утка-с-яблоками-и-клюквой",
+  "source": {
+    "system": "wordpress",
+    "postId": "22283",
+    "recipeId": "22283",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%83%d1%82%d0%ba%d0%b0-%d1%81-%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0%d0%bc%d0%b8-%d0%b8-%d0%ba%d0%bb%d1%8e%d0%ba%d0%b2%d0%be%d0%b9",
+    "createdAt": "2024-11-12T01:13:00+00:00",
+    "modifiedAt": "2024-11-12T04:02:13+00:00",
+    "editorialPostId": "13483",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%83%d1%82%d0%ba%d0%b0-%d1%81-%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0%d0%bc%d0%b8-%d0%b8-%d0%ba%d0%bb%d1%8e%d0%ba%d0%b2%d0%be%d0%b9",
+    "editorialCreatedAt": "2024-11-12T01:13:00+00:00",
+    "editorialModifiedAt": "2024-11-12T04:02:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d1%83%d1%82%d0%ba%d0%b0-%d1%81-%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0%d0%bc%d0%b8-%d0%b8-%d0%ba%d0%bb%d1%8e%d0%ba%d0%b2%d0%be%d0%b9/"
+  ],
+  "title": "Утка с яблоками и клюквой",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Утка, фаршированная начинкой из лука, сельдерея, яблок и свежей клюквы. Рецепт довольно прост, а блюдо получается очень вкусным. Подать на стол можно с <a href=\"https://mycafegourmand.com/ru/recipe/%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bf%d1%8e%d1%80%d0%b5-%d0%b7%d0%b0%d0%bf%d0%b5%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b5-%d0%b2-%d0%b4%d1%83%d1%85%d0%be%d0%b2\">картофельным пюре</a>.<br></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22283,\"template\":\"chic-template-russian\",\"updated\":1731384095750,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 22283-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Утка с яблоками и клюквой</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4803.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 (2 кг и больше) утка</li><li>Соль и свежемолотый черный перец</li><li>20 г сливочного масла ((или 2 ст.л. оливкового масла))</li><li>1 луковица</li><li>2 стебля  сельдерея</li><li>2 яблока (Гренни Смит)</li><li>1 стакан свежей клюквы</li><li>1/2 стакана панировочных сухарей</li><li>1 ст.л. оливкового масла</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Утку вымыть и обсушить бумажным полотенцем. Натереть снаружи и внутри смесью соли и перца.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4745.Blog_-150x150.png\"/><br /></li><li>Лук почистить и мелко порезать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4736.Blog_-150x150.png\"/><br /></li><li>Сельдерей мелко порезать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4738.Blog_-150x150.png\"/><br /></li><li>Яблоки почистить, удалить сердцевину и порезать небольшими кубиками.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4740.Blog_-150x150.png\"/><br /></li><li>В сковороде разогреть сливочное или оливковое масло и обжарить в нем лук и сельдерей. Немного посолить и поперчить.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4739.Blog_-150x150.png\"/><br /></li><li>Добавить яблоки и клюкву. Снять сковороду с огня.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4743.Blog_-150x150.png\"/><br /></li><li>Добавить панировочные сухари и хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4744.Blog_-150x150.png\"/><br /></li><li>Разогреть духовку до 190С (400F). Начинить утку начинкой, зашить брюшко или скрепить зубочистками. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4747.Blog_-150x150.png\"/><br /></li><li>Смазать утку растительным маслом и уложить в блюдо для выпекания спинкой вверх. Поставить в разогретую духовку и запекать 1 час.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4750.Blog_-e1544394951741-150x150.png\"/><br /></li><li>Время от времени поливать утку соком от жарки.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4756.Blog_-150x150.png\"/><br /></li><li><p>Перевернуть утку грудкой вверх. Продолжать запекать еще 30-40 минут. Если ножки и крылышки утки начинают подгорать, их можно накрыть фольгой.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4757.Blog_-150x150.png\"/><br /></li><li>Готовую утку накрыть фольгой, дать постоять 10 минут, затем разрезать острым ножом.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/12/IMG_4803.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24825",
+      "sourceTaxonomyId": "24825",
+      "name": "утка",
+      "slug": "%d1%83%d1%82%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24826",
+      "sourceTaxonomyId": "24826",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24827",
+      "sourceTaxonomyId": "24827",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24828",
+      "sourceTaxonomyId": "24828",
+      "name": "сельдерея",
+      "slug": "%d1%81%d0%b5%d0%bb%d1%8c%d0%b4%d0%b5%d1%80%d0%b5%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24829",
+      "sourceTaxonomyId": "24829",
+      "name": "яблока (Гренни Смит)",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0-%d0%b3%d1%80%d0%b5%d0%bd%d0%bd%d0%b8-%d1%81%d0%bc%d0%b8%d1%82"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24830",
+      "sourceTaxonomyId": "24830",
+      "name": "свежей клюквы",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%ba%d0%bb%d1%8e%d0%ba%d0%b2%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24831",
+      "sourceTaxonomyId": "24831",
+      "name": "панировочных сухарей",
+      "slug": "%d0%bf%d0%b0%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%be%d1%87%d0%bd%d1%8b%d1%85-%d1%81%d1%83%d1%85%d0%b0%d1%80%d0%b5%d0%b9"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1438",
+      "sourceTaxonomyId": "1438",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "455",
+      "sourceTaxonomyId": "455",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "590",
+      "sourceTaxonomyId": "590",
+      "name": "свежей клюквы",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%ba%d0%bb%d1%8e%d0%ba%d0%b2%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "797",
+      "sourceTaxonomyId": "797",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3535",
+      "sourceTaxonomyId": "3535",
+      "name": "яблока (Гренни Смит)",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0-%d0%b3%d1%80%d0%b5%d0%bd%d0%bd%d0%b8-%d1%81%d0%bc%d0%b8%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4045",
+      "sourceTaxonomyId": "4045",
+      "name": "панировочных сухарей",
+      "slug": "%d0%bf%d0%b0%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%be%d1%87%d0%bd%d1%8b%d1%85-%d1%81%d1%83%d1%85%d0%b0%d1%80%d0%b5%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4948",
+      "sourceTaxonomyId": "4948",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8563",
+      "sourceTaxonomyId": "8563",
+      "name": "утка",
+      "slug": "%d1%83%d1%82%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8646",
+      "sourceTaxonomyId": "8646",
+      "name": "сельдерея",
+      "slug": "%d1%81%d0%b5%d0%bb%d1%8c%d0%b4%d0%b5%d1%80%d0%b5%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1234",
+      "sourceTaxonomyId": "1234",
+      "name": "лук",
+      "slug": "%d0%bb%d1%83%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1414",
+      "sourceTaxonomyId": "1414",
+      "name": "яблоки",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5556",
+      "sourceTaxonomyId": "5556",
+      "name": "легко и вкусно",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be-%d0%b8-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8191",
+      "sourceTaxonomyId": "8191",
+      "name": "новый год",
+      "slug": "%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d0%b3%d0%be%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26489",
+      "sourceTaxonomyId": "26489",
+      "name": "вкусный фарш",
+      "slug": "%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d1%8b%d0%b9-%d1%84%d0%b0%d1%80%d1%88-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26492",
+      "sourceTaxonomyId": "26492",
+      "name": "птица в духовке",
+      "slug": "%d0%bf%d1%82%d0%b8%d1%86%d0%b0-%d0%b2-%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b5-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26495",
+      "sourceTaxonomyId": "26495",
+      "name": "фарш для утки",
+      "slug": "%d1%84%d0%b0%d1%80%d1%88-%d0%b4%d0%bb%d1%8f-%d1%83%d1%82%d0%ba%d0%b8-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 порций",
+      "value": 4,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "100",
+        "minutes": 100
+      },
+      "rest": null,
+      "total": {
+        "raw": "140",
+        "minutes": 140
+      },
+      "custom": {
+        "label": "Пассивное время",
+        "duration": {
+          "raw": "10",
+          "minutes": 10
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:13494",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 (2 кг и больше) утка",
+            "quantity": {
+              "raw": "1 (2 кг и больше)",
+              "value": 1,
+              "unit": "(2 кг и больше)",
+              "scalable": true
+            },
+            "name": "утка",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Соль и свежемолотый черный перец",
+            "quantity": null,
+            "name": "Соль и свежемолотый черный перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "20 г сливочного масла (или 2 ст.л. оливкового масла)",
+            "quantity": {
+              "raw": "20 г",
+              "value": 20,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": "(или 2 ст.л. оливкового масла)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 луковица",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "луковица",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 стебля сельдерея",
+            "quantity": {
+              "raw": "2 стебля",
+              "value": 2,
+              "unit": "стебля",
+              "scalable": true
+            },
+            "name": "сельдерея",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2 яблока (Гренни Смит)",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яблока (Гренни Смит)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 стакан свежей клюквы",
+            "quantity": {
+              "raw": "1 стакан",
+              "value": 1,
+              "unit": "стакан",
+              "scalable": true
+            },
+            "name": "свежей клюквы",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/2 стакана панировочных сухарей",
+            "quantity": {
+              "raw": "1/2 стакана",
+              "value": 0.5,
+              "unit": "стакана",
+              "scalable": true
+            },
+            "name": "панировочных сухарей",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Утку вымыть и обсушить бумажным полотенцем. Натереть снаружи и внутри смесью соли и перца.",
+            "mediaId": "wordpress-attachment:13516"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Лук почистить и мелко порезать.",
+            "mediaId": "wordpress-attachment:13484"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Сельдерей мелко порезать.",
+            "mediaId": "wordpress-attachment:13485"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Яблоки почистить, удалить сердцевину и порезать небольшими кубиками.",
+            "mediaId": "wordpress-attachment:13487"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "В сковороде разогреть сливочное или оливковое масло и обжарить в нем лук и сельдерей. Немного посолить и поперчить.",
+            "mediaId": "wordpress-attachment:13486"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Добавить яблоки и клюкву. Снять сковороду с огня.",
+            "mediaId": "wordpress-attachment:13488"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Добавить панировочные сухари и хорошо перемешать.",
+            "mediaId": "wordpress-attachment:13489"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Разогреть духовку до 190С (400F). Начинить утку начинкой, зашить брюшко или скрепить зубочистками.",
+            "mediaId": "wordpress-attachment:13490"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Смазать утку растительным маслом и уложить в блюдо для выпекания спинкой вверх. Поставить в разогретую духовку и запекать 1 час.",
+            "mediaId": "wordpress-attachment:13491"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Время от времени поливать утку соком от жарки.",
+            "mediaId": "wordpress-attachment:13492"
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Перевернуть утку грудкой вверх. Продолжать запекать еще 30-40 минут. Если ножки и крылышки утки начинают подгорать, их можно накрыть фольгой.",
+            "mediaId": "wordpress-attachment:13493"
+          },
+          {
+            "sourceIndex": 11,
+            "text": "Готовую утку накрыть фольгой, дать постоять 10 минут, затем разрезать острым ножом.",
+            "mediaId": "wordpress-attachment:13494"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13494",
+      "sourceId": "13494",
+      "path": "/recipes/media/wordpress/13494.png",
+      "alt": "Canard farci aux pommes et aux airelles",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13516",
+      "sourceId": "13516",
+      "path": "/recipes/media/wordpress/13516.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13484",
+      "sourceId": "13484",
+      "path": "/recipes/media/wordpress/13484.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13485",
+      "sourceId": "13485",
+      "path": "/recipes/media/wordpress/13485.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13487",
+      "sourceId": "13487",
+      "path": "/recipes/media/wordpress/13487.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13486",
+      "sourceId": "13486",
+      "path": "/recipes/media/wordpress/13486.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13488",
+      "sourceId": "13488",
+      "path": "/recipes/media/wordpress/13488.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13489",
+      "sourceId": "13489",
+      "path": "/recipes/media/wordpress/13489.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13490",
+      "sourceId": "13490",
+      "path": "/recipes/media/wordpress/13490.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13491",
+      "sourceId": "13491",
+      "path": "/recipes/media/wordpress/13491.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13492",
+      "sourceId": "13492",
+      "path": "/recipes/media/wordpress/13492.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13493",
+      "sourceId": "13493",
+      "path": "/recipes/media/wordpress/13493.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

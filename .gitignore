@@ -1,6 +1,7 @@
 /node_modules/
 /.next/
 /out/
+/public/_search/
 /build/
 /coverage/
 next-env.d.ts
@@ -16,3 +17,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 /migration-output/
+
+.DS_Store
+/drive-download-*/

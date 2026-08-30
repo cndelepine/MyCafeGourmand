@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21885",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:22903",
+  "slug": "galette-des-rois-au-chocolat",
+  "source": {
+    "system": "wordpress",
+    "postId": "21885",
+    "recipeId": "21885",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-galette-des-rois-au-chocolat",
+    "createdAt": "2024-12-29T09:00:00+00:00",
+    "modifiedAt": "2026-02-14T00:55:13+00:00",
+    "editorialPostId": "19372",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "galette-des-rois-au-chocolat",
+    "editorialCreatedAt": "2024-12-29T09:00:00+00:00",
+    "editorialModifiedAt": "2026-02-14T00:54:50+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/galette-des-rois-au-chocolat/"
+  ],
+  "title": "Galette des rois au chocolat",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Dans notre famille, les enfants adorent le chocolat et la galette des rois. Alors pourquoi ne pas associer les deux ? Elle est si bonne que je n'attends pas l'Épiphanie pour la préparer.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Essayez aussi ma <a href=\"https://mycafegourmand.com/fr/galette-des-rois-a-la-frangipane/\" target=\"_blank\" rel=\"noreferrer noopener\">galette des rois à la frangipane</a>.<br>             </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21885,\"template\":\"chic-template-french\",\"updated\":1607918382893} -->\n<!--WPRM Recipe 21885-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Galette des rois au chocolat</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/20200109_215851.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t   \r\n\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>100 ml de crème liquide</li><li>100 g de chocolat noir</li><li>50  g de beurre ramolli</li><li>50 g de sucre en poudre</li><li>1 œuf</li><li>50 g de poudre d'amandes</li><li>2 feuilles de pâte feuilletée</li><li>1 jaune d'œuf</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Porter la crème liquide à ébullition. La verser sur le chocolat, attendre quelques instants puis bien mélanger jusqu'à ce que le mélange soit homogène.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3060.Blog_-150x150.png\"/><br /></li><li>Battre le beurre avec le sucre.  \r\n\r\n    \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3055.Blog_-150x150.png\"/><br /></li><li>Ajouter l'œuf entier. Mélanger. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3054.Blog_-150x150.png\"/><br /></li><li>Ajouter la poudre d'amande. Mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3055.Blog_-150x150.png\"/><br /></li><li>Incorporer le chocolat fondu à la préparation aux amandes et bien mélanger. Si cette préparation est trop liqude (parce qu'elle est encore chaude), laisser refroidir dans le réfrigérateur pendant 10-15 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3067.Blog_-150x150.png\"/><br /></li><li>Placer une première feuille de pâte feuilletée sur une plaque de cuisson recouverte de papier sulfurisé. Etaler la préparation au chocolat et aux amandes au milieu et égaliser la surface en veillant à laisser vide un pourtour de 1,5-2 cm. Humidifier les bords.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3070.Blog_-150x150.png\"/><br /></li><li>Recouvrir la galette avec la deuxième feuille de pâte et bien souder les bords.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3074.Blog_-150x150.png\"/><br /></li><li>Si vous voulez, avec un couteau ou juste avec des doigts, faire des jolis bords. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3075.Blog_-150x150.png\"/><br /></li><li>Badigeonner la surface de la galette avec le jaune d'œuf. Placer au réfrigérateur pendant au moins 1 heure. \r\n    <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3078.Blog_-1-150x150.png\"/><br /></li><li>Préchauffer le four à 190°C (thermostat 6/7).</li><li>Badigeonner de jaune d'œuf encore une fois. Avec une lame d'un couteau, dessiner sur la surface de la pâte le dessin de votre choix en veillant à ne pas la découper complètement. Percer la pâte dans 3-5 endroits pour que la galette n'explose pas pendant la cuisson.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3081-2-150x150.jpg\"/><br /></li><li> Cuire au four pendant environ 30 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/01/IMG_3029.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24036",
+      "sourceTaxonomyId": "24036",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24466",
+      "sourceTaxonomyId": "24466",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24511",
+      "sourceTaxonomyId": "24511",
+      "name": "de beurre ramolli",
+      "slug": "de-beurre-ramolli"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24583",
+      "sourceTaxonomyId": "24583",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24589",
+      "sourceTaxonomyId": "24589",
+      "name": "de crème liquide",
+      "slug": "de-creme-liquide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24590",
+      "sourceTaxonomyId": "24590",
+      "name": "de poudre d'amandes",
+      "slug": "de-poudre-damandes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24591",
+      "sourceTaxonomyId": "24591",
+      "name": "jaune d'œuf",
+      "slug": "jaune-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "240",
+      "sourceTaxonomyId": "240",
+      "name": "de chocolat noir",
+      "slug": "de-chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "252",
+      "sourceTaxonomyId": "252",
+      "name": "jaune d'œuf",
+      "slug": "jaune-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "374",
+      "sourceTaxonomyId": "374",
+      "name": "de crème liquide",
+      "slug": "de-creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "386",
+      "sourceTaxonomyId": "386",
+      "name": "de poudre d'amandes",
+      "slug": "de-poudre-damandes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "762",
+      "sourceTaxonomyId": "762",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1939",
+      "sourceTaxonomyId": "1939",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3104",
+      "sourceTaxonomyId": "3104",
+      "name": "de beurre ramolli",
+      "slug": "de-beurre-ramolli"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1552",
+      "sourceTaxonomyId": "1552",
+      "name": "chocolat",
+      "slug": "chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1672",
+      "sourceTaxonomyId": "1672",
+      "name": "galette des rois",
+      "slug": "galette-des-rois"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1676",
+      "sourceTaxonomyId": "1676",
+      "name": "poudre d'amande",
+      "slug": "poudre-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3664",
+      "sourceTaxonomyId": "3664",
+      "name": "creme d'amande",
+      "slug": "creme-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3668",
+      "sourceTaxonomyId": "3668",
+      "name": "epiphanie",
+      "slug": "epiphanie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7060",
+      "sourceTaxonomyId": "7060",
+      "name": "pate feuilletee prete a derouler",
+      "slug": "pate-feuilletee-prete-a-derouler"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7205",
+      "sourceTaxonomyId": "7205",
+      "name": "pour les amoureaux du chocolat",
+      "slug": "pour-les-amoureaux-du-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8131",
+      "sourceTaxonomyId": "8131",
+      "name": "cuisiner simplement",
+      "slug": "cuisiner-simplement"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8467",
+      "sourceTaxonomyId": "8467",
+      "name": "fetes de la fin d'annee",
+      "slug": "fetes-de-la-fin-dannee"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "71",
+        "minutes": 71
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19392",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 ml de crème liquide",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g de chocolat noir",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g de beurre ramolli",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre ramolli",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "50 g de sucre en poudre",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 œuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 g de poudre d'amandes",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de poudre d'amandes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 feuilles de pâte feuilletée",
+            "quantity": {
+              "raw": "2 feuilles",
+              "value": 2,
+              "unit": "feuilles",
+              "scalable": true
+            },
+            "name": "de pâte feuilletée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 jaune d'œuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jaune d'œuf",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Porter la crème liquide à ébullition. La verser sur le chocolat, attendre quelques instants puis bien mélanger jusqu'à ce que le mélange soit homogène.",
+            "mediaId": "wordpress-attachment:19378"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Battre le beurre avec le sucre.",
+            "mediaId": "wordpress-attachment:19377"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter l'œuf entier. Mélanger.",
+            "mediaId": "wordpress-attachment:19376"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ajouter la poudre d'amande. Mélanger.",
+            "mediaId": "wordpress-attachment:19377"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Incorporer le chocolat fondu à la préparation aux amandes et bien mélanger. Si cette préparation est trop liqude (parce qu'elle est encore chaude), laisser refroidir dans le réfrigérateur pendant 10-15 minutes.",
+            "mediaId": "wordpress-attachment:19379"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Placer une première feuille de pâte feuilletée sur une plaque de cuisson recouverte de papier sulfurisé. Etaler la préparation au chocolat et aux amandes au milieu et égaliser la surface en veillant à laisser vide un pourtour de 1,5-2 cm. Humidifier les bords.",
+            "mediaId": "wordpress-attachment:19380"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Recouvrir la galette avec la deuxième feuille de pâte et bien souder les bords.",
+            "mediaId": "wordpress-attachment:19381"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Si vous voulez, avec un couteau ou juste avec des doigts, faire des jolis bords.",
+            "mediaId": "wordpress-attachment:19382"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Badigeonner la surface de la galette avec le jaune d'œuf. Placer au réfrigérateur pendant au moins 1 heure.",
+            "mediaId": "wordpress-attachment:19419"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Préchauffer le four à 190°C (thermostat 6/7).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Badigeonner de jaune d'œuf encore une fois. Avec une lame d'un couteau, dessiner sur la surface de la pâte le dessin de votre choix en veillant à ne pas la découper complètement. Percer la pâte dans 3-5 endroits pour que la galette n'explose pas pendant la cuisson.",
+            "mediaId": "wordpress-attachment:19384"
+          },
+          {
+            "sourceIndex": 11,
+            "text": "Cuire au four pendant environ 30 minutes.",
+            "mediaId": "wordpress-attachment:19397"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19392",
+      "sourceId": "19392",
+      "path": "/recipes/media/wordpress/19392.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19378",
+      "sourceId": "19378",
+      "path": "/recipes/media/wordpress/19378.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19377",
+      "sourceId": "19377",
+      "path": "/recipes/media/wordpress/19377.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:19376",
+      "sourceId": "19376",
+      "path": "/recipes/media/wordpress/19376.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:19379",
+      "sourceId": "19379",
+      "path": "/recipes/media/wordpress/19379.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19380",
+      "sourceId": "19380",
+      "path": "/recipes/media/wordpress/19380.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19381",
+      "sourceId": "19381",
+      "path": "/recipes/media/wordpress/19381.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:19382",
+      "sourceId": "19382",
+      "path": "/recipes/media/wordpress/19382.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19419",
+      "sourceId": "19419",
+      "path": "/recipes/media/wordpress/19419.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19384",
+      "sourceId": "19384",
+      "path": "/recipes/media/wordpress/19384.jpg",
+      "alt": null,
+      "width": 2560,
+      "height": 1920
+    },
+    {
+      "id": "wordpress-attachment:19397",
+      "sourceId": "19397",
+      "path": "/recipes/media/wordpress/19397.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

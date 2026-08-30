@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27577",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:26454",
+  "slug": "салат-из-эндивия-с-сыром-рокфор",
+  "source": {
+    "system": "wordpress",
+    "postId": "27577",
+    "recipeId": "27577",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%81%d0%b0%d0%bb%d0%b0%d1%82-%d0%b8%d0%b7-%d1%8d%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d1%8f-%d1%81-%d1%81%d1%8b%d1%80%d0%be%d0%bc-%d1%80%d0%be%d0%ba%d1%84%d0%be%d1%80",
+    "createdAt": "2023-11-14T08:27:17+00:00",
+    "modifiedAt": "2024-11-02T07:52:13+00:00",
+    "editorialPostId": "27575",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%81%d0%b0%d0%bb%d0%b0%d1%82-%d0%b8%d0%b7-%d1%8d%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d1%8f-%d1%81-%d1%81%d1%8b%d1%80%d0%be%d0%bc-%d1%80%d0%be%d0%ba%d1%84%d0%be%d1%80",
+    "editorialCreatedAt": "2023-11-14T08:27:17+00:00",
+    "editorialModifiedAt": "2024-11-02T07:52:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d1%81%d0%b0%d0%bb%d0%b0%d1%82-%d0%b8%d0%b7-%d1%8d%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d1%8f-%d1%81-%d1%81%d1%8b%d1%80%d0%be%d0%bc-%d1%80%d0%be%d0%ba%d1%84%d0%be%d1%80/"
+  ],
+  "title": "Салат из эндивия с сыром рокфор",
+  "description": "Сыр Рокфор довольно соленый сам по себе, поэтому соль можно не добавлять.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Эндивий (Цикорный салат) - отличается от других листовых салатов своим изысканным, немного горьковатым вкусом; в нем содержится гораздо больше витаминов и минералов. Листья эндивия используются, как в холодном, так и горячем виде, и очень популярны во Франции.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Для приготовления этого рецепта вам понадобится всего несколько простых ингредиентов и минимальное количество времени.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Салат  можно подать, как отдельное блюдо или к жареному мясу. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27577,\"template\":\"chic-template-russian\",\"updated\":1730533895934} -->\n<!--WPRM Recipe 27577-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Салат из эндивия с сыром рокфор</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/11/IMG_2292.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Сыр Рокфор довольно соленый сам по себе, поэтому соль можно не добавлять.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 штуки  салата эндивия</li><li>60 g Рокфор (или другой голубой сыр)</li><li>Немного измельченных грецких орехов</li><li>Свежемолотый черный перец</li><li>Немного оливкового масла</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Помыть, обсушить и мелко нарезать листья салата.</p><p>В салатнице перемешать нарезанный эндивий, кусочки рокфора и грецкие орехи.</p><p>Приправить перцем и сбрызнуть оливковым маслом.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/11/IMG_2304.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26447",
+      "sourceTaxonomyId": "26447",
+      "name": "Salade",
+      "slug": "salade-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24823",
+      "sourceTaxonomyId": "24823",
+      "name": "Свежемолотый черный перец",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25041",
+      "sourceTaxonomyId": "25041",
+      "name": "измельченных грецких орехов",
+      "slug": "%d0%b8%d0%b7%d0%bc%d0%b5%d0%bb%d1%8c%d1%87%d0%b5%d0%bd%d0%bd%d1%8b%d1%85-%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d1%85-%d0%be%d1%80%d0%b5%d1%85%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26469",
+      "sourceTaxonomyId": "26469",
+      "name": "Рокфор (или другой голубой сыр)",
+      "slug": "%d1%80%d0%be%d0%ba%d1%84%d0%be%d1%80-%d0%b8%d0%bb%d0%b8-%d0%b4%d1%80%d1%83%d0%b3%d0%be%d0%b9-%d0%b3%d0%be%d0%bb%d1%83%d0%b1%d0%be%d0%b9-%d1%81%d1%8b%d1%80"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26471",
+      "sourceTaxonomyId": "26471",
+      "name": "салата эндивия",
+      "slug": "%d1%81%d0%b0%d0%bb%d0%b0%d1%82%d0%b0-%d1%8d%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25481",
+      "sourceTaxonomyId": "25481",
+      "name": "штуки",
+      "slug": "%d1%88%d1%82%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "88",
+      "sourceTaxonomyId": "88",
+      "name": "Салаты",
+      "slug": "%d1%81%d0%b0%d0%bb%d0%b0%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2962",
+      "sourceTaxonomyId": "2962",
+      "name": "быстро и просто",
+      "slug": "%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be-%d0%b8-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8041",
+      "sourceTaxonomyId": "8041",
+      "name": "готовим дома",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8%d0%bc-%d0%b4%d0%be%d0%bc%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26455",
+      "sourceTaxonomyId": "26455",
+      "name": "эндивий",
+      "slug": "%d1%8d%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26457",
+      "sourceTaxonomyId": "26457",
+      "name": "листья цикория",
+      "slug": "%d0%bb%d0%b8%d1%81%d1%82%d1%8c%d1%8f-%d1%86%d0%b8%d0%ba%d0%be%d1%80%d0%b8%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26459",
+      "sourceTaxonomyId": "26459",
+      "name": "рокфор",
+      "slug": "%d1%80%d0%be%d0%ba%d1%84%d0%be%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26462",
+      "sourceTaxonomyId": "26462",
+      "name": "сыр с плесенью",
+      "slug": "%d1%81%d1%8b%d1%80-%d1%81-%d0%bf%d0%bb%d0%b5%d1%81%d0%b5%d0%bd%d1%8c%d1%8e-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 порции",
+      "value": 2,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27558",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 штуки салата эндивия",
+            "quantity": {
+              "raw": "2 штуки",
+              "value": 2,
+              "unit": "штуки",
+              "scalable": true
+            },
+            "name": "салата эндивия",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "60 g Рокфор (или другой голубой сыр)",
+            "quantity": {
+              "raw": "60 g",
+              "value": 60,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "Рокфор (или другой голубой сыр)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Немного измельченных грецких орехов",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "измельченных грецких орехов",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Свежемолотый черный перец",
+            "quantity": null,
+            "name": "Свежемолотый черный перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Немного оливкового масла",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "оливкового масла",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Помыть, обсушить и мелко нарезать листья салата.\n\nВ салатнице перемешать нарезанный эндивий, кусочки рокфора и грецкие орехи.\n\nПриправить перцем и сбрызнуть оливковым маслом.",
+            "mediaId": "wordpress-attachment:27559"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27558",
+      "sourceId": "27558",
+      "path": "/recipes/media/wordpress/27558.png",
+      "alt": "Salade aux endives et Roquefort",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27559",
+      "sourceId": "27559",
+      "path": "/recipes/media/wordpress/27559.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

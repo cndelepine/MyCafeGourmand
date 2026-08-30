@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29737",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26383",
+  "slug": "potato-gratin-with-blue-cheese",
+  "source": {
+    "system": "wordpress",
+    "postId": "29737",
+    "recipeId": "29737",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-potato-gratin-with-blue-cheese",
+    "createdAt": "2025-11-06T20:28:54+00:00",
+    "modifiedAt": "2025-11-06T20:31:53+00:00",
+    "editorialPostId": "29757",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "potato-gratin-with-blue-cheese",
+    "editorialCreatedAt": "2025-11-06T20:28:54+00:00",
+    "editorialModifiedAt": "2025-11-06T20:31:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/potato-gratin-with-blue-cheese/"
+  ],
+  "title": "Potato Gratin with Blue Cheese",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The potatoes are baked in a creamy mixture of milk, cream, and Blue cheese. If you’re using new potatoes or ones with thin skins, there’s no need to peel them.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29737,\"template\":\"chic-template-english\",\"updated\":1762460852188} -->\n<!--WPRM Recipe 29737-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Potato Gratin with Blue Cheese</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4319.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 kg potatoes ((about 4.5 lbs))</li><li>Salt and freshly ground black pepper</li><li>A pinch nutmeg ((optional))</li><li>500 ml heavy cream ((2 cups))</li><li>500 ml milk ((2 cups))</li><li>150 g blue cheese ((5 oz))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat the oven at 180°C (thermostat 6).</p></li><li><p>Butter a large ovenproof dish. Peel and slice the potatoes into very thin rounds.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_3961.Blog_-150x150.png\"/><br /></li><li><p>Put them dry with paper towels, then arrange them evenly in the prepared dish.</p><p>Season with salt, pepper and a little nutmeg if you like.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_3966.Blog_-150x150.png\"/><br /></li><li><p>Crumble the blue cheese with a fork, then mix it with the cream and milk until well combined.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4309.Blog_-150x150.png\"/><br /></li><li><p>Pour the mixture over the potatoes, making sure everything is evenly coated.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4310.Blog_-150x150.png\"/><br /></li><li><p>Bake in the oven from 1h to 1h30, until the top is golden brown and the potatoes are tender when pierced with a knife. </p><p>Put the dish under the grill for a few minutes to ensure the gratin is perfectly golden.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4324.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div><div class=\"wprm-fallback-recipe-meta-cuisine\">French</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "For this gratin, the potatoes are baked in the oven in a mixture of milk, cream, and Blue cheese. You'll love it!"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26716",
+      "sourceTaxonomyId": "26716",
+      "name": "Main Dish",
+      "slug": "main-dish-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24189",
+      "sourceTaxonomyId": "24189",
+      "name": "heavy cream",
+      "slug": "heavy-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24239",
+      "sourceTaxonomyId": "24239",
+      "name": "nutmeg",
+      "slug": "nutmeg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24240",
+      "sourceTaxonomyId": "24240",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27322",
+      "sourceTaxonomyId": "27322",
+      "name": "blue cheese",
+      "slug": "blue-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25741",
+      "sourceTaxonomyId": "25741",
+      "name": "kg",
+      "slug": "kg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1598",
+      "sourceTaxonomyId": "1598",
+      "name": "cheese",
+      "slug": "cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "90",
+        "minutes": 90
+      },
+      "rest": null,
+      "total": {
+        "raw": "110",
+        "minutes": 110
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27402",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 kg potatoes (about 4.5 lbs)",
+            "quantity": {
+              "raw": "2 kg",
+              "value": 2,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "potatoes",
+            "notes": "(about 4.5 lbs)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "A pinch nutmeg (optional)",
+            "quantity": {
+              "raw": "A pinch",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "nutmeg",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "500 ml heavy cream (2 cups)",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy cream",
+            "notes": "(2 cups)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "500 ml milk (2 cups)",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": "(2 cups)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "150 g blue cheese (5 oz)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "blue cheese",
+            "notes": "(5 oz)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven at 180°C (thermostat 6).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Butter a large ovenproof dish. Peel and slice the potatoes into very thin rounds.",
+            "mediaId": "wordpress-attachment:27398"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Put them dry with paper towels, then arrange them evenly in the prepared dish.\n\nSeason with salt, pepper and a little nutmeg if you like.",
+            "mediaId": "wordpress-attachment:27399"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Crumble the blue cheese with a fork, then mix it with the cream and milk until well combined.",
+            "mediaId": "wordpress-attachment:27405"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Pour the mixture over the potatoes, making sure everything is evenly coated.",
+            "mediaId": "wordpress-attachment:27401"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bake in the oven from 1h to 1h30, until the top is golden brown and the potatoes are tender when pierced with a knife.\n\nPut the dish under the grill for a few minutes to ensure the gratin is perfectly golden.",
+            "mediaId": "wordpress-attachment:27404"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27402",
+      "sourceId": "27402",
+      "path": "/recipes/media/wordpress/27402.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27398",
+      "sourceId": "27398",
+      "path": "/recipes/media/wordpress/27398.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27399",
+      "sourceId": "27399",
+      "path": "/recipes/media/wordpress/27399.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27405",
+      "sourceId": "27405",
+      "path": "/recipes/media/wordpress/27405.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27401",
+      "sourceId": "27401",
+      "path": "/recipes/media/wordpress/27401.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27404",
+      "sourceId": "27404",
+      "path": "/recipes/media/wordpress/27404.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

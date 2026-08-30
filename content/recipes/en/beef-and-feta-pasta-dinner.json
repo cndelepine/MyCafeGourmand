@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21331",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:11251",
+  "slug": "beef-and-feta-pasta-dinner",
+  "source": {
+    "system": "wordpress",
+    "postId": "21331",
+    "recipeId": "21331",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-beef-and-feta-pasta-dinner",
+    "createdAt": "2020-01-20T06:01:00+00:00",
+    "modifiedAt": "2020-12-26T02:54:53+00:00",
+    "editorialPostId": "14600",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "beef-and-feta-pasta-dinner",
+    "editorialCreatedAt": "2020-01-20T06:01:00+00:00",
+    "editorialModifiedAt": "2020-12-26T02:50:55+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/beef-and-feta-pasta-dinner/"
+  ],
+  "title": "Beef And Feta Pasta Dinner",
+  "description": "You might seriously consider making a double batch of this Beef and feta pasta dinner because your family will definitely ask you for more.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Pasta and ground beef is nothing new, but when you add feta cheese, onion and fresh dill to it, it takes your pasta to a whole different level. Enjoy this Beef And Feta Pasta Dinner!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21331,\"template\":\"chic-template-english\",\"updated\":1608950897650} -->\n<!--WPRM Recipe 21331-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Beef And Feta Pasta Dinner</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50436409_614562915667462_9012105490372493312_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYou might seriously consider making a double batch of this Beef and feta pasta dinner because your family will definitely ask you for more.\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 Tbsp olive oil</li><li>1 medium onion</li><li>1 lb ground beef</li><li>500 g pasta (uncooked)</li><li>Salt and freshly ground black pepper (to taste)</li><li>200 g feta cheese</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel and chop the onion.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50226140_2427386454002668_2506782216638431232_n.Blog_-150x150.png\"/><br /></li><li>Coat the bottom of a skillet with olive oil. Add onion and sauté until softened and brown, stirring once in a while.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50394041_2025102471120933_5111755030705209344_n.Blog_-150x150.png\"/><br /></li><li>While the onion is cooking, cook pasta, according to the package directions. Drain pasta and set aside. </li><li>Fully cook the ground beef. Drain grease. Season with salt and pepper to taste.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50401035_2009728035802762_8561041981927587840_n.Blog_-1-150x150.png\"/><br /></li><li>Use your hands or the tines of a fork to crumble the feta cheese. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50333868_2238846079710323_3941302375834189824_n.Blog_-150x150.png\"/><br /></li><li>Add onion, ground beef and crumbled feta to cooked pasta. Shower on a generous dusting of fresh dill and using two spoons, toss the pasta well. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50020354_403921007046464_1391901623919312896_n.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24121",
+      "sourceTaxonomyId": "24121",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24161",
+      "sourceTaxonomyId": "24161",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24211",
+      "sourceTaxonomyId": "24211",
+      "name": "pasta",
+      "slug": "pasta"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1156",
+      "sourceTaxonomyId": "1156",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2720",
+      "sourceTaxonomyId": "2720",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "11053",
+      "sourceTaxonomyId": "11053",
+      "name": "pasta",
+      "slug": "pasta"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1308",
+      "sourceTaxonomyId": "1308",
+      "name": "ground beef",
+      "slug": "ground-beef"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3698",
+      "sourceTaxonomyId": "3698",
+      "name": "easy and cheap",
+      "slug": "easy-and-cheap"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7123",
+      "sourceTaxonomyId": "7123",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "22918",
+      "sourceTaxonomyId": "22918",
+      "name": "pasta",
+      "slug": "pasta"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:14670",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 Tbsp olive oil",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 medium onion",
+            "quantity": {
+              "raw": "1 medium",
+              "value": 1,
+              "unit": "medium",
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 lb ground beef",
+            "quantity": {
+              "raw": "1 lb",
+              "value": 1,
+              "unit": "lb",
+              "scalable": true
+            },
+            "name": "ground beef",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "500 g pasta uncooked",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "pasta",
+            "notes": "uncooked"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "200 g feta cheese",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "feta cheese",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel and chop the onion.",
+            "mediaId": "wordpress-attachment:14665"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Coat the bottom of a skillet with olive oil. Add onion and sauté until softened and brown, stirring once in a while.",
+            "mediaId": "wordpress-attachment:14668"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "While the onion is cooking, cook pasta, according to the package directions. Drain pasta and set aside.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Fully cook the ground beef. Drain grease. Season with salt and pepper to taste.",
+            "mediaId": "wordpress-attachment:14669"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Use your hands or the tines of a fork to crumble the feta cheese.",
+            "mediaId": "wordpress-attachment:14667"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Add onion, ground beef and crumbled feta to cooked pasta. Shower on a generous dusting of fresh dill and using two spoons, toss the pasta well.",
+            "mediaId": "wordpress-attachment:14664"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:14670",
+      "sourceId": "14670",
+      "path": "/recipes/media/wordpress/14670.png",
+      "alt": null,
+      "width": 800,
+      "height": 576
+    },
+    {
+      "id": "wordpress-attachment:14665",
+      "sourceId": "14665",
+      "path": "/recipes/media/wordpress/14665.png",
+      "alt": null,
+      "width": 800,
+      "height": 560
+    },
+    {
+      "id": "wordpress-attachment:14668",
+      "sourceId": "14668",
+      "path": "/recipes/media/wordpress/14668.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14669",
+      "sourceId": "14669",
+      "path": "/recipes/media/wordpress/14669.png",
+      "alt": null,
+      "width": 800,
+      "height": 576
+    },
+    {
+      "id": "wordpress-attachment:14667",
+      "sourceId": "14667",
+      "path": "/recipes/media/wordpress/14667.png",
+      "alt": null,
+      "width": 800,
+      "height": 560
+    },
+    {
+      "id": "wordpress-attachment:14664",
+      "sourceId": "14664",
+      "path": "/recipes/media/wordpress/14664.png",
+      "alt": null,
+      "width": 800,
+      "height": 544
+    }
+  ],
+  "seo": null
+}

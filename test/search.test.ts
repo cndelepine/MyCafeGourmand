@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { recipeCatalog } from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
   normalizeSearchText,
@@ -8,35 +8,35 @@ import {
   searchRecipes
 } from "../src/lib/recipe-search";
 
-const meatballsSoup = recipeCatalog[0]!;
-
 const frenchRecipe = recipeRecordSchema.parse({
-  ...meatballsSoup,
-  id: "wordpress:wprm:2981",
+  ...recipeFixture,
+  id: "test:recipe:fr",
   locale: "fr",
   slug: "soupe-a-la-creme",
   source: {
-    ...meatballsSoup.source,
-    recipeId: "2981"
+    ...recipeFixture.source,
+    recipeId: "2"
   },
   title: "Soupe à la crème",
   description: "Une soupe fraîche et réconfortante.",
   taxonomies: [
     {
+      scope: null,
       taxonomy: "category",
       sourceId: null,
+      sourceTaxonomyId: null,
       name: "Déjeuners",
       slug: "dejeuners"
     }
   ],
   recipe: {
-    ...meatballsSoup.recipe,
+    ...recipeFixture.recipe,
     ingredientGroups: [
       {
-        ...meatballsSoup.recipe.ingredientGroups[0],
+        ...recipeFixture.recipe.ingredientGroups[0],
         items: [
           {
-            ...meatballsSoup.recipe.ingredientGroups[0].items[0],
+            ...recipeFixture.recipe.ingredientGroups[0]!.items[0],
             raw: "2 cuillères de crème fraîche",
             quantity: null,
             name: "crème fraîche",
@@ -47,10 +47,10 @@ const frenchRecipe = recipeRecordSchema.parse({
     ],
     instructionGroups: [
       {
-        ...meatballsSoup.recipe.instructionGroups[0],
+        ...recipeFixture.recipe.instructionGroups[0],
         steps: [
           {
-            ...meatballsSoup.recipe.instructionGroups[0].steps[0],
+            ...recipeFixture.recipe.instructionGroups[0]!.steps[0],
             text: "Émincer les légumes et laisser frémir la soupe."
           }
         ]
@@ -60,32 +60,34 @@ const frenchRecipe = recipeRecordSchema.parse({
 });
 
 const russianRecipe = recipeRecordSchema.parse({
-  ...meatballsSoup,
-  id: "wordpress:wprm:2982",
+  ...recipeFixture,
+  id: "test:recipe:ru",
   locale: "ru",
   slug: "sup-s-frikadelkami",
   source: {
-    ...meatballsSoup.source,
-    recipeId: "2982"
+    ...recipeFixture.source,
+    recipeId: "3"
   },
   title: "Суп с фрикадельками",
   description: "Тёплый домашний суп.",
   taxonomies: [
     {
+      scope: null,
       taxonomy: "category",
       sourceId: null,
+      sourceTaxonomyId: null,
       name: "Супы",
       slug: "supy"
     }
   ],
   recipe: {
-    ...meatballsSoup.recipe,
+    ...recipeFixture.recipe,
     ingredientGroups: [
       {
-        ...meatballsSoup.recipe.ingredientGroups[0],
+        ...recipeFixture.recipe.ingredientGroups[0],
         items: [
           {
-            ...meatballsSoup.recipe.ingredientGroups[0].items[0],
+            ...recipeFixture.recipe.ingredientGroups[0]!.items[0],
             raw: "500 г говядины",
             quantity: null,
             name: "говядины",
@@ -96,10 +98,10 @@ const russianRecipe = recipeRecordSchema.parse({
     ],
     instructionGroups: [
       {
-        ...meatballsSoup.recipe.instructionGroups[0],
+        ...recipeFixture.recipe.instructionGroups[0],
         steps: [
           {
-            ...meatballsSoup.recipe.instructionGroups[0].steps[0],
+            ...recipeFixture.recipe.instructionGroups[0]!.steps[0],
             text: "Добавьте фрикадельки и варите суп."
           }
         ]
@@ -130,6 +132,6 @@ test("search matches localized titles, taxonomies, ingredients, and instructions
 });
 
 test("search includes authored scaled ingredient names", () => {
-  assert.equal(recipeMatchesQuery(meatballsSoup, "carrots"), true);
-  assert.equal(recipeMatchesQuery(meatballsSoup, "onions"), true);
+  assert.equal(recipeMatchesQuery(recipeFixture, "carrots"), true);
+  assert.equal(recipeMatchesQuery(recipeFixture, "onions"), true);
 });

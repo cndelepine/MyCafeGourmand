@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22103",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:467",
+  "slug": "saumon-a-la-poele",
+  "source": {
+    "system": "wordpress",
+    "postId": "22103",
+    "recipeId": "22103",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-saumon-a-la-poele",
+    "createdAt": "2023-03-15T18:59:00+00:00",
+    "modifiedAt": "2024-12-28T17:46:13+00:00",
+    "editorialPostId": "1438",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "saumon-a-la-poele",
+    "editorialCreatedAt": "2023-03-15T18:59:00+00:00",
+    "editorialModifiedAt": "2023-11-21T23:10:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/saumon-a-la-poele/"
+  ],
+  "title": "Saumon à la poêle",
+  "description": "Saumon à la poêle: Un bon poisson frais ne demande pas une longue préparation.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Un bon poisson frais ne demande pas une longue préparation. Assaisonné juste de sel et de poivre, il est prêt en un tour de main. Le temps de cuisson dépend de l’épaisseur des darnes (ou des filets) mais ne prend jamais beaucoup de temps. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22103,\"template\":\"chic-template-french\",\"updated\":1659204768942,\"className\":\"wprm-fallback-recipe\"} -->\n<!--WPRM Recipe 22103-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Saumon à la poêle</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2017/12/IMG_5216.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 filet huile d&#039;olive ((ou une noisette de beurre ))</li><li>4 morceaux (darnes ou filets) de saumon frais</li><li>Sel et poivre (du moulin)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Dans une poêle, chauffer l&#039;huile d&#039;olive (ou faire fondre le beurre). </p></li><li><p>Saler et poivrer un côté de saumon, mettre ce côté-là sur la poêle et faire cuire pendant environ 3 minutes.</p></li><li><p>Saler et poivrer puis délicatement retourner et faire cuire encore pendant environ 3 minutes. </p></li><li><p>Vérifier la cuisson (je fais un petit trou avec une fourchette pour voir la couleur de la chair à l’intérieur). Retirer aussitôt le poisson de la poêle et mettre sur une assiette.</p></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Saumon à la poêle"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26395",
+      "sourceTaxonomyId": "26395",
+      "name": "Plat Principal",
+      "slug": "plat-principal-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26440",
+      "sourceTaxonomyId": "26440",
+      "name": "française",
+      "slug": "francaise-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26750",
+      "sourceTaxonomyId": "26750",
+      "name": "Français",
+      "slug": "francais-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "26752",
+      "sourceTaxonomyId": "26752",
+      "name": "French",
+      "slug": "french-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24563",
+      "sourceTaxonomyId": "24563",
+      "name": "de saumon frais",
+      "slug": "de-saumon-frais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24726",
+      "sourceTaxonomyId": "24726",
+      "name": "Sel et poivre",
+      "slug": "sel-et-poivre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25571",
+      "sourceTaxonomyId": "25571",
+      "name": "huile d'olive",
+      "slug": "huile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25424",
+      "sourceTaxonomyId": "25424",
+      "name": "filet",
+      "slug": "filet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25572",
+      "sourceTaxonomyId": "25572",
+      "name": "morceaux (darnes ou filets)",
+      "slug": "morceaux-darnes-ou-filets"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "26442",
+      "sourceTaxonomyId": "26442",
+      "name": "Terrine au saumon fume",
+      "slug": "terrine-au-saumon-fume-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27048",
+      "sourceTaxonomyId": "27048",
+      "name": "Saumon a la poele",
+      "slug": "saumon-a-la-poele"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27050",
+      "sourceTaxonomyId": "27050",
+      "name": "Darne",
+      "slug": "darne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "366",
+      "sourceTaxonomyId": "366",
+      "name": "Sel et poivre",
+      "slug": "sel-et-poivre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "470",
+      "sourceTaxonomyId": "470",
+      "name": "de saumon frais",
+      "slug": "de-saumon-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1272",
+      "sourceTaxonomyId": "1272",
+      "name": "saumon",
+      "slug": "saumon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1620",
+      "sourceTaxonomyId": "1620",
+      "name": "poele",
+      "slug": "poele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1624",
+      "sourceTaxonomyId": "1624",
+      "name": "recette rapide",
+      "slug": "recette-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6798",
+      "sourceTaxonomyId": "6798",
+      "name": "poisson",
+      "slug": "poisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7754",
+      "sourceTaxonomyId": "7754",
+      "name": "darne de saumon",
+      "slug": "darne-de-saumon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7756",
+      "sourceTaxonomyId": "7756",
+      "name": "pavé de saumon",
+      "slug": "pave-de-saumon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25720",
+      "sourceTaxonomyId": "25720",
+      "name": "darne",
+      "slug": "darne"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "2",
+        "value": 2
+      },
+      "servingSize": {
+        "raw": "100",
+        "value": 100
+      },
+      "servingUnit": "g"
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "cook": {
+        "raw": "6",
+        "minutes": 6
+      },
+      "rest": null,
+      "total": {
+        "raw": "9",
+        "minutes": 9
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:451",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 filet huile d'olive (ou une noisette de beurre )",
+            "quantity": {
+              "raw": "1 filet",
+              "value": 1,
+              "unit": "filet",
+              "scalable": true
+            },
+            "name": "huile d'olive",
+            "notes": "(ou une noisette de beurre )"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 morceaux (darnes ou filets) de saumon frais",
+            "quantity": {
+              "raw": "4 morceaux (darnes ou filets)",
+              "value": 4,
+              "unit": "morceaux (darnes ou filets)",
+              "scalable": true
+            },
+            "name": "de saumon frais",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre",
+            "notes": "du moulin"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une poêle, chauffer l'huile d'olive (ou faire fondre le beurre).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Saler et poivrer un côté de saumon, mettre ce côté-là sur la poêle et faire cuire pendant environ 3 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Saler et poivrer puis délicatement retourner et faire cuire encore pendant environ 3 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Vérifier la cuisson (je fais un petit trou avec une fourchette pour voir la couleur de la chair à l’intérieur). Retirer aussitôt le poisson de la poêle et mettre sur une assiette.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:451",
+      "sourceId": "451",
+      "path": "/recipes/media/wordpress/451.png",
+      "alt": "Saumon à la poêle",
+      "width": 600,
+      "height": 400
+    }
+  ],
+  "seo": null
+}

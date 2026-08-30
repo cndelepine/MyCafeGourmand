@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29896",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:13123",
+  "slug": "roasted-eggplants-with-tomatoes",
+  "source": {
+    "system": "wordpress",
+    "postId": "29896",
+    "recipeId": "29896",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-roasted-eggplants-with-tomatoes",
+    "createdAt": "2026-02-21T22:48:37+00:00",
+    "modifiedAt": "2026-02-21T22:48:43+00:00",
+    "editorialPostId": "29895",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "roasted-eggplants-with-tomatoes",
+    "editorialCreatedAt": "2026-02-21T22:48:37+00:00",
+    "editorialModifiedAt": "2026-02-21T22:48:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/roasted-eggplants-with-tomatoes/"
+  ],
+  "title": "Roasted eggplants with tomatoes",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>These baked eggplants are delicious both warm and at room temperature, making them perfect to prepare in advance.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29896,\"template\":\"chic-template-english\",\"updated\":1771713941160} -->\n<!--WPRM Recipe 29896-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Roasted eggplants with tomatoes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6615.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 onions</li><li>4-5 cloves garlic</li><li>3+3 teaspoons olive oil</li><li>Salt and freshly ground black pepper</li><li>6 small tomatoes</li><li>4 small eggplants¾</li><li>2 bay leaves</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Peel the onions and garlic and cut them into large pieces.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6561-2.Blog_-150x150.png\"/><br /></li><li><p>Heat 3 tablespoons of olive oil in a skillet and sauté the onions over low heat until soft and translucent.</p><p>Slice the tomatoes into ½ cm thick rounds and lightly season them with salt.Insert the tomato slices into the cuts in the eggplants.</p><p>Place the stuffed eggplants on top of the onions in the baking dish. </p><p>Season with salt and freshly ground black pepper, and add a few bay leaves.</p><p>Drizzle the remaining olive oil over the eggplants.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6569-2.Blog_-150x150.png\"/><br /></li><li><p>Transfer the onions to the bottom of a baking dish. Preheat the oven to 180°C (390°F).</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6577-2.Blog_-150x150.png\"/><br /></li><li><p>Trim the stems off the eggplants. Carefully slice each eggplant lengthwise into ½ cm (¼ inch) thick slices, stopping about 2 cm from the base so the slices remain attached.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6600-2.Blog_-150x150.png\"/><br /></li><li><p>Slice the tomatoes into ½ cm thick rounds and lightly season them with salt. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6602.Blog_-150x150.png\"/><br /></li><li><p>Insert the tomato slices into the cuts in the eggplants.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6607.Blog_-150x150.png\"/><br /></li><li><p>Place the stuffed eggplants on top of the onions in the baking dish. Season with salt and freshly ground black pepper, and add a few bay leaves.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6605.Blog_-150x150.png\"/><br /></li><li><p>Drizzle the remaining olive oil over the eggplants.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6610.Blog_-150x150.png\"/><br /></li><li><p>Bake for about 1 hour, until tender.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_6615.Blog_-150x150.png\"/><br /></li><li><p>If you enjoy a stronger garlic flavor, press 1–2 additional cloves over the finished eggplants just before serving.</p></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs, Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "These baked eggplants are delicious both warm and at room temperature, making them perfect to prepare in advance."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27433",
+      "sourceTaxonomyId": "27433",
+      "name": "Apéritifs",
+      "slug": "aperitifs-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27436",
+      "sourceTaxonomyId": "27436",
+      "name": "Plat Principal",
+      "slug": "plat-principal-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24151",
+      "sourceTaxonomyId": "24151",
+      "name": "onions",
+      "slug": "onions"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24395",
+      "sourceTaxonomyId": "24395",
+      "name": "bay leaves",
+      "slug": "bay-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24399",
+      "sourceTaxonomyId": "24399",
+      "name": "small tomatoes",
+      "slug": "small-tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27440",
+      "sourceTaxonomyId": "27440",
+      "name": "small eggplants¾",
+      "slug": "small-eggplants%c2%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25564",
+      "sourceTaxonomyId": "25564",
+      "name": "cloves",
+      "slug": "cloves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27439",
+      "sourceTaxonomyId": "27439",
+      "name": "teaspoons",
+      "slug": "teaspoons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4192",
+      "sourceTaxonomyId": "4192",
+      "name": "eggplant",
+      "slug": "eggplant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25622",
+      "sourceTaxonomyId": "25622",
+      "name": "how to prepare",
+      "slug": "how-to-prepare"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25624",
+      "sourceTaxonomyId": "25624",
+      "name": "how to cook",
+      "slug": "how-to-cook"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 people",
+      "value": 4,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "rest": null,
+      "total": {
+        "raw": "80",
+        "minutes": 80
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:15708",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 onions",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onions",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4-5 cloves garlic",
+            "quantity": {
+              "raw": "4-5 cloves",
+              "min": 4,
+              "max": 5,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3+3 teaspoons olive oil",
+            "quantity": {
+              "raw": "3+3 teaspoons",
+              "unit": "teaspoons",
+              "scalable": false
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "6 small tomatoes",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "small tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 small eggplants¾",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "small eggplants¾",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 bay leaves",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bay leaves",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel the onions and garlic and cut them into large pieces.",
+            "mediaId": "wordpress-attachment:15701"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Heat 3 tablespoons of olive oil in a skillet and sauté the onions over low heat until soft and translucent.\n\nSlice the tomatoes into ½ cm thick rounds and lightly season them with salt.Insert the tomato slices into the cuts in the eggplants.\n\nPlace the stuffed eggplants on top of the onions in the baking dish.\n\nSeason with salt and freshly ground black pepper, and add a few bay leaves.\n\nDrizzle the remaining olive oil over the eggplants.",
+            "mediaId": "wordpress-attachment:15702"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Transfer the onions to the bottom of a baking dish. Preheat the oven to 180°C (390°F).",
+            "mediaId": "wordpress-attachment:15703"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Trim the stems off the eggplants. Carefully slice each eggplant lengthwise into ½ cm (¼ inch) thick slices, stopping about 2 cm from the base so the slices remain attached.",
+            "mediaId": "wordpress-attachment:15704"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Slice the tomatoes into ½ cm thick rounds and lightly season them with salt.",
+            "mediaId": "wordpress-attachment:15705"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Insert the tomato slices into the cuts in the eggplants.",
+            "mediaId": "wordpress-attachment:15706"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Place the stuffed eggplants on top of the onions in the baking dish. Season with salt and freshly ground black pepper, and add a few bay leaves.",
+            "mediaId": "wordpress-attachment:15710"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Drizzle the remaining olive oil over the eggplants.",
+            "mediaId": "wordpress-attachment:15707"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Bake for about 1 hour, until tender.",
+            "mediaId": "wordpress-attachment:15708"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "If you enjoy a stronger garlic flavor, press 1–2 additional cloves over the finished eggplants just before serving.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15708",
+      "sourceId": "15708",
+      "path": "/recipes/media/wordpress/15708.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:15701",
+      "sourceId": "15701",
+      "path": "/recipes/media/wordpress/15701.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15702",
+      "sourceId": "15702",
+      "path": "/recipes/media/wordpress/15702.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15703",
+      "sourceId": "15703",
+      "path": "/recipes/media/wordpress/15703.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15704",
+      "sourceId": "15704",
+      "path": "/recipes/media/wordpress/15704.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15705",
+      "sourceId": "15705",
+      "path": "/recipes/media/wordpress/15705.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15706",
+      "sourceId": "15706",
+      "path": "/recipes/media/wordpress/15706.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15710",
+      "sourceId": "15710",
+      "path": "/recipes/media/wordpress/15710.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:15707",
+      "sourceId": "15707",
+      "path": "/recipes/media/wordpress/15707.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

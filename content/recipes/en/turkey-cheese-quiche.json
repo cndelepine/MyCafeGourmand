@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21693",
+  "locale": "en",
+  "translationGroupId": null,
+  "slug": "turkey-cheese-quiche",
+  "source": {
+    "system": "wordpress",
+    "postId": "21693",
+    "recipeId": "21693",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-turkey-and-cheese-quiche",
+    "createdAt": "2018-02-07T06:40:07+00:00",
+    "modifiedAt": "2020-12-29T23:40:17+00:00",
+    "editorialPostId": "4010",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "turkey-cheese-quiche",
+    "editorialCreatedAt": "2018-02-07T06:40:07+00:00",
+    "editorialModifiedAt": "2020-12-29T23:40:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/turkey-cheese-quiche/"
+  ],
+  "title": "Turkey and Cheese Quiche",
+  "description": null,
+  "editorial": {
+    "content": "<p>Turkey and Cheese Quiche, this french recipe originally comes with tuna. Since my kids don't like tuna, I substituted it with turkey; but if you don't have either of those, you can make it with chicken. Combination of cheese, eggs and sour cream always turns out tasty. </p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21693,\"template\":\"chic-template-english\",\"updated\":1609284900801} -->\n<!--WPRM Recipe 21693-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Turkey and Cheese Quiche</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/received_10211613956206857.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet all butter puff pastry</li><li>350 g Natural white turkey breast in water ((drain))</li><li>2 Tbsp mayonnaise</li><li>2 tsp mustard</li><li>100 ml sour cream</li><li>200 g cheddar cheese (shredded)</li><li>Salt and pepper to taste (to taste)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 375 degrees F.</li><li>Lay the puff pastry out on a baking sheet. Prick all over with fork.</li><li>Pop in the oven for 10-12 minutes. Remove the pastry from the oven, pressing the center down with a fork, as it will have puffed up a bit.</li><li>Meanwhile, using a fork mix turkey meat with mayonnaise. Season with salt and pepper.</li><li>Spread the mustard across center.</li><li>Spoon the turkey mix on top.</li><li>Combine eggs with sour cream and mix together. Season with salt and pepper. </li><li>Pour over turkey.</li><li>Sprinkle with cheese. </li><li>Bake for 30 minutes or until quiche is golden brown.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24222",
+      "sourceTaxonomyId": "24222",
+      "name": "Salt and pepper to taste",
+      "slug": "salt-and-pepper-to-taste"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24276",
+      "sourceTaxonomyId": "24276",
+      "name": "cheddar cheese",
+      "slug": "cheddar-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24280",
+      "sourceTaxonomyId": "24280",
+      "name": "mustard",
+      "slug": "mustard"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24451",
+      "sourceTaxonomyId": "24451",
+      "name": "Natural white turkey breast in water",
+      "slug": "natural-white-turkey-breast-in-water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "288",
+      "sourceTaxonomyId": "288",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "967",
+      "sourceTaxonomyId": "967",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1012",
+      "sourceTaxonomyId": "1012",
+      "name": "mustard",
+      "slug": "mustard"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1791",
+      "sourceTaxonomyId": "1791",
+      "name": "cheddar cheese",
+      "slug": "cheddar-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2024",
+      "sourceTaxonomyId": "2024",
+      "name": "Salt and pepper to taste",
+      "slug": "salt-and-pepper-to-taste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2137",
+      "sourceTaxonomyId": "2137",
+      "name": "Natural white turkey breast in water",
+      "slug": "natural-white-turkey-breast-in-water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1474",
+      "sourceTaxonomyId": "1474",
+      "name": "Turkey",
+      "slug": "turkey"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1598",
+      "sourceTaxonomyId": "1598",
+      "name": "cheese",
+      "slug": "cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1957",
+      "sourceTaxonomyId": "1957",
+      "name": "quiche",
+      "slug": "quiche-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3776",
+      "sourceTaxonomyId": "3776",
+      "name": "family dinner",
+      "slug": "family-dinner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25285",
+      "sourceTaxonomyId": "25285",
+      "name": "Turkey and Cheese Quiche",
+      "slug": "turkey-and-cheese-quiche"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:4017",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "350 g Natural white turkey breast in water (drain)",
+            "quantity": {
+              "raw": "350 g",
+              "value": 350,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "Natural white turkey breast in water",
+            "notes": "(drain)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 Tbsp mayonnaise",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 tsp mustard",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "mustard",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 ml sour cream",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "200 g cheddar cheese shredded",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "cheddar cheese",
+            "notes": "shredded"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Salt and pepper to taste to taste",
+            "quantity": null,
+            "name": "Salt and pepper to taste",
+            "notes": "to taste"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 375 degrees F.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Lay the puff pastry out on a baking sheet. Prick all over with fork.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Pop in the oven for 10-12 minutes. Remove the pastry from the oven, pressing the center down with a fork, as it will have puffed up a bit.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Meanwhile, using a fork mix turkey meat with mayonnaise. Season with salt and pepper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Spread the mustard across center.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Spoon the turkey mix on top.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Combine eggs with sour cream and mix together. Season with salt and pepper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Pour over turkey.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Sprinkle with cheese.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Bake for 30 minutes or until quiche is golden brown.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4017",
+      "sourceId": "4017",
+      "path": "/recipes/media/wordpress/4017.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

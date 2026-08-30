@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:557",
+  "locale": "en",
+  "canonicalPath": "/table-setting/autumn/",
+  "translationGroupId": "wordpress:post-translations:153",
+  "source": {
+    "system": "wordpress",
+    "postId": 557,
+    "sourcePath": "/table-setting/autumn/",
+    "sourceSlug": "autumn",
+    "createdAt": "2017-12-31T03:32:00Z",
+    "modifiedAt": "2018-01-19T02:53:14Z"
+  },
+  "title": "Autumn",
+  "excerpt": null,
+  "publishedAt": "2017-12-31T03:32:00Z",
+  "modifiedAt": "2018-01-19T02:53:14Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

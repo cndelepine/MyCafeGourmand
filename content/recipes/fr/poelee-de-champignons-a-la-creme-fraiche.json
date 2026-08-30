@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27968",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26661",
+  "slug": "poelee-de-champignons-a-la-creme-fraiche",
+  "source": {
+    "system": "wordpress",
+    "postId": "27968",
+    "recipeId": "27968",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-poelee-de-champignons-a-la-creme-fraiche",
+    "createdAt": "2024-09-10T02:39:00+00:00",
+    "modifiedAt": "2024-09-18T04:06:42+00:00",
+    "editorialPostId": "27967",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "poelee-de-champignons-a-la-creme-fraiche",
+    "editorialCreatedAt": "2024-09-10T02:39:00+00:00",
+    "editorialModifiedAt": "2024-09-18T04:06:24+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/poelee-de-champignons-a-la-creme-fraiche/"
+  ],
+  "title": "Poêlée de champignons à la crème fraîche",
+  "description": "Ce plat peut être servi avec des pommes de terre cuites à l'eau, de la purée de pommes de terre ou du riz.",
+  "editorial": {
+    "content": "<!-- wp:paragraph {\"fontSize\":\"small\"} -->\n<p class=\"has-small-font-size\">Voici un plat végétarien copieux avec champignons, oignons et crème fraiche. C'est tout ce qu'il vous faut pour ce poêlée de champignons à la crème fraîche.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27968,\"template\":\"chic-template-french\",\"updated\":1719233337431} -->\n<!--WPRM Recipe 27968-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Poêlée de champignons à la crème fraîche</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4785.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Ce plat peut être servi avec des pommes de terre cuites à l&#039;eau, de la purée de pommes de terre ou du riz.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 grand oignon</li><li>1-2 gousses d&#039;ail</li><li>500 g champignons de Paris (<em>(ou champignon</em>s de couleur brune -<em>portobello)</em>)</li><li>10 g beurre</li><li>2 c<em>uillères</em> à <em>soupe</em> d&#039;huile <em>végétale</em> </li><li>200 ml crème fraîche</li><li>Sel et poivre du moulin</li><li><u>Quelques</u> feuilles de persil (ou de coriandre) ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préparer les champignons. S&#039;ils ne sont pas trop sales, ne les lavez pas, mais essuyez-les simplement avec un chiffon humide. Si vous décidez de laver les champignons, faites-le rapidement afin qu&#039;ils ne soient pas saturés d&#039;eau.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4775.Blog_-150x150.png\"/><br /></li><li><p>Bien sécher les champignons lavés avec une serviette en papier.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4780.Blog_-150x150.png\"/><br /></li><li><p>Couper les champignons en tranches.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4781.Blog_-150x150.png\"/><br /></li><li><p>Éplucher l&#039;oignon et l&#039;ail puis les hacher finement.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4760.Blog_-150x150.png\"/><br /></li><li><p>Chauffer l&#039;huile végétale et le beurre dans une poêle. Faire d&#039;abord revenir l&#039;oignon à feu moyen.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4771.Blog_-150x150.png\"/><br /></li><li><p>Ajouter ensuite l&#039;ail (si l&#039;ail est mis dans la poêle avec l&#039;oignon, il frira trop vite et commencera à brûler).</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4772.Blog_-150x150.png\"/><br /></li><li><p>Ajouter les champignons et faire revenir encore environ 10 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/received_8257399460567832.Blog_-150x150.png\"/><br /></li><li><p>Ajouter la crème fraiche.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4785.Blog_-150x150.png\"/><br /></li><li><p>Bien mélanger. Ajouter le sel et poivre. Garder sur le feu pendant encore 1 à 2 minutes et c&#039;est prêt.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4786.Blog_-150x150.png\"/><br /></li><li><p>Délicieux avec de la purée de pommes de terre, du riz ou des pâtes.</p><p>Ne soyez pas paresseux et saupoudrez d&#039;herbes fraîches : cela sera encore plus savoureux et appétissant dans l&#039;assiette.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2024/03/IMG_4794.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24040",
+      "sourceTaxonomyId": "24040",
+      "name": "beurre",
+      "slug": "beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24044",
+      "sourceTaxonomyId": "24044",
+      "name": "crème fraiche",
+      "slug": "creme-fraiche"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24304",
+      "sourceTaxonomyId": "24304",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24499",
+      "sourceTaxonomyId": "24499",
+      "name": "de persil (ou de coriandre)",
+      "slug": "de-persil-ou-de-coriandre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26674",
+      "sourceTaxonomyId": "26674",
+      "name": "champignons de Paris",
+      "slug": "champignons-de-paris"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25493",
+      "sourceTaxonomyId": "25493",
+      "name": "feuilles",
+      "slug": "feuilles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25670",
+      "sourceTaxonomyId": "25670",
+      "name": "gousses",
+      "slug": "gousses"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26662",
+      "sourceTaxonomyId": "26662",
+      "name": "grand",
+      "slug": "grand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1400",
+      "sourceTaxonomyId": "1400",
+      "name": "creme fraiche",
+      "slug": "creme-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5582",
+      "sourceTaxonomyId": "5582",
+      "name": "a la poele",
+      "slug": "a-la-poele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6898",
+      "sourceTaxonomyId": "6898",
+      "name": "champignons revenus a la poele",
+      "slug": "champignons-revenus-a-la-poele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26675",
+      "sourceTaxonomyId": "26675",
+      "name": "portobello",
+      "slug": "portobello"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26677",
+      "sourceTaxonomyId": "26677",
+      "name": "champignon de paris",
+      "slug": "champignon-de-paris"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "rest": null,
+      "total": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27944",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 grand oignon",
+            "quantity": {
+              "raw": "1 grand",
+              "value": 1,
+              "unit": "grand",
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 gousses d'ail",
+            "quantity": {
+              "raw": "1-2 gousses",
+              "min": 1,
+              "max": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 g champignons de Paris (ou champignons de couleur brune -portobello)",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "champignons de Paris",
+            "notes": "(ou champignons de couleur brune -portobello)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "10 g beurre",
+            "quantity": {
+              "raw": "10 g",
+              "value": 10,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "beurre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 cuillères à soupe d'huile végétale",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile végétale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "200 ml crème fraîche",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "crème fraîche",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Quelques feuilles de persil (ou de coriandre) (facultatif)",
+            "quantity": {
+              "raw": "Quelques feuilles",
+              "unit": "feuilles",
+              "scalable": false
+            },
+            "name": "de persil (ou de coriandre)",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préparer les champignons. S'ils ne sont pas trop sales, ne les lavez pas, mais essuyez-les simplement avec un chiffon humide. Si vous décidez de laver les champignons, faites-le rapidement afin qu'ils ne soient pas saturés d'eau.",
+            "mediaId": "wordpress-attachment:27941"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Bien sécher les champignons lavés avec une serviette en papier.",
+            "mediaId": "wordpress-attachment:27942"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper les champignons en tranches.",
+            "mediaId": "wordpress-attachment:27943"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Éplucher l'oignon et l'ail puis les hacher finement.",
+            "mediaId": "wordpress-attachment:27949"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Chauffer l'huile végétale et le beurre dans une poêle. Faire d'abord revenir l'oignon à feu moyen.",
+            "mediaId": "wordpress-attachment:27950"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Ajouter ensuite l'ail (si l'ail est mis dans la poêle avec l'oignon, il frira trop vite et commencera à brûler).",
+            "mediaId": "wordpress-attachment:27951"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Ajouter les champignons et faire revenir encore environ 10 minutes.",
+            "mediaId": "wordpress-attachment:27952"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Ajouter la crème fraiche.",
+            "mediaId": "wordpress-attachment:27944"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Bien mélanger. Ajouter le sel et poivre. Garder sur le feu pendant encore 1 à 2 minutes et c'est prêt.",
+            "mediaId": "wordpress-attachment:27945"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Délicieux avec de la purée de pommes de terre, du riz ou des pâtes.\n\nNe soyez pas paresseux et saupoudrez d'herbes fraîches : cela sera encore plus savoureux et appétissant dans l'assiette.",
+            "mediaId": "wordpress-attachment:27946"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27944",
+      "sourceId": "27944",
+      "path": "/recipes/media/wordpress/27944.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27941",
+      "sourceId": "27941",
+      "path": "/recipes/media/wordpress/27941.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27942",
+      "sourceId": "27942",
+      "path": "/recipes/media/wordpress/27942.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27943",
+      "sourceId": "27943",
+      "path": "/recipes/media/wordpress/27943.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27949",
+      "sourceId": "27949",
+      "path": "/recipes/media/wordpress/27949.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27950",
+      "sourceId": "27950",
+      "path": "/recipes/media/wordpress/27950.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27951",
+      "sourceId": "27951",
+      "path": "/recipes/media/wordpress/27951.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27952",
+      "sourceId": "27952",
+      "path": "/recipes/media/wordpress/27952.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27945",
+      "sourceId": "27945",
+      "path": "/recipes/media/wordpress/27945.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27946",
+      "sourceId": "27946",
+      "path": "/recipes/media/wordpress/27946.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

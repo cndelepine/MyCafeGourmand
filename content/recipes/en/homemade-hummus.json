@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21284",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6056",
+  "slug": "homemade-hummus",
+  "source": {
+    "system": "wordpress",
+    "postId": "21284",
+    "recipeId": "21284",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-homemade-hummus",
+    "createdAt": "2022-08-26T05:51:00+00:00",
+    "modifiedAt": "2022-08-26T13:19:21+00:00",
+    "editorialPostId": "11724",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "homemade-hummus",
+    "editorialCreatedAt": "2022-08-26T05:51:00+00:00",
+    "editorialModifiedAt": "2022-08-26T13:19:18+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/homemade-hummus/"
+  ],
+  "title": "Homemade Hummus",
+  "description": "If you don't like spicy food, use paprika instead of chili powder, it makes the dish look pretty, and only slightly alters flavor.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>With or without tahini, homemade hummus made from scratch only takes 5 minutes to make. No needs to cook the <span class=\"st\">chickpeas</span>, just open a can and mix with garlic, lemon juice and olive oil! This delicious healthy snack can be serve for any occasion with pita bread or garden vegetables. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21284,\"template\":\"chic-template-english\",\"updated\":1659213095105} -->\n<!--WPRM Recipe 21284-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Homemade Hummus</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_1026.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf you don't like spicy food, use paprika instead of chili powder, it makes the dish look pretty, and only slightly alters flavor.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1  can (400 g) garbanzo beans (chickpea)</li><li>1 lemon</li><li>2-3 cloves garlic (chopped)</li><li>Salt and freshly ground black pepper</li><li>1 Tbsp tahini (sesame paste) (optional)</li><li>3-4 Tbsp olive oil</li><li>A few pinches chili powder ((or paprika))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Drain garbanzo beans, keep half of the juice.</li><li>In a food processor, place the chickpeas, lemon juice, garlic, salt, black pepper, tahini, chili powder and 2 Tbsp of olive oil. Mix until smooth. Add 1 or 2 Tbsp of the juice from the can (or water) to give a desired texture to the hummus.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_1020.Blog_-150x150.png\"/><br /></li><li>Transfer hummus to a serving bowl, drizzle with the rest of the olive oil and sprinkle with chili powder or paprika.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_1030.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24169",
+      "sourceTaxonomyId": "24169",
+      "name": "garbanzo beans (chickpea)",
+      "slug": "garbanzo-beans-chickpea"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24170",
+      "sourceTaxonomyId": "24170",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24171",
+      "sourceTaxonomyId": "24171",
+      "name": "tahini (sesame paste)",
+      "slug": "tahini-sesame-paste"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24172",
+      "sourceTaxonomyId": "24172",
+      "name": "chili powder",
+      "slug": "chili-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "197",
+      "sourceTaxonomyId": "197",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "445",
+      "sourceTaxonomyId": "445",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6103",
+      "sourceTaxonomyId": "6103",
+      "name": "tahini (sesame paste)",
+      "slug": "tahini-sesame-paste"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6107",
+      "sourceTaxonomyId": "6107",
+      "name": "garbanzo beans (chickpea)",
+      "slug": "garbanzo-beans-chickpea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6109",
+      "sourceTaxonomyId": "6109",
+      "name": "chili powder",
+      "slug": "chili-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8",
+      "sourceTaxonomyId": "8",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3740",
+      "sourceTaxonomyId": "3740",
+      "name": "very easy",
+      "slug": "very-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4154",
+      "sourceTaxonomyId": "4154",
+      "name": "healthy snack",
+      "slug": "healthy-snack"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6016",
+      "sourceTaxonomyId": "6016",
+      "name": "chickpea",
+      "slug": "chickpea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6026",
+      "sourceTaxonomyId": "6026",
+      "name": "chick pea",
+      "slug": "chick-pea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6087",
+      "sourceTaxonomyId": "6087",
+      "name": "hummus",
+      "slug": "hummus"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6089",
+      "sourceTaxonomyId": "6089",
+      "name": "gorbanza bean",
+      "slug": "gorbanza-bean"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6091",
+      "sourceTaxonomyId": "6091",
+      "name": "5-minutes ready",
+      "slug": "5-minutes-ready"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23475",
+      "sourceTaxonomyId": "23475",
+      "name": "party",
+      "slug": "party"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11695",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 can (400 g) garbanzo beans (chickpea)",
+            "quantity": {
+              "raw": "1 can (400 g)",
+              "value": 1,
+              "unit": "can (400 g)",
+              "scalable": true
+            },
+            "name": "garbanzo beans (chickpea)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 lemon",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2-3 cloves garlic chopped",
+            "quantity": {
+              "raw": "2-3 cloves",
+              "min": 2,
+              "max": 3,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": "chopped"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 Tbsp tahini (sesame paste) optional",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "tahini (sesame paste)",
+            "notes": "optional"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3-4 Tbsp olive oil",
+            "quantity": {
+              "raw": "3-4 Tbsp",
+              "min": 3,
+              "max": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "A few pinches chili powder (or paprika)",
+            "quantity": {
+              "raw": "A few pinches",
+              "unit": "pinches",
+              "scalable": false
+            },
+            "name": "chili powder",
+            "notes": "(or paprika)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Drain garbanzo beans, keep half of the juice.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a food processor, place the chickpeas, lemon juice, garlic, salt, black pepper, tahini, chili powder and 2 Tbsp of olive oil. Mix until smooth. Add 1 or 2 Tbsp of the juice from the can (or water) to give a desired texture to the hummus.",
+            "mediaId": "wordpress-attachment:11694"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Transfer hummus to a serving bowl, drizzle with the rest of the olive oil and sprinkle with chili powder or paprika.",
+            "mediaId": "wordpress-attachment:11696"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11695",
+      "sourceId": "11695",
+      "path": "/recipes/media/wordpress/11695.png",
+      "alt": "Houmous fait maison",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11694",
+      "sourceId": "11694",
+      "path": "/recipes/media/wordpress/11694.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11696",
+      "sourceId": "11696",
+      "path": "/recipes/media/wordpress/11696.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

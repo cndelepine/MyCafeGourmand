@@ -1,0 +1,651 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26899",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:26229",
+  "slug": "рататуй",
+  "source": {
+    "system": "wordpress",
+    "postId": "26899",
+    "recipeId": "26899",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%80%d0%b0%d1%82%d0%b0%d1%82%d1%83%d0%b9",
+    "createdAt": "2023-06-01T00:50:05+00:00",
+    "modifiedAt": "2023-06-01T04:18:55+00:00",
+    "editorialPostId": "26898",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%80%d0%b0%d1%82%d0%b0%d1%82%d1%83%d0%b9",
+    "editorialCreatedAt": "2023-06-01T00:50:05+00:00",
+    "editorialModifiedAt": "2023-06-01T04:18:52+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d1%80%d0%b0%d1%82%d0%b0%d1%82%d1%83%d0%b9/"
+  ],
+  "title": "Рататуй",
+  "description": "Кабачки, баклажаны, сладкий перец и лук требуют разное количество времени на приготовление, поэтому лучше сначала их обжарить отдельно. А потом переложить в одну сковороду и потушить еще немного вместе, чтобы вкусы и ароматы смешались. Если у вас нет времени или желания стоять у плиты, то можно обжарить овощи все вместе, начиная с лука. Получится быстро, но менее изысканно. ;)",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Рататуй - традиционное блюдо прованской кухни из баклажанов, кабачков (цукини), болгарского перца, помидоров, лука и чеснока. Рататуй напоминает лечо или овощное рагу, но отличается от них способом приготовления и добавлением специй - прованских трав.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Вот мой вариант рататуя, который можно подать подать в холодном или горячем виде, сам по себе или как гарнир к мясу, рыбе, отварному картофелю, рису... </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:group {\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group\"><!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column {\"width\":\"100%\"} -->\n<div class=\"wp-block-column\" style=\"flex-basis:100%\"><!-- wp:wp-recipe-maker/recipe {\"id\":26899,\"template\":\"chic-template-russian\",\"updated\":1685582629620} -->\n<!--WPRM Recipe 26899-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Рататуй</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6546-2.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Кабачки, баклажаны, сладкий перец и лук требуют разное количество времени на приготовление, поэтому лучше сначала их обжарить отдельно. А потом переложить в одну сковороду и потушить еще немного вместе, чтобы вкусы и ароматы смешались. Если у вас нет времени или желания стоять у плиты, то можно обжарить овощи все вместе, начиная с лука. Получится быстро, но менее изысканно. ;)</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 большая луковица</li><li>4-5 зубчиков чеснока</li><li>1-2 баклажана</li><li>2 цукини (или молодых кабачка)</li><li>3 помидора</li><li>2-3 болгарских перца ((разного цвета))</li><li>7-8 ст.л. оливкового масла</li><li>Соль и свежемолотый перец</li><li>1/2 ч.л. смеси прованских трав (Herbes de Provence)</li><li>3 лавровых листа</li><li>Свежая зелень (петрушка, кинза укроп)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Нарезать цукини маленькими кубиками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6526-2.Blog_-150x150.png\"/><br /></li><li><p>Нарезать баклажаны маленькими кубиками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6532-2.Blog_-150x150.png\"/><br /></li><li><p>Разрезать перец вдоль пополам, удалить семечки и порезать маленькими кубиками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6519-2.Blog_-150x150.png\"/><br /></li><li><p>Очистить лук  и порезать кубиками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_8285.Blog_-150x150.png\"/><br /></li><li><p>Очистить чеснок и крупно порезать.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_7345.Blog_-150x150.png\"/><br /></li><li><p>Помидоры нарезать. (Можно снять кожицу, если она толстая и удалить семена). </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/01/50074670_243980343165870_1221729706777247744_n.Blog_-150x150.png\"/><br /></li><li><p>Разогреть в сковороде немного оливкового масла и обжарить в нем лук на небольшом огне до прозрачности. В конце жарки добавить к луку чеснок. Посолить и поперчить. Снять сковороду с огня.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6525.Blog_-150x150.png\"/><br /></li><li><p>На другой сковороде, тоже в оливковом масле обжарить болгарский перец. Посолить и поперчить. Снять сковороду с огня.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6524.Blog_-150x150.png\"/><br /></li><li><p>Также, по отдельности обжарить цукини и баклажаны. Посолить и поперчить.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6527-2.Blog_-150x150.png\"/><br /></li><li><p>Соединить все обжаренные овощи в одной большой сковороде (или кастрюле). Добавить помидоры и лавровый лист. Можно добавить еще несколько зубчиков чеснока. Посыпать прованскими травами и аккуратно перемешать.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6534-2.Blog_-150x150.png\"/><br /></li><li><p>Попробовать овощи, если надо добавить соль и перец. Накрыть крышкой и оставить томиться на очень маленьком огне примерно 10 минут.</p></li><li><p>Перед подачей на стол посыпать свежей зеленью.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/05/IMG_6546-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, française</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div>\n<!-- /wp:group -->",
+    "excerpt": "Рататуй - блюдо французской кухни из баклажанов, кабачков (цукини), болгарского перца, помидоров, лука, чеснока и прованских трав"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24046",
+      "sourceTaxonomyId": "24046",
+      "name": "Français",
+      "slug": "francais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24047",
+      "sourceTaxonomyId": "24047",
+      "name": "française",
+      "slug": "francaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24827",
+      "sourceTaxonomyId": "24827",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24855",
+      "sourceTaxonomyId": "24855",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24868",
+      "sourceTaxonomyId": "24868",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24958",
+      "sourceTaxonomyId": "24958",
+      "name": "смеси прованских трав (Herbes de Provence)",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%81%d0%b8-%d0%bf%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d1%81%d0%ba%d0%b8%d1%85-%d1%82%d1%80%d0%b0%d0%b2-herbes-de-provence"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24962",
+      "sourceTaxonomyId": "24962",
+      "name": "помидора",
+      "slug": "%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25000",
+      "sourceTaxonomyId": "25000",
+      "name": "лавровых листа",
+      "slug": "%d0%bb%d0%b0%d0%b2%d1%80%d0%be%d0%b2%d1%8b%d1%85-%d0%bb%d0%b8%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26157",
+      "sourceTaxonomyId": "26157",
+      "name": "болгарских перца",
+      "slug": "%d0%b1%d0%be%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%b8%d1%85-%d0%bf%d0%b5%d1%80%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26239",
+      "sourceTaxonomyId": "26239",
+      "name": "баклажана",
+      "slug": "%d0%b1%d0%b0%d0%ba%d0%bb%d0%b0%d0%b6%d0%b0%d0%bd%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26241",
+      "sourceTaxonomyId": "26241",
+      "name": "Свежая зелень (петрушка, кинза укроп)",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b0%d1%8f-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d1%8c-%d0%bf%d0%b5%d1%82%d1%80%d1%83%d1%88%d0%ba%d0%b0-%d0%ba%d0%b8%d0%bd%d0%b7%d0%b0-%d1%83%d0%ba%d1%80%d0%be%d0%bf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26242",
+      "sourceTaxonomyId": "26242",
+      "name": "цукини (или молодых кабачка)",
+      "slug": "%d1%86%d1%83%d0%ba%d0%b8%d0%bd%d0%b8-%d0%b8%d0%bb%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d0%b4%d1%8b%d1%85-%d0%ba%d0%b0%d0%b1%d0%b0%d1%87%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25407",
+      "sourceTaxonomyId": "25407",
+      "name": "ч.л.",
+      "slug": "%d1%87-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26237",
+      "sourceTaxonomyId": "26237",
+      "name": "большая",
+      "slug": "%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b0%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26238",
+      "sourceTaxonomyId": "26238",
+      "name": "зубчиков",
+      "slug": "%d0%b7%d1%83%d0%b1%d1%87%d0%b8%d0%ba%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1320",
+      "sourceTaxonomyId": "1320",
+      "name": "овощи",
+      "slug": "%d0%be%d0%b2%d0%be%d1%89%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3547",
+      "sourceTaxonomyId": "3547",
+      "name": "на сковороде",
+      "slug": "%d0%bd%d0%b0-%d1%81%d0%ba%d0%be%d0%b2%d0%be%d1%80%d0%be%d0%b4%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3821",
+      "sourceTaxonomyId": "3821",
+      "name": "баклажан",
+      "slug": "%d0%b1%d0%b0%d0%ba%d0%bb%d0%b0%d0%b6%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3873",
+      "sourceTaxonomyId": "3873",
+      "name": "болгарский перец",
+      "slug": "%d0%b1%d0%be%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%b8%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5018",
+      "sourceTaxonomyId": "5018",
+      "name": "здоровое питание",
+      "slug": "%d0%b7%d0%b4%d0%be%d1%80%d0%be%d0%b2%d0%be%d0%b5-%d0%bf%d0%b8%d1%82%d0%b0%d0%bd%d0%b8%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6244",
+      "sourceTaxonomyId": "6244",
+      "name": "кабачок",
+      "slug": "%d0%ba%d0%b0%d0%b1%d0%b0%d1%87%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6246",
+      "sourceTaxonomyId": "6246",
+      "name": "цуккини",
+      "slug": "%d1%86%d1%83%d0%ba%d0%ba%d0%b8%d0%bd%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26243",
+      "sourceTaxonomyId": "26243",
+      "name": "рататуй",
+      "slug": "%d1%80%d0%b0%d1%82%d0%b0%d1%82%d1%83%d0%b9"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "rest": null,
+      "total": {
+        "raw": "70",
+        "minutes": 70
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26793",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 большая луковица",
+            "quantity": {
+              "raw": "1 большая",
+              "value": 1,
+              "unit": "большая",
+              "scalable": true
+            },
+            "name": "луковица",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4-5 зубчиков чеснока",
+            "quantity": {
+              "raw": "4-5 зубчиков",
+              "min": 4,
+              "max": 5,
+              "unit": "зубчиков",
+              "scalable": true
+            },
+            "name": "чеснока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 баклажана",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "баклажана",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 цукини (или молодых кабачка)",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "цукини (или молодых кабачка)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 помидора",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "помидора",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2-3 болгарских перца (разного цвета)",
+            "quantity": {
+              "raw": "2-3",
+              "min": 2,
+              "max": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "болгарских перца",
+            "notes": "(разного цвета)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "7-8 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "7-8 ст.л.",
+              "min": 7,
+              "max": 8,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Соль и свежемолотый перец",
+            "quantity": null,
+            "name": "Соль и свежемолотый перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1/2 ч.л. смеси прованских трав (Herbes de Provence)",
+            "quantity": {
+              "raw": "1/2 ч.л.",
+              "value": 0.5,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "смеси прованских трав (Herbes de Provence)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "3 лавровых листа",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "лавровых листа",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "Свежая зелень (петрушка, кинза укроп)",
+            "quantity": null,
+            "name": "Свежая зелень (петрушка, кинза укроп)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Нарезать цукини маленькими кубиками.",
+            "mediaId": "wordpress-attachment:26787"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Нарезать баклажаны маленькими кубиками.",
+            "mediaId": "wordpress-attachment:26789"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Разрезать перец вдоль пополам, удалить семечки и порезать маленькими кубиками.",
+            "mediaId": "wordpress-attachment:26784"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Очистить лук и порезать кубиками.",
+            "mediaId": "wordpress-attachment:26874"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Очистить чеснок и крупно порезать.",
+            "mediaId": "wordpress-attachment:26875"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Помидоры нарезать. (Можно снять кожицу, если она толстая и удалить семена).",
+            "mediaId": "wordpress-attachment:14574"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Разогреть в сковороде немного оливкового масла и обжарить в нем лук на небольшом огне до прозрачности. В конце жарки добавить к луку чеснок. Посолить и поперчить. Снять сковороду с огня.",
+            "mediaId": "wordpress-attachment:26786"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "На другой сковороде, тоже в оливковом масле обжарить болгарский перец. Посолить и поперчить. Снять сковороду с огня.",
+            "mediaId": "wordpress-attachment:26785"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Также, по отдельности обжарить цукини и баклажаны. Посолить и поперчить.",
+            "mediaId": "wordpress-attachment:26788"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Соединить все обжаренные овощи в одной большой сковороде (или кастрюле). Добавить помидоры и лавровый лист. Можно добавить еще несколько зубчиков чеснока. Посыпать прованскими травами и аккуратно перемешать.",
+            "mediaId": "wordpress-attachment:26790"
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Попробовать овощи, если надо добавить соль и перец. Накрыть крышкой и оставить томиться на очень маленьком огне примерно 10 минут.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 11,
+            "text": "Перед подачей на стол посыпать свежей зеленью.",
+            "mediaId": "wordpress-attachment:26792"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26793",
+      "sourceId": "26793",
+      "path": "/recipes/media/wordpress/26793.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:26787",
+      "sourceId": "26787",
+      "path": "/recipes/media/wordpress/26787.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26789",
+      "sourceId": "26789",
+      "path": "/recipes/media/wordpress/26789.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26784",
+      "sourceId": "26784",
+      "path": "/recipes/media/wordpress/26784.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26874",
+      "sourceId": "26874",
+      "path": "/recipes/media/wordpress/26874.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26875",
+      "sourceId": "26875",
+      "path": "/recipes/media/wordpress/26875.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:14574",
+      "sourceId": "14574",
+      "path": "/recipes/media/wordpress/14574.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26786",
+      "sourceId": "26786",
+      "path": "/recipes/media/wordpress/26786.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26785",
+      "sourceId": "26785",
+      "path": "/recipes/media/wordpress/26785.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26788",
+      "sourceId": "26788",
+      "path": "/recipes/media/wordpress/26788.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26790",
+      "sourceId": "26790",
+      "path": "/recipes/media/wordpress/26790.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26792",
+      "sourceId": "26792",
+      "path": "/recipes/media/wordpress/26792.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,826 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22514",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:17137",
+  "slug": "профитроли-с-муссом-из-копченого-лосо",
+  "source": {
+    "system": "wordpress",
+    "postId": "22514",
+    "recipeId": "22514",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8-%d1%81-%d0%bc%d1%83%d1%81%d1%81%d0%be%d0%bc-%d0%b8%d0%b7-%d0%ba%d0%be%d0%bf%d1%87%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%bb%d0%be%d1%81%d0",
+    "createdAt": "2019-08-13T07:42:30+00:00",
+    "modifiedAt": "2022-07-30T20:00:49+00:00",
+    "editorialPostId": "17758",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8-%d1%81-%d0%bc%d1%83%d1%81%d1%81%d0%be%d0%bc-%d0%b8%d0%b7-%d0%ba%d0%be%d0%bf%d1%87%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%bb%d0%be%d1%81%d0%be",
+    "editorialCreatedAt": "2019-08-13T07:42:30+00:00",
+    "editorialModifiedAt": "2022-07-30T20:00:47+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d0%bf%d1%80%d0%be%d1%84%d0%b8%d1%82%d1%80%d0%be%d0%bb%d0%b8-%d1%81-%d0%bc%d1%83%d1%81%d1%81%d0%be%d0%bc-%d0%b8%d0%b7-%d0%ba%d0%be%d0%bf%d1%87%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%bb%d0%be%d1%81%d0%be/"
+  ],
+  "title": "Профитроли с муссом из копченого лосося",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Маленькие булочки из заварного теста, наполненные нежнейшим муссом из копченого лосося. Такие закусочные профитроли отлично подойдут к шампанскому (брют) и порадуют истинных гурманов.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22514,\"template\":\"chic-template-russian\",\"updated\":1659211236143} -->\n<!--WPRM Recipe 22514-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Профитроли с муссом из копченого лосося</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9048.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Заварное тесто</h4><ul><li>200 мл воды или молока</li><li>100 г сливочного масла</li><li>3  щепотки  соли</li><li>120 г просеянной муки</li><li>3 больших яйца</li><li>1 яйцо (или только желток) ((по желанию))</li></ul><h4>Мусс из копченого лосося</h4><ul><li>250 г копченого лосося (порезать на кусочки)</li><li>1 небольшая луковица (почистить и порезать)</li><li>1 зубчик чеснока (почистить и порезать)</li><li>1 ст.л. сметаны</li><li>1 ст.л. оливкового масла</li><li>3 ст.л. свежевыжатого лимонного сока</li><li>Соль и свежемолотый черный перец (по вкусу)</li><li>100 мл жирных сливок (35%) (очень холодных)</li><li>Немного свежего укропа или зеленого лука (мелко порезать)</li><li>Немного молотой паприки (для украшения)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Заварное тесто</h4><ol><li>Разогреть духовку до 190 С (400 F). Два противня застелить пергаментной бумагой.\r\n</li><li>В кастрюлю налить воду, добавить соль и сливочное масло. Когда вода закипит, а масло полностью растает, снять кастрюлю с огня. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2359.Blog_-150x150.png\"/><br /></li><li>Всыпать муку и хорошо перемешать. Тесто должно слепиться в ком и не прилипать к стенкам кастрюли.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1320.Blog_-150x150.png\"/><br /></li><li>Яйца добавлять по-одному, хорошо перемешивая тесто после каждого яйца. Тесто должно стать блестящим, гладким и немного липким. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1321.Blog_-150x150.png\"/><br /></li><li>Снова поставить кастрюлю на огонь и постоянно помешивая, подсушить тесто 30-50 секунд. Снять с огня.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1322.Blog_-150x150.png\"/><br /></li><li>Переложить тесто в кулинарный пакет.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_1324.Blog_-150x150.png\"/><br /></li><li>Сделать отверстие примерно 1 см и выдавить на противень маленькие башенки. (Можно выложить тесто при помощи чайной ложки). Обязательно оставьте достаточно места, чтобы во время выпечки, профитроли не соприкасались друг с другом.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8971.Blog_-150x150.png\"/><br /></li><li>Обмакнуть вилку в желток и слегка смазать поверхность пирожных. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8974.Blog_-150x150.png\"/><br /></li><li>Выпекать 20-25 минут до красивого золотистого цвета. Во время выпечки духовку не открывать! (Я ставлю в духовку только один противень за раз.) Достать противень из духовки, остудить пирожные и аккуратно снять с противня.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8979.Blog_-150x150.png\"/><br /></li></ol><h4>Мусс из копченого лосося</h4><ol><li>В кухонном комбайне смешать копченый лосось, лук, чеснок, сметану и оливковое масло.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8982.Blog_-150x150.png\"/><br /></li><li>Добавить лимонный сок, соль, перец и еще раз все хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8985.Blog_-150x150.png\"/><br /></li><li>Холодные сливки взбить в нежную пену.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8988.Blog_-150x150.png\"/><br /></li><li>Аккуратно соединить перемолотый лосось со взбитыми сливками и укропом.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_8990.Blog_-150x150.png\"/><br /></li><li>Разрезать профитроли и начинить их муссом при помощи кулинарного пакета (или просто ложечкой).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9026.Blog_-150x150.png\"/><br /></li><li>Посыпать паприкой. Сразу подавать на стол или убрать в холодильник.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_9040.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Закуски</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24840",
+      "sourceTaxonomyId": "24840",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23548",
+      "sourceTaxonomyId": "23548",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24785",
+      "sourceTaxonomyId": "24785",
+      "name": "воды или молока",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b-%d0%b8%d0%bb%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24826",
+      "sourceTaxonomyId": "24826",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24827",
+      "sourceTaxonomyId": "24827",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24854",
+      "sourceTaxonomyId": "24854",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24868",
+      "sourceTaxonomyId": "24868",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24934",
+      "sourceTaxonomyId": "24934",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24950",
+      "sourceTaxonomyId": "24950",
+      "name": "копченого лосося",
+      "slug": "%d0%ba%d0%be%d0%bf%d1%87%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%bb%d0%be%d1%81%d0%be%d1%81%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24959",
+      "sourceTaxonomyId": "24959",
+      "name": "молотой паприки",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%82%d0%be%d0%b9-%d0%bf%d0%b0%d0%bf%d1%80%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24967",
+      "sourceTaxonomyId": "24967",
+      "name": "яйцо (или только желток)",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be-%d0%b8%d0%bb%d0%b8-%d1%82%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%b6%d0%b5%d0%bb%d1%82%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24968",
+      "sourceTaxonomyId": "24968",
+      "name": "свежевыжатого лимонного сока",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b2%d1%8b%d0%b6%d0%b0%d1%82%d0%be%d0%b3%d0%be-%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24969",
+      "sourceTaxonomyId": "24969",
+      "name": "свежего укропа или зеленого лука",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b3%d0%be-%d1%83%d0%ba%d1%80%d0%be%d0%bf%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%bb%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "86",
+      "sourceTaxonomyId": "86",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1526",
+      "sourceTaxonomyId": "1526",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "455",
+      "sourceTaxonomyId": "455",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "541",
+      "sourceTaxonomyId": "541",
+      "name": "копченого лосося",
+      "slug": "%d0%ba%d0%be%d0%bf%d1%87%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%bb%d0%be%d1%81%d0%be%d1%81%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "795",
+      "sourceTaxonomyId": "795",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "797",
+      "sourceTaxonomyId": "797",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "832",
+      "sourceTaxonomyId": "832",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "893",
+      "sourceTaxonomyId": "893",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3500",
+      "sourceTaxonomyId": "3500",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4043",
+      "sourceTaxonomyId": "4043",
+      "name": "молотой паприки",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d1%82%d0%be%d0%b9-%d0%bf%d0%b0%d0%bf%d1%80%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4572",
+      "sourceTaxonomyId": "4572",
+      "name": "свежевыжатого лимонного сока",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b2%d1%8b%d0%b6%d0%b0%d1%82%d0%be%d0%b3%d0%be-%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4948",
+      "sourceTaxonomyId": "4948",
+      "name": "Соль и свежемолотый черный перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7933",
+      "sourceTaxonomyId": "7933",
+      "name": "яйцо (или только желток)",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be-%d0%b8%d0%bb%d0%b8-%d1%82%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%b6%d0%b5%d0%bb%d1%82%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "9021",
+      "sourceTaxonomyId": "9021",
+      "name": "воды или молока",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b-%d0%b8%d0%bb%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "10574",
+      "sourceTaxonomyId": "10574",
+      "name": "свежего укропа или зеленого лука",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b3%d0%be-%d1%83%d0%ba%d1%80%d0%be%d0%bf%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%bb%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1534",
+      "sourceTaxonomyId": "1534",
+      "name": "копченый лосось",
+      "slug": "%d0%ba%d0%be%d0%bf%d1%87%d0%b5%d0%bd%d1%8b%d0%b9-%d0%bb%d0%be%d1%81%d0%be%d1%81%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2270",
+      "sourceTaxonomyId": "2270",
+      "name": "заварное тесто",
+      "slug": "%d0%b7%d0%b0%d0%b2%d0%b0%d1%80%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2274",
+      "sourceTaxonomyId": "2274",
+      "name": "заварные пирожные",
+      "slug": "%d0%b7%d0%b0%d0%b2%d0%b0%d1%80%d0%bd%d1%8b%d0%b5-%d0%bf%d0%b8%d1%80%d0%be%d0%b6%d0%bd%d1%8b%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3438",
+      "sourceTaxonomyId": "3438",
+      "name": "пети шу",
+      "slug": "%d0%bf%d0%b5%d1%82%d0%b8-%d1%88%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4374",
+      "sourceTaxonomyId": "4374",
+      "name": "французский рецепт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "40 маленьких пирожных",
+      "value": 40,
+      "unit": "маленьких пирожных",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "cook": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17782",
+    "ingredientGroups": [
+      {
+        "name": "Заварное тесто",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 мл воды или молока",
+            "quantity": {
+              "raw": "200 мл",
+              "value": 200,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "воды или молока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 г сливочного масла",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 щепотки соли",
+            "quantity": {
+              "raw": "3 щепотки",
+              "value": 3,
+              "unit": "щепотки",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "120 г просеянной муки",
+            "quantity": {
+              "raw": "120 г",
+              "value": 120,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "просеянной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 больших яйца",
+            "quantity": {
+              "raw": "3 больших",
+              "value": 3,
+              "unit": "больших",
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 яйцо (или только желток) (по желанию)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйцо (или только желток)",
+            "notes": "(по желанию)"
+          }
+        ]
+      },
+      {
+        "name": "Мусс из копченого лосося",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 г копченого лосося порезать на кусочки",
+            "quantity": {
+              "raw": "250 г",
+              "value": 250,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "копченого лосося",
+            "notes": "порезать на кусочки"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 небольшая луковица почистить и порезать",
+            "quantity": {
+              "raw": "1 небольшая",
+              "value": 1,
+              "unit": "небольшая",
+              "scalable": true
+            },
+            "name": "луковица",
+            "notes": "почистить и порезать"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 зубчик чеснока почистить и порезать",
+            "quantity": {
+              "raw": "1 зубчик",
+              "value": 1,
+              "unit": "зубчик",
+              "scalable": true
+            },
+            "name": "чеснока",
+            "notes": "почистить и порезать"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 ст.л. сметаны",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "сметаны",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 ст.л. свежевыжатого лимонного сока",
+            "quantity": {
+              "raw": "3 ст.л.",
+              "value": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "свежевыжатого лимонного сока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Соль и свежемолотый черный перец по вкусу",
+            "quantity": null,
+            "name": "Соль и свежемолотый черный перец",
+            "notes": "по вкусу"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "100 мл жирных сливок (35%) очень холодных",
+            "quantity": {
+              "raw": "100 мл",
+              "value": 100,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "жирных сливок (35%)",
+            "notes": "очень холодных"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Немного свежего укропа или зеленого лука мелко порезать",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "свежего укропа или зеленого лука",
+            "notes": "мелко порезать"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Немного молотой паприки для украшения",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "молотой паприки",
+            "notes": "для украшения"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Заварное тесто",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 190 С (400 F). Два противня застелить пергаментной бумагой.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "В кастрюлю налить воду, добавить соль и сливочное масло. Когда вода закипит, а масло полностью растает, снять кастрюлю с огня.",
+            "mediaId": "wordpress-attachment:17812"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Всыпать муку и хорошо перемешать. Тесто должно слепиться в ком и не прилипать к стенкам кастрюли.",
+            "mediaId": "wordpress-attachment:17769"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Яйца добавлять по-одному, хорошо перемешивая тесто после каждого яйца. Тесто должно стать блестящим, гладким и немного липким.",
+            "mediaId": "wordpress-attachment:17770"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Снова поставить кастрюлю на огонь и постоянно помешивая, подсушить тесто 30-50 секунд. Снять с огня.",
+            "mediaId": "wordpress-attachment:17771"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Переложить тесто в кулинарный пакет.",
+            "mediaId": "wordpress-attachment:17772"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Сделать отверстие примерно 1 см и выдавить на противень маленькие башенки. (Можно выложить тесто при помощи чайной ложки). Обязательно оставьте достаточно места, чтобы во время выпечки, профитроли не соприкасались друг с другом.",
+            "mediaId": "wordpress-attachment:17773"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Обмакнуть вилку в желток и слегка смазать поверхность пирожных.",
+            "mediaId": "wordpress-attachment:17774"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Выпекать 20-25 минут до красивого золотистого цвета. Во время выпечки духовку не открывать! (Я ставлю в духовку только один противень за раз.) Достать противень из духовки, остудить пирожные и аккуратно снять с противня.",
+            "mediaId": "wordpress-attachment:17775"
+          }
+        ]
+      },
+      {
+        "name": "Мусс из копченого лосося",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В кухонном комбайне смешать копченый лосось, лук, чеснок, сметану и оливковое масло.",
+            "mediaId": "wordpress-attachment:17776"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Добавить лимонный сок, соль, перец и еще раз все хорошо перемешать.",
+            "mediaId": "wordpress-attachment:17777"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Холодные сливки взбить в нежную пену.",
+            "mediaId": "wordpress-attachment:17778"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Аккуратно соединить перемолотый лосось со взбитыми сливками и укропом.",
+            "mediaId": "wordpress-attachment:17779"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Разрезать профитроли и начинить их муссом при помощи кулинарного пакета (или просто ложечкой).",
+            "mediaId": "wordpress-attachment:17780"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Посыпать паприкой. Сразу подавать на стол или убрать в холодильник.",
+            "mediaId": "wordpress-attachment:17781"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17782",
+      "sourceId": "17782",
+      "path": "/recipes/media/wordpress/17782.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17812",
+      "sourceId": "17812",
+      "path": "/recipes/media/wordpress/17812.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17769",
+      "sourceId": "17769",
+      "path": "/recipes/media/wordpress/17769.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17770",
+      "sourceId": "17770",
+      "path": "/recipes/media/wordpress/17770.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17771",
+      "sourceId": "17771",
+      "path": "/recipes/media/wordpress/17771.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17772",
+      "sourceId": "17772",
+      "path": "/recipes/media/wordpress/17772.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17773",
+      "sourceId": "17773",
+      "path": "/recipes/media/wordpress/17773.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17774",
+      "sourceId": "17774",
+      "path": "/recipes/media/wordpress/17774.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17775",
+      "sourceId": "17775",
+      "path": "/recipes/media/wordpress/17775.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17776",
+      "sourceId": "17776",
+      "path": "/recipes/media/wordpress/17776.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17777",
+      "sourceId": "17777",
+      "path": "/recipes/media/wordpress/17777.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17778",
+      "sourceId": "17778",
+      "path": "/recipes/media/wordpress/17778.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:17779",
+      "sourceId": "17779",
+      "path": "/recipes/media/wordpress/17779.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17780",
+      "sourceId": "17780",
+      "path": "/recipes/media/wordpress/17780.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17781",
+      "sourceId": "17781",
+      "path": "/recipes/media/wordpress/17781.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21933",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:6722",
+  "slug": "boules-de-glace-et-de-sorbet",
+  "source": {
+    "system": "wordpress",
+    "postId": "21933",
+    "recipeId": "21933",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-boules-de-glace-et-de-sorbet",
+    "createdAt": "2019-06-11T20:00:00+00:00",
+    "modifiedAt": "2025-10-02T05:33:08+00:00",
+    "editorialPostId": "12153",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "boules-de-glace-et-de-sorbet",
+    "editorialCreatedAt": "2019-06-11T20:00:00+00:00",
+    "editorialModifiedAt": "2025-10-02T05:33:04+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/boules-de-glace-et-de-sorbet/"
+  ],
+  "title": "Boules de glace et de sorbet",
+  "description": "Achetez différents parfums de glace et de sorbet, préparez des topping de votre choix : la chantilly, le chocolat râpé, la sauce chocolat maison ou du commerce, les confitures, des noix ou noisettes grillées... Dans les ingrédients, j'ai juste noté mes parfums préférés.",
+  "editorial": {
+    "content": "<p>Je prépare à l’avance les boules de glace ou de sorbet <span class=\"gmail-st\">appétissantes</span>. Plus pratique pour servir rapidement lors d’une soirée quand il y a beaucoup de monde. Peu importe si c’est de la glace maison ou du commerce, je forme des boules. Puis je les mets dans des coupes ou des verrines et les range dans le congélateur. Au moment venu, il ne reste qu'à les sortir et parsemer de chocolat râpé, de noix ou d’arroser avec de la<a href=\"https://mycafegourmand.com/fr/recipe/sauce-au-chocolat\">&nbsp;sauce chocolat</a> ou d'alcool.</p>\n<p>Ceci n'est pas une recette mais juste une idée. Quel est votre parfum de glace préféré ? </p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21933,\"template\":\"chic-template-french\",\"updated\":1759383136203} -->\n<!--WPRM Recipe 21933-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Boules de glace et de sorbet</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1658.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tAchetez différents parfums de glace et de sorbet, préparez des topping de votre choix : la chantilly, le chocolat râpé, la sauce chocolat maison ou du commerce, les confitures, des noix ou noisettes grillées... Dans les ingrédients, j'ai juste noté mes parfums préférés.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 pot de glace au chocolat</li><li>1 pot de glace à la vanille</li><li>1 pot de sorbet à la framboise</li><li>1 pot de sorbe à la mangue</li><li>1 pot de sorbet au citron</li><li>Quelques cuillères à soupe de cognac</li><li>Quelques cuillères à soupe de liqueur Triple Sec</li><li>Quelques cuillères à soupe de tequila</li><li>150 ml sauce au chocolat</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Tremper une cuillère à glace ou à soupe dans de l'eau chaude et former des boules de glace et de sorbet. Les répartir dans des coupes ou des verres, couvrir avec un film alimentaire et ranger dans le congélateur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1656.Blog_-150x150.png\"/><br /></li><li>Au moment de servir, arroser chaque boule de glace avec 1 cuillère à soupe d'alcool, de sauce ou un autre topping de votre choix.\r\nSur la photo : glace au chocolat avec cognac et chocolat râpé; glace à la vanille avec la sauce au chocolat; sorbet à framboise avec Triple Sec; sorbet à mangue avec téquila<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1661.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24626",
+      "sourceTaxonomyId": "24626",
+      "name": "de glace au chocolat",
+      "slug": "de-glace-au-chocolat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24627",
+      "sourceTaxonomyId": "24627",
+      "name": "de glace à la vanille",
+      "slug": "de-glace-a-la-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24628",
+      "sourceTaxonomyId": "24628",
+      "name": "de sorbet à la framboise",
+      "slug": "de-sorbet-a-la-framboise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24629",
+      "sourceTaxonomyId": "24629",
+      "name": "de sorbe à la mangue",
+      "slug": "de-sorbe-a-la-mangue"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24630",
+      "sourceTaxonomyId": "24630",
+      "name": "de sorbet au citron",
+      "slug": "de-sorbet-au-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24631",
+      "sourceTaxonomyId": "24631",
+      "name": "de cognac",
+      "slug": "de-cognac"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24632",
+      "sourceTaxonomyId": "24632",
+      "name": "de liqueur Triple Sec",
+      "slug": "de-liqueur-triple-sec"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24633",
+      "sourceTaxonomyId": "24633",
+      "name": "de tequila",
+      "slug": "de-tequila"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24634",
+      "sourceTaxonomyId": "24634",
+      "name": "sauce au chocolat",
+      "slug": "sauce-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4451",
+      "sourceTaxonomyId": "4451",
+      "name": "de sorbet au citron",
+      "slug": "de-sorbet-au-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4455",
+      "sourceTaxonomyId": "4455",
+      "name": "de glace au chocolat",
+      "slug": "de-glace-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6723",
+      "sourceTaxonomyId": "6723",
+      "name": "de glace à la vanille",
+      "slug": "de-glace-a-la-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6725",
+      "sourceTaxonomyId": "6725",
+      "name": "de sorbet à la framboise",
+      "slug": "de-sorbet-a-la-framboise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6727",
+      "sourceTaxonomyId": "6727",
+      "name": "de sorbe à la mangue",
+      "slug": "de-sorbe-a-la-mangue"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6729",
+      "sourceTaxonomyId": "6729",
+      "name": "de cognac",
+      "slug": "de-cognac"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6733",
+      "sourceTaxonomyId": "6733",
+      "name": "de tequila",
+      "slug": "de-tequila"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6735",
+      "sourceTaxonomyId": "6735",
+      "name": "sauce au chocolat",
+      "slug": "sauce-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6753",
+      "sourceTaxonomyId": "6753",
+      "name": "de liqueur Triple Sec",
+      "slug": "de-liqueur-triple-sec"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1548",
+      "sourceTaxonomyId": "1548",
+      "name": "verrines",
+      "slug": "verrines"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3471",
+      "sourceTaxonomyId": "3471",
+      "name": "noisettes grillees",
+      "slug": "noisettes-grillees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4443",
+      "sourceTaxonomyId": "4443",
+      "name": "glace",
+      "slug": "glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4445",
+      "sourceTaxonomyId": "4445",
+      "name": "dessert d'ete",
+      "slug": "dessert-dete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4449",
+      "sourceTaxonomyId": "4449",
+      "name": "sorbet",
+      "slug": "sorbet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6737",
+      "sourceTaxonomyId": "6737",
+      "name": "boule de glace",
+      "slug": "boule-de-glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6739",
+      "sourceTaxonomyId": "6739",
+      "name": "topping au chocolat",
+      "slug": "topping-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6741",
+      "sourceTaxonomyId": "6741",
+      "name": "triple sec",
+      "slug": "triple-sec"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6743",
+      "sourceTaxonomyId": "6743",
+      "name": "cognac",
+      "slug": "cognac"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6745",
+      "sourceTaxonomyId": "6745",
+      "name": "tequila",
+      "slug": "tequila"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6747",
+      "sourceTaxonomyId": "6747",
+      "name": "dessert pour l'ete",
+      "slug": "dessert-pour-lete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6749",
+      "sourceTaxonomyId": "6749",
+      "name": "soiree dans le jardin",
+      "slug": "soiree-dans-le-jardin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25614",
+      "sourceTaxonomyId": "25614",
+      "name": "comment faire",
+      "slug": "comment-faire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26296",
+      "sourceTaxonomyId": "26296",
+      "name": "chaleur",
+      "slug": "chaleur"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 personnes",
+      "value": 10,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12058",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 pot de glace au chocolat",
+            "quantity": {
+              "raw": "1 pot",
+              "value": 1,
+              "unit": "pot",
+              "scalable": true
+            },
+            "name": "de glace au chocolat",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 pot de glace à la vanille",
+            "quantity": {
+              "raw": "1 pot",
+              "value": 1,
+              "unit": "pot",
+              "scalable": true
+            },
+            "name": "de glace à la vanille",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 pot de sorbet à la framboise",
+            "quantity": {
+              "raw": "1 pot",
+              "value": 1,
+              "unit": "pot",
+              "scalable": true
+            },
+            "name": "de sorbet à la framboise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 pot de sorbe à la mangue",
+            "quantity": {
+              "raw": "1 pot",
+              "value": 1,
+              "unit": "pot",
+              "scalable": true
+            },
+            "name": "de sorbe à la mangue",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 pot de sorbet au citron",
+            "quantity": {
+              "raw": "1 pot",
+              "value": 1,
+              "unit": "pot",
+              "scalable": true
+            },
+            "name": "de sorbet au citron",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Quelques cuillères à soupe de cognac",
+            "quantity": {
+              "raw": "Quelques cuillères à soupe",
+              "unit": "cuillères à soupe",
+              "scalable": false
+            },
+            "name": "de cognac",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques cuillères à soupe de liqueur Triple Sec",
+            "quantity": {
+              "raw": "Quelques cuillères à soupe",
+              "unit": "cuillères à soupe",
+              "scalable": false
+            },
+            "name": "de liqueur Triple Sec",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Quelques cuillères à soupe de tequila",
+            "quantity": {
+              "raw": "Quelques cuillères à soupe",
+              "unit": "cuillères à soupe",
+              "scalable": false
+            },
+            "name": "de tequila",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "150 ml sauce au chocolat",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "sauce au chocolat",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Tremper une cuillère à glace ou à soupe dans de l'eau chaude et former des boules de glace et de sorbet. Les répartir dans des coupes ou des verres, couvrir avec un film alimentaire et ranger dans le congélateur.",
+            "mediaId": "wordpress-attachment:12057"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Au moment de servir, arroser chaque boule de glace avec 1 cuillère à soupe d'alcool, de sauce ou un autre topping de votre choix.\nSur la photo : glace au chocolat avec cognac et chocolat râpé; glace à la vanille avec la sauce au chocolat; sorbet à framboise avec Triple Sec; sorbet à mangue avec téquila",
+            "mediaId": "wordpress-attachment:12059"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12058",
+      "sourceId": "12058",
+      "path": "/recipes/media/wordpress/12058.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12057",
+      "sourceId": "12057",
+      "path": "/recipes/media/wordpress/12057.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12059",
+      "sourceId": "12059",
+      "path": "/recipes/media/wordpress/12059.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

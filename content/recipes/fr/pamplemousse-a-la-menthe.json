@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22005",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:13433",
+  "slug": "pamplemousse-a-la-menthe",
+  "source": {
+    "system": "wordpress",
+    "postId": "22005",
+    "recipeId": "22005",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pamplemousse-a-la-menthe",
+    "createdAt": "2020-01-12T04:28:00+00:00",
+    "modifiedAt": "2021-06-19T23:49:59+00:00",
+    "editorialPostId": "16030",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pamplemousse-a-la-menthe",
+    "editorialCreatedAt": "2020-01-12T04:28:00+00:00",
+    "editorialModifiedAt": "2021-06-19T23:49:57+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/pamplemousse-a-la-menthe/"
+  ],
+  "title": "Pamplemousse à la menthe",
+  "description": "Si vous trouvez que le pamplemousse est trop acide, saupoudrez-le de quelques pincées de sucre en poudre. En été, avant de servir, placez le fruit dans le réfrigérateur pour le refroidir.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Après un copieux repas ou juste pour ceux qui n'aiment pas les sucreries, servez du pamplemousse à la menthe. Présenté dans  un verre, cela fait un joli dessert, sain et savoureux avec plein de vitamines. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Le pamplemousse peut  également se manger comme une entrée : à  vous de choisir!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22005,\"template\":\"chic-template-french\",\"updated\":1613531479456} -->\n<!--WPRM Recipe 22005-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pamplemousse à la menthe</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8035-4.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tSi vous trouvez que le pamplemousse est trop acide, saupoudrez-le de quelques pincées de sucre en poudre. En été, avant de servir, placez le fruit dans le réfrigérateur pour le refroidir.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 gros pamplemousse</li><li>Quelques feuilles de menthe</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peler le pamplemousse, le détailler en quartiers puis retirer la peau de chaque quartier. (Ou peler le pamplemousse à vif, en récupérant le jus que vous pouvez verser après dans les verrines). Répartir dans 2 verres et saupoudrer de menthe finement ciselée.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8025.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24671",
+      "sourceTaxonomyId": "24671",
+      "name": "pamplemousse",
+      "slug": "pamplemousse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24672",
+      "sourceTaxonomyId": "24672",
+      "name": "de menthe",
+      "slug": "de-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2565",
+      "sourceTaxonomyId": "2565",
+      "name": "de menthe",
+      "slug": "de-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13434",
+      "sourceTaxonomyId": "13434",
+      "name": "pamplemousse",
+      "slug": "pamplemousse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1248",
+      "sourceTaxonomyId": "1248",
+      "name": "verrine",
+      "slug": "verrine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25368",
+      "sourceTaxonomyId": "25368",
+      "name": "pamplemousse",
+      "slug": "pamplemousse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25369",
+      "sourceTaxonomyId": "25369",
+      "name": "dessert sans gluten",
+      "slug": "dessert-sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25371",
+      "sourceTaxonomyId": "25371",
+      "name": "entree ou dessert",
+      "slug": "entree-ou-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25398",
+      "sourceTaxonomyId": "25398",
+      "name": "fruit en hiver",
+      "slug": "fruit-en-hiver"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25399",
+      "sourceTaxonomyId": "25399",
+      "name": "vitamines",
+      "slug": "vitamines"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 personnes",
+      "value": 2,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16010",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 gros pamplemousse",
+            "quantity": {
+              "raw": "1 gros",
+              "value": 1,
+              "unit": "gros",
+              "scalable": true
+            },
+            "name": "pamplemousse",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Quelques feuilles de menthe",
+            "quantity": {
+              "raw": "Quelques feuilles",
+              "unit": "feuilles",
+              "scalable": false
+            },
+            "name": "de menthe",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peler le pamplemousse, le détailler en quartiers puis retirer la peau de chaque quartier. (Ou peler le pamplemousse à vif, en récupérant le jus que vous pouvez verser après dans les verrines). Répartir dans 2 verres et saupoudrer de menthe finement ciselée.",
+            "mediaId": "wordpress-attachment:15999"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16010",
+      "sourceId": "16010",
+      "path": "/recipes/media/wordpress/16010.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15999",
+      "sourceId": "15999",
+      "path": "/recipes/media/wordpress/15999.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

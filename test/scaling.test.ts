@@ -1,13 +1,11 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { recipeCatalog } from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
 import {
   formatIngredient,
   formatQuantity,
   scaleQuantity
 } from "../src/lib/scale-quantity";
-
-const meatballsSoup = recipeCatalog[0]!;
 
 test("scales parsed values while preserving the source text", () => {
   const scaled = scaleQuantity({
@@ -43,7 +41,7 @@ test("rejects invalid scale factors", () => {
 });
 
 test("keeps every original ingredient and yield string at 1x", () => {
-  const items = meatballsSoup.recipe.ingredientGroups.flatMap(
+  const items = recipeFixture.recipe.ingredientGroups.flatMap(
     (group) => group.items
   );
 
@@ -52,13 +50,13 @@ test("keeps every original ingredient and yield string at 1x", () => {
     items.map((item) => item.raw)
   );
   assert.equal(
-    formatQuantity(meatballsSoup.recipe.servings!, 1),
+    formatQuantity(recipeFixture.recipe.servings!, 1),
     "5–6 servings"
   );
 });
 
 test("scales parsed ingredients while retaining notes and leaves unparsed items alone", () => {
-  const items = meatballsSoup.recipe.ingredientGroups.flatMap(
+  const items = recipeFixture.recipe.ingredientGroups.flatMap(
     (group) => group.items
   );
 
@@ -66,7 +64,7 @@ test("scales parsed ingredients while retaining notes and leaves unparsed items 
   assert.equal(formatIngredient(items[2]!, 2), "1 onion, finely diced");
   assert.equal(formatIngredient(items[2]!, 3), "1 ½ onions, finely diced");
   assert.equal(formatIngredient(items[3]!, 3), "Salt, to taste");
-  assert.equal(formatIngredient(items[5]!, 3), "3 Tbsp chicken bouillon paste (optional)");
+  assert.equal(formatIngredient(items[5]!, 3), "3 Tbsp chicken bouillon paste, optional");
   assert.equal(formatIngredient(items[10]!, 2), "2 large carrots, shredded");
 });
 
@@ -81,11 +79,11 @@ test("formats mixed fractions and ranges without changing raw quantities", () =>
   assert.equal(formatQuantity(mixed, 2), "3 cups");
   assert.equal(formatQuantity(mixed, 3), "4 ½ cups");
   assert.equal(
-    formatQuantity(meatballsSoup.recipe.servings!, 2),
+    formatQuantity(recipeFixture.recipe.servings!, 2),
     "10–12 servings"
   );
   assert.equal(
-    formatQuantity(meatballsSoup.recipe.servings!, 3),
+    formatQuantity(recipeFixture.recipe.servings!, 3),
     "15–18 servings"
   );
   assert.equal(mixed.raw, "1 1/2 cups");

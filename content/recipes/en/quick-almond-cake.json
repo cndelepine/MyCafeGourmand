@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21666",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3065",
+  "slug": "quick-almond-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21666",
+    "recipeId": "21666",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-quick-almond-cake",
+    "createdAt": "2023-03-31T05:13:00+00:00",
+    "modifiedAt": "2024-04-16T06:49:28+00:00",
+    "editorialPostId": "6224",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "quick-almond-cake",
+    "editorialCreatedAt": "2023-03-31T05:13:00+00:00",
+    "editorialModifiedAt": "2024-04-16T06:49:25+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/quick-almond-cake/"
+  ],
+  "title": "Quick Almond Cake",
+  "description": "You can use any cake pan you like or have. My favorite one is loaf pan, and I usually make it without the almonds on top. Easy to cut and easy to pack for lunch or picnic.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This is very unique recipe. All you have to do is whisk all the ingredients together in the mixer bowl for 1-2 minutes, bake for 30 minutes and voil<span data-original=\"100 g de beurre à température ambiante\">à</span>, you can enjoy the cake with your favorite cup of tea. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21666,\"template\":\"chic-template-english\",\"updated\":1713250144510} -->\n<!--WPRM Recipe 21666-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Quick Almond Cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7273.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tYou can use any cake pan you like or have. My favorite one is loaf pan, and I usually make it without the almonds on top. Easy to cut and easy to pack for lunch or picnic.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>180 g sugar</li><li>4 eggs</li><li>100 g unsalted butter (softened)</li><li>1 pinch of salt</li><li>100 g almond flour</li><li>60 g all purpose flour</li><li>2 tsp baking powder</li><li>1  Tbsp sliced almonds ((optional))</li><li>1 tsp confectioner's sugar ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 380 degrees F. Grease a cake pan.</li><li>In a medium bowl whisk all the ingredients together until combined.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7242.Blog_-150x150.png\"/><br /></li><li>Pour the mixture into the prepared cake pan. You can sprinkle with almonds if desire.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7244.Blog_-150x150.png\"/><br /></li><li>Bake in the oven for about 35 minutes or until a toothpick inserted in the middle of the cake comes out clean.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7248.Blog_-150x150.png\"/><br /></li><li>Remove your cake from the oven and allow it to cool. Transfer to a plater. Dust it with powdered sugar before serving.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7268.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24065",
+      "sourceTaxonomyId": "24065",
+      "name": "confectioners sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24233",
+      "sourceTaxonomyId": "24233",
+      "name": "sliced almonds",
+      "slug": "sliced-almonds"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24247",
+      "sourceTaxonomyId": "24247",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24348",
+      "sourceTaxonomyId": "24348",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25464",
+      "sourceTaxonomyId": "25464",
+      "name": "tsp",
+      "slug": "tsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25475",
+      "sourceTaxonomyId": "25475",
+      "name": "pinch",
+      "slug": "pinch"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "975",
+      "sourceTaxonomyId": "975",
+      "name": "sliced almonds",
+      "slug": "sliced-almonds"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2996",
+      "sourceTaxonomyId": "2996",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3000",
+      "sourceTaxonomyId": "3000",
+      "name": "confectioner's sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5153",
+      "sourceTaxonomyId": "5153",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3068",
+      "sourceTaxonomyId": "3068",
+      "name": "almond",
+      "slug": "almond"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5155",
+      "sourceTaxonomyId": "5155",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5355",
+      "sourceTaxonomyId": "5355",
+      "name": "not too sweet",
+      "slug": "not-too-sweet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5781",
+      "sourceTaxonomyId": "5781",
+      "name": "best cake ever",
+      "slug": "best-cake-ever"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7766",
+      "sourceTaxonomyId": "7766",
+      "name": "best ever",
+      "slug": "best-ever"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8099",
+      "sourceTaxonomyId": "8099",
+      "name": "best recipe",
+      "slug": "best-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25622",
+      "sourceTaxonomyId": "25622",
+      "name": "how to prepare",
+      "slug": "how-to-prepare"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:6110",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "180 g sugar",
+            "quantity": {
+              "raw": "180 g",
+              "value": 180,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 g unsalted butter softened",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": "softened"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 pinch of salt",
+            "quantity": {
+              "raw": "1 pinch",
+              "value": 1,
+              "unit": "pinch",
+              "scalable": true
+            },
+            "name": "of salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 g almond flour",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "60 g all purpose flour",
+            "quantity": {
+              "raw": "60 g",
+              "value": 60,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 tsp baking powder",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 Tbsp sliced almonds (optional)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sliced almonds",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 tsp confectioner's sugar (optional)",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "confectioner's sugar",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380 degrees F. Grease a cake pan.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a medium bowl whisk all the ingredients together until combined.",
+            "mediaId": "wordpress-attachment:6106"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Pour the mixture into the prepared cake pan. You can sprinkle with almonds if desire.",
+            "mediaId": "wordpress-attachment:6107"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Bake in the oven for about 35 minutes or until a toothpick inserted in the middle of the cake comes out clean.",
+            "mediaId": "wordpress-attachment:6108"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Remove your cake from the oven and allow it to cool. Transfer to a plater. Dust it with powdered sugar before serving.",
+            "mediaId": "wordpress-attachment:6109"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:6110",
+      "sourceId": "6110",
+      "path": "/recipes/media/wordpress/6110.png",
+      "alt": "Быстрый миндальный пирог",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6106",
+      "sourceId": "6106",
+      "path": "/recipes/media/wordpress/6106.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6107",
+      "sourceId": "6107",
+      "path": "/recipes/media/wordpress/6107.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6108",
+      "sourceId": "6108",
+      "path": "/recipes/media/wordpress/6108.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6109",
+      "sourceId": "6109",
+      "path": "/recipes/media/wordpress/6109.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

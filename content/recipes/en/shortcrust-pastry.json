@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21587",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7011",
+  "slug": "shortcrust-pastry",
+  "source": {
+    "system": "wordpress",
+    "postId": "21587",
+    "recipeId": "21587",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-shortcrust-pastry",
+    "createdAt": "2019-04-08T04:01:39+00:00",
+    "modifiedAt": "2022-06-27T00:08:31+00:00",
+    "editorialPostId": "12534",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "shortcrust-pastry",
+    "editorialCreatedAt": "2019-04-08T04:01:39+00:00",
+    "editorialModifiedAt": "2022-06-27T00:08:29+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/pate-brisee-pie-shell/",
+    "/shortcrust-pastry/"
+  ],
+  "title": "Shortcrust pastry",
+  "description": "Wrap the dough tightly in plastic wrap, then freeze. It can last up to 3 months.\n\nThis is also called pie crust pastry.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Shortcrust pastry (or pie crust) is very popular when making <a href=\"https://mycafegourmand.com/recipe/tomato-and-tuna-quiche\">quiche</a>, pie, <a href=\"https://mycafegourmand.com/recipe/stunning-french-chocolate-tart\">tart</a> and tartelettes. You'll be amazed how easy it is to make this unsweetened pie shell. It turns out light, crumbly, crunchy and deliciously buttery. After trying making this recipe you will never go back to store-bought crust again.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21587,\"template\":\"chic-template-english\",\"updated\":1656288287644} -->\n<!--WPRM Recipe 21587-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Shortcrust pastry</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1427-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Wrap the dough tightly in plastic wrap, then freeze. It can last up to 3 months.</p><p>This is also called pie crust pastry.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>240 g all purpose flour</li><li>2-3 pinches of salt</li><li>125 g softened unsalted butter</li><li>1 egg yolk</li><li>2-3 Tbsp water</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>In a large bowl or on the clean table surface combine salt and flour together. Add chunks of softened butter. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1421.Blog_-150x150.png\"/><br /></li><li>Use finger to combine until crumbly.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1422.Blog_-150x150.png\"/><br /></li><li>Add egg yolks and start to knead the dough, only add as much water as dough needs. Do not over-knead.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1423.Blog_-150x150.png\"/><br /></li><li>Shape into a ball.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1424.Blog_-150x150.png\"/><br /></li><li>Wrap in plastic wrap and chill at least for 1 hour.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1428.Blog_-150x150.png\"/><br /></li><li>Preheat oven to 380°F. Unwrap dough and roll into a thin circle between two pieces of parchment paper.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1337.Blog_-1-150x150.png\"/><br /></li><li>Fit dough into a tart pan, press firmly on bottom and sides. Trim any extra dough. Pick all over with a fork. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1436.Blog_-150x150.png\"/><br /></li><li>Bake in the oven for about 20 minutes, until pie shell is lightly  golden.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1442.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23553",
+      "sourceTaxonomyId": "23553",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24247",
+      "sourceTaxonomyId": "24247",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24248",
+      "sourceTaxonomyId": "24248",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24396",
+      "sourceTaxonomyId": "24396",
+      "name": "softened unsalted butter",
+      "slug": "softened-unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25559",
+      "sourceTaxonomyId": "25559",
+      "name": "pinches",
+      "slug": "pinches"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1061",
+      "sourceTaxonomyId": "1061",
+      "name": "water",
+      "slug": "water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2996",
+      "sourceTaxonomyId": "2996",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7245",
+      "sourceTaxonomyId": "7245",
+      "name": "softened unsalted butter",
+      "slug": "softened-unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7247",
+      "sourceTaxonomyId": "7247",
+      "name": "egg yolk",
+      "slug": "egg-yolk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6910",
+      "sourceTaxonomyId": "6910",
+      "name": "french cuisine",
+      "slug": "french-cuisine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7235",
+      "sourceTaxonomyId": "7235",
+      "name": "pie shell",
+      "slug": "pie-shell"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7239",
+      "sourceTaxonomyId": "7239",
+      "name": "how to use egg yolk",
+      "slug": "how-to-use-egg-yolk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7241",
+      "sourceTaxonomyId": "7241",
+      "name": "no sugar",
+      "slug": "no-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7243",
+      "sourceTaxonomyId": "7243",
+      "name": "pate brisee",
+      "slug": "pate-brisee-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7324",
+      "sourceTaxonomyId": "7324",
+      "name": "buttery shortbread",
+      "slug": "buttery-shortbread"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25565",
+      "sourceTaxonomyId": "25565",
+      "name": "shortcrust",
+      "slug": "shortcrust"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "90",
+        "minutes": 90
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:12423",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "240 g all purpose flour",
+            "quantity": {
+              "raw": "240 g",
+              "value": 240,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2-3 pinches of salt",
+            "quantity": {
+              "raw": "2-3 pinches",
+              "min": 2,
+              "max": 3,
+              "unit": "pinches",
+              "scalable": true
+            },
+            "name": "of salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "125 g softened unsalted butter",
+            "quantity": {
+              "raw": "125 g",
+              "value": 125,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "softened unsalted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 egg yolk",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg yolk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2-3 Tbsp water",
+            "quantity": {
+              "raw": "2-3 Tbsp",
+              "min": 2,
+              "max": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "water",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a large bowl or on the clean table surface combine salt and flour together. Add chunks of softened butter.",
+            "mediaId": "wordpress-attachment:12419"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Use finger to combine until crumbly.",
+            "mediaId": "wordpress-attachment:12420"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add egg yolks and start to knead the dough, only add as much water as dough needs. Do not over-knead.",
+            "mediaId": "wordpress-attachment:12421"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Shape into a ball.",
+            "mediaId": "wordpress-attachment:12422"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Wrap in plastic wrap and chill at least for 1 hour.",
+            "mediaId": "wordpress-attachment:12424"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Preheat oven to 380°F. Unwrap dough and roll into a thin circle between two pieces of parchment paper.",
+            "mediaId": "wordpress-attachment:12434"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Fit dough into a tart pan, press firmly on bottom and sides. Trim any extra dough. Pick all over with a fork.",
+            "mediaId": "wordpress-attachment:12425"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Bake in the oven for about 20 minutes, until pie shell is lightly golden.",
+            "mediaId": "wordpress-attachment:12426"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12423",
+      "sourceId": "12423",
+      "path": "/recipes/media/wordpress/12423.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12419",
+      "sourceId": "12419",
+      "path": "/recipes/media/wordpress/12419.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12420",
+      "sourceId": "12420",
+      "path": "/recipes/media/wordpress/12420.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12421",
+      "sourceId": "12421",
+      "path": "/recipes/media/wordpress/12421.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12422",
+      "sourceId": "12422",
+      "path": "/recipes/media/wordpress/12422.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12424",
+      "sourceId": "12424",
+      "path": "/recipes/media/wordpress/12424.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12434",
+      "sourceId": "12434",
+      "path": "/recipes/media/wordpress/12434.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12425",
+      "sourceId": "12425",
+      "path": "/recipes/media/wordpress/12425.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12426",
+      "sourceId": "12426",
+      "path": "/recipes/media/wordpress/12426.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

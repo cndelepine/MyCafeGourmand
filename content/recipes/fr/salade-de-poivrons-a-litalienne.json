@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26359",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26153",
+  "slug": "salade-de-poivrons-a-litalienne",
+  "source": {
+    "system": "wordpress",
+    "postId": "26359",
+    "recipeId": "26359",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-de-poivrons-a-litalienne",
+    "createdAt": "2024-12-29T05:24:00+00:00",
+    "modifiedAt": "2025-02-28T22:46:02+00:00",
+    "editorialPostId": "26356",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-de-poivrons-a-litalienne",
+    "editorialCreatedAt": "2024-12-29T05:24:00+00:00",
+    "editorialModifiedAt": "2025-02-28T22:45:59+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/salade-de-poivrons-a-litalienne/"
+  ],
+  "title": "Salade de poivrons à l'italienne",
+  "description": "Une délicieuse salade, trouvée dans un livre de cuisine italienne (Délices d'Italie de Loukie Werle).\n\nUne recette qui plaira à tous, végétarien ou pas. Les poivrons sont rôtis sous le gril puis mélangés avec une tomate. Un hors-d'oeuvre qui se déguste froid, donc il peut être préparé à l'avance.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une nouvelle recette tirée du livre \"Délices d'Italie\" de Loukie Werle.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Vous aimez cette salade de poivrons à l'italienne, essayez <a href=\"https://mycafegourmand.com/fr/recettes/salades/\" target=\"_blank\" rel=\"noreferrer noopener\">mes autres salades</a>!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26359,\"template\":\"chic-template-french\",\"updated\":1740782723209} -->\n<!--WPRM Recipe 26359-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade de poivrons à l'italienne</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3432.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Une délicieuse salade, trouvée dans un livre de cuisine italienne (Délices d&#039;Italie de Loukie Werle). </p><p>Une recette qui plaira à tous, végétarien ou pas. Les poivrons sont rôtis sous le gril puis mélangés avec une tomate. Un hors-d&#039;oeuvre qui se déguste froid, donc il peut être préparé à l&#039;avance.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 gros poivrons (de différentes couleurs)</li><li>1-2 tomates</li><li>1 gousse d&#039;ail</li><li>1 poignée de feuilles de basilic (ciselées)</li><li>1 poignée de feuilles de menthe (ciselées)</li><li>1 cuillère à soupe de câpres ((rincées))</li><li>Sel et poivre du moulin</li><li>4 cuillères à soupe d&#039;huile d&#039;olive</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Préchauffer le gril.</p></li><li><p>Couper les poivrons en deux dans la longueur, retirer les graines et les membranes. Placer les poivrons sur une grille allant sous le gril, côté peau vers le haut.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3390.Blog_-150x150.png\"/><br /></li><li><p>Faire rôtir jusqu&#039;à ce que la peau soit noircie. Retirer les poivrons du four et les mettre dans un bol, couvrir d&#039;un film plastique et laisser pendant environ 20 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3394.Blog_-150x150.png\"/><br /></li><li><p>Entre-temps, couper la tomate en petits dés.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3411.Blog_-150x150.png\"/><br /></li><li><p>Hacher la gousse d&#039;ail. Emincer les feuilles de basilic et de menthe.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3421.Blog_-150x150.png\"/><br /></li><li><p>Oter la peau des poivrons puis les couper en lanières.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3414.Blog_-150x150.png\"/><br /></li><li><p>Mettre tous les ingrédients coupés dans un bol de service. Ajouter les câpres. Saler, poivrer et arroser d&#039;huile d&#039;olive.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3423.Blog_-150x150.png\"/><br /></li><li><p>Couvrir d&#039;un film plastique et laisser reposer pendant environ 1 heure avant de déguster.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3430.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian, Italien</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23541",
+      "sourceTaxonomyId": "23541",
+      "name": "Italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "25483",
+      "sourceTaxonomyId": "25483",
+      "name": "Italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24596",
+      "sourceTaxonomyId": "24596",
+      "name": "tomates",
+      "slug": "tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24736",
+      "sourceTaxonomyId": "24736",
+      "name": "de câpres",
+      "slug": "de-capres"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24770",
+      "sourceTaxonomyId": "24770",
+      "name": "poivrons (de différentes couleurs)",
+      "slug": "poivrons-de-differentes-couleurs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26147",
+      "sourceTaxonomyId": "26147",
+      "name": "de feuilles de basilic",
+      "slug": "de-feuilles-de-basilic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26148",
+      "sourceTaxonomyId": "26148",
+      "name": "de feuilles de menthe",
+      "slug": "de-feuilles-de-menthe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25422",
+      "sourceTaxonomyId": "25422",
+      "name": "poignee",
+      "slug": "poignee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25423",
+      "sourceTaxonomyId": "25423",
+      "name": "gousse",
+      "slug": "gousse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26143",
+      "sourceTaxonomyId": "26143",
+      "name": "gros",
+      "slug": "gros"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1182",
+      "sourceTaxonomyId": "1182",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2572",
+      "sourceTaxonomyId": "2572",
+      "name": "gril",
+      "slug": "gril"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3280",
+      "sourceTaxonomyId": "3280",
+      "name": "salade sans mayonaise",
+      "slug": "salade-sans-mayonaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3913",
+      "sourceTaxonomyId": "3913",
+      "name": "poivron doux",
+      "slug": "poivron-doux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4447",
+      "sourceTaxonomyId": "4447",
+      "name": "a l'avance",
+      "slug": "a-lavance"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4531",
+      "sourceTaxonomyId": "4531",
+      "name": "salade d'ete",
+      "slug": "salade-dete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6065",
+      "sourceTaxonomyId": "6065",
+      "name": "fait maison",
+      "slug": "fait-maison"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25601",
+      "sourceTaxonomyId": "25601",
+      "name": "italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25616",
+      "sourceTaxonomyId": "25616",
+      "name": "comment cuire",
+      "slug": "comment-cuire"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25620",
+      "sourceTaxonomyId": "25620",
+      "name": "comment preparer",
+      "slug": "comment-preparer"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26149",
+      "sourceTaxonomyId": "26149",
+      "name": "Quoi faire avec le poivron",
+      "slug": "quoi-faire-avec-le-poivron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26151",
+      "sourceTaxonomyId": "26151",
+      "name": "Quoi faire avec les poivrons",
+      "slug": "quoi-faire-avec-les-poivrons"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "105",
+        "minutes": 105
+      },
+      "custom": {
+        "label": "Refroidir",
+        "duration": {
+          "raw": "60",
+          "minutes": 60
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26379",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 gros poivrons (de différentes couleurs)",
+            "quantity": {
+              "raw": "4 gros",
+              "value": 4,
+              "unit": "gros",
+              "scalable": true
+            },
+            "name": "poivrons (de différentes couleurs)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 tomates",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomates",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 gousse d'ail",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 poignée de feuilles de basilic ciselées",
+            "quantity": {
+              "raw": "1 poignée",
+              "value": 1,
+              "unit": "poignée",
+              "scalable": true
+            },
+            "name": "de feuilles de basilic",
+            "notes": "ciselées"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 poignée de feuilles de menthe ciselées",
+            "quantity": {
+              "raw": "1 poignée",
+              "value": 1,
+              "unit": "poignée",
+              "scalable": true
+            },
+            "name": "de feuilles de menthe",
+            "notes": "ciselées"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 cuillère à soupe de câpres (rincées)",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de câpres",
+            "notes": "(rincées)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "4 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le gril.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper les poivrons en deux dans la longueur, retirer les graines et les membranes. Placer les poivrons sur une grille allant sous le gril, côté peau vers le haut.",
+            "mediaId": "wordpress-attachment:26372"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Faire rôtir jusqu'à ce que la peau soit noircie. Retirer les poivrons du four et les mettre dans un bol, couvrir d'un film plastique et laisser pendant environ 20 minutes.",
+            "mediaId": "wordpress-attachment:26373"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Entre-temps, couper la tomate en petits dés.",
+            "mediaId": "wordpress-attachment:26375"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Hacher la gousse d'ail. Emincer les feuilles de basilic et de menthe.",
+            "mediaId": "wordpress-attachment:26377"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Oter la peau des poivrons puis les couper en lanières.",
+            "mediaId": "wordpress-attachment:26376"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Mettre tous les ingrédients coupés dans un bol de service. Ajouter les câpres. Saler, poivrer et arroser d'huile d'olive.",
+            "mediaId": "wordpress-attachment:26378"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Couvrir d'un film plastique et laisser reposer pendant environ 1 heure avant de déguster.",
+            "mediaId": "wordpress-attachment:26381"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26379",
+      "sourceId": "26379",
+      "path": "/recipes/media/wordpress/26379.png",
+      "alt": "Salade de poivrons à l'italienne",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26372",
+      "sourceId": "26372",
+      "path": "/recipes/media/wordpress/26372.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26373",
+      "sourceId": "26373",
+      "path": "/recipes/media/wordpress/26373.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26375",
+      "sourceId": "26375",
+      "path": "/recipes/media/wordpress/26375.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26377",
+      "sourceId": "26377",
+      "path": "/recipes/media/wordpress/26377.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26376",
+      "sourceId": "26376",
+      "path": "/recipes/media/wordpress/26376.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26378",
+      "sourceId": "26378",
+      "path": "/recipes/media/wordpress/26378.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26381",
+      "sourceId": "26381",
+      "path": "/recipes/media/wordpress/26381.png",
+      "alt": "Salade de poivrons à l'italienne",
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

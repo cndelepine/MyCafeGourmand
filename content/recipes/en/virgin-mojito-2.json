@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21292",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:420",
+  "slug": "virgin-mojito-2",
+  "source": {
+    "system": "wordpress",
+    "postId": "21292",
+    "recipeId": "21292",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-virgin-mojito",
+    "createdAt": "2025-07-02T04:39:00+00:00",
+    "modifiedAt": "2025-07-12T01:03:02+00:00",
+    "editorialPostId": "1315",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "virgin-mojito-2",
+    "editorialCreatedAt": "2025-07-02T04:39:00+00:00",
+    "editorialModifiedAt": "2025-07-12T01:02:58+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/virgin-mojito-2/"
+  ],
+  "title": "Virgin Mojito",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Just because I don't drink alcohol doesn't mean that I have to stick with plain water... This virgin mojito is a perfect beverage for any family and friends gatherings. &nbsp;There are many ways to make virgin mojito. &nbsp;Personally, I think the version with Ginger Ale tastes the best.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21292,\"template\":\"chic-template-english\",\"updated\":1752282079274} -->\n<!--WPRM Recipe 21292-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Virgin Mojito</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/06/IMG_5986.Blog_.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 limes</li><li>2 lemons</li><li>1 big bunch of mint</li><li>10 cups ice cubes</li><li>2 (1.5 L)  bottle of sparkling water or club soda</li><li>1 (1 l) bottle of ginger ale</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Slice lemons and limes.</li><li> In a big jar combine the limes, lemons, fresh mint and ice cubes together.</li><li>Top with sparkling water, Ginger Ale and stir.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Drinks</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "This virgin mojito is a perfect beverage for any family and friends gatherings or a party. There are many ways to make virgin mojito."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23539",
+      "sourceTaxonomyId": "23539",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23948",
+      "sourceTaxonomyId": "23948",
+      "name": "lemons",
+      "slug": "lemons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24176",
+      "sourceTaxonomyId": "24176",
+      "name": "limes",
+      "slug": "limes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24177",
+      "sourceTaxonomyId": "24177",
+      "name": "big bunch of mint",
+      "slug": "big-bunch-of-mint"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24178",
+      "sourceTaxonomyId": "24178",
+      "name": "ice cubes",
+      "slug": "ice-cubes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24179",
+      "sourceTaxonomyId": "24179",
+      "name": "bottle of sparkling water or club soda",
+      "slug": "bottle-of-sparkling-water-or-club-soda"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24180",
+      "sourceTaxonomyId": "24180",
+      "name": "bottle of ginger ale",
+      "slug": "bottle-of-ginger-ale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "112",
+      "sourceTaxonomyId": "112",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1694",
+      "sourceTaxonomyId": "1694",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "447",
+      "sourceTaxonomyId": "447",
+      "name": "big bunch of mint",
+      "slug": "big-bunch-of-mint"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "449",
+      "sourceTaxonomyId": "449",
+      "name": "ice cubes",
+      "slug": "ice-cubes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "451",
+      "sourceTaxonomyId": "451",
+      "name": "bottle of sparkling water or club soda",
+      "slug": "bottle-of-sparkling-water-or-club-soda"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "453",
+      "sourceTaxonomyId": "453",
+      "name": "bottle of ginger ale",
+      "slug": "bottle-of-ginger-ale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "521",
+      "sourceTaxonomyId": "521",
+      "name": "limes",
+      "slug": "limes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "523",
+      "sourceTaxonomyId": "523",
+      "name": "lemons",
+      "slug": "lemons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1584",
+      "sourceTaxonomyId": "1584",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1696",
+      "sourceTaxonomyId": "1696",
+      "name": "alcohol free",
+      "slug": "alcohol-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1698",
+      "sourceTaxonomyId": "1698",
+      "name": "non alcoholic",
+      "slug": "non-alcoholic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1700",
+      "sourceTaxonomyId": "1700",
+      "name": "lime",
+      "slug": "lime"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1704",
+      "sourceTaxonomyId": "1704",
+      "name": "big party",
+      "slug": "big-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1706",
+      "sourceTaxonomyId": "1706",
+      "name": "ice cube",
+      "slug": "ice-cube"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1708",
+      "sourceTaxonomyId": "1708",
+      "name": "sparkling water",
+      "slug": "sparkling-water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1710",
+      "sourceTaxonomyId": "1710",
+      "name": "mojito",
+      "slug": "mojito-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1712",
+      "sourceTaxonomyId": "1712",
+      "name": "Ginger Ale",
+      "slug": "ginger-ale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5385",
+      "sourceTaxonomyId": "5385",
+      "name": "party drink",
+      "slug": "party-drink"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6804",
+      "sourceTaxonomyId": "6804",
+      "name": "summertime drink",
+      "slug": "summertime-drink"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7145",
+      "sourceTaxonomyId": "7145",
+      "name": "fresh mint",
+      "slug": "fresh-mint"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8099",
+      "sourceTaxonomyId": "8099",
+      "name": "best recipe",
+      "slug": "best-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23462",
+      "sourceTaxonomyId": "23462",
+      "name": "for July 4th",
+      "slug": "for-july-4th"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27277",
+      "sourceTaxonomyId": "27277",
+      "name": "mocktail",
+      "slug": "mocktail"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "15 people",
+      "value": 15,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "7",
+        "minutes": 7
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17592",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 limes",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "limes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 lemons",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemons",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 big bunch of mint",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "big bunch of mint",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "10 cups ice cubes",
+            "quantity": {
+              "raw": "10 cups",
+              "value": 10,
+              "unit": "cups",
+              "scalable": true
+            },
+            "name": "ice cubes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 (1.5 L) bottle of sparkling water or club soda",
+            "quantity": {
+              "raw": "2 (1.5 L)",
+              "value": 2,
+              "unit": "(1.5 L)",
+              "scalable": true
+            },
+            "name": "bottle of sparkling water or club soda",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 (1 l) bottle of ginger ale",
+            "quantity": {
+              "raw": "1 (1 l)",
+              "value": 1,
+              "unit": "(1 l)",
+              "scalable": true
+            },
+            "name": "bottle of ginger ale",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Slice lemons and limes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a big jar combine the limes, lemons, fresh mint and ice cubes together.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Top with sparkling water, Ginger Ale and stir.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17592",
+      "sourceId": "17592",
+      "path": "/recipes/media/wordpress/17592.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

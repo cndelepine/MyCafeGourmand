@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21821",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2070",
+  "slug": "crostinis-la-tomate-et-avocat",
+  "source": {
+    "system": "wordpress",
+    "postId": "21821",
+    "recipeId": "21821",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-crostinis-a-la-tomate-et-avocat",
+    "createdAt": "2018-02-08T19:40:22+00:00",
+    "modifiedAt": "2020-12-14T04:24:44+00:00",
+    "editorialPostId": "4175",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "crostinis-la-tomate-et-avocat",
+    "editorialCreatedAt": "2018-02-08T19:40:22+00:00",
+    "editorialModifiedAt": "2020-12-14T04:24:39+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/crostinis-la-tomate-et-avocat/"
+  ],
+  "title": "Crostinis à la tomate et avocat",
+  "description": null,
+  "editorial": {
+    "content": "<p><span id=\":18e.1\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Préparez des crostinis à la tomate et avocat. Ce sont </span>des <span id=\":18e.2\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">délicieux</span> <span id=\":18e.3\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">antipastis</span> italiens. Le pain est dor<span id=\"gmail-:18e.6\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\">é</span> au four, tartin<span id=\"gmail-:18e.6\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\">é</span> avec du <span id=\":18e.4\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">mélange</span> avocat-fromage Philadelphia. Puis il est recouvert de tranches de tomate et d'avocat. Difficile à <span id=\":18e.6\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">résister</span> ! </p>\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21821,\"template\":\"chic-template-french\",\"updated\":1607919403645} -->\n<!--WPRM Recipe 21821-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Crostinis à la tomate et avocat</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180201_110814.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>8 tranches de baguette (ou du pain complet)</li><li>2 cuillères à soupe d'huile d'olive</li><li>1 gousse d'ail (écrasée)</li><li>2 cuillères à soupe fromage à tartiner (type Philadelphia) (à la température ambiante)</li><li>2 gros avocatс bien mûrs</li><li>1 avocat mûr</li><li>4 petites tomates</li><li>Sel et poivre du moulin</li><li>Quelques brins de coriandre fraiche</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 240°C (thermostat 8). Huiler légèrement les tranches de pain, les poser sur la grille de four et enfourner à mi-hauteur. Faire griller pendant 2-3 minutes de chaque côté, jusqu’à ce qu’elles soient dorées.</li><li>Couper 2 avocats bien mûrs en deux, jeter le noyau et retirer la chair. </li><li>Dans un saladier, écraser la chair à la fourchette et la mélanger avec le Philadelphia, l'ail écrasé, le sel et le poivre.</li><li>Étaler cette préparation sur le pain grillé.</li><li>Couper le 3ème avocat en deux, jeter le noyau et couper sa chair en tranches. Couper les tomates en tranches.</li><li>Répartir les tranches d'avocat et des tomates sur la purée d'avocat.  Décorer avec les feuilles de coriandre. Servir aussitôt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_5980.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24540",
+      "sourceTaxonomyId": "24540",
+      "name": "de baguette (ou du pain complet)",
+      "slug": "de-baguette-ou-du-pain-complet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24541",
+      "sourceTaxonomyId": "24541",
+      "name": "fromage à tartiner (type Philadelphia)",
+      "slug": "fromage-a-tartiner-type-philadelphia"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24542",
+      "sourceTaxonomyId": "24542",
+      "name": "avocatс bien mûrs",
+      "slug": "avocat%d1%81-bien-murs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24543",
+      "sourceTaxonomyId": "24543",
+      "name": "avocat mûr",
+      "slug": "avocat-mur"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24544",
+      "sourceTaxonomyId": "24544",
+      "name": "petites tomates",
+      "slug": "petites-tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24545",
+      "sourceTaxonomyId": "24545",
+      "name": "de coriandre fraiche",
+      "slug": "de-coriandre-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2147",
+      "sourceTaxonomyId": "2147",
+      "name": "de coriandre fraiche",
+      "slug": "de-coriandre-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2149",
+      "sourceTaxonomyId": "2149",
+      "name": "de baguette (ou du pain complet)",
+      "slug": "de-baguette-ou-du-pain-complet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2153",
+      "sourceTaxonomyId": "2153",
+      "name": "petites tomates",
+      "slug": "petites-tomates"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2171",
+      "sourceTaxonomyId": "2171",
+      "name": "fromage à tartiner (type Philadelphia)",
+      "slug": "fromage-a-tartiner-type-philadelphia"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2175",
+      "sourceTaxonomyId": "2175",
+      "name": "avocat mûr",
+      "slug": "avocat-mur"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2177",
+      "sourceTaxonomyId": "2177",
+      "name": "avocatс bien mûrs",
+      "slug": "avocat%d1%81-bien-murs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1590",
+      "sourceTaxonomyId": "1590",
+      "name": "tomate",
+      "slug": "tomate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2155",
+      "sourceTaxonomyId": "2155",
+      "name": "antipastis",
+      "slug": "antipastis"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2157",
+      "sourceTaxonomyId": "2157",
+      "name": "avocat",
+      "slug": "avocat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2159",
+      "sourceTaxonomyId": "2159",
+      "name": "baquette",
+      "slug": "baquette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2161",
+      "sourceTaxonomyId": "2161",
+      "name": "pain",
+      "slug": "pain"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2163",
+      "sourceTaxonomyId": "2163",
+      "name": "aperitif",
+      "slug": "aperitif"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2165",
+      "sourceTaxonomyId": "2165",
+      "name": "cream cheese",
+      "slug": "cream-cheese-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2167",
+      "sourceTaxonomyId": "2167",
+      "name": "Crostini",
+      "slug": "crostini-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2169",
+      "sourceTaxonomyId": "2169",
+      "name": "philadelphia",
+      "slug": "philadelphia-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2951",
+      "sourceTaxonomyId": "2951",
+      "name": "entree",
+      "slug": "entree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25273",
+      "sourceTaxonomyId": "25273",
+      "name": "crostinis a la tomate et avocat",
+      "slug": "crostinis-a-la-tomate-et-avocat"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:3510",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "8 tranches de baguette (ou du pain complet)",
+            "quantity": {
+              "raw": "8 tranches",
+              "value": 8,
+              "unit": "tranches",
+              "scalable": true
+            },
+            "name": "de baguette (ou du pain complet)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 gousse d'ail écrasée",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "écrasée"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 cuillères à soupe fromage à tartiner (type Philadelphia) à la température ambiante",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "fromage à tartiner (type Philadelphia)",
+            "notes": "à la température ambiante"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 gros avocatс bien mûrs",
+            "quantity": {
+              "raw": "2 gros",
+              "value": 2,
+              "unit": "gros",
+              "scalable": true
+            },
+            "name": "avocatс bien mûrs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 avocat mûr",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "avocat mûr",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "4 petites tomates",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "petites tomates",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "Quelques brins de coriandre fraiche",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de coriandre fraiche",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 240°C (thermostat 8). Huiler légèrement les tranches de pain, les poser sur la grille de four et enfourner à mi-hauteur. Faire griller pendant 2-3 minutes de chaque côté, jusqu’à ce qu’elles soient dorées.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper 2 avocats bien mûrs en deux, jeter le noyau et retirer la chair.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans un saladier, écraser la chair à la fourchette et la mélanger avec le Philadelphia, l'ail écrasé, le sel et le poivre.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Étaler cette préparation sur le pain grillé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couper le 3ème avocat en deux, jeter le noyau et couper sa chair en tranches. Couper les tomates en tranches.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Répartir les tranches d'avocat et des tomates sur la purée d'avocat. Décorer avec les feuilles de coriandre. Servir aussitôt.",
+            "mediaId": "wordpress-attachment:4048"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:3510",
+      "sourceId": "3510",
+      "path": "/recipes/media/wordpress/3510.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4048",
+      "sourceId": "4048",
+      "path": "/recipes/media/wordpress/4048.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

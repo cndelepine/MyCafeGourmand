@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:23753",
+  "locale": "en",
+  "canonicalPath": "/gluten-free/",
+  "translationGroupId": "wordpress:post-translations:25348",
+  "source": {
+    "system": "wordpress",
+    "postId": 23753,
+    "sourcePath": "/gluten-free/",
+    "sourceSlug": "gluten-free",
+    "createdAt": "2021-02-24T01:46:46Z",
+    "modifiedAt": "2021-02-24T03:04:37Z"
+  },
+  "title": "Gluten Free",
+  "excerpt": null,
+  "publishedAt": "2021-02-24T01:46:46Z",
+  "modifiedAt": "2021-02-24T03:04:37Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": null,
+  "featuredMediaAlt": null,
+  "media": null,
+  "redirectFrom": []
+}

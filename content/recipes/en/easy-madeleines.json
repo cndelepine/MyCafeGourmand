@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21509",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:2936",
+  "slug": "easy-madeleines",
+  "source": {
+    "system": "wordpress",
+    "postId": "21509",
+    "recipeId": "21509",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-french-madeleines",
+    "createdAt": "2019-05-01T17:32:19+00:00",
+    "modifiedAt": "2023-10-06T02:54:32+00:00",
+    "editorialPostId": "5922",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "easy-madeleines",
+    "editorialCreatedAt": "2019-05-01T17:32:19+00:00",
+    "editorialModifiedAt": "2023-10-06T02:54:28+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/easy-madeleines/",
+    "/madeleines-2/",
+    "/madeleines-cookies/"
+  ],
+  "title": "French Madeleines",
+  "description": "To make an authentic madeleine, you will need a madeleine pan. But you can use a muffin pan or any cake pan.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Very light, fluffy and tasty French cookies. Classic small sponge cakes shaped like seashell, usually made with lemon zest. I love lemon, but I decided not to add any to my madeleines. I just like them plain.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>You can find molds for mini-madeleines. That's really nice and you can savor them for a <a href=\"https://mycafegourmand.com/cafe-gourmand\">cafe gourmand</a>. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21509,\"template\":\"chic-template-english\",\"updated\":1696560856515} -->\n<!--WPRM Recipe 21509-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">French Madeleines</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_3279-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tTo make an authentic madeleine, you will need a madeleine pan. But you can use a muffin pan or any cake pan.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 eggs</li><li>200 g sugar</li><li>120 ml milk</li><li>200 g all purpose flour (sifted)</li><li>2 tsp baking powder</li><li>1 pinch of salt</li><li>120 g unsalted butter (melted)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>In a medium bowl combine eggs and sugar. Whip until light. Add milk and mix well.</li><li>Carefully fold in the flour, baking powder and pinch of salt.</li><li>Add melted butter and mix throughly until smooth. Let the batter rest in the fridge for about 15 minutes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_2570.Blog_-150x150.png\"/><br /></li><li>Preheat oven to 400 degrees F. Butter madeleine pan. My pan makes 12 cookies at a time. From this receipe you'll make 24 cookies.</li><li>Spoon batter into the prepared molds, filling 3/4 full. Bake in the preheated oven for 10 to 12 minutes or until the edges are golden and the tops spring back. Remove the madeleines from the oven and let cool for 2 minutes. </li><li>With a knife or fork carefully loosen the madeleines from the pan and then tip the whole pan out to a prepared plate. </li><li>If you want to make it in a loaf pan, it will take much longer, about 30 minutes, or until a toothpick inserted into the center of the cake come out clean.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_3275.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24181",
+      "sourceTaxonomyId": "24181",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24247",
+      "sourceTaxonomyId": "24247",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25464",
+      "sourceTaxonomyId": "25464",
+      "name": "tsp",
+      "slug": "tsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25475",
+      "sourceTaxonomyId": "25475",
+      "name": "pinch",
+      "slug": "pinch"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "722",
+      "sourceTaxonomyId": "722",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2119",
+      "sourceTaxonomyId": "2119",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1176",
+      "sourceTaxonomyId": "1176",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2996",
+      "sourceTaxonomyId": "2996",
+      "name": "of salt",
+      "slug": "of-salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2125",
+      "sourceTaxonomyId": "2125",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3020",
+      "sourceTaxonomyId": "3020",
+      "name": "madeleine",
+      "slug": "madeleine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3022",
+      "sourceTaxonomyId": "3022",
+      "name": "snack",
+      "slug": "snack-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3434",
+      "sourceTaxonomyId": "3434",
+      "name": "milk",
+      "slug": "milk"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5307",
+      "sourceTaxonomyId": "5307",
+      "name": "french gouter",
+      "slug": "french-gouter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5309",
+      "sourceTaxonomyId": "5309",
+      "name": "good for kids",
+      "slug": "good-for-kids"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5311",
+      "sourceTaxonomyId": "5311",
+      "name": "shell form cookies",
+      "slug": "shell-form-cookies"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7225",
+      "sourceTaxonomyId": "7225",
+      "name": "plain",
+      "slug": "plain"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8225",
+      "sourceTaxonomyId": "8225",
+      "name": "mini muffins",
+      "slug": "mini-muffins"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8231",
+      "sourceTaxonomyId": "8231",
+      "name": "mini cakes",
+      "slug": "mini-cakes-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "24 pieces",
+      "value": 24,
+      "unit": "pieces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:5639",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g sugar",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "120 ml milk",
+            "quantity": {
+              "raw": "120 ml",
+              "value": 120,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "milk",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g all purpose flour sifted",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": "sifted"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 tsp baking powder",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 pinch of salt",
+            "quantity": {
+              "raw": "1 pinch",
+              "value": 1,
+              "unit": "pinch",
+              "scalable": true
+            },
+            "name": "of salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "120 g unsalted butter melted",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": "melted"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a medium bowl combine eggs and sugar. Whip until light. Add milk and mix well.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Carefully fold in the flour, baking powder and pinch of salt.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add melted butter and mix throughly until smooth. Let the batter rest in the fridge for about 15 minutes.",
+            "mediaId": "wordpress-attachment:5708"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Preheat oven to 400 degrees F. Butter madeleine pan. My pan makes 12 cookies at a time. From this receipe you'll make 24 cookies.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Spoon batter into the prepared molds, filling 3/4 full. Bake in the preheated oven for 10 to 12 minutes or until the edges are golden and the tops spring back. Remove the madeleines from the oven and let cool for 2 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "With a knife or fork carefully loosen the madeleines from the pan and then tip the whole pan out to a prepared plate.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "If you want to make it in a loaf pan, it will take much longer, about 30 minutes, or until a toothpick inserted into the center of the cake come out clean.",
+            "mediaId": "wordpress-attachment:5707"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5639",
+      "sourceId": "5639",
+      "path": "/recipes/media/wordpress/5639.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5708",
+      "sourceId": "5708",
+      "path": "/recipes/media/wordpress/5708.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5707",
+      "sourceId": "5707",
+      "path": "/recipes/media/wordpress/5707.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

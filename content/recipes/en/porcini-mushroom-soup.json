@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:28923",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:23337",
+  "slug": "porcini-mushroom-soup",
+  "source": {
+    "system": "wordpress",
+    "postId": "28923",
+    "recipeId": "28923",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-porcini-mushroom-soup",
+    "createdAt": "2026-02-01T20:14:00+00:00",
+    "modifiedAt": "2026-02-09T07:35:01+00:00",
+    "editorialPostId": "28922",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "porcini-mushroom-soup",
+    "editorialCreatedAt": "2026-02-01T20:14:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:34:54+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/porcini-mushroom-soup/"
+  ],
+  "title": "Porcini mushroom soup",
+  "description": "Excellent mushroom soup made of porcini (ceps)",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>A tasty porcini mushroom soup. And to make things easier, we use frozen mushrooms here. They are fried in a pan without defrosting. Serve very hot with a spoon of sour cream.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>You can also find these mushrooms under the name of ceps or bolets.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":28923,\"template\":\"chic-template-english\",\"updated\":1770622347221} -->\n<!--WPRM Recipe 28923-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Porcini mushroom soup</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4634-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Excellent mushroom soup made of porcini (ceps)</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 tbsp vegetable oil</li><li>400 g frozen porcini mushrooms</li><li>1-2 tbsp flour</li><li>3-4 medium-size potatoes (peeled)</li><li>3 leaves bay</li><li>1 onion (peeled)</li><li>1-2 carrots (peeled)</li><li>Salt and freshly ground black pepper</li><li>4 tbsp sour cream</li><li>A few sprigs dill or chopped chives</li><li>1/2 tsp salt</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Heat the oil in a frying pan and sauté the mushrooms directly from frozen.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4602-2.Blog_-150x150.png\"/><br /></li><li><p>Once the mushrooms are golden, sprinkle them with flour. Mix well and cook for 1-2 minutes. Remove the pan from heat.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4613-2.Blog_-150x150.png\"/><br /></li><li><p>Slice the onion and grate the carrots.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4609-2.Blog_-150x150.png\"/><br /></li><li><p>Heat the remaining oil in another frying pan. Sauté the onion and carrots until softened. Lightly season with salt and pepper to taste. Remove the pan from heat.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4615-2.Blog_-150x150.png\"/><br /></li><li><p>Cut the potatoes into cubes about 1–1.5 cm on each side.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4618-2.Blog_-150x150.png\"/><br /></li><li><p>Bring about 3 liters of water to a boil in a large pot. Add the potatoes and bring back to a boil.</p></li><li><p>Reduce the heat, add salt, mushrooms, and bay leaves, and simmer.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4620-2.Blog_-150x150.png\"/><br /></li><li><p>Add the sautéed vegetables to the pot. Cook everything together for another 10–15 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4622-2.Blog_-150x150.png\"/><br /></li><li><p>Serve hot in bowls. Add a tablespoon of sour cream to each serving and sprinkle with dill or chives.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4625-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soup, Soupes</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Eastern european, Russian</div><div class=\"wprm-fallback-recipe-meta-keyword\">mushroom soup, Soup</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "A tasty porcini mushroom soup made with frozen mushrooms. They are fried in a pan without defrosting. Serve very hot with sour cream."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26487",
+      "sourceTaxonomyId": "26487",
+      "name": "Soupes",
+      "slug": "soupes-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27101",
+      "sourceTaxonomyId": "27101",
+      "name": "Soup",
+      "slug": "soup-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27095",
+      "sourceTaxonomyId": "27095",
+      "name": "Russian",
+      "slug": "russian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27103",
+      "sourceTaxonomyId": "27103",
+      "name": "Eastern european",
+      "slug": "eastern-european"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24202",
+      "sourceTaxonomyId": "24202",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24262",
+      "sourceTaxonomyId": "24262",
+      "name": "flour",
+      "slug": "flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24291",
+      "sourceTaxonomyId": "24291",
+      "name": "vegetable oil",
+      "slug": "vegetable-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27011",
+      "sourceTaxonomyId": "27011",
+      "name": "frozen porcini mushrooms",
+      "slug": "frozen-porcini-mushrooms"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27012",
+      "sourceTaxonomyId": "27012",
+      "name": "medium-size potatoes",
+      "slug": "medium-size-potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27013",
+      "sourceTaxonomyId": "27013",
+      "name": "bay",
+      "slug": "bay"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27014",
+      "sourceTaxonomyId": "27014",
+      "name": "dill or chopped chives",
+      "slug": "dill-or-chopped-chives"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25464",
+      "sourceTaxonomyId": "25464",
+      "name": "tsp",
+      "slug": "tsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26687",
+      "sourceTaxonomyId": "26687",
+      "name": "leaves",
+      "slug": "leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26934",
+      "sourceTaxonomyId": "26934",
+      "name": "sprigs",
+      "slug": "sprigs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27105",
+      "sourceTaxonomyId": "27105",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27107",
+      "sourceTaxonomyId": "27107",
+      "name": "mushroom soup",
+      "slug": "mushroom-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "96",
+      "sourceTaxonomyId": "96",
+      "name": "Soups",
+      "slug": "soups"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1192",
+      "sourceTaxonomyId": "1192",
+      "name": "soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4353",
+      "sourceTaxonomyId": "4353",
+      "name": "mushroom",
+      "slug": "mushroom"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27403",
+      "sourceTaxonomyId": "27403",
+      "name": "porcini",
+      "slug": "porcini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27405",
+      "sourceTaxonomyId": "27405",
+      "name": "frozen",
+      "slug": "frozen"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27407",
+      "sourceTaxonomyId": "27407",
+      "name": "bolet",
+      "slug": "bolet"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 people",
+      "value": 4,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "1",
+        "value": 1
+      },
+      "servingSize": {
+        "raw": "150",
+        "value": 150
+      },
+      "servingUnit": "ml"
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:20539",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 tbsp vegetable oil",
+            "quantity": {
+              "raw": "3 tbsp",
+              "value": 3,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "vegetable oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "400 g frozen porcini mushrooms",
+            "quantity": {
+              "raw": "400 g",
+              "value": 400,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "frozen porcini mushrooms",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 tbsp flour",
+            "quantity": {
+              "raw": "1-2 tbsp",
+              "min": 1,
+              "max": 2,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3-4 medium-size potatoes peeled",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "medium-size potatoes",
+            "notes": "peeled"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 leaves bay",
+            "quantity": {
+              "raw": "3 leaves",
+              "value": 3,
+              "unit": "leaves",
+              "scalable": true
+            },
+            "name": "bay",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 onion peeled",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": "peeled"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1-2 carrots peeled",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carrots",
+            "notes": "peeled"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "4 tbsp sour cream",
+            "quantity": {
+              "raw": "4 tbsp",
+              "value": 4,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "A few sprigs dill or chopped chives",
+            "quantity": {
+              "raw": "A few sprigs",
+              "unit": "sprigs",
+              "scalable": false
+            },
+            "name": "dill or chopped chives",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "1/2 tsp salt",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Heat the oil in a frying pan and sauté the mushrooms directly from frozen.",
+            "mediaId": "wordpress-attachment:20528"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Once the mushrooms are golden, sprinkle them with flour. Mix well and cook for 1-2 minutes. Remove the pan from heat.",
+            "mediaId": "wordpress-attachment:20532"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Slice the onion and grate the carrots.",
+            "mediaId": "wordpress-attachment:20529"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Heat the remaining oil in another frying pan. Sauté the onion and carrots until softened. Lightly season with salt and pepper to taste. Remove the pan from heat.",
+            "mediaId": "wordpress-attachment:20534"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Cut the potatoes into cubes about 1–1.5 cm on each side.",
+            "mediaId": "wordpress-attachment:20535"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bring about 3 liters of water to a boil in a large pot. Add the potatoes and bring back to a boil.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Reduce the heat, add salt, mushrooms, and bay leaves, and simmer.",
+            "mediaId": "wordpress-attachment:20536"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Add the sautéed vegetables to the pot. Cook everything together for another 10–15 minutes.",
+            "mediaId": "wordpress-attachment:20537"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Serve hot in bowls. Add a tablespoon of sour cream to each serving and sprinkle with dill or chives.",
+            "mediaId": "wordpress-attachment:20538"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20539",
+      "sourceId": "20539",
+      "path": "/recipes/media/wordpress/20539.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20528",
+      "sourceId": "20528",
+      "path": "/recipes/media/wordpress/20528.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20532",
+      "sourceId": "20532",
+      "path": "/recipes/media/wordpress/20532.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20529",
+      "sourceId": "20529",
+      "path": "/recipes/media/wordpress/20529.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20534",
+      "sourceId": "20534",
+      "path": "/recipes/media/wordpress/20534.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20535",
+      "sourceId": "20535",
+      "path": "/recipes/media/wordpress/20535.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20536",
+      "sourceId": "20536",
+      "path": "/recipes/media/wordpress/20536.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20537",
+      "sourceId": "20537",
+      "path": "/recipes/media/wordpress/20537.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20538",
+      "sourceId": "20538",
+      "path": "/recipes/media/wordpress/20538.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

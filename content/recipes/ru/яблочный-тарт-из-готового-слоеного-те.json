@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22465",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:3518",
+  "slug": "яблочный-тарт-из-готового-слоеного-те",
+  "source": {
+    "system": "wordpress",
+    "postId": "22465",
+    "recipeId": "22465",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%8f%d0%b1%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82-%d0%b8%d0%b7-%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0",
+    "createdAt": "2024-10-03T07:22:00+00:00",
+    "modifiedAt": "2024-10-05T22:10:14+00:00",
+    "editorialPostId": "7445",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%8f%d0%b1%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82-%d0%b8%d0%b7-%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5",
+    "editorialCreatedAt": "2024-10-03T07:22:00+00:00",
+    "editorialModifiedAt": "2024-10-05T22:10:11+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d1%8f%d0%b1%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82-%d0%b8%d0%b7-%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5/"
+  ],
+  "title": "Яблочный тарт из готового слоеного теста",
+  "description": "Количество сахара зависит от Вашего вкуса и кислоты яблок, но его нельзя полностью исключать из рецепта: обязательно надо хоть чуть-чуть посыпать яблоки сахаром, чтобы они дали сок и пропеклись.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Очень простой рецепт яблочного пирога из готового слоеного теста. Минимум продуктов - максимум вкуса ! Даже не нужна форма для выпекания. Яблоки желательно выбирать не сладкие. Я использую коричневый сахар, он придает яблокам слегка карамелизированный вкус. Тарт можно подать в горячем виде с шариком ванильного мороженого или в остывшем виде, посыпав его сахарной пудрой.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22465,\"template\":\"chic-template-russian\",\"updated\":1728166139973} -->\n<!--WPRM Recipe 22465-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Яблочный тарт из готового слоеного теста</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/20180321_115811.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tКоличество сахара зависит от Вашего вкуса и кислоты яблок, но его нельзя полностью исключать из рецепта: обязательно надо хоть чуть-чуть посыпать яблоки сахаром, чтобы они дали сок и пропеклись.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 лист слоеного теста</li><li>3-4 яблока (Гренни Смит)</li><li>1-2 ст.л. коричневого сахара ((или простого сахара))</li><li>30 г сливочного масла</li><li>Немного сахарной пудры ((необязательно))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Разогреть духовку до 175С (380F). Тесто положить в противень, застеленный пергаментной бумагой. Наколоть вилкой всю поверхность теста.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5507.Blog_-150x150.png\"/><br /></li><li> Яблоки почистить, порезать очень тонкими ломтиками и красиво разложить на тесто. Посыпать сахаром. Сверху положить кусочки масла.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8911-2.Blog_-150x150.png\"/><br /></li><li>Загнуть края теста на яблоки.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8906.Blog_-150x150.png\"/><br /></li><li>Поставить в духовку и печь 35-45 минут. Тарт готов, когда тесто подрумянилось, а яблоки слегка карамелизовались.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8912.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Яблочный тарт из готового слоеного теста"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23956",
+      "sourceTaxonomyId": "23956",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24829",
+      "sourceTaxonomyId": "24829",
+      "name": "яблока (Гренни Смит)",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0-%d0%b3%d1%80%d0%b5%d0%bd%d0%bd%d0%b8-%d1%81%d0%bc%d0%b8%d1%82"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24890",
+      "sourceTaxonomyId": "24890",
+      "name": "слоеного теста",
+      "slug": "%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24937",
+      "sourceTaxonomyId": "24937",
+      "name": "коричневого сахара",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17357",
+      "sourceTaxonomyId": "17357",
+      "name": "слоеное тесто",
+      "slug": "puff-pastry-russian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "455",
+      "sourceTaxonomyId": "455",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "654",
+      "sourceTaxonomyId": "654",
+      "name": "слоеного теста",
+      "slug": "%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "899",
+      "sourceTaxonomyId": "899",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3535",
+      "sourceTaxonomyId": "3535",
+      "name": "яблока (Гренни Смит)",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0-%d0%b3%d1%80%d0%b5%d0%bd%d0%bd%d0%b8-%d1%81%d0%bc%d0%b8%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3539",
+      "sourceTaxonomyId": "3539",
+      "name": "коричневого сахара",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1414",
+      "sourceTaxonomyId": "1414",
+      "name": "яблоки",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2598",
+      "sourceTaxonomyId": "2598",
+      "name": "французский десерт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3118",
+      "sourceTaxonomyId": "3118",
+      "name": "яблочный пирог",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3424",
+      "sourceTaxonomyId": "3424",
+      "name": "масло",
+      "slug": "%d0%bc%d0%b0%d1%81%d0%bb%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3519",
+      "sourceTaxonomyId": "3519",
+      "name": "яблочный тарт",
+      "slug": "%d1%8f%d0%b1%d0%bb%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3521",
+      "sourceTaxonomyId": "3521",
+      "name": "готовое слоеное тесто",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b5-%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3523",
+      "sourceTaxonomyId": "3523",
+      "name": "коричневый сахар",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d1%8b%d0%b9-%d1%81%d0%b0%d1%85%d0%b0%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3525",
+      "sourceTaxonomyId": "3525",
+      "name": "без формы для выпекания",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d1%84%d0%be%d1%80%d0%bc%d1%8b-%d0%b4%d0%bb%d1%8f-%d0%b2%d1%8b%d0%bf%d0%b5%d0%ba%d0%b0%d0%bd%d0%b8%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4740",
+      "sourceTaxonomyId": "4740",
+      "name": "sloenoe testo",
+      "slug": "sloenoe-testo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4869",
+      "sourceTaxonomyId": "4869",
+      "name": "yablochnyj pirog",
+      "slug": "yablochnyj-pirog"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4871",
+      "sourceTaxonomyId": "4871",
+      "name": "tonkij tart",
+      "slug": "tonkij-tart"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4873",
+      "sourceTaxonomyId": "4873",
+      "name": "francuzskij desert",
+      "slug": "francuzskij-desert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4875",
+      "sourceTaxonomyId": "4875",
+      "name": "jabloki",
+      "slug": "jabloki"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4877",
+      "sourceTaxonomyId": "4877",
+      "name": "tart",
+      "slug": "tart-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5697",
+      "sourceTaxonomyId": "5697",
+      "name": "самый легкой пирог",
+      "slug": "%d1%81%d0%b0%d0%bc%d1%8b%d0%b9-%d0%bb%d0%b5%d0%b3%d0%ba%d0%be%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7437",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 лист слоеного теста",
+            "quantity": {
+              "raw": "1 лист",
+              "value": 1,
+              "unit": "лист",
+              "scalable": true
+            },
+            "name": "слоеного теста",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3-4 яблока (Гренни Смит)",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яблока (Гренни Смит)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 ст.л. коричневого сахара (или простого сахара)",
+            "quantity": {
+              "raw": "1-2 ст.л.",
+              "min": 1,
+              "max": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "коричневого сахара",
+            "notes": "(или простого сахара)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "30 г сливочного масла",
+            "quantity": {
+              "raw": "30 г",
+              "value": 30,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Немного сахарной пудры (необязательно)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "сахарной пудры",
+            "notes": "(необязательно)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 175С (380F). Тесто положить в противень, застеленный пергаментной бумагой. Наколоть вилкой всю поверхность теста.",
+            "mediaId": "wordpress-attachment:7505"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Яблоки почистить, порезать очень тонкими ломтиками и красиво разложить на тесто. Посыпать сахаром. Сверху положить кусочки масла.",
+            "mediaId": "wordpress-attachment:7421"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Загнуть края теста на яблоки.",
+            "mediaId": "wordpress-attachment:7415"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Поставить в духовку и печь 35-45 минут. Тарт готов, когда тесто подрумянилось, а яблоки слегка карамелизовались.",
+            "mediaId": "wordpress-attachment:7416"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7437",
+      "sourceId": "7437",
+      "path": "/recipes/media/wordpress/7437.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:7505",
+      "sourceId": "7505",
+      "path": "/recipes/media/wordpress/7505.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7421",
+      "sourceId": "7421",
+      "path": "/recipes/media/wordpress/7421.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7415",
+      "sourceId": "7415",
+      "path": "/recipes/media/wordpress/7415.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7416",
+      "sourceId": "7416",
+      "path": "/recipes/media/wordpress/7416.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

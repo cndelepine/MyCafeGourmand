@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21627",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:5545",
+  "slug": "seasonal-radishes-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "21627",
+    "recipeId": "21627",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-seasonal-radishes-salad",
+    "createdAt": "2021-05-01T06:26:00+00:00",
+    "modifiedAt": "2024-04-05T00:37:44+00:00",
+    "editorialPostId": "11647",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "seasonal-radishes-salad",
+    "editorialCreatedAt": "2021-05-01T06:26:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:52:53+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/seasonal-radishes-salad/"
+  ],
+  "title": "Seasonal Radishes Salad",
+  "description": "If prefer it, you can replace the vinegar and oil with a tablespoon of sour cream or Greek yogurt .",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Even with it's simplicity, this seasonal radishes salad will look good on any table arrangement. You just need fresh radishes and fresh herbs for this recipe. These thinly sliced radishes create a colorful and delicious entree that will please any veggie-lover. Add your favorite fresh herbs, season with salt and pepper, and drizzle with vinegar and olive oil. You can use any vinegar you like: white, apple or balsamic. I like to make this salad with white vinegar. This <a href=\"https://mycafegourmand.com/recipes/salads/\">salad</a> looks amazing if served in a white salad bowl.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21627,\"template\":\"chic-template-english\",\"updated\":1608951722599} -->\n<!--WPRM Recipe 21627-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Seasonal Radishes Salad</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/20180530_190427.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf prefer it, you can replace the vinegar and oil with a tablespoon of sour cream or Greek yogurt .\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 bunches radish</li><li>Salt and freshly ground black pepper</li><li>fresh herbs (dill, green onion, parsley) (chopped )</li><li>2 Tbsp olive oil</li><li>1 Tbsp white vinegar</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Wash and cut off roots from the radishes, slice thinly. Season with salt and pepper. Drizzle with vinegar and olive oil. Garnish with fresh herbs and serve.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24413",
+      "sourceTaxonomyId": "24413",
+      "name": "radish",
+      "slug": "radish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24414",
+      "sourceTaxonomyId": "24414",
+      "name": "fresh herbs (dill, green onion, parsley)",
+      "slug": "fresh-herbs-dill-green-onion-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24415",
+      "sourceTaxonomyId": "24415",
+      "name": "white vinegar",
+      "slug": "white-vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5909",
+      "sourceTaxonomyId": "5909",
+      "name": "radish",
+      "slug": "radish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5919",
+      "sourceTaxonomyId": "5919",
+      "name": "fresh herbs (dill, green onion, parsley)",
+      "slug": "fresh-herbs-dill-green-onion-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5921",
+      "sourceTaxonomyId": "5921",
+      "name": "white vinegar",
+      "slug": "white-vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1330",
+      "sourceTaxonomyId": "1330",
+      "name": "vinegar",
+      "slug": "vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4154",
+      "sourceTaxonomyId": "4154",
+      "name": "healthy snack",
+      "slug": "healthy-snack"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4329",
+      "sourceTaxonomyId": "4329",
+      "name": "spring salad",
+      "slug": "spring-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4331",
+      "sourceTaxonomyId": "4331",
+      "name": "green onion",
+      "slug": "green-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4798",
+      "sourceTaxonomyId": "4798",
+      "name": "summer salad",
+      "slug": "summer-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5913",
+      "sourceTaxonomyId": "5913",
+      "name": "radishes salad",
+      "slug": "radishes-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5915",
+      "sourceTaxonomyId": "5915",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5917",
+      "sourceTaxonomyId": "5917",
+      "name": "fresh herbes",
+      "slug": "fresh-herbes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5923",
+      "sourceTaxonomyId": "5923",
+      "name": "dill",
+      "slug": "dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5925",
+      "sourceTaxonomyId": "5925",
+      "name": "parsley",
+      "slug": "parsley"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11471",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 bunches radish",
+            "quantity": {
+              "raw": "2 bunches",
+              "value": 2,
+              "unit": "bunches",
+              "scalable": true
+            },
+            "name": "radish",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "fresh herbs (dill, green onion, parsley) chopped",
+            "quantity": null,
+            "name": "fresh herbs (dill, green onion, parsley)",
+            "notes": "chopped"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 Tbsp olive oil",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 Tbsp white vinegar",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "white vinegar",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Wash and cut off roots from the radishes, slice thinly. Season with salt and pepper. Drizzle with vinegar and olive oil. Garnish with fresh herbs and serve.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11471",
+      "sourceId": "11471",
+      "path": "/recipes/media/wordpress/11471.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

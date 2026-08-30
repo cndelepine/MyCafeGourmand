@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26679",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26153",
+  "slug": "italian-bell-pepper-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "26679",
+    "recipeId": "26679",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-italian-bell-pepper-salad",
+    "createdAt": "2023-04-23T21:21:49+00:00",
+    "modifiedAt": "2023-04-23T21:30:53+00:00",
+    "editorialPostId": "26677",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "italian-bell-pepper-salad",
+    "editorialCreatedAt": "2023-04-23T21:21:49+00:00",
+    "editorialModifiedAt": "2023-04-23T21:30:50+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/italian-bell-pepper-salad/"
+  ],
+  "title": "Italian bell pepper salad",
+  "description": "A delicious salad, found in an Italian cookbook (Délices d'Italie by Loukie Werle).\n\nA recipe that will please everyone, vegetarian or not. The peppers are roasted under the grill and then mixed with a tomato. An appetizer that is best eaten cold, so it can be prepared ahead of time.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Another delicious recipe from the cookbook \"Delices d'Italie\" by Loukie Werle.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26679,\"template\":\"chic-template-english\",\"updated\":1682285400982} -->\n<!--WPRM Recipe 26679-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Italian bell pepper salad</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3432.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>A delicious salad, found in an Italian cookbook (Délices d&#039;Italie by Loukie Werle).</p><p>A recipe that will please everyone, vegetarian or not. The peppers are roasted under the grill and then mixed with a tomato. An appetizer that is best eaten cold, so it can be prepared ahead of time.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 large bell peppers (of different colors)</li><li>1-2 tomatoes</li><li>1-2 cloves garlic</li><li>1 handful of basil leaves (chiseled)</li><li>1 handful of mint leaves (chiseled)</li><li>1 Tbsp capers ((rinsed))</li><li>Salt and fresh pepper</li><li>4 Tbsp olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat grill.</p></li><li><p>Cut peppers in half lengthwise, remove seeds and membranes.</p><p>Place peppers on a broiler rack, skin side up</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3390.Blog_-150x150.png\"/><br /></li><li><p>Roast until the skin is blackened. Remove the peppers from the oven and put them in a bowl, cover with plastic wrap and leave for about 20 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3394.Blog_-150x150.png\"/><br /></li><li><p>Meanwhile, cut the tomatoes into small cubes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3411.Blog_-150x150.png\"/><br /></li><li><p>Chop the garlic cloves. Chop the basil and mint leaves</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3421.Blog_-150x150.png\"/><br /></li><li><p>Remove the skin from the peppers and cut them into strips</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3414.Blog_-150x150.png\"/><br /></li><li><p>Put all the chopped ingredients in a serving bowl. Add the capers. Season with salt and pepper then drizzle with olive oil.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3423.Blog_-150x150.png\"/><br /></li><li><p>Cover with plastic wrap and let stand for about one hour before serving.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3430.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian, Italien</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23541",
+      "sourceTaxonomyId": "23541",
+      "name": "Italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "25483",
+      "sourceTaxonomyId": "25483",
+      "name": "Italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24152",
+      "sourceTaxonomyId": "24152",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24213",
+      "sourceTaxonomyId": "24213",
+      "name": "capers",
+      "slug": "capers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26205",
+      "sourceTaxonomyId": "26205",
+      "name": "of basil leaves",
+      "slug": "of-basil-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26206",
+      "sourceTaxonomyId": "26206",
+      "name": "of mint leaves",
+      "slug": "of-mint-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26207",
+      "sourceTaxonomyId": "26207",
+      "name": "Salt and fresh pepper",
+      "slug": "salt-and-fresh-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26210",
+      "sourceTaxonomyId": "26210",
+      "name": "bell peppers (of different colors)",
+      "slug": "bell-peppers-of-different-colors"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25564",
+      "sourceTaxonomyId": "25564",
+      "name": "cloves",
+      "slug": "cloves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26201",
+      "sourceTaxonomyId": "26201",
+      "name": "large",
+      "slug": "large"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26204",
+      "sourceTaxonomyId": "26204",
+      "name": "handful",
+      "slug": "handful"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1600",
+      "sourceTaxonomyId": "1600",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4798",
+      "sourceTaxonomyId": "4798",
+      "name": "summer salad",
+      "slug": "summer-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6020",
+      "sourceTaxonomyId": "6020",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6200",
+      "sourceTaxonomyId": "6200",
+      "name": "homemade salad bowl",
+      "slug": "homemade-salad-bowl"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25608",
+      "sourceTaxonomyId": "25608",
+      "name": "salad",
+      "slug": "salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25622",
+      "sourceTaxonomyId": "25622",
+      "name": "how to prepare",
+      "slug": "how-to-prepare"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25624",
+      "sourceTaxonomyId": "25624",
+      "name": "how to cook",
+      "slug": "how-to-cook"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "105",
+        "minutes": 105
+      },
+      "custom": {
+        "label": "Refroidir",
+        "duration": {
+          "raw": "60",
+          "minutes": 60
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26379",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 large bell peppers (of different colors)",
+            "quantity": {
+              "raw": "4 large",
+              "value": 4,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "bell peppers (of different colors)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 tomatoes",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 cloves garlic",
+            "quantity": {
+              "raw": "1-2 cloves",
+              "min": 1,
+              "max": 2,
+              "unit": "cloves",
+              "scalable": true
+            },
+            "name": "garlic",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 handful of basil leaves chiseled",
+            "quantity": {
+              "raw": "1 handful",
+              "value": 1,
+              "unit": "handful",
+              "scalable": true
+            },
+            "name": "of basil leaves",
+            "notes": "chiseled"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 handful of mint leaves chiseled",
+            "quantity": {
+              "raw": "1 handful",
+              "value": 1,
+              "unit": "handful",
+              "scalable": true
+            },
+            "name": "of mint leaves",
+            "notes": "chiseled"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 Tbsp capers (rinsed)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "capers",
+            "notes": "(rinsed)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Salt and fresh pepper",
+            "quantity": null,
+            "name": "Salt and fresh pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "4 Tbsp olive oil",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat grill.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut peppers in half lengthwise, remove seeds and membranes.\n\nPlace peppers on a broiler rack, skin side up",
+            "mediaId": "wordpress-attachment:26372"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Roast until the skin is blackened. Remove the peppers from the oven and put them in a bowl, cover with plastic wrap and leave for about 20 minutes.",
+            "mediaId": "wordpress-attachment:26373"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Meanwhile, cut the tomatoes into small cubes.",
+            "mediaId": "wordpress-attachment:26375"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Chop the garlic cloves. Chop the basil and mint leaves",
+            "mediaId": "wordpress-attachment:26377"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Remove the skin from the peppers and cut them into strips",
+            "mediaId": "wordpress-attachment:26376"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Put all the chopped ingredients in a serving bowl. Add the capers. Season with salt and pepper then drizzle with olive oil.",
+            "mediaId": "wordpress-attachment:26378"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Cover with plastic wrap and let stand for about one hour before serving.",
+            "mediaId": "wordpress-attachment:26381"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26379",
+      "sourceId": "26379",
+      "path": "/recipes/media/wordpress/26379.png",
+      "alt": "Salade de poivrons à l'italienne",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26372",
+      "sourceId": "26372",
+      "path": "/recipes/media/wordpress/26372.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26373",
+      "sourceId": "26373",
+      "path": "/recipes/media/wordpress/26373.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26375",
+      "sourceId": "26375",
+      "path": "/recipes/media/wordpress/26375.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26377",
+      "sourceId": "26377",
+      "path": "/recipes/media/wordpress/26377.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26376",
+      "sourceId": "26376",
+      "path": "/recipes/media/wordpress/26376.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26378",
+      "sourceId": "26378",
+      "path": "/recipes/media/wordpress/26378.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26381",
+      "sourceId": "26381",
+      "path": "/recipes/media/wordpress/26381.png",
+      "alt": "Salade de poivrons à l'italienne",
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

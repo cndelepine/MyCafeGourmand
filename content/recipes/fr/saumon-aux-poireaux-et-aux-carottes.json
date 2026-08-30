@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21841",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:1009",
+  "slug": "saumon-aux-poireaux-et-aux-carottes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21841",
+    "recipeId": "21841",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-saumon-aux-poireaux-et-aux-carottes",
+    "createdAt": "2018-01-26T04:15:12+00:00",
+    "modifiedAt": "2022-06-26T23:25:35+00:00",
+    "editorialPostId": "2754",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "saumon-aux-poireaux-et-aux-carottes",
+    "editorialCreatedAt": "2018-01-26T04:15:12+00:00",
+    "editorialModifiedAt": "2022-06-26T23:25:33+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/saumon-au-poireau-et-aux-carottes/",
+    "/fr/saumon-aux-poireaux-et-aux-carottes/"
+  ],
+  "title": "Saumon aux poireaux et aux carottes",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les pavés de saumon sont cuits en papillote sous une couche des légumes coupés finement. J'aime utiliser la moutarde à l'ancienne. Mais on peut aussi utiliser une autre sorte de moutarde pour ce saumon aux poireaux et aux carottes. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21841,\"template\":\"chic-template-french\",\"updated\":1656285917688} -->\n<!--WPRM Recipe 21841-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Saumon aux poireaux et aux carottes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180120_185637.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 pavés de saumon frais</li><li>4 cuillères à café de moutarde</li><li>1-2 poireaux ((parties blanches seulement) )</li><li>2 carottes (épluchées)</li><li>Sel et poivre du moulin</li><li>4 cuillères à soupe d'huile d'olive</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 200°C (thermostat 6-7). Préparer 4 feuilles de papier aluminium.\r\n</li><li>Mettre chaque pavé de saumon sur une feuille d'aluminium. Étaler la moutarde sur le poisson. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7592.Blog_-150x150.png\"/><br /></li><li>Couper les poireaux en fines rondelles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7591.Blog_-150x150.png\"/><br /></li><li>Râper les carottes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7593.Blog_-150x150.png\"/><br /></li><li>Recouvrir les pavés de saumon avec des légumes coupés. Saler, poivrer et arroser d'huile d'olive.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7594-2.Blog_-150x150.png\"/><br /></li><li>Refermer les feuilles d'aluminium et les mettre dans un plat allant au four.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7157.Blog_-150x150.png\"/><br /></li><li>Faire cuire pendant 25-30 minutes. La cuisson dépend de l'épaisseur des pavés.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180120_185704-150x150.jpg\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24563",
+      "sourceTaxonomyId": "24563",
+      "name": "de saumon frais",
+      "slug": "de-saumon-frais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24564",
+      "sourceTaxonomyId": "24564",
+      "name": "de moutarde",
+      "slug": "de-moutarde"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24565",
+      "sourceTaxonomyId": "24565",
+      "name": "poireaux",
+      "slug": "poireaux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "354",
+      "sourceTaxonomyId": "354",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "470",
+      "sourceTaxonomyId": "470",
+      "name": "de saumon frais",
+      "slug": "de-saumon-frais"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1077",
+      "sourceTaxonomyId": "1077",
+      "name": "de moutarde",
+      "slug": "de-moutarde"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1081",
+      "sourceTaxonomyId": "1081",
+      "name": "poireaux",
+      "slug": "poireaux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1208",
+      "sourceTaxonomyId": "1208",
+      "name": "plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1272",
+      "sourceTaxonomyId": "1272",
+      "name": "saumon",
+      "slug": "saumon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1274",
+      "sourceTaxonomyId": "1274",
+      "name": "poireau",
+      "slug": "poireau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1278",
+      "sourceTaxonomyId": "1278",
+      "name": "papillote",
+      "slug": "papillote"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3854",
+      "sourceTaxonomyId": "3854",
+      "name": "huile d'olive",
+      "slug": "huile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6499",
+      "sourceTaxonomyId": "6499",
+      "name": "légumes",
+      "slug": "legumes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6798",
+      "sourceTaxonomyId": "6798",
+      "name": "poisson",
+      "slug": "poisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2533",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 pavés de saumon frais",
+            "quantity": {
+              "raw": "4 pavés",
+              "value": 4,
+              "unit": "pavés",
+              "scalable": true
+            },
+            "name": "de saumon frais",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 cuillères à café de moutarde",
+            "quantity": {
+              "raw": "4 cuillères à café",
+              "value": 4,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de moutarde",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 poireaux (parties blanches seulement)",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "poireaux",
+            "notes": "(parties blanches seulement)"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 carottes épluchées",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 200°C (thermostat 6-7). Préparer 4 feuilles de papier aluminium.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mettre chaque pavé de saumon sur une feuille d'aluminium. Étaler la moutarde sur le poisson.",
+            "mediaId": "wordpress-attachment:2515"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper les poireaux en fines rondelles.",
+            "mediaId": "wordpress-attachment:2514"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Râper les carottes.",
+            "mediaId": "wordpress-attachment:2516"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Recouvrir les pavés de saumon avec des légumes coupés. Saler, poivrer et arroser d'huile d'olive.",
+            "mediaId": "wordpress-attachment:2517"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Refermer les feuilles d'aluminium et les mettre dans un plat allant au four.",
+            "mediaId": "wordpress-attachment:2519"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Faire cuire pendant 25-30 minutes. La cuisson dépend de l'épaisseur des pavés.",
+            "mediaId": "wordpress-attachment:2527"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2533",
+      "sourceId": "2533",
+      "path": "/recipes/media/wordpress/2533.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2515",
+      "sourceId": "2515",
+      "path": "/recipes/media/wordpress/2515.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2514",
+      "sourceId": "2514",
+      "path": "/recipes/media/wordpress/2514.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2516",
+      "sourceId": "2516",
+      "path": "/recipes/media/wordpress/2516.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2517",
+      "sourceId": "2517",
+      "path": "/recipes/media/wordpress/2517.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2519",
+      "sourceId": "2519",
+      "path": "/recipes/media/wordpress/2519.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2527",
+      "sourceId": "2527",
+      "path": "/recipes/media/wordpress/2527.jpg",
+      "alt": null,
+      "width": 1920,
+      "height": 2560
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22443",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:4365",
+  "slug": "яйца-фаршированные-тунцом",
+  "source": {
+    "system": "wordpress",
+    "postId": "22443",
+    "recipeId": "22443",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%8f%d0%b9%d1%86%d0%b0-%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d1%82%d1%83%d0%bd%d1%86%d0%be%d0%bc",
+    "createdAt": "2020-04-17T07:41:07+00:00",
+    "modifiedAt": "2022-07-30T20:25:30+00:00",
+    "editorialPostId": "7927",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%8f%d0%b9%d1%86%d0%b0-%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d1%82%d1%83%d0%bd%d1%86%d0%be%d0%bc",
+    "editorialCreatedAt": "2020-04-17T07:41:07+00:00",
+    "editorialModifiedAt": "2022-07-30T20:25:27+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d1%8f%d0%b9%d1%86%d0%b0-%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d1%82%d1%83%d0%bd%d1%86%d0%be%d0%bc/"
+  ],
+  "title": "Яйца фаршированные тунцом",
+  "description": "В этом рецепте начинка делается не только из желтков, но и из белка, поэтому блюдо получается особенно нежным.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Простой рецепт из продуктов, которые всегда найдутся в доме: яйца, консервированный тунец, маринованные огурчики и майонез. Фаршированные яйца очень удобная порционная закуска для фуршета. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22443,\"template\":\"chic-template-russian\",\"updated\":1659212718577} -->\n<!--WPRM Recipe 22443-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Яйца фаршированные тунцом</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9165.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tВ этом рецепте начинка делается не только из желтков, но и из белка, поэтому блюдо получается особенно нежным.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>7 вареных вкрутую яиц</li><li>1 баночка (180 г) тунца в собственном соку</li><li>1-3 маринованных огурчика</li><li>4-5 ст.л. майонеза</li><li>Соль и молотый перец (по вкусу)</li><li>Немного паприки</li><li>Немного свежей зелени</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Положить яйца в кастрюлю с холодной водой, довести воду до кипения и варить 10 минут. Затем вынуть яйца из кастрюли, положить в ледяную воду и остудить. </li><li>В зависимости от размера, натереть на мелкой терке 1-2 маринованных огурчика. Еще 1 огурчик порезать кружочками.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9499.Blog_-150x150.png\"/><br /></li><li>Очистить яйца от скорлупы и разрезать вдоль пополам. Осторожно вынуть желтки из 6 яиц.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9152.Blog_-150x150.png\"/><br /></li><li>Вилкой размять 6 желтков и 1 целое яйцо. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9151.Blog_-150x150.png\"/><br /></li><li>Из баночки тунца слить жидкость. Размять тунец вилкой и перемешать с размятыми яйцами. Добавить натертые огурчики, майонез, соль и перец. Хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9153.Blog_-150x150.png\"/><br /></li><li>Наполнить половинки белков начинкой. Посыпать паприкой, украсить зеленью и кружочками огурчика. Поставить в холодильник до подачи на стол.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9156.Blog_-150x150.png\"/><br /></li><li>Если осталась лишняя начинка, ее можно намазать на хлеб.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9169.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Закуски</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24840",
+      "sourceTaxonomyId": "24840",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24871",
+      "sourceTaxonomyId": "24871",
+      "name": "Соль и молотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24884",
+      "sourceTaxonomyId": "24884",
+      "name": "майонеза",
+      "slug": "%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24919",
+      "sourceTaxonomyId": "24919",
+      "name": "вареных вкрутую яиц",
+      "slug": "%d0%b2%d0%b0%d1%80%d0%b5%d0%bd%d1%8b%d1%85-%d0%b2%d0%ba%d1%80%d1%83%d1%82%d1%83%d1%8e-%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24920",
+      "sourceTaxonomyId": "24920",
+      "name": "тунца в собственном соку",
+      "slug": "%d1%82%d1%83%d0%bd%d1%86%d0%b0-%d0%b2-%d1%81%d0%be%d0%b1%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be%d0%bc-%d1%81%d0%be%d0%ba%d1%83"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24921",
+      "sourceTaxonomyId": "24921",
+      "name": "маринованных огурчика",
+      "slug": "%d0%bc%d0%b0%d1%80%d0%b8%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d1%85-%d0%be%d0%b3%d1%83%d1%80%d1%87%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24922",
+      "sourceTaxonomyId": "24922",
+      "name": "паприки",
+      "slug": "%d0%bf%d0%b0%d0%bf%d1%80%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24923",
+      "sourceTaxonomyId": "24923",
+      "name": "свежей зелени",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "86",
+      "sourceTaxonomyId": "86",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1526",
+      "sourceTaxonomyId": "1526",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "350",
+      "sourceTaxonomyId": "350",
+      "name": "майонеза",
+      "slug": "%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "539",
+      "sourceTaxonomyId": "539",
+      "name": "тунца в собственном соку",
+      "slug": "%d1%82%d1%83%d0%bd%d1%86%d0%b0-%d0%b2-%d1%81%d0%be%d0%b1%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be%d0%bc-%d1%81%d0%be%d0%ba%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "736",
+      "sourceTaxonomyId": "736",
+      "name": "паприки",
+      "slug": "%d0%bf%d0%b0%d0%bf%d1%80%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "985",
+      "sourceTaxonomyId": "985",
+      "name": "Соль и молотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2384",
+      "sourceTaxonomyId": "2384",
+      "name": "вареных вкрутую яиц",
+      "slug": "%d0%b2%d0%b0%d1%80%d0%b5%d0%bd%d1%8b%d1%85-%d0%b2%d0%ba%d1%80%d1%83%d1%82%d1%83%d1%8e-%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3624",
+      "sourceTaxonomyId": "3624",
+      "name": "свежей зелени",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3766",
+      "sourceTaxonomyId": "3766",
+      "name": "маринованных огурчика",
+      "slug": "%d0%bc%d0%b0%d1%80%d0%b8%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d1%85-%d0%be%d0%b3%d1%83%d1%80%d1%87%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1236",
+      "sourceTaxonomyId": "1236",
+      "name": "майонез",
+      "slug": "%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1364",
+      "sourceTaxonomyId": "1364",
+      "name": "рыба",
+      "slug": "%d1%80%d1%8b%d0%b1%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1500",
+      "sourceTaxonomyId": "1500",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1532",
+      "sourceTaxonomyId": "1532",
+      "name": "тунец",
+      "slug": "%d1%82%d1%83%d0%bd%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2960",
+      "sourceTaxonomyId": "2960",
+      "name": "закуска",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3748",
+      "sourceTaxonomyId": "3748",
+      "name": "яйца фаршированные",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0-%d1%84%d0%b0%d1%80%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3750",
+      "sourceTaxonomyId": "3750",
+      "name": "консервированный тунец",
+      "slug": "%d0%ba%d0%be%d0%bd%d1%81%d0%b5%d1%80%d0%b2%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9-%d1%82%d1%83%d0%bd%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3752",
+      "sourceTaxonomyId": "3752",
+      "name": "тунец в собственном соку",
+      "slug": "%d1%82%d1%83%d0%bd%d0%b5%d1%86-%d0%b2-%d1%81%d0%be%d0%b1%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be%d0%bc-%d1%81%d0%be%d0%ba%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3754",
+      "sourceTaxonomyId": "3754",
+      "name": "консервы",
+      "slug": "%d0%ba%d0%be%d0%bd%d1%81%d0%b5%d1%80%d0%b2%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3756",
+      "sourceTaxonomyId": "3756",
+      "name": "тунец в масле",
+      "slug": "%d1%82%d1%83%d0%bd%d0%b5%d1%86-%d0%b2-%d0%bc%d0%b0%d1%81%d0%bb%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3758",
+      "sourceTaxonomyId": "3758",
+      "name": "соленые огурцы",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b5%d0%bd%d1%8b%d0%b5-%d0%be%d0%b3%d1%83%d1%80%d1%86%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3760",
+      "sourceTaxonomyId": "3760",
+      "name": "маринованные огурчики",
+      "slug": "%d0%bc%d0%b0%d1%80%d0%b8%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d0%be%d0%b3%d1%83%d1%80%d1%87%d0%b8%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3762",
+      "sourceTaxonomyId": "3762",
+      "name": "без мяса",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%bc%d1%8f%d1%81%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3780",
+      "sourceTaxonomyId": "3780",
+      "name": "фуршет",
+      "slug": "%d1%84%d1%83%d1%80%d1%88%d0%b5%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3782",
+      "sourceTaxonomyId": "3782",
+      "name": "порционная закуска",
+      "slug": "%d0%bf%d0%be%d1%80%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d0%b0%d1%8f-%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4700",
+      "sourceTaxonomyId": "4700",
+      "name": "konservirovannyj tunetc",
+      "slug": "konservirovannyj-tunetc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4730",
+      "sourceTaxonomyId": "4730",
+      "name": "zakuska",
+      "slug": "zakuska"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4758",
+      "sourceTaxonomyId": "4758",
+      "name": "jajca",
+      "slug": "jajca"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4760",
+      "sourceTaxonomyId": "4760",
+      "name": "yaitsa",
+      "slug": "yaitsa"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4762",
+      "sourceTaxonomyId": "4762",
+      "name": "farshirovannye",
+      "slug": "farshirovannye"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4788",
+      "sourceTaxonomyId": "4788",
+      "name": "marinovannyj ogurchik",
+      "slug": "marinovannyj-ogurchik"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4954",
+      "sourceTaxonomyId": "4954",
+      "name": "farshirovannye yaytsa",
+      "slug": "farshirovannye-yaytsa"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "13",
+        "minutes": 13
+      },
+      "rest": null,
+      "total": {
+        "raw": "28",
+        "minutes": 28
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7933",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "7 вареных вкрутую яиц",
+            "quantity": {
+              "raw": "7",
+              "value": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "вареных вкрутую яиц",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 баночка (180 г) тунца в собственном соку",
+            "quantity": {
+              "raw": "1 баночка (180 г)",
+              "value": 1,
+              "unit": "баночка (180 г)",
+              "scalable": true
+            },
+            "name": "тунца в собственном соку",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-3 маринованных огурчика",
+            "quantity": {
+              "raw": "1-3",
+              "min": 1,
+              "max": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "маринованных огурчика",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4-5 ст.л. майонеза",
+            "quantity": {
+              "raw": "4-5 ст.л.",
+              "min": 4,
+              "max": 5,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "майонеза",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Соль и молотый перец по вкусу",
+            "quantity": null,
+            "name": "Соль и молотый перец",
+            "notes": "по вкусу"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Немного паприки",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "паприки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Немного свежей зелени",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "свежей зелени",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Положить яйца в кастрюлю с холодной водой, довести воду до кипения и варить 10 минут. Затем вынуть яйца из кастрюли, положить в ледяную воду и остудить.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "В зависимости от размера, натереть на мелкой терке 1-2 маринованных огурчика. Еще 1 огурчик порезать кружочками.",
+            "mediaId": "wordpress-attachment:7975"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Очистить яйца от скорлупы и разрезать вдоль пополам. Осторожно вынуть желтки из 6 яиц.",
+            "mediaId": "wordpress-attachment:7930"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Вилкой размять 6 желтков и 1 целое яйцо.",
+            "mediaId": "wordpress-attachment:7929"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Из баночки тунца слить жидкость. Размять тунец вилкой и перемешать с размятыми яйцами. Добавить натертые огурчики, майонез, соль и перец. Хорошо перемешать.",
+            "mediaId": "wordpress-attachment:7931"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Наполнить половинки белков начинкой. Посыпать паприкой, украсить зеленью и кружочками огурчика. Поставить в холодильник до подачи на стол.",
+            "mediaId": "wordpress-attachment:7934"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Если осталась лишняя начинка, ее можно намазать на хлеб.",
+            "mediaId": "wordpress-attachment:7928"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7933",
+      "sourceId": "7933",
+      "path": "/recipes/media/wordpress/7933.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7975",
+      "sourceId": "7975",
+      "path": "/recipes/media/wordpress/7975.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7930",
+      "sourceId": "7930",
+      "path": "/recipes/media/wordpress/7930.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7929",
+      "sourceId": "7929",
+      "path": "/recipes/media/wordpress/7929.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7931",
+      "sourceId": "7931",
+      "path": "/recipes/media/wordpress/7931.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7934",
+      "sourceId": "7934",
+      "path": "/recipes/media/wordpress/7934.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7928",
+      "sourceId": "7928",
+      "path": "/recipes/media/wordpress/7928.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

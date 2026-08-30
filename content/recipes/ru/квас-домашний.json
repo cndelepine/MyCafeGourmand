@@ -1,0 +1,492 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22679",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:6601",
+  "slug": "квас-домашний",
+  "source": {
+    "system": "wordpress",
+    "postId": "22679",
+    "recipeId": "22679",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%ba%d0%b2%d0%b0%d1%81-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d0%b8%d0%b9",
+    "createdAt": "2018-08-07T08:13:17+00:00",
+    "modifiedAt": "2022-07-30T19:18:21+00:00",
+    "editorialPostId": "12087",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%ba%d0%b2%d0%b0%d1%81-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d0%b8%d0%b9",
+    "editorialCreatedAt": "2018-08-07T08:13:17+00:00",
+    "editorialModifiedAt": "2022-07-30T19:18:18+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d0%ba%d0%b2%d0%b0%d1%81-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d0%b8%d0%b9/"
+  ],
+  "title": "Квас домашний",
+  "description": "Даже если вы используете засохший хлеб, все равно слегка поджарьте его в духовке или тостере. Это придаст квасу красивый золотистый цвет.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Квас. Этот летний напиток совсем нетрудно приготовить в домашних условиях. Всего несколько ингредиентов: ржаной хлеб, сухие дрожжи, сахар, немного изюма; и уже на следующий день вы сможете насладиться этим освежающим напитком. Или даже использовать домашний квас для приготовления <a href=\"https://mycafegourmand.com/ru/recipe/%d0%be%d0%ba%d1%80%d0%be%d1%88%d0%ba%d0%b0-%d1%81-%d0%ba%d0%b2%d0%b0%d1%81%d0%be%d0%bc\">окрошки</a>. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22679,\"template\":\"chic-template-russian\",\"updated\":1659208692183} -->\n<!--WPRM Recipe 22679-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Квас домашний</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38521655_10212892661013678_9176036480731054080_n.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tДаже если вы используете засохший хлеб, все равно слегка поджарьте его в духовке или тостере. Это придаст квасу красивый золотистый цвет.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 л кипяченной воды (примерно комнатной температуры)</li><li>1 стакан сахара</li><li>2 ст.л. активных сухих дрожжей</li><li>10 ломтиков ржаного хлеба</li><li>3 ст.л. изюма или чернослива ((по желанию))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Нарезать хлеб тонкими ломтиками.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38435729_10212888727075332_9070111802548813824_n.Blog_-150x150.png\"/><br /></li><li>Разогреть духовку в режиме гриль и подсушить в ней ломтики хлеба, примерно 3-4 минуты с каждой стороны.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38017344_10212888730595420_2947307052159991808_n.Blog_-150x150.png\"/><br /></li><li>Разложить хлеб по банкам, добавить в каждую банку по 1 ст.л. изюма. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38405409_10212888733955504_1625597928435351552_n.Blog_-150x150.png\"/><br /></li><li>Кипяченную воду охладить. Добавить в нее сухие дрожжи и сахар. Все хорошо перемешать и разлить по банкам. (Не наливайте воду до края, квас будет бродить и пениться).\r\nЗакрыть банки крышками или пищевой пленкой и оставить на 6-8 часов при комнатной температуре. Несколько раз за это время помешать закваску.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38294465_10212888739155634_3533455266408300544_n.Blog_-150x150.png\"/><br /></li><li>Аккуратно достать хлеб из банок, процедить квас через марлю или ситечко и разлить по бутылкам.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/39134993_1761136857318039_1995124807070384128_n.Blog_-1-150x150.png\"/><br /></li><li>Поставить в холодильник на несколько часов, чтобы квас хорошо охладился.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/38411869_10212892702134706_4819166336489881600_nc2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Напитки</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24988",
+      "sourceTaxonomyId": "24988",
+      "name": "Напитки",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25080",
+      "sourceTaxonomyId": "25080",
+      "name": "кипяченной воды",
+      "slug": "%d0%ba%d0%b8%d0%bf%d1%8f%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b9-%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25081",
+      "sourceTaxonomyId": "25081",
+      "name": "активных сухих дрожжей",
+      "slug": "%d0%b0%d0%ba%d1%82%d0%b8%d0%b2%d0%bd%d1%8b%d1%85-%d1%81%d1%83%d1%85%d0%b8%d1%85-%d0%b4%d1%80%d0%be%d0%b6%d0%b6%d0%b5%d0%b9"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25082",
+      "sourceTaxonomyId": "25082",
+      "name": "ржаного хлеба",
+      "slug": "%d1%80%d0%b6%d0%b0%d0%bd%d0%be%d0%b3%d0%be-%d1%85%d0%bb%d0%b5%d0%b1%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25083",
+      "sourceTaxonomyId": "25083",
+      "name": "изюма или чернослива",
+      "slug": "%d0%b8%d0%b7%d1%8e%d0%bc%d0%b0-%d0%b8%d0%bb%d0%b8-%d1%87%d0%b5%d1%80%d0%bd%d0%be%d1%81%d0%bb%d0%b8%d0%b2%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "116",
+      "sourceTaxonomyId": "116",
+      "name": "Напитки",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2250",
+      "sourceTaxonomyId": "2250",
+      "name": "Напитки",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%ba%d0%b8-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6628",
+      "sourceTaxonomyId": "6628",
+      "name": "кипяченной воды",
+      "slug": "%d0%ba%d0%b8%d0%bf%d1%8f%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b9-%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6630",
+      "sourceTaxonomyId": "6630",
+      "name": "активных сухих дрожжей",
+      "slug": "%d0%b0%d0%ba%d1%82%d0%b8%d0%b2%d0%bd%d1%8b%d1%85-%d1%81%d1%83%d1%85%d0%b8%d1%85-%d0%b4%d1%80%d0%be%d0%b6%d0%b6%d0%b5%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6632",
+      "sourceTaxonomyId": "6632",
+      "name": "ржаного хлеба",
+      "slug": "%d1%80%d0%b6%d0%b0%d0%bd%d0%be%d0%b3%d0%be-%d1%85%d0%bb%d0%b5%d0%b1%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6886",
+      "sourceTaxonomyId": "6886",
+      "name": "изюма или чернослива",
+      "slug": "%d0%b8%d0%b7%d1%8e%d0%bc%d0%b0-%d0%b8%d0%bb%d0%b8-%d1%87%d0%b5%d1%80%d0%bd%d0%be%d1%81%d0%bb%d0%b8%d0%b2%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2339",
+      "sourceTaxonomyId": "2339",
+      "name": "напиток",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3944",
+      "sourceTaxonomyId": "3944",
+      "name": "вкусно и полезно",
+      "slug": "%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d0%be-%d0%b8-%d0%bf%d0%be%d0%bb%d0%b5%d0%b7%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6602",
+      "sourceTaxonomyId": "6602",
+      "name": "квас домашний",
+      "slug": "%d0%ba%d0%b2%d0%b0%d1%81-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d0%b8%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6604",
+      "sourceTaxonomyId": "6604",
+      "name": "хлебный квас",
+      "slug": "%d1%85%d0%bb%d0%b5%d0%b1%d0%bd%d1%8b%d0%b9-%d0%ba%d0%b2%d0%b0%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6606",
+      "sourceTaxonomyId": "6606",
+      "name": "ржаной квас",
+      "slug": "%d1%80%d0%b6%d0%b0%d0%bd%d0%be%d0%b9-%d0%ba%d0%b2%d0%b0%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6608",
+      "sourceTaxonomyId": "6608",
+      "name": "квас из хлеба",
+      "slug": "%d0%ba%d0%b2%d0%b0%d1%81-%d0%b8%d0%b7-%d1%85%d0%bb%d0%b5%d0%b1%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6610",
+      "sourceTaxonomyId": "6610",
+      "name": "как приготовить квас дома",
+      "slug": "%d0%ba%d0%b0%d0%ba-%d0%bf%d1%80%d0%b8%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8%d1%82%d1%8c-%d0%ba%d0%b2%d0%b0%d1%81-%d0%b4%d0%be%d0%bc%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6612",
+      "sourceTaxonomyId": "6612",
+      "name": "черный хлеб",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%85%d0%bb%d0%b5%d0%b1"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6614",
+      "sourceTaxonomyId": "6614",
+      "name": "освежающий летний напиток",
+      "slug": "%d0%be%d1%81%d0%b2%d0%b5%d0%b6%d0%b0%d1%8e%d1%89%d0%b8%d0%b9-%d0%bb%d0%b5%d1%82%d0%bd%d0%b8%d0%b9-%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6616",
+      "sourceTaxonomyId": "6616",
+      "name": "для окрошки",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%be%d0%ba%d1%80%d0%be%d1%88%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6779",
+      "sourceTaxonomyId": "6779",
+      "name": "освежающий напиток",
+      "slug": "%d0%be%d1%81%d0%b2%d0%b5%d0%b6%d0%b0%d1%8e%d1%89%d0%b8%d0%b9-%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6830",
+      "sourceTaxonomyId": "6830",
+      "name": "на сухих дрожжах",
+      "slug": "%d0%bd%d0%b0-%d1%81%d1%83%d1%85%d0%b8%d1%85-%d0%b4%d1%80%d0%be%d0%b6%d0%b6%d0%b0%d1%85"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6834",
+      "sourceTaxonomyId": "6834",
+      "name": "сухой хлеб",
+      "slug": "%d1%81%d1%83%d1%85%d0%be%d0%b9-%d1%85%d0%bb%d0%b5%d0%b1"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6836",
+      "sourceTaxonomyId": "6836",
+      "name": "поджарить хлеб",
+      "slug": "%d0%bf%d0%be%d0%b4%d0%b6%d0%b0%d1%80%d0%b8%d1%82%d1%8c-%d1%85%d0%bb%d0%b5%d0%b1"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6838",
+      "sourceTaxonomyId": "6838",
+      "name": "kwas",
+      "slug": "kwas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6840",
+      "sourceTaxonomyId": "6840",
+      "name": "квас домашний из черного хлеба",
+      "slug": "%d0%ba%d0%b2%d0%b0%d1%81-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d0%b8%d0%b9-%d0%b8%d0%b7-%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%85%d0%bb%d0%b5%d0%b1%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6842",
+      "sourceTaxonomyId": "6842",
+      "name": "gira",
+      "slug": "gira-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6844",
+      "sourceTaxonomyId": "6844",
+      "name": "kvas",
+      "slug": "kvas-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6846",
+      "sourceTaxonomyId": "6846",
+      "name": "kvass",
+      "slug": "kvass-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "12 порций",
+      "value": 12,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "6",
+        "minutes": 6
+      },
+      "rest": null,
+      "total": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12047",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 л кипяченной воды примерно комнатной температуры",
+            "quantity": {
+              "raw": "3 л",
+              "value": 3,
+              "unit": "л",
+              "scalable": true
+            },
+            "name": "кипяченной воды",
+            "notes": "примерно комнатной температуры"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 стакан сахара",
+            "quantity": {
+              "raw": "1 стакан",
+              "value": 1,
+              "unit": "стакан",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 ст.л. активных сухих дрожжей",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "активных сухих дрожжей",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "10 ломтиков ржаного хлеба",
+            "quantity": {
+              "raw": "10 ломтиков",
+              "value": 10,
+              "unit": "ломтиков",
+              "scalable": true
+            },
+            "name": "ржаного хлеба",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 ст.л. изюма или чернослива (по желанию)",
+            "quantity": {
+              "raw": "3 ст.л.",
+              "value": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "изюма или чернослива",
+            "notes": "(по желанию)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Нарезать хлеб тонкими ломтиками.",
+            "mediaId": "wordpress-attachment:12046"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Разогреть духовку в режиме гриль и подсушить в ней ломтики хлеба, примерно 3-4 минуты с каждой стороны.",
+            "mediaId": "wordpress-attachment:12042"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Разложить хлеб по банкам, добавить в каждую банку по 1 ст.л. изюма.",
+            "mediaId": "wordpress-attachment:12045"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Кипяченную воду охладить. Добавить в нее сухие дрожжи и сахар. Все хорошо перемешать и разлить по банкам. (Не наливайте воду до края, квас будет бродить и пениться).\nЗакрыть банки крышками или пищевой пленкой и оставить на 6-8 часов при комнатной температуре. Несколько раз за это время помешать закваску.",
+            "mediaId": "wordpress-attachment:12043"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Аккуратно достать хлеб из банок, процедить квас через марлю или ситечко и разлить по бутылкам.",
+            "mediaId": "wordpress-attachment:12303"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Поставить в холодильник на несколько часов, чтобы квас хорошо охладился.",
+            "mediaId": "wordpress-attachment:12048"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12047",
+      "sourceId": "12047",
+      "path": "/recipes/media/wordpress/12047.png",
+      "alt": null,
+      "width": 800,
+      "height": 784
+    },
+    {
+      "id": "wordpress-attachment:12046",
+      "sourceId": "12046",
+      "path": "/recipes/media/wordpress/12046.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:12042",
+      "sourceId": "12042",
+      "path": "/recipes/media/wordpress/12042.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12045",
+      "sourceId": "12045",
+      "path": "/recipes/media/wordpress/12045.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12043",
+      "sourceId": "12043",
+      "path": "/recipes/media/wordpress/12043.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12303",
+      "sourceId": "12303",
+      "path": "/recipes/media/wordpress/12303.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:12048",
+      "sourceId": "12048",
+      "path": "/recipes/media/wordpress/12048.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21502",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:22849",
+  "slug": "lemon-infused-vodka",
+  "source": {
+    "system": "wordpress",
+    "postId": "21502",
+    "recipeId": "21502",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-lemon-infused-vodka",
+    "createdAt": "2019-12-03T03:25:16+00:00",
+    "modifiedAt": "2021-03-15T23:48:16+00:00",
+    "editorialPostId": "19148",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "lemon-infused-vodka",
+    "editorialCreatedAt": "2019-12-03T03:25:16+00:00",
+    "editorialModifiedAt": "2021-03-15T23:48:14+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/lemon-infused-vodka/"
+  ],
+  "title": "Lemon Infused Vodka",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This is my home-made lemon infused vodka. This strong alcoholic drink has a pleasant lemon aroma. You can either drink on its own or use it to make <a href=\"https://mycafegourmand.com/recipes/drinks/\">cocktails</a>. Please consume with moderation. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21502,\"template\":\"chic-template-english\",\"updated\":1615851944019} -->\n<!--WPRM Recipe 21502-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Lemon Infused Vodka</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_2084-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 organic lemon</li><li>1 tsp sugar</li><li>1/2 l vodka</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peel the lemon then slice it.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_4413.Blog_-150x150.png\"/><br /></li><li>Place the lemon slices into the jar then add sugar and vodka.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_4445.Blog_-150x150.png\"/><br /></li><li>Cover and keep 7 days at room temperature, out of direct sunlight. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_4452.Blog_-150x150.png\"/><br /></li><li>Discard the lemon slices, strain the infused vodka thru a fine mesh. Transfer vodka into a bottle.  Serve chilled or use for the cocktail.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_2084-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Drinks</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23539",
+      "sourceTaxonomyId": "23539",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24336",
+      "sourceTaxonomyId": "24336",
+      "name": "organic lemon",
+      "slug": "organic-lemon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24337",
+      "sourceTaxonomyId": "24337",
+      "name": "vodka",
+      "slug": "vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "112",
+      "sourceTaxonomyId": "112",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1694",
+      "sourceTaxonomyId": "1694",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2372",
+      "sourceTaxonomyId": "2372",
+      "name": "vodka",
+      "slug": "vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "22864",
+      "sourceTaxonomyId": "22864",
+      "name": "organic lemon",
+      "slug": "organic-lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1584",
+      "sourceTaxonomyId": "1584",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2382",
+      "sourceTaxonomyId": "2382",
+      "name": "alcohol",
+      "slug": "alcohol"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "12",
+        "minutes": 12
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19087",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 organic lemon",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "organic lemon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 tsp sugar",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 l vodka",
+            "quantity": {
+              "raw": "1/2 l",
+              "value": 0.5,
+              "unit": "l",
+              "scalable": true
+            },
+            "name": "vodka",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel the lemon then slice it.",
+            "mediaId": "wordpress-attachment:15282"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Place the lemon slices into the jar then add sugar and vodka.",
+            "mediaId": "wordpress-attachment:15283"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cover and keep 7 days at room temperature, out of direct sunlight.",
+            "mediaId": "wordpress-attachment:15284"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Discard the lemon slices, strain the infused vodka thru a fine mesh. Transfer vodka into a bottle. Serve chilled or use for the cocktail.",
+            "mediaId": "wordpress-attachment:19087"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19087",
+      "sourceId": "19087",
+      "path": "/recipes/media/wordpress/19087.png",
+      "alt": null,
+      "width": 800,
+      "height": 544
+    },
+    {
+      "id": "wordpress-attachment:15282",
+      "sourceId": "15282",
+      "path": "/recipes/media/wordpress/15282.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15283",
+      "sourceId": "15283",
+      "path": "/recipes/media/wordpress/15283.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:15284",
+      "sourceId": "15284",
+      "path": "/recipes/media/wordpress/15284.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22142",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:15787",
+  "slug": "salade-de-kale-avec-avocat-et-mangue",
+  "source": {
+    "system": "wordpress",
+    "postId": "22142",
+    "recipeId": "22142",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-de-kale-avec-avocat-et-mangue",
+    "createdAt": "2018-06-02T04:27:00+00:00",
+    "modifiedAt": "2022-07-30T19:13:52+00:00",
+    "editorialPostId": "17356",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-de-kale-avec-avocat-et-mangue",
+    "editorialCreatedAt": "2018-06-02T04:27:00+00:00",
+    "editorialModifiedAt": "2022-07-30T19:13:50+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/salade-de-kale-avec-avocat-et-mangue/"
+  ],
+  "title": "Salade de kale avec avocat et mangue",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le chou frisé kale devient de plus en plus populaire dans les recettes santé. Très riche en vitamines et minéraux, il est peu calorique et très facile à marier avec d'autres légumes ou fruits. Dans cette recette, l'avocat apporte sa texture onctueuse. La mangue donne un peu d'acidité pour contrarier le gout légèrement sucré de la vinaigrette dans laquelle on ajoute le miel. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22142,\"template\":\"chic-template-french\",\"updated\":1607918081630} -->\n<!--WPRM Recipe 22142-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade de kale avec avocat et mangue</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_164854.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Салат</h4><ul><li>200 g de chou kale</li><li>1 cuillère à soupe d'huile d'olive</li><li>1 avocat bien mûr</li><li>1 mangue</li><li>1/2 oignon (rouge)</li><li>1/4 de bouquet de coriandre fraiche</li><li>Un peu de fromage râpé ((facultatif))</li></ul><h4>Vinaigrette </h4><ul><li>2 cuillères à soupe de jus de clémentine (ou orange) fraîchement pressé</li><li>1 cuillère à café de miel</li><li>1 cuillère à café de moutarde de Dijon</li><li>2 cuillères à soupe d'huile d'olive</li><li>Sel et poivre du moulin</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préparer tous les ingrédients.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_154946.Blog_-150x150.png\"/><br /></li><li>Couper finement les feuilles de kale, les mettre dans une grande saladier, saler un peu et arroser avec 1 cuillère à soupe d'huile olive. Malaxer avec les mains pour attendrir les feuilles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_163530.Blog_-150x150.png\"/><br /></li><li>Peler la mangue, retirer le noyau et couper la chair en cubes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_161149.Blog_-150x150.png\"/><br /></li><li>Eplucher l'oignon et le couper en fines lamelles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/61163496_2332340033710698_8219271436817137664_n.Blog_-150x150.png\"/><br /></li><li>Couper l'avocat en deux dans la longueur, et retirer le noyau. Sans retirer la peau d'avocat, faire des incisions puis retirer les lamelles à l'aide d'une cuillère à soupe.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190601_141200.Blog_-150x150.png\"/><br /></li><li>Ciseler la coriandre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190602_141005.Blog_-150x150.png\"/><br /></li><li>Presser le jus de clémentine (ou orange) dans un bol, ajouter le miel, la moutarde, l'huile d'olive, le sel et poivre. Bien mélanger pour obtenir une vinaigrette.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_160233.Blog_-1-150x150.png\"/><br /></li><li>Arroser la salade de sauce, mélanger délicatement, saupoudrer de fromage et servir aussi tôt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/05/20190521_164341.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24488",
+      "sourceTaxonomyId": "24488",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24545",
+      "sourceTaxonomyId": "24545",
+      "name": "de coriandre fraiche",
+      "slug": "de-coriandre-fraiche"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24574",
+      "sourceTaxonomyId": "24574",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24642",
+      "sourceTaxonomyId": "24642",
+      "name": "de miel",
+      "slug": "de-miel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24752",
+      "sourceTaxonomyId": "24752",
+      "name": "de chou kale",
+      "slug": "de-chou-kale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24753",
+      "sourceTaxonomyId": "24753",
+      "name": "avocat bien mûr",
+      "slug": "avocat-bien-mur"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24754",
+      "sourceTaxonomyId": "24754",
+      "name": "mangue",
+      "slug": "mangue"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24755",
+      "sourceTaxonomyId": "24755",
+      "name": "de jus de clémentine (ou orange) fraîchement pressé",
+      "slug": "de-jus-de-clementine-ou-orange-fraichement-presse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24756",
+      "sourceTaxonomyId": "24756",
+      "name": "de moutarde de Dijon",
+      "slug": "de-moutarde-de-dijon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "531",
+      "sourceTaxonomyId": "531",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2147",
+      "sourceTaxonomyId": "2147",
+      "name": "de coriandre fraiche",
+      "slug": "de-coriandre-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5824",
+      "sourceTaxonomyId": "5824",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16378",
+      "sourceTaxonomyId": "16378",
+      "name": "de chou kale",
+      "slug": "de-chou-kale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16380",
+      "sourceTaxonomyId": "16380",
+      "name": "mangue",
+      "slug": "mangue"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16382",
+      "sourceTaxonomyId": "16382",
+      "name": "de jus de clémentine (ou orange) fraîchement pressé",
+      "slug": "de-jus-de-clementine-ou-orange-fraichement-presse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16384",
+      "sourceTaxonomyId": "16384",
+      "name": "de miel",
+      "slug": "de-miel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16386",
+      "sourceTaxonomyId": "16386",
+      "name": "de moutarde de Dijon",
+      "slug": "de-moutarde-de-dijon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16458",
+      "sourceTaxonomyId": "16458",
+      "name": "avocat bien mûr",
+      "slug": "avocat-bien-mur"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2157",
+      "sourceTaxonomyId": "2157",
+      "name": "avocat",
+      "slug": "avocat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3477",
+      "sourceTaxonomyId": "3477",
+      "name": "sans oeuf",
+      "slug": "sans-oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17295",
+    "ingredientGroups": [
+      {
+        "name": "Салат",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g de chou kale",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chou kale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cuillère à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 avocat bien mûr",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "avocat bien mûr",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 mangue",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "mangue",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 oignon (rouge)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon (rouge)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/4 de bouquet de coriandre fraiche",
+            "quantity": {
+              "raw": "1/4 de bouquet",
+              "value": 0.25,
+              "unit": "de bouquet",
+              "scalable": true
+            },
+            "name": "de coriandre fraiche",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Un peu de fromage râpé (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de fromage râpé",
+            "notes": "(facultatif)"
+          }
+        ]
+      },
+      {
+        "name": "Vinaigrette",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 cuillères à soupe de jus de clémentine (ou orange) fraîchement pressé",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de jus de clémentine (ou orange) fraîchement pressé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cuillère à café de miel",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de miel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cuillère à café de moutarde de Dijon",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de moutarde de Dijon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 cuillères à soupe d'huile d'olive",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préparer tous les ingrédients.",
+            "mediaId": "wordpress-attachment:17098"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper finement les feuilles de kale, les mettre dans une grande saladier, saler un peu et arroser avec 1 cuillère à soupe d'huile olive. Malaxer avec les mains pour attendrir les feuilles.",
+            "mediaId": "wordpress-attachment:17099"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peler la mangue, retirer le noyau et couper la chair en cubes.",
+            "mediaId": "wordpress-attachment:17100"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Eplucher l'oignon et le couper en fines lamelles.",
+            "mediaId": "wordpress-attachment:17187"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couper l'avocat en deux dans la longueur, et retirer le noyau. Sans retirer la peau d'avocat, faire des incisions puis retirer les lamelles à l'aide d'une cuillère à soupe.",
+            "mediaId": "wordpress-attachment:17395"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Ciseler la coriandre.",
+            "mediaId": "wordpress-attachment:17396"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Presser le jus de clémentine (ou orange) dans un bol, ajouter le miel, la moutarde, l'huile d'olive, le sel et poivre. Bien mélanger pour obtenir une vinaigrette.",
+            "mediaId": "wordpress-attachment:17104"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Arroser la salade de sauce, mélanger délicatement, saupoudrer de fromage et servir aussi tôt.",
+            "mediaId": "wordpress-attachment:17103"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17295",
+      "sourceId": "17295",
+      "path": "/recipes/media/wordpress/17295.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17098",
+      "sourceId": "17098",
+      "path": "/recipes/media/wordpress/17098.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17099",
+      "sourceId": "17099",
+      "path": "/recipes/media/wordpress/17099.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17100",
+      "sourceId": "17100",
+      "path": "/recipes/media/wordpress/17100.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17187",
+      "sourceId": "17187",
+      "path": "/recipes/media/wordpress/17187.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17395",
+      "sourceId": "17395",
+      "path": "/recipes/media/wordpress/17395.png",
+      "alt": null,
+      "width": 591,
+      "height": 787
+    },
+    {
+      "id": "wordpress-attachment:17396",
+      "sourceId": "17396",
+      "path": "/recipes/media/wordpress/17396.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17104",
+      "sourceId": "17104",
+      "path": "/recipes/media/wordpress/17104.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:17103",
+      "sourceId": "17103",
+      "path": "/recipes/media/wordpress/17103.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

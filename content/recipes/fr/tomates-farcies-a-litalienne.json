@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:24390",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:25430",
+  "slug": "tomates-farcies-a-litalienne",
+  "source": {
+    "system": "wordpress",
+    "postId": "24390",
+    "recipeId": "24390",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tomates-farcies-a-litalienne",
+    "createdAt": "2018-11-28T06:22:00+00:00",
+    "modifiedAt": "2022-11-23T00:32:31+00:00",
+    "editorialPostId": "24389",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tomates-farcies-a-litalienne",
+    "editorialCreatedAt": "2018-11-28T06:22:00+00:00",
+    "editorialModifiedAt": "2022-06-19T19:50:15+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/tomates-farcies-a-litalienne/"
+  ],
+  "title": "Tomates farcies à l'italienne",
+  "description": "Une recette succulente, trouvée dans un livre de cuisine italienne (Délices d'Italie de Loukie Werle). Les tomates sont farcies de riz et de basilic puis cuites au four sur un lit de pommes de terre. Une recette qui plaira à tous, végétarien ou pas.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une délicieuse recette végétarienne. Les tomates sont farcies au riz et basilic puis cuites au four sur un lit de pommes de terre.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":24390,\"template\":\"chic-template-french\",\"updated\":1638081336292} -->\n<!--WPRM Recipe 24390-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tomates farcies à l'italienne</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2021/11/IMG_3622.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Une recette succulente, trouvée dans un livre de cuisine italienne (Délices d&#039;Italie de Loukie Werle). Les tomates sont farcies de riz et de basilic puis cuites au four sur un lit de pommes de terre. Une recette qui plaira à tous, végétarien ou pas.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>100 g de riz Arborio cuit al dente</li><li>4 pommes de terre cuites en robe de chambre</li><li>Sel et poivre du moulin</li><li>1 poignée  de basilic et persil</li><li>1 gousse d&#039;ail</li><li>4 grosses tomates</li><li>1 filet d&#039;huile dolive</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Cuire les pommes de terre en robe de chambre. </p></li><li><p>Faire cuire le riz al dente.</p></li><li><p>Couper les pommes de terre cuites en rondelles et les placer dans un plat en une seule couche. Saler, poivrer et arroser d&#039;huile d&#039;olive.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/11/IMG_3597.Blog_-150x150.png\"/><br /></li><li><p>Mélanger les riz avec le basilic. Ajouter la gousse d&#039;ail écrasée. Saler et poivrer.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/11/IMG_3600.Blog_-150x150.png\"/><br /></li><li><p>Couper le chapeau des tomates et les évider. Garder le jus de tomates pour plus tard.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/11/IMG_3607.Blog_-150x150.png\"/><br /></li><li><p>Remplir les tomates avec le riz. Arroser chaque tomate avec 2-3 cuillères à soupe de jus de tomate. Couvrir avec le chapeau, poser dans le plat sur les pommes de terre.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/11/IMG_3611.Blog_-150x150.png\"/><br /></li><li><p>Faire cuire au four prechauffé à 190C pendant environ 30 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/11/IMG_3616.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian, Italien</div><div class=\"wprm-fallback-recipe-meta-keyword\">tomates farcies</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23541",
+      "sourceTaxonomyId": "23541",
+      "name": "Italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "25483",
+      "sourceTaxonomyId": "25483",
+      "name": "Italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25421",
+      "sourceTaxonomyId": "25421",
+      "name": "pommes de terre cuites en robe de chambre",
+      "slug": "pommes-de-terre-cuites-en-robe-de-chambre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25442",
+      "sourceTaxonomyId": "25442",
+      "name": "de riz Arborio cuit al dente",
+      "slug": "de-riz-arborio-cuit-al-dente"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25443",
+      "sourceTaxonomyId": "25443",
+      "name": "de basilic et persil",
+      "slug": "de-basilic-et-persil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25450",
+      "sourceTaxonomyId": "25450",
+      "name": "grosses tomates",
+      "slug": "grosses-tomates"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25422",
+      "sourceTaxonomyId": "25422",
+      "name": "poignee",
+      "slug": "poignee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25423",
+      "sourceTaxonomyId": "25423",
+      "name": "gousse",
+      "slug": "gousse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25424",
+      "sourceTaxonomyId": "25424",
+      "name": "filet",
+      "slug": "filet"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25484",
+      "sourceTaxonomyId": "25484",
+      "name": "tomates farcies",
+      "slug": "tomates-farcies"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "5",
+        "value": 5
+      },
+      "servingSize": null,
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:24399",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 g de riz Arborio cuit al dente",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de riz Arborio cuit al dente",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 pommes de terre cuites en robe de chambre",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pommes de terre cuites en robe de chambre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 poignée de basilic et persil",
+            "quantity": {
+              "raw": "1 poignée",
+              "value": 1,
+              "unit": "poignée",
+              "scalable": true
+            },
+            "name": "de basilic et persil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 gousse d'ail",
+            "quantity": {
+              "raw": "1 gousse",
+              "value": 1,
+              "unit": "gousse",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 grosses tomates",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "grosses tomates",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 filet d'huile d'olive",
+            "quantity": {
+              "raw": "1 filet",
+              "value": 1,
+              "unit": "filet",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cuire les pommes de terre en robe de chambre.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Faire cuire le riz al dente.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper les pommes de terre cuites en rondelles et les placer dans un plat en une seule couche. Saler, poivrer et arroser d'huile d'olive.",
+            "mediaId": "wordpress-attachment:24394"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Mélanger les riz avec le basilic. Ajouter la gousse d'ail écrasée. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:24395"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couper le chapeau des tomates et les évider. Garder le jus de tomates pour plus tard.",
+            "mediaId": "wordpress-attachment:24396"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Remplir les tomates avec le riz. Arroser chaque tomate avec 2-3 cuillères à soupe de jus de tomate. Couvrir avec le chapeau, poser dans le plat sur les pommes de terre.",
+            "mediaId": "wordpress-attachment:24397"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Faire cuire au four prechauffé à 190C pendant environ 30 minutes.",
+            "mediaId": "wordpress-attachment:24398"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:24399",
+      "sourceId": "24399",
+      "path": "/recipes/media/wordpress/24399.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24394",
+      "sourceId": "24394",
+      "path": "/recipes/media/wordpress/24394.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24395",
+      "sourceId": "24395",
+      "path": "/recipes/media/wordpress/24395.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24396",
+      "sourceId": "24396",
+      "path": "/recipes/media/wordpress/24396.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24397",
+      "sourceId": "24397",
+      "path": "/recipes/media/wordpress/24397.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:24398",
+      "sourceId": "24398",
+      "path": "/recipes/media/wordpress/24398.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

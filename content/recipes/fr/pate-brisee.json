@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21861",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:7011",
+  "slug": "pate-brisee",
+  "source": {
+    "system": "wordpress",
+    "postId": "21861",
+    "recipeId": "21861",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pate-brisee",
+    "createdAt": "2018-01-21T05:59:10+00:00",
+    "modifiedAt": "2022-06-26T23:57:45+00:00",
+    "editorialPostId": "12416",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pate-brisee",
+    "editorialCreatedAt": "2018-01-21T05:59:10+00:00",
+    "editorialModifiedAt": "2022-06-26T23:57:43+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/pate-brisee/"
+  ],
+  "title": "Pâte brisée",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La pâte brisée est la base de très nombreux plats :&nbsp;quiches, tourtes, <a href=\"https://mycafegourmand.com/fr/recipe/tarte-facile-au-chocolat-noir\">tartes</a> et tartеlettes. Elle est très facile à réaliser à la maison et peut se conserver au congélateur pendant quelques mois.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21861,\"template\":\"chic-template-french\",\"updated\":1614553431882} -->\n<!--WPRM Recipe 21861-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pâte brisée</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1427-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>240 g  de farine tamisée</li><li>2-3 pincées de sel</li><li>125 g de beurre mou</li><li>1 jaunes d'œufs</li><li>2-3 cuillères à soupe d'eau</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Sur le plan de travail ou dans un saladier, verser la farine, ajouter le sel et les morceaux de beurre ramolli.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1421.Blog_-150x150.png\"/><br /></li><li>Travailler la farine et le beurre avec les doigts afin d'obtenir un mélange sablonneux. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1422.Blog_-150x150.png\"/><br /></li><li>Ajouter le jaune œuf et un peu d'eau. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1423.Blog_-150x150.png\"/><br /></li><li>Travailler la pâte jusqu'à obtenir une boule compacte et homogène.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1424.Blog_-150x150.png\"/><br /></li><li>Couvrir la pâte d'un film alimentaire et la laisser reposer pendant une heure au réfrigérateur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1428.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 180°C (thermostat 6). Étaler la pâte entre 2 feuilles de papier sulfurisé. La placer dans un moule. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1337.Blog_-150x150.png\"/><br /></li><li>Piquer toute la surface avec une fourchette.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1436.Blog_-150x150.png\"/><br /></li><li>Faire cuire à blanc au four pendant environ 10-15 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1442.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24319",
+      "sourceTaxonomyId": "24319",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24577",
+      "sourceTaxonomyId": "24577",
+      "name": "de beurre mou",
+      "slug": "de-beurre-mou"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24578",
+      "sourceTaxonomyId": "24578",
+      "name": "jaunes d'œufs",
+      "slug": "jaunes-doeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "378",
+      "sourceTaxonomyId": "378",
+      "name": "jaunes d'œufs",
+      "slug": "jaunes-doeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3996",
+      "sourceTaxonomyId": "3996",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7007",
+      "sourceTaxonomyId": "7007",
+      "name": "de beurre mou",
+      "slug": "de-beurre-mou"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1292",
+      "sourceTaxonomyId": "1292",
+      "name": "gateau",
+      "slug": "gateau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2939",
+      "sourceTaxonomyId": "2939",
+      "name": "gouter",
+      "slug": "gouter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2951",
+      "sourceTaxonomyId": "2951",
+      "name": "entree",
+      "slug": "entree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3041",
+      "sourceTaxonomyId": "3041",
+      "name": "jaune d'oeuf",
+      "slug": "jaune-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3271",
+      "sourceTaxonomyId": "3271",
+      "name": "farine",
+      "slug": "farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6952",
+      "sourceTaxonomyId": "6952",
+      "name": "pate brisee",
+      "slug": "pate-brisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6995",
+      "sourceTaxonomyId": "6995",
+      "name": "beurre mou",
+      "slug": "beurre-mou"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6997",
+      "sourceTaxonomyId": "6997",
+      "name": "beurre ramolli",
+      "slug": "beurre-ramolli"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6999",
+      "sourceTaxonomyId": "6999",
+      "name": "sans sucre",
+      "slug": "sans-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7001",
+      "sourceTaxonomyId": "7001",
+      "name": "pour utiliser un jaune d'oeuf",
+      "slug": "pour-utiliser-un-jaune-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7003",
+      "sourceTaxonomyId": "7003",
+      "name": "fond de tarte",
+      "slug": "fond-de-tarte"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7005",
+      "sourceTaxonomyId": "7005",
+      "name": "fond de quiche",
+      "slug": "fond-de-quiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7009",
+      "sourceTaxonomyId": "7009",
+      "name": "pate fait maison",
+      "slug": "pate-fait-maison"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "11",
+        "minutes": 11
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12423",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "240 g de farine tamisée",
+            "quantity": {
+              "raw": "240 g",
+              "value": 240,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine tamisée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2-3 pincées de sel",
+            "quantity": {
+              "raw": "2-3 pincées",
+              "min": 2,
+              "max": 3,
+              "unit": "pincées",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "125 g de beurre mou",
+            "quantity": {
+              "raw": "125 g",
+              "value": 125,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre mou",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 jaunes d'œufs",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jaunes d'œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2-3 cuillères à soupe d'eau",
+            "quantity": {
+              "raw": "2-3 cuillères à soupe",
+              "min": 2,
+              "max": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Sur le plan de travail ou dans un saladier, verser la farine, ajouter le sel et les morceaux de beurre ramolli.",
+            "mediaId": "wordpress-attachment:12419"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Travailler la farine et le beurre avec les doigts afin d'obtenir un mélange sablonneux.",
+            "mediaId": "wordpress-attachment:12420"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter le jaune œuf et un peu d'eau.",
+            "mediaId": "wordpress-attachment:12421"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Travailler la pâte jusqu'à obtenir une boule compacte et homogène.",
+            "mediaId": "wordpress-attachment:12422"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couvrir la pâte d'un film alimentaire et la laisser reposer pendant une heure au réfrigérateur.",
+            "mediaId": "wordpress-attachment:12424"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Étaler la pâte entre 2 feuilles de papier sulfurisé. La placer dans un moule.",
+            "mediaId": "wordpress-attachment:12418"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Piquer toute la surface avec une fourchette.",
+            "mediaId": "wordpress-attachment:12425"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Faire cuire à blanc au four pendant environ 10-15 minutes.",
+            "mediaId": "wordpress-attachment:12426"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12423",
+      "sourceId": "12423",
+      "path": "/recipes/media/wordpress/12423.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12419",
+      "sourceId": "12419",
+      "path": "/recipes/media/wordpress/12419.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12420",
+      "sourceId": "12420",
+      "path": "/recipes/media/wordpress/12420.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12421",
+      "sourceId": "12421",
+      "path": "/recipes/media/wordpress/12421.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12422",
+      "sourceId": "12422",
+      "path": "/recipes/media/wordpress/12422.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12424",
+      "sourceId": "12424",
+      "path": "/recipes/media/wordpress/12424.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12418",
+      "sourceId": "12418",
+      "path": "/recipes/media/wordpress/12418.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12425",
+      "sourceId": "12425",
+      "path": "/recipes/media/wordpress/12425.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12426",
+      "sourceId": "12426",
+      "path": "/recipes/media/wordpress/12426.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22270",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:7376",
+  "slug": "salade-guyanaise-de-mangues-vertes-kalawang",
+  "source": {
+    "system": "wordpress",
+    "postId": "22270",
+    "recipeId": "22270",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-guyanaise-de-mangues-vertes-%d0%baalawang",
+    "createdAt": "2021-03-27T00:54:00+00:00",
+    "modifiedAt": "2022-07-30T20:50:13+00:00",
+    "editorialPostId": "12751",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-guyanaise-de-mangues-vertes-kalawang",
+    "editorialCreatedAt": "2021-03-27T00:54:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:50:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/salade-guyanaise-de-mangues-vertes-kalawang/",
+    "/fr/salade-guyanaise-de-mangues-vertes-%d0%baalawang/"
+  ],
+  "title": "Salade guyanaise de mangues vertes (Кalawang)",
+  "description": "Le piment oiseau peut être remplacé par le piment de Cayenne en poudre.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les mangues vertes (pas mûres) peuvent&nbsp;être mangées et c'est&nbsp;très bon ! Par exemple, cette salade de mangues vertes râpées qui est très populaire en Guyane. Si vous aimez les plats épicés, vous allez l'adorer.&nbsp;À servir bien frais comme un apéritif ou pour accompagner du poisson, des crevettes ou de la viande... Pour une jolie présentation, je sers le&nbsp;Кalawang dans des assiettes individuelles avec des crevettes cuites et <span data-original=\"20 crevettes cuites, décortiquées\"><span id=\":s5.13\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">déjà</span> décortiquées</span>.&nbsp;</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22270,\"template\":\"chic-template-french\",\"updated\":1616954255480} -->\n<!--WPRM Recipe 22270-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade guyanaise de mangues vertes (Кalawang)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_9924.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLe piment oiseau peut être remplacé par le piment de Cayenne en poudre.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 mangues pas mûres</li><li>1/2 oignon (émincé)</li><li>2 gousses d'ail (écrasées)</li><li>1/2 piment oiseau (piment rouge) (émincé )</li><li>Sel et poivre du moulin</li><li>3 cuillères à soupe de jus de citron ((ou citron vert))</li><li>3 cuillères à soupe d'huile végétale</li><li>Un peu d'herbes fraiches (pour la décoration)</li><li>24 crevettes cuites et décortiquées</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Éplucher les mangues à l'aide d'un couteau économe. Râper la chair, jeter le noyau. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_9917.Blog_-150x150.png\"/><br /></li><li>Dans un saladier, mélanger les mangues, l'oignon, l'ail et le piment. Saler, poivrer. Arroser de jus de citron et d'huile. Couvrir avec un film plastique et laisser reposer au réfrigérateur pendant 2-3 heures. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_9921.Blog_-150x150.png\"/><br /></li><li>Au moment de servir, répartir dans des assiettes, saupoudrer d'herbes ciselées et agrémenter avec des crevettes cuites et décortiquées.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_9927.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24304",
+      "sourceTaxonomyId": "24304",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24468",
+      "sourceTaxonomyId": "24468",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24817",
+      "sourceTaxonomyId": "24817",
+      "name": "mangues pas mûres",
+      "slug": "mangues-pas-mures"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24818",
+      "sourceTaxonomyId": "24818",
+      "name": "piment oiseau (piment rouge)",
+      "slug": "piment-oiseau-piment-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24819",
+      "sourceTaxonomyId": "24819",
+      "name": "d'herbes fraiches",
+      "slug": "dherbes-fraiches"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24820",
+      "sourceTaxonomyId": "24820",
+      "name": "crevettes cuites et décortiquées",
+      "slug": "crevettes-cuites-et-decortiquees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "938",
+      "sourceTaxonomyId": "938",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1893",
+      "sourceTaxonomyId": "1893",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7401",
+      "sourceTaxonomyId": "7401",
+      "name": "mangues pas mûres",
+      "slug": "mangues-pas-mures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7405",
+      "sourceTaxonomyId": "7405",
+      "name": "piment oiseau (piment rouge)",
+      "slug": "piment-oiseau-piment-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7407",
+      "sourceTaxonomyId": "7407",
+      "name": "d'herbes fraiches",
+      "slug": "dherbes-fraiches"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7409",
+      "sourceTaxonomyId": "7409",
+      "name": "crevettes cuites et décortiquées",
+      "slug": "crevettes-cuites-et-decortiquees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3284",
+      "sourceTaxonomyId": "3284",
+      "name": "tres epice",
+      "slug": "tres-epice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7377",
+      "sourceTaxonomyId": "7377",
+      "name": "exotique",
+      "slug": "exotique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7379",
+      "sourceTaxonomyId": "7379",
+      "name": "fruit tropicale",
+      "slug": "fruit-tropicale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7381",
+      "sourceTaxonomyId": "7381",
+      "name": "salade guyanaise",
+      "slug": "salade-guyanaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7383",
+      "sourceTaxonomyId": "7383",
+      "name": "Guyanne",
+      "slug": "guyanne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7389",
+      "sourceTaxonomyId": "7389",
+      "name": "crevettes cuites",
+      "slug": "crevettes-cuites"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7391",
+      "sourceTaxonomyId": "7391",
+      "name": "piment oiseau",
+      "slug": "piment-oiseau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7395",
+      "sourceTaxonomyId": "7395",
+      "name": "jolie presentation",
+      "slug": "jolie-presentation"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7397",
+      "sourceTaxonomyId": "7397",
+      "name": "kalawang",
+      "slug": "kalawang-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7399",
+      "sourceTaxonomyId": "7399",
+      "name": "Kalawangue",
+      "slug": "kalawangue-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7413",
+      "sourceTaxonomyId": "7413",
+      "name": "fruit pas mur peut etre mange",
+      "slug": "fruit-pas-mur-peut-etre-mange"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7415",
+      "sourceTaxonomyId": "7415",
+      "name": "quoi faire avec mangue verte",
+      "slug": "quoi-faire-avec-mangue-verte"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "12",
+        "minutes": 12
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12740",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 mangues pas mûres",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "mangues pas mûres",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 oignon émincé",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "émincé"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 gousses d'ail écrasées",
+            "quantity": {
+              "raw": "2 gousses",
+              "value": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "écrasées"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 piment oiseau (piment rouge) émincé",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "piment oiseau (piment rouge)",
+            "notes": "émincé"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 cuillères à soupe de jus de citron (ou citron vert)",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de jus de citron",
+            "notes": "(ou citron vert)"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "3 cuillères à soupe d'huile végétale",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile végétale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Un peu d'herbes fraiches pour la décoration",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "d'herbes fraiches",
+            "notes": "pour la décoration"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "24 crevettes cuites et décortiquées",
+            "quantity": {
+              "raw": "24",
+              "value": 24,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "crevettes cuites et décortiquées",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Éplucher les mangues à l'aide d'un couteau économe. Râper la chair, jeter le noyau.",
+            "mediaId": "wordpress-attachment:12738"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un saladier, mélanger les mangues, l'oignon, l'ail et le piment. Saler, poivrer. Arroser de jus de citron et d'huile. Couvrir avec un film plastique et laisser reposer au réfrigérateur pendant 2-3 heures.",
+            "mediaId": "wordpress-attachment:12739"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Au moment de servir, répartir dans des assiettes, saupoudrer d'herbes ciselées et agrémenter avec des crevettes cuites et décortiquées.",
+            "mediaId": "wordpress-attachment:12741"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12740",
+      "sourceId": "12740",
+      "path": "/recipes/media/wordpress/12740.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12738",
+      "sourceId": "12738",
+      "path": "/recipes/media/wordpress/12738.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12739",
+      "sourceId": "12739",
+      "path": "/recipes/media/wordpress/12739.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12741",
+      "sourceId": "12741",
+      "path": "/recipes/media/wordpress/12741.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,1579 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-gallery-media-manifest",
+  "entries": [
+    {
+      "key": "/editorial/media/wordpress/15.jpg",
+      "bytes": 41893,
+      "sha256": "b4bc184f54d296c17604d00e42b980c8c6413b9a0d7a8be7428735f95463365f",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 15
+      },
+      "width": 900,
+      "height": 600
+    },
+    {
+      "key": "/editorial/media/wordpress/169.jpg",
+      "bytes": 402400,
+      "sha256": "98b8f5aae6a0e2e66897d08e70179f4a4265f79d8590bdc6663c30db5127e32b",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 169
+      },
+      "width": 2560,
+      "height": 1707
+    },
+    {
+      "key": "/editorial/media/wordpress/494.png",
+      "bytes": 722312,
+      "sha256": "d02ebb6349364f0781b33fc21df44b7a85ed7941df0dfa26c7ba239c64fc2fc8",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 494
+      },
+      "width": 592,
+      "height": 800
+    },
+    {
+      "key": "/editorial/media/wordpress/496.png",
+      "bytes": 722312,
+      "sha256": "d02ebb6349364f0781b33fc21df44b7a85ed7941df0dfa26c7ba239c64fc2fc8",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 496
+      },
+      "width": 592,
+      "height": 800
+    },
+    {
+      "key": "/editorial/media/wordpress/497.png",
+      "bytes": 722312,
+      "sha256": "d02ebb6349364f0781b33fc21df44b7a85ed7941df0dfa26c7ba239c64fc2fc8",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 497
+      },
+      "width": 592,
+      "height": 800
+    },
+    {
+      "key": "/editorial/media/wordpress/687.jpg",
+      "bytes": 402400,
+      "sha256": "98b8f5aae6a0e2e66897d08e70179f4a4265f79d8590bdc6663c30db5127e32b",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 687
+      },
+      "width": 2560,
+      "height": 1707
+    },
+    {
+      "key": "/editorial/media/wordpress/688.jpg",
+      "bytes": 402400,
+      "sha256": "98b8f5aae6a0e2e66897d08e70179f4a4265f79d8590bdc6663c30db5127e32b",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 688
+      },
+      "width": 2560,
+      "height": 1707
+    },
+    {
+      "key": "/editorial/media/wordpress/81.jpg",
+      "bytes": 514517,
+      "sha256": "39a48b14a1d14869188193d184ab9d79fc729d3f8a36dd525e42d01eab096602",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 81
+      },
+      "width": 1920,
+      "height": 2560
+    },
+    {
+      "key": "/editorial/media/wordpress/90.jpg",
+      "bytes": 795265,
+      "sha256": "4e3f41102f0352e408431413ee21fbff14f738d5bc1cdda07a8c201f7896764e",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 90
+      },
+      "width": 1920,
+      "height": 2560
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/1-original.png",
+      "bytes": 894621,
+      "sha256": "4e953ad6c823b7be9c0358eff5a6ad82d2570fd308ded6ddd4bb73db2fc24270",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 1
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/1-thumbnail.png",
+      "bytes": 259459,
+      "sha256": "de728b15106e976bdd7a6c6a56f711330fc89f68abd1a47728a5a27637f9fa5f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 1
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/10-original.png",
+      "bytes": 1057758,
+      "sha256": "a40994322e82b94668ee128454231b9af376a94aca28560339cfe9629e8365c2",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 10
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/10-thumbnail.png",
+      "bytes": 320834,
+      "sha256": "5e3fb17ed6a73b2a8186098dcaed885b8c06fc19d11665a7833bf468866907ae",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 10
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/105-original.png",
+      "bytes": 984074,
+      "sha256": "aae568672d340c0a9e6c9d40aa71c97cb2fde3664d6a4b612ac9c0187e751fff",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 105
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/105-thumbnail.png",
+      "bytes": 287025,
+      "sha256": "e9d130ccf03be55231795e960fd88756e9f25522e9034bc3ab03d6b6833faf99",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 105
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/107-original.png",
+      "bytes": 899932,
+      "sha256": "7b763f967e57771440f8b174ca347bf009f813df64c3e87a586a800fe0fc5e0f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 107
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/107-thumbnail.png",
+      "bytes": 263748,
+      "sha256": "a148d88d2b353b1303fffe127d1570b5305fcc834d0b5fc4bc3ed1177fd677e4",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 107
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/111-original.png",
+      "bytes": 981250,
+      "sha256": "f7ea7aa8036221f064899424c053a283af7acc0629246bcfa57eff2e0c5dc584",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 111
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/111-thumbnail.png",
+      "bytes": 287672,
+      "sha256": "abd57fa08450f631539ce41f89d49569ebd815707516b55cc3c792aa32c4e82c",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 111
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/112-original.png",
+      "bytes": 1130621,
+      "sha256": "71dc24397c6f3618a1ce4225c183f1f441e750f35ba2e5d7d48067be7daafa0d",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 112
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/112-thumbnail.png",
+      "bytes": 333891,
+      "sha256": "9b4b6508ddcce1adc7cf057eada086090212cda73ee66c162140f8cbe52c5e7a",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 112
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/115-original.png",
+      "bytes": 1030964,
+      "sha256": "d7faac234fc61e7f0101fb823f9c0142612df3db8a7fc904383abf9f5ef90be0",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 115
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/115-thumbnail.png",
+      "bytes": 310302,
+      "sha256": "98fafa2efe786f9415ed9fc99faa300f250d557f95030c6be8dac2608baeabb6",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 115
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/117-original.png",
+      "bytes": 691515,
+      "sha256": "9e80033b2f3630d0344358212f49cb98b851243083dc693069610924a1014c72",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 117
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/117-thumbnail.png",
+      "bytes": 221356,
+      "sha256": "bc537913189f9c14fba9d5213289c66be3390cb5c087d882890b61b494d87aa9",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 117
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/122-original.png",
+      "bytes": 1096456,
+      "sha256": "6a57ae225c7c4b91dd39c3a13d331ab31f304d8af37c6e2077f4cbc5c0af25a4",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 122
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/122-thumbnail.png",
+      "bytes": 294650,
+      "sha256": "b75c9d0a0993eec9f431d18d2f2bfc4aa7de0aab5b0fd4cfbaee7ac79932ea16",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 122
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/129-original.png",
+      "bytes": 1139448,
+      "sha256": "59d25e96dfe92ac8ca0a2674501bedca3f4d8e9bcb19e78c4bfcd0c21e5c8326",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 129
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/129-thumbnail.png",
+      "bytes": 337816,
+      "sha256": "6b6cd6c3824ee3fe1ac4c45e5c3800915f507c7c7b1d4ca43b7a1c2580f55adb",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 129
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/13-original.png",
+      "bytes": 1728245,
+      "sha256": "8e3238c9902dd4f2308ba6c884033fc3595727560627d6e86a64705d99405a27",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 13
+      },
+      "width": 800,
+      "height": 800
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/13-thumbnail.png",
+      "bytes": 625386,
+      "sha256": "2c5e6a019afffab4b26f01730680cbef96b1a483c74768fa69bb0632fa98e33d",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 13
+      },
+      "width": 500,
+      "height": 500
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/131-original.png",
+      "bytes": 1004951,
+      "sha256": "776ab1f073057d4edf288fb74e7f4a525572663d09f8f136f25806c92be10691",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 131
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/131-thumbnail.png",
+      "bytes": 294159,
+      "sha256": "d23f044edf2c1f06eb758ed7d1c83ebbbf77e4bb3a77b74c475a8fda4e549d19",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 131
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/132-original.png",
+      "bytes": 1150229,
+      "sha256": "ea5c7c9aa1a3c8d4666134fbd0e56ff088b9b6e86f79fc48d6c9599b0e269f32",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 132
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/132-thumbnail.png",
+      "bytes": 353443,
+      "sha256": "d5ab0bf3d489be2b5bb58c2ff3fdb56f16538c3389e7493010332c14e0f4ffa5",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 132
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/136-original.png",
+      "bytes": 747096,
+      "sha256": "eb319dbc8e367d49077c5df7d96320b1b8242cc62223bdac3b38abf2f5210171",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 136
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/136-thumbnail.png",
+      "bytes": 233904,
+      "sha256": "2672e9d94a2eda1516779edadda75d30801041a6417f8d26b32ab5b1838d4fca",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 136
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/143-original.jpg",
+      "bytes": 54839,
+      "sha256": "6c08dca297a3c309dc739b38de6d2202f9791634f65e8a0bfe4bcbca1764e577",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 143
+      },
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/143-thumbnail.jpg",
+      "bytes": 15875,
+      "sha256": "b67d9357661c4e0672d890c59c1254ddf25cba0a8e96215c6ee86bd8f76e8ed5",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 143
+      },
+      "width": 500,
+      "height": 333
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/144-original.png",
+      "bytes": 1005409,
+      "sha256": "b8c7f0ef7c339c7e0fe077a19f2999a106a6e2995e26b49e708db10db4b1e288",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 144
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/144-thumbnail.png",
+      "bytes": 326032,
+      "sha256": "3a71d3b9f424305975a61d3a33585721cafb6bead9e39d0143d8ba1ddb1ffb62",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 144
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/145-original.png",
+      "bytes": 676521,
+      "sha256": "30a9657186925f4510af0a93da0b23b2291b7b60b89abd6c33897bd8f883be78",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 145
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/145-thumbnail.png",
+      "bytes": 222518,
+      "sha256": "b2941ba12e8248feaf0f9884b3ad65ae085a158bc16d34d56ab70d81fe03e442",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 145
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/147-original.png",
+      "bytes": 644840,
+      "sha256": "f300f13bb667e6cf278e1511563d13fed3d6f8e250b3ee88497964c30c126b3e",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 147
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/147-thumbnail.png",
+      "bytes": 215688,
+      "sha256": "e31036061c295694f999cd5abf06d70e1f2774fdca3ce57338f009f986e1b05f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 147
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/150-original.png",
+      "bytes": 915231,
+      "sha256": "4fdd76aa1ae1a12ec91a1a6037a6a26ed39d85b36783beb106bd028dbe9dda5e",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 150
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/150-thumbnail.png",
+      "bytes": 323161,
+      "sha256": "0a62e0555d3bcad7457bf4d74c69c8d80bef2d0a516eb8c04d374ee0b479b03f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 150
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/154-original.png",
+      "bytes": 1010286,
+      "sha256": "f08f7298429a7aaa6609d31b94eaa6e7f4a196c6749c8bc96bcc24e0fb2e64d5",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 154
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/154-thumbnail.png",
+      "bytes": 303427,
+      "sha256": "94cc604d4159365a5294fcb1df8cecc54be80834acd2e9db9a8a3da5f491c3d1",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 154
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/158-original.png",
+      "bytes": 853031,
+      "sha256": "d04d6b2c91c9f1ddd1197179d2e7daeaafec29430709cec93c4cf0b8fa045260",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 158
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/158-thumbnail.png",
+      "bytes": 263780,
+      "sha256": "eb225b3a766e6706438f37ef2e48c2f456315fc2008a79d039cff6c40e8acbc4",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 158
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/160-original.png",
+      "bytes": 627139,
+      "sha256": "a48a862a6ca892e570327b24e73498774f0d15c9a557e59392fb714c7bee746e",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 160
+      },
+      "width": 528,
+      "height": 800
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/160-thumbnail.png",
+      "bytes": 264395,
+      "sha256": "f10acdda27f026a8d60c7d0f19c52adcb772b9904737fbb10cfe29484eb340b6",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 160
+      },
+      "width": 330,
+      "height": 500
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/176-original.png",
+      "bytes": 1186336,
+      "sha256": "faf3da62aeef9a976899b003d162f987513c148c50fa3cf34521302c37935ffc",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 176
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/176-thumbnail.png",
+      "bytes": 395572,
+      "sha256": "2a0a777ec080479c59ad90283a604f537ee50107e00331524ac03ffa77ca16f3",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 176
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/188-original.png",
+      "bytes": 1138426,
+      "sha256": "a93b0f5ca9a7b9dfeb3b659a0f3ff98fbfd4adffb6163eb32fd5794ed3aa0723",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 188
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/188-thumbnail.png",
+      "bytes": 372968,
+      "sha256": "7b1fc6eeb30a2a184a023424e0a840e033c0cc365b6d90f060e4a7899310875c",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 188
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/189-original.png",
+      "bytes": 1150810,
+      "sha256": "04b52f2db3e0c209825f8e9977b2bd7c39f36f11438f9fdf299bb62ea3b14da9",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 189
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/189-thumbnail.png",
+      "bytes": 361302,
+      "sha256": "be322fdca1c8e2d2377a241356776a19e1a949d8d20b1e2d9006f186d42adb56",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 189
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/194-original.png",
+      "bytes": 853174,
+      "sha256": "dc5995fa0a84126bdc216a3ed439a83e4b718a0dbe02b88b3e3bb22d83dc1668",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 194
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/194-thumbnail.png",
+      "bytes": 253284,
+      "sha256": "c462ff369d8fa1fe789a6cee36d879a0b57f3796b3e9069ec253c5b8c13e05da",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 194
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/195-original.png",
+      "bytes": 747994,
+      "sha256": "adc05e539c48c018cc0e8dd2937486388dad881def96b619cabb41c24b3b9961",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 195
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/195-thumbnail.png",
+      "bytes": 228376,
+      "sha256": "644a89b72ee0bd5e9bba02d7d51baa9d1d3f09ca98a883674d167a30d5f6a049",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 195
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/196-original.png",
+      "bytes": 1026143,
+      "sha256": "225304f2ff40d1620109a6e3feecfff7d3f42ca9dbb4aefdbef3b94a2814d3fd",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 196
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/196-thumbnail.png",
+      "bytes": 279024,
+      "sha256": "8a5edc846648158bc251659f1f74677ad61bfb23d0764a04f78b305684fa3d18",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 196
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/197-original.png",
+      "bytes": 1116865,
+      "sha256": "9ea470cbe148d961efa840910cb8df7aff4ed9d4f8e1a1c3a582b61118aa9ff4",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 197
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/197-thumbnail.png",
+      "bytes": 338588,
+      "sha256": "0c1acc50a33c8e37e37e25f4b914a55a6b9d5a8e90ee394186bd6e71ce4c493a",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 197
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/20-original.png",
+      "bytes": 1152872,
+      "sha256": "778804d73d2070c83d0a888b652509c8c2ba2cdaa5019d1798ee48305e425142",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 20
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/20-thumbnail.png",
+      "bytes": 344146,
+      "sha256": "9df43eae209bc67b58ee19507c2036b5e2fdad94c2bdf6f6b5e2ec0f8a22b5a6",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 20
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/201-original.png",
+      "bytes": 1029780,
+      "sha256": "f3aebdff24cbb5140a7e23dd35aab62e106ed2153ce87766419f6d66f2d8eba2",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 201
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/201-thumbnail.png",
+      "bytes": 277047,
+      "sha256": "398020b4d6ac3be5038960f2dbbd99f0889e2aca2f49ba309f8db55c0d2ac2ab",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 201
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/206-original.png",
+      "bytes": 1400741,
+      "sha256": "4f7a70c6c7b051776ff0049df731253cb41bb760b79f4792eface1bfee905848",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 206
+      },
+      "width": 800,
+      "height": 800
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/206-thumbnail.png",
+      "bytes": 450359,
+      "sha256": "66c541c35a8751db2afe214ed2483684f3fd0b6f639f6ea6e1913bf54b4fa181",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 206
+      },
+      "width": 500,
+      "height": 500
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/207-original.png",
+      "bytes": 968922,
+      "sha256": "d66373285bf48a509a12e8b8618f8b9fab56adef4424c87f4844801fe30a8962",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 207
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/207-thumbnail.png",
+      "bytes": 311408,
+      "sha256": "aee86fe6520cd37c80a26c9867760c70f5506bd5aae856eaf00ed0e2f8de35bb",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 207
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/209-original.png",
+      "bytes": 1052571,
+      "sha256": "31359f28b6bb1d4a6f6046c3d68e539fbbfdde289de105ac98699b8339a98310",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 209
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/209-thumbnail.png",
+      "bytes": 342440,
+      "sha256": "1170291399d65bcc2a227e831d245d98dc008c9b8922e885c8fa0fde141e7aa8",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 209
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/21-original.png",
+      "bytes": 897904,
+      "sha256": "62779329e639b40debb8e567b2d764ef6461ac637c5be277b3859e8c8157a931",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 21
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/21-thumbnail.png",
+      "bytes": 247292,
+      "sha256": "443894a7ed16878adcb40c179f79e147215422f4f9b4fbcaaf4ef0b59ae7f102",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 21
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/227-original.png",
+      "bytes": 987296,
+      "sha256": "78cafeeb32d922b43fb2101f8fd7ce8a515b25c78951240bd36956ec259e8b68",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 227
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/227-thumbnail.png",
+      "bytes": 270046,
+      "sha256": "fed61c12b8635f1abfb65ef90221ee823e1d2ec7a22ff8650458fb7b0279b364",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 227
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/229-original.png",
+      "bytes": 1034753,
+      "sha256": "5a61955dbf7c77fb70024dc34cb80b0388a185a6bb6ec17c9fccc886a641228e",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 229
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/229-thumbnail.png",
+      "bytes": 297431,
+      "sha256": "d2460196f7207a4c9c071b9d60aa0d12f2e988959799b6fd802fafe52849ae5e",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 229
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/230-original.png",
+      "bytes": 953375,
+      "sha256": "1985c2fe93febcd18bb6a4595595e6c3936f15015b940fcd0f4d3370298ff13b",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 230
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/230-thumbnail.png",
+      "bytes": 296184,
+      "sha256": "1b15c9cf7fb11f004d6bfc88210f2a3668a73b06b183ba495281375bea42a50f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 230
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/234-original.png",
+      "bytes": 1058808,
+      "sha256": "d08c114b0b86022d295542b9b1344d9c1e7a791d636ca786338c684b8268e7c3",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 234
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/234-thumbnail.png",
+      "bytes": 320491,
+      "sha256": "ff16d9d15c65a93132ae656faa361bb61be9c7d0030a86ce34cb7f095c30b507",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 234
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/235-original.png",
+      "bytes": 1020635,
+      "sha256": "143fba5078bb4a7e5d25f301d2d103a16f60ca12cdb3df97466ed05d5ace68e0",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 235
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/235-thumbnail.png",
+      "bytes": 299818,
+      "sha256": "d7bb7a85aaec9680a95dde590f35e9a2a5ab7e5b9fc3d606daf30498fa9fa29d",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 235
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/25-original.png",
+      "bytes": 997019,
+      "sha256": "936eee6a7a2f21164ae8accea93adeae78afb712550b83d0bf35c80034bf6ce3",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 25
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/25-thumbnail.png",
+      "bytes": 295791,
+      "sha256": "198fa54df0da7253faf4600ba1ded6d3da90afcc39542b2ee712f0f9201fcef1",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 25
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/27-original.png",
+      "bytes": 1228909,
+      "sha256": "ec2db22d6fda01e6a20c57fbb95cd7c4e2d4cb8276c2d91a8f049eed6141a493",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 27
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/27-thumbnail.png",
+      "bytes": 406589,
+      "sha256": "1d73041118ba0871732ad721d2263a9e369241b70d1af9bb1b8d07d8e7dfc3f4",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 27
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/28-original.png",
+      "bytes": 889995,
+      "sha256": "a37d895fa09b1a7204245e94a97d98309935a4b8983245d90f1c38d54336fb40",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 28
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/28-thumbnail.png",
+      "bytes": 285076,
+      "sha256": "5fa0658471b70846fe89b0b56725bb77ad0e3904b4225808e0a4598e09f50bcc",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 28
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/29-original.png",
+      "bytes": 1166574,
+      "sha256": "a7e8853aca113f1219dc383b975e96eb30c87f3e9e4952d66589b2be718d7cbd",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 29
+      },
+      "width": 592,
+      "height": 800
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/29-thumbnail.png",
+      "bytes": 331678,
+      "sha256": "a12ee0a9ae83723799a8ac22679e9a4f97999c127f754f4df6ad043f1f6de99f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 29
+      },
+      "width": 370,
+      "height": 500
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/30-original.png",
+      "bytes": 1059145,
+      "sha256": "3de797d6996fc80ef0090ca479dd737e395cf22eebc9093990a14acf8694a414",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 30
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/30-thumbnail.png",
+      "bytes": 315919,
+      "sha256": "ebe801911961c0a91cbcaffc2a961cb3f78427023d0492ae4b6709cf94195d43",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 30
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/31-original.png",
+      "bytes": 984750,
+      "sha256": "90b0a0d8a092cb5486c94401dbd7e441f0df15ec479bd690b1b588bdf89557cb",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 31
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/31-thumbnail.png",
+      "bytes": 303795,
+      "sha256": "82a212a44084e062ce841ab14f86b0102fd8ebdf7b8650f21e9e339cfd5961d4",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 31
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/37-original.png",
+      "bytes": 1175774,
+      "sha256": "a43ab764b734328f133d0565a5f37e9583c543f7f5be50eb0972ab43d2cb2ba7",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 37
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/37-thumbnail.png",
+      "bytes": 306860,
+      "sha256": "1f028710e61f7b0a286092d3d672514d48b181d633e2abdac39d2349178ffcca",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 37
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/38-original.png",
+      "bytes": 1170430,
+      "sha256": "ade96e6a8cdbfd8baa935f472d0d1f08b836777d77a42af86c542c836e90ff19",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 38
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/38-thumbnail.png",
+      "bytes": 346842,
+      "sha256": "75c10c6f0bde2f27fd4f56d1ab5bf02d9df4df1137534c3d8f8674d8a8d6b3e7",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 38
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/41-original.png",
+      "bytes": 981461,
+      "sha256": "2cb7a04f8b8faaf0c01dce02cd61cb2f332016edfab07794cd70388ca07e61f4",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 41
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/41-thumbnail.png",
+      "bytes": 261579,
+      "sha256": "ce9d2cc568dfc2865fadca43f8120b19ae4040b840ffcba73840348289b628d5",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 41
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/44-original.png",
+      "bytes": 877085,
+      "sha256": "7641e386c32017ec6b5165769953a5a7377f82198a180d58feccd5e8a8117abe",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 44
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/44-thumbnail.png",
+      "bytes": 278237,
+      "sha256": "fab53c3e7101ae782431cc36759dcd413a9a89292b84204ef5e67b6c68d1cde4",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 44
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/45-original.png",
+      "bytes": 879599,
+      "sha256": "de025f87a6e617843fdc7ca8649bc123d4889316202946457e2838e7c73c4ca2",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 45
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/45-thumbnail.png",
+      "bytes": 286694,
+      "sha256": "6ffacdaea8ce02e4061e28cc1b2104e67a401d0b96168550b6f0649a3551000f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 45
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/49-original.png",
+      "bytes": 782536,
+      "sha256": "f62be1d2d0ed3ca67331317c3a53dfddbb2aa4612840e45c51df5606eb8991ee",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 49
+      },
+      "width": 592,
+      "height": 800
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/49-thumbnail.png",
+      "bytes": 256880,
+      "sha256": "52ad6a3140ef3807f28df7bb0d8ff6c8fd272f5169b4779900547e1caa7f3bb0",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 49
+      },
+      "width": 370,
+      "height": 500
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/5-original.png",
+      "bytes": 1106783,
+      "sha256": "fa787806b2771d0ea47afaf281911669c4cc21140981453209dc1a3a6b67769a",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 5
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/5-thumbnail.png",
+      "bytes": 345708,
+      "sha256": "4d2bdb99729ad58bd6f0544c18e92c237443ed71d66d018ccee03ecc8b777871",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 5
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/51-original.png",
+      "bytes": 987909,
+      "sha256": "6b40665f8bb54e9cd1f245958a1049835fd8f3a51f91df2047c5bf458b95e398",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 51
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/51-thumbnail.png",
+      "bytes": 301693,
+      "sha256": "39e41a05ec4272ab94c40c3c6648ca9c29ea9585d3603d187384a34e9dcb93c2",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 51
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/52-original.png",
+      "bytes": 819441,
+      "sha256": "8738cc3847182216958b9bf1fa9f09dd3390799caf4bf673d2f0564e7d3d2c32",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 52
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/52-thumbnail.png",
+      "bytes": 249718,
+      "sha256": "6c088acbb35ad619d62f0507811442d6ede09bb1ef200c477cf04d8b00eedb20",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 52
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/58-original.png",
+      "bytes": 1042164,
+      "sha256": "7decad13ab57907e745f7f439f940be384433d28ab6da95c40fdb9e870958197",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 58
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/58-thumbnail.png",
+      "bytes": 333117,
+      "sha256": "4e1da9f4b67c653368772da2fa8f8629d95bb123e21f6666eb1c2f87ce520d6f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 58
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/63-original.png",
+      "bytes": 836798,
+      "sha256": "fd4d9a4a290a437e9773422e0cf3d0848ae18f24af334127d0df25ef77b1690c",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 63
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/63-thumbnail.png",
+      "bytes": 248106,
+      "sha256": "d1b1bc3f40e1d2f65f1ccddd0373a3acf318e36ecdd4ffe7d59c682b189927fa",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 63
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/66-original.png",
+      "bytes": 906330,
+      "sha256": "211ce132be0ead6bfe266726b664ef8cd55fc468c8cfa4826ee961d56bd09271",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 66
+      },
+      "width": 592,
+      "height": 800
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/66-thumbnail.png",
+      "bytes": 305419,
+      "sha256": "94f0468e439105f980213f512a21397d32f70b724c42ef36d4ff7fc9425db95f",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 66
+      },
+      "width": 370,
+      "height": 500
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/67-original.png",
+      "bytes": 1598719,
+      "sha256": "a207bca93a7265e020ea3f64010dca0aaee53d50e95e84775c093a7318297f93",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 67
+      },
+      "width": 800,
+      "height": 784
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/67-thumbnail.png",
+      "bytes": 663566,
+      "sha256": "17eb56cfdf26136f27d004af0859748b576303f3b16bd6fe9c33ca32e9272804",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 67
+      },
+      "width": 500,
+      "height": 490
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/75-original.png",
+      "bytes": 1045238,
+      "sha256": "a513364cbda7bbfeb2f523d8467a80ede131964ead2f1d04ba39dd49710bce9d",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 75
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/75-thumbnail.png",
+      "bytes": 315188,
+      "sha256": "ab97937427ffe5e134f96a2eefb96d927bd0b72a4937bce80e1576cd6540b278",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 75
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/77-original.png",
+      "bytes": 903471,
+      "sha256": "11e09caa996b42d1c5198e15e4f3b32c0fe9cfc0961c93b0f3b9b032ad956878",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 77
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/77-thumbnail.png",
+      "bytes": 286589,
+      "sha256": "4569c77545c6ef4382e756c74261484702bd16b23edfb92e1e0230c7aed7218e",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 77
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/79-original.png",
+      "bytes": 946411,
+      "sha256": "3a9c2e387489c10714f874439a2917abfdb624c7169d3271207296a82c729787",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 79
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/79-thumbnail.png",
+      "bytes": 301234,
+      "sha256": "eed355dc60670974d3cf458c8d33b4f3056db04b465fb7900d89f8697d5f1cd2",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 79
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/81-original.png",
+      "bytes": 1113049,
+      "sha256": "5361abfb79d7cf716286f7570d261eac03f6628198ddf84a02fda626c8428f55",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 81
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/81-thumbnail.png",
+      "bytes": 332180,
+      "sha256": "be2ab0a7575c5c5f374567f49646917dc05d78f6ce9668f77ab50ac2c3d18fa5",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 81
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/82-original.png",
+      "bytes": 1121373,
+      "sha256": "74b47fb1006b01bdbebfc3f52e392cabbaef04fcb664792557656a6d65641eda",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 82
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/82-thumbnail.png",
+      "bytes": 305864,
+      "sha256": "65aaa5586973ee097b3c5562ffca34bfebeb535f848f9e8ff9a439f76336d460",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 82
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/9-original.png",
+      "bytes": 1040187,
+      "sha256": "73c53faf72ffaa59cefd67a879ccc62deadcac73e2bddf2ccac40c6469d5e531",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 9
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/9-thumbnail.png",
+      "bytes": 325976,
+      "sha256": "8a2c00682aeb878f6d5a764d184c3aa9a4c204cbc36b18a8f6c3b1411e621338",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 9
+      },
+      "width": 500,
+      "height": 370
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/93-original.png",
+      "bytes": 1035949,
+      "sha256": "e21e2e03edf12cdfd24102f6f1ca303879b18dcf0fd9cf13b583bd884f943c92",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 93
+      },
+      "width": 800,
+      "height": 528
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/93-thumbnail.png",
+      "bytes": 325452,
+      "sha256": "57a045f6a86ae07232d947e82513b5010efd33ba94c125865ec5da34c1a2a806",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 93
+      },
+      "width": 500,
+      "height": 330
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/96-original.png",
+      "bytes": 945480,
+      "sha256": "59cb477187370a4c0849c674f31c7c3f9b45f4f127cded396b81f0a542c31f67",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 96
+      },
+      "width": 800,
+      "height": 592
+    },
+    {
+      "key": "/gallery/media/wordpress-bwg/96-thumbnail.png",
+      "bytes": 291447,
+      "sha256": "a26fb9bada7080e64e10cdacb11ef368e6ae9722a13018cffcb11b818607dbba",
+      "source": {
+        "system": "wordpress-bwg",
+        "imageId": 96
+      },
+      "width": 500,
+      "height": 370
+    }
+  ]
+}

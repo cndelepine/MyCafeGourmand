@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21960",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:23129",
+  "slug": "hachis-parmentier-au-boeuf-hache",
+  "source": {
+    "system": "wordpress",
+    "postId": "21960",
+    "recipeId": "21960",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-hachis-parmentier-au-boeuf-hache",
+    "createdAt": "2026-02-03T21:53:00+00:00",
+    "modifiedAt": "2026-02-09T07:57:47+00:00",
+    "editorialPostId": "19923",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "hachis-parmentier-au-boeuf-hache",
+    "editorialCreatedAt": "2026-02-03T21:53:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:57:43+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/hachis-parmentier-au-boeuf-hache/"
+  ],
+  "title": "Hachis Parmentier au bœuf haché",
+  "description": "Vous pouvez ajouter vos herbes ou épices préférés dans le bœuf haché.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le  hachis Parmentier au bœuf haché est une  délicieuse recette appréciée des petits  comme des grands. La viande est d'abord revenue à la poêle, puis cuite au four sous une couche de purée de pommes de terre.  Merci Mr Parmentier </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21960,\"template\":\"chic-template-french\",\"updated\":1770623790807} -->\n<!--WPRM Recipe 21960-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Hachis Parmentier au bœuf haché</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3946-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tVous pouvez ajouter vos herbes ou épices préférés dans le bœuf haché. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 kg de pommes de terre (épluchées et coupées en morceaux)</li><li>80 g de beurre ( (50+30))</li><li>50 ml de lait (réchauffé)</li><li>1 gros oignon</li><li>1-2 gousses d'ail</li><li>500 g de bœuf  (haché)</li><li>Sel et poivre du moulin</li><li>1 œuf</li><li>30 g de fromage râpé</li><li>Un peu de paprika  ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Faire cuire les pommes de terre dans l'eau salée pendant 15 à 20 min à partir de l'ébullition. Égoutter.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3601-2.Blog_-150x150.png\"/><br /></li><li>Réduire en purée avec 50 g de beurre. Ajouter le lait réchauffé. Bien mélanger. Goûter la purée et, s'il le faut, rajouter du sel.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3603.Blog_-150x150.png\"/><br /></li><li>Eplucher et émincer l'oignon et l'ail.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3923-2.Blog_-150x150.png\"/><br /></li><li>Dans une poêle, faire fondre le beurre (30 g) et y faire revenir l'oignon et l'ail. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3927-2.Blog_-150x150.png\"/><br /></li><li>Ajouter la viande hachée. Saler et poivrer. Bien mélanger et cuire 5-7 minutes. Retirer la poêle du feu et laisser refroidir un peu.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3930-2.Blog_-150x150.png\"/><br /></li><li>Ajouter l'œuf et mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3931-2.Blog_-150x150.png\"/><br /></li><li>Mouliner la viande cuite. Goûter et ajuster l'assaisonnement. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3933-2.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 180°C (thermostat 6). Beurrer un plat allant au four.</li><li>Étaler la moitié des pommes de terre (purée) dans le plat. Recouvrir de viande hachée. \r\nSaupoudrer d'herbes (paprika, etc)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3935-3.Blog_-150x150.png\"/><br /></li><li>Étaler le reste de la purée de pommes de terre par-dessus. Saupoudrer de fromage. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3939-2.Blog_-150x150.png\"/><br /></li><li>Cuire au four pendant environ 25 minutes. Servir bien chaud.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/03/IMG_3944-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24036",
+      "sourceTaxonomyId": "24036",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24477",
+      "sourceTaxonomyId": "24477",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24524",
+      "sourceTaxonomyId": "24524",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24555",
+      "sourceTaxonomyId": "24555",
+      "name": "de boeuf",
+      "slug": "de-boeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24574",
+      "sourceTaxonomyId": "24574",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24649",
+      "sourceTaxonomyId": "24649",
+      "name": "de pommes de terre",
+      "slug": "de-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "372",
+      "sourceTaxonomyId": "372",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "531",
+      "sourceTaxonomyId": "531",
+      "name": "de fromage râpé",
+      "slug": "de-fromage-rape"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "770",
+      "sourceTaxonomyId": "770",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1826",
+      "sourceTaxonomyId": "1826",
+      "name": "de boeuf",
+      "slug": "de-boeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1939",
+      "sourceTaxonomyId": "1939",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2492",
+      "sourceTaxonomyId": "2492",
+      "name": "de pommes de terre",
+      "slug": "de-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1668",
+      "sourceTaxonomyId": "1668",
+      "name": "patate",
+      "slug": "patate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2482",
+      "sourceTaxonomyId": "2482",
+      "name": "pomme de terre",
+      "slug": "pomme-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3148",
+      "sourceTaxonomyId": "3148",
+      "name": "puree de pommes de terre",
+      "slug": "puree-de-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3154",
+      "sourceTaxonomyId": "3154",
+      "name": "plat familial",
+      "slug": "plat-familial"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6926",
+      "sourceTaxonomyId": "6926",
+      "name": "enfants adorent",
+      "slug": "enfants-adorent"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27427",
+      "sourceTaxonomyId": "27427",
+      "name": "bœuf haché",
+      "slug": "boeuf-hache-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27430",
+      "sourceTaxonomyId": "27430",
+      "name": "Hachis Parmentie",
+      "slug": "hachis-parmentie-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "70",
+        "minutes": 70
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:19921",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 kg de pommes de terre épluchées et coupées en morceaux",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "de pommes de terre",
+            "notes": "épluchées et coupées en morceaux"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "80 g de beurre (50+30)",
+            "quantity": {
+              "raw": "80 g",
+              "value": 80,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": "(50+30)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 ml de lait réchauffé",
+            "quantity": {
+              "raw": "50 ml",
+              "value": 50,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": "réchauffé"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 gros oignon",
+            "quantity": {
+              "raw": "1 gros",
+              "value": 1,
+              "unit": "gros",
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1-2 gousses d'ail",
+            "quantity": {
+              "raw": "1-2 gousses",
+              "min": 1,
+              "max": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "500 g de bœuf haché",
+            "quantity": {
+              "raw": "500 g",
+              "value": 500,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de bœuf",
+            "notes": "haché"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 œuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "30 g de fromage râpé",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de fromage râpé",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Un peu de paprika (facultatif)",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de paprika",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Faire cuire les pommes de terre dans l'eau salée pendant 15 à 20 min à partir de l'ébullition. Égoutter.",
+            "mediaId": "wordpress-attachment:19911"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Réduire en purée avec 50 g de beurre. Ajouter le lait réchauffé. Bien mélanger. Goûter la purée et, s'il le faut, rajouter du sel.",
+            "mediaId": "wordpress-attachment:19912"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Eplucher et émincer l'oignon et l'ail.",
+            "mediaId": "wordpress-attachment:19913"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Dans une poêle, faire fondre le beurre (30 g) et y faire revenir l'oignon et l'ail.",
+            "mediaId": "wordpress-attachment:19914"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter la viande hachée. Saler et poivrer. Bien mélanger et cuire 5-7 minutes. Retirer la poêle du feu et laisser refroidir un peu.",
+            "mediaId": "wordpress-attachment:19915"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Ajouter l'œuf et mélanger.",
+            "mediaId": "wordpress-attachment:19916"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Mouliner la viande cuite. Goûter et ajuster l'assaisonnement.",
+            "mediaId": "wordpress-attachment:19917"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Beurrer un plat allant au four.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Étaler la moitié des pommes de terre (purée) dans le plat. Recouvrir de viande hachée.\nSaupoudrer d'herbes (paprika, etc)",
+            "mediaId": "wordpress-attachment:19918"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Étaler le reste de la purée de pommes de terre par-dessus. Saupoudrer de fromage.",
+            "mediaId": "wordpress-attachment:19919"
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Cuire au four pendant environ 25 minutes. Servir bien chaud.",
+            "mediaId": "wordpress-attachment:19920"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19921",
+      "sourceId": "19921",
+      "path": "/recipes/media/wordpress/19921.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19911",
+      "sourceId": "19911",
+      "path": "/recipes/media/wordpress/19911.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19912",
+      "sourceId": "19912",
+      "path": "/recipes/media/wordpress/19912.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19913",
+      "sourceId": "19913",
+      "path": "/recipes/media/wordpress/19913.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19914",
+      "sourceId": "19914",
+      "path": "/recipes/media/wordpress/19914.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19915",
+      "sourceId": "19915",
+      "path": "/recipes/media/wordpress/19915.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19916",
+      "sourceId": "19916",
+      "path": "/recipes/media/wordpress/19916.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19917",
+      "sourceId": "19917",
+      "path": "/recipes/media/wordpress/19917.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19918",
+      "sourceId": "19918",
+      "path": "/recipes/media/wordpress/19918.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19919",
+      "sourceId": "19919",
+      "path": "/recipes/media/wordpress/19919.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19920",
+      "sourceId": "19920",
+      "path": "/recipes/media/wordpress/19920.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

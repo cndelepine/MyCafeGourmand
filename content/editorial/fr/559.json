@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:559",
+  "locale": "fr",
+  "canonicalPath": "/fr/decorations-de-table/hiver/",
+  "translationGroupId": "wordpress:post-translations:150",
+  "source": {
+    "system": "wordpress",
+    "postId": 559,
+    "sourcePath": "/fr/decorations-de-table/hiver/",
+    "sourceSlug": "hiver",
+    "createdAt": "2017-12-31T03:33:58Z",
+    "modifiedAt": "2018-01-19T02:50:38Z"
+  },
+  "title": "Hiver",
+  "excerpt": null,
+  "publishedAt": "2017-12-31T03:33:58Z",
+  "modifiedAt": "2018-01-19T02:50:38Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:688",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:688",
+      "path": "/editorial/media/wordpress/688.jpg",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 688
+      },
+      "mimeType": "image/jpeg",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

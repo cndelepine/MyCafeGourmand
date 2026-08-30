@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26723",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26209",
+  "slug": "pommes-duchesse",
+  "source": {
+    "system": "wordpress",
+    "postId": "26723",
+    "recipeId": "26723",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pommes-duchesse",
+    "createdAt": "2021-12-02T05:08:00+00:00",
+    "modifiedAt": "2023-05-17T07:35:36+00:00",
+    "editorialPostId": "26722",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pommes-duchesse",
+    "editorialCreatedAt": "2021-12-02T05:08:00+00:00",
+    "editorialModifiedAt": "2023-05-17T07:35:32+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/pommes-duchesse/"
+  ],
+  "title": "Pommes Duchesse",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les pommes de terre Duchesse : un classique de la cuisine française à base de purée, beurre et jaunes d'œuf. Une très élégante garniture pour accompagner viande, poisson ou des légumes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26723,\"template\":\"chic-template-french\",\"updated\":1683000482297} -->\n<!--WPRM Recipe 26723-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pommes Duchesse</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0694.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1.5 kg pommes de terre</li><li>200 g beurre</li><li>Sel et poivre (du moulin)</li><li>Un peu (pointe d&#039;un couteau) noix de muscade ((optionnel))</li><li>4 jaunes d&#039;œuf</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Eplucher les pommes de terre, couper en morceaux et cuire dans l&#039;eau salée. Une fois les pommes cuites (vérifier avec un couteau ou une fourchette), retirer immédiatement l&#039;eau.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7686.Blog_-150x150.png\"/><br /></li><li><p>Ecraser les pommes de terre encore chaudes en purée et ajouter le beurre.</p><p>Saler, poivrer et ajouter un peu de noix de muscade.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0396.Blog_-150x150.png\"/><br /></li><li><p>Ajouter les jaunes d&#039;œuf et mélanger très bien. La purée doit être onctueuse sans morceau.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0399.Blog_-150x150.png\"/><br /></li><li><p>Chauffer le four à 200C. Mettre du papier sulfurisé ou un tapis silicone sur un plat de cuisson.</p></li><li><p>Transférer la purée dans une poche à douille avec un embout en forme d&#039;étoile et créer des roses de la taille désirée sur le plat de cuisson.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0402.Blog_-150x150.png\"/><br /></li><li><p>Cuire dans le four préchauffé pendant environ 10 minutes, jusqu&#039;à obtenir une jolie couleur dorée.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0692.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, française, French</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23540",
+      "sourceTaxonomyId": "23540",
+      "name": "French",
+      "slug": "french"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24046",
+      "sourceTaxonomyId": "24046",
+      "name": "Français",
+      "slug": "francais"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "24047",
+      "sourceTaxonomyId": "24047",
+      "name": "française",
+      "slug": "francaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24040",
+      "sourceTaxonomyId": "24040",
+      "name": "beurre",
+      "slug": "beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24517",
+      "sourceTaxonomyId": "24517",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24726",
+      "sourceTaxonomyId": "24726",
+      "name": "Sel et poivre",
+      "slug": "sel-et-poivre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26214",
+      "sourceTaxonomyId": "26214",
+      "name": "jaunes d'œuf",
+      "slug": "jaunes-doeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26215",
+      "sourceTaxonomyId": "26215",
+      "name": "noix de muscade",
+      "slug": "noix-de-muscade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25741",
+      "sourceTaxonomyId": "25741",
+      "name": "kg",
+      "slug": "kg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26213",
+      "sourceTaxonomyId": "26213",
+      "name": "(pointe d'un couteau)",
+      "slug": "pointe-dun-couteau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1290",
+      "sourceTaxonomyId": "1290",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2482",
+      "sourceTaxonomyId": "2482",
+      "name": "pomme de terre",
+      "slug": "pomme-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3041",
+      "sourceTaxonomyId": "3041",
+      "name": "jaune d'oeuf",
+      "slug": "jaune-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3402",
+      "sourceTaxonomyId": "3402",
+      "name": "beurre",
+      "slug": "beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25620",
+      "sourceTaxonomyId": "25620",
+      "name": "comment preparer",
+      "slug": "comment-preparer"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26636",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1.5 kg pommes de terre",
+            "quantity": {
+              "raw": "1.5 kg",
+              "value": 1.5,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "pommes de terre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g beurre",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "beurre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre",
+            "notes": "du moulin"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Un peu (pointe d'un couteau) noix de muscade (optionnel)",
+            "quantity": {
+              "raw": "Un peu (pointe d'un couteau)",
+              "unit": "(pointe d'un couteau)",
+              "scalable": false
+            },
+            "name": "noix de muscade",
+            "notes": "(optionnel)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 jaunes d'œuf",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jaunes d'œuf",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Eplucher les pommes de terre, couper en morceaux et cuire dans l'eau salée. Une fois les pommes cuites (vérifier avec un couteau ou une fourchette), retirer immédiatement l'eau.",
+            "mediaId": "wordpress-attachment:4322"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Ecraser les pommes de terre encore chaudes en purée et ajouter le beurre.\n\nSaler, poivrer et ajouter un peu de noix de muscade.",
+            "mediaId": "wordpress-attachment:26632"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter les jaunes d'œuf et mélanger très bien. La purée doit être onctueuse sans morceau.",
+            "mediaId": "wordpress-attachment:26633"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Chauffer le four à 200C. Mettre du papier sulfurisé ou un tapis silicone sur un plat de cuisson.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Transférer la purée dans une poche à douille avec un embout en forme d'étoile et créer des roses de la taille désirée sur le plat de cuisson.",
+            "mediaId": "wordpress-attachment:26634"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Cuire dans le four préchauffé pendant environ 10 minutes, jusqu'à obtenir une jolie couleur dorée.",
+            "mediaId": "wordpress-attachment:26635"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26636",
+      "sourceId": "26636",
+      "path": "/recipes/media/wordpress/26636.png",
+      "alt": "Duchess potatoes",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:4322",
+      "sourceId": "4322",
+      "path": "/recipes/media/wordpress/4322.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26632",
+      "sourceId": "26632",
+      "path": "/recipes/media/wordpress/26632.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26633",
+      "sourceId": "26633",
+      "path": "/recipes/media/wordpress/26633.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26634",
+      "sourceId": "26634",
+      "path": "/recipes/media/wordpress/26634.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26635",
+      "sourceId": "26635",
+      "path": "/recipes/media/wordpress/26635.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

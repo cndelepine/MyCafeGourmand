@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21452",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7937",
+  "slug": "salmon-wrapped-in-puff-pastry-with-sour-cream",
+  "source": {
+    "system": "wordpress",
+    "postId": "21452",
+    "recipeId": "21452",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salmon-in-puff-pastry",
+    "createdAt": "2018-11-04T06:21:27+00:00",
+    "modifiedAt": "2022-07-30T19:33:38+00:00",
+    "editorialPostId": "13391",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salmon-wrapped-in-puff-pastry-with-sour-cream",
+    "editorialCreatedAt": "2018-11-04T06:21:27+00:00",
+    "editorialModifiedAt": "2022-07-30T19:33:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/salmon-wrapped-in-puff-pastry-with-sour-cream/",
+    "/salmon-wrapped-in-puff-pastry-with-sour-cream-and-herbs/"
+  ],
+  "title": "Salmon in Puff Pastry",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Who says you need to make a special dough for amazing appetizers? Thank goodness for puff pastry! It is so easy to use and you can buy it in the freezer section at any grocery store. I want to introduce you to this delicious puff pastry packets that are filled with salmon, sour cream and herbs. And can be served with any green salad of your choice. It's great for brunch, lunch, or light dinner. This will definitely be on my holiday table this year. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21452,\"template\":\"chic-template-english\",\"updated\":1659209605126} -->\n<!--WPRM Recipe 21452-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salmon in Puff Pastry</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8125-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 tbsp olive oil</li><li>1 medium onion</li><li>2 tbsp sour cream</li><li>200 g fresh salmon (skinless, boneless)</li><li>Salt and freshly ground black pepper (to taste)</li><li>Some  fresh dill (finely chopped)</li><li>1 sheet all butter puff pastry</li><li>1 egg</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Heat olive oil in a skillet over medium-high heat. Add finely chopped onion cook and stir until tender. \r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8102.Blog_-150x150.png\"/><br /></li><li>Cut salmon into small cubes. Season with salt and pepper, add sour cream, cooked onion and fresh dill. Gently mix. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8103.Blog_-150x150.png\"/><br /></li><li>Preheat oven to 380 degrees F. Line baking sheet with parchment paper. </li><li>Gently roll out the dough to a thickness of about 1/2 cm. Using 8 cm round cookie cutter carefully cut out circles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8104.Blog_-150x150.png\"/><br /></li><li>Place pastry rounds on a flat surface, divide salmon mixture between them and spread one tea spoon over pastry, leaving a 1/2 cm border all around.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8105.Blog_-150x150.png\"/><br /></li><li>Brush pastry borders with water. Top with pastry rounds and press edges together firmly to seal.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8106.Blog_-150x150.png\"/><br /></li><li>Place the pastry packets on baking sheet and brush with egg yolk.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8107.Blog_-150x150.png\"/><br /></li><li>Make a small hole in the middle of the top of each lid. Use a paring knife to score the top of the pastry as desired. Be careful not puncture through.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8108.Blog_-150x150.png\"/><br /></li><li>Bake for about 20 minutes, or until golden. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8124.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24061",
+      "sourceTaxonomyId": "24061",
+      "name": "egg",
+      "slug": "egg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24149",
+      "sourceTaxonomyId": "24149",
+      "name": "fresh dill",
+      "slug": "fresh-dill"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24298",
+      "sourceTaxonomyId": "24298",
+      "name": "fresh salmon",
+      "slug": "fresh-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "578",
+      "sourceTaxonomyId": "578",
+      "name": "fresh dill",
+      "slug": "fresh-dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "967",
+      "sourceTaxonomyId": "967",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1947",
+      "sourceTaxonomyId": "1947",
+      "name": "egg",
+      "slug": "egg"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8477",
+      "sourceTaxonomyId": "8477",
+      "name": "fresh salmon",
+      "slug": "fresh-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1352",
+      "sourceTaxonomyId": "1352",
+      "name": "fish",
+      "slug": "fish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1386",
+      "sourceTaxonomyId": "1386",
+      "name": "puff pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8519",
+      "sourceTaxonomyId": "8519",
+      "name": "salmon kulebiaka",
+      "slug": "salmon-kulebiaka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8521",
+      "sourceTaxonomyId": "8521",
+      "name": "salmon wrapped",
+      "slug": "salmon-wrapped"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8523",
+      "sourceTaxonomyId": "8523",
+      "name": "pirozhki",
+      "slug": "pirozhki"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8525",
+      "sourceTaxonomyId": "8525",
+      "name": "pierogi",
+      "slug": "pierogi"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8527",
+      "sourceTaxonomyId": "8527",
+      "name": "fresh salmon",
+      "slug": "fresh-salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8529",
+      "sourceTaxonomyId": "8529",
+      "name": "wrapped in puff pastry",
+      "slug": "wrapped-in-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8531",
+      "sourceTaxonomyId": "8531",
+      "name": "pastry packets",
+      "slug": "pastry-packets"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:13018",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 tbsp olive oil",
+            "quantity": {
+              "raw": "1 tbsp",
+              "value": 1,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 medium onion",
+            "quantity": {
+              "raw": "1 medium",
+              "value": 1,
+              "unit": "medium",
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 tbsp sour cream",
+            "quantity": {
+              "raw": "2 tbsp",
+              "value": 2,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g fresh salmon skinless, boneless",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "fresh salmon",
+            "notes": "skinless, boneless"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Salt and freshly ground black pepper to taste",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Some fresh dill finely chopped",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh dill",
+            "notes": "finely chopped"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 egg",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Heat olive oil in a skillet over medium-high heat. Add finely chopped onion cook and stir until tender.",
+            "mediaId": "wordpress-attachment:13009"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut salmon into small cubes. Season with salt and pepper, add sour cream, cooked onion and fresh dill. Gently mix.",
+            "mediaId": "wordpress-attachment:13010"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Preheat oven to 380 degrees F. Line baking sheet with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Gently roll out the dough to a thickness of about 1/2 cm. Using 8 cm round cookie cutter carefully cut out circles.",
+            "mediaId": "wordpress-attachment:13011"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Place pastry rounds on a flat surface, divide salmon mixture between them and spread one tea spoon over pastry, leaving a 1/2 cm border all around.",
+            "mediaId": "wordpress-attachment:13012"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Brush pastry borders with water. Top with pastry rounds and press edges together firmly to seal.",
+            "mediaId": "wordpress-attachment:13013"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Place the pastry packets on baking sheet and brush with egg yolk.",
+            "mediaId": "wordpress-attachment:13014"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Make a small hole in the middle of the top of each lid. Use a paring knife to score the top of the pastry as desired. Be careful not puncture through.",
+            "mediaId": "wordpress-attachment:13015"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Bake for about 20 minutes, or until golden.",
+            "mediaId": "wordpress-attachment:13017"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13018",
+      "sourceId": "13018",
+      "path": "/recipes/media/wordpress/13018.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13009",
+      "sourceId": "13009",
+      "path": "/recipes/media/wordpress/13009.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13010",
+      "sourceId": "13010",
+      "path": "/recipes/media/wordpress/13010.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13011",
+      "sourceId": "13011",
+      "path": "/recipes/media/wordpress/13011.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13012",
+      "sourceId": "13012",
+      "path": "/recipes/media/wordpress/13012.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13013",
+      "sourceId": "13013",
+      "path": "/recipes/media/wordpress/13013.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13014",
+      "sourceId": "13014",
+      "path": "/recipes/media/wordpress/13014.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13015",
+      "sourceId": "13015",
+      "path": "/recipes/media/wordpress/13015.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13017",
+      "sourceId": "13017",
+      "path": "/recipes/media/wordpress/13017.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

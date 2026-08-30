@@ -1,0 +1,659 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22021",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:4551",
+  "slug": "cake-au-citron",
+  "source": {
+    "system": "wordpress",
+    "postId": "22021",
+    "recipeId": "22021",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cake-au-citron",
+    "createdAt": "2019-12-14T02:25:00+00:00",
+    "modifiedAt": "2022-07-30T20:05:46+00:00",
+    "editorialPostId": "11514",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cake-au-citron",
+    "editorialCreatedAt": "2019-12-14T02:25:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:05:44+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/cake-au-citron/"
+  ],
+  "title": "Cake au citron",
+  "description": "Ajuster la quantité de zeste selon l'intensité souhaitée. Si vous n'avez pas d'arôme de citron, augmenter la quantité de jus de citron pressé.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le cake au citron est classique et très populaire aux États-Unis. D'ailleurs, c'est le seul gâteau que j'achète chez <span id=\":1bc.32\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Starbucks</span>. Le glaçage n'est pas nécessaire, mais il ajoute une petite touche citronnée très agréable.&nbsp;À déguster avec une tasse de thé ou de café à tout moment de la journée.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22021,\"template\":\"chic-template-french\",\"updated\":1607394432861} -->\n<!--WPRM Recipe 22021-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Cake au citron</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_195323.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tAjuster la quantité de zeste selon l'intensité souhaitée. Si vous n'avez pas d'arôme de citron, augmenter la quantité de jus de citron pressé.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 citron ((jus+citron))</li><li>3 œufs</li><li>1 verre de sucre en poudre</li><li>1 cuillère à café d'arôme de citron</li><li>70 ml d'huile végétale</li><li>1 verre de yogourt (grec nature)</li><li>1 1/2 verre de farine tamisée</li><li>2 cuillères à café de levure chimique</li></ul><h4>Glaçage au citron</h4><ul><li>1 verre de sucre glace</li><li>2 cuillères à soupe de jus de citron</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 160°C, beurrer et fariner un moule à cake. Bien laver le citron, râper le zeste et presser le jus.</li><li>Blanchir les œufs avec le sucre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_081514.Blog_-1-150x150.png\"/><br /></li><li>Ajouter le zeste, 1 cuillère à café de jus de citron et 1 cuillère à café d'arôme de citron.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_085112.Blog_-150x150.png\"/><br /></li><li>Verser l'huile et bien mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_081655.Blog_-150x150.png\"/><br /></li><li>Ajouter le yogourt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_085201.Blog_-150x150.png\"/><br /></li><li>Incorporer la farine et la levure chimique.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_085325.Blog_-150x150.png\"/><br /></li><li>Verser la pâte dans le moule et faire cuire au four pendant 45 minutes. Puis couvrir le cake avec une feuille de papier aluminium et continuer la cuisson encore pendant environ 10 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_085536.Blog_-150x150.png\"/><br /></li><li>Sortir le moule du four, laisser reposer pendant une quinzaine de minutes. Puis démouler le gâteau et le laisser complètement refroidir avant de couvrir du glaçage.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_092157.Blog_-150x150.png\"/><br /></li></ol><h4>Glaçage</h4><ol><li>Dans un bol, mélanger le sucre glace avec 2 cuillères à soupe de jus de citron pour obtenir un glaçage lisse. Napper le cake et laisser figer le glaçage.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_134149.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24304",
+      "sourceTaxonomyId": "24304",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24319",
+      "sourceTaxonomyId": "24319",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24320",
+      "sourceTaxonomyId": "24320",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24468",
+      "sourceTaxonomyId": "24468",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24473",
+      "sourceTaxonomyId": "24473",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24496",
+      "sourceTaxonomyId": "24496",
+      "name": "citron",
+      "slug": "citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24678",
+      "sourceTaxonomyId": "24678",
+      "name": "d'arôme de citron",
+      "slug": "darome-de-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24679",
+      "sourceTaxonomyId": "24679",
+      "name": "de yogourt (grec nature)",
+      "slug": "de-yogourt-grec-nature"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "607",
+      "sourceTaxonomyId": "607",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "772",
+      "sourceTaxonomyId": "772",
+      "name": "citron",
+      "slug": "citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "938",
+      "sourceTaxonomyId": "938",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "946",
+      "sourceTaxonomyId": "946",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1893",
+      "sourceTaxonomyId": "1893",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3996",
+      "sourceTaxonomyId": "3996",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5655",
+      "sourceTaxonomyId": "5655",
+      "name": "d'arôme de citron",
+      "slug": "darome-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5659",
+      "sourceTaxonomyId": "5659",
+      "name": "de yogourt (grec nature)",
+      "slug": "de-yogourt-grec-nature"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1540",
+      "sourceTaxonomyId": "1540",
+      "name": "citron",
+      "slug": "citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2325",
+      "sourceTaxonomyId": "2325",
+      "name": "gateau americain",
+      "slug": "gateau-americain"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2939",
+      "sourceTaxonomyId": "2939",
+      "name": "gouter",
+      "slug": "gouter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2941",
+      "sourceTaxonomyId": "2941",
+      "name": "petit dejeuner",
+      "slug": "petit-dejeuner"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5647",
+      "sourceTaxonomyId": "5647",
+      "name": "cake au citron",
+      "slug": "cake-au-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5649",
+      "sourceTaxonomyId": "5649",
+      "name": "cake au yagourt",
+      "slug": "cake-au-yagourt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5651",
+      "sourceTaxonomyId": "5651",
+      "name": "lemon",
+      "slug": "lemon-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5661",
+      "sourceTaxonomyId": "5661",
+      "name": "gateau au citron",
+      "slug": "gateau-au-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5663",
+      "sourceTaxonomyId": "5663",
+      "name": "glacage",
+      "slug": "glacage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5665",
+      "sourceTaxonomyId": "5665",
+      "name": "glacage citronne",
+      "slug": "glacage-citronne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5667",
+      "sourceTaxonomyId": "5667",
+      "name": "arome de citron jus de citron",
+      "slug": "arome-de-citron-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5669",
+      "sourceTaxonomyId": "5669",
+      "name": "yaourt grec",
+      "slug": "yaourt-grec"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5671",
+      "sourceTaxonomyId": "5671",
+      "name": "yaourt nature",
+      "slug": "yaourt-nature"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5673",
+      "sourceTaxonomyId": "5673",
+      "name": "huile vegetale",
+      "slug": "huile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5675",
+      "sourceTaxonomyId": "5675",
+      "name": "comme a Starbucks",
+      "slug": "comme-a-starbucks"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "70",
+        "minutes": 70
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:8984",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 citron (jus+citron)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citron",
+            "notes": "(jus+citron)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 œufs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 verre de sucre en poudre",
+            "quantity": {
+              "raw": "1 verre",
+              "value": 1,
+              "unit": "verre",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cuillère à café d'arôme de citron",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "d'arôme de citron",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "70 ml d'huile végétale",
+            "quantity": {
+              "raw": "70 ml",
+              "value": 70,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'huile végétale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 verre de yogourt (grec nature)",
+            "quantity": {
+              "raw": "1 verre",
+              "value": 1,
+              "unit": "verre",
+              "scalable": true
+            },
+            "name": "de yogourt (grec nature)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 1/2 verre de farine tamisée",
+            "quantity": {
+              "raw": "1 1/2 verre",
+              "value": 1.5,
+              "unit": "verre",
+              "scalable": true
+            },
+            "name": "de farine tamisée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "2 cuillères à café de levure chimique",
+            "quantity": {
+              "raw": "2 cuillères à café",
+              "value": 2,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de levure chimique",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Glaçage au citron",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 verre de sucre glace",
+            "quantity": {
+              "raw": "1 verre",
+              "value": 1,
+              "unit": "verre",
+              "scalable": true
+            },
+            "name": "de sucre glace",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 cuillères à soupe de jus de citron",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de jus de citron",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 160°C, beurrer et fariner un moule à cake. Bien laver le citron, râper le zeste et presser le jus.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Blanchir les œufs avec le sucre.",
+            "mediaId": "wordpress-attachment:9061"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter le zeste, 1 cuillère à café de jus de citron et 1 cuillère à café d'arôme de citron.",
+            "mediaId": "wordpress-attachment:8978"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Verser l'huile et bien mélanger.",
+            "mediaId": "wordpress-attachment:8973"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter le yogourt.",
+            "mediaId": "wordpress-attachment:8979"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Incorporer la farine et la levure chimique.",
+            "mediaId": "wordpress-attachment:8980"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Verser la pâte dans le moule et faire cuire au four pendant 45 minutes. Puis couvrir le cake avec une feuille de papier aluminium et continuer la cuisson encore pendant environ 10 minutes.",
+            "mediaId": "wordpress-attachment:8981"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Sortir le moule du four, laisser reposer pendant une quinzaine de minutes. Puis démouler le gâteau et le laisser complètement refroidir avant de couvrir du glaçage.",
+            "mediaId": "wordpress-attachment:8982"
+          }
+        ]
+      },
+      {
+        "name": "Glaçage",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un bol, mélanger le sucre glace avec 2 cuillères à soupe de jus de citron pour obtenir un glaçage lisse. Napper le cake et laisser figer le glaçage.",
+            "mediaId": "wordpress-attachment:8983"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8984",
+      "sourceId": "8984",
+      "path": "/recipes/media/wordpress/8984.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:9061",
+      "sourceId": "9061",
+      "path": "/recipes/media/wordpress/9061.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8978",
+      "sourceId": "8978",
+      "path": "/recipes/media/wordpress/8978.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8973",
+      "sourceId": "8973",
+      "path": "/recipes/media/wordpress/8973.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8979",
+      "sourceId": "8979",
+      "path": "/recipes/media/wordpress/8979.png",
+      "alt": null,
+      "width": 800,
+      "height": 656
+    },
+    {
+      "id": "wordpress-attachment:8980",
+      "sourceId": "8980",
+      "path": "/recipes/media/wordpress/8980.png",
+      "alt": null,
+      "width": 800,
+      "height": 624
+    },
+    {
+      "id": "wordpress-attachment:8981",
+      "sourceId": "8981",
+      "path": "/recipes/media/wordpress/8981.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8982",
+      "sourceId": "8982",
+      "path": "/recipes/media/wordpress/8982.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8983",
+      "sourceId": "8983",
+      "path": "/recipes/media/wordpress/8983.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

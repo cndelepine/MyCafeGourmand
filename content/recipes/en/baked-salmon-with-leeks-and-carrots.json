@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21717",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:1009",
+  "slug": "baked-salmon-with-leeks-and-carrots",
+  "source": {
+    "system": "wordpress",
+    "postId": "21717",
+    "recipeId": "21717",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-baked-salmon-with-leeks-and-carrots",
+    "createdAt": "2018-01-26T04:47:20+00:00",
+    "modifiedAt": "2022-06-26T23:21:59+00:00",
+    "editorialPostId": "2604",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "baked-salmon-with-leeks-and-carrots",
+    "editorialCreatedAt": "2018-01-26T04:47:20+00:00",
+    "editorialModifiedAt": "2022-06-26T23:21:57+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/baked-salmon-with-leeks-and-carrots/"
+  ],
+  "title": "Baked Salmon with Leeks and Carrots",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Carrots and leeks are the perfect combination of flavors for baked salmon. This is an easy recipe to prepare salmon and veggies in an aluminum foil. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21717,\"template\":\"chic-template-english\",\"updated\":1656285681103} -->\n<!--WPRM Recipe 21717-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Baked Salmon with Leeks and Carrots</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180120_185637.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 salmon fillets</li><li>4 tsp mustard</li><li>1-2 leeks</li><li>2 carrots</li><li>salt and pepper (to taste)</li><li>4 Tbsp olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 400 degrees F. Prepare 12x12 inch foil pieces for each fillet. </li><li>Place salmon on prepared foil and spread mustard over each fillet. (I use traditional mustard \"a l'ancienne\", but you can use any type).\r\n <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7592.Blog_-150x150.png\"/><br /></li><li>Wash the leeks and cut into thin slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7591.Blog_-150x150.png\"/><br /></li><li>Shred the carrots.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7593.Blog_-150x150.png\"/><br /></li><li>Top each salmon fillet with carrots and leeks, drizzle 4 Tbsp. of olive oil and season with salt and pepper. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6640.Blog_-150x150.png\"/><br /></li><li>Bring the long sides of the foil up the middle and fold the edges together. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7157.Blog_-150x150.png\"/><br /></li><li>Bake for about 30 minutes or until salmon is cooked though. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180120_185704-150x150.jpg\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24127",
+      "sourceTaxonomyId": "24127",
+      "name": "leeks",
+      "slug": "leeks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24202",
+      "sourceTaxonomyId": "24202",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24280",
+      "sourceTaxonomyId": "24280",
+      "name": "mustard",
+      "slug": "mustard"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24324",
+      "sourceTaxonomyId": "24324",
+      "name": "salmon fillets",
+      "slug": "salmon-fillets"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "295",
+      "sourceTaxonomyId": "295",
+      "name": "salmon fillets",
+      "slug": "salmon-fillets"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1012",
+      "sourceTaxonomyId": "1012",
+      "name": "mustard",
+      "slug": "mustard"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1014",
+      "sourceTaxonomyId": "1014",
+      "name": "leeks",
+      "slug": "leeks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1016",
+      "sourceTaxonomyId": "1016",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1348",
+      "sourceTaxonomyId": "1348",
+      "name": "aluminum foil",
+      "slug": "aluminum-foil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1352",
+      "sourceTaxonomyId": "1352",
+      "name": "fish",
+      "slug": "fish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1354",
+      "sourceTaxonomyId": "1354",
+      "name": "salmon",
+      "slug": "salmon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1360",
+      "sourceTaxonomyId": "1360",
+      "name": "baked",
+      "slug": "baked"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1436",
+      "sourceTaxonomyId": "1436",
+      "name": "Baked Salmon with Leeks and Carrots",
+      "slug": "baked-salmon-with-leeks-and-carrots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4413",
+      "sourceTaxonomyId": "4413",
+      "name": "simple and elegant",
+      "slug": "simple-and-elegant"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2533",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 salmon fillets",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "salmon fillets",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 tsp mustard",
+            "quantity": {
+              "raw": "4 tsp",
+              "value": 4,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "mustard",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 leeks",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "leeks",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 carrots",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carrots",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 Tbsp olive oil",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 400 degrees F. Prepare 12x12 inch foil pieces for each fillet.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Place salmon on prepared foil and spread mustard over each fillet. (I use traditional mustard \"a l'ancienne\", but you can use any type).",
+            "mediaId": "wordpress-attachment:2515"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Wash the leeks and cut into thin slices.",
+            "mediaId": "wordpress-attachment:2514"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Shred the carrots.",
+            "mediaId": "wordpress-attachment:2516"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Top each salmon fillet with carrots and leeks, drizzle 4 Tbsp. of olive oil and season with salt and pepper.",
+            "mediaId": "wordpress-attachment:15950"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bring the long sides of the foil up the middle and fold the edges together.",
+            "mediaId": "wordpress-attachment:2519"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Bake for about 30 minutes or until salmon is cooked though.",
+            "mediaId": "wordpress-attachment:2527"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2533",
+      "sourceId": "2533",
+      "path": "/recipes/media/wordpress/2533.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:2515",
+      "sourceId": "2515",
+      "path": "/recipes/media/wordpress/2515.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2514",
+      "sourceId": "2514",
+      "path": "/recipes/media/wordpress/2514.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2516",
+      "sourceId": "2516",
+      "path": "/recipes/media/wordpress/2516.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:15950",
+      "sourceId": "15950",
+      "path": "/recipes/media/wordpress/15950.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2519",
+      "sourceId": "2519",
+      "path": "/recipes/media/wordpress/2519.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:2527",
+      "sourceId": "2527",
+      "path": "/recipes/media/wordpress/2527.jpg",
+      "alt": null,
+      "width": 1920,
+      "height": 2560
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21374",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:5783",
+  "slug": "vegetarian-tabbouleh-salad",
+  "source": {
+    "system": "wordpress",
+    "postId": "21374",
+    "recipeId": "21374",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tabbouleh-salad",
+    "createdAt": "2023-07-14T10:40:00+00:00",
+    "modifiedAt": "2023-07-16T18:42:26+00:00",
+    "editorialPostId": "13409",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "vegetarian-tabbouleh-salad",
+    "editorialCreatedAt": "2023-07-14T10:40:00+00:00",
+    "editorialModifiedAt": "2023-07-16T18:41:37+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/vegetarian-tabbouleh-salad/"
+  ],
+  "title": "Tabbouleh Salad",
+  "description": "Tabbouleh Salad can be served as a main course or side dish.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Tabbouleh salad has been a fundamental part of Middle Eastern cuisine for many years. The main ingredients are bulgur, parsley, lemon juice and olive oil, the rest ingredients are fresh or marinated vegetables, olives, raisins and spices. This salad is very flexible, fell free to add more or less of any spices of your choice.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21374,\"template\":\"chic-template-english\",\"updated\":1659210934166} -->\n<!--WPRM Recipe 21374-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tabbouleh Salad</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0646.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tTabbouleh Salad can be served as  a main course or side dish.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g couscous</li><li>200 ml boil water</li><li>1/4 tsp salt</li><li>4 tomatoes</li><li>1 english cucumber (or 4 small ones)</li><li>1 onion</li><li>1 bell pepper (any color) ((I used 3 mini bell peppers))</li><li>1/4 bunch fresh parsley</li><li>1/4 bunch Fresh mint</li><li>Salt and freshly ground black pepper</li><li>Few drops tabasco sauce ((optional))</li><li>1 large lemon</li><li>6 Tbsp olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>In a medium saucepan, bring the water and 1/4 tsp of salt to a boil. Stir in the couscous, cover tightly with a lid and remove from heat, let steam for 5 minutes. Cool it down.</li><li>Cut tomatoes into small pieces.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0618.Blog_-150x150.png\"/><br /></li><li>Peel and cut cucumber into small cubes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0620.Blog_-150x150.png\"/><br /></li><li>Peel and thinly chop onion. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0619.Blog_-150x150.png\"/><br /></li><li>Remove seeds from bell pepper and cut into small cubes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0622.Blog_-150x150.png\"/><br /></li><li>Finely chop fresh parsley and mint.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0623.Blog_-150x150.png\"/><br /></li><li>Place the chopped vegetables, herbs and bulgur in a mixing bowl. Add Tabasco sauce. Drizzle with lemon juice and olive oil. Mix gently. Taste for seasoning and adjust with salt and pepper as needed.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0625.Blog_-150x150.png\"/><br /></li><li>Transfer to a serving plater or serve it as a castle (using a ring)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0681-150x150.jpg\"/><br /></li><li>Or in a glass.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0677.Blog_-150x150.png\"/><br /></li><li>Or as stuffed tomatoes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0665.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24110",
+      "sourceTaxonomyId": "24110",
+      "name": "Fresh mint",
+      "slug": "fresh-mint"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24140",
+      "sourceTaxonomyId": "24140",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24146",
+      "sourceTaxonomyId": "24146",
+      "name": "english cucumber",
+      "slug": "english-cucumber"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24238",
+      "sourceTaxonomyId": "24238",
+      "name": "fresh parsley",
+      "slug": "fresh-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24256",
+      "sourceTaxonomyId": "24256",
+      "name": "couscous",
+      "slug": "couscous"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24257",
+      "sourceTaxonomyId": "24257",
+      "name": "boil water",
+      "slug": "boil-water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24258",
+      "sourceTaxonomyId": "24258",
+      "name": "bell pepper (any color)",
+      "slug": "bell-pepper-any-color"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24259",
+      "sourceTaxonomyId": "24259",
+      "name": "tabasco sauce",
+      "slug": "tabasco-sauce"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24260",
+      "sourceTaxonomyId": "24260",
+      "name": "large lemon",
+      "slug": "large-lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2054",
+      "sourceTaxonomyId": "2054",
+      "name": "tomatoes",
+      "slug": "tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2772",
+      "sourceTaxonomyId": "2772",
+      "name": "fresh parsley",
+      "slug": "fresh-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3746",
+      "sourceTaxonomyId": "3746",
+      "name": "Fresh mint",
+      "slug": "fresh-mint"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4118",
+      "sourceTaxonomyId": "4118",
+      "name": "english cucumber",
+      "slug": "english-cucumber"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17090",
+      "sourceTaxonomyId": "17090",
+      "name": "couscous",
+      "slug": "couscous"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17092",
+      "sourceTaxonomyId": "17092",
+      "name": "boil water",
+      "slug": "boil-water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17094",
+      "sourceTaxonomyId": "17094",
+      "name": "bell pepper (any color)",
+      "slug": "bell-pepper-any-color"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17098",
+      "sourceTaxonomyId": "17098",
+      "name": "large lemon",
+      "slug": "large-lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17365",
+      "sourceTaxonomyId": "17365",
+      "name": "tabasco sauce",
+      "slug": "tabasco-sauce"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4329",
+      "sourceTaxonomyId": "4329",
+      "name": "spring salad",
+      "slug": "spring-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4798",
+      "sourceTaxonomyId": "4798",
+      "name": "summer salad",
+      "slug": "summer-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4800",
+      "sourceTaxonomyId": "4800",
+      "name": "healthy salad",
+      "slug": "healthy-salad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25606",
+      "sourceTaxonomyId": "25606",
+      "name": "Tabbouleh Salad",
+      "slug": "tabbouleh-salad"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "200",
+        "minutes": 200
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11559",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g couscous",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "couscous",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 ml boil water",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "boil water",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/4 tsp salt",
+            "quantity": {
+              "raw": "1/4 tsp",
+              "value": 0.25,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4 tomatoes",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 english cucumber or 4 small ones",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "english cucumber",
+            "notes": "or 4 small ones"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 onion",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 bell pepper (any color) (I used 3 mini bell peppers)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bell pepper (any color)",
+            "notes": "(I used 3 mini bell peppers)"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1/4 bunch fresh parsley",
+            "quantity": {
+              "raw": "1/4 bunch",
+              "value": 0.25,
+              "unit": "bunch",
+              "scalable": true
+            },
+            "name": "fresh parsley",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1/4 bunch Fresh mint",
+            "quantity": {
+              "raw": "1/4 bunch",
+              "value": 0.25,
+              "unit": "bunch",
+              "scalable": true
+            },
+            "name": "Fresh mint",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "Few drops tabasco sauce (optional)",
+            "quantity": {
+              "raw": "Few drops",
+              "unit": "drops",
+              "scalable": false
+            },
+            "name": "tabasco sauce",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 11,
+            "raw": "1 large lemon",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "large lemon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 12,
+            "raw": "6 Tbsp olive oil",
+            "quantity": {
+              "raw": "6 Tbsp",
+              "value": 6,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a medium saucepan, bring the water and 1/4 tsp of salt to a boil. Stir in the couscous, cover tightly with a lid and remove from heat, let steam for 5 minutes. Cool it down.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Cut tomatoes into small pieces.",
+            "mediaId": "wordpress-attachment:11544"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel and cut cucumber into small cubes.",
+            "mediaId": "wordpress-attachment:11546"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Peel and thinly chop onion.",
+            "mediaId": "wordpress-attachment:11545"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Remove seeds from bell pepper and cut into small cubes.",
+            "mediaId": "wordpress-attachment:11547"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Finely chop fresh parsley and mint.",
+            "mediaId": "wordpress-attachment:11548"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Place the chopped vegetables, herbs and bulgur in a mixing bowl. Add Tabasco sauce. Drizzle with lemon juice and olive oil. Mix gently. Taste for seasoning and adjust with salt and pepper as needed.",
+            "mediaId": "wordpress-attachment:11549"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Transfer to a serving plater or serve it as a castle (using a ring)",
+            "mediaId": "wordpress-attachment:11560"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Or in a glass.",
+            "mediaId": "wordpress-attachment:11551"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Or as stuffed tomatoes.",
+            "mediaId": "wordpress-attachment:11550"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11559",
+      "sourceId": "11559",
+      "path": "/recipes/media/wordpress/11559.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11544",
+      "sourceId": "11544",
+      "path": "/recipes/media/wordpress/11544.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11546",
+      "sourceId": "11546",
+      "path": "/recipes/media/wordpress/11546.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11545",
+      "sourceId": "11545",
+      "path": "/recipes/media/wordpress/11545.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11547",
+      "sourceId": "11547",
+      "path": "/recipes/media/wordpress/11547.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11548",
+      "sourceId": "11548",
+      "path": "/recipes/media/wordpress/11548.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11549",
+      "sourceId": "11549",
+      "path": "/recipes/media/wordpress/11549.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11560",
+      "sourceId": "11560",
+      "path": "/recipes/media/wordpress/11560.jpg",
+      "alt": null,
+      "width": 2560,
+      "height": 1707
+    },
+    {
+      "id": "wordpress-attachment:11551",
+      "sourceId": "11551",
+      "path": "/recipes/media/wordpress/11551.png",
+      "alt": null,
+      "width": 528,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:11550",
+      "sourceId": "11550",
+      "path": "/recipes/media/wordpress/11550.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

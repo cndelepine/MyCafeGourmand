@@ -1,0 +1,844 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22126",
+  "locale": "fr",
+  "translationGroupId": null,
+  "slug": "galette-des-rois-a-la-frangipane",
+  "source": {
+    "system": "wordpress",
+    "postId": "22126",
+    "recipeId": "22126",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-galette-des-rois-a-la-frangipane",
+    "createdAt": "2024-12-30T15:00:00+00:00",
+    "modifiedAt": "2026-02-14T00:55:13+00:00",
+    "editorialPostId": "1072",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "galette-des-rois-a-la-frangipane",
+    "editorialCreatedAt": "2024-12-30T15:00:00+00:00",
+    "editorialModifiedAt": "2026-02-14T00:54:05+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/galette-des-rois-a-la-frangipane/"
+  ],
+  "title": "Galette des rois à la frangipane",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">Cette galette des rois à la frangipane est plus longue à préparer qu'une <a href=\"https://mycafegourmand.com/fr/galette-des-rois-a-la-creme-damandes/\">galette simple à la crème d'amande</a>. Mais cela vaut le coût si vous avez le temps et voulez faire plaisir à vos proches et vous-même. Essayez-la!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22126,\"template\":\"chic-template-french\",\"updated\":1705289267386} -->\n<!--WPRM Recipe 22126-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Galette des rois à la frangipane</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2024/01/IMG_4391.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Crème pâtissière :</h4><ul><li>1 jaune d'œuf</li><li>1 cuillère à soupe de sucre en poudre</li><li>2 cuillères à café de Maïzena</li><li>2 cuillères à soupe de lait</li><li>100 ml de crème liquide</li><li>1/2 gousse de vanille ((ou arôme de vanille))</li></ul><h4>Crème d&#039;amande :</h4><ul><li>70 g de beurre (à température ambiante)</li><li>70 g de sucre en poudre</li><li>70 g de poudre d'amandes</li><li>1 œuf</li><li>3 cuillères à soupe de rhum</li></ul><h4>Finition :</h4><ul><li>2 pâtes feuilletées (prêtes à dérouler)</li><li>1 fève</li><li>1 œuf battu</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Crème pâtissière :</h4><ol><li>Blanchir le jaune d'œuf et le sucre au fouet. Ajouter la Maïzena et bien mélanger. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7071.Blog_-150x150.png\"/><br /></li><li>Gratter les graines avec un couteau et les ajouter dans la lait avec la gousse. (Si vous utilisez l'arome de vanille, l'ajouter plus tard, dans la crème d'amande). Porter le lait et crème à ébullition. Les verser sur la préparation œufs-sucre. Bien mélanger. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7075.Blog_-150x150.png\"/><br /></li><li>Transvaser le tout à nouveau dans la casserole. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7081.Blog_-150x150.png\"/><br /></li><li>Faire cuire quelques minutes à feu moyen en remuant constamment jusqu'à épaississement de la crème. Retirer la gousse de vanille.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7084.Blog_-150x150.png\"/><br /></li><li>Verser la  crème dans un saladier, couvrir au contact avec un papier film. Laisser refroidir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7086.Blog_-150x150.png\"/><br /></li></ol><h4>Crème frangipane :</h4><ol><li>Travailler le beurre avec le sucre et la poudre d'amandes. Lorsque le mélange est homogène, incorporer l'œuf et le rhum. (Ajouter l'arôme de vanille).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7089.Blog_-150x150.png\"/><br /></li><li>Mélanger ensemble la crème d'amande et la crème pâtissière refroidie.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7090.Blog_-150x150.png\"/><br /></li></ol><h4>Montage de la galette </h4><ol><li>Préchauffer le four à 180°C (thermostat 6). Dérouler une pâte feuilletée en gardant le papier sulfurisé. Mettre la frangipane au centre puis l'étaler sur la pâte (en laissant une couronne d'environ 2 cm sans frangipane). Mouiller avec le doigt le pourtour de la pâte. Enfoncer la fève dans la frangipane. (Je l'oublie 2 fois sur 3 !)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7091.Blog_-150x150.png\"/><br /></li><li>Couvrir avec la deuxième pâte. Bien sceller. Faire les bords jolis (si vous voulez).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7093.Blog_-150x150.png\"/><br /></li><li>Dorer le dessus avec un œuf. Laisser reposer la galette dans le réfrigérateur pendant environ 1 heure.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7094.Blog_-150x150.png\"/><br /></li><li>Dorer la surface de galette encore une fois avec le reste d'œuf. Tracer des croisillons sur la pâte feuilletée et percer 3-4 petits trous avec le pointe d'un couteau ou une pique en bois.</li><li>Faire cuire en bas du four à 180°C pendant environ 30 minutes (thermostat 6), jusqu'à ce que la galette soit bien dorée.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7103.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24036",
+      "sourceTaxonomyId": "24036",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24524",
+      "sourceTaxonomyId": "24524",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24589",
+      "sourceTaxonomyId": "24589",
+      "name": "de crème liquide",
+      "slug": "de-creme-liquide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24590",
+      "sourceTaxonomyId": "24590",
+      "name": "de poudre d'amandes",
+      "slug": "de-poudre-damandes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24591",
+      "sourceTaxonomyId": "24591",
+      "name": "jaune d'œuf",
+      "slug": "jaune-doeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24597",
+      "sourceTaxonomyId": "24597",
+      "name": "de rhum",
+      "slug": "de-rhum"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24739",
+      "sourceTaxonomyId": "24739",
+      "name": "de Maïzena",
+      "slug": "de-maizena"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24740",
+      "sourceTaxonomyId": "24740",
+      "name": "gousse de vanille",
+      "slug": "gousse-de-vanille"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24743",
+      "sourceTaxonomyId": "24743",
+      "name": "pâtes feuilletées",
+      "slug": "pates-feuilletees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24744",
+      "sourceTaxonomyId": "24744",
+      "name": "fève",
+      "slug": "feve"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26303",
+      "sourceTaxonomyId": "26303",
+      "name": "œuf battu",
+      "slug": "oeuf-battu"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25472",
+      "sourceTaxonomyId": "25472",
+      "name": "cuillères à soupe",
+      "slug": "cuilleres-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25574",
+      "sourceTaxonomyId": "25574",
+      "name": "cuillères à café",
+      "slug": "cuilleres-a-cafe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "252",
+      "sourceTaxonomyId": "252",
+      "name": "jaune d'œuf",
+      "slug": "jaune-doeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "370",
+      "sourceTaxonomyId": "370",
+      "name": "Crème pâtissière :",
+      "slug": "creme-patissiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "372",
+      "sourceTaxonomyId": "372",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "374",
+      "sourceTaxonomyId": "374",
+      "name": "de crème liquide",
+      "slug": "de-creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "376",
+      "sourceTaxonomyId": "376",
+      "name": "gousse de vanille",
+      "slug": "gousse-de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "382",
+      "sourceTaxonomyId": "382",
+      "name": "de Maïzena",
+      "slug": "de-maizena"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "384",
+      "sourceTaxonomyId": "384",
+      "name": "Crème d'amande :",
+      "slug": "creme-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "386",
+      "sourceTaxonomyId": "386",
+      "name": "de poudre d'amandes",
+      "slug": "de-poudre-damandes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "388",
+      "sourceTaxonomyId": "388",
+      "name": "de rhum",
+      "slug": "de-rhum"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "390",
+      "sourceTaxonomyId": "390",
+      "name": "Finition :",
+      "slug": "finition"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "392",
+      "sourceTaxonomyId": "392",
+      "name": "pâtes feuilletées",
+      "slug": "pates-feuilletees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "394",
+      "sourceTaxonomyId": "394",
+      "name": "fève",
+      "slug": "feve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "15424",
+      "sourceTaxonomyId": "15424",
+      "name": "d’œuf battu",
+      "slug": "doeuf-battu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1396",
+      "sourceTaxonomyId": "1396",
+      "name": "pate feuilletee",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1504",
+      "sourceTaxonomyId": "1504",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1672",
+      "sourceTaxonomyId": "1672",
+      "name": "galette des rois",
+      "slug": "galette-des-rois"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1674",
+      "sourceTaxonomyId": "1674",
+      "name": "frangipane",
+      "slug": "frangipane"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1676",
+      "sourceTaxonomyId": "1676",
+      "name": "poudre d'amande",
+      "slug": "poudre-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1678",
+      "sourceTaxonomyId": "1678",
+      "name": "creme patissiere",
+      "slug": "creme-patissiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3102",
+      "sourceTaxonomyId": "3102",
+      "name": "oeufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3668",
+      "sourceTaxonomyId": "3668",
+      "name": "epiphanie",
+      "slug": "epiphanie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4522",
+      "sourceTaxonomyId": "4522",
+      "name": "raffine",
+      "slug": "raffine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7058",
+      "sourceTaxonomyId": "7058",
+      "name": "sophistique",
+      "slug": "sophistique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7060",
+      "sourceTaxonomyId": "7060",
+      "name": "pate feuilletee prete a derouler",
+      "slug": "pate-feuilletee-prete-a-derouler"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "85",
+        "minutes": 85
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27761",
+    "ingredientGroups": [
+      {
+        "name": "Crème pâtissière :",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 jaune d'œuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "jaune d'œuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cuillère à soupe de sucre en poudre",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 cuillères à café de Maïzena",
+            "quantity": {
+              "raw": "2 cuillères à café",
+              "value": 2,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de Maïzena",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 cuillères à soupe de lait",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 ml de crème liquide",
+            "quantity": {
+              "raw": "100 ml",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de crème liquide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 gousse de vanille (ou arôme de vanille)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "gousse de vanille",
+            "notes": "(ou arôme de vanille)"
+          }
+        ]
+      },
+      {
+        "name": "Crème d'amande :",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "70 g de beurre à température ambiante",
+            "quantity": {
+              "raw": "70 g",
+              "value": 70,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": "à température ambiante"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "70 g de sucre en poudre",
+            "quantity": {
+              "raw": "70 g",
+              "value": 70,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "70 g de poudre d'amandes",
+            "quantity": {
+              "raw": "70 g",
+              "value": 70,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de poudre d'amandes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 œuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 cuillères à soupe de rhum",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de rhum",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Finition :",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 pâtes feuilletées prêtes à dérouler",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pâtes feuilletées",
+            "notes": "prêtes à dérouler"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 fève",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "fève",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 œuf battu",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf battu",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Crème pâtissière :",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Blanchir le jaune d'œuf et le sucre au fouet. Ajouter la Maïzena et bien mélanger.",
+            "mediaId": "wordpress-attachment:1260"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Gratter les graines avec un couteau et les ajouter dans la lait avec la gousse. (Si vous utilisez l'arome de vanille, l'ajouter plus tard, dans la crème d'amande). Porter le lait et crème à ébullition. Les verser sur la préparation œufs-sucre. Bien mélanger.",
+            "mediaId": "wordpress-attachment:1261"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Transvaser le tout à nouveau dans la casserole.",
+            "mediaId": "wordpress-attachment:1262"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire cuire quelques minutes à feu moyen en remuant constamment jusqu'à épaississement de la crème. Retirer la gousse de vanille.",
+            "mediaId": "wordpress-attachment:1263"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Verser la crème dans un saladier, couvrir au contact avec un papier film. Laisser refroidir.",
+            "mediaId": "wordpress-attachment:1264"
+          }
+        ]
+      },
+      {
+        "name": "Crème frangipane :",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Travailler le beurre avec le sucre et la poudre d'amandes. Lorsque le mélange est homogène, incorporer l'œuf et le rhum. (Ajouter l'arôme de vanille).",
+            "mediaId": "wordpress-attachment:1265"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mélanger ensemble la crème d'amande et la crème pâtissière refroidie.",
+            "mediaId": "wordpress-attachment:1266"
+          }
+        ]
+      },
+      {
+        "name": "Montage de la galette",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Dérouler une pâte feuilletée en gardant le papier sulfurisé. Mettre la frangipane au centre puis l'étaler sur la pâte (en laissant une couronne d'environ 2 cm sans frangipane). Mouiller avec le doigt le pourtour de la pâte. Enfoncer la fève dans la frangipane. (Je l'oublie 2 fois sur 3 !)",
+            "mediaId": "wordpress-attachment:1267"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couvrir avec la deuxième pâte. Bien sceller. Faire les bords jolis (si vous voulez).",
+            "mediaId": "wordpress-attachment:1268"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dorer le dessus avec un œuf. Laisser reposer la galette dans le réfrigérateur pendant environ 1 heure.",
+            "mediaId": "wordpress-attachment:1269"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Dorer la surface de galette encore une fois avec le reste d'œuf. Tracer des croisillons sur la pâte feuilletée et percer 3-4 petits trous avec le pointe d'un couteau ou une pique en bois.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Faire cuire en bas du four à 180°C pendant environ 30 minutes (thermostat 6), jusqu'à ce que la galette soit bien dorée.",
+            "mediaId": "wordpress-attachment:1122"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27761",
+      "sourceId": "27761",
+      "path": "/recipes/media/wordpress/27761.png",
+      "alt": null,
+      "width": 800,
+      "height": 560
+    },
+    {
+      "id": "wordpress-attachment:1260",
+      "sourceId": "1260",
+      "path": "/recipes/media/wordpress/1260.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1261",
+      "sourceId": "1261",
+      "path": "/recipes/media/wordpress/1261.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1262",
+      "sourceId": "1262",
+      "path": "/recipes/media/wordpress/1262.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1263",
+      "sourceId": "1263",
+      "path": "/recipes/media/wordpress/1263.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1264",
+      "sourceId": "1264",
+      "path": "/recipes/media/wordpress/1264.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1265",
+      "sourceId": "1265",
+      "path": "/recipes/media/wordpress/1265.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1266",
+      "sourceId": "1266",
+      "path": "/recipes/media/wordpress/1266.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1267",
+      "sourceId": "1267",
+      "path": "/recipes/media/wordpress/1267.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1268",
+      "sourceId": "1268",
+      "path": "/recipes/media/wordpress/1268.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1269",
+      "sourceId": "1269",
+      "path": "/recipes/media/wordpress/1269.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:1122",
+      "sourceId": "1122",
+      "path": "/recipes/media/wordpress/1122.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

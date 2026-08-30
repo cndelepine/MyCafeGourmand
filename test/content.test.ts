@@ -1,35 +1,117 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { recipeCatalog, validateCatalog } from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
 import { recipeRecordSchema } from "../src/content/schema";
-import { validateSafeLocalPath } from "../src/content/url-path";
-
-const meatballsSoup = recipeCatalog[0]!;
+import {
+  decodeRecipeSlug,
+  validateSafeLocalPath
+} from "../src/content/url-path";
+import {
+  validateCatalogBehavior,
+  validateNormalizedRecipeDisplayText
+} from "../src/content/validation";
 
 test("the production catalog passes the canonical schema", () => {
-  const [record] = validateCatalog(recipeCatalog);
+  const validated = validateCatalog(recipeCatalog);
+  const localeCounts = Object.fromEntries(
+    ["en", "fr", "ru"].map((locale) => [
+      locale,
+      validated.filter((record) => record.locale === locale).length
+    ])
+  );
 
-  assert.equal(record.id, "wordpress:wprm:2980");
-  assert.equal(record.locale, "en");
-  assert.equal(record.translationGroupId, null);
+  assert.equal(validated.length, 522);
+  assert.deepEqual(localeCounts, { en: 162, fr: 172, ru: 188 });
+  assert.equal(new Set(validated.map((record) => record.id)).size, validated.length);
+  assert.equal(
+    validated.reduce((total, record) => total + record.redirectFrom.length, 0),
+    570
+  );
+  assert.equal(
+    validated.every((record) => record.schemaVersion === 1 && record.kind === "recipe"),
+    true
+  );
+  assert.doesNotThrow(() => validateNormalizedRecipeDisplayText(validated));
+
+  const authoritative = validated.find((record) => record.id === "wordpress:wprm:21681");
+  assert.ok(authoritative);
+  assert.equal(authoritative.locale, "en");
+  assert.equal(authoritative.slug, "meatballs-soup");
+  assert.equal(authoritative.source.recipeId, "21681");
+});
+
+test("intentionally partial recipes retain their verified canonical legacy redirects", () => {
+  const expectedRedirects = new Map([
+    ["25047", "/petits-choux/"],
+    ["25967", "/fr/rochers-a-la-noix-de-coco/"],
+    [
+      "26044",
+      "/ru/%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%be%d0%b5-%d0%ba%d0%be%d0%ba%d0%be%d1%81%d0%be%d0%b2%d0%be%d0%b5-%d0%bf%d0%b5%d1%87%d0%b5%d0%bd%d1%8c%d0%b5/"
+    ]
+  ]);
+
+  for (const [recipeId, redirect] of expectedRedirects) {
+    const record = recipeCatalog.find((candidate) => candidate.source.recipeId === recipeId);
+    assert.ok(record, `Missing intentionally partial recipe ${recipeId}`);
+    assert.deepEqual(record.redirectFrom, [redirect]);
+  }
 });
 
 test("missing translations remain missing", () => {
-  const catalog = validateCatalog([meatballsSoup]);
+  const catalog = validateCatalog([recipeFixture]);
 
   assert.deepEqual(catalog.map((record) => record.locale), ["en"]);
 });
 
+test("the promoted catalog has deterministic category, pagination, and sitemap coverage", () => {
+  const summary = validateCatalogBehavior(recipeCatalog);
+
+  assert.deepEqual(summary.categoriesByLocale, { en: 11, fr: 10, ru: 12 });
+  assert.deepEqual(summary.categoryMembershipsByLocale, { en: 225, fr: 250, ru: 265 });
+  assert.deepEqual(summary.landingPagesByLocale, { en: 7, fr: 8, ru: 8 });
+  assert.deepEqual(summary.categoryPagesByLocale, { en: 15, fr: 15, ru: 18 });
+  assert.equal(summary.staticPaths, 593);
+  assert.equal(summary.sitemapPaths, 593);
+});
+
 test("the schema rejects dangling media references", () => {
   const invalid = {
-    ...meatballsSoup,
+    ...recipeFixture,
     recipe: {
-      ...meatballsSoup.recipe,
+      ...recipeFixture.recipe,
       heroMediaId: "missing"
     }
   };
 
   assert.throws(() => recipeRecordSchema.parse(invalid), /Unknown media reference/);
+});
+
+test("content validation rejects HTML from every normalized recipe display field", () => {
+  assert.throws(
+    () => validateNormalizedRecipeDisplayText([recipeRecordSchema.parse({
+      ...recipeFixture,
+      description: "<p>Unnormalized description</p>"
+    })]),
+    /contains HTML markup/
+  );
+  assert.throws(
+    () => validateNormalizedRecipeDisplayText([recipeRecordSchema.parse({
+      ...recipeFixture,
+      recipe: {
+        ...recipeFixture.recipe,
+        instructionGroups: [{
+          ...recipeFixture.recipe.instructionGroups[0]!,
+          name: "<strong>Unnormalized group</strong>"
+        }]
+      }
+    })]),
+    /contains HTML markup/
+  );
+  assert.doesNotThrow(() => validateNormalizedRecipeDisplayText([recipeRecordSchema.parse({
+    ...recipeFixture,
+    description: "Normalized description."
+  })]));
 });
 
 test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", () => {
@@ -47,22 +129,23 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
     "malformed%2"
   ]) {
     assert.throws(
-      () => recipeRecordSchema.parse({ ...meatballsSoup, slug }),
+      () => recipeRecordSchema.parse({ ...recipeFixture, slug }),
       /unsafe path segment|URL encoding|raw Unicode/
     );
   }
 
   const cyrillic = recipeRecordSchema.parse({
-    ...meatballsSoup,
+    ...recipeFixture,
     locale: "ru",
     slug: "суп-с-фрикадельками",
     redirectFrom: []
   });
+
   assert.equal(cyrillic.slug, "суп-с-фрикадельками");
 
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       locale: "ru",
       slug: "%D1%81%D1%83%D0%BF",
       redirectFrom: []
@@ -71,18 +154,48 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
   );
 });
 
+test("recipe slug boundary decoding accepts Unicode but rejects unsafe layers", () => {
+  const encoded = encodeURIComponent("суп-с-фрикадельками");
+  assert.equal(decodeRecipeSlug(encoded), "суп-с-фрикадельками");
+  assert.equal(decodeRecipeSlug(encodeURIComponent(encoded)), "суп-с-фрикадельками");
+
+  for (const slug of [
+    "unsafe/slug",
+    "unsafe%2fslug",
+    "unsafe%252fslug",
+    "%2e%2e",
+    "%252e%252e",
+    "%3fquery",
+    "%20space",
+    "%2awildcard",
+    "malformed%",
+    "literal%25"
+  ]) {
+    assert.throws(() => decodeRecipeSlug(slug));
+  }
+
+  let excessivelyEncoded = "%41";
+  for (let index = 0; index < 10; index += 1) {
+    excessivelyEncoded = encodeURIComponent(excessivelyEncoded);
+  }
+  assert.throws(
+    () => decodeRecipeSlug(excessivelyEncoded),
+    /excessive URL encoding/
+  );
+});
+
 test("the catalog rejects duplicate localized slugs", () => {
   const duplicate = {
-    ...meatballsSoup,
-    id: "wordpress:wprm:9999",
+    ...recipeFixture,
+    id: "test:recipe:9999",
     source: {
-      ...meatballsSoup.source,
+      ...recipeFixture.source,
       recipeId: "9999"
     }
   };
 
   assert.throws(
-    () => validateCatalog([meatballsSoup, duplicate]),
+    () => validateCatalog([recipeFixture, duplicate]),
     /Duplicate localized slug/
   );
 });
@@ -90,7 +203,7 @@ test("the catalog rejects duplicate localized slugs", () => {
 test("recipe redirect sources preserve encoded Unicode and reject unsafe paths", () => {
   const source = "/ru/%D1%81%D1%83%D0%BF/";
   const record = recipeRecordSchema.parse({
-    ...meatballsSoup,
+    ...recipeFixture,
     locale: "ru",
     slug: "суп",
     redirectFrom: [source]
@@ -99,28 +212,28 @@ test("recipe redirect sources preserve encoded Unicode and reject unsafe paths",
   assert.equal(record.redirectFrom[0], source);
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       redirectFrom: ["//external.example/recipe"]
     }),
     /root-relative/
   );
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       redirectFrom: ["https://example.com/recipe"]
     }),
     /root-relative/
   );
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       redirectFrom: ["/old?source=archive"]
     }),
     /query, fragment/
   );
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       redirectFrom: ["/%2e%2e/private"]
     }),
     /traversal/
@@ -136,20 +249,20 @@ test("recipe redirect sources preserve encoded Unicode and reject unsafe paths",
     "/%255cprivate"
   ]) {
     assert.throws(
-      () => recipeRecordSchema.parse({ ...meatballsSoup, redirectFrom: [redirectFrom] }),
+      () => recipeRecordSchema.parse({ ...recipeFixture, redirectFrom: [redirectFrom] }),
       /traversal|unsafe separator|unsafe character/
     );
   }
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       redirectFrom: ["/malformed%"]
     }),
     /valid URL encoding/
   );
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       redirectFrom: ["/"]
     }),
     /site root/
@@ -193,15 +306,15 @@ test("safe local paths inspect repeated encodings and preserve encoded Unicode",
 test("recipe redirect sources reject duplicates and the canonical route", () => {
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
+      ...recipeFixture,
       redirectFrom: ["/old", "/old/"]
     }),
     /Duplicate recipe redirect source/
   );
   assert.throws(
     () => recipeRecordSchema.parse({
-      ...meatballsSoup,
-      redirectFrom: ["/recipes/meatballs-soup/"]
+      ...recipeFixture,
+      redirectFrom: ["/recipes/fixture-recipe/"]
     }),
     /canonical recipe route/
   );

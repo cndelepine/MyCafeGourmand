@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22608",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:8385",
+  "slug": "наполеон-с-кремом-из-сгущенки",
+  "source": {
+    "system": "wordpress",
+    "postId": "22608",
+    "recipeId": "22608",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bd%d0%b0%d0%bf%d0%be%d0%bb%d0%b5%d0%be%d0%bd-%d1%81-%d0%ba%d1%80%d0%b5%d0%bc%d0%be%d0%bc-%d0%b8%d0%b7-%d1%81%d0%b3%d1%83%d1%89%d0%b5%d0%bd%d0%ba%d0%b8",
+    "createdAt": "2024-12-30T15:08:54+00:00",
+    "modifiedAt": "2026-02-14T00:55:13+00:00",
+    "editorialPostId": "13338",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bd%d0%b0%d0%bf%d0%be%d0%bb%d0%b5%d0%be%d0%bd-%d1%81-%d0%ba%d1%80%d0%b5%d0%bc%d0%be%d0%bc-%d0%b8%d0%b7-%d1%81%d0%b3%d1%83%d1%89%d0%b5%d0%bd%d0%ba%d0%b8",
+    "editorialCreatedAt": "2024-12-30T15:08:54+00:00",
+    "editorialModifiedAt": "2026-02-14T00:53:49+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d0%bd%d0%b0%d0%bf%d0%be%d0%bb%d0%b5%d0%be%d0%bd-%d1%81-%d0%ba%d1%80%d0%b5%d0%bc%d0%be%d0%bc-%d0%b8%d0%b7-%d1%81%d0%b3%d1%83%d1%89%d0%b5%d0%bd%d0%ba%d0%b8/"
+  ],
+  "title": "Наполеон с кремом из сгущенки",
+  "description": "Наполеон с кремом из сгущенки",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Если вы любите сгущенку этот рецепт для вас ! Советую делать двойную порцию. Торт просто тает во рту. Торт обязательно готовить заранее, чтобы успел пропитаться. Грецкие орехи в рецепте необязательны, но их вкус идеально сочетается с кремом.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Если вам больше нравится Наполеон с заварным кремом, вот этот рецепт от французского шефа то, что вам нужно - <a href=\"https://mycafegourmand.com/ru/%d0%b7%d0%b0%d0%b2%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%ba%d1%80%d0%b5%d0%bc-%d0%bf%d0%b0%d1%82%d0%b8%d1%81%d1%8c%d0%b5%d1%80/\">Заварной крем патисьер</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22608,\"template\":\"chic-template-russian\",\"updated\":1767107314101} -->\n<!--WPRM Recipe 22608-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Наполеон с кремом из сгущенки</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6002.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Наполеон с кремом из сгущенки</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Коржи</h4><ul><li>1/2 стакана холодной воды</li><li>2 ст.л. лимонного сока</li><li>1 яйцо</li><li>250 г масла (или маргарина) ((очень холодного))</li><li>300 г (2 стакана) просеянной муки</li></ul><h4>Крем</h4><ul><li>400 г (1 банка) сгущенки</li><li>220 г сливочного масла (комнатной температуры)</li><li>200 г измельченных грецких орехов</li><li>3-5 половинок грецких орехов (для украшения)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Коржи</h4><ol><li>Полстакана воды смешать лимонным соком и одним яйцом.\r\n </li><li>В большой миске порубить ножом холодное масло (или маргарин), постепенно посыпая мукой и поливая жидкостью с яйцом.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6432.Blog_-150x150.png\"/><br /></li><li>Сформировать из теста одну большую колбаску.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6435.Blog_-1-150x150.png\"/><br /></li><li>Затем разделить ее на 7-8 частей, скатать шарики и положить в холодильник минимум на 1 час (можно оставить на всю ночь).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5835.Blog_-150x150.png\"/><br /></li><li>Каждый шарик посыпать мукой и раскатать на пергаментной бумаге или фольге в очень тонкий корж. Наколоть вилкой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5845.Blog_-150x150.png\"/><br /></li><li>Поставить в духовку, разогретую до 200 С, примерно на 10 минут. Выпекать до красивого золотистого цвета.\r\n </li><li>Когда корж поджарился, вырезать из него нужную форму, пока он еще не остыл. Я использую тарелку.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5849.Blog_-150x150.png\"/><br /></li><li>Из обрезков сделать крошки для обсыпки: размять пальцами или перемолоть в блендере.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5862.Blog_-150x150.png\"/><br /></li></ol><h4>Крем</h4><ol><li>Размягченное сливочное масло взбить миксером, добавить сгущенку и смешать до однородного состояния.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5882.Blog_-150x150.png\"/><br /></li></ol><h4>Сборка торта</h4><ol><li>Каждый корж смазать кремом и посыпать орешками. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5891.Blog_-150x150.png\"/><br /></li><li>Последний верхний корж смазать кремом, посыпать орехами и обсыпать приготовленными крошками. Также обсыпать крошками бока торта.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5894.Blog_-150x150.png\"/><br /></li><li>Поставить в холодильник на 8 часов, чтобы коржи хорошо пропитались кремом. Перед подачей на стол украсить торт целыми орехами.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5947.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert, Десерты</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Russian</div><div class=\"wprm-fallback-recipe-meta-keyword\">Наполеон, Наполеон с кремом из сгущенки</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Наполеон с кремом из сгущенки.\nТорт тает во рту. Обязательно подготовьте его заранее, чтобы у вас было время пропитаться. Орехи необязательны, но с ними лучше."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26571",
+      "sourceTaxonomyId": "26571",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27095",
+      "sourceTaxonomyId": "27095",
+      "name": "Russian",
+      "slug": "russian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23548",
+      "sourceTaxonomyId": "23548",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23955",
+      "sourceTaxonomyId": "23955",
+      "name": "яйцо",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24932",
+      "sourceTaxonomyId": "24932",
+      "name": "грецких орехов",
+      "slug": "%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d1%85-%d0%be%d1%80%d0%b5%d1%85%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24952",
+      "sourceTaxonomyId": "24952",
+      "name": "холодной воды",
+      "slug": "%d1%85%d0%be%d0%bb%d0%be%d0%b4%d0%bd%d0%be%d0%b9-%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25038",
+      "sourceTaxonomyId": "25038",
+      "name": "лимонного сока",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25039",
+      "sourceTaxonomyId": "25039",
+      "name": "масла (или маргарина)",
+      "slug": "%d0%bc%d0%b0%d1%81%d0%bb%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%bc%d0%b0%d1%80%d0%b3%d0%b0%d1%80%d0%b8%d0%bd%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25040",
+      "sourceTaxonomyId": "25040",
+      "name": "сгущенки",
+      "slug": "%d1%81%d0%b3%d1%83%d1%89%d0%b5%d0%bd%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25041",
+      "sourceTaxonomyId": "25041",
+      "name": "измельченных грецких орехов",
+      "slug": "%d0%b8%d0%b7%d0%bc%d0%b5%d0%bb%d1%8c%d1%87%d0%b5%d0%bd%d0%bd%d1%8b%d1%85-%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d1%85-%d0%be%d1%80%d0%b5%d1%85%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25495",
+      "sourceTaxonomyId": "25495",
+      "name": "стакана",
+      "slug": "%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27092",
+      "sourceTaxonomyId": "27092",
+      "name": "г (2 стакана)",
+      "slug": "%d0%b3-2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27093",
+      "sourceTaxonomyId": "27093",
+      "name": "г (1 банка)",
+      "slug": "%d0%b3-1-%d0%b1%d0%b0%d0%bd%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "27094",
+      "sourceTaxonomyId": "27094",
+      "name": "половинок",
+      "slug": "%d0%bf%d0%be%d0%bb%d0%be%d0%b2%d0%b8%d0%bd%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27097",
+      "sourceTaxonomyId": "27097",
+      "name": "Наполеон с кремом из сгущенки",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%be%d0%bb%d0%b5%d0%be%d0%bd-%d1%81-%d0%ba%d1%80%d0%b5%d0%bc%d0%be%d0%bc-%d0%b8%d0%b7-%d1%81%d0%b3%d1%83%d1%89%d0%b5%d0%bd%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27099",
+      "sourceTaxonomyId": "27099",
+      "name": "Наполеон",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%be%d0%bb%d0%b5%d0%be%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "275",
+      "sourceTaxonomyId": "275",
+      "name": "яйцо",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "455",
+      "sourceTaxonomyId": "455",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "826",
+      "sourceTaxonomyId": "826",
+      "name": "грецких орехов",
+      "slug": "%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d1%85-%d0%be%d1%80%d0%b5%d1%85%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "832",
+      "sourceTaxonomyId": "832",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "889",
+      "sourceTaxonomyId": "889",
+      "name": "лимонного сока",
+      "slug": "%d0%bb%d0%b8%d0%bc%d0%be%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2825",
+      "sourceTaxonomyId": "2825",
+      "name": "холодной воды",
+      "slug": "%d1%85%d0%be%d0%bb%d0%be%d0%b4%d0%bd%d0%be%d0%b9-%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8379",
+      "sourceTaxonomyId": "8379",
+      "name": "измельченных грецких орехов",
+      "slug": "%d0%b8%d0%b7%d0%bc%d0%b5%d0%bb%d1%8c%d1%87%d0%b5%d0%bd%d0%bd%d1%8b%d1%85-%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d1%85-%d0%be%d1%80%d0%b5%d1%85%d0%be%d0%b2-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8381",
+      "sourceTaxonomyId": "8381",
+      "name": "масла (или маргарина)",
+      "slug": "%d0%bc%d0%b0%d1%81%d0%bb%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%bc%d0%b0%d1%80%d0%b3%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8383",
+      "sourceTaxonomyId": "8383",
+      "name": "сгущенки",
+      "slug": "%d1%81%d0%b3%d1%83%d1%89%d0%b5%d0%bd%d0%ba%d0%b8-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1242",
+      "sourceTaxonomyId": "1242",
+      "name": "русская кухня",
+      "slug": "%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1490",
+      "sourceTaxonomyId": "1490",
+      "name": "грецкие орехи",
+      "slug": "%d0%b3%d1%80%d0%b5%d1%86%d0%ba%d0%b8%d0%b5-%d0%be%d1%80%d0%b5%d1%85%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1783",
+      "sourceTaxonomyId": "1783",
+      "name": "сливочное масло",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d0%bc%d0%b0%d1%81%d0%bb%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2920",
+      "sourceTaxonomyId": "2920",
+      "name": "мука",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5755",
+      "sourceTaxonomyId": "5755",
+      "name": "праздничный стол",
+      "slug": "%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%be%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8191",
+      "sourceTaxonomyId": "8191",
+      "name": "новый год",
+      "slug": "%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d0%b3%d0%be%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8400",
+      "sourceTaxonomyId": "8400",
+      "name": "наполеон со сгущенкой",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%be%d0%bb%d0%b5%d0%be%d0%bd-%d1%81%d0%be-%d1%81%d0%b3%d1%83%d1%89%d0%b5%d0%bd%d0%ba%d0%be%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8406",
+      "sourceTaxonomyId": "8406",
+      "name": "крем из масла и сгущенки",
+      "slug": "%d0%ba%d1%80%d0%b5%d0%bc-%d0%b8%d0%b7-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0-%d0%b8-%d1%81%d0%b3%d1%83%d1%89%d0%b5%d0%bd%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8408",
+      "sourceTaxonomyId": "8408",
+      "name": "вкус детства",
+      "slug": "%d0%b2%d0%ba%d1%83%d1%81-%d0%b4%d0%b5%d1%82%d1%81%d1%82%d0%b2%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8410",
+      "sourceTaxonomyId": "8410",
+      "name": "обязятельно на новый год",
+      "slug": "%d0%be%d0%b1%d1%8f%d0%b7%d1%8f%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be-%d0%bd%d0%b0-%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d0%b3%d0%be%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8507",
+      "sourceTaxonomyId": "8507",
+      "name": "простой и вкусный крем",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d0%b8-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d1%8b%d0%b9-%d0%ba%d1%80%d0%b5%d0%bc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8509",
+      "sourceTaxonomyId": "8509",
+      "name": "наполеон",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%be%d0%bb%d0%b5%d0%be%d0%bd"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 порций",
+      "value": 8,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": null,
+      "servingSize": {
+        "raw": "200",
+        "value": 200
+      },
+      "servingUnit": null
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "cook": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "rest": null,
+      "total": {
+        "raw": "600",
+        "minutes": 600
+      },
+      "custom": {
+        "label": "Дополнительное время",
+        "duration": {
+          "raw": "480",
+          "minutes": 480
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:1456",
+    "ingredientGroups": [
+      {
+        "name": "Коржи",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 стакана холодной воды",
+            "quantity": {
+              "raw": "1/2 стакана",
+              "value": 0.5,
+              "unit": "стакана",
+              "scalable": true
+            },
+            "name": "холодной воды",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 ст.л. лимонного сока",
+            "quantity": {
+              "raw": "2 ст.л.",
+              "value": 2,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "лимонного сока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 яйцо",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйцо",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "250 г масла (или маргарина) (очень холодного)",
+            "quantity": {
+              "raw": "250 г",
+              "value": 250,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "масла (или маргарина)",
+            "notes": "(очень холодного)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "300 г (2 стакана) просеянной муки",
+            "quantity": {
+              "raw": "300 г (2 стакана)",
+              "value": 300,
+              "unit": "г (2 стакана)",
+              "scalable": true
+            },
+            "name": "просеянной муки",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Крем",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "400 г (1 банка) сгущенки",
+            "quantity": {
+              "raw": "400 г (1 банка)",
+              "value": 400,
+              "unit": "г (1 банка)",
+              "scalable": true
+            },
+            "name": "сгущенки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "220 г сливочного масла комнатной температуры",
+            "quantity": {
+              "raw": "220 г",
+              "value": 220,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": "комнатной температуры"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "200 г измельченных грецких орехов",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "измельченных грецких орехов",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3-5 половинок грецких орехов для украшения",
+            "quantity": {
+              "raw": "3-5 половинок",
+              "min": 3,
+              "max": 5,
+              "unit": "половинок",
+              "scalable": true
+            },
+            "name": "грецких орехов",
+            "notes": "для украшения"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Коржи",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Полстакана воды смешать лимонным соком и одним яйцом.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "В большой миске порубить ножом холодное масло (или маргарин), постепенно посыпая мукой и поливая жидкостью с яйцом.",
+            "mediaId": "wordpress-attachment:786"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Сформировать из теста одну большую колбаску.",
+            "mediaId": "wordpress-attachment:911"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Затем разделить ее на 7-8 частей, скатать шарики и положить в холодильник минимум на 1 час (можно оставить на всю ночь).",
+            "mediaId": "wordpress-attachment:767"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Каждый шарик посыпать мукой и раскатать на пергаментной бумаге или фольге в очень тонкий корж. Наколоть вилкой.",
+            "mediaId": "wordpress-attachment:787"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Поставить в духовку, разогретую до 200 С, примерно на 10 минут. Выпекать до красивого золотистого цвета.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Когда корж поджарился, вырезать из него нужную форму, пока он еще не остыл. Я использую тарелку.",
+            "mediaId": "wordpress-attachment:788"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Из обрезков сделать крошки для обсыпки: размять пальцами или перемолоть в блендере.",
+            "mediaId": "wordpress-attachment:789"
+          }
+        ]
+      },
+      {
+        "name": "Крем",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Размягченное сливочное масло взбить миксером, добавить сгущенку и смешать до однородного состояния.",
+            "mediaId": "wordpress-attachment:790"
+          }
+        ]
+      },
+      {
+        "name": "Сборка торта",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Каждый корж смазать кремом и посыпать орешками.",
+            "mediaId": "wordpress-attachment:791"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Последний верхний корж смазать кремом, посыпать орехами и обсыпать приготовленными крошками. Также обсыпать крошками бока торта.",
+            "mediaId": "wordpress-attachment:792"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Поставить в холодильник на 8 часов, чтобы коржи хорошо пропитались кремом. Перед подачей на стол украсить торт целыми орехами.",
+            "mediaId": "wordpress-attachment:642"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1456",
+      "sourceId": "1456",
+      "path": "/recipes/media/wordpress/1456.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:786",
+      "sourceId": "786",
+      "path": "/recipes/media/wordpress/786.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:911",
+      "sourceId": "911",
+      "path": "/recipes/media/wordpress/911.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:767",
+      "sourceId": "767",
+      "path": "/recipes/media/wordpress/767.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:787",
+      "sourceId": "787",
+      "path": "/recipes/media/wordpress/787.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:788",
+      "sourceId": "788",
+      "path": "/recipes/media/wordpress/788.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:789",
+      "sourceId": "789",
+      "path": "/recipes/media/wordpress/789.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:790",
+      "sourceId": "790",
+      "path": "/recipes/media/wordpress/790.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:791",
+      "sourceId": "791",
+      "path": "/recipes/media/wordpress/791.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:792",
+      "sourceId": "792",
+      "path": "/recipes/media/wordpress/792.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:642",
+      "sourceId": "642",
+      "path": "/recipes/media/wordpress/642.png",
+      "alt": "Наполеон с кремом из сгущенки",
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

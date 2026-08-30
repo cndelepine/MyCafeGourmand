@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22480",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:13433",
+  "slug": "грейпфрут-с-мятой",
+  "source": {
+    "system": "wordpress",
+    "postId": "22480",
+    "recipeId": "22480",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b3%d1%80%d0%b5%d0%b9%d0%bf%d1%84%d1%80%d1%83%d1%82-%d1%81-%d0%bc%d1%8f%d1%82%d0%be%d0%b9",
+    "createdAt": "2020-01-12T07:27:00+00:00",
+    "modifiedAt": "2021-03-23T07:27:55+00:00",
+    "editorialPostId": "15991",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b3%d1%80%d0%b5%d0%b9%d0%bf%d1%84%d1%80%d1%83%d1%82-%d1%81-%d0%bc%d1%8f%d1%82%d0%be%d0%b9",
+    "editorialCreatedAt": "2020-01-12T07:27:00+00:00",
+    "editorialModifiedAt": "2021-03-23T07:27:52+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d0%b3%d1%80%d0%b5%d0%b9%d0%bf%d1%84%d1%80%d1%83%d1%82-%d1%81-%d0%bc%d1%8f%d1%82%d0%be%d0%b9/"
+  ],
+  "title": "Грейпфрут с мятой",
+  "description": "Сладкоежки могут добавить щепотку сахара. В жаркий день, перед подачей на стол, охладите грейпфрут в холодильнике.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>После сытного обеда или просто для тех, кто не любит сладости можно  подать грейпфрут с мятой. Красивый, полезный и вкусный десерт для  приверженцев здорового образа жизни. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22480,\"template\":\"chic-template-russian\",\"updated\":1613531363286} -->\n<!--WPRM Recipe 22480-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Грейпфрут с мятой</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8035-4.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tСладкоежки могут добавить щепотку сахара. В жаркий день, перед подачей на стол, охладите грейпфрут в холодильнике.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 большой грейпфрут</li><li>Несколько  листиков  свежей мяты</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Грейпфрут очистить от кожуры, разобрать на дольки. С каждой дольки снять тонкую кожицу. Лучше это делать над тарелкой, чтобы собрать вытекающий сок и полить им десерт. Разложить очищенный грейпфрут в стаканчики, посыпать мятой. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/03/IMG_8025.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24862",
+      "sourceTaxonomyId": "24862",
+      "name": "свежей мяты",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%bc%d1%8f%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24947",
+      "sourceTaxonomyId": "24947",
+      "name": "грейпфрут",
+      "slug": "%d0%b3%d1%80%d0%b5%d0%b9%d0%bf%d1%84%d1%80%d1%83%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "86",
+      "sourceTaxonomyId": "86",
+      "name": "Закуски",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2534",
+      "sourceTaxonomyId": "2534",
+      "name": "свежей мяты",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%b9-%d0%bc%d1%8f%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13403",
+      "sourceTaxonomyId": "13403",
+      "name": "грейпфрут",
+      "slug": "%d0%b3%d1%80%d0%b5%d0%b9%d0%bf%d1%84%d1%80%d1%83%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2195",
+      "sourceTaxonomyId": "2195",
+      "name": "десерт в стаканчике",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4466",
+      "sourceTaxonomyId": "4466",
+      "name": "в жаркий день",
+      "slug": "%d0%b2-%d0%b6%d0%b0%d1%80%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b5%d0%bd%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4478",
+      "sourceTaxonomyId": "4478",
+      "name": "цитрусовые",
+      "slug": "%d1%86%d0%b8%d1%82%d1%80%d1%83%d1%81%d0%be%d0%b2%d1%8b%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5018",
+      "sourceTaxonomyId": "5018",
+      "name": "здоровое питание",
+      "slug": "%d0%b7%d0%b4%d0%be%d1%80%d0%be%d0%b2%d0%be%d0%b5-%d0%bf%d0%b8%d1%82%d0%b0%d0%bd%d0%b8%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7102",
+      "sourceTaxonomyId": "7102",
+      "name": "свежая мята",
+      "slug": "%d1%81%d0%b2%d0%b5%d0%b6%d0%b0%d1%8f-%d0%bc%d1%8f%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8359",
+      "sourceTaxonomyId": "8359",
+      "name": "десерт для фуршета",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b4%d0%bb%d1%8f-%d1%84%d1%83%d1%80%d1%88%d0%b5%d1%82%d0%b0"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 порции",
+      "value": 2,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:16010",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 большой грейпфрут",
+            "quantity": {
+              "raw": "1 большой",
+              "value": 1,
+              "unit": "большой",
+              "scalable": true
+            },
+            "name": "грейпфрут",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Несколько листиков свежей мяты",
+            "quantity": {
+              "raw": "Несколько листиков",
+              "unit": "листиков",
+              "scalable": false
+            },
+            "name": "свежей мяты",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Грейпфрут очистить от кожуры, разобрать на дольки. С каждой дольки снять тонкую кожицу. Лучше это делать над тарелкой, чтобы собрать вытекающий сок и полить им десерт. Разложить очищенный грейпфрут в стаканчики, посыпать мятой.",
+            "mediaId": "wordpress-attachment:15999"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:16010",
+      "sourceId": "16010",
+      "path": "/recipes/media/wordpress/16010.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15999",
+      "sourceId": "15999",
+      "path": "/recipes/media/wordpress/15999.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

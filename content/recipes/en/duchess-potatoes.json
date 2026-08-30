@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26666",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26209",
+  "slug": "duchess-potatoes",
+  "source": {
+    "system": "wordpress",
+    "postId": "26666",
+    "recipeId": "26666",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-duchess-potatoes",
+    "createdAt": "2021-12-25T07:09:00+00:00",
+    "modifiedAt": "2023-05-17T07:34:27+00:00",
+    "editorialPostId": "26690",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "duchess-potatoes",
+    "editorialCreatedAt": "2021-12-25T07:09:00+00:00",
+    "editorialModifiedAt": "2023-05-17T07:34:25+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/duchess-potatoes/"
+  ],
+  "title": "Duchess Potatoes",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Duchess potatoes (Pommes de terre duchesse) are a French classic recipe made from mashed potatoes with butter and egg yolks. Using a pastry bag, mashed potatoes are formed into roses and baked in the oven until golden brown.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The dish looks very elegant and is served as a side dish for meat, fish or vegetables.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26666,\"template\":\"chic-template-english\",\"updated\":1682468634242} -->\n<!--WPRM Recipe 26666-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Duchess Potatoes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0694.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1.5 kg potatoes</li><li>200 g butter</li><li>Salt and pepper (to taste)</li><li>A little (on the tip of a knife) grated nutmeg ((optional))</li><li>4 egg yolks</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Peel the potatoes, cut into pieces and boil in salted water. Once the potatoes are cooked (pierce the potatoes with a knife or fork to check), immediately drain the water.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7686.Blog_-150x150.png\"/><br /></li><li><p>Mash hot potatoes into a puree, adding butter. Salt, pepper and add nutmeg.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0396.Blog_-150x150.png\"/><br /></li><li><p>Add egg yolks and mix very well. Puree should be soft and without lumps.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0399.Blog_-150x150.png\"/><br /></li><li><p>Preheat oven to 200C. Line a baking sheet with baking paper or a silicone mat.</p></li><li><p>Transfer the puree to a pastry bag fitted with a star tip and pipe the roses of the desired size onto a baking sheet.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0402.Blog_-150x150.png\"/><br /></li><li><p>Bake in preheated oven until golden brown, for about 10 minutes.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_0692.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div><div class=\"wprm-fallback-recipe-meta-cuisine\">French</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23540",
+      "sourceTaxonomyId": "23540",
+      "name": "French",
+      "slug": "french"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24069",
+      "sourceTaxonomyId": "24069",
+      "name": "butter",
+      "slug": "butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24240",
+      "sourceTaxonomyId": "24240",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24268",
+      "sourceTaxonomyId": "24268",
+      "name": "egg yolks",
+      "slug": "egg-yolks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26200",
+      "sourceTaxonomyId": "26200",
+      "name": "grated nutmeg",
+      "slug": "grated-nutmeg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25741",
+      "sourceTaxonomyId": "25741",
+      "name": "kg",
+      "slug": "kg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "26199",
+      "sourceTaxonomyId": "26199",
+      "name": "(on the tip of a knife)",
+      "slug": "on-the-tip-of-a-knife"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7748",
+      "sourceTaxonomyId": "7748",
+      "name": "elegant",
+      "slug": "elegant-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8436",
+      "sourceTaxonomyId": "8436",
+      "name": "holiday season",
+      "slug": "holiday-season"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "17310",
+      "sourceTaxonomyId": "17310",
+      "name": "mashed potatoes",
+      "slug": "mashed-potatoes"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26636",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1.5 kg potatoes",
+            "quantity": {
+              "raw": "1.5 kg",
+              "value": 1.5,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g butter",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Salt and pepper to taste",
+            "quantity": null,
+            "name": "Salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "A little (on the tip of a knife) grated nutmeg (optional)",
+            "quantity": {
+              "raw": "A little (on the tip of a knife)",
+              "unit": "(on the tip of a knife)",
+              "scalable": false
+            },
+            "name": "grated nutmeg",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 egg yolks",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg yolks",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peel the potatoes, cut into pieces and boil in salted water. Once the potatoes are cooked (pierce the potatoes with a knife or fork to check), immediately drain the water.",
+            "mediaId": "wordpress-attachment:4322"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mash hot potatoes into a puree, adding butter. Salt, pepper and add nutmeg.",
+            "mediaId": "wordpress-attachment:26632"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add egg yolks and mix very well. Puree should be soft and without lumps.",
+            "mediaId": "wordpress-attachment:26633"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Preheat oven to 200C. Line a baking sheet with baking paper or a silicone mat.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Transfer the puree to a pastry bag fitted with a star tip and pipe the roses of the desired size onto a baking sheet.",
+            "mediaId": "wordpress-attachment:26634"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bake in preheated oven until golden brown, for about 10 minutes.",
+            "mediaId": "wordpress-attachment:26635"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26636",
+      "sourceId": "26636",
+      "path": "/recipes/media/wordpress/26636.png",
+      "alt": "Duchess potatoes",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:4322",
+      "sourceId": "4322",
+      "path": "/recipes/media/wordpress/4322.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:26632",
+      "sourceId": "26632",
+      "path": "/recipes/media/wordpress/26632.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26633",
+      "sourceId": "26633",
+      "path": "/recipes/media/wordpress/26633.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26634",
+      "sourceId": "26634",
+      "path": "/recipes/media/wordpress/26634.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26635",
+      "sourceId": "26635",
+      "path": "/recipes/media/wordpress/26635.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

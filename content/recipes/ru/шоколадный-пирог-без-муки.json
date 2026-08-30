@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22749",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:4254",
+  "slug": "шоколадный-пирог-без-муки",
+  "source": {
+    "system": "wordpress",
+    "postId": "22749",
+    "recipeId": "22749",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d0%b1%d0%b5%d0%b7-%d0%bc%d1%83%d0%ba%d0%b8",
+    "createdAt": "2022-05-02T06:57:00+00:00",
+    "modifiedAt": "2022-05-25T06:28:15+00:00",
+    "editorialPostId": "8441",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d0%b1%d0%b5%d0%b7-%d0%bc%d1%83%d0%ba%d0%b8",
+    "editorialCreatedAt": "2022-05-02T06:57:00+00:00",
+    "editorialModifiedAt": "2022-05-25T06:28:13+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d0%b1%d0%b5%d0%b7-%d0%bc%d1%83%d0%ba%d0%b8/"
+  ],
+  "title": "Шоколадный пирог без муки",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Нежный тающий во рту шоколадный пирог совсем без муки. Только шоколад, масло, сахар и яйца. Рецепт абсолютно простой, главное не передержать в духовке.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22749,\"template\":\"chic-template-russian\",\"updated\":1614303213838} -->\n<!--WPRM Recipe 22749-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Шоколадный пирог без муки</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9637.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 г шоколада (60% какао)</li><li>150 г сливочного масла</li><li>200 г сахара</li><li>6 яиц</li><li>2 щепотки соли</li><li>Немного сахарной пудры (для украшения)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Разогреть духовку до 180С. Смазать форму маслом и присыпать мукой.</li><li>Растопить шоколад и масло на водяной бане или в микроволновке. Хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9608.Blog_-150x150.png\"/><br /></li><li>Добавить сахар, хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9609.Blog_-150x150.png\"/><br /></li><li>Отделить желтки от белков.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9607.Blog_-150x150.png\"/><br /></li><li>Желтки добавить к растопленному шоколаду и хорошо перемешать.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9610.Blog_-150x150.png\"/><br /></li><li>В белки добавить соль и взбить в густую пену.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9119.Blog_-150x150.png\"/><br /></li><li>Аккуратно соединить взбитые белки и шоколадную массу, помешивая лопаткой, не миксером.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9611.Blog_-150x150.png\"/><br /></li><li>Вылить тесто в подготовленную форму.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9616.Blog_.Blog_-150x150.png\"/><br /></li><li>Печь в разогретой духовке примерно 25 минут. Точное время выпечки зависит от духовки, размера и качества формы. Следите за пирогом! Как только пирог не жидкий внутри (это не лава кейк) - готово. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9617.Blog_-150x150.png\"/><br /></li><li>Достать пирог из духовки, остудить немного, затем переложить на блюдо. Когда пирог полностью остыл можно его посыпать сахарной пудрой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9624-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23956",
+      "sourceTaxonomyId": "23956",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24927",
+      "sourceTaxonomyId": "24927",
+      "name": "яиц",
+      "slug": "%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25136",
+      "sourceTaxonomyId": "25136",
+      "name": "шоколада (60% какао)",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25344",
+      "sourceTaxonomyId": "25344",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b-%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "455",
+      "sourceTaxonomyId": "455",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "824",
+      "sourceTaxonomyId": "824",
+      "name": "яиц",
+      "slug": "%d1%8f%d0%b8%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "899",
+      "sourceTaxonomyId": "899",
+      "name": "сахарной пудры",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%bd%d0%be%d0%b9-%d0%bf%d1%83%d0%b4%d1%80%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4108",
+      "sourceTaxonomyId": "4108",
+      "name": "шоколада (60% какао)",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1256",
+      "sourceTaxonomyId": "1256",
+      "name": "черный шоколад",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1258",
+      "sourceTaxonomyId": "1258",
+      "name": "горький шоколад",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8c%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1262",
+      "sourceTaxonomyId": "1262",
+      "name": "десерт",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1304",
+      "sourceTaxonomyId": "1304",
+      "name": "пирог",
+      "slug": "%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1500",
+      "sourceTaxonomyId": "1500",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1775",
+      "sourceTaxonomyId": "1775",
+      "name": "французская выпечка",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%b2%d1%8b%d0%bf%d0%b5%d1%87%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1783",
+      "sourceTaxonomyId": "1783",
+      "name": "сливочное масло",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d0%bc%d0%b0%d1%81%d0%bb%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2199",
+      "sourceTaxonomyId": "2199",
+      "name": "легко и быстро",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be-%d0%b8-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2914",
+      "sourceTaxonomyId": "2914",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4104",
+      "sourceTaxonomyId": "4104",
+      "name": "отделить желтки от белков",
+      "slug": "%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%b8%d1%82%d1%8c-%d0%b6%d0%b5%d0%bb%d1%82%d0%ba%d0%b8-%d0%be%d1%82-%d0%b1%d0%b5%d0%bb%d0%ba%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4106",
+      "sourceTaxonomyId": "4106",
+      "name": "шоколадный пирог без муки",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d0%b1%d0%b5%d0%b7-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4702",
+      "sourceTaxonomyId": "4702",
+      "name": "pirog",
+      "slug": "pirog"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4704",
+      "sourceTaxonomyId": "4704",
+      "name": "shokolad",
+      "slug": "shokolad"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4708",
+      "sourceTaxonomyId": "4708",
+      "name": "bez muki",
+      "slug": "bez-muki"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5020",
+      "sourceTaxonomyId": "5020",
+      "name": "shokoladniy pirog",
+      "slug": "shokoladniy-pirog"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 порций",
+      "value": 8,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:8668",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 г шоколада (60% какао)",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "шоколада (60% какао)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 г сливочного масла",
+            "quantity": {
+              "raw": "150 г",
+              "value": 150,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "200 г сахара",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "6 яиц",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яиц",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 щепотки соли",
+            "quantity": {
+              "raw": "2 щепотки",
+              "value": 2,
+              "unit": "щепотки",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Немного сахарной пудры для украшения",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "сахарной пудры",
+            "notes": "для украшения"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 180С. Смазать форму маслом и присыпать мукой.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Растопить шоколад и масло на водяной бане или в микроволновке. Хорошо перемешать.",
+            "mediaId": "wordpress-attachment:8661"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Добавить сахар, хорошо перемешать.",
+            "mediaId": "wordpress-attachment:8662"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Отделить желтки от белков.",
+            "mediaId": "wordpress-attachment:8660"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Желтки добавить к растопленному шоколаду и хорошо перемешать.",
+            "mediaId": "wordpress-attachment:8663"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "В белки добавить соль и взбить в густую пену.",
+            "mediaId": "wordpress-attachment:8670"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Аккуратно соединить взбитые белки и шоколадную массу, помешивая лопаткой, не миксером.",
+            "mediaId": "wordpress-attachment:8664"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Вылить тесто в подготовленную форму.",
+            "mediaId": "wordpress-attachment:8665"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Печь в разогретой духовке примерно 25 минут. Точное время выпечки зависит от духовки, размера и качества формы. Следите за пирогом! Как только пирог не жидкий внутри (это не лава кейк) - готово.",
+            "mediaId": "wordpress-attachment:8666"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Достать пирог из духовки, остудить немного, затем переложить на блюдо. Когда пирог полностью остыл можно его посыпать сахарной пудрой.",
+            "mediaId": "wordpress-attachment:8667"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8668",
+      "sourceId": "8668",
+      "path": "/recipes/media/wordpress/8668.png",
+      "alt": "My Cafe Gourmand",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:8661",
+      "sourceId": "8661",
+      "path": "/recipes/media/wordpress/8661.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8662",
+      "sourceId": "8662",
+      "path": "/recipes/media/wordpress/8662.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8660",
+      "sourceId": "8660",
+      "path": "/recipes/media/wordpress/8660.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8663",
+      "sourceId": "8663",
+      "path": "/recipes/media/wordpress/8663.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8670",
+      "sourceId": "8670",
+      "path": "/recipes/media/wordpress/8670.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8664",
+      "sourceId": "8664",
+      "path": "/recipes/media/wordpress/8664.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8665",
+      "sourceId": "8665",
+      "path": "/recipes/media/wordpress/8665.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8666",
+      "sourceId": "8666",
+      "path": "/recipes/media/wordpress/8666.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8667",
+      "sourceId": "8667",
+      "path": "/recipes/media/wordpress/8667.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

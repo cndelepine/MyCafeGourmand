@@ -1,0 +1,584 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21927",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:23337",
+  "slug": "soupe-aux-cepes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21927",
+    "recipeId": "21927",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-soupe-aux-cepes",
+    "createdAt": "2026-02-01T22:16:00+00:00",
+    "modifiedAt": "2026-02-09T07:29:08+00:00",
+    "editorialPostId": "20507",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "soupe-aux-cepes",
+    "editorialCreatedAt": "2026-02-01T22:16:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:29:05+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/soupe-aux-cepes/"
+  ],
+  "title": "Soupe aux cèpes",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une savoureuse soupe aux cèpes. Et pour simplifier les choses, on utilise ici des champignons surgelés. Ils sont revenus à la poêle sans décongélation. À servir bien chaud avec une cuillerée de crème fraîche.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21927,\"template\":\"chic-template-french\",\"updated\":1770622019532} -->\n<!--WPRM Recipe 21927-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Soupe aux cèpes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4634-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 cuillères à soupe d'huile végétale</li><li>400 g de cèpes surgelés</li><li>1-2 cuillères à soupe de farine</li><li>3-4 de pommes de terre moyennes (épluchées )</li><li>3 feuilles de laurier</li><li>1 oignon (épluché)</li><li>1-2 carottes (épluchées )</li><li>Sel et poivre du moulin</li><li>4 cuillères à soupe de crème fraîche</li><li>Quelques  brins  d'aneth ou de ciboulette ciselés</li><li>1/2 cuillère à café  de sel</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans une poêle, faire chauffer l'huile et y faire revenir les champignons tout juste sortis du congélateur. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4602-2.Blog_-150x150.png\"/><br /></li><li>Une fois les champignons dorés, ajouter la farine. Bien mélanger et laisser cuire 1 à 2 minutes. Retirer la poêle du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4613-2.Blog_-150x150.png\"/><br /></li><li>Emincer l'oignon et râper les carottes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4609-2.Blog_-150x150.png\"/><br /></li><li>Faire chauffer le reste d'huile dans une poêle et y faire revenir l'oignon et les carottes. Saler un peu, poivrer au goût. Retirer la poêle du feu.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4615-2.Blog_-150x150.png\"/><br /></li><li>Couper les pommes de terre en cubes de 1-1,5 cm de côté.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4618-2.Blog_-150x150.png\"/><br /></li><li>Verser environ 3 litres d'eau dans une casserole. Ajouter les pommes de terre et porter à ébullition. </li><li>Réduire le feu, ajouter le sel, les champignons et les feuilles de laurier et laisser cuire. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4620-2.Blog_-150x150.png\"/><br /></li><li>Ajouter les légumes revenus dans la casserole. Cuire le tout encore 10-15 minutes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4622-2.Blog_-150x150.png\"/><br /></li><li>Servir dans des assiettes. Ajouter une cuillère à soupe de crème fraîche et saupoudrer d'aneth.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2020/05/IMG_4625-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24304",
+      "sourceTaxonomyId": "24304",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24616",
+      "sourceTaxonomyId": "24616",
+      "name": "de cèpes surgelés",
+      "slug": "de-cepes-surgeles"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24617",
+      "sourceTaxonomyId": "24617",
+      "name": "de pommes de terre moyennes",
+      "slug": "de-pommes-de-terre-moyennes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24618",
+      "sourceTaxonomyId": "24618",
+      "name": "de laurier",
+      "slug": "de-laurier"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24619",
+      "sourceTaxonomyId": "24619",
+      "name": "de crème fraîche",
+      "slug": "de-creme-fraiche"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24620",
+      "sourceTaxonomyId": "24620",
+      "name": "d'aneth ou de ciboulette ciselés",
+      "slug": "daneth-ou-de-ciboulette-ciseles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "98",
+      "sourceTaxonomyId": "98",
+      "name": "Soupes",
+      "slug": "soupes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "354",
+      "sourceTaxonomyId": "354",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "605",
+      "sourceTaxonomyId": "605",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1893",
+      "sourceTaxonomyId": "1893",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5586",
+      "sourceTaxonomyId": "5586",
+      "name": "de pommes de terre moyennes",
+      "slug": "de-pommes-de-terre-moyennes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12802",
+      "sourceTaxonomyId": "12802",
+      "name": "d'aneth ou de ciboulette ciselés",
+      "slug": "daneth-ou-de-ciboulette-ciseles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23338",
+      "sourceTaxonomyId": "23338",
+      "name": "de cèpes surgelés",
+      "slug": "de-cepes-surgeles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23340",
+      "sourceTaxonomyId": "23340",
+      "name": "de laurier",
+      "slug": "de-laurier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23342",
+      "sourceTaxonomyId": "23342",
+      "name": "de crème fraîche",
+      "slug": "de-creme-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1486",
+      "sourceTaxonomyId": "1486",
+      "name": "champignons",
+      "slug": "champignons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7292",
+      "sourceTaxonomyId": "7292",
+      "name": "recette facile en images",
+      "slug": "recette-facile-en-images"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27357",
+      "sourceTaxonomyId": "27357",
+      "name": "comment cuire une soupe",
+      "slug": "comment-cuire-une-soupe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27359",
+      "sourceTaxonomyId": "27359",
+      "name": "congeles",
+      "slug": "congeles"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:20539",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 cuillères à soupe d'huile végétale",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile végétale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "400 g de cèpes surgelés",
+            "quantity": {
+              "raw": "400 g",
+              "value": 400,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de cèpes surgelés",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 cuillères à soupe de farine",
+            "quantity": {
+              "raw": "1-2 cuillères à soupe",
+              "min": 1,
+              "max": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3-4 de pommes de terre moyennes épluchées",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "de pommes de terre moyennes",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 feuilles de laurier",
+            "quantity": {
+              "raw": "3 feuilles",
+              "value": 3,
+              "unit": "feuilles",
+              "scalable": true
+            },
+            "name": "de laurier",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 oignon épluché",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "épluché"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1-2 carottes épluchées",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": "épluchées"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "4 cuillères à soupe de crème fraîche",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de crème fraîche",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Quelques brins d'aneth ou de ciboulette ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "d'aneth ou de ciboulette ciselés",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "1/2 cuillère à café de sel",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une poêle, faire chauffer l'huile et y faire revenir les champignons tout juste sortis du congélateur.",
+            "mediaId": "wordpress-attachment:20528"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Une fois les champignons dorés, ajouter la farine. Bien mélanger et laisser cuire 1 à 2 minutes. Retirer la poêle du feu.",
+            "mediaId": "wordpress-attachment:20532"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Emincer l'oignon et râper les carottes.",
+            "mediaId": "wordpress-attachment:20529"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire chauffer le reste d'huile dans une poêle et y faire revenir l'oignon et les carottes. Saler un peu, poivrer au goût. Retirer la poêle du feu.",
+            "mediaId": "wordpress-attachment:20534"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Couper les pommes de terre en cubes de 1-1,5 cm de côté.",
+            "mediaId": "wordpress-attachment:20535"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Verser environ 3 litres d'eau dans une casserole. Ajouter les pommes de terre et porter à ébullition.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Réduire le feu, ajouter le sel, les champignons et les feuilles de laurier et laisser cuire.",
+            "mediaId": "wordpress-attachment:20536"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Ajouter les légumes revenus dans la casserole. Cuire le tout encore 10-15 minutes.",
+            "mediaId": "wordpress-attachment:20537"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Servir dans des assiettes. Ajouter une cuillère à soupe de crème fraîche et saupoudrer d'aneth.",
+            "mediaId": "wordpress-attachment:20538"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:20539",
+      "sourceId": "20539",
+      "path": "/recipes/media/wordpress/20539.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20528",
+      "sourceId": "20528",
+      "path": "/recipes/media/wordpress/20528.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20532",
+      "sourceId": "20532",
+      "path": "/recipes/media/wordpress/20532.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20529",
+      "sourceId": "20529",
+      "path": "/recipes/media/wordpress/20529.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20534",
+      "sourceId": "20534",
+      "path": "/recipes/media/wordpress/20534.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20535",
+      "sourceId": "20535",
+      "path": "/recipes/media/wordpress/20535.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20536",
+      "sourceId": "20536",
+      "path": "/recipes/media/wordpress/20536.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20537",
+      "sourceId": "20537",
+      "path": "/recipes/media/wordpress/20537.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:20538",
+      "sourceId": "20538",
+      "path": "/recipes/media/wordpress/20538.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

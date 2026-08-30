@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21506",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:16732",
+  "slug": "baked-feta-feta-psiti",
+  "source": {
+    "system": "wordpress",
+    "postId": "21506",
+    "recipeId": "21506",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-baked-feta-feta-psiti",
+    "createdAt": "2022-06-18T04:52:00+00:00",
+    "modifiedAt": "2022-06-19T19:34:55+00:00",
+    "editorialPostId": "17483",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "baked-feta-feta-psiti",
+    "editorialCreatedAt": "2022-06-18T04:52:00+00:00",
+    "editorialModifiedAt": "2022-06-19T19:34:52+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/baked-feta-feta-psiti/"
+  ],
+  "title": "Baked Feta (Feta Psiti)",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Baked Feta (Psiti) is a traditional Greek dish. It is very easy to prepare at home and will become one of your favorite <a href=\"https://mycafegourmand.com/recipes/appetizers/\">appetizers</a>.  </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21506,\"template\":\"chic-template-english\",\"updated\":1609288453692} -->\n<!--WPRM Recipe 21506-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Baked Feta (Feta Psiti)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/06/IMG_9891.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g feta cheese ((in one block))</li><li>2 pinches oregano</li><li>Some chili pepper flakes</li><li>1 Tbsp olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 400F.</li><li>Place the feta in an oven-proof dish. Add the oregano and chili pepper flakes followed by the olive oil.</li><li>Bake for 8-10 minutes.</li><li>Serve hot with fresh bread or pita.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24121",
+      "sourceTaxonomyId": "24121",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24338",
+      "sourceTaxonomyId": "24338",
+      "name": "oregano",
+      "slug": "oregano"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24339",
+      "sourceTaxonomyId": "24339",
+      "name": "chili pepper flakes",
+      "slug": "chili-pepper-flakes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2720",
+      "sourceTaxonomyId": "2720",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "16940",
+      "sourceTaxonomyId": "16940",
+      "name": "chili pepper flakes",
+      "slug": "chili-pepper-flakes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17028",
+      "sourceTaxonomyId": "17028",
+      "name": "oregano",
+      "slug": "oregano"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3740",
+      "sourceTaxonomyId": "3740",
+      "name": "very easy",
+      "slug": "very-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5915",
+      "sourceTaxonomyId": "5915",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7123",
+      "sourceTaxonomyId": "7123",
+      "name": "feta cheese",
+      "slug": "feta-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7425",
+      "sourceTaxonomyId": "7425",
+      "name": "chili pepper",
+      "slug": "chili-pepper"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servngs",
+      "value": 6,
+      "unit": "servngs",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "3",
+        "minutes": 3
+      },
+      "cook": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "rest": null,
+      "total": {
+        "raw": "13",
+        "minutes": 13
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:17428",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g feta cheese (in one block)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "feta cheese",
+            "notes": "(in one block)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 pinches oregano",
+            "quantity": {
+              "raw": "2 pinches",
+              "value": 2,
+              "unit": "pinches",
+              "scalable": true
+            },
+            "name": "oregano",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Some chili pepper flakes",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "chili pepper flakes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 Tbsp olive oil",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 400F.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Place the feta in an oven-proof dish. Add the oregano and chili pepper flakes followed by the olive oil.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Bake for 8-10 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Serve hot with fresh bread or pita.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:17428",
+      "sourceId": "17428",
+      "path": "/recipes/media/wordpress/17428.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

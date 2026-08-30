@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21251",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:498",
+  "slug": "cheese-and-garlic-stuffed-tomatoes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21251",
+    "recipeId": "21251",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cheese-and-garlic-stuffed-tomatoes",
+    "createdAt": "2020-09-10T04:15:00+00:00",
+    "modifiedAt": "2022-07-30T20:38:27+00:00",
+    "editorialPostId": "1468",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cheese-and-garlic-stuffed-tomatoes",
+    "editorialCreatedAt": "2020-09-10T04:15:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:38:25+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/cheese-and-garlic-stuffed-tomatoes/",
+    "/herb-and-cheese-stuffed-tomatoes/"
+  ],
+  "title": "Cheese and Garlic Stuffed Tomatoes",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>You can serve this Cheese and garlic stuffed tomatoes as a starter or as a salad. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21251,\"template\":\"chic-template-english\",\"updated\":1659213499977} -->\n<!--WPRM Recipe 21251-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Cheese and Garlic Stuffed Tomatoes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20171010_172807.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>18 large cherry tomatoes</li><li>2-3 garlic cloves</li><li>1 cup grated cheese (american, cheddar, etc.)</li><li>fresh herbs (chives, parsley, basil leaves)</li><li>2-3 Tbs  mayonnaise</li><li>salt and pepper (to taste )</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut off the top of cherry tomatoes. Keep the tops for presentation.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180109_212028.Blog_-150x150.png\"/><br /></li><li>Using a small spoon, scoop out the insides of the tomatoes. Place the tomatoes upside-down on a paper towel.                                  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180109_212125.Blog_-150x150.png\"/><br /></li><li>Remove juice and seeds from the pulp. Mince the pulp. </li><li>Press garlic using a garlic press. Mix the cheese and garlic together. </li><li>Add mayonnaise, finely chopped herbs and tomato pulp. Salt and pepper to taste. Mix well.   </li><li>Using a spoon, add cheese filling to the tomatoes and place the tops back on top of your cherry tomatoes.  <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180109_212206.Blog_-150x150.png\"/><br /></li><li>Refrigerate tomatoes before serving.  </li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24130",
+      "sourceTaxonomyId": "24130",
+      "name": "large cherry tomatoes",
+      "slug": "large-cherry-tomatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24131",
+      "sourceTaxonomyId": "24131",
+      "name": "garlic cloves",
+      "slug": "garlic-cloves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24132",
+      "sourceTaxonomyId": "24132",
+      "name": "grated cheese",
+      "slug": "grated-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24133",
+      "sourceTaxonomyId": "24133",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "288",
+      "sourceTaxonomyId": "288",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "499",
+      "sourceTaxonomyId": "499",
+      "name": "large cherry tomatoes",
+      "slug": "large-cherry-tomatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "505",
+      "sourceTaxonomyId": "505",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "517",
+      "sourceTaxonomyId": "517",
+      "name": "garlic cloves",
+      "slug": "garlic-cloves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "525",
+      "sourceTaxonomyId": "525",
+      "name": "grated cheese",
+      "slug": "grated-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1598",
+      "sourceTaxonomyId": "1598",
+      "name": "cheese",
+      "slug": "cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1600",
+      "sourceTaxonomyId": "1600",
+      "name": "garlic",
+      "slug": "garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1602",
+      "sourceTaxonomyId": "1602",
+      "name": "stuffed",
+      "slug": "stuffed"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1604",
+      "sourceTaxonomyId": "1604",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1606",
+      "sourceTaxonomyId": "1606",
+      "name": "mayonnaise",
+      "slug": "mayonnaise-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4196",
+      "sourceTaxonomyId": "4196",
+      "name": "side dish",
+      "slug": "side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7748",
+      "sourceTaxonomyId": "7748",
+      "name": "elegant",
+      "slug": "elegant-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:721",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "18 large cherry tomatoes",
+            "quantity": {
+              "raw": "18",
+              "value": 18,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "large cherry tomatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2-3 garlic cloves",
+            "quantity": {
+              "raw": "2-3",
+              "min": 2,
+              "max": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "garlic cloves",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 cup grated cheese american, cheddar, etc.",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "grated cheese",
+            "notes": "american, cheddar, etc."
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "fresh herbs chives, parsley, basil leaves",
+            "quantity": null,
+            "name": "fresh herbs",
+            "notes": "chives, parsley, basil leaves"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2-3 Tbs mayonnaise",
+            "quantity": {
+              "raw": "2-3 Tbs",
+              "min": 2,
+              "max": 3,
+              "unit": "Tbs",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut off the top of cherry tomatoes. Keep the tops for presentation.",
+            "mediaId": "wordpress-attachment:1536"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Using a small spoon, scoop out the insides of the tomatoes. Place the tomatoes upside-down on a paper towel.",
+            "mediaId": "wordpress-attachment:1537"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Remove juice and seeds from the pulp. Mince the pulp.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Press garlic using a garlic press. Mix the cheese and garlic together.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add mayonnaise, finely chopped herbs and tomato pulp. Salt and pepper to taste. Mix well.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Using a spoon, add cheese filling to the tomatoes and place the tops back on top of your cherry tomatoes.",
+            "mediaId": "wordpress-attachment:1538"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Refrigerate tomatoes before serving.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:721",
+      "sourceId": "721",
+      "path": "/recipes/media/wordpress/721.png",
+      "alt": null,
+      "width": 800,
+      "height": 576
+    },
+    {
+      "id": "wordpress-attachment:1536",
+      "sourceId": "1536",
+      "path": "/recipes/media/wordpress/1536.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1537",
+      "sourceId": "1537",
+      "path": "/recipes/media/wordpress/1537.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:1538",
+      "sourceId": "1538",
+      "path": "/recipes/media/wordpress/1538.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

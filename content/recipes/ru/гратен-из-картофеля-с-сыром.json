@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27389",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:26383",
+  "slug": "гратен-из-картофеля-с-сыром",
+  "source": {
+    "system": "wordpress",
+    "postId": "27389",
+    "recipeId": "27389",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b3%d1%80%d0%b0%d1%82%d0%b5%d0%bd-%d0%b8%d0%b7-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8f-%d1%81-%d1%81%d1%8b%d1%80%d0%be%d0%bc",
+    "createdAt": "2025-11-02T03:11:10+00:00",
+    "modifiedAt": "2025-11-02T03:12:23+00:00",
+    "editorialPostId": "27388",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b3%d1%80%d0%b0%d1%82%d0%b5%d0%bd-%d0%b8%d0%b7-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8f-%d1%81-%d1%81%d1%8b%d1%80%d0%be%d0%bc",
+    "editorialCreatedAt": "2025-11-02T03:11:10+00:00",
+    "editorialModifiedAt": "2025-11-02T03:12:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d0%b3%d1%80%d0%b0%d1%82%d0%b5%d0%bd-%d0%b8%d0%b7-%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8f-%d1%81-%d1%81%d1%8b%d1%80%d0%be%d0%bc/"
+  ],
+  "title": "Гратен из картофеля с сыром",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Гратен (gratin) - картофель, залитый молочной смесью и запеченный в духовке. Этот французский рецепт с сыром Бле вам придется по вкусу, даже если вы не очень любите французские сыры с плесенью.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27389,\"template\":\"chic-template-russian\",\"updated\":1762053101256} -->\n<!--WPRM Recipe 27389-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Гратен из картофеля с сыром</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4319.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 кг картофеля</li><li>Соль и свежемолотый перец (по вкусу)</li><li>500 мл сливок </li><li>500 мл молока</li><li>150 г сыра Блё (Bleu d&#039;Auvergne)</li><li>50 г сливочного масла</li><li>Немного тертого мускатного ореха ((по желанию))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Разогреть духовку до 180С.</p></li><li><p>Картофель почистить и нарезать очень тонкими ломтиками (если картофель молодой, можно его не чистить, а только помыть и насухо вытереть). </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_3961.Blog_-150x150.png\"/><br /></li><li><p>Посолить, поперчить и посыпать тёртым мускатным орехом.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_3966.Blog_-150x150.png\"/><br /></li><li><p>Большую форму для выпечки смазать маслом и выложить в нее нарезанный картофель.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4309.Blog_-150x150.png\"/><br /></li><li><p>В миске размять вилкой сыр Блё. Добавить сливки, молоко и хорошо перемешать. Залить этой смесью картофель. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4310.Blog_-150x150.png\"/><br /></li><li><p>Выпекать в разогретой духовке 1-1,5 часa. В конце выпечки поставить блюдо на несколько минут под гриль, чтобы гратен красиво подрумянился.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_4324.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26381",
+      "sourceTaxonomyId": "26381",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23981",
+      "sourceTaxonomyId": "23981",
+      "name": "сливок",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24788",
+      "sourceTaxonomyId": "24788",
+      "name": "молока",
+      "slug": "%d0%bc%d0%be%d0%bb%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24855",
+      "sourceTaxonomyId": "24855",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25015",
+      "sourceTaxonomyId": "25015",
+      "name": "картофеля",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8f"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26194",
+      "sourceTaxonomyId": "26194",
+      "name": "тертого мускатного ореха",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d0%be%d0%b3%d0%be-%d0%bc%d1%83%d1%81%d0%ba%d0%b0%d1%82%d0%bd%d0%be%d0%b3%d0%be-%d0%be%d1%80%d0%b5%d1%85%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26384",
+      "sourceTaxonomyId": "26384",
+      "name": "сыра Блё (Bleu d'Auvergne)",
+      "slug": "%d1%81%d1%8b%d1%80%d0%b0-%d0%b1%d0%bb%d1%91-bleu-dauvergne"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25457",
+      "sourceTaxonomyId": "25457",
+      "name": "мл",
+      "slug": "%d0%bc%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25554",
+      "sourceTaxonomyId": "25554",
+      "name": "кг",
+      "slug": "%d0%ba%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1286",
+      "sourceTaxonomyId": "1286",
+      "name": "картофель",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1288",
+      "sourceTaxonomyId": "1288",
+      "name": "картошка",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2442",
+      "sourceTaxonomyId": "2442",
+      "name": "запеканка",
+      "slug": "%d0%b7%d0%b0%d0%bf%d0%b5%d0%ba%d0%b0%d0%bd%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2498",
+      "sourceTaxonomyId": "2498",
+      "name": "картофельная запеканка",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%b7%d0%b0%d0%bf%d0%b5%d0%ba%d0%b0%d0%bd%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6256",
+      "sourceTaxonomyId": "6256",
+      "name": "французское блюдо",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26388",
+      "sourceTaxonomyId": "26388",
+      "name": "bleu d'auvergne",
+      "slug": "bleu-dauvergne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26390",
+      "sourceTaxonomyId": "26390",
+      "name": "гратен",
+      "slug": "%d0%b3%d1%80%d0%b0%d1%82%d0%b5%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26392",
+      "sourceTaxonomyId": "26392",
+      "name": "гратин",
+      "slug": "%d0%b3%d1%80%d0%b0%d1%82%d0%b8%d0%bd"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "90",
+        "minutes": 90
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27402",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 кг картофеля",
+            "quantity": {
+              "raw": "2 кг",
+              "value": 2,
+              "unit": "кг",
+              "scalable": true
+            },
+            "name": "картофеля",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "Соль и свежемолотый перец по вкусу",
+            "quantity": null,
+            "name": "Соль и свежемолотый перец",
+            "notes": "по вкусу"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "500 мл сливок",
+            "quantity": {
+              "raw": "500 мл",
+              "value": 500,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "сливок",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "500 мл молока",
+            "quantity": {
+              "raw": "500 мл",
+              "value": 500,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "молока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "150 г сыра Блё (Bleu d'Auvergne)",
+            "quantity": {
+              "raw": "150 г",
+              "value": 150,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сыра Блё (Bleu d'Auvergne)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 г сливочного масла",
+            "quantity": {
+              "raw": "50 г",
+              "value": 50,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Немного тертого мускатного ореха (по желанию)",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "тертого мускатного ореха",
+            "notes": "(по желанию)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 180С.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Картофель почистить и нарезать очень тонкими ломтиками (если картофель молодой, можно его не чистить, а только помыть и насухо вытереть).",
+            "mediaId": "wordpress-attachment:27398"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Посолить, поперчить и посыпать тёртым мускатным орехом.",
+            "mediaId": "wordpress-attachment:27399"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Большую форму для выпечки смазать маслом и выложить в нее нарезанный картофель.",
+            "mediaId": "wordpress-attachment:27405"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "В миске размять вилкой сыр Блё. Добавить сливки, молоко и хорошо перемешать. Залить этой смесью картофель.",
+            "mediaId": "wordpress-attachment:27401"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Выпекать в разогретой духовке 1-1,5 часa. В конце выпечки поставить блюдо на несколько минут под гриль, чтобы гратен красиво подрумянился.",
+            "mediaId": "wordpress-attachment:27404"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27402",
+      "sourceId": "27402",
+      "path": "/recipes/media/wordpress/27402.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27398",
+      "sourceId": "27398",
+      "path": "/recipes/media/wordpress/27398.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27399",
+      "sourceId": "27399",
+      "path": "/recipes/media/wordpress/27399.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27405",
+      "sourceId": "27405",
+      "path": "/recipes/media/wordpress/27405.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27401",
+      "sourceId": "27401",
+      "path": "/recipes/media/wordpress/27401.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27404",
+      "sourceId": "27404",
+      "path": "/recipes/media/wordpress/27404.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

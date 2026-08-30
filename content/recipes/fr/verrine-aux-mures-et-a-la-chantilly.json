@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21817",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:858",
+  "slug": "verrine-aux-mures-et-a-la-chantilly",
+  "source": {
+    "system": "wordpress",
+    "postId": "21817",
+    "recipeId": "21817",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-verrine-aux-mures-et-a-la-chantilly",
+    "createdAt": "2018-02-08T22:29:41+00:00",
+    "modifiedAt": "2022-07-04T20:55:08+00:00",
+    "editorialPostId": "4221",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "verrine-aux-mures-et-a-la-chantilly",
+    "editorialCreatedAt": "2018-02-08T22:29:41+00:00",
+    "editorialModifiedAt": "2022-07-04T20:55:05+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/verrine-aux-mures-et-a-la-chantilly/"
+  ],
+  "title": "Verrine aux mûres et à la chantilly",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ces verrines aux mûres et à la chantilly sont vraiment <span id=\":zi.22\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">très</span> faciles&nbsp;à <span id=\":zi.23\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">préparer</span>. Pour monter la crème liquide en chantilly, il ne <span id=\":zi.24\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">faut</span> que quelques minutes. On peut utiliser n'importe quel fruit de saison ou des fruits surgelés. C'est un dessert joli, <span id=\":zi.25\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">léger</span> et bon. Tous mes invit<span id=\":zi.26\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">é</span>s sont ravis de le <span id=\":zi.26\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">déguster</span> avec un café !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21817,\"template\":\"chic-template-french\",\"updated\":1608339517856} -->\n<!--WPRM Recipe 21817-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Verrine aux mûres et à la chantilly</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2433-2.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g de mûres (ou d'autres fruits rouges)</li><li>200 ml de crème liquide entière (très froide)</li><li>2  cuillère à café de sucre en poudre</li><li>1/4 cuillère à café de cacao en poudre</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Monter la crème liquide en chantilly avec le sucre. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2430.Blog_-150x150.png\"/><br /></li><li>Répartir les mûres dans des verrines. A l'aide d'une poche à douille ou une cuillère à café, répartir la chantilly sur les fruits. Si vous ne servez pas le dessert tout de suite, ranger les verrines dans le réfrigérateur.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2431.Blog_-1-150x150.png\"/><br /></li><li>Au moment de servir, saupoudrer de cacao.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2433-3.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24537",
+      "sourceTaxonomyId": "24537",
+      "name": "de mûres (ou d'autres fruits rouges)",
+      "slug": "de-mures-ou-dautres-fruits-rouges"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24539",
+      "sourceTaxonomyId": "24539",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "726",
+      "sourceTaxonomyId": "726",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25340",
+      "sourceTaxonomyId": "25340",
+      "name": "Sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1216",
+      "sourceTaxonomyId": "1216",
+      "name": "Café gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "709",
+      "sourceTaxonomyId": "709",
+      "name": "de cacao en poudre",
+      "slug": "de-cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2189",
+      "sourceTaxonomyId": "2189",
+      "name": "de mûres (ou d'autres fruits rouges)",
+      "slug": "de-mures-ou-dautres-fruits-rouges"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1248",
+      "sourceTaxonomyId": "1248",
+      "name": "verrine",
+      "slug": "verrine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1502",
+      "sourceTaxonomyId": "1502",
+      "name": "creme liquide",
+      "slug": "creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1624",
+      "sourceTaxonomyId": "1624",
+      "name": "recette rapide",
+      "slug": "recette-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2179",
+      "sourceTaxonomyId": "2179",
+      "name": "mûre",
+      "slug": "mure"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2181",
+      "sourceTaxonomyId": "2181",
+      "name": "chantilly",
+      "slug": "chantilly"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2183",
+      "sourceTaxonomyId": "2183",
+      "name": "fruits rouges",
+      "slug": "fruits-rouges"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2185",
+      "sourceTaxonomyId": "2185",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2191",
+      "sourceTaxonomyId": "2191",
+      "name": "step-by-step photos",
+      "slug": "step-by-step-photos"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:4130",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g de mûres (ou d'autres fruits rouges)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de mûres (ou d'autres fruits rouges)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 ml de crème liquide entière très froide",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": "très froide"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 cuillère à café de sucre en poudre",
+            "quantity": {
+              "raw": "2 cuillère à café",
+              "value": 2,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/4 cuillère à café de cacao en poudre",
+            "quantity": {
+              "raw": "1/4 cuillère à café",
+              "value": 0.25,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de cacao en poudre",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Monter la crème liquide en chantilly avec le sucre.",
+            "mediaId": "wordpress-attachment:4128"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Répartir les mûres dans des verrines. A l'aide d'une poche à douille ou une cuillère à café, répartir la chantilly sur les fruits. Si vous ne servez pas le dessert tout de suite, ranger les verrines dans le réfrigérateur.",
+            "mediaId": "wordpress-attachment:4129"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Au moment de servir, saupoudrer de cacao.",
+            "mediaId": "wordpress-attachment:4131"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4130",
+      "sourceId": "4130",
+      "path": "/recipes/media/wordpress/4130.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4128",
+      "sourceId": "4128",
+      "path": "/recipes/media/wordpress/4128.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4129",
+      "sourceId": "4129",
+      "path": "/recipes/media/wordpress/4129.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4131",
+      "sourceId": "4131",
+      "path": "/recipes/media/wordpress/4131.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

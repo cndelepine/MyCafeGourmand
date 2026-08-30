@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22025",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3569",
+  "slug": "chou-blanc-aux-saucisses-de-francfort",
+  "source": {
+    "system": "wordpress",
+    "postId": "22025",
+    "recipeId": "22025",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chou-blanc-aux-saucisses-de-francfort",
+    "createdAt": "2019-11-30T06:01:00+00:00",
+    "modifiedAt": "2022-07-30T19:27:50+00:00",
+    "editorialPostId": "7990",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chou-blanc-aux-saucisses-de-francfort",
+    "editorialCreatedAt": "2019-11-30T06:01:00+00:00",
+    "editorialModifiedAt": "2022-07-30T19:27:47+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/chou-blanc-aux-saucisses-de-francfort/"
+  ],
+  "title": "Chou blanc aux saucisses de Francfort",
+  "description": "Si vous voulez, vous pouvez ajouter un peu de sauce tomate ou une tomate fraîche découpée en demi-rondelles dans l'étape 8.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le chou blanc aux saucisses de <span id=\":195.6\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Francfort</span> sont revenus à la poêle avec l’oignon et les carottes. Un plat <span id=\":195.7\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">savoureux</span> qui peut <span id=\":195.8\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">être</span> servi tout seul ou accompagner des pommes de terre cuites à l’eau.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22025,\"template\":\"chic-template-french\",\"updated\":1607409261922} -->\n<!--WPRM Recipe 22025-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chou blanc aux saucisses de Francfort</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9055.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tSi vous voulez, vous pouvez ajouter un peu de sauce tomate ou une tomate fraîche découpée en demi-rondelles dans l'étape 8.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1/2 tête de chou blanc</li><li>2 carottes</li><li>1 oignon</li><li>4 cuillères à soupe d'huile végétale</li><li>5-6 saucisses de Francfort</li><li>Sel et poivre du moulin</li><li>1 feuille de laurier ((facultatif))</li><li>100 ml d'eau</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Émincer le chou. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_8085.Blog_-150x150.png\"/><br /></li><li>Éplucher les carottes et l'oignon. Couper l'oignon en dés et râper les carottes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9036.Blog_-150x150.png\"/><br /></li><li>Couper les saucisses en rondelles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9041.Blog_.Blog_-150x150.png\"/><br /></li><li>Dans une grande poêle, faire chauffer l'huile et y faire revenir l'oignon.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9037.Blog_-150x150.png\"/><br /></li><li> Ajouter les carottes et laisser cuire encore quelques minutes en remuant régulièrement. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9039.Blog_-150x150.png\"/><br /></li><li>Ajouter le chou et bien mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9040.Blog_-150x150.png\"/><br /></li><li>Quelques minutes plus tard ajouter les rondelles de saucisses en les mettant sous le chou pour qu'elles deviennent dorées.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9042.Blog_-150x150.png\"/><br /></li><li>Quand les saucisses prennent un peu de couleur, mélanger le tout. Saler, poivrer, ajouter la feuille de laurier et environ 100 ml d'eau. Couvrir la poêle et faire mijoter à feu doux pendant environ 10 minutes. Mélanger de temps en temps.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9044.Blog_-150x150.png\"/><br /></li><li>Servir bien chaud.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9059.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24304",
+      "sourceTaxonomyId": "24304",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24516",
+      "sourceTaxonomyId": "24516",
+      "name": "feuille de laurier",
+      "slug": "feuille-de-laurier"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24518",
+      "sourceTaxonomyId": "24518",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24520",
+      "sourceTaxonomyId": "24520",
+      "name": "de chou blanc",
+      "slug": "de-chou-blanc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24680",
+      "sourceTaxonomyId": "24680",
+      "name": "saucisses de Francfort",
+      "slug": "saucisses-de-francfort"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "354",
+      "sourceTaxonomyId": "354",
+      "name": "carottes",
+      "slug": "carottes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1028",
+      "sourceTaxonomyId": "1028",
+      "name": "de chou blanc",
+      "slug": "de-chou-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1893",
+      "sourceTaxonomyId": "1893",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2902",
+      "sourceTaxonomyId": "2902",
+      "name": "feuille de laurier",
+      "slug": "feuille-de-laurier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3800",
+      "sourceTaxonomyId": "3800",
+      "name": "saucisses de Francfort",
+      "slug": "saucisses-de-francfort"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1268",
+      "sourceTaxonomyId": "1268",
+      "name": "chou blanc",
+      "slug": "chou-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1316",
+      "sourceTaxonomyId": "1316",
+      "name": "legume",
+      "slug": "legume"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1620",
+      "sourceTaxonomyId": "1620",
+      "name": "poele",
+      "slug": "poele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3154",
+      "sourceTaxonomyId": "3154",
+      "name": "plat familial",
+      "slug": "plat-familial"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3784",
+      "sourceTaxonomyId": "3784",
+      "name": "saucisses de Francfort",
+      "slug": "saucisses-de-francfort"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3796",
+      "sourceTaxonomyId": "3796",
+      "name": "saucisse",
+      "slug": "saucisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6852",
+      "sourceTaxonomyId": "6852",
+      "name": "cuisine russe",
+      "slug": "cuisine-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7032",
+      "sourceTaxonomyId": "7032",
+      "name": "servi avec des pommes de terre",
+      "slug": "servi-avec-des-pommes-de-terre"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7577",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 tête de chou blanc",
+            "quantity": {
+              "raw": "1/2 tête",
+              "value": 0.5,
+              "unit": "tête",
+              "scalable": true
+            },
+            "name": "de chou blanc",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 carottes",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carottes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 oignon",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4 cuillères à soupe d'huile végétale",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile végétale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "5-6 saucisses de Francfort",
+            "quantity": {
+              "raw": "5-6",
+              "min": 5,
+              "max": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "saucisses de Francfort",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 feuille de laurier (facultatif)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "feuille de laurier",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "100 ml d'eau",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Émincer le chou.",
+            "mediaId": "wordpress-attachment:7570"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Éplucher les carottes et l'oignon. Couper l'oignon en dés et râper les carottes.",
+            "mediaId": "wordpress-attachment:7574"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Couper les saucisses en rondelles.",
+            "mediaId": "wordpress-attachment:7571"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Dans une grande poêle, faire chauffer l'huile et y faire revenir l'oignon.",
+            "mediaId": "wordpress-attachment:7562"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter les carottes et laisser cuire encore quelques minutes en remuant régulièrement.",
+            "mediaId": "wordpress-attachment:7563"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Ajouter le chou et bien mélanger.",
+            "mediaId": "wordpress-attachment:7575"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Quelques minutes plus tard ajouter les rondelles de saucisses en les mettant sous le chou pour qu'elles deviennent dorées.",
+            "mediaId": "wordpress-attachment:7566"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Quand les saucisses prennent un peu de couleur, mélanger le tout. Saler, poivrer, ajouter la feuille de laurier et environ 100 ml d'eau. Couvrir la poêle et faire mijoter à feu doux pendant environ 10 minutes. Mélanger de temps en temps.",
+            "mediaId": "wordpress-attachment:7567"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Servir bien chaud.",
+            "mediaId": "wordpress-attachment:7569"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7577",
+      "sourceId": "7577",
+      "path": "/recipes/media/wordpress/7577.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7570",
+      "sourceId": "7570",
+      "path": "/recipes/media/wordpress/7570.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7574",
+      "sourceId": "7574",
+      "path": "/recipes/media/wordpress/7574.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7571",
+      "sourceId": "7571",
+      "path": "/recipes/media/wordpress/7571.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7562",
+      "sourceId": "7562",
+      "path": "/recipes/media/wordpress/7562.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7563",
+      "sourceId": "7563",
+      "path": "/recipes/media/wordpress/7563.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7575",
+      "sourceId": "7575",
+      "path": "/recipes/media/wordpress/7575.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7566",
+      "sourceId": "7566",
+      "path": "/recipes/media/wordpress/7566.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7567",
+      "sourceId": "7567",
+      "path": "/recipes/media/wordpress/7567.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7569",
+      "sourceId": "7569",
+      "path": "/recipes/media/wordpress/7569.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

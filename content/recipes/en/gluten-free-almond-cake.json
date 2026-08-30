@@ -1,0 +1,584 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:23703",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:25322",
+  "slug": "gluten-free-almond-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "23703",
+    "recipeId": "23703",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-gluten-free-almond-cake",
+    "createdAt": "2021-02-16T05:28:13+00:00",
+    "modifiedAt": "2022-07-31T21:44:28+00:00",
+    "editorialPostId": "23615",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "gluten-free-almond-cake",
+    "editorialCreatedAt": "2021-02-16T05:28:13+00:00",
+    "editorialModifiedAt": "2022-07-31T21:44:26+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/gluten-free-almond-cake/"
+  ],
+  "title": "Gluten-free almond cake",
+  "description": "Amandier",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p id=\"tw-target-text\">Here is the incredibly delicate and gluten-free almond cake. This is the \"Amandier\" recipe by renowned French Pastry chef Christophe Michalak with minor modifications. The main ingredients are almond flour and mascarpone. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p id=\"tw-target-text\">If you enjoy this recipe, check out my other gluten-free <a href=\"https://mycafegourmand.com/recipes/desserts/\">desserts</a>, such as the delicious banana muffins!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":23703,\"template\":\"chic-template-english\",\"updated\":1659303738168} -->\n<!--WPRM Recipe 23703-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Gluten-free almond cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/123730.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Amandier</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 eggs</li><li>180 g sugar</li><li>40 g honey</li><li>300 g almond flour</li><li>140  g softened salted or unsalted butter</li><li>100 g mascarpone cheese</li><li>Some orange zest</li><li>1 Tbsp liquid vanilla (or 1 packet of vanilla sugar) ((optional))</li><li>2  Tbsp sliced almonds</li><li>Some powdered sugar ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat oven to 330°F (150°С). Grease baking pan with butter or line with parchment paper.</p></li><li><p>In a mixer bowl, put eggs, sugar, and honey.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8127-2.Blog_-150x150.png\"/><br /></li><li><p>Mix together.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8129-2.Blog_-150x150.png\"/><br /></li><li><p>Add almond flour and mix again.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8131-2.Blog_-150x150.png\"/><br /></li><li><p>In another bowl, mush the butter and mascarpone cheese together using a fork.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8123-2.Blog_-150x150.png\"/><br /></li><li><p>Add the mascarpone and butter to the egg-sugar mixture and mix again.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8134-2.Blog_-150x150.png\"/><br /></li><li><p>Add orange zest and vanilla to the batter. Mix well for the last time.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8151-2.Blog_-150x150.png\"/><br /></li><li><p>Pour the batter into baking pan.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8139-2.Blog_-150x150.png\"/><br /></li><li><p>Sprinkle with sliced almonds.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8144-2.Blog_-150x150.png\"/><br /></li><li><p>Bake in the preheated oven until golden, about 45 minutes. Allow the almond cake to cool before removing it from the pan. Sprinkle with powdered sugar before serving.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2021/01/IMG_8146-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24200",
+      "sourceTaxonomyId": "24200",
+      "name": "powdered sugar",
+      "slug": "powdered-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24233",
+      "sourceTaxonomyId": "24233",
+      "name": "sliced almonds",
+      "slug": "sliced-almonds"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24282",
+      "sourceTaxonomyId": "24282",
+      "name": "mascarpone cheese",
+      "slug": "mascarpone-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24348",
+      "sourceTaxonomyId": "24348",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24353",
+      "sourceTaxonomyId": "24353",
+      "name": "honey",
+      "slug": "honey"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25329",
+      "sourceTaxonomyId": "25329",
+      "name": "softened salted or unsalted butter",
+      "slug": "softened-salted-or-unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25330",
+      "sourceTaxonomyId": "25330",
+      "name": "orange zest",
+      "slug": "orange-zest"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25331",
+      "sourceTaxonomyId": "25331",
+      "name": "liquid vanilla (or 1 packet of vanilla sugar)",
+      "slug": "liquid-vanilla-or-1-packet-of-vanilla-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25342",
+      "sourceTaxonomyId": "25342",
+      "name": "Desserts",
+      "slug": "desserts-gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1514",
+      "sourceTaxonomyId": "1514",
+      "name": "mascarpone",
+      "slug": "mascarpone"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4255",
+      "sourceTaxonomyId": "4255",
+      "name": "flourless",
+      "slug": "flourless"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5781",
+      "sourceTaxonomyId": "5781",
+      "name": "best cake ever",
+      "slug": "best-cake-ever"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25311",
+      "sourceTaxonomyId": "25311",
+      "name": "christophe michalak",
+      "slug": "christophe-michalak"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25312",
+      "sourceTaxonomyId": "25312",
+      "name": "amandier",
+      "slug": "amandier"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25325",
+      "sourceTaxonomyId": "25325",
+      "name": "best gluten-free dessert",
+      "slug": "best-gluten-free-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25326",
+      "sourceTaxonomyId": "25326",
+      "name": "almond cake",
+      "slug": "almond-cake-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25333",
+      "sourceTaxonomyId": "25333",
+      "name": "amandier de Michalak",
+      "slug": "amandier-de-michalak"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25334",
+      "sourceTaxonomyId": "25334",
+      "name": "translation from french",
+      "slug": "translation-from-french"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:23596",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 eggs",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "180 g sugar",
+            "quantity": {
+              "raw": "180 g",
+              "value": 180,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "40 g honey",
+            "quantity": {
+              "raw": "40 g",
+              "value": 40,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "honey",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "300 g almond flour",
+            "quantity": {
+              "raw": "300 g",
+              "value": 300,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "140 g softened salted or unsalted butter",
+            "quantity": {
+              "raw": "140 g",
+              "value": 140,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "softened salted or unsalted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "100 g mascarpone cheese",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "mascarpone cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Some orange zest",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "orange zest",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 Tbsp liquid vanilla (or 1 packet of vanilla sugar) (optional)",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "liquid vanilla (or 1 packet of vanilla sugar)",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "2 Tbsp sliced almonds",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "sliced almonds",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Some powdered sugar (optional)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "powdered sugar",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 330°F (150°С). Grease baking pan with butter or line with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "In a mixer bowl, put eggs, sugar, and honey.",
+            "mediaId": "wordpress-attachment:23589"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mix together.",
+            "mediaId": "wordpress-attachment:23590"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add almond flour and mix again.",
+            "mediaId": "wordpress-attachment:23591"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "In another bowl, mush the butter and mascarpone cheese together using a fork.",
+            "mediaId": "wordpress-attachment:23588"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Add the mascarpone and butter to the egg-sugar mixture and mix again.",
+            "mediaId": "wordpress-attachment:23592"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Add orange zest and vanilla to the batter. Mix well for the last time.",
+            "mediaId": "wordpress-attachment:23607"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Pour the batter into baking pan.",
+            "mediaId": "wordpress-attachment:23593"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Sprinkle with sliced almonds.",
+            "mediaId": "wordpress-attachment:23594"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Bake in the preheated oven until golden, about 45 minutes. Allow the almond cake to cool before removing it from the pan. Sprinkle with powdered sugar before serving.",
+            "mediaId": "wordpress-attachment:23595"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:23596",
+      "sourceId": "23596",
+      "path": "/recipes/media/wordpress/23596.png",
+      "alt": "Миндальный пирог без глютена",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:23589",
+      "sourceId": "23589",
+      "path": "/recipes/media/wordpress/23589.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:23590",
+      "sourceId": "23590",
+      "path": "/recipes/media/wordpress/23590.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:23591",
+      "sourceId": "23591",
+      "path": "/recipes/media/wordpress/23591.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:23588",
+      "sourceId": "23588",
+      "path": "/recipes/media/wordpress/23588.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:23592",
+      "sourceId": "23592",
+      "path": "/recipes/media/wordpress/23592.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:23607",
+      "sourceId": "23607",
+      "path": "/recipes/media/wordpress/23607.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:23593",
+      "sourceId": "23593",
+      "path": "/recipes/media/wordpress/23593.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:23594",
+      "sourceId": "23594",
+      "path": "/recipes/media/wordpress/23594.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:23595",
+      "sourceId": "23595",
+      "path": "/recipes/media/wordpress/23595.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

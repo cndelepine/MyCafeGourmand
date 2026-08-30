@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21520",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:6127",
+  "slug": "chocolate-chip-banana-nut-muffins",
+  "source": {
+    "system": "wordpress",
+    "postId": "21520",
+    "recipeId": "21520",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chocolate-chip-banana-nut-muffins",
+    "createdAt": "2024-04-24T03:02:00+00:00",
+    "modifiedAt": "2024-04-24T07:00:40+00:00",
+    "editorialPostId": "11752",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chocolate-chip-banana-nut-muffins",
+    "editorialCreatedAt": "2024-04-24T03:02:00+00:00",
+    "editorialModifiedAt": "2024-04-24T07:00:37+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/chocolate-chip-banana-nut-muffins/"
+  ],
+  "title": "Chocolate Chip Banana Nut Muffins",
+  "description": "I like to use brown sugar, it gives a beautiful color and a caramelized taste but this recipe can by made with white sugar too.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>These Chocolate Chip Banana Nut Muffins are moist and absolutely delicious. This is an excellent way to use your ripe bananas and make an excellent dessert that everyone will love.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>I substitute all purpose flour by almond flour so they are gluten free! Brown sugar gives a beautiful amber color. A must-try dessert...</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21520,\"template\":\"chic-template-english\",\"updated\":1713941929423} -->\n<!--WPRM Recipe 21520-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chocolate Chip Banana Nut Muffins</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_0185.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tI like to use brown sugar, it gives a beautiful color and a caramelized taste but this recipe can by made with white sugar too.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 eggs</li><li>200 g brown sugar</li><li>2 pinches salt</li><li>3 very ripe bananas</li><li>2 tsp baking powder</li><li>50 g unsalted butter ( melted)</li><li>280 g almond flour</li><li>120 g chocolate chips (60%)</li><li>120 g chopped walnuts ((or other nuts))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 370 degrees F. Grease muffin cups with butter or line with paper muffin liners. </li><li>Stir eggs, brown sugar and salt.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1305.Blog_-150x150.png\"/><br /></li><li>Mash bananas with a fork and mix them with egg mixture.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1306.Blog_-150x150.png\"/><br /></li><li>Stir almond flour and mix until smooth.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1309.Blog_-150x150.png\"/><br /></li><li>Add melted butter.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1311.Blog_-150x150.png\"/><br /></li><li>Then chopped nuts and chocolate chips. Mix well.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1312.Blog_-150x150.png\"/><br /></li><li>Spoon batter into prepared muffin cups.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1314.Blog_-150x150.png\"/><br /></li><li>Bake in the preheated oven until golden, 25-30 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/07/IMG_1316.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24198",
+      "sourceTaxonomyId": "24198",
+      "name": "chocolate chips (60%)",
+      "slug": "chocolate-chips-60"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24294",
+      "sourceTaxonomyId": "24294",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24347",
+      "sourceTaxonomyId": "24347",
+      "name": "very ripe bananas",
+      "slug": "very-ripe-bananas"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24348",
+      "sourceTaxonomyId": "24348",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24349",
+      "sourceTaxonomyId": "24349",
+      "name": "chopped walnuts",
+      "slug": "chopped-walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25342",
+      "sourceTaxonomyId": "25342",
+      "name": "Desserts",
+      "slug": "desserts-gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "881",
+      "sourceTaxonomyId": "881",
+      "name": "chopped walnuts",
+      "slug": "chopped-walnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1802",
+      "sourceTaxonomyId": "1802",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2042",
+      "sourceTaxonomyId": "2042",
+      "name": "very ripe bananas",
+      "slug": "very-ripe-bananas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3600",
+      "sourceTaxonomyId": "3600",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4263",
+      "sourceTaxonomyId": "4263",
+      "name": "chocolate chips (60%)",
+      "slug": "chocolate-chips-60"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5153",
+      "sourceTaxonomyId": "5153",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1959",
+      "sourceTaxonomyId": "1959",
+      "name": "chocolate chip",
+      "slug": "chocolate-chip"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1961",
+      "sourceTaxonomyId": "1961",
+      "name": "banana",
+      "slug": "banana"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1963",
+      "sourceTaxonomyId": "1963",
+      "name": "nut",
+      "slug": "nut"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3636",
+      "sourceTaxonomyId": "3636",
+      "name": "very ripe banana",
+      "slug": "very-ripe-banana"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3742",
+      "sourceTaxonomyId": "3742",
+      "name": "brown sugar",
+      "slug": "brown-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4255",
+      "sourceTaxonomyId": "4255",
+      "name": "flourless",
+      "slug": "flourless"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5155",
+      "sourceTaxonomyId": "5155",
+      "name": "almond flour",
+      "slug": "almond-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6123",
+      "sourceTaxonomyId": "6123",
+      "name": "muffin",
+      "slug": "muffin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6125",
+      "sourceTaxonomyId": "6125",
+      "name": "popular americain dessert",
+      "slug": "popular-americain-dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26729",
+      "sourceTaxonomyId": "26729",
+      "name": "what to bake",
+      "slug": "what-to-bake"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 muffins",
+      "value": 10,
+      "unit": "muffins",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11764",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 eggs",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g brown sugar",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "brown sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 pinches salt",
+            "quantity": {
+              "raw": "2 pinches",
+              "value": 2,
+              "unit": "pinches",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3 very ripe bananas",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "very ripe bananas",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 tsp baking powder",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "50 g unsalted butter melted",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": "melted"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "280 g almond flour",
+            "quantity": {
+              "raw": "280 g",
+              "value": 280,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "almond flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "120 g chocolate chips (60%)",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chocolate chips (60%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "120 g chopped walnuts (or other nuts)",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chopped walnuts",
+            "notes": "(or other nuts)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 370 degrees F. Grease muffin cups with butter or line with paper muffin liners.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Stir eggs, brown sugar and salt.",
+            "mediaId": "wordpress-attachment:11755"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mash bananas with a fork and mix them with egg mixture.",
+            "mediaId": "wordpress-attachment:11756"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Stir almond flour and mix until smooth.",
+            "mediaId": "wordpress-attachment:11757"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add melted butter.",
+            "mediaId": "wordpress-attachment:11758"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Then chopped nuts and chocolate chips. Mix well.",
+            "mediaId": "wordpress-attachment:11759"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Spoon batter into prepared muffin cups.",
+            "mediaId": "wordpress-attachment:11760"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Bake in the preheated oven until golden, 25-30 minutes.",
+            "mediaId": "wordpress-attachment:11762"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11764",
+      "sourceId": "11764",
+      "path": "/recipes/media/wordpress/11764.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11755",
+      "sourceId": "11755",
+      "path": "/recipes/media/wordpress/11755.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11756",
+      "sourceId": "11756",
+      "path": "/recipes/media/wordpress/11756.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11757",
+      "sourceId": "11757",
+      "path": "/recipes/media/wordpress/11757.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11758",
+      "sourceId": "11758",
+      "path": "/recipes/media/wordpress/11758.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11759",
+      "sourceId": "11759",
+      "path": "/recipes/media/wordpress/11759.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11760",
+      "sourceId": "11760",
+      "path": "/recipes/media/wordpress/11760.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:11762",
+      "sourceId": "11762",
+      "path": "/recipes/media/wordpress/11762.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

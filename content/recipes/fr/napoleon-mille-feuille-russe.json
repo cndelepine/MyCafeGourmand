@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22216",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:8385",
+  "slug": "napoleon-mille-feuille-russe",
+  "source": {
+    "system": "wordpress",
+    "postId": "22216",
+    "recipeId": "22216",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-napoleon-mille-feuille-russe",
+    "createdAt": "2018-12-04T08:05:00+00:00",
+    "modifiedAt": "2025-02-28T22:41:39+00:00",
+    "editorialPostId": "13342",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "napoleon-mille-feuille-russe",
+    "editorialCreatedAt": "2018-12-04T08:05:00+00:00",
+    "editorialModifiedAt": "2025-02-28T22:41:36+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/napoleon-mille-feuille-russe/"
+  ],
+  "title": "Napoléon (mille-feuille russe)",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le Napoléon est un gâteau russe constitué de fines et croustillantes couches de pâte et garni d'une crème. Il existe des nombreuses recettes de ce mille-feuille russe. Cette version est ma préférée : avec le lait concentré sucré et des noix. Long à préparer mais apprécié par tout le monde, je le fais une ou deux fois par an. C'est un gâteau incontournable de la célébration du Nouvel An en Russie.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22216,\"template\":\"chic-template-french\",\"updated\":1740782403240} -->\n<!--WPRM Recipe 22216-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Napoléon (mille-feuille russe)</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6002.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Pour la pâte</h4><ul><li>1/2 verre d'eau froide</li><li>2 cuillères à soupe de jus de citron</li><li>1 œuf</li><li>250 g de beurre (ou margarine) ((très froid))</li><li>300 g (2 verre) de farine tamisée</li></ul><h4>Pour la crème </h4><ul><li>1 boîte (397 g) de lait concentré sucré</li><li>220 g de beurre (ramolli)</li><li>200 g de noix concassées</li><li>3-5 noix entières (pour la décoration)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Pâte</h4><ol><li>Dans un verre, mélanger l'eau froide, l'œuf et le jus de citron avec une fourchette.\r\n </li><li>Dans une jatte, mettre la margarine (ou le beurre) bien froide et le hacher avec un couteau, en ajoutant petit à petit la farine et le mélange d'œuf.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6432.Blog_-150x150.png\"/><br /></li><li>Continuer de mélanger jusqu'à obtenir une pâte. Former un boudin.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_6435.Blog_-1-150x150.png\"/><br /></li><li>Découper pâte en 7-8 parties égales. Façonner des boules, les couvrir de film alimentaire et réfrigérer pendant au moins 1 heure ou jusqu'au lendemain.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5835.Blog_-150x150.png\"/><br /></li><li>Préchauffer le four à 200°C (thermostat 6/7). Saupoudrer une feuille de papier sulfurisé ou de papier aluminium avec de la farine. Prendre une boule pâte et l'aplatir une boule de pâte en un cercle très mince. Piquer toute la surface avec une fourchette.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5845.Blog_-150x150.png\"/><br /></li><li>Déposer la feuille sur une tôle à pâtisserie et enfourner pendant environ 10 minutes, jusqu'à ce que la pâte soit bien dorée. Répéter l'opération avec les boules de pâte restantes.\r\n\r\n </li><li>À la sortie du four, pendant que le disque de pâte est encore chaud, égaliser les bords de manière à obtenir des cercles de même taille, en passant la lame d'un couteau le long d'un couvercle ou une assiètte.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5849.Blog_-150x150.png\"/><br /></li><li>Réserver les chutes de pâte. Quand elles sont refroidies, les émietter avec les doigts ou à l'aide d'un robot .<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5862.Blog_-150x150.png\"/><br /></li></ol><h4>Crème </h4><ol><li>Avec un batteur électrique, travailler le beurre en crème jusqu'à obtenir un mélange léger et mousseux. Ajouter le lait concentré sucré et continuer à battre jusqu'à consistance homogène. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5882.Blog_-150x150.png\"/><br /></li></ol><h4>Assemblage du gâteau </h4><ol><li>Déposer un cercle de pâte sur un plat de service, recouvrir de crème et saupoudrer de noix concassées. Répéter l'opération jusqu'à ce que tous les cercles de pâte aient été utilisés.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5891.Blog_-150x150.png\"/><br /></li><li>Saupoudrer le gâteau de miettes de manière à complètement en recouvrir le dessus et les côtés.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5894.Blog_-150x150.png\"/><br /></li><li>Placer au réfrigérateur pendant 8 heures avant de servir. Décorer avec des noix.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_5947.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Un gâteau russe constitué de fines et croustillantes couches de pâte et garni d'une crème. Il existe des nombreuses recette. Cette version est ma préférée."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24036",
+      "sourceTaxonomyId": "24036",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24319",
+      "sourceTaxonomyId": "24319",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24321",
+      "sourceTaxonomyId": "24321",
+      "name": "de noix concassées",
+      "slug": "de-noix-concassees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24323",
+      "sourceTaxonomyId": "24323",
+      "name": "noix entières",
+      "slug": "noix-entieres"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24468",
+      "sourceTaxonomyId": "24468",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24790",
+      "sourceTaxonomyId": "24790",
+      "name": "d'eau froide",
+      "slug": "deau-froide"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24791",
+      "sourceTaxonomyId": "24791",
+      "name": "de beurre (ou margarine)",
+      "slug": "de-beurre-ou-margarine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24792",
+      "sourceTaxonomyId": "24792",
+      "name": "de lait concentré sucré",
+      "slug": "de-lait-concentre-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "938",
+      "sourceTaxonomyId": "938",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1939",
+      "sourceTaxonomyId": "1939",
+      "name": "œuf",
+      "slug": "oeuf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3996",
+      "sourceTaxonomyId": "3996",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4004",
+      "sourceTaxonomyId": "4004",
+      "name": "de noix concassées",
+      "slug": "de-noix-concassees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7300",
+      "sourceTaxonomyId": "7300",
+      "name": "noix entières",
+      "slug": "noix-entieres"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8394",
+      "sourceTaxonomyId": "8394",
+      "name": "d'eau froide",
+      "slug": "deau-froide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8396",
+      "sourceTaxonomyId": "8396",
+      "name": "de beurre (ou margarine)",
+      "slug": "de-beurre-ou-margarine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8398",
+      "sourceTaxonomyId": "8398",
+      "name": "de lait concentré sucré",
+      "slug": "de-lait-concentre-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1454",
+      "sourceTaxonomyId": "1454",
+      "name": "noix",
+      "slug": "noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3265",
+      "sourceTaxonomyId": "3265",
+      "name": "gateau russe",
+      "slug": "gateau-russe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3394",
+      "sourceTaxonomyId": "3394",
+      "name": "napoleon",
+      "slug": "napoleon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3400",
+      "sourceTaxonomyId": "3400",
+      "name": "lait concentre sucre",
+      "slug": "lait-concentre-sucre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3406",
+      "sourceTaxonomyId": "3406",
+      "name": "creme au beurre",
+      "slug": "creme-au-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26974",
+      "sourceTaxonomyId": "26974",
+      "name": "mille feuille",
+      "slug": "mille-feuille-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26976",
+      "sourceTaxonomyId": "26976",
+      "name": "mille-feuille",
+      "slug": "mille-feuille-2-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26978",
+      "sourceTaxonomyId": "26978",
+      "name": "nouvel an",
+      "slug": "nouvel-an-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "cook": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "rest": null,
+      "total": {
+        "raw": "600",
+        "minutes": 600
+      },
+      "custom": {
+        "label": "Temps de repos",
+        "duration": {
+          "raw": "480",
+          "minutes": 480
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:1456",
+    "ingredientGroups": [
+      {
+        "name": "Pour la pâte",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 verre d'eau froide",
+            "quantity": {
+              "raw": "1/2 verre",
+              "value": 0.5,
+              "unit": "verre",
+              "scalable": true
+            },
+            "name": "d'eau froide",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 cuillères à soupe de jus de citron",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de jus de citron",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 œuf",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œuf",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "250 g de beurre (ou margarine) (très froid)",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre (ou margarine)",
+            "notes": "(très froid)"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "300 g (2 verre) de farine tamisée",
+            "quantity": {
+              "raw": "300 g (2 verre)",
+              "value": 300,
+              "unit": "g (2 verre)",
+              "scalable": true
+            },
+            "name": "de farine tamisée",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Pour la crème",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 boîte (397 g) de lait concentré sucré",
+            "quantity": {
+              "raw": "1 boîte (397 g)",
+              "value": 1,
+              "unit": "boîte (397 g)",
+              "scalable": true
+            },
+            "name": "de lait concentré sucré",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "220 g de beurre ramolli",
+            "quantity": {
+              "raw": "220 g",
+              "value": 220,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": "ramolli"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "200 g de noix concassées",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noix concassées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3-5 noix entières pour la décoration",
+            "quantity": {
+              "raw": "3-5",
+              "min": 3,
+              "max": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "noix entières",
+            "notes": "pour la décoration"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Pâte",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un verre, mélanger l'eau froide, l'œuf et le jus de citron avec une fourchette.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans une jatte, mettre la margarine (ou le beurre) bien froide et le hacher avec un couteau, en ajoutant petit à petit la farine et le mélange d'œuf.",
+            "mediaId": "wordpress-attachment:786"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Continuer de mélanger jusqu'à obtenir une pâte. Former un boudin.",
+            "mediaId": "wordpress-attachment:911"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Découper pâte en 7-8 parties égales. Façonner des boules, les couvrir de film alimentaire et réfrigérer pendant au moins 1 heure ou jusqu'au lendemain.",
+            "mediaId": "wordpress-attachment:767"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Préchauffer le four à 200°C (thermostat 6/7). Saupoudrer une feuille de papier sulfurisé ou de papier aluminium avec de la farine. Prendre une boule pâte et l'aplatir une boule de pâte en un cercle très mince. Piquer toute la surface avec une fourchette.",
+            "mediaId": "wordpress-attachment:787"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Déposer la feuille sur une tôle à pâtisserie et enfourner pendant environ 10 minutes, jusqu'à ce que la pâte soit bien dorée. Répéter l'opération avec les boules de pâte restantes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "À la sortie du four, pendant que le disque de pâte est encore chaud, égaliser les bords de manière à obtenir des cercles de même taille, en passant la lame d'un couteau le long d'un couvercle ou une assiètte.",
+            "mediaId": "wordpress-attachment:788"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Réserver les chutes de pâte. Quand elles sont refroidies, les émietter avec les doigts ou à l'aide d'un robot .",
+            "mediaId": "wordpress-attachment:789"
+          }
+        ]
+      },
+      {
+        "name": "Crème",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Avec un batteur électrique, travailler le beurre en crème jusqu'à obtenir un mélange léger et mousseux. Ajouter le lait concentré sucré et continuer à battre jusqu'à consistance homogène.",
+            "mediaId": "wordpress-attachment:790"
+          }
+        ]
+      },
+      {
+        "name": "Assemblage du gâteau",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Déposer un cercle de pâte sur un plat de service, recouvrir de crème et saupoudrer de noix concassées. Répéter l'opération jusqu'à ce que tous les cercles de pâte aient été utilisés.",
+            "mediaId": "wordpress-attachment:791"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Saupoudrer le gâteau de miettes de manière à complètement en recouvrir le dessus et les côtés.",
+            "mediaId": "wordpress-attachment:792"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Placer au réfrigérateur pendant 8 heures avant de servir. Décorer avec des noix.",
+            "mediaId": "wordpress-attachment:642"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1456",
+      "sourceId": "1456",
+      "path": "/recipes/media/wordpress/1456.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:786",
+      "sourceId": "786",
+      "path": "/recipes/media/wordpress/786.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:911",
+      "sourceId": "911",
+      "path": "/recipes/media/wordpress/911.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:767",
+      "sourceId": "767",
+      "path": "/recipes/media/wordpress/767.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:787",
+      "sourceId": "787",
+      "path": "/recipes/media/wordpress/787.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:788",
+      "sourceId": "788",
+      "path": "/recipes/media/wordpress/788.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:789",
+      "sourceId": "789",
+      "path": "/recipes/media/wordpress/789.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:790",
+      "sourceId": "790",
+      "path": "/recipes/media/wordpress/790.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:791",
+      "sourceId": "791",
+      "path": "/recipes/media/wordpress/791.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:792",
+      "sourceId": "792",
+      "path": "/recipes/media/wordpress/792.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:642",
+      "sourceId": "642",
+      "path": "/recipes/media/wordpress/642.png",
+      "alt": "Наполеон с кремом из сгущенки",
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

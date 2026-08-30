@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:26418",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:26153",
+  "slug": "салат-из-болгарского-перца",
+  "source": {
+    "system": "wordpress",
+    "postId": "26418",
+    "recipeId": "26418",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%81%d0%b0%d0%bb%d0%b0%d1%82-%d0%b8%d0%b7-%d0%b1%d0%be%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%be%d0%b3%d0%be-%d0%bf%d0%b5%d1%80%d1%86%d0%b0",
+    "createdAt": "2023-03-29T06:14:24+00:00",
+    "modifiedAt": "2025-02-28T22:49:10+00:00",
+    "editorialPostId": "26416",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%81%d0%b0%d0%bb%d0%b0%d1%82-%d0%b8%d0%b7-%d0%b1%d0%be%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%be%d0%b3%d0%be-%d0%bf%d0%b5%d1%80%d1%86%d0%b0",
+    "editorialCreatedAt": "2023-03-29T06:14:24+00:00",
+    "editorialModifiedAt": "2025-02-28T22:49:04+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d1%81%d0%b0%d0%bb%d0%b0%d1%82-%d0%b8%d0%b7-%d0%b1%d0%be%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%be%d0%b3%d0%be-%d0%bf%d0%b5%d1%80%d1%86%d0%b0/"
+  ],
+  "title": "Салат из болгарского перца",
+  "description": "Еще один интересный рецепт из книги итальянской кухни (Délices d’Italie de Loukie Werle)\n\nСалат из болгарского перца, помидоров, каперсов, базилика и мяты. Болгарский перец запекается в духовке, все остальные ингредиенты добавляются в свежем виде. Перед подачей на стол салату надо дать время настояться в холодильние, поэтому готовить его лучше заранее.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":26418,\"template\":\"chic-template-russian\",\"updated\":1740782853744} -->\n<!--WPRM Recipe 26418-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Салат из болгарского перца</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3432.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Еще один интересный рецепт из книги итальянской кухни (Délices d’Italie de Loukie Werle)</p><p>Салат из болгарского перца, помидоров, каперсов, базилика и мяты. Болгарский перец запекается в духовке, все остальные ингредиенты добавляются в свежем виде. Перед подачей на стол салату надо дать время настояться в холодильние, поэтому готовить его лучше заранее.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 болгарских перца</li><li>1-2 помидора</li><li>1 зубчик чеснока</li><li>Немного листьев базилика</li><li>Немного листьев мяты</li><li>1 ст.л. каперсов</li><li>Соль и свежемолотый перец</li><li>4 ст.л. оливкового масла</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Разогреть духовку в режиме гриль.</p></li><li><p>Разрезать перец вдоль пополам, удалить семечки. Положить на противень кожицей вверх.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3390.Blog_-150x150.png\"/><br /></li><li><p>Поставить в верхнюю часть духовки и запекать до образования обуглившейся кожицы. Достать перцы из духовки, переложить на на тарелку, накрыть пищевой пленкой и оставить минут на 20.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3394.Blog_-150x150.png\"/><br /></li><li><p>Нарезать помидор кубиками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3411.Blog_-150x150.png\"/><br /></li><li><p> Мелко нарезать чеснок. Порубить листья базилика и мяты.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3421.Blog_-150x150.png\"/><br /></li><li><p>Когда перец остыл, снять с него кожицу и нарезать полосками.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3414.Blog_-150x150.png\"/><br /></li><li><p>Положить все нарезанные ингредиенты в блюдо для подачи. Добавить каперсы. Посолить, поперчить и полить оливковым маслом.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3423.Blog_-150x150.png\"/><br /></li><li><p>Накрыть пищевой пленкой и дать настояться в холодильнике в течение 1 часа.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/03/IMG_3430.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Italian, Italien</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23541",
+      "sourceTaxonomyId": "23541",
+      "name": "Italian",
+      "slug": "italian"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "25483",
+      "sourceTaxonomyId": "25483",
+      "name": "Italien",
+      "slug": "italien"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24855",
+      "sourceTaxonomyId": "24855",
+      "name": "Соль и свежемолотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24868",
+      "sourceTaxonomyId": "24868",
+      "name": "чеснока",
+      "slug": "%d1%87%d0%b5%d1%81%d0%bd%d0%be%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24962",
+      "sourceTaxonomyId": "24962",
+      "name": "помидора",
+      "slug": "%d0%bf%d0%be%d0%bc%d0%b8%d0%b4%d0%be%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25092",
+      "sourceTaxonomyId": "25092",
+      "name": "каперсов",
+      "slug": "%d0%ba%d0%b0%d0%bf%d0%b5%d1%80%d1%81%d0%be%d0%b2"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26155",
+      "sourceTaxonomyId": "26155",
+      "name": "листьев базилика",
+      "slug": "%d0%bb%d0%b8%d1%81%d1%82%d1%8c%d0%b5%d0%b2-%d0%b1%d0%b0%d0%b7%d0%b8%d0%bb%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26156",
+      "sourceTaxonomyId": "26156",
+      "name": "листьев мяты",
+      "slug": "%d0%bb%d0%b8%d1%81%d1%82%d1%8c%d0%b5%d0%b2-%d0%bc%d1%8f%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26157",
+      "sourceTaxonomyId": "26157",
+      "name": "болгарских перца",
+      "slug": "%d0%b1%d0%be%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%b8%d1%85-%d0%bf%d0%b5%d1%80%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25438",
+      "sourceTaxonomyId": "25438",
+      "name": "зубчик",
+      "slug": "%d0%b7%d1%83%d0%b1%d1%87%d0%b8%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "88",
+      "sourceTaxonomyId": "88",
+      "name": "Салаты",
+      "slug": "%d1%81%d0%b0%d0%bb%d0%b0%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1580",
+      "sourceTaxonomyId": "1580",
+      "name": "вегетарианское блюдо",
+      "slug": "%d0%b2%d0%b5%d0%b3%d0%b5%d1%82%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3825",
+      "sourceTaxonomyId": "3825",
+      "name": "гриль",
+      "slug": "%d0%b3%d1%80%d0%b8%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3873",
+      "sourceTaxonomyId": "3873",
+      "name": "болгарский перец",
+      "slug": "%d0%b1%d0%be%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%b8%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5018",
+      "sourceTaxonomyId": "5018",
+      "name": "здоровое питание",
+      "slug": "%d0%b7%d0%b4%d0%be%d1%80%d0%be%d0%b2%d0%be%d0%b5-%d0%bf%d0%b8%d1%82%d0%b0%d0%bd%d0%b8%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5217",
+      "sourceTaxonomyId": "5217",
+      "name": "овощной салат",
+      "slug": "%d0%be%d0%b2%d0%be%d1%89%d0%bd%d0%be%d0%b9-%d1%81%d0%b0%d0%bb%d0%b0%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5855",
+      "sourceTaxonomyId": "5855",
+      "name": "готовится заранее",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8%d1%82%d1%81%d1%8f-%d0%b7%d0%b0%d1%80%d0%b0%d0%bd%d0%b5%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6328",
+      "sourceTaxonomyId": "6328",
+      "name": "каперсы",
+      "slug": "%d0%ba%d0%b0%d0%bf%d0%b5%d1%80%d1%81%d1%8b"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "105",
+        "minutes": 105
+      },
+      "custom": {
+        "label": "На охлаждение",
+        "duration": {
+          "raw": "60",
+          "minutes": 60
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:26379",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 болгарских перца",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "болгарских перца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 помидора",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "помидора",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 зубчик чеснока",
+            "quantity": {
+              "raw": "1 зубчик",
+              "value": 1,
+              "unit": "зубчик",
+              "scalable": true
+            },
+            "name": "чеснока",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Немного листьев базилика",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "листьев базилика",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Немного листьев мяты",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "листьев мяты",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 ст.л. каперсов",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "каперсов",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Соль и свежемолотый перец",
+            "quantity": null,
+            "name": "Соль и свежемолотый перец",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "4 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "4 ст.л.",
+              "value": 4,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку в режиме гриль.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Разрезать перец вдоль пополам, удалить семечки. Положить на противень кожицей вверх.",
+            "mediaId": "wordpress-attachment:26372"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Поставить в верхнюю часть духовки и запекать до образования обуглившейся кожицы. Достать перцы из духовки, переложить на на тарелку, накрыть пищевой пленкой и оставить минут на 20.",
+            "mediaId": "wordpress-attachment:26373"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Нарезать помидор кубиками.",
+            "mediaId": "wordpress-attachment:26375"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Мелко нарезать чеснок. Порубить листья базилика и мяты.",
+            "mediaId": "wordpress-attachment:26377"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Когда перец остыл, снять с него кожицу и нарезать полосками.",
+            "mediaId": "wordpress-attachment:26376"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Положить все нарезанные ингредиенты в блюдо для подачи. Добавить каперсы. Посолить, поперчить и полить оливковым маслом.",
+            "mediaId": "wordpress-attachment:26378"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Накрыть пищевой пленкой и дать настояться в холодильнике в течение 1 часа.",
+            "mediaId": "wordpress-attachment:26381"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:26379",
+      "sourceId": "26379",
+      "path": "/recipes/media/wordpress/26379.png",
+      "alt": "Salade de poivrons à l'italienne",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26372",
+      "sourceId": "26372",
+      "path": "/recipes/media/wordpress/26372.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26373",
+      "sourceId": "26373",
+      "path": "/recipes/media/wordpress/26373.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26375",
+      "sourceId": "26375",
+      "path": "/recipes/media/wordpress/26375.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26377",
+      "sourceId": "26377",
+      "path": "/recipes/media/wordpress/26377.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26376",
+      "sourceId": "26376",
+      "path": "/recipes/media/wordpress/26376.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26378",
+      "sourceId": "26378",
+      "path": "/recipes/media/wordpress/26378.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:26381",
+      "sourceId": "26381",
+      "path": "/recipes/media/wordpress/26381.png",
+      "alt": "Salade de poivrons à l'italienne",
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

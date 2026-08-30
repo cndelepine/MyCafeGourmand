@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21654",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:5959",
+  "slug": "chickpea-garbanzo-beans-salad-with-bell-pepper",
+  "source": {
+    "system": "wordpress",
+    "postId": "21654",
+    "recipeId": "21654",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chickpea-salad-with-bell-pepper",
+    "createdAt": "2022-09-22T02:58:00+00:00",
+    "modifiedAt": "2022-10-09T00:29:46+00:00",
+    "editorialPostId": "11704",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chickpea-garbanzo-beans-salad-with-bell-pepper",
+    "editorialCreatedAt": "2022-09-22T02:58:00+00:00",
+    "editorialModifiedAt": "2022-10-09T00:29:43+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/chickpea-garbanzo-beans-salad-with-bell-pepper/"
+  ],
+  "title": "Chickpea salad with bell pepper",
+  "description": "This salad can by served immediately or chilled for few hours to get all of its flavors.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Cans are usually pretty handy at home or on the go; there is no need to go to a store and they are quick to prepare. This chickpea salad is a great example of the usefulness of cans. Just open a can and mix it with other ingredients available at home.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>There are multiple recipes of salads with this legume: here is one of them with bell pepper, olives and fresh cilantro.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21654,\"template\":\"chic-template-english\",\"updated\":1656968468961} -->\n<!--WPRM Recipe 21654-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chickpea salad with bell pepper</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/06/IMG_0719.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThis salad can by served immediately or chilled for few hours to get all of its flavors. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>400 g (1 can) garbanzo beans (drained)</li><li>1 bell pepper (cored and slices)</li><li>80 g olives (black or green), (drained and sliced)</li><li>1 clove garlic (pressed)</li><li>1/2 red onion (cut into thin slices)</li><li>Fresh herbs (cilantro or parsley), (finely  chopped )</li><li>Salt and freshly ground black pepper</li><li>1 lemon</li><li>3-4 Tsp olive oil</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Combine all veggies in a bowl. Season to taste with salt and freshly ground pepper. Drizzle with freshly pressed lemon juice and olive oil. Toss gently.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23559",
+      "sourceTaxonomyId": "23559",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24120",
+      "sourceTaxonomyId": "24120",
+      "name": "garbanzo beans",
+      "slug": "garbanzo-beans"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24123",
+      "sourceTaxonomyId": "24123",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24124",
+      "sourceTaxonomyId": "24124",
+      "name": "clove garlic",
+      "slug": "clove-garlic"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24170",
+      "sourceTaxonomyId": "24170",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24424",
+      "sourceTaxonomyId": "24424",
+      "name": "olives (black or green),",
+      "slug": "olives-black-or-green"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24425",
+      "sourceTaxonomyId": "24425",
+      "name": "Fresh herbs (cilantro or parsley),",
+      "slug": "fresh-herbs-cilantro-or-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "445",
+      "sourceTaxonomyId": "445",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "501",
+      "sourceTaxonomyId": "501",
+      "name": "clove garlic",
+      "slug": "clove-garlic"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2712",
+      "sourceTaxonomyId": "2712",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2714",
+      "sourceTaxonomyId": "2714",
+      "name": "red onion",
+      "slug": "red-onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6044",
+      "sourceTaxonomyId": "6044",
+      "name": "olives (black or green),",
+      "slug": "olives-black-or-green"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6046",
+      "sourceTaxonomyId": "6046",
+      "name": "Fresh herbs (cilantro or parsley),",
+      "slug": "fresh-herbs-cilantro-or-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6048",
+      "sourceTaxonomyId": "6048",
+      "name": "garbanzo beans",
+      "slug": "garbanzo-beans"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4323",
+      "sourceTaxonomyId": "4323",
+      "name": "healthy meal",
+      "slug": "healthy-meal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4337",
+      "sourceTaxonomyId": "4337",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5915",
+      "sourceTaxonomyId": "5915",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6016",
+      "sourceTaxonomyId": "6016",
+      "name": "chickpea",
+      "slug": "chickpea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6018",
+      "sourceTaxonomyId": "6018",
+      "name": "garbanzo beans",
+      "slug": "garbanzo-beans"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6020",
+      "sourceTaxonomyId": "6020",
+      "name": "bell pepper",
+      "slug": "bell-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6022",
+      "sourceTaxonomyId": "6022",
+      "name": "egyptian pea",
+      "slug": "egyptian-pea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6024",
+      "sourceTaxonomyId": "6024",
+      "name": "red oignon",
+      "slug": "red-oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6026",
+      "sourceTaxonomyId": "6026",
+      "name": "chick pea",
+      "slug": "chick-pea"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:11667",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "400 g (1 can) garbanzo beans drained",
+            "quantity": {
+              "raw": "400 g (1 can)",
+              "unit": "(1 can)",
+              "scalable": false
+            },
+            "name": "garbanzo beans",
+            "notes": "drained"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 bell pepper cored and slices",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bell pepper",
+            "notes": "cored and slices"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "80 g olives (black or green), drained and sliced",
+            "quantity": {
+              "raw": "80 g",
+              "value": 80,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "olives (black or green),",
+            "notes": "drained and sliced"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 clove garlic pressed",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "clove garlic",
+            "notes": "pressed"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 red onion cut into thin slices",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "red onion",
+            "notes": "cut into thin slices"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Fresh herbs (cilantro or parsley), finely chopped",
+            "quantity": null,
+            "name": "Fresh herbs (cilantro or parsley),",
+            "notes": "finely chopped"
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 lemon",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "lemon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "3-4 Tsp olive oil",
+            "quantity": {
+              "raw": "3-4 Tsp",
+              "min": 3,
+              "max": 4,
+              "unit": "Tsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Combine all veggies in a bowl. Season to taste with salt and freshly ground pepper. Drizzle with freshly pressed lemon juice and olive oil. Toss gently.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:11667",
+      "sourceId": "11667",
+      "path": "/recipes/media/wordpress/11667.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

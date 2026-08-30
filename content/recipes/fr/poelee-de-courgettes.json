@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22193",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:12472",
+  "slug": "poelee-de-courgettes",
+  "source": {
+    "system": "wordpress",
+    "postId": "22193",
+    "recipeId": "22193",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-poelee-de-courgettes",
+    "createdAt": "2021-06-16T01:45:00+00:00",
+    "modifiedAt": "2023-05-28T19:10:35+00:00",
+    "editorialPostId": "15236",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "poelee-de-courgettes",
+    "editorialCreatedAt": "2021-06-16T01:45:00+00:00",
+    "editorialModifiedAt": "2023-05-28T19:10:32+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/poelee-de-courgettes/"
+  ],
+  "title": "Poêlée de courgettes",
+  "description": "Les courgettes poêlées peuvent etre servies chaudes ou à température ambiante.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les courgettes sont coupées en fines rondelles et sautées à la poêle dans un peu d'huile d'olive avec de l'ail. Dans cette recette, elles sont assaisonnées de sel, de poivre et de jus de citron fraîchemеnt pressé. Ajoutez-y vos herbes fraîches préférées avant de servir.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22193,\"template\":\"chic-template-french\",\"updated\":1628259629176} -->\n<!--WPRM Recipe 22193-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Poêlée de courgettes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7353-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLes courgettes poêlées peuvent etre servies chaudes ou à température ambiante.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3-4 courgettes (vertes ou jaunes)</li><li>1-2 gousses d'ail (épluché et émincé)</li><li>2 filets d'huile d'olive</li><li>Quelques  brins de persil plat (ciboulettes, coriandre, menthe)) (ciselés)</li><li>2 cuillères à soupe de jus de citron</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Couper les courgettes en fines rondelles.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7280.Blog_-150x150.png\"/><br /></li><li>Couper l'ail.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7344.Blog_-150x150.png\"/><br /></li><li>Dans une grande poêle, faire chauffer l'huile à feu assez vif. Ajouter les courgettes et les sauter pendant environ 5 minutes. Ajouter l'ail et continuer sauter encore pendant environ 3 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7347.Blog_-150x150.png\"/><br /></li><li>Retirer la poêle du feu. Saler, poivrer et arroser de jus de citron. Saupoudrer avec des herbes fraîches avant de servir. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7353-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Pour ce poêlée de courgettes, les légumes sont coupées en fines rondelles et sautées à la poêle dans un peu d'huile d'olive avec de l'ail."
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24079",
+      "sourceTaxonomyId": "24079",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24468",
+      "sourceTaxonomyId": "24468",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24774",
+      "sourceTaxonomyId": "24774",
+      "name": "courgettes (vertes ou jaunes)",
+      "slug": "courgettes-vertes-ou-jaunes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24775",
+      "sourceTaxonomyId": "24775",
+      "name": "de persil plat (ciboulettes, coriandre, menthe))",
+      "slug": "de-persil-plat-ciboulettes-coriandre-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "628",
+      "sourceTaxonomyId": "628",
+      "name": "d'huile d'olive",
+      "slug": "dhuile-dolive"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "938",
+      "sourceTaxonomyId": "938",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12402",
+      "sourceTaxonomyId": "12402",
+      "name": "courgettes (vertes ou jaunes)",
+      "slug": "courgettes-vertes-ou-jaunes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12404",
+      "sourceTaxonomyId": "12404",
+      "name": "de persil plat (ciboulettes, coriandre, menthe))",
+      "slug": "de-persil-plat-ciboulettes-coriandre-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1620",
+      "sourceTaxonomyId": "1620",
+      "name": "poele",
+      "slug": "poele"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1624",
+      "sourceTaxonomyId": "1624",
+      "name": "recette rapide",
+      "slug": "recette-rapide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4529",
+      "sourceTaxonomyId": "4529",
+      "name": "recette sante",
+      "slug": "recette-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4608",
+      "sourceTaxonomyId": "4608",
+      "name": "jus de citron",
+      "slug": "jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6501",
+      "sourceTaxonomyId": "6501",
+      "name": "courgette verte",
+      "slug": "courgette-verte"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6503",
+      "sourceTaxonomyId": "6503",
+      "name": "courgette jaune",
+      "slug": "courgette-jaune"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "rest": null,
+      "total": {
+        "raw": "13",
+        "minutes": 13
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:15252",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3-4 courgettes (vertes ou jaunes)",
+            "quantity": {
+              "raw": "3-4",
+              "min": 3,
+              "max": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "courgettes (vertes ou jaunes)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 gousses d'ail épluché et émincé",
+            "quantity": {
+              "raw": "1-2 gousses",
+              "min": 1,
+              "max": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "épluché et émincé"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 filets d'huile d'olive",
+            "quantity": {
+              "raw": "2 filets",
+              "value": 2,
+              "unit": "filets",
+              "scalable": true
+            },
+            "name": "d'huile d'olive",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Quelques brins de persil plat (ciboulettes, coriandre, menthe)) ciselés",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de persil plat (ciboulettes, coriandre, menthe))",
+            "notes": "ciselés"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 cuillères à soupe de jus de citron",
+            "quantity": {
+              "raw": "2 cuillères à soupe",
+              "value": 2,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de jus de citron",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Couper les courgettes en fines rondelles.",
+            "mediaId": "wordpress-attachment:15249"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper l'ail.",
+            "mediaId": "wordpress-attachment:15250"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Dans une grande poêle, faire chauffer l'huile à feu assez vif. Ajouter les courgettes et les sauter pendant environ 5 minutes. Ajouter l'ail et continuer sauter encore pendant environ 3 minutes.",
+            "mediaId": "wordpress-attachment:15251"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Retirer la poêle du feu. Saler, poivrer et arroser de jus de citron. Saupoudrer avec des herbes fraîches avant de servir.",
+            "mediaId": "wordpress-attachment:15252"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15252",
+      "sourceId": "15252",
+      "path": "/recipes/media/wordpress/15252.png",
+      "alt": "Цукини на сковороде",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15249",
+      "sourceId": "15249",
+      "path": "/recipes/media/wordpress/15249.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15250",
+      "sourceId": "15250",
+      "path": "/recipes/media/wordpress/15250.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15251",
+      "sourceId": "15251",
+      "path": "/recipes/media/wordpress/15251.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

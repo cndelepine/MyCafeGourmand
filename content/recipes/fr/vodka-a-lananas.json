@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21809",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:2341",
+  "slug": "vodka-a-lananas",
+  "source": {
+    "system": "wordpress",
+    "postId": "21809",
+    "recipeId": "21809",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-vodka-a-lananas",
+    "createdAt": "2023-02-12T00:18:00+00:00",
+    "modifiedAt": "2023-05-10T07:02:13+00:00",
+    "editorialPostId": "4415",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "vodka-a-lananas",
+    "editorialCreatedAt": "2023-02-12T00:18:00+00:00",
+    "editorialModifiedAt": "2023-05-10T07:02:11+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/vodka-a-lananas/"
+  ],
+  "title": "Vodka à l'ananas",
+  "description": "Choisissez un ananas bien mûr, parfumé et juteux et une vodka de bonne qualité. Il ne faut pas espérer qu'une vodka va améliorer un ananas sans goût ou le goût d'ananas va cacher celui médiocre de la vodka. :)",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>La vodka à l'ananas est bien parfumée et a un goût très agréable. Une gousse de vanille n'est pas indispensable mais joue un rôle important en ajoutant de la douceur&nbsp;à la boisson.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21809,\"template\":\"chic-template-french\",\"updated\":1636908160786} -->\n<!--WPRM Recipe 21809-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Vodka à l'ananas</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180209_212421.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tChoisissez un ananas bien mûr, parfumé et juteux et une vodka de bonne qualité. Il ne faut pas espérer qu'une vodka va améliorer un ananas sans goût ou le goût d'ananas va cacher celui médiocre de la vodka. :)\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 ananas mûr</li><li>750 ml de vodka</li><li>1 de vanille fendue dans la longueur ((facultatif mais bien recommandé))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Peler l'ananas, retirer le milieu un peu dur et couper en cubes. Mettre les cubes d'ananas dans un bocal. Avec la pointe d'un couteau, gratter les graines de vanille. Ajouter la gousse de vanille et ses graines dans le bocal. Verser la vodka. Fermer le bocal et laisser reposer dans un endroit frais et sombre pendant 5 jours.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_2922-2.Blog_-150x150.png\"/><br /></li><li>Egoutter les morceaux d'ananas en les pressant un peu. Filtrer le liquide puis verser dans une bouteille propre er ranger dans le réfrigérateur. Dès que la vodka est refroidie - c'est prêt !<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/20180209_212240.Blog_-150x150.png\"/><br /></li><li>Les morceaux d'ananas peuvent être mangés. Mais ne les proposez pas aux enfants, ni aux femmes enceintes, l'ananas est gorgé d'alcool !</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Boissons</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24365",
+      "sourceTaxonomyId": "24365",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24533",
+      "sourceTaxonomyId": "24533",
+      "name": "ananas mûr",
+      "slug": "ananas-mur"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24534",
+      "sourceTaxonomyId": "24534",
+      "name": "de vodka",
+      "slug": "de-vodka"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24535",
+      "sourceTaxonomyId": "24535",
+      "name": "de vanille fendue dans la longueur",
+      "slug": "de-vanille-fendue-dans-la-longueur"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "114",
+      "sourceTaxonomyId": "114",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1680",
+      "sourceTaxonomyId": "1680",
+      "name": "Boissons",
+      "slug": "boissons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2354",
+      "sourceTaxonomyId": "2354",
+      "name": "de vodka",
+      "slug": "de-vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2360",
+      "sourceTaxonomyId": "2360",
+      "name": "ananas mûr",
+      "slug": "ananas-mur"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2362",
+      "sourceTaxonomyId": "2362",
+      "name": "de vanille fendue dans la longueur",
+      "slug": "de-vanille-fendue-dans-la-longueur"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2342",
+      "sourceTaxonomyId": "2342",
+      "name": "vodka",
+      "slug": "vodka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2346",
+      "sourceTaxonomyId": "2346",
+      "name": "gousse de vanille",
+      "slug": "gousse-de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2348",
+      "sourceTaxonomyId": "2348",
+      "name": "boisson",
+      "slug": "boisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2350",
+      "sourceTaxonomyId": "2350",
+      "name": "alcool",
+      "slug": "alcool"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6802",
+      "sourceTaxonomyId": "6802",
+      "name": "boisson de fete",
+      "slug": "boisson-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8243",
+      "sourceTaxonomyId": "8243",
+      "name": "fete de la fin d'annee",
+      "slug": "fete-de-la-fin-dannee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8245",
+      "sourceTaxonomyId": "8245",
+      "name": "original",
+      "slug": "original"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8247",
+      "sourceTaxonomyId": "8247",
+      "name": "liqueur d'ananas",
+      "slug": "liqueur-dananas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8249",
+      "sourceTaxonomyId": "8249",
+      "name": "boisson pour dame",
+      "slug": "boisson-pour-dame"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8251",
+      "sourceTaxonomyId": "8251",
+      "name": "boisson agreable",
+      "slug": "boisson-agreable"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8253",
+      "sourceTaxonomyId": "8253",
+      "name": "cocktail",
+      "slug": "cocktail-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8301",
+      "sourceTaxonomyId": "8301",
+      "name": "infusee a l'ananas",
+      "slug": "infusee-a-lananas"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 portions",
+      "value": 6,
+      "unit": "portions",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:4333",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 ananas mûr",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "ananas mûr",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "750 ml de vodka",
+            "quantity": {
+              "raw": "750 ml",
+              "value": 750,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de vodka",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 de vanille fendue dans la longueur (facultatif mais bien recommandé)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "de vanille fendue dans la longueur",
+            "notes": "(facultatif mais bien recommandé)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Peler l'ananas, retirer le milieu un peu dur et couper en cubes. Mettre les cubes d'ananas dans un bocal. Avec la pointe d'un couteau, gratter les graines de vanille. Ajouter la gousse de vanille et ses graines dans le bocal. Verser la vodka. Fermer le bocal et laisser reposer dans un endroit frais et sombre pendant 5 jours.",
+            "mediaId": "wordpress-attachment:4338"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Egoutter les morceaux d'ananas en les pressant un peu. Filtrer le liquide puis verser dans une bouteille propre er ranger dans le réfrigérateur. Dès que la vodka est refroidie - c'est prêt !",
+            "mediaId": "wordpress-attachment:4332"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Les morceaux d'ananas peuvent être mangés. Mais ne les proposez pas aux enfants, ni aux femmes enceintes, l'ananas est gorgé d'alcool !",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4333",
+      "sourceId": "4333",
+      "path": "/recipes/media/wordpress/4333.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4338",
+      "sourceId": "4338",
+      "path": "/recipes/media/wordpress/4338.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4332",
+      "sourceId": "4332",
+      "path": "/recipes/media/wordpress/4332.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21571",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:621",
+  "slug": "oven-roasted-potatoes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21571",
+    "recipeId": "21571",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-oven-roasted-potatoes",
+    "createdAt": "2018-01-07T09:06:16+00:00",
+    "modifiedAt": "2022-06-27T00:26:54+00:00",
+    "editorialPostId": "1086",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "oven-roasted-potatoes",
+    "editorialCreatedAt": "2018-01-07T09:06:16+00:00",
+    "editorialModifiedAt": "2022-06-27T00:26:52+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/oven-roasted-potatoes/"
+  ],
+  "title": "Oven roasted potatoes",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>The Oven Roasted Potatoes are crispy on the outside but soft and creamy on the inside! This simple side dish is everyone's favorite. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21571,\"template\":\"chic-template-english\",\"updated\":1656289602005} -->\n<!--WPRM Recipe 21571-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Oven roasted potatoes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20171010_103300-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 large Yukon Gold potatoes</li><li>2 tbsp barbecue sauce</li><li>1 tbsp mayonnaise</li><li>1/2 tsp salt</li><li>1/2 tsp black pepper</li><li>4 tbsp olive oil</li><li>fresh herbs (to garnish )</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 375°F.</li><li>Peel the potatoes and cut them into 4 pieces.</li><li>In a large bowl, toss the potatoes with the barbecue sauce, mayonnaise, salt and pepper.</li><li>Drizzle 4 tbsp of olive oil into baking pan.</li><li>Spread the potatoes evenly on the bottom of prepared baking pan.</li><li>Bake at 375°F for 65 minutes, or until potatoes are golden and tender.</li><li>Garnish with fresh herbs and serve.  </li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23556",
+      "sourceTaxonomyId": "23556",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24133",
+      "sourceTaxonomyId": "24133",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24388",
+      "sourceTaxonomyId": "24388",
+      "name": "large Yukon Gold potatoes",
+      "slug": "large-yukon-gold-potatoes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24389",
+      "sourceTaxonomyId": "24389",
+      "name": "barbecue sauce",
+      "slug": "barbecue-sauce"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24390",
+      "sourceTaxonomyId": "24390",
+      "name": "black pepper",
+      "slug": "black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "284",
+      "sourceTaxonomyId": "284",
+      "name": "large Yukon Gold potatoes",
+      "slug": "large-yukon-gold-potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "286",
+      "sourceTaxonomyId": "286",
+      "name": "barbecue sauce",
+      "slug": "barbecue-sauce"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "288",
+      "sourceTaxonomyId": "288",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "292",
+      "sourceTaxonomyId": "292",
+      "name": "black pepper",
+      "slug": "black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "311",
+      "sourceTaxonomyId": "311",
+      "name": "salt",
+      "slug": "salt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "505",
+      "sourceTaxonomyId": "505",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1282",
+      "sourceTaxonomyId": "1282",
+      "name": "roasted",
+      "slug": "roasted"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1284",
+      "sourceTaxonomyId": "1284",
+      "name": "potatoes",
+      "slug": "potatoes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1618",
+      "sourceTaxonomyId": "1618",
+      "name": "easy recipe",
+      "slug": "easy-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5309",
+      "sourceTaxonomyId": "5309",
+      "name": "good for kids",
+      "slug": "good-for-kids"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5592",
+      "sourceTaxonomyId": "5592",
+      "name": "crispy outside",
+      "slug": "crispy-outside"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5594",
+      "sourceTaxonomyId": "5594",
+      "name": "soft inside",
+      "slug": "soft-inside"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5596",
+      "sourceTaxonomyId": "5596",
+      "name": "everyone's favorite",
+      "slug": "everyones-favorite"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 people",
+      "value": 6,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "65",
+        "minutes": 65
+      },
+      "rest": null,
+      "total": {
+        "raw": "65",
+        "minutes": 65
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1148",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 large Yukon Gold potatoes",
+            "quantity": {
+              "raw": "6",
+              "value": 6,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "large Yukon Gold potatoes",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 tbsp barbecue sauce",
+            "quantity": {
+              "raw": "2 tbsp",
+              "value": 2,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "barbecue sauce",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 tbsp mayonnaise",
+            "quantity": {
+              "raw": "1 tbsp",
+              "value": 1,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 tsp salt",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "salt",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 tsp black pepper",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4 tbsp olive oil",
+            "quantity": {
+              "raw": "4 tbsp",
+              "value": 4,
+              "unit": "tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "fresh herbs to garnish",
+            "quantity": null,
+            "name": "fresh herbs",
+            "notes": "to garnish"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 375°F.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel the potatoes and cut them into 4 pieces.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "In a large bowl, toss the potatoes with the barbecue sauce, mayonnaise, salt and pepper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Drizzle 4 tbsp of olive oil into baking pan.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Spread the potatoes evenly on the bottom of prepared baking pan.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Bake at 375°F for 65 minutes, or until potatoes are golden and tender.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Garnish with fresh herbs and serve.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1148",
+      "sourceId": "1148",
+      "path": "/recipes/media/wordpress/1148.png",
+      "alt": null,
+      "width": 800,
+      "height": 496
+    }
+  ],
+  "seo": null
+}

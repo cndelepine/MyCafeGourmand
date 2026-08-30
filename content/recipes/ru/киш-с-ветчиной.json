@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22545",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:759",
+  "slug": "киш-с-ветчиной",
+  "source": {
+    "system": "wordpress",
+    "postId": "22545",
+    "recipeId": "22545",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%ba%d0%b8%d1%88-%d1%81-%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d0%be%d0%b9",
+    "createdAt": "2019-05-01T16:14:44+00:00",
+    "modifiedAt": "2022-07-30T19:53:45+00:00",
+    "editorialPostId": "1711",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%ba%d0%b8%d1%88-%d1%81-%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d0%be%d0%b9",
+    "editorialCreatedAt": "2019-05-01T16:14:44+00:00",
+    "editorialModifiedAt": "2022-07-30T19:53:42+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d0%ba%d0%b8%d1%88-%d1%81-%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d0%be%d0%b9/",
+    "/ru/%d0%ba%d0%b8%d1%88-%d1%81-%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d0%be%d0%b9-%d0%be%d1%82%d0%ba%d1%80%d1%8b%d1%82%d1%8b%d0%b9-%d1%81%d0%be%d0%bb%d0%b5%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3/"
+  ],
+  "title": "Киш с ветчиной",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Киш - французский открытый соленый пирог. Аппетитное блюдо, которое можно подать с зелeным салатом, к овощному бульону или само по себе. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22545,\"template\":\"chic-template-russian\",\"updated\":1659210818515} -->\n<!--WPRM Recipe 22545-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Киш с ветчиной</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7058.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 лист  слоеного теста ((или песочного))</li><li>3 яйца</li><li>150 мл  сливок</li><li>150 г ветчины</li><li>70 г тeртого сыра</li><li>соль, перец (по вкусу)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Разогреть духовку до 180 С.</li><li>На пергаментной бумаге тонко раскатать слоеное тесто. Выложить его в форму (вместе с бумагой). Наколоть тесто вилкой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7748.Blog_-150x150.png\"/><br /></li><li>Поставить в духовку на 10-12 минут. Тесто должно стать немного поджаренным, но еще не до конца готовым. Если оно поднялось, придавить его вилкой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7752.Blog_-150x150.png\"/><br /></li><li>Ветчину порезать на маленькие кусочки. Ровным слоем выложить на тесто. </li><li>Посыпать тeртым сыром.</li><li>Яйца смешать со сливками. Посолить и поперчить. Залить этой смесью киш.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_9127.Blog_-1-150x150.png\"/><br /></li><li>Выпекать в духовке примерно 25 минут.  Готово, когда пирог покрылся золотой корочкой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7058.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Горячие блюда</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24833",
+      "sourceTaxonomyId": "24833",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23981",
+      "sourceTaxonomyId": "23981",
+      "name": "сливок",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24859",
+      "sourceTaxonomyId": "24859",
+      "name": "ветчины",
+      "slug": "%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24890",
+      "sourceTaxonomyId": "24890",
+      "name": "слоеного теста",
+      "slug": "%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24989",
+      "sourceTaxonomyId": "24989",
+      "name": "тeртого сыра",
+      "slug": "%d1%82e%d1%80%d1%82%d0%be%d0%b3%d0%be-%d1%81%d1%8b%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24990",
+      "sourceTaxonomyId": "24990",
+      "name": "соль, перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "100",
+      "sourceTaxonomyId": "100",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17357",
+      "sourceTaxonomyId": "17357",
+      "name": "слоеное тесто",
+      "slug": "puff-pastry-russian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1438",
+      "sourceTaxonomyId": "1438",
+      "name": "Горячие блюда",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%b5-%d0%b1%d0%bb%d1%8e%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "271",
+      "sourceTaxonomyId": "271",
+      "name": "сливок",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "584",
+      "sourceTaxonomyId": "584",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "654",
+      "sourceTaxonomyId": "654",
+      "name": "слоеного теста",
+      "slug": "%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "656",
+      "sourceTaxonomyId": "656",
+      "name": "ветчины",
+      "slug": "%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "658",
+      "sourceTaxonomyId": "658",
+      "name": "тeртого сыра",
+      "slug": "%d1%82e%d1%80%d1%82%d0%be%d0%b3%d0%be-%d1%81%d1%8b%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "660",
+      "sourceTaxonomyId": "660",
+      "name": "соль, перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1232",
+      "sourceTaxonomyId": "1232",
+      "name": "сыр",
+      "slug": "%d1%81%d1%8b%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1418",
+      "sourceTaxonomyId": "1418",
+      "name": "слоеное тесто",
+      "slug": "%d1%81%d0%bb%d0%be%d0%b5%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1494",
+      "sourceTaxonomyId": "1494",
+      "name": "киш",
+      "slug": "%d0%ba%d0%b8%d1%88"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1498",
+      "sourceTaxonomyId": "1498",
+      "name": "сливки",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1500",
+      "sourceTaxonomyId": "1500",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1570",
+      "sourceTaxonomyId": "1570",
+      "name": "ветчина",
+      "slug": "%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1572",
+      "sourceTaxonomyId": "1572",
+      "name": "открытый пирог",
+      "slug": "%d0%be%d1%82%d0%ba%d1%80%d1%8b%d1%82%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1574",
+      "sourceTaxonomyId": "1574",
+      "name": "соленый пирог",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b5%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4374",
+      "sourceTaxonomyId": "4374",
+      "name": "французский рецепт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4376",
+      "sourceTaxonomyId": "4376",
+      "name": "пирог с ветчиной",
+      "slug": "%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d1%81-%d0%b2%d0%b5%d1%82%d1%87%d0%b8%d0%bd%d0%be%d0%b9"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4378",
+      "sourceTaxonomyId": "4378",
+      "name": "яйца сливки сыр",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0-%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8-%d1%81%d1%8b%d1%80"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4740",
+      "sourceTaxonomyId": "4740",
+      "name": "sloenoe testo",
+      "slug": "sloenoe-testo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4906",
+      "sourceTaxonomyId": "4906",
+      "name": "kish",
+      "slug": "kish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4928",
+      "sourceTaxonomyId": "4928",
+      "name": "quiche",
+      "slug": "quiche-ru"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1714",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 лист слоеного теста (или песочного)",
+            "quantity": {
+              "raw": "1 лист",
+              "value": 1,
+              "unit": "лист",
+              "scalable": true
+            },
+            "name": "слоеного теста",
+            "notes": "(или песочного)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "3 яйца",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 мл сливок",
+            "quantity": {
+              "raw": "150 мл",
+              "value": 150,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "сливок",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "150 г ветчины",
+            "quantity": {
+              "raw": "150 г",
+              "value": 150,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "ветчины",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "70 г тeртого сыра",
+            "quantity": {
+              "raw": "70 г",
+              "value": 70,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "тeртого сыра",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "соль, перец по вкусу",
+            "quantity": null,
+            "name": "соль, перец",
+            "notes": "по вкусу"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 180 С.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "На пергаментной бумаге тонко раскатать слоеное тесто. Выложить его в форму (вместе с бумагой). Наколоть тесто вилкой.",
+            "mediaId": "wordpress-attachment:3358"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Поставить в духовку на 10-12 минут. Тесто должно стать немного поджаренным, но еще не до конца готовым. Если оно поднялось, придавить его вилкой.",
+            "mediaId": "wordpress-attachment:3360"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ветчину порезать на маленькие кусочки. Ровным слоем выложить на тесто.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Посыпать тeртым сыром.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Яйца смешать со сливками. Посолить и поперчить. Залить этой смесью киш.",
+            "mediaId": "wordpress-attachment:9230"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Выпекать в духовке примерно 25 минут. Готово, когда пирог покрылся золотой корочкой.",
+            "mediaId": "wordpress-attachment:1714"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1714",
+      "sourceId": "1714",
+      "path": "/recipes/media/wordpress/1714.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3358",
+      "sourceId": "3358",
+      "path": "/recipes/media/wordpress/3358.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3360",
+      "sourceId": "3360",
+      "path": "/recipes/media/wordpress/3360.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:9230",
+      "sourceId": "9230",
+      "path": "/recipes/media/wordpress/9230.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

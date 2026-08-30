@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21323",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:12132",
+  "slug": "heart-shaped-ice-cream",
+  "source": {
+    "system": "wordpress",
+    "postId": "21323",
+    "recipeId": "21323",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-heart-shaped-ice-cream",
+    "createdAt": "2026-02-08T19:04:00+00:00",
+    "modifiedAt": "2026-02-09T07:55:09+00:00",
+    "editorialPostId": "15128",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "heart-shaped-ice-cream",
+    "editorialCreatedAt": "2026-02-08T19:04:00+00:00",
+    "editorialModifiedAt": "2026-02-09T07:55:05+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/heart-shaped-ice-cream/"
+  ],
+  "title": "Heart-shaped Ice Cream",
+  "description": "Choose your favorite sorbet or ice cream flavor (or your significant other's) and serve this dessert with whipping cream, chocolate and fruit.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This heart-shaped Ice Cream will please your significant other without having to spend the whole day cooking. Ice cream in the shape of a heart served with a cloud of whipping cream dusted with grated chocolate. This icy dessert will melt hearts!<br></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21323,\"template\":\"chic-template-english\",\"updated\":1770623649911} -->\n<!--WPRM Recipe 21323-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Heart-shaped Ice Cream</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7315.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tChoose your favorite sorbet or ice cream flavor (or your significant other's) and serve this dessert with whipping cream, chocolate and fruit.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 g chocolate ice cream ((or another your favorite ice cream/sorbet ))</li><li>50 ml heavy whipping cream ( 35%) (very cold)</li><li>1 tsp sugar</li><li>Grated chocolate</li><li>Few red berries (blueberry, raspberry...)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Take the ice cream out of the freezer and leave it out for 5 minutes to make it softer. Put the ice cream in a heart shaped mold. Cover with plastic wrap and put it back in the freezer for around 45 minutes.\r\n    <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7210.Blog_-150x150.png\"/><br /></li><li>Submerge the mold under hot water for a couple seconds (wipe the water off of the mold with a towel so that the serving plate does not get wet).\r\n\r\n   \r\n    <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7287.Blog_-150x150.png\"/><br /></li><li>Remove the ice cream from the mold onto a plate. Put the plate into the freezer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7292.Blog_-150x150.png\"/><br /></li><li>Whip the heavy cream with the sugar until fluffy. Don't over beat.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7290.Blog_-150x150.png\"/><br /></li><li>When serving, put the whipping cream on the heart. Decorate with nuts, grated chocolate, and red berries. Serve right away.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7312-3.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23950",
+      "sourceTaxonomyId": "23950",
+      "name": "chocolate ice cream",
+      "slug": "chocolate-ice-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24207",
+      "sourceTaxonomyId": "24207",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24208",
+      "sourceTaxonomyId": "24208",
+      "name": "Grated chocolate",
+      "slug": "grated-chocolate"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24209",
+      "sourceTaxonomyId": "24209",
+      "name": "red berries (blueberry, raspberry...)",
+      "slug": "red-berries-blueberry-raspberry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2984",
+      "sourceTaxonomyId": "2984",
+      "name": "heavy whipping cream ( 35%)",
+      "slug": "heavy-whipping-cream-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5181",
+      "sourceTaxonomyId": "5181",
+      "name": "chocolate ice cream",
+      "slug": "chocolate-ice-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12281",
+      "sourceTaxonomyId": "12281",
+      "name": "Grated chocolate",
+      "slug": "grated-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12283",
+      "sourceTaxonomyId": "12283",
+      "name": "red berries (blueberry, raspberry...)",
+      "slug": "red-berries-blueberry-raspberry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2125",
+      "sourceTaxonomyId": "2125",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2201",
+      "sourceTaxonomyId": "2201",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2410",
+      "sourceTaxonomyId": "2410",
+      "name": "Valentine's Day",
+      "slug": "valentines-day"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3066",
+      "sourceTaxonomyId": "3066",
+      "name": "quick and easy",
+      "slug": "quick-and-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4170",
+      "sourceTaxonomyId": "4170",
+      "name": "chocolate",
+      "slug": "chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6485",
+      "sourceTaxonomyId": "6485",
+      "name": "ice cream",
+      "slug": "ice-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6495",
+      "sourceTaxonomyId": "6495",
+      "name": "red berries",
+      "slug": "red-berries"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23002",
+      "sourceTaxonomyId": "23002",
+      "name": "februaly 14th",
+      "slug": "februaly-14th"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "2 servings",
+      "value": 2,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:15098",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 g chocolate ice cream (or another your favorite ice cream/sorbet )",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "chocolate ice cream",
+            "notes": "(or another your favorite ice cream/sorbet )"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "50 ml heavy whipping cream ( 35%) very cold",
+            "quantity": {
+              "raw": "50 ml",
+              "value": 50,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream ( 35%)",
+            "notes": "very cold"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 tsp sugar",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Grated chocolate",
+            "quantity": null,
+            "name": "Grated chocolate",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Few red berries (blueberry, raspberry...)",
+            "quantity": {
+              "raw": "Few",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "red berries (blueberry, raspberry...)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Take the ice cream out of the freezer and leave it out for 5 minutes to make it softer. Put the ice cream in a heart shaped mold. Cover with plastic wrap and put it back in the freezer for around 45 minutes.",
+            "mediaId": "wordpress-attachment:15093"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Submerge the mold under hot water for a couple seconds (wipe the water off of the mold with a towel so that the serving plate does not get wet).",
+            "mediaId": "wordpress-attachment:15094"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Remove the ice cream from the mold onto a plate. Put the plate into the freezer.",
+            "mediaId": "wordpress-attachment:15096"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Whip the heavy cream with the sugar until fluffy. Don't over beat.",
+            "mediaId": "wordpress-attachment:15095"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "When serving, put the whipping cream on the heart. Decorate with nuts, grated chocolate, and red berries. Serve right away.",
+            "mediaId": "wordpress-attachment:15097"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15098",
+      "sourceId": "15098",
+      "path": "/recipes/media/wordpress/15098.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15093",
+      "sourceId": "15093",
+      "path": "/recipes/media/wordpress/15093.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15094",
+      "sourceId": "15094",
+      "path": "/recipes/media/wordpress/15094.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15096",
+      "sourceId": "15096",
+      "path": "/recipes/media/wordpress/15096.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15095",
+      "sourceId": "15095",
+      "path": "/recipes/media/wordpress/15095.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15097",
+      "sourceId": "15097",
+      "path": "/recipes/media/wordpress/15097.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

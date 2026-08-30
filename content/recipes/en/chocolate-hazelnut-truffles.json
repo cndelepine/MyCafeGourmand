@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21362",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3479",
+  "slug": "chocolate-hazelnut-truffles",
+  "source": {
+    "system": "wordpress",
+    "postId": "21362",
+    "recipeId": "21362",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chocolat-hazelnut-truffles",
+    "createdAt": "2022-12-05T18:51:00+00:00",
+    "modifiedAt": "2024-06-24T12:41:36+00:00",
+    "editorialPostId": "8713",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chocolate-hazelnut-truffles",
+    "editorialCreatedAt": "2022-12-05T18:51:00+00:00",
+    "editorialModifiedAt": "2024-06-24T12:41:33+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/chocolate-hazelnut-truffles/"
+  ],
+  "title": "Chocolat Hazelnut Truffles",
+  "description": "If you don't have hazelnuts, feel free to use almonds, cashews, walnuts or any other nuts you like. Just don't forget to roast them in the oven before making the truffles. Fresh nuts taste way better.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Chocolate Hazelnut Truffles is one delicacy that no one can refuse. The roasted hazelnut compliments the rich cacao powder. Store the truffles in container in the fridge for up to 5 days, but they will disappear from the fridge a lot faster, trust me on this. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21362,\"template\":\"chic-template-english\",\"updated\":1719232870713} -->\n<!--WPRM Recipe 21362-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chocolat Hazelnut Truffles</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9098.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIf you don't have hazelnuts, feel free to use almonds, cashews, walnuts or any other nuts you like. Just don't forget to roast them in the oven before making the truffles. Fresh nuts taste way better.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>150 ml   heavy whipping cream</li><li>200 g dark chocolate (60-70% cacao)</li><li>50 g unsalted butter</li><li>30 g hazelnuts</li><li>2 Tbsp cacao powder</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Bring the heavy cream to a boil. Pour the cream over the chocolate chips. Wait 1-2 minutes until chocolate melts.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9030.Blog_-150x150.png\"/><br /></li><li><p>Add butter and whisk until smooth. Place it in the frizzer for about 2 hours, until firm enough to roll.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9034.Blog_-150x150.png\"/><br /></li><li><p>Preheat oven to 350 degrees F. Spread the nuts in an even layer on the baking sheet, and roast it for 10-15 minutes. Stirring every 3 minutes. Check the nuts. You are looking for the color to be a few shades darker. When the nuts are browned and smell nutty, remove from the oven and transfer onto a plate. Cool it and clean from the flakes. I like my truffles extra tiny, so I cut each hazelnut in half. You don&#039;t  have to cut them if you are making large truffles.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9068.Blog_-150x150.png\"/><br /></li><li>Use a teaspoon or small cookie scoop to portion the ganache, hide one hazelnut inside each piece, roll the balls between hands, until smooth and place on a plate.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9047.Blog_-150x150.png\"/><br /></li><li>Roll in cacao powder.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9051.Blog_-150x150.png\"/><br /></li><li><p>Refrigerate for at least 1 hour.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_9092-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26708",
+      "sourceTaxonomyId": "26708",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24199",
+      "sourceTaxonomyId": "24199",
+      "name": "unsalted butter",
+      "slug": "unsalted-butter"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24242",
+      "sourceTaxonomyId": "24242",
+      "name": "hazelnuts",
+      "slug": "hazelnuts"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24243",
+      "sourceTaxonomyId": "24243",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24244",
+      "sourceTaxonomyId": "24244",
+      "name": "dark chocolate (60-70% cacao)",
+      "slug": "dark-chocolate-60-70-cacao"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24245",
+      "sourceTaxonomyId": "24245",
+      "name": "cacao powder",
+      "slug": "cacao-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25456",
+      "sourceTaxonomyId": "25456",
+      "name": "Tbsp",
+      "slug": "tbsp"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "722",
+      "sourceTaxonomyId": "722",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25336",
+      "sourceTaxonomyId": "25336",
+      "name": "Gluten-Free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2119",
+      "sourceTaxonomyId": "2119",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "863",
+      "sourceTaxonomyId": "863",
+      "name": "cacao powder",
+      "slug": "cacao-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1992",
+      "sourceTaxonomyId": "1992",
+      "name": "heavy whipping cream",
+      "slug": "heavy-whipping-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4136",
+      "sourceTaxonomyId": "4136",
+      "name": "hazelnuts",
+      "slug": "hazelnuts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4248",
+      "sourceTaxonomyId": "4248",
+      "name": "dark chocolate (60-70% cacao)",
+      "slug": "dark-chocolate-60-70-cacao"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1897",
+      "sourceTaxonomyId": "1897",
+      "name": "dark chocolate",
+      "slug": "dark-chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2125",
+      "sourceTaxonomyId": "2125",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4170",
+      "sourceTaxonomyId": "4170",
+      "name": "chocolate",
+      "slug": "chocolate"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4236",
+      "sourceTaxonomyId": "4236",
+      "name": "fudge",
+      "slug": "fudge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4238",
+      "sourceTaxonomyId": "4238",
+      "name": "chocolate rich",
+      "slug": "chocolate-rich"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4240",
+      "sourceTaxonomyId": "4240",
+      "name": "creamy",
+      "slug": "creamy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4242",
+      "sourceTaxonomyId": "4242",
+      "name": "super chocolaty",
+      "slug": "super-chocolaty"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4244",
+      "sourceTaxonomyId": "4244",
+      "name": "nutty",
+      "slug": "nutty"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4246",
+      "sourceTaxonomyId": "4246",
+      "name": "decadent",
+      "slug": "decadent"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4250",
+      "sourceTaxonomyId": "4250",
+      "name": "hazelnut",
+      "slug": "hazelnut"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4252",
+      "sourceTaxonomyId": "4252",
+      "name": "truffles",
+      "slug": "truffles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8099",
+      "sourceTaxonomyId": "8099",
+      "name": "best recipe",
+      "slug": "best-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "45 pieces",
+      "value": 45,
+      "unit": "pieces",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "2",
+        "minutes": 2
+      },
+      "rest": null,
+      "total": {
+        "raw": "202",
+        "minutes": 202
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:7297",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 ml heavy whipping cream",
+            "quantity": {
+              "raw": "150 ml",
+              "value": 150,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "heavy whipping cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g dark chocolate (60-70% cacao)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "dark chocolate (60-70% cacao)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 g unsalted butter",
+            "quantity": {
+              "raw": "50 g",
+              "value": 50,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "unsalted butter",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "30 g hazelnuts",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "hazelnuts",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 Tbsp cacao powder",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "cacao powder",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Bring the heavy cream to a boil. Pour the cream over the chocolate chips. Wait 1-2 minutes until chocolate melts.",
+            "mediaId": "wordpress-attachment:7281"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add butter and whisk until smooth. Place it in the frizzer for about 2 hours, until firm enough to roll.",
+            "mediaId": "wordpress-attachment:7283"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Preheat oven to 350 degrees F. Spread the nuts in an even layer on the baking sheet, and roast it for 10-15 minutes. Stirring every 3 minutes. Check the nuts. You are looking for the color to be a few shades darker. When the nuts are browned and smell nutty, remove from the oven and transfer onto a plate. Cool it and clean from the flakes. I like my truffles extra tiny, so I cut each hazelnut in half. You don't have to cut them if you are making large truffles.",
+            "mediaId": "wordpress-attachment:7286"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Use a teaspoon or small cookie scoop to portion the ganache, hide one hazelnut inside each piece, roll the balls between hands, until smooth and place on a plate.",
+            "mediaId": "wordpress-attachment:7284"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Roll in cacao powder.",
+            "mediaId": "wordpress-attachment:7285"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Refrigerate for at least 1 hour.",
+            "mediaId": "wordpress-attachment:7296"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7297",
+      "sourceId": "7297",
+      "path": "/recipes/media/wordpress/7297.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7281",
+      "sourceId": "7281",
+      "path": "/recipes/media/wordpress/7281.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7283",
+      "sourceId": "7283",
+      "path": "/recipes/media/wordpress/7283.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7286",
+      "sourceId": "7286",
+      "path": "/recipes/media/wordpress/7286.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7284",
+      "sourceId": "7284",
+      "path": "/recipes/media/wordpress/7284.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7285",
+      "sourceId": "7285",
+      "path": "/recipes/media/wordpress/7285.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7296",
+      "sourceId": "7296",
+      "path": "/recipes/media/wordpress/7296.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

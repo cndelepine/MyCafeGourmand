@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21276",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:12472",
+  "slug": "sauteed-zucchini",
+  "source": {
+    "system": "wordpress",
+    "postId": "21276",
+    "recipeId": "21276",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-sauteed-zucchini",
+    "createdAt": "2021-06-26T04:17:00+00:00",
+    "modifiedAt": "2022-07-30T20:54:59+00:00",
+    "editorialPostId": "15374",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "sauteed-zucchini",
+    "editorialCreatedAt": "2021-06-26T04:17:00+00:00",
+    "editorialModifiedAt": "2022-07-30T20:54:57+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/sauteed-zucchini/"
+  ],
+  "title": "Sautéed Zucchini",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Finely sliced zucchini, sautéed in a pan with olive oil and garlic. In this recipe, they are seasoned with salt, pepper, and freshly pressed lemon juice. Add your favorite fresh herbs before serving.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21276,\"template\":\"chic-template-english\",\"updated\":1628261361772} -->\n<!--WPRM Recipe 21276-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Sautéed Zucchini</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7353-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4 zucchini</li><li>1-2 garlic cloves</li><li>2-3 Tbsp olive oil or vegetable oil</li><li>Some fresh parsley (dill or mint)</li><li>2 Tbsp freshly squeezed lemon juice ((optional))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut the zucchini into thin slices.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7280.Blog_-150x150.png\"/><br /></li><li>Peel and chop the garlic.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7344.Blog_-150x150.png\"/><br /></li><li>In a large pan, heat the oil. Add the zucchini and sauté them for 5 minutes. Add the garlic, and continue to sauté for about 3 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7347.Blog_-150x150.png\"/><br /></li><li>Remove the pan from the heat. Salt, pepper, and sprinkle with lemon juice. Powder with fresh herbs before serving.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/02/IMG_7353-2.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24131",
+      "sourceTaxonomyId": "24131",
+      "name": "garlic cloves",
+      "slug": "garlic-cloves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24154",
+      "sourceTaxonomyId": "24154",
+      "name": "zucchini",
+      "slug": "zucchini"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24158",
+      "sourceTaxonomyId": "24158",
+      "name": "olive oil or vegetable oil",
+      "slug": "olive-oil-or-vegetable-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24159",
+      "sourceTaxonomyId": "24159",
+      "name": "fresh parsley (dill or mint)",
+      "slug": "fresh-parsley-dill-or-mint"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24160",
+      "sourceTaxonomyId": "24160",
+      "name": "freshly squeezed lemon juice",
+      "slug": "freshly-squeezed-lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "517",
+      "sourceTaxonomyId": "517",
+      "name": "garlic cloves",
+      "slug": "garlic-cloves"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6295",
+      "sourceTaxonomyId": "6295",
+      "name": "zucchini",
+      "slug": "zucchini"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7320",
+      "sourceTaxonomyId": "7320",
+      "name": "freshly squeezed lemon juice",
+      "slug": "freshly-squeezed-lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8515",
+      "sourceTaxonomyId": "8515",
+      "name": "olive oil or vegetable oil",
+      "slug": "olive-oil-or-vegetable-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "12743",
+      "sourceTaxonomyId": "12743",
+      "name": "fresh parsley (dill or mint)",
+      "slug": "fresh-parsley-dill-or-mint"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3698",
+      "sourceTaxonomyId": "3698",
+      "name": "easy and cheap",
+      "slug": "easy-and-cheap"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4196",
+      "sourceTaxonomyId": "4196",
+      "name": "side dish",
+      "slug": "side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 servings",
+      "value": 4,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "8",
+        "minutes": 8
+      },
+      "rest": null,
+      "total": {
+        "raw": "13",
+        "minutes": 13
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:15252",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 zucchini",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "zucchini",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1-2 garlic cloves",
+            "quantity": {
+              "raw": "1-2",
+              "min": 1,
+              "max": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "garlic cloves",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2-3 Tbsp olive oil or vegetable oil",
+            "quantity": {
+              "raw": "2-3 Tbsp",
+              "min": 2,
+              "max": 3,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil or vegetable oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Some fresh parsley (dill or mint)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh parsley (dill or mint)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 Tbsp freshly squeezed lemon juice (optional)",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "freshly squeezed lemon juice",
+            "notes": "(optional)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut the zucchini into thin slices.",
+            "mediaId": "wordpress-attachment:15249"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel and chop the garlic.",
+            "mediaId": "wordpress-attachment:15250"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "In a large pan, heat the oil. Add the zucchini and sauté them for 5 minutes. Add the garlic, and continue to sauté for about 3 minutes.",
+            "mediaId": "wordpress-attachment:15251"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Remove the pan from the heat. Salt, pepper, and sprinkle with lemon juice. Powder with fresh herbs before serving.",
+            "mediaId": "wordpress-attachment:15252"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:15252",
+      "sourceId": "15252",
+      "path": "/recipes/media/wordpress/15252.png",
+      "alt": "Цукини на сковороде",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15249",
+      "sourceId": "15249",
+      "path": "/recipes/media/wordpress/15249.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15250",
+      "sourceId": "15250",
+      "path": "/recipes/media/wordpress/15250.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:15251",
+      "sourceId": "15251",
+      "path": "/recipes/media/wordpress/15251.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

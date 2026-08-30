@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22671",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:6968",
+  "slug": "французский-шоколадный-тарт",
+  "source": {
+    "system": "wordpress",
+    "postId": "22671",
+    "recipeId": "22671",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82",
+    "createdAt": "2025-02-28T01:40:00+00:00",
+    "modifiedAt": "2025-02-28T21:41:08+00:00",
+    "editorialPostId": "12401",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82",
+    "editorialCreatedAt": "2025-02-28T01:40:00+00:00",
+    "editorialModifiedAt": "2025-02-28T21:41:04+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82/"
+  ],
+  "title": "Французский шоколадный тарт",
+  "description": "Чем качественнее шоколад, тем вкуснее ганаш. Украсить готовый тарт можно орешками, малиной, шоколадом и т.д.\n\nМожно приготовить один большой тарт или маленькие тарталетки.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Вовсе необязательно быть знаменитым кондитером или долго возиться на кухне, чтобы приготовить вкусный десерт. Особенно, если использовать готовое тесто. Этот французский шоколадный тарт из песочного теста и нежного ганаша готовится проще простого. Самое трудное - это дождаться, когда шоколад немного застынет и можно будет, наконец, попробовать кусочек... или два. ;)</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Если у вас есть время и желание, попробуйте приготовить <a href=\"https://mycafegourmand.com/ru/%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be/\" target=\"_blank\" rel=\"noreferrer noopener\">Миндальное песочное тесто</a> - не пожалеете!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22671,\"template\":\"chic-template-russian\",\"updated\":1740778691119} -->\n<!--WPRM Recipe 22671-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Французский шоколадный тарт</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3710.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Чем качественнее шоколад, тем вкуснее ганаш. Украсить готовый тарт можно орешками, малиной, шоколадом и т.д. </p><p>Можно приготовить один большой тарт или маленькие тарталетки.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 лист готового песочного теста</li><li>360 мл жирных сливок (35%)</li><li>300 г черного шоколада (60-70% какао)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Форму для тарта смазать маслом или застелить ее дно пекарской бумагой. Тонко раскатать тесто, выложить его в форму, срезать ножом лишнее тесто и наколоть вилкой. Поставь в холодильник примерно на 30 минут. (На фото я использую кольцо для выпечки).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1894.Blog_-150x150.png\"/><br /></li><li>Разогреть духовку до 170°C. Основу из песочного теста выпекать примерно 20 минут, до аппетитного золотого цвета. Достать из духовки, охладить и переложить на блюдо.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1895.Blog_-150x150.png\"/><br /></li><li>В кастрюле довести сливки до кипения и вылить их на шоколад. Подождать 2 минуты, затем хорошо перемешать до однородности. Получился очень вкусный шоколадный  жидкий  крем - ганаш.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_9034.Blog_-150x150.png\"/><br /></li><li><p>Еще горячий ганаш вылить в песочную основу для тарта, наполняя ее до самого края. Оставить застывать.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3665.Blog_-150x150.png\"/><br /></li><li><p>Летом, когда жарко, можно поставить в холодильник. Если на кухне прохладно, то тарт лучше оставить застывать при комнатной температуре.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_3710.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26571",
+      "sourceTaxonomyId": "26571",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24926",
+      "sourceTaxonomyId": "24926",
+      "name": "черного шоколада (60-70% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-70-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24934",
+      "sourceTaxonomyId": "24934",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25078",
+      "sourceTaxonomyId": "25078",
+      "name": "готового песочного теста",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25457",
+      "sourceTaxonomyId": "25457",
+      "name": "мл",
+      "slug": "%d0%bc%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25512",
+      "sourceTaxonomyId": "25512",
+      "name": "лист",
+      "slug": "%d0%bb%d0%b8%d1%81%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "273",
+      "sourceTaxonomyId": "273",
+      "name": "черного шоколада (60-70% какао)",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0-60-70-%d0%ba%d0%b0%d0%ba%d0%b0%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3500",
+      "sourceTaxonomyId": "3500",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6969",
+      "sourceTaxonomyId": "6969",
+      "name": "готового песочного теста",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1256",
+      "sourceTaxonomyId": "1256",
+      "name": "черный шоколад",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1258",
+      "sourceTaxonomyId": "1258",
+      "name": "горький шоколад",
+      "slug": "%d0%b3%d0%be%d1%80%d1%8c%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2448",
+      "sourceTaxonomyId": "2448",
+      "name": "очень легко",
+      "slug": "%d0%be%d1%87%d0%b5%d0%bd%d1%8c-%d0%bb%d0%b5%d0%b3%d0%ba%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3486",
+      "sourceTaxonomyId": "3486",
+      "name": "жирные сливки",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d0%b5-%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4374",
+      "sourceTaxonomyId": "4374",
+      "name": "французский рецепт",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4657",
+      "sourceTaxonomyId": "4657",
+      "name": "сливки 35%",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6912",
+      "sourceTaxonomyId": "6912",
+      "name": "дети обожают",
+      "slug": "%d0%b4%d0%b5%d1%82%d0%b8-%d0%be%d0%b1%d0%be%d0%b6%d0%b0%d1%8e%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6971",
+      "sourceTaxonomyId": "6971",
+      "name": "шоколадный тарт",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6973",
+      "sourceTaxonomyId": "6973",
+      "name": "шоколадный ганаш",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d0%b3%d0%b0%d0%bd%d0%b0%d1%88"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6975",
+      "sourceTaxonomyId": "6975",
+      "name": "готовое тесто",
+      "slug": "%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6977",
+      "sourceTaxonomyId": "6977",
+      "name": "песочное тесто",
+      "slug": "%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6979",
+      "sourceTaxonomyId": "6979",
+      "name": "из готового магазинного теста",
+      "slug": "%d0%b8%d0%b7-%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%82%d0%b5%d1%81%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6981",
+      "sourceTaxonomyId": "6981",
+      "name": "испечь основу",
+      "slug": "%d0%b8%d1%81%d0%bf%d0%b5%d1%87%d1%8c-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6983",
+      "sourceTaxonomyId": "6983",
+      "name": "для настоящих любителей шоколада",
+      "slug": "%d0%b4%d0%bb%d1%8f-%d0%bd%d0%b0%d1%81%d1%82%d0%be%d1%8f%d1%89%d0%b8%d1%85-%d0%bb%d1%8e%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b5%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6985",
+      "sourceTaxonomyId": "6985",
+      "name": "французский пирог",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6987",
+      "sourceTaxonomyId": "6987",
+      "name": "tart s shokoladom",
+      "slug": "tart-s-shokoladom"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6989",
+      "sourceTaxonomyId": "6989",
+      "name": "francuzskij tart",
+      "slug": "francuzskij-tart"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "37",
+        "minutes": 37
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:29260",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 лист готового песочного теста",
+            "quantity": {
+              "raw": "1 лист",
+              "value": 1,
+              "unit": "лист",
+              "scalable": true
+            },
+            "name": "готового песочного теста",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "360 мл жирных сливок (35%)",
+            "quantity": {
+              "raw": "360 мл",
+              "value": 360,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "жирных сливок (35%)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "300 г черного шоколада (60-70% какао)",
+            "quantity": {
+              "raw": "300 г",
+              "value": 300,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "черного шоколада (60-70% какао)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Форму для тарта смазать маслом или застелить ее дно пекарской бумагой. Тонко раскатать тесто, выложить его в форму, срезать ножом лишнее тесто и наколоть вилкой. Поставь в холодильник примерно на 30 минут. (На фото я использую кольцо для выпечки).",
+            "mediaId": "wordpress-attachment:12388"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Разогреть духовку до 170°C. Основу из песочного теста выпекать примерно 20 минут, до аппетитного золотого цвета. Достать из духовки, охладить и переложить на блюдо.",
+            "mediaId": "wordpress-attachment:12395"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "В кастрюле довести сливки до кипения и вылить их на шоколад. Подождать 2 минуты, затем хорошо перемешать до однородности. Получился очень вкусный шоколадный жидкий крем - ганаш.",
+            "mediaId": "wordpress-attachment:12393"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Еще горячий ганаш вылить в песочную основу для тарта, наполняя ее до самого края. Оставить застывать.",
+            "mediaId": "wordpress-attachment:29263"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Летом, когда жарко, можно поставить в холодильник. Если на кухне прохладно, то тарт лучше оставить застывать при комнатной температуре.",
+            "mediaId": "wordpress-attachment:29260"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:29260",
+      "sourceId": "29260",
+      "path": "/recipes/media/wordpress/29260.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:12388",
+      "sourceId": "12388",
+      "path": "/recipes/media/wordpress/12388.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12395",
+      "sourceId": "12395",
+      "path": "/recipes/media/wordpress/12395.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12393",
+      "sourceId": "12393",
+      "path": "/recipes/media/wordpress/12393.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:29263",
+      "sourceId": "29263",
+      "path": "/recipes/media/wordpress/29263.png",
+      "alt": null,
+      "width": 800,
+      "height": 640
+    }
+  ],
+  "seo": null
+}

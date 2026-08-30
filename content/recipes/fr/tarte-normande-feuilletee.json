@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21737",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:917",
+  "slug": "tarte-normande-feuilletee",
+  "source": {
+    "system": "wordpress",
+    "postId": "21737",
+    "recipeId": "21737",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tarte-normande-feuilletee",
+    "createdAt": "2020-10-25T00:27:45+00:00",
+    "modifiedAt": "2022-07-30T20:39:20+00:00",
+    "editorialPostId": "2427",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tarte-normande-feuilletee",
+    "editorialCreatedAt": "2020-10-25T00:27:45+00:00",
+    "editorialModifiedAt": "2022-07-30T20:39:16+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/tarte-normande-feuilletee/"
+  ],
+  "title": "Tarte normande feuilletée",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Ma version de la tarte normande avec de la pâte feuilletée, du calvados et de la crème fraîche.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21737,\"template\":\"chic-template-french\",\"updated\":1606352389627} -->\n<!--WPRM Recipe 21737-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tarte normande feuilletée</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2017/11/20171028_224124.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 feuille de pâte feuilletée ((prête à dérouler))</li><li>4-5 pommes Granny Smith</li><li>Un peu de jus de citron</li><li>2 œufs</li><li>4 cuillères à soupe de sucre en poudre</li><li>2-3 cuillères à soupe de calvados</li><li>4 cuillères à soupe de crème fraîche épaisse</li><li>60 g de poudre d'amande</li><li>1 cuillère à soupe  d’amandes effilées</li><li>1 cuillère à café de sucre glace</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 180°C (thermostat 6). Dérouler la pâte et foncer un moule à tarte tapissé de papier sulfurisé. Piquer la pâte avec une fourchette.\r\n</li><li>Recouvrir la pâte de papier sulfurisé puis de haricots secs ou de lentilles pour qu’elle ne gonfle pas pendant la cuisson. Faire cuire à blanc pendant 12-15 minutes. (Je n'utilise pas le poids, si la pâte gonfle pendant la cuisson, je l'aplatis avec une cuillère.)</li><li>Éplucher et épépiner les pommes. Les découper en très fines lamelles et arroser de jus de citron.\r\n</li><li>Disposer joliment les pommes sur la pâte précuite.</li><li>Battre les œufs et le sucre. Ajouter le calvados, la crème fraîche et la poudre d'amandes.\r\n</li><li>Verser cette préparation sur les pommes.\r\n</li><li>Cuire au four pendant environ 15 minutes.\r\n</li><li>Saupoudrer la tarte avec les amandes éffilées.\r\n</li><li>Remettre au four et cuire encore environ 30 minutes jusqu’à l'apparition d'une belle croûte dorée. Laisser refroidir la tart puis saupoudrer de sucre glace\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2017/11/20171028_224124.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24317",
+      "sourceTaxonomyId": "24317",
+      "name": "de poudre d'amande",
+      "slug": "de-poudre-damande"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24466",
+      "sourceTaxonomyId": "24466",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24467",
+      "sourceTaxonomyId": "24467",
+      "name": "pommes Granny Smith",
+      "slug": "pommes-granny-smith"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24468",
+      "sourceTaxonomyId": "24468",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24470",
+      "sourceTaxonomyId": "24470",
+      "name": "de calvados",
+      "slug": "de-calvados"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24471",
+      "sourceTaxonomyId": "24471",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24472",
+      "sourceTaxonomyId": "24472",
+      "name": "d’amandes effilées",
+      "slug": "damandes-effilees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24473",
+      "sourceTaxonomyId": "24473",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17353",
+      "sourceTaxonomyId": "17353",
+      "name": "Pâte feuilletée",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "248",
+      "sourceTaxonomyId": "248",
+      "name": "de poudre d'amande",
+      "slug": "de-poudre-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "762",
+      "sourceTaxonomyId": "762",
+      "name": "de pâte feuilletée",
+      "slug": "de-pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "936",
+      "sourceTaxonomyId": "936",
+      "name": "pommes Granny Smith",
+      "slug": "pommes-granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "938",
+      "sourceTaxonomyId": "938",
+      "name": "de jus de citron",
+      "slug": "de-jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "940",
+      "sourceTaxonomyId": "940",
+      "name": "de calvados",
+      "slug": "de-calvados"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "942",
+      "sourceTaxonomyId": "942",
+      "name": "de crème fraîche épaisse",
+      "slug": "de-creme-fraiche-epaisse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "944",
+      "sourceTaxonomyId": "944",
+      "name": "d’amandes effilées",
+      "slug": "damandes-effilees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "946",
+      "sourceTaxonomyId": "946",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1392",
+      "sourceTaxonomyId": "1392",
+      "name": "tarte",
+      "slug": "tarte"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1394",
+      "sourceTaxonomyId": "1394",
+      "name": "normandie",
+      "slug": "normandie"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1396",
+      "sourceTaxonomyId": "1396",
+      "name": "pate feuilletee",
+      "slug": "pate-feuilletee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1398",
+      "sourceTaxonomyId": "1398",
+      "name": "pomme",
+      "slug": "pomme"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1400",
+      "sourceTaxonomyId": "1400",
+      "name": "creme fraiche",
+      "slug": "creme-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1402",
+      "sourceTaxonomyId": "1402",
+      "name": "granny smith",
+      "slug": "granny-smith-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1404",
+      "sourceTaxonomyId": "1404",
+      "name": "kalvados",
+      "slug": "kalvados-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1412",
+      "sourceTaxonomyId": "1412",
+      "name": "amande",
+      "slug": "amande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3664",
+      "sourceTaxonomyId": "3664",
+      "name": "creme d'amande",
+      "slug": "creme-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7187",
+      "sourceTaxonomyId": "7187",
+      "name": "amandes effilees",
+      "slug": "amandes-effilees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7189",
+      "sourceTaxonomyId": "7189",
+      "name": "fines tranches de pommes",
+      "slug": "fines-tranches-de-pommes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7696",
+      "sourceTaxonomyId": "7696",
+      "name": "pomme granny smith",
+      "slug": "pomme-granny-smith"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "21",
+        "minutes": 21
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:1050",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 feuille de pâte feuilletée (prête à dérouler)",
+            "quantity": {
+              "raw": "1 feuille",
+              "value": 1,
+              "unit": "feuille",
+              "scalable": true
+            },
+            "name": "de pâte feuilletée",
+            "notes": "(prête à dérouler)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4-5 pommes Granny Smith",
+            "quantity": {
+              "raw": "4-5",
+              "min": 4,
+              "max": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pommes Granny Smith",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Un peu de jus de citron",
+            "quantity": {
+              "raw": "Un peu",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "de jus de citron",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 œufs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4 cuillères à soupe de sucre en poudre",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "2-3 cuillères à soupe de calvados",
+            "quantity": {
+              "raw": "2-3 cuillères à soupe",
+              "min": 2,
+              "max": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de calvados",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "4 cuillères à soupe de crème fraîche épaisse",
+            "quantity": {
+              "raw": "4 cuillères à soupe",
+              "value": 4,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de crème fraîche épaisse",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "60 g de poudre d'amande",
+            "quantity": {
+              "raw": "60 g",
+              "value": 60,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de poudre d'amande",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 cuillère à soupe d’amandes effilées",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "d’amandes effilées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "1 cuillère à café de sucre glace",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre glace",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Dérouler la pâte et foncer un moule à tarte tapissé de papier sulfurisé. Piquer la pâte avec une fourchette.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Recouvrir la pâte de papier sulfurisé puis de haricots secs ou de lentilles pour qu’elle ne gonfle pas pendant la cuisson. Faire cuire à blanc pendant 12-15 minutes. (Je n'utilise pas le poids, si la pâte gonfle pendant la cuisson, je l'aplatis avec une cuillère.)",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Éplucher et épépiner les pommes. Les découper en très fines lamelles et arroser de jus de citron.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Disposer joliment les pommes sur la pâte précuite.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Battre les œufs et le sucre. Ajouter le calvados, la crème fraîche et la poudre d'amandes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Verser cette préparation sur les pommes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Cuire au four pendant environ 15 minutes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Saupoudrer la tarte avec les amandes éffilées.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Remettre au four et cuire encore environ 30 minutes jusqu’à l'apparition d'une belle croûte dorée. Laisser refroidir la tart puis saupoudrer de sucre glace",
+            "mediaId": "wordpress-attachment:1050"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:1050",
+      "sourceId": "1050",
+      "path": "/recipes/media/wordpress/1050.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

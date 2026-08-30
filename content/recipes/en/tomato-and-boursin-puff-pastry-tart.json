@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27156",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:26309",
+  "slug": "tomato-and-boursin-puff-pastry-tart",
+  "source": {
+    "system": "wordpress",
+    "postId": "27156",
+    "recipeId": "27156",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tomato-and-boursin-puff-pastry-tart",
+    "createdAt": "2025-12-21T00:48:10+00:00",
+    "modifiedAt": "2025-12-21T00:48:17+00:00",
+    "editorialPostId": "27152",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tomato-and-boursin-puff-pastry-tart",
+    "editorialCreatedAt": "2025-12-21T00:48:10+00:00",
+    "editorialModifiedAt": "2025-12-21T00:48:12+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/tomato-and-boursin-puff-pastry-tart/"
+  ],
+  "title": "Tomato and Boursin™ Puff Pastry Tart",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>A very easy tart to prepare made from ready-made puff pastry, tomatoes and Boursin™ cream cheese.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This French pie can be of any shape and any size, depending on what kind of dough you have on hand. I don't even make sides so there is less dough and more filling. But this is not for everyone: if you like golden puff pastry, fold 1 centimeter of the edges inward and brush them with egg.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27156,\"template\":\"chic-template-english\",\"updated\":1766278034646} -->\n<!--WPRM Recipe 27156-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tomato and Boursin™ Puff Pastry Tart</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0171.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet all butter puff pastry</li><li>1 egg</li><li>  4-5 tomatoes slices          </li><li>100  g Fresh cream cheese (ex. Boursin™)</li><li>Freshly ground black pepper</li><li>Few basil leaves</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Preheat the oven to 180°C (thermostat 6).</p></li><li><p>Spread the dough on a baking sheet lined with parchment paper. Prick it with a fork.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0157.Blog_-150x150.jpg\"/><br /></li><li><p>Brush the entire surface with the egg wash. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0161.Blog_-150x150.jpg\"/><br /></li><li><p>Place the tomato slices.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0163.Blog_-150x150.jpg\"/><br /></li><li><p>Press paper towel over the tomatoes to remove liquid excess.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0164.Blog_-150x150.jpg\"/><br /></li><li><p>Place a small piece of cheese on each tomato slice. Pepper.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0166.Blog_-150x150.jpg\"/><br /></li><li><p>Bake for about 25 minutes until the dough is cooked through.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/09/IMG_0171.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24061",
+      "sourceTaxonomyId": "24061",
+      "name": "egg",
+      "slug": "egg"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24105",
+      "sourceTaxonomyId": "24105",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26311",
+      "sourceTaxonomyId": "26311",
+      "name": "tomatoes slices",
+      "slug": "tomatoes-slices"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26313",
+      "sourceTaxonomyId": "26313",
+      "name": "basil leaves",
+      "slug": "basil-leaves"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26314",
+      "sourceTaxonomyId": "26314",
+      "name": "Fresh cream cheese (ex. Boursin™)",
+      "slug": "fresh-cream-cheese-ex-boursin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25465",
+      "sourceTaxonomyId": "25465",
+      "name": "sheet",
+      "slug": "sheet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2058",
+      "sourceTaxonomyId": "2058",
+      "name": "Delicious",
+      "slug": "delicious"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2066",
+      "sourceTaxonomyId": "2066",
+      "name": "cream cheese",
+      "slug": "cream-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "22994",
+      "sourceTaxonomyId": "22994",
+      "name": "boursin",
+      "slug": "boursin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23486",
+      "sourceTaxonomyId": "23486",
+      "name": "Mediterranean Tomato Tart",
+      "slug": "mediterranean-tomato-tart"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "0",
+      "unit": null,
+      "scalable": false
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27136",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 egg",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "egg",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4-5 tomatoes slices",
+            "quantity": {
+              "raw": "4-5",
+              "min": 4,
+              "max": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomatoes slices",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "100 g Fresh cream cheese (ex. Boursin™)",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "Fresh cream cheese (ex. Boursin™)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Freshly ground black pepper",
+            "quantity": null,
+            "name": "Freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Few basil leaves",
+            "quantity": {
+              "raw": "Few",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "basil leaves",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat the oven to 180°C (thermostat 6).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Spread the dough on a baking sheet lined with parchment paper. Prick it with a fork.",
+            "mediaId": "wordpress-attachment:27139"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Brush the entire surface with the egg wash.",
+            "mediaId": "wordpress-attachment:27140"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Place the tomato slices.",
+            "mediaId": "wordpress-attachment:27137"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Press paper towel over the tomatoes to remove liquid excess.",
+            "mediaId": "wordpress-attachment:27138"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Place a small piece of cheese on each tomato slice. Pepper.",
+            "mediaId": "wordpress-attachment:27134"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Bake for about 25 minutes until the dough is cooked through.",
+            "mediaId": "wordpress-attachment:27136"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27136",
+      "sourceId": "27136",
+      "path": "/recipes/media/wordpress/27136.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:27139",
+      "sourceId": "27139",
+      "path": "/recipes/media/wordpress/27139.jpg",
+      "alt": null,
+      "width": 704,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:27140",
+      "sourceId": "27140",
+      "path": "/recipes/media/wordpress/27140.jpg",
+      "alt": null,
+      "width": 704,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:27137",
+      "sourceId": "27137",
+      "path": "/recipes/media/wordpress/27137.jpg",
+      "alt": null,
+      "width": 675,
+      "height": 506
+    },
+    {
+      "id": "wordpress-attachment:27138",
+      "sourceId": "27138",
+      "path": "/recipes/media/wordpress/27138.jpg",
+      "alt": null,
+      "width": 703,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:27134",
+      "sourceId": "27134",
+      "path": "/recipes/media/wordpress/27134.jpg",
+      "alt": null,
+      "width": 678,
+      "height": 508
+    }
+  ],
+  "seo": null
+}

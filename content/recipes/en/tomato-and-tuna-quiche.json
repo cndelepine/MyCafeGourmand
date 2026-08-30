@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21416",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:1736",
+  "slug": "tomato-and-tuna-quiche",
+  "source": {
+    "system": "wordpress",
+    "postId": "21416",
+    "recipeId": "21416",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-tuna-quiche",
+    "createdAt": "2021-01-17T07:27:00+00:00",
+    "modifiedAt": "2021-12-04T02:43:07+00:00",
+    "editorialPostId": "3752",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "tomato-and-tuna-quiche",
+    "editorialCreatedAt": "2021-01-17T07:27:00+00:00",
+    "editorialModifiedAt": "2021-12-04T02:43:03+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/tomato-and-tuna-quiche/",
+    "/tomato-tuna-quiche/"
+  ],
+  "title": "Tuna Quiche",
+  "description": "I usually serve it with green salad. Aragula works the best.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This French open-faced pie with canned tuna, egg &amp; cream filling seems completely simple, but it is so delicious. Don't forget to add mustard to this Tuna Quiche, it will give a charm to it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21416,\"template\":\"chic-template-english\",\"updated\":1612727189250} -->\n<!--WPRM Recipe 21416-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Tuna Quiche</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7784.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tI usually serve it with green salad. Aragula works the best.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 sheet all butter puff pastry</li><li>200 g tuna in water ((drained))</li><li>1-2 Tbsp mayonnaise</li><li>2 tsp mustard</li><li>2 eggs</li><li>100 ml sour cream</li><li>salt and pepper (to taste)</li><li>1 tomato</li><li>30 g cheddar cheese (shredded )</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 375 degrees F. Lay the puff pastry out on a baking sheet. Prick all over with a fork.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7748.Blog_-150x150.png\"/><br /></li><li>Pop in the oven for 10-12 minutes or until the crust starts to turn light gold. Remove the pastry from the oven, pressing the center down with a fork, if it puffed up a bit.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7752.Blog_-150x150.png\"/><br /></li><li>Meanwhile mix tuna and mayonnaise with fork. Season with salt and pepper.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7746.Blog_-150x150.png\"/><br /></li><li>Spread the mustard across centre. (I use mustard \"a l'ancienne). <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7753.Blog_-150x150.png\"/><br /></li><li>Spoon the tuna mix on top.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7754.Blog_-150x150.png\"/><br /></li><li>Combine eggs with sour cream and mix together. Season with salt and pepper.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7750.Blog_-150x150.png\"/><br /></li><li>Pour over tuna.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7756.Blog_-150x150.png\"/><br /></li><li>Slice tomato and arrange them on top of your quiche. Sprinkle with cheese.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7764.Blog_-150x150.png\"/><br /></li><li>Bake for 30 minutes or until quiche is golden brown.\r\n\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7766.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Main Dish</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24119",
+      "sourceTaxonomyId": "24119",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24067",
+      "sourceTaxonomyId": "24067",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24134",
+      "sourceTaxonomyId": "24134",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24138",
+      "sourceTaxonomyId": "24138",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24276",
+      "sourceTaxonomyId": "24276",
+      "name": "cheddar cheese",
+      "slug": "cheddar-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24279",
+      "sourceTaxonomyId": "24279",
+      "name": "tuna in water",
+      "slug": "tuna-in-water"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24280",
+      "sourceTaxonomyId": "24280",
+      "name": "mustard",
+      "slug": "mustard"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24281",
+      "sourceTaxonomyId": "24281",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "102",
+      "sourceTaxonomyId": "102",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "17355",
+      "sourceTaxonomyId": "17355",
+      "name": "Puff Pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "209",
+      "sourceTaxonomyId": "209",
+      "name": "Main Dish",
+      "slug": "main-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "288",
+      "sourceTaxonomyId": "288",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "570",
+      "sourceTaxonomyId": "570",
+      "name": "tuna in water",
+      "slug": "tuna-in-water"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "779",
+      "sourceTaxonomyId": "779",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "967",
+      "sourceTaxonomyId": "967",
+      "name": "all butter puff pastry",
+      "slug": "all-butter-puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1012",
+      "sourceTaxonomyId": "1012",
+      "name": "mustard",
+      "slug": "mustard"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1791",
+      "sourceTaxonomyId": "1791",
+      "name": "cheddar cheese",
+      "slug": "cheddar-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1951",
+      "sourceTaxonomyId": "1951",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1352",
+      "sourceTaxonomyId": "1352",
+      "name": "fish",
+      "slug": "fish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1384",
+      "sourceTaxonomyId": "1384",
+      "name": "sour cream",
+      "slug": "sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1386",
+      "sourceTaxonomyId": "1386",
+      "name": "puff pastry",
+      "slug": "puff-pastry"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1508",
+      "sourceTaxonomyId": "1508",
+      "name": "tuna",
+      "slug": "tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1604",
+      "sourceTaxonomyId": "1604",
+      "name": "tomato",
+      "slug": "tomato"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1953",
+      "sourceTaxonomyId": "1953",
+      "name": "canned tuna",
+      "slug": "canned-tuna"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1955",
+      "sourceTaxonomyId": "1955",
+      "name": "mustard",
+      "slug": "mustard"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1957",
+      "sourceTaxonomyId": "1957",
+      "name": "quiche",
+      "slug": "quiche-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4413",
+      "sourceTaxonomyId": "4413",
+      "name": "simple and elegant",
+      "slug": "simple-and-elegant"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6910",
+      "sourceTaxonomyId": "6910",
+      "name": "french cuisine",
+      "slug": "french-cuisine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7748",
+      "sourceTaxonomyId": "7748",
+      "name": "elegant",
+      "slug": "elegant-en"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:3367",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 sheet all butter puff pastry",
+            "quantity": {
+              "raw": "1 sheet",
+              "value": 1,
+              "unit": "sheet",
+              "scalable": true
+            },
+            "name": "all butter puff pastry",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g tuna in water (drained)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "tuna in water",
+            "notes": "(drained)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1-2 Tbsp mayonnaise",
+            "quantity": {
+              "raw": "1-2 Tbsp",
+              "min": 1,
+              "max": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 tsp mustard",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "mustard",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 eggs",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "100 ml sour cream",
+            "quantity": {
+              "raw": "100 ml",
+              "value": 100,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "sour cream",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 tomato",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "tomato",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "30 g cheddar cheese shredded",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "cheddar cheese",
+            "notes": "shredded"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 375 degrees F. Lay the puff pastry out on a baking sheet. Prick all over with a fork.",
+            "mediaId": "wordpress-attachment:3358"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Pop in the oven for 10-12 minutes or until the crust starts to turn light gold. Remove the pastry from the oven, pressing the center down with a fork, if it puffed up a bit.",
+            "mediaId": "wordpress-attachment:3360"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Meanwhile mix tuna and mayonnaise with fork. Season with salt and pepper.",
+            "mediaId": "wordpress-attachment:3357"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Spread the mustard across centre. (I use mustard \"a l'ancienne).",
+            "mediaId": "wordpress-attachment:3361"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Spoon the tuna mix on top.",
+            "mediaId": "wordpress-attachment:3362"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Combine eggs with sour cream and mix together. Season with salt and pepper.",
+            "mediaId": "wordpress-attachment:3359"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Pour over tuna.",
+            "mediaId": "wordpress-attachment:3363"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Slice tomato and arrange them on top of your quiche. Sprinkle with cheese.",
+            "mediaId": "wordpress-attachment:3364"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Bake for 30 minutes or until quiche is golden brown.",
+            "mediaId": "wordpress-attachment:3365"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:3367",
+      "sourceId": "3367",
+      "path": "/recipes/media/wordpress/3367.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3358",
+      "sourceId": "3358",
+      "path": "/recipes/media/wordpress/3358.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3360",
+      "sourceId": "3360",
+      "path": "/recipes/media/wordpress/3360.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3357",
+      "sourceId": "3357",
+      "path": "/recipes/media/wordpress/3357.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3361",
+      "sourceId": "3361",
+      "path": "/recipes/media/wordpress/3361.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3362",
+      "sourceId": "3362",
+      "path": "/recipes/media/wordpress/3362.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3359",
+      "sourceId": "3359",
+      "path": "/recipes/media/wordpress/3359.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3363",
+      "sourceId": "3363",
+      "path": "/recipes/media/wordpress/3363.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3364",
+      "sourceId": "3364",
+      "path": "/recipes/media/wordpress/3364.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:3365",
+      "sourceId": "3365",
+      "path": "/recipes/media/wordpress/3365.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

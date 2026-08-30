@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:498",
+  "locale": "fr",
+  "canonicalPath": "/fr/decorations-de-table/",
+  "translationGroupId": "wordpress:post-translations:121",
+  "source": {
+    "system": "wordpress",
+    "postId": 498,
+    "sourcePath": "/fr/decorations-de-table/",
+    "sourceSlug": "decorations-de-table",
+    "createdAt": "2017-12-28T04:36:08Z",
+    "modifiedAt": "2018-01-22T01:36:22Z"
+  },
+  "title": "Décorations de table",
+  "excerpt": null,
+  "publishedAt": "2017-12-28T04:36:08Z",
+  "modifiedAt": "2018-01-22T01:36:22Z",
+  "content": [
+    {
+      "type": "editorialPageCardGrid",
+      "pageIds": [
+        "wordpress:page:559",
+        "wordpress:page:561",
+        "wordpress:page:563",
+        "wordpress:page:565"
+      ]
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:497",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:497",
+      "path": "/editorial/media/wordpress/497.png",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 497
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

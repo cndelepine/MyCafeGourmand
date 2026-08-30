@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21466",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7663",
+  "slug": "easy-apple-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21466",
+    "recipeId": "21466",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-easy-apple-cake",
+    "createdAt": "2021-08-24T02:01:00+00:00",
+    "modifiedAt": "2021-08-25T16:41:40+00:00",
+    "editorialPostId": "12919",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "easy-apple-cake",
+    "editorialCreatedAt": "2021-08-24T02:01:00+00:00",
+    "editorialModifiedAt": "2021-08-25T16:41:38+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/easy-apple-cake/"
+  ],
+  "title": "Easy Apple Cake",
+  "description": "Take sour apples for this recipe.",
+  "editorial": {
+    "content": "<span class=\"st\">Delicate and full of apples easy to make cake. Recipe is very similar to famous <a href=\"https://mycafegourmand.com/recipe/russian-apple-cake-sharlotka\">Russian Apple Sharlotka</a> but with a little of olive oil and baking powder.&nbsp; Must try!<em>\n</em></span>\n\n&nbsp; <!--WPRM Recipe 21466-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Easy Apple Cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8407-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tTake sour apples for this recipe. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>4  eggs</li><li>200 g sugar</li><li>150 g sifted flour</li><li>2 tsp baking powder</li><li>2 Tbsp olive oil</li><li>3 big apples Granny Smith</li><li>1 tsp confectioner's sugar ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 380 degrees F. Grease and flour a round cake pan or line the bottom of the pan with parchment paper.</li><li>Using an electric mixer, beat eggs and sugar. Add flour and baking powder. Mix well, then add oil and mix last time.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8381.Blog_-150x150.png\"/><br /></li><li>Peel and dice apples into small pieces. Lay out the apples on the bottom of the pan.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8379.Blog_-150x150.png\"/><br /></li><li>Pour the batter over the apples.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8382.Blog_-150x150.png\"/><br /></li><li>Bake for about 45 minutes or until а knife inserted in the middle comes out clean. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8389.Blog_-150x150.png\"/><br /></li><li>Let the cake cool then transfer to plate.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8395.Blog_-150x150.png\"/><br /></li><li>Sprinkle with confectioner's sugar.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/10/IMG_8396.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24063",
+      "sourceTaxonomyId": "24063",
+      "name": "sifted flour",
+      "slug": "sifted-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24065",
+      "sourceTaxonomyId": "24065",
+      "name": "confectioners sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24115",
+      "sourceTaxonomyId": "24115",
+      "name": "apples Granny Smith",
+      "slug": "apples-granny-smith"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "879",
+      "sourceTaxonomyId": "879",
+      "name": "sifted flour",
+      "slug": "sifted-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "979",
+      "sourceTaxonomyId": "979",
+      "name": "apples Granny Smith",
+      "slug": "apples-granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3000",
+      "sourceTaxonomyId": "3000",
+      "name": "confectioner's sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1388",
+      "sourceTaxonomyId": "1388",
+      "name": "granny smith",
+      "slug": "granny-smith"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7764",
+      "sourceTaxonomyId": "7764",
+      "name": "quick apple cake",
+      "slug": "quick-apple-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7766",
+      "sourceTaxonomyId": "7766",
+      "name": "best ever",
+      "slug": "best-ever"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7770",
+      "sourceTaxonomyId": "7770",
+      "name": "green apple",
+      "slug": "green-apple"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7772",
+      "sourceTaxonomyId": "7772",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7776",
+      "sourceTaxonomyId": "7776",
+      "name": "apple sharlotka like",
+      "slug": "apple-sharlotka-like"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7782",
+      "sourceTaxonomyId": "7782",
+      "name": "easy apple cake",
+      "slug": "easy-apple-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7784",
+      "sourceTaxonomyId": "7784",
+      "name": "europeen kitchen",
+      "slug": "europeen-kitchen"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12868",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 eggs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g sugar",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "150 g sifted flour",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "sifted flour",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 tsp baking powder",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 Tbsp olive oil",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "3 big apples Granny Smith",
+            "quantity": {
+              "raw": "3 big",
+              "value": 3,
+              "unit": "big",
+              "scalable": true
+            },
+            "name": "apples Granny Smith",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 tsp confectioner's sugar (facultatif)",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "confectioner's sugar",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 380 degrees F. Grease and flour a round cake pan or line the bottom of the pan with parchment paper.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Using an electric mixer, beat eggs and sugar. Add flour and baking powder. Mix well, then add oil and mix last time.",
+            "mediaId": "wordpress-attachment:12863"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel and dice apples into small pieces. Lay out the apples on the bottom of the pan.",
+            "mediaId": "wordpress-attachment:12862"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Pour the batter over the apples.",
+            "mediaId": "wordpress-attachment:12864"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Bake for about 45 minutes or until а knife inserted in the middle comes out clean.",
+            "mediaId": "wordpress-attachment:12865"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Let the cake cool then transfer to plate.",
+            "mediaId": "wordpress-attachment:12866"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Sprinkle with confectioner's sugar.",
+            "mediaId": "wordpress-attachment:12867"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12868",
+      "sourceId": "12868",
+      "path": "/recipes/media/wordpress/12868.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12863",
+      "sourceId": "12863",
+      "path": "/recipes/media/wordpress/12863.png",
+      "alt": null,
+      "width": 704,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12862",
+      "sourceId": "12862",
+      "path": "/recipes/media/wordpress/12862.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12864",
+      "sourceId": "12864",
+      "path": "/recipes/media/wordpress/12864.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12865",
+      "sourceId": "12865",
+      "path": "/recipes/media/wordpress/12865.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12866",
+      "sourceId": "12866",
+      "path": "/recipes/media/wordpress/12866.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12867",
+      "sourceId": "12867",
+      "path": "/recipes/media/wordpress/12867.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21857",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:952",
+  "slug": "gateau-renverse-a-lananas",
+  "source": {
+    "system": "wordpress",
+    "postId": "21857",
+    "recipeId": "21857",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-gateau-renverse-a-lananas",
+    "createdAt": "2018-01-22T05:32:26+00:00",
+    "modifiedAt": "2022-06-26T23:54:03+00:00",
+    "editorialPostId": "2452",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "gateau-renverse-a-lananas",
+    "editorialCreatedAt": "2018-01-22T05:32:26+00:00",
+    "editorialModifiedAt": "2022-06-26T23:54:00+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/gateau-renverse-a-lananas/"
+  ],
+  "title": "Gâteau renversé à l'ananas",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Le gâteau renversé à l'ananas est un joli gâteau, délicieux et facile à préparer. Une fois le dessert démoulé et refroidi, on peut mettre des framboises fraîches dans chaque trou de rondelles d'ananas pour le décorer.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21857,\"template\":\"chic-template-french\",\"updated\":1607919958581} -->\n<!--WPRM Recipe 21857-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Gâteau renversé à l'ananas</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20171214_112224.Blog_.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>7 rondelles d'ananas en conserve (égouttées)</li><li>4 œufs</li><li>1/2 cuillère à café d'arôme de vanille</li><li>100 g de sucre en poudre</li><li>130 g de farine (tamisée)</li><li>80 g de noix (concassées)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 180°C (thermostat 6). Graisser et fariner un moule. Répartir les rondelles d'ananas au fond du moule.</li><li>A l'aide d'un mixeur, battre les œufs avec le sucre et l'arôme de vanille. La préparation doit doubler de volume.  </li><li>Petit à petit, incorporer la farine en mélangeant avec une spatule.</li><li>Ajouter les noix.</li><li>Verser la pâte dans le moule.</li><li>Faire cuire au four pendant environ 30 minutes. Vérifier la cuisson avec une pique en bois, elle doit ressortir propre du centre du gâteau.</li><li>Sortir le gâteau du four, laisser reposer pendant 10 minutes puis retourner le moule sur un plat de service. Attendre 30 seconds avant de démouler.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24502",
+      "sourceTaxonomyId": "24502",
+      "name": "de noix",
+      "slug": "de-noix"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24575",
+      "sourceTaxonomyId": "24575",
+      "name": "d'ananas en conserve",
+      "slug": "dananas-en-conserve"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24576",
+      "sourceTaxonomyId": "24576",
+      "name": "d'arôme de vanille",
+      "slug": "darome-de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "605",
+      "sourceTaxonomyId": "605",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "840",
+      "sourceTaxonomyId": "840",
+      "name": "de noix",
+      "slug": "de-noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "948",
+      "sourceTaxonomyId": "948",
+      "name": "d'ananas en conserve",
+      "slug": "dananas-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "950",
+      "sourceTaxonomyId": "950",
+      "name": "d'arôme de vanille",
+      "slug": "darome-de-vanille"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1432",
+      "sourceTaxonomyId": "1432",
+      "name": "gаteau renverse",
+      "slug": "g%d0%b0teau-renverse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1434",
+      "sourceTaxonomyId": "1434",
+      "name": "ananas en conserve",
+      "slug": "ananas-en-conserve"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7183",
+      "sourceTaxonomyId": "7183",
+      "name": "ananas au syrop leger",
+      "slug": "ananas-au-syrop-leger"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7185",
+      "sourceTaxonomyId": "7185",
+      "name": "dessert facile",
+      "slug": "dessert-facile"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:881",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "7 rondelles d'ananas en conserve égouttées",
+            "quantity": {
+              "raw": "7 rondelles",
+              "value": 7,
+              "unit": "rondelles",
+              "scalable": true
+            },
+            "name": "d'ananas en conserve",
+            "notes": "égouttées"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 œufs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 cuillère à café d'arôme de vanille",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "d'arôme de vanille",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "100 g de sucre en poudre",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "130 g de farine tamisée",
+            "quantity": {
+              "raw": "130 g",
+              "value": 130,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": "tamisée"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "80 g de noix concassées",
+            "quantity": {
+              "raw": "80 g",
+              "value": 80,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noix",
+            "notes": "concassées"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Graisser et fariner un moule. Répartir les rondelles d'ananas au fond du moule.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "A l'aide d'un mixeur, battre les œufs avec le sucre et l'arôme de vanille. La préparation doit doubler de volume.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Petit à petit, incorporer la farine en mélangeant avec une spatule.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Ajouter les noix.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Verser la pâte dans le moule.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Faire cuire au four pendant environ 30 minutes. Vérifier la cuisson avec une pique en bois, elle doit ressortir propre du centre du gâteau.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Sortir le gâteau du four, laisser reposer pendant 10 minutes puis retourner le moule sur un plat de service. Attendre 30 seconds avant de démouler.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:881",
+      "sourceId": "881",
+      "path": "/recipes/media/wordpress/881.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

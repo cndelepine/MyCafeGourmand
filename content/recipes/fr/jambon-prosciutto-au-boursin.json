@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:27440",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:26409",
+  "slug": "jambon-prosciutto-au-boursin",
+  "source": {
+    "system": "wordpress",
+    "postId": "27440",
+    "recipeId": "27440",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-jambon-prosciutto-au-boursin",
+    "createdAt": "2023-10-16T01:31:41+00:00",
+    "modifiedAt": "2024-04-16T06:56:58+00:00",
+    "editorialPostId": "27435",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "jambon-prosciutto-au-boursin",
+    "editorialCreatedAt": "2023-10-16T01:31:41+00:00",
+    "editorialModifiedAt": "2024-04-16T06:56:55+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/jambon-prosciutto-au-boursin/"
+  ],
+  "title": "Jambon Prosciutto au Boursin™",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Une recette rapide et simple pour accompagner votre apéritif. Vos invités vont adorer ce jambon italien Prosciutto et fromage Boursin™ très facile à étaler. Ajouter plus ou moins de fromage, selon votre goût. Ou encore, couper les roulés en deux si vous voulez des petites portions.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":27440,\"template\":\"chic-template-french\",\"updated\":1713250426788} -->\n<!--WPRM Recipe 27440-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Jambon Prosciutto au Boursin™</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_1531.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>12 tranches Jambon Prosciutto</li><li>150 g Boursin™ (ou un autre fromage frais aux herbes)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>Etaler le Boursin™ sur à peu près la moitié de chaque tranche  de jambon.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_1521.Blog_-1-150x150.png\"/><br /></li><li><p>Enrouler la tranche.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_1528.Blog_-1-150x150.png\"/><br /></li><li><p>Présenter sur un joli plat et servir aussitôt.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2023/10/IMG_1537.Blog_-1-150x150.jpg\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24658",
+      "sourceTaxonomyId": "24658",
+      "name": "Boursin™ (ou un autre fromage frais aux herbes)",
+      "slug": "boursin-ou-un-autre-fromage-frais-aux-herbes"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "26403",
+      "sourceTaxonomyId": "26403",
+      "name": "Jambon Prosciutto",
+      "slug": "jambon-prosciutto"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25486",
+      "sourceTaxonomyId": "25486",
+      "name": "tranches",
+      "slug": "tranches"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1622",
+      "sourceTaxonomyId": "1622",
+      "name": "recette facile",
+      "slug": "recette-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3445",
+      "sourceTaxonomyId": "3445",
+      "name": "roules",
+      "slug": "roules"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7840",
+      "sourceTaxonomyId": "7840",
+      "name": "prosciutto",
+      "slug": "prosciutto"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26367",
+      "sourceTaxonomyId": "26367",
+      "name": "fromage a tartiner",
+      "slug": "fromage-a-tartiner"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:27449",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "12 tranches Jambon Prosciutto",
+            "quantity": {
+              "raw": "12 tranches",
+              "value": 12,
+              "unit": "tranches",
+              "scalable": true
+            },
+            "name": "Jambon Prosciutto",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "150 g Boursin™ (ou un autre fromage frais aux herbes)",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "Boursin™ (ou un autre fromage frais aux herbes)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Etaler le Boursin™ sur à peu près la moitié de chaque tranche de jambon.",
+            "mediaId": "wordpress-attachment:27451"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Enrouler la tranche.",
+            "mediaId": "wordpress-attachment:27452"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Présenter sur un joli plat et servir aussitôt.",
+            "mediaId": "wordpress-attachment:27454"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:27449",
+      "sourceId": "27449",
+      "path": "/recipes/media/wordpress/27449.png",
+      "alt": "Jambon Prosciutto au Boursin™",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27451",
+      "sourceId": "27451",
+      "path": "/recipes/media/wordpress/27451.png",
+      "alt": "Jambon Prosciutto au Boursin™",
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "wordpress-attachment:27452",
+      "sourceId": "27452",
+      "path": "/recipes/media/wordpress/27452.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:27454",
+      "sourceId": "27454",
+      "path": "/recipes/media/wordpress/27454.jpg",
+      "alt": null,
+      "width": 791,
+      "height": 632
+    }
+  ],
+  "seo": null
+}

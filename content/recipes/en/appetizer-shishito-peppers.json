@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:25765",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:25650",
+  "slug": "appetizer-shishito-peppers",
+  "source": {
+    "system": "wordpress",
+    "postId": "25765",
+    "recipeId": "25765",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-appetizer-shishito-peppers",
+    "createdAt": "2022-08-09T07:07:27+00:00",
+    "modifiedAt": "2022-11-14T02:56:25+00:00",
+    "editorialPostId": "25754",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "appetizer-shishito-peppers",
+    "editorialCreatedAt": "2022-08-09T07:07:27+00:00",
+    "editorialModifiedAt": "2022-11-14T02:56:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/appetizer-shishito-peppers/"
+  ],
+  "title": "Appetizer Shishito peppers",
+  "description": "Minimal preparation for an excellent appetizer (or side dish).\n\nYou can serve them with soy sauce for dipping.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>You can find shishito peppers in your favorite grocery store. Prepare this super quick recipe in no time and your guests will love this delicious <a href=\"https://mycafegourmand.com/recipes/appetizers/\" target=\"_blank\" rel=\"noreferrer noopener\">appetizer</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Did you know that 1 in 10 shishito peppers are really spicy?</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":25765,\"template\":\"chic-template-english\",\"updated\":1659306522216} -->\n<!--WPRM Recipe 25765-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Appetizer Shishito peppers</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2022/08/20210418_192112.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Minimal preparation for an excellent appetizer (or side dish).</p><p>You can serve them with soy sauce for dipping.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>6 oz Shishito peppers</li><li>a bit of olive oil</li><li>Salt and freshly ground black pepper</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li><p>In a saute pan heat olive oil over medium-high heat.</p></li><li><p>Add the shishito peppers and stir for 1-2 minutes, heating them up until they blister. Add salt and black pepper.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/08/IMG_0174.Blog_-150x150.png\"/><br /></li><li><p>Place the peppers on a paper towel to remove excess oil and serve.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2022/08/IMG_0176-150x150.jpg\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25579",
+      "sourceTaxonomyId": "25579",
+      "name": "Shishito peppers",
+      "slug": "shishito-peppers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25581",
+      "sourceTaxonomyId": "25581",
+      "name": "of olive oil",
+      "slug": "of-olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25578",
+      "sourceTaxonomyId": "25578",
+      "name": "oz",
+      "slug": "oz"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25580",
+      "sourceTaxonomyId": "25580",
+      "name": "bit",
+      "slug": "bit"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3772",
+      "sourceTaxonomyId": "3772",
+      "name": "frying pan",
+      "slug": "frying-pan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4196",
+      "sourceTaxonomyId": "4196",
+      "name": "side dish",
+      "slug": "side-dish"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4206",
+      "sourceTaxonomyId": "4206",
+      "name": "mini peppers",
+      "slug": "mini-peppers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25622",
+      "sourceTaxonomyId": "25622",
+      "name": "how to prepare",
+      "slug": "how-to-prepare"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25624",
+      "sourceTaxonomyId": "25624",
+      "name": "how to cook",
+      "slug": "how-to-cook"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 people",
+      "value": 4,
+      "unit": "people",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "2",
+        "minutes": 2
+      },
+      "cook": {
+        "raw": "2",
+        "minutes": 2
+      },
+      "rest": null,
+      "total": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:25841",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "6 oz Shishito peppers",
+            "quantity": {
+              "raw": "6 oz",
+              "value": 6,
+              "unit": "oz",
+              "scalable": true
+            },
+            "name": "Shishito peppers",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "a bit of olive oil",
+            "quantity": {
+              "raw": "a bit",
+              "unit": "bit",
+              "scalable": false
+            },
+            "name": "of olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "In a saute pan heat olive oil over medium-high heat.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Add the shishito peppers and stir for 1-2 minutes, heating them up until they blister. Add salt and black pepper.",
+            "mediaId": "wordpress-attachment:25842"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Place the peppers on a paper towel to remove excess oil and serve.",
+            "mediaId": "wordpress-attachment:25840"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:25841",
+      "sourceId": "25841",
+      "path": "/recipes/media/wordpress/25841.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:25842",
+      "sourceId": "25842",
+      "path": "/recipes/media/wordpress/25842.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:25840",
+      "sourceId": "25840",
+      "path": "/recipes/media/wordpress/25840.jpg",
+      "alt": null,
+      "width": 2560,
+      "height": 1920
+    }
+  ],
+  "seo": null
+}

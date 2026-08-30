@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22660",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:17218",
+  "slug": "персик-мельба",
+  "source": {
+    "system": "wordpress",
+    "postId": "22660",
+    "recipeId": "22660",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bf%d0%b5%d1%80%d1%81%d0%b8%d0%ba-%d0%bc%d0%b5%d0%bb%d1%8c%d0%b1%d0%b0",
+    "createdAt": "2025-08-15T10:05:59+00:00",
+    "modifiedAt": "2025-08-15T22:06:10+00:00",
+    "editorialPostId": "17861",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bf%d0%b5%d1%80%d1%81%d0%b8%d0%ba-%d0%bc%d0%b5%d0%bb%d1%8c%d0%b1%d0%b0",
+    "editorialCreatedAt": "2025-08-15T10:05:59+00:00",
+    "editorialModifiedAt": "2025-08-15T22:06:07+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d0%bf%d0%b5%d1%80%d1%81%d0%b8%d0%ba-%d0%bc%d0%b5%d0%bb%d1%8c%d0%b1%d0%b0/"
+  ],
+  "title": "Персик Мельба",
+  "description": "Для этого десерта нужно выбирать вкусные, в меру спелые персики. Если таких нет или вам просто некогда возиться на кухне, можно использовать консервированные персики. А вот сливки лучше взбить дома, они намного свежее, нежнее и менее сладкие, чем уже готовые из баллончика.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Классический рецепт Персик Мельба - это десерт из ванильного мороженого, персиков, сваренных в сиропе и малинового соуса. Мой вариант: персики, запеченные в духовке, соус из любых свежих или мороженых ягод красного цвета. Немного взбитых сливок и совсем чуть-чуть тертого шоколада и измельченных миндальных орешков.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22660,\"template\":\"chic-template-russian\",\"updated\":1755295546049} -->\n<!--WPRM Recipe 22660-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Персик Мельба</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/09/IMG_2437.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tДля этого десерта нужно выбирать вкусные, в меру спелые персики. Если таких нет или вам просто некогда возиться на кухне, можно использовать консервированные персики. А вот сливки лучше взбить дома, они намного свежее, нежнее и менее сладкие, чем уже готовые из баллончика.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 больших персика</li><li>1 ст.л. коричневого сахара (или просто сахара)</li><li>250 г ягод (малина, черника, ежевика, черная смородина, клубникаи т.п.) (свежих или замороженных)</li><li>200 мл жирных сливок (35%) (очень холодных)</li><li>2 ч.л. сахара</li><li>500 г ванильного мороженого</li><li>Немного тертого шоколада</li><li>Немного измельченных миндальных орешков</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Разогреть духовку до 180С (390F). Противень застелить пергаментной бумагой.</li><li>Разрезать персики пополам и вынуть косточки. Разместить половинки персиков на противень и посыпать их сахаром.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2212.Blog_-150x150.png\"/><br /></li><li>Поставить запекаться в духовку примерно на 35 минут. Персики должны стать мягкими, но еще держать свою форму. Готовые персики вынуть из духовки, охладить и аккуратно очистить от кожицы. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2217.Blog_-150x150.png\"/><br /></li><li>Свежие ягоды помыть, обсушить и перетереть блендером. Чтобы избавиться от маленьких косточек, пропустить через сито.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2130.Blog_-150x150.png\"/><br /></li><li>В холодные сливки добавить сахар и взбить в нежную пену.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_2430.Blog_-150x150.png\"/><br /></li><li>В индивидуальные формочки или стаканчики положить 1 половинку персика и 1 шарик мороженого.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2424.Blog_-150x150.png\"/><br /></li><li>Полить ягодным соусом.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2427.Blog_-150x150.png\"/><br /></li><li>Добавить немного взбитых сливок и посыпать тертым шоколадом. Подавать на стол без промедления! ;)<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/08/IMG_2435.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24934",
+      "sourceTaxonomyId": "24934",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24970",
+      "sourceTaxonomyId": "24970",
+      "name": "ванильного мороженого",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25067",
+      "sourceTaxonomyId": "25067",
+      "name": "больших персика",
+      "slug": "%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b8%d1%85-%d0%bf%d0%b5%d1%80%d1%81%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25068",
+      "sourceTaxonomyId": "25068",
+      "name": "коричневого сахара (или просто сахара)",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25069",
+      "sourceTaxonomyId": "25069",
+      "name": "ягод (малина, черника, ежевика, черная смородина, клубникаи т.п.)",
+      "slug": "%d1%8f%d0%b3%d0%be%d0%b4-%d0%bc%d0%b0%d0%bb%d0%b8%d0%bd%d0%b0-%d1%87%d0%b5%d1%80%d0%bd%d0%b8%d0%ba%d0%b0-%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0-%d1%87%d0%b5%d1%80%d0%bd%d0%b0%d1%8f-%d1%81"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25070",
+      "sourceTaxonomyId": "25070",
+      "name": "тертого шоколада",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25071",
+      "sourceTaxonomyId": "25071",
+      "name": "измельченных миндальных орешков",
+      "slug": "%d0%b8%d0%b7%d0%bc%d0%b5%d0%bb%d1%8c%d1%87%d0%b5%d0%bd%d0%bd%d1%8b%d1%85-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d1%85-%d0%be%d1%80%d0%b5%d1%88%d0%ba%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3500",
+      "sourceTaxonomyId": "3500",
+      "name": "жирных сливок (35%)",
+      "slug": "%d0%b6%d0%b8%d1%80%d0%bd%d1%8b%d1%85-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba-35"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6571",
+      "sourceTaxonomyId": "6571",
+      "name": "ванильного мороженого",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b3%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "13557",
+      "sourceTaxonomyId": "13557",
+      "name": "коричневого сахара (или просто сахара)",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17208",
+      "sourceTaxonomyId": "17208",
+      "name": "тертого шоколада",
+      "slug": "%d1%82%d0%b5%d1%80%d1%82%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17211",
+      "sourceTaxonomyId": "17211",
+      "name": "измельченных миндальных орешков",
+      "slug": "%d0%b8%d0%b7%d0%bc%d0%b5%d0%bb%d1%8c%d1%87%d0%b5%d0%bd%d0%bd%d1%8b%d1%85-%d0%bc%d0%b8%d0%bd%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d1%85-%d0%be%d1%80%d0%b5%d1%88%d0%ba%d0%be%d0%b2"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17213",
+      "sourceTaxonomyId": "17213",
+      "name": "больших персика",
+      "slug": "%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b8%d1%85-%d0%bf%d0%b5%d1%80%d1%81%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "17215",
+      "sourceTaxonomyId": "17215",
+      "name": "ягод (малина, черника, ежевика, черная смородина, клубникаи т.п.)",
+      "slug": "%d1%8f%d0%b3%d0%be%d0%b4-%d0%bc%d0%b0%d0%bb%d0%b8%d0%bd%d0%b0-%d1%87%d0%b5%d1%80%d0%bd%d0%b8%d0%ba%d0%b0-%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0-%d1%87%d0%b5%d1%80%d0%bd%d0%b0%d1%8f-%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2020",
+      "sourceTaxonomyId": "2020",
+      "name": "взбитые сливки",
+      "slug": "%d0%b2%d0%b7%d0%b1%d0%b8%d1%82%d1%8b%d0%b5-%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2195",
+      "sourceTaxonomyId": "2195",
+      "name": "десерт в стаканчике",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4669",
+      "sourceTaxonomyId": "4669",
+      "name": "desert v stakane",
+      "slug": "desert-v-stakane"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4782",
+      "sourceTaxonomyId": "4782",
+      "name": "vegetarianskoe bliudo",
+      "slug": "vegetarianskoe-bliudo"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5240",
+      "sourceTaxonomyId": "5240",
+      "name": "ванильное мороженое",
+      "slug": "%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%be%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6222",
+      "sourceTaxonomyId": "6222",
+      "name": "кули из ягод",
+      "slug": "%d0%ba%d1%83%d0%bb%d0%b8-%d0%b8%d0%b7-%d1%8f%d0%b3%d0%be%d0%b4"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 порций",
+      "value": 6,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "rest": null,
+      "total": {
+        "raw": "90",
+        "minutes": 90
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:18094",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 больших персика",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "больших персика",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 ст.л. коричневого сахара (или просто сахара)",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "коричневого сахара (или просто сахара)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "250 г ягод (малина, черника, ежевика, черная смородина, клубникаи т.п.) свежих или замороженных",
+            "quantity": {
+              "raw": "250 г",
+              "value": 250,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "ягод (малина, черника, ежевика, черная смородина, клубникаи т.п.)",
+            "notes": "свежих или замороженных"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 мл жирных сливок (35%) очень холодных",
+            "quantity": {
+              "raw": "200 мл",
+              "value": 200,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "жирных сливок (35%)",
+            "notes": "очень холодных"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2 ч.л. сахара",
+            "quantity": {
+              "raw": "2 ч.л.",
+              "value": 2,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "500 г ванильного мороженого",
+            "quantity": {
+              "raw": "500 г",
+              "value": 500,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "ванильного мороженого",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Немного тертого шоколада",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "тертого шоколада",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Немного измельченных миндальных орешков",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "измельченных миндальных орешков",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 180С (390F). Противень застелить пергаментной бумагой.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Разрезать персики пополам и вынуть косточки. Разместить половинки персиков на противень и посыпать их сахаром.",
+            "mediaId": "wordpress-attachment:17872"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Поставить запекаться в духовку примерно на 35 минут. Персики должны стать мягкими, но еще держать свою форму. Готовые персики вынуть из духовки, охладить и аккуратно очистить от кожицы.",
+            "mediaId": "wordpress-attachment:17873"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Свежие ягоды помыть, обсушить и перетереть блендером. Чтобы избавиться от маленьких косточек, пропустить через сито.",
+            "mediaId": "wordpress-attachment:18080"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "В холодные сливки добавить сахар и взбить в нежную пену.",
+            "mediaId": "wordpress-attachment:13109"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "В индивидуальные формочки или стаканчики положить 1 половинку персика и 1 шарик мороженого.",
+            "mediaId": "wordpress-attachment:17874"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Полить ягодным соусом.",
+            "mediaId": "wordpress-attachment:17875"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Добавить немного взбитых сливок и посыпать тертым шоколадом. Подавать на стол без промедления! ;)",
+            "mediaId": "wordpress-attachment:17876"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:18094",
+      "sourceId": "18094",
+      "path": "/recipes/media/wordpress/18094.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:17872",
+      "sourceId": "17872",
+      "path": "/recipes/media/wordpress/17872.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17873",
+      "sourceId": "17873",
+      "path": "/recipes/media/wordpress/17873.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:18080",
+      "sourceId": "18080",
+      "path": "/recipes/media/wordpress/18080.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:13109",
+      "sourceId": "13109",
+      "path": "/recipes/media/wordpress/13109.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:17874",
+      "sourceId": "17874",
+      "path": "/recipes/media/wordpress/17874.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17875",
+      "sourceId": "17875",
+      "path": "/recipes/media/wordpress/17875.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:17876",
+      "sourceId": "17876",
+      "path": "/recipes/media/wordpress/17876.png",
+      "alt": null,
+      "width": 592,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21233",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:22980",
+  "slug": "boursin-stuffed-mushrooms",
+  "source": {
+    "system": "wordpress",
+    "postId": "21233",
+    "recipeId": "21233",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-boursin-stuffed-mushrooms",
+    "createdAt": "2025-02-08T05:11:00+00:00",
+    "modifiedAt": "2025-02-10T01:14:19+00:00",
+    "editorialPostId": "19631",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "boursin-stuffed-mushrooms",
+    "editorialCreatedAt": "2025-02-08T05:11:00+00:00",
+    "editorialModifiedAt": "2025-02-10T01:14:16+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/boursin-stuffed-mushrooms/"
+  ],
+  "title": "Boursin Stuffed Mushrooms",
+  "description": "The Boursin™ Garlic & Fine Herbs Cheese is aleredy salty enough so don't add more salt.\nOn the other end, if you like spicy food, season with pepper.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Tasty and very easy recipe with only 2 main ingredients that you can find in every store: mushrooms and Boursin.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21233,\"template\":\"chic-template-english\",\"updated\":1739150022405} -->\n<!--WPRM Recipe 21233-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Boursin Stuffed Mushrooms</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1960.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThe Boursin™ Garlic &amp; Fine Herbs Cheese is aleredy salty enough so don't add more salt.\r\nOn the other end, if you like spicy food, season with pepper.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>30 small mushrooms ((Cremini or Button Mushrooms))</li><li>1 block Boursin™ Garlic &amp; Fine Herbs Cheese</li><li>freshly ground black pepper</li><li>Some fresh herbs (cilantro, green onion, parsley) (finely chopped)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 400° F. </li><li>Wash and dry mushrooms. Remove stems. (You can use them for another recipe),<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1947.Blog_-150x150.png\"/><br /></li><li>Place mushroom caps on a baking sheet.  Season with pepper. Fill each mushroom's hole with 1-2 tsps of Boursin™.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1949.Blog_-150x150.png\"/><br /></li><li>Bake about 25 minutes until mushrooms are golden and cooked through.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1954.Blog_-150x150.png\"/><br /></li><li>Sprinkle the baked mushrooms with fresh herbs and they're ready to be served!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2019/11/IMG_1963.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Appetizers</div><div class=\"wprm-fallback-recipe-meta-cuisine\">French</div><div class=\"wprm-fallback-recipe-meta-keyword\">Appetizers, mushrooms</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24107",
+      "sourceTaxonomyId": "24107",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "23540",
+      "sourceTaxonomyId": "23540",
+      "name": "French",
+      "slug": "french"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24103",
+      "sourceTaxonomyId": "24103",
+      "name": "small mushrooms",
+      "slug": "small-mushrooms"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24104",
+      "sourceTaxonomyId": "24104",
+      "name": "Boursin™ Garlic & Fine Herbs Cheese",
+      "slug": "boursin-garlic-fine-herbs-cheese"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24105",
+      "sourceTaxonomyId": "24105",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24106",
+      "sourceTaxonomyId": "24106",
+      "name": "fresh herbs (cilantro, green onion, parsley)",
+      "slug": "fresh-herbs-cilantro-green-onion-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25466",
+      "sourceTaxonomyId": "25466",
+      "name": "block",
+      "slug": "block"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25467",
+      "sourceTaxonomyId": "25467",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "25468",
+      "sourceTaxonomyId": "25468",
+      "name": "mushrooms",
+      "slug": "mushrooms"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "7",
+      "sourceTaxonomyId": "7",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1506",
+      "sourceTaxonomyId": "1506",
+      "name": "Appetizers",
+      "slug": "appetizers"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4584",
+      "sourceTaxonomyId": "4584",
+      "name": "freshly ground black pepper",
+      "slug": "freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7451",
+      "sourceTaxonomyId": "7451",
+      "name": "fresh herbs (cilantro, green onion, parsley)",
+      "slug": "fresh-herbs-cilantro-green-onion-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23007",
+      "sourceTaxonomyId": "23007",
+      "name": "small mushrooms",
+      "slug": "small-mushrooms"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "23009",
+      "sourceTaxonomyId": "23009",
+      "name": "Boursin™ Garlic & Fine Herbs Cheese",
+      "slug": "boursin-garlic-fine-herbs-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1280",
+      "sourceTaxonomyId": "1280",
+      "name": "oven",
+      "slug": "oven"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1602",
+      "sourceTaxonomyId": "1602",
+      "name": "stuffed",
+      "slug": "stuffed"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1704",
+      "sourceTaxonomyId": "1704",
+      "name": "big party",
+      "slug": "big-party"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3740",
+      "sourceTaxonomyId": "3740",
+      "name": "very easy",
+      "slug": "very-easy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4353",
+      "sourceTaxonomyId": "4353",
+      "name": "mushroom",
+      "slug": "mushroom"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7774",
+      "sourceTaxonomyId": "7774",
+      "name": "french style",
+      "slug": "french-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "22994",
+      "sourceTaxonomyId": "22994",
+      "name": "boursin",
+      "slug": "boursin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "22998",
+      "sourceTaxonomyId": "22998",
+      "name": "french cheese",
+      "slug": "french-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23006",
+      "sourceTaxonomyId": "23006",
+      "name": "Garlic & Fine Herbs Cheese",
+      "slug": "garlic-fine-herbs-cheese"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:19050",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "30 small mushrooms (Cremini or Button Mushrooms)",
+            "quantity": {
+              "raw": "30",
+              "value": 30,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "small mushrooms",
+            "notes": "(Cremini or Button Mushrooms)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 block Boursin™ Garlic & Fine Herbs Cheese",
+            "quantity": {
+              "raw": "1 block",
+              "value": 1,
+              "unit": "block",
+              "scalable": true
+            },
+            "name": "Boursin™ Garlic & Fine Herbs Cheese",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "freshly ground black pepper",
+            "quantity": null,
+            "name": "freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Some fresh herbs (cilantro, green onion, parsley) finely chopped",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh herbs (cilantro, green onion, parsley)",
+            "notes": "finely chopped"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 400° F.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Wash and dry mushrooms. Remove stems. (You can use them for another recipe),",
+            "mediaId": "wordpress-attachment:19047"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Place mushroom caps on a baking sheet. Season with pepper. Fill each mushroom's hole with 1-2 tsps of Boursin™.",
+            "mediaId": "wordpress-attachment:19048"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Bake about 25 minutes until mushrooms are golden and cooked through.",
+            "mediaId": "wordpress-attachment:19049"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sprinkle the baked mushrooms with fresh herbs and they're ready to be served!",
+            "mediaId": "wordpress-attachment:19051"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:19050",
+      "sourceId": "19050",
+      "path": "/recipes/media/wordpress/19050.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19047",
+      "sourceId": "19047",
+      "path": "/recipes/media/wordpress/19047.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19048",
+      "sourceId": "19048",
+      "path": "/recipes/media/wordpress/19048.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19049",
+      "sourceId": "19049",
+      "path": "/recipes/media/wordpress/19049.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:19051",
+      "sourceId": "19051",
+      "path": "/recipes/media/wordpress/19051.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21777",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3065",
+  "slug": "gateau-facile-aux-amandes",
+  "source": {
+    "system": "wordpress",
+    "postId": "21777",
+    "recipeId": "21777",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-gateau-facile-aux-amandes",
+    "createdAt": "2023-03-31T02:39:00+00:00",
+    "modifiedAt": "2024-04-16T06:47:59+00:00",
+    "editorialPostId": "6479",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "gateau-facile-aux-amandes",
+    "editorialCreatedAt": "2023-03-31T02:39:00+00:00",
+    "editorialModifiedAt": "2024-04-16T06:47:56+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/gateau-facile-aux-amandes/"
+  ],
+  "title": "Gâteau facile aux amandes",
+  "description": "Ce gâteau peut être cuit dans n'importe quel moule. Le moule à cake est très pratique pour découper le gâteau et l'emporter au travail ou pour un pique-nique.\nCe cake reste délicieux sans les amandes qui sont optionnelles.",
+  "editorial": {
+    "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\"><span id=\":18s.5\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\"></span><span id=\":18s.5\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\"></span> Difficile de trouver une recette aussi simple que ce gâteau facile aux amandes ! La <span id=\":18s.11\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">pâte</span> est <span id=\":18s.12\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">prête</span> en moins de 5 minutes puis encore 35 minutes au four. Ensuite vous pouvez <span id=\":18s.13\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">déguster</span> cet excellent gâteau aux amandes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21777,\"template\":\"chic-template-french\",\"updated\":1713250040032} -->\n<!--WPRM Recipe 21777-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Gâteau facile aux amandes</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7273.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tCe gâteau peut être cuit dans n'importe quel moule. Le moule à cake est très pratique pour découper le gâteau et l'emporter au travail ou pour un pique-nique. \r\nCe cake reste délicieux sans les amandes qui sont optionnelles.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>180 g de sucre en poudre</li><li>4 œufs</li><li>100 g de beurre ramolli</li><li>1 pincée de sel</li><li>100 g de poudre d'amande</li><li>60 g de farine</li><li>2 cuillères à café de levure chimique</li><li>1  cuillère à soupe d’amandes effilées ((facultatif))</li><li>1 cuillère à café de sucre glace ((facultatif))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 180С (thermostat 6). Graisser et fariner un moule. \r\n   \r\n</li><li>Mettre tous les ingrédients dans une jatte et mélanger à l'aide d'un mixeur. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7242.Blog_-150x150.png\"/><br /></li><li>Verser la pâte dans le moule. Saupoudrer d'amandes effilées.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7244.Blog_-150x150.png\"/><br /></li><li>Faire cuire pendant environ 35 minutes. Vérifier la cuisson avec une pique en bois ou la lame d'un couteau.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7248.Blog_-150x150.png\"/><br /></li><li>Sortir le gâteau du four, laisser refroidir un peu puis démouler. Avant de servir, saupoudrer de sucre glace.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7268.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24317",
+      "sourceTaxonomyId": "24317",
+      "name": "de poudre d'amande",
+      "slug": "de-poudre-damande"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24320",
+      "sourceTaxonomyId": "24320",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24472",
+      "sourceTaxonomyId": "24472",
+      "name": "d’amandes effilées",
+      "slug": "damandes-effilees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24473",
+      "sourceTaxonomyId": "24473",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24511",
+      "sourceTaxonomyId": "24511",
+      "name": "de beurre ramolli",
+      "slug": "de-beurre-ramolli"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25433",
+      "sourceTaxonomyId": "25433",
+      "name": "pincée",
+      "slug": "pincee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25461",
+      "sourceTaxonomyId": "25461",
+      "name": "cuillère à café",
+      "slug": "cuillere-a-cafe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25574",
+      "sourceTaxonomyId": "25574",
+      "name": "cuillères à café",
+      "slug": "cuilleres-a-cafe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "248",
+      "sourceTaxonomyId": "248",
+      "name": "de poudre d'amande",
+      "slug": "de-poudre-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "605",
+      "sourceTaxonomyId": "605",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "607",
+      "sourceTaxonomyId": "607",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "944",
+      "sourceTaxonomyId": "944",
+      "name": "d’amandes effilées",
+      "slug": "damandes-effilees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "946",
+      "sourceTaxonomyId": "946",
+      "name": "de sucre glace",
+      "slug": "de-sucre-glace"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3104",
+      "sourceTaxonomyId": "3104",
+      "name": "de beurre ramolli",
+      "slug": "de-beurre-ramolli"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1292",
+      "sourceTaxonomyId": "1292",
+      "name": "gateau",
+      "slug": "gateau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1676",
+      "sourceTaxonomyId": "1676",
+      "name": "poudre d'amande",
+      "slug": "poudre-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3100",
+      "sourceTaxonomyId": "3100",
+      "name": "amandes",
+      "slug": "amandes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3102",
+      "sourceTaxonomyId": "3102",
+      "name": "oeufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5533",
+      "sourceTaxonomyId": "5533",
+      "name": "tres facile",
+      "slug": "tres-facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5699",
+      "sourceTaxonomyId": "5699",
+      "name": "gateau le plus facile a realiser",
+      "slug": "gateau-le-plus-facile-a-realiser"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6997",
+      "sourceTaxonomyId": "6997",
+      "name": "beurre ramolli",
+      "slug": "beurre-ramolli"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7706",
+      "sourceTaxonomyId": "7706",
+      "name": "pour le gouter",
+      "slug": "pour-le-gouter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25620",
+      "sourceTaxonomyId": "25620",
+      "name": "comment preparer",
+      "slug": "comment-preparer"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25702",
+      "sourceTaxonomyId": "25702",
+      "name": "la meilleure recette",
+      "slug": "la-meilleure-recette-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26722",
+      "sourceTaxonomyId": "26722",
+      "name": "meilleur",
+      "slug": "meilleur"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "40",
+        "minutes": 40
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:6110",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "180 g de sucre en poudre",
+            "quantity": {
+              "raw": "180 g",
+              "value": 180,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "4 œufs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "100 g de beurre ramolli",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre ramolli",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 pincée de sel",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 g de poudre d'amande",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de poudre d'amande",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "60 g de farine",
+            "quantity": {
+              "raw": "60 g",
+              "value": 60,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 cuillères à café de levure chimique",
+            "quantity": {
+              "raw": "2 cuillères à café",
+              "value": 2,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de levure chimique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 cuillère à soupe d’amandes effilées (facultatif)",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "d’amandes effilées",
+            "notes": "(facultatif)"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "1 cuillère à café de sucre glace (facultatif)",
+            "quantity": {
+              "raw": "1 cuillère à café",
+              "value": 1,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de sucre glace",
+            "notes": "(facultatif)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180С (thermostat 6). Graisser et fariner un moule.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mettre tous les ingrédients dans une jatte et mélanger à l'aide d'un mixeur.",
+            "mediaId": "wordpress-attachment:6106"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Verser la pâte dans le moule. Saupoudrer d'amandes effilées.",
+            "mediaId": "wordpress-attachment:6107"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire cuire pendant environ 35 minutes. Vérifier la cuisson avec une pique en bois ou la lame d'un couteau.",
+            "mediaId": "wordpress-attachment:6108"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sortir le gâteau du four, laisser refroidir un peu puis démouler. Avant de servir, saupoudrer de sucre glace.",
+            "mediaId": "wordpress-attachment:6109"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:6110",
+      "sourceId": "6110",
+      "path": "/recipes/media/wordpress/6110.png",
+      "alt": "Быстрый миндальный пирог",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6106",
+      "sourceId": "6106",
+      "path": "/recipes/media/wordpress/6106.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6107",
+      "sourceId": "6107",
+      "path": "/recipes/media/wordpress/6107.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6108",
+      "sourceId": "6108",
+      "path": "/recipes/media/wordpress/6108.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6109",
+      "sourceId": "6109",
+      "path": "/recipes/media/wordpress/6109.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21741",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:4365",
+  "slug": "oeufs-surprise-au-thon",
+  "source": {
+    "system": "wordpress",
+    "postId": "21741",
+    "recipeId": "21741",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-oeufs-surprise-au-thon",
+    "createdAt": "2018-05-08T01:30:19+00:00",
+    "modifiedAt": "2022-07-30T19:04:59+00:00",
+    "editorialPostId": "9332",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "oeufs-surprise-au-thon",
+    "editorialCreatedAt": "2018-05-08T01:30:19+00:00",
+    "editorialModifiedAt": "2022-07-30T19:04:56+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/oeufs-surprise-au-thon/"
+  ],
+  "title": "Œufs surprise au thon",
+  "description": "Dans cette recette, pour la garniture j'utilise non seulement les jaunes d'œufs mais mais aussi un œuf entier : cela change légèrement la texture.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Les œufs durs sont farcis d'un mélange de thon en conserve, de jaunes d’œufs, de cornichons et de mayonnaise. Cela fera un apéritif ou une entrée prêts en un tour de main. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21741,\"template\":\"chic-template-french\",\"updated\":1659207887259} -->\n<!--WPRM Recipe 21741-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Œufs surprise au thon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9165.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tDans cette recette, pour la garniture j'utilise non seulement les jaunes d'œufs mais mais aussi un œuf entier : cela change légèrement la texture.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>7 œufs</li><li>180 g thon au naturel</li><li>6-7 cornichons</li><li>4-5 cuillères à soupe de mayonnaise</li><li>Sel et poivre du moulin</li><li>1 pincée de paprika</li><li>Quelques brins de ciboulette</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Mettre les œufs dans une casserole, verser l'eau et porter à ébullition.  Laisser cuire exactement 10 minutes. Retirer les œufs de l'eau et les mettre tout de suite dans de l'eau froide pour refroidir.</li><li>Couper un cornichon en rondelles et râper les autres sur une grille fine.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9499.Blog_-150x150.png\"/><br /></li><li>Écaler les œufs. Couper 6 œufs en deux dans le sens de la longueur et en retirer les jaunes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9152.Blog_-150x150.png\"/><br /></li><li>Écraser 6 jaunes et 1 œuf entier à la fourchette. Retirer les jaunes d'œufs et les mélanger avec le thon.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9151.Blog_-150x150.png\"/><br /></li><li>Émietter le thon à la fourchette puis le mélanger avec les œufs écrasés, les cornichons râpés et la mayonnaise. Saler et poivrer.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9153.Blog_-150x150.png\"/><br /></li><li>Remplir les creux des blancs avec le mélange au thon. Décorer avec des rondelles de cornichon et de ciboulette. Saupoudrer de paprika.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9156.Blog_-150x150.png\"/><br /></li><li>S'il vous reste la garniture, vous pouvez la servir avec du pain frais ou des toasts. C'est aussi délicieux ! <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_9169.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Apéritifs</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24479",
+      "sourceTaxonomyId": "24479",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24474",
+      "sourceTaxonomyId": "24474",
+      "name": "thon au naturel",
+      "slug": "thon-au-naturel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24475",
+      "sourceTaxonomyId": "24475",
+      "name": "cornichons",
+      "slug": "cornichons"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24476",
+      "sourceTaxonomyId": "24476",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24477",
+      "sourceTaxonomyId": "24477",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24478",
+      "sourceTaxonomyId": "24478",
+      "name": "de ciboulette",
+      "slug": "de-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "84",
+      "sourceTaxonomyId": "84",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1516",
+      "sourceTaxonomyId": "1516",
+      "name": "Apéritifs",
+      "slug": "aperitifs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "535",
+      "sourceTaxonomyId": "535",
+      "name": "de mayonnaise",
+      "slug": "de-mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "770",
+      "sourceTaxonomyId": "770",
+      "name": "de paprika",
+      "slug": "de-paprika"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4427",
+      "sourceTaxonomyId": "4427",
+      "name": "thon au naturel",
+      "slug": "thon-au-naturel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4431",
+      "sourceTaxonomyId": "4431",
+      "name": "de ciboulette",
+      "slug": "de-ciboulette"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4439",
+      "sourceTaxonomyId": "4439",
+      "name": "cornichons",
+      "slug": "cornichons"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1212",
+      "sourceTaxonomyId": "1212",
+      "name": "mayonnaise",
+      "slug": "mayonnaise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1520",
+      "sourceTaxonomyId": "1520",
+      "name": "thon",
+      "slug": "thon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1670",
+      "sourceTaxonomyId": "1670",
+      "name": "cornichon",
+      "slug": "cornichon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2422",
+      "sourceTaxonomyId": "2422",
+      "name": "oeufs farcis",
+      "slug": "oeufs-farcis"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3102",
+      "sourceTaxonomyId": "3102",
+      "name": "oeufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4423",
+      "sourceTaxonomyId": "4423",
+      "name": "surprise au thon",
+      "slug": "surprise-au-thon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4425",
+      "sourceTaxonomyId": "4425",
+      "name": "oeuf dur",
+      "slug": "oeuf-dur"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4435",
+      "sourceTaxonomyId": "4435",
+      "name": "oeufs garnis",
+      "slug": "oeufs-garnis"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4437",
+      "sourceTaxonomyId": "4437",
+      "name": "tartine",
+      "slug": "tartine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4549",
+      "sourceTaxonomyId": "4549",
+      "name": "hors d'oeuvre",
+      "slug": "hors-doeuvre-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 personnes",
+      "value": 6,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "13",
+        "minutes": 13
+      },
+      "rest": null,
+      "total": {
+        "raw": "28",
+        "minutes": 28
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:7933",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "7 œufs",
+            "quantity": {
+              "raw": "7",
+              "value": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "180 g thon au naturel",
+            "quantity": {
+              "raw": "180 g",
+              "value": 180,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "thon au naturel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "6-7 cornichons",
+            "quantity": {
+              "raw": "6-7",
+              "min": 6,
+              "max": 7,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "cornichons",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "4-5 cuillères à soupe de mayonnaise",
+            "quantity": {
+              "raw": "4-5 cuillères à soupe",
+              "min": 4,
+              "max": 5,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de mayonnaise",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 pincée de paprika",
+            "quantity": {
+              "raw": "1 pincée",
+              "value": 1,
+              "unit": "pincée",
+              "scalable": true
+            },
+            "name": "de paprika",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Quelques brins de ciboulette",
+            "quantity": {
+              "raw": "Quelques brins",
+              "unit": "brins",
+              "scalable": false
+            },
+            "name": "de ciboulette",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Mettre les œufs dans une casserole, verser l'eau et porter à ébullition. Laisser cuire exactement 10 minutes. Retirer les œufs de l'eau et les mettre tout de suite dans de l'eau froide pour refroidir.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couper un cornichon en rondelles et râper les autres sur une grille fine.",
+            "mediaId": "wordpress-attachment:7975"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Écaler les œufs. Couper 6 œufs en deux dans le sens de la longueur et en retirer les jaunes.",
+            "mediaId": "wordpress-attachment:7930"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Écraser 6 jaunes et 1 œuf entier à la fourchette. Retirer les jaunes d'œufs et les mélanger avec le thon.",
+            "mediaId": "wordpress-attachment:7929"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Émietter le thon à la fourchette puis le mélanger avec les œufs écrasés, les cornichons râpés et la mayonnaise. Saler et poivrer.",
+            "mediaId": "wordpress-attachment:7931"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Remplir les creux des blancs avec le mélange au thon. Décorer avec des rondelles de cornichon et de ciboulette. Saupoudrer de paprika.",
+            "mediaId": "wordpress-attachment:7934"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "S'il vous reste la garniture, vous pouvez la servir avec du pain frais ou des toasts. C'est aussi délicieux !",
+            "mediaId": "wordpress-attachment:7928"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:7933",
+      "sourceId": "7933",
+      "path": "/recipes/media/wordpress/7933.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7975",
+      "sourceId": "7975",
+      "path": "/recipes/media/wordpress/7975.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7930",
+      "sourceId": "7930",
+      "path": "/recipes/media/wordpress/7930.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7929",
+      "sourceId": "7929",
+      "path": "/recipes/media/wordpress/7929.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7931",
+      "sourceId": "7931",
+      "path": "/recipes/media/wordpress/7931.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7934",
+      "sourceId": "7934",
+      "path": "/recipes/media/wordpress/7934.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:7928",
+      "sourceId": "7928",
+      "path": "/recipes/media/wordpress/7928.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

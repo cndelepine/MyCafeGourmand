@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21825",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:1967",
+  "slug": "lasagne-au-broccoli-et-la-dinde",
+  "source": {
+    "system": "wordpress",
+    "postId": "21825",
+    "recipeId": "21825",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-lasagnes-au-brocoli-et-a-la-dinde",
+    "createdAt": "2018-02-06T01:34:57+00:00",
+    "modifiedAt": "2022-06-26T23:40:17+00:00",
+    "editorialPostId": "3832",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "lasagne-au-broccoli-et-la-dinde",
+    "editorialCreatedAt": "2018-02-06T01:34:57+00:00",
+    "editorialModifiedAt": "2022-06-26T23:40:16+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/lasagne-au-broccoli-et-la-dinde/"
+  ],
+  "title": "Lasagnes au brocoli et à la dinde",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Tendres et moelleuses, ces lasagnes au brocoli et à la dinde recouvertes d'une croûte dorée ne vous laisseront pas indifférents. J'utilise le reste de dinde ou de poulet, c'est très pratique. La quantité de sauce est importante&nbsp;: c'est grâce à cela que les pâtes deviennent tendres et moelleuses. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21825,\"template\":\"chic-template-french\",\"updated\":1656286766638} -->\n<!--WPRM Recipe 21825-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Lasagnes au brocoli et à la dinde</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/20180123_233725.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>9 feuilles de lasagne (non cuites)</li><li>2 brocolis (émincés)</li><li>300 g de dinde (ou poulet) cuite (émincée)</li><li>250 g de riccota</li><li>200 g de mozzarella (râpée)</li><li>100 g de parmesan (râpé)</li></ul><h4>Sauce blanche</h4><ul><li>30 g de beurre</li><li>1 petit oignon (épluché et émincé)</li><li>2 gousses d'ail (épluchés et émincés)</li><li>3 cuillères à soupe de farine</li><li>80 ml de vin blanc</li><li>200 ml de crème liquide entière</li><li>500 ml de lait (demi-écrémé)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préparer les feuilles de lasagnes comme il est indiqué sur l'emballage.</li><li>Dans une casserole, faire fondre le beurre sur le petit feu. Y faire revenir l'oignon et l'ail. </li><li>Ajouter la farine et mélanger énergiquement pendant quelques instants. </li><li>Petit à petit, verser le lait et la crème liquide. Porter à ébullition et faire cuire pendant 1 minute.</li><li>Ajouter le vin et la mozzarella. Saler et poivrer généreusement. Bien mélanger et retirer la casserole du feu.</li><li>Préchauffer le four à 180°C (thermostat 6) et huiler légèrement un plat à gratin.</li><li>Verser 2 bonnes cuillères à soupe de sauce dans le plat. Couvrir toute la surface avec 3 feuilles de lasagnes.</li><li>Répartir 1/3 de viande, 1/3 de broccoli et 1/3 de riccotta en une couche. Couvrir le tout avec  la sauce. </li><li>Poser encore 3 feuilles de lasagnes. Répéter encore une fois avec tous les ingrédients de l'étape précédente. Vous devez obtenir des lasagnes avec 3 couches de pâtes et 3 couches de mélange dinde-brocoli-ricotta. Terminer par le reste de sauce.</li><li>Saupoudrer de parmesan.</li><li>Couvrir le plat avec une feuille de papier aluminium.</li><li>Faire cuire dans le four préchauffé pendant 45 minutes. Découvrir et cuire encore 10 minutes de plus pour faire dorer les lasagnes.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24303",
+      "sourceTaxonomyId": "24303",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24400",
+      "sourceTaxonomyId": "24400",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24524",
+      "sourceTaxonomyId": "24524",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24546",
+      "sourceTaxonomyId": "24546",
+      "name": "de lasagne",
+      "slug": "de-lasagne"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24547",
+      "sourceTaxonomyId": "24547",
+      "name": "brocolis",
+      "slug": "brocolis"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24548",
+      "sourceTaxonomyId": "24548",
+      "name": "de dinde (ou poulet) cuite",
+      "slug": "de-dinde-ou-poulet-cuite"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24549",
+      "sourceTaxonomyId": "24549",
+      "name": "de riccota",
+      "slug": "de-riccota"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24550",
+      "sourceTaxonomyId": "24550",
+      "name": "de mozzarella",
+      "slug": "de-mozzarella"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24551",
+      "sourceTaxonomyId": "24551",
+      "name": "de parmesan",
+      "slug": "de-parmesan"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24552",
+      "sourceTaxonomyId": "24552",
+      "name": "de vin blanc",
+      "slug": "de-vin-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "358",
+      "sourceTaxonomyId": "358",
+      "name": "oignon",
+      "slug": "oignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "372",
+      "sourceTaxonomyId": "372",
+      "name": "de lait",
+      "slug": "de-lait"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "605",
+      "sourceTaxonomyId": "605",
+      "name": "de farine",
+      "slug": "de-farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1980",
+      "sourceTaxonomyId": "1980",
+      "name": "de lasagne",
+      "slug": "de-lasagne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1984",
+      "sourceTaxonomyId": "1984",
+      "name": "de riccota",
+      "slug": "de-riccota"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1986",
+      "sourceTaxonomyId": "1986",
+      "name": "de mozzarella",
+      "slug": "de-mozzarella"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1988",
+      "sourceTaxonomyId": "1988",
+      "name": "de parmesan",
+      "slug": "de-parmesan"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1990",
+      "sourceTaxonomyId": "1990",
+      "name": "de vin blanc",
+      "slug": "de-vin-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2028",
+      "sourceTaxonomyId": "2028",
+      "name": "brocolis",
+      "slug": "brocolis"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2030",
+      "sourceTaxonomyId": "2030",
+      "name": "de dinde (ou poulet) cuite",
+      "slug": "de-dinde-ou-poulet-cuite"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1838",
+      "sourceTaxonomyId": "1838",
+      "name": "dinde",
+      "slug": "dinde"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1968",
+      "sourceTaxonomyId": "1968",
+      "name": "sauce blanche",
+      "slug": "sauce-blanche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1970",
+      "sourceTaxonomyId": "1970",
+      "name": "vin blanc",
+      "slug": "vin-blanc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1972",
+      "sourceTaxonomyId": "1972",
+      "name": "riccotta",
+      "slug": "riccotta"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1974",
+      "sourceTaxonomyId": "1974",
+      "name": "feuilles de lasagne",
+      "slug": "feuilles-de-lasagne"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1976",
+      "sourceTaxonomyId": "1976",
+      "name": "broccoli",
+      "slug": "broccoli-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1978",
+      "sourceTaxonomyId": "1978",
+      "name": "lasagne",
+      "slug": "lasagne-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2026",
+      "sourceTaxonomyId": "2026",
+      "name": "brocoli",
+      "slug": "brocoli"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "9 personnes",
+      "value": 9,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:2661",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "9 feuilles de lasagne non cuites",
+            "quantity": {
+              "raw": "9 feuilles",
+              "value": 9,
+              "unit": "feuilles",
+              "scalable": true
+            },
+            "name": "de lasagne",
+            "notes": "non cuites"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 brocolis émincés",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "brocolis",
+            "notes": "émincés"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "300 g de dinde (ou poulet) cuite émincée",
+            "quantity": {
+              "raw": "300 g",
+              "value": 300,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de dinde (ou poulet) cuite",
+            "notes": "émincée"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "250 g de riccota",
+            "quantity": {
+              "raw": "250 g",
+              "value": 250,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de riccota",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "200 g de mozzarella râpée",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de mozzarella",
+            "notes": "râpée"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "100 g de parmesan râpé",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de parmesan",
+            "notes": "râpé"
+          }
+        ]
+      },
+      {
+        "name": "Sauce blanche",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "30 g de beurre",
+            "quantity": {
+              "raw": "30 g",
+              "value": 30,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 petit oignon épluché et émincé",
+            "quantity": {
+              "raw": "1 petit",
+              "value": 1,
+              "unit": "petit",
+              "scalable": true
+            },
+            "name": "oignon",
+            "notes": "épluché et émincé"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 gousses d'ail épluchés et émincés",
+            "quantity": {
+              "raw": "2 gousses",
+              "value": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "épluchés et émincés"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "3 cuillères à soupe de farine",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "de farine",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "80 ml de vin blanc",
+            "quantity": {
+              "raw": "80 ml",
+              "value": 80,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de vin blanc",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "200 ml de crème liquide entière",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "500 ml de lait demi-écrémé",
+            "quantity": {
+              "raw": "500 ml",
+              "value": 500,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de lait",
+            "notes": "demi-écrémé"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préparer les feuilles de lasagnes comme il est indiqué sur l'emballage.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans une casserole, faire fondre le beurre sur le petit feu. Y faire revenir l'oignon et l'ail.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter la farine et mélanger énergiquement pendant quelques instants.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Petit à petit, verser le lait et la crème liquide. Porter à ébullition et faire cuire pendant 1 minute.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Ajouter le vin et la mozzarella. Saler et poivrer généreusement. Bien mélanger et retirer la casserole du feu.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Préchauffer le four à 180°C (thermostat 6) et huiler légèrement un plat à gratin.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Verser 2 bonnes cuillères à soupe de sauce dans le plat. Couvrir toute la surface avec 3 feuilles de lasagnes.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Répartir 1/3 de viande, 1/3 de broccoli et 1/3 de riccotta en une couche. Couvrir le tout avec la sauce.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Poser encore 3 feuilles de lasagnes. Répéter encore une fois avec tous les ingrédients de l'étape précédente. Vous devez obtenir des lasagnes avec 3 couches de pâtes et 3 couches de mélange dinde-brocoli-ricotta. Terminer par le reste de sauce.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Saupoudrer de parmesan.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Couvrir le plat avec une feuille de papier aluminium.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 11,
+            "text": "Faire cuire dans le four préchauffé pendant 45 minutes. Découvrir et cuire encore 10 minutes de plus pour faire dorer les lasagnes.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:2661",
+      "sourceId": "2661",
+      "path": "/recipes/media/wordpress/2661.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "seo": null
+}

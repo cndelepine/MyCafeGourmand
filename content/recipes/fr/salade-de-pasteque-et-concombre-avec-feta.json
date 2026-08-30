@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22130",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:7110",
+  "slug": "salade-de-pasteque-et-concombre-avec-feta",
+  "source": {
+    "system": "wordpress",
+    "postId": "22130",
+    "recipeId": "22130",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-salade-de-pasteque-et-concombre-avec-feta",
+    "createdAt": "2019-07-30T04:15:00+00:00",
+    "modifiedAt": "2022-10-25T04:12:00+00:00",
+    "editorialPostId": "12494",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "salade-de-pasteque-et-concombre-avec-feta",
+    "editorialCreatedAt": "2019-07-30T04:15:00+00:00",
+    "editorialModifiedAt": "2022-10-25T04:11:58+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/salade-de-pasteque-et-concombre-avec-feta/"
+  ],
+  "title": "Salade de pastèque et concombre avec feta",
+  "description": "Assurez-vous de laisser la salade au réfrigérateur assez longtemps avant de servir.\nLe féta est assez salé: ne salez pas plus. J'ajoute seulement du poivre, de préférence fraîchement moulu.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p><span id=\"result_box\" class=\"\" lang=\"fr\"><span class=\"\">Voici une salade originale de pastèque, concombre, oignon rouge, fromage feta et menthe fraîche.</span> Cette <span class=\"\">combinaison peut surprendre à première vue.</span> <span class=\"\">Mais essayez cette salade juste une fois et cela deviendra votre <a href=\"_wp_link_placeholder\" data-wplink-edit=\"true\">plat estival préféré</a>!</span></span></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22130,\"template\":\"chic-template-french\",\"updated\":1659921391469} -->\n<!--WPRM Recipe 22130-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Salade de pastèque et concombre avec feta</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_2133.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tAssurez-vous de laisser la salade au réfrigérateur assez longtemps avant de servir.\r\nLe féta est assez salé: ne salez pas plus. J'ajoute seulement du poivre, de préférence fraîchement moulu.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t<ul><li>saladier</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1/2 pastèque (ou 1 petite pastèque) (épépinée, pelée et coupée en cubes)</li><li>1 concombre (coupé en cubes)</li><li>1/2 oignon (rouge) (épluché et découpé en fines lanières)</li><li>200 g de feta (coupée en cubes)</li><li>1/2 bouquet  de menthe (ciselés)</li><li>1/2 citron (le jus)</li><li>Poivre du moulin</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Dans un saladier, mélanger tous les ingrédients découpés, arroser de jus de citron et poivrer. </li><li>Couvrir avec un film alimentaire et laisser refroidir pendant environ 1 heure au réfrigérateur.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salade</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24494",
+      "sourceTaxonomyId": "24494",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_equipment",
+      "sourceId": "25645",
+      "sourceTaxonomyId": "25645",
+      "name": "saladier",
+      "slug": "saladier"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24488",
+      "sourceTaxonomyId": "24488",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24560",
+      "sourceTaxonomyId": "24560",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24561",
+      "sourceTaxonomyId": "24561",
+      "name": "de feta",
+      "slug": "de-feta"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24611",
+      "sourceTaxonomyId": "24611",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24672",
+      "sourceTaxonomyId": "24672",
+      "name": "de menthe",
+      "slug": "de-menthe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24710",
+      "sourceTaxonomyId": "24710",
+      "name": "citron (le jus)",
+      "slug": "citron-le-jus"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24746",
+      "sourceTaxonomyId": "24746",
+      "name": "pastèque (ou 1 petite pastèque)",
+      "slug": "pasteque-ou-1-petite-pasteque"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25646",
+      "sourceTaxonomyId": "25646",
+      "name": "bouquet",
+      "slug": "bouquet"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "90",
+      "sourceTaxonomyId": "90",
+      "name": "Salades",
+      "slug": "salades"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1188",
+      "sourceTaxonomyId": "1188",
+      "name": "Salade",
+      "slug": "salade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1099",
+      "sourceTaxonomyId": "1099",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1120",
+      "sourceTaxonomyId": "1120",
+      "name": "de feta",
+      "slug": "de-feta"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2565",
+      "sourceTaxonomyId": "2565",
+      "name": "de menthe",
+      "slug": "de-menthe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3461",
+      "sourceTaxonomyId": "3461",
+      "name": "Poivre du moulin",
+      "slug": "poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "5824",
+      "sourceTaxonomyId": "5824",
+      "name": "oignon (rouge)",
+      "slug": "oignon-rouge"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6405",
+      "sourceTaxonomyId": "6405",
+      "name": "citron (le jus)",
+      "slug": "citron-le-jus"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7117",
+      "sourceTaxonomyId": "7117",
+      "name": "pastèque (ou 1 petite pastèque)",
+      "slug": "pasteque-ou-1-petite-pasteque"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1184",
+      "sourceTaxonomyId": "1184",
+      "name": "Feta",
+      "slug": "feta"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1582",
+      "sourceTaxonomyId": "1582",
+      "name": "vegetarien",
+      "slug": "vegetarien"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1594",
+      "sourceTaxonomyId": "1594",
+      "name": "sans cuisson",
+      "slug": "sans-cuisson"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2625",
+      "sourceTaxonomyId": "2625",
+      "name": "facile et pas cher",
+      "slug": "facile-et-pas-cher"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2655",
+      "sourceTaxonomyId": "2655",
+      "name": "sans gluten",
+      "slug": "sans-gluten"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2951",
+      "sourceTaxonomyId": "2951",
+      "name": "entree",
+      "slug": "entree"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3441",
+      "sourceTaxonomyId": "3441",
+      "name": "apero",
+      "slug": "apero"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3840",
+      "sourceTaxonomyId": "3840",
+      "name": "repas sante",
+      "slug": "repas-sante"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3911",
+      "sourceTaxonomyId": "3911",
+      "name": "concombre",
+      "slug": "concombre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4531",
+      "sourceTaxonomyId": "4531",
+      "name": "salade d'ete",
+      "slug": "salade-dete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4606",
+      "sourceTaxonomyId": "4606",
+      "name": "citron presse",
+      "slug": "citron-presse"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4608",
+      "sourceTaxonomyId": "4608",
+      "name": "jus de citron",
+      "slug": "jus-de-citron"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7147",
+      "sourceTaxonomyId": "7147",
+      "name": "pasteque",
+      "slug": "pasteque"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7149",
+      "sourceTaxonomyId": "7149",
+      "name": "menthe fraiche",
+      "slug": "menthe-fraiche"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [
+      {
+        "sourceIndex": 0,
+        "sourceId": "25645",
+        "name": "saladier",
+        "amount": "1",
+        "notes": null
+      }
+    ],
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "16",
+        "minutes": 16
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:12491",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1/2 pastèque (ou 1 petite pastèque) épépinée, pelée et coupée en cubes",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "pastèque (ou 1 petite pastèque)",
+            "notes": "épépinée, pelée et coupée en cubes"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 concombre coupé en cubes",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "concombre",
+            "notes": "coupé en cubes"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 oignon (rouge) épluché et découpé en fines lanières",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "oignon (rouge)",
+            "notes": "épluché et découpé en fines lanières"
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g de feta coupée en cubes",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de feta",
+            "notes": "coupée en cubes"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1/2 bouquet de menthe ciselés",
+            "quantity": {
+              "raw": "1/2 bouquet",
+              "value": 0.5,
+              "unit": "bouquet",
+              "scalable": true
+            },
+            "name": "de menthe",
+            "notes": "ciselés"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/2 citron (le jus)",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "citron (le jus)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Poivre du moulin",
+            "quantity": null,
+            "name": "Poivre du moulin",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans un saladier, mélanger tous les ingrédients découpés, arroser de jus de citron et poivrer.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Couvrir avec un film alimentaire et laisser refroidir pendant environ 1 heure au réfrigérateur.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12491",
+      "sourceId": "12491",
+      "path": "/recipes/media/wordpress/12491.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

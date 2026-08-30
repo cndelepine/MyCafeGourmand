@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21432",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:4551",
+  "slug": "lemon-cake",
+  "source": {
+    "system": "wordpress",
+    "postId": "21432",
+    "recipeId": "21432",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-lemon-cake",
+    "createdAt": "2019-01-02T05:12:51+00:00",
+    "modifiedAt": "2022-07-30T19:42:26+00:00",
+    "editorialPostId": "7064",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "lemon-cake",
+    "editorialCreatedAt": "2019-01-02T05:12:51+00:00",
+    "editorialModifiedAt": "2022-07-30T19:42:24+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/lemon-cake/",
+    "/lemon-loaf-lemon-cake/"
+  ],
+  "title": "Lemon Cake",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>I've always had a sweet tooth. Whether it be a plain piece of dark chocolate or a decadent caramel cheesecake, I can't remember the last time I turned down dessert. My mouth &nbsp;waters every time I see or think of this Lemon Cake. Each time I'm at Starbucks, I know what I will be ordering. I can't guarantee &nbsp;this Lemon loaf tastes exactly like Starbucks, I personally think it's better. You tell me. :-) </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21432,\"template\":\"chic-template-english\",\"updated\":1659210137209} -->\n<!--WPRM Recipe 21432-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Lemon Cake</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_195323.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 large  eggs</li><li>1 cup  granulated sugar</li><li>2 Tbsp lemon zest</li><li>1 tsp lemon juice (freshly squeezed )</li><li>1 tsp lemon extract</li><li>1/3 cup vegetable oil</li><li>1 cup yogurt ((I use Greek yogurt))</li><li>1 1/2 cup all purpose flour (sifted)</li><li>2 tsp baking powder</li></ul><h4>Icing</h4><ul><li>1 cup  confectioner's sugar</li><li>2 Tbsp lemon juice (freshly squeezed)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Preheat oven to 350 degrees F. Grease and flour a loaf pan.</li><li>Combine eggs and sugar.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_081514.Blog_-1-150x150.png\"/><br /></li><li>Add lemon zest, lemon juice and lemon extract.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_085112.Blog_-150x150.png\"/><br /></li><li>Add vegetable oil and mix.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_081655.Blog_-150x150.png\"/><br /></li><li>Gradually add greek yogurt and mix until combined.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_085201.Blog_-150x150.png\"/><br /></li><li>Stir in baking powder.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_081812.Blog_-150x150.png\"/><br /></li><li>Slowly add flour. Blend until smooth. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_085325.Blog_-150x150.png\"/><br /></li><li>Pour the batter into the baking pan. Bake for 45 minutes. Remove from the oven and quickly cover the pan with aluminum foil, and return to the oven, for the last 10 minutes, to prevent excess browning.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_085536.Blog_-150x150.png\"/><br /></li><li>Cool the loaf in a pan for 15 minutes. Remove from pan to wire racks to cool completely.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_092157.Blog_-150x150.png\"/><br /></li><li>Whisk confectioners' sugar with lemon juice until smooth. Spoon evenly over the loaf and let sit for about 30 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180501_134149.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23554",
+      "sourceTaxonomyId": "23554",
+      "name": "all-purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24065",
+      "sourceTaxonomyId": "24065",
+      "name": "confectioners sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24066",
+      "sourceTaxonomyId": "24066",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24182",
+      "sourceTaxonomyId": "24182",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24230",
+      "sourceTaxonomyId": "24230",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24231",
+      "sourceTaxonomyId": "24231",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24289",
+      "sourceTaxonomyId": "24289",
+      "name": "lemon zest",
+      "slug": "lemon-zest"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24290",
+      "sourceTaxonomyId": "24290",
+      "name": "lemon extract",
+      "slug": "lemon-extract"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24291",
+      "sourceTaxonomyId": "24291",
+      "name": "vegetable oil",
+      "slug": "vegetable-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24292",
+      "sourceTaxonomyId": "24292",
+      "name": "yogurt",
+      "slug": "yogurt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "74",
+      "sourceTaxonomyId": "74",
+      "name": "Desserts",
+      "slug": "desserts"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1406",
+      "sourceTaxonomyId": "1406",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "301",
+      "sourceTaxonomyId": "301",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "662",
+      "sourceTaxonomyId": "662",
+      "name": "granulated sugar",
+      "slug": "granulated-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "666",
+      "sourceTaxonomyId": "666",
+      "name": "all purpose flour",
+      "slug": "all-purpose-flour"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "668",
+      "sourceTaxonomyId": "668",
+      "name": "baking powder",
+      "slug": "baking-powder"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "783",
+      "sourceTaxonomyId": "783",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1126",
+      "sourceTaxonomyId": "1126",
+      "name": "vegetable oil",
+      "slug": "vegetable-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3000",
+      "sourceTaxonomyId": "3000",
+      "name": "confectioner's sugar",
+      "slug": "confectioners-sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4333",
+      "sourceTaxonomyId": "4333",
+      "name": "yogurt",
+      "slug": "yogurt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4335",
+      "sourceTaxonomyId": "4335",
+      "name": "lemon extract",
+      "slug": "lemon-extract"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4576",
+      "sourceTaxonomyId": "4576",
+      "name": "lemon zest",
+      "slug": "lemon-zest"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1300",
+      "sourceTaxonomyId": "1300",
+      "name": "cake",
+      "slug": "cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1584",
+      "sourceTaxonomyId": "1584",
+      "name": "lemon",
+      "slug": "lemon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2934",
+      "sourceTaxonomyId": "2934",
+      "name": "eggs",
+      "slug": "eggs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3700",
+      "sourceTaxonomyId": "3700",
+      "name": "yellow",
+      "slug": "yellow"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4337",
+      "sourceTaxonomyId": "4337",
+      "name": "lemon juice",
+      "slug": "lemon-juice"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4339",
+      "sourceTaxonomyId": "4339",
+      "name": "lemon zest",
+      "slug": "lemon-zest"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4341",
+      "sourceTaxonomyId": "4341",
+      "name": "lemon loaf",
+      "slug": "lemon-loaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4343",
+      "sourceTaxonomyId": "4343",
+      "name": "lemon cake",
+      "slug": "lemon-cake"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4345",
+      "sourceTaxonomyId": "4345",
+      "name": "starbuks lemon loaf",
+      "slug": "starbuks-lemon-loaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4347",
+      "sourceTaxonomyId": "4347",
+      "name": "baking",
+      "slug": "baking"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4349",
+      "sourceTaxonomyId": "4349",
+      "name": "coffee time",
+      "slug": "coffee-time"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5351",
+      "sourceTaxonomyId": "5351",
+      "name": "most wanted",
+      "slug": "most-wanted"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5353",
+      "sourceTaxonomyId": "5353",
+      "name": "limonniy keks",
+      "slug": "limonniy-keks"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 servings",
+      "value": 8,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "95",
+        "minutes": 95
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:8984",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 large eggs",
+            "quantity": {
+              "raw": "3 large",
+              "value": 3,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "eggs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 cup granulated sugar",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "granulated sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 Tbsp lemon zest",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "lemon zest",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 tsp lemon juice freshly squeezed",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "lemon juice",
+            "notes": "freshly squeezed"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 tsp lemon extract",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "lemon extract",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/3 cup vegetable oil",
+            "quantity": {
+              "raw": "1/3 cup",
+              "value": 0.3333333333333333,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "vegetable oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 cup yogurt (I use Greek yogurt)",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "yogurt",
+            "notes": "(I use Greek yogurt)"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 1/2 cup all purpose flour sifted",
+            "quantity": {
+              "raw": "1 1/2 cup",
+              "value": 1.5,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "all purpose flour",
+            "notes": "sifted"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "2 tsp baking powder",
+            "quantity": {
+              "raw": "2 tsp",
+              "value": 2,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "baking powder",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Icing",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 cup confectioner's sugar",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "confectioner's sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2 Tbsp lemon juice freshly squeezed",
+            "quantity": {
+              "raw": "2 Tbsp",
+              "value": 2,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "lemon juice",
+            "notes": "freshly squeezed"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Preheat oven to 350 degrees F. Grease and flour a loaf pan.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Combine eggs and sugar.",
+            "mediaId": "wordpress-attachment:9061"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Add lemon zest, lemon juice and lemon extract.",
+            "mediaId": "wordpress-attachment:8978"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Add vegetable oil and mix.",
+            "mediaId": "wordpress-attachment:8973"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Gradually add greek yogurt and mix until combined.",
+            "mediaId": "wordpress-attachment:8979"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Stir in baking powder.",
+            "mediaId": "wordpress-attachment:8974"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Slowly add flour. Blend until smooth.",
+            "mediaId": "wordpress-attachment:8980"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Pour the batter into the baking pan. Bake for 45 minutes. Remove from the oven and quickly cover the pan with aluminum foil, and return to the oven, for the last 10 minutes, to prevent excess browning.",
+            "mediaId": "wordpress-attachment:8981"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Cool the loaf in a pan for 15 minutes. Remove from pan to wire racks to cool completely.",
+            "mediaId": "wordpress-attachment:8982"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Whisk confectioners' sugar with lemon juice until smooth. Spoon evenly over the loaf and let sit for about 30 minutes.",
+            "mediaId": "wordpress-attachment:8983"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:8984",
+      "sourceId": "8984",
+      "path": "/recipes/media/wordpress/8984.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:9061",
+      "sourceId": "9061",
+      "path": "/recipes/media/wordpress/9061.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8978",
+      "sourceId": "8978",
+      "path": "/recipes/media/wordpress/8978.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8973",
+      "sourceId": "8973",
+      "path": "/recipes/media/wordpress/8973.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8979",
+      "sourceId": "8979",
+      "path": "/recipes/media/wordpress/8979.png",
+      "alt": null,
+      "width": 800,
+      "height": 656
+    },
+    {
+      "id": "wordpress-attachment:8974",
+      "sourceId": "8974",
+      "path": "/recipes/media/wordpress/8974.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8980",
+      "sourceId": "8980",
+      "path": "/recipes/media/wordpress/8980.png",
+      "alt": null,
+      "width": 800,
+      "height": 624
+    },
+    {
+      "id": "wordpress-attachment:8981",
+      "sourceId": "8981",
+      "path": "/recipes/media/wordpress/8981.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8982",
+      "sourceId": "8982",
+      "path": "/recipes/media/wordpress/8982.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8983",
+      "sourceId": "8983",
+      "path": "/recipes/media/wordpress/8983.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

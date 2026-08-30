@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22001",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:3306",
+  "slug": "filet-mignon-de-porc-enveloppe-de-bacon",
+  "source": {
+    "system": "wordpress",
+    "postId": "22001",
+    "recipeId": "22001",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-filet-mignon-de-porc-enveloppe-de-bacon",
+    "createdAt": "2021-01-07T21:23:00+00:00",
+    "modifiedAt": "2023-05-28T18:54:47+00:00",
+    "editorialPostId": "6975",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "filet-mignon-de-porc-enveloppe-de-bacon",
+    "editorialCreatedAt": "2021-01-07T21:23:00+00:00",
+    "editorialModifiedAt": "2023-05-28T18:54:45+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/filet-mignon-de-porc-enveloppe-de-bacon/"
+  ],
+  "title": "Filet mignon de porc enveloppé de bacon",
+  "description": "Pour vérifier la cuisson de viande, il est très pratique d'utiliser un thermomètre de cuisine. Mais je n'en ai pas... Je pique la viande avec la lame d'un couteau, c'est prêt quand le jus qui s'écoule est transparent. Et n'oubliez pas vérifier la cuisson des pommes de terre, aussi en les piquant avec le couteau.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Un filet mignon enveloppé dans du bacon est toujours tendre et savoureux. <span id=\":19q.1\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">Grâce</span> au bacon, le porc ne se <span id=\":19q.2\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">dessèche</span> pas. Profitez de cette cuisson au four en ajoutant les pommes de terre (ou d'autres <span id=\":19q.3\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">légumes</span>) dans le plat. Comme cela, vous aurez la viande et l'accompagnement pour votre <span id=\":19q.4\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">déjeuner</span> ou <span id=\":19q.5\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">dîner</span>. Il ne reste qu'à <span id=\":19q.6\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">préparer</span> <a href=\"https://mycafegourmand.com/fr/recettes/salades\">une salade</a> pour un repas complet.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22001,\"template\":\"chic-template-french\",\"updated\":1610246013937} -->\n<!--WPRM Recipe 22001-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Filet mignon de porc enveloppé de bacon</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7614.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tPour vérifier la cuisson de viande, il est très pratique d'utiliser un thermomètre de cuisine. Mais je n'en ai pas... Je pique la viande avec la lame d'un couteau, c'est prêt quand le jus qui s'écoule est transparent. Et n'oubliez pas vérifier la cuisson des pommes de terre, aussi en les piquant avec le couteau.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 filet mignon de porc (d'environ 750 g)</li><li>1/2 cuillère à café de persil ou de thym (séché)</li><li>Sel et poivre du moulin</li><li>2 gousses d'ail (écrasées )</li><li>3 cuillères à soupe d'huile végétale</li><li>12 fines tranches de bacon</li><li>1  kg de pommes de terre (lavées et coupées en morceaux)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 190°C (thermostat 6/7). Dans un plat allant au four, mélanger le persil, le thym, l'ail, le sel. le poivre et l'huile. Badigeonner la viande de tous les côtés avec ce mélange.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7595.Blog_-150x150.png\"/><br /></li><li>Envelopper la viande de tranches de bacon en les superposant légèrement.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7596.Blog_-150x150.png\"/><br /></li><li>Mettre les pommes de terre dans le plat autour de viande. Éplucher les pommes de terre ou pas - à vous de décider. Couper les pommes de terre en 2 ou en quatre en fonction de la taille. Il faut que les pommes de terre soient prêtes en même temps que la viande.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7598.Blog_-150x150.png\"/><br /></li><li>Faire cuire au four pendant 45-55 minutes. Arroser régulièrement le filet et les pommes de terre avec le jus de cuisson.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7606.Blog_-150x150.png\"/><br /></li><li>La viande est prête quand elle est bien cuite à l'intérieur et le bacon est doré et croustillant. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7625.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Plat Principal</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "Filet mignon de porc enveloppé de bacon"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24081",
+      "sourceTaxonomyId": "24081",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24078",
+      "sourceTaxonomyId": "24078",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24304",
+      "sourceTaxonomyId": "24304",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24497",
+      "sourceTaxonomyId": "24497",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24649",
+      "sourceTaxonomyId": "24649",
+      "name": "de pommes de terre",
+      "slug": "de-pommes-de-terre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24668",
+      "sourceTaxonomyId": "24668",
+      "name": "filet mignon de porc",
+      "slug": "filet-mignon-de-porc"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24669",
+      "sourceTaxonomyId": "24669",
+      "name": "de persil ou de thym",
+      "slug": "de-persil-ou-de-thym"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24670",
+      "sourceTaxonomyId": "24670",
+      "name": "de bacon",
+      "slug": "de-bacon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "104",
+      "sourceTaxonomyId": "104",
+      "name": "Plat principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "218",
+      "sourceTaxonomyId": "218",
+      "name": "Plat Principal",
+      "slug": "plat-principal"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "537",
+      "sourceTaxonomyId": "537",
+      "name": "Sel et poivre du moulin",
+      "slug": "sel-et-poivre-du-moulin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1030",
+      "sourceTaxonomyId": "1030",
+      "name": "d'ail",
+      "slug": "dail"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1893",
+      "sourceTaxonomyId": "1893",
+      "name": "d'huile végétale",
+      "slug": "dhuile-vegetale"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2492",
+      "sourceTaxonomyId": "2492",
+      "name": "de pommes de terre",
+      "slug": "de-pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3323",
+      "sourceTaxonomyId": "3323",
+      "name": "de persil ou de thym",
+      "slug": "de-persil-ou-de-thym"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3325",
+      "sourceTaxonomyId": "3325",
+      "name": "de bacon",
+      "slug": "de-bacon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3352",
+      "sourceTaxonomyId": "3352",
+      "name": "filet mignon de porc",
+      "slug": "filet-mignon-de-porc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1200",
+      "sourceTaxonomyId": "1200",
+      "name": "porc",
+      "slug": "porc"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1202",
+      "sourceTaxonomyId": "1202",
+      "name": "viande",
+      "slug": "viande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1290",
+      "sourceTaxonomyId": "1290",
+      "name": "pommes de terre",
+      "slug": "pommes-de-terre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3307",
+      "sourceTaxonomyId": "3307",
+      "name": "filet mignon",
+      "slug": "filet-mignon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3309",
+      "sourceTaxonomyId": "3309",
+      "name": "enveloppe de bacon",
+      "slug": "enveloppe-de-bacon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3311",
+      "sourceTaxonomyId": "3311",
+      "name": "pdt",
+      "slug": "pdt"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3313",
+      "sourceTaxonomyId": "3313",
+      "name": "repas familial",
+      "slug": "repas-familial"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6948",
+      "sourceTaxonomyId": "6948",
+      "name": "mon mari adore",
+      "slug": "mon-mari-adore"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6950",
+      "sourceTaxonomyId": "6950",
+      "name": "quoi preparer pour faire plaisir a mon homme",
+      "slug": "quoi-preparer-pour-faire-plaisir-a-mon-homme"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25309",
+      "sourceTaxonomyId": "25309",
+      "name": "roti au four",
+      "slug": "roti-au-four"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 personnes",
+      "value": 4,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "rest": null,
+      "total": {
+        "raw": "60",
+        "minutes": 60
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:6822",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 filet mignon de porc d'environ 750 g",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "filet mignon de porc",
+            "notes": "d'environ 750 g"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1/2 cuillère à café de persil ou de thym séché",
+            "quantity": {
+              "raw": "1/2 cuillère à café",
+              "value": 0.5,
+              "unit": "cuillère à café",
+              "scalable": true
+            },
+            "name": "de persil ou de thym",
+            "notes": "séché"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "Sel et poivre du moulin",
+            "quantity": null,
+            "name": "Sel et poivre du moulin",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "2 gousses d'ail écrasées",
+            "quantity": {
+              "raw": "2 gousses",
+              "value": 2,
+              "unit": "gousses",
+              "scalable": true
+            },
+            "name": "d'ail",
+            "notes": "écrasées"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "3 cuillères à soupe d'huile végétale",
+            "quantity": {
+              "raw": "3 cuillères à soupe",
+              "value": 3,
+              "unit": "cuillères à soupe",
+              "scalable": true
+            },
+            "name": "d'huile végétale",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "12 fines tranches de bacon",
+            "quantity": {
+              "raw": "12 fines tranches",
+              "value": 12,
+              "unit": "fines tranches",
+              "scalable": true
+            },
+            "name": "de bacon",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 kg de pommes de terre lavées et coupées en morceaux",
+            "quantity": {
+              "raw": "1 kg",
+              "value": 1,
+              "unit": "kg",
+              "scalable": true
+            },
+            "name": "de pommes de terre",
+            "notes": "lavées et coupées en morceaux"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 190°C (thermostat 6/7). Dans un plat allant au four, mélanger le persil, le thym, l'ail, le sel. le poivre et l'huile. Badigeonner la viande de tous les côtés avec ce mélange.",
+            "mediaId": "wordpress-attachment:6818"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Envelopper la viande de tranches de bacon en les superposant légèrement.",
+            "mediaId": "wordpress-attachment:6819"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Mettre les pommes de terre dans le plat autour de viande. Éplucher les pommes de terre ou pas - à vous de décider. Couper les pommes de terre en 2 ou en quatre en fonction de la taille. Il faut que les pommes de terre soient prêtes en même temps que la viande.",
+            "mediaId": "wordpress-attachment:6820"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Faire cuire au four pendant 45-55 minutes. Arroser régulièrement le filet et les pommes de terre avec le jus de cuisson.",
+            "mediaId": "wordpress-attachment:6821"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "La viande est prête quand elle est bien cuite à l'intérieur et le bacon est doré et croustillant.",
+            "mediaId": "wordpress-attachment:6823"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:6822",
+      "sourceId": "6822",
+      "path": "/recipes/media/wordpress/6822.png",
+      "alt": "Свинина запеченная в беконе",
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6818",
+      "sourceId": "6818",
+      "path": "/recipes/media/wordpress/6818.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6819",
+      "sourceId": "6819",
+      "path": "/recipes/media/wordpress/6819.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6820",
+      "sourceId": "6820",
+      "path": "/recipes/media/wordpress/6820.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6821",
+      "sourceId": "6821",
+      "path": "/recipes/media/wordpress/6821.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:6823",
+      "sourceId": "6823",
+      "path": "/recipes/media/wordpress/6823.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

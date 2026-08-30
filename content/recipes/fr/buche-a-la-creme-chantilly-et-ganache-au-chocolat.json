@@ -1,0 +1,971 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22224",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:8303",
+  "slug": "buche-a-la-creme-chantilly-et-ganache-au-chocolat",
+  "source": {
+    "system": "wordpress",
+    "postId": "22224",
+    "recipeId": "22224",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-buche-a-la-creme-chantilly-et-ganache-au-chocolat",
+    "createdAt": "2024-12-09T01:10:00+00:00",
+    "modifiedAt": "2026-02-14T01:28:15+00:00",
+    "editorialPostId": "13263",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "buche-a-la-creme-chantilly-et-ganache-au-chocolat",
+    "editorialCreatedAt": "2024-12-09T01:10:00+00:00",
+    "editorialModifiedAt": "2026-02-14T00:58:54+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/fr/buche-a-la-creme-chantilly-et-ganache-au-chocolat/"
+  ],
+  "title": "Bûche à la crème chantilly et ganache au chocolat",
+  "description": "Bûche à la crème chantilly et ganache au chocolat: un excellent dessert pour les fêtes de fin d'annee.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Voici la bûche fourrée à la crème chantilly et entièrement recouverte de ganache au chocolat noir. Quel délice pour les fêtes !</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Pourquoi l'acheter si on peut la préparer à la maison ? Il n'y aucun ingrédient difficile. Et pour la décoration, vous pouvez laisser aller votre imagination. Par exemple, des petites figurines en chocolats, des <a href=\"https://mycafegourmand.com/fr/recipe/meringues-francaises\">meringues</a> ou juste du cacao en poudre...</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22224,\"template\":\"chic-template-french\",\"updated\":1766278420593} -->\n<!--WPRM Recipe 22224-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Bûche à la crème chantilly et ganache au chocolat</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5690-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Bûche à la crème chantilly et ganache au chocolat: un excellent dessert pour les fêtes de fin d&#039;annee.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Sirop de sucre</h4><ul><li>150 g de sucre en poudre</li><li>300 ml d'eau</li></ul><h4>Ganache au chocolat</h4><ul><li>200 ml de crème liquide entière</li><li>200 g de chocolat noir (60-70 % cacao)</li><li>15 g de beurre</li></ul><h4>Biscuit au chocolat  </h4><ul><li>4 œufs ((à la température ambiante))</li><li>120 g de sucre en poudre</li><li>120 g de farine tamisée</li><li>1 cuillère à soupe de cacao amer</li></ul><h4>Crème chantilly</h4><ul><li>250 ml de crème liquide entière (très froide)</li><li>100 g de mascarpone</li><li>1,25 cuillère à soupe de sucre en poudre</li></ul><h4>Pour décorer</h4><ul><li>Quelques meringues, morceaux de chocolat ou figurines en chocolat</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Sirop de sucre</h4><ol><li>Dans une petite casserole, mettre le sucre et l'eau. Porter à ébullition et laisser cuire pendant quelques minutes. Retirer la casserole du feu. Laisser refroidir. Ajouter éventuellement la vanille ou le Grand-Marnier.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8487.Blog_-150x150.png\"/><br /></li></ol><h4>Biscuit au chocolat</h4><ol><li>Préchauffer le four à 180°C (thermostat 6). Tapisser une grande plaque à pâtisserie avec une feuille de papier sulfurisé. </li><li>Battre les œufs avec le sucre. La préparation doit tripler le volume. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4328.Blog_-150x150.png\"/><br /></li><li>Ajouter la farine et le cacao tamisés. Mélanger délicatement avec une maryse.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5490.Blog_-150x150.png\"/><br /></li><li>Verser la pâte sur la plaque recouverte de papier sulfurisé, égaliser la surface et faire cuire au four pendant 7 à 8 minutes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5494.Blog_-150x150.png\"/><br /></li><li>Sortir le biscuit du four, le retourner sur une autre grande feuille de papier sulfurisé, retirer le papier de cuisson. Couvrir avec un torchon propre et laisser refroidir.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_8481.Blog_-150x150.png\"/><br /></li></ol><h4>Ganache au chocolat  </h4><ol><li>Faire bouillir la crème liquide et la verser sur le chocolat. Attendre 1 minute. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_4379.Blog_-150x150.png\"/><br /></li><li>Mélanger pour obtenir une préparation homogène.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_6958.Blog_-150x150.png\"/><br /></li><li>Ajouter le beurre et bien mélanger. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_6959.Blog_-150x150.png\"/><br /></li><li>Laisser la ganache refroidir pendant environ 30 minutes au réfrigérateur. Mélanger régulièrement pour vérifier la consistence de la ganache : elle ne doit plus être liquide mais rester souple.</li></ol><h4>Crème chantilly </h4><ol><li>Dans une jatte, mettre en même temps la crème liquide froide et le mascarpone froid. Battre en chantilly en ajoutant le sucre en poudre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5501.Blog_-150x150.png\"/><br /></li></ol><h4>Assemblage</h4><ol><li>Badigeonner le biscuit avec le sirop de sucre.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5496.Blog_-150x150.png\"/><br /></li><li>Étaler la crème chantilly sur toute la surface du biscuit.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5504.Blog_-150x150.png\"/><br /></li><li>Enrouler.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5654.Blog_-150x150.png\"/><br /></li><li>L'envelopper dans un film plastique alimentaire en serrant bien. Placer au réfrigérateur en attendant que la ganache au chocolat soit prête à étaler.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5655.Blog_-150x150.png\"/><br /></li><li>Sortir la bûche du réfrigérateur, enlever le film plastique et placer la bûche sur un plat de service. Étaler la ganache sur toute la surface de gâteau en formant le relief de la bûche en faisant des rainures avec une fourchette, par exemple. Remettre le dessert au réfrigérateur pendant environ 6 heures.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5661.Blog_-150x150.png\"/><br /></li><li>Avant de servir, saupoudrer la bûche de sucre glace et/ou de cacao amer et décorer avec des petites figurines de Noël, des meringues ou des chocolats.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/11/IMG_5797-2.Blog_.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t<ul>\n<li> </li>\n</ul>\n\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div><div class=\"wprm-fallback-recipe-meta-cuisine\">Français, française, French</div><div class=\"wprm-fallback-recipe-meta-keyword\">buche, Bûche à la crème chantilly et ganache au chocolat, christmas, Mousse au chocolat noir, noel, yule log</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": "La bûche à la crème chantilly et ganache au chocolat: le grand classique des fêtes. Pourquoi l'acheter si on peut la préparer à la maison ?"
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "27176",
+      "sourceTaxonomyId": "27176",
+      "name": "Dessert",
+      "slug": "dessert-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27326",
+      "sourceTaxonomyId": "27326",
+      "name": "Français",
+      "slug": "francais-en-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27329",
+      "sourceTaxonomyId": "27329",
+      "name": "française",
+      "slug": "francaise-en-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_cuisine",
+      "sourceId": "27332",
+      "sourceTaxonomyId": "27332",
+      "name": "French",
+      "slug": "french-en-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24319",
+      "sourceTaxonomyId": "24319",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24469",
+      "sourceTaxonomyId": "24469",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24481",
+      "sourceTaxonomyId": "24481",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24514",
+      "sourceTaxonomyId": "24514",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24538",
+      "sourceTaxonomyId": "24538",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24647",
+      "sourceTaxonomyId": "24647",
+      "name": "de chocolat noir (60-70 % cacao)",
+      "slug": "de-chocolat-noir-60-70-cacao"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24688",
+      "sourceTaxonomyId": "24688",
+      "name": "de mascarpone",
+      "slug": "de-mascarpone"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24794",
+      "sourceTaxonomyId": "24794",
+      "name": "de cacao amer",
+      "slug": "de-cacao-amer"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24795",
+      "sourceTaxonomyId": "24795",
+      "name": "meringues, morceaux de chocolat ou figurines en chocolat",
+      "slug": "meringues-morceaux-de-chocolat-ou-figurines-en-chocolat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25419",
+      "sourceTaxonomyId": "25419",
+      "name": "g",
+      "slug": "g"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25454",
+      "sourceTaxonomyId": "25454",
+      "name": "ml",
+      "slug": "ml"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25455",
+      "sourceTaxonomyId": "25455",
+      "name": "cuillère à soupe",
+      "slug": "cuillere-a-soupe"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27335",
+      "sourceTaxonomyId": "27335",
+      "name": "buche",
+      "slug": "buche-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27338",
+      "sourceTaxonomyId": "27338",
+      "name": "Bûche à la crème chantilly et ganache au chocolat",
+      "slug": "buche-a-la-creme-chantilly-et-ganache-au-chocolat-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27341",
+      "sourceTaxonomyId": "27341",
+      "name": "christmas",
+      "slug": "christmas-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27344",
+      "sourceTaxonomyId": "27344",
+      "name": "Mousse au chocolat noir",
+      "slug": "mousse-au-chocolat-noir-en-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27347",
+      "sourceTaxonomyId": "27347",
+      "name": "noel",
+      "slug": "noel-fr"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_keyword",
+      "sourceId": "27350",
+      "sourceTaxonomyId": "27350",
+      "name": "yule log",
+      "slug": "yule-log-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "242",
+      "sourceTaxonomyId": "242",
+      "name": "de beurre",
+      "slug": "de-beurre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "380",
+      "sourceTaxonomyId": "380",
+      "name": "de sucre en poudre",
+      "slug": "de-sucre-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "549",
+      "sourceTaxonomyId": "549",
+      "name": "de mascarpone",
+      "slug": "de-mascarpone"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "705",
+      "sourceTaxonomyId": "705",
+      "name": "de crème liquide entière",
+      "slug": "de-creme-liquide-entiere"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1032",
+      "sourceTaxonomyId": "1032",
+      "name": "d'eau",
+      "slug": "deau"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3996",
+      "sourceTaxonomyId": "3996",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "6790",
+      "sourceTaxonomyId": "6790",
+      "name": "de chocolat noir (60-70 % cacao)",
+      "slug": "de-chocolat-noir-60-70-cacao"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8287",
+      "sourceTaxonomyId": "8287",
+      "name": "de cacao amer",
+      "slug": "de-cacao-amer"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "8289",
+      "sourceTaxonomyId": "8289",
+      "name": "meringues, morceaux de chocolat ou figurines en chocolat",
+      "slug": "meringues-morceaux-de-chocolat-ou-figurines-en-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1502",
+      "sourceTaxonomyId": "1502",
+      "name": "creme liquide",
+      "slug": "creme-liquide"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1524",
+      "sourceTaxonomyId": "1524",
+      "name": "mascarpone",
+      "slug": "mascarpone-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1552",
+      "sourceTaxonomyId": "1552",
+      "name": "chocolat",
+      "slug": "chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3102",
+      "sourceTaxonomyId": "3102",
+      "name": "oeufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3271",
+      "sourceTaxonomyId": "3271",
+      "name": "farine",
+      "slug": "farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3473",
+      "sourceTaxonomyId": "3473",
+      "name": "cacao en poudre",
+      "slug": "cacao-en-poudre"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6641",
+      "sourceTaxonomyId": "6641",
+      "name": "simple et bon",
+      "slug": "simple-et-bon"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6926",
+      "sourceTaxonomyId": "6926",
+      "name": "enfants adorent",
+      "slug": "enfants-adorent"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6962",
+      "sourceTaxonomyId": "6962",
+      "name": "ganache au chocolat",
+      "slug": "ganache-au-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8277",
+      "sourceTaxonomyId": "8277",
+      "name": "buche de noel",
+      "slug": "buche-de-noel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8279",
+      "sourceTaxonomyId": "8279",
+      "name": "table de fete",
+      "slug": "table-de-fete"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8281",
+      "sourceTaxonomyId": "8281",
+      "name": "gateau roule",
+      "slug": "gateau-roule"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8283",
+      "sourceTaxonomyId": "8283",
+      "name": "creme chantilly",
+      "slug": "creme-chantilly"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8285",
+      "sourceTaxonomyId": "8285",
+      "name": "dessert pour l'hiver",
+      "slug": "dessert-pour-lhiver"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8308",
+      "sourceTaxonomyId": "8308",
+      "name": "Noël",
+      "slug": "noel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "25612",
+      "sourceTaxonomyId": "25612",
+      "name": "gourmand",
+      "slug": "gourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26528",
+      "sourceTaxonomyId": "26528",
+      "name": "gournande",
+      "slug": "gournande"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 personnes",
+      "value": 10,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "nutrition": {
+      "calories": {
+        "raw": "0.5",
+        "value": 0.5
+      },
+      "servingSize": {
+        "raw": "40",
+        "value": 40
+      },
+      "servingUnit": "g"
+    },
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "76",
+        "minutes": 76
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:13282",
+    "ingredientGroups": [
+      {
+        "name": "Sirop de sucre",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "150 g de sucre en poudre",
+            "quantity": {
+              "raw": "150 g",
+              "value": 150,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "300 ml d'eau",
+            "quantity": {
+              "raw": "300 ml",
+              "value": 300,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "d'eau",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Ganache au chocolat",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 ml de crème liquide entière",
+            "quantity": {
+              "raw": "200 ml",
+              "value": 200,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g de chocolat noir (60-70 % cacao)",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de chocolat noir (60-70 % cacao)",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "15 g de beurre",
+            "quantity": {
+              "raw": "15 g",
+              "value": 15,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Biscuit au chocolat",
+        "sourceIndex": 2,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "4 œufs (à la température ambiante)",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": "(à la température ambiante)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "120 g de sucre en poudre",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "120 g de farine tamisée",
+            "quantity": {
+              "raw": "120 g",
+              "value": 120,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine tamisée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 cuillère à soupe de cacao amer",
+            "quantity": {
+              "raw": "1 cuillère à soupe",
+              "value": 1,
+              "unit": "cuillère à soupe",
+              "scalable": true
+            },
+            "name": "de cacao amer",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Crème chantilly",
+        "sourceIndex": 3,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "250 ml de crème liquide entière très froide",
+            "quantity": {
+              "raw": "250 ml",
+              "value": 250,
+              "unit": "ml",
+              "scalable": true
+            },
+            "name": "de crème liquide entière",
+            "notes": "très froide"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "100 g de mascarpone",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de mascarpone",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1,25 cuillère à soupe de sucre en poudre",
+            "quantity": {
+              "raw": "1,25 cuillère à soupe",
+              "unit": "cuillère à soupe",
+              "scalable": false
+            },
+            "name": "de sucre en poudre",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Pour décorer",
+        "sourceIndex": 4,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "Quelques meringues, morceaux de chocolat ou figurines en chocolat",
+            "quantity": {
+              "raw": "Quelques",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "meringues, morceaux de chocolat ou figurines en chocolat",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Sirop de sucre",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une petite casserole, mettre le sucre et l'eau. Porter à ébullition et laisser cuire pendant quelques minutes. Retirer la casserole du feu. Laisser refroidir. Ajouter éventuellement la vanille ou le Grand-Marnier.",
+            "mediaId": "wordpress-attachment:13289"
+          }
+        ]
+      },
+      {
+        "name": "Biscuit au chocolat",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C (thermostat 6). Tapisser une grande plaque à pâtisserie avec une feuille de papier sulfurisé.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Battre les œufs avec le sucre. La préparation doit tripler le volume.",
+            "mediaId": "wordpress-attachment:13287"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter la farine et le cacao tamisés. Mélanger délicatement avec une maryse.",
+            "mediaId": "wordpress-attachment:13274"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Verser la pâte sur la plaque recouverte de papier sulfurisé, égaliser la surface et faire cuire au four pendant 7 à 8 minutes.",
+            "mediaId": "wordpress-attachment:13275"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sortir le biscuit du four, le retourner sur une autre grande feuille de papier sulfurisé, retirer le papier de cuisson. Couvrir avec un torchon propre et laisser refroidir.",
+            "mediaId": "wordpress-attachment:13292"
+          }
+        ]
+      },
+      {
+        "name": "Ganache au chocolat",
+        "sourceIndex": 2,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Faire bouillir la crème liquide et la verser sur le chocolat. Attendre 1 minute.",
+            "mediaId": "wordpress-attachment:13286"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Mélanger pour obtenir une préparation homogène.",
+            "mediaId": "wordpress-attachment:13290"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter le beurre et bien mélanger.",
+            "mediaId": "wordpress-attachment:13291"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Laisser la ganache refroidir pendant environ 30 minutes au réfrigérateur. Mélanger régulièrement pour vérifier la consistence de la ganache : elle ne doit plus être liquide mais rester souple.",
+            "mediaId": null
+          }
+        ]
+      },
+      {
+        "name": "Crème chantilly",
+        "sourceIndex": 3,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Dans une jatte, mettre en même temps la crème liquide froide et le mascarpone froid. Battre en chantilly en ajoutant le sucre en poudre.",
+            "mediaId": "wordpress-attachment:13277"
+          }
+        ]
+      },
+      {
+        "name": "Assemblage",
+        "sourceIndex": 4,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Badigeonner le biscuit avec le sirop de sucre.",
+            "mediaId": "wordpress-attachment:13276"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Étaler la crème chantilly sur toute la surface du biscuit.",
+            "mediaId": "wordpress-attachment:13278"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Enrouler.",
+            "mediaId": "wordpress-attachment:13279"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "L'envelopper dans un film plastique alimentaire en serrant bien. Placer au réfrigérateur en attendant que la ganache au chocolat soit prête à étaler.",
+            "mediaId": "wordpress-attachment:13280"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Sortir la bûche du réfrigérateur, enlever le film plastique et placer la bûche sur un plat de service. Étaler la ganache sur toute la surface de gâteau en formant le relief de la bûche en faisant des rainures avec une fourchette, par exemple. Remettre le dessert au réfrigérateur pendant environ 6 heures.",
+            "mediaId": "wordpress-attachment:13281"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Avant de servir, saupoudrer la bûche de sucre glace et/ou de cacao amer et décorer avec des petites figurines de Noël, des meringues ou des chocolats.",
+            "mediaId": "wordpress-attachment:13283"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:13282",
+      "sourceId": "13282",
+      "path": "/recipes/media/wordpress/13282.png",
+      "alt": "Bûche à la crème chantilly et ganache au chocolat",
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13289",
+      "sourceId": "13289",
+      "path": "/recipes/media/wordpress/13289.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13287",
+      "sourceId": "13287",
+      "path": "/recipes/media/wordpress/13287.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13274",
+      "sourceId": "13274",
+      "path": "/recipes/media/wordpress/13274.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13275",
+      "sourceId": "13275",
+      "path": "/recipes/media/wordpress/13275.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13292",
+      "sourceId": "13292",
+      "path": "/recipes/media/wordpress/13292.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13286",
+      "sourceId": "13286",
+      "path": "/recipes/media/wordpress/13286.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13290",
+      "sourceId": "13290",
+      "path": "/recipes/media/wordpress/13290.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13291",
+      "sourceId": "13291",
+      "path": "/recipes/media/wordpress/13291.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13277",
+      "sourceId": "13277",
+      "path": "/recipes/media/wordpress/13277.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13276",
+      "sourceId": "13276",
+      "path": "/recipes/media/wordpress/13276.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13278",
+      "sourceId": "13278",
+      "path": "/recipes/media/wordpress/13278.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13279",
+      "sourceId": "13279",
+      "path": "/recipes/media/wordpress/13279.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13280",
+      "sourceId": "13280",
+      "path": "/recipes/media/wordpress/13280.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13281",
+      "sourceId": "13281",
+      "path": "/recipes/media/wordpress/13281.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:13283",
+      "sourceId": "13283",
+      "path": "/recipes/media/wordpress/13283.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

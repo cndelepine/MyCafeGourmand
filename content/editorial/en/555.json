@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "editorial-page",
+  "id": "wordpress:page:555",
+  "locale": "en",
+  "canonicalPath": "/table-setting/summer/",
+  "translationGroupId": "wordpress:post-translations:152",
+  "source": {
+    "system": "wordpress",
+    "postId": 555,
+    "sourcePath": "/table-setting/summer/",
+    "sourceSlug": "summer",
+    "createdAt": "2017-12-31T03:31:34Z",
+    "modifiedAt": "2018-01-19T02:52:15Z"
+  },
+  "title": "Summer",
+  "excerpt": null,
+  "publishedAt": "2017-12-31T03:31:34Z",
+  "modifiedAt": "2018-01-19T02:52:15Z",
+  "content": [
+    {
+      "type": "emptyCardGrid",
+      "reason": "source-category-missing"
+    }
+  ],
+  "featuredMediaId": "wordpress:attachment:496",
+  "featuredMediaAlt": null,
+  "media": [
+    {
+      "id": "wordpress:attachment:496",
+      "path": "/editorial/media/wordpress/496.png",
+      "source": {
+        "system": "wordpress",
+        "attachmentId": 496
+      },
+      "mimeType": "image/png",
+      "width": null,
+      "height": null
+    }
+  ],
+  "redirectFrom": []
+}

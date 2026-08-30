@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21247",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:7528",
+  "slug": "pumpkin-soup",
+  "source": {
+    "system": "wordpress",
+    "postId": "21247",
+    "recipeId": "21247",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-pumpkin-soup",
+    "createdAt": "2024-10-01T02:31:00+00:00",
+    "modifiedAt": "2026-02-14T00:58:16+00:00",
+    "editorialPostId": "12829",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "pumpkin-soup",
+    "editorialCreatedAt": "2024-10-01T02:31:00+00:00",
+    "editorialModifiedAt": "2026-02-14T00:57:10+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/pumpkin-soup/"
+  ],
+  "title": "Pumpkin Soup",
+  "description": "This soup is delicious and silky even without any cream. I add very little, just to make it look beautiful.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>French recipe for a silky and smooth Pumpkin Soup with two main ingredients. Healthy, colorful, and easy to make. If you have a blender, you have to try this recipe as soon as pumpkins are in season.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>To impress your guests, serve this soup in individual pumpkins.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21247,\"template\":\"chic-template-english\",\"updated\":1759381622088} -->\n<!--WPRM Recipe 21247-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Pumpkin Soup</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3174.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tThis soup is delicious and silky even without any cream. I add very little, just to make it look beautiful.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 leeks ((white part only))</li><li>1 medium pie pumpkin or sugar pumpkin ((about 1.5 kg))</li><li>4 Tbsp olive oil</li><li>Salt and freshly ground black pepper</li><li>Some heavy whipping cream or sour cream ((optional))</li><li>Some fresh herbs (cilantro, green onion, parsley) (to garnish)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Wash and chop the leeks.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_224123.Blog_-150x150.png\"/><br /></li><li>Wash the pumpkin and cut it in half horizontally. Scrape the inside of the pumpkin clean with the spoon or ice cream scoop (you can use the seeds for another recipe).\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_225215.Blog_-150x150.png\"/><br /></li><li>Peel and cut into regular cubes.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180920_231440.Blog_-150x150.png\"/><br /></li><li>In a large skillet, heat the olive oil over medium heat. Cook and stir leeks until they are soft and translucent, about 5 minutes. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_185635.Blog_-150x150.png\"/><br /></li><li>Add pumpkin cubes and cook for 5-7 more minutes. Stir occasionally.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_185829.Blog_-150x150.png\"/><br /></li><li>Transfer the veggies into a large pot. Add just enough water to cover them, and bring to a boil. Add salt and pepper. Simmer about 15 minutes until the pumpkin is cooked.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_190527.Blog_-150x150.png\"/><br /></li><li>Puree the soup with an immersion blender or in a food processor. Add a little more boiling water if the soup is too thick. Taste for flavor, and feel free to add more salt or pepper.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_192320.Blog_-150x150.png\"/><br /></li><li>Serve hot, with sour or heavy whipping cream and fresh herbs.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/20180923_202056.Blog_-150x150.png\"/><br /></li></ol><h4>For a special presentation:</h4><ol><li>Cut off the top of a small pumpkin and scrape the inside.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3153.Blog_-150x150.png\"/><br /></li><li>Before adding the soup, heat the pumpkin for few minutes in the oven, then add the hot soup and serve immediately. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/09/IMG_3163.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soup</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23533",
+      "sourceTaxonomyId": "23533",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24106",
+      "sourceTaxonomyId": "24106",
+      "name": "fresh herbs (cilantro, green onion, parsley)",
+      "slug": "fresh-herbs-cilantro-green-onion-parsley"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24112",
+      "sourceTaxonomyId": "24112",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24127",
+      "sourceTaxonomyId": "24127",
+      "name": "leeks",
+      "slug": "leeks"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24128",
+      "sourceTaxonomyId": "24128",
+      "name": "medium pie pumpkin or sugar pumpkin",
+      "slug": "medium-pie-pumpkin-or-sugar-pumpkin"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24129",
+      "sourceTaxonomyId": "24129",
+      "name": "heavy whipping cream or sour cream",
+      "slug": "heavy-whipping-cream-or-sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "96",
+      "sourceTaxonomyId": "96",
+      "name": "Soups",
+      "slug": "soups"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1190",
+      "sourceTaxonomyId": "1190",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "511",
+      "sourceTaxonomyId": "511",
+      "name": "Salt and freshly ground black pepper",
+      "slug": "salt-and-freshly-ground-black-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1014",
+      "sourceTaxonomyId": "1014",
+      "name": "leeks",
+      "slug": "leeks"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7451",
+      "sourceTaxonomyId": "7451",
+      "name": "fresh herbs (cilantro, green onion, parsley)",
+      "slug": "fresh-herbs-cilantro-green-onion-parsley"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7569",
+      "sourceTaxonomyId": "7569",
+      "name": "heavy whipping cream or sour cream",
+      "slug": "heavy-whipping-cream-or-sour-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7625",
+      "sourceTaxonomyId": "7625",
+      "name": "medium pie pumpkin or sugar pumpkin",
+      "slug": "medium-pie-pumpkin-or-sugar-pumpkin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2203",
+      "sourceTaxonomyId": "2203",
+      "name": "step-by-step pictures",
+      "slug": "step-by-step-pictures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3002",
+      "sourceTaxonomyId": "3002",
+      "name": "gluten free",
+      "slug": "gluten-free"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3128",
+      "sourceTaxonomyId": "3128",
+      "name": "fall soup",
+      "slug": "fall-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4226",
+      "sourceTaxonomyId": "4226",
+      "name": "easy to make",
+      "slug": "easy-to-make"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4240",
+      "sourceTaxonomyId": "4240",
+      "name": "creamy",
+      "slug": "creamy"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4325",
+      "sourceTaxonomyId": "4325",
+      "name": "veloute",
+      "slug": "veloute-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4351",
+      "sourceTaxonomyId": "4351",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5303",
+      "sourceTaxonomyId": "5303",
+      "name": "french recipe",
+      "slug": "french-recipe"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7571",
+      "sourceTaxonomyId": "7571",
+      "name": "pureed soup",
+      "slug": "pureed-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7573",
+      "sourceTaxonomyId": "7573",
+      "name": "leek",
+      "slug": "leek"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7575",
+      "sourceTaxonomyId": "7575",
+      "name": "pumpkin",
+      "slug": "pumpkin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7581",
+      "sourceTaxonomyId": "7581",
+      "name": "healthy pureed soup",
+      "slug": "healthy-pureed-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7583",
+      "sourceTaxonomyId": "7583",
+      "name": "thanksgiving",
+      "slug": "thanksgiving"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7585",
+      "sourceTaxonomyId": "7585",
+      "name": "halloween",
+      "slug": "halloween"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7589",
+      "sourceTaxonomyId": "7589",
+      "name": "without any cream",
+      "slug": "without-any-cream"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7621",
+      "sourceTaxonomyId": "7621",
+      "name": "pie pumpkin",
+      "slug": "pie-pumpkin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7623",
+      "sourceTaxonomyId": "7623",
+      "name": "sugar pumpkin",
+      "slug": "sugar-pumpkin"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "23107",
+      "sourceTaxonomyId": "23107",
+      "name": "gourmand",
+      "slug": "gourmand"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "50",
+        "minutes": 50
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12804",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 leeks (white part only)",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "leeks",
+            "notes": "(white part only)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "1 medium pie pumpkin or sugar pumpkin (about 1.5 kg)",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "medium pie pumpkin or sugar pumpkin",
+            "notes": "(about 1.5 kg)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 Tbsp olive oil",
+            "quantity": {
+              "raw": "4 Tbsp",
+              "value": 4,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "Salt and freshly ground black pepper",
+            "quantity": null,
+            "name": "Salt and freshly ground black pepper",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "Some heavy whipping cream or sour cream (optional)",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "heavy whipping cream or sour cream",
+            "notes": "(optional)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "Some fresh herbs (cilantro, green onion, parsley) to garnish",
+            "quantity": {
+              "raw": "Some",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "fresh herbs (cilantro, green onion, parsley)",
+            "notes": "to garnish"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Wash and chop the leeks.",
+            "mediaId": "wordpress-attachment:12810"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Wash the pumpkin and cut it in half horizontally. Scrape the inside of the pumpkin clean with the spoon or ice cream scoop (you can use the seeds for another recipe).",
+            "mediaId": "wordpress-attachment:12805"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Peel and cut into regular cubes.",
+            "mediaId": "wordpress-attachment:12806"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "In a large skillet, heat the olive oil over medium heat. Cook and stir leeks until they are soft and translucent, about 5 minutes.",
+            "mediaId": "wordpress-attachment:12807"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Add pumpkin cubes and cook for 5-7 more minutes. Stir occasionally.",
+            "mediaId": "wordpress-attachment:12808"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Transfer the veggies into a large pot. Add just enough water to cover them, and bring to a boil. Add salt and pepper. Simmer about 15 minutes until the pumpkin is cooked.",
+            "mediaId": "wordpress-attachment:12809"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Puree the soup with an immersion blender or in a food processor. Add a little more boiling water if the soup is too thick. Taste for flavor, and feel free to add more salt or pepper.",
+            "mediaId": "wordpress-attachment:12800"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Serve hot, with sour or heavy whipping cream and fresh herbs.",
+            "mediaId": "wordpress-attachment:12801"
+          }
+        ]
+      },
+      {
+        "name": "For a special presentation:",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut off the top of a small pumpkin and scrape the inside.",
+            "mediaId": "wordpress-attachment:12802"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Before adding the soup, heat the pumpkin for few minutes in the oven, then add the hot soup and serve immediately.",
+            "mediaId": "wordpress-attachment:12803"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12804",
+      "sourceId": "12804",
+      "path": "/recipes/media/wordpress/12804.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12810",
+      "sourceId": "12810",
+      "path": "/recipes/media/wordpress/12810.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12805",
+      "sourceId": "12805",
+      "path": "/recipes/media/wordpress/12805.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12806",
+      "sourceId": "12806",
+      "path": "/recipes/media/wordpress/12806.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12807",
+      "sourceId": "12807",
+      "path": "/recipes/media/wordpress/12807.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12808",
+      "sourceId": "12808",
+      "path": "/recipes/media/wordpress/12808.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12809",
+      "sourceId": "12809",
+      "path": "/recipes/media/wordpress/12809.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12800",
+      "sourceId": "12800",
+      "path": "/recipes/media/wordpress/12800.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12801",
+      "sourceId": "12801",
+      "path": "/recipes/media/wordpress/12801.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12802",
+      "sourceId": "12802",
+      "path": "/recipes/media/wordpress/12802.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12803",
+      "sourceId": "12803",
+      "path": "/recipes/media/wordpress/12803.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

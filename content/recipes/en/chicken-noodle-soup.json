@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21658",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:3341",
+  "slug": "chicken-noodle-soup",
+  "source": {
+    "system": "wordpress",
+    "postId": "21658",
+    "recipeId": "21658",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-chicken-noodle-soup",
+    "createdAt": "2018-03-19T06:31:33+00:00",
+    "modifiedAt": "2022-07-04T20:52:01+00:00",
+    "editorialPostId": "5511",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "chicken-noodle-soup",
+    "editorialCreatedAt": "2018-03-19T06:31:33+00:00",
+    "editorialModifiedAt": "2022-07-04T20:51:57+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/chicken-noodle-soup/"
+  ],
+  "title": "Chicken Noodle Soup",
+  "description": null,
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Chicken noodle soup has always been one of my favorite soups, for fall and winter. Every time I make this soup it makes the house smell deliciously welcoming. What make this soup special, is that I use <a href=\"https://mycafegourmand.com/recipe/homemade-egg-noodles\">Homemade noodles</a>. You can add store bough ones, but it just wouldn't taste the same. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21658,\"template\":\"chic-template-english\",\"updated\":1656967911302} -->\n<!--WPRM Recipe 21658-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Chicken Noodle Soup</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/20180302_210837.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 whole  chicken (throughly washed)</li><li>5 quarts cold (water)</li><li>1/2 onion</li><li>1 bay leaf (`)</li><li>1 tsp dried rosemary</li><li>1 Tbsp black peppercorns</li><li>1 cup homemade (noodles)</li><li>salt and pepper (to taste)</li><li>2 large  carrots (peeled and sliced)</li><li>Fresh dill</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Place the chicken in a large soup pot. Add water, onion, bay leaf, dried rosemary, black peppercorn and salt. Cover with lid, bring the water to boil and simmer over medium low heat.</li><li>If you see the scum on your broth, remove it with slotted spoon.</li><li>Cook for 90 minutes, until chicken is tender and easily comes off the bone. </li><li>Transfer chicken to a large dish.</li><li>Strain the broth into a large bowl.</li><li>Wash your soup pot and pour broth back to a pot.</li><li>Add carrots. Bring to a boil.</li><li>Add the homemade noodles to the pot, turn the heat up to high and boil noodles until tender (about 7 minutes).</li><li>Using two forks, pull the meat from the bone and shred it slightly. </li><li>Return the shredded chicken to the pot when there is about 2 minutes left for the noodles to cook.</li><li>Add fresh dill, salt and pepper to taste.</li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Soup</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23533",
+      "sourceTaxonomyId": "23533",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24113",
+      "sourceTaxonomyId": "24113",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24202",
+      "sourceTaxonomyId": "24202",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24426",
+      "sourceTaxonomyId": "24426",
+      "name": "chicken",
+      "slug": "chicken"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24427",
+      "sourceTaxonomyId": "24427",
+      "name": "cold",
+      "slug": "cold"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24428",
+      "sourceTaxonomyId": "24428",
+      "name": "bay leaf",
+      "slug": "bay-leaf"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24429",
+      "sourceTaxonomyId": "24429",
+      "name": "dried rosemary",
+      "slug": "dried-rosemary"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24430",
+      "sourceTaxonomyId": "24430",
+      "name": "black peppercorns",
+      "slug": "black-peppercorns"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24431",
+      "sourceTaxonomyId": "24431",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24432",
+      "sourceTaxonomyId": "24432",
+      "name": "dill",
+      "slug": "dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "96",
+      "sourceTaxonomyId": "96",
+      "name": "Soups",
+      "slug": "soups"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1190",
+      "sourceTaxonomyId": "1190",
+      "name": "Soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "582",
+      "sourceTaxonomyId": "582",
+      "name": "onion",
+      "slug": "onion"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1016",
+      "sourceTaxonomyId": "1016",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3078",
+      "sourceTaxonomyId": "3078",
+      "name": "chicken",
+      "slug": "chicken"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3080",
+      "sourceTaxonomyId": "3080",
+      "name": "cold",
+      "slug": "cold"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3082",
+      "sourceTaxonomyId": "3082",
+      "name": "bay leaf",
+      "slug": "bay-leaf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3084",
+      "sourceTaxonomyId": "3084",
+      "name": "dried rosemary",
+      "slug": "dried-rosemary"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3086",
+      "sourceTaxonomyId": "3086",
+      "name": "black peppercorns",
+      "slug": "black-peppercorns"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3088",
+      "sourceTaxonomyId": "3088",
+      "name": "dill",
+      "slug": "dill"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3246",
+      "sourceTaxonomyId": "3246",
+      "name": "homemade",
+      "slug": "homemade"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1192",
+      "sourceTaxonomyId": "1192",
+      "name": "soup",
+      "slug": "soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2846",
+      "sourceTaxonomyId": "2846",
+      "name": "homemade noodles",
+      "slug": "homemade-noodles"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2852",
+      "sourceTaxonomyId": "2852",
+      "name": "chicken",
+      "slug": "chicken"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2854",
+      "sourceTaxonomyId": "2854",
+      "name": "noodle",
+      "slug": "noodle"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3106",
+      "sourceTaxonomyId": "3106",
+      "name": "chicken noodles soup",
+      "slug": "chicken-noodles-soup"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3122",
+      "sourceTaxonomyId": "3122",
+      "name": "whole chicken",
+      "slug": "whole-chicken"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3124",
+      "sourceTaxonomyId": "3124",
+      "name": "chicken broth",
+      "slug": "chicken-broth"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4178",
+      "sourceTaxonomyId": "4178",
+      "name": "kids favorite",
+      "slug": "kids-favorite"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "10 servings",
+      "value": 10,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "cook": {
+        "raw": "1",
+        "minutes": 1
+      },
+      "rest": null,
+      "total": {
+        "raw": "21",
+        "minutes": 21
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:5554",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 whole chicken throughly washed",
+            "quantity": {
+              "raw": "1 whole",
+              "value": 1,
+              "unit": "whole",
+              "scalable": true
+            },
+            "name": "chicken",
+            "notes": "throughly washed"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "5 quarts cold water",
+            "quantity": {
+              "raw": "5 quarts",
+              "value": 5,
+              "unit": "quarts",
+              "scalable": true
+            },
+            "name": "cold",
+            "notes": "water"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1/2 onion",
+            "quantity": {
+              "raw": "1/2",
+              "value": 0.5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "onion",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 bay leaf `",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bay leaf",
+            "notes": "`"
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 tsp dried rosemary",
+            "quantity": {
+              "raw": "1 tsp",
+              "value": 1,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "dried rosemary",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1 Tbsp black peppercorns",
+            "quantity": {
+              "raw": "1 Tbsp",
+              "value": 1,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "black peppercorns",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1 cup homemade noodles",
+            "quantity": {
+              "raw": "1 cup",
+              "value": 1,
+              "unit": "cup",
+              "scalable": true
+            },
+            "name": "homemade",
+            "notes": "noodles"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "2 large carrots peeled and sliced",
+            "quantity": {
+              "raw": "2 large",
+              "value": 2,
+              "unit": "large",
+              "scalable": true
+            },
+            "name": "carrots",
+            "notes": "peeled and sliced"
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "Fresh dill",
+            "quantity": {
+              "raw": "Fresh",
+              "unit": "Fresh",
+              "scalable": false
+            },
+            "name": "dill",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Place the chicken in a large soup pot. Add water, onion, bay leaf, dried rosemary, black peppercorn and salt. Cover with lid, bring the water to boil and simmer over medium low heat.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "If you see the scum on your broth, remove it with slotted spoon.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Cook for 90 minutes, until chicken is tender and easily comes off the bone.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Transfer chicken to a large dish.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Strain the broth into a large bowl.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Wash your soup pot and pour broth back to a pot.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Add carrots. Bring to a boil.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Add the homemade noodles to the pot, turn the heat up to high and boil noodles until tender (about 7 minutes).",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Using two forks, pull the meat from the bone and shred it slightly.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Return the shredded chicken to the pot when there is about 2 minutes left for the noodles to cook.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 10,
+            "text": "Add fresh dill, salt and pepper to taste.",
+            "mediaId": null
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5554",
+      "sourceId": "5554",
+      "path": "/recipes/media/wordpress/5554.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

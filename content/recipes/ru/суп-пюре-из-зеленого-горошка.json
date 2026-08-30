@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22826",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:2841",
+  "slug": "суп-пюре-из-зеленого-горошка",
+  "source": {
+    "system": "wordpress",
+    "postId": "22826",
+    "recipeId": "22826",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d1%81%d1%83%d0%bf-%d0%bf%d1%8e%d1%80%d0%b5-%d0%b8%d0%b7-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0",
+    "createdAt": "2022-02-05T08:46:00+00:00",
+    "modifiedAt": "2024-03-10T06:58:26+00:00",
+    "editorialPostId": "5476",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d1%81%d1%83%d0%bf-%d0%bf%d1%8e%d1%80%d0%b5-%d0%b8%d0%b7-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0",
+    "editorialCreatedAt": "2022-02-05T08:46:00+00:00",
+    "editorialModifiedAt": "2024-03-10T06:58:22+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d1%81%d1%83%d0%bf-%d0%bf%d1%8e%d1%80%d0%b5-%d0%b8%d0%b7-%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d0%be%d0%b3%d0%be-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0/"
+  ],
+  "title": "Суп-пюре из зеленого горошка",
+  "description": "Приготовление супа-пюре занимает меньше времени, чем обычный суп \"кусочками\". Все ингредиенты режутся довольно крупно и можно не заботиться об их красоте, ведь суп будет перемалываться.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Суп из продуктов, которые найдутся в каждом доме. Куриное мясо можно заменить индейкой. Зеленый горошек подходит любой: замороженный, консервированный или свежий. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22826,\"template\":\"chic-template-russian\",\"updated\":1710053890258} -->\n<!--WPRM Recipe 22826-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Суп-пюре из зеленого горошка</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7970.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tПриготовление супа-пюре занимает меньше времени, чем обычный суп \"кусочками\". Все ингредиенты режутся довольно крупно и можно не заботиться об их красоте, ведь суп будет перемалываться.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>3 ст.л. оливкового масла</li><li>200 г куриного филе</li><li>1 луковица</li><li>5 картофелин</li><li>400 г замороженного зелёного горошка ((или консервированного))</li><li>1,5 л воды</li><li>Соль и молотый перец (по вкусу)</li><li>Немного сметаны</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Куриное филе порезать на кусочки. Лук почистить и порезать полукольцами. Картофель почистить и разрезать на 4 части.</li><li>Прямо в кастрюле, в которой будет вариться суп, разогреть оливковое масло. Обжарить кусочки мяса до золотистого цвета. Добавить лук и тушить на маленьком огне примерно 5 минут, регулярно помешивая.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7956.Blog_-150x150.png\"/><br /></li><li> Добавить в кастрюлю картофель и налить воду. Довести до кипения.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7957.Blog_-150x150.png\"/><br /></li><li>Добавить замороженный или консервированный (без жидкости) горошек. Снова довести до кипения. Посолить и поперчить. Уменьшить огонь, накрыть крышкой и варить примерно 20 минут.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7958.Blog_-150x150.png\"/><br /></li><li>Перетереть блендером до однородности. Если суп получился слишком густым, добавить немного воды и довести до кипения. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7959.Blog_-150x150.png\"/><br /></li><li>Разлить суп по тарелкам, добавить ложечку сметаны. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_7967.Blog_-150x150.png\"/><br /></li><li> Если есть время и желание, можно сделать рисунок на поверхности супа. Для этого надо хорошо перемешать сметану, положить ее в мешочек (пакет зиплок), прорезать ножницами дырочку (1-2 мм) и дать волю воображению: сделать простой рисунок или надпись. 😉 <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/03/IMG_7965.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Супы</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24845",
+      "sourceTaxonomyId": "24845",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24827",
+      "sourceTaxonomyId": "24827",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24832",
+      "sourceTaxonomyId": "24832",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24851",
+      "sourceTaxonomyId": "24851",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24854",
+      "sourceTaxonomyId": "24854",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24871",
+      "sourceTaxonomyId": "24871",
+      "name": "Соль и молотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25169",
+      "sourceTaxonomyId": "25169",
+      "name": "куриного филе",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d0%be%d0%b3%d0%be-%d1%84%d0%b8%d0%bb%d0%b5"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25170",
+      "sourceTaxonomyId": "25170",
+      "name": "картофелин",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25171",
+      "sourceTaxonomyId": "25171",
+      "name": "замороженного зелёного горошка",
+      "slug": "%d0%b7%d0%b0%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b7%d0%b5%d0%bb%d1%91%d0%bd%d0%be%d0%b3%d0%be-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "94",
+      "sourceTaxonomyId": "94",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1862",
+      "sourceTaxonomyId": "1862",
+      "name": "Супы",
+      "slug": "%d1%81%d1%83%d0%bf%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "734",
+      "sourceTaxonomyId": "734",
+      "name": "оливкового масла",
+      "slug": "%d0%be%d0%bb%d0%b8%d0%b2%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "797",
+      "sourceTaxonomyId": "797",
+      "name": "луковица",
+      "slug": "%d0%bb%d1%83%d0%ba%d0%be%d0%b2%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "893",
+      "sourceTaxonomyId": "893",
+      "name": "сметаны",
+      "slug": "%d1%81%d0%bc%d0%b5%d1%82%d0%b0%d0%bd%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "985",
+      "sourceTaxonomyId": "985",
+      "name": "Соль и молотый перец",
+      "slug": "%d1%81%d0%be%d0%bb%d1%8c-%d0%b8-%d0%bc%d0%be%d0%bb%d0%be%d1%82%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%86"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1022",
+      "sourceTaxonomyId": "1022",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2874",
+      "sourceTaxonomyId": "2874",
+      "name": "куриного филе",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d0%be%d0%b3%d0%be-%d1%84%d0%b8%d0%bb%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2876",
+      "sourceTaxonomyId": "2876",
+      "name": "картофелин",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d0%b8%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2878",
+      "sourceTaxonomyId": "2878",
+      "name": "замороженного зелёного горошка",
+      "slug": "%d0%b7%d0%b0%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b7%d0%b5%d0%bb%d1%91%d0%bd%d0%be%d0%b3%d0%be-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1286",
+      "sourceTaxonomyId": "1286",
+      "name": "картофель",
+      "slug": "%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1556",
+      "sourceTaxonomyId": "1556",
+      "name": "суп",
+      "slug": "%d1%81%d1%83%d0%bf"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1638",
+      "sourceTaxonomyId": "1638",
+      "name": "горошек",
+      "slug": "%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%b5%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2880",
+      "sourceTaxonomyId": "2880",
+      "name": "суп-пюре",
+      "slug": "%d1%81%d1%83%d0%bf-%d0%bf%d1%8e%d1%80%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2882",
+      "sourceTaxonomyId": "2882",
+      "name": "зеленый горошек",
+      "slug": "%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd%d1%8b%d0%b9-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%b5%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2884",
+      "sourceTaxonomyId": "2884",
+      "name": "замороженный горошек",
+      "slug": "%d0%b7%d0%b0%d0%bc%d0%be%d1%80%d0%be%d0%b6%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%b5%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2886",
+      "sourceTaxonomyId": "2886",
+      "name": "консервированный горошек",
+      "slug": "%d0%ba%d0%be%d0%bd%d1%81%d0%b5%d1%80%d0%b2%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9-%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%b5%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2888",
+      "sourceTaxonomyId": "2888",
+      "name": "куриное мясо",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d0%bd%d0%be%d0%b5-%d0%bc%d1%8f%d1%81%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2890",
+      "sourceTaxonomyId": "2890",
+      "name": "курица",
+      "slug": "%d0%ba%d1%83%d1%80%d0%b8%d1%86%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4958",
+      "sourceTaxonomyId": "4958",
+      "name": "sup piure iz zelenogo goroshka",
+      "slug": "sup-piure-iz-zelenogo-goroshka"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4960",
+      "sourceTaxonomyId": "4960",
+      "name": "zamorozhennyi goroshek",
+      "slug": "zamorozhennyi-goroshek"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4962",
+      "sourceTaxonomyId": "4962",
+      "name": "kuriyi bulion",
+      "slug": "kuriyi-bulion"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "4 порции",
+      "value": 4,
+      "unit": "порции",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "35",
+        "minutes": 35
+      },
+      "rest": null,
+      "total": {
+        "raw": "45",
+        "minutes": 45
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:5391",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "3 ст.л. оливкового масла",
+            "quantity": {
+              "raw": "3 ст.л.",
+              "value": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "оливкового масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 г куриного филе",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "куриного филе",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "1 луковица",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "луковица",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "5 картофелин",
+            "quantity": {
+              "raw": "5",
+              "value": 5,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "картофелин",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "400 г замороженного зелёного горошка (или консервированного)",
+            "quantity": {
+              "raw": "400 г",
+              "value": 400,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "замороженного зелёного горошка",
+            "notes": "(или консервированного)"
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1,5 л воды",
+            "quantity": {
+              "raw": "1,5 л",
+              "unit": "л",
+              "scalable": false
+            },
+            "name": "воды",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "Соль и молотый перец по вкусу",
+            "quantity": null,
+            "name": "Соль и молотый перец",
+            "notes": "по вкусу"
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "Немного сметаны",
+            "quantity": {
+              "raw": "Немного",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "сметаны",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Куриное филе порезать на кусочки. Лук почистить и порезать полукольцами. Картофель почистить и разрезать на 4 части.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Прямо в кастрюле, в которой будет вариться суп, разогреть оливковое масло. Обжарить кусочки мяса до золотистого цвета. Добавить лук и тушить на маленьком огне примерно 5 минут, регулярно помешивая.",
+            "mediaId": "wordpress-attachment:5386"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Добавить в кастрюлю картофель и налить воду. Довести до кипения.",
+            "mediaId": "wordpress-attachment:5387"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Добавить замороженный или консервированный (без жидкости) горошек. Снова довести до кипения. Посолить и поперчить. Уменьшить огонь, накрыть крышкой и варить примерно 20 минут.",
+            "mediaId": "wordpress-attachment:5388"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Перетереть блендером до однородности. Если суп получился слишком густым, добавить немного воды и довести до кипения.",
+            "mediaId": "wordpress-attachment:5389"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Разлить суп по тарелкам, добавить ложечку сметаны.",
+            "mediaId": "wordpress-attachment:5390"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Если есть время и желание, можно сделать рисунок на поверхности супа. Для этого надо хорошо перемешать сметану, положить ее в мешочек (пакет зиплок), прорезать ножницами дырочку (1-2 мм) и дать волю воображению: сделать простой рисунок или надпись. 😉",
+            "mediaId": "wordpress-attachment:5593"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5391",
+      "sourceId": "5391",
+      "path": "/recipes/media/wordpress/5391.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5386",
+      "sourceId": "5386",
+      "path": "/recipes/media/wordpress/5386.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5387",
+      "sourceId": "5387",
+      "path": "/recipes/media/wordpress/5387.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5388",
+      "sourceId": "5388",
+      "path": "/recipes/media/wordpress/5388.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5389",
+      "sourceId": "5389",
+      "path": "/recipes/media/wordpress/5389.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5390",
+      "sourceId": "5390",
+      "path": "/recipes/media/wordpress/5390.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5593",
+      "sourceId": "5593",
+      "path": "/recipes/media/wordpress/5593.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:29387",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:27213",
+  "slug": "brookie-бруки",
+  "source": {
+    "system": "wordpress",
+    "postId": "29387",
+    "recipeId": "29387",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-brookies-2",
+    "createdAt": "2025-03-22T07:32:15+00:00",
+    "modifiedAt": "2025-03-23T07:39:05+00:00",
+    "editorialPostId": "29386",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "brookie-%d0%b1%d1%80%d1%83%d0%ba%d0%b8",
+    "editorialCreatedAt": "2025-03-22T07:32:15+00:00",
+    "editorialModifiedAt": "2025-03-23T07:39:02+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": true
+  },
+  "redirectFrom": [
+    "/ru/brookie-%d0%b1%d1%80%d1%83%d0%ba%d0%b8/"
+  ],
+  "title": "Brookies",
+  "description": "Бруки - наполовину брауни, наполовину печенье.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Бруки (Brookie) – амеркианский десерт brownie + cookie. Сочетание шоколадного пирога и хрустящего печенья с кусочками шоколада. Не очень полезно, но безумно вкусно!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Моя версия этого десерта: немного меньше сахара и соли, а шоколадная часть очень нежная, как мой любимый Французский шоколадный пирог.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":29387,\"template\":\"chic-template-russian\",\"updated\":1742715507976} -->\n<!--WPRM Recipe 29387-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Brookies</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6628.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\t<p>Бруки - наполовину брауни, наполовину печенье.</p>\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<h4>Тесто для брауни</h4><ul><li>100 г черного шоколада  ((60% какао))</li><li>75 г сливочного масла</li><li>3 яйца</li><li>100  г сахара</li><li>1 ст.л. муки</li></ul><h4>Тесто для печенья (кукис)</h4><ul><li>115 г размягченного сливочного масла</li><li>40 г сахара</li><li>50 г коричневого сахара</li><li>1 яйцо</li><li>165 г муки</li><li>1/8 ч.л. соли</li><li>1/2 ч.л. пищевой соды</li><li>1 ч.л. жидкой ванили (1/2 пакетика ванильного сахара) (по желанию)</li><li>150 г шоколадных капель (чипс)</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<h4>Тесто для брауни</h4><ol><li><p>Разогреть духовку до 180°C (термостат 6). Форму для выпечки смазать маслом и присыпать мукой.</p></li><li><p>Шоколад и кусочки сливочного масла растопить в микроволновке или на водяной бане. Хорошо перемешать до однородной массы.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_7863.Blog_-150x150.png\"/><br /></li><li><p>Добавить сахар и снова хорошо перемешать.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6599.Blog_-150x150.png\"/><br /></li><li><p>По одному, добавить яйца.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6601.Blog_-150x150.png\"/><br /></li><li><p>Добавить просеянную муку и хорошо перемешать последний раз.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6607.Blog_-150x150.png\"/><br /></li><li><p>Вылить тесто в подготовленную форму. </p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6609.Blog_-150x150.png\"/><br /></li></ol><h4>Тесто для печенья (кукис)</h4><ol><li><p>Миксером взбить масло с коричневым, белым и ванильным сахаром.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5525.Blog_-150x150.png\"/><br /></li><li><p>Добавить яйцо.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5532.Blog_-150x150.png\"/><br /></li><li><p>Понемногу добавить муку, смешанную с солью и содой.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5534.Blog_-150x150.png\"/><br /></li><li><p>Добавить шоколадные капли и хорошо перемешать лопаткой.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/04/IMG_5540.Blog_-150x150.png\"/><br /></li><li><p>Равномерно распределить тесто для печенья в форму поверх шоколадного теста для брауни.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6610.Blog_-150x150.png\"/><br /></li><li><p>Выпекать в разогретой духовке примерно 20 минут.  Проверить на готовность лезвием ножа: шоколадная часть должно быть слегка влажной, но не жидкой, а поверхность выпечки - подрумяниться и стать хрустящей.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6613.Blog_-150x150.png\"/><br /></li><li><p>Дать десерту остыть перед тем, как вынуть из формы и нарезать на порции.</p><br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2025/02/IMG_6628.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "26522",
+      "sourceTaxonomyId": "26522",
+      "name": "Dessert",
+      "slug": "dessert-en"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23549",
+      "sourceTaxonomyId": "23549",
+      "name": "размягченного сливочного масла",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23955",
+      "sourceTaxonomyId": "23955",
+      "name": "яйцо",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%be"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23980",
+      "sourceTaxonomyId": "23980",
+      "name": "яйца",
+      "slug": "%d1%8f%d0%b9%d1%86%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23991",
+      "sourceTaxonomyId": "23991",
+      "name": "сливочного масла",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24786",
+      "sourceTaxonomyId": "24786",
+      "name": "муки",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24937",
+      "sourceTaxonomyId": "24937",
+      "name": "коричневого сахара",
+      "slug": "%d0%ba%d0%be%d1%80%d0%b8%d1%87%d0%bd%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24991",
+      "sourceTaxonomyId": "24991",
+      "name": "черного шоколада",
+      "slug": "%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%b3%d0%be-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25116",
+      "sourceTaxonomyId": "25116",
+      "name": "шоколадных капель (чипс)",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d1%85-%d0%ba%d0%b0%d0%bf%d0%b5%d0%bb%d1%8c-%d1%87%d0%b8%d0%bf%d1%81"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25137",
+      "sourceTaxonomyId": "25137",
+      "name": "пищевой соды",
+      "slug": "%d0%bf%d0%b8%d1%89%d0%b5%d0%b2%d0%be%d0%b9-%d1%81%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "27214",
+      "sourceTaxonomyId": "27214",
+      "name": "жидкой ванили (1/2 пакетика ванильного сахара)",
+      "slug": "%d0%b6%d0%b8%d0%b4%d0%ba%d0%be%d0%b9-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d0%b8-1-2-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b8%d0%ba%d0%b0-%d0%b2%d0%b0%d0%bd%d0%b8%d0%bb%d1%8c%d0%bd%d0%be%d0%b3%d0%be-%d1%81"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25405",
+      "sourceTaxonomyId": "25405",
+      "name": "г",
+      "slug": "%d0%b3"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25407",
+      "sourceTaxonomyId": "25407",
+      "name": "ч.л.",
+      "slug": "%d1%87-%d0%bb"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient_unit",
+      "sourceId": "25458",
+      "sourceTaxonomyId": "25458",
+      "name": "ст.л.",
+      "slug": "%d1%81%d1%82-%d0%bb"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1734",
+      "sourceTaxonomyId": "1734",
+      "name": "пошаговый рецепт с фото",
+      "slug": "%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d1%8b%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82-%d1%81-%d1%84%d0%be%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3648",
+      "sourceTaxonomyId": "3648",
+      "name": "шоколадные капли",
+      "slug": "%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b5-%d0%ba%d0%b0%d0%bf%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8109",
+      "sourceTaxonomyId": "8109",
+      "name": "американское печенье",
+      "slug": "%d0%b0%d0%bc%d0%b5%d1%80%d0%b8%d0%ba%d0%b0%d0%bd%d1%81%d0%ba%d0%be%d0%b5-%d0%bf%d0%b5%d1%87%d0%b5%d0%bd%d1%8c%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "26131",
+      "sourceTaxonomyId": "26131",
+      "name": "куки",
+      "slug": "%d0%ba%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27215",
+      "sourceTaxonomyId": "27215",
+      "name": "бруки",
+      "slug": "%d0%b1%d1%80%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27217",
+      "sourceTaxonomyId": "27217",
+      "name": "амеркианский десерт",
+      "slug": "%d0%b0%d0%bc%d0%b5%d1%80%d0%ba%d0%b8%d0%b0%d0%bd%d1%81%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27219",
+      "sourceTaxonomyId": "27219",
+      "name": "брауни",
+      "slug": "%d0%b1%d1%80%d0%b0%d1%83%d0%bd%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27221",
+      "sourceTaxonomyId": "27221",
+      "name": "кукис",
+      "slug": "%d0%ba%d1%83%d0%ba%d0%b8%d1%81"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27223",
+      "sourceTaxonomyId": "27223",
+      "name": "сочетание",
+      "slug": "%d1%81%d0%be%d1%87%d0%b5%d1%82%d0%b0%d0%bd%d0%b8%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27225",
+      "sourceTaxonomyId": "27225",
+      "name": "меньше соли",
+      "slug": "%d0%bc%d0%b5%d0%bd%d1%8c%d1%88%d0%b5-%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27227",
+      "sourceTaxonomyId": "27227",
+      "name": "меньше сахара",
+      "slug": "%d0%bc%d0%b5%d0%bd%d1%8c%d1%88%d0%b5-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27229",
+      "sourceTaxonomyId": "27229",
+      "name": "кусочки шоколада",
+      "slug": "%d0%ba%d1%83%d1%81%d0%be%d1%87%d0%ba%d0%b8-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27231",
+      "sourceTaxonomyId": "27231",
+      "name": "безумно вкусно",
+      "slug": "%d0%b1%d0%b5%d0%b7%d1%83%d0%bc%d0%bd%d0%be-%d0%b2%d0%ba%d1%83%d1%81%d0%bd%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "27233",
+      "sourceTaxonomyId": "27233",
+      "name": "наполовину",
+      "slug": "%d0%bd%d0%b0%d0%bf%d0%be%d0%bb%d0%be%d0%b2%d0%b8%d0%bd%d1%83"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "servingsAdvanced": {
+      "diameter": 0,
+      "height": 0,
+      "length": 0,
+      "shape": "round",
+      "unit": "inch",
+      "width": 0
+    },
+    "equipment": [],
+    "times": {
+      "prep": {
+        "raw": "25",
+        "minutes": 25
+      },
+      "cook": {
+        "raw": "30",
+        "minutes": 30
+      },
+      "rest": null,
+      "total": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "custom": {
+        "label": null,
+        "duration": {
+          "raw": "0",
+          "minutes": 0
+        }
+      }
+    },
+    "heroMediaId": "wordpress-attachment:29249",
+    "ingredientGroups": [
+      {
+        "name": "Тесто для брауни",
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "100 г черного шоколада (60% какао)",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "черного шоколада",
+            "notes": "(60% какао)"
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "75 г сливочного масла",
+            "quantity": {
+              "raw": "75 г",
+              "value": 75,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "3 яйца",
+            "quantity": {
+              "raw": "3",
+              "value": 3,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйца",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "100 г сахара",
+            "quantity": {
+              "raw": "100 г",
+              "value": 100,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "1 ст.л. муки",
+            "quantity": {
+              "raw": "1 ст.л.",
+              "value": 1,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "муки",
+            "notes": null
+          }
+        ]
+      },
+      {
+        "name": "Тесто для печенья (кукис)",
+        "sourceIndex": 1,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "115 г размягченного сливочного масла",
+            "quantity": {
+              "raw": "115 г",
+              "value": 115,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "размягченного сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "40 г сахара",
+            "quantity": {
+              "raw": "40 г",
+              "value": 40,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "50 г коричневого сахара",
+            "quantity": {
+              "raw": "50 г",
+              "value": 50,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "коричневого сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 яйцо",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яйцо",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "165 г муки",
+            "quantity": {
+              "raw": "165 г",
+              "value": 165,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "1/8 ч.л. соли",
+            "quantity": {
+              "raw": "1/8 ч.л.",
+              "value": 0.125,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "1/2 ч.л. пищевой соды",
+            "quantity": {
+              "raw": "1/2 ч.л.",
+              "value": 0.5,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "пищевой соды",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "1 ч.л. жидкой ванили (1/2 пакетика ванильного сахара) по желанию",
+            "quantity": {
+              "raw": "1 ч.л.",
+              "value": 1,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "жидкой ванили (1/2 пакетика ванильного сахара)",
+            "notes": "по желанию"
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "150 г шоколадных капель (чипс)",
+            "quantity": {
+              "raw": "150 г",
+              "value": 150,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "шоколадных капель (чипс)",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": "Тесто для брауни",
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Разогреть духовку до 180°C (термостат 6). Форму для выпечки смазать маслом и присыпать мукой.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Шоколад и кусочки сливочного масла растопить в микроволновке или на водяной бане. Хорошо перемешать до однородной массы.",
+            "mediaId": "wordpress-attachment:3427"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Добавить сахар и снова хорошо перемешать.",
+            "mediaId": "wordpress-attachment:29242"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "По одному, добавить яйца.",
+            "mediaId": "wordpress-attachment:29243"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Добавить просеянную муку и хорошо перемешать последний раз.",
+            "mediaId": "wordpress-attachment:29244"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Вылить тесто в подготовленную форму.",
+            "mediaId": "wordpress-attachment:29245"
+          }
+        ]
+      },
+      {
+        "name": "Тесто для печенья (кукис)",
+        "sourceIndex": 1,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Миксером взбить масло с коричневым, белым и ванильным сахаром.",
+            "mediaId": "wordpress-attachment:8337"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Добавить яйцо.",
+            "mediaId": "wordpress-attachment:8339"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Понемногу добавить муку, смешанную с солью и содой.",
+            "mediaId": "wordpress-attachment:8340"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Добавить шоколадные капли и хорошо перемешать лопаткой.",
+            "mediaId": "wordpress-attachment:8341"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Равномерно распределить тесто для печенья в форму поверх шоколадного теста для брауни.",
+            "mediaId": "wordpress-attachment:29246"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Выпекать в разогретой духовке примерно 20 минут. Проверить на готовность лезвием ножа: шоколадная часть должно быть слегка влажной, но не жидкой, а поверхность выпечки - подрумяниться и стать хрустящей.",
+            "mediaId": "wordpress-attachment:29247"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Дать десерту остыть перед тем, как вынуть из формы и нарезать на порции.",
+            "mediaId": "wordpress-attachment:29249"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:29249",
+      "sourceId": "29249",
+      "path": "/recipes/media/wordpress/29249.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:3427",
+      "sourceId": "3427",
+      "path": "/recipes/media/wordpress/3427.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:29242",
+      "sourceId": "29242",
+      "path": "/recipes/media/wordpress/29242.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:29243",
+      "sourceId": "29243",
+      "path": "/recipes/media/wordpress/29243.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:29244",
+      "sourceId": "29244",
+      "path": "/recipes/media/wordpress/29244.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:29245",
+      "sourceId": "29245",
+      "path": "/recipes/media/wordpress/29245.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:8337",
+      "sourceId": "8337",
+      "path": "/recipes/media/wordpress/8337.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8339",
+      "sourceId": "8339",
+      "path": "/recipes/media/wordpress/8339.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8340",
+      "sourceId": "8340",
+      "path": "/recipes/media/wordpress/8340.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:8341",
+      "sourceId": "8341",
+      "path": "/recipes/media/wordpress/8341.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:29246",
+      "sourceId": "29246",
+      "path": "/recipes/media/wordpress/29246.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:29247",
+      "sourceId": "29247",
+      "path": "/recipes/media/wordpress/29247.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

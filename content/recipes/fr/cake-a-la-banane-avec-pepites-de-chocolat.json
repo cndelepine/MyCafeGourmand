@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21474",
+  "locale": "fr",
+  "translationGroupId": "wordpress:post-translations:5606",
+  "slug": "cake-a-la-banane-avec-pepites-de-chocolat",
+  "source": {
+    "system": "wordpress",
+    "postId": "21474",
+    "recipeId": "21474",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cake-a-la-banane-avec-pepites-de-chocolat",
+    "createdAt": "2018-08-29T18:03:46+00:00",
+    "modifiedAt": "2022-07-30T19:16:15+00:00",
+    "editorialPostId": "12628",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "cake-a-la-banane-avec-pepites-de-chocolat",
+    "editorialCreatedAt": "2018-08-29T18:03:46+00:00",
+    "editorialModifiedAt": "2022-07-30T19:16:11+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/fr/cake-a-la-banane-avec-pepites-de-chocolat/"
+  ],
+  "title": "Cake à la banane avec pépites de chocolat",
+  "description": "Les noix et les pépites de chocolat sont optionnelles mais elles donnent une belle texture et un délicieux goût au dessert.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p id=\"tw-target-text\"><span lang=\"fr\">Ce cake va séduire même ceux qui n'aiment pas particulièrement les desserts à la banane. Dans la recette, on n'utilise que 2 bananes qui commencent être trop mûres et que personne ne veux manger. Le sucre roux donne une belle couleur et une saveur de caramel; et la farine d’amande une douceur. .</span></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Si vous chercher une recette sans gluten, essayez notre recette de <a href=\"https://mycafegourmand.com/fr/recipe/muffins-a-la-banane-avec-pepites-de-chocolat-et-noix\">Muffins à la banane avec pépites de chocolat et noix</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21474,\"template\":\"chic-template-french\",\"updated\":1614302252224} -->\n<!--WPRM Recipe 21474-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Cake à la banane avec pépites de chocolat</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/20180527_194003.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tLes noix et les pépites de chocolat sont optionnelles mais elles donnent une belle texture et un délicieux goût au dessert.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>2 bananes très mûres</li><li>200 g de sucre roux</li><li>4 œufs</li><li>200 g de poudre d'amande</li><li>100 g de beurre fondu</li><li>80 g de farine tamisée</li><li>2 pincées de sel</li><li>2 cuillères à café de levure chimique</li><li>100 g de noix concassées</li><li>60 g de pépites de chocolat</li><li>Quelques noix entières</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Préchauffer le four à 180°C. Beurrer un moule à cake.</li><li>Dans un saladier, écraser les bananes à la fourchette et les mélanger avec le sucre roux.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0163.Blog_-150x150.png\"/><br /></li><li>Ajouter les œufs et bien mélanger (avec un mixeur de préférence).<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0165.Blog_-150x150.png\"/><br /></li><li>Verser le beurre fondu <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0170.Blog_-150x150.png\"/><br /></li><li>et la poudre d'amande. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0171.Blog_-150x150.png\"/><br /></li><li>Puis ajouter la farine, le sel et la levure chimique. Bien mélanger.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0173.Blog_-150x150.png\"/><br /></li><li>A la fin, incorporer les noix<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0174.Blog_-150x150.png\"/><br /></li><li>et le chocolat.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0175.Blog_-150x150.png\"/><br /></li><li>Verser la pâte dans le moule, ajouter quelques noix entières pour la décoration. Faire cuire pendant environ 55 minutes. \r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0177.Blog_-150x150.png\"/><br /></li><li>Vérifier la cuisson en piquant une pique en bois, elle doit ressortir propre du centre du gâteau. Sortir le cake du four, laissair refroidir puis démouler.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/05/IMG_0187.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Dessert</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23537",
+      "sourceTaxonomyId": "23537",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24043",
+      "sourceTaxonomyId": "24043",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24300",
+      "sourceTaxonomyId": "24300",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24315",
+      "sourceTaxonomyId": "24315",
+      "name": "bananes très mûres",
+      "slug": "bananes-tres-mures"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24316",
+      "sourceTaxonomyId": "24316",
+      "name": "de sucre roux",
+      "slug": "de-sucre-roux"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24317",
+      "sourceTaxonomyId": "24317",
+      "name": "de poudre d'amande",
+      "slug": "de-poudre-damande"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24318",
+      "sourceTaxonomyId": "24318",
+      "name": "de beurre fondu",
+      "slug": "de-beurre-fondu"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24319",
+      "sourceTaxonomyId": "24319",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24320",
+      "sourceTaxonomyId": "24320",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24321",
+      "sourceTaxonomyId": "24321",
+      "name": "de noix concassées",
+      "slug": "de-noix-concassees"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24322",
+      "sourceTaxonomyId": "24322",
+      "name": "de pépites de chocolat",
+      "slug": "de-pepites-de-chocolat"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24323",
+      "sourceTaxonomyId": "24323",
+      "name": "noix entières",
+      "slug": "noix-entieres"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "78",
+      "sourceTaxonomyId": "78",
+      "name": "Desserts",
+      "slug": "desserts-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1214",
+      "sourceTaxonomyId": "1214",
+      "name": "Dessert",
+      "slug": "dessert"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "248",
+      "sourceTaxonomyId": "248",
+      "name": "de poudre d'amande",
+      "slug": "de-poudre-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "360",
+      "sourceTaxonomyId": "360",
+      "name": "œufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "603",
+      "sourceTaxonomyId": "603",
+      "name": "de beurre fondu",
+      "slug": "de-beurre-fondu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "607",
+      "sourceTaxonomyId": "607",
+      "name": "de levure chimique",
+      "slug": "de-levure-chimique"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "624",
+      "sourceTaxonomyId": "624",
+      "name": "de sel",
+      "slug": "de-sel"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2331",
+      "sourceTaxonomyId": "2331",
+      "name": "bananes très mûres",
+      "slug": "bananes-tres-mures"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2335",
+      "sourceTaxonomyId": "2335",
+      "name": "de pépites de chocolat",
+      "slug": "de-pepites-de-chocolat"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3516",
+      "sourceTaxonomyId": "3516",
+      "name": "de sucre roux",
+      "slug": "de-sucre-roux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "3996",
+      "sourceTaxonomyId": "3996",
+      "name": "de farine tamisée",
+      "slug": "de-farine-tamisee"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "4004",
+      "sourceTaxonomyId": "4004",
+      "name": "de noix concassées",
+      "slug": "de-noix-concassees"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "7300",
+      "sourceTaxonomyId": "7300",
+      "name": "noix entières",
+      "slug": "noix-entieres"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1198",
+      "sourceTaxonomyId": "1198",
+      "name": "four",
+      "slug": "four"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1220",
+      "sourceTaxonomyId": "1220",
+      "name": "chocolat noir",
+      "slug": "chocolat-noir"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1454",
+      "sourceTaxonomyId": "1454",
+      "name": "noix",
+      "slug": "noix"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1676",
+      "sourceTaxonomyId": "1676",
+      "name": "poudre d'amande",
+      "slug": "poudre-damande"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2323",
+      "sourceTaxonomyId": "2323",
+      "name": "banane",
+      "slug": "banane"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2939",
+      "sourceTaxonomyId": "2939",
+      "name": "gouter",
+      "slug": "gouter"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3098",
+      "sourceTaxonomyId": "3098",
+      "name": "facile",
+      "slug": "facile"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3102",
+      "sourceTaxonomyId": "3102",
+      "name": "oeufs",
+      "slug": "oeufs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3271",
+      "sourceTaxonomyId": "3271",
+      "name": "farine",
+      "slug": "farine"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3273",
+      "sourceTaxonomyId": "3273",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-fr"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3514",
+      "sourceTaxonomyId": "3514",
+      "name": "sucre roux",
+      "slug": "sucre-roux"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3650",
+      "sourceTaxonomyId": "3650",
+      "name": "banane trop mure",
+      "slug": "banane-trop-mure"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7056",
+      "sourceTaxonomyId": "7056",
+      "name": "beurre fondu",
+      "slug": "beurre-fondu"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7286",
+      "sourceTaxonomyId": "7286",
+      "name": "comment utiliser les bananes",
+      "slug": "comment-utiliser-les-bananes"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7288",
+      "sourceTaxonomyId": "7288",
+      "name": "gout caramelise",
+      "slug": "gout-caramelise"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7292",
+      "sourceTaxonomyId": "7292",
+      "name": "recette facile en images",
+      "slug": "recette-facile-en-images"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 personnes",
+      "value": 8,
+      "unit": "personnes",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "55",
+        "minutes": 55
+      },
+      "rest": null,
+      "total": {
+        "raw": "70",
+        "minutes": 70
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:10614",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "2 bananes très mûres",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "bananes très mûres",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 g de sucre roux",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de sucre roux",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "4 œufs",
+            "quantity": {
+              "raw": "4",
+              "value": 4,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "œufs",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "200 g de poudre d'amande",
+            "quantity": {
+              "raw": "200 g",
+              "value": 200,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de poudre d'amande",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "100 g de beurre fondu",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de beurre fondu",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "80 g de farine tamisée",
+            "quantity": {
+              "raw": "80 g",
+              "value": 80,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de farine tamisée",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "2 pincées de sel",
+            "quantity": {
+              "raw": "2 pincées",
+              "value": 2,
+              "unit": "pincées",
+              "scalable": true
+            },
+            "name": "de sel",
+            "notes": null
+          },
+          {
+            "sourceIndex": 7,
+            "raw": "2 cuillères à café de levure chimique",
+            "quantity": {
+              "raw": "2 cuillères à café",
+              "value": 2,
+              "unit": "cuillères à café",
+              "scalable": true
+            },
+            "name": "de levure chimique",
+            "notes": null
+          },
+          {
+            "sourceIndex": 8,
+            "raw": "100 g de noix concassées",
+            "quantity": {
+              "raw": "100 g",
+              "value": 100,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de noix concassées",
+            "notes": null
+          },
+          {
+            "sourceIndex": 9,
+            "raw": "60 g de pépites de chocolat",
+            "quantity": {
+              "raw": "60 g",
+              "value": 60,
+              "unit": "g",
+              "scalable": true
+            },
+            "name": "de pépites de chocolat",
+            "notes": null
+          },
+          {
+            "sourceIndex": 10,
+            "raw": "Quelques noix entières",
+            "quantity": {
+              "raw": "Quelques",
+              "unit": null,
+              "scalable": false
+            },
+            "name": "noix entières",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Préchauffer le four à 180°C. Beurrer un moule à cake.",
+            "mediaId": null
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Dans un saladier, écraser les bananes à la fourchette et les mélanger avec le sucre roux.",
+            "mediaId": "wordpress-attachment:10601"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Ajouter les œufs et bien mélanger (avec un mixeur de préférence).",
+            "mediaId": "wordpress-attachment:10602"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Verser le beurre fondu",
+            "mediaId": "wordpress-attachment:10603"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "et la poudre d'amande.",
+            "mediaId": "wordpress-attachment:10604"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Puis ajouter la farine, le sel et la levure chimique. Bien mélanger.",
+            "mediaId": "wordpress-attachment:10605"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "A la fin, incorporer les noix",
+            "mediaId": "wordpress-attachment:10606"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "et le chocolat.",
+            "mediaId": "wordpress-attachment:10607"
+          },
+          {
+            "sourceIndex": 8,
+            "text": "Verser la pâte dans le moule, ajouter quelques noix entières pour la décoration. Faire cuire pendant environ 55 minutes.",
+            "mediaId": "wordpress-attachment:10608"
+          },
+          {
+            "sourceIndex": 9,
+            "text": "Vérifier la cuisson en piquant une pique en bois, elle doit ressortir propre du centre du gâteau. Sortir le cake du four, laissair refroidir puis démouler.",
+            "mediaId": "wordpress-attachment:10609"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:10614",
+      "sourceId": "10614",
+      "path": "/recipes/media/wordpress/10614.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:10601",
+      "sourceId": "10601",
+      "path": "/recipes/media/wordpress/10601.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10602",
+      "sourceId": "10602",
+      "path": "/recipes/media/wordpress/10602.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10603",
+      "sourceId": "10603",
+      "path": "/recipes/media/wordpress/10603.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10604",
+      "sourceId": "10604",
+      "path": "/recipes/media/wordpress/10604.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10605",
+      "sourceId": "10605",
+      "path": "/recipes/media/wordpress/10605.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10606",
+      "sourceId": "10606",
+      "path": "/recipes/media/wordpress/10606.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10607",
+      "sourceId": "10607",
+      "path": "/recipes/media/wordpress/10607.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10608",
+      "sourceId": "10608",
+      "path": "/recipes/media/wordpress/10608.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:10609",
+      "sourceId": "10609",
+      "path": "/recipes/media/wordpress/10609.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}

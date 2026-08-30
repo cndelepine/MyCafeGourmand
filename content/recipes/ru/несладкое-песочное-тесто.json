@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22909",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:7011",
+  "slug": "несладкое-песочное-тесто",
+  "source": {
+    "system": "wordpress",
+    "postId": "22909",
+    "recipeId": "22909",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be",
+    "createdAt": "2018-01-20T08:40:22+00:00",
+    "modifiedAt": "2022-06-26T23:58:16+00:00",
+    "editorialPostId": "12430",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%bd%d0%b5%d1%81%d0%bb%d0%b0%d0%b4%d0%ba%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be",
+    "editorialCreatedAt": "2018-01-20T08:40:22+00:00",
+    "editorialModifiedAt": "2022-06-26T23:58:14+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d0%bd%d0%b5%d1%81%d0%bb%d0%b0%d0%b4%d0%ba%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be/",
+    "/ru/%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be/"
+  ],
+  "title": "Песочное тесто",
+  "description": "Хорошо упакованное песочное тесто может храниться в морозилке несколько месяцев.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Песочное тесто широко используется в качестве основы для открытых пирогов, <a href=\"https://mycafegourmand.com/ru/recipe/%d0%ba%d0%b8%d1%88-%d1%81-%d0%ba%d0%be%d0%bd%d1%81%d0%b5%d1%80%d0%b2%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%bc-%d1%82%d1%83%d0%bd%d1%86%d0%be%d0%bc\">киш</a>, корзиночек, <a href=\"https://mycafegourmand.com/ru/recipe/%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b8%d0%b9-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%b0%d1%80%d1%82\">тартов</a> и тарталеток. Попробуйте этот рецепт несладкого теста, выпечка из него получается нежной и рассыпчатой. Вам больше не захочется покупать готовое тесто в магазине!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22909,\"template\":\"chic-template-russian\",\"updated\":1614553640975} -->\n<!--WPRM Recipe 22909-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Песочное тесто</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1427-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tХорошо упакованное песочное тесто может храниться в морозилке несколько месяцев. \t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>240 г просеянной муки</li><li>2-3 щепотки соли</li><li>125 г размягченного сливочного масла</li><li>1 яичный желток</li><li>2-3 ст.л. воды</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>В большой миске или прямо на кухонном столе смешать муку и соль. Добавить кусочки  мягкого масла.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1421.Blog_-150x150.png\"/><br /></li><li>Растирать пальцами, пока масса не превратится в крошки. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1422.Blog_-150x150.png\"/><br /></li><li>Добавить желток и месить, добавляя воду, пока тесто не станет однородным. Чем меньше месить, тем лучше!<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1423.Blog_-150x150.png\"/><br /></li><li>Сформировать из теста шар.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1424.Blog_-150x150.png\"/><br /></li><li>Завернуть в пищевую пленку и убрать в холодильник примерно на 1 час.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1428.Blog_-150x150.png\"/><br /></li><li>Разогреть духовку до 180°C. Раскатать тесто (через пергаментную бумагу), диаметром немного больше, чем диаметр формы. <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1337.Blog_-1-150x150.png\"/><br /></li><li>Перенести тесто в форму, равномерно прижать ко дну и стенкам. Провести скалкой по краям формы, чтобы обрезать лишнее тесто. Наколоть всю поверхность вилкой.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1436.Blog_-150x150.png\"/><br /></li><li>Выпекать в духовке примерно 20 минут, до золотистого цвета.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/08/IMG_1442.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23548",
+      "sourceTaxonomyId": "23548",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23549",
+      "sourceTaxonomyId": "23549",
+      "name": "размягченного сливочного масла",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23958",
+      "sourceTaxonomyId": "23958",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24851",
+      "sourceTaxonomyId": "24851",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24981",
+      "sourceTaxonomyId": "24981",
+      "name": "яичный желток",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d0%b6%d0%b5%d0%bb%d1%82%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "281",
+      "sourceTaxonomyId": "281",
+      "name": "яичный желток",
+      "slug": "%d1%8f%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d0%b6%d0%b5%d0%bb%d1%82%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "638",
+      "sourceTaxonomyId": "638",
+      "name": "соли",
+      "slug": "%d1%81%d0%be%d0%bb%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "828",
+      "sourceTaxonomyId": "828",
+      "name": "размягченного сливочного масла",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%81%d0%bb%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "832",
+      "sourceTaxonomyId": "832",
+      "name": "просеянной муки",
+      "slug": "%d0%bf%d1%80%d0%be%d1%81%d0%b5%d1%8f%d0%bd%d0%bd%d0%be%d0%b9-%d0%bc%d1%83%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1022",
+      "sourceTaxonomyId": "1022",
+      "name": "воды",
+      "slug": "%d0%b2%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1238",
+      "sourceTaxonomyId": "1238",
+      "name": "духовка",
+      "slug": "%d0%b4%d1%83%d1%85%d0%be%d0%b2%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1262",
+      "sourceTaxonomyId": "1262",
+      "name": "десерт",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1775",
+      "sourceTaxonomyId": "1775",
+      "name": "французская выпечка",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%b2%d1%8b%d0%bf%d0%b5%d1%87%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1781",
+      "sourceTaxonomyId": "1781",
+      "name": "легкий рецепт",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%b8%d0%b9-%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2199",
+      "sourceTaxonomyId": "2199",
+      "name": "легко и быстро",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be-%d0%b8-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2920",
+      "sourceTaxonomyId": "2920",
+      "name": "мука",
+      "slug": "%d0%bc%d1%83%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2960",
+      "sourceTaxonomyId": "2960",
+      "name": "закуска",
+      "slug": "%d0%b7%d0%b0%d0%ba%d1%83%d1%81%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3424",
+      "sourceTaxonomyId": "3424",
+      "name": "масло",
+      "slug": "%d0%bc%d0%b0%d1%81%d0%bb%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3484",
+      "sourceTaxonomyId": "3484",
+      "name": "без сахара",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4393",
+      "sourceTaxonomyId": "4393",
+      "name": "размягченное сливочное масло",
+      "slug": "%d1%80%d0%b0%d0%b7%d0%bc%d1%8f%d0%b3%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b5-%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d0%bc%d0%b0%d1%81%d0%bb%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4659",
+      "sourceTaxonomyId": "4659",
+      "name": "французская кухня",
+      "slug": "%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%83%d0%b7%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%83%d1%85%d0%bd%d1%8f"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6977",
+      "sourceTaxonomyId": "6977",
+      "name": "песочное тесто",
+      "slug": "%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6981",
+      "sourceTaxonomyId": "6981",
+      "name": "испечь основу",
+      "slug": "%d0%b8%d1%81%d0%bf%d0%b5%d1%87%d1%8c-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d1%83"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7012",
+      "sourceTaxonomyId": "7012",
+      "name": "как приготовить песочное тесто",
+      "slug": "%d0%ba%d0%b0%d0%ba-%d0%bf%d1%80%d0%b8%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8%d1%82%d1%8c-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7014",
+      "sourceTaxonomyId": "7014",
+      "name": "масло комнатной температуры",
+      "slug": "%d0%bc%d0%b0%d1%81%d0%bb%d0%be-%d0%ba%d0%be%d0%bc%d0%bd%d0%b0%d1%82%d0%bd%d0%be%d0%b9-%d1%82%d0%b5%d0%bc%d0%bf%d0%b5%d1%80%d0%b0%d1%82%d1%83%d1%80%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7016",
+      "sourceTaxonomyId": "7016",
+      "name": "основа для тарта",
+      "slug": "%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%82%d0%b0%d1%80%d1%82%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7020",
+      "sourceTaxonomyId": "7020",
+      "name": "основа для киш",
+      "slug": "%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%ba%d0%b8%d1%88"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7026",
+      "sourceTaxonomyId": "7026",
+      "name": "основа для пирога",
+      "slug": "%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%bf%d0%b8%d1%80%d0%be%d0%b3%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "7028",
+      "sourceTaxonomyId": "7028",
+      "name": "несладкое песочное тесто",
+      "slug": "%d0%bd%d0%b5%d1%81%d0%bb%d0%b0%d0%b4%d0%ba%d0%be%d0%b5-%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%be"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 порций",
+      "value": 8,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "10",
+        "minutes": 10
+      },
+      "cook": {
+        "raw": "20",
+        "minutes": 20
+      },
+      "rest": null,
+      "total": {
+        "raw": "31",
+        "minutes": 31
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:12423",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "240 г просеянной муки",
+            "quantity": {
+              "raw": "240 г",
+              "value": 240,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "просеянной муки",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "2-3 щепотки соли",
+            "quantity": {
+              "raw": "2-3 щепотки",
+              "min": 2,
+              "max": 3,
+              "unit": "щепотки",
+              "scalable": true
+            },
+            "name": "соли",
+            "notes": null
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "125 г размягченного сливочного масла",
+            "quantity": {
+              "raw": "125 г",
+              "value": 125,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "размягченного сливочного масла",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1 яичный желток",
+            "quantity": {
+              "raw": "1",
+              "value": 1,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "яичный желток",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "2-3 ст.л. воды",
+            "quantity": {
+              "raw": "2-3 ст.л.",
+              "min": 2,
+              "max": 3,
+              "unit": "ст.л.",
+              "scalable": true
+            },
+            "name": "воды",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "В большой миске или прямо на кухонном столе смешать муку и соль. Добавить кусочки мягкого масла.",
+            "mediaId": "wordpress-attachment:12419"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Растирать пальцами, пока масса не превратится в крошки.",
+            "mediaId": "wordpress-attachment:12420"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Добавить желток и месить, добавляя воду, пока тесто не станет однородным. Чем меньше месить, тем лучше!",
+            "mediaId": "wordpress-attachment:12421"
+          },
+          {
+            "sourceIndex": 3,
+            "text": "Сформировать из теста шар.",
+            "mediaId": "wordpress-attachment:12422"
+          },
+          {
+            "sourceIndex": 4,
+            "text": "Завернуть в пищевую пленку и убрать в холодильник примерно на 1 час.",
+            "mediaId": "wordpress-attachment:12424"
+          },
+          {
+            "sourceIndex": 5,
+            "text": "Разогреть духовку до 180°C. Раскатать тесто (через пергаментную бумагу), диаметром немного больше, чем диаметр формы.",
+            "mediaId": "wordpress-attachment:12434"
+          },
+          {
+            "sourceIndex": 6,
+            "text": "Перенести тесто в форму, равномерно прижать ко дну и стенкам. Провести скалкой по краям формы, чтобы обрезать лишнее тесто. Наколоть всю поверхность вилкой.",
+            "mediaId": "wordpress-attachment:12425"
+          },
+          {
+            "sourceIndex": 7,
+            "text": "Выпекать в духовке примерно 20 минут, до золотистого цвета.",
+            "mediaId": "wordpress-attachment:12426"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:12423",
+      "sourceId": "12423",
+      "path": "/recipes/media/wordpress/12423.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:12419",
+      "sourceId": "12419",
+      "path": "/recipes/media/wordpress/12419.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12420",
+      "sourceId": "12420",
+      "path": "/recipes/media/wordpress/12420.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12421",
+      "sourceId": "12421",
+      "path": "/recipes/media/wordpress/12421.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12422",
+      "sourceId": "12422",
+      "path": "/recipes/media/wordpress/12422.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12424",
+      "sourceId": "12424",
+      "path": "/recipes/media/wordpress/12424.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12434",
+      "sourceId": "12434",
+      "path": "/recipes/media/wordpress/12434.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12425",
+      "sourceId": "12425",
+      "path": "/recipes/media/wordpress/12425.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    },
+    {
+      "id": "wordpress-attachment:12426",
+      "sourceId": "12426",
+      "path": "/recipes/media/wordpress/12426.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

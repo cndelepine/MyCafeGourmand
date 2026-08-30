@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:22877",
+  "locale": "ru",
+  "translationGroupId": "wordpress:post-translations:858",
+  "slug": "ежевика-со-взбитыми-сливками",
+  "source": {
+    "system": "wordpress",
+    "postId": "22877",
+    "recipeId": "22877",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0-%d1%81%d0%be-%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b0%d0%bc%d0%b8",
+    "createdAt": "2018-02-07T08:32:54+00:00",
+    "modifiedAt": "2022-07-04T20:55:34+00:00",
+    "editorialPostId": "2264",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0-%d1%81%d0%be-%d0%b2%d0%b7%d0%b1%d0%b8%d1%82%d1%8b%d0%bc%d0%b8-%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b0%d0%bc%d0%b8",
+    "editorialCreatedAt": "2018-02-07T08:32:54+00:00",
+    "editorialModifiedAt": "2022-07-04T20:55:32+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/ru/%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0-%d1%81%d0%be-%d0%b2%d0%b7%d0%b1%d0%b8%d1%82%d1%8b%d0%bc%d0%b8-%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b0%d0%bc%d0%b8/"
+  ],
+  "title": "Ежевика со сливками",
+  "description": "Пропорции в рецепте даны для маленьких стаканчиков, если вы хотите сервировать в обычных бокалах, получится 2-3 порции.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>Маленький <span id=\":1f4.76\" class=\"J-JK9eJ-PJVNOc\" tabindex=\"-1\" role=\"menuitem\" data-g-spell-status=\"2\" aria-haspopup=\"true\">десертик</span> на все случаи жизни. Готовить проще простого, к тому же выглядит очень красиво. Подойдут любые ягоды или фрукты, свежие или замороженные.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":22877,\"template\":\"chic-template-russian\",\"updated\":1656968128192} -->\n<!--WPRM Recipe 22877-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Ежевика со сливками</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2433-2.Blog_-1-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tПропорции в рецепте даны для маленьких стаканчиков, если вы хотите сервировать в обычных бокалах, получится 2-3 порции.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>200 г ежевика</li><li>200 мл сливок ((35% жирности))</li><li>2  ч.л. сахара</li><li>1/4 ч.л. какао-порошка</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Очень холодные сливки взбить сахаром в нежную пену.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2430.Blog_-150x150.png\"/><br /></li><li>Разложить ягоды по стаканчикам. Ложечкой или при помощи кулинарного пакета, распределить взбитые сливки. Если десерт не будет подаваться сразу, поставить десерт в холодильник.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2431.Blog_-1-150x150.png\"/><br /></li><li>В момент подачи, посыпать какао.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/01/IMG_2433-3.Blog_-1-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Cafe gourmand, Десерты</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "23994",
+      "sourceTaxonomyId": "23994",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24194",
+      "sourceTaxonomyId": "24194",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23979",
+      "sourceTaxonomyId": "23979",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23981",
+      "sourceTaxonomyId": "23981",
+      "name": "сливок",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24925",
+      "sourceTaxonomyId": "24925",
+      "name": "какао-порошка",
+      "slug": "%d0%ba%d0%b0%d0%ba%d0%b0%d0%be-%d0%bf%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "25191",
+      "sourceTaxonomyId": "25191",
+      "name": "ежевика",
+      "slug": "%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "82",
+      "sourceTaxonomyId": "82",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "728",
+      "sourceTaxonomyId": "728",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "25338",
+      "sourceTaxonomyId": "25338",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1448",
+      "sourceTaxonomyId": "1448",
+      "name": "Десерты",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "2006",
+      "sourceTaxonomyId": "2006",
+      "name": "Cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "262",
+      "sourceTaxonomyId": "262",
+      "name": "сахара",
+      "slug": "%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "271",
+      "sourceTaxonomyId": "271",
+      "name": "сливок",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%be%d0%ba"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "693",
+      "sourceTaxonomyId": "693",
+      "name": "какао-порошка",
+      "slug": "%d0%ba%d0%b0%d0%ba%d0%b0%d0%be-%d0%bf%d0%be%d1%80%d0%be%d1%88%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "822",
+      "sourceTaxonomyId": "822",
+      "name": "ежевика",
+      "slug": "%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1262",
+      "sourceTaxonomyId": "1262",
+      "name": "десерт",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1498",
+      "sourceTaxonomyId": "1498",
+      "name": "сливки",
+      "slug": "%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2016",
+      "sourceTaxonomyId": "2016",
+      "name": "ягоды",
+      "slug": "%d1%8f%d0%b3%d0%be%d0%b4%d1%8b"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2020",
+      "sourceTaxonomyId": "2020",
+      "name": "взбитые сливки",
+      "slug": "%d0%b2%d0%b7%d0%b1%d0%b8%d1%82%d1%8b%d0%b5-%d1%81%d0%bb%d0%b8%d0%b2%d0%ba%d0%b8"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2193",
+      "sourceTaxonomyId": "2193",
+      "name": "ежевика",
+      "slug": "%d0%b5%d0%b6%d0%b5%d0%b2%d0%b8%d0%ba%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2195",
+      "sourceTaxonomyId": "2195",
+      "name": "десерт в стаканчике",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b2-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba%d0%b5"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2199",
+      "sourceTaxonomyId": "2199",
+      "name": "легко и быстро",
+      "slug": "%d0%bb%d0%b5%d0%b3%d0%ba%d0%be-%d0%b8-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2842",
+      "sourceTaxonomyId": "2842",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2914",
+      "sourceTaxonomyId": "2914",
+      "name": "cafe gourmand",
+      "slug": "cafe-gourmand-ru"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3764",
+      "sourceTaxonomyId": "3764",
+      "name": "кафе гурман",
+      "slug": "%d0%ba%d0%b0%d1%84%d0%b5-%d0%b3%d1%83%d1%80%d0%bc%d0%b0%d0%bd"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4210",
+      "sourceTaxonomyId": "4210",
+      "name": "без глютена",
+      "slug": "%d0%b1%d0%b5%d0%b7-%d0%b3%d0%bb%d1%8e%d1%82%d0%b5%d0%bd%d0%b0"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "8359",
+      "sourceTaxonomyId": "8359",
+      "name": "десерт для фуршета",
+      "slug": "%d0%b4%d0%b5%d1%81%d0%b5%d1%80%d1%82-%d0%b4%d0%bb%d1%8f-%d1%84%d1%83%d1%80%d1%88%d0%b5%d1%82%d0%b0"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "8 порций",
+      "value": 8,
+      "unit": "порций",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "5",
+        "minutes": 5
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:4130",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "200 г ежевика",
+            "quantity": {
+              "raw": "200 г",
+              "value": 200,
+              "unit": "г",
+              "scalable": true
+            },
+            "name": "ежевика",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "200 мл сливок (35% жирности)",
+            "quantity": {
+              "raw": "200 мл",
+              "value": 200,
+              "unit": "мл",
+              "scalable": true
+            },
+            "name": "сливок",
+            "notes": "(35% жирности)"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 ч.л. сахара",
+            "quantity": {
+              "raw": "2 ч.л.",
+              "value": 2,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "сахара",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/4 ч.л. какао-порошка",
+            "quantity": {
+              "raw": "1/4 ч.л.",
+              "value": 0.25,
+              "unit": "ч.л.",
+              "scalable": true
+            },
+            "name": "какао-порошка",
+            "notes": null
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Очень холодные сливки взбить сахаром в нежную пену.",
+            "mediaId": "wordpress-attachment:4128"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Разложить ягоды по стаканчикам. Ложечкой или при помощи кулинарного пакета, распределить взбитые сливки. Если десерт не будет подаваться сразу, поставить десерт в холодильник.",
+            "mediaId": "wordpress-attachment:4129"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "В момент подачи, посыпать какао.",
+            "mediaId": "wordpress-attachment:4131"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:4130",
+      "sourceId": "4130",
+      "path": "/recipes/media/wordpress/4130.png",
+      "alt": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "wordpress-attachment:4128",
+      "sourceId": "4128",
+      "path": "/recipes/media/wordpress/4128.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4129",
+      "sourceId": "4129",
+      "path": "/recipes/media/wordpress/4129.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:4131",
+      "sourceId": "4131",
+      "path": "/recipes/media/wordpress/4131.png",
+      "alt": null,
+      "width": 800,
+      "height": 592
+    }
+  ],
+  "seo": null
+}

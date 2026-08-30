@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "kind": "recipe",
+  "id": "wordpress:wprm:21315",
+  "locale": "en",
+  "translationGroupId": "wordpress:post-translations:2614",
+  "slug": "green-cabbage-carrot-slaw",
+  "source": {
+    "system": "wordpress",
+    "postId": "21315",
+    "recipeId": "21315",
+    "postType": "wprm_recipe",
+    "plugin": "wprm",
+    "sourceSlug": "wprm-cabbage-and-carrot-slaw",
+    "createdAt": "2020-03-03T08:11:18+00:00",
+    "modifiedAt": "2022-07-04T20:35:02+00:00",
+    "editorialPostId": "5245",
+    "editorialPostType": "post",
+    "editorialSourceSlug": "green-cabbage-carrot-slaw",
+    "editorialCreatedAt": "2020-03-03T08:11:18+00:00",
+    "editorialModifiedAt": "2022-07-04T20:34:58+00:00",
+    "wprmType": "food",
+    "wprmTypePresent": false
+  },
+  "redirectFrom": [
+    "/green-cabbage-carrot-slaw/"
+  ],
+  "title": "Cabbage and carrot slaw",
+  "description": "It tastes even better the next day.",
+  "editorial": {
+    "content": "<!-- wp:paragraph -->\n<p>This cabbage and carrot slaw is simple, healthy and nutritious. It is super easy to make and requires only a few ingredients. A perfect side dish to literally anything. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:wp-recipe-maker/recipe {\"id\":21315,\"template\":\"chic-template-english\",\"updated\":1656966892278} -->\n<!--WPRM Recipe 21315-->\n<div class=\"wprm-fallback-recipe\">\n\t<h2 class=\"wprm-fallback-recipe-name\">Cabbage and carrot slaw</h2>\n\t<img class=\"wprm-fallback-recipe-image\" src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8168-2.Blog_-150x150.png\"/>\t<p class=\"wprm-fallback-recipe-summary\">\n\t\tIt tastes even better the next day.\t</p>\n\t<div class=\"wprm-fallback-recipe-equipment\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-ingredients\">\n\t\t<ul><li>1 medium-sized  cabbage head</li><li>salt and pepper (to taste)</li><li>2 carrots</li><li>1/2 tsp sugar</li><li>4-5 Tbsp 5% white vinegar</li><li>4-5 Tbsp olive oil</li><li>fresh herbs ((dill, parsley, green onion))</li></ul>\t</div>\n\t<div class=\"wprm-fallback-recipe-instructions\">\n\t\t<ol><li>Cut the cabbage in half and peel of a few of the thin outer layers. Cut each half into quarters, then cut out the tough core in the middle. Slice each quarter crosswise into thin shreds. Add salt and squeeze the shredded cabbage with your hands.\r\n <br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8087.Blog_-150x150.png\"/><br /></li><li>Peel the carrots and shred them.<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8090.Blog_-150x150.png\"/><br /></li><li>Transfer the shredded carrots and cabbage into the mixing bowl. Add sugar, white vinegar and olive oil. Gently toss everything together. Taste and add some more salt if needed. Garnish with fresh herbs before serving.\r\n<br /><img src=\"https://mycafegourmand.com/wp-content/uploads/2018/02/IMG_8167.Blog_-150x150.png\"/><br /></li></ol>\t</div>\n\t<div class=\"wprm-fallback-recipe-notes\">\n\t\t\t</div>\n\t<div class=\"wprm-fallback-recipe-meta\">\n\t\t<div class=\"wprm-fallback-recipe-meta-course\">Salads</div>\t</div>\n</div>\n<!--End WPRM Recipe-->\n<!-- /wp:wp-recipe-maker/recipe -->",
+    "excerpt": null
+  },
+  "taxonomies": [
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_course",
+      "sourceId": "24204",
+      "sourceTaxonomyId": "24204",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "23557",
+      "sourceTaxonomyId": "23557",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24118",
+      "sourceTaxonomyId": "24118",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24133",
+      "sourceTaxonomyId": "24133",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24135",
+      "sourceTaxonomyId": "24135",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24201",
+      "sourceTaxonomyId": "24201",
+      "name": "cabbage head",
+      "slug": "cabbage-head"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24202",
+      "sourceTaxonomyId": "24202",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "recipe",
+      "taxonomy": "wprm_ingredient",
+      "sourceId": "24203",
+      "sourceTaxonomyId": "24203",
+      "name": "5% white vinegar",
+      "slug": "5-white-vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "category",
+      "sourceId": "92",
+      "sourceTaxonomyId": "92",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "course",
+      "sourceId": "1426",
+      "sourceTaxonomyId": "1426",
+      "name": "Salads",
+      "slug": "salads"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "203",
+      "sourceTaxonomyId": "203",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "505",
+      "sourceTaxonomyId": "505",
+      "name": "fresh herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "507",
+      "sourceTaxonomyId": "507",
+      "name": "salt and pepper",
+      "slug": "salt-and-pepper"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1016",
+      "sourceTaxonomyId": "1016",
+      "name": "carrots",
+      "slug": "carrots"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "1063",
+      "sourceTaxonomyId": "1063",
+      "name": "sugar",
+      "slug": "sugar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2726",
+      "sourceTaxonomyId": "2726",
+      "name": "5% white vinegar",
+      "slug": "5-white-vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "ingredient",
+      "sourceId": "2728",
+      "sourceTaxonomyId": "2728",
+      "name": "cabbage head",
+      "slug": "cabbage-head"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1328",
+      "sourceTaxonomyId": "1328",
+      "name": "cabbage",
+      "slug": "cabbage"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1330",
+      "sourceTaxonomyId": "1330",
+      "name": "vinegar",
+      "slug": "vinegar"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "1588",
+      "sourceTaxonomyId": "1588",
+      "name": "vegetarian",
+      "slug": "vegetarian"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "2754",
+      "sourceTaxonomyId": "2754",
+      "name": "slaw",
+      "slug": "slaw"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3004",
+      "sourceTaxonomyId": "3004",
+      "name": "mycafegourmand",
+      "slug": "mycafegourmand-en"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "3698",
+      "sourceTaxonomyId": "3698",
+      "name": "easy and cheap",
+      "slug": "easy-and-cheap"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "4415",
+      "sourceTaxonomyId": "4415",
+      "name": "healthy ideas",
+      "slug": "healthy-ideas"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "5915",
+      "sourceTaxonomyId": "5915",
+      "name": "olive oil",
+      "slug": "olive-oil"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6876",
+      "sourceTaxonomyId": "6876",
+      "name": "slaw russian style",
+      "slug": "slaw-russian-style"
+    },
+    {
+      "scope": "editorial",
+      "taxonomy": "post_tag",
+      "sourceId": "6878",
+      "sourceTaxonomyId": "6878",
+      "name": "russian favorite",
+      "slug": "russian-favorite"
+    }
+  ],
+  "recipe": {
+    "notes": null,
+    "servings": {
+      "raw": "6 servings",
+      "value": 6,
+      "unit": "servings",
+      "scalable": true
+    },
+    "servingsAdvancedEnabled": false,
+    "times": {
+      "prep": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "cook": {
+        "raw": "0",
+        "minutes": 0
+      },
+      "rest": null,
+      "total": {
+        "raw": "15",
+        "minutes": 15
+      },
+      "custom": null
+    },
+    "heroMediaId": "wordpress-attachment:5027",
+    "ingredientGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "items": [
+          {
+            "sourceIndex": 0,
+            "raw": "1 medium-sized cabbage head",
+            "quantity": {
+              "raw": "1 medium-sized",
+              "value": 1,
+              "unit": "medium-sized",
+              "scalable": true
+            },
+            "name": "cabbage head",
+            "notes": null
+          },
+          {
+            "sourceIndex": 1,
+            "raw": "salt and pepper to taste",
+            "quantity": null,
+            "name": "salt and pepper",
+            "notes": "to taste"
+          },
+          {
+            "sourceIndex": 2,
+            "raw": "2 carrots",
+            "quantity": {
+              "raw": "2",
+              "value": 2,
+              "unit": null,
+              "scalable": true
+            },
+            "name": "carrots",
+            "notes": null
+          },
+          {
+            "sourceIndex": 3,
+            "raw": "1/2 tsp sugar",
+            "quantity": {
+              "raw": "1/2 tsp",
+              "value": 0.5,
+              "unit": "tsp",
+              "scalable": true
+            },
+            "name": "sugar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 4,
+            "raw": "4-5 Tbsp 5% white vinegar",
+            "quantity": {
+              "raw": "4-5 Tbsp",
+              "min": 4,
+              "max": 5,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "5% white vinegar",
+            "notes": null
+          },
+          {
+            "sourceIndex": 5,
+            "raw": "4-5 Tbsp olive oil",
+            "quantity": {
+              "raw": "4-5 Tbsp",
+              "min": 4,
+              "max": 5,
+              "unit": "Tbsp",
+              "scalable": true
+            },
+            "name": "olive oil",
+            "notes": null
+          },
+          {
+            "sourceIndex": 6,
+            "raw": "fresh herbs (dill, parsley, green onion)",
+            "quantity": null,
+            "name": "fresh herbs",
+            "notes": "(dill, parsley, green onion)"
+          }
+        ]
+      }
+    ],
+    "instructionGroups": [
+      {
+        "name": null,
+        "sourceIndex": 0,
+        "steps": [
+          {
+            "sourceIndex": 0,
+            "text": "Cut the cabbage in half and peel of a few of the thin outer layers. Cut each half into quarters, then cut out the tough core in the middle. Slice each quarter crosswise into thin shreds. Add salt and squeeze the shredded cabbage with your hands.",
+            "mediaId": "wordpress-attachment:5024"
+          },
+          {
+            "sourceIndex": 1,
+            "text": "Peel the carrots and shred them.",
+            "mediaId": "wordpress-attachment:5025"
+          },
+          {
+            "sourceIndex": 2,
+            "text": "Transfer the shredded carrots and cabbage into the mixing bowl. Add sugar, white vinegar and olive oil. Gently toss everything together. Taste and add some more salt if needed. Garnish with fresh herbs before serving.",
+            "mediaId": "wordpress-attachment:5026"
+          }
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "wordpress-attachment:5027",
+      "sourceId": "5027",
+      "path": "/recipes/media/wordpress/5027.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5024",
+      "sourceId": "5024",
+      "path": "/recipes/media/wordpress/5024.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5025",
+      "sourceId": "5025",
+      "path": "/recipes/media/wordpress/5025.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    },
+    {
+      "id": "wordpress-attachment:5026",
+      "sourceId": "5026",
+      "path": "/recipes/media/wordpress/5026.png",
+      "alt": null,
+      "width": 800,
+      "height": 528
+    }
+  ],
+  "seo": null
+}
