@@ -5,6 +5,7 @@ import {
   serializeRecipeStructuredData
 } from "@/lib/recipe-structured-data";
 import { resolveRecipeMediaUrl } from "@/lib/recipe-media";
+import { formatRecipeEquipment } from "@/lib/recipe-equipment";
 import { getRecipePath, getRecipeTranslations } from "@/lib/recipe-routes";
 import { RecipeScaling } from "./recipe-scaling";
 import { SiteHeader } from "./site-header";
@@ -31,6 +32,8 @@ const copy: Record<
     missing: string;
     headingSecondLine: string;
     servingScale: string;
+    equipment: string;
+    notes: string;
   }
 > = {
   en: {
@@ -47,7 +50,9 @@ const copy: Record<
     footer: "Made with care, one recipe at a time.",
     missing: "Not specified",
     headingSecondLine: "A generous bowl.",
-    servingScale: "Scale recipe"
+    servingScale: "Scale recipe",
+    equipment: "Equipment",
+    notes: "Notes"
   },
   fr: {
     eyebrow: "Une recette de la cuisine familiale",
@@ -63,7 +68,9 @@ const copy: Record<
     footer: "Préparé avec soin, une recette à la fois.",
     missing: "Non précisé",
     headingSecondLine: "Un bol généreux.",
-    servingScale: "Multiplier la recette"
+    servingScale: "Multiplier la recette",
+    equipment: "Matériel",
+    notes: "Notes"
   },
   ru: {
     eyebrow: "Рецепт из домашней кухни",
@@ -79,7 +86,9 @@ const copy: Record<
     footer: "С заботой, по одному рецепту за раз.",
     missing: "Не указано",
     headingSecondLine: "Щедрая миска.",
-    servingScale: "Масштабировать рецепт"
+    servingScale: "Масштабировать рецепт",
+    equipment: "Оборудование",
+    notes: "Примечания"
   }
 };
 
@@ -96,6 +105,11 @@ export function RecipeView({ catalog, recipe }: RecipeViewProps) {
     ? media.get(recipe.recipe.heroMediaId)
     : undefined;
   const ingredientGroups = recipe.recipe.ingredientGroups;
+  const equipment = recipe.recipe.equipment ?? [];
+  const hasEquipment = equipment.length > 0;
+  const hasNotes = recipe.recipe.notes !== null;
+  const methodSectionNumber = hasEquipment ? 3 : 2;
+  const notesSectionNumber = methodSectionNumber + 1;
   const instructionGroups = recipe.recipe.instructionGroups.reduce<
     Array<{
       firstStep: number;
@@ -193,9 +207,29 @@ export function RecipeView({ catalog, recipe }: RecipeViewProps) {
             servings={recipe.recipe.servings}
           />
 
+          {hasEquipment ? (
+            <section
+              aria-labelledby="equipment-title"
+              className="equipment"
+              id="equipment"
+            >
+              <div className="section-label">
+                <span>02</span>
+                <h2 id="equipment-title">{labels.equipment}</h2>
+              </div>
+              <ul>
+                {equipment.map((item, index) => (
+                  <li key={`${item.sourceIndex}-${index}`}>
+                    {formatRecipeEquipment(item)}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+
           <section className="method" id="method" aria-labelledby="method-title">
             <div className="section-label">
-              <span>02</span>
+              <span>{String(methodSectionNumber).padStart(2, "0")}</span>
               <h2 id="method-title">{labels.method}</h2>
             </div>
             <div className="instruction-groups">
@@ -236,6 +270,20 @@ export function RecipeView({ catalog, recipe }: RecipeViewProps) {
               ))}
             </div>
           </section>
+
+          {hasNotes ? (
+            <section
+              aria-labelledby="recipe-notes-title"
+              className="recipe-notes"
+              id="recipe-notes"
+            >
+              <div className="section-label">
+                <span>{String(notesSectionNumber).padStart(2, "0")}</span>
+                <h2 id="recipe-notes-title">{labels.notes}</h2>
+              </div>
+              <p>{recipe.recipe.notes}</p>
+            </section>
+          ) : null}
         </article>
       </main>
       <footer lang={recipe.locale}>{labels.footer}</footer>

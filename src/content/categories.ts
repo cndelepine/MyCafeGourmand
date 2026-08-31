@@ -1,5 +1,10 @@
 import { type Locale, type RecipeRecord } from "./schema";
-import { decodeRecipeSlug } from "./url-path";
+import { compareCodeUnits } from "./sort";
+import {
+  decodeRecipeSlug,
+  portablePathComponentKey,
+  validateCategorySlug
+} from "./url-path";
 
 export type RecipeCategory = {
   readonly identity: string;
@@ -21,10 +26,6 @@ type MutableRecipeCategory = {
   recipes: RecipeRecord[];
 };
 
-function compareText(left: string, right: string) {
-  return left < right ? -1 : left > right ? 1 : 0;
-}
-
 function isEditorialCategory(
   taxonomy: EditorialCategoryTaxonomy
 ) {
@@ -44,6 +45,10 @@ function sourceCategory(
 ) {
   const slug = decodeRecipeSlug(
     taxonomy.slug,
+    `Editorial category slug for recipe "${record.id}"`
+  );
+  validateCategorySlug(
+    slug,
     `Editorial category slug for recipe "${record.id}"`
   );
   if (record.schemaVersion === 2) {
@@ -88,6 +93,7 @@ export function getCategoryCatalog(
   records: readonly RecipeRecord[]
 ): readonly RecipeCategory[] {
   const categoryByLocalizedSlug = new Map<string, MutableRecipeCategory>();
+  const localizedSlugByPortableKey = new Map<string, string>();
   const localizedSlugByWordPressIdentity = new Map<string, string>();
 
   for (const record of records) {
@@ -95,7 +101,22 @@ export function getCategoryCatalog(
     for (const taxonomy of getEditorialCategoryTaxonomies(record)) {
       const source = sourceCategory(record, taxonomy);
       const localizedSlug = `${source.locale}:${source.slug}`;
+      const portableKey = `${source.locale}:${portablePathComponentKey(
+        source.slug,
+        `Editorial category slug for recipe "${record.id}"`
+      )}`;
       const existing = categoryByLocalizedSlug.get(localizedSlug);
+      const existingPortableSlug = localizedSlugByPortableKey.get(portableKey);
+      if (
+        existingPortableSlug !== undefined
+        && existingPortableSlug !== localizedSlug
+      ) {
+        throw new Error(
+          `Cross-platform category path collision for recipe "${record.id}": ` +
+          `${source.locale}/${source.slug}`
+        );
+      }
+      localizedSlugByPortableKey.set(portableKey, localizedSlug);
 
       if (source.sourceTaxonomyId !== null) {
         const existingLocalizedSlug = localizedSlugByWordPressIdentity.get(
@@ -162,9 +183,9 @@ export function getCategoryCatalog(
 
   return [...categoryByLocalizedSlug.values()]
     .sort((left, right) =>
-      compareText(left.locale, right.locale)
-      || compareText(left.slug, right.slug)
-      || compareText(left.sourceTaxonomyId ?? "", right.sourceTaxonomyId ?? "")
+      compareCodeUnits(left.locale, right.locale)
+      || compareCodeUnits(left.slug, right.slug)
+      || compareCodeUnits(left.sourceTaxonomyId ?? "", right.sourceTaxonomyId ?? "")
     )
     .map((category) => ({
       ...category,

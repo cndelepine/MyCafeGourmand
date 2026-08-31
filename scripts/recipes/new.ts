@@ -41,7 +41,10 @@ export type NewRecipeOptions = {
 };
 
 export type NewRecipeDependencies = {
+  readonly afterInstall?: () => Promise<void> | void;
   readonly beforeInstall?: () => Promise<void> | void;
+  readonly beforeDirectorySync?: () => Promise<void> | void;
+  readonly beforeLockRelease?: (quarantinePath: string) => Promise<void> | void;
   readonly createRecordId?: () => string;
   readonly now?: () => Date;
   readonly recipesRoot?: string;
@@ -146,7 +149,9 @@ export async function createNewRecipe(
 
     if (options.write === true) {
       await writeAtomicFile(destination, serialized, false, {
+        afterInstall: dependencies.afterInstall,
         beforeInstall: dependencies.beforeInstall,
+        beforeDirectorySync: dependencies.beforeDirectorySync,
         stagingDirectory: repositoryRoot
       });
     }
@@ -158,10 +163,19 @@ export async function createNewRecipe(
     };
   };
 
-  return options.write === true
-    ? withExclusiveFileLock(
+  if (options.write !== true) {
+    return validateAndCreate();
+  }
+  const locked = await withExclusiveFileLock(
       path.join(repositoryRoot, ".recipe-authoring.lock"),
-      validateAndCreate
-    )
-    : validateAndCreate();
+      validateAndCreate,
+      { beforeRelease: dependencies.beforeLockRelease }
+    );
+  return locked.cleanupError === null
+    ? locked.value
+    : {
+      ...locked.value,
+      mode: "committed-with-cleanup-error" as const,
+      cleanupError: locked.cleanupError
+    };
 }

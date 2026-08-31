@@ -31,6 +31,14 @@ content/recipes/<locale>/<slug>.json
 
 The only locales are `en`, `fr`, and `ru`.
 
+Recipe slugs must also be portable across the supported Windows/macOS/Linux
+workspaces. They cannot contain Windows-illegal filename characters, end in a
+dot or space, or use a reserved basename such as `CON`, `AUX`, `NUL`, `COM1`,
+or `LPT1` (including case variants and names with extensions). Each locale is
+bounded to 512 records, matching discovery and prospective creation checks.
+The complete `<slug>.json` component is bounded for both UTF-8 bytes and UTF-16
+units, and same-locale filenames cannot differ only by case.
+
 ## Create an authored recipe
 
 Prepare a source-neutral input file outside `content/recipes/`. The input must
@@ -133,6 +141,13 @@ overwrites an existing destination. If a process dies while holding
 `.recipe-authoring.lock`, confirm that process is no longer running before
 removing the exact stale lock and repeating the dry run.
 
+The command reports `mode: "write"` only after the target is installed and
+post-link finalization succeeds. If a post-link failure can be rolled back, the
+command fails with no target. If the recipe is committed but only lock cleanup
+fails, the CLI reports `mode: "committed-with-cleanup-error"` and identifies the
+cleanup problem; inspect the committed target and named cleanup artifact before
+retrying.
+
 ## Authored timestamp semantics
 
 Authored dates are never guessed:
@@ -164,6 +179,11 @@ step image fields. Do not add an ad hoc public path or WordPress attachment ID.
 A later reviewed layer must define authenticated authored-media ingest, stable
 Blob keys, manifest closure, rollback, and remote verification.
 
+Recipe `notes` and optional `equipment` are rendered in normal and print views
+and included in search. Equipment is also emitted through Recipe/HowTo JSON-LD
+`tool`; notes have no dedicated Recipe structured-data property and remain
+rendered/searchable text only.
+
 ## Inspect and validate
 
 Print the human-readable catalog report:
@@ -187,10 +207,28 @@ npm run recipes -- schema --write
 ```
 
 VS Code associates `content/schemas/recipe.schema.json` with all three recipe
-locale folders. JSON Schema covers strict persisted structure. Repository-only
-checks still enforce raw-Unicode path safety, cross-record uniqueness,
-translation locale closure, redirect conflicts/cycles, category identity, and
-media references.
+locale folders. JSON Schema provides strict structural assistance, not complete
+standalone publication validation. Its machine-readable
+`x-runtime-invariants` array enumerates checks that require repository runtime
+logic:
+
+- `recipe-slug-path-and-filename-safety`;
+- `category-slug-path-safety`;
+- `quantity-range-order`;
+- `redirect-route-closure`;
+- `recipe-media-path-safety`;
+- `wordpress-managed-media-identity`;
+- `recipe-media-reference-closure`;
+- `authored-id-source-match`;
+- `authored-timestamp-order`;
+- `catalog-record-and-file-closure`;
+- `wordpress-source-identity-and-route`;
+- `normalized-display-text`.
+
+The schema structurally distinguishes exact, range, and unparsed quantities and
+rejects lossy combinations. `recipes check` additionally enforces the runtime
+invariants above, cross-record uniqueness, translation locale closure,
+redirect conflicts/cycles, category identity, and media references.
 
 Before committing any direct content edit:
 

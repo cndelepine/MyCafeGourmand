@@ -1,6 +1,8 @@
 import { z } from "zod";
 import {
   localPathKey,
+  validateCategorySlug,
+  validateRecipeFileSlug,
   validateRecipeSlug,
   validateSafeLocalPath
 } from "./url-path";
@@ -49,42 +51,67 @@ const recipeSlugSchema = nonEmptyStringSchema.superRefine((slug, context) => {
   }
 });
 
-export const quantitySchema = z.strictObject({
+const recipeFileSlugSchema = nonEmptyStringSchema.superRefine((slug, context) => {
+  try {
+    validateRecipeFileSlug(slug);
+  } catch (error) {
+    context.addIssue({
+      code: "custom",
+      message: error instanceof Error ? error.message : String(error)
+    });
+  }
+});
+
+const categorySlugSchema = nonEmptyStringSchema.superRefine((slug, context) => {
+  try {
+    validateCategorySlug(slug);
+  } catch (error) {
+    context.addIssue({
+      code: "custom",
+      message: error instanceof Error ? error.message : String(error)
+    });
+  }
+});
+
+const exactQuantitySchema = z.strictObject({
   raw: nonEmptyStringSchema,
-  value: z.number().positive().optional(),
-  min: z.number().positive().optional(),
-  max: z.number().positive().optional(),
+  value: z.number().positive(),
+  min: z.never().optional(),
+  max: z.never().optional(),
+  unit: nonEmptyStringSchema.nullable(),
+  scalable: z.boolean()
+});
+
+const rangeQuantitySchema = z.strictObject({
+  raw: nonEmptyStringSchema,
+  value: z.never().optional(),
+  min: z.number().positive(),
+  max: z.number().positive(),
   unit: nonEmptyStringSchema.nullable(),
   scalable: z.boolean()
 }).superRefine((quantity, context) => {
-  const hasValue = quantity.value !== undefined;
-  const hasRange = quantity.min !== undefined || quantity.max !== undefined;
-
-  if (hasValue && hasRange) {
-    context.addIssue({
-      code: "custom",
-      message: "A quantity cannot contain both a value and a range."
-    });
-  }
-  if ((quantity.min === undefined) !== (quantity.max === undefined)) {
-    context.addIssue({
-      code: "custom",
-      message: "A quantity range requires both min and max."
-    });
-  }
-  if (quantity.min !== undefined && quantity.max !== undefined && quantity.min > quantity.max) {
+  if (quantity.min > quantity.max) {
     context.addIssue({
       code: "custom",
       message: "A quantity range cannot have min greater than max."
     });
   }
-  if (quantity.scalable && !hasValue && !hasRange) {
-    context.addIssue({
-      code: "custom",
-      message: "Only a parsed quantity can be scalable."
-    });
-  }
 });
+
+const unparsedQuantitySchema = z.strictObject({
+  raw: nonEmptyStringSchema,
+  value: z.never().optional(),
+  min: z.never().optional(),
+  max: z.never().optional(),
+  unit: nonEmptyStringSchema.nullable(),
+  scalable: z.literal(false)
+});
+
+export const quantitySchema = z.union([
+  exactQuantitySchema,
+  rangeQuantitySchema,
+  unparsedQuantitySchema
+]);
 
 export const durationSchema = z.strictObject({
   raw: nonEmptyStringSchema,
@@ -96,22 +123,29 @@ export const nutritionAmountSchema = z.strictObject({
   value: z.number().nonnegative().optional()
 });
 
-export const nutritionSchema = z.strictObject({
-  calories: nutritionAmountSchema.nullable(),
+const nutritionWithCaloriesSchema = z.strictObject({
+  calories: nutritionAmountSchema,
   servingSize: nutritionAmountSchema.nullable(),
   servingUnit: nonEmptyStringSchema.nullable()
-}).superRefine((nutrition, context) => {
-  if (
-    nutrition.calories === null
-    && nutrition.servingSize === null
-    && nutrition.servingUnit === null
-  ) {
-    context.addIssue({
-      code: "custom",
-      message: "Nutrition must contain at least one source value."
-    });
-  }
 });
+
+const nutritionWithServingSizeSchema = z.strictObject({
+  calories: z.null(),
+  servingSize: nutritionAmountSchema,
+  servingUnit: nonEmptyStringSchema.nullable()
+});
+
+const nutritionWithServingUnitSchema = z.strictObject({
+  calories: z.null(),
+  servingSize: z.null(),
+  servingUnit: nonEmptyStringSchema
+});
+
+export const nutritionSchema = z.union([
+  nutritionWithCaloriesSchema,
+  nutritionWithServingSizeSchema,
+  nutritionWithServingUnitSchema
+]);
 
 export const equipmentItemSchema = z.strictObject({
   sourceIndex: z.number().int().nonnegative().safe(),
@@ -420,7 +454,7 @@ export const recipeRecordSchema = wordpressRecipeRecordV1Schema;
 
 const authoredCategorySchema = z.strictObject({
   name: nonEmptyStringSchema,
-  slug: recipeSlugSchema
+  slug: categorySlugSchema
 });
 
 const authoredEquipmentItemSchema = z.strictObject({
@@ -495,7 +529,7 @@ function addAuthoredTimestampIssues(
 
 export const authoredRecipeInputSchema = z.strictObject({
   locale: localeSchema,
-  slug: recipeSlugSchema,
+  slug: recipeFileSlugSchema,
   title: nonEmptyStringSchema,
   description: nonEmptyStringSchema.nullable(),
   publishedAt: timestampSchema.nullable(),
@@ -513,7 +547,7 @@ export const authoredRecipeDocumentV2Schema = z.strictObject({
   id: nonEmptyStringSchema,
   locale: localeSchema,
   translationGroupId: nonEmptyStringSchema.nullable(),
-  slug: recipeSlugSchema,
+  slug: recipeFileSlugSchema,
   source: z.strictObject({
     system: z.literal("authored"),
     recordId: authoredRecordIdSchema,

@@ -67,12 +67,20 @@ export function scaleQuantity(quantity: Quantity, factor: number): Quantity {
     return quantity;
   }
 
-  return {
-    ...quantity,
-    value: quantity.value === undefined ? undefined : quantity.value * factor,
-    min: quantity.min === undefined ? undefined : quantity.min * factor,
-    max: quantity.max === undefined ? undefined : quantity.max * factor
-  };
+  if (quantity.value !== undefined) {
+    const value = quantity.value * factor;
+    return Number.isFinite(value)
+      ? { ...quantity, value }
+      : quantity;
+  }
+  if (quantity.min === undefined || quantity.max === undefined) {
+    return quantity;
+  }
+  const min = quantity.min * factor;
+  const max = quantity.max * factor;
+  return Number.isFinite(min) && Number.isFinite(max)
+    ? { ...quantity, min, max }
+    : quantity;
 }
 
 export function formatQuantity(quantity: Quantity, factor: number) {
@@ -86,6 +94,9 @@ export function formatQuantity(quantity: Quantity, factor: number) {
   }
 
   const scaledQuantity = scaleQuantity(quantity, factor);
+  if (scaledQuantity === quantity) {
+    return quantity.raw;
+  }
   let amount: string;
   if (scaledQuantity.value !== undefined) {
     amount = formatNumber(scaledQuantity.value);
@@ -113,8 +124,11 @@ export function formatIngredient(
     return item.raw;
   }
 
-  const quantity = formatQuantity(item.quantity, factor);
   const scaled = scaleQuantity(item.quantity, factor);
+  if (scaled === item.quantity) {
+    return item.raw;
+  }
+  const quantity = formatQuantity(item.quantity, factor);
   const usesPluralName = scaled.value !== undefined
     ? Math.abs(scaled.value - 1) >= 0.0001
     : scaled.min !== undefined && scaled.max !== undefined

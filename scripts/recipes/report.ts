@@ -6,6 +6,7 @@ import {
 import { recipeFieldClassifications } from "../../src/content/recipe-field-usage";
 import { getCanonicalRecipePath } from "../../src/content/recipe-path";
 import { localeValues, type Locale } from "../../src/content/schema";
+import { compareCodeUnits } from "../../src/content/sort";
 import { serializeJson } from "./files";
 
 function emptyLocaleCounts(): Record<Locale, number> {
@@ -52,7 +53,7 @@ export function createRecipeReport(
   });
 
   const translationGroups = [...groups.entries()]
-    .sort(([left], [right]) => left.localeCompare(right))
+    .sort(([left], [right]) => compareCodeUnits(left, right))
     .map(([id, members]) => {
       const memberLocales = new Set(members.map((member) => member.locale));
       return {
@@ -63,7 +64,7 @@ export function createRecipeReport(
             locale: member.locale,
             canonicalPath: getCanonicalRecipePath(member)
           }))
-          .sort((left, right) => left.locale.localeCompare(right.locale)),
+          .sort((left, right) => compareCodeUnits(left.locale, right.locale)),
         missingLocales: localeValues.filter((locale) => !memberLocales.has(locale))
       };
     });

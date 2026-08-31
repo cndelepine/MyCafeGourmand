@@ -13,6 +13,7 @@ import {
 import path from "node:path";
 import { parseJsonAtBoundary } from "./json-boundary";
 import { getCanonicalRecipePath } from "./recipe-path";
+import { compareCodeUnits } from "./sort";
 import {
   recipeContentLimits,
   normalizeRecipeDocument,
@@ -22,7 +23,11 @@ import {
   type PersistedRecipeDocument,
   type RecipeRecord
 } from "./schema";
-import { localPathKey, validateSafeLocalPath } from "./url-path";
+import {
+  localPathKey,
+  recipeFileNameKey,
+  validateSafeLocalPath
+} from "./url-path";
 
 export const defaultRecipesRoot = path.resolve(process.cwd(), "content/recipes");
 
@@ -86,10 +91,6 @@ function getDirectoryEntries(directory: string) {
       cause: error
     });
   }
-}
-
-function compareNames(left: string, right: string) {
-  return left < right ? -1 : left > right ? 1 : 0;
 }
 
 function sameIdentity(
@@ -254,7 +255,7 @@ function discoverRecipeTree(
 
     return entries
       .map((entry) => entry.name)
-      .sort(compareNames)
+      .sort(compareCodeUnits)
       .map((fileName) => ({
         locale,
         path: path.join(localeDirectory, fileName),
@@ -499,6 +500,15 @@ export function validateNormalizedRecipeCatalog(
   options: CatalogValidationOptions = {}
 ): RecipeRecord[] {
   assertRecordCount(parsed.length, "Recipe catalog");
+  for (const locale of localeValues) {
+    const count = parsed.filter((record) => record.locale === locale).length;
+    if (count > recipeContentLimits.maxLocaleRecords) {
+      throw new Error(
+        `Recipe locale "${locale}" exceeds the maximum of ` +
+        `${recipeContentLimits.maxLocaleRecords} records.`
+      );
+    }
+  }
   if (
     options.sourceFiles !== undefined
     && options.sourceFiles.length !== parsed.length
@@ -510,6 +520,7 @@ export function validateNormalizedRecipeCatalog(
   }
   const ids = new Map<string, number>();
   const localizedSlugs = new Map<string, number>();
+  const localizedFileNames = new Map<string, number>();
   const translationGroupLocales = new Map<string, number>();
   const canonicalRoutes = new Map<string, number>();
   const wordpressSourceRoutes = new Map<string, number[]>();
@@ -537,6 +548,19 @@ export function validateNormalizedRecipeCatalog(
       throw new Error(`Duplicate localized slug${context}: ${localizedSlug}`);
     }
     localizedSlugs.set(localizedSlug, index);
+    const localizedFileName = `${record.locale}:${recipeFileNameKey(record.slug)}`;
+    const previousFileNameIndex = localizedFileNames.get(localizedFileName);
+    if (previousFileNameIndex !== undefined) {
+      const previousSourcePath = options.sourceFiles?.[previousFileNameIndex]?.path;
+      const previousContext = previousSourcePath
+        ? ` (already defined in "${previousSourcePath}")`
+        : "";
+      throw new Error(
+        `Cross-platform recipe filename collision${context}: ` +
+        `${record.locale}/${record.slug}.json${previousContext}`
+      );
+    }
+    localizedFileNames.set(localizedFileName, index);
     const canonicalRoute = getCanonicalRecipePath(record);
     const canonicalKey = routeKey(canonicalRoute, "Recipe canonical route");
     const previousCanonicalIndex = canonicalRoutes.get(canonicalKey);

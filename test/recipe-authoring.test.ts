@@ -19,8 +19,10 @@ import { getCategoryCatalog, getRecipeCategories } from "../src/content/categori
 import {
   authoredRecipeInputSchema,
   normalizeRecipeDocument,
+  quantitySchema,
   type AuthoredRecipeInput
 } from "../src/content/schema";
+import { recipeRuntimeOnlyInvariants } from "../src/content/recipe-runtime-invariants";
 import {
   validateCatalogBehavior,
   validateNormalizedRecipeDisplayText
@@ -280,6 +282,24 @@ test("authored categories join matching WordPress routes without replacing sourc
     ]),
     /Inconsistent editorial category identity/
   );
+  assert.throws(
+    () => authoredRecipeInputSchema.parse({
+      ...authoredInput,
+      categories: [{ name: "Invalid", slug: "CON" }]
+    }),
+    /Windows-reserved path component/
+  );
+  const collidingCategory = normalizeRecipeDocument(createAuthoredRecipeDocument({
+    ...authoredInput,
+    locale: "en",
+    slug: "second-apple-dessert",
+    title: "Second apple dessert",
+    categories: [{ name: "Desserts", slug: "DESSERTS" }]
+  }, "7db6de4d-5e43-49d1-b7fe-0597f304e31d", createdAt));
+  assert.throws(
+    () => getCategoryCatalog([authored, collidingCategory]),
+    /Cross-platform category path collision/
+  );
 });
 
 test("authored translation groups preserve intentional absence without inference", () => {
@@ -376,6 +396,187 @@ test("new removes its staged file when exclusive installation fails", async () =
   });
 });
 
+test("new never installs or deletes a replaced staged file", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    let stagedPath: string | undefined;
+    await assert.rejects(
+      () => createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        {
+          repositoryRoot,
+          recipesRoot,
+          beforeInstall: () => {
+            const stagedName = readdirSync(repositoryRoot).find((name) =>
+              /^\.recipe-authoring-[^.].*\.tmp$/u.test(name)
+            );
+            assert.ok(stagedName);
+            stagedPath = path.join(repositoryRoot, stagedName);
+            rmSync(stagedPath);
+            writeFileSync(stagedPath, "concurrent staged replacement", "utf8");
+          }
+        }
+      ),
+      /cleanup also failed/
+    );
+    assert.deepEqual(readdirSync(path.join(recipesRoot, "ru")), []);
+    assert.ok(stagedPath);
+    assert.equal(
+      readFileSync(stagedPath, "utf8"),
+      "concurrent staged replacement"
+    );
+  });
+});
+
+test("new rejects non-portable filenames before dry-run succeeds", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    writeFileSync(
+      inputPath,
+      `${JSON.stringify({ ...authoredInput, slug: "CON" }, null, 2)}\n`,
+      "utf8"
+    );
+    await assert.rejects(
+      () => createNewRecipe(
+        { input: inputPath },
+        {
+          repositoryRoot,
+          recipesRoot,
+          createRecordId: () => recordId,
+          now: () => new Date(createdAt)
+        }
+      ),
+      /Windows-reserved path component/
+    );
+    assert.deepEqual(readdirSync(path.join(recipesRoot, "ru")), []);
+  });
+});
+
+test("new refuses to create locale record 513", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    for (let index = 0; index < 512; index += 1) {
+      const slug = `existing-recipe-${index + 1}`;
+      const recipeId = String(index + 10_000);
+      const record = {
+        ...recipeFixture,
+        id: `wordpress:wprm:${recipeId}`,
+        locale: "ru" as const,
+        slug,
+        source: {
+          ...recipeFixture.source,
+          recipeId
+        }
+      };
+      writeFileSync(
+        path.join(recipesRoot, "ru", `${slug}.json`),
+        `${JSON.stringify(record, null, 2)}\n`,
+        "utf8"
+      );
+    }
+
+    await assert.rejects(
+      () => createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        { repositoryRoot, recipesRoot }
+      ),
+      /Recipe locale "ru" exceeds the maximum of 512 records/
+    );
+    assert.equal(
+      readdirSync(path.join(recipesRoot, "ru")).includes("яблочный-десерт.json"),
+      false
+    );
+  });
+});
+
+test("new rolls back a verified target when post-link finalization fails", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    for (const dependencies of [
+      {
+        afterInstall: () => {
+          throw new Error("injected temporary cleanup failure");
+        }
+      },
+      {
+        beforeDirectorySync: () => {
+          throw new Error("injected directory durability failure");
+        }
+      }
+    ]) {
+      await assert.rejects(
+        () => createNewRecipe(
+          {
+            input: inputPath,
+            recordId,
+            createdAt,
+            write: true
+          },
+          {
+            repositoryRoot,
+            recipesRoot,
+            ...dependencies
+          }
+        ),
+        /injected (temporary cleanup|directory durability) failure/
+      );
+      assert.deepEqual(readdirSync(path.join(recipesRoot, "ru")), []);
+      assert.equal(
+        readdirSync(repositoryRoot).some((name) =>
+          /^\.recipe-authoring-.*\.tmp$/u.test(name)
+          || name === ".recipe-authoring.lock"
+        ),
+        false
+      );
+    }
+  });
+});
+
+test("CLI reports committed success when only lock cleanup fails", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    let output = "";
+    await runRecipeCli([
+      "new",
+      "--input",
+      inputPath,
+      "--id",
+      recordId,
+      "--created-at",
+      createdAt,
+      "--write"
+    ], {
+      repositoryRoot,
+      recipesRoot,
+      beforeLockRelease: () => {
+        throw new Error("injected lock cleanup failure");
+      },
+      writeOutput: (value) => {
+        output += value;
+      }
+    });
+    const result = JSON.parse(output) as unknown;
+    assert.ok(isRecord(result));
+    assert.equal(result.mode, "committed-with-cleanup-error");
+    assert.match(String(result.cleanupError), /injected lock cleanup failure/);
+    assert.equal(
+      loadRecipeCatalog(recipesRoot)[0]?.id,
+      `authored:recipe:${recordId}`
+    );
+    assert.equal(
+      readdirSync(repositoryRoot).some((name) =>
+        /^\.recipe-authoring-quarantine-.*\.tmp$/u.test(name)
+      ),
+      true
+    );
+  });
+});
+
 test("new serializes concurrent catalog mutations with an exclusive lock", async () => {
   await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
     let enterInstall: (() => void) | undefined;
@@ -439,6 +640,26 @@ test("report, schema, formatting checks, and CLI help are deterministic and stri
   assert.ok(isRecord(authoredBranch.properties));
   assert.equal("media" in authoredBranch.properties, false);
   assert.equal("categories" in authoredBranch.properties, true);
+  assert.match(serializedSchema, /"const": false/u);
+  assert.match(serializedSchema, /"not": \{\}/u);
+  assert.deepEqual(
+    recipeRuntimeOnlyInvariants.map((invariant) => invariant.code),
+    [
+      "recipe-slug-path-and-filename-safety",
+      "category-slug-path-safety",
+      "quantity-range-order",
+      "redirect-route-closure",
+      "recipe-media-path-safety",
+      "wordpress-managed-media-identity",
+      "recipe-media-reference-closure",
+      "authored-id-source-match",
+      "authored-timestamp-order",
+      "catalog-record-and-file-closure",
+      "wordpress-source-identity-and-route",
+      "normalized-display-text"
+    ]
+  );
+  assert.ok(Array.isArray(schema["x-runtime-invariants"]));
 
   await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
     await createNewRecipe(
@@ -491,4 +712,192 @@ test("report, schema, formatting checks, and CLI help are deterministic and stri
     () => runRecipeCli(["unknown"]),
     /Unknown recipes command/
   );
+});
+
+test("quantity schema structurally rejects lossy parsed-value combinations", () => {
+  const base = {
+    raw: "source amount",
+    unit: null
+  };
+  for (const invalid of [
+    { ...base, value: 1, min: 1, max: 2, scalable: true },
+    { ...base, min: 1, scalable: true },
+    { ...base, max: 2, scalable: true },
+    { ...base, scalable: true }
+  ]) {
+    assert.equal(quantitySchema.safeParse(invalid).success, false);
+  }
+  assert.equal(
+    quantitySchema.safeParse({ ...base, scalable: false }).success,
+    true
+  );
+  assert.equal(
+    quantitySchema.safeParse({ ...base, value: 1, scalable: true }).success,
+    true
+  );
+  assert.equal(
+    quantitySchema.safeParse({ ...base, min: 1, max: 2, scalable: true }).success,
+    true
+  );
+  assert.equal(
+    quantitySchema.safeParse({ ...base, min: 2, max: 1, scalable: true }).success,
+    false
+  );
+});
+
+test("machine report orders non-ASCII translation IDs by code unit", async () => {
+  await withTempRepository(({ recipesRoot }) => {
+    const documents = [
+      {
+        document: createAuthoredRecipeDocument({
+          ...authoredInput,
+          locale: "en",
+          slug: "accent-group",
+          title: "Accent group"
+        }, "35058d04-eb60-4897-92ed-23301d3b0d55", createdAt),
+        group: "é-group"
+      },
+      {
+        document: createAuthoredRecipeDocument({
+          ...authoredInput,
+          locale: "fr",
+          slug: "zed-group",
+          title: "Zed group"
+        }, "66c0ad38-d9ed-4c83-b0d4-223647767c87", createdAt),
+        group: "z-group"
+      }
+    ];
+    for (const { document, group } of documents) {
+      const grouped = { ...document, translationGroupId: group };
+      writeFileSync(
+        path.join(recipesRoot, grouped.locale, `${grouped.slug}.json`),
+        `${JSON.stringify(grouped, null, 2)}\n`,
+        "utf8"
+      );
+    }
+
+    assert.deepEqual(
+      createRecipeReport(recipesRoot).translations.groups.map((group) => group.id),
+      ["z-group", "é-group"]
+    );
+  });
+});
+
+test("post-link rollback preserves a concurrently replaced target", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    const destination = path.join(recipesRoot, "ru", "яблочный-десерт.json");
+    await assert.rejects(
+      () => createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        {
+          repositoryRoot,
+          recipesRoot,
+          afterInstall: () => {
+            rmSync(destination);
+            writeFileSync(destination, "concurrent replacement", "utf8");
+          }
+        }
+      ),
+      /cleanup also failed/
+    );
+    assert.equal(readFileSync(destination, "utf8"), "concurrent replacement");
+  });
+});
+
+test("post-link validation preserves an in-place mutated target", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    const destination = path.join(recipesRoot, "ru", "яблочный-десерт.json");
+    await assert.rejects(
+      () => createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        {
+          repositoryRoot,
+          recipesRoot,
+          afterInstall: () => {
+            writeFileSync(destination, "in-place concurrent mutation", "utf8");
+          }
+        }
+      ),
+      /cleanup also failed/
+    );
+    assert.equal(
+      readFileSync(destination, "utf8"),
+      "in-place concurrent mutation"
+    );
+  });
+});
+
+test("post-link rollback preserves a non-file replacement in quarantine", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    const destination = path.join(recipesRoot, "ru", "яблочный-десерт.json");
+    await assert.rejects(
+      () => createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        {
+          repositoryRoot,
+          recipesRoot,
+          afterInstall: () => {
+            rmSync(destination);
+            mkdirSync(destination);
+            writeFileSync(path.join(destination, "marker.txt"), "preserved", "utf8");
+          }
+        }
+      ),
+      /preserved at/
+    );
+    const quarantineName = readdirSync(repositoryRoot).find((name) =>
+      /^\.recipe-authoring-quarantine-.*\.tmp$/u.test(name)
+    );
+    assert.ok(quarantineName);
+    assert.equal(
+      readFileSync(path.join(repositoryRoot, quarantineName, "marker.txt"), "utf8"),
+      "preserved"
+    );
+  });
+});
+
+test("lock cleanup preserves a replacement quarantine entry", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    let replacementPath: string | undefined;
+    const result = await createNewRecipe(
+      {
+        input: inputPath,
+        recordId,
+        createdAt,
+        write: true
+      },
+      {
+        repositoryRoot,
+        recipesRoot,
+        beforeLockRelease: (quarantinePath) => {
+          replacementPath = quarantinePath;
+          rmSync(quarantinePath);
+          writeFileSync(quarantinePath, "concurrent quarantine replacement", "utf8");
+        }
+      }
+    );
+
+    assert.equal(result.mode, "committed-with-cleanup-error");
+    assert.ok(replacementPath);
+    assert.equal(
+      readFileSync(replacementPath, "utf8"),
+      "concurrent quarantine replacement"
+    );
+    assert.equal(loadRecipeCatalog(recipesRoot).length, 1);
+  });
 });

@@ -13,6 +13,7 @@ import {
 import {
   decodeLocalPath,
   decodeRecipeSlug,
+  validateRecipeFileSlug,
   validateSafeLocalPath
 } from "../src/content/url-path";
 import {
@@ -196,6 +197,26 @@ test("recipe catalog, strings, and arrays have explicit generous bounds", () => 
       })
     )
   }, "media");
+});
+
+test("normalized prospective catalogs enforce the per-locale discovery limit", () => {
+  const records = Array.from(
+    { length: recipeContentLimits.maxLocaleRecords + 1 },
+    (_, index) => ({
+      ...recipeFixture,
+      id: `wordpress:wprm:${index + 1}`,
+      slug: `bounded-recipe-${index + 1}`,
+      source: {
+        ...recipeFixture.source,
+        recipeId: String(index + 1)
+      }
+    })
+  );
+
+  assert.throws(
+    () => validateNormalizedRecipeCatalog(records),
+    /Recipe locale "en" exceeds the maximum of 512 records/
+  );
 });
 
 test("the promoted catalog has deterministic category, pagination, and sitemap coverage", () => {
@@ -426,6 +447,104 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
       redirectFrom: []
     }),
     /raw Unicode/
+  );
+});
+
+test("recipe file slugs reject cross-platform illegal and reserved names", () => {
+  for (const slug of [
+    "CON",
+    "aux.json",
+    "NuL.txt",
+    "com1.recipe",
+    "COM¹.recipe",
+    "LPT9.data",
+    "lpt².data",
+    "CONIN$",
+    "conout$.txt",
+    "bad:name",
+    "bad\"name",
+    "bad<name",
+    "bad>name",
+    "bad|name",
+    "trailing.",
+    "trailing "
+  ]) {
+    assert.throws(
+      () => validateRecipeFileSlug(slug),
+      /portable recipe filename|Windows-reserved path component|portable 255-unit path component|must not contain whitespace/
+    );
+  }
+  assert.throws(
+    () => validateRecipeFileSlug("a".repeat(251)),
+    /portable 255-unit path component limit/
+  );
+  assert.doesNotThrow(() => validateRecipeFileSlug("суп-с-фрикадельками"));
+});
+
+test("normalized catalogs reject case-insensitive filename collisions", () => {
+  assert.throws(
+    () => validateNormalizedRecipeCatalog([
+      recipeFixture,
+      {
+        ...recipeFixture,
+        id: "wordpress:wprm:2",
+        slug: "Fixture-Recipe",
+        source: {
+          ...recipeFixture.source,
+          recipeId: "2"
+        }
+      }
+    ]),
+    /Cross-platform recipe filename collision/
+  );
+  assert.throws(
+    () => validateNormalizedRecipeCatalog([
+      {
+        ...recipeFixture,
+        slug: "ΟΣ"
+      },
+      {
+        ...recipeFixture,
+        id: "wordpress:wprm:2",
+        slug: "ος",
+        source: {
+          ...recipeFixture.source,
+          recipeId: "2"
+        }
+      }
+    ]),
+    /Cross-platform recipe filename collision/
+  );
+  assert.throws(
+    () => validateNormalizedRecipeCatalog([
+      {
+        ...recipeFixture,
+        slug: "ΐ"
+      },
+      {
+        ...recipeFixture,
+        id: "wordpress:wprm:2",
+        slug: "Ϊ́",
+        source: {
+          ...recipeFixture.source,
+          recipeId: "2"
+        }
+      }
+    ]),
+    /Cross-platform recipe filename collision/
+  );
+});
+
+test("frozen v1 parsing keeps URL-safe source slugs while publication enforces filenames", () => {
+  const imported = recipeRecordSchema.parse({
+    ...recipeFixture,
+    slug: "CON"
+  });
+
+  assert.equal(imported.slug, "CON");
+  assert.throws(
+    () => validateNormalizedRecipeCatalog([imported]),
+    /Windows-reserved path component/
   );
 });
 

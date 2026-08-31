@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { recipeFieldClassifications } from "../../src/content/recipe-field-usage";
+import { recipeRuntimeOnlyInvariants } from "../../src/content/recipe-runtime-invariants";
 import { persistedRecipeDocumentSchema } from "../../src/content/schema";
 import { ensureDirectory, serializeJson, writeAtomicFile } from "./files";
 
@@ -19,9 +20,10 @@ export function createRecipeJsonSchema() {
       "Catalog-wide identity, route, redirect, translation, and reference closure " +
       "are enforced by npm run recipes -- check.",
     $comment:
-      "Custom Unicode path safety, cross-record uniqueness, redirect cycles, " +
-      "and referenced media closure require the repository checker.",
+      "This schema provides structural IDE validation, not complete publication validation. " +
+      "The x-runtime-invariants list and catalog-wide checks require npm run recipes -- check.",
     "x-field-usage": recipeFieldClassifications,
+    "x-runtime-invariants": recipeRuntimeOnlyInvariants,
     ...structuralSchema
   };
 }

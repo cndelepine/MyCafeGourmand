@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { recipeRecordSchema } from "../src/content/schema";
 import { recipeFixture } from "./fixtures/recipe";
 import {
   getRecipeStructuredData,
@@ -45,15 +46,18 @@ test("recipe structured data preserves available source nutrition", () => {
 });
 
 test("structured nutrition emits only safe nonnegative calorie numbers", () => {
-  const withCalories = (calories: { raw: string; value?: number } | null) => ({
+  const withCalories = (calories: { raw: string; value?: number } | null) =>
+    recipeRecordSchema.parse({
     ...recipeFixture,
     recipe: {
       ...recipeFixture.recipe,
-      nutrition: {
-        calories,
-        servingSize: null,
-        servingUnit: null
-      }
+      nutrition: calories === null
+        ? null
+        : {
+          calories,
+          servingSize: null,
+          servingUnit: null
+        }
     }
   });
 
@@ -81,4 +85,25 @@ test("structured data serialization escapes script-breaking markup", () => {
   const serialized = serializeRecipeStructuredData(data);
   assert.equal(serialized.includes("</script>"), false);
   assert.equal(serialized.includes("\\u003c/script>"), true);
+});
+
+test("recipe structured data exposes equipment as HowTo tools without folding in notes", () => {
+  const recipe = recipeRecordSchema.parse({
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      notes: "Keep covered.",
+      equipment: [{
+        sourceIndex: 0,
+        sourceId: "17",
+        name: "Dutch oven",
+        amount: "1 large",
+        notes: "with a lid"
+      }]
+    }
+  });
+  const data = getRecipeStructuredData(recipe);
+
+  assert.deepEqual(data.tool, ["1 large Dutch oven, with a lid"]);
+  assert.equal(JSON.stringify(data).includes("Keep covered."), false);
 });

@@ -136,6 +136,57 @@ export function validateRecipeSlug(value: string, label = "Recipe slug") {
   decodePercentLayers(value, label, inspectRecipeSlugLayer);
 }
 
+export function validateRecipeFileSlug(value: string, label = "Recipe slug") {
+  validateRecipeSlug(value, label);
+  if (/[<>:"|]/u.test(value) || /[. ]$/u.test(value)) {
+    throw new Error(
+      `${label} cannot be represented by a portable recipe filename: ${value}`
+    );
+  }
+  validatePortablePathComponent(`${value}.json`, label);
+}
+
+function validatePortablePathComponent(value: string, label: string) {
+  if (/[<>:"|]/u.test(value) || /[. ]$/u.test(value)) {
+    throw new Error(
+      `${label} cannot be represented by a portable path component: ${value}`
+    );
+  }
+  if (
+    /^(?:conin\$|conout\$|con|prn|aux|nul|com[1-9¹²³]|lpt[1-9¹²³])(?:\.|$)/iu.test(value)
+  ) {
+    throw new Error(
+      `${label} uses a Windows-reserved path component: ${value}`
+    );
+  }
+  if (
+    value.length > 255
+    || new TextEncoder().encode(value).byteLength > 255
+  ) {
+    throw new Error(
+      `${label} exceeds the portable 255-unit path component limit: ${value}`
+    );
+  }
+}
+
+export function recipeFileNameKey(value: string) {
+  validateRecipeFileSlug(value);
+  return portablePathComponentKey(`${value}.json`, "Recipe filename");
+}
+
+export function validateCategorySlug(value: string, label = "Category slug") {
+  validateRecipeSlug(value, label);
+  validatePortablePathComponent(value, label);
+}
+
+export function portablePathComponentKey(value: string, label: string) {
+  validatePortablePathComponent(value, label);
+  return value
+    .normalize("NFC")
+    .toUpperCase()
+    .normalize("NFC");
+}
+
 export function decodeRecipeSlug(value: string, label = "Recipe slug") {
   const decoded = decodePercentLayers(
     value,

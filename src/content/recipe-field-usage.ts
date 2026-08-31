@@ -55,7 +55,11 @@ export const recipeFieldClassifications: readonly RecipeFieldClassification[] =
       versions: [1],
       uses: ["structured-data"]
     },
-    { path: "recipe.equipment[]", versions: [1, 2], uses: ["published"] },
+    {
+      path: "recipe.equipment[]",
+      versions: [1, 2],
+      uses: ["published", "structured-data"]
+    },
     {
       path: "recipe.ingredientGroups[].items[]",
       versions: [1, 2],
