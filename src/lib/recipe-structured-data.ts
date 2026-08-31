@@ -1,4 +1,8 @@
 import type { Locale, RecipeRecord } from "@/content/schema";
+import {
+  getRecipeModifiedAt,
+  getRecipePublishedAt
+} from "@/content/recipe-dates";
 import { resolveRecipeMediaUrl } from "./recipe-media";
 import { absoluteUrl, canonicalUrl } from "./site";
 import { getRecipePath } from "./recipe-routes";
@@ -61,6 +65,8 @@ export function getRecipeStructuredData(
       .join(" ")
     : undefined;
   const calorieValue = nutrition?.calories?.value;
+  const publishedAt = getRecipePublishedAt(record);
+  const modifiedAt = getRecipeModifiedAt(record);
   const calories = typeof calorieValue === "number"
     && Number.isFinite(calorieValue)
     && calorieValue >= 0
@@ -102,11 +108,11 @@ export function getRecipeStructuredData(
     ...(structuredNutrition ? { nutrition: structuredNutrition } : {}),
     inLanguage: record.locale,
     url: canonicalUrl(getRecipePath(record)),
-    ...(record.source.createdAt
-      ? { datePublished: record.source.createdAt }
+    ...(publishedAt
+      ? { datePublished: publishedAt }
       : {}),
-    ...(record.source.modifiedAt
-      ? { dateModified: record.source.modifiedAt }
+    ...(modifiedAt
+      ? { dateModified: modifiedAt }
       : {})
   };
 }

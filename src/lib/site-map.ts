@@ -3,6 +3,10 @@ import { getCategoryCatalog } from "@/content/categories";
 import type { EditorialPageRecord } from "@/content/editorial-schema";
 import type { GalleryRecord } from "@/content/gallery-schema";
 import type { RecipeRecord } from "@/content/schema";
+import {
+  getRecipeModifiedAt,
+  getRecipePublishedAt
+} from "@/content/recipe-dates";
 import { resolveManagedMediaUrl, resolveRecipeMediaUrl } from "./recipe-media";
 import {
   getEditorialLanguageAlternates,
@@ -52,7 +56,7 @@ export function getSitemapEntries(
     const hero = recipe.recipe.heroMediaId
       ? recipe.media.find((media) => media.id === recipe.recipe.heroMediaId)
       : undefined;
-    const modified = recipe.source.modifiedAt ?? recipe.source.createdAt;
+    const modified = getRecipeModifiedAt(recipe) ?? getRecipePublishedAt(recipe);
 
     return {
       url: canonicalUrl(getRecipePath(recipe)),

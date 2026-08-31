@@ -315,6 +315,15 @@ would make an incomplete mapping safe. No editor runtime, local proxy, or
 production OAuth configuration is shipped until a complete mapping can be
 tested without losing data.
 
+### Recipe maintenance
+
+New image-free recipes use a strict source-neutral v2 JSON document while the
+522 promoted WordPress v1 files remain frozen migration output. The guarded
+`recipes` commands create one authored record, report catalog/translation
+semantics, generate IDE JSON Schema, and perform read-only checks. See
+[`content/README.md`](content/README.md) for the author input contract, timestamp
+semantics, direct-edit rules, and deferred maintenance layers.
+
 ## WordPress migration
 
 Authoritative WordPress backups are read-only migration inputs and remain

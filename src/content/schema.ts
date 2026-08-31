@@ -36,6 +36,18 @@ export const recipeContentLimits = Object.freeze({
 const boundedStringSchema = z.string().max(recipeContentLimits.maxStringLength);
 const nonEmptyStringSchema = boundedStringSchema.min(1);
 const numericStringSchema = nonEmptyStringSchema.regex(/^\d+$/u);
+const timestampSchema = boundedStringSchema.datetime({ offset: true });
+
+const recipeSlugSchema = nonEmptyStringSchema.superRefine((slug, context) => {
+  try {
+    validateRecipeSlug(slug);
+  } catch (error) {
+    context.addIssue({
+      code: "custom",
+      message: error instanceof Error ? error.message : String(error)
+    });
+  }
+});
 
 export const quantitySchema = z.strictObject({
   raw: nonEmptyStringSchema,
@@ -200,22 +212,60 @@ export const redirectFromPathSchema = nonEmptyStringSchema.superRefine((value, c
   }
 });
 
-export const recipeRecordSchema = z.strictObject({
+type RedirectedRecipeRoute = {
+  readonly locale: z.infer<typeof localeSchema>;
+  readonly redirectFrom: readonly string[];
+  readonly slug: string;
+};
+
+function addRecipeRedirectIssues(
+  record: RedirectedRecipeRoute,
+  context: z.RefinementCtx
+) {
+  let canonicalKey: string | undefined;
+  try {
+    canonicalKey = localPathKey(getRecipePath(record));
+  } catch {
+    // The slug schema reports the invalid canonical segment.
+  }
+  const redirectPaths = new Map<string, number>();
+
+  for (const [index, redirectFrom] of record.redirectFrom.entries()) {
+    let redirectKey: string;
+    try {
+      redirectKey = localPathKey(redirectFrom);
+    } catch {
+      continue;
+    }
+
+    if (canonicalKey !== undefined && redirectKey === canonicalKey) {
+      context.addIssue({
+        code: "custom",
+        message: `Recipe redirect source must not equal the canonical recipe route: ${redirectFrom}`,
+        path: ["redirectFrom", index]
+      });
+    }
+
+    const previousIndex = redirectPaths.get(redirectKey);
+    if (previousIndex !== undefined) {
+      context.addIssue({
+        code: "custom",
+        message: `Duplicate recipe redirect source: ${redirectFrom}`,
+        path: ["redirectFrom", index]
+      });
+    } else {
+      redirectPaths.set(redirectKey, index);
+    }
+  }
+}
+
+export const wordpressRecipeRecordV1Schema = z.strictObject({
   schemaVersion: z.literal(1),
   kind: z.literal("recipe"),
   id: nonEmptyStringSchema,
   locale: localeSchema,
   translationGroupId: nonEmptyStringSchema.nullable(),
-  slug: nonEmptyStringSchema.superRefine((slug, context) => {
-    try {
-      validateRecipeSlug(slug);
-    } catch (error) {
-      context.addIssue({
-        code: "custom",
-        message: error instanceof Error ? error.message : String(error)
-      });
-    }
-  }),
+  slug: recipeSlugSchema,
   source: z.strictObject({
     system: z.literal("wordpress"),
     postId: numericStringSchema.nullable(),
@@ -223,13 +273,13 @@ export const recipeRecordSchema = z.strictObject({
     postType: nonEmptyStringSchema.nullable(),
     plugin: z.enum(["wprm", "wpur"]),
     sourceSlug: nonEmptyStringSchema.nullable(),
-    createdAt: boundedStringSchema.datetime({ offset: true }).nullable(),
-    modifiedAt: boundedStringSchema.datetime({ offset: true }).nullable(),
+    createdAt: timestampSchema.nullable(),
+    modifiedAt: timestampSchema.nullable(),
     editorialPostId: numericStringSchema.nullable(),
     editorialPostType: nonEmptyStringSchema.nullable(),
     editorialSourceSlug: nonEmptyStringSchema.nullable(),
-    editorialCreatedAt: boundedStringSchema.datetime({ offset: true }).nullable(),
-    editorialModifiedAt: boundedStringSchema.datetime({ offset: true }).nullable(),
+    editorialCreatedAt: timestampSchema.nullable(),
+    editorialModifiedAt: timestampSchema.nullable(),
     wprmType: z.enum(["food", "howto", "other", "unknown", "malformed"]).optional(),
     wprmTypePresent: z.boolean().optional()
   }),
@@ -297,41 +347,7 @@ export const recipeRecordSchema = z.strictObject({
     description: nonEmptyStringSchema.nullable()
   }).nullable()
 }).superRefine((record, context) => {
-  let canonicalKey: string | undefined;
-  try {
-    canonicalKey = localPathKey(getRecipePath(record));
-  } catch {
-    // The slug schema reports the invalid canonical segment.
-  }
-  const redirectPaths = new Map<string, number>();
-
-  for (const [index, redirectFrom] of record.redirectFrom.entries()) {
-    let redirectKey: string;
-    try {
-      redirectKey = localPathKey(redirectFrom);
-    } catch {
-      continue;
-    }
-
-    if (canonicalKey !== undefined && redirectKey === canonicalKey) {
-      context.addIssue({
-        code: "custom",
-        message: `Recipe redirect source must not equal the canonical recipe route: ${redirectFrom}`,
-        path: ["redirectFrom", index]
-      });
-    }
-
-    const previousIndex = redirectPaths.get(redirectKey);
-    if (previousIndex !== undefined) {
-      context.addIssue({
-        code: "custom",
-        message: `Duplicate recipe redirect source: ${redirectFrom}`,
-        path: ["redirectFrom", index]
-      });
-    } else {
-      redirectPaths.set(redirectKey, index);
-    }
-  }
+  addRecipeRedirectIssues(record, context);
 
   const mediaIds = new Set<string>();
   const mediaPaths = new Set<string>();
@@ -400,9 +416,212 @@ export const recipeRecordSchema = z.strictObject({
   }
 });
 
+export const recipeRecordSchema = wordpressRecipeRecordV1Schema;
+
+const authoredCategorySchema = z.strictObject({
+  name: nonEmptyStringSchema,
+  slug: recipeSlugSchema
+});
+
+const authoredEquipmentItemSchema = z.strictObject({
+  name: nonEmptyStringSchema,
+  amount: nonEmptyStringSchema.nullable(),
+  notes: nonEmptyStringSchema.nullable()
+});
+
+const authoredIngredientGroupSchema = z.strictObject({
+  name: nonEmptyStringSchema.nullable(),
+  items: z.array(z.strictObject({
+    raw: nonEmptyStringSchema,
+    quantity: quantitySchema.nullable(),
+    name: nonEmptyStringSchema,
+    pluralName: nonEmptyStringSchema.optional(),
+    notes: nonEmptyStringSchema.nullable()
+  })).min(1).max(recipeContentLimits.maxIngredientsPerGroup)
+});
+
+const authoredInstructionGroupSchema = z.strictObject({
+  name: nonEmptyStringSchema.nullable(),
+  steps: z.array(z.strictObject({
+    text: nonEmptyStringSchema
+  })).min(1).max(recipeContentLimits.maxStepsPerGroup)
+});
+
+const authoredRecipeBodySchema = z.strictObject({
+  notes: nonEmptyStringSchema.nullable(),
+  servings: quantitySchema.nullable(),
+  equipment: z.array(authoredEquipmentItemSchema)
+    .max(recipeContentLimits.maxEquipment)
+    .optional(),
+  times: z.strictObject({
+    prep: durationSchema.nullable(),
+    cook: durationSchema.nullable(),
+    rest: durationSchema.nullable(),
+    total: durationSchema.nullable(),
+    custom: z.strictObject({
+      label: nonEmptyStringSchema.nullable(),
+      duration: durationSchema
+    }).nullable()
+  }),
+  ingredientGroups: z.array(authoredIngredientGroupSchema)
+    .min(1)
+    .max(recipeContentLimits.maxIngredientGroups),
+  instructionGroups: z.array(authoredInstructionGroupSchema)
+    .min(1)
+    .max(recipeContentLimits.maxInstructionGroups)
+});
+
+const authoredSeoSchema = z.strictObject({
+  title: nonEmptyStringSchema.nullable(),
+  description: nonEmptyStringSchema.nullable()
+}).nullable();
+
+function addAuthoredTimestampIssues(
+  value: { readonly modifiedAt: string | null; readonly publishedAt: string | null },
+  context: z.RefinementCtx
+) {
+  if (
+    value.publishedAt !== null
+    && value.modifiedAt !== null
+    && Date.parse(value.modifiedAt) < Date.parse(value.publishedAt)
+  ) {
+    context.addIssue({
+      code: "custom",
+      message: "Authored recipe modifiedAt cannot be earlier than publishedAt.",
+      path: ["modifiedAt"]
+    });
+  }
+}
+
+export const authoredRecipeInputSchema = z.strictObject({
+  locale: localeSchema,
+  slug: recipeSlugSchema,
+  title: nonEmptyStringSchema,
+  description: nonEmptyStringSchema.nullable(),
+  publishedAt: timestampSchema.nullable(),
+  modifiedAt: timestampSchema.nullable(),
+  categories: z.array(authoredCategorySchema).max(recipeContentLimits.maxTaxonomies),
+  recipe: authoredRecipeBodySchema,
+  seo: authoredSeoSchema
+}).superRefine(addAuthoredTimestampIssues);
+
+const authoredRecordIdSchema = z.uuid();
+
+export const authoredRecipeDocumentV2Schema = z.strictObject({
+  schemaVersion: z.literal(2),
+  kind: z.literal("recipe"),
+  id: nonEmptyStringSchema,
+  locale: localeSchema,
+  translationGroupId: nonEmptyStringSchema.nullable(),
+  slug: recipeSlugSchema,
+  source: z.strictObject({
+    system: z.literal("authored"),
+    recordId: authoredRecordIdSchema,
+    createdAt: timestampSchema
+  }),
+  redirectFrom: z.array(redirectFromPathSchema).max(recipeContentLimits.maxRedirects),
+  title: nonEmptyStringSchema,
+  description: nonEmptyStringSchema.nullable(),
+  publishedAt: timestampSchema.nullable(),
+  modifiedAt: timestampSchema.nullable(),
+  categories: z.array(authoredCategorySchema).max(recipeContentLimits.maxTaxonomies),
+  recipe: authoredRecipeBodySchema,
+  seo: authoredSeoSchema
+}).superRefine((record, context) => {
+  addRecipeRedirectIssues(record, context);
+  addAuthoredTimestampIssues(record, context);
+
+  const expectedId = `authored:recipe:${record.source.recordId}`;
+  if (record.id !== expectedId) {
+    context.addIssue({
+      code: "custom",
+      message: `Authored recipe ID must be ${expectedId}.`,
+      path: ["id"]
+    });
+  }
+});
+
+export const persistedRecipeDocumentSchema = z.discriminatedUnion("schemaVersion", [
+  wordpressRecipeRecordV1Schema,
+  authoredRecipeDocumentV2Schema
+]);
+
+export type WordPressRecipeRecordV1 = z.infer<
+  typeof wordpressRecipeRecordV1Schema
+>;
+export type AuthoredRecipeInput = z.infer<typeof authoredRecipeInputSchema>;
+export type AuthoredRecipeDocumentV2 = z.infer<
+  typeof authoredRecipeDocumentV2Schema
+>;
+export type PersistedRecipeDocument = z.infer<
+  typeof persistedRecipeDocumentSchema
+>;
+
+function normalizeAuthoredRecipe(
+  document: AuthoredRecipeDocumentV2
+) {
+  return {
+    ...document,
+    editorial: {
+      content: null,
+      excerpt: null
+    },
+    taxonomies: document.categories.map((category) => ({
+      scope: "editorial" as const,
+      taxonomy: "category",
+      sourceId: null,
+      sourceTaxonomyId: null,
+      name: category.name,
+      slug: category.slug
+    })),
+    recipe: {
+      ...document.recipe,
+      servingsAdvancedEnabled: undefined,
+      nutrition: undefined,
+      servingsAdvanced: undefined,
+      equipment: document.recipe.equipment?.map((item, sourceIndex) => ({
+        ...item,
+        sourceIndex,
+        sourceId: null
+      })),
+      heroMediaId: null,
+      ingredientGroups: document.recipe.ingredientGroups.map(
+        (group, sourceIndex) => ({
+          ...group,
+          sourceIndex,
+          items: group.items.map((item, itemIndex) => ({
+            ...item,
+            sourceIndex: itemIndex
+          }))
+        })
+      ),
+      instructionGroups: document.recipe.instructionGroups.map(
+        (group, sourceIndex) => ({
+          ...group,
+          sourceIndex,
+          steps: group.steps.map((step, stepIndex) => ({
+            ...step,
+            sourceIndex: stepIndex,
+            mediaId: null
+          }))
+        })
+      )
+    },
+    media: []
+  };
+}
+
+export function normalizeRecipeDocument(
+  document: PersistedRecipeDocument
+) {
+  return document.schemaVersion === 1
+    ? document
+    : normalizeAuthoredRecipe(document);
+}
+
 export type Quantity = z.infer<typeof quantitySchema>;
 export type NutritionAmount = z.infer<typeof nutritionAmountSchema>;
 export type Nutrition = z.infer<typeof nutritionSchema>;
 export type EquipmentItem = z.infer<typeof equipmentItemSchema>;
 export type ServingsAdvanced = z.infer<typeof servingsAdvancedSchema>;
-export type RecipeRecord = z.infer<typeof recipeRecordSchema>;
+export type RecipeRecord = ReturnType<typeof normalizeRecipeDocument>;

@@ -1,4 +1,4 @@
-import type { RecipeRecord } from "../../src/content/schema";
+import type { WordPressRecipeRecordV1 } from "../../src/content/schema";
 import {
   classifyWprmCandidateDisposition,
   isInformationalWprmIssueCode,
@@ -6,7 +6,7 @@ import {
 } from "./wprm-import-contracts";
 
 export type PromotionEligibilityResult = {
-  readonly selected: readonly RecipeRecord[];
+  readonly selected: readonly WordPressRecipeRecordV1[];
   readonly excluded: number;
   readonly blockedGroups: number;
   readonly intentionallyPartialGroups: number;
@@ -64,7 +64,7 @@ function groupIntegrityBlockers(
 }
 
 export function selectPromotionEligibleRecords(
-  selected: readonly RecipeRecord[],
+  selected: readonly WordPressRecipeRecordV1[],
   outcomes: readonly CandidateOutcome[],
   sourceTranslationGroups: ReadonlyMap<string, string | null>
 ): PromotionEligibilityResult {

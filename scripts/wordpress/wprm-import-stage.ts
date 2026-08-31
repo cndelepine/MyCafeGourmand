@@ -12,7 +12,10 @@ import {
 } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { recipeRecordSchema, type RecipeRecord } from "../../src/content/schema";
+import {
+  recipeRecordSchema,
+  type WordPressRecipeRecordV1
+} from "../../src/content/schema";
 import {
   wprmImportContractVersion,
   WprmImportError,
@@ -819,7 +822,7 @@ export async function readFingerprintKey(keyFile: string) {
 
 export function fingerprintCandidate(
   key: Uint8Array,
-  candidate: RecipeRecord | string
+  candidate: WordPressRecipeRecordV1 | string
 ) {
   return createHmac("sha256", key)
     .update(
@@ -1205,7 +1208,7 @@ export async function stagePrivateStagingFiles(
   return directories;
 }
 
-function candidateContent(record: RecipeRecord) {
+function candidateContent(record: WordPressRecipeRecordV1) {
   return `${JSON.stringify(record, null, 2)}\n`;
 }
 

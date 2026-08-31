@@ -1,6 +1,9 @@
-import { recipeRecordSchema, type RecipeRecord } from "../../src/content/schema";
+import {
+  recipeRecordSchema,
+  type WordPressRecipeRecordV1
+} from "../../src/content/schema";
 
-export const recipeFixture: RecipeRecord = recipeRecordSchema.parse({
+export const recipeFixture: WordPressRecipeRecordV1 = recipeRecordSchema.parse({
   schemaVersion: 1,
   kind: "recipe",
   id: "wordpress:wprm:1",

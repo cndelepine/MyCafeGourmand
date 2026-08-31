@@ -17,6 +17,8 @@ yarn-error.log*
 pnpm-debug.log*
 
 /migration-output/
+/.recipe-authoring.lock
+/.recipe-authoring-*.tmp
 
 .DS_Store
 /drive-download-*/

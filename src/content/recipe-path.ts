@@ -1,9 +1,14 @@
-import type { RecipeRecord } from "./schema";
+import type { Locale } from "./locales";
 import { validateRecipeSlug } from "./url-path";
 
 export const recipeRouteSegment = "recipes";
 
-export function getRecipePath(record: RecipeRecord) {
+export type RecipePathRecord = {
+  readonly locale: Locale;
+  readonly slug: string;
+};
+
+export function getRecipePath(record: RecipePathRecord) {
   validateRecipeSlug(record.slug);
   const segments = record.locale === "en"
     ? [recipeRouteSegment, record.slug]
@@ -15,6 +20,6 @@ export function getRecipePath(record: RecipeRecord) {
     .join("/")}`;
 }
 
-export function getCanonicalRecipePath(record: RecipeRecord) {
+export function getCanonicalRecipePath(record: RecipePathRecord) {
   return `${getRecipePath(record)}/`;
 }

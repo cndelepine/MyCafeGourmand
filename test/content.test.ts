@@ -1,6 +1,10 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { recipeCatalog, validateCatalog } from "../src/content/catalog";
+import {
+  recipeCatalog,
+  validateCatalog,
+  validateNormalizedRecipeCatalog
+} from "../src/content/catalog";
 import { recipeFixture } from "./fixtures/recipe";
 import {
   recipeContentLimits,
@@ -32,7 +36,7 @@ function assertTooBig(input: unknown, expectedPath: string) {
 }
 
 test("the production catalog passes the canonical schema", () => {
-  const validated = validateCatalog(recipeCatalog);
+  const validated = validateNormalizedRecipeCatalog(recipeCatalog);
   const localeCounts = Object.fromEntries(
     ["en", "fr", "ru"].map((locale) => [
       locale,
@@ -55,6 +59,10 @@ test("the production catalog passes the canonical schema", () => {
 
   const authoritative = validated.find((record) => record.id === "wordpress:wprm:21681");
   assert.ok(authoritative);
+  assert.equal(authoritative.schemaVersion, 1);
+  if (authoritative.schemaVersion !== 1) {
+    throw new Error("Expected a WordPress v1 recipe.");
+  }
   assert.equal(authoritative.locale, "en");
   assert.equal(authoritative.slug, "meatballs-soup");
   assert.equal(authoritative.source.recipeId, "21681");
@@ -71,7 +79,9 @@ test("intentionally partial recipes retain their verified canonical legacy redir
   ]);
 
   for (const [recipeId, redirect] of expectedRedirects) {
-    const record = recipeCatalog.find((candidate) => candidate.source.recipeId === recipeId);
+    const record = recipeCatalog.find((candidate) =>
+      candidate.schemaVersion === 1 && candidate.source.recipeId === recipeId
+    );
     assert.ok(record, `Missing intentionally partial recipe ${recipeId}`);
     assert.deepEqual(record.redirectFrom, [redirect]);
   }

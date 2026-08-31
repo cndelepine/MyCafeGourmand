@@ -15,9 +15,11 @@ import { parseJsonAtBoundary } from "./json-boundary";
 import { getCanonicalRecipePath } from "./recipe-path";
 import {
   recipeContentLimits,
-  recipeRecordSchema,
+  normalizeRecipeDocument,
+  persistedRecipeDocumentSchema,
   localeValues,
   type Locale,
+  type PersistedRecipeDocument,
   type RecipeRecord
 } from "./schema";
 import { localPathKey, validateSafeLocalPath } from "./url-path";
@@ -338,8 +340,11 @@ export function createRecipeContentTreeGuard(
   });
 }
 
-export function parseRecipeRecord(input: unknown, sourcePath?: string): RecipeRecord {
-  const result = recipeRecordSchema.safeParse(input);
+export function parsePersistedRecipeDocument(
+  input: unknown,
+  sourcePath?: string
+): PersistedRecipeDocument {
+  const result = persistedRecipeDocumentSchema.safeParse(input);
 
   if (!result.success) {
     const context = sourcePath ? ` in "${sourcePath}"` : "";
@@ -349,6 +354,10 @@ export function parseRecipeRecord(input: unknown, sourcePath?: string): RecipeRe
   }
 
   return result.data;
+}
+
+export function parseRecipeRecord(input: unknown, sourcePath?: string): RecipeRecord {
+  return normalizeRecipeDocument(parsePersistedRecipeDocument(input, sourcePath));
 }
 
 function readRecipeRecord(source: DiscoveredRecipeSourceFile) {
@@ -450,6 +459,8 @@ function routeKey(value: string, label: string) {
 
 function sourceWordPressPath(record: RecipeRecord) {
   if (
+    record.source.system !== "wordpress"
+    ||
     record.source.editorialPostId === null
     || record.source.editorialSourceSlug === null
   ) {
@@ -463,7 +474,10 @@ export function validateCatalog(
   catalog?: readonly unknown[],
   options: CatalogValidationOptions = {}
 ): RecipeRecord[] {
-  const input = catalog ?? loadRecipeCatalogWithSources().records;
+  if (catalog === undefined) {
+    return loadRecipeCatalogWithSources().records;
+  }
+  const input = catalog;
   assertRecordCount(input.length, "Recipe catalog");
   if (
     options.sourceFiles !== undefined
@@ -477,6 +491,23 @@ export function validateCatalog(
   const parsed = input.map((record, index) =>
     parseRecipeRecord(record, options.sourceFiles?.[index]?.path)
   );
+  return validateNormalizedRecipeCatalog(parsed, options);
+}
+
+export function validateNormalizedRecipeCatalog(
+  parsed: readonly RecipeRecord[],
+  options: CatalogValidationOptions = {}
+): RecipeRecord[] {
+  assertRecordCount(parsed.length, "Recipe catalog");
+  if (
+    options.sourceFiles !== undefined
+    && options.sourceFiles.length !== parsed.length
+  ) {
+    throw new Error(
+      `Recipe source-file count ${options.sourceFiles.length} does not match ` +
+      `catalog count ${parsed.length}.`
+    );
+  }
   const ids = new Map<string, number>();
   const localizedSlugs = new Map<string, number>();
   const translationGroupLocales = new Map<string, number>();
@@ -491,12 +522,14 @@ export function validateCatalog(
       throw new Error(`Duplicate content ID${context}: ${record.id}`);
     }
     ids.set(record.id, index);
-    const expectedId = `wordpress:${record.source.plugin}:${record.source.recipeId}`;
-    if (record.id !== expectedId) {
-      throw new Error(
-        `Recipe content ID does not match source identity${context}: ` +
-        `expected ${expectedId}, received ${record.id}`
-      );
+    if (record.source.system === "wordpress") {
+      const expectedId = `wordpress:${record.source.plugin}:${record.source.recipeId}`;
+      if (record.id !== expectedId) {
+        throw new Error(
+          `Recipe content ID does not match source identity${context}: ` +
+          `expected ${expectedId}, received ${record.id}`
+        );
+      }
     }
 
     const localizedSlug = `${record.locale}:${record.slug}`;
@@ -588,7 +621,7 @@ export function validateCatalog(
     }
   }
 
-  return parsed;
+  return [...parsed];
 }
 
 export function loadRecipeCatalogWithSources(
@@ -618,7 +651,7 @@ export function loadRecipeCatalogWithSources(
   const files = publicSourceFiles(snapshot);
   return {
     files,
-    records: validateCatalog(records, { sourceFiles: files })
+    records: validateNormalizedRecipeCatalog(records, { sourceFiles: files })
   };
 }
 

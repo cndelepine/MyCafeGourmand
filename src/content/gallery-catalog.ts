@@ -7,7 +7,7 @@ import {
 import path from "node:path";
 import {
   loadRecipeCatalog,
-  validateCatalog
+  validateNormalizedRecipeCatalog
 } from "./catalog";
 import {
   editorialCatalog,
@@ -290,7 +290,7 @@ export function validatePublicContentCatalogs(
     gallery,
     options.recipeRecords === undefined
       ? loadRecipeCatalog()
-      : validateCatalog(options.recipeRecords)
+      : validateNormalizedRecipeCatalog(options.recipeRecords)
   );
   return { editorial, gallery };
 }

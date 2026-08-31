@@ -1,4 +1,7 @@
-import type { Locale, RecipeRecord } from "../../src/content/schema";
+import type {
+  Locale,
+  WordPressRecipeRecordV1
+} from "../../src/content/schema";
 import {
   defaultSourceEvidenceLimits,
   type SourceEvidenceLimits
@@ -336,7 +339,7 @@ export interface CandidateOutcome {
   readonly locale: Locale | null;
   readonly translationGroupId?: string | null;
   readonly codes: readonly WprmIssueCode[];
-  readonly record: RecipeRecord | null;
+  readonly record: WordPressRecipeRecordV1 | null;
   readonly fingerprint: string | null;
 }
 

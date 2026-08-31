@@ -16,7 +16,10 @@ import {
   validateSafeLocalPath
 } from "../../src/content/url-path";
 import { getRecipePath } from "../../src/lib/recipe-routes";
-import { type Locale, type RecipeRecord } from "../../src/content/schema";
+import {
+  type Locale,
+  type WordPressRecipeRecordV1
+} from "../../src/content/schema";
 import {
   isIntentionallyPartialOutcome,
   selectPromotionEligibleRecords
@@ -42,8 +45,8 @@ export type WprmRedirectResolverInput = {
     readonly translationGroups?: ReadonlyMap<string, string | null>;
   };
   readonly outcomes?: readonly CandidateOutcome[];
-  readonly promotedRecords?: readonly RecipeRecord[];
-  readonly eligibleRecords?: readonly RecipeRecord[];
+  readonly promotedRecords?: readonly WordPressRecipeRecordV1[];
+  readonly eligibleRecords?: readonly WordPressRecipeRecordV1[];
   readonly sourceTranslationGroups?: ReadonlyMap<string, string | null>;
   readonly options: WprmWordPressOptions;
   readonly staticRoutePaths?: readonly string[];
@@ -59,7 +62,7 @@ export type WprmRedirectResolution = {
 };
 
 type Identity = {
-  readonly record: RecipeRecord;
+  readonly record: WordPressRecipeRecordV1;
   readonly locale: Locale;
   readonly currentPath: string;
   readonly currentKey: string;
@@ -152,7 +155,7 @@ function editorialPath(
   };
 }
 
-function currentPath(record: RecipeRecord) {
+function currentPath(record: WordPressRecipeRecordV1) {
   const path = getRecipePath(record);
   const destination = path.endsWith("/") ? path : `${path}/`;
   validateSafeLocalPath(destination, "current recipe path");
@@ -183,7 +186,7 @@ function isPublished(post: { readonly status: string } | undefined) {
 }
 
 function sourceValidIdentity(
-  record: RecipeRecord,
+  record: WordPressRecipeRecordV1,
   graph: WprmSourceGraph,
   relations: Pick<WprmRelations, "locales" | "parentLinks">
 ) {
@@ -216,7 +219,7 @@ function sourceValidIdentity(
   } satisfies Identity;
 }
 
-function sortedRecords(records: readonly RecipeRecord[]) {
+function sortedRecords(records: readonly WordPressRecipeRecordV1[]) {
   return [...records].sort((left, right) =>
     numericIdSort(left.source.recipeId, right.source.recipeId)
   );
