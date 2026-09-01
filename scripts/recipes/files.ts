@@ -84,8 +84,13 @@ export function readBoundedJsonFile(
 
 type AtomicWriteDependencies = {
   readonly afterInstall?: () => Promise<void> | void;
+  readonly afterWindowsHandleClose?: (targetPath: string) => Promise<void> | void;
   readonly beforeInstall?: () => Promise<void> | void;
   readonly beforeDirectorySync?: () => Promise<void> | void;
+  readonly beforeCommittedDirectorySync?: () => Promise<void> | void;
+  readonly beforeRollback?: () => Promise<void> | void;
+  readonly beforeRollbackDirectorySync?: () => Promise<void> | void;
+  readonly platform?: NodeJS.Platform;
   readonly stagingDirectory?: string;
 };
 
@@ -95,10 +100,11 @@ type ExclusiveLockDependencies = {
 
 export class AtomicWriteCommittedError extends Error {
   readonly committed = true;
+  readonly targetPath: string;
 
   constructor(targetPath: string, cause: unknown, rollbackCause?: unknown) {
     super(
-      `Atomic write committed "${targetPath}", but cleanup failed and rollback ` +
+      `COMMITTED: Atomic write committed "${targetPath}", but cleanup failed and rollback ` +
       "could not be proven. Inspect the target before retrying.",
       {
         cause: rollbackCause === undefined
@@ -110,6 +116,27 @@ export class AtomicWriteCommittedError extends Error {
       }
     );
     this.name = "AtomicWriteCommittedError";
+    this.targetPath = targetPath;
+  }
+}
+
+export class AtomicWriteIndeterminateError extends Error {
+  readonly committed = "indeterminate" as const;
+  readonly targetPath: string;
+
+  constructor(targetPath: string, cause: unknown, durabilityCause: unknown) {
+    super(
+      `INDETERMINATE: Atomic write state for "${targetPath}" could not be made durable. ` +
+      "Inspect the target before retrying.",
+      {
+        cause: new AggregateError(
+          [cause, durabilityCause],
+          "The write failed and rollback durability could not be confirmed."
+        )
+      }
+    );
+    this.name = "AtomicWriteIndeterminateError";
+    this.targetPath = targetPath;
   }
 }
 
@@ -223,6 +250,7 @@ async function quarantineVerifiedEntry(
       };
     }
   }
+
   if (!sameEntryIdentity(quarantined, expected)) {
     try {
       await link(quarantinePath, entryPath);
@@ -271,6 +299,212 @@ async function quarantineVerifiedEntry(
   }
 }
 
+async function syncDirectories(
+  directories: readonly string[],
+  platform: NodeJS.Platform
+) {
+  if (platform === "win32") {
+    return;
+  }
+  for (const directory of [...new Set(directories)]) {
+    const directoryHandle = await open(
+      directory,
+      constants.O_RDONLY | constants.O_NOFOLLOW
+    );
+    try {
+      await directoryHandle.sync();
+    } finally {
+      await directoryHandle.close();
+    }
+  }
+}
+
+async function captureHandleIdentity(
+  handle: Awaited<ReturnType<typeof open>>,
+  label: string
+) {
+  const before = await handle.stat({ bigint: true });
+  if (!before.isFile() || before.size > BigInt(Number.MAX_SAFE_INTEGER)) {
+    throw new Error(`${label} is not a readable bounded regular file.`);
+  }
+  const bytes = Buffer.alloc(Number(before.size));
+  let offset = 0;
+  while (offset < bytes.byteLength) {
+    const { bytesRead } = await handle.read(
+      bytes,
+      offset,
+      bytes.byteLength - offset,
+      offset
+    );
+    if (bytesRead === 0) {
+      throw new Error(`${label} ended before all bytes were verified.`);
+    }
+    offset += bytesRead;
+  }
+  const after = await handle.stat({ bigint: true });
+  const beforeIdentity = identityFromOpenFile(
+    before,
+    createHash("sha256").update(bytes).digest("hex")
+  );
+  const afterIdentity = identityFromOpenFile(after, beforeIdentity.sha256);
+  if (!sameEntryIdentity(beforeIdentity, afterIdentity)) {
+    throw new Error(`${label} changed while its handle-bound bytes were verified.`);
+  }
+  return afterIdentity;
+}
+
+async function writeWindowsExclusiveFile(
+  targetPath: string,
+  target: string,
+  contents: string,
+  quarantineDirectory: string,
+  dependencies: AtomicWriteDependencies
+) {
+  let handle: Awaited<ReturnType<typeof open>> | undefined;
+  let created = false;
+  let createdIdentity: EntryIdentity | undefined;
+  try {
+    await dependencies.beforeInstall?.();
+    try {
+      const existing = lstatSync(target);
+      if (existing.isSymbolicLink() || !existing.isFile()) {
+        throw new Error(`Windows destination is a reparse or non-file entry: "${targetPath}".`);
+      }
+      throw new Error(`Output already exists: "${targetPath}".`);
+    } catch (error) {
+      if (!isMissing(error)) {
+        throw error;
+      }
+    }
+
+    handle = await open(
+      target,
+      constants.O_RDWR | constants.O_CREAT | constants.O_EXCL | constants.O_NOFOLLOW,
+      0o644
+    );
+    created = true;
+    const opened = await handle.stat({ bigint: true });
+    if (!opened.isFile()) {
+      throw new Error(`Windows destination is not a regular file: "${targetPath}".`);
+    }
+    await handle.writeFile(contents, "utf8");
+    await handle.sync();
+    const handleIdentity = await captureHandleIdentity(
+      handle,
+      "Windows destination"
+    );
+    await handle.close();
+    handle = undefined;
+    try {
+      await dependencies.afterWindowsHandleClose?.(target);
+    } catch (postCloseError) {
+      throw new AtomicWriteIndeterminateError(
+        targetPath,
+        postCloseError,
+        new Error("Windows destination closed before final path identity was captured.")
+      );
+    }
+    let finalizedIdentity: EntryIdentity;
+    try {
+      finalizedIdentity = captureEntryIdentity(
+        target,
+        "Windows destination"
+      );
+    } catch (finalizationError) {
+      throw new AtomicWriteIndeterminateError(
+        targetPath,
+        new Error("Windows destination finalization failed after handle close."),
+        finalizationError
+      );
+    }
+    if (!sameEntryContentIdentity(handleIdentity, finalizedIdentity)) {
+      throw new AtomicWriteIndeterminateError(
+        targetPath,
+        new Error("Windows destination changed while its write handle closed."),
+        new Error("Post-close destination bytes or identity do not match the write handle.")
+      );
+    }
+    createdIdentity = finalizedIdentity;
+
+    assertEntryIdentity(target, createdIdentity, "Windows destination");
+    await dependencies.afterInstall?.();
+    await dependencies.beforeDirectorySync?.();
+    assertEntryIdentity(target, createdIdentity, "Windows destination");
+    return { committed: true as const };
+  } catch (error) {
+    if (created && createdIdentity === undefined && handle !== undefined) {
+      try {
+        const handleIdentity = await captureHandleIdentity(
+          handle,
+          "Partial Windows destination"
+        );
+        await handle.close();
+        handle = undefined;
+        const finalizedIdentity = captureEntryIdentity(
+          target,
+          "Partial Windows destination"
+        );
+        if (!sameEntryContentIdentity(handleIdentity, finalizedIdentity)) {
+          throw new Error(
+            "Partial Windows destination changed while its write handle closed."
+          );
+        }
+        createdIdentity = finalizedIdentity;
+      } catch (identityError) {
+        let durabilityError: unknown = identityError;
+        if (handle !== undefined) {
+          try {
+            await handle.close();
+            handle = undefined;
+          } catch (closeError) {
+            durabilityError = new AggregateError(
+              [identityError, closeError],
+              "Partial Windows destination identity and handle cleanup both failed."
+            );
+          }
+        }
+        throw new AtomicWriteIndeterminateError(targetPath, error, durabilityError);
+      }
+    }
+    if (handle !== undefined) {
+      try {
+        await handle.close();
+      } catch (closeError) {
+        throw new AtomicWriteIndeterminateError(targetPath, error, closeError);
+      }
+      handle = undefined;
+    }
+    if (created && createdIdentity !== undefined) {
+      let cleanup;
+      try {
+        cleanup = await quarantineVerifiedEntry(
+          target,
+          createdIdentity,
+          quarantineDirectory,
+          "Windows destination"
+        );
+      } catch (cleanupError) {
+        throw new AtomicWriteIndeterminateError(targetPath, error, cleanupError);
+      }
+      if (cleanup.cleanupError !== null) {
+        if (!cleanup.removedExpected) {
+          throw new AtomicWriteIndeterminateError(
+            targetPath,
+            error,
+            cleanup.cleanupError
+          );
+        }
+        throw new AggregateError(
+          [error, cleanup.cleanupError],
+          "Windows exclusive create failed without a committed target, but cleanup " +
+          `requires review: ${cleanup.cleanupError.message}`
+        );
+      }
+    }
+    throw error;
+  }
+}
+
 export async function ensureDirectory(directory: string) {
   try {
     const stats = lstatSync(directory);
@@ -291,6 +525,7 @@ export async function writeAtomicFile(
   overwrite: boolean,
   dependencies: AtomicWriteDependencies = {}
 ) {
+  const platform = dependencies.platform ?? process.platform;
   const parent = path.dirname(targetPath);
   const parentStats = lstatSync(parent, { bigint: true });
   if (parentStats.isSymbolicLink() || !parentStats.isDirectory()) {
@@ -325,6 +560,15 @@ export async function writeAtomicFile(
     );
   }
   const realStagingDirectory = await realpath(stagingDirectory);
+  if (platform === "win32" && !overwrite) {
+    return writeWindowsExclusiveFile(
+      targetPath,
+      target,
+      contents,
+      realStagingDirectory,
+      dependencies
+    );
+  }
   const temporary = path.join(
     realStagingDirectory,
     `.recipe-authoring-${randomUUID()}.tmp`
@@ -390,24 +634,19 @@ export async function writeAtomicFile(
 
     await dependencies.beforeDirectorySync?.();
     assertEntryIdentity(target, stagedIdentity, "Installed atomic target");
-    if (process.platform !== "win32") {
-      const directoryHandle = await open(
-        realParent,
-        constants.O_RDONLY | constants.O_NOFOLLOW
-      );
-      try {
-        await directoryHandle.sync();
-      } finally {
-        await directoryHandle.close();
-      }
-    }
+    await syncDirectories([realParent, realStagingDirectory], platform);
     assertEntryIdentity(target, stagedIdentity, "Installed atomic target");
     return { committed: true as const };
   } catch (error) {
     const cleanupErrors: unknown[] = [];
+    let committedError: AtomicWriteCommittedError | undefined;
+    let rollbackChangedDirectories = false;
+    let rollbackDurabilityError: unknown;
+    let rollbackStateError: unknown;
     if (installed) {
       if (!overwrite && stagedIdentity !== undefined) {
         try {
+          await dependencies.beforeRollback?.();
           const rollback = await quarantineVerifiedEntry(
             target,
             stagedIdentity,
@@ -415,14 +654,22 @@ export async function writeAtomicFile(
             "Installed recipe target"
           );
           installed = false;
-          if (rollback.cleanupError !== null) {
+          rollbackChangedDirectories = true;
+          if (!rollback.removedExpected) {
+            rollbackStateError = rollback.cleanupError
+              ?? new Error("Rollback did not remove the expected installed target.");
+          } else if (rollback.cleanupError !== null) {
             cleanupErrors.push(rollback.cleanupError);
           }
         } catch (rollbackError) {
-          throw new AtomicWriteCommittedError(targetPath, error, rollbackError);
+          committedError = new AtomicWriteCommittedError(
+            targetPath,
+            error,
+            rollbackError
+          );
         }
       } else {
-        throw new AtomicWriteCommittedError(targetPath, error);
+        committedError = new AtomicWriteCommittedError(targetPath, error);
       }
     }
 
@@ -444,6 +691,60 @@ export async function writeAtomicFile(
       } catch (cleanupError) {
         cleanupErrors.push(cleanupError);
       }
+    }
+    if (rollbackChangedDirectories) {
+      try {
+        await dependencies.beforeRollbackDirectorySync?.();
+        await syncDirectories([realParent, realStagingDirectory], platform);
+      } catch (durabilityError) {
+        rollbackDurabilityError = durabilityError;
+      }
+    }
+    if (
+      rollbackDurabilityError !== undefined
+      || rollbackStateError !== undefined
+    ) {
+      const indeterminateErrors: unknown[] = [];
+      if (rollbackStateError !== undefined) {
+        indeterminateErrors.push(rollbackStateError);
+      }
+      if (rollbackDurabilityError !== undefined) {
+        indeterminateErrors.push(rollbackDurabilityError);
+      }
+      indeterminateErrors.push(...cleanupErrors);
+      const durabilityCause = indeterminateErrors.length === 1
+        ? indeterminateErrors[0]
+        : new AggregateError(
+          indeterminateErrors,
+          "Rollback state, durability, or staged cleanup could not be confirmed."
+        );
+      throw new AtomicWriteIndeterminateError(
+        targetPath,
+        error,
+        durabilityCause
+      );
+    }
+    if (committedError !== undefined) {
+      try {
+        await dependencies.beforeCommittedDirectorySync?.();
+        await syncDirectories([realParent, realStagingDirectory], platform);
+      } catch (durabilityError) {
+        committedError = new AtomicWriteCommittedError(
+          targetPath,
+          committedError,
+          durabilityError
+        );
+      }
+      throw cleanupErrors.length === 0
+        ? committedError
+        : new AtomicWriteCommittedError(
+          targetPath,
+          committedError,
+          new AggregateError(
+            cleanupErrors,
+            "Committed write staging cleanup also failed."
+          )
+        );
     }
     if (cleanupErrors.length > 0) {
       const details = cleanupErrors.map((cleanupError) =>
@@ -538,6 +839,20 @@ export async function withExclusiveFileLock<T>(
     try {
       await release();
     } catch (cleanupError) {
+      if (error instanceof AtomicWriteCommittedError) {
+        throw new AtomicWriteCommittedError(
+          error.targetPath,
+          error,
+          cleanupError
+        );
+      }
+      if (error instanceof AtomicWriteIndeterminateError) {
+        throw new AtomicWriteIndeterminateError(
+          error.targetPath,
+          error,
+          cleanupError
+        );
+      }
       throw new AggregateError(
         [error, cleanupError],
         "Recipe authoring failed and its exclusive lock could not be released."

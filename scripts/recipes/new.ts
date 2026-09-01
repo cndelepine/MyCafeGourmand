@@ -42,11 +42,16 @@ export type NewRecipeOptions = {
 
 export type NewRecipeDependencies = {
   readonly afterInstall?: () => Promise<void> | void;
+  readonly afterWindowsHandleClose?: (targetPath: string) => Promise<void> | void;
+  readonly beforeCommittedDirectorySync?: () => Promise<void> | void;
   readonly beforeInstall?: () => Promise<void> | void;
   readonly beforeDirectorySync?: () => Promise<void> | void;
   readonly beforeLockRelease?: (quarantinePath: string) => Promise<void> | void;
+  readonly beforeRollback?: () => Promise<void> | void;
+  readonly beforeRollbackDirectorySync?: () => Promise<void> | void;
   readonly createRecordId?: () => string;
   readonly now?: () => Date;
+  readonly platform?: NodeJS.Platform;
   readonly recipesRoot?: string;
   readonly repositoryRoot?: string;
 };
@@ -150,8 +155,13 @@ export async function createNewRecipe(
     if (options.write === true) {
       await writeAtomicFile(destination, serialized, false, {
         afterInstall: dependencies.afterInstall,
+        afterWindowsHandleClose: dependencies.afterWindowsHandleClose,
+        beforeCommittedDirectorySync: dependencies.beforeCommittedDirectorySync,
         beforeInstall: dependencies.beforeInstall,
         beforeDirectorySync: dependencies.beforeDirectorySync,
+        beforeRollback: dependencies.beforeRollback,
+        beforeRollbackDirectorySync: dependencies.beforeRollbackDirectorySync,
+        platform: dependencies.platform,
         stagingDirectory: repositoryRoot
       });
     }

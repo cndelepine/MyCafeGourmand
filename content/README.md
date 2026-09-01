@@ -148,6 +148,23 @@ fails, the CLI reports `mode: "committed-with-cleanup-error"` and identifies the
 cleanup problem; inspect the committed target and named cleanup artifact before
 retrying.
 
+On POSIX systems, successful installation and rollback sync both the recipe
+destination and staging directories. A rollback durability failure is reported
+as `INDETERMINATE`, not as an ordinary uncommitted failure. A combined committed
+write and lock-cleanup failure remains a `COMMITTED` error so automation cannot
+mistake it for a safe retry.
+
+On Windows, Node does not expose `openat`/directory-handle operations that can
+make a staged pathname race-proof. The command therefore avoids hard-linking a
+staged path: it opens the final destination with `O_EXCL`, writes the already
+validated in-memory bytes through that handle, syncs and verifies those bytes,
+and rejects a reparse/non-file destination immediately around creation.
+Synchronous failures use identity-bound cleanup. A process or machine crash
+during the direct write can leave a partial destination and is indeterminate;
+inspect that exact file before removing or retrying it. As elsewhere in the
+content boundary, malicious concurrent local filesystem mutation is outside
+the guarantee: run authoring commands only in a trusted local workspace.
+
 ## Authored timestamp semantics
 
 Authored dates are never guessed:

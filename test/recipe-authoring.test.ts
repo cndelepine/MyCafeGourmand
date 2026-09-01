@@ -5,6 +5,7 @@ import {
   readFileSync,
   readdirSync,
   rmSync,
+  symlinkSync,
   writeFileSync
 } from "node:fs";
 import path from "node:path";
@@ -38,6 +39,11 @@ import { formatIngredient } from "../src/lib/scale-quantity";
 import { getSitemapEntries } from "../src/lib/site-map";
 import { runRecipeCli } from "../scripts/recipes/cli";
 import { checkRecipeDocumentFormatting } from "../scripts/recipes/check";
+import {
+  AtomicWriteCommittedError,
+  AtomicWriteIndeterminateError,
+  writeAtomicFile
+} from "../scripts/recipes/files";
 import { createNewRecipe } from "../scripts/recipes/new";
 import {
   createRecipeReport,
@@ -577,6 +583,183 @@ test("CLI reports committed success when only lock cleanup fails", async () => {
   });
 });
 
+test("combined write and lock cleanup failure preserves committed state", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    let caught: unknown;
+    try {
+      await createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        {
+          repositoryRoot,
+          recipesRoot,
+          afterInstall: () => {
+            throw new Error("injected post-commit failure");
+          },
+          beforeRollback: () => {
+            throw new Error("injected rollback failure");
+          },
+          beforeCommittedDirectorySync: () => {
+            throw new Error("injected committed sync failure");
+          },
+          beforeLockRelease: () => {
+            throw new Error("injected lock release failure");
+          }
+        }
+      );
+    } catch (error) {
+      caught = error;
+    }
+
+    assert.ok(caught instanceof AtomicWriteCommittedError);
+    assert.equal(caught.committed, true);
+    assert.match(caught.message, /^COMMITTED:/u);
+    assert.equal(loadRecipeCatalog(recipesRoot).length, 1);
+  });
+});
+
+test("rollback durability failure is reported as indeterminate", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    let caught: unknown;
+    try {
+      await createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        {
+          repositoryRoot,
+          recipesRoot,
+          afterInstall: () => {
+            throw new Error("injected post-link failure");
+          },
+          beforeRollbackDirectorySync: () => {
+            throw new Error("injected rollback sync failure");
+          }
+        }
+      );
+    } catch (error) {
+      caught = error;
+    }
+
+    assert.ok(caught instanceof AtomicWriteIndeterminateError);
+    assert.equal(caught.committed, "indeterminate");
+    assert.match(caught.message, /^INDETERMINATE:/u);
+    assert.deepEqual(readdirSync(path.join(recipesRoot, "ru")), []);
+  });
+});
+
+test("Windows uses handle-bound exclusive destination creation", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    const written = await createNewRecipe(
+      {
+        input: inputPath,
+        recordId,
+        createdAt,
+        write: true
+      },
+      {
+        repositoryRoot,
+        recipesRoot,
+        platform: "win32"
+      }
+    );
+    assert.equal(written.mode, "write");
+    assert.equal(
+      readdirSync(repositoryRoot).some((name) =>
+        /^\.recipe-authoring-[^.].*\.tmp$/u.test(name)
+      ),
+      false
+    );
+  });
+});
+
+test("Windows exclusive creation refuses a last-moment reparse entry", async () => {
+  await withTempRepository(async ({ repositoryRoot, inputPath }) => {
+    const target = path.join(repositoryRoot, "windows-target.json");
+    await assert.rejects(
+      () => writeAtomicFile(
+        target,
+        "{}\n",
+        false,
+        {
+          platform: "win32",
+          stagingDirectory: repositoryRoot,
+          beforeInstall: () => {
+            symlinkSync(inputPath, target);
+          }
+        }
+      ),
+      /reparse or non-file entry/
+    );
+    assert.equal(readFileSync(target, "utf8").includes("\"locale\""), true);
+  });
+});
+
+test("Windows post-close destination ambiguity is indeterminate", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    let caught: unknown;
+    try {
+      await createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        {
+          repositoryRoot,
+          recipesRoot,
+          platform: "win32",
+          afterWindowsHandleClose: (targetPath) => {
+            rmSync(targetPath);
+          }
+        }
+      );
+    } catch (error) {
+      caught = error;
+    }
+    assert.ok(caught instanceof AtomicWriteIndeterminateError);
+    assert.equal(caught.committed, "indeterminate");
+    assert.match(caught.message, /^INDETERMINATE:/u);
+  });
+});
+
+test("Windows post-close callback failure is indeterminate", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    let caught: unknown;
+    try {
+      await createNewRecipe(
+        {
+          input: inputPath,
+          recordId,
+          createdAt,
+          write: true
+        },
+        {
+          repositoryRoot,
+          recipesRoot,
+          platform: "win32",
+          afterWindowsHandleClose: () => {
+            throw new Error("injected post-close failure");
+          }
+        }
+      );
+    } catch (error) {
+      caught = error;
+    }
+    assert.ok(caught instanceof AtomicWriteIndeterminateError);
+    assert.equal(caught.committed, "indeterminate");
+    assert.match(caught.message, /^INDETERMINATE:/u);
+  });
+});
+
 test("new serializes concurrent catalog mutations with an exclusive lock", async () => {
   await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
     let enterInstall: (() => void) | undefined;
@@ -786,8 +969,9 @@ test("machine report orders non-ASCII translation IDs by code unit", async () =>
 test("post-link rollback preserves a concurrently replaced target", async () => {
   await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
     const destination = path.join(recipesRoot, "ru", "яблочный-десерт.json");
-    await assert.rejects(
-      () => createNewRecipe(
+    let caught: unknown;
+    try {
+      await createNewRecipe(
         {
           input: inputPath,
           recordId,
@@ -802,9 +986,11 @@ test("post-link rollback preserves a concurrently replaced target", async () => 
             writeFileSync(destination, "concurrent replacement", "utf8");
           }
         }
-      ),
-      /cleanup also failed/
-    );
+      );
+    } catch (error) {
+      caught = error;
+    }
+    assert.ok(caught instanceof AtomicWriteIndeterminateError);
     assert.equal(readFileSync(destination, "utf8"), "concurrent replacement");
   });
 });
@@ -812,8 +998,9 @@ test("post-link rollback preserves a concurrently replaced target", async () => 
 test("post-link validation preserves an in-place mutated target", async () => {
   await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
     const destination = path.join(recipesRoot, "ru", "яблочный-десерт.json");
-    await assert.rejects(
-      () => createNewRecipe(
+    let caught: unknown;
+    try {
+      await createNewRecipe(
         {
           input: inputPath,
           recordId,
@@ -827,9 +1014,11 @@ test("post-link validation preserves an in-place mutated target", async () => {
             writeFileSync(destination, "in-place concurrent mutation", "utf8");
           }
         }
-      ),
-      /cleanup also failed/
-    );
+      );
+    } catch (error) {
+      caught = error;
+    }
+    assert.ok(caught instanceof AtomicWriteIndeterminateError);
     assert.equal(
       readFileSync(destination, "utf8"),
       "in-place concurrent mutation"
@@ -840,8 +1029,9 @@ test("post-link validation preserves an in-place mutated target", async () => {
 test("post-link rollback preserves a non-file replacement in quarantine", async () => {
   await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
     const destination = path.join(recipesRoot, "ru", "яблочный-десерт.json");
-    await assert.rejects(
-      () => createNewRecipe(
+    let caught: unknown;
+    try {
+      await createNewRecipe(
         {
           input: inputPath,
           recordId,
@@ -857,9 +1047,11 @@ test("post-link rollback preserves a non-file replacement in quarantine", async 
             writeFileSync(path.join(destination, "marker.txt"), "preserved", "utf8");
           }
         }
-      ),
-      /preserved at/
-    );
+      );
+    } catch (error) {
+      caught = error;
+    }
+    assert.ok(caught instanceof AtomicWriteIndeterminateError);
     const quarantineName = readdirSync(repositoryRoot).find((name) =>
       /^\.recipe-authoring-quarantine-.*\.tmp$/u.test(name)
     );
