@@ -245,18 +245,22 @@ test("catalog rejects changed descriptor metadata before reading", async (t) => 
 
 test("catalog rejects a junction substitution even when the open file is unchanged", async (t) => {
   const { loadRecipeCatalog } = await import("../src/content/catalog");
-  const originalFstat = fs.fstatSync;
-  withRecipeDirectory((root) => {
+  const originalOpen = fs.openSync;
+  withRecipeDirectory((root, source) => {
     let calls = 0;
-    const mocked = t.mock.method(fs, "fstatSync", (descriptor: number) => {
-      const stats = originalFstat(descriptor, { bigint: true });
-      if (stats.isFile() && ++calls === (process.platform === "win32" ? 2 : 1)) {
+    const mocked = t.mock.method(fs, "openSync", (
+      entryPath: fs.PathLike,
+      flags: fs.OpenMode,
+      mode?: fs.Mode
+    ) => {
+      if (entryPath === source && ++calls === (process.platform === "win32" ? 2 : 1)) {
+        // Windows cannot rename a directory containing an open file.
         const localePath = path.join(root, "en");
         const movedPath = path.join(root, "moved");
         fs.renameSync(localePath, movedPath);
         fs.symlinkSync(movedPath, localePath, "junction");
       }
-      return stats;
+      return originalOpen(entryPath, flags, mode);
     });
     syncBuiltinESMExports();
     try {
