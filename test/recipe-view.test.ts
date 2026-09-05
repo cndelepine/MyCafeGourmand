@@ -134,3 +134,56 @@ test("print styles retain notes and equipment", () => {
     /\.equipment[^}]*display:none|\.recipe-notes[^}]*display:none/u
   );
 });
+
+test("recipe details publish every provided duration with localized labels", () => {
+  for (const [locale, cookLabel, restLabel, totalLabel] of [
+    ["en", "Cook time", "Rest time", "Total time"],
+    ["fr", "Cuisson", "Repos", "Temps total"],
+    ["ru", "Приготовление", "Отдых", "Общее время"]
+  ] as const) {
+    const recipe = recipeRecordSchema.parse({
+      ...recipeFixture,
+      locale,
+      recipe: {
+        ...recipeFixture.recipe,
+        times: {
+          prep: { raw: "10 source minutes", minutes: 10 },
+          cook: { raw: "35 source minutes", minutes: 35 },
+          rest: { raw: "overnight", minutes: null },
+          total: { raw: "source total", minutes: null },
+          custom: {
+            label: "Cooling & setting",
+            duration: { raw: "2 source hours", minutes: 120 }
+          }
+        }
+      }
+    });
+    const markup = renderToStaticMarkup(createElement(RecipeView, {
+      catalog: [recipe], recipe
+    }));
+    const details = markup.slice(markup.indexOf('<dl class="details">'), markup.indexOf("</dl>"));
+    assert.ok(details.includes(`<dt>${cookLabel}</dt><dd>35 source minutes</dd>`));
+    assert.ok(details.includes(`<dt>${restLabel}</dt><dd>overnight</dd>`));
+    assert.ok(details.includes(`<dt>${totalLabel}</dt><dd>source total</dd>`));
+    assert.match(details, /<dt>Cooling &amp; setting<\/dt><dd>2 source hours<\/dd>/u);
+  }
+});
+
+test("recipe details omit unspecified durations without inventing totals", () => {
+  const recipe = recipeRecordSchema.parse({
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      times: {
+        prep: null, cook: null, rest: null, total: null,
+        custom: { label: null, duration: { raw: "0 minutes", minutes: 0 } }
+      }
+    }
+  });
+  const markup = renderToStaticMarkup(createElement(RecipeView, {
+    catalog: [recipe], recipe
+  }));
+  assert.match(markup, /<dt>Prep time<\/dt><dd>Not specified<\/dd>/u);
+  assert.match(markup, /<dt>Additional time<\/dt><dd>0 minutes<\/dd>/u);
+  assert.doesNotMatch(markup, /<dt>(Cook time|Rest time|Total time)<\/dt>/u);
+});
