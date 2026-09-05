@@ -38,7 +38,10 @@ import { getRecipeStructuredData } from "../src/lib/recipe-structured-data";
 import { formatIngredient } from "../src/lib/scale-quantity";
 import { getSitemapEntries } from "../src/lib/site-map";
 import { runRecipeCli } from "../scripts/recipes/cli";
-import { checkRecipeDocumentFormatting } from "../scripts/recipes/check";
+import {
+  checkRecipeAuthoring,
+  checkRecipeDocumentFormatting
+} from "../scripts/recipes/check";
 import {
   AtomicWriteCommittedError,
   AtomicWriteIndeterminateError,
@@ -373,6 +376,126 @@ test("new is deterministic in dry-run and exclusively creates one Unicode file",
     );
   });
 });
+
+test("new rejects duplicate authored categories before creating a recipe file", async () => {
+  await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+    const input = {
+      ...authoredInput,
+      categories: [...authoredInput.categories, ...authoredInput.categories]
+    };
+    const record = normalizeRecipeDocument(
+      createAuthoredRecipeDocument(input, recordId, createdAt)
+    );
+    assert.throws(
+      () => getCategoryCatalog([record]),
+      /Duplicate editorial category membership/
+    );
+    assert.throws(
+      () => validateCatalogBehavior([record]),
+      /Duplicate editorial category membership/
+    );
+    writeFileSync(inputPath, `${JSON.stringify(input, null, 2)}\n`, "utf8");
+    let installationAttempted = false;
+    for (const write of [false, true]) {
+      await assert.rejects(
+        () => createNewRecipe(
+          { input: inputPath, recordId, createdAt, write },
+          {
+            repositoryRoot,
+            recipesRoot,
+            beforeInstall: () => {
+              installationAttempted = true;
+            }
+          }
+        ),
+        /Duplicate editorial category membership/
+      );
+      assert.equal(installationAttempted, false);
+      assert.deepEqual(readdirSync(path.join(recipesRoot, "ru")), []);
+      assert.deepEqual(readdirSync(repositoryRoot).sort(), [
+        "author-input.json",
+        "content"
+      ]);
+    }
+  });
+});
+
+for (const scenario of [
+  {
+    name: "canonical locale redirect sources",
+    redirectFrom: ["/fr/"],
+    handAuthoredConfig: undefined,
+    error: /redirect source conflicts with a canonical route: \/fr\//
+  },
+  {
+    name: "hand-authored conflicts with generated redirects",
+    redirectFrom: ["/old-dessert/"],
+    handAuthoredConfig: {
+      routes: [{ route: "/old-dessert/", redirect: "/fr/", statusCode: 301 }]
+    },
+    error: /conflicts with exact redirect/
+  },
+  {
+    name: "cycles between generated and hand-authored redirects",
+    redirectFrom: ["/old-dessert/"],
+    handAuthoredConfig: {
+      routes: [{
+        route: "/ru/recipes/яблочный-десерт/",
+        redirect: "/old-dessert/",
+        statusCode: 301
+      }]
+    },
+    error: /merged redirect loop detected/
+  }
+]) {
+  test(`check rejects ${scenario.name} without rewriting content`, async () => {
+    await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {
+      const written = await createNewRecipe(
+        { input: inputPath, recordId, createdAt, write: true },
+        { repositoryRoot, recipesRoot }
+      );
+      const schemaDirectory = path.join(repositoryRoot, "content", "schemas");
+      mkdirSync(schemaDirectory);
+      writeFileSync(
+        path.join(schemaDirectory, "recipe.schema.json"),
+        serializeRecipeJsonSchema(),
+        "utf8"
+      );
+      for (const [filename, kind] of [
+        ["media-manifest.json", "recipe-media-manifest"],
+        ["editorial-gallery-media-manifest.json", "editorial-gallery-media-manifest"]
+      ] as const) {
+        writeFileSync(
+          path.join(repositoryRoot, "content", filename),
+          `${JSON.stringify({ schemaVersion: 1, kind, entries: [] }, null, 2)}\n`,
+          "utf8"
+        );
+      }
+      assert.deepEqual(checkRecipeAuthoring(repositoryRoot), {
+        records: 1,
+        files: 1
+      });
+
+      const destination = path.join(repositoryRoot, written.destination);
+      const contents = `${JSON.stringify({
+        ...written.document,
+        redirectFrom: scenario.redirectFrom
+      }, null, 2)}\n`;
+      writeFileSync(destination, contents, "utf8");
+      if (scenario.handAuthoredConfig !== undefined) {
+        const configDirectory = path.join(repositoryRoot, "config");
+        mkdirSync(configDirectory);
+        writeFileSync(
+          path.join(configDirectory, "staticwebapp.config.json"),
+          `${JSON.stringify(scenario.handAuthoredConfig, null, 2)}\n`,
+          "utf8"
+        );
+      }
+      assert.throws(() => checkRecipeAuthoring(repositoryRoot), scenario.error);
+      assert.equal(readFileSync(destination, "utf8"), contents);
+    });
+  });
+}
 
 test("new removes its staged file when exclusive installation fails", async () => {
   await withTempRepository(async ({ repositoryRoot, recipesRoot, inputPath }) => {

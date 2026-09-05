@@ -3,7 +3,7 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { assertReleaseDeploymentIntegration } from "../src/lib/release-deployment";
-import { cleanDeploymentMetadata } from "./generate-deployment-artifacts";
+import { cleanDeploymentMetadata } from "./deployment-metadata";
 import { runStaticBuild } from "./build-static";
 
 export function runReleaseBuild(

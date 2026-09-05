@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { spawnSync } from "node:child_process";
 import {
   cpSync,
   existsSync,
@@ -25,10 +26,8 @@ import {
   maxStaticWebAppConfigBytes,
   serializeStaticWebAppConfig
 } from "../src/content/staticwebapp";
-import {
-  cleanDeploymentMetadata,
-  generateDeploymentArtifacts
-} from "../scripts/generate-deployment-artifacts";
+import { generateDeploymentArtifacts } from "../scripts/generate-deployment-artifacts";
+import { cleanDeploymentMetadata } from "../scripts/deployment-metadata";
 import { loadHandAuthoredStaticWebAppConfig } from "../scripts/staticwebapp-config";
 
 function withTempDirectory<T>(callback: (directory: string) => T) {
@@ -397,6 +396,42 @@ test("cleans all deployment metadata before a new static build", () => {
     assert.equal(existsSync(path.join(directory, ".deployment")), false);
     assert.equal(existsSync(path.join(directory, ".deployment.next")), false);
     assert.equal(existsSync(path.join(directory, ".deployment.previous")), false);
+  });
+});
+
+test("fresh build entrypoints invalidate prior metadata before invalid content can load", () => {
+  withTempDirectory((directory) => {
+    const recipes = path.join(directory, "content", "recipes", "en");
+    mkdirSync(recipes, { recursive: true });
+    writeFileSync(path.join(recipes, "invalid.json"), "{");
+    writeFileSync(path.join(directory, "package.json"), JSON.stringify({
+      private: true,
+      scripts: { "content:validate": "tsx ../scripts/validate-content.ts" }
+    }));
+    for (const entrypoint of ["build-static.ts", "build-release.ts"]) {
+      const metadataPaths = [".deployment", ".deployment.next", ".deployment.previous"]
+        .map((name) => path.join(directory, name));
+      for (const candidate of metadataPaths) {
+        mkdirSync(candidate);
+        writeFileSync(path.join(candidate, "stale.json"), "{}\n");
+      }
+      const environment: NodeJS.ProcessEnv = { ...process.env, npm_lifecycle_event: "build:release" };
+      delete environment.NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL;
+      delete environment.NEXT_PUBLIC_CONTACT_FORM_ENDPOINT;
+      delete environment.MY_CAFE_GOURMAND_RELEASE_BUILD;
+      const result = spawnSync(process.execPath, [
+        "--import", "tsx",
+        path.join(process.cwd(), "scripts", entrypoint)
+      ], { cwd: directory, env: environment, encoding: "utf8", timeout: 30_000 });
+      assert.equal(result.error, undefined);
+      assert.equal(result.status, 1, result.stdout + result.stderr);
+      assert.match(result.stderr, entrypoint === "build-static.ts"
+        ? /static-build-failed:/
+        : /release-build-failed:/);
+      for (const candidate of metadataPaths) {
+        assert.equal(existsSync(candidate), false, `${entrypoint}: ${candidate}`);
+      }
+    }
   });
 });
 

@@ -43,7 +43,8 @@ npm run build:release
 
 `build:release` currently fails before building because the edge adapter is
 absent. Once that integration exists, it must still reject invalid public
-values and perform pre-build and output validation. The media base must be absolute HTTPS with no
+values and perform pre-build and output validation. The media base must be
+absolute HTTPS with no
 credentials, query, or fragment. It may be a validated Blob or CDN/custom-domain
 base after that external infrastructure exists.
 
