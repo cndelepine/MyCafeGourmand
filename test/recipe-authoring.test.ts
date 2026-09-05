@@ -433,7 +433,7 @@ for (const scenario of [
     handAuthoredConfig: {
       routes: [{ route: "/old-dessert/", redirect: "/fr/", statusCode: 301 }]
     },
-    error: /conflicts with generated redirect/
+    error: /conflicts with exact redirect/
   },
   {
     name: "cycles between generated and hand-authored redirects",

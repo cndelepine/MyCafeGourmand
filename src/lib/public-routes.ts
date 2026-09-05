@@ -20,7 +20,7 @@ import {
   type EditorialRouteParams
 } from "./editorial-routes";
 
-const generatedStaticAssetPaths = [
+export const generatedStaticAssetPaths = [
   "/robots.txt",
   "/sitemap.xml",
   "/staticwebapp.config.json",
@@ -57,6 +57,19 @@ export function getPublicStaticPageParams(
     ...getEditorialStaticParams(editorial),
     ...getGalleryStaticParams(galleries),
     ...getContactSuccessStaticParams()
+  ];
+}
+
+export function getOwnedPublicPaths(
+  recipes: readonly RecipeRecord[],
+  editorial: readonly EditorialPageRecord[],
+  galleries: readonly GalleryRecord[]
+) {
+  return [
+    ...getPublicStaticPageParams(recipes, editorial, galleries).map(
+      ({ segments }) => getStaticPathFromSegments(segments)
+    ),
+    ...generatedStaticAssetPaths
   ];
 }
 

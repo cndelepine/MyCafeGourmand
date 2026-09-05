@@ -41,6 +41,39 @@ bounded to 512 records, matching discovery and prospective creation checks.
 The complete `<slug>.json` component is bounded for both UTF-8 bytes and UTF-16
 units, and same-locale filenames cannot differ only by case.
 
+## Catalog and publication boundaries
+
+The recipe tree is closed: its root permits only the three locale directories,
+and each locale permits only bounded regular `<slug>.json` files. Bounded
+strict-JSON loading rejects malformed UTF-8, excessive nesting, duplicate
+object keys, oversized strings and arrays, and catalog overflow before
+rendering. Preserved WordPress editorial HTML is provenance, not rendered HTML.
+Source-backed WordPress URLs identifying a promoted recipe remain in
+`redirectFrom`; shared ambiguous parent URLs are not assigned without evidence.
+
+Recipe loading checks captured file identities and revalidates the root and
+locale tree after reading. Node does not expose portable `openat` traversal, so
+a hostile local process that swaps and restores ancestor directories entirely
+between checks remains outside this boundary. Builds and validation require a
+trusted local workspace.
+
+Promoted media uses canonical object keys, not deployment-specific URLs.
+`content:validate` checks exact reference closure against the public recipe and
+editorial/gallery media manifests. The manifests contain only public metadata,
+not source bytes. Local fixture media must resolve to regular files below
+`public/`; release builds require the separately verified HTTPS media origin.
+
+Category archives use validated editorial category memberships, not tags,
+ingredients, or WPRM taxonomies. Authored categories use the same runtime
+shape. Category translation groups are not yet modeled, so archives
+intentionally omit cross-language category `hreflang` links.
+
+Static catalog pages show 24 cards per page. Page one is canonical at the locale
+root or category root; later pages use `/page/<n>/`. The generated, ignored
+`/_search/<locale>.json` index lets enhanced search cover the complete locale
+without putting the entire catalog in page HTML or Flight data. Category links
+and pagination work without JavaScript.
+
 ## Create an authored recipe
 
 Prepare a source-neutral input file outside `content/recipes/`. The input must

@@ -6,7 +6,7 @@ cd /d "%~dp0"
 where node >nul 2>nul
 if errorlevel 1 (
   echo Node.js is not installed or is not available in Command Prompt.
-  echo Install Node.js 22.13.0 or newer, restart Windows, and try again.
+  echo Install Node.js 24.20.0 or newer, restart Windows, and try again.
   pause
   exit /b 1
 )
@@ -14,14 +14,14 @@ if errorlevel 1 (
 where npm >nul 2>nul
 if errorlevel 1 (
   echo npm is not installed or is not available in Command Prompt.
-  echo Reinstall Node.js 22.13.0 or newer, restart Windows, and try again.
+  echo Reinstall Node.js 24.20.0 or newer, restart Windows, and try again.
   pause
   exit /b 1
 )
 
-node -e "const [major, minor] = process.versions.node.split('.').map(Number); process.exit(major > 22 || (major === 22 && minor >= 13) ? 0 : 1)"
+node -e "const [major, minor] = process.versions.node.split('.').map(Number); process.exit(major > 24 || (major === 24 && minor >= 20) ? 0 : 1)"
 if errorlevel 1 (
-  echo This project requires Node.js 22.13.0 or newer.
+  echo This project requires Node.js 24.20.0 or newer.
   echo Installed version:
   node --version
   pause
