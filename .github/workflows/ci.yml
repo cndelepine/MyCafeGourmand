@@ -58,5 +58,7 @@ jobs:
       - name: Run Windows launcher installation
         shell: cmd
         run: start-windows.cmd --install-only
+      - name: Check cross-platform file identity
+        run: npx --no-install tsx --test test/file-system-identity.test.ts
       - name: Build static CI artifact
         run: npm run build

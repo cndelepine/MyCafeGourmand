@@ -11,6 +11,11 @@ import {
   type BigIntStats
 } from "node:fs";
 import path from "node:path";
+import {
+  pathMatchesFileDescriptor,
+  sameFileSystemIdentity,
+  type FileSystemIdentity
+} from "./file-system-identity";
 import { parseJsonAtBoundary } from "./json-boundary";
 import { getCanonicalRecipePath } from "./recipe-path";
 import { compareCodeUnits } from "./sort";
@@ -36,15 +41,10 @@ export type RecipeSourceFile = {
   path: string;
 };
 
-type RecipeFileSystemIdentity = {
+type RecipeFileSystemIdentity = FileSystemIdentity & {
   path: string;
   realPath: string;
-  dev: bigint;
-  ino: bigint;
-  mode: bigint;
-  size: bigint;
-  mtimeNs: bigint;
-  ctimeNs: bigint;
+  descriptorIdentity: FileSystemIdentity | null;
 };
 
 type DiscoveredRecipeSourceFile = RecipeSourceFile & {
@@ -99,12 +99,13 @@ function sameIdentity(
 ) {
   return left.path === right.path
     && left.realPath === right.realPath
-    && left.dev === right.dev
-    && left.ino === right.ino
-    && left.mode === right.mode
-    && left.size === right.size
-    && left.mtimeNs === right.mtimeNs
-    && left.ctimeNs === right.ctimeNs;
+    && sameFileSystemIdentity(left, right)
+    && (
+      left.descriptorIdentity === null
+        ? right.descriptorIdentity === null
+        : right.descriptorIdentity !== null
+          && sameFileSystemIdentity(left.descriptorIdentity, right.descriptorIdentity)
+    );
 }
 
 function identityFromStats(
@@ -115,6 +116,7 @@ function identityFromStats(
   return {
     path: entryPath,
     realPath,
+    descriptorIdentity: null,
     dev: stats.dev,
     ino: stats.ino,
     mode: stats.mode,
@@ -137,6 +139,24 @@ function captureIdentity(
     throw new Error(typeError);
   }
   const realPath = realpathSync.native(entryPath);
+  let descriptorIdentity: FileSystemIdentity | null = null;
+  if (process.platform === "win32") {
+    // Path stats can omit the Windows volume serial. Keep a full, independent
+    // descriptor snapshot rather than dropping device checks from the guard.
+    const descriptor = openSync(entryPath, constants.O_RDONLY | constants.O_NOFOLLOW);
+    try {
+      const opened = fstatSync(descriptor, { bigint: true });
+      if (
+        (expectedType === "directory" ? !opened.isDirectory() : !opened.isFile())
+        || !pathMatchesFileDescriptor(before, opened)
+      ) {
+        throw new Error(`Recipe content path changed while being inspected: "${entryPath}"`);
+      }
+      descriptorIdentity = identityFromStats(entryPath, realPath, opened);
+    } finally {
+      closeSync(descriptor);
+    }
+  }
   const after = lstatSync(entryPath, { bigint: true });
   const resolved = lstatSync(realPath, { bigint: true });
   const beforeIdentity = identityFromStats(entryPath, realPath, before);
@@ -151,7 +171,7 @@ function captureIdentity(
   ) {
     throw new Error(`Recipe content path changed while being inspected: "${entryPath}"`);
   }
-  return afterIdentity;
+  return { ...afterIdentity, descriptorIdentity };
 }
 
 function assertRecordCount(count: number, label: string) {
@@ -376,7 +396,19 @@ function readRecipeRecord(source: DiscoveredRecipeSourceFile) {
         source.identity.realPath,
         stats
       );
-      if (!stats.isFile() || !sameIdentity(source.identity, openedIdentity)) {
+      if (
+        !stats.isFile()
+        || !pathMatchesFileDescriptor(source.identity, openedIdentity)
+        || (
+          source.identity.descriptorIdentity !== null
+          && !sameFileSystemIdentity(source.identity.descriptorIdentity, openedIdentity)
+        )
+        || !sameIdentity(source.identity, captureIdentity(
+          source.path,
+          "file",
+          "source path is no longer a regular file"
+        ))
+      ) {
         throw new Error("source identity changed before it was read");
       }
       if (stats.size > BigInt(recipeContentLimits.maxFileBytes)) {
@@ -396,7 +428,7 @@ function readRecipeRecord(source: DiscoveredRecipeSourceFile) {
       }).decode(bytes);
       const afterRead = fstatSync(descriptor, { bigint: true });
       if (!sameIdentity(
-        source.identity,
+        openedIdentity,
         identityFromStats(source.path, source.identity.realPath, afterRead)
       )) {
         throw new Error("source identity changed while it was read");
