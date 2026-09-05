@@ -1,12 +1,9 @@
 # Copilot repository instructions
 
-Before analyzing or changing this repository, open and follow the root
-`AGENTS.md`. GitHub.com Copilot Chat clients do not consistently discover that
-file, so this compatibility shim makes the requirement explicit.
+Read root [`AGENTS.md`](../AGENTS.md) before working in this repository. It is
+the shared repository contract and links to task-specific procedures.
 
-`AGENTS.md` is the canonical contract for migration scope, source fidelity,
-privacy, static-export architecture, URL safety, validation, and milestone
-reviews. If other guidance conflicts with it, follow `AGENTS.md`. Read the
-task-specific documents linked from `README.md` when working on migration,
-release, or repository operations. Keep detailed rules in those canonical files
-rather than duplicating them here or relying on unsupported include syntax.
+This file is a compatibility entry point for Copilot clients that do not
+discover `AGENTS.md`; the link is a reading instruction, not an automatic
+include. Keep repository rules in `AGENTS.md` and detailed procedures in its
+linked guides rather than duplicating them here.

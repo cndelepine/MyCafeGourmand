@@ -11,7 +11,7 @@ provision Azure resources, deploy the site, or select an external service.
 | `.github/workflows/codeql.yml` | JavaScript and TypeScript security analysis |
 | `.github/workflows/copilot-setup-steps.yml` | Node and locked dependency setup for Copilot cloud agent |
 | `.github/dependabot.yml` | Weekly npm and GitHub Actions update pull requests |
-| `scripts/check-forbidden-migration-inputs.mjs` | Reject tracked raw migration inputs outside the sanitized fixture boundary |
+| `scripts/check-forbidden-migration-inputs.mjs` | Reject tracked paths matching forbidden migration-input names, except the SQL fixture boundary |
 
 CI and CodeQL run for pull requests targeting `main`, merge-queue check
 requests, pushes to `main`, and manual dispatch. CodeQL also runs weekly.
@@ -27,6 +27,46 @@ new SHA belongs to the stated official release before merging it.
 The Copilot setup workflow has the required single `copilot-setup-steps` job.
 It must exist on the default branch before Copilot cloud agent uses it. Its
 manual trigger exists only to test setup; it is not CI or deployment.
+GitHub may continue the agent session after a failed setup step, so setup success
+is not a validation gate. Inspect setup logs when dependencies are missing and
+use the ordinary repository checks to establish correctness.
+
+## Copilot customization
+
+Keep each customization focused:
+
+| File | Purpose |
+| --- | --- |
+| `AGENTS.md` | Short shared repository invariants and links to task guides |
+| `.github/copilot-instructions.md` | Compatibility entry point directing Copilot to that contract |
+| `.github/skills/migration-operator/SKILL.md` | Task-specific guidance for private migration work |
+| `.github/agents/migration-release-reviewer.agent.md` | Optional review focus with file-read/search tools only |
+
+GitHub documents `.github/copilot-instructions.md` as repository-wide
+instructions; support for `AGENTS.md` varies by client. A Markdown link requests
+reading another file, not automatic inclusion. Keep important invariants in
+the shared contract rather than duplicating a long prompt across both files.
+
+Project skills are discovered under `.github/skills/<name>/SKILL.md`. Their YAML
+frontmatter needs `name` and a `description` explaining intent and when the skill
+is relevant. Descriptions help selection; they do not guarantee activation.
+Use the operator guide directly if a skill is unavailable. Do not put critical
+validation solely in skill instructions or add shell preapproval to avoid
+operation-specific authorization.
+
+Custom agent profiles live under `.github/agents/` with a required description.
+The reviewer's `read` and `search` entries are documented tool aliases for file
+reading and code/file search. It intentionally has no execution, edit, web, or
+delegation tools. Supply its diff (or readable before/after artifacts) and test
+results; do not expect it to obtain a Git diff through a shell or run validation.
+A profile describes a review role, not a sandbox or mandatory approval gate.
+
+Keep discovery/frontmatter/tool assumptions aligned with the official references:
+
+- [Custom instruction support](https://docs.github.com/en/copilot/reference/custom-instructions-support)
+- [Adding agent skills](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills)
+- [Custom agent configuration and tool aliases](https://docs.github.com/en/copilot/reference/custom-agents-configuration)
+- [Cloud-agent environment setup](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/customize-the-agent-environment)
 
 ## Administrator-owned launch gates
 
@@ -88,7 +128,9 @@ settings are active.
 - Resolve CodeQL findings at their source. Suppression requires a documented,
   reviewed reason tied to a specific false positive.
 - Re-run the migration-input guard after changing ignore rules or fixture
-  locations.
+  locations. It checks tracked path names only: it does not inspect file bytes,
+  prove a fixture is sanitized, find arbitrary renamed secrets, or scan untracked
+  files and Git history. Diff review and GitHub security controls remain separate.
 - Revisit the Node LTS line before its maintenance or end-of-life date.
 
 The current Node 24 LTS line reaches end of life in April 2028. Upgrade through
