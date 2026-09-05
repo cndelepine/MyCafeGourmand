@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=22.13.0"
+    "node": ">=24.20.0"
   },
   "scripts": {
     "predev": "npm run search:generate",
@@ -13,12 +13,14 @@
     "build:local": "npm run build:static",
     "build:ci": "npm run build:static",
     "preview": "python3 -m http.server 3000 --directory out",
+    "repository:safety": "node scripts/check-forbidden-migration-inputs.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit --incremental false",
     "test": "tsx --test test/*.test.ts",
     "content:validate": "tsx scripts/validate-content.ts",
     "search:generate": "tsx scripts/generate-recipe-search-index.ts",
-    "staticwebapp:generate": "tsx scripts/generate-staticwebapp.ts",
+    "deployment:generate": "tsx scripts/generate-deployment-artifacts.ts",
+    "staticwebapp:generate": "tsx scripts/generate-deployment-artifacts.ts",
     "import:wprm-bulk": "tsx scripts/import-wordpress-wprm.ts",
     "import:recipe": "tsx scripts/import-wordpress-wprm.ts",
     "import:editorial": "tsx scripts/import-wordpress-editorial.ts",
@@ -33,7 +35,7 @@
     "release:validate": "tsx scripts/validate-release-media.ts && tsx scripts/validate-release-contact-form.ts",
     "release:validate-output": "tsx scripts/validate-release-media-output.ts",
     "build:release": "tsx scripts/build-release.ts",
-    "check": "npm run lint && npm run typecheck && npm test"
+    "check": "npm run repository:safety && npm run lint && npm run typecheck && npm test"
   },
   "dependencies": {
     "fast-xml-parser": "5.10.1",

@@ -1,6 +1,9 @@
 # Copilot repository instructions
 
-Read and follow the root `AGENTS.md` before changing this repository. It is the
-canonical contract for migration scope, source fidelity, privacy, static-export
-architecture, URL safety, validation, and milestone reviews shared by Copilot
-and Codex. Keep detailed guidance there rather than duplicating it in this file.
+Read root [`AGENTS.md`](../AGENTS.md) before working in this repository. It is
+the shared repository contract and links to task-specific procedures.
+
+This file is a compatibility entry point for Copilot clients that do not
+discover `AGENTS.md`; the link is a reading instruction, not an automatic
+include. Keep repository rules in `AGENTS.md` and detailed procedures in its
+linked guides rather than duplicating them here.
