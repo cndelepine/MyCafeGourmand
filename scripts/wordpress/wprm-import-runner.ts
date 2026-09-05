@@ -42,6 +42,7 @@ import { loadRecipeCatalogWithSources } from "../../src/content/catalog";
 import { loadEditorialCatalog } from "../../src/content/editorial-catalog";
 import { loadGalleryCatalog } from "../../src/content/gallery-catalog";
 import {
+  generatedStaticAssetPaths,
   getPublicStaticPageParams,
   getStaticPathFromSegments
 } from "../../src/lib/public-routes";
@@ -150,15 +151,10 @@ export function currentStaticRoutePaths() {
     recipes,
     loadEditorialCatalog(),
     loadGalleryCatalog()
-  ).map(({ segments }) => getStaticPathFromSegments(segments));
+  ).map(({ segments }) => getStaticPathFromSegments(segments)  );
   return [
     ...routes,
-    "/robots.txt",
-    "/sitemap.xml",
-    "/staticwebapp.config.json",
-    "/_search/en.json",
-    "/_search/fr.json",
-    "/_search/ru.json"
+    ...generatedStaticAssetPaths
   ];
 }
 

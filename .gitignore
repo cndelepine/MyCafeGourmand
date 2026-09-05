@@ -1,6 +1,9 @@
 /node_modules/
 /.next/
 /out/
+/.deployment/
+/.deployment.next/
+/.deployment.previous/
 /public/_search/
 /build/
 /coverage/

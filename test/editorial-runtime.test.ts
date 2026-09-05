@@ -12,7 +12,7 @@ import { editorialCatalog } from "../src/content/editorial-catalog";
 import { getEditorialGalleryMediaDimensions } from "../src/content/editorial-media-manifest";
 import { editorialPageRecordSchema } from "../src/content/editorial-schema";
 import { galleryCatalog } from "../src/content/gallery-catalog";
-import { createStaticWebAppConfig } from "../src/content/staticwebapp";
+import { createExactRedirectManifest } from "../src/content/redirect-manifest";
 import { validatePublicContentBehavior } from "../src/content/validation";
 import {
   getEditorialStructuredData,
@@ -381,13 +381,11 @@ test("gallery rendering, sitemap, and static redirects close the public route se
     assert.equal(paths.includes(path), true);
   }
   assert.deepEqual(
-    createStaticWebAppConfig([], {
-      editorialRecords: [redirectingEditorial]
-    }).routes,
+    createExactRedirectManifest([], [redirectingEditorial]).redirects,
     [{
-      route: "/old-editorial/",
-      redirect: "/editorial-redirect/",
-      statusCode: 301
+      source: "/old-editorial/",
+      destination: "/editorial-redirect/",
+      status: 301
     }]
   );
   assert.throws(

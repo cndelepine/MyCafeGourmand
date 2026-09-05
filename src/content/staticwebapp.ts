@@ -1,32 +1,19 @@
 import type { EditorialPageRecord } from "./editorial-schema";
+import type { ExactRedirect } from "./redirect-manifest";
+import { createExactRedirectManifest } from "./redirect-manifest";
 import type { GalleryRecord } from "./gallery-schema";
-import { type RecipeRecord } from "./schema";
+import type { RecipeRecord } from "./schema";
 import {
   decodeLocalPath,
   localPathKey,
   validateSafeLocalPath
 } from "./url-path";
-import { getRecipePath } from "../lib/recipe-routes";
-import { getEditorialPath } from "../lib/editorial-routes";
-import {
-  getPublicStaticPageParams,
-  getStaticPathFromSegments
-} from "../lib/public-routes";
+import { getOwnedPublicPaths } from "../lib/public-routes";
 
-type ContentRedirect = {
-  source: string;
-  destination: string;
-  status: 301;
-};
-
-export type StaticWebAppRoute = {
-  route: string;
-  redirect: string;
-  statusCode: 301;
-};
+export const maxStaticWebAppConfigBytes = 20_000;
 
 export type StaticWebAppConfig = Record<string, unknown> & {
-  routes: StaticWebAppRoute[] | Record<string, unknown>[];
+  routes: Record<string, unknown>[];
 };
 
 export type StaticWebAppConfigOptions = {
@@ -61,121 +48,14 @@ function isExactAzureRoute(value: string) {
   }
 }
 
-function getRecipeRedirectDestination(record: RecipeRecord) {
-  const path = getRecipePath(record);
-  return path.endsWith("/") ? path : `${path}/`;
-}
-
-function getEditorialRedirectDestination(record: EditorialPageRecord) {
-  const path = getEditorialPath(record);
-  return path.endsWith("/") ? path : `${path}/`;
-}
-
 function canonicalPaths(
   records: readonly RecipeRecord[],
   editorialRecords: readonly EditorialPageRecord[],
   galleryRecords: readonly GalleryRecord[]
 ) {
   return new Set(
-    getPublicStaticPageParams(records, editorialRecords, galleryRecords).map(({ segments }) =>
-      azurePathKey(getStaticPathFromSegments(segments))
-    )
+    getOwnedPublicPaths(records, editorialRecords, galleryRecords).map(azurePathKey)
   );
-}
-
-export function buildRedirectManifest(
-  records: readonly RecipeRecord[],
-  editorialRecords: readonly EditorialPageRecord[] = [],
-  galleryRecords: readonly GalleryRecord[] = []
-) {
-  const redirects: ContentRedirect[] = [];
-  for (const record of records) {
-    for (const redirectFrom of record.redirectFrom) {
-      redirects.push({
-        source: redirectFrom,
-        destination: getRecipeRedirectDestination(record),
-        status: 301
-      });
-    }
-  }
-  for (const record of editorialRecords) {
-    for (const redirectFrom of record.redirectFrom ?? []) {
-      redirects.push({
-        source: redirectFrom,
-        destination: getEditorialRedirectDestination(record),
-        status: 301
-      });
-    }
-  }
-
-  const validated = validateContentRedirects(
-    redirects,
-    records,
-    editorialRecords,
-    galleryRecords
-  );
-  return [...validated].sort((left, right) =>
-    azurePathKey(left.source).localeCompare(azurePathKey(right.source))
-      || left.source.localeCompare(right.source)
-      || left.destination.localeCompare(right.destination)
-  );
-}
-
-function validateContentRedirects(
-  redirects: readonly ContentRedirect[],
-  records: readonly RecipeRecord[],
-  editorialRecords: readonly EditorialPageRecord[],
-  galleryRecords: readonly GalleryRecord[]
-) {
-  const currentPaths = canonicalPaths(records, editorialRecords, galleryRecords);
-  const sourcePaths = new Set<string>();
-  const redirectGraph = new Map<string, string>();
-
-  for (const redirect of redirects) {
-    validateAzurePath(redirect.source, "redirect source");
-    validateAzurePath(redirect.destination, "redirect destination");
-
-    const sourceKey = azurePathKey(redirect.source);
-    const destinationKey = azurePathKey(redirect.destination);
-    if (sourceKey === "/") {
-      throw new Error("Azure Static Web Apps redirect source cannot be the site root.");
-    }
-    if (sourceKey === destinationKey) {
-      throw new Error(`Self-redirect is not allowed: ${redirect.source}`);
-    }
-    if (currentPaths.has(sourceKey)) {
-      throw new Error(
-        `Azure Static Web Apps redirect source conflicts with a canonical route: ${redirect.source}`
-      );
-    }
-    if (sourcePaths.has(sourceKey)) {
-      throw new Error(`Azure Static Web Apps redirect source conflict: ${redirect.source}`);
-    }
-    sourcePaths.add(sourceKey);
-    redirectGraph.set(sourceKey, destinationKey);
-  }
-
-  for (const source of redirectGraph.keys()) {
-    const visited = new Set<string>();
-    let current: string | undefined = source;
-    while (current !== undefined && redirectGraph.has(current)) {
-      if (visited.has(current)) {
-        throw new Error(`Generated Azure Static Web Apps redirect loop detected from ${source}`);
-      }
-      visited.add(current);
-      current = redirectGraph.get(current);
-    }
-  }
-
-  return redirects;
-}
-
-function createGeneratedRoutes(redirects: readonly ContentRedirect[]) {
-  return redirects.map((redirect) => ({
-    route: redirect.source,
-    redirect: redirect.destination,
-    statusCode: redirect.status
-  } satisfies StaticWebAppRoute));
 }
 
 function validateHandAuthoredRoutes(routes: readonly unknown[]) {
@@ -230,16 +110,14 @@ type RedirectGraphEdge = {
 };
 
 function validateMergedRedirectGraph(
-  generatedRoutes: readonly StaticWebAppRoute[],
+  exactRedirects: readonly ExactRedirect[],
   handAuthoredRoutes: readonly Record<string, unknown>[]
 ) {
   const edges = new Map<string, RedirectGraphEdge>();
   const addEdge = (source: string, destination: string, description: string) => {
     const sourceKey = azurePathKey(source);
     if (edges.has(sourceKey)) {
-      throw new Error(
-        `Azure Static Web Apps redirect source conflict in merged routes: ${source}`
-      );
+      throw new Error(`Redirect source conflict in merged routes: ${source}`);
     }
     edges.set(sourceKey, {
       destination: azurePathKey(destination),
@@ -247,8 +125,12 @@ function validateMergedRedirectGraph(
     });
   };
 
-  for (const route of generatedRoutes) {
-    addEdge(route.route, route.redirect, `generated route "${route.route}"`);
+  for (const redirect of exactRedirects) {
+    addEdge(
+      redirect.source,
+      redirect.destination,
+      `exact manifest redirect "${redirect.source}"`
+    );
   }
 
   for (const [index, route] of handAuthoredRoutes.entries()) {
@@ -285,7 +167,7 @@ function validateMergedRedirectGraph(
           .filter((description): description is string => description !== undefined)
           .join("; ");
         throw new Error(
-          `Azure Static Web Apps merged redirect loop detected: ${cycle}` +
+          `merged redirect loop detected: ${cycle}` +
           (descriptions.length > 0 ? ` (${descriptions})` : "")
         );
       }
@@ -319,28 +201,27 @@ export function createStaticWebAppConfig(
 ): StaticWebAppConfig {
   const editorialRecords = options.editorialRecords ?? [];
   const galleryRecords = options.galleryRecords ?? [];
-  const manifest = buildRedirectManifest(records, editorialRecords, galleryRecords);
-  const generatedRoutes = createGeneratedRoutes(manifest);
+  const manifest = createExactRedirectManifest(records, editorialRecords, galleryRecords);
   const handAuthoredRoutes = getHandAuthoredRoutes(options.handAuthoredConfig);
   const currentPaths = canonicalPaths(records, editorialRecords, galleryRecords);
 
-  const generatedRouteKeys = new Set(generatedRoutes.map((route) => azurePathKey(route.route)));
+  const exactRedirectKeys = new Set(
+    manifest.redirects.map((redirect) => azurePathKey(redirect.source))
+  );
   for (const [index, route] of handAuthoredRoutes.entries()) {
     if (
-      isRecord(route)
-      && typeof route.route === "string"
-      && generatedRouteKeys.has(azurePathKey(route.route))
+      typeof route.route === "string"
+      && exactRedirectKeys.has(azurePathKey(route.route))
     ) {
       throw new Error(
-        `Hand-authored Static Web Apps route ${index + 1} conflicts with generated redirect: ${route.route}`
+        `Hand-authored Static Web Apps route ${index + 1} conflicts with exact redirect: ${route.route}`
       );
     }
   }
-  validateMergedRedirectGraph(generatedRoutes, handAuthoredRoutes);
+  validateMergedRedirectGraph(manifest.redirects, handAuthoredRoutes);
   for (const [index, route] of handAuthoredRoutes.entries()) {
     if (
-      isRecord(route)
-      && typeof route.route === "string"
+      typeof route.route === "string"
       && ("redirect" in route || "rewrite" in route)
       && isExactAzureRoute(route.route)
       && currentPaths.has(azurePathKey(route.route))
@@ -355,10 +236,18 @@ export function createStaticWebAppConfig(
   const config = isRecord(baseConfig) ? { ...baseConfig } : {};
   return {
     ...config,
-    routes: [...generatedRoutes, ...handAuthoredRoutes]
+    routes: handAuthoredRoutes
   };
 }
 
 export function serializeStaticWebAppConfig(config: StaticWebAppConfig) {
-  return `${JSON.stringify(config, null, 2)}\n`;
+  const serialized = `${JSON.stringify(config, null, 2)}\n`;
+  const bytes = Buffer.byteLength(serialized, "utf8");
+  if (bytes > maxStaticWebAppConfigBytes) {
+    throw new Error(
+      `Static Web Apps config is ${bytes} bytes; the maximum is ` +
+      `${maxStaticWebAppConfigBytes} bytes. Move exact redirects to the provider manifest.`
+    );
+  }
+  return serialized;
 }

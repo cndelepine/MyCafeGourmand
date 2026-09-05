@@ -116,6 +116,9 @@ canonical object keys are resolved to Blob Storage or a CDN at release time.
 `build:static`, `build:local`, and `build:ci` reject any configured
 `NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL`; a configured public media base is accepted
 only by the explicit guarded release command.
+Exact redirect deployment metadata is generated separately at
+`.deployment/redirect-manifest.json`; it is never placed in the public `out/`
+tree.
 `next/image` remains unoptimized for static export; when a media base is
 configured, Next allows only that validated HTTPS host and the
 `/recipes/media/wordpress/**`, `/editorial/media/wordpress/**`, and
@@ -126,17 +129,15 @@ builds render an explicit localized unavailable-contact boundary instead of a
 form. This lets credential-free artifacts remain useful without exposing an
 unconfigured submission target.
 
-## Azure release build
+## Release build
 
-The only documented deployment build command is `npm run build:release`.
-It fails closed unless both `NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL` and
-`NEXT_PUBLIC_CONTACT_FORM_ENDPOINT` are valid, then runs guarded pre- and
-post-build validation. It scans every bounded deployable text artifact in
-`out/`, including HTML, CSS, JavaScript, React Flight/RSC `.txt` payloads,
-JSON-LD, and inline `self.__next_f.push` payloads. It rejects a root-relative
-Blob media URL, an unmanifested object, a different origin or base path, and
-any manifest-backed URL that does not exactly resolve from the configured HTTPS
-base:
+The intended deployment build command is `npm run build:release`. It currently
+fails closed before building because no edge adapter deploys the exact redirect
+manifest. Once that checked-in integration exists, the command must still
+require valid `NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL` and
+`NEXT_PUBLIC_CONTACT_FORM_ENDPOINT` values and run the existing guarded pre-
+and post-build validation. See [`docs/deployment.md`](docs/deployment.md) for
+the prebuilt artifact contract and external launch gates.
 
 ```sh
 export NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL="https://<storage-account>.blob.core.windows.net/<container>"
@@ -191,20 +192,22 @@ submitted allowed return URL: `/contact/success/`, `/fr/contact/success/`, or
 `/ru/contact/success/`. These localized confirmation pages are canonical
 noindex routes and are intentionally excluded from the sitemap.
 
-The build validates each recipe and editorial page's `redirectFrom` paths, then writes the
-deterministic `out/staticwebapp.config.json` Azure Static Web Apps route
-configuration. Redirect sources target the matching canonical locale route with
-its static-export trailing slash. Sources are root-relative local URL paths
-without query strings or fragments; duplicates and canonical routes are
-rejected. The generated file is ignored and must not be committed.
+The build validates each recipe and editorial page's `redirectFrom` paths, then
+writes the complete deterministic provider-neutral manifest to
+`.deployment/redirect-manifest.json`. Redirect sources target the matching canonical
+locale route with its static-export trailing slash. Sources are root-relative
+local URL paths without query strings or fragments; duplicates, canonical-route
+conflicts, and cycles are rejected. The generated file is ignored and must not
+be committed. The metadata directory is cleanly replaced on each build and is
+separate from the complete origin upload tree in `out/`.
 
-If unrelated Azure route, header, or fallback settings are needed, keep the
-hand-authored JSON in `config/staticwebapp.config.json`. The build preserves
-those settings and prepends generated redirect routes. Do not place a
-hand-authored config in `public/`, because that would be copied into the
-export without the generated redirect validation. Hand-authored exact
-redirects participate in merged loop checks; wildcard redirect routes are
-rejected because their possible cycles cannot be proven statically.
+The separate `out/staticwebapp.config.json` is generated from
+`config/staticwebapp.config.json`, is explicitly limited to 20,000 UTF-8 bytes,
+and contains the reviewed SWA trailing-slash and baseline header policy.
+Hand-authored exact redirects still participate in merged conflict and loop
+checks; wildcard redirect routes are rejected because their possible cycles
+cannot be proven statically. Do not place a hand-authored config in `public/`.
+The staged CSP policy is documented in `docs/deployment.md`.
 
 The migration resolver promises only exact recipe and editorial redirects:
 published source permalinks, safe `_wp_old_slug` values on that same source
@@ -231,8 +234,8 @@ npm run build:ci
 
 `npm run check` runs credential-free linting, type checking, and tests.
 `npm run build:ci` adds content validation and the nondeployable static export;
-the CI workflow runs both. Deployments must use `npm run build:release`, never
-either local or CI artifact command.
+the CI workflow runs both. No deployment is permitted until the redirect
+adapter is implemented and `npm run build:release` is deliberately unblocked.
 
 ## Category browsing and pagination
 
