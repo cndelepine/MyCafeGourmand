@@ -28,11 +28,17 @@ export function pathMatchesFileDescriptor(
   // Node 22.13's libuv win/fs.c uses a 64-bit volume serial for path stats,
   // but FileFsVolumeInformation supplies only 32 bits for descriptor stats.
   // https://github.com/nodejs/node/blob/v22.13.0/deps/uv/src/win/fs.c#L1688-L1830
+  // Windows Server 2025 can instead return zero for the path's device.
+  // Callers must retain a descriptor snapshot to check device identity when
+  // the path API does not supply it.
   // Normalize only this cross-API comparison, never same-API snapshots.
   const sameDevice = pathIdentity.dev === descriptorIdentity.dev
     || (
       platform === "win32"
-      && (pathIdentity.dev & 0xffffffffn) === descriptorIdentity.dev
+      && (
+        pathIdentity.dev === 0n
+        || (pathIdentity.dev & 0xffffffffn) === descriptorIdentity.dev
+      )
     );
   return sameDevice && sameMetadata(pathIdentity, descriptorIdentity);
 }

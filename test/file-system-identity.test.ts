@@ -50,6 +50,23 @@ test("Windows path/descriptor comparison accepts only the volume serial width di
   }
 });
 
+test("Windows zero path devices require independent descriptor snapshots for device checks", () => {
+  const missingDevice = { ...pathIdentity, dev: 0n };
+  assert.equal(pathMatchesFileDescriptor(missingDevice, descriptorIdentity, "win32"), true);
+  assert.equal(pathMatchesFileDescriptor(missingDevice, descriptorIdentity, "linux"), false);
+  assert.equal(pathMatchesFileDescriptor(descriptorIdentity, missingDevice, "win32"), false);
+  for (const field of identityFields.filter((field) => field !== "dev")) {
+    assert.equal(pathMatchesFileDescriptor(missingDevice, {
+      ...descriptorIdentity,
+      [field]: descriptorIdentity[field] + 1n
+    }, "win32"), false, field);
+  }
+  assert.equal(sameFileSystemIdentity(descriptorIdentity, {
+    ...descriptorIdentity,
+    dev: descriptorIdentity.dev + 1n
+  }), false);
+});
+
 test("cross-API comparisons still reject changed device, inode, mode, size, mtime, and ctime", () => {
   for (const field of identityFields) {
     assert.equal(pathMatchesFileDescriptor(pathIdentity, {
@@ -102,7 +119,7 @@ test("real path and descriptor stats differ only by the supported Windows device
       assert.equal(pathMatchesFileDescriptor(before, opened), true);
       if (before.dev !== opened.dev) {
         assert.equal(process.platform, "win32");
-        assert.equal(before.dev & 0xffffffffn, opened.dev);
+        assert.equal(before.dev === 0n || (before.dev & 0xffffffffn) === opened.dev, true);
       }
       fs.readFileSync(descriptor);
       assert.equal(sameFileSystemIdentity(opened, fs.fstatSync(descriptor, { bigint: true })), true);
@@ -134,6 +151,41 @@ test("real catalog loads unchanged files and detects same-size rewrites and repl
   });
 });
 
+test("catalog preserves device checks when Windows path stats report zero", async (t) => {
+  const { createRecipeContentTreeGuard, loadRecipeCatalog } = await import("../src/content/catalog");
+  const platformProperty = Object.getOwnPropertyDescriptor(process, "platform");
+  assert.ok(platformProperty);
+  const originalLstat = fs.lstatSync;
+  const originalFstat = fs.fstatSync;
+  withRecipeDirectory((root) => {
+    let descriptorDevice = 3092186581n;
+    const mockedLstat = t.mock.method(fs, "lstatSync", (entryPath: fs.PathLike) => {
+      const stats = originalLstat(entryPath, { bigint: true });
+      stats.dev = 0n;
+      return stats;
+    });
+    const mockedFstat = t.mock.method(fs, "fstatSync", (descriptor: number) => {
+      const stats = originalFstat(descriptor, { bigint: true });
+      stats.dev = descriptorDevice;
+      return stats;
+    });
+    Object.defineProperty(process, "platform", { ...platformProperty, value: "win32" });
+    syncBuiltinESMExports();
+    try {
+      assert.deepEqual(loadRecipeCatalog(root), [recipeFixture]);
+      const guard = createRecipeContentTreeGuard(root);
+      guard.assertUnchanged();
+      descriptorDevice += 1n;
+      assert.throws(() => guard.assertUnchanged(), /content tree changed/);
+    } finally {
+      mockedLstat.mock.restore();
+      mockedFstat.mock.restore();
+      Object.defineProperty(process, "platform", platformProperty);
+      syncBuiltinESMExports();
+    }
+  });
+});
+
 test("catalog rejects a symlinked locale, including Windows junctions", async () => {
   const { loadRecipeCatalog } = await import("../src/content/catalog");
   withRecipeDirectory((root) => {
@@ -150,7 +202,7 @@ test("catalog retains full descriptor identity checks while reading", async (t) 
       let calls = 0;
       const mocked = t.mock.method(fs, "fstatSync", (descriptor: number) => {
         const stats = originalFstat(descriptor, { bigint: true });
-        if (++calls === 2) {
+        if (stats.isFile() && ++calls === (process.platform === "win32" ? 4 : 2)) {
           stats[field] += field === "dev" ? 1n << 32n : 1n;
         }
         return stats;
@@ -158,7 +210,7 @@ test("catalog retains full descriptor identity checks while reading", async (t) 
       syncBuiltinESMExports();
       try {
         assert.throws(() => loadRecipeCatalog(root), /source identity changed while it was read/);
-        assert.equal(calls, 2, field);
+        assert.ok(calls >= (process.platform === "win32" ? 4 : 2), field);
       } finally {
         mocked.mock.restore();
         syncBuiltinESMExports();
@@ -172,9 +224,12 @@ test("catalog rejects changed descriptor metadata before reading", async (t) => 
   const originalFstat = fs.fstatSync;
   withRecipeDirectory((root) => {
     for (const field of identityFields) {
+      let calls = 0;
       const mocked = t.mock.method(fs, "fstatSync", (descriptor: number) => {
         const stats = originalFstat(descriptor, { bigint: true });
-        stats[field] += 1n;
+        if (stats.isFile() && ++calls === (process.platform === "win32" ? 2 : 1)) {
+          stats[field] += 1n;
+        }
         return stats;
       });
       syncBuiltinESMExports();
@@ -192,12 +247,15 @@ test("catalog rejects a junction substitution even when the open file is unchang
   const { loadRecipeCatalog } = await import("../src/content/catalog");
   const originalFstat = fs.fstatSync;
   withRecipeDirectory((root) => {
+    let calls = 0;
     const mocked = t.mock.method(fs, "fstatSync", (descriptor: number) => {
       const stats = originalFstat(descriptor, { bigint: true });
-      const localePath = path.join(root, "en");
-      const movedPath = path.join(root, "moved");
-      fs.renameSync(localePath, movedPath);
-      fs.symlinkSync(movedPath, localePath, "junction");
+      if (stats.isFile() && ++calls === (process.platform === "win32" ? 2 : 1)) {
+        const localePath = path.join(root, "en");
+        const movedPath = path.join(root, "moved");
+        fs.renameSync(localePath, movedPath);
+        fs.symlinkSync(movedPath, localePath, "junction");
+      }
       return stats;
     });
     syncBuiltinESMExports();

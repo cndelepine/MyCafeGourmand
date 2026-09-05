@@ -37,6 +37,7 @@ export type RecipeSourceFile = {
 type RecipeFileSystemIdentity = FileSystemIdentity & {
   path: string;
   realPath: string;
+  descriptorIdentity: FileSystemIdentity | null;
 };
 
 type DiscoveredRecipeSourceFile = RecipeSourceFile & {
@@ -95,7 +96,13 @@ function sameIdentity(
 ) {
   return left.path === right.path
     && left.realPath === right.realPath
-    && sameFileSystemIdentity(left, right);
+    && sameFileSystemIdentity(left, right)
+    && (
+      left.descriptorIdentity === null
+        ? right.descriptorIdentity === null
+        : right.descriptorIdentity !== null
+          && sameFileSystemIdentity(left.descriptorIdentity, right.descriptorIdentity)
+    );
 }
 
 function identityFromStats(
@@ -106,6 +113,7 @@ function identityFromStats(
   return {
     path: entryPath,
     realPath,
+    descriptorIdentity: null,
     dev: stats.dev,
     ino: stats.ino,
     mode: stats.mode,
@@ -128,6 +136,24 @@ function captureIdentity(
     throw new Error(typeError);
   }
   const realPath = realpathSync.native(entryPath);
+  let descriptorIdentity: FileSystemIdentity | null = null;
+  if (process.platform === "win32") {
+    // Path stats can omit the Windows volume serial. Keep a full, independent
+    // descriptor snapshot rather than dropping device checks from the guard.
+    const descriptor = openSync(entryPath, constants.O_RDONLY | constants.O_NOFOLLOW);
+    try {
+      const opened = fstatSync(descriptor, { bigint: true });
+      if (
+        (expectedType === "directory" ? !opened.isDirectory() : !opened.isFile())
+        || !pathMatchesFileDescriptor(before, opened)
+      ) {
+        throw new Error(`Recipe content path changed while being inspected: "${entryPath}"`);
+      }
+      descriptorIdentity = identityFromStats(entryPath, realPath, opened);
+    } finally {
+      closeSync(descriptor);
+    }
+  }
   const after = lstatSync(entryPath, { bigint: true });
   const resolved = lstatSync(realPath, { bigint: true });
   const beforeIdentity = identityFromStats(entryPath, realPath, before);
@@ -142,7 +168,7 @@ function captureIdentity(
   ) {
     throw new Error(`Recipe content path changed while being inspected: "${entryPath}"`);
   }
-  return afterIdentity;
+  return { ...afterIdentity, descriptorIdentity };
 }
 
 function assertRecordCount(count: number, label: string) {
@@ -363,6 +389,10 @@ function readRecipeRecord(source: DiscoveredRecipeSourceFile) {
       if (
         !stats.isFile()
         || !pathMatchesFileDescriptor(source.identity, openedIdentity)
+        || (
+          source.identity.descriptorIdentity !== null
+          && !sameFileSystemIdentity(source.identity.descriptorIdentity, openedIdentity)
+        )
         || !sameIdentity(source.identity, captureIdentity(
           source.path,
           "file",
