@@ -23,7 +23,9 @@ npm run recipes -- --help
 ```
 
 Every recipe file must be strict UTF-8 JSON with two-space indentation and a
-final newline. Filenames must exactly match the raw-Unicode NFC slug:
+final newline. Git attributes pin recipe and generated schema JSON to LF line
+endings, including on Windows, so checkout does not change canonical bytes.
+Filenames must exactly match the raw-Unicode NFC slug:
 
 ```text
 content/recipes/<locale>/<slug>.json
