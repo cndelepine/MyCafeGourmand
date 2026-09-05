@@ -25,17 +25,66 @@ The tracked-input guard permits SQL only directly under
 `test/fixtures/wordpress/`. Those files must be deliberately sanitized test
 data, never copied source records.
 
-Use owner-only permissions for private operations:
+Use owner-only permissions for private operations. Initialize keys once;
+`set -C` refuses to truncate an existing key. Retain the original keys for
+authenticated resumes and recovery:
 
 ```sh
-umask 077
-mkdir -p migration-output
-openssl rand 32 > migration-output/wprm-fingerprint.key
-openssl rand 32 > migration-output/editorial-fingerprint.key
+(
+  umask 077
+  set -C
+  mkdir -p migration-output &&
+  openssl rand 32 > migration-output/wprm-fingerprint.key &&
+  openssl rand 32 > migration-output/editorial-fingerprint.key
+)
 ```
 
 The repository ignores `migration-output/`, but ignore rules are not an
-authorization to store it in a shared or public location.
+authorization to store it in a shared or public location. The tracked-input
+guard checks path names, not file contents, and does not prove sanitization.
+
+## Authorization and reporting
+
+Use only the exact inputs supplied by the owner; do not search unrelated
+directories for possible backups. Before a private write, public promotion,
+network request, upload, permission change, or cleanup, ensure the operator has
+explicitly authorized that operation and its exact paths or destinations.
+Approval for one phase does not authorize subsequent phases or blanket shell
+access. A requested read-only review does not require running these commands.
+
+Keep source wording, private paths and filenames, fingerprint/HMAC values,
+credentials, and personal data out of chat and public logs. Report aggregate
+results and coded failures; keep detailed artifacts private. Never delete
+source, keys, staging, journals, or media objects as routine success cleanup.
+
+## Changing migration implementation
+
+These contracts are tied to the authorized snapshot and reviewed plugin
+behavior, not arbitrary WordPress compatibility:
+
+- Identify and parse WP Recipe Maker and WP Ultimate Recipe independently at
+  import time; their schemas are not interchangeable and WP Ultimate Recipe
+  is not a runtime feature.
+- Derive shortcode/plugin behavior from authorized plugin source and
+  authenticated WordPress options. Preserve PHP truthiness, global option
+  inheritance, traversal order, and case sensitivity where they affect output.
+- Keep import operations deterministic, idempotent, resumable, and safe in
+  dry-run mode. Unsupported or malformed records need explicit errors, not
+  silent omission.
+- When source interpretation changes, version the authenticated staging
+  contract, reject incompatible resumes, regenerate private staging, and
+  compare repeated byte-identical dry runs before writing.
+- Validate every live publication destination before recording it in a
+  transaction journal. Authentication and rollback cannot repair an invalid
+  or differently parsed destination after a crash.
+- Require exact closure for upload trees: every planned object must have the
+  authenticated bytes and MIME type; reject missing/extra files, directories,
+  or symlinks. Remote verification must check exact HTTPS origin/path,
+  redirect behavior, status, byte count, hash, and content type.
+
+Keep aggregate baselines and source-specific decisions reviewable. After changes,
+validate counts by type and locale, media existence, translations, structured
+data, internal links, and redirect coverage in addition to the repository checks.
 
 ## Privacy-safe source inventory
 

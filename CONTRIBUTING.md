@@ -2,9 +2,8 @@
 
 ## Start with the repository contract
 
-Read root [`AGENTS.md`](AGENTS.md) before changing code, content, migration
-tools, routes, or operations. It is the canonical contract for source fidelity,
-privacy, static export, URL safety, validation, and milestone review.
+Read root [`AGENTS.md`](AGENTS.md) for architecture, content fidelity, privacy,
+URL safety, and implementation invariants.
 
 Use Node.js 24.20.0 from `.nvmrc` and install the locked dependencies:
 
@@ -19,34 +18,35 @@ migration outputs between checkouts.
 ## Make a focused change
 
 - Use a topic branch and keep each pull request cohesive.
-- Preserve existing source wording, locale relationships, paths, timestamps,
-  taxonomy, redirects, and media metadata unless the task explicitly changes
-  an approved source interpretation.
-- Keep the static-export architecture. Do not add API routes, Server Actions,
-  request-time rendering, or `next start`.
-- Reuse shared content schemas and URL-path validation rather than introducing
-  route-specific parsing.
-- Add focused tests for behavior with meaningful edge cases.
+- Check the working tree before editing and preserve unrelated changes.
+- Follow the task-specific guide linked from `AGENTS.md`; migration operations
+  are not prerequisites for ordinary application or documentation work.
 - Update the closest canonical document when commands, schemas, architecture,
   migration behavior, or operations change.
 
-Raw WordPress backups, SQL, WXR, uploads, archives, credentials, private
-staging, journals, and personal data never belong in Git. Sanitized SQL fixtures
-are allowed only directly under `test/fixtures/wordpress/` and must contain no
-source wording or private data not deliberately created for the test.
+Sanitized SQL fixtures are allowed only directly under
+`test/fixtures/wordpress/` and must be deliberately created test data, not
+copied private source records.
 
 ## Validate
 
-Run the smallest relevant checks while iterating, then run:
+For code, content, or executable configuration changes, run the smallest
+relevant checks while iterating, then run:
 
 ```sh
 npm run check
 npm run build:ci
 ```
 
-`npm run check` includes the repository migration-input guard. Do not weaken or
-skip a failing guard, content check, test, or output validator to make a pull
-request pass.
+`npm run check` runs the tracked-path migration-input guard, linting, strict
+type checking, Node tests, and recipe/schema checks. `npm run build:ci` adds
+content validation and static export. Record actual results and any pre-existing
+failures.
+
+For documentation-only changes, verify local links, paths, command names, and
+the complete diff. No build is required unless executable behavior also changes.
+CI still runs its configured checks. A read-only reviewer can inspect supplied
+results but must not claim to have run commands.
 
 `build:local` and `build:ci` are nondeployable when manifest-backed media is
 present. Do not set release environment variables for those commands. Follow
@@ -59,10 +59,10 @@ Before requesting review:
 
 1. Inspect the complete diff for unrelated changes, source-content rewrites,
    generated files, raw migration inputs, credentials, and private data.
-2. Confirm new routes participate in centralized route ownership, sitemap,
+2. For route changes, confirm centralized route ownership, sitemap,
    redirect, and release-output validation.
-3. Confirm action references are immutable SHAs and workflow permissions and
-   timeouts are minimal.
+3. For workflow changes, confirm immutable action SHAs, minimal permissions,
+   bounded timeouts, and the expected event coverage.
 4. Record any administrator-owned or provider-owned launch gate that code
    cannot configure.
 5. Require CI and review to pass before merging to `main`.

@@ -1,63 +1,44 @@
 ---
 name: migration-operator
-description: Safely operates this repository's owner-authorized WordPress inventory, authenticated staging, promotion, media-plan, and post-upload verification commands. Use only when asked to run, resume, diagnose, or review those private migration operations; do not use for routine application changes, public-site scraping, or cloud-provider selection.
+description: Run, resume, diagnose, or review owner-authorized WordPress source inventory, authenticated recipe/editorial staging, promotion, media upload plans, and post-upload verification. Relevant to private migration operations, not routine application changes, new recipe authoring, public-site scraping, or provider selection.
 ---
 
 # Migration operator
 
-Read `AGENTS.md` and `docs/migration-operations.md` before acting. Treat the
-documented commands, current staging versions, expected counts, and source
-contracts as authoritative; do not reconstruct commands from memory.
+Read root [AGENTS.md](../../../AGENTS.md) and the relevant section of
+[migration-operations.md](../../../docs/migration-operations.md). Paths in the
+operator guide are relative to the repository root. Use its command examples
+and confirm flags and staging versions against the current implementation;
+documented counts are reviewed baselines, not substitutes for current evidence.
 
-## Preconditions
+## Select the task
 
-- Require an owner-authorized WordPress database/files backup or export.
-- Keep raw SQL, WXR, uploads, archives, fingerprint keys, private manifests,
-  journals, and staging trees outside Git and public application directories.
-- Confirm inputs are regular files/directories at the exact operator-provided
-  paths. Never search unrelated directories for possible backups.
-- Do not substitute public pages, REST responses, sitemaps, or web archives for
-  the authoritative source.
-- Never print or summarize source wording, paths, filenames, private metadata,
-  HMAC values, credentials, or personal data.
+- For a code or procedure review, inspect the supplied diff, implementation,
+  and sanitized tests. Do not require private backups or execute the migration
+  pipeline merely to review it.
+- For execution or diagnosis, use only the authorized inputs and exact paths
+  supplied by the operator. Never search unrelated directories for backups.
+- Run only the requested phase. Inventory, staging, public promotion, private
+  media planning, remote upload, and verification are separate operations;
+  completing one does not authorize the next.
 
-## Operating sequence
+## Execute the relevant procedure
 
-1. Run the relevant privacy-safe inventory or evidence command in dry-run mode.
-2. Run the recipe or editorial importer with `--dry-run`; retain and compare
-   only its aggregate safe manifest.
-3. Before staging, require the operator's explicit approval for the exact
-   `--write --staging-dir` command. Use a new versioned private staging root
-   when the marker contract changes; use `--resume` only where the documented
-   command supports it.
-4. Re-run promotion with `--dry-run`, exact expected counts, the same source,
-   archives, fingerprint key, and staging root. Require a byte-identical
-   successful result before proposing `--write`.
-5. Treat promotion as a separate irreversible publication decision. Run the
-   exact `--write` command only after explicit operator approval; never add an
-   overwrite, apply, copy-media, destination, content-root, or public-root flag.
-6. Generate recipe and editorial/gallery media upload plans independently.
-   Dry-run first, then require approval for each write or resume command.
-7. External upload is an operator-owned, interactively authenticated step.
-   Do not choose a provider, account, container, CDN, permissions policy, or
-   deployment architecture.
-8. After upload, run `npm run media:verify-azure` against every planned upload
-   directory together. Keep private object trees until exact HTTPS origin/path,
-   redirect, status, byte count, hash, and content-type verification succeeds.
-9. Run repository validation and the guarded release checks required by
-   `docs/release-operations.md`; never deploy a `build:local` or `build:ci`
-   artifact.
+1. Check the guide's source, privacy, and authorization prerequisites. Report
+   missing input or approval rather than guessing values or source interpretation.
+2. Use the documented dry run first. Check aggregate counts and contract
+   versions against authenticated evidence; compare repeated results for the
+   same command and inputs, not results from different pipeline phases.
+3. Follow the guide's authorization boundary before writing or contacting an
+   external service. Do not add blanket `allowed-tools` shell preapproval.
+4. Stop on drift or validation failure. Use the documented recovery rules,
+   never an overwrite flag, hand-edited journal, or guessed stale-lock removal.
+5. For remote media verification or release work, also read
+   [release-operations.md](../../../docs/release-operations.md). Media planning
+   is credential-free; it does not authorize provider configuration or upload.
+6. Report only aggregate migration results and coded failures. Distinguish
+   actions performed from proposed commands and unverified external gates.
 
-## Safety boundaries
-
-- Ask for command-specific approval when a command writes files, contacts an
-  external service, authenticates, uploads, changes permissions, or publishes
-  content. Never request or grant blanket shell preapproval.
-- Stop on changed sources, changed archives, count drift, non-byte-identical dry
-  runs, malformed markers/journals, unexpected files, symlinks, lock conflicts,
-  or validation failures. Do not weaken checks or silently skip records.
-- Never guess that a promotion lock is stale. Follow the exact inspected-lock
-  recovery procedure in the operator documentation.
-- Never delete private source, staging, journals, or media objects as part of a
-  successful run. Cleanup is a separate, explicitly authorized operation.
-- Report only aggregate safe results and coded failures.
+Preserve private source, keys, staging, journals, and upload trees; cleanup
+requires a separate explicit authorization. A skill is guidance, not a sandbox
+or a substitute for importer, promotion, upload-plan, and CI validation.

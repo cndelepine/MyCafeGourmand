@@ -47,14 +47,18 @@ values and perform pre-build and output validation. The media base must be absol
 credentials, query, or fragment. It may be a validated Blob or CDN/custom-domain
 base after that external infrastructure exists.
 
-The output validator scans every bounded deployable text artifact, including
+The media output validator scans bounded deployable artifacts, including
 HTML, CSS, JavaScript, React Flight/RSC text, and JSON-LD. It rejects:
 
 - root-relative manifest-backed media;
 - media keys absent from the appropriate public manifest;
 - a different origin or base path;
-- any URL that does not resolve exactly from the configured HTTPS base;
-- an invalid or unapproved contact destination.
+- managed-media URLs that do not resolve exactly from the configured HTTPS base.
+
+The same command checks static route/file coverage and output size limits.
+Contact endpoint configuration is validated before the build, not by this
+media output scan. Neither validator proves provider approval, successful
+contact delivery, or correct live deployment.
 
 Never deploy the output of `build`, `build:static`, `build:local`, or
 `build:ci`.
@@ -68,6 +72,12 @@ configuration, not a secret. It must not contain a recipient address,
 credential, token, URL credential, fragment, private/loopback host, or the
 site's own host or subdomain.
 
+The parser checks HTTPS syntax, URL credentials/fragments, same-site targets,
+and lexical host restrictions. It does not resolve DNS, recognize every secret
+embedded in a path/query, or establish provider approval. The pre-build contact
+check logs the endpoint, so the operator must verify it is safe public
+configuration before setting it.
+
 The external adapter must accept only:
 
 | Field | Contract |
@@ -80,9 +90,10 @@ The external adapter must accept only:
 | `returnUrl` | One app-generated absolute canonical success URL |
 | `website` | Honeypot; a nonempty value may be rejected and is not contact data |
 
-The adapter must independently enforce bounds and allow-list the three return
-paths: `/contact/success/`, `/fr/contact/success/`, and
-`/ru/contact/success/`. It may redirect only after accepting the submission.
+The adapter must independently enforce bounds and allow-list the exact absolute
+return URLs at the site's canonical origin with paths `/contact/success/`,
+`/fr/contact/success/`, and `/ru/contact/success/`. A matching path at another
+origin is not allowed. It may redirect only after accepting the submission.
 The confirmation pages are canonical noindex routes excluded from the sitemap.
 
 Launch remains blocked until the owner approves an accurate privacy notice for
@@ -180,6 +191,8 @@ Before a production artifact can be considered deployable:
 6. The generated `out/` passes the release output validator and is uploaded
    without rebuilding, only after complete edge redirect publication succeeds.
    Never copy `.deployment/` into the public upload tree.
+7. Inspect the rendered contact form actions in all locales and test acceptance,
+   rejection, delivery, and return redirects against the approved provider.
 
 No repository document or credential-free CI run proves that external Azure,
 DNS, TLS, CORS, contact, or GitHub settings are configured.
