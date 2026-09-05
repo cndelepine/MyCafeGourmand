@@ -17,6 +17,10 @@ import {
   unlink
 } from "node:fs/promises";
 import path from "node:path";
+import {
+  pathMatchesFileDescriptor,
+  sameFileSystemIdentity
+} from "../../src/content/file-system-identity";
 import { parseJsonAtBoundary } from "../../src/content/json-boundary";
 
 function isMissing(error: unknown) {
@@ -49,10 +53,8 @@ export function readBoundedJsonFile(
     const opened = fstatSync(descriptor, { bigint: true });
     if (
       !opened.isFile()
-      || opened.dev !== initial.dev
-      || opened.ino !== initial.ino
-      || opened.size !== initial.size
-      || opened.mtimeNs !== initial.mtimeNs
+      || !pathMatchesFileDescriptor(initial, opened)
+      || !sameFileSystemIdentity(initial, lstatSync(filePath, { bigint: true }))
     ) {
       throw new Error(`${label} changed before it was read: "${filePath}".`);
     }
@@ -66,10 +68,8 @@ export function readBoundedJsonFile(
     }).decode(bytes);
     const after = fstatSync(descriptor, { bigint: true });
     if (
-      after.dev !== opened.dev
-      || after.ino !== opened.ino
-      || after.size !== opened.size
-      || after.mtimeNs !== opened.mtimeNs
+      !sameFileSystemIdentity(opened, after)
+      || !sameFileSystemIdentity(initial, lstatSync(filePath, { bigint: true }))
     ) {
       throw new Error(`${label} changed while it was read: "${filePath}".`);
     }
