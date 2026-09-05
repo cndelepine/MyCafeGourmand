@@ -13,8 +13,9 @@ provision Azure resources, deploy the site, or select an external service.
 | `.github/dependabot.yml` | Weekly npm and GitHub Actions update pull requests |
 | `scripts/check-forbidden-migration-inputs.mjs` | Reject tracked paths matching forbidden migration-input names, except the SQL fixture boundary |
 
-CI and CodeQL run for pull requests targeting `main`, merge-queue check
-requests, pushes to `main`, and manual dispatch. CodeQL also runs weekly.
+CI and CodeQL run for all pull requests, including stacked pull requests whose
+base is another feature branch, merge-queue check requests, pushes to `main`,
+and manual dispatch. CodeQL also runs weekly.
 Concurrency groups isolate pull request numbers and merge-group head SHAs so
 superseded runs cancel without crossing changes. Every job has a timeout, and
 workflows default to read-only repository permissions. CodeQL receives only the
