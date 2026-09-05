@@ -45,7 +45,10 @@ Key paths:
   `scripts/plan-wordpress-editorial-media-upload.ts` - private Blob upload plans
 - `scripts/url-inventory/` - bounded public URL discovery and comparison
 - `test/` - focused Node test-runner coverage
-- `.github/workflows/ci.yml` - lint, typecheck, test, and build validation
+- `docs/migration-operations.md` and `docs/release-operations.md` - operator
+  procedures kept out of the beginner quickstart
+- `.github/workflows/ci.yml` and `.github/workflows/codeql.yml` - validation and
+  credential-free security analysis
 
 Azure Static Web Apps and the static export are the chosen deployment model.
 Do not introduce Next.js runtime dependencies such as API routes, Server
@@ -166,7 +169,7 @@ npm run check
 npm run build:ci
 ```
 
-- The current lockfile requires Node.js 22.13.0 or newer; `.nvmrc` is the
+- The current lockfile requires Node.js 24.20.0 or newer; `.nvmrc` is the
   source for the CI runtime.
 - Run the smallest relevant checks while iterating, then run `npm run check` and
   `npm run build:ci` before reporting an implementation complete. `build:ci`
@@ -174,7 +177,9 @@ npm run build:ci
   `build:release` must remain fail-closed until a checked-in edge adapter
   deploys and verifies every exact redirect, in addition to requiring a
   validated HTTPS `NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL`.
-- `npm test` runs the focused Node test suite, and CI runs `npm run check`.
+- `npm test` runs the focused Node test suite. `npm run check` also runs the
+  tracked migration-input guard, linting, and type checking; CI runs the full
+  command.
 - Declare Node test-runner tests at module scope. Do not dynamically register a
   test inside another test; the outer test can finish before the nested test and
   CI may cancel it even when local output appears successful.
