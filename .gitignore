@@ -16,7 +16,30 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Owner-authorized migration inputs are private and must remain outside Git.
+*.sql
+*.sql.*
+*.dump
+*.dump.*
+*.sqlite
+*.sqlite3
+*.wxr
+*.wxr.*
+*wordpress*.xml
+*wordpress*.xml.*
+*WordPress*.xml
+*WordPress*.xml.*
+wp-config.php
+wp-config.php.*
+/backup/
+/backups/
+/wp-content/
+/uploads/
+/upload-archives/
 /migration-output/
+/drive-download-*/
+
+# Only reviewed, sanitized source fixtures belong in the repository.
+!/test/fixtures/wordpress/*.sql
 
 .DS_Store
-/drive-download-*/
