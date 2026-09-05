@@ -895,6 +895,20 @@ test("report, schema, formatting checks, and CLI help are deterministic and stri
     () => runRecipeCli(["unknown"]),
     /Unknown recipes command/
   );
+  for (const inheritedName of ["constructor", "toString", "__proto__"]) {
+    await assert.rejects(
+      () => runRecipeCli([inheritedName]),
+      /Unknown recipes command/
+    );
+    await assert.rejects(
+      () => runRecipeCli([inheritedName, "--help"]),
+      /Unknown recipes command/
+    );
+    await assert.rejects(
+      () => runRecipeCli(["new", `--${inheritedName}`, "value"]),
+      /Unknown command-line option/
+    );
+  }
 });
 
 test("quantity schema structurally rejects lossy parsed-value combinations", () => {

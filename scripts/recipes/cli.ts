@@ -28,11 +28,11 @@ function parseOptions(
       throw new Error(`Unexpected positional argument: ${argument ?? "<missing>"}`);
     }
     const key = argument.slice(2);
-    const kind = supported[key];
-    if (kind === undefined) {
+    if (!Object.hasOwn(supported, key)) {
       throw new Error(`Unknown command-line option: --${key}`);
     }
-    if (result[key] !== undefined) {
+    const kind = supported[key];
+    if (Object.hasOwn(result, key)) {
       throw new Error(`Duplicate command-line option: --${key}`);
     }
     if (kind === "boolean") {
@@ -114,7 +114,7 @@ export async function runRecipeCli(
     writeOutput(topLevelHelp);
     return;
   }
-  if (!(command in commandHelp)) {
+  if (!Object.hasOwn(commandHelp, command)) {
     throw new Error(`Unknown recipes command: ${command}`);
   }
   const commandArgs = argv.slice(1);
