@@ -88,3 +88,32 @@ test("formats mixed fractions and ranges without changing raw quantities", () =>
   );
   assert.equal(mixed.raw, "1 1/2 cups");
 });
+
+test("retains original values when scaling would overflow", () => {
+  const exact = {
+    raw: "A very large amount",
+    value: 1e308,
+    unit: null,
+    scalable: true
+  } as const;
+  const range = {
+    raw: "A very large range",
+    min: 1e307,
+    max: 1e308,
+    unit: null,
+    scalable: true
+  } as const;
+  const ingredient = {
+    sourceIndex: 0,
+    raw: "A very large amount of flour",
+    quantity: exact,
+    name: "flour",
+    notes: null
+  };
+
+  assert.equal(scaleQuantity(exact, 2), exact);
+  assert.equal(formatQuantity(exact, 2), exact.raw);
+  assert.equal(scaleQuantity(range, 2), range);
+  assert.equal(formatQuantity(range, 2), range.raw);
+  assert.equal(formatIngredient(ingredient, 2), ingredient.raw);
+});

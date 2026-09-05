@@ -4,6 +4,10 @@ import {
   type RecipeCategory
 } from "@/content/categories";
 import { localeValues, type Locale } from "@/content/locales";
+import {
+  getRecipePath,
+  recipeRouteSegment
+} from "@/content/recipe-path";
 import type { RecipeRecord } from "@/content/schema";
 import { decodeRecipeSlug, validateRecipeSlug } from "@/content/url-path";
 import {
@@ -26,8 +30,8 @@ export type LandingRoute = {
 
 export const categoryRouteSegment = "category";
 export const paginationRouteSegment = "page";
-export const recipeRouteSegment = "recipes";
 export const supportedLocales = localeValues;
+export { getRecipePath, recipeRouteSegment };
 
 export function isLocale(value: string): value is Locale {
   return supportedLocales.some((locale) => locale === value);
@@ -61,15 +65,6 @@ export function getRecipeSegments(record: RecipeRecord) {
   return record.locale === "en"
     ? [recipeRouteSegment, record.slug]
     : [record.locale, recipeRouteSegment, record.slug];
-}
-
-export function getRecipePath(record: RecipeRecord) {
-  const segments = getRecipeSegments(record);
-  return `/${segments
-    .map((segment, index) =>
-      index === segments.length - 1 ? encodeURIComponent(segment) : segment
-    )
-    .join("/")}`;
 }
 
 export function getCategorySegments(category: RecipeCategory) {

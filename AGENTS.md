@@ -28,6 +28,7 @@ outside launch scope unless explicitly requested.
 | Task | Guidance |
 | --- | --- |
 | Setup, contribution, validation, and pull requests | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| Recipe authoring, schema, or catalog maintenance | [content/README.md](content/README.md) |
 | WordPress import, promotion, media plans, or source interpretation | [docs/migration-operations.md](docs/migration-operations.md) |
 | Release artifacts, contact, or remote media verification | [docs/release-operations.md](docs/release-operations.md) |
 | Deployment, edge redirects, or launch gates | [docs/deployment.md](docs/deployment.md) |
@@ -46,10 +47,10 @@ rituals or enforcement mechanisms; critical checks belong in code and CI.
   relationships, and intentionally missing translations. Do not invent fields
   or automatically translate content. Keep editorial content separate from
   normalized recipe fields.
-- The current recipe schema supports WordPress migration records, not a
-  source-neutral authoring format. Do not fabricate WordPress provenance for
-  new owner-authored recipes; adding authoring support requires an explicit
-  schema and workflow change, separate from reimporting existing content.
+- Keep migrated WordPress v1 records frozen. New image-free recipes use the
+  source-neutral authored v2 schema and guarded workflow in `content/README.md`;
+  never fabricate WordPress provenance. Moves, translation mutation, provenance
+  locks, and authored media ingest remain deferred.
 - Never commit raw backups, SQL/WXR exports, WordPress configuration, credentials,
   private staging, journals, uploads, form submissions, or personal data. Keep
   private inputs outside Git and public application directories; use only small,

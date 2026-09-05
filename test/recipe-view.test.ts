@@ -1,9 +1,15 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import path from "node:path";
 import test from "node:test";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { RecipeView } from "../src/components/recipe-view";
-import { recipeRecordSchema } from "../src/content/schema";
+import { createAuthoredRecipeDocument } from "../src/content/authored-recipe";
+import {
+  normalizeRecipeDocument,
+  recipeRecordSchema
+} from "../src/content/schema";
 import { recipeFixture } from "./fixtures/recipe";
 
 test("static recipe rendering preserves semantic instruction groups and headings", () => {
@@ -11,6 +17,14 @@ test("static recipe rendering preserves semantic instruction groups and headings
     ...recipeFixture,
     recipe: {
       ...recipeFixture.recipe,
+      notes: "Keep covered until serving.",
+      equipment: [{
+        sourceIndex: 0,
+        sourceId: "17",
+        name: "Dutch oven",
+        amount: "1 large",
+        notes: "with a lid"
+      }],
       instructionGroups: [
         {
           name: "Prepare the filling",
@@ -48,4 +62,128 @@ test("static recipe rendering preserves semantic instruction groups and headings
   assert.match(markup, /<ol start="2">/u);
   assert.equal((markup.match(/<ol/g) ?? []).length, 2);
   assert.match(markup, /<span>02<\/span><div><p>Cook and serve\.<\/p>/u);
+  assert.match(markup, /id="equipment-title">Equipment<\/h2>/u);
+  assert.match(markup, /<li>1 large Dutch oven, with a lid<\/li>/u);
+  assert.match(markup, /id="method-title">Method<\/h2>/u);
+  assert.match(markup, /id="recipe-notes-title">Notes<\/h2>/u);
+  assert.match(markup, /<p>Keep covered until serving\.<\/p>/u);
+});
+
+test("authored v2 renders notes and source-neutral equipment", () => {
+  const recipe = normalizeRecipeDocument(createAuthoredRecipeDocument({
+    locale: "en",
+    slug: "authored-extras",
+    title: "Authored extras",
+    description: null,
+    publishedAt: null,
+    modifiedAt: null,
+    categories: [],
+    recipe: {
+      notes: "Serve immediately.",
+      servings: null,
+      equipment: [{
+        name: "Mixing bowl",
+        amount: null,
+        notes: "chilled"
+      }],
+      times: {
+        prep: null,
+        cook: null,
+        rest: null,
+        total: null,
+        custom: null
+      },
+      ingredientGroups: [{
+        name: null,
+        items: [{
+          raw: "1 apple",
+          quantity: null,
+          name: "apple",
+          notes: null
+        }]
+      }],
+      instructionGroups: [{
+        name: null,
+        steps: [{ text: "Mix." }]
+      }]
+    },
+    seo: null
+  }, "119642b8-18b3-42b9-a426-b2be7e42c572", "2026-08-31T00:00:00Z"));
+  const markup = renderToStaticMarkup(createElement(RecipeView, {
+    catalog: [recipe],
+    recipe
+  }));
+
+  assert.match(markup, /<li>Mixing bowl, chilled<\/li>/u);
+  assert.match(markup, /<p>Serve immediately\.<\/p>/u);
+});
+
+test("print styles retain notes and equipment", () => {
+  const css = readFileSync(
+    path.join(process.cwd(), "src", "app", "globals.css"),
+    "utf8"
+  );
+  const printStyles = css.slice(css.indexOf("@media print"));
+
+  assert.match(
+    printStyles,
+    /\.equipment, \.recipe-notes \{ break-inside:avoid; padding-bottom:35px; \}/u
+  );
+  assert.doesNotMatch(
+    printStyles,
+    /\.equipment[^}]*display:none|\.recipe-notes[^}]*display:none/u
+  );
+});
+
+test("recipe details publish every provided duration with localized labels", () => {
+  for (const [locale, cookLabel, restLabel, totalLabel] of [
+    ["en", "Cook time", "Rest time", "Total time"],
+    ["fr", "Cuisson", "Repos", "Temps total"],
+    ["ru", "Приготовление", "Отдых", "Общее время"]
+  ] as const) {
+    const recipe = recipeRecordSchema.parse({
+      ...recipeFixture,
+      locale,
+      recipe: {
+        ...recipeFixture.recipe,
+        times: {
+          prep: { raw: "10 source minutes", minutes: 10 },
+          cook: { raw: "35 source minutes", minutes: 35 },
+          rest: { raw: "overnight", minutes: null },
+          total: { raw: "source total", minutes: null },
+          custom: {
+            label: "Cooling & setting",
+            duration: { raw: "2 source hours", minutes: 120 }
+          }
+        }
+      }
+    });
+    const markup = renderToStaticMarkup(createElement(RecipeView, {
+      catalog: [recipe], recipe
+    }));
+    const details = markup.slice(markup.indexOf('<dl class="details">'), markup.indexOf("</dl>"));
+    assert.ok(details.includes(`<dt>${cookLabel}</dt><dd>35 source minutes</dd>`));
+    assert.ok(details.includes(`<dt>${restLabel}</dt><dd>overnight</dd>`));
+    assert.ok(details.includes(`<dt>${totalLabel}</dt><dd>source total</dd>`));
+    assert.match(details, /<dt>Cooling &amp; setting<\/dt><dd>2 source hours<\/dd>/u);
+  }
+});
+
+test("recipe details omit unspecified durations without inventing totals", () => {
+  const recipe = recipeRecordSchema.parse({
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      times: {
+        prep: null, cook: null, rest: null, total: null,
+        custom: { label: null, duration: { raw: "0 minutes", minutes: 0 } }
+      }
+    }
+  });
+  const markup = renderToStaticMarkup(createElement(RecipeView, {
+    catalog: [recipe], recipe
+  }));
+  assert.match(markup, /<dt>Prep time<\/dt><dd>Not specified<\/dd>/u);
+  assert.match(markup, /<dt>Additional time<\/dt><dd>0 minutes<\/dd>/u);
+  assert.doesNotMatch(markup, /<dt>(Cook time|Rest time|Total time)<\/dt>/u);
 });

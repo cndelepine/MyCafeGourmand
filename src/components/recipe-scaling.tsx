@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import type { Quantity, RecipeRecord } from "@/content/schema";
 import {
   formatIngredient,
@@ -15,6 +15,10 @@ type RecipeScalingLabels = {
   language: string;
   missing: string;
   prepTime: string;
+  cookTime: string;
+  restTime: string;
+  totalTime: string;
+  customTime: string;
   sectionNumber: string;
   serves: string;
   servingScale: string;
@@ -25,7 +29,7 @@ type RecipeScalingProps = {
   labels: RecipeScalingLabels;
   language: string;
   servings: Quantity | null;
-  prepTime: string;
+  times: RecipeRecord["recipe"]["times"];
 };
 
 const servingFactors = [1, 2, 3] as const;
@@ -36,12 +40,26 @@ export function RecipeScaling({
   labels,
   language,
   servings,
-  prepTime
+  times
 }: RecipeScalingProps) {
   const [factor, setFactor] = useState<ServingFactor>(1);
   const displayedServings = servings
     ? formatQuantity(servings, factor)
     : labels.missing;
+  const timeEntries = [
+    { key: "prep", label: labels.prepTime, value: times.prep?.raw ?? labels.missing },
+    ...(["cook", "rest", "total"] as const).flatMap((key) => {
+      const duration = times[key];
+      return duration === null
+        ? []
+        : [{ key, label: labels[`${key}Time`], value: duration.raw }];
+    }),
+    ...(times.custom === null ? [] : [{
+      key: "custom",
+      label: times.custom.label ?? labels.customTime,
+      value: times.custom.duration.raw
+    }])
+  ];
 
   return (
     <>
@@ -65,8 +83,12 @@ export function RecipeScaling({
           <dd aria-live="polite">{displayedServings}</dd>
         </div>
         <div>
-          <dt>{labels.prepTime}</dt>
-          <dd>{prepTime}</dd>
+          {timeEntries.map(({ key, label, value }) => (
+            <Fragment key={key}>
+              <dt>{label}</dt>
+              <dd>{value}</dd>
+            </Fragment>
+          ))}
         </div>
         <div>
           <dt>{labels.language}</dt>

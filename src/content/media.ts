@@ -1,6 +1,7 @@
-import { validateSafeLocalPath } from "./url-path";
+import { localPathKey, validateSafeLocalPath } from "./url-path";
 
 export const wordpressRecipeMediaPrefix = "/recipes/media/wordpress/";
+const wordpressRecipeMediaNamespace = wordpressRecipeMediaPrefix.slice(0, -1);
 
 const numericAttachmentId = /^(?:0|[1-9]\d*)$/u;
 const wordpressRecipeMediaKey = new RegExp(
@@ -19,11 +20,33 @@ export function validateRecipeMediaPath(
   value: string,
   label = "Recipe media path"
 ) {
-  validateSafeLocalPath(value, label);
-  if (value.startsWith(wordpressRecipeMediaPrefix)) {
+  const effectivePath = recipeMediaPathKey(value, label);
+  if (isWordPressRecipeMediaNamespaceKey(effectivePath)) {
+    if (value !== effectivePath) {
+      throw new Error(
+        `${label} must not encode or alias the managed media namespace: ${value}`
+      );
+    }
     parseWordPressRecipeMediaObjectKey(value, label);
   }
   return value;
+}
+
+export function recipeMediaPathKey(
+  value: string,
+  label = "Recipe media path"
+) {
+  validateSafeLocalPath(value, label);
+  return localPathKey(value);
+}
+
+function isWordPressRecipeMediaNamespaceKey(value: string) {
+  return value === wordpressRecipeMediaNamespace
+    || value.startsWith(wordpressRecipeMediaPrefix);
+}
+
+export function isWordPressRecipeMediaNamespacePath(value: string) {
+  return isWordPressRecipeMediaNamespaceKey(recipeMediaPathKey(value));
 }
 
 export function parseWordPressRecipeMediaObjectKey(

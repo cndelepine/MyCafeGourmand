@@ -18,13 +18,14 @@ import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import {
   loadRecipeCatalogWithSources,
-  validateCatalog
+  validateNormalizedRecipeCatalog
 } from "../../src/content/catalog";
 import {
   localeValues,
   recipeRecordSchema,
   type Locale,
-  type RecipeRecord
+  type RecipeRecord,
+  type WordPressRecipeRecordV1
 } from "../../src/content/schema";
 import { createStaticWebAppConfig } from "../../src/content/staticwebapp";
 import {
@@ -121,7 +122,7 @@ export type WprmPrototypeSeed = {
   readonly id: string;
   readonly locale: Locale;
   readonly slug: string;
-  readonly source: RecipeRecord["source"];
+  readonly source: WordPressRecipeRecordV1["source"];
   readonly targetId: string;
   readonly targetRecipeId: string;
   readonly placeholders: readonly {
@@ -154,7 +155,7 @@ type StagingPaths = {
 };
 
 type PlannedRecord = {
-  readonly record: RecipeRecord;
+  readonly record: WordPressRecipeRecordV1;
   readonly destination: string;
   readonly expectedDestinationProof: FileProof | null;
   readonly action:
@@ -731,7 +732,7 @@ async function authenticateCandidates(
   ) {
     fail("staged-candidate-set-mismatch");
   }
-  const authenticated = new Map<string, RecipeRecord>();
+  const authenticated = new Map<string, WordPressRecipeRecordV1>();
   for (const recipeId of sortedNumericIds(expected.keys())) {
     const outcome = expected.get(recipeId);
     if (outcome === undefined) {
@@ -781,7 +782,7 @@ async function authenticateMediaBindings(staging: StagingPaths) {
 }
 
 function selectEligibleRecords(
-  selected: readonly RecipeRecord[],
+  selected: readonly WordPressRecipeRecordV1[],
   outcomes: readonly CandidateOutcome[],
   sourceTranslationGroups: ReadonlyMap<string, string | null>
 ) {
@@ -800,10 +801,10 @@ function selectEligibleRecords(
 }
 
 function validateExistingTranslationCollisions(
-  selected: readonly RecipeRecord[],
+  selected: readonly WordPressRecipeRecordV1[],
   existing: readonly RecipeRecord[]
 ) {
-  const selectedIds = new Set(selected.map((record) => record.source.recipeId));
+  const selectedIds = new Set(selected.map((record) => record.id));
   const selectedGroups = new Set(
     selected
       .map((record) => record.translationGroupId)
@@ -813,7 +814,7 @@ function validateExistingTranslationCollisions(
     if (
       record.translationGroupId !== null
       && selectedGroups.has(record.translationGroupId)
-      && !selectedIds.has(record.source.recipeId)
+      && !selectedIds.has(record.id)
     ) {
       fail("translation-group-collision");
     }
@@ -821,7 +822,7 @@ function validateExistingTranslationCollisions(
 }
 
 export function validatePromotionTranslationClosure(
-  selected: readonly RecipeRecord[],
+  selected: readonly WordPressRecipeRecordV1[],
   outcomes: readonly CandidateOutcome[],
   existing: readonly RecipeRecord[],
   sourceTranslationGroups?: ReadonlyMap<string, string | null>
@@ -848,7 +849,7 @@ export function validatePromotionTranslationClosure(
 }
 
 export function classifyPromotionTranslationClosure(
-  selected: readonly RecipeRecord[],
+  selected: readonly WordPressRecipeRecordV1[],
   outcomes: readonly CandidateOutcome[],
   existing: readonly RecipeRecord[],
   sourceTranslationGroups: ReadonlyMap<string, string | null>
@@ -862,7 +863,7 @@ export function classifyPromotionTranslationClosure(
   return eligibility;
 }
 
-function contentDestination(record: RecipeRecord, contentRoot: string) {
+function contentDestination(record: WordPressRecipeRecordV1, contentRoot: string) {
   const directory = path.join(contentRoot, record.locale);
   const fileName = `${record.slug}.json`;
   if (
@@ -916,7 +917,7 @@ async function readRegularJson(target: string) {
 }
 
 function isAuthorizedPrototypeReplacement(
-  record: RecipeRecord,
+  record: WordPressRecipeRecordV1,
   prototypeSeed: WprmPrototypeSeed
 ) {
   return record.id === prototypeSeed.targetId
@@ -927,7 +928,7 @@ function isAuthorizedPrototypeReplacement(
     && record.source.recipeId === prototypeSeed.targetRecipeId;
 }
 
-function normalizeExistingDisplayText(record: RecipeRecord) {
+function normalizeExistingDisplayText(record: WordPressRecipeRecordV1) {
   const normalizeOptional = (value: string | null) => normalizeWprmRichText(value, {
     maxInputBytes: 1_048_576
   });
@@ -939,7 +940,7 @@ function normalizeExistingDisplayText(record: RecipeRecord) {
     return normalized;
   };
   const normalizeQuantity = (
-    quantity: RecipeRecord["recipe"]["servings"]
+    quantity: WordPressRecipeRecordV1["recipe"]["servings"]
   ) => quantity === null
     ? null
     : {
@@ -948,7 +949,7 @@ function normalizeExistingDisplayText(record: RecipeRecord) {
       unit: normalizeOptional(quantity.unit)
     };
   const normalizeDuration = (
-    duration: RecipeRecord["recipe"]["times"]["prep"]
+    duration: WordPressRecipeRecordV1["recipe"]["times"]["prep"]
   ) => duration === null
     ? null
     : {
@@ -1048,9 +1049,9 @@ function normalizeExistingDisplayText(record: RecipeRecord) {
 
 function isAuthorizedDisplayTextNormalizationReplacement(
   existing: RecipeRecord,
-  candidate: RecipeRecord
+  candidate: WordPressRecipeRecordV1
 ) {
-  if (!provenanceEquals(existing, candidate)) {
+  if (existing.schemaVersion !== 1 || !provenanceEquals(existing, candidate)) {
     return false;
   }
   try {
@@ -1062,7 +1063,7 @@ function isAuthorizedDisplayTextNormalizationReplacement(
 
 function isAuthorizedRedirectReplacement(
   existing: RecipeRecord,
-  candidate: RecipeRecord
+  candidate: WordPressRecipeRecordV1
 ) {
   if (!provenanceEquals(existing, candidate)) {
     return false;
@@ -1074,7 +1075,7 @@ function isAuthorizedRedirectReplacement(
 }
 
 async function planRecords(
-  selected: readonly RecipeRecord[],
+  selected: readonly WordPressRecipeRecordV1[],
   roots: PromotionRoots,
   prototypeSeed: WprmPrototypeSeed
 ): Promise<PlannedRecord[]> {
@@ -1218,7 +1219,7 @@ async function planRecords(
     fail("destination-file-conflict");
   }
 
-  validateCatalog([
+  validateNormalizedRecipeCatalog([
     ...loaded.records.filter((record) =>
       !ids.has(record.id) && !replacedExistingIds.has(record.id)
     ),
@@ -1359,7 +1360,7 @@ async function verifyLegacyPrototypeSeed(
   await verifyLegacyPrototypePlaceholders(roots, prototypeSeed);
 }
 
-function getReferencedMediaIds(record: RecipeRecord) {
+function getReferencedMediaIds(record: WordPressRecipeRecordV1) {
   return new Set([
     record.recipe.heroMediaId,
     ...record.recipe.instructionGroups.flatMap((group) =>
@@ -1368,7 +1369,7 @@ function getReferencedMediaIds(record: RecipeRecord) {
   ].filter((value): value is string => value !== null));
 }
 
-function mediaBindingIds(records: readonly RecipeRecord[]) {
+function mediaBindingIds(records: readonly WordPressRecipeRecordV1[]) {
   const result = new Set<string>();
   for (const record of records) {
     for (const media of record.media) {
@@ -1382,7 +1383,7 @@ function mediaBindingIds(records: readonly RecipeRecord[]) {
 }
 
 async function planMedia(
-  records: readonly RecipeRecord[],
+  records: readonly WordPressRecipeRecordV1[],
   archivePaths: readonly string[],
   snapshot: Awaited<ReturnType<typeof runWprmBulkImport>>["snapshot"],
   bindings: ReadonlyMap<string, WprmStagedMediaBinding>,
@@ -3158,7 +3159,7 @@ async function validateRestoredPromotionCatalog(
 ) {
   try {
     const loaded = loadRecipeCatalogWithSources(roots.contentRoot);
-    validateCatalog(loaded.records);
+    validateNormalizedRecipeCatalog(loaded.records);
     const manifestStats = await existingStats(roots.mediaManifest);
     const mediaManifest = manifestStats === null
       ? createRecipeMediaManifest([])
@@ -3916,7 +3917,7 @@ async function validateProspectivePromotion(
 ) {
   try {
     const catalog = prospectiveCatalog(roots, records, prototypeSeed);
-    validateCatalog(catalog);
+    validateNormalizedRecipeCatalog(catalog);
     validateMediaPaths(
       catalog,
       path.join(roots.repositoryRoot, "public"),
@@ -4197,7 +4198,7 @@ async function applyPlan(
   stagingRoot: string,
   identity: PromotionTransactionIdentity,
   key: Uint8Array,
-  selected: readonly RecipeRecord[],
+  selected: readonly WordPressRecipeRecordV1[],
   failureInjection: WprmPromotionOptions["failureInjection"] | undefined,
   prototypeSeed: WprmPrototypeSeed,
   mediaManifest: PlannedMediaManifest
@@ -4357,7 +4358,7 @@ async function applyPlan(
 
 function validatePromotedCatalog(
   roots: PromotionRoots,
-  selected: readonly RecipeRecord[]
+  selected: readonly WordPressRecipeRecordV1[]
 ) {
   const loaded = validateContent({
     mediaManifestPath: roots.mediaManifest,
@@ -4400,7 +4401,7 @@ type PreparedWprmPromotion = {
   readonly prototypeSeed: WprmPrototypeSeed;
   readonly records: readonly PlannedRecord[];
   readonly roots: PromotionRoots;
-  readonly selected: readonly RecipeRecord[];
+  readonly selected: readonly WordPressRecipeRecordV1[];
   readonly stagingRoot: string;
   readonly transactionIdentity: PromotionTransactionIdentity;
   readonly translation: ReturnType<typeof classifyPromotionTranslationClosure>;

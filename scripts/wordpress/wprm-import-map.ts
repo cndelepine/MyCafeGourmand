@@ -1,5 +1,9 @@
 import path from "node:path";
-import { recipeRecordSchema, type Quantity, type RecipeRecord } from "../../src/content/schema";
+import {
+  recipeRecordSchema,
+  type Quantity,
+  type WordPressRecipeRecordV1
+} from "../../src/content/schema";
 import {
   decodeRecipeSlug,
   validateSafeLocalPath
@@ -150,7 +154,7 @@ export class WprmMappingError extends WprmImportError {
 }
 
 export interface WprmMappingResult {
-  readonly record: RecipeRecord;
+  readonly record: WordPressRecipeRecordV1;
   readonly codes: readonly WprmIssueCode[];
 }
 
@@ -435,7 +439,7 @@ function mapIngredients(
   limits: WprmImportLimits
 ) {
   const root = parseStructured(raw, limits, "malformed-wprm-ingredients");
-  const groups: RecipeRecord["recipe"]["ingredientGroups"] = [];
+  const groups: WordPressRecipeRecordV1["recipe"]["ingredientGroups"] = [];
   let unsupported = false;
   for (const [groupIndex, rawGroup] of orderedValues(root).entries()) {
     if (!isObject(rawGroup)) {
@@ -447,7 +451,7 @@ function mapIngredients(
     if (rawItems === undefined || rawItems === null) {
       throw new WprmMappingError(["malformed-wprm-ingredients"]);
     }
-    const items: RecipeRecord["recipe"]["ingredientGroups"][number]["items"] = [];
+    const items: WordPressRecipeRecordV1["recipe"]["ingredientGroups"][number]["items"] = [];
     for (const [sourceIndex, rawItem] of orderedValues(rawItems).entries()) {
       if (!isObject(rawItem)) {
         throw new WprmMappingError(["malformed-wprm-ingredients"]);
@@ -699,7 +703,7 @@ function mapInstructions(
   limits: WprmImportLimits
 ) {
   const root = parseStructured(raw, limits, "malformed-wprm-instructions");
-  const groups: RecipeRecord["recipe"]["instructionGroups"] = [];
+  const groups: WordPressRecipeRecordV1["recipe"]["instructionGroups"] = [];
   const references: string[] = [];
   let unsupported = false;
   for (const [groupIndex, rawGroup] of orderedValues(root).entries()) {
@@ -712,7 +716,7 @@ function mapInstructions(
     if (rawSteps === undefined || rawSteps === null) {
       throw new WprmMappingError(["malformed-wprm-instructions"]);
     }
-    const steps: RecipeRecord["recipe"]["instructionGroups"][number]["steps"] = [];
+    const steps: WordPressRecipeRecordV1["recipe"]["instructionGroups"][number]["steps"] = [];
     for (const [sourceIndex, rawStep] of orderedValues(rawSteps).entries()) {
       if (!isObject(rawStep)) {
         throw new WprmMappingError(["malformed-wprm-instructions"]);
@@ -914,7 +918,7 @@ function mapMedia(
   if (uniqueIds.length > limits.maxMediaPerCandidate) {
     throw new WprmMappingError(["source-limit"]);
   }
-  const media: RecipeRecord["media"] = [];
+  const media: WordPressRecipeRecordV1["media"] = [];
   for (const attachmentId of uniqueIds) {
     const attachment = graph.attachments.get(attachmentId);
     const attachmentMeta = metadata.attachments.get(attachmentId);

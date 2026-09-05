@@ -1,0 +1,2743 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mycafegourmand.com/schemas/recipe.schema.json",
+  "title": "My Cafe Gourmand persisted recipe document",
+  "description": "Strict persisted WordPress v1 and authored v2 recipe documents. Catalog-wide identity, route, redirect, translation, and reference closure are enforced by npm run recipes -- check.",
+  "$comment": "This schema provides structural IDE validation, not complete publication validation. The x-runtime-invariants list and catalog-wide checks require npm run recipes -- check.",
+  "x-field-usage": [
+    {
+      "path": "schemaVersion",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "provenance-only"
+      ]
+    },
+    {
+      "path": "kind",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "provenance-only"
+      ]
+    },
+    {
+      "path": "id",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published"
+      ]
+    },
+    {
+      "path": "locale",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "translationGroupId",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published"
+      ]
+    },
+    {
+      "path": "slug",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "source.createdAt/source.modifiedAt",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "structured-data",
+        "provenance-only"
+      ]
+    },
+    {
+      "path": "source.* except v1 publication timestamps",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "provenance-only"
+      ]
+    },
+    {
+      "path": "redirectFrom[]",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published"
+      ]
+    },
+    {
+      "path": "title",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "description",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "editorial.*",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "provenance-only"
+      ]
+    },
+    {
+      "path": "taxonomies[].name",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "taxonomies[].slug",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "published"
+      ]
+    },
+    {
+      "path": "taxonomies[].scope/sourceId/sourceTaxonomyId",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "provenance-only"
+      ]
+    },
+    {
+      "path": "categories[].name",
+      "versions": [
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "categories[].slug",
+      "versions": [
+        2
+      ],
+      "uses": [
+        "published"
+      ]
+    },
+    {
+      "path": "publishedAt/modifiedAt",
+      "versions": [
+        2
+      ],
+      "uses": [
+        "structured-data"
+      ]
+    },
+    {
+      "path": "recipe.notes",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published"
+      ]
+    },
+    {
+      "path": "recipe.servings/times",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "recipe.nutrition",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "structured-data"
+      ]
+    },
+    {
+      "path": "recipe.equipment[]",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "recipe.ingredientGroups[].items[]",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "recipe.instructionGroups[].steps[]",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "recipe.*.sourceIndex/sourceId",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "provenance-only"
+      ]
+    },
+    {
+      "path": "recipe.*.mediaId/heroMediaId",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "media[].path/alt/width/height",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "published",
+        "structured-data"
+      ]
+    },
+    {
+      "path": "media[].id/sourceId",
+      "versions": [
+        1
+      ],
+      "uses": [
+        "provenance-only"
+      ]
+    },
+    {
+      "path": "seo.*",
+      "versions": [
+        1,
+        2
+      ],
+      "uses": [
+        "published"
+      ]
+    }
+  ],
+  "x-runtime-invariants": [
+    {
+      "code": "recipe-slug-path-and-filename-safety",
+      "versions": [
+        1,
+        2
+      ],
+      "paths": [
+        "slug"
+      ],
+      "description": "Recipe slugs require well-formed NFC raw Unicode plus URL and cross-platform filename safety."
+    },
+    {
+      "code": "category-slug-path-safety",
+      "versions": [
+        1,
+        2
+      ],
+      "paths": [
+        "taxonomies[].slug",
+        "categories[].slug"
+      ],
+      "description": "Category route slugs require well-formed canonical Unicode, safe URL-segment semantics, and portable static-output component safety."
+    },
+    {
+      "code": "quantity-range-order",
+      "versions": [
+        1,
+        2
+      ],
+      "paths": [
+        "recipe.servings",
+        "recipe.ingredientGroups[].items[].quantity"
+      ],
+      "description": "A parsed quantity range requires min to be less than or equal to max."
+    },
+    {
+      "code": "redirect-route-closure",
+      "versions": [
+        1,
+        2
+      ],
+      "paths": [
+        "slug",
+        "redirectFrom[]"
+      ],
+      "description": "Redirects require safe non-root local paths, must be unique, and cannot equal or collide with a canonical public route."
+    },
+    {
+      "code": "recipe-media-path-safety",
+      "versions": [
+        1
+      ],
+      "paths": [
+        "media[].path"
+      ],
+      "description": "Media paths require canonical safe local object keys and an approved managed or local namespace."
+    },
+    {
+      "code": "wordpress-managed-media-identity",
+      "versions": [
+        1
+      ],
+      "paths": [
+        "media[].id",
+        "media[].sourceId",
+        "media[].path"
+      ],
+      "description": "Managed WordPress media IDs and source IDs must match the attachment ID encoded in the path."
+    },
+    {
+      "code": "recipe-media-reference-closure",
+      "versions": [
+        1
+      ],
+      "paths": [
+        "recipe.heroMediaId",
+        "recipe.instructionGroups[].steps[].mediaId",
+        "media[].id"
+      ],
+      "description": "Recipe media references and assets must form an exact, unique closed set."
+    },
+    {
+      "code": "authored-id-source-match",
+      "versions": [
+        2
+      ],
+      "paths": [
+        "id",
+        "source.recordId"
+      ],
+      "description": "The authored content ID suffix must exactly equal source.recordId."
+    },
+    {
+      "code": "authored-timestamp-order",
+      "versions": [
+        2
+      ],
+      "paths": [
+        "publishedAt",
+        "modifiedAt"
+      ],
+      "description": "When both timestamps exist, modifiedAt cannot precede publishedAt."
+    },
+    {
+      "code": "catalog-record-and-file-closure",
+      "versions": [
+        1,
+        2
+      ],
+      "paths": [
+        "id",
+        "locale",
+        "slug",
+        "translationGroupId"
+      ],
+      "description": "Catalog IDs, localized routes, portable filename keys, and translation-group locales must be unique and files must match locale/slug placement."
+    },
+    {
+      "code": "wordpress-source-identity-and-route",
+      "versions": [
+        1
+      ],
+      "paths": [
+        "id",
+        "source.*",
+        "redirectFrom[]"
+      ],
+      "description": "WordPress content IDs must match plugin/recipe identity and uniquely sourced editorial permalinks must remain redirected."
+    },
+    {
+      "code": "normalized-display-text",
+      "versions": [
+        1,
+        2
+      ],
+      "paths": [
+        "title",
+        "description",
+        "recipe.*",
+        "taxonomies[].name",
+        "categories[].name"
+      ],
+      "description": "Normalized rendered recipe fields cannot contain HTML markup."
+    }
+  ],
+  "anyOf": [
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "kind": {
+          "type": "string",
+          "const": "recipe"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 65536
+        },
+        "locale": {
+          "type": "string",
+          "enum": [
+            "en",
+            "fr",
+            "ru"
+          ]
+        },
+        "translationGroupId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 65536
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 65536
+        },
+        "source": {
+          "type": "object",
+          "properties": {
+            "system": {
+              "type": "string",
+              "const": "wordpress"
+            },
+            "postId": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536,
+                  "pattern": "^\\d+$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "recipeId": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 65536,
+              "pattern": "^\\d+$"
+            },
+            "postType": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "plugin": {
+              "type": "string",
+              "enum": [
+                "wprm",
+                "wpur"
+              ]
+            },
+            "sourceSlug": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "createdAt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 65536,
+                  "format": "date-time",
+                  "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z|([+-](?:[01]\\d|2[0-3]):[0-5]\\d)))$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "modifiedAt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 65536,
+                  "format": "date-time",
+                  "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z|([+-](?:[01]\\d|2[0-3]):[0-5]\\d)))$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "editorialPostId": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536,
+                  "pattern": "^\\d+$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "editorialPostType": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "editorialSourceSlug": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "editorialCreatedAt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 65536,
+                  "format": "date-time",
+                  "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z|([+-](?:[01]\\d|2[0-3]):[0-5]\\d)))$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "editorialModifiedAt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 65536,
+                  "format": "date-time",
+                  "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z|([+-](?:[01]\\d|2[0-3]):[0-5]\\d)))$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "wprmType": {
+              "type": "string",
+              "enum": [
+                "food",
+                "howto",
+                "other",
+                "unknown",
+                "malformed"
+              ]
+            },
+            "wprmTypePresent": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "system",
+            "postId",
+            "recipeId",
+            "postType",
+            "plugin",
+            "sourceSlug",
+            "createdAt",
+            "modifiedAt",
+            "editorialPostId",
+            "editorialPostType",
+            "editorialSourceSlug",
+            "editorialCreatedAt",
+            "editorialModifiedAt"
+          ],
+          "additionalProperties": false
+        },
+        "redirectFrom": {
+          "maxItems": 256,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 65536
+          }
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 65536
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 65536
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "editorial": {
+          "type": "object",
+          "properties": {
+            "content": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "excerpt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "content",
+            "excerpt"
+          ],
+          "additionalProperties": false
+        },
+        "taxonomies": {
+          "maxItems": 512,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "scope": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "enum": [
+                      "recipe",
+                      "editorial"
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "taxonomy": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 65536
+              },
+              "sourceId": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 65536
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "sourceTaxonomyId": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 65536,
+                    "pattern": "^\\d+$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 65536
+              },
+              "slug": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 65536
+              }
+            },
+            "required": [
+              "scope",
+              "taxonomy",
+              "sourceId",
+              "sourceTaxonomyId",
+              "name",
+              "slug"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "recipe": {
+          "type": "object",
+          "properties": {
+            "notes": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "servings": {
+              "anyOf": [
+                {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "value": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        },
+                        "min": {
+                          "not": {}
+                        },
+                        "max": {
+                          "not": {}
+                        },
+                        "unit": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "scalable": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "value",
+                        "unit",
+                        "scalable"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "value": {
+                          "not": {}
+                        },
+                        "min": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        },
+                        "max": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        },
+                        "unit": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "scalable": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "min",
+                        "max",
+                        "unit",
+                        "scalable"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "value": {
+                          "not": {}
+                        },
+                        "min": {
+                          "not": {}
+                        },
+                        "max": {
+                          "not": {}
+                        },
+                        "unit": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "scalable": {
+                          "type": "boolean",
+                          "const": false
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "unit",
+                        "scalable"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "servingsAdvancedEnabled": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "nutrition": {
+              "anyOf": [
+                {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "calories": {
+                          "type": "object",
+                          "properties": {
+                            "raw": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            "value": {
+                              "type": "number",
+                              "minimum": 0
+                            }
+                          },
+                          "required": [
+                            "raw"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "servingSize": {
+                          "anyOf": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "raw": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 65536
+                                },
+                                "value": {
+                                  "type": "number",
+                                  "minimum": 0
+                                }
+                              },
+                              "required": [
+                                "raw"
+                              ],
+                              "additionalProperties": false
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "servingUnit": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "calories",
+                        "servingSize",
+                        "servingUnit"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "calories": {
+                          "type": "null"
+                        },
+                        "servingSize": {
+                          "type": "object",
+                          "properties": {
+                            "raw": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            "value": {
+                              "type": "number",
+                              "minimum": 0
+                            }
+                          },
+                          "required": [
+                            "raw"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "servingUnit": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "calories",
+                        "servingSize",
+                        "servingUnit"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "calories": {
+                          "type": "null"
+                        },
+                        "servingSize": {
+                          "type": "null"
+                        },
+                        "servingUnit": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        }
+                      },
+                      "required": [
+                        "calories",
+                        "servingSize",
+                        "servingUnit"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "servingsAdvanced": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "diameter": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "height": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "length": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "shape": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 65536
+                    },
+                    "unit": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 65536
+                    },
+                    "width": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "diameter",
+                    "height",
+                    "length",
+                    "shape",
+                    "unit",
+                    "width"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "equipment": {
+              "anyOf": [
+                {
+                  "maxItems": 256,
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "sourceIndex": {
+                        "type": "integer",
+                        "minimum": -9007199254740991,
+                        "maximum": 9007199254740991
+                      },
+                      "sourceId": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 65536,
+                        "pattern": "^\\d+$"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 65536
+                      },
+                      "amount": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 65536
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "notes": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 65536
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "sourceIndex",
+                      "sourceId",
+                      "name",
+                      "amount",
+                      "notes"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "times": {
+              "type": "object",
+              "properties": {
+                "prep": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "minutes": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "minutes"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "cook": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "minutes": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "minutes"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "rest": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "minutes": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "minutes"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "total": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "minutes": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "minutes"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "custom": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "label": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "duration": {
+                          "type": "object",
+                          "properties": {
+                            "raw": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            "minutes": {
+                              "anyOf": [
+                                {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "raw",
+                            "minutes"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "label",
+                        "duration"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "prep",
+                "cook",
+                "rest",
+                "total",
+                "custom"
+              ],
+              "additionalProperties": false
+            },
+            "heroMediaId": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "ingredientGroups": {
+              "minItems": 1,
+              "maxItems": 128,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 65536
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "sourceIndex": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "items": {
+                    "minItems": 1,
+                    "maxItems": 512,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "sourceIndex": {
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "quantity": {
+                          "anyOf": [
+                            {
+                              "anyOf": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "raw": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 65536
+                                    },
+                                    "value": {
+                                      "type": "number",
+                                      "exclusiveMinimum": 0
+                                    },
+                                    "min": {
+                                      "not": {}
+                                    },
+                                    "max": {
+                                      "not": {}
+                                    },
+                                    "unit": {
+                                      "anyOf": [
+                                        {
+                                          "type": "string",
+                                          "minLength": 1,
+                                          "maxLength": 65536
+                                        },
+                                        {
+                                          "type": "null"
+                                        }
+                                      ]
+                                    },
+                                    "scalable": {
+                                      "type": "boolean"
+                                    }
+                                  },
+                                  "required": [
+                                    "raw",
+                                    "value",
+                                    "unit",
+                                    "scalable"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "raw": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 65536
+                                    },
+                                    "value": {
+                                      "not": {}
+                                    },
+                                    "min": {
+                                      "type": "number",
+                                      "exclusiveMinimum": 0
+                                    },
+                                    "max": {
+                                      "type": "number",
+                                      "exclusiveMinimum": 0
+                                    },
+                                    "unit": {
+                                      "anyOf": [
+                                        {
+                                          "type": "string",
+                                          "minLength": 1,
+                                          "maxLength": 65536
+                                        },
+                                        {
+                                          "type": "null"
+                                        }
+                                      ]
+                                    },
+                                    "scalable": {
+                                      "type": "boolean"
+                                    }
+                                  },
+                                  "required": [
+                                    "raw",
+                                    "min",
+                                    "max",
+                                    "unit",
+                                    "scalable"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "raw": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 65536
+                                    },
+                                    "value": {
+                                      "not": {}
+                                    },
+                                    "min": {
+                                      "not": {}
+                                    },
+                                    "max": {
+                                      "not": {}
+                                    },
+                                    "unit": {
+                                      "anyOf": [
+                                        {
+                                          "type": "string",
+                                          "minLength": 1,
+                                          "maxLength": 65536
+                                        },
+                                        {
+                                          "type": "null"
+                                        }
+                                      ]
+                                    },
+                                    "scalable": {
+                                      "type": "boolean",
+                                      "const": false
+                                    }
+                                  },
+                                  "required": [
+                                    "raw",
+                                    "unit",
+                                    "scalable"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "pluralName": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "notes": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "sourceIndex",
+                        "raw",
+                        "quantity",
+                        "name",
+                        "notes"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "name",
+                  "sourceIndex",
+                  "items"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "instructionGroups": {
+              "minItems": 1,
+              "maxItems": 128,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 65536
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "sourceIndex": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "steps": {
+                    "minItems": 1,
+                    "maxItems": 512,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "sourceIndex": {
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "mediaId": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "sourceIndex",
+                        "text",
+                        "mediaId"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "name",
+                  "sourceIndex",
+                  "steps"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "notes",
+            "servings",
+            "times",
+            "heroMediaId",
+            "ingredientGroups",
+            "instructionGroups"
+          ],
+          "additionalProperties": false
+        },
+        "media": {
+          "maxItems": 512,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 65536
+              },
+              "sourceId": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 65536,
+                    "pattern": "^\\d+$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 65536
+              },
+              "alt": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 65536
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "width": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "height": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "sourceId",
+              "path",
+              "alt",
+              "width",
+              "height"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "seo": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 65536
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 65536
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "kind",
+        "id",
+        "locale",
+        "translationGroupId",
+        "slug",
+        "source",
+        "redirectFrom",
+        "title",
+        "description",
+        "editorial",
+        "taxonomies",
+        "recipe",
+        "media",
+        "seo"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 2
+        },
+        "kind": {
+          "type": "string",
+          "const": "recipe"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 65536
+        },
+        "locale": {
+          "type": "string",
+          "enum": [
+            "en",
+            "fr",
+            "ru"
+          ]
+        },
+        "translationGroupId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 65536
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 65536
+        },
+        "source": {
+          "type": "object",
+          "properties": {
+            "system": {
+              "type": "string",
+              "const": "authored"
+            },
+            "recordId": {
+              "type": "string",
+              "format": "uuid",
+              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+            },
+            "createdAt": {
+              "type": "string",
+              "maxLength": 65536,
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z|([+-](?:[01]\\d|2[0-3]):[0-5]\\d)))$"
+            }
+          },
+          "required": [
+            "system",
+            "recordId",
+            "createdAt"
+          ],
+          "additionalProperties": false
+        },
+        "redirectFrom": {
+          "maxItems": 256,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 65536
+          }
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 65536
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 65536
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publishedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 65536,
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z|([+-](?:[01]\\d|2[0-3]):[0-5]\\d)))$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "modifiedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 65536,
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z|([+-](?:[01]\\d|2[0-3]):[0-5]\\d)))$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "categories": {
+          "maxItems": 512,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 65536
+              },
+              "slug": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 65536
+              }
+            },
+            "required": [
+              "name",
+              "slug"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "recipe": {
+          "type": "object",
+          "properties": {
+            "notes": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 65536
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "servings": {
+              "anyOf": [
+                {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "value": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        },
+                        "min": {
+                          "not": {}
+                        },
+                        "max": {
+                          "not": {}
+                        },
+                        "unit": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "scalable": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "value",
+                        "unit",
+                        "scalable"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "value": {
+                          "not": {}
+                        },
+                        "min": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        },
+                        "max": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        },
+                        "unit": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "scalable": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "min",
+                        "max",
+                        "unit",
+                        "scalable"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "value": {
+                          "not": {}
+                        },
+                        "min": {
+                          "not": {}
+                        },
+                        "max": {
+                          "not": {}
+                        },
+                        "unit": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "scalable": {
+                          "type": "boolean",
+                          "const": false
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "unit",
+                        "scalable"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "equipment": {
+              "maxItems": 256,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 65536
+                  },
+                  "amount": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 65536
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "notes": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 65536
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "name",
+                  "amount",
+                  "notes"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "times": {
+              "type": "object",
+              "properties": {
+                "prep": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "minutes": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "minutes"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "cook": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "minutes": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "minutes"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "rest": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "minutes": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "minutes"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "total": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "minutes": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "minutes"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "custom": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "label": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "duration": {
+                          "type": "object",
+                          "properties": {
+                            "raw": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            "minutes": {
+                              "anyOf": [
+                                {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "raw",
+                            "minutes"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "label",
+                        "duration"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "prep",
+                "cook",
+                "rest",
+                "total",
+                "custom"
+              ],
+              "additionalProperties": false
+            },
+            "ingredientGroups": {
+              "minItems": 1,
+              "maxItems": 128,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 65536
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "items": {
+                    "minItems": 1,
+                    "maxItems": 512,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "raw": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "quantity": {
+                          "anyOf": [
+                            {
+                              "anyOf": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "raw": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 65536
+                                    },
+                                    "value": {
+                                      "type": "number",
+                                      "exclusiveMinimum": 0
+                                    },
+                                    "min": {
+                                      "not": {}
+                                    },
+                                    "max": {
+                                      "not": {}
+                                    },
+                                    "unit": {
+                                      "anyOf": [
+                                        {
+                                          "type": "string",
+                                          "minLength": 1,
+                                          "maxLength": 65536
+                                        },
+                                        {
+                                          "type": "null"
+                                        }
+                                      ]
+                                    },
+                                    "scalable": {
+                                      "type": "boolean"
+                                    }
+                                  },
+                                  "required": [
+                                    "raw",
+                                    "value",
+                                    "unit",
+                                    "scalable"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "raw": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 65536
+                                    },
+                                    "value": {
+                                      "not": {}
+                                    },
+                                    "min": {
+                                      "type": "number",
+                                      "exclusiveMinimum": 0
+                                    },
+                                    "max": {
+                                      "type": "number",
+                                      "exclusiveMinimum": 0
+                                    },
+                                    "unit": {
+                                      "anyOf": [
+                                        {
+                                          "type": "string",
+                                          "minLength": 1,
+                                          "maxLength": 65536
+                                        },
+                                        {
+                                          "type": "null"
+                                        }
+                                      ]
+                                    },
+                                    "scalable": {
+                                      "type": "boolean"
+                                    }
+                                  },
+                                  "required": [
+                                    "raw",
+                                    "min",
+                                    "max",
+                                    "unit",
+                                    "scalable"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "raw": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 65536
+                                    },
+                                    "value": {
+                                      "not": {}
+                                    },
+                                    "min": {
+                                      "not": {}
+                                    },
+                                    "max": {
+                                      "not": {}
+                                    },
+                                    "unit": {
+                                      "anyOf": [
+                                        {
+                                          "type": "string",
+                                          "minLength": 1,
+                                          "maxLength": 65536
+                                        },
+                                        {
+                                          "type": "null"
+                                        }
+                                      ]
+                                    },
+                                    "scalable": {
+                                      "type": "boolean",
+                                      "const": false
+                                    }
+                                  },
+                                  "required": [
+                                    "raw",
+                                    "unit",
+                                    "scalable"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "pluralName": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        },
+                        "notes": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 65536
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "raw",
+                        "quantity",
+                        "name",
+                        "notes"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "name",
+                  "items"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "instructionGroups": {
+              "minItems": 1,
+              "maxItems": 128,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 65536
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "steps": {
+                    "minItems": 1,
+                    "maxItems": 512,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 65536
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "name",
+                  "steps"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "notes",
+            "servings",
+            "times",
+            "ingredientGroups",
+            "instructionGroups"
+          ],
+          "additionalProperties": false
+        },
+        "seo": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 65536
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 65536
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "kind",
+        "id",
+        "locale",
+        "translationGroupId",
+        "slug",
+        "source",
+        "redirectFrom",
+        "title",
+        "description",
+        "publishedAt",
+        "modifiedAt",
+        "categories",
+        "recipe",
+        "seo"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

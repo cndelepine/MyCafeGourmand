@@ -135,3 +135,23 @@ test("search includes authored scaled ingredient names", () => {
   assert.equal(recipeMatchesQuery(recipeFixture, "carrots"), true);
   assert.equal(recipeMatchesQuery(recipeFixture, "onions"), true);
 });
+
+test("search includes recipe notes and equipment", () => {
+  const recipe = {
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      notes: "Keep the finished dish covered.",
+      equipment: [{
+        sourceIndex: 0,
+        sourceId: "17",
+        name: "Dutch oven",
+        amount: "1 large",
+        notes: "with a lid"
+      }]
+    }
+  };
+
+  assert.equal(recipeMatchesQuery(recipe, "finished dish covered"), true);
+  assert.equal(recipeMatchesQuery(recipe, "large Dutch oven lid"), true);
+});

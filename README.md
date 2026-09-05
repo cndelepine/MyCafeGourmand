@@ -90,8 +90,9 @@ npm run build:ci
 ```
 
 `npm run check` runs the tracked migration-input guard, linting, strict type
-checking, and focused Node tests. `npm run build:ci` adds content validation and
-the static export. CI runs both on Linux and validates the Windows launcher.
+checking, focused Node tests, and recipe/schema checks. `npm run build:ci` adds
+content validation and the static export. CI runs both on Linux and validates
+the Windows launcher.
 
 ## Architecture
 
@@ -123,12 +124,23 @@ media objects, and 143 editorial/gallery media objects. Revalidate these
 operational counts against the current content and authenticated source before
 using them in a migration command.
 
+## Recipe maintenance
+
+New image-free recipes use a strict source-neutral v2 JSON document while the
+522 promoted WordPress v1 files remain frozen migration output. The guarded
+`recipes` commands create one authored record, report catalog/translation
+semantics, generate IDE JSON Schema, and perform read-only checks. See
+[`content/README.md`](content/README.md) for the author input contract,
+timestamp semantics, direct-edit rules, catalog boundaries, and deferred
+maintenance layers.
+
 ## Working on the repository
 
 | Task | Canonical guidance |
 | --- | --- |
 | Engineering and migration invariants | [`AGENTS.md`](AGENTS.md) |
 | Contribution and pull request workflow | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| Recipe authoring and catalog maintenance | [`content/README.md`](content/README.md) |
 | Authenticated WordPress operations | [`docs/migration-operations.md`](docs/migration-operations.md) |
 | Release builds, contact, redirects, and media verification | [`docs/release-operations.md`](docs/release-operations.md) |
 | Deployment artifacts, edge redirects, and launch gates | [`docs/deployment.md`](docs/deployment.md) |

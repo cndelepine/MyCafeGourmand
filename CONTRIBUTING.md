@@ -39,8 +39,9 @@ npm run build:ci
 ```
 
 `npm run check` runs the tracked-path migration-input guard, linting, strict
-type checking, and Node tests. `npm run build:ci` adds content validation and
-static export. Record actual results and any pre-existing failures.
+type checking, Node tests, and recipe/schema checks. `npm run build:ci` adds
+content validation and static export. Record actual results and any pre-existing
+failures.
 
 For documentation-only changes, verify local links, paths, command names, and
 the complete diff. No build is required unless executable behavior also changes.

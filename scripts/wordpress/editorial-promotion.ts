@@ -20,7 +20,10 @@ import {
   type GalleryRecord
 } from "../../src/content/gallery-schema";
 import { validatePublicContentCatalogs } from "../../src/content/gallery-catalog";
-import type { RecipeRecord } from "../../src/content/schema";
+import type {
+  RecipeRecord,
+  WordPressRecipeRecordV1
+} from "../../src/content/schema";
 import { getRecipePath } from "../../src/lib/recipe-routes";
 import { getReservedPublicPaths } from "../../src/lib/public-routes";
 import {
@@ -862,8 +865,11 @@ function sortTileTargets(
 }
 
 function recipeByEditorialPostId(records: readonly RecipeRecord[]) {
-  const values = new Map<string, RecipeRecord[]>();
+  const values = new Map<string, WordPressRecipeRecordV1[]>();
   for (const record of records) {
+    if (record.schemaVersion !== 1) {
+      continue;
+    }
     const editorialPostId = record.source.editorialPostId;
     if (
       editorialPostId === null
@@ -879,7 +885,7 @@ function recipeByEditorialPostId(records: readonly RecipeRecord[]) {
 }
 
 function assertRecipeTaxonomyClosure(
-  record: RecipeRecord,
+  record: WordPressRecipeRecordV1,
   sourceCategoryTaxonomyIds: readonly string[]
 ) {
   const recipeCategoryTaxonomyIds = record.taxonomies

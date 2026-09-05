@@ -56,5 +56,11 @@ jobs:
       - name: Run Windows launcher installation
         shell: cmd
         run: start-windows.cmd --install-only
+      - name: Check cross-platform file identity
+        run: npx --no-install tsx --test test/file-system-identity.test.ts
+      - name: Check native Windows recipe authoring
+        run: npx --no-install tsx --test --test-name-pattern="^(new is deterministic|new serializes|Windows |report, schema)" test/recipe-authoring.test.ts
+      - name: Check canonical recipe files on Windows
+        run: npm run recipes:check
       - name: Build static CI artifact
         run: npm run build

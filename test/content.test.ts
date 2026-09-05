@@ -1,10 +1,19 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { recipeCatalog, validateCatalog } from "../src/content/catalog";
-import { recipeFixture } from "./fixtures/recipe";
-import { recipeRecordSchema } from "../src/content/schema";
 import {
+  recipeCatalog,
+  validateCatalog,
+  validateNormalizedRecipeCatalog
+} from "../src/content/catalog";
+import { recipeFixture } from "./fixtures/recipe";
+import {
+  recipeContentLimits,
+  recipeRecordSchema
+} from "../src/content/schema";
+import {
+  decodeLocalPath,
   decodeRecipeSlug,
+  validateRecipeFileSlug,
   validateSafeLocalPath
 } from "../src/content/url-path";
 import {
@@ -12,8 +21,23 @@ import {
   validateNormalizedRecipeDisplayText
 } from "../src/content/validation";
 
+function assertTooBig(input: unknown, expectedPath: string) {
+  const result = recipeRecordSchema.safeParse(input);
+  assert.equal(result.success, false);
+  if (result.success) {
+    return;
+  }
+  assert.equal(
+    result.error.issues.some((issue) =>
+      issue.code === "too_big" && issue.path.map(String).join(".") === expectedPath
+    ),
+    true,
+    JSON.stringify(result.error.issues)
+  );
+}
+
 test("the production catalog passes the canonical schema", () => {
-  const validated = validateCatalog(recipeCatalog);
+  const validated = validateNormalizedRecipeCatalog(recipeCatalog);
   const localeCounts = Object.fromEntries(
     ["en", "fr", "ru"].map((locale) => [
       locale,
@@ -36,6 +60,10 @@ test("the production catalog passes the canonical schema", () => {
 
   const authoritative = validated.find((record) => record.id === "wordpress:wprm:21681");
   assert.ok(authoritative);
+  assert.equal(authoritative.schemaVersion, 1);
+  if (authoritative.schemaVersion !== 1) {
+    throw new Error("Expected a WordPress v1 recipe.");
+  }
   assert.equal(authoritative.locale, "en");
   assert.equal(authoritative.slug, "meatballs-soup");
   assert.equal(authoritative.source.recipeId, "21681");
@@ -52,7 +80,9 @@ test("intentionally partial recipes retain their verified canonical legacy redir
   ]);
 
   for (const [recipeId, redirect] of expectedRedirects) {
-    const record = recipeCatalog.find((candidate) => candidate.source.recipeId === recipeId);
+    const record = recipeCatalog.find((candidate) =>
+      candidate.schemaVersion === 1 && candidate.source.recipeId === recipeId
+    );
     assert.ok(record, `Missing intentionally partial recipe ${recipeId}`);
     assert.deepEqual(record.redirectFrom, [redirect]);
   }
@@ -62,6 +92,131 @@ test("missing translations remain missing", () => {
   const catalog = validateCatalog([recipeFixture]);
 
   assert.deepEqual(catalog.map((record) => record.locale), ["en"]);
+});
+
+test("recipe catalog, strings, and arrays have explicit generous bounds", () => {
+  assert.throws(
+    () => validateCatalog(
+      new Array(recipeContentLimits.maxCatalogRecords + 1).fill(recipeFixture)
+    ),
+    /maximum.*records/
+  );
+
+  assertTooBig({
+    ...recipeFixture,
+    title: "x".repeat(recipeContentLimits.maxStringLength + 1)
+  }, "title");
+  assertTooBig({
+    ...recipeFixture,
+    redirectFrom: Array.from(
+      { length: recipeContentLimits.maxRedirects + 1 },
+      (_, index) => `/old-recipe-${index}/`
+    )
+  }, "redirectFrom");
+  assertTooBig({
+    ...recipeFixture,
+    taxonomies: Array.from(
+      { length: recipeContentLimits.maxTaxonomies + 1 },
+      (_, index) => ({
+        ...recipeFixture.taxonomies[0]!,
+        sourceId: String(index),
+        name: `Taxonomy ${index}`,
+        slug: `taxonomy-${index}`
+      })
+    )
+  }, "taxonomies");
+  assertTooBig({
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      equipment: Array.from(
+        { length: recipeContentLimits.maxEquipment + 1 },
+        (_, index) => ({
+          sourceIndex: index,
+          sourceId: String(index),
+          name: `Equipment ${index}`,
+          amount: null,
+          notes: null
+        })
+      )
+    }
+  }, "recipe.equipment");
+  assertTooBig({
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      ingredientGroups: new Array(
+        recipeContentLimits.maxIngredientGroups + 1
+      ).fill(recipeFixture.recipe.ingredientGroups[0])
+    }
+  }, "recipe.ingredientGroups");
+  assertTooBig({
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      ingredientGroups: [{
+        ...recipeFixture.recipe.ingredientGroups[0]!,
+        items: new Array(
+          recipeContentLimits.maxIngredientsPerGroup + 1
+        ).fill(recipeFixture.recipe.ingredientGroups[0]!.items[0])
+      }]
+    }
+  }, "recipe.ingredientGroups.0.items");
+  assertTooBig({
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      instructionGroups: new Array(
+        recipeContentLimits.maxInstructionGroups + 1
+      ).fill(recipeFixture.recipe.instructionGroups[0])
+    }
+  }, "recipe.instructionGroups");
+  assertTooBig({
+    ...recipeFixture,
+    recipe: {
+      ...recipeFixture.recipe,
+      instructionGroups: [{
+        ...recipeFixture.recipe.instructionGroups[0]!,
+        steps: new Array(
+          recipeContentLimits.maxStepsPerGroup + 1
+        ).fill(recipeFixture.recipe.instructionGroups[0]!.steps[0])
+      }]
+    }
+  }, "recipe.instructionGroups.0.steps");
+  assertTooBig({
+    ...recipeFixture,
+    media: Array.from(
+      { length: recipeContentLimits.maxMedia + 1 },
+      (_, index) => ({
+        id: `media-${index}`,
+        sourceId: null,
+        path: `/recipes/fixture-recipe/media-${index}.png`,
+        alt: null,
+        width: 1,
+        height: 1
+      })
+    )
+  }, "media");
+});
+
+test("normalized prospective catalogs enforce the per-locale discovery limit", () => {
+  const records = Array.from(
+    { length: recipeContentLimits.maxLocaleRecords + 1 },
+    (_, index) => ({
+      ...recipeFixture,
+      id: `wordpress:wprm:${index + 1}`,
+      slug: `bounded-recipe-${index + 1}`,
+      source: {
+        ...recipeFixture.source,
+        recipeId: String(index + 1)
+      }
+    })
+  );
+
+  assert.throws(
+    () => validateNormalizedRecipeCatalog(records),
+    /Recipe locale "en" exceeds the maximum of 512 records/
+  );
 });
 
 test("the promoted catalog has deterministic category, pagination, and sitemap coverage", () => {
@@ -85,6 +240,137 @@ test("the schema rejects dangling media references", () => {
   };
 
   assert.throws(() => recipeRecordSchema.parse(invalid), /Unknown media reference/);
+});
+
+test("recipe and managed media identities remain source-backed and closed", () => {
+  assert.throws(
+    () => validateCatalog([{
+      ...recipeFixture,
+      id: "wordpress:wprm:999"
+    }]),
+    /content ID does not match source identity/
+  );
+
+  assert.throws(
+    () => recipeRecordSchema.parse({
+      ...recipeFixture,
+      media: [{
+        ...recipeFixture.media[0]!,
+        sourceId: "900",
+        path: "/recipes/media/wordpress/900.jpg"
+      }, recipeFixture.media[1]]
+    }),
+    /Managed recipe media ID must be wordpress-attachment:900/
+  );
+
+  assert.throws(
+    () => recipeRecordSchema.parse({
+      ...recipeFixture,
+      recipe: {
+        ...recipeFixture.recipe,
+        heroMediaId: "wordpress-attachment:900"
+      },
+      media: [{
+        ...recipeFixture.media[0]!,
+        id: "wordpress-attachment:900",
+        sourceId: "901",
+        path: "/recipes/media/wordpress/900.jpg"
+      }, recipeFixture.media[1]]
+    }),
+    /source ID must match attachment 900/
+  );
+
+  assert.throws(
+    () => recipeRecordSchema.parse({
+      ...recipeFixture,
+      media: [{
+        ...recipeFixture.media[0]!,
+        sourceId: "900"
+      }, recipeFixture.media[1]]
+    }),
+    /source ID must use a managed media path/
+  );
+
+  assert.throws(
+    () => recipeRecordSchema.parse({
+      ...recipeFixture,
+      media: [
+        ...recipeFixture.media,
+        {
+          id: "unused",
+          sourceId: null,
+          path: "/recipes/fixture-recipe/unused.png",
+          alt: null,
+          width: 1,
+          height: 1
+        }
+      ]
+    }),
+    /Unreferenced recipe media/
+  );
+});
+
+test("catalog validation always preserves source-backed WordPress URLs", () => {
+  const sourceBacked = {
+    ...recipeFixture,
+    source: {
+      ...recipeFixture.source,
+      editorialPostId: "20",
+      editorialPostType: "post",
+      editorialSourceSlug: "old-fixture-recipe"
+    }
+  };
+  assert.throws(
+    () => validateCatalog([sourceBacked]),
+    /does not preserve its WordPress source URL.*\/old-fixture-recipe\//
+  );
+  assert.doesNotThrow(() => validateCatalog([{
+    ...sourceBacked,
+    redirectFrom: ["/old-fixture-recipe/"]
+  }]));
+});
+
+test("shared WordPress parent URLs remain ambiguous rather than forcing duplicate redirects", () => {
+  const first = {
+    ...recipeFixture,
+    source: {
+      ...recipeFixture.source,
+      editorialPostId: "20",
+      editorialPostType: "post",
+      editorialSourceSlug: "shared-parent"
+    }
+  };
+  const second = {
+    ...first,
+    id: "wordpress:wprm:2",
+    slug: "second-recipe",
+    source: {
+      ...first.source,
+      recipeId: "2"
+    }
+  };
+  assert.doesNotThrow(() => validateCatalog([first, second]));
+  assert.doesNotThrow(() => validateCatalog([
+    { ...first, redirectFrom: ["/shared-parent/"] },
+    second
+  ]));
+  assert.throws(
+    () => validateCatalog([
+      { ...first, redirectFrom: ["/shared-parent/"] },
+      { ...second, redirectFrom: ["/shared-parent"] }
+    ]),
+    /Duplicate recipe redirect source/
+  );
+});
+
+test("recipe safe parsing reports invalid slugs without throwing", () => {
+  for (const slug of ["", "bad slug", "e\u0301clair", "bad%2fslug"]) {
+    const result = recipeRecordSchema.safeParse({
+      ...recipeFixture,
+      slug
+    });
+    assert.equal(result.success, false);
+  }
 });
 
 test("content validation rejects HTML from every normalized recipe display field", () => {
@@ -126,11 +412,14 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
     "unsafe%252fslug",
     "unsafe%5cslug",
     "malformed%",
-    "malformed%2"
+    "malformed%2",
+    "bad\ud800slug",
+    "bad\udfffslug",
+    "trailing\ud800"
   ]) {
     assert.throws(
       () => recipeRecordSchema.parse({ ...recipeFixture, slug }),
-      /unsafe path segment|URL encoding|raw Unicode/
+      /unsafe path segment|URL encoding|raw Unicode|well-formed Unicode/
     );
   }
 
@@ -142,6 +431,13 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
   });
 
   assert.equal(cyrillic.slug, "суп-с-фрикадельками");
+  assert.throws(
+    () => recipeRecordSchema.parse({
+      ...recipeFixture,
+      slug: "cafe\u0301"
+    }),
+    /NFC-normalized Unicode/
+  );
 
   assert.throws(
     () => recipeRecordSchema.parse({
@@ -151,6 +447,104 @@ test("recipe slugs reject unsafe encoded path segments and preserve Cyrillic", (
       redirectFrom: []
     }),
     /raw Unicode/
+  );
+});
+
+test("recipe file slugs reject cross-platform illegal and reserved names", () => {
+  for (const slug of [
+    "CON",
+    "aux.json",
+    "NuL.txt",
+    "com1.recipe",
+    "COM¹.recipe",
+    "LPT9.data",
+    "lpt².data",
+    "CONIN$",
+    "conout$.txt",
+    "bad:name",
+    "bad\"name",
+    "bad<name",
+    "bad>name",
+    "bad|name",
+    "trailing.",
+    "trailing "
+  ]) {
+    assert.throws(
+      () => validateRecipeFileSlug(slug),
+      /portable recipe filename|Windows-reserved path component|portable 255-unit path component|must not contain whitespace/
+    );
+  }
+  assert.throws(
+    () => validateRecipeFileSlug("a".repeat(251)),
+    /portable 255-unit path component limit/
+  );
+  assert.doesNotThrow(() => validateRecipeFileSlug("суп-с-фрикадельками"));
+});
+
+test("normalized catalogs reject case-insensitive filename collisions", () => {
+  assert.throws(
+    () => validateNormalizedRecipeCatalog([
+      recipeFixture,
+      {
+        ...recipeFixture,
+        id: "wordpress:wprm:2",
+        slug: "Fixture-Recipe",
+        source: {
+          ...recipeFixture.source,
+          recipeId: "2"
+        }
+      }
+    ]),
+    /Cross-platform recipe filename collision/
+  );
+  assert.throws(
+    () => validateNormalizedRecipeCatalog([
+      {
+        ...recipeFixture,
+        slug: "ΟΣ"
+      },
+      {
+        ...recipeFixture,
+        id: "wordpress:wprm:2",
+        slug: "ος",
+        source: {
+          ...recipeFixture.source,
+          recipeId: "2"
+        }
+      }
+    ]),
+    /Cross-platform recipe filename collision/
+  );
+  assert.throws(
+    () => validateNormalizedRecipeCatalog([
+      {
+        ...recipeFixture,
+        slug: "ΐ"
+      },
+      {
+        ...recipeFixture,
+        id: "wordpress:wprm:2",
+        slug: "Ϊ́",
+        source: {
+          ...recipeFixture.source,
+          recipeId: "2"
+        }
+      }
+    ]),
+    /Cross-platform recipe filename collision/
+  );
+});
+
+test("frozen v1 parsing keeps URL-safe source slugs while publication enforces filenames", () => {
+  const imported = recipeRecordSchema.parse({
+    ...recipeFixture,
+    slug: "CON"
+  });
+
+  assert.equal(imported.slug, "CON");
+  assert.throws(
+    () => validateNormalizedRecipeCatalog([imported]),
+    /Windows-reserved path component/
   );
 });
 
@@ -169,7 +563,10 @@ test("recipe slug boundary decoding accepts Unicode but rejects unsafe layers", 
     "%20space",
     "%2awildcard",
     "malformed%",
-    "literal%25"
+    "literal%25",
+    "bad\ud800slug",
+    "bad\udfffslug",
+    "trailing\ud800"
   ]) {
     assert.throws(() => decodeRecipeSlug(slug));
   }
@@ -187,7 +584,7 @@ test("recipe slug boundary decoding accepts Unicode but rejects unsafe layers", 
 test("the catalog rejects duplicate localized slugs", () => {
   const duplicate = {
     ...recipeFixture,
-    id: "test:recipe:9999",
+    id: "wordpress:wprm:9999",
     source: {
       ...recipeFixture.source,
       recipeId: "9999"
@@ -280,10 +677,26 @@ test("safe local paths inspect repeated encodings and preserve encoded Unicode",
     "/safe%252fprivate",
     "/%5cprivate",
     "/malformed%",
-    "/malformed%2"
+    "/malformed%2",
+    "/bad\ud800path",
+    "/bad\udfffpath",
+    "/trailing\ud800"
   ]) {
     assert.throws(() => validateSafeLocalPath(path, "Test path"));
   }
+  assert.throws(
+    () => decodeLocalPath("/bad\ud800path"),
+    /well-formed Unicode/
+  );
+  assert.throws(
+    () => decodeLocalPath("/bad\udfffpath"),
+    /well-formed Unicode/
+  );
+  assert.throws(
+    () => decodeLocalPath("/trailing\ud800"),
+    /well-formed Unicode/
+  );
+  assert.doesNotThrow(() => validateSafeLocalPath("/emoji-\ud83d\ude00", "Test path"));
 
   assert.doesNotThrow(() =>
     validateSafeLocalPath(
@@ -300,6 +713,49 @@ test("safe local paths inspect repeated encodings and preserve encoded Unicode",
   assert.throws(
     () => validateSafeLocalPath(`/${excessivelyEncoded}`, "Test path"),
     /excessive URL encoding/
+  );
+});
+
+test("media paths reject managed aliases and compare effective local paths", () => {
+  for (const mediaPath of [
+    "/recipes/media/%77ordpress/900.jpg",
+    "/recipes/media/%2577ordpress/900.jpg",
+    "/recipes/media/wordpress/900.jp%67",
+    "/recipes/media/wordpress/900.jpg%",
+    "/recipes/media/wordpress",
+    "/recipes/media/wordpress/",
+    "/recipes/media/wordpress//"
+  ]) {
+    assert.throws(
+      () => recipeRecordSchema.parse({
+        ...recipeFixture,
+        recipe: {
+          ...recipeFixture.recipe,
+          heroMediaId: "wordpress-attachment:900"
+        },
+        media: [{
+          ...recipeFixture.media[0]!,
+          id: "wordpress-attachment:900",
+          sourceId: "900",
+          path: mediaPath
+        }, recipeFixture.media[1]]
+      }),
+      /managed media namespace|canonical WordPress recipe media key|valid URL encoding/
+    );
+  }
+
+  assert.throws(
+    () => recipeRecordSchema.parse({
+      ...recipeFixture,
+      media: [{
+        ...recipeFixture.media[0]!,
+        path: "/images/apple.png"
+      }, {
+        ...recipeFixture.media[1]!,
+        path: "/images/%61pple.png"
+      }]
+    }),
+    /Duplicate effective media path/
   );
 });
 

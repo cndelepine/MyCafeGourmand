@@ -40,6 +40,8 @@ wp-config.php.*
 /uploads/
 /upload-archives/
 /migration-output/
+/.recipe-authoring.lock
+/.recipe-authoring-*.tmp
 /drive-download-*/
 
 # Only reviewed, sanitized source fixtures belong in the repository.

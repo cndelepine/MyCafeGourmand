@@ -436,7 +436,9 @@ test("promotion authenticates, records a media manifest, and resumes determinist
         .map((outcome) => outcome.recipeId)
     );
     assert.equal(records.length, eligibleIds.size);
-    assert.ok(records.every((record) => eligibleIds.has(record.source.recipeId)));
+    assert.ok(records.every((record) =>
+      record.schemaVersion === 1 && eligibleIds.has(record.source.recipeId)
+    ));
     assert.ok(records.some((record) => record.redirectFrom.length > 0));
 
     const publishedMedia = records.flatMap((record) => record.media);

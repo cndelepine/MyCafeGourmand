@@ -3,6 +3,21 @@ const percentEscapePattern = /%[0-9a-f]{2}/iu;
 
 type LayerInspector = (value: string, label: string) => void;
 
+function assertWellFormedUnicode(value: string, label: string) {
+  for (let index = 0; index < value.length; index += 1) {
+    const code = value.charCodeAt(index);
+    if (code >= 0xd800 && code <= 0xdbff) {
+      const next = value.charCodeAt(index + 1);
+      if (index + 1 >= value.length || next < 0xdc00 || next > 0xdfff) {
+        throw new Error(`${label} must contain well-formed Unicode.`);
+      }
+      index += 1;
+    } else if (code >= 0xdc00 && code <= 0xdfff) {
+      throw new Error(`${label} must contain well-formed Unicode.`);
+    }
+  }
+}
+
 function decodePercentLayers(
   value: string,
   label: string,
@@ -40,6 +55,7 @@ function decodePercentLayers(
 }
 
 function inspectPathLayer(value: string, label: string, allowWildcard: boolean) {
+  assertWellFormedUnicode(value, label);
   if (/%2f/iu.test(value)) {
     throw new Error(`${label} contains an unsafe separator: ${value}`);
   }
@@ -60,6 +76,7 @@ function inspectPathLayer(value: string, label: string, allowWildcard: boolean) 
 }
 
 function inspectRecipeSlugLayer(value: string, label: string) {
+  assertWellFormedUnicode(value, label);
   if (value.length === 0) {
     throw new Error(`${label} must not be empty.`);
   }
@@ -71,6 +88,9 @@ function inspectRecipeSlugLayer(value: string, label: string) {
   if (/\s/u.test(value)) {
     throw new Error(`${label} must not contain whitespace: ${value}`);
   }
+  if (value !== value.normalize("NFC")) {
+    throw new Error(`${label} must use NFC-normalized Unicode: ${value}`);
+  }
   if (
     /[\/\\?#*\u0000-\u001f\u007f]/u.test(value)
     || value === "."
@@ -81,6 +101,7 @@ function inspectRecipeSlugLayer(value: string, label: string) {
 }
 
 function inspectEncodedRecipeSlugLayer(value: string, label: string) {
+  assertWellFormedUnicode(value, label);
   if (value.length === 0) {
     throw new Error(`${label} must not be empty.`);
   }
@@ -115,6 +136,57 @@ export function validateRecipeSlug(value: string, label = "Recipe slug") {
   decodePercentLayers(value, label, inspectRecipeSlugLayer);
 }
 
+export function validateRecipeFileSlug(value: string, label = "Recipe slug") {
+  validateRecipeSlug(value, label);
+  if (/[<>:"|]/u.test(value) || /[. ]$/u.test(value)) {
+    throw new Error(
+      `${label} cannot be represented by a portable recipe filename: ${value}`
+    );
+  }
+  validatePortablePathComponent(`${value}.json`, label);
+}
+
+function validatePortablePathComponent(value: string, label: string) {
+  if (/[<>:"|]/u.test(value) || /[. ]$/u.test(value)) {
+    throw new Error(
+      `${label} cannot be represented by a portable path component: ${value}`
+    );
+  }
+  if (
+    /^(?:conin\$|conout\$|con|prn|aux|nul|com[1-9¹²³]|lpt[1-9¹²³])(?:\.|$)/iu.test(value)
+  ) {
+    throw new Error(
+      `${label} uses a Windows-reserved path component: ${value}`
+    );
+  }
+  if (
+    value.length > 255
+    || new TextEncoder().encode(value).byteLength > 255
+  ) {
+    throw new Error(
+      `${label} exceeds the portable 255-unit path component limit: ${value}`
+    );
+  }
+}
+
+export function recipeFileNameKey(value: string) {
+  validateRecipeFileSlug(value);
+  return portablePathComponentKey(`${value}.json`, "Recipe filename");
+}
+
+export function validateCategorySlug(value: string, label = "Category slug") {
+  validateRecipeSlug(value, label);
+  validatePortablePathComponent(value, label);
+}
+
+export function portablePathComponentKey(value: string, label: string) {
+  validatePortablePathComponent(value, label);
+  return value
+    .normalize("NFC")
+    .toUpperCase()
+    .normalize("NFC");
+}
+
 export function decodeRecipeSlug(value: string, label = "Recipe slug") {
   const decoded = decodePercentLayers(
     value,
@@ -126,7 +198,11 @@ export function decodeRecipeSlug(value: string, label = "Recipe slug") {
 }
 
 export function decodeLocalPath(value: string) {
-  return decodePercentLayers(value, "Local path", () => undefined);
+  return decodePercentLayers(
+    value,
+    "Local path",
+    (layer, label) => assertWellFormedUnicode(layer, label)
+  );
 }
 
 export function localPathKey(value: string) {

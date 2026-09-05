@@ -1,0 +1,2 @@
+/content/recipes/**/*.json text eol=lf
+/content/schemas/*.json text eol=lf

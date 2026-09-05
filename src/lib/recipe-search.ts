@@ -1,4 +1,5 @@
 import type { RecipeRecord } from "@/content/schema";
+import { formatRecipeEquipment } from "./recipe-equipment";
 
 /**
  * Normalize human-entered search text without transliterating non-Latin scripts.
@@ -27,6 +28,8 @@ export function getRecipeSearchText(record: RecipeRecord) {
       taxonomy.name,
       taxonomy.slug
     ]),
+    record.recipe.notes ?? "",
+    ...(record.recipe.equipment ?? []).map(formatRecipeEquipment),
     ...record.recipe.ingredientGroups.flatMap((group) => [
       group.name ?? "",
       ...group.items.flatMap((item) => [

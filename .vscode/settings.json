@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/content/recipes/en/*.json",
+        "/content/recipes/fr/*.json",
+        "/content/recipes/ru/*.json"
+      ],
+      "url": "./content/schemas/recipe.schema.json"
+    }
+  ]
+}

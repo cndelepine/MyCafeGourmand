@@ -1,5 +1,10 @@
 import type { Locale, RecipeRecord } from "@/content/schema";
+import {
+  getRecipeModifiedAt,
+  getRecipePublishedAt
+} from "@/content/recipe-dates";
 import { resolveRecipeMediaUrl } from "./recipe-media";
+import { formatRecipeEquipment } from "./recipe-equipment";
 import { absoluteUrl, canonicalUrl } from "./site";
 import { getRecipePath } from "./recipe-routes";
 
@@ -20,6 +25,7 @@ export type RecipeStructuredData = {
   cookTime?: string;
   totalTime?: string;
   recipeCategory?: string[];
+  tool?: string[];
   nutrition?: {
     "@type": "NutritionInformation";
     calories?: string;
@@ -54,6 +60,7 @@ export function getRecipeStructuredData(
   const categories = record.taxonomies
     .filter((taxonomy) => taxonomy.taxonomy === "category")
     .map((taxonomy) => taxonomy.name);
+  const equipment = (record.recipe.equipment ?? []).map(formatRecipeEquipment);
   const nutrition = record.recipe.nutrition;
   const servingSize = nutrition?.servingSize
     ? [nutrition.servingSize.raw, nutrition.servingUnit]
@@ -61,6 +68,8 @@ export function getRecipeStructuredData(
       .join(" ")
     : undefined;
   const calorieValue = nutrition?.calories?.value;
+  const publishedAt = getRecipePublishedAt(record);
+  const modifiedAt = getRecipeModifiedAt(record);
   const calories = typeof calorieValue === "number"
     && Number.isFinite(calorieValue)
     && calorieValue >= 0
@@ -99,14 +108,15 @@ export function getRecipeStructuredData(
       ? { totalTime: toIsoDuration(record.recipe.times.total.minutes) }
       : {}),
     ...(categories.length > 0 ? { recipeCategory: categories } : {}),
+    ...(equipment.length > 0 ? { tool: equipment } : {}),
     ...(structuredNutrition ? { nutrition: structuredNutrition } : {}),
     inLanguage: record.locale,
     url: canonicalUrl(getRecipePath(record)),
-    ...(record.source.createdAt
-      ? { datePublished: record.source.createdAt }
+    ...(publishedAt
+      ? { datePublished: publishedAt }
       : {}),
-    ...(record.source.modifiedAt
-      ? { dateModified: record.source.modifiedAt }
+    ...(modifiedAt
+      ? { dateModified: modifiedAt }
       : {})
   };
 }

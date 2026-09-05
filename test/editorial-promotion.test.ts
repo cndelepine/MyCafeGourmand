@@ -420,7 +420,9 @@ function recipe(
       editorialCreatedAt: null,
       editorialModifiedAt: null
     },
-    redirectFrom: [],
+    redirectFrom: [
+      `${locale === "en" ? "" : `/${locale}`}/editorial-${editorialPostId}/`
+    ],
     title: `Recipe ${recipeId}`,
     description: null,
     editorial: {
