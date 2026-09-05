@@ -33,4 +33,6 @@ jobs:
         env:
           NODE_OPTIONS: --openssl-legacy-provider
         run: start-windows.cmd --install-only
+      - name: Check cross-platform file identity
+        run: npx --no-install tsx --test test/file-system-identity.test.ts
       - run: npm run build
