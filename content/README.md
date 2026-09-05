@@ -201,6 +201,11 @@ and included in search. Equipment is also emitted through Recipe/HowTo JSON-LD
 `tool`; notes have no dedicated Recipe structured-data property and remain
 rendered/searchable text only.
 
+Recipe details also render every provided preparation, cooking, rest, total,
+and custom duration in normal and print views. Original duration text and custom
+labels are preserved; missing durations are not calculated or invented, and
+serving scaling does not change cooking times.
+
 ## Inspect and validate
 
 Print the human-readable catalog report:

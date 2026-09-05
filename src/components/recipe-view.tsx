@@ -22,6 +22,10 @@ const copy: Record<
     heading: string;
     serves: string;
     prepTime: string;
+    cookTime: string;
+    restTime: string;
+    totalTime: string;
+    customTime: string;
     language: string;
     ingredients: string;
     method: string;
@@ -41,6 +45,10 @@ const copy: Record<
     heading: "Simple ingredients.",
     serves: "Serves",
     prepTime: "Prep time",
+    cookTime: "Cook time",
+    restTime: "Rest time",
+    totalTime: "Total time",
+    customTime: "Additional time",
     language: "Language",
     ingredients: "Ingredients",
     method: "Method",
@@ -59,6 +67,10 @@ const copy: Record<
     heading: "Des ingrédients simples.",
     serves: "Portions",
     prepTime: "Préparation",
+    cookTime: "Cuisson",
+    restTime: "Repos",
+    totalTime: "Temps total",
+    customTime: "Temps supplémentaire",
     language: "Langue",
     ingredients: "Ingrédients",
     method: "Préparation",
@@ -77,6 +89,10 @@ const copy: Record<
     heading: "Простые ингредиенты.",
     serves: "Порции",
     prepTime: "Подготовка",
+    cookTime: "Приготовление",
+    restTime: "Отдых",
+    totalTime: "Общее время",
+    customTime: "Дополнительное время",
     language: "Язык",
     ingredients: "Ингредиенты",
     method: "Приготовление",
@@ -198,12 +214,16 @@ export function RecipeView({ catalog, recipe }: RecipeViewProps) {
               language: labels.language,
               missing: labels.missing,
               prepTime: labels.prepTime,
+              cookTime: labels.cookTime,
+              restTime: labels.restTime,
+              totalTime: labels.totalTime,
+              customTime: labels.customTime,
               sectionNumber: "01",
               serves: labels.serves,
               servingScale: labels.servingScale
             }}
             language={languageNames[recipe.locale]}
-            prepTime={recipe.recipe.times.prep?.raw ?? labels.missing}
+            times={recipe.recipe.times}
             servings={recipe.recipe.servings}
           />
 
