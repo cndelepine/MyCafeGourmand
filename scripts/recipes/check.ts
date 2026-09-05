@@ -6,10 +6,12 @@ import {
 import {
   recipeContentLimits
 } from "../../src/content/schema";
+import { createStaticWebAppConfig } from "../../src/content/staticwebapp";
 import {
   validateCatalogBehavior,
   validateContent
 } from "../../src/content/validation";
+import { loadHandAuthoredStaticWebAppConfig } from "../staticwebapp-config";
 import {
   readBoundedJsonFile,
   serializeJson
@@ -53,7 +55,7 @@ export function checkRecipeAuthoring(repositoryRoot: string = process.cwd()) {
     throw new Error("Recipe maintenance report generation is not deterministic.");
   }
 
-  validateContent({
+  const validated = validateContent({
     editorialGalleryMediaManifestPath: path.join(
       root,
       "content",
@@ -64,6 +66,11 @@ export function checkRecipeAuthoring(repositoryRoot: string = process.cwd()) {
     mediaManifestPath: path.join(root, "content", "media-manifest.json"),
     publicRoot: path.join(root, "public"),
     recipesRoot
+  });
+  createStaticWebAppConfig(validated.records, {
+    editorialRecords: validated.editorialRecords,
+    galleryRecords: validated.galleryRecords,
+    handAuthoredConfig: loadHandAuthoredStaticWebAppConfig(root)
   });
 
   return {

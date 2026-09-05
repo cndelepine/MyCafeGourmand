@@ -134,11 +134,12 @@ export function getCategoryCatalog(
         localizedSlugByWordPressIdentity.set(source.identity, localizedSlug);
       }
 
-      if (!membershipIds.add(localizedSlug)) {
+      if (membershipIds.has(localizedSlug)) {
         throw new Error(
           `Duplicate editorial category membership for recipe "${record.id}": ${localizedSlug}`
         );
       }
+      membershipIds.add(localizedSlug);
 
       if (existing !== undefined) {
         if (
