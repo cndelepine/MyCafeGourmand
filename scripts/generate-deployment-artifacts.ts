@@ -20,42 +20,14 @@ import {
 } from "../src/content/staticwebapp";
 import { validateContent } from "../src/content/validation";
 import { loadHandAuthoredStaticWebAppConfig } from "./staticwebapp-config";
-
-const deploymentMetadataDirectoryName = ".deployment";
-const stagedDeploymentMetadataDirectoryName = ".deployment.next";
-const previousDeploymentMetadataDirectoryName = ".deployment.previous";
+import {
+  deploymentMetadataDirectoryName,
+  stagedDeploymentMetadataDirectoryName,
+  previousDeploymentMetadataDirectoryName,
+  removeManagedDirectory,
+  validateManagedDirectory
+} from "./deployment-metadata";
 const redirectManifestFileName = "redirect-manifest.json";
-
-function validateManagedDirectory(directory: string, label: string) {
-  const stats = lstatSync(directory);
-  if (stats.isSymbolicLink() || !stats.isDirectory()) {
-    throw new Error(`${label} is not a regular directory: "${directory}"`);
-  }
-}
-
-function removeManagedDirectory(directory: string, label: string) {
-  if (!existsSync(directory)) {
-    return;
-  }
-  validateManagedDirectory(directory, label);
-  rmSync(directory, { recursive: true });
-}
-
-export function cleanDeploymentMetadata(projectRoot: string = process.cwd()) {
-  const root = path.resolve(projectRoot);
-  removeManagedDirectory(
-    path.join(root, deploymentMetadataDirectoryName),
-    "Deployment metadata path"
-  );
-  removeManagedDirectory(
-    path.join(root, stagedDeploymentMetadataDirectoryName),
-    "Staged deployment metadata path"
-  );
-  removeManagedDirectory(
-    path.join(root, previousDeploymentMetadataDirectoryName),
-    "Previous deployment metadata path"
-  );
-}
 
 function assertMetadataOutsideOutput(metadataRoot: string, outputRoot: string) {
   if (
