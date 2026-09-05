@@ -29,7 +29,8 @@ outside launch scope unless explicitly requested.
 | --- | --- |
 | Setup, contribution, validation, and pull requests | [CONTRIBUTING.md](CONTRIBUTING.md) |
 | WordPress import, promotion, media plans, or source interpretation | [docs/migration-operations.md](docs/migration-operations.md) |
-| Release artifacts, redirects, contact, or remote media verification | [docs/release-operations.md](docs/release-operations.md) |
+| Release artifacts, contact, or remote media verification | [docs/release-operations.md](docs/release-operations.md) |
+| Deployment, edge redirects, or launch gates | [docs/deployment.md](docs/deployment.md) |
 | GitHub Actions, Copilot customization, or repository settings | [docs/repository-operations.md](docs/repository-operations.md) |
 
 Read the relevant guide before changing its implementation or running its
@@ -94,8 +95,10 @@ rituals or enforcement mechanisms; critical checks belong in code and CI.
 - Add focused tests for edge cases. Declare Node tests at module scope, not
   dynamically inside other tests. Manually check affected content/navigation
   in each locale when changing rendered output or routes.
-- Treat local/CI artifacts as nondeployable; use the guarded release procedure.
-  Do not commit `.next/`, `next-env.d.ts`, dependencies, build outputs, generated
+- Treat local/CI artifacts as nondeployable. `build:release` stays fail-closed
+  until a checked-in edge adapter deploys and verifies every exact redirect.
+  Keep `.deployment/` metadata outside public `out/`.
+- Do not commit `.next/`, `next-env.d.ts`, dependencies, build outputs, generated
   search assets, logs, or private migration artifacts.
 - Inspect the complete diff before committing. Keep changes cohesive, update
   the relevant documentation, and merge only after review and passing CI.

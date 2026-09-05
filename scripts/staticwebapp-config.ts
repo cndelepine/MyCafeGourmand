@@ -52,7 +52,7 @@ export function loadHandAuthoredStaticWebAppConfig(
   if (existingFile(publicPath)) {
     throw new Error(
       `Hand-authored Static Web Apps config must not be placed in public/: "${publicPath}". ` +
-      "Move it to config/staticwebapp.config.json so generated redirects are preserved."
+      "Move it to config/staticwebapp.config.json so deployment validation cannot be bypassed."
     );
   }
 

@@ -3,8 +3,9 @@
 This document defines artifact, contact, redirect, and media verification
 boundaries for the existing Azure Static Web Apps static-export architecture.
 Azure resources and the external contact provider are not yet provisioned.
-Provider selection and deployment workflow design belong to the platform
-workstream.
+Production release is blocked until an edge provider is selected and a
+checked-in adapter deploys every exact redirect. The authoritative deployment
+sequence and artifact separation are in [`deployment.md`](deployment.md).
 
 ## Artifact classes
 
@@ -40,8 +41,10 @@ export NEXT_PUBLIC_CONTACT_FORM_ENDPOINT="https://<approved-contact-host>/<publi
 npm run build:release
 ```
 
-`build:release` fails closed unless both public values are valid, then performs
-pre-build and output validation. The media base must be absolute HTTPS with no
+`build:release` currently fails before building because the edge adapter is
+absent. Once that integration exists, it must still reject invalid public
+values and perform pre-build and output validation. The media base must be
+absolute HTTPS with no
 credentials, query, or fragment. It may be a validated Blob or CDN/custom-domain
 base after that external infrastructure exists.
 
@@ -101,9 +104,15 @@ practices. Do not restore the obsolete WordPress privacy text.
 ## Redirect configuration
 
 Builds validate every recipe and editorial `redirectFrom` path and write
-`out/staticwebapp.config.json`. Sources are root-relative local paths without
-queries or fragments. Generated destinations are matching canonical locale
-paths with static-export trailing slashes.
+`.deployment/redirect-manifest.json`. This versioned, provider-neutral metadata
+stays outside the public `out/` artifact. Sources are root-relative local paths
+without queries or fragments. Generated destinations are matching canonical
+locale paths with static-export trailing slashes.
+
+The separate `out/staticwebapp.config.json` is limited to 20,000 UTF-8 bytes and
+contains the origin trailing-slash policy and baseline headers, not the
+historical redirect catalog. See [`deployment.md`](deployment.md) for the exact
+manifest shape, stale-output cleanup, provider integration, and staged CSP.
 
 Keep unrelated hand-authored Azure routes, headers, and fallback settings in
 `config/staticwebapp.config.json`. Never place a hand-authored copy in
@@ -178,9 +187,11 @@ Before a production artifact can be considered deployable:
 3. Combined remote media verification succeeds.
 4. The owner approves the real media origin, contact endpoint, and privacy
    notice.
-5. `npm run build:release` succeeds with those exact public values.
-6. The generated `out/` passes the release output validator and is the artifact
-   supplied to the separately approved deployment process.
+5. The checked-in edge adapter supports and verifies every exact redirect;
+   `npm run build:release` succeeds with those exact public values.
+6. The generated `out/` passes the release output validator and is uploaded
+   without rebuilding, only after complete edge redirect publication succeeds.
+   Never copy `.deployment/` into the public upload tree.
 7. Inspect the rendered contact form actions in all locales and test acceptance,
    rejection, delivery, and return redirects against the approved provider.
 

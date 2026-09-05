@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { siteUrl } from "./site-origin";
 import { recipeCatalog } from "@/content/catalog";
 import type { RecipeCategory } from "@/content/categories";
 import type { EditorialPageRecord } from "@/content/editorial-schema";
@@ -22,11 +23,11 @@ import {
   supportedLocales
 } from "./recipe-routes";
 
+export { siteUrl } from "./site-origin";
+
 export const siteName = "My Café Gourmand";
 export const siteDescription =
   "A thoughtful collection of recipes from the family kitchen.";
-export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://mycafegourmand.com";
 
 export type OpenGraphLocale = "en_US" | "fr_FR" | "ru_RU";
 

@@ -1,8 +1,11 @@
 import assert from "node:assert/strict";
+import { spawnSync } from "node:child_process";
 import {
   cpSync,
+  existsSync,
   mkdtempSync,
   mkdirSync,
+  readdirSync,
   readFileSync,
   rmSync,
   writeFileSync
@@ -10,13 +13,22 @@ import {
 import path from "node:path";
 import test from "node:test";
 import { recipeFixture } from "./fixtures/recipe";
+import { recipeCatalog } from "../src/content/catalog";
+import { editorialCatalog } from "../src/content/editorial-catalog";
 import { editorialPageRecordSchema } from "../src/content/editorial-schema";
+import {
+  createExactRedirectManifest,
+  serializeExactRedirectManifest
+} from "../src/content/redirect-manifest";
 import { recipeRecordSchema } from "../src/content/schema";
 import {
   createStaticWebAppConfig,
+  maxStaticWebAppConfigBytes,
   serializeStaticWebAppConfig
 } from "../src/content/staticwebapp";
-import { generateStaticWebAppConfig } from "../scripts/generate-staticwebapp";
+import { generateDeploymentArtifacts } from "../scripts/generate-deployment-artifacts";
+import { cleanDeploymentMetadata } from "../scripts/deployment-metadata";
+import { loadHandAuthoredStaticWebAppConfig } from "../scripts/staticwebapp-config";
 
 function withTempDirectory<T>(callback: (directory: string) => T) {
   const directory = mkdtempSync(path.join(process.cwd(), ".staticwebapp-test-"));
@@ -27,29 +39,50 @@ function withTempDirectory<T>(callback: (directory: string) => T) {
   }
 }
 
-test("generates deterministic Azure redirects from recipe redirect sources", () => {
+function copyBuildInputs(projectRoot: string) {
+  mkdirSync(projectRoot, { recursive: true });
+  for (const directory of ["config", "content"]) {
+    cpSync(path.join(process.cwd(), directory), path.join(projectRoot, directory), {
+      recursive: true
+    });
+  }
+}
+
+test("generates deterministic provider-neutral redirects from recipe redirect sources", () => {
   const record = recipeRecordSchema.parse({
     ...recipeFixture,
     redirectFrom: ["/old/soup/", "/old/soup-2"]
   });
-  const config = createStaticWebAppConfig([record]);
+  const manifest = createExactRedirectManifest([record]);
 
-  assert.deepEqual(config.routes, [
-    {
-      route: "/old/soup/",
-      redirect: "/recipes/fixture-recipe/",
-      statusCode: 301
-    },
-    {
-      route: "/old/soup-2",
-      redirect: "/recipes/fixture-recipe/",
-      statusCode: 301
-    }
-  ]);
+  assert.deepEqual(manifest, {
+    schemaVersion: 1,
+    redirects: [
+      {
+        source: "/old/soup/",
+        destination: "/recipes/fixture-recipe/",
+        status: 301
+      },
+      {
+        source: "/old/soup-2",
+        destination: "/recipes/fixture-recipe/",
+        status: 301
+      }
+    ]
+  });
   assert.equal(
-    serializeStaticWebAppConfig(config),
-    `${JSON.stringify(config, null, 2)}\n`
+    serializeExactRedirectManifest(manifest),
+    `${JSON.stringify(manifest, null, 2)}\n`
   );
+});
+
+test("keeps exact redirects out of the Static Web Apps route table", () => {
+  const record = recipeRecordSchema.parse({
+    ...recipeFixture,
+    redirectFrom: ["/old/soup/"]
+  });
+
+  assert.deepEqual(createStaticWebAppConfig([record]).routes, []);
 });
 
 test("uses trailing-slash canonical destinations for localized recipes", () => {
@@ -65,11 +98,11 @@ test("uses trailing-slash canonical destinations for localized recipes", () => {
     redirectFrom: ["/ancienne-soupe"]
   });
 
-  assert.deepEqual(createStaticWebAppConfig([record]).routes, [
+  assert.deepEqual(createExactRedirectManifest([record]).redirects, [
     {
-      route: "/ancienne-soupe",
-      redirect: "/fr/recipes/soupe/",
-      statusCode: 301
+      source: "/ancienne-soupe",
+      destination: "/fr/recipes/soupe/",
+      status: 301
     }
   ]);
 });
@@ -86,6 +119,47 @@ test("preserves hand-authored Azure config", () => {
     globalHeaders: { "X-Content-Type-Options": "nosniff" },
     routes: [{ route: "/*", rewrite: "/index.html" }]
   });
+});
+
+test("committed Azure config uses bounded baseline headers and stages CSP", () => {
+  const config = createStaticWebAppConfig([], {
+    handAuthoredConfig: loadHandAuthoredStaticWebAppConfig(process.cwd())
+  });
+
+  assert.equal(config.trailingSlash, "always");
+  assert.deepEqual(config.globalHeaders, {
+    "Strict-Transport-Security": "max-age=31536000",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy":
+      "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), " +
+      "microphone=(), payment=(), usb=()"
+  });
+  assert.ok(
+    config.globalHeaders !== null
+    && typeof config.globalHeaders === "object"
+    && !Array.isArray(config.globalHeaders)
+  );
+  const headerNames = Object.keys(config.globalHeaders).map((name) => name.toLowerCase());
+  assert.equal(headerNames.includes("content-security-policy"), false);
+  assert.equal(headerNames.includes("content-security-policy-report-only"), false);
+  assert.ok(
+    Buffer.byteLength(serializeStaticWebAppConfig(config), "utf8")
+    <= maxStaticWebAppConfigBytes
+  );
+});
+
+test("rejects Static Web Apps config larger than the documented bound", () => {
+  assert.throws(
+    () => serializeStaticWebAppConfig({
+      routes: [],
+      globalHeaders: {
+        "X-Oversized": "é".repeat(maxStaticWebAppConfigBytes)
+      }
+    }),
+    /maximum is 20000 bytes/u
+  );
 });
 
 test("detects cycles between generated and exact hand-authored redirects", () => {
@@ -218,23 +292,153 @@ test("rejects duplicate generated redirect sources across recipes", () => {
   );
 });
 
-test("emits the validated artifact into the static export directory", () => {
-  withTempDirectory((directory) => {
-    const outputDirectory = path.join(directory, "out");
-    const { outputPath, config } = generateStaticWebAppConfig(process.cwd(), outputDirectory);
+test("exact redirects cannot shadow generated static assets", () => {
+  for (const redirectFrom of [
+    "/robots.txt",
+    "/sitemap.xml",
+    "/_search/en.json",
+    "/staticwebapp.config.json"
+  ]) {
+    const record = recipeRecordSchema.parse({
+      ...recipeFixture,
+      redirectFrom: [redirectFrom]
+    });
+    assert.throws(
+      () => createExactRedirectManifest([record]),
+      /conflicts with a canonical route/u,
+      redirectFrom
+    );
+    assert.throws(
+      () => createStaticWebAppConfig([], {
+        handAuthoredConfig: {
+          routes: [{ route: redirectFrom, redirect: "/target/", statusCode: 301 }]
+        }
+      }),
+      /conflicts with a canonical route/u,
+      redirectFrom
+    );
+  }
+});
 
-    assert.equal(readFileSync(outputPath, "utf8"), serializeStaticWebAppConfig(config));
-    assert.equal(path.basename(outputPath), "staticwebapp.config.json");
+test("isolates exact redirect metadata from the bounded Azure origin artifact", () => {
+  withTempDirectory((directory) => {
+    const projectRoot = path.join(directory, "project");
+    const outputDirectory = path.join(projectRoot, "out");
+    const metadataDirectory = path.join(projectRoot, ".deployment");
+    const stagedDirectory = path.join(projectRoot, ".deployment.next");
+    const previousDirectory = path.join(projectRoot, ".deployment.previous");
+    copyBuildInputs(projectRoot);
+    assert.equal(existsSync(path.join(projectRoot, "public")), false);
+    mkdirSync(outputDirectory);
+    writeFileSync(
+      path.join(outputDirectory, "redirect-manifest.json"),
+      "{\"legacy\":true}\n"
+    );
+    for (const staleDirectory of [
+      metadataDirectory,
+      stagedDirectory,
+      previousDirectory
+    ]) {
+      mkdirSync(staleDirectory);
+      writeFileSync(path.join(staleDirectory, "stale.json"), "{}\n");
+    }
+    const {
+      redirectManifest,
+      redirectManifestPath,
+      staticWebAppConfig,
+      staticWebAppConfigPath
+    } = generateDeploymentArtifacts(projectRoot, outputDirectory);
+    const expectedRedirects = recipeCatalog.reduce(
+      (count, record) => count + record.redirectFrom.length,
+      0
+    ) + editorialCatalog.reduce(
+      (count, record) => count + (record.redirectFrom?.length ?? 0),
+      0
+    );
+
+    assert.equal(redirectManifest.redirects.length, expectedRedirects);
+    assert.equal(
+      readFileSync(redirectManifestPath, "utf8"),
+      serializeExactRedirectManifest(redirectManifest)
+    );
+    assert.equal(
+      readFileSync(staticWebAppConfigPath, "utf8"),
+      serializeStaticWebAppConfig(staticWebAppConfig)
+    );
+    assert.equal(path.basename(redirectManifestPath), "redirect-manifest.json");
+    assert.equal(path.dirname(redirectManifestPath), metadataDirectory);
+    assert.equal(path.basename(staticWebAppConfigPath), "staticwebapp.config.json");
+    assert.deepEqual(staticWebAppConfig.routes, []);
+    assert.deepEqual(readdirSync(metadataDirectory), ["redirect-manifest.json"]);
+    assert.equal(existsSync(stagedDirectory), false);
+    assert.equal(existsSync(previousDirectory), false);
+    assert.equal(
+      existsSync(path.join(outputDirectory, "redirect-manifest.json")),
+      false
+    );
+  });
+});
+
+test("cleans all deployment metadata before a new static build", () => {
+  withTempDirectory((directory) => {
+    for (const name of [
+      ".deployment",
+      ".deployment.next",
+      ".deployment.previous"
+    ]) {
+      const candidate = path.join(directory, name);
+      mkdirSync(candidate);
+      writeFileSync(path.join(candidate, "stale.json"), "{}\n");
+    }
+
+    cleanDeploymentMetadata(directory);
+
+    assert.equal(existsSync(path.join(directory, ".deployment")), false);
+    assert.equal(existsSync(path.join(directory, ".deployment.next")), false);
+    assert.equal(existsSync(path.join(directory, ".deployment.previous")), false);
+  });
+});
+
+test("fresh build entrypoints invalidate prior metadata before invalid content can load", () => {
+  withTempDirectory((directory) => {
+    const recipes = path.join(directory, "content", "recipes", "en");
+    mkdirSync(recipes, { recursive: true });
+    writeFileSync(path.join(recipes, "invalid.json"), "{");
+    writeFileSync(path.join(directory, "package.json"), JSON.stringify({
+      private: true,
+      scripts: { "content:validate": "tsx ../scripts/validate-content.ts" }
+    }));
+    for (const entrypoint of ["build-static.ts", "build-release.ts"]) {
+      const metadataPaths = [".deployment", ".deployment.next", ".deployment.previous"]
+        .map((name) => path.join(directory, name));
+      for (const candidate of metadataPaths) {
+        mkdirSync(candidate);
+        writeFileSync(path.join(candidate, "stale.json"), "{}\n");
+      }
+      const environment: NodeJS.ProcessEnv = { ...process.env, npm_lifecycle_event: "build:release" };
+      delete environment.NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL;
+      delete environment.NEXT_PUBLIC_CONTACT_FORM_ENDPOINT;
+      delete environment.MY_CAFE_GOURMAND_RELEASE_BUILD;
+      const result = spawnSync(process.execPath, [
+        "--import", "tsx",
+        path.join(process.cwd(), "scripts", entrypoint)
+      ], { cwd: directory, env: environment, encoding: "utf8", timeout: 30_000 });
+      assert.equal(result.error, undefined);
+      assert.equal(result.status, 1, result.stdout + result.stderr);
+      assert.match(result.stderr, entrypoint === "build-static.ts"
+        ? /static-build-failed:/
+        : /release-build-failed:/);
+      for (const candidate of metadataPaths) {
+        assert.equal(existsSync(candidate), false, `${entrypoint}: ${candidate}`);
+      }
+    }
   });
 });
 
 test("derives every content path from an alternate project root", () => {
   withTempDirectory((directory) => {
     const projectRoot = path.join(directory, "alternate-project");
-    cpSync(path.join(process.cwd(), "content"), path.join(projectRoot, "content"), {
-      recursive: true
-    });
-    mkdirSync(path.join(projectRoot, "public"), { recursive: true });
+    copyBuildInputs(projectRoot);
     const record = editorialPageRecordSchema.parse({
       schemaVersion: 1,
       kind: "editorial-page",
@@ -267,15 +471,14 @@ test("derives every content path from an alternate project root", () => {
       `${JSON.stringify(record, null, 2)}\n`
     );
 
-    const { config } = generateStaticWebAppConfig(
+    const { redirectManifest } = generateDeploymentArtifacts(
       projectRoot,
       path.join(projectRoot, "out")
     );
     assert.equal(
-      config.routes.some((route) =>
-        "route" in route
-        && route.route === "/old-alternate-root-only/"
-        && route.redirect === "/alternate-root-only/"
+      redirectManifest.redirects.some((redirect) =>
+        redirect.source === "/old-alternate-root-only/"
+        && redirect.destination === "/alternate-root-only/"
       ),
       true
     );

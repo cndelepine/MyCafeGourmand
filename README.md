@@ -76,8 +76,11 @@ npm run preview
 ```
 
 `build:local` and `build:ci` create credential-free, nondeployable artifacts.
-Production artifacts must use the guarded release process documented in
-[`docs/release-operations.md`](docs/release-operations.md).
+Production release is blocked until a checked-in edge adapter deploys all
+historical redirects. See [`docs/deployment.md`](docs/deployment.md) for the
+artifact contract and remaining launch gates, and
+[`docs/release-operations.md`](docs/release-operations.md) for media and contact
+requirements.
 
 ## Validation
 
@@ -110,7 +113,9 @@ retain complete recipe content.
 Canonical recipe slugs remain raw Unicode. Shared URL validation protects
 encoded separators, malformed or repeated percent encodings, dot segments, and
 route collisions. Validated recipe and editorial `redirectFrom` paths generate
-the merged Azure Static Web Apps redirect configuration during a build.
+the provider-neutral `.deployment/redirect-manifest.json`, outside public
+`out/`. The separate `out/staticwebapp.config.json` contains bounded origin
+configuration and baseline headers, not the historical redirect catalog.
 
 The current approved publication baseline is 522 recipes (EN/FR/RU:
 162/172/188), 27 editorial pages (10/9/8), one neutral gallery, 1,244 recipe
@@ -126,6 +131,7 @@ using them in a migration command.
 | Contribution and pull request workflow | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | Authenticated WordPress operations | [`docs/migration-operations.md`](docs/migration-operations.md) |
 | Release builds, contact, redirects, and media verification | [`docs/release-operations.md`](docs/release-operations.md) |
+| Deployment artifacts, edge redirects, and launch gates | [`docs/deployment.md`](docs/deployment.md) |
 | CI, security automation, and GitHub launch gates | [`docs/repository-operations.md`](docs/repository-operations.md) |
 
 The browser editor remains deferred until a disposable private-repository test

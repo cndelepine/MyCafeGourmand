@@ -1,6 +1,6 @@
 import type { Locale } from "@/content/schema";
 import { getContactSuccessPath } from "./contact-routes";
-import { siteUrl } from "./site";
+import { siteUrl } from "./site-origin";
 
 export const contactFormEndpointEnvironmentVariable =
   "NEXT_PUBLIC_CONTACT_FORM_ENDPOINT";
