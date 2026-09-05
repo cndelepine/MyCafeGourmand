@@ -42,7 +42,7 @@ function withTempDirectory<T>(callback: (directory: string) => T) {
 
 function copyBuildInputs(projectRoot: string) {
   mkdirSync(projectRoot, { recursive: true });
-  for (const directory of ["config", "content", "public"]) {
+  for (const directory of ["config", "content"]) {
     cpSync(path.join(process.cwd(), directory), path.join(projectRoot, directory), {
       recursive: true
     });
@@ -329,6 +329,7 @@ test("isolates exact redirect metadata from the bounded Azure origin artifact", 
     const stagedDirectory = path.join(projectRoot, ".deployment.next");
     const previousDirectory = path.join(projectRoot, ".deployment.previous");
     copyBuildInputs(projectRoot);
+    assert.equal(existsSync(path.join(projectRoot, "public")), false);
     mkdirSync(outputDirectory);
     writeFileSync(
       path.join(outputDirectory, "redirect-manifest.json"),
