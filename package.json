@@ -40,7 +40,7 @@
     "check": "npm run repository:safety && npm run lint && npm run typecheck && npm test && npm run recipes:check"
   },
   "dependencies": {
-    "fast-xml-parser": "5.10.1",
+    "fast-xml-parser": "5.11.1",
     "next": "16.3.3",
     "parse5": "7.3.0",
     "react": "19.2.8",
