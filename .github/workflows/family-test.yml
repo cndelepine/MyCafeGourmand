@@ -1,0 +1,99 @@
+name: Azure family test
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: "Bootstrap invitation access or upload the NONPROMOTABLE family test site"
+        required: true
+        type: choice
+        options: [bootstrap, site]
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: azure-family-test-mutation
+  cancel-in-progress: false
+
+jobs:
+  authorize:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci
+      - name: Require actual administrator-configured protections
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: npx --no-install tsx scripts/workflow-family-test.ts
+
+  family-test:
+    name: Approve retained dev/test app update (not production)
+    needs: authorize
+    environment: family-test
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      FAMILY_TEST_SITE_ORIGIN: ${{ vars.FAMILY_TEST_SITE_ORIGIN }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci
+      - name: Recheck protections after approval
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: npx --no-install tsx scripts/workflow-family-test.ts
+      - run: npm run check
+      - name: Build access-only bootstrap without recipes or media
+        if: inputs.operation == 'bootstrap'
+        run: npm run family-test:bootstrap
+      - name: Build explicitly nonpromotable family site
+        if: inputs.operation == 'site'
+        env:
+          NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL: ${{ vars.NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL }}
+        run: npm run build:family-test
+      - name: Bind the artifact to this commit and approved test origin
+        run: npx --no-install tsx scripts/family-test-artifact.ts validate . "$GITHUB_SHA" "$FAMILY_TEST_SITE_ORIGIN"
+      - name: Upload only to the dedicated test app primary slot
+        id: upload
+        uses: Azure/static-web-apps-deploy@4d27395796ac319302594769cfe812bd207490b1 # maintained v1 release branch
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: out
+          output_location: ""
+          skip_app_build: true
+          skip_api_build: true
+          production_branch: main
+      - name: Require the actual dedicated test origin
+        env:
+          ACTUAL_ORIGIN: ${{ steps.upload.outputs.static_web_app_url }}
+        run: |
+          node -e 'const a=process.env.ACTUAL_ORIGIN,e=process.env.FAMILY_TEST_SITE_ORIGIN;if(a!==e&&a!==e+"/")throw Error("Unexpected dedicated test origin");'
+      - name: Verify anonymous denial (not full authenticated acceptance)
+        run: npm run family-test:verify -- . --anonymous-only
+      - name: Retain nonpromotable bytes for operator-local authenticated verification
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: family-test-NONPROMOTABLE
+          path: |
+            out/
+            .deployment/family-test-artifact.json
+            .deployment/redirect-manifest.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14

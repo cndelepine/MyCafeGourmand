@@ -10,6 +10,7 @@ provision Azure resources, deploy the site, or select an external service.
 | `.github/workflows/ci.yml` | Linux checks/static build and Windows launcher/build validation |
 | `.github/workflows/codeql.yml` | JavaScript and TypeScript security analysis |
 | `.github/workflows/copilot-setup-steps.yml` | Node and locked dependency setup for Copilot cloud agent |
+| `.github/workflows/family-test.yml` | Protected manual bootstrap/site uploads to the dedicated NONPROMOTABLE family dev/test app |
 | `.github/dependabot.yml` | Weekly npm and GitHub Actions update pull requests |
 | `scripts/check-forbidden-migration-inputs.mjs` | Reject tracked paths matching forbidden migration-input names, except the SQL fixture boundary |
 
@@ -89,6 +90,13 @@ Keep discovery/frontmatter/tool assumptions aligned with the official references
 - [Codex Agent Skills](https://developers.openai.com/codex/skills/)
 
 ## Administrator-owned launch gates
+
+The invited-family testing workflow separately requires a real `family-test`
+environment with independent required review and main-only deployment
+protection. Neither `staging` nor `production` credentials are reused.
+See [the family-test operator guide](azure-family-test.md) for administrator
+setup, secret binding and manual invitations. The workflow has no PR-triggered
+credential path, production promotion, DNS operation or automatic teardown.
 
 The files in this repository do **not** configure GitHub repository rules or
 security settings. A repository administrator must configure and verify the

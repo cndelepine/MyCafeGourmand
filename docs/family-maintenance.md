@@ -115,6 +115,20 @@ Open `http://localhost:3000`. Both previews are local. `out/` from
 `build:local` or `build:ci` is intentionally nondeployable, even when it looks
 correct.
 
+## Test with invited family on Azure
+
+The separate [Azure family-test guide](azure-family-test.md) describes the
+owner-operated shared test site. Only the specifically invited account and
+sign-in provider receive the `family` role; simply signing in does not grant
+access. Do not paste invitation links, family identities, or session cookies
+into chat. The Azure test is not the live WordPress site, and its test-only
+artifact cannot be promoted to production. Recipe images on Blob storage
+remain publicly readable by URL.
+
+The latest owner decision is to **keep test resources running** for family
+feedback. Deleting resources, removing invitations, uploading media, or
+changing GitHub/Azure settings are separate authorized operator actions.
+
 ## Prepare an update for review
 
 The agent should:

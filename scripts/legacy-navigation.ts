@@ -57,7 +57,7 @@ function escapeHtml(value: string) {
   });
 }
 
-export function renderLegacyPage(redirect: ExactRedirect) {
+export function renderLegacyPage(redirect: ExactRedirect, variant: "production" | "family-test" = "production") {
   validateSafeLocalPath(redirect.destination, "Legacy navigation destination");
   if (!redirect.destination.endsWith("/")) {
     throw new Error("Legacy navigation destination must be a canonical directory path.");
@@ -67,17 +67,18 @@ export function renderLegacyPage(redirect: ExactRedirect) {
     : redirect.destination.startsWith("/ru/") ? "ru" : "en";
   const text = copy[locale];
   const destination = escapeHtml(new URL(redirect.destination, productionSiteOrigin).href);
+  const navigation = variant === "family-test" ? escapeHtml(redirect.destination) : destination;
   return `<!doctype html>
 <html lang="${locale}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ${legacyMarker}
-<meta http-equiv="refresh" content="0;url=${destination}">
+<meta http-equiv="refresh" content="0;url=${navigation}">
 <link rel="canonical" href="${destination}">
 <title>${text.title}</title>
 </head>
-<body><h1>${text.title}</h1><p><a href="${destination}">${text.link}</a></p></body>
+<body><h1>${text.title}</h1><p><a href="${navigation}">${text.link}</a></p></body>
 </html>
 `;
 }
@@ -116,7 +117,7 @@ function inspectOutput(root: string) {
   return entries;
 }
 
-function plannedPages(manifest: ExactRedirectManifest) {
+function plannedPages(manifest: ExactRedirectManifest, variant: "production" | "family-test" = "production") {
   const validated = parseExactRedirectManifest(manifest);
   const pages = new Map<string, { relative: string; contents: string }>();
   const directories = new Map<string, string>();
@@ -136,7 +137,7 @@ function plannedPages(manifest: ExactRedirectManifest) {
       }
       directories.set(directoryKey, directory);
     }
-    pages.set(key, { relative, contents: renderLegacyPage(redirect) });
+    pages.set(key, { relative, contents: renderLegacyPage(redirect, variant) });
   }
   for (const directory of directories.keys()) {
     if (pages.has(directory)) {
@@ -182,10 +183,11 @@ export function generateLegacyNavigation(
 
 export function validateLegacyNavigationOutput(
   manifest: ExactRedirectManifest,
-  outputDirectory: string
+  outputDirectory: string,
+  variant: "production" | "family-test" = "production"
 ) {
   const root = path.resolve(outputDirectory);
-  const pages = plannedPages(manifest);
+  const pages = plannedPages(manifest, variant);
   const existing = inspectOutput(root);
   for (const [key, page] of pages) {
     const actual = existing.get(key);

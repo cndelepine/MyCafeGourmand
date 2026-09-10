@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   assertRecipeMediaBuildEnvironment,
+  familyTestBuildModeEnvironmentVariable,
   recipeMediaReleaseBuildModeEnvironmentVariable,
   type RecipeMediaBuildMode
 } from "../src/lib/recipe-media";
@@ -12,6 +13,8 @@ import { cleanDeploymentMetadata } from "./deployment-metadata";
 import { assertReleaseDeploymentIntegration } from "../src/lib/release-deployment";
 import { productionSiteOrigin } from "./legacy-navigation";
 import { writeReleaseArtifactMetadata } from "./release-artifact";
+import { writeFamilyTestArtifact } from "./family-test-artifact";
+import { validateSiteOrigin } from "./verify-deployed-site";
 
 function command(name: string) {
   return process.platform === "win32" ? `${name}.cmd` : name;
@@ -44,9 +47,12 @@ function nextExecutable(projectRoot: string) {
 }
 
 export function createReleaseBuildEnvironment(environment: NodeJS.ProcessEnv) {
-  if (Object.hasOwn(environment, recipeMediaReleaseBuildModeEnvironmentVariable)) {
+  if (Object.hasOwn(environment, recipeMediaReleaseBuildModeEnvironmentVariable)
+    || Object.hasOwn(environment, familyTestBuildModeEnvironmentVariable)
+    || Object.hasOwn(environment, "FAMILY_TEST_SITE_ORIGIN")) {
     throw new Error("Release build mode is reserved for the guarded release command.");
   }
+
   if (
     environment.NEXT_PUBLIC_SITE_URL !== undefined
     && environment.NEXT_PUBLIC_SITE_URL !== productionSiteOrigin
@@ -57,6 +63,23 @@ export function createReleaseBuildEnvironment(environment: NodeJS.ProcessEnv) {
     ...environment,
     NEXT_PUBLIC_SITE_URL: productionSiteOrigin,
     [recipeMediaReleaseBuildModeEnvironmentVariable]: "1"
+  };
+}
+
+export function createFamilyTestBuildEnvironment(environment: NodeJS.ProcessEnv) {
+  if (environment.npm_lifecycle_event !== "build:family-test"
+    || Object.hasOwn(environment, familyTestBuildModeEnvironmentVariable)
+    || Object.hasOwn(environment, recipeMediaReleaseBuildModeEnvironmentVariable)) {
+    throw new Error("Family test build requires its guarded command without reserved build flags.");
+  }
+  validateSiteOrigin(environment.FAMILY_TEST_SITE_ORIGIN ?? "", "staging");
+  if (environment.NEXT_PUBLIC_SITE_URL !== undefined && environment.NEXT_PUBLIC_SITE_URL !== productionSiteOrigin) {
+    throw new Error("Family test canonical metadata must retain the production origin.");
+  }
+  return {
+    ...environment,
+    NEXT_PUBLIC_SITE_URL: productionSiteOrigin,
+    [familyTestBuildModeEnvironmentVariable]: "1"
   };
 }
 
@@ -99,7 +122,8 @@ export function runStaticBuild(
       return;
     }
 
-    const buildEnvironment = createReleaseBuildEnvironment(environment);
+    const buildEnvironment: NodeJS.ProcessEnv = mode === "family-test"
+      ? createFamilyTestBuildEnvironment(environment) : createReleaseBuildEnvironment(environment);
     assertRecipeMediaBuildEnvironment(mode, buildEnvironment);
     run(command("npm"), ["run", "release:validate"], buildEnvironment, root);
     run(command("npm"), ["run", "content:validate"], buildEnvironment, root);
@@ -110,7 +134,12 @@ export function runStaticBuild(
     run(command("npm"), ["run", "release:validate-output"], buildEnvironment, root);
     assertRecipeMediaBuildEnvironment(mode, buildEnvironment);
     assertReleaseDeploymentIntegration(root);
-    writeReleaseArtifactMetadata(root);
+    if (mode === "family-test") {
+      writeFamilyTestArtifact(root, buildEnvironment.FAMILY_TEST_SITE_ORIGIN ?? "",
+        buildEnvironment.NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL ?? "");
+    } else {
+      writeReleaseArtifactMetadata(root);
+    }
   }, root);
 }
 

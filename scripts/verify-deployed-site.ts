@@ -32,37 +32,41 @@ export function wirePath(localPath: string) {
   return localPath.replace(/[^\x21-\x7e]/gu, (character) => encodeURIComponent(character));
 }
 
-export const httpsTransport: SiteTransport = (origin, target, maximumBytes) => new Promise((resolve, reject) => {
-  const url = new URL(origin);
-  const req = request({
-    protocol: "https:", hostname: url.hostname, port: 443,
-    method: "GET", path: target,
-    headers: { "Accept-Encoding": "identity", "User-Agent": "MyCafeGourmand-release-acceptance/1" }
-  }, (response) => {
-    const parts: Buffer[] = [];
-    let bytes = 0;
-    response.on("data", (part: Buffer) => {
-      bytes += part.length;
-      if (bytes > maximumBytes) {
-        response.destroy(new Error("Live response exceeded its artifact byte bound."));
-      } else {
-        parts.push(part);
-      }
+export function createHttpsTransport(extraHeaders: Readonly<Record<string, string>> = {}): SiteTransport {
+  return (origin, target, maximumBytes) => new Promise((resolve, reject) => {
+    const url = new URL(origin);
+    const req = request({
+      protocol: "https:", hostname: url.hostname, port: 443,
+      method: "GET", path: target,
+      headers: { "Accept-Encoding": "identity", "User-Agent": "MyCafeGourmand-release-acceptance/1", ...extraHeaders }
+    }, (response) => {
+      const parts: Buffer[] = [];
+      let bytes = 0;
+      response.on("data", (part: Buffer) => {
+        bytes += part.length;
+        if (bytes > maximumBytes) {
+          response.destroy(new Error("Live response exceeded its artifact byte bound."));
+        } else {
+          parts.push(part);
+        }
+      });
+      response.on("error", reject);
+      response.on("aborted", () => reject(new Error("Live response was aborted.")));
+      response.on("end", () => {
+        const headers = Object.fromEntries(Object.entries(response.headers).map(([key, value]) => [
+          key.toLowerCase(), Array.isArray(value) ? value.join(", ") : value
+        ]));
+        resolve({ status: response.statusCode ?? 0, headers, body: Buffer.concat(parts) });
+      });
     });
-    response.on("error", reject);
-    response.on("aborted", () => reject(new Error("Live response was aborted.")));
-    response.on("end", () => {
-      const headers = Object.fromEntries(Object.entries(response.headers).map(([key, value]) => [
-        key.toLowerCase(), Array.isArray(value) ? value.join(", ") : value
-      ]));
-      resolve({ status: response.statusCode ?? 0, headers, body: Buffer.concat(parts) });
-    });
+    const timer = setTimeout(() => req.destroy(new Error("Live request deadline exceeded.")), 15_000);
+    req.on("close", () => clearTimeout(timer));
+    req.on("error", reject);
+    req.end();
   });
-  const timer = setTimeout(() => req.destroy(new Error("Live request deadline exceeded.")), 15_000);
-  req.on("close", () => clearTimeout(timer));
-  req.on("error", reject);
-  req.end();
-});
+}
+
+export const httpsTransport: SiteTransport = createHttpsTransport();
 
 const receiptSchema = z.object({
   schemaVersion: z.literal(1),
@@ -102,7 +106,7 @@ type Check = {
   allowSlashAppend: boolean;
 };
 
-function contentTypes(file: string): readonly string[] | undefined {
+export function contentTypes(file: string): readonly string[] | undefined {
   const types: Record<string, readonly string[]> = {
     ".html": ["text/html"],
     ".js": ["text/javascript", "application/javascript"],

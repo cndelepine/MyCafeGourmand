@@ -9,7 +9,8 @@ export const recipeMediaBaseUrlEnvironmentVariable = "NEXT_PUBLIC_RECIPE_MEDIA_B
 export const recipeMediaReleaseBuildModeEnvironmentVariable =
   "MY_CAFE_GOURMAND_RELEASE_BUILD";
 
-export type RecipeMediaBuildMode = "release" | "non-release";
+export const familyTestBuildModeEnvironmentVariable = "MY_CAFE_GOURMAND_FAMILY_TEST_BUILD";
+export type RecipeMediaBuildMode = "release" | "non-release" | "family-test";
 
 function isConfigured(
   environment: NodeJS.ProcessEnv,
@@ -25,6 +26,11 @@ export function isRecipeMediaReleaseBuild(
     && environment.npm_lifecycle_event === "build:release";
 }
 
+export function isFamilyTestBuild(environment: NodeJS.ProcessEnv = process.env) {
+  return environment[familyTestBuildModeEnvironmentVariable] === "1"
+    && environment.npm_lifecycle_event === "build:family-test";
+}
+
 export function assertRecipeMediaBuildEnvironment(
   mode: RecipeMediaBuildMode,
   environment: NodeJS.ProcessEnv = process.env
@@ -33,13 +39,24 @@ export function assertRecipeMediaBuildEnvironment(
   if (mode === "non-release") {
     if (configured) {
       throw new Error(
-        `${recipeMediaBaseUrlEnvironmentVariable} is only permitted for npm run build:release.`
+        `${recipeMediaBaseUrlEnvironmentVariable} is only permitted for npm run build:release or build:family-test.`
       );
     }
-    if (isConfigured(environment, recipeMediaReleaseBuildModeEnvironmentVariable)) {
+    if (isConfigured(environment, recipeMediaReleaseBuildModeEnvironmentVariable)
+      || isConfigured(environment, familyTestBuildModeEnvironmentVariable)) {
       throw new Error("Release build mode is not permitted for a non-release build.");
     }
     return undefined;
+  }
+  if (mode === "family-test") {
+    if (!isFamilyTestBuild(environment)
+      || isConfigured(environment, recipeMediaReleaseBuildModeEnvironmentVariable)) {
+      throw new Error("Family test media requires the explicit npm run build:family-test mode.");
+    }
+    return requireRecipeMediaBaseUrl(environment[recipeMediaBaseUrlEnvironmentVariable]);
+  }
+  if (isConfigured(environment, familyTestBuildModeEnvironmentVariable)) {
+    throw new Error("Family test configuration cannot be used for production.");
   }
   if (!isRecipeMediaReleaseBuild(environment)) {
     throw new Error("Release media configuration requires the explicit npm run build:release mode.");

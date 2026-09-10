@@ -17,11 +17,8 @@ Contact is deferred entirely: no form provider, backend, replacement email
 link or contact-delivery acceptance is required. Privacy obligations for the
 actual hosting and media services remain.
 
-**Integration prerequisite:** the companion contact-deferral application change
-must land before this workflow is used. This hosting layer stops supplying a
-contact endpoint and no longer requires contact-success routes. The dependent
-application layer removes the remaining `release:validate` contact command and
-active contact UI. Do not deploy the intermediate hosting-only revision.
+The contact-deferral application change is integrated: no contact endpoint is
+supplied or required. This does not waive the remaining release gates below.
 
 Official [plans](https://learn.microsoft.com/en-us/azure/static-web-apps/plans)
 and [quotas](https://learn.microsoft.com/en-us/azure/static-web-apps/quotas),
@@ -128,6 +125,14 @@ and final validation rejects missing, modified or stale legacy pages.
 SWA Free staging is not confidential hosting. Only content already approved for
 public disclosure may be staged. Noindex is crawler guidance, not access
 control.
+
+This section describes the **release staging profile**, not an inherent lack
+of authentication on SWA Free. The separate
+[invited-family test profile](azure-family-test.md) uses built-in sign-in and
+the invitation-only `family` role on a dedicated dev/test app. Its noindex,
+access rules, same-origin test navigation and NONPROMOTABLE artifacts must
+never enter this staging/production promotion flow. Its directly served Blob
+media is still public; only already-approved public media is permitted.
 
 Keep production canonical URLs and approved production media URLs in the
 candidate's site bytes. There is no contact endpoint to configure or rehearse.

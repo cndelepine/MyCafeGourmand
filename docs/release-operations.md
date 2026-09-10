@@ -2,7 +2,8 @@
 
 This document defines artifact, historical URL, and media verification
 boundaries for the existing Azure Static Web Apps static-export architecture.
-Azure resources are not yet provisioned. Contact messaging is deferred entirely.
+Azure resource state must be established from current operator evidence, not
+this document. Contact messaging is deferred entirely.
 The owner-approved hosting design uses Azure Static Web Apps Free and generated
 HTTP 200 legacy HTML navigation pages, not an edge provider or historical
 HTTP 301 responses. Production remains blocked until the required content,
@@ -10,6 +11,18 @@ media, hosting and live acceptance gates pass. The authoritative
 deployment sequence and artifact separation are in [`deployment.md`](deployment.md).
 
 ## Artifact classes
+
+### Invited-family test artifacts
+
+`npm run build:family-test` is a separate, explicitly **NONPROMOTABLE**
+dev/test build. It requires the approved `FAMILY_TEST_SITE_ORIGIN` and public
+`NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL`, retains production canonical metadata,
+and uses test-only same-origin legacy navigation plus invitation-based access.
+It writes `.deployment/family-test-artifact.json`, never release metadata or
+staging/production acceptance receipts. Existing production validators reject
+it. Follow [Azure family testing](azure-family-test.md), not the release
+deployment workflow. A successful family test is not production acceptance
+and requires no WordPress DNS cutover.
 
 ### Local and CI artifacts
 

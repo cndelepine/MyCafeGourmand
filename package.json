@@ -37,6 +37,9 @@
     "release:validate": "tsx scripts/validate-release-media.ts",
     "release:validate-output": "tsx scripts/validate-release-media-output.ts",
     "build:release": "tsx scripts/build-release.ts",
+    "build:family-test": "tsx scripts/build-family-test.ts",
+    "family-test:bootstrap": "tsx scripts/build-family-test.ts",
+    "family-test:verify": "tsx scripts/verify-family-test.ts",
     "check": "npm run repository:safety && npm run lint && npm run typecheck && npm test && npm run recipes:check"
   },
   "dependencies": {

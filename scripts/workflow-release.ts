@@ -122,7 +122,7 @@ export function assertProtectedEnvironment(value: unknown) {
   return { ...environment, deployment_branch_policy: environment.deployment_branch_policy };
 }
 
-async function assertEnvironment(name: "staging" | "production") {
+export async function assertEnvironment(name: "staging" | "production" | "family-test") {
   z.object({ protected: z.literal(true) }).parse(await api("branches/main"));
   const environment = assertProtectedEnvironment(await api(`environments/${name}`));
   if (environment.deployment_branch_policy.custom_branch_policies) {

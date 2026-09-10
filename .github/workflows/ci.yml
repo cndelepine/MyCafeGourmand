@@ -36,8 +36,15 @@ jobs:
         run: npm ci
       - name: Run checks
         run: npm run check
+      - name: Compile resource-group Bicep without Azure credentials
+        run: az bicep build --file infra/azure/main.bicep --outfile "$RUNNER_TEMP/family-test-infrastructure.json"
       - name: Build static CI artifact
         run: npm run build:ci
+      - name: Exercise family profile with nondeployable fixture URLs
+        env:
+          FAMILY_TEST_SITE_ORIGIN: https://family-test-fixture.azurestaticapps.net
+          NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL: https://fixture.blob.core.windows.net/media
+        run: npm run build:family-test
 
   windows:
     name: Validate Windows launcher

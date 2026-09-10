@@ -10,12 +10,13 @@ import { parseExactRedirectManifest } from "../src/content/redirect-manifest";
 import { portablePathComponentKey } from "../src/content/url-path";
 import { productionSiteOrigin, validateLegacyNavigationOutput } from "./legacy-navigation";
 import { readBoundedDeploymentFile, writeNewDeploymentFile } from "./deployment-files";
+import { familyTestPrefix } from "../src/lib/family-test-routes";
 
 const configName = "staticwebapp.config.json";
 const metadataName = ".deployment/release-artifact.json";
 const manifestName = ".deployment/redirect-manifest.json";
 const digestSchema = z.string().regex(/^[a-f0-9]{64}$/u);
-const fileSchema = z.object({
+export const fileSchema = z.object({
   path: z.string().min(1).max(4_096),
   bytes: z.number().int().nonnegative().max(250 * 1024 * 1024),
   sha256: digestSchema
@@ -125,8 +126,16 @@ function contentDigest(files: ReleaseArtifact["files"]) {
   return sha256(JSON.stringify(files.filter((file) => file.path !== configName)));
 }
 
+function rejectFamilyTestArtifact(root: string) {
+  if (existsSync(path.join(root, ".deployment/family-test-artifact.json"))
+    || existsSync(path.join(root, "out", familyTestPrefix.slice(1)))) {
+    throw new Error("NONPROMOTABLE family-test output cannot be used for a production artifact.");
+  }
+}
+
 export function writeReleaseArtifactMetadata(projectRoot: string) {
   const root = path.resolve(projectRoot);
+  rejectFamilyTestArtifact(root);
   const manifestBytes = readBoundedFile(root, manifestName, 4 * 1024 * 1024);
   const manifest = parseExactRedirectManifest(JSON.parse(manifestBytes.toString()));
   validateLegacyNavigationOutput(manifest, path.join(root, "out"));
@@ -156,6 +165,7 @@ export function writeReleaseArtifactMetadata(projectRoot: string) {
 }
 
 export function validateReleaseArtifact(root: string, variant: DeploymentVariant, expectedCommit?: string) {
+  rejectFamilyTestArtifact(root);
   const metadataBytes = readBoundedFile(root, metadataName);
   const metadata = artifactSchema.parse(JSON.parse(metadataBytes.toString()));
   if (expectedCommit !== undefined && metadata.sourceCommit !== expectedCommit) {

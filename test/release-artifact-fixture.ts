@@ -5,7 +5,7 @@ import type { ExactRedirectManifest } from "../src/content/redirect-manifest";
 import { generateLegacyNavigation } from "../scripts/legacy-navigation";
 import { writeReleaseArtifactMetadata } from "../scripts/release-artifact";
 
-export function releaseFixture() {
+export function releaseFixture(recordProductionMetadata = true) {
   const base = path.join(process.cwd(), `.artifact-test-${randomUUID()}`);
   const root = path.join(base, "production");
   mkdirSync(path.join(root, "out"), { recursive: true });
@@ -36,6 +36,6 @@ export function releaseFixture() {
   writeFileSync(path.join(root, "out", "style.css"), "body { color: black; }\n");
   writeFileSync(path.join(root, ".deployment", "redirect-manifest.json"), JSON.stringify(manifest));
   generateLegacyNavigation(manifest, path.join(root, "out"));
-  writeReleaseArtifactMetadata(root);
+  if (recordProductionMetadata) writeReleaseArtifactMetadata(root);
   return { base, root, manifest, cleanup: () => rmSync(base, { recursive: true, force: true }) };
 }

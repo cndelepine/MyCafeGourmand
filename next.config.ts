@@ -2,13 +2,14 @@ import type { NextConfig } from "next";
 import {
   assertRecipeMediaBuildEnvironment,
   getManagedMediaRemotePatterns,
-  isRecipeMediaReleaseBuild
+  isRecipeMediaReleaseBuild,
+  isFamilyTestBuild
 } from "./src/lib/recipe-media";
 
 const nextConfig = (phase: string): NextConfig => {
   if (phase === "phase-production-build") {
     assertRecipeMediaBuildEnvironment(
-      isRecipeMediaReleaseBuild() ? "release" : "non-release"
+      isRecipeMediaReleaseBuild() ? "release" : isFamilyTestBuild() ? "family-test" : "non-release"
     );
   }
   const managedMediaRemotePatterns = getManagedMediaRemotePatterns();
