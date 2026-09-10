@@ -8,8 +8,10 @@ import {
   recipeMediaReleaseBuildModeEnvironmentVariable,
   type RecipeMediaBuildMode
 } from "../src/lib/recipe-media";
-import { assertContactFormBuildEnvironment } from "../src/lib/contact-form";
 import { cleanDeploymentMetadata } from "./deployment-metadata";
+import { assertReleaseDeploymentIntegration } from "../src/lib/release-deployment";
+import { productionSiteOrigin } from "./legacy-navigation";
+import { writeReleaseArtifactMetadata } from "./release-artifact";
 
 function command(name: string) {
   return process.platform === "win32" ? `${name}.cmd` : name;
@@ -39,6 +41,23 @@ function nextExecutable(projectRoot: string) {
     ".bin",
     process.platform === "win32" ? "next.cmd" : "next"
   );
+}
+
+export function createReleaseBuildEnvironment(environment: NodeJS.ProcessEnv) {
+  if (Object.hasOwn(environment, recipeMediaReleaseBuildModeEnvironmentVariable)) {
+    throw new Error("Release build mode is reserved for the guarded release command.");
+  }
+  if (
+    environment.NEXT_PUBLIC_SITE_URL !== undefined
+    && environment.NEXT_PUBLIC_SITE_URL !== productionSiteOrigin
+  ) {
+    throw new Error(`Release canonical origin must be ${productionSiteOrigin}.`);
+  }
+  return {
+    ...environment,
+    NEXT_PUBLIC_SITE_URL: productionSiteOrigin,
+    [recipeMediaReleaseBuildModeEnvironmentVariable]: "1"
+  };
 }
 
 export function runWithDeploymentMetadataInvalidation<T>(
@@ -71,7 +90,6 @@ export function runStaticBuild(
   return runWithDeploymentMetadataInvalidation(() => {
     if (mode === "non-release") {
       assertRecipeMediaBuildEnvironment(mode, environment);
-      assertContactFormBuildEnvironment(mode, environment);
       const buildEnvironment = { ...environment };
       delete buildEnvironment[recipeMediaReleaseBuildModeEnvironmentVariable];
       run(command("npm"), ["run", "content:validate"], buildEnvironment, root);
@@ -81,15 +99,8 @@ export function runStaticBuild(
       return;
     }
 
-    if (Object.hasOwn(environment, recipeMediaReleaseBuildModeEnvironmentVariable)) {
-      throw new Error("Release build mode is reserved for the guarded release command.");
-    }
-    const buildEnvironment = {
-      ...environment,
-      [recipeMediaReleaseBuildModeEnvironmentVariable]: "1"
-    };
+    const buildEnvironment = createReleaseBuildEnvironment(environment);
     assertRecipeMediaBuildEnvironment(mode, buildEnvironment);
-    assertContactFormBuildEnvironment(mode, buildEnvironment);
     run(command("npm"), ["run", "release:validate"], buildEnvironment, root);
     run(command("npm"), ["run", "content:validate"], buildEnvironment, root);
     run(command("npm"), ["run", "search:generate"], buildEnvironment, root);
@@ -98,6 +109,8 @@ export function runStaticBuild(
     assertRecipeMediaBuildEnvironment(mode, buildEnvironment);
     run(command("npm"), ["run", "release:validate-output"], buildEnvironment, root);
     assertRecipeMediaBuildEnvironment(mode, buildEnvironment);
+    assertReleaseDeploymentIntegration(root);
+    writeReleaseArtifactMetadata(root);
   }, root);
 }
 

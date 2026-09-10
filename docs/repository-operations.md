@@ -38,20 +38,35 @@ Keep each customization focused:
 
 | File | Purpose |
 | --- | --- |
-| `AGENTS.md` | Short shared repository invariants and links to task guides |
+| `AGENTS.md` | Shared Copilot and Codex repository invariants and links to task guides |
 | `.github/copilot-instructions.md` | Compatibility entry point directing Copilot to that contract |
-| `.github/skills/migration-operator/SKILL.md` | Task-specific guidance for private migration work |
+| `.agents/skills/family-site-maintainer/SKILL.md` | Plain-language recipe, preview, review-preparation, and release-status entry point |
+| `.agents/skills/migration-operator/SKILL.md` | Task-specific guidance for private migration work |
 | `.github/agents/migration-release-reviewer.agent.md` | Optional review focus with file-read/search tools only |
 
-GitHub documents `.github/copilot-instructions.md` as repository-wide
-instructions; support for `AGENTS.md` varies by client. A Markdown link requests
-reading another file, not automatic inclusion. Keep important invariants in
-the shared contract rather than duplicating a long prompt across both files.
+GitHub Copilot coding agent and CLI and OpenAI Codex all document `AGENTS.md`
+discovery. Copilot also reads `.github/copilot-instructions.md`; Codex does not
+document that path. Copilot can combine applicable instruction files without a
+general precedence order, while Codex reads one instruction file per directory
+from repository root toward the working directory and gives closer guidance
+greater weight. Keep the GitHub-specific file short and nonconflicting. A
+Markdown link requests reading another file, not automatic inclusion.
 
-Project skills are discovered under `.github/skills/<name>/SKILL.md`. Their YAML
-frontmatter needs `name` and a `description` explaining intent and when the skill
-is relevant. Descriptions help selection; they do not guarantee activation.
-Use the operator guide directly if a skill is unavailable. Do not put critical
+Both harnesses discover project skills under
+`.agents/skills/<name>/SKILL.md`, so that is the single canonical skill
+location. Do not add duplicate `.github/skills` copies or rely on
+skill-directory symlinks: Codex documents symlink support, but GitHub does not.
+Portable YAML frontmatter uses only `name` and `description`. The name must
+match its folder, use lowercase ASCII letters, digits, and single hyphens, and
+be at most 64 characters. The description must be at most 1,024 characters,
+contain no angle brackets, and explain what the skill does and when it applies.
+
+Descriptions help automatic selection; they do not guarantee activation. In
+Copilot CLI, use `/skills list` to inspect discovery and mention
+`/family-site-maintainer` or `/migration-operator` explicitly. In Codex, use
+`/skills` or mention `$family-site-maintainer` or `$migration-operator`. If a
+skill is unavailable, read its linked canonical guide directly; reload or start
+a new agent session after adding discovery files. Do not put critical
 validation solely in skill instructions or add shell preapproval to avoid
 operation-specific authorization.
 
@@ -65,15 +80,26 @@ A profile describes a review role, not a sandbox or mandatory approval gate.
 Keep discovery/frontmatter/tool assumptions aligned with the official references:
 
 - [Custom instruction support](https://docs.github.com/en/copilot/reference/custom-instructions-support)
+- [Copilot CLI custom instructions](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions)
 - [Adding agent skills](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills)
+- [Copilot CLI skills](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills)
 - [Custom agent configuration and tool aliases](https://docs.github.com/en/copilot/reference/custom-agents-configuration)
 - [Cloud-agent environment setup](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/customize-the-agent-environment)
+- [Codex `AGENTS.md` discovery](https://developers.openai.com/codex/guides/agents-md/)
+- [Codex Agent Skills](https://developers.openai.com/codex/skills/)
 
 ## Administrator-owned launch gates
 
 The files in this repository do **not** configure GitHub repository rules or
 security settings. A repository administrator must configure and verify the
 following before launch.
+
+The read-only audit on 2026-09-05 found the repository public and `main`
+without branch protection, rulesets, or required checks. The auditing identity
+did not have administrator or maintain permission, so it could not configure
+them. GitHub returned no usable `security_and_analysis` state; that is unknown,
+not evidence that security features are disabled. Treat every item below as
+unresolved until an owner or administrator verifies the live setting.
 
 ### Protect `main`
 

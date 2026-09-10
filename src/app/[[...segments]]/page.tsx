@@ -5,7 +5,7 @@ import { EditorialPage } from "@/components/editorial-page";
 import { GalleryPage } from "@/components/gallery-page";
 import { LandingPage } from "@/components/landing-page";
 import { RecipeView } from "@/components/recipe-view";
-import { ContactSuccessPage } from "@/components/contact-success-page";
+import { ContactUnavailablePage } from "@/components/contact-unavailable-page";
 import { recipeCatalog } from "@/content/catalog";
 import { editorialCatalog } from "@/content/editorial-catalog";
 import { galleryCatalog } from "@/content/gallery-catalog";
@@ -86,7 +86,7 @@ export default async function StaticPathPage({
   const segments = routeSegments ?? [];
   const successLocale = findContactSuccessLocale(segments);
   if (successLocale !== undefined) {
-    return <ContactSuccessPage locale={successLocale} />;
+    return <ContactUnavailablePage locale={successLocale} />;
   }
   const editorial = findEditorialBySegments(segments, editorialCatalog);
   if (editorial) {

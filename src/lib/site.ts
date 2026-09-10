@@ -7,12 +7,13 @@ import type { GalleryRecord } from "@/content/gallery-schema";
 import type { Locale, RecipeRecord } from "@/content/schema";
 import { resolveManagedMediaUrl, resolveRecipeMediaUrl } from "./recipe-media";
 import {
-  getContactSuccessCopy,
+  getContactUnavailableCopy,
   getContactSuccessPath
 } from "./contact-routes";
 import {
   getEditorialLanguageAlternates,
-  getEditorialPath
+  getEditorialPath,
+  isEditorialContactPage
 } from "./editorial-routes";
 import {
   getCategoryPagePath,
@@ -135,7 +136,9 @@ export function getEditorialMetadata(
   catalog: readonly EditorialPageRecord[]
 ): Metadata {
   const title = record.title ?? undefined;
-  const description = record.excerpt ?? undefined;
+  const description = isEditorialContactPage(record)
+    ? getContactUnavailableCopy(record.locale).message
+    : record.excerpt ?? undefined;
   const canonical = canonicalUrl(getEditorialPath(record));
   const featured = record.featuredMediaId === null
     ? undefined
@@ -200,7 +203,7 @@ export function getGalleryMetadata(record: GalleryRecord): Metadata {
 }
 
 export function getContactSuccessMetadata(locale: Locale): Metadata {
-  const copy = getContactSuccessCopy(locale);
+  const copy = getContactUnavailableCopy(locale);
   const canonical = canonicalUrl(getContactSuccessPath(locale));
 
   return {

@@ -20,10 +20,12 @@ import {
 } from "../src/content/staticwebapp";
 import { validateContent } from "../src/content/validation";
 import { loadHandAuthoredStaticWebAppConfig } from "./staticwebapp-config";
+import { assertFreshLegacyOutput, generateLegacyNavigation } from "./legacy-navigation";
 import {
   deploymentMetadataDirectoryName,
   stagedDeploymentMetadataDirectoryName,
   previousDeploymentMetadataDirectoryName,
+  cleanDeploymentMetadata,
   removeManagedDirectory,
   validateManagedDirectory
 } from "./deployment-metadata";
@@ -97,6 +99,20 @@ export function generateDeploymentArtifacts(
   outputDirectory = path.join(projectRoot, "out")
 ) {
   const root = path.resolve(projectRoot);
+  cleanDeploymentMetadata(root);
+  try {
+    return generateArtifacts(root, outputDirectory);
+  } catch (error) {
+    cleanDeploymentMetadata(root);
+    throw error;
+  }
+}
+
+function generateArtifacts(
+  projectRoot: string,
+  outputDirectory: string
+) {
+  const root = path.resolve(projectRoot);
   const outputRoot = path.resolve(outputDirectory);
   const handAuthoredConfig = loadHandAuthoredStaticWebAppConfig(root);
   const {
@@ -137,6 +153,8 @@ export function generateDeploymentArtifacts(
   }
 
   const staticWebAppConfigPath = path.join(outputRoot, "staticwebapp.config.json");
+  assertFreshLegacyOutput(outputRoot);
+  generateLegacyNavigation(redirectManifest, outputRoot);
   removeLegacyPublicRedirectManifest(outputRoot);
   writeFileSync(staticWebAppConfigPath, staticWebAppConfigContents, "utf8");
   const redirectManifestPath = replaceDeploymentMetadata(
@@ -161,7 +179,7 @@ if (fileURLToPath(import.meta.url) === path.resolve(process.argv[1] ?? "")) {
     } = generateDeploymentArtifacts();
     console.log(
       `Generated ${redirectManifestPath} with ` +
-      `${redirectManifest.redirects.length} exact redirect(s).`
+      `${redirectManifest.redirects.length} static legacy navigation page(s).`
     );
     console.log(`Generated ${staticWebAppConfigPath}.`);
   } catch (error) {

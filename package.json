@@ -34,7 +34,7 @@
     "inventory:urls": "tsx scripts/inventory-urls.ts",
     "inventory:wordpress-source": "tsx scripts/inventory-wordpress-source.ts",
     "probe:wordpress-source": "tsx scripts/inventory-wordpress-source-evidence.ts",
-    "release:validate": "tsx scripts/validate-release-media.ts && tsx scripts/validate-release-contact-form.ts",
+    "release:validate": "tsx scripts/validate-release-media.ts",
     "release:validate-output": "tsx scripts/validate-release-media-output.ts",
     "build:release": "tsx scripts/build-release.ts",
     "check": "npm run repository:safety && npm run lint && npm run typecheck && npm test && npm run recipes:check"

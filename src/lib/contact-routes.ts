@@ -4,35 +4,36 @@ export type ContactSuccessRouteParams = {
   readonly segments: string[];
 };
 
+// Keep previously generated URLs reserved, but never render a submission receipt.
 const successRouteSegments: Record<Locale, readonly string[]> = {
   en: ["contact", "success"],
   fr: ["fr", "contact", "success"],
   ru: ["ru", "contact", "success"]
 };
 
-const successCopy: Record<Locale, {
-  readonly backToContact: string;
+const unavailableCopy: Record<Locale, {
+  readonly backToRecipes: string;
   readonly footer: string;
   readonly message: string;
   readonly title: string;
 }> = {
   en: {
-    backToContact: "Return to contact",
+    backToRecipes: "Browse recipes",
     footer: "Made with care, one recipe at a time.",
-    message: "Thank you. Your message has been received.",
-    title: "Message received"
+    message: "Contact messaging is not available on this site.",
+    title: "Contact unavailable"
   },
   fr: {
-    backToContact: "Retour au contact",
+    backToRecipes: "Voir les recettes",
     footer: "Préparé avec soin, une recette à la fois.",
-    message: "Merci. Votre message a bien été reçu.",
-    title: "Message reçu"
+    message: "L’envoi de messages n’est pas disponible sur ce site.",
+    title: "Contact indisponible"
   },
   ru: {
-    backToContact: "Вернуться к контактам",
+    backToRecipes: "Посмотреть рецепты",
     footer: "С заботой, по одному рецепту за раз.",
-    message: "Спасибо. Ваше сообщение получено.",
-    title: "Сообщение получено"
+    message: "Отправка сообщений на этом сайте недоступна.",
+    title: "Обратная связь недоступна"
   }
 };
 
@@ -44,8 +45,8 @@ export function getContactSuccessPath(locale: Locale) {
   return `/${getContactSuccessSegments(locale).join("/")}/`;
 }
 
-export function getContactSuccessCopy(locale: Locale) {
-  return successCopy[locale];
+export function getContactUnavailableCopy(locale: Locale) {
+  return unavailableCopy[locale];
 }
 
 export function getContactSuccessStaticParams(): ContactSuccessRouteParams[] {

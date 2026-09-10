@@ -1,7 +1,8 @@
 import type { EditorialPageRecord, Locale } from "@/content/editorial-schema";
 import type { GalleryRecord } from "@/content/gallery-schema";
 import { resolveManagedMediaUrl } from "./recipe-media";
-import { getEditorialPath, getEditorialSegments } from "./editorial-routes";
+import { getEditorialPath, getEditorialSegments, isEditorialContactPage } from "./editorial-routes";
+import { getContactUnavailableCopy } from "./contact-routes";
 import { absoluteUrl, canonicalUrl } from "./site";
 import { getLocaleHomePath } from "./recipe-routes";
 
@@ -117,7 +118,9 @@ export function getEditorialStructuredData(
     "@graph": [{
       "@type": "WebPage",
       "@id": canonical,
-      ...(record.excerpt === null ? {} : { description: record.excerpt }),
+      ...(isEditorialContactPage(record)
+        ? { description: getContactUnavailableCopy(record.locale).message }
+        : record.excerpt === null ? {} : { description: record.excerpt }),
       ...(record.title === null ? {} : { name: record.title }),
       ...(featured === undefined
         ? {}

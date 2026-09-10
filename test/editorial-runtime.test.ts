@@ -149,7 +149,7 @@ test("mobile navigation is server-rendered with native keyboard-operable disclos
     markup,
     /<details class="mobile-site-navigation"><summary>Menu<\/summary><nav aria-label="Mobile navigation">/u
   );
-  for (const href of ["/", "/table-setting", "/gallery", "/contact"]) {
+  for (const href of ["/", "/table-setting", "/gallery"]) {
     assert.match(markup, new RegExp(`class="mobile-site-navigation"[\\s\\S]*?href="${href}`));
   }
 });
@@ -220,8 +220,7 @@ test("editorial rendering maps every bounded AST block to safe semantic HTML", (
       { type: "recipeCardGrid", recipeIds: [recipeCatalog[0]!.id] },
       { type: "editorialPageCardGrid", pageIds: [cardPage.id] },
       { type: "emptyCardGrid", reason: "source-category-missing" },
-      { type: "galleryCallout", galleryId: gallery.id },
-      { type: "contactForm" }
+      { type: "galleryCallout", galleryId: gallery.id }
     ],
     featuredMediaId: mediaId
   });
@@ -243,7 +242,6 @@ test("editorial rendering maps every bounded AST block to safe semantic HTML", (
   assert.match(markup, /class="editorial-card-grid"/u);
   assert.match(markup, /class="editorial-card-grid editorial-card-grid-empty"/u);
   assert.match(markup, /class="gallery-callout"/u);
-  assert.match(markup, /data-contact-form-boundary="unavailable"/u);
   assert.match(markup, /class="editorial-featured-image"/u);
   assert.match(markup, new RegExp(`width="${dimensions.width}"`));
   assert.match(markup, new RegExp(`height="${dimensions.height}"`));
@@ -385,7 +383,6 @@ test("gallery rendering, sitemap, and static redirects close the public route se
     [{
       source: "/old-editorial/",
       destination: "/editorial-redirect/",
-      status: 301
     }]
   );
   assert.throws(

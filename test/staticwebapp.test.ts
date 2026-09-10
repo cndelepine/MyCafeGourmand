@@ -56,17 +56,16 @@ test("generates deterministic provider-neutral redirects from recipe redirect so
   const manifest = createExactRedirectManifest([record]);
 
   assert.deepEqual(manifest, {
-    schemaVersion: 1,
+    schemaVersion: 2,
+    mechanism: "html-refresh",
     redirects: [
       {
         source: "/old/soup/",
-        destination: "/recipes/fixture-recipe/",
-        status: 301
+        destination: "/recipes/fixture-recipe/"
       },
       {
         source: "/old/soup-2",
-        destination: "/recipes/fixture-recipe/",
-        status: 301
+        destination: "/recipes/fixture-recipe/"
       }
     ]
   });
@@ -101,8 +100,7 @@ test("uses trailing-slash canonical destinations for localized recipes", () => {
   assert.deepEqual(createExactRedirectManifest([record]).redirects, [
     {
       source: "/ancienne-soupe",
-      destination: "/fr/recipes/soupe/",
-      status: 301
+      destination: "/fr/recipes/soupe/"
     }
   ]);
 });

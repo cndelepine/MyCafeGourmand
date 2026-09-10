@@ -2,7 +2,6 @@ import Link from "next/link";
 import { editorialCatalog } from "@/content/editorial-catalog";
 import type { Locale } from "@/content/schema";
 import {
-  findEditorialContactPage,
   findEditorialLandingPage,
   getEditorialPath
 } from "@/lib/editorial-routes";
@@ -38,7 +37,6 @@ const navigationLabels: Record<Locale, {
   method: string;
   recipes: string;
   gallery: string;
-  contact: string;
 }> = {
   en: {
     navigation: "Primary navigation",
@@ -49,8 +47,7 @@ const navigationLabels: Record<Locale, {
     ingredients: "Ingredients",
     method: "Method",
     recipes: "Recipes",
-    gallery: "Gallery",
-    contact: "Contact"
+    gallery: "Gallery"
   },
   fr: {
     navigation: "Navigation principale",
@@ -61,8 +58,7 @@ const navigationLabels: Record<Locale, {
     ingredients: "Ingrédients",
     method: "Préparation",
     recipes: "Recettes",
-    gallery: "Galerie",
-    contact: "Contact"
+    gallery: "Galerie"
   },
   ru: {
     navigation: "Основная навигация",
@@ -73,14 +69,12 @@ const navigationLabels: Record<Locale, {
     ingredients: "Ингредиенты",
     method: "Приготовление",
     recipes: "Рецепты",
-    gallery: "Галерея",
-    contact: "Контакт"
+    gallery: "Галерея"
   }
 };
 
 export function SiteHeader({ locale, page, translations }: SiteHeaderProps) {
   const labels = navigationLabels[locale];
-  const contactPage = findEditorialContactPage(locale, editorialCatalog);
   const editorialLandingPage = findEditorialLandingPage(locale, editorialCatalog);
   const recipePath = page === "landing" ? "#recipes" : getLocaleHomePath(locale);
   const translationsByLocale = translations === undefined
@@ -95,9 +89,6 @@ export function SiteHeader({ locale, page, translations }: SiteHeaderProps) {
         </Link>
       ) : null}
       <Link href="/gallery/">{labels.gallery}</Link>
-      {contactPage ? (
-        <Link href={getEditorialPath(contactPage)}>{contactPage.title ?? labels.contact}</Link>
-      ) : null}
     </>
   );
 

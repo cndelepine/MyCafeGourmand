@@ -5,6 +5,13 @@
 Read root [`AGENTS.md`](AGENTS.md) for architecture, content fidelity, privacy,
 URL safety, and implementation invariants.
 
+For plain-language recipe, preview, review-preparation, and release-status
+requests, start with
+[`docs/family-maintenance.md`](docs/family-maintenance.md). It defines which
+actions are read-only, local, GitHub-publishing, external-service, or
+production-affecting; do not cross those boundaries without the stated
+authorization.
+
 Use Node.js 24.20.0 from `.nvmrc` and install the locked dependencies:
 
 ```sh

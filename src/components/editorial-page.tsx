@@ -7,7 +7,7 @@ import {
   getEditorialStructuredData,
   serializeEditorialStructuredData
 } from "@/lib/editorial-structured-data";
-import { getEditorialTranslations, getEditorialPath } from "@/lib/editorial-routes";
+import { getEditorialTranslations, getEditorialPath, isEditorialContactPage } from "@/lib/editorial-routes";
 import { resolveManagedMediaUrl } from "@/lib/recipe-media";
 import { EditorialContent } from "./editorial-content";
 import { SiteHeader } from "./site-header";
@@ -78,7 +78,7 @@ export function EditorialPage({
         <article>
           <header className="editorial-page-header">
             {page.title ? <h1>{page.title}</h1> : null}
-            {page.excerpt ? <p className="intro">{page.excerpt}</p> : null}
+            {page.excerpt && !isEditorialContactPage(page) ? <p className="intro">{page.excerpt}</p> : null}
             {featuredWithDimensions ? (
               <figure className="editorial-featured-figure">
                 <Image

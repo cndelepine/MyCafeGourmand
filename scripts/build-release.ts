@@ -2,7 +2,6 @@
 
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { assertReleaseDeploymentIntegration } from "../src/lib/release-deployment";
 import { cleanDeploymentMetadata } from "./deployment-metadata";
 import { runStaticBuild } from "./build-static";
 
@@ -19,7 +18,6 @@ export function runReleaseBuild(
   if (environment.npm_lifecycle_event !== "build:release") {
     throw new Error("Release media configuration requires npm run build:release.");
   }
-  assertReleaseDeploymentIntegration();
   runStaticBuild("release", environment, root);
 }
 

@@ -10,8 +10,9 @@ import type { GalleryRecord } from "@/content/gallery-schema";
 import type { RecipeRecord } from "@/content/schema";
 import { createRecipeCatalogEntries } from "@/lib/recipe-catalog-data";
 import { resolveManagedMediaUrl } from "@/lib/recipe-media";
+import { isEditorialContactPage } from "@/lib/editorial-routes";
 import { EditorialCardGrid } from "./editorial-card-grid";
-import { ContactFormBoundary } from "./contact-form-boundary";
+import { ContactUnavailableNotice } from "./contact-unavailable-notice";
 import { ContentHeading } from "./content-heading";
 import { RecipeCardGrid } from "./recipe-card-grid";
 
@@ -240,7 +241,7 @@ function renderBlock(
       );
     }
     case "contactForm":
-      return <ContactFormBoundary key={key} locale={props.page.locale} />;
+      return <ContactUnavailableNotice key={key} locale={props.page.locale} />;
   }
 }
 
@@ -276,6 +277,10 @@ function contextualBlocks(page: EditorialPageRecord) {
 }
 
 export function EditorialContent(props: EditorialContentProps) {
+  // Preserve the source record without publishing obsolete form/comment invitations.
+  if (isEditorialContactPage(props.page)) {
+    return <ContactUnavailableNotice locale={props.page.locale} />;
+  }
   const media = new Map((props.page.media ?? []).map((asset) => [asset.id, asset] as const));
   const blocks = contextualBlocks(props.page);
   return (

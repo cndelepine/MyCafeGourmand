@@ -1,3 +1,4 @@
+import { z } from "zod";
 import type { EditorialPageRecord } from "./editorial-schema";
 import type { GalleryRecord } from "./gallery-schema";
 import type { RecipeRecord } from "./schema";
@@ -9,13 +10,33 @@ import { getRecipePath } from "../lib/recipe-routes";
 export type ExactRedirect = {
   source: string;
   destination: string;
-  status: 301;
 };
 
 export type ExactRedirectManifest = {
-  schemaVersion: 1;
+  schemaVersion: 2;
+  mechanism: "html-refresh";
   redirects: ExactRedirect[];
 };
+
+const manifestSchema = z.object({
+  schemaVersion: z.literal(2),
+  mechanism: z.literal("html-refresh"),
+  redirects: z.array(z.object({
+    source: z.string().min(1).max(8_192),
+    destination: z.string().min(1).max(8_192)
+  }).strict()).max(15_000)
+}).strict();
+
+export function parseExactRedirectManifest(value: unknown): ExactRedirectManifest {
+  const manifest = manifestSchema.parse(value);
+  validateExactRedirects(manifest.redirects, [], [], []);
+  for (const { destination } of manifest.redirects) {
+    if (!destination.endsWith("/")) {
+      throw new Error("Legacy navigation destinations must use a trailing slash.");
+    }
+  }
+  return manifest;
+}
 
 function compareStrings(left: string, right: string) {
   return left < right ? -1 : left > right ? 1 : 0;
@@ -98,8 +119,7 @@ export function createExactRedirectManifest(
     for (const redirectFrom of record.redirectFrom) {
       redirects.push({
         source: redirectFrom,
-        destination: getRecipeRedirectDestination(record),
-        status: 301
+        destination: getRecipeRedirectDestination(record)
       });
     }
   }
@@ -107,8 +127,7 @@ export function createExactRedirectManifest(
     for (const redirectFrom of record.redirectFrom ?? []) {
       redirects.push({
         source: redirectFrom,
-        destination: getEditorialRedirectDestination(record),
-        status: 301
+        destination: getEditorialRedirectDestination(record)
       });
     }
   }
@@ -120,7 +139,8 @@ export function createExactRedirectManifest(
       || compareStrings(left.destination, right.destination)
   );
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
+    mechanism: "html-refresh",
     redirects
   };
 }

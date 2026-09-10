@@ -25,6 +25,8 @@ import {
   resolveRecipeMediaUrl
 } from "../src/lib/recipe-media";
 import { getPublicStaticPageParams } from "../src/lib/public-routes";
+import { createExactRedirectManifest } from "../src/content/redirect-manifest";
+import { validateLegacyNavigationOutput } from "./legacy-navigation";
 
 const maxReleaseArtifactBytes = 16 * 1024 * 1024;
 export const maxAzureStaticWebAppsFiles = 15_000;
@@ -196,6 +198,11 @@ export function validateStaticExportOutput(
   for (const { segments } of staticRoutes) {
     outputFileSize(staticPageFile(root, segments));
   }
+  validateLegacyNavigationOutput(createExactRedirectManifest(
+    options.catalog,
+    options.editorialRecords ?? [],
+    options.galleryRecords ?? []
+  ), root);
 
   return {
     bytes,

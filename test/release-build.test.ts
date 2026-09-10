@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { spawnSync } from "node:child_process";
 import {
   existsSync,
   mkdtempSync,
@@ -12,6 +13,7 @@ import test from "node:test";
 import { runReleaseBuild } from "../scripts/build-release";
 import {
   runStaticBuild,
+  createReleaseBuildEnvironment,
   runWithDeploymentMetadataInvalidation
 } from "../scripts/build-static";
 import {
@@ -19,6 +21,8 @@ import {
   recipeMediaBaseUrlEnvironmentVariable
 } from "../src/lib/recipe-media";
 import { assertReleaseDeploymentIntegration } from "../src/lib/release-deployment";
+import { generateLegacyNavigation } from "../scripts/legacy-navigation";
+import type { ExactRedirectManifest } from "../src/content/redirect-manifest";
 
 type PackageScripts = Readonly<Record<string, string>>;
 
@@ -68,32 +72,85 @@ test("only the guarded release command can produce a deployable static artifact"
     scripts["staticwebapp:generate"],
     scripts["deployment:generate"]
   );
-  assert.match(
-    scripts["release:validate"],
-    /validate-release-contact-form/u
-  );
+  assert.match(scripts["release:validate"], /validate-release-media/u);
   assert.match(
     readFileSync(path.resolve(process.cwd(), ".github/workflows/ci.yml"), "utf8"),
     /npm run build:ci/u
   );
 });
 
-test("release builds remain blocked until exact redirects have a deployment adapter", () => {
-  assert.throws(
-    () => assertReleaseDeploymentIntegration(),
-    /blocked until an exact-redirect edge adapter consumes \.deployment\/redirect-manifest\.json/u
-  );
+test("release deployment requires matching generated legacy pages, not an edge assertion", () => {
+  withTempDirectory((projectRoot) => {
+    const metadataRoot = seedDeploymentMetadata(projectRoot);
+    const out = path.join(projectRoot, "out");
+    mkdirSync(out);
+    assert.throws(() => assertReleaseDeploymentIntegration(projectRoot));
+    const manifest: ExactRedirectManifest = {
+      schemaVersion: 2,
+      mechanism: "html-refresh",
+      redirects: [{ source: "/old/", destination: "/recipes/new/" }]
+    };
+    writeFileSync(path.join(metadataRoot, "redirect-manifest.json"), JSON.stringify(manifest));
+    assert.throws(() => assertReleaseDeploymentIntegration(projectRoot), /Missing/u);
+    generateLegacyNavigation(manifest, out);
+    assert.doesNotThrow(() => assertReleaseDeploymentIntegration(projectRoot));
+    writeFileSync(path.join(out, "old/index.html"), "tampered");
+    assert.throws(() => assertReleaseDeploymentIntegration(projectRoot), /Modified/u);
+  });
+});
+
+test("release builds fail before Next when public integration configuration is missing", () => {
   withTempDirectory((projectRoot) => {
     const metadataRoot = seedDeploymentMetadata(projectRoot);
     assert.throws(
       () => runReleaseBuild(
         ["node", "scripts/build-release.ts"],
-        { ...process.env, npm_lifecycle_event: "build:release" },
+        { NODE_ENV: "test", npm_lifecycle_event: "build:release" },
         projectRoot
-      ),
-      /Release build is blocked/u
+      )
     );
     assert.equal(existsSync(metadataRoot), false);
+  });
+});
+
+test("release builds refuse a preview canonical origin and invalidate metadata", () => {
+  withTempDirectory((projectRoot) => {
+    const metadataRoot = seedDeploymentMetadata(projectRoot);
+    assert.throws(() => runStaticBuild("release", {
+      NODE_ENV: "test",
+      npm_lifecycle_event: "build:release",
+      NEXT_PUBLIC_SITE_URL: "https://preview.example.test"
+    }, projectRoot), /Release canonical origin/u);
+    assert.equal(existsSync(metadataRoot), false);
+  });
+});
+
+test("release build canonical origin overrides conflicting Next dotenv configuration", () => {
+  withTempDirectory((projectRoot) => {
+    writeFileSync(
+      path.join(projectRoot, ".env.production.local"),
+      "NEXT_PUBLIC_SITE_URL=https://preview.example.test\n"
+    );
+    const environment: NodeJS.ProcessEnv = {
+      ...process.env,
+      NODE_ENV: "production",
+      npm_lifecycle_event: "build:release"
+    };
+    delete environment.NEXT_PUBLIC_SITE_URL;
+    delete environment.MY_CAFE_GOURMAND_RELEASE_BUILD;
+    const result = spawnSync(process.execPath, [
+      "-e",
+      "require('@next/env').loadEnvConfig(process.argv[1], false); " +
+        "console.log(process.env.NEXT_PUBLIC_SITE_URL);",
+      projectRoot
+    ], {
+      cwd: process.cwd(),
+      env: createReleaseBuildEnvironment(environment),
+      encoding: "utf8",
+      timeout: 30_000
+    });
+    assert.equal(result.status, 0, result.stderr);
+    assert.equal(result.stdout.trim(), "https://mycafegourmand.com");
   });
 });
 

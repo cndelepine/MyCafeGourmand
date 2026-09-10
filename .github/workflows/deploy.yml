@@ -1,0 +1,239 @@
+name: Azure deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: "Build once with separate staging/production approvals, or restore an accepted production run"
+        required: true
+        type: choice
+        options: [prepare, rollback]
+      source_run:
+        description: "Accepted production/rollback workflow run for rollback; 0 for prepare"
+        required: true
+        default: "0"
+        type: string
+      expected_production_run:
+        description: "Latest accepted production/rollback run ID (0 only before first production)"
+        required: true
+        default: "0"
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  authorize:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      artifact_id: ${{ steps.authorize.outputs.artifact_id }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci
+      - name: Check real environment protections and trusted source run
+        id: authorize
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OPERATION: ${{ inputs.operation }}
+          SOURCE_RUN: ${{ inputs.source_run }}
+          EXPECTED_CURRENT: ${{ inputs.expected_production_run }}
+        run: npx --no-install tsx scripts/workflow-release.ts authorize "$OPERATION" "$SOURCE_RUN" "$EXPECTED_CURRENT"
+
+  prepare:
+    needs: authorize
+    if: inputs.operation == 'prepare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - name: Build production exactly once using approved public configuration
+        env:
+          NEXT_PUBLIC_SITE_URL: https://mycafegourmand.com
+          NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL: ${{ vars.NEXT_PUBLIC_RECIPE_MEDIA_BASE_URL }}
+        run: npm run build:release
+      - run: npx --no-install tsx scripts/release-artifact.ts validate . production "$GITHUB_SHA"
+      - name: Retain original production output and separate metadata
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: release-production
+          path: |
+            out/
+            .deployment/release-artifact.json
+            .deployment/redirect-manifest.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 90
+
+  staging:
+    name: Approve public staging of this main commit
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment: staging
+    concurrency:
+      group: azure-site-mutation
+      cancel-in-progress: false
+    env:
+      STAGING_SITE_ORIGIN: ${{ vars.STAGING_SITE_ORIGIN }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: release-production
+          path: candidate
+          digest-mismatch: error
+      - name: Derive isolated staging config, never mutate retained production
+        run: |
+          npx --no-install tsx scripts/release-artifact.ts validate candidate production "$GITHUB_SHA"
+          npx --no-install tsx scripts/release-artifact.ts prepare-staging candidate staging-output
+          mv staging-output/out out
+          mv staging-output/.deployment .deployment
+          rmdir staging-output
+          npx --no-install tsx scripts/release-artifact.ts validate . staging "$GITHUB_SHA"
+          npx --no-install tsx -e 'import { validateSiteOrigin } from "./scripts/verify-deployed-site"; validateSiteOrigin(process.env.STAGING_SITE_ORIGIN ?? "", "staging");'
+      - name: Upload prebuilt named preview
+        id: upload
+        uses: Azure/static-web-apps-deploy@4d27395796ac319302594769cfe812bd207490b1 # maintained v1 release branch (tag predates named environments)
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: out
+          output_location: ""
+          skip_app_build: true
+          skip_api_build: true
+          deployment_environment: staging
+      - name: Require expected direct preview hostname
+        env:
+          ACTUAL_ORIGIN: ${{ steps.upload.outputs.static_web_app_url }}
+        run: |
+          node -e 'const a=process.env.ACTUAL_ORIGIN,e=process.env.STAGING_SITE_ORIGIN;if(a!==e&&a!==e+"/")throw Error("Unexpected Azure preview hostname");'
+      - name: Verify every file, historical source, and staging policy
+        run: npx --no-install tsx scripts/verify-deployed-site.ts verify . staging .deployment/staging-acceptance.json
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: staging-acceptance
+          path: .deployment/staging-acceptance.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 90
+
+  production:
+    name: Approve production (${{ inputs.operation }})
+    needs: [authorize, prepare, staging]
+    if: always() && !cancelled() && needs.authorize.result == 'success' && (inputs.operation == 'rollback' || needs.staging.result == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment: production
+    concurrency:
+      group: azure-site-mutation
+      cancel-in-progress: false
+    env:
+      STAGING_SITE_ORIGIN: ${{ vars.STAGING_SITE_ORIGIN }}
+      OPERATION: ${{ inputs.operation }}
+      EXPECTED_CURRENT: ${{ inputs.expected_production_run }}
+      PRODUCTION_SITE_ORIGIN: ${{ vars.PRODUCTION_SITE_ORIGIN }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci
+      - name: Download this run's successful prepare output
+        if: inputs.operation == 'prepare'
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: release-production
+          path: candidate
+          digest-mismatch: error
+      - name: Download only the exact retained rollback artifact authorized above
+        if: inputs.operation == 'rollback'
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          artifact-ids: ${{ needs.authorize.outputs.artifact_id }}
+          merge-multiple: true
+          path: candidate
+          digest-mismatch: error
+          github-token: ${{ github.token }}
+          run-id: ${{ inputs.source_run }}
+      - name: Download this run's successful staging acceptance
+        if: inputs.operation == 'prepare'
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: staging-acceptance
+          path: candidate/.deployment
+          digest-mismatch: error
+      - name: Verify original bytes and digest-bound acceptance; never rebuild
+        run: |
+          if [ "$OPERATION" = prepare ]; then
+            npx --no-install tsx scripts/release-artifact.ts validate candidate production "$GITHUB_SHA"
+          else
+            npx --no-install tsx scripts/release-artifact.ts validate candidate production
+            npx --no-install tsx scripts/verify-deployed-site.ts receipt candidate production .deployment/production-acceptance.json
+            rm candidate/.deployment/production-acceptance.json
+          fi
+          npx --no-install tsx scripts/verify-deployed-site.ts receipt candidate staging .deployment/staging-acceptance.json
+          mv candidate/out out
+          mv candidate/.deployment .deployment
+          npx --no-install tsx scripts/release-artifact.ts validate . production
+          npx --no-install tsx -e 'import { validateSiteOrigin } from "./scripts/verify-deployed-site"; validateSiteOrigin(process.env.PRODUCTION_SITE_ORIGIN ?? "", "staging");'
+      - name: Refuse a stale approved operation after another accepted deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: npx --no-install tsx scripts/workflow-release.ts check-current "$EXPECTED_CURRENT"
+      - name: Upload retained original production bytes
+        id: production-upload
+        uses: Azure/static-web-apps-deploy@4d27395796ac319302594769cfe812bd207490b1 # maintained v1 release branch
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: out
+          output_location: ""
+          skip_app_build: true
+          skip_api_build: true
+          production_branch: main
+      - name: Verify the approved direct Azure production origin before canonical acceptance
+        env:
+          AZURE_UPLOAD_ORIGIN: ${{ steps.production-upload.outputs.static_web_app_url }}
+        run: npx --no-install tsx scripts/verify-deployed-site.ts verify-origin .
+      - name: Verify canonical HTTPS, all files, legacy navigation, and production policy
+        run: npx --no-install tsx scripts/verify-deployed-site.ts verify . production .deployment/production-acceptance.json
+      - name: Retain accepted original artifact and both receipts for rollback
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: accepted-production
+          path: |
+            out/
+            .deployment/release-artifact.json
+            .deployment/redirect-manifest.json
+            .deployment/staging-acceptance.json
+            .deployment/production-acceptance.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 90

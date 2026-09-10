@@ -246,7 +246,7 @@ export function serializeStaticWebAppConfig(config: StaticWebAppConfig) {
   if (bytes > maxStaticWebAppConfigBytes) {
     throw new Error(
       `Static Web Apps config is ${bytes} bytes; the maximum is ` +
-      `${maxStaticWebAppConfigBytes} bytes. Move exact redirects to the provider manifest.`
+      `${maxStaticWebAppConfigBytes} bytes. Historical navigation belongs in generated HTML pages.`
     );
   }
   return serialized;

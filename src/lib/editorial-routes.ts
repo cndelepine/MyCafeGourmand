@@ -78,14 +78,8 @@ export function getEditorialLanguageAlternates(
   }));
 }
 
-export function findEditorialContactPage(
-  locale: Locale,
-  records: readonly EditorialPageRecord[]
-) {
-  return records.find((record) =>
-    record.locale === locale
-    && record.content?.some((block) => block.type === "contactForm")
-  );
+export function isEditorialContactPage(record: EditorialPageRecord) {
+  return record.content?.some((block) => block.type === "contactForm") === true;
 }
 
 export function findEditorialLandingPage(
