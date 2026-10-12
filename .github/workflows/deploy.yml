@@ -70,7 +70,7 @@ jobs:
         run: npm run build:release
       - run: npx --no-install tsx scripts/release-artifact.ts validate . production "$GITHUB_SHA"
       - name: Retain original production output and separate metadata
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: release-production
           path: |
@@ -133,7 +133,7 @@ jobs:
           node -e 'const a=process.env.ACTUAL_ORIGIN,e=process.env.STAGING_SITE_ORIGIN;if(a!==e&&a!==e+"/")throw Error("Unexpected Azure preview hostname");'
       - name: Verify every file, historical source, and staging policy
         run: npx --no-install tsx scripts/verify-deployed-site.ts verify . staging .deployment/staging-acceptance.json
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: staging-acceptance
           path: .deployment/staging-acceptance.json
@@ -225,7 +225,7 @@ jobs:
       - name: Verify canonical HTTPS, all files, legacy navigation, and production policy
         run: npx --no-install tsx scripts/verify-deployed-site.ts verify . production .deployment/production-acceptance.json
       - name: Retain accepted original artifact and both receipts for rollback
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: accepted-production
           path: |
